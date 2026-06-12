@@ -1,0 +1,2809 @@
+{
+  "version": "0.5",
+  "source": "Veizla.gg",
+  "armies": [
+    {
+      "army": "Adepta Sororitas",
+      "category": "imperium",
+      "factionPackUrl": "https://assets.warhammer-community.com/eng_11-06_warhammer40000_faction_pack_adepta_sororitas-ktlklgb0t5-knvswx9kyw.pdf",
+      "detachments": [
+        {
+          "name": "Chorus of Condemnation",
+          "dp": 1,
+          "note": "",
+          "forceDisposition": "RECONNAISSANCE"
+        },
+        {
+          "name": "Sanctified Orators",
+          "dp": 1,
+          "note": "",
+          "forceDisposition": "PURGE THE FOE"
+        },
+        {
+          "name": "Army of Faith",
+          "dp": 2,
+          "note": "",
+          "forceDisposition": "TAKE AND HOLD"
+        },
+        {
+          "name": "Champions of Faith",
+          "dp": 2,
+          "note": "",
+          "forceDisposition": "DISRUPTION"
+        },
+        {
+          "name": "Penitent Host",
+          "dp": 2,
+          "note": "",
+          "forceDisposition": "TAKE AND HOLD"
+        },
+        {
+          "name": "Bringers of Flame",
+          "dp": 3,
+          "note": "",
+          "forceDisposition": "PURGE THE FOE"
+        },
+        {
+          "name": "Hallowed Martyrs",
+          "dp": 3,
+          "note": "",
+          "forceDisposition": "PRIORITY ASSETS"
+        }
+      ]
+    },
+    {
+      "army": "Adeptus Custodes",
+      "category": "imperium",
+      "factionPackUrl": "https://assets.warhammer-community.com/eng_11-06_warhammer40000_faction_pack_adeptus_custodes-dntocqoxie-fpdm060c9y.pdf",
+      "detachments": [
+        {
+          "name": "Might of the Moritoi",
+          "dp": 1,
+          "note": "",
+          "forceDisposition": "PURGE THE FOE"
+        },
+        {
+          "name": "Tharanatoi Hammerblow",
+          "dp": 1,
+          "note": "",
+          "forceDisposition": "PRIORITY ASSETS"
+        },
+        {
+          "name": "Auric Champions",
+          "dp": 2,
+          "note": "",
+          "forceDisposition": "PRIORITY ASSETS"
+        },
+        {
+          "name": "Lions of the Emperor",
+          "dp": 2,
+          "note": "",
+          "forceDisposition": "DISRUPTION"
+        },
+        {
+          "name": "Null Maiden Vigil",
+          "dp": 2,
+          "note": "",
+          "forceDisposition": "RECONNAISSANCE"
+        },
+        {
+          "name": "Shield Host",
+          "dp": 2,
+          "note": "",
+          "forceDisposition": "PURGE THE FOE"
+        },
+        {
+          "name": "Solar Spearhead",
+          "dp": 2,
+          "note": "",
+          "forceDisposition": "TAKE AND HOLD"
+        },
+        {
+          "name": "Talons of the Emperor",
+          "dp": 3,
+          "note": "",
+          "forceDisposition": "TAKE AND HOLD"
+        }
+      ]
+    },
+    {
+      "army": "Adeptus Mechanicus",
+      "category": "imperium",
+      "factionPackUrl": "https://assets.warhammer-community.com/eng_11-06_warhammer40000_faction_pack_adeptus_mechanicus-4dczibqdew-ebqqmotlpe.pdf",
+      "detachments": [
+        {
+          "name": "Cohort Acquisitus",
+          "dp": 1,
+          "note": "",
+          "forceDisposition": "RECONNAISSANCE"
+        },
+        {
+          "name": "Luminen Auto-Choir",
+          "dp": 1,
+          "note": "",
+          "forceDisposition": "DISRUPTION"
+        },
+        {
+          "name": "Cohort Cybernetica",
+          "dp": 2,
+          "note": "",
+          "forceDisposition": "TAKE AND HOLD"
+        },
+        {
+          "name": "Data-psalm Conclave",
+          "dp": 2,
+          "note": "",
+          "forceDisposition": "DISRUPTION"
+        },
+        {
+          "name": "Explorator Maniple",
+          "dp": 2,
+          "note": "",
+          "forceDisposition": "PRIORITY ASSETS"
+        },
+        {
+          "name": "Rad-zone Corps",
+          "dp": 2,
+          "note": "",
+          "forceDisposition": "TAKE AND HOLD"
+        },
+        {
+          "name": "Skitarii Hunter Cohort",
+          "dp": 2,
+          "note": "",
+          "forceDisposition": "RECONNAISSANCE"
+        },
+        {
+          "name": "Eradication Cohort",
+          "dp": 3,
+          "note": "",
+          "forceDisposition": "PURGE THE FOE"
+        },
+        {
+          "name": "Haloscreed Battle Clade",
+          "dp": 3,
+          "note": "",
+          "forceDisposition": "PURGE THE FOE"
+        }
+      ]
+    },
+    {
+      "army": "Aeldari",
+      "category": "xenos",
+      "factionPackUrl": "https://assets.warhammer-community.com/eng_09-06_warhammer40000_faction_pack_aeldari-glkjirbhiw-9udkry7xbr.pdf",
+      "detachments": [
+        {
+          "name": "Armoured Warhost",
+          "dp": 1,
+          "note": "Aeldari Vehicle",
+          "forceDisposition": "RECONNAISSANCE"
+        },
+        {
+          "name": "Path of the Outcast",
+          "dp": 1,
+          "note": "Rangers / Shroud Runners",
+          "forceDisposition": "RECONNAISSANCE"
+        },
+        {
+          "name": "Twilight Flickers",
+          "dp": 1,
+          "note": "Harlquins Stealth",
+          "forceDisposition": "TAKE AND HOLD"
+        },
+        {
+          "name": "Corsair Coterie",
+          "dp": 2,
+          "note": "Anhrathe, Corsair Enhancement",
+          "forceDisposition": "DISRUPTION"
+        },
+        {
+          "name": "Devoted of Ynnead",
+          "dp": 2,
+          "note": "Ynnari",
+          "forceDisposition": "PRIORITY ASSETS"
+        },
+        {
+          "name": "Eldritch Raiders",
+          "dp": 2,
+          "note": "Anhrathe, Rangers, Shroud Runners",
+          "forceDisposition": "DISRUPTION"
+        },
+        {
+          "name": "Ghosts of the Webway",
+          "dp": 2,
+          "note": "Harlequins Charge",
+          "forceDisposition": "DISRUPTION"
+        },
+        {
+          "name": "Guardian Battlehost",
+          "dp": 2,
+          "note": "Dire Avenger, Guardian, War Walker",
+          "forceDisposition": "TAKE AND HOLD"
+        },
+        {
+          "name": "Seer Council",
+          "dp": 2,
+          "note": "Fate Dice",
+          "forceDisposition": "PRIORITY ASSETS"
+        },
+        {
+          "name": "Serpent's Brood",
+          "dp": 2,
+          "note": "Harlequins",
+          "forceDisposition": "PURGE THE FOE"
+        },
+        {
+          "name": "Spirit Conclave",
+          "dp": 2,
+          "note": "Asuryani Psyker, Wratih Construct",
+          "forceDisposition": "TAKE AND HOLD"
+        },
+        {
+          "name": "Windrider Host",
+          "dp": 2,
+          "note": "Asuryani Mounted / Vyper",
+          "forceDisposition": "DISRUPTION"
+        },
+        {
+          "name": "Aspect Host",
+          "dp": 3,
+          "note": "Aspect Warriors, Avatar of Khaine",
+          "forceDisposition": "TAKE AND HOLD"
+        },
+        {
+          "name": "Warhost",
+          "dp": 3,
+          "note": "3 Abilities",
+          "forceDisposition": "PURGE THE FOE"
+        }
+      ]
+    },
+    {
+      "army": "Astra Militarum",
+      "category": "imperium",
+      "factionPackUrl": "https://assets.warhammer-community.com/eng_11-06_warhammer40000_faction_pack_astra_militarum-etf9ihpodv-mbqdsa1bfv.pdf",
+      "detachments": [
+        {
+          "name": "Abhuman Auxiliaries",
+          "dp": 1,
+          "note": "",
+          "forceDisposition": "TAKE AND HOLD"
+        },
+        {
+          "name": "Designation Force",
+          "dp": 1,
+          "note": "",
+          "forceDisposition": "RECONNAISSANCE"
+        },
+        {
+          "name": "Armoured Infantry",
+          "dp": 2,
+          "note": "",
+          "forceDisposition": "TAKE AND HOLD"
+        },
+        {
+          "name": "Hammer of the Emperor",
+          "dp": 2,
+          "note": "",
+          "forceDisposition": "PURGE THE FOE"
+        },
+        {
+          "name": "Mechanised Assault",
+          "dp": 2,
+          "note": "",
+          "forceDisposition": "PURGE THE FOE"
+        },
+        {
+          "name": "Siege Regiment",
+          "dp": 2,
+          "note": "",
+          "forceDisposition": "DISRUPTION"
+        },
+        {
+          "name": "Steel Hammer",
+          "dp": 2,
+          "note": "",
+          "forceDisposition": "PURGE THE FOE"
+        },
+        {
+          "name": "Combined Arms",
+          "dp": 3,
+          "note": "",
+          "forceDisposition": "TAKE AND HOLD"
+        },
+        {
+          "name": "Grizzled Company",
+          "dp": 3,
+          "note": "",
+          "forceDisposition": "PRIORITY ASSETS"
+        },
+        {
+          "name": "Recon Element",
+          "dp": 3,
+          "note": "",
+          "forceDisposition": "RECONNAISSANCE"
+        }
+      ]
+    },
+    {
+      "army": "Black Templar",
+      "category": "space-marines",
+      "factionPackUrl": "https://assets.warhammer-community.com/eng_08-06_warhammer40000_faction_pack_black_templars-3rhveur6zi-dsptpcxpkh.pdf",
+      "detachments": [
+        {
+          "name": "Marshal's Household",
+          "dp": 1,
+          "note": "Sword Brethren",
+          "forceDisposition": "PRIORITY ASSETS"
+        },
+        {
+          "name": "Wrathful Procession",
+          "dp": 1,
+          "note": "Chaplain",
+          "forceDisposition": "TAKE AND HOLD"
+        },
+        {
+          "name": "Companions of Vehemence",
+          "dp": 2,
+          "note": "Re-roll Adv and Charge",
+          "forceDisposition": "PURGE THE FOE"
+        },
+        {
+          "name": "Godhammer Assault Force",
+          "dp": 2,
+          "note": "Forces BS & 1 to hit from Transport",
+          "forceDisposition": "DISRUPTION"
+        },
+        {
+          "name": "Vindication Task Force",
+          "dp": 2,
+          "note": "Crusader Squad + Ancient",
+          "forceDisposition": "PRIORITY ASSETS"
+        }
+      ]
+    },
+    {
+      "army": "Blood Angels",
+      "category": "space-marines",
+      "factionPackUrl": "https://assets.warhammer-community.com/eng_08-06_warhammer40000_faction_pack_blood_angels-iinnedwcaa-bsyp1349et.pdf",
+      "detachments": [
+        {
+          "name": "Encarmine Speartip",
+          "dp": 1,
+          "note": "Sanguinary Guard",
+          "forceDisposition": "DISRUPTION"
+        },
+        {
+          "name": "Wrath of the Doomed",
+          "dp": 1,
+          "note": "Death Company",
+          "forceDisposition": "PURGE THE FOE"
+        },
+        {
+          "name": "The Angelic Host",
+          "dp": 2,
+          "note": "Jump Pack",
+          "forceDisposition": "PRIORITY ASSETS"
+        },
+        {
+          "name": "The Lost Brethren",
+          "dp": 2,
+          "note": "Death Company",
+          "forceDisposition": "PURGE THE FOE"
+        },
+        {
+          "name": "Angelic Inheritors",
+          "dp": 3,
+          "note": "Angelic Ability",
+          "forceDisposition": "PRIORITY ASSETS"
+        },
+        {
+          "name": "Liberator Assault Group",
+          "dp": 3,
+          "note": "Charge +1A & +2S",
+          "forceDisposition": "TAKE AND HOLD"
+        },
+        {
+          "name": "Rage-cursed Onslaught",
+          "dp": 3,
+          "note": "Charge +1A if BS +2A",
+          "forceDisposition": "PURGE THE FOE"
+        }
+      ]
+    },
+    {
+      "army": "Chaos Daemons",
+      "category": "chaos",
+      "factionPackUrl": "https://assets.warhammer-community.com/eng_10-06_warhammer40000_faction_pack_chaos_daemons-kisvudjypt-uzk9pla0dk.pdf",
+      "detachments": [
+        {
+          "name": "Cavalcade of Chaos",
+          "dp": 1,
+          "note": "",
+          "forceDisposition": "DISRUPTION"
+        },
+        {
+          "name": "Warptide",
+          "dp": 1,
+          "note": "",
+          "forceDisposition": "RECONNAISSANCE"
+        },
+        {
+          "name": "Blood Legion",
+          "dp": 2,
+          "note": "",
+          "forceDisposition": "PURGE THE FOE"
+        },
+        {
+          "name": "Legion of Excess",
+          "dp": 2,
+          "note": "",
+          "forceDisposition": "PRIORITY ASSETS"
+        },
+        {
+          "name": "Plague Legion",
+          "dp": 2,
+          "note": "",
+          "forceDisposition": "TAKE AND HOLD"
+        },
+        {
+          "name": "Scintillating Legion",
+          "dp": 2,
+          "note": "",
+          "forceDisposition": "PRIORITY ASSETS"
+        },
+        {
+          "name": "Shadow Legion",
+          "dp": 2,
+          "note": "",
+          "forceDisposition": "PURGE THE FOE"
+        },
+        {
+          "name": "Daemonic Incursion",
+          "dp": 3,
+          "note": "",
+          "forceDisposition": "DISRUPTION"
+        }
+      ]
+    },
+    {
+      "army": "Chaos Knights",
+      "category": "chaos",
+      "factionPackUrl": "https://assets.warhammer-community.com/eng_10-06_warhammer40000_faction_pack_chaos_knights-nd97dcwfqa-6prdhhde6p.pdf",
+      "detachments": [
+        {
+          "name": "Bastions of Tyranny",
+          "dp": 1,
+          "note": "",
+          "forceDisposition": "DISRUPTION"
+        },
+        {
+          "name": "Iconoclast Fiefdom",
+          "dp": 1,
+          "note": "",
+          "forceDisposition": "TAKE AND HOLD"
+        },
+        {
+          "name": "Helhunt Lance",
+          "dp": 2,
+          "note": "",
+          "forceDisposition": "DISRUPTION"
+        },
+        {
+          "name": "Houndpack Lance",
+          "dp": 2,
+          "note": "",
+          "forceDisposition": "RECONNAISSANCE"
+        },
+        {
+          "name": "Lords of Dread",
+          "dp": 2,
+          "note": "",
+          "forceDisposition": "PRIORITY ASSETS"
+        },
+        {
+          "name": "Traitoris Lance",
+          "dp": 2,
+          "note": "",
+          "forceDisposition": "PURGE THE FOE"
+        },
+        {
+          "name": "Infernal Lance",
+          "dp": 3,
+          "note": "",
+          "forceDisposition": "PURGE THE FOE"
+        }
+      ]
+    },
+    {
+      "army": "Chaos Space Marines",
+      "category": "chaos",
+      "factionPackUrl": "https://assets.warhammer-community.com/eng_10-06_warhammer40000_faction_pack_chaos_space_marines-h16lkqvvnq-bcejav0qap.pdf",
+      "detachments": [
+        {
+          "name": "Cabal of Chaos",
+          "dp": 1,
+          "note": "",
+          "forceDisposition": "DISRUPTION"
+        },
+        {
+          "name": "Murdertalon Raiders",
+          "dp": 1,
+          "note": "",
+          "forceDisposition": "PURGE THE FOE"
+        },
+        {
+          "name": "Chaos Cult",
+          "dp": 2,
+          "note": "",
+          "forceDisposition": "PRIORITY ASSETS"
+        },
+        {
+          "name": "Cult of the Arkifane",
+          "dp": 2,
+          "note": "",
+          "forceDisposition": "PRIORITY ASSETS"
+        },
+        {
+          "name": "Deceptors",
+          "dp": 2,
+          "note": "",
+          "forceDisposition": "DISRUPTION"
+        },
+        {
+          "name": "Dread Talons",
+          "dp": 2,
+          "note": "",
+          "forceDisposition": "DISRUPTION"
+        },
+        {
+          "name": "Fellhammer Siege-host",
+          "dp": 2,
+          "note": "",
+          "forceDisposition": "TAKE AND HOLD"
+        },
+        {
+          "name": "Nightmare Hunt",
+          "dp": 2,
+          "note": "",
+          "forceDisposition": "DISRUPTION"
+        },
+        {
+          "name": "Renegade Warband",
+          "dp": 2,
+          "note": "",
+          "forceDisposition": "PRIORITY ASSETS"
+        },
+        {
+          "name": "Soulforged Warpack",
+          "dp": 2,
+          "note": "",
+          "forceDisposition": "PURGE THE FOE"
+        },
+        {
+          "name": "Veterans of the Long War",
+          "dp": 2,
+          "note": "",
+          "forceDisposition": "TAKE AND HOLD"
+        },
+        {
+          "name": "Warpstrike Champions",
+          "dp": 2,
+          "note": "",
+          "forceDisposition": "DISRUPTION"
+        },
+        {
+          "name": "Creations of Bile",
+          "dp": 3,
+          "note": "",
+          "forceDisposition": "PURGE THE FOE"
+        },
+        {
+          "name": "Huron's Marauders",
+          "dp": 3,
+          "note": "",
+          "forceDisposition": "DISRUPTION"
+        },
+        {
+          "name": "Pactbound Zealots",
+          "dp": 3,
+          "note": "",
+          "forceDisposition": "PRIORITY ASSETS"
+        },
+        {
+          "name": "Renegade Raiders",
+          "dp": 3,
+          "note": "",
+          "forceDisposition": "RECONNAISSANCE"
+        }
+      ]
+    },
+    {
+      "army": "Dark Angels",
+      "category": "space-marines",
+      "factionPackUrl": "https://assets.warhammer-community.com/eng_08-06_warhammer40000_faction_pack_dark_angels-fw4ot2jwtw-hplla1qiky.pdf",
+      "detachments": [
+        {
+          "name": "Dark Age Arsenal",
+          "dp": 1,
+          "note": "Plasma Weapon",
+          "forceDisposition": "PRIORITY ASSETS"
+        },
+        {
+          "name": "Interrogation Conclave",
+          "dp": 1,
+          "note": "Chaplain",
+          "forceDisposition": "PURGE THE FOE"
+        },
+        {
+          "name": "Company of Hunters",
+          "dp": 2,
+          "note": "Adv/fallback shoot / Adv Shoot/Charge",
+          "forceDisposition": "DISRUPTION"
+        },
+        {
+          "name": "Inner Circle Task Force",
+          "dp": 2,
+          "note": "Deathwing ",
+          "forceDisposition": "PRIORITY ASSETS"
+        },
+        {
+          "name": "Lion's Blade Task Force",
+          "dp": 2,
+          "note": "Ravenwing+Deathwing",
+          "forceDisposition": "PURGE THE FOE"
+        },
+        {
+          "name": "Unforgiven Task Force",
+          "dp": 2,
+          "note": "OC +1 even if BS",
+          "forceDisposition": "TAKE AND HOLD"
+        },
+        {
+          "name": "Wrath of the Rock",
+          "dp": 3,
+          "note": "-1 Wound Roll",
+          "forceDisposition": "PRIORITY ASSETS"
+        }
+      ]
+    },
+    {
+      "army": "Death Guard",
+      "category": "chaos",
+      "factionPackUrl": "https://assets.warhammer-community.com/eng_10-06_warhammer40000_faction_pack_death_guard-dgm6djcpoa-iiqvmsh0op.pdf",
+      "detachments": [
+        {
+          "name": "Paragons of Putrescence",
+          "dp": 1,
+          "note": "",
+          "forceDisposition": "PRIORITY ASSETS"
+        },
+        {
+          "name": "Flyblown Host",
+          "dp": 1,
+          "note": "",
+          "forceDisposition": "RECONNAISSANCE"
+        },
+        {
+          "name": "Champions of Contagion",
+          "dp": 2,
+          "note": "",
+          "forceDisposition": "TAKE AND HOLD"
+        },
+        {
+          "name": "Death Lord's Chosen",
+          "dp": 2,
+          "note": "",
+          "forceDisposition": "PRIORITY ASSETS"
+        },
+        {
+          "name": "Mortarion's Hammer",
+          "dp": 2,
+          "note": "",
+          "forceDisposition": "PURGE THE FOE"
+        },
+        {
+          "name": "Shamblerot Vectorium",
+          "dp": 2,
+          "note": "",
+          "forceDisposition": "DISRUPTION"
+        },
+        {
+          "name": "Tallyband Summoners",
+          "dp": 2,
+          "note": "",
+          "forceDisposition": "DISRUPTION"
+        },
+        {
+          "name": "Virulent Vectorium",
+          "dp": 3,
+          "note": "",
+          "forceDisposition": "TAKE AND HOLD"
+        }
+      ]
+    },
+    {
+      "army": "Deathwatch",
+      "category": "space-marines",
+      "factionPackUrl": "https://assets.warhammer-community.com/eng_08-06_warhammer40000_faction_pack_deathwatch-z0ebavrfze-muhcibnets.pdf",
+      "detachments": [
+        {
+          "name": "Black Spear Task Force",
+          "dp": 3,
+          "note": "Mission Tactic ",
+          "forceDisposition": "PRIORITY ASSETS"
+        }
+      ]
+    },
+    {
+      "army": "Drukhari",
+      "category": "xenos",
+      "factionPackUrl": "https://assets.warhammer-community.com/eng_09-06_warhammer40000_faction_pack_drukhari-wp9pdv8x9l-dhoh0i94sx.pdf",
+      "detachments": [
+        {
+          "name": "Exhibition of Slaughter",
+          "dp": 1,
+          "note": "Wych Cult",
+          "forceDisposition": "DISRUPTION"
+        },
+        {
+          "name": "Tools of Torment",
+          "dp": 1,
+          "note": "Cronos / Talons",
+          "forceDisposition": "TAKE AND HOLD"
+        },
+        {
+          "name": "Covenite Coterie",
+          "dp": 2,
+          "note": "Haemonculus Covens",
+          "forceDisposition": "PURGE THE FOE"
+        },
+        {
+          "name": "Kabalite Cartel",
+          "dp": 2,
+          "note": "Kabal & Blades for Hire",
+          "forceDisposition": "DISRUPTION"
+        },
+        {
+          "name": "Realspace Raiders",
+          "dp": 2,
+          "note": "Pain Tokens",
+          "forceDisposition": "PRIORITY ASSETS"
+        },
+        {
+          "name": "Skysplinter Assault",
+          "dp": 2,
+          "note": "Transport Disembark",
+          "forceDisposition": "RECONNAISSANCE"
+        },
+        {
+          "name": "Spectacle of Spite",
+          "dp": 2,
+          "note": "Combat Drugs",
+          "forceDisposition": "PURGE THE FOE"
+        },
+        {
+          "name": "Reaper's Wager",
+          "dp": 3,
+          "note": "Wager, Harlequins",
+          "forceDisposition": "PURGE THE FOE"
+        }
+      ]
+    },
+    {
+      "army": "Emperor’s Children",
+      "category": "chaos",
+      "factionPackUrl": "https://assets.warhammer-community.com/eng_10-06_warhammer40000_faction_pack_emperor_s_children-fffbpc3gn0-mesp5k6khu.pdf",
+      "detachments": [
+        {
+          "name": "Elegant Brutes",
+          "dp": 1,
+          "note": "",
+          "forceDisposition": "TAKE AND HOLD"
+        },
+        {
+          "name": "Spectacle of Slaughter",
+          "dp": 1,
+          "note": "",
+          "forceDisposition": "PURGE THE FOE"
+        },
+        {
+          "name": "Carnival of Excess",
+          "dp": 2,
+          "note": "",
+          "forceDisposition": "PRIORITY ASSETS"
+        },
+        {
+          "name": "Court of the Phoenician",
+          "dp": 2,
+          "note": "",
+          "forceDisposition": "PURGE THE FOE"
+        },
+        {
+          "name": "Mercurial Host",
+          "dp": 2,
+          "note": "",
+          "forceDisposition": "RECONNAISSANCE"
+        },
+        {
+          "name": "Peerless Bladesmen",
+          "dp": 2,
+          "note": "",
+          "forceDisposition": "PRIORITY ASSETS"
+        },
+        {
+          "name": "Rapid Evisceration",
+          "dp": 2,
+          "note": "",
+          "forceDisposition": "DISRUPTION"
+        },
+        {
+          "name": "Slaanesh's Chosen",
+          "dp": 2,
+          "note": "",
+          "forceDisposition": "PURGE THE FOE"
+        },
+        {
+          "name": "Coterie of the Conceited",
+          "dp": 3,
+          "note": "",
+          "forceDisposition": "PURGE THE FOE"
+        }
+      ]
+    },
+    {
+      "army": "Genestealer Cults",
+      "category": "xenos",
+      "factionPackUrl": "https://assets.warhammer-community.com/eng_09-06_warhammer40000_faction_pack_genestealer_cults-ee2tg004ty-lfbh6g1gr7.pdf",
+      "detachments": [
+        {
+          "name": "Heroes of the Uprising",
+          "dp": 1,
+          "note": "Killer reroll 1s Hits/Wounds ",
+          "forceDisposition": "PURGE THE FOE"
+        },
+        {
+          "name": "Xenocult Masses",
+          "dp": 1,
+          "note": "Neophyte Hybrids heal",
+          "forceDisposition": "DISRUPTION"
+        },
+        {
+          "name": "Biosanctic Broodsurge",
+          "dp": 2,
+          "note": "1+ Charge, 1+A",
+          "forceDisposition": "TAKE AND HOLD"
+        },
+        {
+          "name": "Brood Brothers Auxillia",
+          "dp": 2,
+          "note": "Astra Militarum",
+          "forceDisposition": "TAKE AND HOLD"
+        },
+        {
+          "name": "Final Day",
+          "dp": 2,
+          "note": "Tyranids Synapse",
+          "forceDisposition": "PURGE THE FOE"
+        },
+        {
+          "name": "Outlander Claw",
+          "dp": 2,
+          "note": "Genestealer Cults Mounted/Vehicle",
+          "forceDisposition": "RECONNAISSANCE"
+        },
+        {
+          "name": "Xenocreed Congregation",
+          "dp": 2,
+          "note": "Reroll Adv Chage and +FNP3",
+          "forceDisposition": "PRIORITY ASSETS"
+        },
+        {
+          "name": "Host of Ascension",
+          "dp": 3,
+          "note": "Sustain and Ignore Cover",
+          "forceDisposition": "TAKE AND HOLD"
+        }
+      ]
+    },
+    {
+      "army": "Grey Knights",
+      "category": "imperium",
+      "factionPackUrl": "https://assets.warhammer-community.com/eng_08-06_warhammer40000_faction_pack_grey_knights-geqfqwt3wh-g2fikyrqup.pdf",
+      "detachments": [
+        {
+          "name": "Argent Assault",
+          "dp": 1,
+          "note": "Paladin Squad",
+          "forceDisposition": "PURGE THE FOE"
+        },
+        {
+          "name": "Immaterial Interdiction",
+          "dp": 1,
+          "note": "Interceptor Squad",
+          "forceDisposition": "PRIORITY ASSETS"
+        },
+        {
+          "name": "Augurium Task Force",
+          "dp": 2,
+          "note": "Up and Downie",
+          "forceDisposition": "RECONNAISSANCE"
+        },
+        {
+          "name": "Banishers",
+          "dp": 2,
+          "note": "BS passed choose Sustained/Lethal",
+          "forceDisposition": "DISRUPTION"
+        },
+        {
+          "name": "Brotherhood Strike",
+          "dp": 2,
+          "note": "DS Re-roll hit / reroll 1s Wound",
+          "forceDisposition": "PURGE THE FOE"
+        },
+        {
+          "name": "Hallowed Conclave",
+          "dp": 2,
+          "note": "Terminator",
+          "forceDisposition": "TAKE AND HOLD"
+        },
+        {
+          "name": "Sanctic Spearhead",
+          "dp": 2,
+          "note": "Vehicle",
+          "forceDisposition": "PRIORITY ASSETS"
+        },
+        {
+          "name": "Warpbane Task Force",
+          "dp": 3,
+          "note": "Purifier Squad",
+          "forceDisposition": "PURGE THE FOE"
+        }
+      ]
+    },
+    {
+      "army": "Imperial Agents",
+      "category": "imperium",
+      "factionPackUrl": "https://assets.warhammer-community.com/eng_11-06_warhammer40000_faction_pack_imperial_agents-qhp2xzepry-gapdknla3x.pdf",
+      "detachments": [
+        {
+          "name": "Imperialis Fleet",
+          "dp": 3,
+          "note": "",
+          "forceDisposition": "DISRUPTION"
+        },
+        {
+          "name": "Ordo Malleus, Daemon Hunters",
+          "dp": 3,
+          "note": "",
+          "forceDisposition": "RECONNAISSANCE"
+        },
+        {
+          "name": "Ordo Xenos, Alien Hunters",
+          "dp": 3,
+          "note": "",
+          "forceDisposition": "PURGE THE FOE"
+        },
+        {
+          "name": "Veiled Blade Elimination Force",
+          "dp": 3,
+          "note": "",
+          "forceDisposition": "PURGE THE FOE"
+        }
+      ]
+    },
+    {
+      "army": "Imperial Knights",
+      "category": "imperium",
+      "factionPackUrl": "https://assets.warhammer-community.com/eng_11-06_warhammer40000_faction_pack_imperial_knights-uoieohputz-totyd7mvs6.pdf",
+      "detachments": [
+        {
+          "name": "Dominus Foebreakers",
+          "dp": 1,
+          "note": "",
+          "forceDisposition": "PURGE THE FOE"
+        },
+        {
+          "name": "Throne-bonded Outriders",
+          "dp": 1,
+          "note": "",
+          "forceDisposition": "RECONNAISSANCE"
+        },
+        {
+          "name": "Gate Warden Lance",
+          "dp": 2,
+          "note": "",
+          "forceDisposition": "PRIORITY ASSETS"
+        },
+        {
+          "name": "Spearhead-at-arms",
+          "dp": 2,
+          "note": "",
+          "forceDisposition": "RECONNAISSANCE"
+        },
+        {
+          "name": "Valourstrike Lance",
+          "dp": 2,
+          "note": "",
+          "forceDisposition": "PURGE THE FOE"
+        },
+        {
+          "name": "Freeblade Company",
+          "dp": 3,
+          "note": "",
+          "forceDisposition": "PURGE THE FOE"
+        },
+        {
+          "name": "Questoris Companions",
+          "dp": 3,
+          "note": "",
+          "forceDisposition": "TAKE AND HOLD"
+        }
+      ]
+    },
+    {
+      "army": "League of Votann",
+      "category": "xenos",
+      "factionPackUrl": "https://assets.warhammer-community.com/eng_09-06_warhammer40000_faction_pack_leagues_of_votann-awex3qmdiz-clwoaoyyos.pdf",
+      "detachments": [
+        {
+          "name": "Armoured Trailblazers",
+          "dp": 1,
+          "note": "Sagitaur",
+          "forceDisposition": "DISRUPTION"
+        },
+        {
+          "name": "Hearthguard Covenant",
+          "dp": 1,
+          "note": "Kahl, Enhyr Hearthguard, Uthar",
+          "forceDisposition": "PRIORITY ASSETS"
+        },
+        {
+          "name": "Brandfast Oathband",
+          "dp": 2,
+          "note": "Transports, Sustained hits",
+          "forceDisposition": "TAKE AND HOLD"
+        },
+        {
+          "name": "Dêlve Assault Shift",
+          "dp": 2,
+          "note": "Cthonian Beserks",
+          "forceDisposition": "PURGE THE FOE"
+        },
+        {
+          "name": "Hearthfyre Arsenal",
+          "dp": 2,
+          "note": "Iron-mAster / Memnyr Strategist",
+          "forceDisposition": "PRIORITY ASSETS"
+        },
+        {
+          "name": "Mercenary Oathband",
+          "dp": 2,
+          "note": "Hostile Acquisition or Fortify Takeover",
+          "forceDisposition": "TAKE AND HOLD"
+        },
+        {
+          "name": "Needgaârd Oathband",
+          "dp": 2,
+          "note": "Unit is destroyed, 1YP",
+          "forceDisposition": "PURGE THE FOE"
+        },
+        {
+          "name": "Persecution Prospect",
+          "dp": 2,
+          "note": "Guerrilla Adepts",
+          "forceDisposition": "DISRUPTION"
+        },
+        {
+          "name": "Hearthband",
+          "dp": 3,
+          "note": "Kahl, Enhyr Hearthguard, Uthar",
+          "forceDisposition": "PRIORITY ASSETS"
+        }
+      ]
+    },
+    {
+      "army": "Necrons",
+      "category": "xenos",
+      "factionPackUrl": "https://assets.warhammer-community.com/eng_09-06_warhammer40000_faction_pack_necrons-qodfthk7tt-bzeqy07okc.pdf",
+      "detachments": [
+        {
+          "name": "Hand of the Dynasty",
+          "dp": 1,
+          "note": "Immortals / Warriors",
+          "forceDisposition": "TAKE AND HOLD"
+        },
+        {
+          "name": "The Phaeron's Armoury",
+          "dp": 1,
+          "note": "Titanic Fly",
+          "forceDisposition": "PRIORITY ASSETS"
+        },
+        {
+          "name": "Annihilation Legion",
+          "dp": 2,
+          "note": "Destroyer Cult or Flayed Ones",
+          "forceDisposition": "PURGE THE FOE"
+        },
+        {
+          "name": "Cryptek Conclave",
+          "dp": 2,
+          "note": "Cryptek",
+          "forceDisposition": "PRIORITY ASSETS"
+        },
+        {
+          "name": "Cursed Legion",
+          "dp": 2,
+          "note": "Destroyer Cult",
+          "forceDisposition": "PURGE THE FOE"
+        },
+        {
+          "name": "Hypercrypt Legion",
+          "dp": 2,
+          "note": "Up and Downie",
+          "forceDisposition": "RECONNAISSANCE"
+        },
+        {
+          "name": "Obeisance Phalanx",
+          "dp": 2,
+          "note": "Noble, Lychguard, Triarch",
+          "forceDisposition": "DISRUPTION"
+        },
+        {
+          "name": "Pantheon of Woe",
+          "dp": 2,
+          "note": "C'than",
+          "forceDisposition": "PURGE THE FOE"
+        },
+        {
+          "name": "Awakened Dynasty",
+          "dp": 3,
+          "note": "Necrons Character +1 to Hit",
+          "forceDisposition": "TAKE AND HOLD"
+        },
+        {
+          "name": "Canoptek Court",
+          "dp": 3,
+          "note": "Cryptek/Canoptek, Power Matrix",
+          "forceDisposition": "TAKE AND HOLD"
+        },
+        {
+          "name": "Starshatter Arsenal",
+          "dp": 3,
+          "note": "Vehicle/Mounted Assault +1 Hit",
+          "forceDisposition": "PRIORITY ASSETS"
+        }
+      ]
+    },
+    {
+      "army": "Orks",
+      "category": "xenos",
+      "factionPackUrl": "https://assets.warhammer-community.com/eng_09-06_warhammer40000_faction_pack_orks-agh9kwrtno-0xarrl5fjj.pdf",
+      "detachments": [
+        {
+          "name": "More Dakka!",
+          "dp": 1,
+          "note": "Assault + Sustained 1",
+          "forceDisposition": "PURGE THE FOE"
+        },
+        {
+          "name": "Taktikal Brigade",
+          "dp": 1,
+          "note": "Stormboyz",
+          "forceDisposition": "DISRUPTION"
+        },
+        {
+          "name": "Blitz Brigade",
+          "dp": 2,
+          "note": "Re-roll adv and charge",
+          "forceDisposition": "RECONNAISSANCE"
+        },
+        {
+          "name": "Bully Boyz",
+          "dp": 2,
+          "note": "Warboss, Nobz, Meganobz",
+          "forceDisposition": "PURGE THE FOE"
+        },
+        {
+          "name": "Da Big Hunt",
+          "dp": 2,
+          "note": "Beast Snagga",
+          "forceDisposition": "PURGE THE FOE"
+        },
+        {
+          "name": "Dread Mob",
+          "dp": 2,
+          "note": "Mek, Orks Walker, Grots Cehicle",
+          "forceDisposition": "PURGE THE FOE"
+        },
+        {
+          "name": "Freebooter Krew",
+          "dp": 2,
+          "note": "Sustained Hits",
+          "forceDisposition": "TAKE AND HOLD"
+        },
+        {
+          "name": "Green Tide",
+          "dp": 2,
+          "note": "Boys",
+          "forceDisposition": "TAKE AND HOLD"
+        },
+        {
+          "name": "Kult of Speed",
+          "dp": 2,
+          "note": "Speed Freeks adv shoot and charge",
+          "forceDisposition": "DISRUPTION"
+        },
+        {
+          "name": "Speedwaaagh!",
+          "dp": 2,
+          "note": "Speed Freeks or Trukk",
+          "forceDisposition": "RECONNAISSANCE"
+        },
+        {
+          "name": "War Horde",
+          "dp": 3,
+          "note": "Sustained Hits",
+          "forceDisposition": "TAKE AND HOLD"
+        }
+      ]
+    },
+    {
+      "army": "Space Marines",
+      "category": "space-marines",
+      "factionPackUrl": "https://assets.warhammer-community.com/eng_08-06_warhammer40000_faction_pack_space-marines-nd2ezs5yzn-wxe2nf2ckk.pdf",
+      "detachments": [
+        {
+          "name": "Fulguris Task Force",
+          "dp": 1,
+          "note": "Speeder",
+          "forceDisposition": "DISRUPTION"
+        },
+        {
+          "name": "Subversion Assets",
+          "dp": 1,
+          "note": "Phobos/Scout",
+          "forceDisposition": "RECONNAISSANCE"
+        },
+        {
+          "name": "1st Company Task Force",
+          "dp": 2,
+          "note": "Oath of Moment re-roll wounds",
+          "forceDisposition": "PRIORITY ASSETS"
+        },
+        {
+          "name": "Anvil Siege Force",
+          "dp": 2,
+          "note": "Heavy",
+          "forceDisposition": "TAKE AND HOLD"
+        },
+        {
+          "name": "Bastion Task Force",
+          "dp": 2,
+          "note": "Battleline",
+          "forceDisposition": "TAKE AND HOLD"
+        },
+        {
+          "name": "Emperor's Shield",
+          "dp": 2,
+          "note": "Darnath Lysander Imperial Fists",
+          "forceDisposition": "PRIORITY ASSETS"
+        },
+        {
+          "name": "Firestorm Assault Force",
+          "dp": 2,
+          "note": "Assault",
+          "forceDisposition": "PURGE THE FOE"
+        },
+        {
+          "name": "Forgefather's Seekers",
+          "dp": 2,
+          "note": "Vulkan He’stan Salamanders",
+          "forceDisposition": "PURGE THE FOE"
+        },
+        {
+          "name": "Hammer of Avernii",
+          "dp": 2,
+          "note": "Caanok Var Iron Hands",
+          "forceDisposition": "PRIORITY ASSETS"
+        },
+        {
+          "name": "Headhunter Task Force",
+          "dp": 2,
+          "note": "Tank Ace ",
+          "forceDisposition": "PRIORITY ASSETS"
+        },
+        {
+          "name": "Ironstorm Spearhead",
+          "dp": 2,
+          "note": "Re-roll hit, wound, damage",
+          "forceDisposition": "PURGE THE FOE"
+        },
+        {
+          "name": "Orbital Assault Force",
+          "dp": 2,
+          "note": "Drop Pod",
+          "forceDisposition": "TAKE AND HOLD"
+        },
+        {
+          "name": "Reclamation Force",
+          "dp": 2,
+          "note": "Titus Ultramarines",
+          "forceDisposition": "TAKE AND HOLD"
+        },
+        {
+          "name": "Shadowmark Talon",
+          "dp": 2,
+          "note": "Aethon Shaan - Raven Guard",
+          "forceDisposition": "DISRUPTION"
+        },
+        {
+          "name": "Spearpoint Task Force",
+          "dp": 2,
+          "note": "Suboden Khan",
+          "forceDisposition": "DISRUPTION"
+        },
+        {
+          "name": "Vanguard Spearhead",
+          "dp": 2,
+          "note": "1- to hit and Cover",
+          "forceDisposition": "RECONNAISSANCE"
+        },
+        {
+          "name": "Armoured Speartip",
+          "dp": 3,
+          "note": "Transport Disembark",
+          "forceDisposition": "TAKE AND HOLD"
+        },
+        {
+          "name": "Blade of Ultramar",
+          "dp": 3,
+          "note": "3x Doctrines",
+          "forceDisposition": "PRIORITY ASSETS"
+        },
+        {
+          "name": "Ceramite Sentinels",
+          "dp": 3,
+          "note": "Re-roll 1s hit, wound",
+          "forceDisposition": "TAKE AND HOLD"
+        },
+        {
+          "name": "Gladius Task Force",
+          "dp": 3,
+          "note": "3x Doctrines",
+          "forceDisposition": "PRIORITY ASSETS"
+        },
+        {
+          "name": "Stormlance Task Force",
+          "dp": 3,
+          "note": "Adv/Fall Back Charge",
+          "forceDisposition": "DISRUPTION"
+        }
+      ]
+    },
+    {
+      "army": "Space Wolves",
+      "category": "space-marines",
+      "factionPackUrl": "https://assets.warhammer-community.com/eng_08-06_warhammer40000_faction_pack_space_wolves-secweiq0m1-z9ayyyugii.pdf",
+      "detachments": [
+        {
+          "name": "Champions of Fenris",
+          "dp": 1,
+          "note": "Counter-charge",
+          "forceDisposition": "PURGE THE FOE"
+        },
+        {
+          "name": "Veterans of the Fang",
+          "dp": 1,
+          "note": "Grey Hunter",
+          "forceDisposition": "DISRUPTION"
+        },
+        {
+          "name": "Saga of the Beastslayer",
+          "dp": 2,
+          "note": "Lethals vs char, Monster, Vehicle",
+          "forceDisposition": "PURGE THE FOE"
+        },
+        {
+          "name": "Saga of the Bold",
+          "dp": 2,
+          "note": "If saga, re-roll 1x hit, wound, damage",
+          "forceDisposition": "PRIORITY ASSETS"
+        },
+        {
+          "name": "Saga of the Great Wolf",
+          "dp": 2,
+          "note": "Logan Grimnar",
+          "forceDisposition": "TAKE AND HOLD"
+        },
+        {
+          "name": "Saga of the Hunter",
+          "dp": 2,
+          "note": "1+ to hit, if saga +1 to wound",
+          "forceDisposition": "DISRUPTION"
+        }
+      ]
+    },
+    {
+      "army": "Thousand Sons",
+      "category": "chaos",
+      "factionPackUrl": "https://assets.warhammer-community.com/eng_10-06_warhammer40000_faction_pack_thousand_sons-qxnr1lbasx-i6ee7zitrl.pdf",
+      "detachments": [
+        {
+          "name": "Ritual of Regeneration",
+          "dp": 1,
+          "note": "",
+          "forceDisposition": "PURGE THE FOE"
+        },
+        {
+          "name": "Servants of Change",
+          "dp": 1,
+          "note": "",
+          "forceDisposition": "RECONNAISSANCE"
+        },
+        {
+          "name": "Changehost of Deceit",
+          "dp": 2,
+          "note": "",
+          "forceDisposition": "RECONNAISSANCE"
+        },
+        {
+          "name": "Hexwarp Thrallband",
+          "dp": 2,
+          "note": "",
+          "forceDisposition": "TAKE AND HOLD"
+        },
+        {
+          "name": "Warpforged Cabal",
+          "dp": 2,
+          "note": "",
+          "forceDisposition": "DISRUPTION"
+        },
+        {
+          "name": "Warpmeld Pact",
+          "dp": 2,
+          "note": "",
+          "forceDisposition": "PURGE THE FOE"
+        },
+        {
+          "name": "Grand Coven",
+          "dp": 3,
+          "note": "",
+          "forceDisposition": "PRIORITY ASSETS"
+        },
+        {
+          "name": "Rubricae Phalanx",
+          "dp": 3,
+          "note": "",
+          "forceDisposition": "TAKE AND HOLD"
+        }
+      ]
+    },
+    {
+      "army": "Tyranids",
+      "category": "xenos",
+      "factionPackUrl": "https://assets.warhammer-community.com/eng_09-06_warhammer40000_faction_pack_tyranids-avhhzmcte8-j0kseag7td.pdf",
+      "detachments": [
+        {
+          "name": "Ambush Predators",
+          "dp": 1,
+          "note": "Deathleaper / Lictor / Neurolictor",
+          "forceDisposition": "DISRUPTION"
+        },
+        {
+          "name": "Warrior Bioform Onslaught",
+          "dp": 1,
+          "note": "Warriors Prime with Lash, Winged Prime",
+          "forceDisposition": "TAKE AND HOLD"
+        },
+        {
+          "name": "Assimilation Swarm",
+          "dp": 2,
+          "note": "Harvester",
+          "forceDisposition": "PRIORITY ASSETS"
+        },
+        {
+          "name": "Crusher Stampede",
+          "dp": 2,
+          "note": "Tyranids Monster",
+          "forceDisposition": "PURGE THE FOE"
+        },
+        {
+          "name": "Synaptic Nexus",
+          "dp": 2,
+          "note": "3x Synaptic Imperatives",
+          "forceDisposition": "DISRUPTION"
+        },
+        {
+          "name": "Unending Swarm",
+          "dp": 2,
+          "note": "Surge",
+          "forceDisposition": "TAKE AND HOLD"
+        },
+        {
+          "name": "Vanguard Onslaught",
+          "dp": 2,
+          "note": "Deathleaper, fall back and charge",
+          "forceDisposition": "RECONNAISSANCE"
+        },
+        {
+          "name": "Invasion Fleet",
+          "dp": 3,
+          "note": "3x Hyper-adaptions",
+          "forceDisposition": "TAKE AND HOLD"
+        },
+        {
+          "name": "Subterranean Assault",
+          "dp": 3,
+          "note": "Burrower",
+          "forceDisposition": "DISRUPTION"
+        }
+      ]
+    },
+    {
+      "army": "T’au Empire",
+      "category": "xenos",
+      "factionPackUrl": "https://assets.warhammer-community.com/eng_09-06_warhammer40000_faction_pack_tau_empire-avmkx2gg8i-jezqgeb55k.pdf",
+      "detachments": [
+        {
+          "name": "Advanced Acquisition Cadre",
+          "dp": 1,
+          "note": "Pathfinder Team / Stealth Battlesuits",
+          "forceDisposition": "RECONNAISSANCE"
+        },
+        {
+          "name": "Experimental Prototype Cadre",
+          "dp": 1,
+          "note": "Battlesuit Character",
+          "forceDisposition": "PRIORITY ASSETS"
+        },
+        {
+          "name": "Kauyon",
+          "dp": 2,
+          "note": "Sustained hits",
+          "forceDisposition": "PRIORITY ASSETS"
+        },
+        {
+          "name": "Kroot Hunting Pack",
+          "dp": 2,
+          "note": "Kroot",
+          "forceDisposition": "TAKE AND HOLD"
+        },
+        {
+          "name": "Retaliation Cadre",
+          "dp": 2,
+          "note": "Battlesuit",
+          "forceDisposition": "PURGE THE FOE"
+        },
+        {
+          "name": "Mont'ka",
+          "dp": 3,
+          "note": "Assault + Leathals",
+          "forceDisposition": "PURGE THE FOE"
+        }
+      ]
+    },
+    {
+      "army": "World Eaters",
+      "category": "chaos",
+      "factionPackUrl": "https://assets.warhammer-community.com/eng_10-06_warhammer40000_faction_pack_world_eaters-az7rivdn6x-d9rvbncqvt.pdf",
+      "detachments": [
+        {
+          "name": "Butchers of Khorne",
+          "dp": 1,
+          "note": "",
+          "forceDisposition": "DISRUPTION"
+        },
+        {
+          "name": "Vessels of Wrath",
+          "dp": 1,
+          "note": "",
+          "forceDisposition": "PRIORITY ASSETS"
+        },
+        {
+          "name": "Cult of Blood",
+          "dp": 2,
+          "note": "",
+          "forceDisposition": "PRIORITY ASSETS"
+        },
+        {
+          "name": "Goretrack Onslaught",
+          "dp": 2,
+          "note": "",
+          "forceDisposition": "TAKE AND HOLD"
+        },
+        {
+          "name": "Khorne Daemonkin",
+          "dp": 2,
+          "note": "",
+          "forceDisposition": "RECONNAISSANCE"
+        },
+        {
+          "name": "Berzerker Warband",
+          "dp": 3,
+          "note": "",
+          "forceDisposition": "PURGE THE FOE"
+        }
+      ]
+    }
+  ],
+  "forceDispositionMatchups": [
+    {
+      "id": 1,
+      "player1": "PURGE THE FOE",
+      "player2": "PRIORITY ASSETS"
+    },
+    {
+      "id": 2,
+      "player1": "PURGE THE FOE",
+      "player2": "DISRUPTION"
+    },
+    {
+      "id": 3,
+      "player1": "PURGE THE FOE",
+      "player2": "TAKE AND HOLD"
+    },
+    {
+      "id": 4,
+      "player1": "PURGE THE FOE",
+      "player2": "PURGE THE FOE"
+    },
+    {
+      "id": 5,
+      "player1": "PURGE THE FOE",
+      "player2": "RECONNAISSANCE"
+    },
+    {
+      "id": 6,
+      "player1": "TAKE AND HOLD",
+      "player2": "PRIORITY ASSETS"
+    },
+    {
+      "id": 7,
+      "player1": "TAKE AND HOLD",
+      "player2": "TAKE AND HOLD"
+    },
+    {
+      "id": 8,
+      "player1": "TAKE AND HOLD",
+      "player2": "DISRUPTION"
+    },
+    {
+      "id": 9,
+      "player1": "TAKE AND HOLD",
+      "player2": "RECONNAISSANCE"
+    },
+    {
+      "id": 10,
+      "player1": "PRIORITY ASSETS",
+      "player2": "PRIORITY ASSETS"
+    },
+    {
+      "id": 11,
+      "player1": "PRIORITY ASSETS",
+      "player2": "RECONNAISSANCE"
+    },
+    {
+      "id": 12,
+      "player1": "PRIORITY ASSETS",
+      "player2": "DISRUPTION"
+    },
+    {
+      "id": 13,
+      "player1": "RECONNAISSANCE",
+      "player2": "RECONNAISSANCE"
+    },
+    {
+      "id": 14,
+      "player1": "RECONNAISSANCE",
+      "player2": "DISRUPTION"
+    },
+    {
+      "id": 15,
+      "player1": "DISRUPTION",
+      "player2": "DISRUPTION"
+    }
+  ],
+  "forceDispositionColors": {
+    "PURGE THE FOE": "red",
+    "TAKE AND HOLD": "green",
+    "PRIORITY ASSETS": "yellow",
+    "RECONNAISSANCE": "teal",
+    "DISRUPTION": "blue"
+  },
+  "secondaries": {
+    "fixedOptions": [
+      "Assassination",
+      "Bring it Down",
+      "A Grievous Blow",
+      "Engage on All Fronts"
+    ],
+    "tacticalDeck": [
+      "A Tempting Target",
+      "Assassination",
+      "Beacon",
+      "Behind Enemy Lines",
+      "Bring it Down",
+      "Burden of Thrust",
+      "Centre Ground",
+      "Cleanse",
+      "Defend Stronghold",
+      "Display of Might",
+      "Forward Position",
+      "No Prisoners",
+      "Outflank",
+      "Overwhelming Force",
+      "Plunder",
+      "Secure No Man's Land",
+      "A Grievous Blow",
+      "Engage on All Fronts"
+    ],
+    "confirmed": [
+      "A Tempting Target",
+      "Assassination",
+      "Beacon",
+      "Behind Enemy Lines",
+      "Bring it Down",
+      "Burden of Thrust",
+      "Centre Ground",
+      "Cleanse",
+      "Defend Stronghold",
+      "Display of Might",
+      "Forward Position",
+      "No Prisoners",
+      "Outflank",
+      "Overwhelming Force",
+      "Plunder",
+      "Secure No Man's Land",
+      "A Grievous Blow",
+      "Engage on All Fronts"
+    ],
+    "leaked": [
+      "A Tempting Target",
+      "A TEMPTING TARGET",
+      "SECONDARY MISSION: DEFENDER",
+      "We have identified an opportunity to seize a valuable asset, but the enemy intends to use it as bait to trap us. Seize the site, but beware of enemy ambushes.WHEN DRAWN: Your opponent chooses one objective marker (excluding home objectives) in No Man's Land to be your tempting target.",
+      "ANY BATTLE ROUND",
+      "WHEN: At the end of your turn.",
+      "REQUIREMENT: You control your tempting target.",
+      "REWARD: 5VP"
+    ]
+  },
+  "layouts": [
+    {
+      "id": 1,
+      "player1": "PURGE THE FOE",
+      "player2": "PRIORITY ASSETS",
+      "available": false
+    },
+    {
+      "id": 2,
+      "player1": "PURGE THE FOE",
+      "player2": "DISRUPTION",
+      "available": false
+    },
+    {
+      "id": 3,
+      "player1": "PURGE THE FOE",
+      "player2": "TAKE AND HOLD",
+      "available": true
+    },
+    {
+      "id": 4,
+      "player1": "PURGE THE FOE",
+      "player2": "PURGE THE FOE",
+      "available": false
+    },
+    {
+      "id": 5,
+      "player1": "PURGE THE FOE",
+      "player2": "RECONNAISSANCE",
+      "available": false
+    },
+    {
+      "id": 6,
+      "player1": "TAKE AND HOLD",
+      "player2": "PRIORITY ASSETS",
+      "available": true
+    },
+    {
+      "id": 7,
+      "player1": "TAKE AND HOLD",
+      "player2": "TAKE AND HOLD",
+      "available": true
+    },
+    {
+      "id": 8,
+      "player1": "TAKE AND HOLD",
+      "player2": "DISRUPTION",
+      "available": true
+    },
+    {
+      "id": 9,
+      "player1": "TAKE AND HOLD",
+      "player2": "RECONNAISSANCE",
+      "available": true
+    },
+    {
+      "id": 10,
+      "player1": "PRIORITY ASSETS",
+      "player2": "PRIORITY ASSETS",
+      "available": false
+    },
+    {
+      "id": 11,
+      "player1": "PRIORITY ASSETS",
+      "player2": "RECONNAISSANCE",
+      "available": false
+    },
+    {
+      "id": 12,
+      "player1": "PRIORITY ASSETS",
+      "player2": "DISRUPTION",
+      "available": false
+    },
+    {
+      "id": 13,
+      "player1": "RECONNAISSANCE",
+      "player2": "RECONNAISSANCE",
+      "available": false
+    },
+    {
+      "id": 14,
+      "player1": "RECONNAISSANCE",
+      "player2": "DISRUPTION",
+      "available": false
+    },
+    {
+      "id": 15,
+      "player1": "DISRUPTION",
+      "player2": "DISRUPTION",
+      "available": false
+    }
+  ],
+  "rules": {
+    "core": [
+      {
+        "category": "Core",
+        "title": "UNIT COHERENCY",
+        "body": "A unit that contains more than one model must be set\nup and end any kind of move as a single group, with all\nof its models within 2\" horizontally and 5\" vertically of\nat least one other model from that unit. While a unit has\nseven or more models, all of its models must instead be\nset up and end any kind of move within 2\" horizontally\nand 5\" vertically of at least two other models from that\nunit. This is called Unit Coherency.\nIf for any reason a model cannot be set up in Unit\nCoherency, that model is destroyed. If a unit cannot end\na move in Unit Coherency, it cannot make that move\nand its models are returned to their previous positions.\nAt the end of every turn, each player must remove\nmodels, one at a time, from any of the units from\ntheir armies that are no longer in Unit Coherency,\nuntil only a single group of models from each of those\nunits remains in play and in Unit Coherency. Models\nremoved in this way count as having been destroyed,\nbut they never trigger any rules that apply when a\nmodel is destroyed.\n■\u0007Unit Coherency: Within 2\" horizontally and 5\"\nvertically of:\n●\u0007One other model from the same unit\n(in units of 2-6 models).\n●\u0007Two other models from the same unit\n(in units of 7+ models).\n■\u0007At the end of every turn, if a unit is not in Unit\nCoherency, the controlling player must remove\nmodels until that unit is in Unit Coherency again.…",
+        "link": "https://assets.warhammer-community.com/warhammer40000_core&key_corerules_eng_24.09-5xfayxjekm.pdf"
+      },
+      {
+        "category": "Core",
+        "title": "ENGAGEMENT RANGE",
+        "body": "Engagement Range represents the zone of threat that models\npresent to their enemies. While a model is within 1\" horizontally\nand 5\" vertically of an enemy model, those models – and their\nunits – are within Engagement Range of each other.\nModels cannot be set up or end a Normal, Advance or Fall\nBack move within Engagement Range of any enemy models. If\nfor any reason a model cannot meet this condition, that model\nis destroyed.\n■ \u0007Engagement Range: Within 1\" horizontally and\n5\" vertically.\n■ \u0007Models cannot be set up or end a Normal, Advance\nor Fall Back move within Engagement Range of any\nenemy models.",
+        "link": "https://assets.warhammer-community.com/warhammer40000_core&key_corerules_eng_24.09-5xfayxjekm.pdf"
+      },
+      {
+        "category": "Core",
+        "title": "BATTLEFIELD",
+        "body": "Battles of Warhammer 40,000 are fought on rectangular\nbattlefields. This can be any surface upon which the models can\nstand – a dining table, for example, or the floor. Your mission\nwill guide you as to the size of battlefield required.",
+        "link": "https://assets.warhammer-community.com/warhammer40000_core&key_corerules_eng_24.09-5xfayxjekm.pdf"
+      },
+      {
+        "category": "Core",
+        "title": "TERRAIN FEATURES",
+        "body": "The scenery on a battlefield can be represented by models from\nthe Warhammer 40,000 range. These models are called terrain\nfeatures to differentiate them from the models that make up an\narmy. Terrain features are set up on the battlefield before the\nbattle begins. You can find out more about terrain features on\npages 44-48.\nUnless the mission you are playing instructs you otherwise, you\nshould feel free to create an exciting battlefield using any terrain\nfeatures from your collection.",
+        "link": "https://assets.warhammer-community.com/warhammer40000_core&key_corerules_eng_24.09-5xfayxjekm.pdf"
+      },
+      {
+        "category": "Core",
+        "title": "MEASURING DISTANCES",
+        "body": "Distances in Warhammer 40,000 are measured in inches (\"). You\ncan measure distances whenever you wish.\nWhen measuring the distance between models, measure\nbetween the closest points of the bases of the models you’re\nmeasuring to and from. If a model does not have a base,\nmeasure to the closest point of any part of that model instead.\nIf a rule says it applies ‘within’ a certain distance, it applies at\nany distance that is not more than the specified distance. For\nexample, within 1\" means any distance that is not more than\n1\" away.",
+        "link": "https://assets.warhammer-community.com/warhammer40000_core&key_corerules_eng_24.09-5xfayxjekm.pdf"
+      },
+      {
+        "category": "Core",
+        "title": "DETERMINING VISIBILITY",
+        "body": "Warhammer 40,000 uses true line of sight to determine visibility between models. To check this, get a ‘model’s\nperspective’ view by looking from behind the observing model. For the purposes of determining visibility, an\nobserving model can see through other models in its unit, and a model’s base is also part of that model.",
+        "link": "https://assets.warhammer-community.com/warhammer40000_core&key_corerules_eng_24.09-5xfayxjekm.pdf"
+      },
+      {
+        "category": "Core",
+        "title": "MODEL VISIBLE",
+        "body": "If any part of another model can be\nseen from any part of the observing\nmodel, that other model is visible to\nthe observing model.",
+        "link": "https://assets.warhammer-community.com/warhammer40000_core&key_corerules_eng_24.09-5xfayxjekm.pdf"
+      },
+      {
+        "category": "Core",
+        "title": "UNIT VISIBLE",
+        "body": "If one or more models in a unit is\nvisible to the observing model, then\nthat model’s unit is visible to the\nobserving model.",
+        "link": "https://assets.warhammer-community.com/warhammer40000_core&key_corerules_eng_24.09-5xfayxjekm.pdf"
+      },
+      {
+        "category": "Core",
+        "title": "MODEL FULLY VISIBLE",
+        "body": "If every part of another model that\nis facing the observing model can be\nseen from any part of the observing\nmodel, then that other model is said\nto be fully visible to the observing\nmodel, i.e. the observing model\nhas line of sight to all parts of the\nother model that are facing it,\nwithout any other models or terrain\nfeatures blocking visibility to any of\nthose parts.",
+        "link": "https://assets.warhammer-community.com/warhammer40000_core&key_corerules_eng_24.09-5xfayxjekm.pdf"
+      },
+      {
+        "category": "Core",
+        "title": "UNIT FULLY VISIBLE",
+        "body": "If every model in a unit is fully\nvisible to an observing model,\nthen that unit is fully visible to that\nobserving model. For the purposes\nof determining if an enemy unit is\nfully visible, an observing model\ncan see through other models in the\nunit it is observing.\n■\u0007Model Visible: If any part\nof a model can be seen, it\nis visible.\n■\u0007Unit Visible: If any model in\na unit is visible, that model’s\nunit is visible.\n■\u0007Model Fully Visible: If every\nfacing part of a model can be\nseen, it is fully visible.\n■\u0007Unit Fully Visible: If\nevery model in a unit is\nfully visible, that unit is\nfully visible.\nModel Visible\nModel Fully Visible\nUnit Visible\nUnit Fully Visible\nOne model in this unit is visible, meaning the unit is visible.",
+        "link": "https://assets.warhammer-community.com/warhammer40000_core&key_corerules_eng_24.09-5xfayxjekm.pdf"
+      },
+      {
+        "category": "Core",
+        "title": "DICE",
+        "body": "In order to fight a battle, you will require some six-sided\ndice (often abbreviated to D6). Some rules refer to 2D6, 3D6\nand so on – in such cases, roll that many D6 and add the\nresults together.\nIf a rule requires you to roll a D3, roll a D6 and halve the result\n(rounding up to a whole number) to get the D3 result, as\nshown below.\nROLLING A D3\nDICE RESULT\nD3 RESULT\nIf a rule requires a dice roll of, for example, 3 or more, this is\noften abbreviated to 3+. Where several consecutive dice results\nare relevant to a rule, these are often shown as a range (e.g. 1-3).",
+        "link": "https://assets.warhammer-community.com/warhammer40000_core&key_corerules_eng_24.09-5xfayxjekm.pdf"
+      },
+      {
+        "category": "Core",
+        "title": "RE-ROLLS",
+        "body": "Some rules allow you to re-roll a dice roll, which means you get\nto roll some or all of the dice again. If a rule allows you to re-roll\na dice roll that was made by adding several dice together (e.g.\n2D6, 3D6, etc.) then, unless otherwise stated, you must re-roll\nall of those dice again.\nYou can never re-roll a dice more than once, and re-rolls happen\nbefore modifiers (if any) are applied. Rules that refer to the value\nof an ‘unmodified’ dice roll are referring to the dice result after\nany re-rolls, but before any modifiers are applied.\n■\u0007Unmodified Dice: the result after re-rolls, but before\nany modifiers.\n■A dice can never be re-rolled more than once.\n■\u0007You must re-roll all dice if several need adding together\n(e.g. 2D6).\n■Re-rolls are applied before any modifiers.",
+        "link": "https://assets.warhammer-community.com/warhammer40000_core&key_corerules_eng_24.09-5xfayxjekm.pdf"
+      },
+      {
+        "category": "Core",
+        "title": "ROLL-OFFS",
+        "body": "Some rules instruct players to roll off. To do so, both players roll\none D6, and whoever scores highest wins the roll-off. If there is\na tie for the highest roll, roll off again. Neither player is allowed\nto re-roll or modify any of the D6 when making a roll-off.",
+        "link": "https://assets.warhammer-community.com/warhammer40000_core&key_corerules_eng_24.09-5xfayxjekm.pdf"
+      },
+      {
+        "category": "Core",
+        "title": "SEQUENCING",
+        "body": "While playing Warhammer 40,000, you’ll occasionally find that\ntwo or more rules are to be resolved at the same time. If this\noccurs during the battle, the player whose turn it is chooses the\norder. If this occurs before or after the battle, or at the start or\nend of a battle round, the players roll off and the winner decides\nthe order in which those rules are resolved.",
+        "link": "https://assets.warhammer-community.com/warhammer40000_core&key_corerules_eng_24.09-5xfayxjekm.pdf"
+      },
+      {
+        "category": "Core",
+        "title": "WARGEAR OPTIONS",
+        "body": "■ The Space Marine Sergeant’s bolt pistol can be\nreplaced with one of the following:\n◦1 weapon from the Pistols list.\n◦1 weapon from the Melee Weapons list.\n■ The Space Marine Sergeant’s boltgun can be\nreplaced with one of the following:\n◦1 weapon from the Combi-weapons list.\n◦1 weapon from the Pistols list.\n◦1 weapon from the Melee Weapons list.\n■ If this unit contains 9 or fewer models, 1 Space\nMarine’s boltgun can be replaced with one of\nthe following:\n◦1 weapon from the Heavy Weapons list.\n◦1 weapon from the Special Weapons list.\n■ If this unit contains 10 models, 1 Space Marine’s\nboltgun can be replaced with 1 weapon from the\nSpecial Weapons list.\n■ If this unit contains 10 models, 1 Space Marine’s\nboltgun can be replaced with 1 weapon from the\nHeavy Weapons list.",
+        "link": "https://assets.warhammer-community.com/warhammer40000_core&key_corerules_eng_24.09-5xfayxjekm.pdf"
+      },
+      {
+        "category": "Core",
+        "title": "UNIT COMPOSITION",
+        "body": "■ 1 Space Marine Sergeant\n■4-9 Space Marines\nEvery model is equipped with: bolt pistol; boltgun.\nEXAMPLE DATASHEET (WARGEAR AND COMPOSITION)\nTactical Squads have formed the backbone of Space Marine Chapters for ten\nthousand years. With access to a wide range of weapons, they can purge\nswathes of enemy infantry, scour battlefields clean of heavily armoured foes or\npunch burning holes through tanks.",
+        "link": "https://assets.warhammer-community.com/warhammer40000_core&key_corerules_eng_24.09-5xfayxjekm.pdf"
+      },
+      {
+        "category": "Core",
+        "title": "PROFILES",
+        "body": "These contain the following characteristics\nthat tell you how mighty the models in the\nunit are:\nMove (M): This is the speed at which a\nmodel moves across the battlefield. If a\nmodel has a Move of ‘-’ it is unable to move\nat all.\nToughness (T): This reflects the model’s\nresilience against physical harm.\nSave (Sv): This indicates the protection a\nmodel’s armour gives them.\nWounds (W): Wounds represent how\nmuch damage a model can sustain before\nit succumbs to its injuries. If a model’s\nWounds characteristic is reduced to 0, that\nmodel is destroyed.\nLeadership (Ld): This reveals how\ncourageous, determined or self-controlled a\nmodel is. The lower this number, the better\na model’s Leadership is.\nObjective Control (OC): This shows how\neffectively a model can exert control over\nan objective on the battlefield.\nABILITIES\nMany units have special abilities and rules\nthat may apply during the game, from Core\nRules shared by many units to bespoke\nPsychic abilities and invulnerable saves.\nThese will be described here, along with any\nrules that apply when larger models such as\nvehicles have suffered sufficient damage.\nSome abilities are bestowed by items\nof wargear that models in a unit can be\nequipped with, and are known as Wargear\nabilities. These only apply while a model in\nthe unit is equipped with the relevant item\nof wargear.",
+        "link": "https://assets.warhammer-community.com/warhammer40000_core&key_corerules_eng_24.09-5xfayxjekm.pdf"
+      },
+      {
+        "category": "Core",
+        "title": "WEAPONS",
+        "body": "Weapons are described with the\nfollowing characteristics:\nRange: How far the weapon can shoot.\nWeapons with a range of ‘Melee’ are\nmelee weapons and can only be used\nin close combat. All other weapons are\nranged weapons.\nAttacks (A): This tells you how many attacks\nare made each time that weapon is used.\nWeapon Skill (WS): This reflects the bearer’s\nskill in wielding the relevant melee weapon.\nBallistic Skill (BS): This shows how accurate\nthe bearer is when shooting with the\nrelevant ranged weapon.\nStrength (S): How likely the weapon is to\nwound a foe.\nArmour Penetration (AP): This represents\nthe weapon’s ability to cut through the\ntarget’s defences.\nDamage (D): The amount of damage\ninflicted by a successful wound.\nKEYWORDS\nDatasheets have a list of keywords,\nseparated into Faction keywords and other\nkeywords. The former are used when\ndeciding which models to include in your\narmy, but otherwise both sets of keywords\nare functionally the same.",
+        "link": "https://assets.warhammer-community.com/warhammer40000_core&key_corerules_eng_24.09-5xfayxjekm.pdf"
+      },
+      {
+        "category": "Core",
+        "title": "LEADERSHIP TESTS",
+        "body": "If a rule requires you to take a\nLeadership test for a unit, roll 2D6:\nif the total is greater than or equal\nto the best Leadership characteristic\nin that unit, that test is passed.\nOtherwise, it is failed.",
+        "link": "https://assets.warhammer-community.com/warhammer40000_core&key_corerules_eng_24.09-5xfayxjekm.pdf"
+      },
+      {
+        "category": "Core",
+        "title": "RANDOM CHARACTERISTICS",
+        "body": "Some characteristics are a random\nvalue instead of a number.\nFor example, a model’s Move\ncharacteristic might be 2D6\", or\na weapon’s Attacks characteristic\nmight be D6. When a unit with\na random Move characteristic is\nselected to move, determine the\nentire unit’s move distance by\nrolling the indicated number of\ndice. For all other characteristics,\nroll to determine the value on\nan individual, per‑model or\nper-weapon basis each time that\ncharacteristic is required.",
+        "link": "https://assets.warhammer-community.com/warhammer40000_core&key_corerules_eng_24.09-5xfayxjekm.pdf"
+      },
+      {
+        "category": "Core",
+        "title": "AURA ABILITIES",
+        "body": "Some abilities affect multiple models\nor units in a given range. These\nare known as Aura abilities and\nare tagged with the word ‘Aura’. A\nmodel with an Aura ability is always\nwithin range of its own Aura ability.\nA unit can be affected by more than\none Aura ability at a time, but if\na unit is within range of the same\nAura ability more than once, that\nAura ability only applies to that\nunit once.",
+        "link": "https://assets.warhammer-community.com/warhammer40000_core&key_corerules_eng_24.09-5xfayxjekm.pdf"
+      },
+      {
+        "category": "Core",
+        "title": "PSYCHIC WEAPONS",
+        "body": "AND ABILITIES\nSome weapons and abilities can only\nbe used by Psykers. Such weapons\nand abilities are tagged with the\nword ‘Psychic’. If a Psychic weapon\nor ability causes any unit to suffer\none or more wounds, each of those\nwounds is considered to have been\ninflicted by a Psychic Attack.",
+        "link": "https://assets.warhammer-community.com/warhammer40000_core&key_corerules_eng_24.09-5xfayxjekm.pdf"
+      },
+      {
+        "category": "Core",
+        "title": "DEEP STRIKE",
+        "body": "Some units make their way to battle via tunnelling,\nteleportation, high-altitude descent or other\nextraordinary means that allow them to appear\nsuddenly in the thick of the fighting.\nDuring the Declare Battle Formations step, if every\nmodel in a unit has this ability, you can set it up in\nReserves instead of setting it up on the battlefield.\nIf you do, in the Reinforcements step of one of your\nMovement phases you can set up this unit anywhere\non the battlefield that is more than 9\" horizontally\naway from all enemy models.\n■\u0007Unit can be set up in Reserves instead of on\nthe battlefield.\n■\u0007Unit can be set up in your Reinforcements\nstep, more than 9\" horizontally away from all\nenemy models.",
+        "link": "https://assets.warhammer-community.com/warhammer40000_core&key_corerules_eng_24.09-5xfayxjekm.pdf"
+      },
+      {
+        "category": "Core",
+        "title": "SCOUTS",
+        "body": "Scouts form the vanguard of many armies. Unnoticed\nby the enemy, they range ahead of the main force.\nSome units have ‘Scouts x\"’ listed in their abilities.\nIf every model in a unit has this ability, then at\nthe start of the first battle round, before the first\nturn begins, it can make a Normal move of up to\nx\" as if it were your Movement phase – as can any\nDedicated Transport model such a unit starts the\nbattle embarked within (provided only models with\nthis ability are embarked within that Dedicated\nTransport model). A unit that moves using this\nability must end that move more than 9\" horizontally\naway from all enemy models. If both players have\nunits that can do this, the player who is taking the\nfirst turn moves their units first.\nExample: A unit has the Scouts 6\" ability. At the\nstart of the first battle round, the controlling player\ncan make a Normal move with that unit of up to 6\".\n■\u0007Scouts x\": Unit can make a Normal move of up\nto x\" before the first turn begins.\n■\u0007If embarked in a Dedicated Transport,\nthat Dedicated Transport can make this\nmove instead.\n■\u0007Must end this move more than 9\" horizontally\naway from all enemy models.",
+        "link": "https://assets.warhammer-community.com/warhammer40000_core&key_corerules_eng_24.09-5xfayxjekm.pdf"
+      },
+      {
+        "category": "Core",
+        "title": "INFILTRATORS",
+        "body": "Many armies employ reconnaissance units who can sit\nconcealed, waiting for the right moment to strike.\nDuring deployment, if every model in a unit has\nthis ability, then when you set it up, it can be set\nup anywhere on the battlefield that is more than 9\"\nhorizontally away from the enemy deployment zone\nand all enemy models.",
+        "link": "https://assets.warhammer-community.com/warhammer40000_core&key_corerules_eng_24.09-5xfayxjekm.pdf"
+      },
+      {
+        "category": "Core",
+        "title": "LEADER",
+        "body": "Mighty heroes fight at the forefront of battle.\nSome Character units have ‘Leader’ listed on their\ndatasheets. Such Character units are known as\nLeaders, and the units they can lead – known as their\nBodyguard units – are listed on their datasheet.\nDuring the Declare Battle Formations step, for each\nLeader in your army, if your army also includes one\nor more of that Leader’s Bodyguard units, you can\nselect one of those Bodyguard units. That Leader will\nthen attach to that Bodyguard unit for the duration\nof the battle and is said to be leading that unit. Each\nBodyguard unit can only have one Leader attached\nto it.\nWhile a Bodyguard unit contains a Leader, it is\nknown as an Attached unit and, with the exception\nof rules that are triggered when units are destroyed\n(pg 12), it is treated as a single unit for all rules\npurposes. Each time an attack targets an Attached\nunit, until the attacking unit has resolved all of its\nattacks, you must use the Toughness characteristic of\nthe Bodyguard models in that unit, even if a Leader\nin that unit has a different Toughness characteristic.\nEach time an attack sucessfully wounds an Attached\nunit, that attack cannot be allocated to a Character\nmodel in that unit, even if that Character model\nhas lost one or more wounds or has already had\nattacks allocated to it this phase. As soon as the last\nBodyguard model in an Attached unit has been…",
+        "link": "https://assets.warhammer-community.com/warhammer40000_core&key_corerules_eng_24.09-5xfayxjekm.pdf"
+      },
+      {
+        "category": "Core",
+        "title": "DEPLOYMENT ABILITIES",
+        "body": "Some abilities are used during deployment, or when setting a unit up – either on the battlefield or\ninto Reserves. These are known as Deployment abilities, and some widespread examples of these are\npresented below.",
+        "link": "https://assets.warhammer-community.com/warhammer40000_core&key_corerules_eng_24.09-5xfayxjekm.pdf"
+      },
+      {
+        "category": "Core",
+        "title": "STRATAGEMS",
+        "body": "Command points can be spent during the battle to use Stratagems. All players can use the Core\nStratagems presented here. Additional Stratagems can be found in Codexes and other publications.\nWhen you use a Stratagem, reduce your\nCP total by the amount listed on that\nStratagem. If you do not have enough\nCP for a specific Stratagem, you cannot\nuse it. You can use the same Stratagem\nmultiple times during a battle, but you\ncannot use the same Stratagem more than\nonce in the same phase.\n■\u0007To use a Stratagem you must pay\nthe CP specified.\n■\u0007The same Stratagem cannot\nbe used more than once in the\nsame phase.\nSTRATAGEMS KEY",
+        "link": "https://assets.warhammer-community.com/warhammer40000_core&key_corerules_eng_24.09-5xfayxjekm.pdf"
+      },
+      {
+        "category": "Core",
+        "title": "STRATEGIC RESERVES",
+        "body": "Strategic Reserves are forces that one or both players have chosen not to deploy at the start of the\nbattle. These rules explain how to place units into Strategic Reserves, as well as how and when they\narrive on the battlefield.\nThese rules let you place units into Strategic Reserves\n– a special type of Reserves you can use to keep units\noff the battlefield until you require them. Note that\nwhile all Strategic Reserves units are also technically\nReserves units, the reverse is not true, and so these\nrules do not apply to units that are using other\nrules that enable them to start the battle in Reserves\n(e.g. Deep Strike). Such units are instead set up as\ndescribed by those other rules.",
+        "link": "https://assets.warhammer-community.com/warhammer40000_core&key_corerules_eng_24.09-5xfayxjekm.pdf"
+      },
+      {
+        "category": "Core",
+        "title": "THE BATTLE",
+        "body": "Incursion\nStrike Force\nOnslaught\n■\u0007Strategic Reserves: Units that are not\ndeployed at the start of the battle.\n■\u0007Combined points value cannot exceed 25% of\nyour army’s total.\n■\u0007Cannot put Fortifications into\nStrategic Reserves.",
+        "link": "https://assets.warhammer-community.com/warhammer40000_core&key_corerules_eng_24.09-5xfayxjekm.pdf"
+      },
+      {
+        "category": "Core",
+        "title": "ARRIVING FROM STRATEGIC RESERVES",
+        "body": "Units that are placed into Strategic Reserves are\ncalled Strategic Reserves units, and can arrive later\nin the battle during the Reinforcements step of any\nof your Movement phases except during the first\nbattle round.\n\u0007Any Strategic Reserves units that are not on the\nbattlefield at the end of the battle count as destroyed.\n■\u0007Strategic Reserves units can arrive in the\nReinforcements step of your Movement phase,\nfrom the second battle round onwards.\n■\u0007Those not on the battlefield at the end of the\nbattle count as destroyed.",
+        "link": "https://assets.warhammer-community.com/warhammer40000_core&key_corerules_eng_24.09-5xfayxjekm.pdf"
+      },
+      {
+        "category": "Core",
+        "title": "RESERVES UNITS",
+        "body": "Where on the battlefield a Strategic Reserves unit\ncan be set up when it arrives depends on the battle\nround, as follows:\n\n■\u0007During the second battle round, Strategic Reserves\nunits that arrive must be set up wholly within 6\" of\nany battlefield edge, but no model in those units\ncan be set up within the enemy deployment zone.\n\n■\u0007Starting from the third battle round, Strategic\nReserves units that arrive must be set up wholly\nwithin 6\" of any battlefield edge.\nIn any case, Strategic Reserves units cannot be set\nup within 9\" horizontally of any enemy models. All\nother rules that apply when setting up Reserves units\nalso apply when setting up Strategic Reserves units.\n■\u0007During the second battle round, set up wholly\nwithin 6\" of any battlefield edge (not in enemy\ndeployment zone).\n■\u0007From the third battle round onwards, set up\nwholly within 6\" of any battlefield edge.\n■\u0007Cannot be set up within 9\" of any\nenemy models.",
+        "link": "https://assets.warhammer-community.com/warhammer40000_core&key_corerules_eng_24.09-5xfayxjekm.pdf"
+      },
+      {
+        "category": "Core",
+        "title": "AIRCRAFT",
+        "body": "The airspace above a battle is often thronged with activity. Fighters and bomber craft hurtle through the skies,\nduelling with one another and strafing enemy formations on the ground.\nSome models have the Aircraft keyword. The\nfollowing rules describe how such models operate on\nthe battlefield.",
+        "link": "https://assets.warhammer-community.com/warhammer40000_core&key_corerules_eng_24.09-5xfayxjekm.pdf"
+      },
+      {
+        "category": "Core",
+        "title": "DEPLOYING AIRCRAFT",
+        "body": "When you are instructed to Declare Battle\nFormations, Aircraft models must start the battle\nin Reserves instead of being set up on the battlefield.\nOnce the battle has started, Aircraft models are\nthen treated as Strategic Reserves units for all rules\npurposes (pg 43). Only units that are themselves\nplaced into Reserves can start the battle embarked\nwithin Aircraft Transport models that are\nin Reserves.",
+        "link": "https://assets.warhammer-community.com/warhammer40000_core&key_corerules_eng_24.09-5xfayxjekm.pdf"
+      },
+      {
+        "category": "Core",
+        "title": "AIRCRAFT IN THE MOVEMENT PHASE",
+        "body": "Aircraft models cannot Advance, Fall Back or\nRemain Stationary. If, when an Aircraft model\nis selected to move in the Movement phase, any\nenemy units are within Engagement Range of it, that\nAircraft model can still make a Normal move.\nEach time an Aircraft model makes a Normal move,\nfirst move the model straight forward, and it must\nmove a minimum of 20\" – all parts of the model’s\nbase must end the move at least this far from where\nthey started. After it has moved, it can pivot on the\nspot up to 90° – this does not contribute to how far\nthe model moves. If, when making a Normal move,\nany part of an Aircraft model’s base crosses the edge\nof the battlefield, or it cannot move a minimum of\n20\", that model’s move ends and it is placed into\nStrategic Reserves. There is no upper limit to how\nfar Aircraft models can move, and their Move\ncharacteristic is therefore 20+\".\nIf placed into Strategic Reserves, an Aircraft model\nwill always arrive from Strategic Reserves in your\nnext turn.\n■\u0007Aircraft can only make a Normal move, and\ncan do so even when within Engagement Range\nof enemy models.\n■\u0007Aircraft must move straight forward at least\n20\", and can then make one pivot of up to 90°.\n■\u0007Aircraft that cross the edge of the battlefield,\nor that cannot make their minimum move, are\nplaced into Strategic Reserves.",
+        "link": "https://assets.warhammer-community.com/warhammer40000_core&key_corerules_eng_24.09-5xfayxjekm.pdf"
+      },
+      {
+        "category": "Core",
+        "title": "HOVER",
+        "body": "Some aircraft can use vectored thrusters\nor anti-grav technology to hover over the\nbattlefield, the better to hunt their prey or deploy\nembarked troops.\nSome Aircraft models have ‘Hover’ listed\nin their abilities. When you are instructed\nto Declare Battle Formations, before doing\nanything else, you must first declare which\nmodels from your army with this ability will be\nin Hover mode.\nIf a model is in Hover mode, then until the end\nof the battle, its Move characteristic is changed\nto 20\", it loses the Aircraft keyword and it loses\nall associated rules for being an Aircraft model.\nModels in Hover mode do not start the battle in\nReserves, but you can choose to place them into\nStrategic Reserves following the normal rules if\nyou wish.",
+        "link": "https://assets.warhammer-community.com/warhammer40000_core&key_corerules_eng_24.09-5xfayxjekm.pdf"
+      },
+      {
+        "category": "Core",
+        "title": "OTHER MODELS",
+        "body": "When a unit is selected to move in the Movement\nphase, if the only enemy models that are within\nEngagement Range of that unit are Aircraft\nmodels, then that unit can still make a Normal or\nAdvance move.\nWhenever a model makes any kind of move, it\ncan be moved over enemy Aircraft models as\nif they were not there, and can be moved within\nEngagement Range of enemy Aircraft models,\nbut it cannot end that move on top of another\nmodel or within Engagement Range of any enemy\nAircraft models.\n■\u0007Units can still make a Normal or Advance move\nif they are only within Engagement Range of\nenemy Aircraft.\n■\u0007Models can move within Engagement Range of\nenemy Aircraft, but cannot end a move within\nEngagement Range of enemy Aircraft.\n■\u0007Models can move over Aircraft when they\nmake any kind of move.",
+        "link": "https://assets.warhammer-community.com/warhammer40000_core&key_corerules_eng_24.09-5xfayxjekm.pdf"
+      },
+      {
+        "category": "Core",
+        "title": "MUSTER YOUR ARMY",
+        "body": "In order to play a game of Warhammer 40,000, you will need to muster an army. To do so, follow the sequence below.\nWith your opponent, select one\nof the battle sizes below. This will\ndetermine the total number of\npoints each player can spend to\nbuild their army and, as a result,\nhow long the battle will last. Points\nare a measure of a unit’s power on\nthe battlefield; the higher a unit’s\npoints value, the more powerful that\nunit is. The points values for units\nare presented in other publications,\nsuch as Codexes and the Munitorum\nField Manual. You will need to refer\nto these when building your army.",
+        "link": "https://assets.warhammer-community.com/warhammer40000_core&key_corerules_eng_24.09-5xfayxjekm.pdf"
+      },
+      {
+        "category": "Core",
+        "title": "ONSLAUGHT",
+        "body": "Points per Army\nDuration\nUp to 4 hours\nThe details of your army must be\nrecorded on an Army Roster. This\ncan be written on a piece of paper\nor recorded using the Warhammer\n40,000 app. Players must show\ntheir finished Army Roster to their\nopponent before battle commences.\nYou can download blank Army\nRoster sheets from\nwarhammer-community.com.\nNote on your Army Roster one\nFaction keyword to be your\narmy faction.",
+        "link": "https://assets.warhammer-community.com/warhammer40000_core&key_corerules_eng_24.09-5xfayxjekm.pdf"
+      },
+      {
+        "category": "Core",
+        "title": "MUSTER ARMIES",
+        "body": "Players muster their armies\nbased on their selected battle\nsize, as described on pages\n55-56. Each mission will guide\nplayers on what size of battle\nthey can play, and may include\nfurther rules that could affect\nhow players pick their armies.",
+        "link": "https://assets.warhammer-community.com/warhammer40000_core&key_corerules_eng_24.09-5xfayxjekm.pdf"
+      },
+      {
+        "category": "Core",
+        "title": "OBJECTIVES",
+        "body": "Each mission will state what\nits primary objectives are, and\nmay also include one or more\nspecial rules. These cover unique\nsituations, or abilities that can be\nused in the battle.",
+        "link": "https://assets.warhammer-community.com/warhammer40000_core&key_corerules_eng_24.09-5xfayxjekm.pdf"
+      },
+      {
+        "category": "Core",
+        "title": "DETERMINE ATTACKER",
+        "body": "AND DEFENDER\nPlayers roll off and the winner is\nthe Attacker – their opponent is\nthe Defender.",
+        "link": "https://assets.warhammer-community.com/warhammer40000_core&key_corerules_eng_24.09-5xfayxjekm.pdf"
+      },
+      {
+        "category": "Core",
+        "title": "FORMATIONS",
+        "body": "In the order stated below, both\nplayers now secretly note down:\n\n■\u0007Which of their Leader units will\nstart the battle attached (they\nmust specify which Leader\nunit is attached to which\nBodyguard unit).\n\n■\u0007Which of their units will\nstart the battle embarked\nwithin Transport models\n(they must specify which\nunits are embarked within\nwhich models).\n\n■\u0007Which of their units will\nstart the battle in Reserves\n(including Strategic Reserves).\nWhen both players have done so,\nthey declare their selections to\ntheir opponent.",
+        "link": "https://assets.warhammer-community.com/warhammer40000_core&key_corerules_eng_24.09-5xfayxjekm.pdf"
+      },
+      {
+        "category": "Core",
+        "title": "DEPLOY ARMIES",
+        "body": "Each mission includes a\ndeployment map that shows\nwhere each player can set up\nthe models in their army (called\ntheir deployment zone), and will\nlist any restrictions that apply to\nsetting up.",
+        "link": "https://assets.warhammer-community.com/warhammer40000_core&key_corerules_eng_24.09-5xfayxjekm.pdf"
+      },
+      {
+        "category": "Core",
+        "title": "FIRST TURN",
+        "body": "Each mission will tell you how to\ndetermine which player has the\nfirst turn.",
+        "link": "https://assets.warhammer-community.com/warhammer40000_core&key_corerules_eng_24.09-5xfayxjekm.pdf"
+      },
+      {
+        "category": "Core",
+        "title": "PRE-BATTLE RULES",
+        "body": "Players alternate resolving any\npre-battle rules units from their\narmies have, starting with the\nplayer who will take the first turn.",
+        "link": "https://assets.warhammer-community.com/warhammer40000_core&key_corerules_eng_24.09-5xfayxjekm.pdf"
+      },
+      {
+        "category": "Core",
+        "title": "BEGIN THE BATTLE",
+        "body": "The first battle round begins.\nPlayers continue to complete\nbattle rounds until the\nbattle ends.",
+        "link": "https://assets.warhammer-community.com/warhammer40000_core&key_corerules_eng_24.09-5xfayxjekm.pdf"
+      },
+      {
+        "category": "Core",
+        "title": "END THE BATTLE",
+        "body": "Each mission will tell you when\nthe battle ends. This will typically\nbe after a set number of battle\nrounds have been completed, or\nwhen one player has achieved a\ncertain victory condition.",
+        "link": "https://assets.warhammer-community.com/warhammer40000_core&key_corerules_eng_24.09-5xfayxjekm.pdf"
+      },
+      {
+        "category": "Core",
+        "title": "DETERMINE VICTOR",
+        "body": "Each mission will tell you what\nyou need to do in order to win the\ngame. If neither player manages\nto achieve a victory then the\ngame is considered to be a draw.\nMISSIONS\nBefore you can wage war in a game of Warhammer 40,000, you must first select a mission. The Core\nRules include a single mission – Only War – that is ideal to get the action started quickly. Others can be\nfound elsewhere in this or other books, or you could play a mission of your own creation. If you and your\nopponent can’t agree which mission to play, you must roll off, and the winner decides.",
+        "link": "https://assets.warhammer-community.com/warhammer40000_core&key_corerules_eng_24.09-5xfayxjekm.pdf"
+      },
+      {
+        "category": "Core",
+        "title": "OBJECTIVE MARKERS",
+        "body": "Objective markers represent objects of tactical or strategic\nimport that both sides are attempting to secure, such as valuable\nartefacts, vital supplies or communications nodes. If a mission\nuses objective markers, it will state where they are located on\nthe battlefield. These can be represented using any suitable\nmarker, but we recommend using round markers that are 40mm\nin diameter.\nWhen setting objective markers up on the battlefield, place them\nso they are centred on the point specified by the mission. When\nmeasuring distances to and from objective markers, measure\nto and from the closest part of them. Models can move over\nobjective markers as if they were not there, but they cannot end a\nmove on top of an objective marker.\nAt the start of the battle, each objective marker on the battlefield\nis said to be contested, and so is not controlled by either player.\nTo control an objective marker, a player will first need to\nmove models within range of it. A model is within range of an\nobjective marker if it is within 3\" horizontally and 5\" vertically of\nthat objective marker.\nEvery model has an Objective Control (OC) characteristic listed\non its datasheet. To determine a player’s Level of Control over\nan objective marker, add together the OC characteristics of all\nthe models from that player’s army that are within range of that…",
+        "link": "https://assets.warhammer-community.com/warhammer40000_core&key_corerules_eng_24.09-5xfayxjekm.pdf"
+      },
+      {
+        "category": "Core",
+        "title": "MISSION MAP KEY",
+        "body": "Attacker’s Deployment Zone\nThe Attacker must set up their army\nwithin this area.\nDefender’s Deployment Zone\nThe Defender must set up their army\nwithin this area.\nNo Man’s Land\nThe region of the battlefield that is\nnot within either player’s deployment\nzone is known as No Man’s Land.\nObjective Markers\n\u0007The locations of objective markers on\nthe battlefield are typically shown on\nthe deployment map of the mission\nbeing played, and are represented by\nthis icon.",
+        "link": "https://assets.warhammer-community.com/warhammer40000_core&key_corerules_eng_24.09-5xfayxjekm.pdf"
+      },
+      {
+        "category": "Core",
+        "title": "CAPTURE AND CONTROL",
+        "body": "Progressive Objective\nStarting from the second battle round, at the end of\neach player’s Command phase, the player whose turn\nit is scores 1 Victory point (VP) for each objective\nmarker they control (to a maximum of 3VP per\nturn). Details of how to control objective markers\ncan be found on page 58.",
+        "link": "https://assets.warhammer-community.com/warhammer40000_core&key_corerules_eng_24.09-5xfayxjekm.pdf"
+      },
+      {
+        "category": "Core",
+        "title": "CREATE THE BATTLEFIELD",
+        "body": "Players now create the battlefield and set up terrain\nfeatures using the guidelines on pages 49-52. The\nminimum size of your battlefield depends on\nthe battle size you have selected, as shown in the\ntable below.",
+        "link": "https://assets.warhammer-community.com/warhammer40000_core&key_corerules_eng_24.09-5xfayxjekm.pdf"
+      },
+      {
+        "category": "Core",
+        "title": "BATTLEFIELD SIZE",
+        "body": "Incursion/Strike Force\n44\" x 60\"\nOnslaught\n44\" x 90\"\nPlayers must then alternate setting up objective\nmarkers on the battlefield, starting with whichever\nplayer wins a roll-off, until a total of four have been\nplaced. Objective markers cannot be placed within\n6\" of any battlefield edge, or within 9\" of any other\nobjective markers.",
+        "link": "https://assets.warhammer-community.com/warhammer40000_core&key_corerules_eng_24.09-5xfayxjekm.pdf"
+      },
+      {
+        "category": "Core",
+        "title": "DETERMINE FIRST TURN",
+        "body": "Players should roll off again, and the winner takes\nthe first turn.",
+        "link": "https://assets.warhammer-community.com/warhammer40000_core&key_corerules_eng_24.09-5xfayxjekm.pdf"
+      },
+      {
+        "category": "STRATEGIC PLOY STRATAGEM",
+        "title": "HEROIC INTERVENTION — 1 CP",
+        "body": "Voices raised in furious war cries, your warriors surge\nforth to meet the enemy’s onslaught head-on.\nWHEN: Your opponent’s Charge phase, just after an\nenemy unit ends a Charge move.\nTARGET: One unit from your army that is within 6\"\nof that enemy unit and would be eligible to declare\na charge against that enemy unit if it were your\nCharge phase.\nEFFECT: Your unit now declares a charge that targets\nonly that enemy unit, and you resolve that charge as\nif it were your Charge phase.\nRESTRICTIONS: You can only select a Vehicle unit\nfrom your army if it is a Walker. Note that even if\nthis charge is successful, your unit does not receive\nany Charge bonus this turn (pg 29).",
+        "link": "https://assets.warhammer-community.com/warhammer40000_core&key_corerules_eng_24.09-5xfayxjekm.pdf"
+      },
+      {
+        "category": "STRATEGIC PLOY STRATAGEM",
+        "title": "RAPID INGRESS — 1 CP",
+        "body": "Be it cunning strategy, potent technology or\nsupernatural ritual, there are many means by which a\ncommander may hasten their warriors’ onset.\nWHEN: End of your opponent’s Movement phase.\nTARGET: One unit from your army that is in Reserves.\nEFFECT: Your unit can arrive on the battlefield\nas if it were the Reinforcements step of your\nMovement phase.\nRESTRICTIONS: You cannot use this Stratagem to\nenable a unit to arrive on the battlefield during a\nbattle round it would not normally be able to do so in.",
+        "link": "https://assets.warhammer-community.com/warhammer40000_core&key_corerules_eng_24.09-5xfayxjekm.pdf"
+      },
+      {
+        "category": "BATTLE TACTIC STRATAGEM",
+        "title": "COMMAND RE-ROLL — 1 CP",
+        "body": "A great commander can bend even the vagaries\nof fate and fortune to their will, the better to\nensure victory.\nWHEN: In any phase, just after you have made a Hit\nroll, a Wound roll, a Damage roll, a saving throw, an\nAdvance roll, a Charge roll, a Desperate Escape test,\na Hazardous test, or just after you have rolled the\ndice to determine the number of attacks made with a\nweapon, for an attack, model or unit from your army.\nEFFECT: You re-roll that roll, test or saving throw.",
+        "link": "https://assets.warhammer-community.com/warhammer40000_core&key_corerules_eng_24.09-5xfayxjekm.pdf"
+      },
+      {
+        "category": "WARGEAR STRATAGEM",
+        "title": "GRENADE — 1 CP",
+        "body": "Priming their hand-held projectiles, these warriors\ndraw back and hurl death into the enemy’s midst.\nWHEN: Your Shooting phase.\nTARGET: One Grenades unit from your army that is\nnot within Engagement Range of any enemy units\nand has not been selected to shoot this phase.\nEFFECT: Select one enemy unit that is not within\nEngagement Range of any units from your army and\nis within 8\" of and visible to your Grenades unit.\nRoll six D6: for each 4+, that enemy unit suffers 1\nmortal wound.",
+        "link": "https://assets.warhammer-community.com/warhammer40000_core&key_corerules_eng_24.09-5xfayxjekm.pdf"
+      },
+      {
+        "category": "EPIC DEED STRATAGEM",
+        "title": "EPIC CHALLENGE — 1 CP",
+        "body": "The legends of the 41st Millennium are replete with\ndeadly duels between mighty champions.\nWHEN: Fight phase, when a Character unit from\nyour army that is within Engagement Range of one or\nmore Attached units is selected to fight.\nTARGET: One Character model in your unit.\nEFFECT: Until the end of the phase, all melee\nattacks made by that model have the [PRECISION]\nability (pg 26).",
+        "link": "https://assets.warhammer-community.com/warhammer40000_core&key_corerules_eng_24.09-5xfayxjekm.pdf"
+      },
+      {
+        "category": "STRATEGIC PLOY STRATAGEM",
+        "title": "TANK SHOCK — 1 CP",
+        "body": "Ramming the foe with a speeding vehicle may be an\nunsubtle tactic, but it is a murderously effective one.\nWHEN: Your Charge phase.\nTARGET: One Vehicle unit from your army.\nEFFECT: Until the end of the phase, after your unit\nends a Charge move, select one enemy unit within\nEngagement Range of it, then select one melee\nweapon your unit is equipped with. Roll a number of\nD6 equal to that weapon’s Strength characteristic.\nIf that Strength characteristic is greater than that\nenemy unit’s Toughness characteristic, roll two\nadditional D6. For each 5+, that enemy unit suffers 1\nmortal wound (to a maximum of 6 mortal wounds).",
+        "link": "https://assets.warhammer-community.com/warhammer40000_core&key_corerules_eng_24.09-5xfayxjekm.pdf"
+      },
+      {
+        "category": "STRATEGIC PLOY STRATAGEM",
+        "title": "FIRE OVERWATCH — 1 CP",
+        "body": "A hail of wildfire can drive back advancing foes.\nWHEN: Your opponent’s Movement or Charge phase,\njust after an enemy unit is set up or when an enemy\nunit starts or ends a Normal, Advance, Fall Back or\nCharge move.\nTARGET: One unit from your army that is within 24\" of\nthat enemy unit and that would be eligible to shoot if\nit were your Shooting phase.\nEFFECT: Your unit can shoot that enemy unit as if it\nwere your Shooting phase.\nRESTRICTIONS: Until the end of the phase, each\ntime a model in your unit makes a ranged attack,\nan unmodified Hit roll of 6 is required to score a hit,\nirrespective of the attacking weapon’s Ballistic Skill\nor any modifiers. You can only use this Stratagem\nonce per turn.\nGO TO GROUND",
+        "link": "https://assets.warhammer-community.com/warhammer40000_core&key_corerules_eng_24.09-5xfayxjekm.pdf"
+      },
+      {
+        "category": "BATTLE TACTIC STRATAGEM",
+        "title": "GO TO GROUND — 1 CP",
+        "body": "Seeking salvation from incoming fire, warriors hurl\nthemselves into whatever cover they can find.\nWHEN: Your opponent’s Shooting phase, just after an\nenemy unit has selected its targets.\nTARGET: One Infantry unit from your army that was\nselected as the target of one or more of the attacking\nunit’s attacks.\nEFFECT: Until the end of the phase, all models in\nyour unit have a 6+ invulnerable save and have the\nBenefit of Cover (pg 44).",
+        "link": "https://assets.warhammer-community.com/warhammer40000_core&key_corerules_eng_24.09-5xfayxjekm.pdf"
+      },
+      {
+        "category": "WARGEAR STRATAGEM",
+        "title": "SMOKESCREEN — 1 CP",
+        "body": "Even the most skilled marksmen struggle to hit targets\nveiled by billowing screens of smoke.\nWHEN: Your opponent’s Shooting phase, just after an\nenemy unit has selected its targets.\nTARGET: One Smoke unit from your army that was\nselected as the target of one or more of the attacking\nunit’s attacks.\nEFFECT: Until the end of the phase, all models in your\nunit have the Benefit of Cover (pg 44) and the Stealth\nability (pg 20).",
+        "link": "https://assets.warhammer-community.com/warhammer40000_core&key_corerules_eng_24.09-5xfayxjekm.pdf"
+      },
+      {
+        "category": "EPIC DEED STRATAGEM",
+        "title": "INSANE BRAVERY — 1 CP",
+        "body": "Indifferent to their own survival, these warriors hold\ntheir ground against seemingly impossible odds.\nWHEN: Battle-shock step of your Command phase,\njust after you have failed a Battle-shock test taken\nfor a unit from your army (pg 11).\nTARGET: The unit from your army that Battle-shock\ntest was just taken for (even though your\nBattle-shocked units cannot normally be affected by\nyour Stratagems).\nEFFECT: Your unit is treated as having passed that\ntest instead, and is not Battle-shocked as a result.",
+        "link": "https://assets.warhammer-community.com/warhammer40000_core&key_corerules_eng_24.09-5xfayxjekm.pdf"
+      },
+      {
+        "category": "STRATEGIC PLOY STRATAGEM",
+        "title": "COUNTER-OFFENSIVE — 2 CP",
+        "body": "In close-quarters combat, the slightest hesitation\ncan leave an opening for a swift foe to exploit.\nWHEN: Fight phase, just after an enemy unit\nhas fought.\nTARGET: One unit from your army that is within\nEngagement Range of one or more enemy units\nand that has not already been selected to fight\nthis phase.\nEFFECT: Your unit fights next.",
+        "link": "https://assets.warhammer-community.com/warhammer40000_core&key_corerules_eng_24.09-5xfayxjekm.pdf"
+      }
+    ],
+    "command": [
+      {
+        "category": "Command",
+        "title": "COMMAND PHASE",
+        "body": "Commanders gauge the flow of the battle, consolidating their objectives before making alterations to\ntheir battle plans and devising new tactics and strategies with which to defeat the foe.\nYour Command phase is split into\ntwo steps. In the first, both players\ngain 1 Command point (CP) and\nyou resolve any other Command\nphase rules; in the second, you\ntest to see if any of your units\nare Battle-shocked.\nCOMMAND\nBATTLE-SHOCK",
+        "link": "https://assets.warhammer-community.com/warhammer40000_core&key_corerules_eng_24.09-5xfayxjekm.pdf"
+      },
+      {
+        "category": "Command",
+        "title": "GAINING COMMAND POINTS",
+        "body": "Outside of the CP players gain at\nthe start of the Command phase,\neach player can only gain a total of\n1CP per battle round, regardless of\nthe source.",
+        "link": "https://assets.warhammer-community.com/warhammer40000_core&key_corerules_eng_24.09-5xfayxjekm.pdf"
+      },
+      {
+        "category": "Command",
+        "title": "STARTING STRENGTH",
+        "body": "The number of models a unit contains when it is added\nto your army is known as its Starting Strength.",
+        "link": "https://assets.warhammer-community.com/warhammer40000_core&key_corerules_eng_24.09-5xfayxjekm.pdf"
+      },
+      {
+        "category": "Command",
+        "title": "BELOW HALF-STRENGTH",
+        "body": "Some rules will refer to a unit being\nBelow Half-strength.\n\n■\u0007If a unit has a Starting Strength of 1, then it is said\nto be Below Half-strength while its remaining\nnumber of wounds is less than half of its\nWounds characteristic.\n\n■\u0007For any other unit, while the number of models in\nthat unit is less than half of its Starting Strength, that\nunit is said to be Below Half-strength.",
+        "link": "https://assets.warhammer-community.com/warhammer40000_core&key_corerules_eng_24.09-5xfayxjekm.pdf"
+      },
+      {
+        "category": "Command",
+        "title": "DESTROYED",
+        "body": "Throughout a battle, models will suffer damage and be\ndestroyed. When a model is destroyed, it is removed\nfrom the battlefield. When every model in a unit has\nbeen destroyed, that unit is destroyed.",
+        "link": "https://assets.warhammer-community.com/warhammer40000_core&key_corerules_eng_24.09-5xfayxjekm.pdf"
+      },
+      {
+        "category": "Command",
+        "title": "ATTACHED UNITS",
+        "body": "Some Character units have the Leader ability (pg 39),\nwhich lets them merge with other units (known as\nBodyguard units) to form an Attached unit.\nThe Starting Strength of an Attached unit is equal to\nthe combined Starting Strengths of all of its units (i.e.\nthe number of models in the Leader unit added to the\nnumber of models in the Bodyguard unit). If either the\nLeader unit or the Bodyguard unit in an Attached unit\nis destroyed, the Starting Strength of the remaining unit\nis changed to be equal to its original Starting Strength.\nExample: A Primaris Captain (Starting Strength 1) is\nattached to a unit of Intercessors (Starting Strength 5).\nThis Attached unit has a Starting Strength of 6. If all\nthe Intercessors are destroyed, the remaining Primaris\nCaptain would revert to having a Starting Strength\nof 1.\nFor the purposes of rules that are triggered when a unit\nis destroyed, such rules are still triggered when one of\nthe individual units that made up an Attached unit is\ndestroyed (the Leader or the Bodyguard unit).\nExample: If a rule awards you with 1VP each time an\nenemy unit is destroyed, and you target an Attached\nunit, you would gain 1VP if the Bodyguard unit is\ndestroyed and 1VP if the Leader unit is destroyed (for\na total of 2VP).",
+        "link": "https://assets.warhammer-community.com/warhammer40000_core&key_corerules_eng_24.09-5xfayxjekm.pdf"
+      }
+    ],
+    "movement": [
+      {
+        "category": "Movement",
+        "title": "REMAIN STATIONARY",
+        "body": "If a unit Remains Stationary, none of its models can be moved\nfor the rest of the phase.",
+        "link": "https://assets.warhammer-community.com/warhammer40000_core&key_corerules_eng_24.09-5xfayxjekm.pdf"
+      },
+      {
+        "category": "Movement",
+        "title": "NORMAL MOVES",
+        "body": "When a unit makes a Normal move, each model in that unit\ncan move a distance in inches less than or equal to its Move (M)\ncharacteristic, but no model can be moved within Engagement\nRange of any enemy models (pg 7).\n■\u0007Normal Move: Models move up to M\".\n■\u0007Cannot move within Engagement Range of any\nenemy models.",
+        "link": "https://assets.warhammer-community.com/warhammer40000_core&key_corerules_eng_24.09-5xfayxjekm.pdf"
+      },
+      {
+        "category": "Movement",
+        "title": "MOVEMENT PHASE",
+        "body": "The ground shakes to the tread of marching feet and the growl of engines as armies advance across the\nbattlefield and vie for advantageous positions.\nYour Movement phase is split\ninto two steps. First you can\nmove your units, then you can set\nup reinforcements.",
+        "link": "https://assets.warhammer-community.com/warhammer40000_core&key_corerules_eng_24.09-5xfayxjekm.pdf"
+      },
+      {
+        "category": "Movement",
+        "title": "ADVANCE MOVES",
+        "body": "When a unit Advances, make an Advance roll for that unit\nby rolling one D6. Add the result in inches to the Move\ncharacteristic of each model in that unit until the end of the\nphase. Each model in that unit can then make an Advance\nmove by moving a distance in inches less than or equal to this\ntotal, but no model can be moved within Engagement Range of\nenemy models. A unit cannot shoot or declare a charge in the\nsame turn that it Advanced.\n■Advance Move: Models move up to M+D6\".\n■\u0007Cannot move within Engagement Range of any\nenemy models.\n■\u0007Units that Advance cannot shoot or charge this turn.",
+        "link": "https://assets.warhammer-community.com/warhammer40000_core&key_corerules_eng_24.09-5xfayxjekm.pdf"
+      },
+      {
+        "category": "Movement",
+        "title": "FALL BACK MOVES",
+        "body": "When a unit Falls Back, each model in that unit can\nmake a Fall Back move by moving a distance in inches\nless than or equal to its Move characteristic, and when\ndoing so you can move it within Engagement Range\nof enemy models, provided it does not end that move\nwithin Engagement Range of any enemy models – if\nthis is not possible, that unit cannot Fall Back.\nA unit cannot shoot or declare a charge in the same\nturn that it Fell Back.\nDesperate Escape Tests\nUnlike when making other types of move, models can\nmove over enemy models when making a Fall Back\nmove as if those enemy models were not there, but you\nmust take a Desperate Escape test for each model that\nwill do so (excluding models that are Titanic or can Fly)\nbefore any models in that unit are moved. In addition, if\na unit is Battle-shocked when it is selected to Fall Back,\nyou must take a Desperate Escape test for every model\nin that unit before any are moved.\nEach time you take a Desperate Escape test for a model,\nroll one D6. For each roll of 1-2, one model from the\nunit that is Falling Back is destroyed (selected by you).\nThe same model can only ever trigger one Desperate\nEscape test per phase.\n■Fall Back Move: Models move up to M\".\n■\u0007Units that Fall Back cannot shoot or declare a\ncharge in the same turn.\n■\u0007Models can move over enemy models when Falling\nBack, but you must take Desperate Escape tests…",
+        "link": "https://assets.warhammer-community.com/warhammer40000_core&key_corerules_eng_24.09-5xfayxjekm.pdf"
+      },
+      {
+        "category": "Movement",
+        "title": "MOVING OVER TERRAIN",
+        "body": "Warhammer 40,000 battlefields are strewn with a\nwide variety of obstacles, structures and detritus\ncollectively known as terrain features (see\npages 44-48). When a model makes any kind of\nmove, it can be moved over a terrain feature but\nnot through it (so models can’t move through a\nwall, for example, but can climb up or over it).\nA model can be moved over terrain features that\nare 2\" or less in height as if they were not there.\nA model can be moved vertically in order to\nclimb up or down any terrain features that are\ntaller than this, counting the vertical distance up\nand/or down as part of its move. Models cannot\nend any kind of move mid-climb – if it is not\npossible to end the move as a result, that move\ncannot be made.\n■\u0007Models can move freely over terrain\nfeatures 2\" or less in height.\n■\u0007Models cannot move through terrain\nfeatures taller than 2\", but can climb up\nand down them.",
+        "link": "https://assets.warhammer-community.com/warhammer40000_core&key_corerules_eng_24.09-5xfayxjekm.pdf"
+      },
+      {
+        "category": "Movement",
+        "title": "FLYING",
+        "body": "If a model can Fly, then when it makes a Normal, Advance or\nFall Back move, it can be moved over enemy models as if they\nwere not there, and can be moved within Engagement Range of\nenemy models when making such a move. Note this also means\nthat Monster and Vehicle models that can Fly can be moved\nover other Monster and Vehicle models when making such a\nmove. However, models that can Fly cannot end their move on\ntop of any other models or within Engagement Range of any\nenemy models.\nWhen a model that can Fly starts or ends a move on a terrain\nfeature, instead of measuring the path it has moved across the\nbattlefield, you instead measure its path ‘through the air’, as shown\nin the diagram below.\nIn this example the Tyranid Prime makes a\nNormal move of 12\" to end on top of the ruin.\nBecause it can Fly it can move directly over the\nenemy Terminators as if they were not there,\nand it is the diagonal distance through the air\nthat is measured.\n\u0007The Von Ryan’s\nLeaper Advances\ntowards the building.\nIt moves a total of 9\",\nmoving freely over\nthe pipe as it is only\n2\" in height.\n\u0007The building is taller\nthan 2\" so the vertical\ndistance of 3\" must\nbe counted as part of\nthe move.\n■\u0007Fly models can move over enemy\nmodels when they make a Normal,\nAdvance or Fall Back move.\n■\u0007Fly models that start or end a move\non a terrain feature measure distance\nmoved through the air when they make…",
+        "link": "https://assets.warhammer-community.com/warhammer40000_core&key_corerules_eng_24.09-5xfayxjekm.pdf"
+      },
+      {
+        "category": "Movement",
+        "title": "TRANSPORTS",
+        "body": "Some units can carry others across the battlefield, providing their passengers with greater speed and protection as\nthey are ferried to the front lines or towards vital objectives.\nSome models have the Transport keyword. The\nfollowing rules describe how units can embark\nwithin and disembark from such models, and how\nthey are used to move these passengers across\nthe battlefield.",
+        "link": "https://assets.warhammer-community.com/warhammer40000_core&key_corerules_eng_24.09-5xfayxjekm.pdf"
+      },
+      {
+        "category": "Movement",
+        "title": "TRANSPORT CAPACITY",
+        "body": "All Transport models have a transport capacity\nlisted on their datasheet. This determines the type\nand maximum number of friendly models that can\nembark within them.\nUnits can start the battle embarked within a\nTransport model instead of being set up separately\n– declare which units are embarked within a\nTransport model before you set it up.",
+        "link": "https://assets.warhammer-community.com/warhammer40000_core&key_corerules_eng_24.09-5xfayxjekm.pdf"
+      },
+      {
+        "category": "Movement",
+        "title": "EMBARK",
+        "body": "If a unit makes a Normal, Advance or Fall Back\nmove, and every model in that unit ends that move\nwithin 3\" of a friendly Transport model, they can\nembark within it. A unit cannot embark if it has\nalready disembarked from a Transport model in the\nsame phase. Remove the unit from the battlefield\nand place it to one side – it is now embarked within\nthat Transport model. Unless otherwise stated, units\ncannot do anything or be affected in any way while\nthey are embarked.\n■\u0007A unit can embark within a friendly Transport\nif all of its models end a Normal, Advance or\nFall Back move within 3\" of that Transport.\n■\u0007A unit cannot embark and disembark in the\nsame phase.",
+        "link": "https://assets.warhammer-community.com/warhammer40000_core&key_corerules_eng_24.09-5xfayxjekm.pdf"
+      },
+      {
+        "category": "Movement",
+        "title": "DISEMBARK",
+        "body": "If a unit from your army starts your Movement\nphase embarked within a Transport model, that unit\ncan disembark in that phase.\nWhen a unit disembarks from a Transport model,\nset it up on the battlefield so that it is wholly\nwithin 3\" of that Transport model and not within\nEngagement Range of any enemy models. If, for any\nreason, a disembarking model cannot be set up, that\nmodel’s unit cannot disembark.\nUnits that disembark from a Transport model that\neither Remained Stationary this phase or has not\nyet made a Normal, Advance or Fall Back move this\nphase can then act normally (make a Normal move,\nAdvance, shoot, declare a charge, fight, etc.) in the\nremainder of the turn. Such a disembarking unit\ncannot choose to Remain Stationary.\nUnits that disembark from a Transport model that\nmade a Normal move this phase count as having\nmade a Normal move themselves; they cannot move\nfurther during this phase. Such a unit also cannot\ndeclare a charge in the same turn, but can otherwise\nact normally in the remainder of the turn.\nUnits cannot disembark from a Transport model\nthat either Advanced or Fell Back this turn.\n■\u0007Units that start your Movement phase\nembarked within a Transport can disembark\nthis phase, provided their Transport has not\nAdvanced or Fallen Back.\n■\u0007If a unit disembarks before its Transport\nmoves, it can act normally.\n■\u0007If a unit disembarks after its Transport…",
+        "link": "https://assets.warhammer-community.com/warhammer40000_core&key_corerules_eng_24.09-5xfayxjekm.pdf"
+      },
+      {
+        "category": "Movement",
+        "title": "FIRING DECK",
+        "body": "Some transports have firing hatches, ports or\nplatforms from which embarked passengers\ncan shoot.\nSome Transport models have ‘Firing Deck x’\nlisted in their abilities. Each time such a model\nis selected to shoot in the Shooting phase, you\ncan select up to ‘x’ models embarked within it.\nThen, for each of those embarked models, you\ncan select one ranged weapon that embarked\nmodel is equipped with. Until that Transport\nmodel has resolved all of its attacks, it counts\nas being equipped with all of the weapons\nyou selected in this way, in addition to its\nother weapons.\n■\u0007Firing Deck ‘x’: Each time this Transport\nshoots, select one weapon from up\nto ‘x’ models embarked within it; this\nTransport counts as being equipped\nwith those weapons as well.",
+        "link": "https://assets.warhammer-community.com/warhammer40000_core&key_corerules_eng_24.09-5xfayxjekm.pdf"
+      },
+      {
+        "category": "Movement",
+        "title": "DESTROYED TRANSPORTS",
+        "body": "If a Transport model is destroyed, any units\nembarked within that Transport model must\nimmediately disembark (see opposite) before that\nTransport model is removed from the battlefield.\nUnits that disembark from a destroyed Transport\nmodel are not affected by that model’s Deadly\nDemise ability (pg 23). Instead, you must roll one D6\nfor each disembarking model. For each roll of 1, that\ndisembarking model’s unit suffers 1 mortal wound\n(pg 23). In addition, if a unit disembarks from a\ndestroyed Transport model:\n\n■\u0007Until the start of its controlling player’s next\nCommand phase, that unit is Battle-shocked.\n\n■\u0007Until the end of the turn, that unit counts as\nhaving made a Normal move this turn, and cannot\ndeclare a charge this turn (pg 29).\n■\u0007If a Transport is destroyed, any embarked\nunits must disembark.\n■\u0007Roll one D6 for each model that disembarks:\nfor each 1, that model’s unit suffers 1\nmortal wound.\n■\u0007Until the start of its controlling player’s next\nCommand phase, the disembarking unit\nis Battle-shocked.\n■\u0007Until the end of the turn, the disembarking unit\ncounts as having made a Normal move, and\ncannot declare a charge.\nEmergency Disembarkation\nIf a Transport model is destroyed and it is not\npossible to set up a disembarking unit wholly\nwithin 3\" of that Transport model and not\nwithin Engagement Range of any enemy models,\nthat unit must instead perform an Emergency…",
+        "link": "https://assets.warhammer-community.com/warhammer40000_core&key_corerules_eng_24.09-5xfayxjekm.pdf"
+      }
+    ],
+    "shooting": [
+      {
+        "category": "Shooting",
+        "title": "SHOOTING PHASE",
+        "body": "Guns thunder and shrapnel flies through the air. Bursts of muzzle flare and beams of las-fire illuminate\nthe fog of war, and spent ammunition cartridges litter the battlefield.\nUse the following sequence when a\nunit shoots.\nSELECT ELIGIBLE UNIT\nSELECT TARGETS",
+        "link": "https://assets.warhammer-community.com/warhammer40000_core&key_corerules_eng_24.09-5xfayxjekm.pdf"
+      },
+      {
+        "category": "Shooting",
+        "title": "LONE OPERATIVE",
+        "body": "Assassins and other covert agents are difficult to track and\npinpoint in the swirling maelstrom of battle.\nUnless part of an Attached unit (see Leader, page 39), this\nunit can only be selected as the target of a ranged attack if\nthe attacking model is within 12\".",
+        "link": "https://assets.warhammer-community.com/warhammer40000_core&key_corerules_eng_24.09-5xfayxjekm.pdf"
+      },
+      {
+        "category": "Shooting",
+        "title": "MAKE RANGED ATTACKS",
+        "body": "The shooting unit’s models now make attacks using their ranged\nweapons. Each time a model shoots with a ranged weapon,\nit will make a number of attacks equal to the Attacks (A)\ncharacteristic in that weapon’s profile. You make one Hit roll for\neach attack being made (see Making Attacks, pages 21-23).\nIf you selected more than one target for your unit to shoot at,\nyou must resolve all of the attacks against one target before\nmoving on to the next target. If your unit is shooting more than\none ranged weapon at a target, and those weapons have different\nprofiles, then after you have resolved attacks with one of those\nweapons you must, if any other weapons with the same profile\nare also being shot at that unit, resolve those attacks before\nresolving any other attacks against the target.\nNote that, provided at least one model in the target unit was\nvisible to an attacking model and in range of that attacking\nmodel’s weapon when that target unit was selected, that\nweapon’s attacks can still be made, even if no models in the\ntarget unit remain visible to or in range of it when you come to\nresolve those attacks (for example, because models in the target\nunit have already been destroyed by attacks made with other\nweapons in the attacking model’s unit).\n■\u0007When a model shoots a weapon, it makes a number of\nattacks equal to that weapon’s Attacks characteristic.…",
+        "link": "https://assets.warhammer-community.com/warhammer40000_core&key_corerules_eng_24.09-5xfayxjekm.pdf"
+      },
+      {
+        "category": "Shooting",
+        "title": "BIG GUNS NEVER TIRE",
+        "body": "Monsters and war engines can\ndispense death from afar even as they\ntrample the masses before them.\nMonster and Vehicle units are\neligible to shoot in their controlling\nplayer’s Shooting phase even while\nthey are within Engagement Range\nof one or more enemy units. Ranged\nweapons equipped by Monster\nand Vehicle units can target one\nor more of the enemy units they\nare within Engagement Range of,\neven if other friendly units are\nalso within Engagement Range of\nthe same enemy unit. Each time a\nMonster or Vehicle model makes a\nranged attack, if its unit was within\nEngagement Range of one or more\nenemy units when it selected its\ntargets, unless that attack is made\nwith a Pistol (pg 25), subtract 1\nfrom that attack’s Hit roll.\nYou can select an enemy Monster\nor Vehicle unit within Engagement\nRange of one or more units from\nyour army as a target of ranged\nweapons. Each time a model from\nyour army makes a ranged attack\nagainst such a target, unless that\nattack is made with a Pistol, subtract\n1 from that attack’s Hit roll.\nDesigner’s Note: A unit that is\nwithin Engagement Range of an\nenemy Monster or Vehicle unit\nis still not eligible to shoot, and so\ncannot make ranged attacks against\nthat Monster or Vehicle unit (unless\nthat unit is eligible to shoot even\nwhile within Engagement Range of\nenemy units, e.g. it is itself a Monster\nor Vehicle unit, or its models are…",
+        "link": "https://assets.warhammer-community.com/warhammer40000_core&key_corerules_eng_24.09-5xfayxjekm.pdf"
+      },
+      {
+        "category": "Shooting",
+        "title": "STEALTH",
+        "body": "Some warriors are masters of disguise and concealment.\nIf every model in a unit has this ability, then each time\na ranged attack is made against it, subtract 1 from that\nattack’s Hit roll.",
+        "link": "https://assets.warhammer-community.com/warhammer40000_core&key_corerules_eng_24.09-5xfayxjekm.pdf"
+      },
+      {
+        "category": "Shooting",
+        "title": "MAKING ATTACKS",
+        "body": "Attacks are made using ranged or melee weapons. Attacks can be made one at a time or, in some cases,\nyou can roll for multiple attacks together (see Fast Dice Rolling, page 24).",
+        "link": "https://assets.warhammer-community.com/warhammer40000_core&key_corerules_eng_24.09-5xfayxjekm.pdf"
+      },
+      {
+        "category": "Shooting",
+        "title": "INVULNERABLE SAVES",
+        "body": "Whether shielded by force fields,\nenveloped in mystical energies or\nsimply possessed of preternatural\nsenses and lightning-fast reflexes,\nsome warriors are protected by more\nthan mere physical armour.\nSome models have an invulnerable\nsave listed on their datasheet. Each\ntime an attack is allocated to a\nmodel with an invulnerable save,\nthe controlling player must choose\nto use either that model’s Save\ncharacteristic or its invulnerable\nsave, but not both. If a model has\nmore than one invulnerable save, it\ncan only use one of them – choose\nwhich it will use.\nUnlike armour saving throws (which\nuse a model’s Save characteristic),\ninvulnerable saving throws are never\nmodified by an attack’s Armour\nPenetration characteristic, but\notherwise follow the normal rules\nfor saving throws.\n■\u0007Invulnerable Save: Never\nmodified by an attack’s AP.\n■\u0007The controlling player can\nchoose to use either a\nmodel’s invulnerable save or\nits Save characteristic.",
+        "link": "https://assets.warhammer-community.com/warhammer40000_core&key_corerules_eng_24.09-5xfayxjekm.pdf"
+      },
+      {
+        "category": "Shooting",
+        "title": "MORTAL WOUNDS",
+        "body": "Some attacks are so powerful that no\narmour or force field can withstand\ntheir fury.\nSome attacks inflict mortal wounds.\nEach mortal wound inflicts one\npoint of damage on the target unit,\nand they are always applied one\nat a time. Do not make a Wound\nroll or saving throw (including\ninvulnerable saving throws) against\na mortal wound – just allocate it\nas you would any other attack and\ninflict damage to a model in the\ntarget unit as described on the right.\nUnlike damage inflicted by normal\nattacks, excess damage from mortal\nwounds is not lost if the damage\ncan be allocated to another model.\nInstead, keep allocating damage to\nanother model in the target unit\nuntil either all the damage has\nbeen allocated or the target unit\nis destroyed.\nIf, when a unit is selected to shoot or\nfight, one or more of its attacks can\ninflict mortal wounds on the target,\nresolve any normal damage inflicted\nby the attacking unit’s attacks on that\ntarget before inflicting any mortal\nwounds on that target. If an attack\ninflicts mortal wounds in addition to\nany normal damage, but the normal\ndamage is subsequently saved, the\ntarget unit still suffers those mortal\nwounds, as described above.\n■\u0007Each mortal wound inflicted\non a unit causes one model in\nthat unit to lose one wound.\n■\u0007No saving throws can be\nmade against mortal wounds.\n■\u0007Mortal wounds inflicted by\nattacks always apply after…",
+        "link": "https://assets.warhammer-community.com/warhammer40000_core&key_corerules_eng_24.09-5xfayxjekm.pdf"
+      },
+      {
+        "category": "Shooting",
+        "title": "FEEL NO PAIN",
+        "body": "Some warriors refuse to be laid low, even by what should be\nfatal wounds.\nSome models have ‘Feel No Pain x+’ listed in their abilities.\nEach time a model with this ability suffers damage and so\nwould lose a wound (including wounds lost due to mortal\nwounds), roll one D6: if the result is greater than or equal\nto the number denoted by ‘x’, that wound is ignored and is\nnot lost. If a model has more than one Feel No Pain ability,\nyou can only use one of those abilities each time that model\nsuffers damage and so would lose a wound.\n■\u0007Feel No Pain x+: Each time this model would lose a\nwound, roll one D6: if the result equals or exceeds ‘x’,\nthat wound is not lost.",
+        "link": "https://assets.warhammer-community.com/warhammer40000_core&key_corerules_eng_24.09-5xfayxjekm.pdf"
+      },
+      {
+        "category": "Shooting",
+        "title": "DEADLY DEMISE",
+        "body": "From detonating ammo stores to corrosive innards or\nfrenzied death throes, some targets are deadly even in defeat.\nSome models have ‘Deadly Demise x’ listed in their\nabilities. When such a model is destroyed, roll one\nD6 before removing it from play (if such a model is a\nTransport, roll before any embarked models disembark).\nOn a 6, each unit within 6\" of that model suffers a number\nof mortal wounds denoted by ‘x’ (if this is a random\nnumber, roll separately for each unit within 6\").\nExample: A Transport model with the Deadly Demise D3\nability is destroyed. Before any models disembark and\nbefore removing it from play, its controlling player rolls\none D6, getting a 6. There are three units within 6\" of that\ndestroyed model, so its controlling player rolls one D3 for\neach of them, inflicting mortal wounds accordingly.\n■\u0007Deadly Demise x: When this model is destroyed,\nroll one D6. On a 6, each unit within 6\" suffers\n‘x’ mortal wounds.",
+        "link": "https://assets.warhammer-community.com/warhammer40000_core&key_corerules_eng_24.09-5xfayxjekm.pdf"
+      },
+      {
+        "category": "Shooting",
+        "title": "ASSAULT",
+        "body": "Assault weapons fire so indiscriminately that they can\nbe shot from the hip as warriors dash forward.\nWeapons with [ASSAULT] in their profile are known as\nAssault weapons. If a unit that Advanced this turn\ncontains any models equipped with Assault weapons,\nit is still eligible to shoot in this turn’s Shooting\nphase. When such a unit is selected to shoot, you\ncan only resolve attacks using Assault weapons its\nmodels are equipped with.\n■Can be shot even if the bearer’s unit Advanced.",
+        "link": "https://assets.warhammer-community.com/warhammer40000_core&key_corerules_eng_24.09-5xfayxjekm.pdf"
+      },
+      {
+        "category": "Shooting",
+        "title": "RAPID FIRE",
+        "body": "Rapid fire weapons are capable of long-ranged\nprecision shots or controlled bursts at nearby targets.\nWeapons with [RAPID FIRE X] in their profile are known\nas Rapid Fire weapons. Each time such a weapon\ntargets a unit within half that weapon’s range, the\nAttacks characteristic of that weapon is increased by\nthe amount denoted by ‘x’.\nExample: A model targets a unit that is within half\nrange of a weapon with an Attacks characteristic\nof 1 and the [RAPID FIRE 1] ability. That weapon\ntherefore makes two attacks at the target, and you\nmake two Hit rolls.\n■\u0007[RAPID FIRE X]: Increase the Attacks by ‘x’ when\ntargeting units within half range.",
+        "link": "https://assets.warhammer-community.com/warhammer40000_core&key_corerules_eng_24.09-5xfayxjekm.pdf"
+      },
+      {
+        "category": "Shooting",
+        "title": "IGNORES COVER",
+        "body": "Some weapons are designed to root enemy formations\nout of entrenched positions.\nWeapons with [IGNORES COVER] in their profile are\nknown as Ignores Cover weapons. Each time an\nattack is made with such a weapon, the target cannot\nhave the Benefit of Cover against that attack (pg 44).",
+        "link": "https://assets.warhammer-community.com/warhammer40000_core&key_corerules_eng_24.09-5xfayxjekm.pdf"
+      },
+      {
+        "category": "Shooting",
+        "title": "TWIN-LINKED",
+        "body": "Dual weapons are often grafted to the same targeting\nsystem for greater lethality.\nWeapons with [TWIN-LINKED] in their profile are known\nas Twin-linked weapons. Each time an attack is\nmade with such a weapon, you can re-roll that\nattack’s Wound roll.",
+        "link": "https://assets.warhammer-community.com/warhammer40000_core&key_corerules_eng_24.09-5xfayxjekm.pdf"
+      },
+      {
+        "category": "Shooting",
+        "title": "PISTOL",
+        "body": "Pistols can be wielded even at point-blank range.\nWeapons with [PISTOL] in their profile are known as\nPistols. If a unit contains any models equipped with\nPistols, that unit is eligible to shoot in its controlling\nplayer’s Shooting phase even while it is within\nEngagement Range of one or more enemy units.\nWhen such a unit is selected to shoot, it can only\nresolve attacks using its Pistols and can only target\none of the enemy units it is within Engagement\nRange of. In such circumstances, a Pistol can target\nan enemy unit even if other friendly units are within\nEngagement Range of the same enemy unit.\nIf a model is equipped with one or more Pistols,\nunless it is a Monster or Vehicle model, it can either\nshoot with its Pistols or with all of its other ranged\nweapons. Declare whether such a model will shoot\nwith its Pistols or its other ranged weapons before\nselecting targets.\n■\u0007Can be shot even if the bearer’s unit is within\nEngagement Range of enemy units, but must\ntarget one of those enemy units.\n■\u0007Cannot be shot alongside any other non-Pistol\nweapon (except by a Monster or Vehicle).",
+        "link": "https://assets.warhammer-community.com/warhammer40000_core&key_corerules_eng_24.09-5xfayxjekm.pdf"
+      },
+      {
+        "category": "Shooting",
+        "title": "TORRENT",
+        "body": "Torrent weapons shoot clouds of fire, gas or other\nlethal substances that few foes can hope to evade.\nWeapons with [TORRENT] in their profile are known\nas Torrent weapons. Each time an attack is made\nwith such a weapon, that attack automatically hits\nthe target.",
+        "link": "https://assets.warhammer-community.com/warhammer40000_core&key_corerules_eng_24.09-5xfayxjekm.pdf"
+      },
+      {
+        "category": "Shooting",
+        "title": "LETHAL HITS",
+        "body": "Some weapons can inflict fatal injuries on any foe, no\nmatter their resilience.\nWeapons with [LETHAL HITS] in their profile are known\nas Lethal Hits weapons. Each time an attack is made\nwith such a weapon, a Critical Hit automatically\nwounds the target.",
+        "link": "https://assets.warhammer-community.com/warhammer40000_core&key_corerules_eng_24.09-5xfayxjekm.pdf"
+      },
+      {
+        "category": "Shooting",
+        "title": "LANCE",
+        "body": "Lance weapons are deadly on the charge.\nWeapons with [LANCE] in their profile are known as\nLance weapons. Each time an attack is made with\nsuch a weapon, if the bearer made a Charge move\nthis turn, add 1 to that attack’s Wound roll.",
+        "link": "https://assets.warhammer-community.com/warhammer40000_core&key_corerules_eng_24.09-5xfayxjekm.pdf"
+      },
+      {
+        "category": "Shooting",
+        "title": "WEAPON ABILITIES",
+        "body": "Some weapons have additional abilities in their profiles. Often these are unique to those weapons and\nare written out in full, but others are common to many weapons, and may only be referenced by name\non a weapon’s profile. Some notable examples of these common abilities are defined here; further\nweapon abilities may be found in other locations such as Codexes.",
+        "link": "https://assets.warhammer-community.com/warhammer40000_core&key_corerules_eng_24.09-5xfayxjekm.pdf"
+      },
+      {
+        "category": "Shooting",
+        "title": "INDIRECT FIRE",
+        "body": "Indirect fire weapons launch munitions over or around\nintervening obstacles – nowhere is safe from their fury.\nWeapons with [INDIRECT FIRE] in their profile are\nknown as Indirect Fire weapons, and attacks can be\nmade with them even if the target is not visible to the\nattacking model. These attacks can destroy enemy\nmodels in a target unit even though none may have\nbeen visible to the attacking unit when you selected\nthat target.\nIf no models in a target unit are visible to the\nattacking unit when you select that target, then each\ntime a model in the attacking unit makes an attack\nagainst that target using an Indirect Fire weapon,\nsubtract 1 from that attack’s Hit roll and the target\nhas the Benefit of Cover against that attack (pg 44).\nExample: An enemy unit is targeted by an\nattacking model equipped with a weapon with the\n[INDIRECT FIRE] ability. No models in the target unit\nare visible to the attacking model, so when resolving\nthe attacks made with that weapon, subtract 1\nfrom that attack’s Hit roll and each time an attack\nis allocated to a model in the target unit, it has the\nBenefit of Cover against that attack.\n■\u0007Can target and make attacks against units that\nare not visible to the attacking unit.\n■\u0007If no models are visible in a target unit when\nit is selected, then when making an attack\nagainst that target with an Indirect Fire…",
+        "link": "https://assets.warhammer-community.com/warhammer40000_core&key_corerules_eng_24.09-5xfayxjekm.pdf"
+      },
+      {
+        "category": "Shooting",
+        "title": "PRECISION",
+        "body": "Precision attacks can pick high-value targets out in a\ncrowd, whether through the unerring aim of a sniper\nor the pinpoint accuracy of a blade-master’s strike.\nWeapons with [PRECISION] in their profile are known\nas Precision weapons. Each time an attack made with\nsuch a weapon successfully wounds an Attached unit\n(pg 39), if a Character model in that unit is visible\nto the attacking model, the attacking model’s player\ncan choose to have that attack allocated to that\nCharacter model instead of following the normal\nattack sequence.\n■\u0007When targeting an Attached unit, the attacking\nmodel’s player can have the attack allocated\nto a Character model in that unit visible to\nthe bearer.",
+        "link": "https://assets.warhammer-community.com/warhammer40000_core&key_corerules_eng_24.09-5xfayxjekm.pdf"
+      },
+      {
+        "category": "Shooting",
+        "title": "BLAST",
+        "body": "High-explosives can fell several warriors in a single\nblast, but firing them where your comrades will get\ncaught in the ensuing detonation is simply unwise.\nWeapons with [BLAST] in their profile are known as\nBlast weapons, and they make a random number of\nattacks. Each time you determine how many attacks\nare made with a Blast weapon, add 1 to the result for\nevery five models that were in the target unit when\nyou selected it as the target (rounding down). Blast\nweapons can never be used to make attacks against a\nunit that is within Engagement Range of one or more\nunits from the attacking model’s army (including its\nown unit).\nExample: If a weapon with the [BLAST] ability and\nan Attacks characteristic of 2D6 targets a unit that\ncontains 11 models, and the roll to determine how\nmany attacks are made is a 9, a total of 11 attacks\nwould be made against that unit.\n■\u0007Add 1 to the Attacks characteristic for every\nfive models in the target unit (rounding down).\n■\u0007Can never be used against a target that is\nwithin Engagement Range of any units from the\nattacking model’s army (including its own).",
+        "link": "https://assets.warhammer-community.com/warhammer40000_core&key_corerules_eng_24.09-5xfayxjekm.pdf"
+      },
+      {
+        "category": "Shooting",
+        "title": "MELTA",
+        "body": "Melta weapons are powerful heat rays whose fury is\nmagnified at close range.\nWeapons with [MELTA X] in their profile are known\nas Melta weapons. Each time an attack made\nwith such a weapon targets a unit within half that\nweapon’s range, that attack’s Damage characteristic is\nincreased by the amount denoted by ‘x’.\nExample: A model targets a unit that is within half\nrange of a weapon with a Damage characteristic\nof D6 and the [MELTA 2] ability. If that attack inflicts\ndamage on the target, it inflicts D6+2 damage.\n■\u0007[MELTA X]: Increase the Damage by ‘x’ when\ntargeting units within half range.",
+        "link": "https://assets.warhammer-community.com/warhammer40000_core&key_corerules_eng_24.09-5xfayxjekm.pdf"
+      },
+      {
+        "category": "Shooting",
+        "title": "HEAVY",
+        "body": "Heavy weapons are amongst the biggest guns on the\nbattlefield, but require bracing to fire at full effect and\nare unwieldy to bring to bear at close quarters.\nWeapons with [HEAVY] in their profile are known\nas Heavy weapons. Each time an attack is made\nwith such a weapon, if the attacking model’s unit\nRemained Stationary this turn, add 1 to that attack’s\nHit roll.\n■\u0007Add 1 to Hit rolls if the bearer’s unit Remained\nStationary this turn.",
+        "link": "https://assets.warhammer-community.com/warhammer40000_core&key_corerules_eng_24.09-5xfayxjekm.pdf"
+      },
+      {
+        "category": "Shooting",
+        "title": "HAZARDOUS",
+        "body": "Weapons powered by unstable and dangerous energy\nsources pose a substantial risk to the wielder every\ntime they are used.\nWeapons with [HAZARDOUS] in their profile are known\nas Hazardous weapons. Each time a unit is selected\nto shoot or fight, if one or more models attack with\nHazardous weapons, then after that unit has resolved\nall of its attacks, you must take one Hazardous\ntest for each Hazardous weapon that was just used\nby rolling one D6. For each roll of 1, that test is\nfailed and one model in that unit equipped with\na Hazardous weapon is destroyed (selected by the\ncontrolling player), unless that model is a Character,\nMonster or Vehicle, in which case it suffers 3\nmortal wounds instead. Note that if you selected a\nCharacter model in an Attached unit, the mortal\nwounds suffered must be allocated to that model\nfirst, even if there is another model in that unit that\nhas lost one or more wounds or has had attacks\nallocated to it this phase.\nExample: A unit of five models make five attacks\nwith ranged weapons with the [HAZARDOUS] ability.\nAfter the unit has finished shooting, its controlling\nplayer rolls five D6. One of the results is a 1, and as\nno models in the unit are Characters, Monsters or\nVehicles, one of those models is destroyed.\n■\u0007After a unit shoots or fights, roll one Hazardous\ntest (one D6) for each Hazardous weapon\nused. For each 1, one model equipped with a…",
+        "link": "https://assets.warhammer-community.com/warhammer40000_core&key_corerules_eng_24.09-5xfayxjekm.pdf"
+      },
+      {
+        "category": "Shooting",
+        "title": "DEVASTATING WOUNDS",
+        "body": "Some weapons can inflict strikes of such power that\nthey make a mockery of armour and can cleave\nthrough several foes.\nWeapons with [DEVASTATING WOUNDS] in their profile\nare known as Devastating Wounds weapons. Each\ntime an attack is made with such a weapon, a Critical\nWound inflicts a number of mortal wounds on the\ntarget equal to the Damage characteristic of that\nweapon and the attack sequence ends.\nExample: An attack made with a Devastating\nWounds weapon with a Damage characteristic of\n2 scores a Critical Wound. Instead of allocating\nthe attack and making saving throws normally, the\ntarget suffers 2 mortal wounds.\n■\u0007A Critical Wound inflicts mortal wounds equal to\nthe weapon’s Damage characteristic, instead of\nany normal damage.",
+        "link": "https://assets.warhammer-community.com/warhammer40000_core&key_corerules_eng_24.09-5xfayxjekm.pdf"
+      },
+      {
+        "category": "Shooting",
+        "title": "SUSTAINED HITS",
+        "body": "Some weapons strike in a flurry of blows, tearing the\nfoe apart with relentless ferocity.\nWeapons with [SUSTAINED HITS X] in their profile are\nknown as Sustained Hits weapons. Each time an\nattack is made with such a weapon, if a Critical Hit is\nrolled, that attack scores a number of additional hits\non the target as denoted by ‘x’.\nExample: A model makes an attack with a melee\nweapon with the [SUSTAINED HITS 2] ability. If the\nHit roll is an unmodified 6 (a Critical Hit), then\nthat attack scores a total of 3 hits on the target (1\nfrom the successful Hit roll of 6, and 2 from the\n[SUSTAINED HITS 2] ability).\n■\u0007[SUSTAINED HITS X]: Each Critical Hit scores ‘x’\nadditional hits on the target.",
+        "link": "https://assets.warhammer-community.com/warhammer40000_core&key_corerules_eng_24.09-5xfayxjekm.pdf"
+      },
+      {
+        "category": "Shooting",
+        "title": "EXTRA ATTACKS",
+        "body": "Some warriors ride to battle atop trusty mounts that\ngore and trample nearby foes. Others wield combat\nweapons that deliver a frenzy of additional blows.\nWeapons with [EXTRA ATTACKS] in their profile are\nknown as Extra Attacks weapons. Each time the\nbearer of such a weapon fights, it can make attacks\nwith that weapon in addition to the one it chooses\nto fight with. The number of attacks made with\nan Extra Attacks weapon cannot be modified by\nother rules.\n■\u0007The bearer can attack with this weapon in\naddition to any other weapons it can make\nattacks with.",
+        "link": "https://assets.warhammer-community.com/warhammer40000_core&key_corerules_eng_24.09-5xfayxjekm.pdf"
+      },
+      {
+        "category": "Shooting",
+        "title": "ANTI",
+        "body": "Certain weapons are the bane of a particular foe.\nWeapons with [ANTI-KEYWORD X+] in their profile are\nknown as Anti weapons. Each time an attack is\nmade with such a weapon against a target with\nthe keyword after the word ‘Anti-’, an unmodified\nWound roll of ‘x+’ scores a Critical Wound.\nExample: An attack made with an [ANTI-VEHICLE 4+]\nweapon will score a Critical Wound against – and\nso successfully wound – a Vehicle unit on an\nunmodified Wound roll of 4+, while an attack made\nwith an [ANTI-PSYKER 2+] weapon will score a Critical\nWound against – and so successfully wound – a\nPsyker unit on an unmodified Wound roll of 2+.\n■\u0007[ANTI-KEYWORD X+]: An unmodified Wound roll of\n‘x+’ against a target with the matching keyword\nscores a Critical Wound.",
+        "link": "https://assets.warhammer-community.com/warhammer40000_core&key_corerules_eng_24.09-5xfayxjekm.pdf"
+      }
+    ],
+    "charge": [
+      {
+        "category": "Charge",
+        "title": "CHARGING WITH A UNIT",
+        "body": "Once you have selected an eligible unit to declare a charge, you\nmust select one or more enemy units within 12\" of it as the\ntargets of that charge. The targets of a charge do not need to be\nvisible to the charging unit.\nYou then make a Charge roll for the charging unit by rolling\n2D6. The result is the maximum number of inches each model\nin that unit can be moved if a Charge move is possible. For a\nCharge move to be possible, the Charge roll must be sufficient to\nenable the charging unit to end that move:\n\n■\u0007Within Engagement Range of every unit that you selected as a\ntarget of the charge.\n\n■\u0007Without moving within Engagement Range of any enemy\nunits that were not a target of the charge.\n\n■In Unit Coherency.\nIf any of these conditions cannot be met, the charge fails and\nno models in the charging unit move this phase. Otherwise, the\ncharge is successful and the models in the charging unit make\na Charge move – move each model a distance in inches up to\nthe result of the Charge roll. When doing so, each model in the\ncharging unit must end its Charge move closer to one of the\nunits selected as a target of its charge. If you can also move a\ncharging model so that it ends its Charge move in base-to-base\ncontact with one or more enemy models while still enabling the\ncharging unit to end its move satisfying all of the conditions…",
+        "link": "https://assets.warhammer-community.com/warhammer40000_core&key_corerules_eng_24.09-5xfayxjekm.pdf"
+      },
+      {
+        "category": "Charge",
+        "title": "CHARGE PHASE",
+        "body": "Warriors hurl themselves into battle to slay with blade, hammer and claw. Strident war cries and frantic\nscreams echo through the whirling smoke as the moment of cataclysmic violence draws near.\nUse the following sequence to\ncharge with your units.\nSELECT ELIGIBLE UNIT\nSELECT TARGETS\nMAKE CHARGE ROLL\nMAKE CHARGE MOVE\nREPEAT FOR NEXT\nELIGIBLE UNIT",
+        "link": "https://assets.warhammer-community.com/warhammer40000_core&key_corerules_eng_24.09-5xfayxjekm.pdf"
+      },
+      {
+        "category": "Charge",
+        "title": "CHARGE BONUS",
+        "body": "Many warriors thunder headlong\ninto combat, using the impetus of\ntheir charge to bring swift death to\ntheir foes.\nEach time a unit makes a Charge\nmove, until the end of the turn,\nthat unit has the Fights First\nability (pg 32).",
+        "link": "https://assets.warhammer-community.com/warhammer40000_core&key_corerules_eng_24.09-5xfayxjekm.pdf"
+      },
+      {
+        "category": "Charge",
+        "title": "CHARGING OVER TERRAIN",
+        "body": "Unless otherwise stated, a model can be moved\nover a terrain feature when it makes a Charge\nmove, but not through it.\nA model can be moved over terrain features that\nare 2\" or less in height as if they were not there. A\nmodel can be moved vertically in order to climb\nup, down and over any terrain features that are\ntaller than this, counting the vertical distance up\nand/or down as part of its Charge move. Models\ncannot end a Charge move mid-climb – if it is not\npossible to make a Charge move as a result, the\ncharge fails.\n■\u0007Models can be moved freely over terrain\nfeatures 2\" or less in height.\n■\u0007Models cannot move through terrain\nfeatures taller than 2\", but can climb up and\ndown them.",
+        "link": "https://assets.warhammer-community.com/warhammer40000_core&key_corerules_eng_24.09-5xfayxjekm.pdf"
+      },
+      {
+        "category": "Charge",
+        "title": "CHARGING WITH FLYING MODELS",
+        "body": "When a model that can Fly starts or ends a Charge\nmove on a terrain feature, instead of measuring\nthe path it has moved across the battlefield, you\ninstead measure its path ‘through the air’. In\naddition, it can be moved over other models as if\nthey were not there. A model that can Fly cannot\nend any move on top of another model.\n■\u0007Fly models can move over other models\nwhen they make a Charge move.\n■\u0007Fly models that start or end a Charge move\non a terrain feature measure distance\nmoved through the air when they make a\nCharge move.\nThe Von Ryan’s Leaper\ndeclares a charge against\nthe Eradicators, who are\non top of a terrain feature\n3\" in height. The horizontal\ndistance between the two\nunits when the charge is\ndeclared is 4 1/2\". To end\na Charge move within\nEngagement Range, the\nTyranids player would need\na Charge roll of 7 or higher.\nThe Tyranid Prime is selected to declare\na charge, and targets the Sternguard\nVeterans on top of the ruin. The Tyranids\nplayer rolls 10\" for the Charge roll,\nallowing the Tyranid Prime to move within\nEngagement Range of its target.\nNote that as the Tyranid Prime can Fly, it\ncan move over the Terminators, and the\ndistance moved is the diagonal distance\nthrough the air.",
+        "link": "https://assets.warhammer-community.com/warhammer40000_core&key_corerules_eng_24.09-5xfayxjekm.pdf"
+      }
+    ],
+    "fight": [
+      {
+        "category": "Fight",
+        "title": "FIGHT PHASE",
+        "body": "Carnage engulfs the battlefield as the warring armies meet head-on. Fangs and claws crunch through\nbone. Blades ring like hammers on anvils. Blood spurts and flesh tears as hate-filled foes tear one\nanother apart.\nIn both steps of the Fight phase, players alternate selecting\neligible units from their army, one at a time, starting with the\nplayer whose turn is not taking place, and fighting with them.\nNote that a player cannot pass or opt not to fight when they\nhave one or more eligible units that could fight – they must\nselect one of them to fight.\nIn both steps, a unit is eligible to fight if either or both of the\nfollowing apply:\n\n■\u0007It is within Engagement Range of one or more enemy units.\n\n■It made a Charge move this turn.\n\nNo unit can fight more than once in the Fight phase. In each\nstep, if all of one player’s eligible units that can fight during that\nstep have fought, the opposing player can then fight with all of\ntheir remaining eligible units that can fight during that step, one\nat a time.\nOnce neither player has any eligible units to fight with during\nthe current step, you progress to the next step. Once all eligible\nunits have fought in every step, the Fight phase ends. The\nplayer’s turn then ends and, unless the battle ends, the next\nplayer’s turn begins.\nNote that after an enemy unit has fought and finished its…",
+        "link": "https://assets.warhammer-community.com/warhammer40000_core&key_corerules_eng_24.09-5xfayxjekm.pdf"
+      },
+      {
+        "category": "Fight",
+        "title": "FIGHTS FIRST",
+        "body": "Some warriors attack with blinding speed, landing their\nblows before their foes can react.\nUnits with this ability that are eligible to fight do so in the\nFights First step, provided every model in the unit has\nthis ability.",
+        "link": "https://assets.warhammer-community.com/warhammer40000_core&key_corerules_eng_24.09-5xfayxjekm.pdf"
+      },
+      {
+        "category": "Fight",
+        "title": "WHICH MODELS FIGHT",
+        "body": "When a unit makes its melee attacks, only models in that unit\nthat are either within Engagement Range of an enemy unit, or\nin base-to-base contact with another model from their own\nunit that is itself in base-to-base contact with an enemy unit,\ncan fight.\n■\u0007A model can fight if it is within Engagement Range of an\nenemy unit.\n■\u0007A model can fight if it is in base-to-base contact\nwith another model from its own unit that is itself in\nbase-to-base contact with an enemy unit.\nSELECT WEAPON\nWhen a model fights, it must do so using a melee weapon it\nis equipped with. The weapons a model is equipped with are\ndescribed on its datasheet. If a model has more than one melee\nweapon, it can only use one of them to make attacks with each\ntime it fights, so you must now declare which it will use before\nresolving any of its attacks.\nUse the following sequence when a\nunit fights.\nPILE IN\nMAKE MELEE ATTACKS\nSelect weapon\nSelect targets\nMake attacks\nCONSOLIDATE",
+        "link": "https://assets.warhammer-community.com/warhammer40000_core&key_corerules_eng_24.09-5xfayxjekm.pdf"
+      },
+      {
+        "category": "Fight",
+        "title": "FIGHT",
+        "body": "When you select a unit to fight, it first Piles In, then its models make melee attacks, then the\nunit Consolidates.",
+        "link": "https://assets.warhammer-community.com/warhammer40000_core&key_corerules_eng_24.09-5xfayxjekm.pdf"
+      }
+    ],
+    "terrain": [
+      {
+        "category": "Terrain",
+        "title": "TERRAIN FEATURES",
+        "body": "Battlefields are populated with terrain features that\nyour models will need to move over or around,\nand which can partially or fully block line of sight\nbetween models. The rules on the following pages\napply to the most common terrain features on the\nbattlefields of the 41st Millennium. Unless otherwise\nstated, models can move up, over and down terrain\nfeatures following the normal rules for movement.\nMany terrain features follow the normal rules for\ndetermining visibility between models (pg 8), but\nsome interact differently; in either case, this is stated\non the following pages. Terrain features cannot be\nselected as the target of an attack.\nBENEFIT OF COVER\nShattered ruins and twisted wreckage afford\nmuch-needed shelter from enemy salvoes. Even heavily\narmoured warriors unfazed by small arms fire are\nthankful for such cover when foes bring their biggest\nguns to bear.\nModels can sometimes gain a measure of protection\nfrom terrain features. The rules on pages 45-48 detail\nthe conditions under which a terrain feature confers\nthe Benefit of Cover on a model.\nEach time a ranged attack is allocated to a model\nthat has the Benefit of Cover, add 1 to the saving\nthrow made for that attack (excluding invulnerable\nsaving throws). Models with a Save characteristic\nof 3+ or better cannot have the Benefit of Cover\nagainst attacks with an Armour Penetration…",
+        "link": "https://assets.warhammer-community.com/warhammer40000_core&key_corerules_eng_24.09-5xfayxjekm.pdf"
+      },
+      {
+        "category": "Terrain",
+        "title": "CRATERS AND RUBBLE",
+        "body": "Many battlefields bear the scars of heavy and sustained bombardment.\nMOVEMENT\n\u0007Models can be moved over this terrain feature, as\ndescribed on page 15.\nVISIBILITY\nNormal visibility rules apply.\nBENEFIT OF COVER\nEach time a ranged attack is allocated to an Infantry\nmodel that is wholly on top of this terrain feature, that\nmodel has the Benefit of Cover against that attack.\nKEYWORDS: Area Terrain, Crater",
+        "link": "https://assets.warhammer-community.com/warhammer40000_core&key_corerules_eng_24.09-5xfayxjekm.pdf"
+      },
+      {
+        "category": "Terrain",
+        "title": "BARRICADES AND FUEL PIPES",
+        "body": "Fuel pipes and purpose-made defence lines are excellent positions from which to repel the enemy.\nMOVEMENT\nModels can move up, over and down this terrain feature,\nbut they cannot be set up or end any kind of move on\ntop of it.\nVISIBILITY\nNormal visibility rules apply.",
+        "link": "https://assets.warhammer-community.com/warhammer40000_core&key_corerules_eng_24.09-5xfayxjekm.pdf"
+      },
+      {
+        "category": "Terrain",
+        "title": "ENGAGEMENT RANGE",
+        "body": "• \u0007In the Charge phase, if an enemy unit is within 1\" of\nthis terrain feature, a charging unit on the opposite\nside of this terrain feature can still make a Charge\nmove against that enemy unit provided it ends that\nCharge move as close as possible to this terrain\nfeature and within 2\" of that enemy unit.\n• \u0007In the Fight phase, units are eligible to fight – and\nmodels can make attacks – if their target is on the\nopposite side of this terrain feature and within 2\"\nof them.\nBENEFIT OF COVER\nEach time a ranged attack is allocated to an Infantry\nmodel that is wholly within 3\" of this terrain feature,\nif that model is not fully visible to every model in the\nattacking unit because of this terrain feature, that model\nhas the Benefit of Cover against that attack.\nKEYWORDS: Obstacle, Barricade",
+        "link": "https://assets.warhammer-community.com/warhammer40000_core&key_corerules_eng_24.09-5xfayxjekm.pdf"
+      },
+      {
+        "category": "Terrain",
+        "title": "BATTLEFIELD DEBRIS AND STATUARY",
+        "body": "Discarded industrial machinery, power reactors, ancient statuary and other detritus of war litter the battlefields of the 41st Millennium.\nMOVEMENT\nModels can move up, over and down this terrain feature,\nbut they cannot be set up or end any kind of move on\ntop of it.\nVISIBILITY\nNormal visibility rules apply.\nBENEFIT OF COVER\nEach time a ranged attack is allocated to a model, if that\nmodel is not fully visible to every model in the attacking\nunit because of this terrain feature, that model has the\nBenefit of Cover against that attack.\nKEYWORDS: Obstacle, Battlefield Debris\nHILLS, INDUSTRIAL STRUCTURES, SEALED BUILDINGS\nAND ARMOURED CONTAINERS\nA sealed bunker, Mechanicus gantry-way, armoured container or even a simple hill can shelter troops\nfrom the enemy’s sight and provide a superior vantage point to those atop it.\nMOVEMENT\nThese terrain features are raised areas that models can\nbe set up on top of or end a move on top of, provided\nthe model’s base does not overhang the terrain feature\n(if the model does not have a base, no part of that\nmodel that would be in contact with the battlefield\nat ground level can overhang that terrain feature). In\naddition, other terrain features can be set up on top of\na Hill terrain feature, provided no part of those terrain\nfeatures overhangs that Hill terrain feature.\nVISIBILITY\nNormal visibility rules apply.\nBENEFIT OF COVER…",
+        "link": "https://assets.warhammer-community.com/warhammer40000_core&key_corerules_eng_24.09-5xfayxjekm.pdf"
+      },
+      {
+        "category": "Terrain",
+        "title": "WOODS",
+        "body": "Twisted woodlands and alien flora grow on many corpse-strewn battlefields, obscuring lines of fire and slowing the advance.",
+        "link": "https://assets.warhammer-community.com/warhammer40000_core&key_corerules_eng_24.09-5xfayxjekm.pdf"
+      },
+      {
+        "category": "Terrain",
+        "title": "FOOTPRINT",
+        "body": "When this terrain feature is set up\non the battlefield, both players must\nagree upon its footprint – that is, the\nboundary of the terrain feature at\nground level. This is so that players\nknow when a model is wholly within\nthis terrain feature. If this terrain\nfeature is mounted on a base, then this\nwill define its footprint.\nMOVEMENT\n\u0007Models can be moved over this terrain\nfeature, as described on page 15.\nVISIBILITY\nModels and units that are wholly\nwithin this terrain feature are never\nconsidered to be fully visible to an\nobserving model. Similarly, if a model\nthat is not wholly within this terrain\nfeature must look through or over this\nterrain feature in order to draw line\nof sight to another model, then that\nother model is never considered to be\nfully visible to that observing model,\nand so it will have the Benefit of Cover\nfrom this terrain feature. Aircraft\nand Towering models are exceptions\nto this – visibility to and from such\nmodels is determined normally,\neven if this terrain feature is wholly\nin between them and the observing\nmodel. Models that are wholly within\nthis terrain feature can see out of\nit normally.\nBENEFIT OF COVER\nEach time a ranged attack is allocated\nto a model, if that model is either\nwholly within this terrain feature, or it\nis not fully visible to every model in the\nattacking unit because of this terrain\nfeature, that model has the Benefit of…",
+        "link": "https://assets.warhammer-community.com/warhammer40000_core&key_corerules_eng_24.09-5xfayxjekm.pdf"
+      },
+      {
+        "category": "Terrain",
+        "title": "RUINS",
+        "body": "The galaxy is littered with the shattered remains of once-proud cities, and countless troops have sought shelter from enemy\nbombardment within their husks.",
+        "link": "https://assets.warhammer-community.com/warhammer40000_core&key_corerules_eng_24.09-5xfayxjekm.pdf"
+      },
+      {
+        "category": "Terrain",
+        "title": "PLUNGING FIRE",
+        "body": "Each time a model that is wholly within\nthis terrain feature makes a ranged\nattack, if that model is 6\" or more\nvertically from ground level, and every\nmodel in the target unit is at ground\nlevel, improve the Armour Penetration\ncharacteristic of that attack by 1.\nMOVEMENT\n• \u0007Infantry and Beast models can\nmove through this terrain feature\n(walls, floors, ceilings, gantries,\nchains, etc.) as if it were not there.\nA model cannot end a move within a\nwall, a floor, etc.\n• \u0007Infantry, Beasts and Fly models\ncan be set up or end a move on any\nfloor level of this terrain feature, but\nif that level is not the ground floor,\nsuch models can only do so if their\nbase does not overhang the floor at\nthat level (if a model does not have a\nbase, no part of that model that would\nbe in contact with the battlefield at\nground level can overhang that floor).\nAll other models can only be set up or\nend a move on the ground floor of this\nterrain feature.\nVISIBILITY\nModels cannot see over or through\nthis terrain feature (i.e. a unit outside\nthis terrain feature cannot draw line\nof sight to a target on the other side of\nit, even if it would be possible to draw\nline of sight to that target through\nopen windows, doors, etc.). Aircraft\nand Towering models are exceptions\nto this – visibility to and from such\nmodels is determined normally,\neven if this terrain feature is wholly…",
+        "link": "https://assets.warhammer-community.com/warhammer40000_core&key_corerules_eng_24.09-5xfayxjekm.pdf"
+      }
+    ],
+    "missions": [
+      {
+        "category": "Chapter Approved",
+        "title": "Secondary draw (Tactical)",
+        "body": "At the start of your first Command phase, draw two Tactical secondary cards; they stay active until scored. Each subsequent Command phase, if you have fewer than two active cards, draw until you have two. Maximum 40 VP from secondaries per game; 15 VP per battle round. Fixed missions: 20 VP cap per card.",
+        "link": "https://assets.warhammer-community.com/eng_4-xglmycxyvf.pdf"
+      },
+      {
+        "category": "Chapter Approved",
+        "title": "Battle Ready (+10 VP)",
+        "body": "Each player scores 10 VP if their army is painted to Battle Ready standard (Tournament Companion).",
+        "link": "https://assets.warhammer-community.com/eng_4-xglmycxyvf.pdf"
+      },
+      {
+        "category": "Chapter Approved",
+        "title": "Tournament Sequence",
+        "body": ": Adjustments to\nthe steps players would normally follow to generate a mission and\nprepare the battlefield.\n\n• ■\u0007",
+        "link": "https://assets.warhammer-community.com/eng_4-xglmycxyvf.pdf"
+      },
+      {
+        "category": "Chapter Approved",
+        "title": "Fixed Missions",
+        "body": ", they\nmust also note down which two Fixed Missions they will\nuse (see below). Players then reveal these decisions and\nproceed accordingly.\nFIXED MISSIONS\nFixed Missions are goals that remain throughout the battle, and can\nbe achieved multiple times.\nFixed Missions are those marked with the symbol shown on\nthe left. After revealing the two Fixed Missions you will use, set\naside the remainder of your Secondary Mission deck (it will not\nbe needed during the battle). Your selected Fixed Mission cards\ncannot be discarded for any reason other than the Adapt or Die\nMission Rule card.",
+        "link": "https://assets.warhammer-community.com/eng_4-xglmycxyvf.pdf"
+      },
+      {
+        "category": "Chapter Approved",
+        "title": "Tactical Missions",
+        "body": "Players now secretly note down whether they will use\nFixed or Tactical Missions; if using Fixed Missions, they\nmust also note down which two Fixed Missions they will\nuse (see below). Players then reveal these decisions and\nproceed accordingly.\nFIXED MISSIONS\nFixed Missions are goals that remain throughout the battle, and can\nbe achieved multiple times.\nFixed Missions are those marked with the symbol shown on\nthe left. After revealing the two Fixed Missions you will use, set\naside the remainder of your Secondary Mission deck (it will not\nbe needed during the battle). Your selected Fixed Mission cards\ncannot be discarded for any reason other than the Adapt or Die\nMission Rule card.\nTACTICAL MISSIONS\nTactical Missions are replenished at the start of your Command\nphase, and are discarded once achieved.\nAfter revealing that you will use Tactical Missions, shuffle your\nSecondary Mission deck.\nIf you are using Tactical Missions:\n\n• ■\u0007At the start of your first Command phase, draw two cards from your\nSecondary Mission deck; those two Secondary Mission cards are\nactive for you until you achieve them. At the start of each of your\nsubsequent Command phases, if you have fewer than two active\nSecondary Mission cards, draw from your Secondary Mission deck\nuntil you have two active Secondary Mission cards.\u0007\n\n• ■\u0007At the end of your Command phase, you can spend CP to use the",
+        "link": "https://assets.warhammer-community.com/eng_4-xglmycxyvf.pdf"
+      },
+      {
+        "category": "Chapter Approved",
+        "title": "VP Limits",
+        "body": "each player can score is 100VP. Each\nplayer scores 10VP if their army is painted to a Battle Ready\nstandard. The maximum VP that can be scored from each\nsource of VP is detailed on below. In all cases, any excess VP\nawarded above these maximums are lost.\nVP SOURCE\nMAXIMUM VP\nPrimary Mission\n50VP\n90VP**\nSecondary Missions\n40VP*\nChallenger cards\n12VP\nBattle Ready Army\n10VP\n10VP\n* If using Fixed Missions, 20VP maximum per Fixed Mission card.\n** You cannot score more than 90VP for your Primary Mission,\nSecondary Missions and Challenger cards combined.\nDESIGNER’S NOTES\nVP FOR DESTROYING MODELS OR UNITS\nSome cards award VP for destroying enemy models or units. If\nyou gain VP as described on such cards, you retain those VP even\nif those destroyed models or units are subsequently returned to\nthe battlefield.\nVP UP TO A LIMIT\nSome cards award VP up to a stated limit, which may not be a round\nmultiple, e.g. ‘2VP (up to 5VP)’. In such cases, you can keep scoring\nup to the stated limit, then any excess VP awarded are lost.\nDISCARDING CARDS\nSome cards begin with a section named ‘When Drawn’, which details\nimmediate next steps including when such cards either can or must",
+        "link": "https://assets.warhammer-community.com/eng_4-xglmycxyvf.pdf"
+      },
+      {
+        "category": "Chapter Approved",
+        "title": "Terrain Layouts",
+        "body": ": A suite of carefully designed terrain setups to\nbe used in conjunction with the Chapter Approved Tournament\nMission Pool.\n\n• ■\u0007Pairings and Rankings: Advice for fairly pairing players and\ndetermining rankings.",
+        "link": "https://assets.warhammer-community.com/eng_4-xglmycxyvf.pdf"
+      }
+    ]
+  },
+  "terrain": {
+    "note": "Objective markers removed — terrain footprints used as objectives in 11th Edition",
+    "footprints": [
+      "Four large rectangles – 7\" x 11.5\"",
+      "Two large right-angle triangles – 8\" x 11.5\"",
+      "Four medium rectangles – 6\" x 4\"",
+      "Two long lines – 10\" x 2.5\"",
+      "Four short lines – 6\" x 2\""
+    ],
+    "links": []
+  },
+  "forceDispositionOrder": [
+    "PURGE THE FOE",
+    "TAKE AND HOLD",
+    "PRIORITY ASSETS",
+    "RECONNAISSANCE",
+    "DISRUPTION"
+  ],
+  "primaryMissionMatrix": [
+    [
+      "Unstoppable Force",
+      "Battlefield Dominance",
+      "Secure Asset",
+      "Reconnaissance Sweep",
+      "Death Trap"
+    ],
+    [
+      "Meatgrinder",
+      "Immovable Object",
+      "Vital Link",
+      "Triangulation",
+      "Delaying Action"
+    ],
+    [
+      "Punishment",
+      "Determined Acquisition",
+      "Extract Relic",
+      "Surveil the Foe",
+      "Outmaneuver"
+    ],
+    [
+      "Consecrate",
+      "Purge and Secure",
+      "Vanguard Operation",
+      "Gather Intel",
+      "Smoke and Mirrors"
+    ],
+    [
+      "Destroyer's Wrath",
+      "Inescapable Dominion",
+      "Sabotage",
+      "Search and Scour",
+      "Locate and Deny"
+    ]
+  ],
+  "opponentForceDispositionRow": {
+    "TAKE AND HOLD": 0,
+    "PURGE THE FOE": 1,
+    "DISRUPTION": 2,
+    "RECONNAISSANCE": 3,
+    "PRIORITY ASSETS": 4
+  },
+  "scoringCaps": {
+    "primaryMaxGame": 45,
+    "primaryMaxRound": 15,
+    "tacticalSecondaryMaxGame": 40,
+    "tacticalSecondaryMaxRound": 15,
+    "fixedSecondaryMaxGame": 40,
+    "fixedSecondaryMaxPerCard": 20,
+    "fixedSecondaryMaxRound": 15,
+    "battleReadyVp": 10
+  },
+  "rulesSources": [
+    {
+      "title": "Core Rules PDF",
+      "url": "https://assets.warhammer-community.com/warhammer40000_core&key_corerules_eng_24.09-5xfayxjekm.pdf"
+    },
+    {
+      "title": "Tournament Companion PDF",
+      "url": "https://assets.warhammer-community.com/eng_4-xglmycxyvf.pdf"
+    }
+  ],
+  "rulesNote": "Rule text extracted from official GW PDFs (Core Rules + Chapter Approved Tournament Companion). Open the PDFs for the authoritative full wording.",
+  "rulesPdfs": {
+    "coreRules": {
+      "title": "Warhammer 40,000 Core Rules",
+      "url": "https://assets.warhammer-community.com/warhammer40000_core&key_corerules_eng_24.09-5xfayxjekm.pdf"
+    },
+    "tournamentCompanion": {
+      "title": "Chapter Approved Tournament Companion",
+      "url": "https://assets.warhammer-community.com/eng_4-xglmycxyvf.pdf"
+    }
+  }
+}

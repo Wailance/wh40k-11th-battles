@@ -1,0 +1,322 @@
+{
+  "version": "0.4",
+  "source": "Veizla.gg",
+  "armies": [],
+  "forceDispositionMatchups": [
+    {
+      "id": 1,
+      "player1": "PURGE THE FOE",
+      "player2": "PRIORITY ASSETS"
+    },
+    {
+      "id": 2,
+      "player1": "PURGE THE FOE",
+      "player2": "DISRUPTION"
+    },
+    {
+      "id": 3,
+      "player1": "PURGE THE FOE",
+      "player2": "TAKE AND HOLD"
+    },
+    {
+      "id": 4,
+      "player1": "PURGE THE FOE",
+      "player2": "PURGE THE FOE"
+    },
+    {
+      "id": 5,
+      "player1": "PURGE THE FOE",
+      "player2": "RECONNAISSANCE"
+    },
+    {
+      "id": 6,
+      "player1": "TAKE AND HOLD",
+      "player2": "PRIORITY ASSETS"
+    },
+    {
+      "id": 7,
+      "player1": "TAKE AND HOLD",
+      "player2": "TAKE AND HOLD"
+    },
+    {
+      "id": 8,
+      "player1": "TAKE AND HOLD",
+      "player2": "DISRUPTION"
+    },
+    {
+      "id": 9,
+      "player1": "TAKE AND HOLD",
+      "player2": "RECONNAISSANCE"
+    },
+    {
+      "id": 10,
+      "player1": "PRIORITY ASSETS",
+      "player2": "PRIORITY ASSETS"
+    },
+    {
+      "id": 11,
+      "player1": "PRIORITY ASSETS",
+      "player2": "RECONNAISSANCE"
+    },
+    {
+      "id": 12,
+      "player1": "PRIORITY ASSETS",
+      "player2": "DISRUPTION"
+    },
+    {
+      "id": 13,
+      "player1": "RECONNAISSANCE",
+      "player2": "RECONNAISSANCE"
+    },
+    {
+      "id": 14,
+      "player1": "RECONNAISSANCE",
+      "player2": "DISRUPTION"
+    },
+    {
+      "id": 15,
+      "player1": "DISRUPTION",
+      "player2": "DISRUPTION"
+    }
+  ],
+  "forceDispositionColors": {
+    "PURGE THE FOE": "red",
+    "TAKE AND HOLD": "green",
+    "PRIORITY ASSETS": "yellow",
+    "RECONNAISSANCE": "teal",
+    "DISRUPTION": "blue"
+  },
+  "primaryMissions": {
+    "PURGE THE FOE": [
+      "Meatgrinder",
+      "Punishment",
+      "Consecrate",
+      "Destroyer's Wrath"
+    ],
+    "TAKE AND HOLD": [
+      "Immovable Object",
+      "Determined Acquisition",
+      "Purge and Secure",
+      "Inescapable Dominion"
+    ],
+    "PRIORITY ASSETS": [
+      "Vital Link",
+      "Extract Relic",
+      "Vanguard Operation",
+      "Sabotage"
+    ],
+    "RECONNAISSANCE": [
+      "Triangulation",
+      "Surveil the Foe",
+      "Gather Intel",
+      "Search and Scour"
+    ],
+    "DISRUPTION": [
+      "Delaying Action",
+      "Locate and Deny",
+      "Outmaneuver",
+      "Smoke and Mirrors"
+    ]
+  },
+  "secondaries": {
+    "confirmed": [
+      "Display of Might",
+      "Outflank",
+      "Forward Position",
+      "Burden of Thrust",
+      "Secure No Man's Land",
+      "No Prisoners",
+      "Engage on all Fronts",
+      "Centre Ground",
+      "Beacon",
+      "Plunder",
+      "Assassination",
+      "Bring it Down",
+      "Defend Stronghold",
+      "Overwhelming Force",
+      "Behind Enemy Lines",
+      "Cleanse",
+      "A Grievous Blow"
+    ],
+    "leaked": [
+      "A Tempting Target"
+    ]
+  },
+  "layouts": [
+    {
+      "id": 1,
+      "player1": "PURGE THE FOE",
+      "player2": "PRIORITY ASSETS",
+      "available": false
+    },
+    {
+      "id": 2,
+      "player1": "PURGE THE FOE",
+      "player2": "DISRUPTION",
+      "available": false
+    },
+    {
+      "id": 3,
+      "player1": "PURGE THE FOE",
+      "player2": "TAKE AND HOLD",
+      "available": true
+    },
+    {
+      "id": 4,
+      "player1": "PURGE THE FOE",
+      "player2": "RED",
+      "available": false
+    },
+    {
+      "id": 5,
+      "player1": "PURGE THE FOE",
+      "player2": "RECONNAISSANCE",
+      "available": false
+    },
+    {
+      "id": 6,
+      "player1": "TAKE AND HOLD",
+      "player2": "PRIORITY ASSETS",
+      "available": true
+    },
+    {
+      "id": 7,
+      "player1": "TAKE AND HOLD",
+      "player2": "TAKE AND HOLD",
+      "available": true
+    },
+    {
+      "id": 8,
+      "player1": "TAKE AND HOLD",
+      "player2": "DISRUPTION",
+      "available": true
+    },
+    {
+      "id": 9,
+      "player1": "TAKE AND HOLD",
+      "player2": "RECONNAISSANCE",
+      "available": true
+    },
+    {
+      "id": 10,
+      "player1": "PRIORITY ASSETS",
+      "player2": "PRIORITY ASSETS",
+      "available": false
+    },
+    {
+      "id": 11,
+      "player1": "PRIORITY ASSETS",
+      "player2": "RECONNAISSANCE",
+      "available": false
+    },
+    {
+      "id": 12,
+      "player1": "PRIORITY ASSETS",
+      "player2": "DISRUPTION",
+      "available": false
+    },
+    {
+      "id": 13,
+      "player1": "RECONNAISSANCE",
+      "player2": "RECONNAISSANCE",
+      "available": false
+    },
+    {
+      "id": 14,
+      "player1": "RECONNAISSANCE",
+      "player2": "DISRUPTION",
+      "available": false
+    },
+    {
+      "id": 15,
+      "player1": "DISRUPTION",
+      "player2": "DISRUPTION",
+      "available": false
+    }
+  ],
+  "rules": {
+    "core": [
+      {
+        "category": "Stratagems",
+        "rule": "No stratagems can be stacked in a phase",
+        "description": "Single units can no longer have multiple stratagems stacked on them in a phase. Already powerful units will now have to cause havoc on their own without the crutch of stratagems making them punch harder than they should, or making them more survivable than they have any right to be. ",
+        "link": "https://www.warhammer-community.com/en-gb/articles/v0fhjy3m/new40k-your-queries-answered/"
+      },
+      {
+        "category": "Stratagems",
+        "rule": "Crushing Impact",
+        "description": "",
+        "link": ""
+      },
+      {
+        "category": "RAPID INGRESS",
+        "rule": "1 CP",
+        "description": "CORE STRATAGEM Whether by strategic brilliance, technological marvel, or supernatural ritual, there are many ways a commander can hasten the arrival of their troops.",
+        "link": ""
+      },
+      {
+        "category": "SMOKE SCREEN",
+        "rule": "1 CP",
+        "description": "CORE STRATAGEM Even the most skilled marksman will struggle to hit a target veiled behind a cloud of smoke.",
+        "link": ""
+      },
+      {
+        "category": "FIRE OVERWATCH",
+        "rule": "1 CP",
+        "description": "CORE STRATAGEM A hail of gunfire can drive back an approaching enemy. ELIGIBLE IF: As specified by the rule allowing this type of shooting.",
+        "link": ""
+      },
+      {
+        "category": "HEROIC INTERVENTION",
+        "rule": "1CP / +1CP",
+        "description": "CORE STRATAGEM Battle cries ring out as your warriors rush headlong to face the enemy's offensive.",
+        "link": ""
+      },
+      {
+        "category": "INTO THE FREY",
+        "rule": "1 CP",
+        "description": "When making the Charge roll, if the result is greater than 6 (after modifiers), change it to 6.",
+        "link": ""
+      },
+      {
+        "category": "COUNTER-OFFENSIVE",
+        "rule": "2 CP",
+        "description": "CORE STRATAGEM In close-quarters combat, the slightest hesitation can reveal a flaw to be exploited.",
+        "link": ""
+      }
+    ],
+    "command": [],
+    "movement": [
+      {
+        "category": "Rotating",
+        "rule": "Pivot is removed",
+        "description": " Mobile Keyword means a unit can move horizontally through dense terrain. Some especially agile creatures and Vehicles will get it, like Ork Squighog Boyz, while towering Super-heavy Walkers can get it in return for risking battleshock – similar to how they operate now.",
+        "link": ""
+      }
+    ],
+    "shooting": [
+      {
+        "category": "Explosives",
+        "rule": "Stratagem 1CP",
+        "description": "",
+        "link": ""
+      }
+    ],
+    "charge": [],
+    "fight": []
+  },
+  "terrain": {
+    "note": "Objective markers removed — terrain footprints used as objectives in 11th Edition",
+    "footprints": [
+      "Four large rectangles – 7\" x 11.5\"",
+      "Two large right-angle triangles – 8\" x 11.5\"",
+      "Four medium rectangles – 6\" x 4\"",
+      "Two long lines – 10\" x 2.5\"",
+      "Four short lines – 6\" x 2\""
+    ],
+    "links": [
+      "https://www.warhammer-community.com/en-gb/articles/xlppkx5s/new40k-take-cover-with-updated-terrain-rules/",
+      "https://www.youtube.com/watch?v=wgl0MBTWV3I"
+    ]
+  }
+}

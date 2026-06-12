@@ -1,0 +1,817 @@
+{
+  "Meatgrinder": {
+    "type": "primary",
+    "summary": "Purge the Foe mirror match — kill units and dominate objectives.",
+    "blocks": [
+      {
+        "label": "ANY BATTLE ROUND",
+        "text": "WHEN: End of your turn. REQUIREMENT: One or more enemy units were destroyed this turn. REWARD: 3 VP."
+      },
+      {
+        "label": "SECOND BATTLE ROUND ONWARDS",
+        "text": "WHEN: End of the Command phase (or the end of your turn if it is the fifth battle round and you are going second). REQUIREMENT: You control one or more objective markers that are not within your deployment zone. REWARD: 4 VP."
+      },
+      {
+        "label": "ANY BATTLE ROUND",
+        "text": "WHEN: End of your turn. REQUIREMENT: More enemy units than friendly units were destroyed since the end of your opponent's last turn. REWARD: 4 VP."
+      },
+      {
+        "label": "ANY BATTLE ROUND",
+        "text": "WHEN: End of your turn. REQUIREMENT: You control one or more objective markers in your opponent's deployment zone. REWARD: 5 VP."
+      }
+    ],
+    "actions": [],
+    "cap": "Max 45 VP per game · 15 VP per battle round"
+  },
+  "Unstoppable Force": {
+    "type": "primary",
+    "summary": "Purge vs Take and Hold — kill every turn and seize ground.",
+    "blocks": [
+      {
+        "label": "ANY BATTLE ROUND",
+        "text": "WHEN: End of your turn. REQUIREMENT: One or more enemy units were destroyed this turn. REWARD: 3 VP."
+      },
+      {
+        "label": "SECOND BATTLE ROUND ONWARDS",
+        "text": "WHEN: End of the Command phase (or the end of your turn if it is the fifth battle round and you are going second). REQUIREMENT: You control one or more objective markers that are not within your deployment zone. REWARD: 4 VP."
+      },
+      {
+        "label": "ANY BATTLE ROUND",
+        "text": "WHEN: End of your turn. REQUIREMENT: You control one or more objective markers that you did not control at the start of your turn. REWARD: 3 VP."
+      },
+      {
+        "label": "END OF BATTLE",
+        "text": "WHEN: End of the battle. REQUIREMENT: You control one or more Centre objective markers. REWARD: 5 VP."
+      }
+    ],
+    "actions": [],
+    "cap": "Max 45 VP per game · 15 VP per battle round"
+  },
+  "Punishment": {
+    "type": "primary",
+    "summary": "Purge vs Disruption — condemn enemy units and hold objectives.",
+    "blocks": [
+      {
+        "label": "SETUP",
+        "text": "At the start of each of your turns, select 1–3 Condemned enemy units: units that destroyed a friendly unit on the previous turn and/or are within range of an objective marker you do not control."
+      },
+      {
+        "label": "ANY BATTLE ROUND",
+        "text": "WHEN: End of your turn. REQUIREMENT: One or more Condemned units left the battlefield this turn (destroyed or otherwise removed). REWARD: 5 VP."
+      },
+      {
+        "label": "SECOND BATTLE ROUND ONWARDS",
+        "text": "WHEN: End of the Command phase (or the end of your turn if it is the fifth battle round and you are going second). REQUIREMENT: You control one or more objective markers that are not within your deployment zone. REWARD: 4 VP."
+      },
+      {
+        "label": "SECOND BATTLE ROUND ONWARDS",
+        "text": "WHEN: End of the Command phase (or the end of your turn if it is the fifth battle round and you are going second). REQUIREMENT: You control more objective markers than your opponent. REWARD: 5 VP."
+      },
+      {
+        "label": "END OF BATTLE",
+        "text": "WHEN: End of the battle. REQUIREMENT: You control your opponent's home objective marker. REWARD: 8 VP."
+      }
+    ],
+    "actions": [],
+    "cap": "Max 45 VP per game · 15 VP per battle round"
+  },
+  "Destroyer's Wrath": {
+    "type": "primary",
+    "summary": "Purge vs Priority Assets — kill units and out-hold the enemy.",
+    "blocks": [
+      {
+        "label": "ANY BATTLE ROUND",
+        "text": "WHEN: End of your turn. REQUIREMENT: One or more enemy units were destroyed this turn. REWARD: 3 VP."
+      },
+      {
+        "label": "SECOND BATTLE ROUND ONWARDS",
+        "text": "WHEN: End of the Command phase (or the end of your turn if it is the fifth battle round and you are going second). REQUIREMENT: You control one or more objective markers that are not within your deployment zone. REWARD: 4 VP."
+      },
+      {
+        "label": "SECOND BATTLE ROUND ONWARDS",
+        "text": "WHEN: End of the Command phase (or the end of your turn if it is the fifth battle round and you are going second). REQUIREMENT: You control more objective markers than your opponent. REWARD: 4 VP."
+      },
+      {
+        "label": "ANY BATTLE ROUND",
+        "text": "WHEN: End of your turn. REQUIREMENT: More enemy units than friendly units were destroyed since the end of your opponent's last turn. REWARD: 5 VP."
+      }
+    ],
+    "actions": [],
+    "cap": "Max 45 VP per game · 15 VP per battle round"
+  },
+  "Consecrate": {
+    "type": "primary",
+    "summary": "Purge vs Reconnaissance — kill to consecrate objectives.",
+    "blocks": [
+      {
+        "label": "MECHANIC",
+        "text": "Each time a unit from your army destroys an enemy unit, it becomes a Consecration unit. At the end of your turn, each Consecration unit within range of an objective marker (not your home, not already Consecrated) may Consecrate it and cease being a Consecration unit."
+      },
+      {
+        "label": "ANY BATTLE ROUND",
+        "text": "WHEN: End of your turn. REQUIREMENT: 1–2 objectives are Consecrated by you. REWARD: 3 VP. OR 3+ Consecrated: 6 VP."
+      },
+      {
+        "label": "SECOND BATTLE ROUND ONWARDS",
+        "text": "WHEN: End of the Command phase (or the end of your turn if it is the fifth battle round and you are going second). REQUIREMENT: You control one or more objective markers that are not within your deployment zone. REWARD: 4 VP."
+      },
+      {
+        "label": "SECOND BATTLE ROUND ONWARDS",
+        "text": "WHEN: End of the Command phase (or the end of your turn if it is the fifth battle round and you are going second). REQUIREMENT: You control more objective markers than your opponent. REWARD: 4 VP."
+      },
+      {
+        "label": "END OF BATTLE",
+        "text": "WHEN: End of the battle. REQUIREMENT: Your opponent's home objective is Consecrated. REWARD: 5 VP."
+      }
+    ],
+    "actions": [],
+    "cap": "Max 45 VP per game · 15 VP per battle round"
+  },
+  "Immovable Object": {
+    "type": "primary",
+    "summary": "Take and Hold vs Purge — centre control and expansion holding.",
+    "blocks": [
+      {
+        "label": "ANY BATTLE ROUND",
+        "text": "WHEN: End of your turn. REQUIREMENT: You control one or more Centre objective markers. REWARD: 3 VP."
+      },
+      {
+        "label": "BATTLE ROUNDS 2–4",
+        "text": "WHEN: End of the Command phase (or the end of your turn if it is the fifth battle round and you are going second). REQUIREMENT: For each objective marker you control outside your deployment zone. REWARD: 5 VP each."
+      },
+      {
+        "label": "BATTLE ROUND 5",
+        "text": "WHEN: End of your turn (if you are going second). REQUIREMENT: For each objective marker you control outside your deployment zone. REWARD: 5 VP each."
+      }
+    ],
+    "actions": [],
+    "cap": "Max 45 VP per game · 15 VP per battle round"
+  },
+  "Battlefield Dominance": {
+    "type": "primary",
+    "summary": "Take and Hold mirror — dominate the objective count.",
+    "blocks": [
+      {
+        "label": "BATTLE ROUNDS 1–2",
+        "text": "WHEN: End of your turn. REQUIREMENT: You control more objective markers than your opponent. REWARD: 2 VP per marker you control."
+      },
+      {
+        "label": "SECOND BATTLE ROUND ONWARDS",
+        "text": "WHEN: End of the Command phase (or the end of your turn if it is the fifth battle round and you are going second). REQUIREMENT: You control your home objective. REWARD: 3 VP per objective you control, +2 VP per non-home objective."
+      }
+    ],
+    "actions": [],
+    "cap": "Max 45 VP per game · 15 VP per battle round"
+  },
+  "Determined Acquisition": {
+    "type": "primary",
+    "summary": "Take and Hold vs Disruption — cap uncontested objectives.",
+    "blocks": [
+      {
+        "label": "ANY BATTLE ROUND",
+        "text": "WHEN: End of your turn. REQUIREMENT: You control an objective you did not control at the start of your turn (not your home). REWARD: 2 VP per such objective."
+      },
+      {
+        "label": "SECOND BATTLE ROUND ONWARDS",
+        "text": "WHEN: End of the Command phase (or the end of your turn if it is the fifth battle round and you are going second). REQUIREMENT: Per objective you control in opponent territory. REWARD: 3 VP base + 3 VP bonus for objectives in opponent deployment zone."
+      }
+    ],
+    "actions": [],
+    "cap": "Max 45 VP per game · 15 VP per battle round"
+  },
+  "Inescapable Dominion": {
+    "type": "primary",
+    "summary": "Take and Hold vs Priority Assets — wide board control.",
+    "blocks": [
+      {
+        "label": "ANY BATTLE ROUND",
+        "text": "WHEN: End of your turn. REQUIREMENT: You control 3+ objective markers. REWARD: 4 VP."
+      },
+      {
+        "label": "SECOND BATTLE ROUND ONWARDS",
+        "text": "WHEN: End of the Command phase (or the end of your turn if it is the fifth battle round and you are going second). REQUIREMENT: You control 2+ objectives. REWARD: 5 VP. If you control more than your opponent: +4 VP."
+      },
+      {
+        "label": "END OF BATTLE",
+        "text": "WHEN: End of the battle. REQUIREMENT: You control opponent's home objective. REWARD: 5 VP."
+      }
+    ],
+    "actions": [],
+    "cap": "Max 45 VP per game · 15 VP per battle round"
+  },
+  "Purge and Secure": {
+    "type": "primary",
+    "summary": "Take and Hold vs Reconnaissance — kill on objectives and hold.",
+    "blocks": [
+      {
+        "label": "ANY BATTLE ROUND",
+        "text": "WHEN: End of your turn. REQUIREMENT: You destroyed an enemy unit while within range of an objective, OR destroyed an enemy unit on an objective. REWARD: 3 VP."
+      },
+      {
+        "label": "SECOND BATTLE ROUND ONWARDS",
+        "text": "WHEN: End of the Command phase (or the end of your turn if it is the fifth battle round and you are going second). REQUIREMENT: Per non-home objective you control. REWARD: 4 VP each."
+      },
+      {
+        "label": "ANY BATTLE ROUND",
+        "text": "WHEN: End of your turn. REQUIREMENT: You control more objectives than at the start of your turn. REWARD: 3 VP."
+      }
+    ],
+    "actions": [],
+    "cap": "Max 45 VP per game · 15 VP per battle round"
+  },
+  "Delaying Action": {
+    "type": "primary",
+    "summary": "Disruption vs Purge — attrition and central/expansion control.",
+    "blocks": [
+      {
+        "label": "ANY BATTLE ROUND",
+        "text": "WHEN: End of your turn. REQUIREMENT: Per enemy unit destroyed this turn. REWARD: 2 VP each."
+      },
+      {
+        "label": "SECOND BATTLE ROUND ONWARDS",
+        "text": "WHEN: End of the Command phase (or the end of your turn if it is the fifth battle round and you are going second). REQUIREMENT: You control one or more objective markers that are not within your deployment zone. REWARD: 4 VP."
+      },
+      {
+        "label": "SECOND BATTLE ROUND ONWARDS",
+        "text": "WHEN: End of your turn. REQUIREMENT: You control a Centre objective and an Expansion objective. REWARD: 3 VP."
+      }
+    ],
+    "actions": [],
+    "cap": "Max 45 VP per game · 15 VP per battle round"
+  },
+  "Death Trap": {
+    "type": "primary",
+    "summary": "Disruption vs Take and Hold — booby-trap terrain and objectives.",
+    "blocks": [
+      {
+        "label": "ANY BATTLE ROUND",
+        "text": "WHEN: End of your turn. REQUIREMENT: Per terrain area trapped this turn. REWARD: 2 VP (+3 VP if that area is also an objective)."
+      },
+      {
+        "label": "ANY BATTLE ROUND",
+        "text": "WHEN: End of your turn. REQUIREMENT: One or more enemy units that started the turn in a trapped area were destroyed. REWARD: 3 VP."
+      },
+      {
+        "label": "SECOND BATTLE ROUND ONWARDS",
+        "text": "WHEN: End of the Command phase (or the end of your turn if it is the fifth battle round and you are going second). REQUIREMENT: You control one or more objective markers that are not within your deployment zone. REWARD: 4 VP."
+      }
+    ],
+    "actions": [
+      "BOOBY TRAP (ACTION): Starts in your Shooting phase. One unit within range of a non-home objective or eligible terrain area in No Man's Land. Completes immediately. Place a trap marker."
+    ],
+    "cap": "Max 45 VP per game · 15 VP per battle round"
+  },
+  "Outmaneuver": {
+    "type": "primary",
+    "summary": "Disruption mirror — seize the enemy deployment zone.",
+    "blocks": [
+      {
+        "label": "ANY BATTLE ROUND",
+        "text": "WHEN: End of your turn. REQUIREMENT: You control your opponent's home objective. REWARD: 10 VP."
+      },
+      {
+        "label": "BATTLE ROUND 1",
+        "text": "WHEN: End of your turn. REQUIREMENT: Per non-home objective you control. REWARD: 4 VP each."
+      },
+      {
+        "label": "BATTLE ROUNDS 2–3",
+        "text": "WHEN: End of the Command phase (or the end of your turn if it is the fifth battle round and you are going second). REQUIREMENT: Per non-home objective you control. REWARD: 5 VP each."
+      },
+      {
+        "label": "BATTLE ROUND 4+",
+        "text": "WHEN: End of your turn. REQUIREMENT: Per non-home objective you control. REWARD: 6 VP each."
+      }
+    ],
+    "actions": [],
+    "cap": "Max 45 VP per game · 15 VP per battle round"
+  },
+  "Locate and Deny": {
+    "type": "primary",
+    "summary": "Disruption vs Priority Assets — sensor sweeps and relic control.",
+    "blocks": [
+      {
+        "label": "ANY BATTLE ROUND",
+        "text": "WHEN: End of your turn. REQUIREMENT: One or more enemy units that started the turn within range of an objective were destroyed. REWARD: 4 VP."
+      },
+      {
+        "label": "ANY BATTLE ROUND",
+        "text": "WHEN: End of your turn. REQUIREMENT: Only one Operation marker remains and you control it uncontested. REWARD: 4 VP."
+      },
+      {
+        "label": "SECOND BATTLE ROUND ONWARDS",
+        "text": "WHEN: End of the Command phase (or the end of your turn if it is the fifth battle round and you are going second). REQUIREMENT: You control one or more objective markers that are not within your deployment zone. REWARD: 4 VP."
+      },
+      {
+        "label": "END OF BATTLE",
+        "text": "WHEN: End of the battle. REQUIREMENT: You control the sole remaining marker with no enemies in range. REWARD: 5 VP."
+      }
+    ],
+    "actions": [
+      "SENSOR SWEEP (ACTION): One unit within range of a Centre objective. Completes end of turn if you control it. Remove an enemy Operation marker (if more than one remains)."
+    ],
+    "cap": "Max 45 VP per game · 15 VP per battle round"
+  },
+  "Smoke and Mirrors": {
+    "type": "primary",
+    "summary": "Disruption vs Reconnaissance — decoy objectives.",
+    "blocks": [
+      {
+        "label": "ANY BATTLE ROUND",
+        "text": "WHEN: End of your turn. REQUIREMENT: Per objective decoyed (+2 VP if in opponent territory). REWARD: 2 VP each."
+      },
+      {
+        "label": "SECOND BATTLE ROUND ONWARDS",
+        "text": "WHEN: End of the Command phase (or the end of your turn if it is the fifth battle round and you are going second). REQUIREMENT: You control one or more objective markers that are not within your deployment zone. REWARD: 4 VP."
+      },
+      {
+        "label": "END OF BATTLE",
+        "text": "WHEN: End of the battle. REQUIREMENT: 4+ objectives are decoyed. REWARD: 10 VP."
+      }
+    ],
+    "actions": [
+      "DECOY (ACTION): Unlimited uses on non-home objectives you control; completes end of turn. Decoy markers removed if an enemy ends a move within range."
+    ],
+    "cap": "Max 45 VP per game · 15 VP per battle round"
+  },
+  "Vital Link": {
+    "type": "primary",
+    "summary": "Priority Assets vs Purge — stack Operation markers on Centre objectives.",
+    "blocks": [
+      {
+        "label": "ANY BATTLE ROUND",
+        "text": "WHEN: End of your turn. REQUIREMENT: You control one or more Centre objectives. REWARD: 2 VP + 1 VP per Operation marker on Centre objectives you control."
+      },
+      {
+        "label": "SECOND BATTLE ROUND ONWARDS",
+        "text": "WHEN: End of the Command phase (or the end of your turn if it is the fifth battle round and you are going second). REQUIREMENT: You control one or more objective markers that are not within your deployment zone. REWARD: 4 VP."
+      },
+      {
+        "label": "SECOND BATTLE ROUND ONWARDS",
+        "text": "WHEN: End of the Command phase (or the end of your turn if it is the fifth battle round and you are going second). REQUIREMENT: You control a Centre objective. REWARD: +4 VP."
+      },
+      {
+        "label": "END OF BATTLE",
+        "text": "WHEN: End of the battle. REQUIREMENT: You control opponent's home objective. REWARD: 10 VP."
+      }
+    ],
+    "actions": [
+      "VITAL LINK (ACTION): Once per turn on a Centre objective. Completes end of turn if you control it. Place an Operation marker."
+    ],
+    "cap": "Max 45 VP per game · 15 VP per battle round"
+  },
+  "Secure Asset": {
+    "type": "primary",
+    "summary": "Priority Assets vs Take and Hold — secure assets on objectives.",
+    "blocks": [
+      {
+        "label": "ANY BATTLE ROUND",
+        "text": "WHEN: End of your turn. REQUIREMENT: You completed Secure Asset on an objective this turn. REWARD: 4 VP."
+      },
+      {
+        "label": "ANY BATTLE ROUND",
+        "text": "WHEN: End of your turn. REQUIREMENT: You destroyed an enemy unit within range of a Centre objective. REWARD: 2 VP."
+      },
+      {
+        "label": "SECOND BATTLE ROUND ONWARDS",
+        "text": "WHEN: End of the Command phase (or the end of your turn if it is the fifth battle round and you are going second). REQUIREMENT: You control one or more objective markers that are not within your deployment zone. REWARD: 4 VP."
+      },
+      {
+        "label": "SECOND BATTLE ROUND ONWARDS",
+        "text": "WHEN: End of the Command phase (or the end of your turn if it is the fifth battle round and you are going second). REQUIREMENT: You control 3+ objectives. REWARD: 4 VP."
+      }
+    ],
+    "actions": [
+      "SECURE ASSET (ACTION): On a non-home objective you control; completes end of turn."
+    ],
+    "cap": "Max 45 VP per game · 15 VP per battle round"
+  },
+  "Extract Relic": {
+    "type": "primary",
+    "summary": "Priority Assets vs Disruption — sensor sweep the relic.",
+    "blocks": [
+      {
+        "label": "ANY BATTLE ROUND",
+        "text": "WHEN: End of your turn. REQUIREMENT: You completed a Sensor Sweep. REWARD: 4 VP."
+      },
+      {
+        "label": "ANY BATTLE ROUND",
+        "text": "WHEN: End of your turn. REQUIREMENT: Enemy unit that started the turn on an objective was destroyed. REWARD: 3 VP."
+      },
+      {
+        "label": "ANY BATTLE ROUND",
+        "text": "WHEN: End of your turn. REQUIREMENT: Sole enemy marker remains and you control it uncontested. REWARD: 4 VP."
+      },
+      {
+        "label": "SECOND BATTLE ROUND ONWARDS",
+        "text": "WHEN: End of the Command phase (or the end of your turn if it is the fifth battle round and you are going second). REQUIREMENT: You control one or more objective markers that are not within your deployment zone. REWARD: 4 VP."
+      }
+    ],
+    "actions": [
+      "SENSOR SWEEP (ACTION): As Locate and Deny."
+    ],
+    "cap": "Max 45 VP per game · 15 VP per battle round"
+  },
+  "Sabotage": {
+    "type": "primary",
+    "summary": "Priority Assets mirror — sabotage enemy-side objectives.",
+    "blocks": [
+      {
+        "label": "ANY BATTLE ROUND",
+        "text": "WHEN: End of your turn. REQUIREMENT: Per objective sabotaged (+2 VP if in opponent deployment zone). REWARD: 3 VP each."
+      },
+      {
+        "label": "SECOND BATTLE ROUND ONWARDS",
+        "text": "WHEN: End of the Command phase (or the end of your turn if it is the fifth battle round and you are going second). REQUIREMENT: You control one or more objective markers that are not within your deployment zone. REWARD: 4 VP."
+      }
+    ],
+    "actions": [
+      "SABOTAGE (ACTION): On a non-home objective; completes when performed."
+    ],
+    "cap": "Max 45 VP per game · 15 VP per battle round"
+  },
+  "Vanguard Operation": {
+    "type": "primary",
+    "summary": "Priority Assets vs Reconnaissance — vanguard operations in terrain.",
+    "blocks": [
+      {
+        "label": "ANY BATTLE ROUND",
+        "text": "WHEN: End of your turn. REQUIREMENT: You completed a Vanguard Operation. REWARD: 4 VP."
+      },
+      {
+        "label": "ANY BATTLE ROUND",
+        "text": "WHEN: End of your turn. REQUIREMENT: You destroyed an enemy unit. REWARD: 2 VP."
+      },
+      {
+        "label": "SECOND BATTLE ROUND ONWARDS",
+        "text": "WHEN: End of the Command phase (or the end of your turn if it is the fifth battle round and you are going second). REQUIREMENT: You control one or more objective markers that are not within your deployment zone. REWARD: 4 VP."
+      }
+    ],
+    "actions": [
+      "VANGUARD OPERATION (ACTION): On terrain with no enemies within range; completes end of turn if still uncontested."
+    ],
+    "cap": "Max 45 VP per game · 15 VP per battle round"
+  },
+  "Triangulation": {
+    "type": "primary",
+    "summary": "Recon vs Purge — triangulate objectives for big end-of-turn scores.",
+    "blocks": [
+      {
+        "label": "SECOND BATTLE ROUND ONWARDS",
+        "text": "WHEN: End of the Command phase (or the end of your turn if it is the fifth battle round and you are going second). REQUIREMENT: You control one or more objective markers that are not within your deployment zone. REWARD: 4 VP."
+      },
+      {
+        "label": "ANY BATTLE ROUND",
+        "text": "WHEN: End of your turn. REQUIREMENT: 1 objective Triangulated: 3 VP; 2: 6 VP; 3+: 10 VP."
+      },
+      {
+        "label": "END OF BATTLE",
+        "text": "WHEN: End of the battle. REQUIREMENT: You control 4+ objectives. REWARD: 10 VP."
+      }
+    ],
+    "actions": [
+      "TRIANGULATION (ACTION): From battle round 2, once per turn on a non-home objective you control; completes end of turn. Place a Triangulation marker."
+    ],
+    "cap": "Max 45 VP per game · 15 VP per battle round"
+  },
+  "Reconnaissance Sweep": {
+    "type": "primary",
+    "summary": "Recon vs Take and Hold — table corners and kills.",
+    "blocks": [
+      {
+        "label": "ANY BATTLE ROUND",
+        "text": "WHEN: End of your turn. REQUIREMENT: Units in 3 table corners (6\"+ from centre): 3 VP. All 4 corners: 6 VP."
+      },
+      {
+        "label": "ANY BATTLE ROUND",
+        "text": "WHEN: End of your turn. REQUIREMENT: Per enemy unit destroyed. REWARD: 1 VP each."
+      },
+      {
+        "label": "SECOND BATTLE ROUND ONWARDS",
+        "text": "WHEN: End of the Command phase (or the end of your turn if it is the fifth battle round and you are going second). REQUIREMENT: You control one or more objective markers that are not within your deployment zone. REWARD: 3 VP."
+      }
+    ],
+    "actions": [],
+    "cap": "Max 45 VP per game · 15 VP per battle round"
+  },
+  "Surveil the Foe": {
+    "type": "primary",
+    "summary": "Recon vs Disruption — surveil enemies and deny markers.",
+    "blocks": [
+      {
+        "label": "ANY BATTLE ROUND",
+        "text": "WHEN: End of your turn. REQUIREMENT: You surveilled an enemy not near a marked objective. REWARD: 4 VP."
+      },
+      {
+        "label": "SECOND BATTLE ROUND ONWARDS",
+        "text": "WHEN: End of the Command phase (or the end of your turn if it is the fifth battle round and you are going second). REQUIREMENT: You control one or more objective markers that are not within your deployment zone. REWARD: 4 VP."
+      },
+      {
+        "label": "SECOND BATTLE ROUND ONWARDS",
+        "text": "WHEN: End of the Command phase (or the end of your turn if it is the fifth battle round and you are going second). REQUIREMENT: You control more objectives than opponent. REWARD: 4 VP."
+      },
+      {
+        "label": "ANY BATTLE ROUND",
+        "text": "WHEN: End of your turn. REQUIREMENT: Opponent has no markers on the board. REWARD: 5 VP."
+      }
+    ],
+    "actions": [
+      "SURVEIL (ACTION): Target an enemy within 18\"; completes immediately."
+    ],
+    "cap": "Max 45 VP per game · 15 VP per battle round"
+  },
+  "Search and Scour": {
+    "type": "primary",
+    "summary": "Recon vs Priority Assets — centre control and terrain kills.",
+    "blocks": [
+      {
+        "label": "ANY BATTLE ROUND",
+        "text": "WHEN: End of your turn. REQUIREMENT: You control a Centre objective. REWARD: 3 VP."
+      },
+      {
+        "label": "ANY BATTLE ROUND",
+        "text": "WHEN: End of your turn. REQUIREMENT: Enemy that started the turn in terrain was destroyed. REWARD: 2 VP."
+      },
+      {
+        "label": "SECOND BATTLE ROUND ONWARDS",
+        "text": "WHEN: End of the Command phase (or the end of your turn if it is the fifth battle round and you are going second). REQUIREMENT: You control one or more objective markers that are not within your deployment zone. REWARD: 4 VP per objective."
+      },
+      {
+        "label": "END OF BATTLE",
+        "text": "WHEN: End of the battle. REQUIREMENT: No enemies in your deployment half. REWARD: 5 VP."
+      }
+    ],
+    "actions": [],
+    "cap": "Max 45 VP per game · 15 VP per battle round"
+  },
+  "Gather Intel": {
+    "type": "primary",
+    "summary": "Recon mirror — extract intel from objectives.",
+    "blocks": [
+      {
+        "label": "BATTLE ROUND 1",
+        "text": "WHEN: End of your turn. REQUIREMENT: You control a Centre objective. REWARD: 6 VP."
+      },
+      {
+        "label": "SECOND BATTLE ROUND ONWARDS",
+        "text": "WHEN: End of the Command phase (or the end of your turn if it is the fifth battle round and you are going second). REQUIREMENT: You control one or more objective markers that are not within your deployment zone. REWARD: 4 VP."
+      },
+      {
+        "label": "ANY BATTLE ROUND",
+        "text": "WHEN: End of your turn. REQUIREMENT: You extracted intel on an objective. REWARD: 6 VP."
+      },
+      {
+        "label": "END OF BATTLE",
+        "text": "WHEN: End of the battle. REQUIREMENT: Intel extracted on 3+ objectives and on one in opponent territory. REWARD: 5 VP each condition."
+      }
+    ],
+    "actions": [
+      "EXTRACT INTEL (ACTION): From round 2 on objectives you control; completes end of turn. Place Intel marker."
+    ],
+    "cap": "Max 45 VP per game · 15 VP per battle round"
+  },
+  "Assassination": {
+    "type": "secondary",
+    "summary": "Eliminate enemy Characters with extreme prejudice.",
+    "blocks": [
+      {
+        "label": "FIXED",
+        "text": "WHEN: While this card is active. Each time an enemy CHARACTER is destroyed: 4 VP (Wounds 4+) or 3 VP (Wounds less than 4)."
+      },
+      {
+        "label": "TACTICAL",
+        "text": "WHEN: End of either player's turn. One or more enemy CHARACTER models destroyed: 5 VP. OR all enemy CHARACTERS destroyed during the battle: 5 VP."
+      }
+    ],
+    "cap": "Max 40 VP (Tactical) or 20 VP per card (Fixed) · 15 VP per battle round"
+  },
+  "Bring it Down": {
+    "type": "secondary",
+    "summary": "Destroy enemy MONSTERS and VEHICLES.",
+    "blocks": [
+      {
+        "label": "FIXED",
+        "text": "WHEN: While this card is active. Each time an enemy MONSTER or VEHICLE is destroyed: 2 VP (+2 VP cumulative if total Wounds 15+; +2 VP more if 20+)."
+      },
+      {
+        "label": "TACTICAL",
+        "text": "WHEN: End of either player's turn. One or more enemy MONSTER or VEHICLE units destroyed this turn. REWARD: 4 VP."
+      }
+    ],
+    "cap": "Max 40 VP (Tactical) or 20 VP per card (Fixed) · 15 VP per battle round",
+    "whenDrawn": "When Drawn: If no enemy MONSTER or VEHICLE units are on the battlefield, you may discard and redraw."
+  },
+  "A Grievous Blow": {
+    "type": "secondary",
+    "summary": "Cull horde units (Starting Strength 13+).",
+    "blocks": [
+      {
+        "label": "FIXED",
+        "text": "WHEN: While this card is active. Each time an enemy INFANTRY unit with Starting Strength 13+ (including Attached) is destroyed. REWARD: 5 VP."
+      },
+      {
+        "label": "TACTICAL",
+        "text": "WHEN: End of either player's turn. One or more such units destroyed this turn. REWARD: 5 VP."
+      }
+    ],
+    "cap": "Max 40 VP (Tactical) or 20 VP per card (Fixed) · 15 VP per battle round",
+    "whenDrawn": "When Drawn: If no eligible enemy INFANTRY units are on the battlefield, you may discard and redraw."
+  },
+  "Engage on All Fronts": {
+    "type": "secondary",
+    "summary": "Establish a presence in multiple table quarters.",
+    "blocks": [
+      {
+        "label": "ANY BATTLE ROUND",
+        "text": "WHEN: End of your turn. Presence in 2 quarters: 1 VP. OR 3 quarters: 2 VP. OR 4 quarters: 4 VP."
+      }
+    ],
+    "cap": "Max 40 VP (Tactical) or 20 VP per card (Fixed) · 15 VP per battle round",
+    "whenDrawn": "When Drawn: A unit wholly in a table quarter more than 6\" from the battlefield centre counts as presence in that quarter."
+  },
+  "Engage on all Fronts": {
+    "type": "secondary",
+    "summary": "Establish a presence in multiple table quarters.",
+    "blocks": [
+      {
+        "label": "ANY BATTLE ROUND",
+        "text": "WHEN: End of your turn. Presence in 2 quarters: 1 VP. OR 3 quarters: 2 VP. OR 4 quarters: 4 VP."
+      }
+    ],
+    "cap": "Max 40 VP (Tactical) or 20 VP per card (Fixed) · 15 VP per battle round",
+    "whenDrawn": "When Drawn: A unit wholly in a table quarter more than 6\" from the battlefield centre counts as presence in that quarter."
+  },
+  "Behind Enemy Lines": {
+    "type": "secondary",
+    "summary": "Break through and cut off enemy escape routes.",
+    "blocks": [
+      {
+        "label": "ANY BATTLE ROUND",
+        "text": "WHEN: End of your turn. One unit (not AIRCRAFT, not Battle-shocked) wholly in opponent deployment zone: 3 VP. OR two or more such units: 4 VP."
+      }
+    ],
+    "cap": "Max 40 VP (Tactical) or 20 VP per card (Fixed) · 15 VP per battle round",
+    "whenDrawn": "When Drawn: If battle round 1, you may shuffle this card back into your deck and draw a new card."
+  },
+  "Secure No Man's Land": {
+    "type": "secondary",
+    "summary": "Seize objectives in No Man's Land.",
+    "blocks": [
+      {
+        "label": "ANY BATTLE ROUND",
+        "text": "WHEN: End of your turn. You control one objective in No Man's Land: 2 VP. OR two or more: 5 VP."
+      }
+    ],
+    "cap": "Max 40 VP (Tactical) or 20 VP per card (Fixed) · 15 VP per battle round"
+  },
+  "No Prisoners": {
+    "type": "secondary",
+    "summary": "Show no mercy — destroy enemy units.",
+    "blocks": [
+      {
+        "label": "FIXED",
+        "text": "WHEN: While this card is active. Each time an enemy Bodyguard or non-CHARACTER unit is destroyed (up to 5 VP)."
+      },
+      {
+        "label": "TACTICAL",
+        "text": "WHEN: While this card is active. Each time an enemy unit is destroyed (up to 5 VP)."
+      }
+    ],
+    "cap": "Max 40 VP (Tactical) or 20 VP per card (Fixed) · 15 VP per battle round"
+  },
+  "Cleanse": {
+    "type": "secondary",
+    "summary": "Purify tainted objectives.",
+    "blocks": [
+      {
+        "label": "CLEANSE (ACTION)",
+        "text": "STARTS: Shooting phase. UNITS: One or more within range of a non-home objective. COMPLETES: End of your turn if you still control it. REWARD: Fixed 2 VP / Tactical 5 VP for one cleansed; double for two or more."
+      },
+      {
+        "label": "ANY BATTLE ROUND",
+        "text": "WHEN: End of your turn. One or more objectives cleansed by your army this turn."
+      }
+    ],
+    "cap": "Max 40 VP (Tactical) or 20 VP per card (Fixed) · 15 VP per battle round",
+    "whenDrawn": "When Drawn: Select objectives to cleanse as per card."
+  },
+  "Defend Stronghold": {
+    "type": "secondary",
+    "summary": "Defend objectives in your deployment zone.",
+    "blocks": [
+      {
+        "label": "SECOND BATTLE ROUND ONWARDS",
+        "text": "WHEN: End of opponent's turn or end of battle. You control one or more objectives in your deployment zone. REWARD: 3 VP."
+      }
+    ],
+    "cap": "Max 40 VP (Tactical) or 20 VP per card (Fixed) · 15 VP per battle round",
+    "whenDrawn": "When Drawn: If battle round 1, shuffle back and draw a new card."
+  },
+  "Overwhelming Force": {
+    "type": "secondary",
+    "summary": "Destroy enemies on objectives.",
+    "blocks": [
+      {
+        "label": "ANY BATTLE ROUND",
+        "text": "WHEN: While this card is active. Each time an enemy unit that started the turn within range of an objective is destroyed (up to 5 VP). Leader and Bodyguard count separately if Attached."
+      }
+    ],
+    "cap": "Max 40 VP (Tactical) or 20 VP per card (Fixed) · 15 VP per battle round"
+  },
+  "Display of Might": {
+    "type": "secondary",
+    "summary": "Dominate No Man's Land numerically.",
+    "blocks": [
+      {
+        "label": "ANY BATTLE ROUND",
+        "text": "WHEN: End of your turn. More of your units than opponent's wholly within No Man's Land. REWARD: 4 VP."
+      }
+    ],
+    "cap": "Max 40 VP (Tactical) or 20 VP per card (Fixed) · 15 VP per battle round",
+    "whenDrawn": "When Drawn: If battle round 1, shuffle back and draw a new card."
+  },
+  "Outflank": {
+    "type": "secondary",
+    "summary": "Hold both flanks of the battlefield.",
+    "blocks": [
+      {
+        "label": "ANY BATTLE ROUND",
+        "text": "WHEN: End of your turn. You have units wholly within both the left and right halves of the battlefield (see card). REWARD: 5 VP."
+      }
+    ],
+    "cap": "Max 40 VP (Tactical) or 20 VP per card (Fixed) · 15 VP per battle round"
+  },
+  "Forward Position": {
+    "type": "secondary",
+    "summary": "Hold the enemy home or every Expansion objective.",
+    "blocks": [
+      {
+        "label": "ANY BATTLE ROUND",
+        "text": "WHEN: End of your turn. You control your opponent's home objective marker. REWARD: 5 VP. OR you control each Expansion objective marker. REWARD: 5 VP."
+      }
+    ],
+    "cap": "Max 40 VP (Tactical) or 20 VP per card (Fixed) · 15 VP per battle round"
+  },
+  "Burden of Thrust": {
+    "type": "secondary",
+    "summary": "Guard nominated objectives with assigned units.",
+    "blocks": [
+      {
+        "label": "ANY BATTLE ROUND",
+        "text": "WHEN: End of your turn. Each nominated objective is controlled by its guardian unit. REWARD: 4 VP per objective."
+      }
+    ],
+    "cap": "Max 40 VP (Tactical) or 20 VP per card (Fixed) · 15 VP per battle round",
+    "whenDrawn": "When Drawn: Select objectives and guardian units as described on the card."
+  },
+  "Centre Ground": {
+    "type": "secondary",
+    "summary": "Deny the centre of the battlefield.",
+    "blocks": [
+      {
+        "label": "ANY BATTLE ROUND",
+        "text": "WHEN: End of your turn. One or more units wholly within 3\" of the battlefield centre and no enemy within 3\": 2 VP. OR no enemy within 6\": 5 VP."
+      }
+    ],
+    "cap": "Max 40 VP (Tactical) or 20 VP per card (Fixed) · 15 VP per battle round"
+  },
+  "Beacon": {
+    "type": "secondary",
+    "summary": "Keep your Beacon unit alive behind enemy lines.",
+    "blocks": [
+      {
+        "label": "ANY BATTLE ROUND",
+        "text": "WHEN: End of your opponent's turn. Your Beacon unit is not destroyed and is wholly outside your deployment zone. REWARD: 5 VP."
+      }
+    ],
+    "cap": "Max 40 VP (Tactical) or 20 VP per card (Fixed) · 15 VP per battle round",
+    "whenDrawn": "When Drawn: Select a Beacon unit on the battlefield or embarked in a TRANSPORT."
+  },
+  "Plunder": {
+    "type": "secondary",
+    "summary": "Plunder terrain in enemy territory.",
+    "blocks": [
+      {
+        "label": "PLUNDER (ACTION)",
+        "text": "Perform on a terrain feature (see card)."
+      },
+      {
+        "label": "ANY BATTLE ROUND",
+        "text": "WHEN: End of your turn. You completed Plunder on a terrain feature. REWARD: 5 VP."
+      }
+    ],
+    "cap": "Max 40 VP (Tactical) or 20 VP per card (Fixed) · 15 VP per battle round",
+    "whenDrawn": "When Drawn: If you already have Cleanse, you may discard and redraw (and vice versa)."
+  },
+  "A Tempting Target": {
+    "type": "secondary",
+    "summary": "Seize the bait objective in No Man's Land.",
+    "blocks": [
+      {
+        "label": "ANY BATTLE ROUND",
+        "text": "WHEN: End of either player's turn. You control your Tempting Target objective marker. REWARD: 5 VP."
+      }
+    ],
+    "cap": "Max 40 VP (Tactical) or 20 VP per card (Fixed) · 15 VP per battle round",
+    "whenDrawn": "When Drawn: Opponent selects one No Man's Land objective (not a home objective) as your Tempting Target."
+  }
+}

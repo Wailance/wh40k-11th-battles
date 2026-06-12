@@ -1,0 +1,172 @@
+{
+  "source": "Chapter Approved Event Companion layouts (Veizla.gg cheat sheet)",
+  "table": { "widthIn": 60, "heightIn": 44 },
+  "setupSteps": [
+    "Place objective markers per the deployment map (terrain footprints may count as objectives in 11th Edition).",
+    "Set up terrain pieces on the grey footprints — green/yellow walls show suggested ruin placement.",
+    "Agree Attacker and Defender battlefield edges; Attacker sets up first after Defender (Strike Force).",
+    "Use one of the three layout variants for this matchup (organiser's choice or dice roll)."
+  ],
+  "matchups": {
+    "3": {
+      "variants": [
+        {
+          "id": 2,
+          "label": "Variant 2",
+          "title": "Take and Hold vs Purge the Foe 2",
+          "image": "/maps/matchup-3-v2.png",
+          "deployment": "Diagonal quarters — central objective with quarter-circle cutouts"
+        },
+        {
+          "id": 3,
+          "label": "Variant 3",
+          "title": "Take and Hold vs Purge the Foe 3",
+          "image": "/maps/matchup-3-v3.png",
+          "deployment": "Hammer and Anvil — 18\" zones top/bottom, central skull objective"
+        }
+      ]
+    },
+    "6": {
+      "variants": [
+        {
+          "id": 1,
+          "label": "Variant 1",
+          "title": "Take and Hold vs Priority Assets 1",
+          "image": "/maps/matchup-6-v1.png",
+          "deployment": "Diagonal corners — Attacker top-left, Defender bottom-right"
+        },
+        {
+          "id": 2,
+          "label": "Variant 2",
+          "title": "Take and Hold vs Priority Assets 2",
+          "image": "/maps/matchup-6-v2.png",
+          "deployment": "Hammer and Anvil — 18\" zones, five objectives"
+        },
+        {
+          "id": 3,
+          "label": "Variant 3",
+          "title": "Take and Hold vs Priority Assets 3",
+          "image": "/maps/matchup-6-v3.png",
+          "deployment": "Side deployment — 12\" zones left/right"
+        }
+      ]
+    },
+    "7": {
+      "variants": [
+        {
+          "id": 1,
+          "label": "Variant 1",
+          "title": "Take and Hold vs Take and Hold 1",
+          "image": "/maps/matchup-7-v1.png",
+          "deployment": "Hammer and Anvil — 12\" zones, staggered flanks"
+        },
+        {
+          "id": 2,
+          "label": "Variant 2",
+          "title": "Take and Hold vs Take and Hold 2",
+          "image": "/maps/matchup-7-v2.png",
+          "deployment": "Hammer and Anvil — mirrored home objectives"
+        },
+        {
+          "id": 3,
+          "label": "Variant 3",
+          "title": "Take and Hold vs Take and Hold 3",
+          "image": "/maps/matchup-7-v3.png",
+          "deployment": "Side deployment — 12\" zones, three centre objectives"
+        }
+      ]
+    },
+    "8": {
+      "variants": [
+        {
+          "id": 1,
+          "label": "Variant 1",
+          "title": "Take and Hold vs Disruption 1",
+          "image": "/maps/matchup-8-v1.png",
+          "deployment": "Staggered sides — 14\"/8\" depth zones"
+        },
+        {
+          "id": 2,
+          "label": "Variant 2",
+          "title": "Take and Hold vs Disruption 2",
+          "image": "/maps/matchup-8-v2.png",
+          "deployment": "Hammer and Anvil — asymmetric depth zones"
+        },
+        {
+          "id": 3,
+          "label": "Variant 3",
+          "title": "Take and Hold vs Disruption 3",
+          "image": "/maps/matchup-8-v3.png",
+          "deployment": "Diagonal deployment — corner zones"
+        }
+      ]
+    },
+    "9": {
+      "variants": [
+        {
+          "id": 1,
+          "label": "Variant 1",
+          "title": "Take and Hold vs Reconnaissance 1",
+          "image": "/maps/matchup-9-v1.png",
+          "deployment": "Hammer and Anvil — five objectives"
+        },
+        {
+          "id": 2,
+          "label": "Variant 2",
+          "title": "Take and Hold vs Reconnaissance 2",
+          "image": "/maps/matchup-9-v2.png",
+          "deployment": "Side deployment — flank objectives"
+        },
+        {
+          "id": 3,
+          "label": "Variant 3",
+          "title": "Take and Hold vs Reconnaissance 3",
+          "image": "/maps/matchup-9-v3.png",
+          "deployment": "Diagonal corners — central control"
+        }
+      ]
+    }
+  },
+  "gwTerrainLayouts": [
+    {
+      "id": 1,
+      "name": "Terrain Layout 1",
+      "deployments": ["Tipping Point", "Hammer and Anvil", "Search and Destroy", "Crucible of Battle"]
+    },
+    {
+      "id": 2,
+      "name": "Terrain Layout 2",
+      "deployments": ["Tipping Point", "Search and Destroy", "Crucible of Battle"]
+    },
+    {
+      "id": 3,
+      "name": "Terrain Layout 3",
+      "deployments": ["Search and Destroy", "Sweeping Engagement"]
+    },
+    {
+      "id": 4,
+      "name": "Terrain Layout 4",
+      "deployments": ["Tipping Point", "Search and Destroy", "Crucible of Battle"]
+    },
+    {
+      "id": 5,
+      "name": "Terrain Layout 5",
+      "deployments": ["Sweeping Engagement", "Dawn of War"]
+    },
+    {
+      "id": 6,
+      "name": "Terrain Layout 6",
+      "deployments": ["Tipping Point", "Search and Destroy", "Crucible of Battle"]
+    },
+    {
+      "id": 7,
+      "name": "Terrain Layout 7",
+      "deployments": ["Tipping Point", "Hammer and Anvil"]
+    },
+    {
+      "id": 8,
+      "name": "Terrain Layout 8",
+      "deployments": ["Tipping Point", "Hammer and Anvil", "Crucible of Battle"]
+    }
+  ]
+}
