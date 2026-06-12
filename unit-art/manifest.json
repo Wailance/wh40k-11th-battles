@@ -7,9 +7,9 @@
   },
   "autarch-skyrunner": {
     "name": "Autarch Skyrunner [Legends]",
-    "source": "generated",
-    "bytes": 1196,
-    "hash": "33068607"
+    "source": "warhammer40k.fandom.com title:Fusion Pistol",
+    "bytes": 4398,
+    "hash": "a7193508"
   },
   "autarch": {
     "name": "Autarch",
@@ -19,9 +19,9 @@
   },
   "autarch-wayleaper": {
     "name": "Autarch Wayleaper",
-    "source": "generated",
-    "bytes": 1220,
-    "hash": "5c48b9cd"
+    "source": "ddg:Autarch",
+    "bytes": 14586,
+    "hash": "eee95b20"
   },
   "avatar-of-khaine": {
     "name": "Avatar of Khaine",
@@ -79,9 +79,9 @@
   },
   "farseer-skyrunner": {
     "name": "Farseer Skyrunner",
-    "source": "generated",
-    "bytes": 1188,
-    "hash": "79228c2d"
+    "source": "warhammer40k.fandom.com title:Fusion Pistol",
+    "bytes": 4398,
+    "hash": "a7193508"
   },
   "fire-dragons": {
     "name": "Fire Dragons",
@@ -547,9 +547,9 @@
   },
   "corsair-cloud-dancer-band": {
     "name": "Corsair Cloud Dancer Band [Legends]",
-    "source": "generated",
-    "bytes": 1430,
-    "hash": "7dbfe792"
+    "source": "warhammer40k.fandom.com title:Blood Gorgons",
+    "bytes": 24150,
+    "hash": "7fc6e336"
   },
   "firestorm": {
     "name": "Firestorm [Legends]",
@@ -595,9 +595,9 @@
   },
   "warlock-skyrunners": {
     "name": "Warlock Skyrunners",
-    "source": "generated",
-    "bytes": 1264,
-    "hash": "066acc24"
+    "source": "warhammer40k.fandom.com title:Fusion Pistol",
+    "bytes": 4398,
+    "hash": "a7193508"
   },
   "ynnari-archon": {
     "name": "Ynnari Archon",
@@ -691,21 +691,21 @@
   },
   "kharseth": {
     "name": "Kharseth",
-    "source": "generated",
-    "bytes": 872,
-    "hash": "2ada0ff6"
+    "source": "ddg:Khorne",
+    "bytes": 13994,
+    "hash": "61ac3dd7"
   },
   "starfangs": {
     "name": "Starfangs",
-    "source": "generated",
-    "bytes": 898,
-    "hash": "2e30fbda"
+    "source": "override:Voidweaver",
+    "bytes": 6578,
+    "hash": "74faca2b"
   },
   "archtormentor-crucible": {
     "name": "Archtormentor [Crucible]",
-    "source": "generated",
-    "bytes": 1316,
-    "hash": "d0a2f12c"
+    "source": "warhammer40k.fandom.com title:Drazhar",
+    "bytes": 12274,
+    "hash": "b0ed7351"
   },
   "flesh-crafter-crucible": {
     "name": "Flesh Crafter [Crucible]",
@@ -715,15 +715,15 @@
   },
   "craftworld-warleader-crucible": {
     "name": "Craftworld Warleader [Crucible]",
-    "source": "generated",
-    "bytes": 1596,
-    "hash": "73fd76ff"
+    "source": "warhammer40k.fandom.com title:Battle of Biel-Tan",
+    "bytes": 6916,
+    "hash": "04fac23d"
   },
   "skyrunner-crucible": {
     "name": "Skyrunner [Crucible]",
-    "source": "generated",
-    "bytes": 1222,
-    "hash": "40e52486"
+    "source": "warhammer40k.fandom.com title:Fusion Pistol",
+    "bytes": 4398,
+    "hash": "a7193508"
   },
   "ghost-warrior-crucible": {
     "name": "Ghost Warrior [Crucible]",
@@ -1015,9 +1015,9 @@
   },
   "tranceweaver": {
     "name": "Tranceweaver",
-    "source": "generated",
-    "bytes": 968,
-    "hash": "3f7de066"
+    "source": "override:Harlequin",
+    "bytes": 6352,
+    "hash": "ec9854d4"
   },
   "daemonettes": {
     "name": "Daemonettes",
@@ -1123,9 +1123,9 @@
   },
   "daemonic-charioteer-crucible": {
     "name": "Daemonic Charioteer [Crucible]",
-    "source": "generated",
-    "bytes": 1536,
-    "hash": "636ee358"
+    "source": "warhammer40k.fandom.com title:Seeker Chariot of Slaanesh",
+    "bytes": 16942,
+    "hash": "f721e700"
   },
   "immortal-champion-crucible": {
     "name": "Immortal Champion [Crucible]",
@@ -1609,9 +1609,9 @@
   },
   "mutoid-vermin": {
     "name": "Mutoid Vermin [Legends]",
-    "source": "generated",
-    "bytes": 1020,
-    "hash": "be0c41ea"
+    "source": "warhammer40k.fandom.com title:Mortis Thule",
+    "bytes": 8686,
+    "hash": "bb34273c"
   },
   "renegade-enforcer": {
     "name": "Renegade Enforcer [Legends]",
@@ -1651,9 +1651,9 @@
   },
   "negavolt-cultists": {
     "name": "Negavolt Cultists [Legends]",
-    "source": "generated",
-    "bytes": 1140,
-    "hash": "0c7744da"
+    "source": "warhammer40k.fandom.com title:Chaos Cult",
+    "bytes": 14102,
+    "hash": "eb176be8"
   },
   "sorcerer-on-bike": {
     "name": "Sorcerer on Bike [Legends]",
@@ -1897,9 +1897,9 @@
   },
   "miasmic-malignifier": {
     "name": "Miasmic Malignifier",
-    "source": "generated",
-    "bytes": 1204,
-    "hash": "4f47dceb"
+    "source": "override:url",
+    "bytes": 19076,
+    "hash": "0eb56321"
   },
   "death-guard-possessed": {
     "name": "Death Guard Possessed [Legends]",
@@ -1933,9 +1933,9 @@
   },
   "tri-lobe-vectors-crucible": {
     "name": "Tri-lobe Vectors [Crucible]",
-    "source": "generated",
-    "bytes": 1378,
-    "hash": "ce951a07"
+    "source": "warhammer40k.fandom.com title:Tomb Blade",
+    "bytes": 16396,
+    "hash": "05551c9f"
   },
   "lucius-the-eternal": {
     "name": "Lucius the Eternal",
@@ -2113,15 +2113,15 @@
   },
   "brayherd-chieftain-crucible": {
     "name": "Brayherd Chieftain [Crucible]",
-    "source": "generated",
-    "bytes": 1490,
-    "hash": "98ee4226"
+    "source": "warhammer40k.fandom.com title:Reaver Attack Squad",
+    "bytes": 8314,
+    "hash": "0034eb64"
   },
   "brayherd-shaman-crucible": {
     "name": "Brayherd Shaman [Crucible]",
-    "source": "generated",
-    "bytes": 1416,
-    "hash": "560f80a3"
+    "source": "warhammer40k.fandom.com title:Tzaangor",
+    "bytes": 9012,
+    "hash": "b18caa7c"
   },
   "angron": {
     "name": "Angron",
@@ -2173,9 +2173,9 @@
   },
   "exalted-eightbound": {
     "name": "Exalted Eightbound",
-    "source": "generated",
-    "bytes": 1234,
-    "hash": "ba0cf1f3"
+    "source": "40k-archive.fandom.com title:Exalted Eightbound",
+    "bytes": 33526,
+    "hash": "32bff3ff"
   },
   "goremongers": {
     "name": "Goremongers",
@@ -2191,9 +2191,9 @@
   },
   "butcherlord-crucible": {
     "name": "Butcherlord [Crucible]",
-    "source": "generated",
-    "bytes": 1278,
-    "hash": "1e032b27"
+    "source": "warhammer40k.fandom.com title:Butcherhorde",
+    "bytes": 5994,
+    "hash": "874304e4"
   },
   "eight-blessed-lord-crucible": {
     "name": "Eight-blessed Lord [Crucible]",
@@ -2203,9 +2203,9 @@
   },
   "bloodcult-champion-crucible": {
     "name": "Bloodcult Champion [Crucible]",
-    "source": "generated",
-    "bytes": 1524,
-    "hash": "23bdf278"
+    "source": "warhammer40k.fandom.com title:Skulltakers",
+    "bytes": 9702,
+    "hash": "52255bf5"
   },
   "aberrants": {
     "name": "Aberrants",
@@ -2323,9 +2323,9 @@
   },
   "reductus-saboteur": {
     "name": "Reductus Saboteur",
-    "source": "generated",
-    "bytes": 1200,
-    "hash": "8ea06f51"
+    "source": "warhammer40k.fandom.com title:Zhao-Arkhad",
+    "bytes": 3024,
+    "hash": "26272444"
   },
   "sanctus": {
     "name": "Sanctus",
@@ -2365,9 +2365,9 @@
   },
   "aestred-thurga-and-agathae-dolan": {
     "name": "Aestred Thurga and Agathae Dolan",
-    "source": "generated",
-    "bytes": 1622,
-    "hash": "e2798bf1"
+    "source": "warhammer40k.fandom.com title:Confessor",
+    "bytes": 14444,
+    "hash": "11ff0bd2"
   },
   "arco-flagellants": {
     "name": "Arco-Flagellants",
@@ -2539,9 +2539,9 @@
   },
   "celestian-sacresant-aveline": {
     "name": "Celestian Sacresant Aveline [Legends]",
-    "source": "generated",
-    "bytes": 1454,
-    "hash": "42b02d74"
+    "source": "40k-archive.fandom.com title:Celestian Sacresant Aveline",
+    "bytes": 29012,
+    "hash": "0f194249"
   },
   "sanctifiers": {
     "name": "Sanctifiers",
@@ -2569,15 +2569,15 @@
   },
   "reliquant-knight-crucible": {
     "name": "Reliquant Knight [Crucible]",
-    "source": "generated",
-    "bytes": 1416,
-    "hash": "5ae2138a"
+    "source": "warhammer40k.fandom.com title:Imperial Knights",
+    "bytes": 7514,
+    "hash": "96d3e4aa"
   },
   "intranzia-fraye": {
     "name": "Intranzia Fraye",
-    "source": "generated",
-    "bytes": 1000,
-    "hash": "5dbebdc2"
+    "source": "warhammer40k.fandom.com title:Festering Death",
+    "bytes": 8256,
+    "hash": "2b1e61ce"
   },
   "aleya": {
     "name": "Aleya",
@@ -2683,9 +2683,9 @@
   },
   "witchseekers": {
     "name": "Witchseekers",
-    "source": "generated-fallback",
-    "bytes": 1012,
-    "error": "Error: HTTP 503"
+    "source": "warhammer40k.fandom.com title:Witchseeker",
+    "bytes": 17472,
+    "hash": "470c408e"
   },
   "custodian-guard-with-adrasite-and-pyrithite-spears": {
     "name": "Custodian Guard with Adrasite and Pyrithite spears",
@@ -2785,15 +2785,15 @@
   },
   "archaeopter-fusilave": {
     "name": "Archaeopter Fusilave",
-    "source": "generated",
-    "bytes": 1252,
-    "hash": "b0964b2a"
+    "source": "override:url",
+    "bytes": 9794,
+    "hash": "53ab68db"
   },
   "archaeopter-stratoraptor": {
     "name": "Archaeopter Stratoraptor",
-    "source": "generated",
-    "bytes": 1402,
-    "hash": "a41c2e04"
+    "source": "override:url",
+    "bytes": 9794,
+    "hash": "53ab68db"
   },
   "archaeopter-transvector": {
     "name": "Archaeopter Transvector",
@@ -2821,9 +2821,9 @@
   },
   "ironstrider-ballistarii": {
     "name": "Ironstrider Ballistarii",
-    "source": "generated-fallback",
-    "bytes": 1210,
-    "error": "Error: HTTP 503"
+    "source": "warhammer40k.fandom.com title:Ironstrider Ballistarius",
+    "bytes": 14716,
+    "hash": "5f780147"
   },
   "kastelan-robots": {
     "name": "Kastelan Robots",
@@ -2857,21 +2857,21 @@
   },
   "pteraxii-sterylizors": {
     "name": "Pteraxii Sterylizors",
-    "source": "generated",
-    "bytes": 1228,
-    "hash": "7510ede0"
+    "source": "override:url",
+    "bytes": 10386,
+    "hash": "ead576ab"
   },
   "serberys-raiders": {
     "name": "Serberys Raiders",
-    "source": "generated",
-    "bytes": 1136,
-    "hash": "2c49eac1"
+    "source": "warhammer40k.fandom.com title:Tallarn Desert Raiders",
+    "bytes": 14380,
+    "hash": "d69bb5d1"
   },
   "serberys-sulphurhounds": {
     "name": "Serberys Sulphurhounds",
-    "source": "generated",
-    "bytes": 1374,
-    "hash": "be2386f1"
+    "source": "override:url",
+    "bytes": 14718,
+    "hash": "622792ac"
   },
   "sicarian-infiltrators": {
     "name": "Sicarian Infiltrators",
@@ -2911,9 +2911,9 @@
   },
   "skorpius-dunerider": {
     "name": "Skorpius Dunerider",
-    "source": "generated",
-    "bytes": 1196,
-    "hash": "f2bc99c5"
+    "source": "warhammer40k.fandom.com title:Krios",
+    "bytes": 18556,
+    "hash": "142a41a5"
   },
   "sydonian-dragoons-with-taser-lances": {
     "name": "Sydonian Dragoons with taser lances",
@@ -3007,9 +3007,9 @@
   },
   "ironstrider-alpha-crucible": {
     "name": "Ironstrider Alpha [Crucible]",
-    "source": "generated",
-    "bytes": 1440,
-    "hash": "383be487"
+    "source": "warhammer40k.fandom.com title:Skitarii",
+    "bytes": 11134,
+    "hash": "3df56504"
   },
   "thulia-ghuld": {
     "name": "Thulia Ghuld",
@@ -3019,9 +3019,9 @@
   },
   "hastarii-exterminators": {
     "name": "Hastarii Exterminators",
-    "source": "generated",
-    "bytes": 1302,
-    "hash": "c9a3a939"
+    "source": "warhammer40k.fandom.com title:Gauss Exterminator",
+    "bytes": 7268,
+    "hash": "86bb68cf"
   },
   "hastarii-fusiliers": {
     "name": "Hastarii Fusiliers",
@@ -3049,9 +3049,9 @@
   },
   "callidus-assassin": {
     "name": "Callidus Assassin",
-    "source": "generated-fallback",
-    "bytes": 1160,
-    "error": "Error: HTTP 503"
+    "source": "warhammer40k.fandom.com title:Callidus Temple",
+    "bytes": 7376,
+    "hash": "244b9a8d"
   },
   "rogue-trader-entourage": {
     "name": "Rogue Trader Entourage",
@@ -3073,9 +3073,9 @@
   },
   "subductor-squad": {
     "name": "Subductor Squad",
-    "source": "generated",
-    "bytes": 1120,
-    "hash": "7cf0b5fd"
+    "source": "warhammer40k.fandom.com title:Close Support Squad",
+    "bytes": 2762,
+    "hash": "92e67d51"
   },
   "exaction-squad": {
     "name": "Exaction Squad",
@@ -3133,9 +3133,9 @@
   },
   "neyam-shai-murad": {
     "name": "Neyam Shai Murad [Legends]",
-    "source": "generated",
-    "bytes": 1112,
-    "hash": "877d83ac"
+    "source": "override:Inquisitor",
+    "bytes": 11466,
+    "hash": "b4aba63c"
   },
   "janus-draik": {
     "name": "Janus Draik [Legends]",
@@ -3229,9 +3229,9 @@
   },
   "kill-team-cassius": {
     "name": "Kill Team Cassius [Legends]",
-    "source": "generated-fallback",
-    "bytes": 1086,
-    "error": "Error: HTTP 503"
+    "source": "warhammer40k.fandom.com title:Kill-team Cassius",
+    "bytes": 15396,
+    "hash": "81dd4b65"
   },
   "spectrus-kill-team": {
     "name": "Spectrus Kill Team [Legends]",
@@ -3283,9 +3283,9 @@
   },
   "gravis-veteran-w-infernus-heavy-bolter": {
     "name": "Gravis Veteran w/ infernus heavy bolter",
-    "source": "generated",
-    "bytes": 1700,
-    "hash": "cd9c8104"
+    "source": "warhammer40k.fandom.com title:Infernus Heavy Bolter",
+    "bytes": 9830,
+    "hash": "c4618f6c"
   },
   "kill-team-sergeant": {
     "name": "Kill Team Sergeant",
@@ -3319,9 +3319,9 @@
   },
   "inquisitor-kroyle": {
     "name": "Inquisitor Kroyle",
-    "source": "generated",
-    "bytes": 1094,
-    "hash": "67c81ae2"
+    "source": "override:Inquisitor",
+    "bytes": 11466,
+    "hash": "b4aba63c"
   },
   "aegis-defence-line": {
     "name": "Aegis Defence Line",
@@ -3367,9 +3367,9 @@
   },
   "cadian-command-squad": {
     "name": "Cadian Command Squad",
-    "source": "generated-fallback",
-    "bytes": 1298,
-    "error": "TypeError: searches is not iterable"
+    "source": "warhammer40k.fandom.com title:Company Commander",
+    "bytes": 8388,
+    "hash": "a1878086"
   },
   "chimera": {
     "name": "Chimera",
@@ -3733,9 +3733,9 @@
   },
   "centaur-light-carrier": {
     "name": "Centaur Light Carrier [Legends]",
-    "source": "generated-fallback",
-    "bytes": 1254,
-    "error": "Error: HTTP 503"
+    "source": "warhammer40k.fandom.com title:Salamander (Armoured Vehicle)",
+    "bytes": 14676,
+    "hash": "e18b8012"
   },
   "macharius-omega": {
     "name": "Macharius Omega [Legends]",
@@ -3817,15 +3817,15 @@
   },
   "minotaur": {
     "name": "Minotaur [Legends]",
-    "source": "generated-fallback",
-    "bytes": 852,
-    "error": "Error: HTTP 503"
+    "source": "warhammer40k.fandom.com title:Legends of the Dark Millennium: Sons of Corax (Anthology)",
+    "bytes": 19416,
+    "hash": "331d5f55"
   },
   "death-rider-commissar": {
     "name": "Death Rider Commissar [Legends]",
-    "source": "generated-fallback",
-    "bytes": 1310,
-    "error": "Error: HTTP 503"
+    "source": "warhammer40k.fandom.com title:Death Rider",
+    "bytes": 22296,
+    "hash": "ed53c1aa"
   },
   "sentinel-powerlifter": {
     "name": "Sentinel Powerlifter [Legends]",
@@ -3901,9 +3901,9 @@
   },
   "ratlings": {
     "name": "Ratlings",
-    "source": "generated-fallback",
-    "bytes": 858,
-    "error": "Error: HTTP 503"
+    "source": "override:Ratling",
+    "bytes": 8902,
+    "hash": "6e0bb8d0"
   },
   "krieg-command-squad": {
     "name": "Krieg Command Squad",
@@ -3991,9 +3991,9 @@
   },
   "hippogriff-afv": {
     "name": "Hippogriff AFV",
-    "source": "generated",
-    "bytes": 1046,
-    "hash": "53d79d8f"
+    "source": "warhammer40k.fandom.com title:Salamander (Armoured Vehicle)",
+    "bytes": 14676,
+    "hash": "e18b8012"
   },
   "centaur-rsv": {
     "name": "Centaur RSV",
@@ -4375,9 +4375,9 @@
   },
   "ravenwing-talonmaster": {
     "name": "Ravenwing Talonmaster [Legends]",
-    "source": "generated",
-    "bytes": 1306,
-    "hash": "fdf6cd55"
+    "source": "warhammer40k.fandom.com title:Zso Sahaal",
+    "bytes": 11906,
+    "hash": "32a6e294"
   },
   "deathwing-strikemaster": {
     "name": "Deathwing Strikemaster [Legends]",
@@ -4399,9 +4399,9 @@
   },
   "talonstrike-kill-team": {
     "name": "Talonstrike Kill Team",
-    "source": "generated",
-    "bytes": 1184,
-    "hash": "2055aa4a"
+    "source": "warhammer40k.fandom.com title:Kill-team Cassius",
+    "bytes": 15396,
+    "hash": "81dd4b65"
   },
   "decimus-kill-team": {
     "name": "Decimus Kill Team",
@@ -5761,9 +5761,9 @@
   },
   "marneus-calgar-in-armour-of-antilochus": {
     "name": "Marneus Calgar in Armour of Antilochus",
-    "source": "generated",
-    "bytes": 1700,
-    "hash": "29f5547c"
+    "source": "override:url",
+    "bytes": 23424,
+    "hash": "a0fe8860"
   },
   "cato-sicarius": {
     "name": "Cato Sicarius",
@@ -5881,33 +5881,33 @@
   },
   "memnyr-strategist": {
     "name": "Memnyr Strategist",
-    "source": "generated",
-    "bytes": 1182,
-    "hash": "ed31d194"
+    "source": "warhammer40k.fandom.com title:Nexos",
+    "bytes": 10122,
+    "hash": "8e4a7647"
   },
   "arkanyst-evaluator": {
     "name": "Arkanyst Evaluator",
-    "source": "generated",
-    "bytes": 1182,
-    "hash": "7d6de646"
+    "source": "warhammer40k.fandom.com title:Harridan",
+    "bytes": 16474,
+    "hash": "a0ce12b3"
   },
   "kapricus-defenders": {
     "name": "Kapricus Defenders",
-    "source": "generated",
-    "bytes": 1210,
-    "hash": "61c711f4"
+    "source": "warhammer40k.fandom.com title:Guardian",
+    "bytes": 14094,
+    "hash": "55de8bf5"
   },
   "kapricus-carrier": {
     "name": "Kapricus Carrier",
-    "source": "generated",
-    "bytes": 1060,
-    "hash": "6663a5c2"
+    "source": "warhammer40k.fandom.com title:Coronus Grav-Carrier",
+    "bytes": 7378,
+    "hash": "6ea45331"
   },
   "ironkin-steeljacks-with-heavy-volkanite-disintegrators": {
     "name": "Ironkin Steeljacks with Heavy Volkanite Disintegrators",
-    "source": "generated",
-    "bytes": 1754,
-    "hash": "0d860711"
+    "source": "warhammer40k.fandom.com title:Volkanite Disintegrator",
+    "bytes": 16130,
+    "hash": "7b332577"
   },
   "ironkin-steeljacks-with-melee-weapons": {
     "name": "Ironkin Steeljacks with Melee Weapons",
@@ -5941,9 +5941,9 @@
   },
   "berehk-stornbr-w": {
     "name": "Berehk Stornbröw",
-    "source": "generated",
-    "bytes": 1114,
-    "hash": "c8efcab1"
+    "source": "override:Wolf Guard",
+    "bytes": 14596,
+    "hash": "0d24338f"
   },
   "kratos": {
     "name": "Kratos [Legends]",
@@ -6211,9 +6211,9 @@
   },
   "hyperadapted-raveners": {
     "name": "Hyperadapted Raveners",
-    "source": "generated",
-    "bytes": 1488,
-    "hash": "52a2e758"
+    "source": "warhammer40k.fandom.com title:Crimson Castellans",
+    "bytes": 5736,
+    "hash": "6a1dafee"
   },
   "lictor": {
     "name": "Lictor",
@@ -6265,9 +6265,9 @@
   },
   "node-organism-crucible": {
     "name": "Node Organism [Crucible]",
-    "source": "generated",
-    "bytes": 1474,
-    "hash": "52a5d19e"
+    "source": "warhammer40k.fandom.com title:Hive Ship",
+    "bytes": 4634,
+    "hash": "7472851d"
   },
   "prime-organism-crucible": {
     "name": "Prime Organism [Crucible]",
@@ -6277,9 +6277,9 @@
   },
   "macro-organism-crucible": {
     "name": "Macro Organism [Crucible]",
-    "source": "generated",
-    "bytes": 1498,
-    "hash": "2cb4cb65"
+    "source": "warhammer40k.fandom.com title:Vejovium III",
+    "bytes": 7466,
+    "hash": "ce59b25b"
   },
   "the-red-terror": {
     "name": "The Red Terror",
@@ -6613,9 +6613,9 @@
   },
   "seraptek-heavy-construct": {
     "name": "Seraptek Heavy Construct",
-    "source": "generated",
-    "bytes": 1514,
-    "hash": "6fea77f9"
+    "source": "warhammer40k.fandom.com title:Macharius Heavy Tank",
+    "bytes": 10662,
+    "hash": "65012843"
   },
   "gauss-pylon": {
     "name": "Gauss Pylon [Legends]",
@@ -6643,9 +6643,9 @@
   },
   "canoptek-macrocytes": {
     "name": "Canoptek Macrocytes",
-    "source": "generated",
-    "bytes": 1368,
-    "hash": "c93ccf1a"
+    "source": "override:Canoptek Spyder",
+    "bytes": 13826,
+    "hash": "7648ba05"
   },
   "canoptek-tomb-crawlers": {
     "name": "Canoptek Tomb Crawlers",
@@ -6673,15 +6673,15 @@
   },
   "hyperscientist-crucible": {
     "name": "Hyperscientist [Crucible]",
-    "source": "generated",
-    "bytes": 1480,
-    "hash": "3be60a9a"
+    "source": "override:Cybernetica Datasmith",
+    "bytes": 16586,
+    "hash": "77565117"
   },
   "triarchal-overseer-crucible": {
     "name": "Triarchal Overseer [Crucible]",
-    "source": "generated",
-    "bytes": 1560,
-    "hash": "18679c87"
+    "source": "warhammer40k.fandom.com title:Legion Overseer",
+    "bytes": 18468,
+    "hash": "61cf0960"
   },
   "battlewagon": {
     "name": "Battlewagon",
@@ -6691,9 +6691,9 @@
   },
   "beast-snagga-boyz": {
     "name": "Beast Snagga Boyz",
-    "source": "generated",
-    "bytes": 1356,
-    "hash": "ca3c00c8"
+    "source": "warhammer40k.fandom.com title:Snakebites",
+    "bytes": 23788,
+    "hash": "1c61ca38"
   },
   "beastboss": {
     "name": "Beastboss",
@@ -6703,9 +6703,9 @@
   },
   "beastboss-on-squigosaur": {
     "name": "Beastboss on Squigosaur",
-    "source": "generated",
-    "bytes": 1508,
-    "hash": "cabaa036"
+    "source": "override:url",
+    "bytes": 21174,
+    "hash": "ffcff012"
   },
   "big-mek-in-mega-armour": {
     "name": "Big Mek in Mega Armour",
@@ -6727,15 +6727,15 @@
   },
   "big-ed-bossbunka": {
     "name": "Big'ed Bossbunka",
-    "source": "generated",
-    "bytes": 1284,
-    "hash": "f141769a"
+    "source": "override:url",
+    "bytes": 19482,
+    "hash": "583eabd6"
   },
   "blitza-bommer": {
     "name": "Blitza-bommer",
-    "source": "generated",
-    "bytes": 1142,
-    "hash": "9349f4d5"
+    "source": "warhammer40k.fandom.com title:Shoota",
+    "bytes": 6770,
+    "hash": "f9670539"
   },
   "boomdakka-snazzwagon": {
     "name": "Boomdakka Snazzwagon",
@@ -6787,9 +6787,9 @@
   },
   "deffkilla-wartrike": {
     "name": "Deffkilla Wartrike",
-    "source": "generated",
-    "bytes": 1328,
-    "hash": "bc7fae09"
+    "source": "override:url",
+    "bytes": 22858,
+    "hash": "047a50fb"
   },
   "deffkoptas": {
     "name": "Deffkoptas",
@@ -6901,9 +6901,9 @@
   },
   "mozrog-skragbad": {
     "name": "Mozrog Skragbad",
-    "source": "generated",
-    "bytes": 1294,
-    "hash": "3956f88e"
+    "source": "override:url",
+    "bytes": 21174,
+    "hash": "ffcff012"
   },
   "nob-with-waaagh-banner": {
     "name": "Nob with Waaagh! Banner [Legends]",
@@ -6943,9 +6943,9 @@
   },
   "squighog-boyz": {
     "name": "Squighog Boyz",
-    "source": "generated",
-    "bytes": 1238,
-    "hash": "af58480d"
+    "source": "warhammer40k.fandom.com title:Burna Boy",
+    "bytes": 10470,
+    "hash": "a9642d4d"
   },
   "stompa": {
     "name": "Stompa",
@@ -7021,9 +7021,9 @@
   },
   "grot-mega-tank": {
     "name": "Grot Mega-Tank [Legends]",
-    "source": "generated-fallback",
-    "bytes": 1252,
-    "error": "Error: HTTP 503"
+    "source": "warhammer40k.fandom.com title:Grot Bomm Launcha",
+    "bytes": 11644,
+    "hash": "d7e44fc4"
   },
   "squiggoth": {
     "name": "Squiggoth [Legends]",
@@ -7075,15 +7075,15 @@
   },
   "kannonwagon": {
     "name": "Kannonwagon [Legends]",
-    "source": "generated",
-    "bytes": 1144,
-    "hash": "fba41a70"
+    "source": "override:Battlewagon",
+    "bytes": 14814,
+    "hash": "90b9559d"
   },
   "da-red-gobbo": {
     "name": "Da Red Gobbo [Legends]",
-    "source": "generated",
-    "bytes": 1180,
-    "hash": "6e43d90d"
+    "source": "override:Gretchin",
+    "bytes": 9890,
+    "hash": "90febdd3"
   },
   "painboy-on-warbike": {
     "name": "Painboy on Warbike [Legends]",
@@ -7171,15 +7171,15 @@
   },
   "grotmas-gitz": {
     "name": "Grotmas Gitz [Legends]",
-    "source": "generated",
-    "bytes": 1132,
-    "hash": "ba805a2a"
+    "source": "warhammer40k.fandom.com title:Gitfinda",
+    "bytes": 10390,
+    "hash": "11de7bb9"
   },
   "ufthak-blackhawk": {
     "name": "Ufthak Blackhawk [Legends]",
-    "source": "generated",
-    "bytes": 1280,
-    "hash": "4b68551a"
+    "source": "override:url",
+    "bytes": 26110,
+    "hash": "620a07ba"
   },
   "big-mek": {
     "name": "Big Mek",
@@ -7195,9 +7195,9 @@
   },
   "squighog-boy": {
     "name": "Squighog Boy",
-    "source": "generated",
-    "bytes": 1056,
-    "hash": "2a8bfa64"
+    "source": "warhammer40k.fandom.com title:Burna Boy",
+    "bytes": 10470,
+    "hash": "a9642d4d"
   },
   "nob-on-smasha-squig": {
     "name": "Nob on Smasha Squig",
@@ -7213,33 +7213,33 @@
   },
   "da-red-gobbo-s-a-bomb-inable-snowman": {
     "name": "Da Red Gobbo's A-bomb-inable Snowman [Legends]",
-    "source": "generated",
-    "bytes": 1956,
-    "hash": "389ba551"
+    "source": "override:Gretchin",
+    "bytes": 9890,
+    "hash": "90febdd3"
   },
   "da-red-gobbo-s-tinboy": {
     "name": "Da Red Gobbo's Tinboy [Legends]",
-    "source": "generated",
-    "bytes": 1462,
-    "hash": "d91e2b9e"
+    "source": "override:Gretchin",
+    "bytes": 9890,
+    "hash": "90febdd3"
   },
   "hordeboss-crucible": {
     "name": "Hordeboss [Crucible]",
-    "source": "generated",
-    "bytes": 1418,
-    "hash": "486700a9"
+    "source": "override:url",
+    "bytes": 21174,
+    "hash": "ffcff012"
   },
   "warphead-crucible": {
     "name": "Warphead [Crucible]",
-    "source": "generated",
-    "bytes": 1406,
-    "hash": "1e706b44"
+    "source": "warhammer40k.fandom.com title:Weirdboy",
+    "bytes": 15354,
+    "hash": "7559dd6c"
   },
   "upstart-gretchin-crucible": {
     "name": "Upstart Gretchin [Crucible]",
-    "source": "generated",
-    "bytes": 1582,
-    "hash": "2421242c"
+    "source": "warhammer40k.fandom.com title:Gretchin",
+    "bytes": 9890,
+    "hash": "90febdd3"
   },
   "wazdakka-gutsmek": {
     "name": "Wazdakka Gutsmek",
@@ -7255,9 +7255,9 @@
   },
   "commander-farsight": {
     "name": "Commander Farsight",
-    "source": "generated-fallback",
-    "bytes": 1224,
-    "error": "Error: HTTP 503"
+    "source": "warhammer40k.fandom.com title:Commander Farsight",
+    "bytes": 11148,
+    "hash": "2a9ff0ef"
   },
   "commander-in-crisis-battlesuit": {
     "name": "Commander in Crisis Battlesuit [Legends]",
@@ -7285,9 +7285,9 @@
   },
   "ethereal": {
     "name": "Ethereal",
-    "source": "generated-fallback",
-    "bytes": 844,
-    "error": "Error: HTTP 503"
+    "source": "warhammer40k.fandom.com title:Ethereal",
+    "bytes": 12612,
+    "hash": "71e70cee"
   },
   "aun-va": {
     "name": "Aun'va [Legends]",
@@ -7297,15 +7297,15 @@
   },
   "aun-shi": {
     "name": "Aun'shi [Legends]",
-    "source": "generated-fallback",
-    "bytes": 802,
-    "error": "Error: HTTP 503"
+    "source": "warhammer40k.fandom.com title:Farsight Enclaves",
+    "bytes": 6476,
+    "hash": "e05aaa40"
   },
   "darkstrider": {
     "name": "Darkstrider",
-    "source": "generated-fallback",
-    "bytes": 940,
-    "error": "Error: HTTP 503"
+    "source": "warhammer40k.fandom.com title:Darkstrider",
+    "bytes": 11232,
+    "hash": "a8a3344b"
   },
   "longstrike": {
     "name": "Longstrike [Legends]",
@@ -7327,9 +7327,9 @@
   },
   "kroot-carnivores": {
     "name": "Kroot Carnivores",
-    "source": "generated-fallback",
-    "bytes": 1084,
-    "error": "Error: HTTP 503"
+    "source": "warhammer40k.fandom.com title:Cadre",
+    "bytes": 17784,
+    "hash": "537c3281"
   },
   "krootox-riders": {
     "name": "Krootox Riders",
@@ -7339,21 +7339,21 @@
   },
   "crisis-battlesuits": {
     "name": "Crisis Battlesuits [Legends]",
-    "source": "generated-fallback",
-    "bytes": 1168,
-    "error": "Error: HTTP 503"
+    "source": "warhammer40k.fandom.com title:XV9 Hazard Battlesuit",
+    "bytes": 10060,
+    "hash": "1bb59800"
   },
   "stealth-battlesuits": {
     "name": "Stealth Battlesuits",
-    "source": "generated-fallback",
-    "bytes": 1216,
-    "error": "Error: HTTP 503"
+    "source": "warhammer40k.fandom.com title:XV95 Ghostkeel Battlesuit",
+    "bytes": 15926,
+    "hash": "684d0a40"
   },
   "ghostkeel-battlesuit": {
     "name": "Ghostkeel Battlesuit",
-    "source": "generated-fallback",
-    "bytes": 1234,
-    "error": "Error: HTTP 503"
+    "source": "warhammer40k.fandom.com title:XV95 Ghostkeel Battlesuit",
+    "bytes": 15926,
+    "hash": "684d0a40"
   },
   "firesight-team": {
     "name": "Firesight Team",
@@ -7459,9 +7459,9 @@
   },
   "kroot-farstalkers": {
     "name": "Kroot Farstalkers",
-    "source": "generated",
-    "bytes": 1160,
-    "hash": "2e593121"
+    "source": "warhammer40k.fandom.com title:Farstalkers",
+    "bytes": 6292,
+    "hash": "e3d579c3"
   },
   "r-varna-battlesuit": {
     "name": "R'varna Battlesuit [Legends]",
@@ -7543,9 +7543,9 @@
   },
   "knarloc-riders": {
     "name": "Knarloc Riders [Legends]",
-    "source": "generated",
-    "bytes": 1000,
-    "hash": "533fc9e3"
+    "source": "warhammer40k.fandom.com title:TX-4 Piranha",
+    "bytes": 6178,
+    "hash": "d76ea8a1"
   },
   "shas-o-r-alai": {
     "name": "Shas'o R'alai [Legends]",
@@ -7579,15 +7579,15 @@
   },
   "crisis-fireknife-battlesuits": {
     "name": "Crisis Fireknife Battlesuits",
-    "source": "generated",
-    "bytes": 1400,
-    "hash": "44311c42"
+    "source": "warhammer40k.fandom.com title:XV107 R'varna Battlesuit",
+    "bytes": 14432,
+    "hash": "1c4f15f5"
   },
   "crisis-starscythe-battlesuits": {
     "name": "Crisis Starscythe Battlesuits",
-    "source": "generated",
-    "bytes": 1490,
-    "hash": "08b969e1"
+    "source": "warhammer40k.fandom.com title:XV107 R'varna Battlesuit",
+    "bytes": 14432,
+    "hash": "1c4f15f5"
   },
   "kroot-trail-shaper": {
     "name": "Kroot Trail Shaper",
@@ -7615,15 +7615,15 @@
   },
   "krootox-rampagers": {
     "name": "Krootox Rampagers",
-    "source": "generated",
-    "bytes": 1250,
-    "hash": "9700a77b"
+    "source": "warhammer40k.fandom.com title:KX139 Ta'unar Supremacy Armour",
+    "bytes": 14126,
+    "hash": "c8bc5186"
   },
   "shas-nel-crucible": {
     "name": "Shas'nel [Crucible]",
-    "source": "generated",
-    "bytes": 1182,
-    "hash": "9fd7b0cb"
+    "source": "warhammer40k.fandom.com title:Cadre Fireblade",
+    "bytes": 10116,
+    "hash": "fa0f72f4"
   },
   "battlesuit-veteran-crucible": {
     "name": "Battlesuit Veteran [Crucible]",
@@ -7729,9 +7729,9 @@
   },
   "neurogaunts": {
     "name": "Neurogaunts",
-    "source": "generated",
-    "bytes": 1084,
-    "hash": "31356501"
+    "source": "warhammer40k.fandom.com title:Doom of Malan'tai",
+    "bytes": 29884,
+    "hash": "8ca460f7"
   },
   "zoanthropes": {
     "name": "Zoanthropes",
@@ -7801,9 +7801,9 @@
   },
   "barbgaunts": {
     "name": "Barbgaunts",
-    "source": "generated",
-    "bytes": 1076,
-    "hash": "a4978604"
+    "source": "warhammer40k.fandom.com title:Doom of Malan'tai",
+    "bytes": 29884,
+    "hash": "8ca460f7"
   },
   "barbed-hierodule": {
     "name": "Barbed Hierodule [Legends]",
@@ -7873,9 +7873,9 @@
   },
   "tyranid-prime-with-lash-whip": {
     "name": "Tyranid Prime with Lash Whip",
-    "source": "generated",
-    "bytes": 1544,
-    "hash": "6d5004c4"
+    "source": "warhammer40k.fandom.com title:Hierophant",
+    "bytes": 13450,
+    "hash": "d12b03cf"
   },
   "ambull": {
     "name": "Ambull [Legends]",
