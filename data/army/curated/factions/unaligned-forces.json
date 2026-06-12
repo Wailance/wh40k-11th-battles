@@ -1,0 +1,1443 @@
+{
+  "id": "581a-46b9-5b86-44b7",
+  "name": "Unaligned Forces",
+  "catalogueName": "Unaligned Forces",
+  "units": [
+    {
+      "id": "e85b-17c7-1ad9-8375",
+      "name": "Ambull [Legends]",
+      "points": 85,
+      "keywords": [
+        "Allied Units",
+        "Monster",
+        "Character",
+        "Ambull"
+      ],
+      "factionKeywords": [
+        "Unaligned Forces"
+      ],
+      "stats": {
+        "M": "6\"",
+        "T": "8",
+        "SV": "3+",
+        "W": "8",
+        "LD": "8+",
+        "OC": "3"
+      },
+      "rangedWeapons": [],
+      "meleeWeapons": [
+        {
+          "name": "Enormous claws",
+          "range": "Melee",
+          "A": "4",
+          "WS": "3+",
+          "S": "6",
+          "AP": "-2",
+          "D": "D3",
+          "keywords": []
+        }
+      ],
+      "abilities": [
+        {
+          "name": "Frenzy",
+          "description": "Each time an enemy unit is selected to shoot or fight, after it has finished making its attacks, if one or more of those attacks targeted this model and this model is not destroyed, this model can fight as if it were the Fight phase"
+        },
+        {
+          "name": "Borewyrm Infestation",
+          "description": "Twice per battle, at the end of your opponent’s turn, if this model is not within Engagement Range of one or more enemy units, you can remove this model from the battlefield. In the Reinforcements step of your next Movement phase, set it up anywhere on the battlefield that\nis more than 9\" horizontally away from all enemy models. If the battle ends and this unit is not on the battlefield, it is destroyed. \n\nDesigner’s Note: Place two Borewyrm Infestation tokens next to this model, removing one each time this ability has been used."
+        }
+      ]
+    },
+    {
+      "id": "5b1d-134a-9996-b634",
+      "name": "Aegis Defence Line with Weapon Emplacement [Legends]",
+      "points": 145,
+      "keywords": [
+        "Fortification",
+        "Aegis Defence Line with Weapon Emplacement"
+      ],
+      "factionKeywords": [
+        "Unaligned Forces"
+      ],
+      "stats": {
+        "M": "-",
+        "T": "12",
+        "SV": "2+",
+        "W": "10",
+        "LD": "7+",
+        "OC": "0"
+      },
+      "rangedWeapons": [
+        {
+          "name": "Quad-gun",
+          "range": "48\"",
+          "A": "4",
+          "BS": "5+",
+          "S": "9",
+          "AP": "-1",
+          "D": "3",
+          "keywords": [
+            "Anti-Fly 3+",
+            "Twin-linked"
+          ]
+        },
+        {
+          "name": "Icarus Lascannon",
+          "range": "48\"",
+          "A": "1",
+          "BS": "5+",
+          "S": "12",
+          "AP": "-3",
+          "D": "D6+1",
+          "keywords": [
+            "Anti-Fly 2+"
+          ]
+        }
+      ],
+      "meleeWeapons": [],
+      "abilities": []
+    },
+    {
+      "id": "5134-5fe9-e489-43c4",
+      "name": "Bastion [Legends]",
+      "points": 275,
+      "keywords": [
+        "Fortification",
+        "Towering",
+        "Vehicle",
+        "Transport",
+        "Bastion"
+      ],
+      "factionKeywords": [
+        "Unaligned Forces"
+      ],
+      "stats": {
+        "M": "-",
+        "T": "13",
+        "SV": "2+",
+        "W": "18",
+        "LD": "7+",
+        "OC": "0"
+      },
+      "rangedWeapons": [
+        {
+          "name": "Icarus Lascannon",
+          "range": "48\"",
+          "A": "1",
+          "BS": "5+",
+          "S": "12",
+          "AP": "-3",
+          "D": "D6+1",
+          "keywords": [
+            "Anti-Fly 2+"
+          ]
+        },
+        {
+          "name": "Quad-gun",
+          "range": "48\"",
+          "A": "4",
+          "BS": "5+",
+          "S": "9",
+          "AP": "-1",
+          "D": "3",
+          "keywords": [
+            "Anti-Fly 3+",
+            "Twin-linked"
+          ]
+        },
+        {
+          "name": "Heavy bolter",
+          "range": "36\"",
+          "A": "3",
+          "BS": "4+",
+          "S": "5",
+          "AP": "-1",
+          "D": "2",
+          "keywords": [
+            "Sustained Hits 1"
+          ]
+        }
+      ],
+      "meleeWeapons": [],
+      "abilities": [
+        {
+          "name": "Comms Antenna",
+          "description": "In your Command phase, if one or more Character models are embarked within this Fortification, roll one D6: on a 5+, you gain 1CP"
+        }
+      ],
+      "transportCapacity": "This FORTIFICATION has a transport capacity of 15 INFANTRY models. Each model with a Wounds characteristic of 3 or more takes up the space of 2 models. It cannot transport non-CHARACTER models with a Wounds characteristic of 4 or more."
+    },
+    {
+      "id": "71b0-77b9-522c-17d6",
+      "name": "Firestorm Redoubt [Legends]",
+      "points": 260,
+      "keywords": [
+        "Fortification",
+        "Transport",
+        "Vehicle",
+        "Wall of Martyrs",
+        "Firestorm Redoubt"
+      ],
+      "factionKeywords": [
+        "Unaligned Forces"
+      ],
+      "stats": {
+        "M": "-",
+        "T": "13",
+        "SV": "2+",
+        "W": "18",
+        "LD": "7+",
+        "OC": "0"
+      },
+      "rangedWeapons": [
+        {
+          "name": "Icarus Lascannon",
+          "range": "48\"",
+          "A": "1",
+          "BS": "5+",
+          "S": "12",
+          "AP": "-3",
+          "D": "D6+1",
+          "keywords": [
+            "Anti-Fly 2+"
+          ]
+        },
+        {
+          "name": "Quad-gun",
+          "range": "48\"",
+          "A": "4",
+          "BS": "5+",
+          "S": "9",
+          "AP": "-1",
+          "D": "3",
+          "keywords": [
+            "Anti-Fly 3+",
+            "Twin-linked"
+          ]
+        },
+        {
+          "name": "Battle cannon",
+          "range": "48\"",
+          "A": "D6+3",
+          "BS": "4+",
+          "S": "9",
+          "AP": "-1",
+          "D": "3",
+          "keywords": [
+            "Blast"
+          ]
+        },
+        {
+          "name": "Punisher gatling cannon",
+          "range": "24\"",
+          "A": "20",
+          "BS": "4+",
+          "S": "6",
+          "AP": "0",
+          "D": "1",
+          "keywords": []
+        },
+        {
+          "name": "Quad lascannon",
+          "range": "48\"",
+          "A": "2",
+          "BS": "4+",
+          "S": "12",
+          "AP": "-3",
+          "D": "D6+1",
+          "keywords": [
+            "Twin-linked",
+            "Anti-Fly 2+"
+          ]
+        }
+      ],
+      "meleeWeapons": [],
+      "abilities": [
+        {
+          "name": "Comms Antenna",
+          "description": "In your Command phase, if one or more Character models are embarked within this Fortification, roll one D6: on a 5+, you gain 1CP"
+        }
+      ],
+      "transportCapacity": "This Fortification has a transport capacity of 15 Infantry models. Each model with a Wounds characteristic of 3 or more takes up the space of 2 models. It cannot transport non-Character models with a Wounds characteristic of 4 or more"
+    },
+    {
+      "id": "c4d1-c85a-a20e-6c94",
+      "name": "Fortress of Redemption [Legends]",
+      "points": 480,
+      "keywords": [
+        "Fortification",
+        "Transport",
+        "Titanic",
+        "Vehicle",
+        "Towering",
+        "Fortress of Redemption"
+      ],
+      "factionKeywords": [
+        "Unaligned Forces"
+      ],
+      "stats": {
+        "M": "-",
+        "T": "13",
+        "SV": "2+",
+        "W": "30",
+        "LD": "7+",
+        "OC": "0"
+      },
+      "rangedWeapons": [
+        {
+          "name": "Redemptor lascannons",
+          "range": "48\"",
+          "A": "2",
+          "BS": "4+",
+          "S": "14",
+          "AP": "-3",
+          "D": "D6+1",
+          "keywords": [
+            "Anti-Fly 2+"
+          ]
+        },
+        {
+          "name": "➤ Redemptor missile silo - superfrag",
+          "range": "48\"",
+          "A": "2D6+2",
+          "BS": "4+",
+          "S": "5",
+          "AP": "0",
+          "D": "1",
+          "keywords": [
+            "Blast"
+          ]
+        },
+        {
+          "name": "➤ Redemptor missile silo - superkrak",
+          "range": "48\"",
+          "A": "2",
+          "BS": "4+",
+          "S": "10",
+          "AP": "-2",
+          "D": "D6+1",
+          "keywords": []
+        },
+        {
+          "name": "Heavy bolter",
+          "range": "36\"",
+          "A": "3",
+          "BS": "4+",
+          "S": "5",
+          "AP": "-1",
+          "D": "2",
+          "keywords": [
+            "Sustained Hits 1"
+          ]
+        }
+      ],
+      "meleeWeapons": [],
+      "abilities": [
+        {
+          "name": "Vantage Point",
+          "description": "While a model is on top of the tower roof of this FORTIFICATION, improve the Armour Penetration characteristic of ranged weapons equipped by that model by 1."
+        }
+      ],
+      "transportCapacity": "This FORTIFICATION has a transport capacity of 20 INFANTRY models. Each model with a Wounds characteristic of 3 or more takes up the space of 2 models. It cannot transport non-CHARACTER models with a Wounds characteristic of 4 or more."
+    },
+    {
+      "id": "e3ba-7f87-c32-229",
+      "name": "Guardian Drone [Legends]",
+      "points": 45,
+      "keywords": [
+        "Allied Units",
+        "Monster",
+        "Guardian Drone"
+      ],
+      "factionKeywords": [
+        "Unaligned Forces"
+      ],
+      "stats": {
+        "M": "5\"",
+        "T": "7",
+        "SV": "3+",
+        "W": "7",
+        "LD": "6+",
+        "OC": "2"
+      },
+      "rangedWeapons": [
+        {
+          "name": "Destroyer pulse",
+          "range": "18\"",
+          "A": "1",
+          "BS": "4+",
+          "S": "8",
+          "AP": "-2",
+          "D": "2",
+          "keywords": [
+            "Pistol"
+          ]
+        },
+        {
+          "name": "Guardian salvo launchers",
+          "range": "24\"",
+          "A": "D6",
+          "BS": "4+",
+          "S": "5",
+          "AP": "-1",
+          "D": "1",
+          "keywords": [
+            "Blast"
+          ]
+        }
+      ],
+      "meleeWeapons": [
+        {
+          "name": "Manipulator limbs",
+          "range": "Melee",
+          "A": "4",
+          "WS": "4+",
+          "S": "5",
+          "AP": "0",
+          "D": "1",
+          "keywords": []
+        }
+      ],
+      "abilities": [
+        {
+          "name": "Drone Commander (Aura)",
+          "description": "While a friendly **^^Spindle Drones^^** unit is within 6\" of this model, each time a model in that unit makes an attack, add 1 to the Hit roll."
+        }
+      ]
+    },
+    {
+      "id": "3b75-e314-ecd5-cd63",
+      "name": "Macro-cannon Aquila Strongpoint [Legends]",
+      "points": 550,
+      "keywords": [
+        "Fortification",
+        "Titanic",
+        "Vehicle",
+        "Transport",
+        "Wall of Martyrs",
+        "Macro-cannon Aquila Strongpoint"
+      ],
+      "factionKeywords": [
+        "Unaligned Forces"
+      ],
+      "stats": {
+        "M": "-",
+        "T": "13",
+        "SV": "2+",
+        "W": "30",
+        "LD": "7+",
+        "OC": "0"
+      },
+      "rangedWeapons": [
+        {
+          "name": "Aquila macro-cannon",
+          "range": "72\"",
+          "A": "D6+6",
+          "BS": "5+",
+          "S": "16",
+          "AP": "-4",
+          "D": "4",
+          "keywords": []
+        },
+        {
+          "name": "Heavy bolter",
+          "range": "36\"",
+          "A": "3",
+          "BS": "4+",
+          "S": "5",
+          "AP": "-1",
+          "D": "2",
+          "keywords": [
+            "Sustained Hits 1"
+          ]
+        }
+      ],
+      "meleeWeapons": [],
+      "abilities": [
+        {
+          "name": "Tremor Quake",
+          "description": "In your Shooting phase, just after selecting a target for this model’s Aquila macro-cannon, the target unit and every other enemy INFANTRY unit within 3\" of that unit must take a Battle-shock test."
+        }
+      ],
+      "transportCapacity": "This FORTIFICATION has a transport capacity of 30 INFANTRY models. Each model with a Wounds characteristic of 3 or more takes up the space of 2 models. It cannot transport non-CHARACTER models with a Wounds characteristic of 4 or more."
+    },
+    {
+      "id": "cabe-2c66-c8b6-de6c",
+      "name": "Plasma Obliterator [Legends]",
+      "points": 225,
+      "keywords": [
+        "Fortification",
+        "Transport",
+        "Vehicle",
+        "Towering",
+        "Plasma Obliterator"
+      ],
+      "factionKeywords": [
+        "Unaligned Forces"
+      ],
+      "stats": {
+        "M": "-",
+        "T": "13",
+        "SV": "2+",
+        "W": "18",
+        "LD": "7+",
+        "OC": "0"
+      },
+      "rangedWeapons": [
+        {
+          "name": "➤ Plasma obliterator - standard",
+          "range": "48\"",
+          "A": "D6+3",
+          "BS": "5+",
+          "S": "9",
+          "AP": "-3",
+          "D": "3",
+          "keywords": [
+            "Blast"
+          ]
+        },
+        {
+          "name": "➤ Plasma obliterator - supercharge",
+          "range": "48\"",
+          "A": "D6+3",
+          "BS": "5+",
+          "S": "10",
+          "AP": "-4",
+          "D": "4",
+          "keywords": [
+            "Blast",
+            "Hazardous"
+          ]
+        }
+      ],
+      "meleeWeapons": [],
+      "abilities": [
+        {
+          "name": "Emergency Plasma Vents",
+          "description": "Each time this FORTIFICATION suffers a mortal wound as the result of a failed Hazardous test, roll one D6: on a 4+, that wound is not lost."
+        }
+      ],
+      "transportCapacity": "This FORTIFICATION has a transport capacity of 20 INFANTRY models. Each model with a Wounds characteristic of 3 or more takes up the space of 2 models. It cannot transport non-CHARACTER models with a Wounds characteristic of 4 or more."
+    },
+    {
+      "id": "f39-fc54-f95a-8395",
+      "name": "Primaris Redoubt [Legends]",
+      "points": 220,
+      "keywords": [
+        "Fortification",
+        "Vehicle",
+        "Primaris Redoubt"
+      ],
+      "factionKeywords": [
+        "Unaligned Forces"
+      ],
+      "stats": {
+        "M": "-",
+        "T": "12",
+        "SV": "3+",
+        "W": "18",
+        "LD": "7+",
+        "OC": "0"
+      },
+      "rangedWeapons": [
+        {
+          "name": "Primaris Redoubt turbo-laser destructor",
+          "range": "96\"",
+          "A": "D3+1",
+          "BS": "4+",
+          "S": "16",
+          "AP": "-3",
+          "D": "D6+3",
+          "keywords": [
+            "Blast"
+          ]
+        },
+        {
+          "name": "Primaris air defence missiles",
+          "range": "48\"",
+          "A": "D6",
+          "BS": "4+",
+          "S": "6",
+          "AP": "-2",
+          "D": "2",
+          "keywords": [
+            "Anti-Fly 2+"
+          ]
+        },
+        {
+          "name": "Primaris Icarus lascannon",
+          "range": "48\"",
+          "A": "1",
+          "BS": "4+",
+          "S": "12",
+          "AP": "-3",
+          "D": "D6+1",
+          "keywords": [
+            "Anti-Fly 2+"
+          ]
+        },
+        {
+          "name": "Primaris Icarus quad lascannon",
+          "range": "48\"",
+          "A": "2",
+          "BS": "4+",
+          "S": "12",
+          "AP": "-3",
+          "D": "D6+1",
+          "keywords": [
+            "Anti-Fly 2+",
+            "Twin-linked"
+          ]
+        },
+        {
+          "name": "Primaris quad-gun",
+          "range": "48\"",
+          "A": "4",
+          "BS": "4+",
+          "S": "8",
+          "AP": "-1",
+          "D": "2",
+          "keywords": []
+        },
+        {
+          "name": "Primaris castellan launcher",
+          "range": "72\"",
+          "A": "D6+1",
+          "BS": "4+",
+          "S": "6",
+          "AP": "0",
+          "D": "1",
+          "keywords": [
+            "Blast",
+            "Indirect Fire"
+          ]
+        },
+        {
+          "name": "Primaris vengeance launcher",
+          "range": "72\"",
+          "A": "D3+1",
+          "BS": "4+",
+          "S": "7",
+          "AP": "-1",
+          "D": "2",
+          "keywords": [
+            "Blast",
+            "Indirect Fire"
+          ]
+        },
+        {
+          "name": "Battle cannon",
+          "range": "48\"",
+          "A": "D6+3",
+          "BS": "4+",
+          "S": "9",
+          "AP": "-1",
+          "D": "3",
+          "keywords": [
+            "Blast"
+          ]
+        },
+        {
+          "name": "Multi-melta",
+          "range": "18\"",
+          "A": "2",
+          "BS": "4+",
+          "S": "9",
+          "AP": "-4",
+          "D": "D6",
+          "keywords": [
+            "Melta 2"
+          ]
+        },
+        {
+          "name": "Twin lascannon",
+          "range": "48\"",
+          "A": "1",
+          "BS": "4+",
+          "S": "12",
+          "AP": "-3",
+          "D": "D6+1",
+          "keywords": [
+            "Twin-linked"
+          ]
+        },
+        {
+          "name": "Twin heavy bolter",
+          "range": "36\"",
+          "A": "3",
+          "BS": "4+",
+          "S": "5",
+          "AP": "-1",
+          "D": "2",
+          "keywords": [
+            "Sustained Hits 1",
+            "Twin-linked"
+          ]
+        },
+        {
+          "name": "Twin heavy flamer",
+          "range": "12\"",
+          "A": "D6",
+          "BS": "N/A",
+          "S": "5",
+          "AP": "-1",
+          "D": "1",
+          "keywords": [
+            "Ignores Cover",
+            "Torrent",
+            "Twin-linked"
+          ]
+        },
+        {
+          "name": "Heavy bolter",
+          "range": "36\"",
+          "A": "3",
+          "BS": "4+",
+          "S": "5",
+          "AP": "-1",
+          "D": "2",
+          "keywords": [
+            "Sustained Hits 1"
+          ]
+        }
+      ],
+      "meleeWeapons": [],
+      "abilities": []
+    },
+    {
+      "id": "54c-8b9f-b1d8-93c3",
+      "name": "Skyshield Landing Pad [Legends]",
+      "points": 125,
+      "keywords": [
+        "Fortification",
+        "Skyshield Landing Pad"
+      ],
+      "factionKeywords": [
+        "Unaligned Forces"
+      ],
+      "stats": {
+        "M": "-",
+        "T": "12",
+        "SV": "3+",
+        "W": "16",
+        "LD": "7+",
+        "OC": "0"
+      },
+      "rangedWeapons": [],
+      "meleeWeapons": [],
+      "abilities": [
+        {
+          "name": "Skyshield",
+          "description": "Friendly Infantry models and friendly units that can Fly can be set up or end any type of move on top of the platform section of this Fortification. While such a model is on the platform section of this Fortification, that model has a 5+ invulnerable save against ranged attacks"
+        },
+        {
+          "name": "Repair Aircraft",
+          "description": "At the end of your Movement phase, if there is a friendly Aircraft model on top of this Fortification, that Aircraft regains up to D3 lost wounds"
+        }
+      ]
+    },
+    {
+      "id": "da76-e18f-523e-d45a",
+      "name": "Spindle Drones [Legends]",
+      "points": 35,
+      "keywords": [
+        "Allied Units",
+        "Infantry",
+        "Spindle Drones"
+      ],
+      "factionKeywords": [
+        "Unaligned Forces"
+      ],
+      "stats": {
+        "M": "6\"",
+        "T": "4",
+        "SV": "4+",
+        "W": "2",
+        "LD": "6+",
+        "OC": "1"
+      },
+      "rangedWeapons": [
+        {
+          "name": "Drone pulse",
+          "range": "18\"",
+          "A": "1",
+          "BS": "4+",
+          "S": "4",
+          "AP": "0",
+          "D": "1",
+          "keywords": [
+            "Pistol"
+          ]
+        }
+      ],
+      "meleeWeapons": [
+        {
+          "name": "Close combat weapon",
+          "range": "Melee",
+          "A": "1",
+          "WS": "4+",
+          "S": "3",
+          "AP": "0",
+          "D": "1",
+          "keywords": []
+        }
+      ],
+      "abilities": [
+        {
+          "name": "Threat Level Rising",
+          "description": "Each time a model in this unit makes an attack, add 1 to the Hit roll if this unit is below its Starting Strength, and add 1 to the Wound roll as well if this unit is Below Half-strength"
+        }
+      ]
+    },
+    {
+      "id": "11b2-8348-ae67-fa98",
+      "name": "The Archivist [Legends]",
+      "points": 70,
+      "keywords": [
+        "Allied Units",
+        "Monster",
+        "Epic Hero",
+        "Character",
+        "The Archivist"
+      ],
+      "factionKeywords": [
+        "Unaligned Forces"
+      ],
+      "stats": {
+        "M": "5\"",
+        "T": "6",
+        "SV": "3+",
+        "W": "6",
+        "LD": "7+",
+        "OC": "2"
+      },
+      "rangedWeapons": [
+        {
+          "name": "Atomic disassembler",
+          "range": "18\"",
+          "A": "1",
+          "BS": "3+",
+          "S": "8",
+          "AP": "-2",
+          "D": "2",
+          "keywords": [
+            "Ignores Cover",
+            "Pistol"
+          ]
+        }
+      ],
+      "meleeWeapons": [
+        {
+          "name": "Eradicator glove",
+          "range": "Melee",
+          "A": "4",
+          "WS": "4+",
+          "S": "8",
+          "AP": "-2",
+          "D": "2",
+          "keywords": []
+        }
+      ],
+      "abilities": [
+        {
+          "name": "Fearsome Assault",
+          "description": "At the start of the Fight phase, each enemy unit within Engagement Range of one or more units with this ability must take a Battle-shock test."
+        },
+        {
+          "name": "Disruptive Influence (Aura)",
+          "description": "While an enemy unit is within 6\" of this model, each time that unit takes a Battle-shock or Leadership test, subtract 1 from that test."
+        }
+      ]
+    },
+    {
+      "id": "14fe-18ed-9c25-189c",
+      "name": "Vengeance Weapon Battery [Legends]",
+      "points": 140,
+      "keywords": [
+        "Fortification",
+        "Wall of Martyrs",
+        "Vehicle",
+        "Vengeance Weapon Battery"
+      ],
+      "factionKeywords": [
+        "Unaligned Forces"
+      ],
+      "stats": {
+        "M": "-",
+        "T": "13",
+        "SV": "2+",
+        "W": "10",
+        "LD": "7+",
+        "OC": "0"
+      },
+      "rangedWeapons": [
+        {
+          "name": "Battle cannon",
+          "range": "48\"",
+          "A": "D6+3",
+          "BS": "4+",
+          "S": "9",
+          "AP": "-1",
+          "D": "3",
+          "keywords": [
+            "Blast"
+          ]
+        },
+        {
+          "name": "Punisher gatling cannon",
+          "range": "24\"",
+          "A": "20",
+          "BS": "4+",
+          "S": "6",
+          "AP": "0",
+          "D": "1",
+          "keywords": []
+        },
+        {
+          "name": "Quad lascannon",
+          "range": "48\"",
+          "A": "2",
+          "BS": "4+",
+          "S": "12",
+          "AP": "-3",
+          "D": "D6+1",
+          "keywords": [
+            "Twin-linked",
+            "Anti-Fly 2+"
+          ]
+        }
+      ],
+      "meleeWeapons": [],
+      "abilities": [
+        {
+          "name": "Automated Defences",
+          "description": "Each time this model makes a ranged attack that targets the closest enemy unit:\n- If that attack is made with a Punisher gatling cannon and the target is not a MONSTER or VEHICLE, add 1 to the Hit roll.\n- If that attack is made with a battle cannon and the target is a MONSTER or VEHICLE, add 1 to the Hit roll.\n- If that attack is made with a quad-lascannon and the target can FLY, add 1 to the Hit roll."
+        }
+      ]
+    },
+    {
+      "id": "4501-646d-e705-9dca",
+      "name": "Void Shield Generator [Legends]",
+      "points": 155,
+      "keywords": [
+        "Fortification",
+        "Void Shield Generator"
+      ],
+      "factionKeywords": [
+        "Unaligned Forces"
+      ],
+      "stats": {
+        "M": "-",
+        "T": "12",
+        "SV": "3+",
+        "W": "16",
+        "LD": "7+",
+        "OC": "0"
+      },
+      "rangedWeapons": [],
+      "meleeWeapons": [],
+      "abilities": [
+        {
+          "name": "Projected Void Shields (Aura)",
+          "description": "While a friendly model is wholly within 6\" of this FORTIFICATION, that model has a 4+ invulnerable save against ranged attacks."
+        }
+      ]
+    },
+    {
+      "id": "5c81-92c5-e20b-edf1",
+      "name": "Vortex Missile Strongpoint [Legends]",
+      "points": 525,
+      "keywords": [
+        "Fortification",
+        "Titanic",
+        "Vehicle",
+        "Transport",
+        "Wall of Martyrs",
+        "Vortex Missile Strongpoint"
+      ],
+      "factionKeywords": [
+        "Unaligned Forces"
+      ],
+      "stats": {
+        "M": "-",
+        "T": "13",
+        "SV": "2+",
+        "W": "30",
+        "LD": "7+",
+        "OC": "0"
+      },
+      "rangedWeapons": [
+        {
+          "name": "Vortex missile battery",
+          "range": "72\"",
+          "A": "D6+3",
+          "BS": "5+",
+          "S": "16",
+          "AP": "-4",
+          "D": "D6",
+          "keywords": [
+            "Blast",
+            "Devastating Wounds",
+            "Hazardous",
+            "Indirect Fire"
+          ]
+        },
+        {
+          "name": "Heavy bolter",
+          "range": "36\"",
+          "A": "3",
+          "BS": "4+",
+          "S": "5",
+          "AP": "-1",
+          "D": "2",
+          "keywords": [
+            "Sustained Hits 1"
+          ]
+        }
+      ],
+      "meleeWeapons": [],
+      "abilities": [
+        {
+          "name": "Vortex",
+          "description": "In your Shooting phase, each time you select a target for this model’s vortex missile battery, roll one D6 for the target unit and one D6 for every other enemy unit within 3\" of the target unit. On a 4+, the unit being rolled for is struck by the vortex; after resolving all of this model’s attacks against the target unit, each unit struck by the vortex suffers D3 mortal wounds."
+        }
+      ],
+      "transportCapacity": "This FORTIFICATION has a transport capacity of 30 INFANTRY models. Each model with a Wounds characteristic of 3 or more takes up the space of 2 models. It cannot transport non-CHARACTER models with a Wounds characteristic of 4 or more."
+    },
+    {
+      "id": "9698-2e0-15ac-1193",
+      "name": "Wall of Martyrs Bunker [Legends]",
+      "points": 180,
+      "keywords": [
+        "Fortification",
+        "Transport",
+        "Vehicle",
+        "Wall of Martyrs",
+        "Bunker"
+      ],
+      "factionKeywords": [
+        "Unaligned Forces"
+      ],
+      "stats": {
+        "M": "-",
+        "T": "13",
+        "SV": "2+",
+        "W": "10",
+        "LD": "7+",
+        "OC": "0"
+      },
+      "rangedWeapons": [
+        {
+          "name": "Icarus Lascannon",
+          "range": "48\"",
+          "A": "1",
+          "BS": "5+",
+          "S": "12",
+          "AP": "-3",
+          "D": "D6+1",
+          "keywords": [
+            "Anti-Fly 2+"
+          ]
+        },
+        {
+          "name": "Quad-gun",
+          "range": "48\"",
+          "A": "4",
+          "BS": "5+",
+          "S": "9",
+          "AP": "-1",
+          "D": "3",
+          "keywords": [
+            "Anti-Fly 3+",
+            "Twin-linked"
+          ]
+        }
+      ],
+      "meleeWeapons": [],
+      "abilities": [
+        {
+          "name": "Inviolable Bastion",
+          "description": "Each time an attack is allocated to this Fortification, subtract 1 from the Damage characteristic of that attack."
+        },
+        {
+          "name": "Comms Antenna",
+          "description": "In your Command phase, if one or more Character models are embarked within this Fortification, roll one D6: on a 5+, you gain 1CP"
+        }
+      ],
+      "transportCapacity": "This Fortification has a transport capacity of 11 Infantry models. Each model with a Wounds characteristic of 3 or more takes up the space of 2 models. It cannot transport non-Character models with a Wounds characteristic of 4 or more"
+    },
+    {
+      "id": "8419-8133-33f3-e0a4",
+      "name": "Wall of Martyrs Defence Emplacement [Legends]",
+      "points": 140,
+      "keywords": [
+        "Fortification",
+        "Wall of Martyrs",
+        "Defence Emplacement"
+      ],
+      "factionKeywords": [
+        "Unaligned Forces"
+      ],
+      "stats": {
+        "M": "-",
+        "T": "12",
+        "SV": "2+",
+        "W": "10",
+        "LD": "7+",
+        "OC": "0"
+      },
+      "rangedWeapons": [],
+      "meleeWeapons": [],
+      "abilities": []
+    },
+    {
+      "id": "64b7-a2df-416a-9963",
+      "name": "Wall of Martyrs Defence Line [Legends]",
+      "points": 140,
+      "keywords": [
+        "Fortification",
+        "Wall of Martyrs",
+        "Defence Line"
+      ],
+      "factionKeywords": [
+        "Unaligned Forces"
+      ],
+      "stats": {
+        "M": "-",
+        "T": "12",
+        "SV": "2+",
+        "W": "10",
+        "LD": "7+",
+        "OC": "0"
+      },
+      "rangedWeapons": [],
+      "meleeWeapons": [],
+      "abilities": []
+    },
+    {
+      "id": "f6f8-8759-3282-2ab",
+      "name": "Imperial Fortress Walls [Legends]",
+      "points": 0,
+      "keywords": [
+        "Fortification",
+        "Titanic",
+        "Vehicle",
+        "Towering",
+        "Transport",
+        "Imperial Fortress Walls"
+      ],
+      "factionKeywords": [
+        "Unaligned Forces"
+      ],
+      "stats": {
+        "M": "-",
+        "T": "14",
+        "SV": "2+",
+        "W": "80",
+        "LD": "7+",
+        "OC": "0"
+      },
+      "rangedWeapons": [
+        {
+          "name": "Twin long-barrelled autocannon",
+          "range": "60\"",
+          "A": "2",
+          "BS": "4+",
+          "S": "9",
+          "AP": "-1",
+          "D": "3",
+          "keywords": [
+            "Twin-linked"
+          ]
+        },
+        {
+          "name": "Twin heavy bolter",
+          "range": "36\"",
+          "A": "3",
+          "BS": "4+",
+          "S": "5",
+          "AP": "-1",
+          "D": "2",
+          "keywords": [
+            "Sustained Hits 1",
+            "Twin-linked"
+          ]
+        },
+        {
+          "name": "Twin lascannon",
+          "range": "48\"",
+          "A": "1",
+          "BS": "4+",
+          "S": "12",
+          "AP": "-3",
+          "D": "D6+1",
+          "keywords": [
+            "Twin-linked"
+          ]
+        }
+      ],
+      "meleeWeapons": [],
+      "abilities": [
+        {
+          "name": "Damaged: 1-30 Wounds Remaining",
+          "description": "While this model has 1-30 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
+        },
+        {
+          "name": "Fortress",
+          "description": "When this FORTIFICATION is set up, all parts of it must be set up in contact with another part."
+        }
+      ],
+      "transportCapacity": "This FORTIFICATION has a transport capacity of 65 INFANTRY models. Each model with a Wounds characteristic of 3 or more takes up the space of 2 models. It cannot transport non-CHARACTER models with a Wounds characteristic of 4 or more."
+    },
+    {
+      "id": "20c8-d2-586d-623",
+      "name": "Castellum Stronghold [Legends]",
+      "points": 0,
+      "keywords": [
+        "Castellum Stronghold",
+        "Fortification",
+        "Titanic",
+        "Vehicle",
+        "Transport"
+      ],
+      "factionKeywords": [
+        "Unaligned Forces"
+      ],
+      "stats": {
+        "M": "-",
+        "T": "13",
+        "SV": "2+",
+        "W": "50",
+        "LD": "6+",
+        "OC": "0"
+      },
+      "rangedWeapons": [
+        {
+          "name": "Castellum battle cannon",
+          "range": "48\"",
+          "A": "D6+3",
+          "BS": "4+",
+          "S": "10",
+          "AP": "-1",
+          "D": "3",
+          "keywords": [
+            "Blast"
+          ]
+        },
+        {
+          "name": "Whirlwind castellan launcher",
+          "range": "72\"",
+          "A": "D6+3",
+          "BS": "4+",
+          "S": "8",
+          "AP": "-2",
+          "D": "2",
+          "keywords": [
+            "Blast",
+            "Indirect Fire"
+          ]
+        },
+        {
+          "name": "Castellum Icarus quad lascannon",
+          "range": "48\"",
+          "A": "2",
+          "BS": "4+",
+          "S": "12",
+          "AP": "-3",
+          "D": "D6+1",
+          "keywords": [
+            "Anti-Fly 2+",
+            "Twin-linked"
+          ]
+        },
+        {
+          "name": "Multi-melta",
+          "range": "18\"",
+          "A": "2",
+          "BS": "4+",
+          "S": "9",
+          "AP": "-4",
+          "D": "D6",
+          "keywords": [
+            "Melta 2"
+          ]
+        },
+        {
+          "name": "Twin lascannon",
+          "range": "48\"",
+          "A": "1",
+          "BS": "4+",
+          "S": "12",
+          "AP": "-3",
+          "D": "D6+1",
+          "keywords": [
+            "Twin-linked"
+          ]
+        },
+        {
+          "name": "Twin heavy flamer",
+          "range": "12\"",
+          "A": "D6",
+          "BS": "N/A",
+          "S": "5",
+          "AP": "-1",
+          "D": "1",
+          "keywords": [
+            "Ignores Cover",
+            "Torrent",
+            "Twin-linked"
+          ]
+        },
+        {
+          "name": "Twin heavy bolter",
+          "range": "36\"",
+          "A": "3",
+          "BS": "4+",
+          "S": "5",
+          "AP": "-1",
+          "D": "2",
+          "keywords": [
+            "Sustained Hits 1",
+            "Twin-linked"
+          ]
+        },
+        {
+          "name": "Castellum air defence missiles",
+          "range": "48\"",
+          "A": "D6",
+          "BS": "4+",
+          "S": "9",
+          "AP": "-2",
+          "D": "D6",
+          "keywords": [
+            "Anti-Fly 2+"
+          ]
+        },
+        {
+          "name": "Twin assault cannon",
+          "range": "24\"",
+          "A": "6",
+          "BS": "4+",
+          "S": "6",
+          "AP": "-2",
+          "D": "1",
+          "keywords": [
+            "Devastating Wounds",
+            "Twin-linked"
+          ]
+        }
+      ],
+      "meleeWeapons": [],
+      "abilities": [
+        {
+          "name": "Stronghold",
+          "description": "Friendly INFANTRY models can be set up or end any type of move on top of the roof section of this FORTIFICATION. Any friendly model can be set up or end any type of move on the ramp or platform section of this FORTIFICATION."
+        },
+        {
+          "name": "Damaged: 1-15 Wounds Remaining",
+          "description": "While this model has 1-15 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
+        },
+        {
+          "name": "Comms Antenna",
+          "description": "In your Command phase, if one or more Character models are embarked within this Fortification, roll one D6: on a 5+, you gain 1CP"
+        }
+      ],
+      "transportCapacity": "This FORTIFICATION has a transport capacity of 60 INFANTRY models. Each model with a Wounds characteristic of 3 or more takes up the space of 2 models. It cannot transport non-CHARACTER models with a Wounds characteristic of 4 or more."
+    },
+    {
+      "id": "983d-b163-dc9f-3c54",
+      "name": "Sentry Gun",
+      "points": 30,
+      "keywords": [
+        "Vehicle",
+        "Allied Units"
+      ],
+      "factionKeywords": [
+        "Unaligned Forces"
+      ],
+      "stats": {
+        "M": "-",
+        "T": "4",
+        "SV": "4+",
+        "W": "3",
+        "LD": "6+",
+        "OC": "0"
+      },
+      "rangedWeapons": [
+        {
+          "name": "Twin heavy bolter",
+          "range": "36\"",
+          "A": "3",
+          "BS": "5+",
+          "S": "5",
+          "AP": "-1",
+          "D": "2",
+          "keywords": [
+            "Heavy",
+            "Sustained Hits 1",
+            "Twin-linked"
+          ]
+        }
+      ],
+      "meleeWeapons": [],
+      "abilities": [
+        {
+          "name": "Defensive Emplacement",
+          "description": "In the Create the Battlefield and Place Objective Markers step, set this model up in one of the Sentry Gun positions (marked D1 on the mission map)."
+        }
+      ]
+    },
+    {
+      "id": "a5c2-3951-e727-b64a",
+      "name": "Breaching Robot",
+      "points": 35,
+      "keywords": [
+        "Vehicle",
+        "Allied Units"
+      ],
+      "factionKeywords": [
+        "Unaligned Forces"
+      ],
+      "stats": {
+        "M": "6\"",
+        "T": "4",
+        "SV": "4+",
+        "W": "3",
+        "LD": "6+",
+        "OC": "0"
+      },
+      "rangedWeapons": [],
+      "meleeWeapons": [
+        {
+          "name": "Cutting blade",
+          "range": "Melee",
+          "A": "2",
+          "WS": "4+",
+          "S": "4",
+          "AP": "-2",
+          "D": "1",
+          "keywords": []
+        }
+      ],
+      "abilities": [
+        {
+          "name": "Limited Loadout",
+          "description": "This model cannot attempt to operate Hatchways and cannot perform Tactical Manoeuvres."
+        },
+        {
+          "name": "Assault Robot",
+          "description": "In the Deploy Armies step, when setting up a unit from your army within an Entry Zone, you can set this model up alongside that unit as if it was part of it, using the same Entry Zone."
+        },
+        {
+          "name": "Bomb Kit",
+          "description": "When the bearer is destroyed (other than through triggering its bomb, as described below), roll one D6 before removing it from play: on a 6 it explodes, and each other unit within 3\" of and visible to the bearer suffers 1 mortal wound.\n\nIn your Command phase, the bearer can trigger its bombs. If it does:\n- Open each Hatchway that is within 3\" of the bearer. Your opponent cannot attempt to prevent those Hatchways from opening, and those Hatchways cannot be closed again.\n- Roll one D6 for each other unit within 3\" of and visible to the bearer: on a 2+, that unit suffers 1 mortal wound. The bearer is then destroyed."
+        },
+        {
+          "name": "Cutting Gear",
+          "description": "Each time the bearer ends a Normal move, you can open one Hatchway that is within 1\" of it. Your opponent cannot attempt to prevent that Hatchway from opening."
+        }
+      ]
+    }
+  ],
+  "enhancements": []
+}

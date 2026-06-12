@@ -1,0 +1,1724 @@
+{
+  "id": "470a-6daa-9014-12df",
+  "name": "Adeptus Astartes - Dark Angels",
+  "catalogueName": "Imperium - Adeptus Astartes - Dark Angels",
+  "units": [
+    {
+      "id": "81bd-ce4e-229f-a88",
+      "name": "Azrael",
+      "points": 125,
+      "keywords": [
+        "Character",
+        "Epic Hero",
+        "Infantry",
+        "Grenades",
+        "Imperium",
+        "Tacticus",
+        "Chapter Master",
+        "Deathwing"
+      ],
+      "factionKeywords": [
+        "Dark Angels",
+        "Adeptus Astartes"
+      ],
+      "stats": {
+        "M": "6\"",
+        "T": "4",
+        "SV": "2+",
+        "W": "6",
+        "LD": "6+",
+        "OC": "1"
+      },
+      "rangedWeapons": [
+        {
+          "name": "Lion's Wrath",
+          "range": "24\"",
+          "A": "2",
+          "BS": "2+",
+          "S": "8",
+          "AP": "-3",
+          "D": "2",
+          "keywords": [
+            "Anti-Infantry 4+",
+            "Devastating Wounds",
+            "Rapid Fire 1"
+          ]
+        }
+      ],
+      "meleeWeapons": [
+        {
+          "name": "The Sword of Secrets",
+          "range": "Melee",
+          "A": "6",
+          "WS": "2+",
+          "S": "6",
+          "AP": "-4",
+          "D": "2",
+          "keywords": [
+            "Devastating Wounds"
+          ]
+        }
+      ],
+      "abilities": [
+        {
+          "name": "Supreme Grand Master",
+          "description": "While this model is leading a unit, weapons equipped by models in that unit have the [SUSTAINED HITS 1] ability."
+        },
+        {
+          "name": "Masterful Tactician",
+          "description": "At the start of your Command phase, if this model is on the battlefield, you gain 1CP."
+        },
+        {
+          "name": "The Lion Helm",
+          "description": "Models in the bearer’s unit have a 4+ invulnerable save. In addition, once per battle, in any phase, the bearer can summon a Watcher in the Dark. When it does, until the end of the phase, models in the bearer’s unit have the Feel No Pain 4+ ability against mortal wounds."
+        },
+        {
+          "name": "Invulnerable save",
+          "description": "4+"
+        },
+        {
+          "name": "Leader",
+          "description": "This model can be attached to the following units:\n■ Assault Intercessor Squad\n■ Bladeguard Veteran Squad\n■ Hellblaster Squad\n■ Infernus Squad\n■ Inner Circle Companions\n■ Intercessor Squad\n■ Sternguard Veteran Squad\n■ Tactical Squad"
+        }
+      ]
+    },
+    {
+      "id": "bf62-244b-f9db-6cf",
+      "name": "Belial",
+      "points": 85,
+      "keywords": [
+        "Character",
+        "Epic Hero",
+        "Infantry",
+        "Captain",
+        "Imperium",
+        "Terminator",
+        "Deathwing"
+      ],
+      "factionKeywords": [
+        "Dark Angels",
+        "Adeptus Astartes"
+      ],
+      "stats": {
+        "M": "5\"",
+        "T": "5",
+        "SV": "2+",
+        "W": "6",
+        "LD": "6+",
+        "OC": "1"
+      },
+      "rangedWeapons": [
+        {
+          "name": "Master-crafted storm bolter",
+          "range": "24\"",
+          "A": "2",
+          "BS": "2+",
+          "S": "4",
+          "AP": "0",
+          "D": "2",
+          "keywords": [
+            "Precision",
+            "Rapid Fire 2"
+          ]
+        }
+      ],
+      "meleeWeapons": [
+        {
+          "name": "The Sword of Silence",
+          "range": "Melee",
+          "A": "6",
+          "WS": "2+",
+          "S": "6",
+          "AP": "-2",
+          "D": "2",
+          "keywords": [
+            "Precision"
+          ]
+        }
+      ],
+      "abilities": [
+        {
+          "name": "Grand Master of the Deathwing",
+          "description": "While this model is leading a unit, each time a model in that unit makes an attack, if a Critical Hit is scored, that attack has the [PRECISION] ability."
+        },
+        {
+          "name": "Strikes of Retribution",
+          "description": "Each time a melee attack is allocated to this model, after the attacking model’s unit has finished making its attacks, roll one D6 (to a maximum of six D6 per attacking unit): for each 4+, the attacking unit suffers 1 mortal wound."
+        },
+        {
+          "name": "Invulnerable Save",
+          "description": "4+"
+        },
+        {
+          "name": "Leader",
+          "description": "This unit can be attached to the following units:\n■ Deathwing Knights\n■ Deathwing Terminator Squad\n■ Terminator Assault Squad\n■ Terminator Squad"
+        }
+      ]
+    },
+    {
+      "id": "8f4b-c343-bef5-6779",
+      "name": "Sammael",
+      "points": 115,
+      "keywords": [
+        "Character",
+        "Epic Hero",
+        "Mounted",
+        "Captain",
+        "Imperium",
+        "Fly",
+        "Grenades",
+        "Ravenwing"
+      ],
+      "factionKeywords": [
+        "Dark Angels",
+        "Adeptus Astartes"
+      ],
+      "stats": {
+        "M": "12\"",
+        "T": "5",
+        "SV": "3+",
+        "W": "7",
+        "LD": "6+",
+        "OC": "2"
+      },
+      "rangedWeapons": [
+        {
+          "name": "Bolt Pistol",
+          "range": "12\"",
+          "A": "1",
+          "BS": "2+",
+          "S": "4",
+          "AP": "0",
+          "D": "1",
+          "keywords": [
+            "Pistol"
+          ]
+        },
+        {
+          "name": "Master-crafted plasma cannon",
+          "range": "36\"",
+          "A": "D3",
+          "BS": "2+",
+          "S": "8",
+          "AP": "-3",
+          "D": "2",
+          "keywords": [
+            "Blast"
+          ]
+        },
+        {
+          "name": "Twin storm bolter",
+          "range": "24\"",
+          "A": "2",
+          "BS": "2+",
+          "S": "4",
+          "AP": "0",
+          "D": "1",
+          "keywords": [
+            "Rapid Fire 2",
+            "Twin-Linked"
+          ]
+        }
+      ],
+      "meleeWeapons": [
+        {
+          "name": "The Raven Sword",
+          "range": "Melee",
+          "A": "6",
+          "WS": "2+",
+          "S": "6",
+          "AP": "-3",
+          "D": "2",
+          "keywords": [
+            "Sustained Hits 2"
+          ]
+        }
+      ],
+      "abilities": [
+        {
+          "name": "Leader",
+          "description": "This model can be attached to the following units:\n■ Outrider Squad\n■ Ravenwing Black Knights"
+        },
+        {
+          "name": "Invulnerable Save",
+          "description": "4+"
+        },
+        {
+          "name": "Grand Master of the Ravenwing",
+          "description": "While this model is leading a unit, that unit is eligible to shoot and declare a charge in a turn in which it Advanced. If that unit is already eligible to shoot and declare a charge in a turn in which it Advanced, add 1 to Advance and Charge rolls made for that unit instead."
+        },
+        {
+          "name": "Cut Off Their Escape",
+          "description": "Each time an enemy unit (excluding Monsters and Vehicles) within Engagement Range of this model’s unit is selected to Fall Back, models in that enemy unit must take Desperate Escape tests as if their unit was Battle-shocked. When doing so, if that enemy unit is also Battle-shocked by other means, subtract 1 from each of those Desperate Escape tests."
+        }
+      ]
+    },
+    {
+      "id": "38c9-66a1-fe60-46af",
+      "name": "Ezekiel",
+      "points": 75,
+      "keywords": [
+        "Character",
+        "Epic Hero",
+        "Infantry",
+        "Grenades",
+        "Imperium",
+        "Psyker",
+        "Librarian",
+        "Deathwing"
+      ],
+      "factionKeywords": [
+        "Dark Angels",
+        "Adeptus Astartes"
+      ],
+      "stats": {
+        "M": "6\"",
+        "T": "4",
+        "SV": "2+",
+        "W": "4",
+        "LD": "6+",
+        "OC": "1"
+      },
+      "rangedWeapons": [
+        {
+          "name": "The Deliverer",
+          "range": "12\"",
+          "A": "1",
+          "BS": "2+",
+          "S": "4",
+          "AP": "-1",
+          "D": "2",
+          "keywords": [
+            "Pistol",
+            "Precision"
+          ]
+        },
+        {
+          "name": "➤ Mind Wipe - witchfire",
+          "range": "12\"",
+          "A": "1",
+          "BS": "2+",
+          "S": "6",
+          "AP": "-2",
+          "D": "D6",
+          "keywords": [
+            "Devastating Wounds",
+            "Precision",
+            "Psychic"
+          ]
+        },
+        {
+          "name": "➤ Mind Wipe - focussed witchfire",
+          "range": "12\"",
+          "A": "1",
+          "BS": "2+",
+          "S": "6",
+          "AP": "-2",
+          "D": "D6",
+          "keywords": [
+            "Anti-Character 4+",
+            "Devastating Wounds",
+            "Hazardous",
+            "Precision",
+            "Psychic"
+          ]
+        }
+      ],
+      "meleeWeapons": [
+        {
+          "name": "Traitor's Bane",
+          "range": "Melee",
+          "A": "4",
+          "WS": "2+",
+          "S": "6",
+          "AP": "-2",
+          "D": "D3",
+          "keywords": [
+            "Anti-Chaos 2+",
+            "Psychic"
+          ]
+        }
+      ],
+      "abilities": [
+        {
+          "name": "Invulnerable save",
+          "description": "4+"
+        },
+        {
+          "name": "Engulfing Fear [Psychic]",
+          "description": "In your Shooting phase, you can select one enemy unit within 18\" of this model. That enemy unit must take a Battle-shock test."
+        },
+        {
+          "name": "Book of Salvation",
+          "description": "While this model is leading a unit, add 1 to the Attacks characteristic of melee weapons equipped by models in that unit. When this model is destroyed, each friendly Adeptus Astartes unit within 6\" of this model must take a Battle-shock test."
+        },
+        {
+          "name": "Leader",
+          "description": "This model can be attached to the following units:\n■ Assault Intercessor Squad\n■ Bladeguard Veteran Squad\n■ Hellblaster Squad\n■ Infernus Squad\n■ Inner Circle Companions\n■ Intercessor Squad\n■ Sternguard Veterans Squad\n■ Tactical Squad"
+        }
+      ]
+    },
+    {
+      "id": "9bf9-1e30-e4b4-939c",
+      "name": "Asmodai",
+      "points": 70,
+      "keywords": [
+        "Character",
+        "Epic Hero",
+        "Infantry",
+        "Grenades",
+        "Imperium",
+        "Chaplain",
+        "Tacticus",
+        "Deathwing"
+      ],
+      "factionKeywords": [
+        "Dark Angels",
+        "Adeptus Astartes"
+      ],
+      "stats": {
+        "M": "6\"",
+        "T": "4",
+        "SV": "3+",
+        "W": "4",
+        "LD": "5+",
+        "OC": "1"
+      },
+      "rangedWeapons": [
+        {
+          "name": "Heavy Bolt Pistol",
+          "range": "18\"",
+          "A": "1",
+          "BS": "3+",
+          "S": "4",
+          "AP": "-1",
+          "D": "1",
+          "keywords": [
+            "Pistol"
+          ]
+        }
+      ],
+      "meleeWeapons": [
+        {
+          "name": "➤ Crozius Arcanum and Power Weapon - strike",
+          "range": "Melee",
+          "A": "5",
+          "WS": "2+",
+          "S": "6",
+          "AP": "-2",
+          "D": "2",
+          "keywords": []
+        },
+        {
+          "name": "➤ Crozius Arcanum and Power Weapon - sweep",
+          "range": "Melee",
+          "A": "8",
+          "WS": "2+",
+          "S": "5",
+          "AP": "-2",
+          "D": "1",
+          "keywords": []
+        }
+      ],
+      "abilities": [
+        {
+          "name": "Invulnerable save",
+          "description": "4+"
+        },
+        {
+          "name": "Exemplar of Hate",
+          "description": "While this model is leading a unit, each time a model in that unit makes a melee attack, you can re-roll the Hit roll."
+        },
+        {
+          "name": "Feared Interrogator",
+          "description": "At the start of the Fight phase, each enemy Character unit within 6\" of this model must take a Battle-shock test, subtracting 1 from that test when they do. In addition, each time this model destroys an enemy Character model with a melee attack, you gain 1CP."
+        },
+        {
+          "name": "Leader",
+          "description": "This model can be attached to the following units:\n■ Assault Intercessor Squad\n■ Bladeguard Veteran Squad\n■ Hellblaster Squad\n■ Infernus Squad\n■ Inner Circle Companions\n■ Intercessor Squad\n■ Sternguard Veteran Squad\n■ Tactical Squad"
+        }
+      ]
+    },
+    {
+      "id": "15d3-ebc7-d28b-daf4",
+      "name": "Lion El'Jonson",
+      "points": 315,
+      "keywords": [
+        "Character",
+        "Epic Hero",
+        "Monster",
+        "Imperium",
+        "Primarch"
+      ],
+      "factionKeywords": [
+        "Dark Angels",
+        "Adeptus Astartes"
+      ],
+      "stats": {
+        "M": "8\"",
+        "T": "9",
+        "SV": "2+",
+        "W": "10",
+        "LD": "5+",
+        "OC": "4"
+      },
+      "rangedWeapons": [
+        {
+          "name": "➤ Arma Luminis - bolt",
+          "range": "12\"",
+          "A": "4",
+          "BS": "2+",
+          "S": "4",
+          "AP": "-1",
+          "D": "2",
+          "keywords": [
+            "Pistol"
+          ]
+        },
+        {
+          "name": "➤ Arma Luminis - plasma",
+          "range": "12\"",
+          "A": "2",
+          "BS": "2+",
+          "S": "8",
+          "AP": "-3",
+          "D": "2",
+          "keywords": [
+            "Pistol"
+          ]
+        }
+      ],
+      "meleeWeapons": [
+        {
+          "name": "➤ Fealty - strike",
+          "range": "Melee",
+          "A": "8",
+          "WS": "2+",
+          "S": "12",
+          "AP": "-4",
+          "D": "4",
+          "keywords": [
+            "Lethal Hits"
+          ]
+        },
+        {
+          "name": "➤ Fealty - sweep",
+          "range": "Melee",
+          "A": "16",
+          "WS": "2+",
+          "S": "6",
+          "AP": "-3",
+          "D": "2",
+          "keywords": [
+            "Sustained Hits 1"
+          ]
+        }
+      ],
+      "abilities": [
+        {
+          "name": "Primarch of the First Legion",
+          "description": "At the start of your Command phase, select two Primarch of the First Legion abilities. Until the start of your next Command phase, this model has those abilities."
+        },
+        {
+          "name": "The Emperor's Shield",
+          "description": "Each time an attack is allocated to this model, if the Strength characteristic of that attack is greater than the Toughness characteristic of this model, subtract 1 from the Wound roll."
+        },
+        {
+          "name": "Dark Angels Bodyguard",
+          "description": "While this model is within 3\" of one or more friendly ^^**Adeptus Astartes Infantry^^** units, this model has the Lone Operative ability."
+        },
+        {
+          "name": "Invulnerable Save",
+          "description": "3+"
+        }
+      ]
+    },
+    {
+      "id": "4b0d-45ff-fab3-7472",
+      "name": "Lazarus",
+      "points": 70,
+      "keywords": [
+        "Character",
+        "Epic Hero",
+        "Infantry",
+        "Captain",
+        "Grenades",
+        "Imperium",
+        "Tacticus",
+        "Deathwing"
+      ],
+      "factionKeywords": [
+        "Dark Angels",
+        "Adeptus Astartes"
+      ],
+      "stats": {
+        "M": "6\"",
+        "T": "4",
+        "SV": "3+",
+        "W": "5",
+        "LD": "6+",
+        "OC": "1"
+      },
+      "rangedWeapons": [
+        {
+          "name": "Bolt pistol",
+          "range": "12\"",
+          "A": "1",
+          "BS": "2+",
+          "S": "4",
+          "AP": "0",
+          "D": "1",
+          "keywords": [
+            "Pistol"
+          ]
+        }
+      ],
+      "meleeWeapons": [
+        {
+          "name": "Enmity’s Edge",
+          "range": "Melee",
+          "A": "6",
+          "WS": "2+",
+          "S": "6",
+          "AP": "-3",
+          "D": "2",
+          "keywords": [
+            "Anti-Psyker 2+"
+          ]
+        }
+      ],
+      "abilities": [
+        {
+          "name": "Intractable Will",
+          "description": "While this model is leading a unit, each time a model in that unit is destroyed by a melee attack, if that model has not fought this phase, roll one D6. On a 4+, do not remove it from play; that destroyed model can fight after the attacking unit has finished making its attacks, and is then removed from play."
+        },
+        {
+          "name": "The Spiritshield Helm",
+          "description": "This model has the Feel No Pain 3+ ability against Psychic Attacks and mortal wounds."
+        },
+        {
+          "name": "Invulnerable Save",
+          "description": "4+"
+        },
+        {
+          "name": "Leader",
+          "description": "This model can be attached to the following units:\n■ Assault Intercessor Squad\n■ Bladeguard Veteran Squad\n■ Infernus Squad\n■ Inner Circle Companions\n■ Intercessor Squad\n■ Sternguard Veteran Squad\n■ Tactical Squad"
+        }
+      ]
+    },
+    {
+      "id": "4f36-6609-efac-baa6",
+      "name": "Nephilim Jetfighter",
+      "points": 195,
+      "keywords": [
+        "Vehicle",
+        "Fly",
+        "Aircraft",
+        "Imperium",
+        "Ravenwing"
+      ],
+      "factionKeywords": [
+        "Adeptus Astartes",
+        "Dark Angels"
+      ],
+      "stats": {
+        "M": "20+\"",
+        "T": "8",
+        "SV": "3+",
+        "W": "11",
+        "LD": "6+",
+        "OC": "0"
+      },
+      "rangedWeapons": [
+        {
+          "name": "Blacksword missiles",
+          "range": "36\"",
+          "A": "2",
+          "BS": "3+",
+          "S": "8",
+          "AP": "-2",
+          "D": "D6",
+          "keywords": [
+            "Anti-Fly 2+"
+          ]
+        },
+        {
+          "name": "Twin heavy bolter",
+          "range": "36\"",
+          "A": "3",
+          "BS": "3+",
+          "S": "5",
+          "AP": "-1",
+          "D": "2",
+          "keywords": [
+            "Sustained Hits 1",
+            "Twin-Linked"
+          ]
+        }
+      ],
+      "meleeWeapons": [
+        {
+          "name": "Armoured hull",
+          "range": "Melee",
+          "A": "3",
+          "WS": "4+",
+          "S": "6",
+          "AP": "0",
+          "D": "1",
+          "keywords": []
+        }
+      ],
+      "abilities": [
+        {
+          "name": "Lightning-fast Manoeuvres",
+          "description": "Each time a ranged attack targets this model, subtract 1 from the Hit roll. If that attack was made by a model that can Fly, subtract 1 from the Wound roll as well."
+        },
+        {
+          "name": "Damaged: 1-3 Wounds Remaining",
+          "description": "While this model has 1-3 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
+        },
+        {
+          "name": "Invulnerable Save",
+          "description": "5+"
+        }
+      ]
+    },
+    {
+      "id": "9b3d-e812-4248-522",
+      "name": "Ravenwing Dark Talon",
+      "points": 210,
+      "keywords": [
+        "Imperium",
+        "Fly",
+        "Vehicle",
+        "Aircraft",
+        "Dark Talon",
+        "Ravenwing"
+      ],
+      "factionKeywords": [
+        "Adeptus Astartes",
+        "Dark Angels"
+      ],
+      "stats": {
+        "M": "20+\"",
+        "T": "8",
+        "SV": "3+",
+        "W": "11",
+        "LD": "6+",
+        "OC": "0"
+      },
+      "rangedWeapons": [
+        {
+          "name": "Hurricane bolter",
+          "range": "24\"",
+          "A": "6",
+          "BS": "3+",
+          "S": "4",
+          "AP": "0",
+          "D": "1",
+          "keywords": [
+            "Rapid Fire 6",
+            "Twin-Linked"
+          ]
+        },
+        {
+          "name": "Rift cannon",
+          "range": "18\"",
+          "A": "D3+1",
+          "BS": "3+",
+          "S": "16",
+          "AP": "-4",
+          "D": "3",
+          "keywords": [
+            "Blast",
+            "Devastating Wounds"
+          ]
+        }
+      ],
+      "meleeWeapons": [
+        {
+          "name": "Armoured Hull",
+          "range": "Melee",
+          "A": "3",
+          "WS": "4+",
+          "S": "6",
+          "AP": "0",
+          "D": "1",
+          "keywords": []
+        }
+      ],
+      "abilities": [
+        {
+          "name": "Invulnerable Save",
+          "description": "5+"
+        },
+        {
+          "name": "Stasis Bomb",
+          "description": "Once per battle, one model from your army with this ability can use it after it ends a Normal move. If it does, you can select one enemy unit (excluding Aircraft) that model moved over this phase. That unit suffers D3 mortal wounds and you must roll one D6: on a 1-3, that unit cannot Advance or Fall Back in your opponent’s next Movement phase; on a 4-6, that unit must Remain Stationary in your opponent’s next Movement phase. Each model can only use this ability once per battle."
+        },
+        {
+          "name": "Damaged: 1-3 Wounds Remaining",
+          "description": "While this model has 1-3 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
+        }
+      ]
+    },
+    {
+      "id": "b4a0-d2fe-a988-f28b",
+      "name": "Land Speeder Vengeance",
+      "points": 120,
+      "keywords": [
+        "Fly",
+        "Imperium",
+        "Vehicle",
+        "Ravenwing"
+      ],
+      "factionKeywords": [
+        "Adeptus Astartes",
+        "Dark Angels"
+      ],
+      "stats": {
+        "M": "14\"",
+        "T": "8",
+        "SV": "3+",
+        "W": "10",
+        "LD": "6+",
+        "OC": "3"
+      },
+      "rangedWeapons": [
+        {
+          "name": "➤ Plasma storm battery - standard",
+          "range": "36\"",
+          "A": "D6+1",
+          "BS": "3+",
+          "S": "8",
+          "AP": "-2",
+          "D": "2",
+          "keywords": [
+            "Blast",
+            "Twin-Linked"
+          ]
+        },
+        {
+          "name": "➤ Plasma storm battery - supercharge",
+          "range": "36\"",
+          "A": "D6+1",
+          "BS": "3+",
+          "S": "9",
+          "AP": "-3",
+          "D": "3",
+          "keywords": [
+            "Blast",
+            "Hazardous",
+            "Twin-Linked"
+          ]
+        }
+      ],
+      "meleeWeapons": [
+        {
+          "name": "Close Combat Weapon",
+          "range": "Melee",
+          "A": "4",
+          "WS": "3+",
+          "S": "4",
+          "AP": "0",
+          "D": "1",
+          "keywords": []
+        }
+      ],
+      "abilities": [
+        {
+          "name": "Invulnerable Save",
+          "description": "5+"
+        },
+        {
+          "name": "Storm of Vengeance",
+          "description": "Once per turn, in your opponent’s Shooting phase, when another friendly Adeptus Astartes unit within 6\" of this model is destroyed, one model with this ability can use it. If it does, after the attacking unit has finished making its attacks, that model can shoot as if it were your Shooting phase, but when resolving those attacks it can only target that enemy unit (and only if it is an eligible target)."
+        }
+      ]
+    },
+    {
+      "id": "152b-a271-df2b-21a9",
+      "name": "Ravenwing Darkshroud",
+      "points": 100,
+      "keywords": [
+        "Darkshroud",
+        "Imperium",
+        "Fly",
+        "Vehicle",
+        "Ravenwing"
+      ],
+      "factionKeywords": [
+        "Dark Angels",
+        "Adeptus Astartes"
+      ],
+      "stats": {
+        "M": "14\"",
+        "T": "8",
+        "SV": "3+",
+        "W": "10",
+        "LD": "6+",
+        "OC": "3"
+      },
+      "rangedWeapons": [],
+      "meleeWeapons": [
+        {
+          "name": "Close Combat Weapon",
+          "range": "Melee",
+          "A": "4",
+          "WS": "3+",
+          "S": "4",
+          "AP": "0",
+          "D": "1",
+          "keywords": []
+        }
+      ],
+      "abilities": [
+        {
+          "name": "Invulnerable Save",
+          "description": "5+"
+        },
+        {
+          "name": "Icon of Old Caliban (Aura)",
+          "description": "While a friendly Adeptus Astartes unit is within 6\" of this model, models in that unit have the Stealth ability and each time a ranged attack targets that unit, that unit has the Benefit of Cover against that attack."
+        }
+      ]
+    },
+    {
+      "id": "212d-f302-aaaf-5c12",
+      "name": "Ravenwing Black Knights",
+      "points": 80,
+      "keywords": [
+        "Mounted",
+        "Grenades",
+        "Imperium",
+        "Ravenwing"
+      ],
+      "factionKeywords": [
+        "Dark Angels",
+        "Adeptus Astartes"
+      ],
+      "stats": {
+        "M": "12\"",
+        "T": "5",
+        "SV": "3+",
+        "W": "3",
+        "LD": "6+",
+        "OC": "2"
+      },
+      "rangedWeapons": [
+        {
+          "name": "Bolt Pistol",
+          "range": "12\"",
+          "A": "1",
+          "BS": "3+",
+          "S": "4",
+          "AP": "0",
+          "D": "1",
+          "keywords": [
+            "Pistol"
+          ]
+        },
+        {
+          "name": "➤ Plasma talon - Standard",
+          "range": "18\"",
+          "A": "2",
+          "BS": "3+",
+          "S": "7",
+          "AP": "-2",
+          "D": "1",
+          "keywords": [
+            "Rapid Fire 1"
+          ]
+        },
+        {
+          "name": "➤ Plasma talon - Supercharged",
+          "range": "18\"",
+          "A": "2",
+          "BS": "3+",
+          "S": "8",
+          "AP": "-3",
+          "D": "2",
+          "keywords": [
+            "Hazardous",
+            "Rapid Fire 1"
+          ]
+        }
+      ],
+      "meleeWeapons": [
+        {
+          "name": "Black Knight combat weapon",
+          "range": "Melee",
+          "A": "3",
+          "WS": "3+",
+          "S": "5",
+          "AP": "-2",
+          "D": "1",
+          "keywords": [
+            "Devastating Wounds"
+          ]
+        }
+      ],
+      "abilities": [
+        {
+          "name": "Knights of Caliban",
+          "description": "Each time this unit is selected to fight, if it made a Charge move this turn, until the end of the phase, melee weapons equipped by models in this unit have the [ANTI-MONSTER 4+] and [ANTI-VEHICLE 4+] abilities."
+        },
+        {
+          "name": "Attached Unit",
+          "description": "If a Character unit from your army with the Leader ability can be attached to an Outrider Squad, it can be attached to this unit instead."
+        },
+        {
+          "name": "Invulnerable Save",
+          "description": "5+"
+        }
+      ]
+    },
+    {
+      "id": "e87d-f173-88b9-aa84",
+      "name": "Ravenwing Command Squad",
+      "points": 120,
+      "keywords": [
+        "Mounted",
+        "Grenades",
+        "Imperium",
+        "Ravenwing",
+        "Character"
+      ],
+      "factionKeywords": [
+        "Dark Angels",
+        "Adeptus Astartes"
+      ],
+      "stats": {
+        "M": "12\"",
+        "T": "5",
+        "SV": "3+",
+        "W": "4",
+        "LD": "6+",
+        "OC": "2"
+      },
+      "rangedWeapons": [
+        {
+          "name": "Bolt Pistol",
+          "range": "12\"",
+          "A": "1",
+          "BS": "3+",
+          "S": "4",
+          "AP": "0",
+          "D": "1",
+          "keywords": [
+            "Pistol"
+          ]
+        },
+        {
+          "name": "➤ Plasma talon - Standard",
+          "range": "18\"",
+          "A": "2",
+          "BS": "3+",
+          "S": "7",
+          "AP": "-2",
+          "D": "1",
+          "keywords": [
+            "Rapid Fire 1"
+          ]
+        },
+        {
+          "name": "➤ Plasma talon - Supercharged",
+          "range": "18\"",
+          "A": "2",
+          "BS": "3+",
+          "S": "8",
+          "AP": "-3",
+          "D": "2",
+          "keywords": [
+            "Hazardous",
+            "Rapid Fire 1"
+          ]
+        }
+      ],
+      "meleeWeapons": [
+        {
+          "name": "Black Knight combat weapon",
+          "range": "Melee",
+          "A": "3",
+          "WS": "3+",
+          "S": "5",
+          "AP": "-2",
+          "D": "1",
+          "keywords": [
+            "Devastating Wounds"
+          ]
+        },
+        {
+          "name": "Master-crafted power weapon",
+          "range": "Melee",
+          "A": "6",
+          "WS": "2+",
+          "S": "5",
+          "AP": "-2",
+          "D": "2",
+          "keywords": []
+        }
+      ],
+      "abilities": [
+        {
+          "name": "Leader",
+          "description": "This unit can be attached to the following units:\n■ Outrider Squad\n■ Ravenwing Black Knights"
+        },
+        {
+          "name": "Invulnerable Save",
+          "description": "5+"
+        },
+        {
+          "name": "Narthecium",
+          "description": "While this unit contains a Ravenwing Apothecary, in your Command phase, you can return 1 destroyed model (excluding Character and Invader ATV models) to this unit."
+        },
+        {
+          "name": "Astartes Banner",
+          "description": "While this unit contains a Ravenwing Ancient, add 1 to the Objective Control characteristic of models in this unit."
+        },
+        {
+          "name": "Honour or Death",
+          "description": "While this unit contains a Ravenwing Champion, add 1 to Advance and Charge rolls made for this unit and you can target this unit with the Heroic Intervention Stratagem for 0CP."
+        }
+      ]
+    },
+    {
+      "id": "a6cc-9a65-dbf1-71b0",
+      "name": "Deathwing Knights",
+      "points": 250,
+      "keywords": [
+        "Infantry",
+        "Imperium",
+        "Terminator",
+        "Deathwing"
+      ],
+      "factionKeywords": [
+        "Dark Angels",
+        "Adeptus Astartes"
+      ],
+      "stats": {
+        "M": "5\"",
+        "T": "5",
+        "SV": "2+",
+        "W": "4",
+        "LD": "6+",
+        "OC": "1"
+      },
+      "rangedWeapons": [],
+      "meleeWeapons": [
+        {
+          "name": "Mace of absolution",
+          "range": "Melee",
+          "A": "4",
+          "WS": "2+",
+          "S": "6",
+          "AP": "-2",
+          "D": "2",
+          "keywords": [
+            "Anti-Monster 4+",
+            "Anti-Vehicle 4+"
+          ]
+        },
+        {
+          "name": "Power Weapon",
+          "range": "Melee",
+          "A": "5",
+          "WS": "2+",
+          "S": "6",
+          "AP": "-2",
+          "D": "2",
+          "keywords": []
+        },
+        {
+          "name": "Great Weapon of the Unforgiven",
+          "range": "Melee",
+          "A": "5",
+          "WS": "2+",
+          "S": "6",
+          "AP": "-2",
+          "D": "2",
+          "keywords": [
+            "Devastating Wounds",
+            "Sustained Hits 1"
+          ]
+        },
+        {
+          "name": "Relic Weapon",
+          "range": "Melee",
+          "A": "6",
+          "WS": "2+",
+          "S": "7",
+          "AP": "-2",
+          "D": "2",
+          "keywords": [
+            "Lethal Hits"
+          ]
+        }
+      ],
+      "abilities": [
+        {
+          "name": "Inner Circle",
+          "description": "Each time an attack is allocated to a model in this unit, subtract 1 from the Damage characteristic of that attack."
+        },
+        {
+          "name": "Invulnerable Save",
+          "description": "4+"
+        },
+        {
+          "name": "Attached Unit",
+          "description": "If a Character unit from your army with the Leader ability can be attached to a Terminator Squad, it can be attached to this unit instead."
+        },
+        {
+          "name": "Teleport Homer",
+          "description": "At the start of the battle, you can set up one Teleport Homer token for this unit anywhere on the battlefield that is not in your opponent’s deployment zone. If you do, once per battle, you can target this unit with the Rapid Ingress Stratagem for 0CP, but when resolving that Stratagem, you must set this unit up within 3\" horizontally of that token and not within 9\" horizontally of any enemy models. That token is then removed."
+        },
+        {
+          "name": "Watcher in the Dark",
+          "description": "Once per battle, in any phase, just after a mortal wound is allocated to an Adeptus Astartes model in this unit, this unit can summon a Watcher in the Dark. When it does, until the end of the phase, models in this unit have the Feel No Pain 4+ ability against mortal wounds."
+        }
+      ]
+    },
+    {
+      "id": "6135-d842-8e61-889d",
+      "name": "Deathwing Terminator Squad",
+      "points": 180,
+      "keywords": [
+        "Infantry",
+        "Imperium",
+        "Terminator",
+        "Deathwing"
+      ],
+      "factionKeywords": [
+        "Dark Angels",
+        "Adeptus Astartes"
+      ],
+      "stats": {
+        "M": "5\"",
+        "T": "5",
+        "SV": "2+",
+        "W": "3",
+        "LD": "6+",
+        "OC": "1"
+      },
+      "rangedWeapons": [
+        {
+          "name": "Storm Bolter",
+          "range": "24\"",
+          "A": "2",
+          "BS": "3+",
+          "S": "4",
+          "AP": "0",
+          "D": "1",
+          "keywords": [
+            "Rapid Fire 2"
+          ]
+        }
+      ],
+      "meleeWeapons": [
+        {
+          "name": "Power Weapon",
+          "range": "Melee",
+          "A": "4",
+          "WS": "3+",
+          "S": "5",
+          "AP": "-2",
+          "D": "1",
+          "keywords": []
+        },
+        {
+          "name": "Power Fist",
+          "range": "Melee",
+          "A": "3",
+          "WS": "3+",
+          "S": "8",
+          "AP": "-2",
+          "D": "2",
+          "keywords": []
+        },
+        {
+          "name": "Chainfist",
+          "range": "Melee",
+          "A": "3",
+          "WS": "4+",
+          "S": "8",
+          "AP": "-2",
+          "D": "2",
+          "keywords": [
+            "Anti-Vehicle 3+"
+          ]
+        }
+      ],
+      "abilities": [
+        {
+          "name": "Invulnerable Save",
+          "description": "Models in this unit have a 4+ invulnerable save."
+        },
+        {
+          "name": "Deathwing",
+          "description": "Each time a model in this unit makes an attack, you can ignore any or all modifiers to that attack’s Ballistic Skill or Weapon Skill characteristics and/or to the Hit roll.\nIn addition, each time a model in this unit makes an attack that targets your Oath of Moment target (see Codex: Space Marines), add 1 to the Hit roll."
+        },
+        {
+          "name": "Attached Unit",
+          "description": "If a Character unit from your army with the Leader ability can be attached to a Terminator Squad, it can be attached to this unit instead."
+        },
+        {
+          "name": "Teleport Homer",
+          "description": "At the start of the battle, you can set up one Teleport Homer token for this unit anywhere on the battlefield that is not in your opponent’s deployment zone. If you do, once per battle, you can target this unit with the Rapid Ingress Stratagem for 0CP, but when resolving that Stratagem, you must set this unit up within 3\" horizontally of that token and not within 9\" horizontally of any enemy models. That token is then removed."
+        },
+        {
+          "name": "Watcher in the Dark",
+          "description": "Once per battle, in any phase, just after a mortal wound is allocated to an Adeptus Astartes model in this unit, this unit can summon a Watcher in the Dark. When it does, until the end of the phase, models in this unit have the Feel No Pain 4+ ability against mortal wounds."
+        }
+      ]
+    },
+    {
+      "id": "f34-e2f9-c98e-1916",
+      "name": "Inner Circle Companions",
+      "points": 90,
+      "keywords": [
+        "Infantry",
+        "Imperium",
+        "Tacticus",
+        "Deathwing"
+      ],
+      "factionKeywords": [
+        "Dark Angels",
+        "Adeptus Astartes"
+      ],
+      "stats": {
+        "M": "6\"",
+        "T": "4",
+        "SV": "3+",
+        "W": "3",
+        "LD": "6+",
+        "OC": "2"
+      },
+      "rangedWeapons": [
+        {
+          "name": "Heavy Bolt Pistol",
+          "range": "18\"",
+          "A": "1",
+          "BS": "3+",
+          "S": "4",
+          "AP": "-1",
+          "D": "1",
+          "keywords": [
+            "Pistol"
+          ]
+        }
+      ],
+      "meleeWeapons": [
+        {
+          "name": "➤ Calibanite Greatsword - Strike",
+          "range": "Melee",
+          "A": "4",
+          "WS": "3+",
+          "S": "6",
+          "AP": "-2",
+          "D": "2",
+          "keywords": [
+            "Lethal Hits"
+          ]
+        },
+        {
+          "name": "➤ Calibanite Greatsword - Sweep",
+          "range": "Melee",
+          "A": "5",
+          "WS": "3+",
+          "S": "6",
+          "AP": "-2",
+          "D": "1",
+          "keywords": [
+            "Sustained Hits 2"
+          ]
+        }
+      ],
+      "abilities": [
+        {
+          "name": "Attached Unit",
+          "description": "If a Character unit from your army with the Leader ability can be attached to a Sternguard Veteran Squad, it can be attached to this unit instead."
+        },
+        {
+          "name": "Braziers of Judgement",
+          "description": "While a Character model is leading this unit, each time an attack targets this unit, subtract 1 from the Hit roll."
+        },
+        {
+          "name": "Emnity for the Unworthy",
+          "description": "Each time a model in this unit makes an attack that targets a Character unit, add 1 to the Hit roll."
+        }
+      ]
+    },
+    {
+      "id": "a2b6-e35-67a8-d76e",
+      "name": "Ravenwing Talonmaster [Legends]",
+      "points": 105,
+      "keywords": [
+        "Vehicle",
+        "Character",
+        "Fly",
+        "Ravenwing",
+        "Ravenwing Talonmaster",
+        "Imperium"
+      ],
+      "factionKeywords": [
+        "Adeptus Astartes",
+        "Dark Angels"
+      ],
+      "stats": {
+        "M": "16\"",
+        "T": "7",
+        "SV": "3+",
+        "W": "6",
+        "LD": "6+",
+        "OC": "2"
+      },
+      "rangedWeapons": [
+        {
+          "name": "Twin Heavy Bolter",
+          "range": "36\"",
+          "A": "3",
+          "BS": "3+",
+          "S": "5",
+          "AP": "-1",
+          "D": "2",
+          "keywords": [
+            "Sustained Hits 1",
+            "Twin-Linked"
+          ]
+        },
+        {
+          "name": "Twin Assault Cannon",
+          "range": "24\"",
+          "A": "6",
+          "BS": "3+",
+          "S": "6",
+          "AP": "0",
+          "D": "1",
+          "keywords": [
+            "Devastating Wounds",
+            "Twin-Linked"
+          ]
+        }
+      ],
+      "meleeWeapons": [
+        {
+          "name": "Power Weapon",
+          "range": "Melee",
+          "A": "5",
+          "WS": "3+",
+          "S": "5",
+          "AP": "-2",
+          "D": "1",
+          "keywords": []
+        }
+      ],
+      "abilities": [
+        {
+          "name": "Talonmaster",
+          "description": "While this model is within 3\" of one or more other friendly Adeptus Astartes Mounted or Adeptus Astartes Fly Vehicle units, this model has the Lone Operative ability."
+        },
+        {
+          "name": "Nowhere To Hide",
+          "description": "While a friendly Adeptus Astartes Mounted or Adeptus Astartes Fly Vehicle unit is within 6\" of this model, ranged weapons equipped by models in that unit have the [IGNORES COVER] ability."
+        },
+        {
+          "name": "Master of Manoeuvre",
+          "description": "Once per turn, when an enemy unit ends a Normal, Advance or Fall Back move within 9\" of this model, if this model is not within Engagement Range of one or more enemy units, this model can make a Normal move of up to 6\"."
+        },
+        {
+          "name": "Invulnerable Save",
+          "description": "5+"
+        }
+      ]
+    },
+    {
+      "id": "ebd0-6939-6305-6d16",
+      "name": "Deathwing Strikemaster [Legends]",
+      "points": 80,
+      "keywords": [
+        "Character",
+        "Infantry",
+        "Imperium",
+        "Deathwing",
+        "Deathwing Strikemaster",
+        "Terminator",
+        "Lieutenant"
+      ],
+      "factionKeywords": [
+        "Dark Angels",
+        "Adeptus Astartes"
+      ],
+      "stats": {
+        "M": "5\"",
+        "T": "5",
+        "SV": "2+",
+        "W": "5",
+        "LD": "6+",
+        "OC": "1"
+      },
+      "rangedWeapons": [
+        {
+          "name": "Storm Bolter",
+          "range": "24\"",
+          "A": "2",
+          "BS": "2+",
+          "S": "4",
+          "AP": "0",
+          "D": "1",
+          "keywords": [
+            "Rapid Fire 2"
+          ]
+        }
+      ],
+      "meleeWeapons": [
+        {
+          "name": "Master-crafted Power Weapon",
+          "range": "Melee",
+          "A": "5",
+          "WS": "2+",
+          "S": "5",
+          "AP": "-2",
+          "D": "2",
+          "keywords": []
+        },
+        {
+          "name": "Chainfist",
+          "range": "Melee",
+          "A": "4",
+          "WS": "3+",
+          "S": "8",
+          "AP": "-2",
+          "D": "2",
+          "keywords": [
+            "Anti-Vehicle 3+"
+          ]
+        },
+        {
+          "name": "Mace of Absolution",
+          "range": "Melee",
+          "A": "5",
+          "WS": "2+",
+          "S": "6",
+          "AP": "-1",
+          "D": "3",
+          "keywords": []
+        },
+        {
+          "name": "Power Fist",
+          "range": "Melee",
+          "A": "4",
+          "WS": "2+",
+          "S": "8",
+          "AP": "-2",
+          "D": "2",
+          "keywords": []
+        },
+        {
+          "name": "Thunder Hammer",
+          "range": "Melee",
+          "A": "4",
+          "WS": "3+",
+          "S": "8",
+          "AP": "-2",
+          "D": "2",
+          "keywords": [
+            "Devastating Wounds"
+          ]
+        },
+        {
+          "name": "Twin Lightning Claws",
+          "range": "Melee",
+          "A": "6",
+          "WS": "2+",
+          "S": "5",
+          "AP": "-2",
+          "D": "1",
+          "keywords": [
+            "Twin-Linked"
+          ]
+        }
+      ],
+      "abilities": [
+        {
+          "name": "Invulnerable Save",
+          "description": "4+"
+        },
+        {
+          "name": "Leader",
+          "description": "This unit can be attached to the following units:\n■ Deathwing Command Squad\n■ Deathwing Terminator Squad\n\n■ Relic Terminator Squad\n■ Terminator Assault Squad\n■ Terminator Squad"
+        },
+        {
+          "name": "Tactical Precision",
+          "description": "While this model is leading a unit, weapons equipped by models in that unit have the [LETHAL HITS] ability."
+        },
+        {
+          "name": "Vanquish the Foe",
+          "description": "Each time this model makes an attack that targets an enemy unit that is Below Half-strength, add 1 to the Hit roll and add 1 to the Wound roll."
+        },
+        {
+          "name": "Storm Shield",
+          "description": "The bearer has a Wounds characteristic of 6."
+        }
+      ]
+    },
+    {
+      "id": "48fb-ebd6-dd17-729b",
+      "name": "Deathwing Command Squad [Legends]",
+      "points": 200,
+      "keywords": [
+        "Infantry",
+        "Imperium",
+        "Deathwing",
+        "Deathwing Command Squad",
+        "Terminator"
+      ],
+      "factionKeywords": [
+        "Dark Angels",
+        "Adeptus Astartes"
+      ],
+      "stats": {
+        "M": "5\"",
+        "T": "5",
+        "SV": "2+",
+        "W": "3",
+        "LD": "6+",
+        "OC": "1"
+      },
+      "rangedWeapons": [
+        {
+          "name": "Storm Bolter",
+          "range": "24\"",
+          "A": "2",
+          "BS": "3+",
+          "S": "4",
+          "AP": "0",
+          "D": "1",
+          "keywords": [
+            "Rapid Fire 2"
+          ]
+        }
+      ],
+      "meleeWeapons": [
+        {
+          "name": "Power Fist",
+          "range": "Melee",
+          "A": "3",
+          "WS": "3+",
+          "S": "8",
+          "AP": "-2",
+          "D": "2",
+          "keywords": []
+        },
+        {
+          "name": "Chainfist",
+          "range": "Melee",
+          "A": "3",
+          "WS": "4+",
+          "S": "8",
+          "AP": "-2",
+          "D": "2",
+          "keywords": [
+            "Anti-Vehicle 3+"
+          ]
+        },
+        {
+          "name": "Halberd of Caliban",
+          "range": "Melee",
+          "A": "5",
+          "WS": "3+",
+          "S": "6",
+          "AP": "-2",
+          "D": "2",
+          "keywords": [
+            "Precision"
+          ]
+        },
+        {
+          "name": "Power Weapon",
+          "range": "Melee",
+          "A": "4",
+          "WS": "3+",
+          "S": "5",
+          "AP": "-2",
+          "D": "1",
+          "keywords": []
+        },
+        {
+          "name": "Thunder Hammer",
+          "range": "Melee",
+          "A": "3",
+          "WS": "4+",
+          "S": "8",
+          "AP": "-2",
+          "D": "2",
+          "keywords": [
+            "Devastating Wounds"
+          ]
+        }
+      ],
+      "abilities": [
+        {
+          "name": "Attached Unit",
+          "description": "If a Character unit from your army with the Leader ability can be attached to a Terminator Squad, it can be attached to this unit instead."
+        },
+        {
+          "name": "Watcher in the Dark",
+          "description": "Once per battle, in any phase, just after a mortal wound is allocated to an Adeptus Astartes model in this unit, this unit can summon a Watcher in the Dark. When it does, until the end of the phase, models in this unit have the Feel No Pain 4+ ability against mortal wounds."
+        },
+        {
+          "name": "Invulnerable Save",
+          "description": "4+"
+        },
+        {
+          "name": "Astartes Banner",
+          "description": "While this unit contains an Ancient, add 1 to the Objective Control characteristic of its models."
+        },
+        {
+          "name": "Invulnerable Save",
+          "description": "4+"
+        },
+        {
+          "name": "Narthecium",
+          "description": "While this unit contains an Apothecary, in your Command phase, you can return 1 destroyed model (excluding Character models) to this unit."
+        },
+        {
+          "name": "Invulnerable Save",
+          "description": "4+"
+        },
+        {
+          "name": "Honour or Death",
+          "description": "While this unit contains a Company Champion, add 1 to Advance and Charge rolls made for this unit and you can target this unit with the Heroic Intervention Stratagem for 0CP."
+        },
+        {
+          "name": "Invulnerable Save",
+          "description": "4+"
+        },
+        {
+          "name": "Invulnerable Save",
+          "description": "4+"
+        },
+        {
+          "name": "Invulnerable Save",
+          "description": "4+"
+        },
+        {
+          "name": "Invulnerable Save",
+          "description": "4+"
+        },
+        {
+          "name": "Invulnerable Save",
+          "description": "4+"
+        },
+        {
+          "name": "Invulnerable Save",
+          "description": "4+"
+        },
+        {
+          "name": "Storm Shield",
+          "description": "The bearer has a Wounds characteristic of 4."
+        }
+      ]
+    }
+  ],
+  "enhancements": []
+}

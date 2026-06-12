@@ -1,0 +1,4092 @@
+{
+  "id": "1f19-6509-d906-ca10",
+  "name": "Adeptus Custodes",
+  "catalogueName": "Imperium - Adeptus Custodes",
+  "units": [
+    {
+      "id": "9e42-7207-9c30-6122",
+      "name": "Aleya",
+      "points": 65,
+      "keywords": [
+        "Epic Hero",
+        "Character",
+        "Infantry",
+        "Imperium",
+        "Anathema Psykana"
+      ],
+      "factionKeywords": [
+        "Adeptus Custodes"
+      ],
+      "stats": {
+        "M": "6\"",
+        "T": "3",
+        "SV": "3+",
+        "W": "4",
+        "LD": "6+",
+        "OC": "1"
+      },
+      "rangedWeapons": [],
+      "meleeWeapons": [
+        {
+          "name": "Somnus",
+          "range": "Melee",
+          "A": "4",
+          "WS": "2+",
+          "S": "6",
+          "AP": "-3",
+          "D": "3",
+          "keywords": [
+            "Anti-Psyker 5+",
+            "Devastating Wounds"
+          ]
+        }
+      ],
+      "abilities": [
+        {
+          "name": "Tactical Perception",
+          "description": "While this model is leading a unit, models in that unit have the Fights First ability."
+        },
+        {
+          "name": "Tenacious Spirit",
+          "description": "While this model is leading a unit, each time a model in that unit makes an attack, add 1 to the Hit roll if that unit is below its Starting Strength, and add 1 to the Wound roll as well if that unit is Below Half-strength."
+        },
+        {
+          "name": "Leader",
+          "description": "This model can be attached to the following units:\n■ Prosecutors\n■ Vigilators\n■ Witchseekers"
+        }
+      ]
+    },
+    {
+      "id": "c8a6-a4c5-703e-b717",
+      "name": "Allarus Custodians",
+      "points": 110,
+      "keywords": [
+        "Imperium",
+        "Terminator",
+        "Infantry"
+      ],
+      "factionKeywords": [
+        "Adeptus Custodes"
+      ],
+      "stats": {
+        "M": "5\"",
+        "T": "7",
+        "SV": "2+",
+        "W": "4",
+        "LD": "6+",
+        "OC": "2"
+      },
+      "rangedWeapons": [
+        {
+          "name": "Guardian Spear",
+          "range": "24\"",
+          "A": "2",
+          "BS": "2+",
+          "S": "4",
+          "AP": "-1",
+          "D": "2",
+          "keywords": [
+            "Assault"
+          ]
+        },
+        {
+          "name": "Balistus grenade launcher",
+          "range": "18\"",
+          "A": "D6",
+          "BS": "2+",
+          "S": "4",
+          "AP": "-1",
+          "D": "1",
+          "keywords": [
+            "Blast"
+          ]
+        },
+        {
+          "name": "Castellan axe",
+          "range": "24\"",
+          "A": "2",
+          "BS": "2+",
+          "S": "4",
+          "AP": "-1",
+          "D": "2",
+          "keywords": [
+            "Assault"
+          ]
+        }
+      ],
+      "meleeWeapons": [
+        {
+          "name": "Guardian Spear",
+          "range": "Melee",
+          "A": "5",
+          "WS": "2+",
+          "S": "7",
+          "AP": "-2",
+          "D": "2",
+          "keywords": []
+        },
+        {
+          "name": "Castellan axe",
+          "range": "Melee",
+          "A": "4",
+          "WS": "2+",
+          "S": "9",
+          "AP": "-1",
+          "D": "3",
+          "keywords": []
+        },
+        {
+          "name": "Misericordia",
+          "range": "Melee",
+          "A": "5",
+          "WS": "2+",
+          "S": "5",
+          "AP": "-2",
+          "D": "1",
+          "keywords": []
+        }
+      ],
+      "abilities": [
+        {
+          "name": "Slayers of Tyrants",
+          "description": "Each time a model in this unit makes an attack that targets a ^^Character, Monster^^ or ^^Vehicle^^ unit, you can re-roll the Wound roll."
+        },
+        {
+          "name": "From Golden Light",
+          "description": "Once per battle, at the end of your opponent's turn, if this unit is not within Engagement Range of one or more enemy units, you can remove it from the battlefield and place it into Strategic Reserves."
+        },
+        {
+          "name": "Earned Name",
+          "description": "Each time this model's unit is selected to fight, both Ka'tah Stances are active for that unit, instead of only one."
+        }
+      ]
+    },
+    {
+      "id": "d7cb-7d30-715b-50d2",
+      "name": "Anathema Psykana Rhino",
+      "points": 75,
+      "keywords": [
+        "Rhino",
+        "Anathema Psykana",
+        "Vehicle",
+        "Dedicated Transport",
+        "Transport",
+        "Smoke",
+        "Imperium"
+      ],
+      "factionKeywords": [
+        "Adeptus Custodes"
+      ],
+      "stats": {
+        "M": "12\"",
+        "T": "9",
+        "SV": "3+",
+        "W": "10",
+        "LD": "6+",
+        "OC": "2"
+      },
+      "rangedWeapons": [
+        {
+          "name": "Storm Bolter",
+          "range": "24\"",
+          "A": "2",
+          "BS": "3+",
+          "S": "4",
+          "AP": "0",
+          "D": "1",
+          "keywords": [
+            "Rapid Fire 2"
+          ]
+        },
+        {
+          "name": "Hunter-killer missile",
+          "range": "48\"",
+          "A": "1",
+          "BS": "2+",
+          "S": "14",
+          "AP": "-3",
+          "D": "D6",
+          "keywords": [
+            "One Shot"
+          ]
+        }
+      ],
+      "meleeWeapons": [
+        {
+          "name": "Armoured tracks",
+          "range": "Melee",
+          "A": "3",
+          "WS": "4+",
+          "S": "6",
+          "AP": "0",
+          "D": "1",
+          "keywords": []
+        }
+      ],
+      "abilities": [
+        {
+          "name": "Self Repair",
+          "description": "At the start of your Command phase, this model regains 1 lost wound."
+        },
+        {
+          "name": "Earned Name",
+          "description": "Each time this model's unit is selected to fight, both Ka'tah Stances are active for that unit, instead of only one."
+        }
+      ],
+      "transportCapacity": "This model has a transport capacity of 12 ANATHEMA PSYKANA INFANTRY models."
+    },
+    {
+      "id": "48b7-e713-d5b1-f11c",
+      "name": "Blade Champion",
+      "points": 120,
+      "keywords": [
+        "Infantry",
+        "Character",
+        "Imperium"
+      ],
+      "factionKeywords": [
+        "Adeptus Custodes"
+      ],
+      "stats": {
+        "M": "6\"",
+        "T": "6",
+        "SV": "2+",
+        "W": "6",
+        "LD": "6+",
+        "OC": "2"
+      },
+      "rangedWeapons": [],
+      "meleeWeapons": [
+        {
+          "name": "➤ Vaultswords - Behemor",
+          "range": "Melee",
+          "A": "6",
+          "WS": "2+",
+          "S": "7",
+          "AP": "-2",
+          "D": "2",
+          "keywords": [
+            "Precision"
+          ]
+        },
+        {
+          "name": "➤ Vaultswords - Hurricanis",
+          "range": "Melee",
+          "A": "9",
+          "WS": "2+",
+          "S": "5",
+          "AP": "-1",
+          "D": "1",
+          "keywords": [
+            "Sustained Hits 1"
+          ]
+        },
+        {
+          "name": "➤ Vaultswords - Victus",
+          "range": "Melee",
+          "A": "5",
+          "WS": "2+",
+          "S": "6",
+          "AP": "-3",
+          "D": "3",
+          "keywords": [
+            "Devastating Wounds"
+          ]
+        }
+      ],
+      "abilities": [
+        {
+          "name": "Leader",
+          "description": "This model can be attached to the following units:\n■ Custodian Guard\n■ Custodian Wardens"
+        },
+        {
+          "name": "Martial Inspiration",
+          "description": "Once per battle, in your Charge phase, this model's unit is eligible to declare a charge in a turn in which it Advanced."
+        },
+        {
+          "name": "Swift Onslaught",
+          "description": "While this model is leading a unit, you can re-roll Charge rolls made for that unit."
+        },
+        {
+          "name": "Raptor Blade",
+          "description": "Add 1 to the Attacks, Strength and Damage characteristics of the bearer's melee weapons. While the bearer is within Engagement Range of one or more enemy **^^Psyker^^** units that are Battle-shocked, add 2 to the Attacks, Strength and Damage characteristics of the bearer's melee weapons instead."
+        },
+        {
+          "name": "Castellan's Mark",
+          "description": "After both players have deployed their armies, you can select up to two ADEPTUS CUSTODES units from your army (excluding ANATHEMA PSYKANA units) and redeploy all of those units. When doing so, any of those units can be placed into Strategic Reserves, regardless of how  any units are already in Strategic Reserves."
+        },
+        {
+          "name": "Panoptispex",
+          "description": "While the bearer is leading a unit, ranged weapons equipped by models in that unit have the [IGNORES COVER] ability."
+        },
+        {
+          "name": "From the Hall of Armouries",
+          "description": "Add 1 to the Strength and Damage characteristics of the bearer's melee weapons."
+        },
+        {
+          "name": "Radiant Mantle",
+          "description": "Each time an attack targets the bearer's unit, if the attacking model is within 12\", subtract 1 from the Hit roll."
+        },
+        {
+          "name": "Aegis Projector",
+          "description": "Once per turn, the first time a saving throw is failed for the bearer's unit, change the Damage characteristic of that attack to 0."
+        },
+        {
+          "name": "Gift of Terran Artifice",
+          "description": "Each time the bearer makes a melee attack, add 1 to the Wound roll."
+        },
+        {
+          "name": "Champion of the Imperium",
+          "description": "The range of the bearer’s Null Aegis or Deadly Unity ability (see left) is increased to 9\"."
+        },
+        {
+          "name": "Auric Mantle",
+          "description": "**^^Shield-Captain^^** or **^^Blade Champion^^** model only. Add 2 to the bearer's Wounds characteristic."
+        },
+        {
+          "name": "Enhanced Voidsheen Cloak",
+          "description": "Each time an attack is allocated to the bearer, subtract 1 from the Damage characteristic of that attack. If that attack was made by a **^^Psyker^^** or Battle-shocked model, change the Damage characteristic of that attack to 1 instead."
+        },
+        {
+          "name": "Huntress' Eye",
+          "description": "In your Command phase, select one enemy unit within 12\" of the bearer. That unit must take a Battle-shock test."
+        },
+        {
+          "name": "Oblivion Knight",
+          "description": "While the bearer is leading a unit, each time a model in that unit makes an attack, add 1 to the Hit roll. If that attack targeted an enemy **^^Psyker^^** unit, add 1 to the Wound roll as well."
+        },
+        {
+          "name": "Blade Imperator",
+          "description": "Each time the bearer's unit ends a Charge move, select one enemy unit within Engagement Range of the bearer and roll one D6: on a 4+, that enemy unit suffers D3 mortal wounds. Once per battle, when the bearer's unit ends a Charge move, all enemy units within 6\" of the bearer must take a Battle-shock test."
+        },
+        {
+          "name": "Inspirational Exemplar",
+          "description": "The bearer has a Leadership characteristic of 5+. Once per battle, at the start of any phase, you can select one friendly **^^Adeptus Custodes^^** unit that is Battle-shocked and within 12\" of the bearer: that unit is no longer Battle-shocked."
+        },
+        {
+          "name": "Veiled Blade",
+          "description": "Add 2 to the Attacks characteristic of the bearer's melee weapons. Once per battle, at the start of any Command phase, triple the bearer's Objective Control characteristic until the end of the turn."
+        },
+        {
+          "name": "Martial Philosopher",
+          "description": "The bearer's unit is eligible to shoot and/or declare a charge in a turn in which it Fell Back. Once per battle, when an enemy unit ends a Normal, Advance or Fall Back move within 9\" of the bearer, if the bearer's unit is not within Engagement Range of one or more enemy units, it can make a Normal move of up to 6\"."
+        },
+        {
+          "name": "Honoured Fallen",
+          "description": "ADEPTUS CUSTODES VEHICLE model only. While a friendly ADEPTUS CUSTODES INFANTRY or ADEPTUS CUSTODES MOUNTED unit is within 6\" of the bearer, each time a model in that unit makes  an attack, re‑roll a Hit roll of 1."
+        },
+        {
+          "name": "Augury Uplink",
+          "description": "ADEPTUS CUSTODES model only. The bearer has the Feel No Pain 5+ ability."
+        },
+        {
+          "name": "Adamantine Talisman",
+          "description": "**^^Adeptus Custodes^^** model only. Improve the Attacks, Strength and Damage characteristics of melee weapons equipped by the bearer by 1."
+        },
+        {
+          "name": "Veteran of the Kataphraktoi",
+          "description": "ADEPTUS CUSTODES INFANTRY or ADEPTUS CUSTODES MOUNTED model only. In your Command phase, select one ADEPTUS CUSTODES VEHICLE or ADEPTUS CUSTODES MOUNTED unit within 6\" of the bearer. Until the start of your next Command phase, that unit is eligible to shoot in a turn in which it Fell Back."
+        },
+        {
+          "name": "Superior Creation",
+          "description": "**^^Adeptus Custodes Infantry^^** model only. The first time the bearer is destroyed, roll one D6 at the end of the phase. On a 2+, set the bearer back up on the battlefield, as close as possible to where it was destroyed and not within Engagement Range of one or more enemy units, with its full wounds remaining."
+        },
+        {
+          "name": "Praesidius",
+          "description": "The bearer has the Lone Operative and Stealth abilities."
+        },
+        {
+          "name": "Fierce Conqueror",
+          "description": "At the start of the Fight phase, until the end of the phase, add 2 to the Attacks characteristic of melee weapons equipped by the bearer for every 5 enemy models within 6\" of the bearer (rounding  down)."
+        },
+        {
+          "name": "Admonimortis",
+          "description": "**^^Shield‑Captain^^** model only. Improve the Strength characteristic of melee weapons equipped by the bearer by 3, and improve the Armour Penetration and Damage characteristics of those weapons by  1."
+        },
+        {
+          "name": "Earned Name",
+          "description": "Each time this model's unit is selected to fight, both Ka'tah Stances are active for that unit, instead of only one."
+        }
+      ]
+    },
+    {
+      "id": "91b3-2e1c-e642-d213",
+      "name": "Custodian Guard",
+      "points": 160,
+      "keywords": [
+        "Infantry",
+        "Battleline",
+        "Imperium"
+      ],
+      "factionKeywords": [
+        "Adeptus Custodes"
+      ],
+      "stats": {
+        "M": "6\"",
+        "T": "6",
+        "SV": "2+",
+        "W": "3",
+        "LD": "6+",
+        "OC": "2"
+      },
+      "rangedWeapons": [
+        {
+          "name": "Guardian Spear",
+          "range": "24\"",
+          "A": "2",
+          "BS": "2+",
+          "S": "4",
+          "AP": "-1",
+          "D": "2",
+          "keywords": [
+            "Assault"
+          ]
+        },
+        {
+          "name": "Sentinel Blade",
+          "range": "12\"",
+          "A": "2",
+          "BS": "2+",
+          "S": "4",
+          "AP": "-1",
+          "D": "2",
+          "keywords": [
+            "Assault",
+            "Pistol"
+          ]
+        }
+      ],
+      "meleeWeapons": [
+        {
+          "name": "Guardian Spear",
+          "range": "Melee",
+          "A": "5",
+          "WS": "2+",
+          "S": "7",
+          "AP": "-2",
+          "D": "2",
+          "keywords": []
+        },
+        {
+          "name": "Sentinel Blade",
+          "range": "Melee",
+          "A": "5",
+          "WS": "2+",
+          "S": "6",
+          "AP": "-2",
+          "D": "1",
+          "keywords": []
+        },
+        {
+          "name": "Misericordia",
+          "range": "Melee",
+          "A": "5",
+          "WS": "2+",
+          "S": "5",
+          "AP": "-2",
+          "D": "1",
+          "keywords": []
+        }
+      ],
+      "abilities": [
+        {
+          "name": "Stand Vigil",
+          "description": "Each time a model in this unit makes an attack, re-roll a Wound roll of 1. While this unit is within range of an objective marker you control, you can re-roll the Wound roll instead."
+        },
+        {
+          "name": "Sentinel Storm",
+          "description": "Once per battle, in your Shooting phase, after the unit has shot, it can shoot again."
+        },
+        {
+          "name": "Earned Name",
+          "description": "Each time this model's unit is selected to fight, both Ka'tah Stances are active for that unit, instead of only one."
+        }
+      ]
+    },
+    {
+      "id": "9610-b148-8433-93b8",
+      "name": "Custodian Wardens",
+      "points": 210,
+      "keywords": [
+        "Infantry",
+        "Imperium"
+      ],
+      "factionKeywords": [
+        "Adeptus Custodes"
+      ],
+      "stats": {
+        "M": "6\"",
+        "T": "6",
+        "SV": "2+",
+        "W": "3",
+        "LD": "6+",
+        "OC": "2"
+      },
+      "rangedWeapons": [
+        {
+          "name": "Guardian Spear",
+          "range": "24\"",
+          "A": "2",
+          "BS": "2+",
+          "S": "4",
+          "AP": "-1",
+          "D": "2",
+          "keywords": [
+            "Assault"
+          ]
+        },
+        {
+          "name": "Castellan axe",
+          "range": "24\"",
+          "A": "2",
+          "BS": "2+",
+          "S": "4",
+          "AP": "-1",
+          "D": "2",
+          "keywords": [
+            "Assault"
+          ]
+        }
+      ],
+      "meleeWeapons": [
+        {
+          "name": "Guardian Spear",
+          "range": "Melee",
+          "A": "5",
+          "WS": "2+",
+          "S": "7",
+          "AP": "-2",
+          "D": "2",
+          "keywords": []
+        },
+        {
+          "name": "Castellan axe",
+          "range": "Melee",
+          "A": "4",
+          "WS": "2+",
+          "S": "9",
+          "AP": "-1",
+          "D": "3",
+          "keywords": []
+        }
+      ],
+      "abilities": [
+        {
+          "name": "Resolute Will",
+          "description": "While a CHARACTER is leading this unit, each time an attack targets this unit, if the Strength characteristic of that attack is greater than the Toughness characteristic of this unit, subtract 1 from the Wound roll."
+        },
+        {
+          "name": "Living Fortress",
+          "description": "Once per battle, at the start of any phase, this unit can use this ability. If it does, until the end of the phase, models in this unit have the Feel No Pain 4+ ability."
+        },
+        {
+          "name": "Vexilla",
+          "description": "Add 1 to the Objective Control characteristic of models in the bearer’s unit."
+        },
+        {
+          "name": "Earned Name",
+          "description": "Each time this model's unit is selected to fight, both Ka'tah Stances are active for that unit, instead of only one."
+        }
+      ]
+    },
+    {
+      "id": "7099-71b-56e8-7191",
+      "name": "Knight-Centura",
+      "points": 55,
+      "keywords": [
+        "Infantry",
+        "Anathema Psykana",
+        "Imperium",
+        "Character"
+      ],
+      "factionKeywords": [
+        "Adeptus Custodes"
+      ],
+      "stats": {
+        "M": "6\"",
+        "T": "3",
+        "SV": "3+",
+        "W": "4",
+        "LD": "6+",
+        "OC": "1"
+      },
+      "rangedWeapons": [
+        {
+          "name": "Witchseeker flamer",
+          "range": "12\"",
+          "A": "D6",
+          "BS": "N/A",
+          "S": "4",
+          "AP": "0",
+          "D": "1",
+          "keywords": [
+            "Ignores Cover",
+            "Torrent"
+          ]
+        },
+        {
+          "name": "Master-crafted boltgun",
+          "range": "24\"",
+          "A": "1",
+          "BS": "2+",
+          "S": "4",
+          "AP": "0",
+          "D": "2",
+          "keywords": [
+            "Rapid Fire 1"
+          ]
+        }
+      ],
+      "meleeWeapons": [
+        {
+          "name": "Executioner Greatblade",
+          "range": "Melee",
+          "A": "3",
+          "WS": "2+",
+          "S": "5",
+          "AP": "-2",
+          "D": "2",
+          "keywords": [
+            "Anti-Psyker 5+",
+            "Devastating Wounds"
+          ]
+        },
+        {
+          "name": "Close combat weapon",
+          "range": "Melee",
+          "A": "3",
+          "WS": "2+",
+          "S": "3",
+          "AP": "0",
+          "D": "1",
+          "keywords": []
+        }
+      ],
+      "abilities": [
+        {
+          "name": "Leader",
+          "description": "This model can be attached to the following units:\n■ Prosecutors\n■ Vigilators\n■ Witchseekers"
+        },
+        {
+          "name": "Seeker's Instincts",
+          "description": "While this model is leading a unit, add 2\" to the Move characteristic of models in that unit and add 2 to Advance and Charge rolls made for that unit."
+        },
+        {
+          "name": "Corner the Quarry",
+          "description": "Each time an enemy unit (excluding MONSTERS and VEHICLES) that is within Engagement Range of this model’s unit Falls Back, all models in that enemy unit must take a Desperate Escape test. When doing so, if that enemy unit is Battle-shocked, subtract 1 from each of those tests."
+        },
+        {
+          "name": "Raptor Blade",
+          "description": "Add 1 to the Attacks, Strength and Damage characteristics of the bearer's melee weapons. While the bearer is within Engagement Range of one or more enemy **^^Psyker^^** units that are Battle-shocked, add 2 to the Attacks, Strength and Damage characteristics of the bearer's melee weapons instead."
+        },
+        {
+          "name": "Castellan's Mark",
+          "description": "After both players have deployed their armies, you can select up to two ADEPTUS CUSTODES units from your army (excluding ANATHEMA PSYKANA units) and redeploy all of those units. When doing so, any of those units can be placed into Strategic Reserves, regardless of how  any units are already in Strategic Reserves."
+        },
+        {
+          "name": "Panoptispex",
+          "description": "While the bearer is leading a unit, ranged weapons equipped by models in that unit have the [IGNORES COVER] ability."
+        },
+        {
+          "name": "From the Hall of Armouries",
+          "description": "Add 1 to the Strength and Damage characteristics of the bearer's melee weapons."
+        },
+        {
+          "name": "Radiant Mantle",
+          "description": "Each time an attack targets the bearer's unit, if the attacking model is within 12\", subtract 1 from the Hit roll."
+        },
+        {
+          "name": "Aegis Projector",
+          "description": "Once per turn, the first time a saving throw is failed for the bearer's unit, change the Damage characteristic of that attack to 0."
+        },
+        {
+          "name": "Gift of Terran Artifice",
+          "description": "Each time the bearer makes a melee attack, add 1 to the Wound roll."
+        },
+        {
+          "name": "Champion of the Imperium",
+          "description": "The range of the bearer’s Null Aegis or Deadly Unity ability (see left) is increased to 9\"."
+        },
+        {
+          "name": "Auric Mantle",
+          "description": "**^^Shield-Captain^^** or **^^Blade Champion^^** model only. Add 2 to the bearer's Wounds characteristic."
+        },
+        {
+          "name": "Enhanced Voidsheen Cloak",
+          "description": "Each time an attack is allocated to the bearer, subtract 1 from the Damage characteristic of that attack. If that attack was made by a **^^Psyker^^** or Battle-shocked model, change the Damage characteristic of that attack to 1 instead."
+        },
+        {
+          "name": "Huntress' Eye",
+          "description": "In your Command phase, select one enemy unit within 12\" of the bearer. That unit must take a Battle-shock test."
+        },
+        {
+          "name": "Oblivion Knight",
+          "description": "While the bearer is leading a unit, each time a model in that unit makes an attack, add 1 to the Hit roll. If that attack targeted an enemy **^^Psyker^^** unit, add 1 to the Wound roll as well."
+        },
+        {
+          "name": "Blade Imperator",
+          "description": "Each time the bearer's unit ends a Charge move, select one enemy unit within Engagement Range of the bearer and roll one D6: on a 4+, that enemy unit suffers D3 mortal wounds. Once per battle, when the bearer's unit ends a Charge move, all enemy units within 6\" of the bearer must take a Battle-shock test."
+        },
+        {
+          "name": "Inspirational Exemplar",
+          "description": "The bearer has a Leadership characteristic of 5+. Once per battle, at the start of any phase, you can select one friendly **^^Adeptus Custodes^^** unit that is Battle-shocked and within 12\" of the bearer: that unit is no longer Battle-shocked."
+        },
+        {
+          "name": "Veiled Blade",
+          "description": "Add 2 to the Attacks characteristic of the bearer's melee weapons. Once per battle, at the start of any Command phase, triple the bearer's Objective Control characteristic until the end of the turn."
+        },
+        {
+          "name": "Martial Philosopher",
+          "description": "The bearer's unit is eligible to shoot and/or declare a charge in a turn in which it Fell Back. Once per battle, when an enemy unit ends a Normal, Advance or Fall Back move within 9\" of the bearer, if the bearer's unit is not within Engagement Range of one or more enemy units, it can make a Normal move of up to 6\"."
+        },
+        {
+          "name": "Honoured Fallen",
+          "description": "ADEPTUS CUSTODES VEHICLE model only. While a friendly ADEPTUS CUSTODES INFANTRY or ADEPTUS CUSTODES MOUNTED unit is within 6\" of the bearer, each time a model in that unit makes  an attack, re‑roll a Hit roll of 1."
+        },
+        {
+          "name": "Augury Uplink",
+          "description": "ADEPTUS CUSTODES model only. The bearer has the Feel No Pain 5+ ability."
+        },
+        {
+          "name": "Adamantine Talisman",
+          "description": "**^^Adeptus Custodes^^** model only. Improve the Attacks, Strength and Damage characteristics of melee weapons equipped by the bearer by 1."
+        },
+        {
+          "name": "Veteran of the Kataphraktoi",
+          "description": "ADEPTUS CUSTODES INFANTRY or ADEPTUS CUSTODES MOUNTED model only. In your Command phase, select one ADEPTUS CUSTODES VEHICLE or ADEPTUS CUSTODES MOUNTED unit within 6\" of the bearer. Until the start of your next Command phase, that unit is eligible to shoot in a turn in which it Fell Back."
+        },
+        {
+          "name": "Superior Creation",
+          "description": "**^^Adeptus Custodes Infantry^^** model only. The first time the bearer is destroyed, roll one D6 at the end of the phase. On a 2+, set the bearer back up on the battlefield, as close as possible to where it was destroyed and not within Engagement Range of one or more enemy units, with its full wounds remaining."
+        },
+        {
+          "name": "Praesidius",
+          "description": "The bearer has the Lone Operative and Stealth abilities."
+        },
+        {
+          "name": "Fierce Conqueror",
+          "description": "At the start of the Fight phase, until the end of the phase, add 2 to the Attacks characteristic of melee weapons equipped by the bearer for every 5 enemy models within 6\" of the bearer (rounding  down)."
+        },
+        {
+          "name": "Admonimortis",
+          "description": "**^^Shield‑Captain^^** model only. Improve the Strength characteristic of melee weapons equipped by the bearer by 3, and improve the Armour Penetration and Damage characteristics of those weapons by  1."
+        },
+        {
+          "name": "Earned Name",
+          "description": "Each time this model's unit is selected to fight, both Ka'tah Stances are active for that unit, instead of only one."
+        }
+      ]
+    },
+    {
+      "id": "3ec3-a4df-fdbf-5507",
+      "name": "Prosecutors",
+      "points": 40,
+      "keywords": [
+        "Imperium",
+        "Infantry",
+        "Anathema Psykana"
+      ],
+      "factionKeywords": [
+        "Adeptus Custodes"
+      ],
+      "stats": {
+        "M": "6\"",
+        "T": "3",
+        "SV": "3+",
+        "W": "1",
+        "LD": "6+",
+        "OC": "2"
+      },
+      "rangedWeapons": [
+        {
+          "name": "Boltgun",
+          "range": "24\"",
+          "A": "1",
+          "BS": "3+",
+          "S": "4",
+          "AP": "0",
+          "D": "1",
+          "keywords": [
+            "Rapid Fire 1"
+          ]
+        }
+      ],
+      "meleeWeapons": [
+        {
+          "name": "Close combat weapon",
+          "range": "Melee",
+          "A": "2",
+          "WS": "3+",
+          "S": "3",
+          "AP": "0",
+          "D": "1",
+          "keywords": []
+        }
+      ],
+      "abilities": [
+        {
+          "name": "Purity of Execution",
+          "description": "Each time a model in this unit makes a ranged attack that targets a Psyker unit, that attack has the [PRECISION] and [DEVASTATING WOUNDS] abilities."
+        },
+        {
+          "name": "Earned Name",
+          "description": "Each time this model's unit is selected to fight, both Ka'tah Stances are active for that unit, instead of only one."
+        }
+      ]
+    },
+    {
+      "id": "b61c-b815-65c0-b1cc",
+      "name": "Shield-Captain",
+      "points": 120,
+      "keywords": [
+        "Imperium",
+        "Character",
+        "Infantry"
+      ],
+      "factionKeywords": [
+        "Adeptus Custodes"
+      ],
+      "stats": {
+        "M": "6\"",
+        "T": "6",
+        "SV": "2+",
+        "W": "6",
+        "LD": "6+",
+        "OC": "2"
+      },
+      "rangedWeapons": [
+        {
+          "name": "Guardian Spear",
+          "range": "24\"",
+          "A": "2",
+          "BS": "2+",
+          "S": "4",
+          "AP": "-1",
+          "D": "2",
+          "keywords": [
+            "Assault"
+          ]
+        },
+        {
+          "name": "Castellan axe",
+          "range": "24\"",
+          "A": "2",
+          "BS": "2+",
+          "S": "4",
+          "AP": "-1",
+          "D": "2",
+          "keywords": [
+            "Assault"
+          ]
+        },
+        {
+          "name": "Sentinel Blade",
+          "range": "12\"",
+          "A": "2",
+          "BS": "2+",
+          "S": "4",
+          "AP": "-1",
+          "D": "2",
+          "keywords": [
+            "Assault",
+            "Pistol"
+          ]
+        },
+        {
+          "name": "Pyrithite Spear",
+          "range": "12\"",
+          "A": "1",
+          "BS": "2+",
+          "S": "9",
+          "AP": "-4",
+          "D": "D6",
+          "keywords": [
+            "Melta 2"
+          ]
+        }
+      ],
+      "meleeWeapons": [
+        {
+          "name": "Guardian Spear",
+          "range": "Melee",
+          "A": "7",
+          "WS": "2+",
+          "S": "7",
+          "AP": "-2",
+          "D": "2",
+          "keywords": []
+        },
+        {
+          "name": "Castellan axe",
+          "range": "Melee",
+          "A": "6",
+          "WS": "2+",
+          "S": "9",
+          "AP": "-1",
+          "D": "3",
+          "keywords": []
+        },
+        {
+          "name": "Sentinel Blade",
+          "range": "Melee",
+          "A": "7",
+          "WS": "2+",
+          "S": "6",
+          "AP": "-2",
+          "D": "1",
+          "keywords": []
+        },
+        {
+          "name": "Pyrithite Spear",
+          "range": "Melee",
+          "A": "7",
+          "WS": "2+",
+          "S": "7",
+          "AP": "-2",
+          "D": "2",
+          "keywords": []
+        }
+      ],
+      "abilities": [
+        {
+          "name": "Master of the Stances",
+          "description": "Once per battle, when this model's unit is selected to fight, it can use this ability. If it does, until that fight is resolved, both Ka'tah Stances are active for that unit, instead of only one."
+        },
+        {
+          "name": "Leader",
+          "description": "This model can be attached to the following units:\n■ Custodian Guard\n■ Custodian Wardens"
+        },
+        {
+          "name": "Raptor Blade",
+          "description": "Add 1 to the Attacks, Strength and Damage characteristics of the bearer's melee weapons. While the bearer is within Engagement Range of one or more enemy **^^Psyker^^** units that are Battle-shocked, add 2 to the Attacks, Strength and Damage characteristics of the bearer's melee weapons instead."
+        },
+        {
+          "name": "Castellan's Mark",
+          "description": "After both players have deployed their armies, you can select up to two ADEPTUS CUSTODES units from your army (excluding ANATHEMA PSYKANA units) and redeploy all of those units. When doing so, any of those units can be placed into Strategic Reserves, regardless of how  any units are already in Strategic Reserves."
+        },
+        {
+          "name": "Panoptispex",
+          "description": "While the bearer is leading a unit, ranged weapons equipped by models in that unit have the [IGNORES COVER] ability."
+        },
+        {
+          "name": "From the Hall of Armouries",
+          "description": "Add 1 to the Strength and Damage characteristics of the bearer's melee weapons."
+        },
+        {
+          "name": "Radiant Mantle",
+          "description": "Each time an attack targets the bearer's unit, if the attacking model is within 12\", subtract 1 from the Hit roll."
+        },
+        {
+          "name": "Aegis Projector",
+          "description": "Once per turn, the first time a saving throw is failed for the bearer's unit, change the Damage characteristic of that attack to 0."
+        },
+        {
+          "name": "Gift of Terran Artifice",
+          "description": "Each time the bearer makes a melee attack, add 1 to the Wound roll."
+        },
+        {
+          "name": "Champion of the Imperium",
+          "description": "The range of the bearer’s Null Aegis or Deadly Unity ability (see left) is increased to 9\"."
+        },
+        {
+          "name": "Auric Mantle",
+          "description": "**^^Shield-Captain^^** or **^^Blade Champion^^** model only. Add 2 to the bearer's Wounds characteristic."
+        },
+        {
+          "name": "Enhanced Voidsheen Cloak",
+          "description": "Each time an attack is allocated to the bearer, subtract 1 from the Damage characteristic of that attack. If that attack was made by a **^^Psyker^^** or Battle-shocked model, change the Damage characteristic of that attack to 1 instead."
+        },
+        {
+          "name": "Huntress' Eye",
+          "description": "In your Command phase, select one enemy unit within 12\" of the bearer. That unit must take a Battle-shock test."
+        },
+        {
+          "name": "Oblivion Knight",
+          "description": "While the bearer is leading a unit, each time a model in that unit makes an attack, add 1 to the Hit roll. If that attack targeted an enemy **^^Psyker^^** unit, add 1 to the Wound roll as well."
+        },
+        {
+          "name": "Blade Imperator",
+          "description": "Each time the bearer's unit ends a Charge move, select one enemy unit within Engagement Range of the bearer and roll one D6: on a 4+, that enemy unit suffers D3 mortal wounds. Once per battle, when the bearer's unit ends a Charge move, all enemy units within 6\" of the bearer must take a Battle-shock test."
+        },
+        {
+          "name": "Inspirational Exemplar",
+          "description": "The bearer has a Leadership characteristic of 5+. Once per battle, at the start of any phase, you can select one friendly **^^Adeptus Custodes^^** unit that is Battle-shocked and within 12\" of the bearer: that unit is no longer Battle-shocked."
+        },
+        {
+          "name": "Veiled Blade",
+          "description": "Add 2 to the Attacks characteristic of the bearer's melee weapons. Once per battle, at the start of any Command phase, triple the bearer's Objective Control characteristic until the end of the turn."
+        },
+        {
+          "name": "Martial Philosopher",
+          "description": "The bearer's unit is eligible to shoot and/or declare a charge in a turn in which it Fell Back. Once per battle, when an enemy unit ends a Normal, Advance or Fall Back move within 9\" of the bearer, if the bearer's unit is not within Engagement Range of one or more enemy units, it can make a Normal move of up to 6\"."
+        },
+        {
+          "name": "Honoured Fallen",
+          "description": "ADEPTUS CUSTODES VEHICLE model only. While a friendly ADEPTUS CUSTODES INFANTRY or ADEPTUS CUSTODES MOUNTED unit is within 6\" of the bearer, each time a model in that unit makes  an attack, re‑roll a Hit roll of 1."
+        },
+        {
+          "name": "Augury Uplink",
+          "description": "ADEPTUS CUSTODES model only. The bearer has the Feel No Pain 5+ ability."
+        },
+        {
+          "name": "Adamantine Talisman",
+          "description": "**^^Adeptus Custodes^^** model only. Improve the Attacks, Strength and Damage characteristics of melee weapons equipped by the bearer by 1."
+        },
+        {
+          "name": "Veteran of the Kataphraktoi",
+          "description": "ADEPTUS CUSTODES INFANTRY or ADEPTUS CUSTODES MOUNTED model only. In your Command phase, select one ADEPTUS CUSTODES VEHICLE or ADEPTUS CUSTODES MOUNTED unit within 6\" of the bearer. Until the start of your next Command phase, that unit is eligible to shoot in a turn in which it Fell Back."
+        },
+        {
+          "name": "Superior Creation",
+          "description": "**^^Adeptus Custodes Infantry^^** model only. The first time the bearer is destroyed, roll one D6 at the end of the phase. On a 2+, set the bearer back up on the battlefield, as close as possible to where it was destroyed and not within Engagement Range of one or more enemy units, with its full wounds remaining."
+        },
+        {
+          "name": "Praesidius",
+          "description": "The bearer has the Lone Operative and Stealth abilities."
+        },
+        {
+          "name": "Fierce Conqueror",
+          "description": "At the start of the Fight phase, until the end of the phase, add 2 to the Attacks characteristic of melee weapons equipped by the bearer for every 5 enemy models within 6\" of the bearer (rounding  down)."
+        },
+        {
+          "name": "Admonimortis",
+          "description": "**^^Shield‑Captain^^** model only. Improve the Strength characteristic of melee weapons equipped by the bearer by 3, and improve the Armour Penetration and Damage characteristics of those weapons by  1."
+        },
+        {
+          "name": "Earned Name",
+          "description": "Each time this model's unit is selected to fight, both Ka'tah Stances are active for that unit, instead of only one."
+        }
+      ]
+    },
+    {
+      "id": "6319-eeba-b717-bd86",
+      "name": "Shield-Captain in Allarus Terminator Armour",
+      "points": 130,
+      "keywords": [
+        "Terminator",
+        "Shield-Captain",
+        "Infantry",
+        "Imperium",
+        "Character"
+      ],
+      "factionKeywords": [
+        "Adeptus Custodes"
+      ],
+      "stats": {
+        "M": "5\"",
+        "T": "7",
+        "SV": "2+",
+        "W": "7",
+        "LD": "6+",
+        "OC": "2"
+      },
+      "rangedWeapons": [
+        {
+          "name": "Balistus grenade launcher",
+          "range": "18\"",
+          "A": "D6",
+          "BS": "2+",
+          "S": "4",
+          "AP": "-1",
+          "D": "1",
+          "keywords": [
+            "Blast"
+          ]
+        }
+      ],
+      "meleeWeapons": [],
+      "abilities": [
+        {
+          "name": "Leader",
+          "description": "This model can be attached to the following units:\n■ Allarus Custodians"
+        },
+        {
+          "name": "Auramite and Adamantite",
+          "description": "Once per battle, at the start of any phase, this model can use this ability. If it does, until the end of the phase, each time an attack is allocated to this model, change the Damage characteristic of that attack to 1."
+        },
+        {
+          "name": "Raptor Blade",
+          "description": "Add 1 to the Attacks, Strength and Damage characteristics of the bearer's melee weapons. While the bearer is within Engagement Range of one or more enemy **^^Psyker^^** units that are Battle-shocked, add 2 to the Attacks, Strength and Damage characteristics of the bearer's melee weapons instead."
+        },
+        {
+          "name": "Castellan's Mark",
+          "description": "After both players have deployed their armies, you can select up to two ADEPTUS CUSTODES units from your army (excluding ANATHEMA PSYKANA units) and redeploy all of those units. When doing so, any of those units can be placed into Strategic Reserves, regardless of how  any units are already in Strategic Reserves."
+        },
+        {
+          "name": "Panoptispex",
+          "description": "While the bearer is leading a unit, ranged weapons equipped by models in that unit have the [IGNORES COVER] ability."
+        },
+        {
+          "name": "From the Hall of Armouries",
+          "description": "Add 1 to the Strength and Damage characteristics of the bearer's melee weapons."
+        },
+        {
+          "name": "Radiant Mantle",
+          "description": "Each time an attack targets the bearer's unit, if the attacking model is within 12\", subtract 1 from the Hit roll."
+        },
+        {
+          "name": "Aegis Projector",
+          "description": "Once per turn, the first time a saving throw is failed for the bearer's unit, change the Damage characteristic of that attack to 0."
+        },
+        {
+          "name": "Gift of Terran Artifice",
+          "description": "Each time the bearer makes a melee attack, add 1 to the Wound roll."
+        },
+        {
+          "name": "Champion of the Imperium",
+          "description": "The range of the bearer’s Null Aegis or Deadly Unity ability (see left) is increased to 9\"."
+        },
+        {
+          "name": "Auric Mantle",
+          "description": "**^^Shield-Captain^^** or **^^Blade Champion^^** model only. Add 2 to the bearer's Wounds characteristic."
+        },
+        {
+          "name": "Enhanced Voidsheen Cloak",
+          "description": "Each time an attack is allocated to the bearer, subtract 1 from the Damage characteristic of that attack. If that attack was made by a **^^Psyker^^** or Battle-shocked model, change the Damage characteristic of that attack to 1 instead."
+        },
+        {
+          "name": "Huntress' Eye",
+          "description": "In your Command phase, select one enemy unit within 12\" of the bearer. That unit must take a Battle-shock test."
+        },
+        {
+          "name": "Oblivion Knight",
+          "description": "While the bearer is leading a unit, each time a model in that unit makes an attack, add 1 to the Hit roll. If that attack targeted an enemy **^^Psyker^^** unit, add 1 to the Wound roll as well."
+        },
+        {
+          "name": "Blade Imperator",
+          "description": "Each time the bearer's unit ends a Charge move, select one enemy unit within Engagement Range of the bearer and roll one D6: on a 4+, that enemy unit suffers D3 mortal wounds. Once per battle, when the bearer's unit ends a Charge move, all enemy units within 6\" of the bearer must take a Battle-shock test."
+        },
+        {
+          "name": "Inspirational Exemplar",
+          "description": "The bearer has a Leadership characteristic of 5+. Once per battle, at the start of any phase, you can select one friendly **^^Adeptus Custodes^^** unit that is Battle-shocked and within 12\" of the bearer: that unit is no longer Battle-shocked."
+        },
+        {
+          "name": "Veiled Blade",
+          "description": "Add 2 to the Attacks characteristic of the bearer's melee weapons. Once per battle, at the start of any Command phase, triple the bearer's Objective Control characteristic until the end of the turn."
+        },
+        {
+          "name": "Martial Philosopher",
+          "description": "The bearer's unit is eligible to shoot and/or declare a charge in a turn in which it Fell Back. Once per battle, when an enemy unit ends a Normal, Advance or Fall Back move within 9\" of the bearer, if the bearer's unit is not within Engagement Range of one or more enemy units, it can make a Normal move of up to 6\"."
+        },
+        {
+          "name": "Honoured Fallen",
+          "description": "ADEPTUS CUSTODES VEHICLE model only. While a friendly ADEPTUS CUSTODES INFANTRY or ADEPTUS CUSTODES MOUNTED unit is within 6\" of the bearer, each time a model in that unit makes  an attack, re‑roll a Hit roll of 1."
+        },
+        {
+          "name": "Augury Uplink",
+          "description": "ADEPTUS CUSTODES model only. The bearer has the Feel No Pain 5+ ability."
+        },
+        {
+          "name": "Adamantine Talisman",
+          "description": "**^^Adeptus Custodes^^** model only. Improve the Attacks, Strength and Damage characteristics of melee weapons equipped by the bearer by 1."
+        },
+        {
+          "name": "Veteran of the Kataphraktoi",
+          "description": "ADEPTUS CUSTODES INFANTRY or ADEPTUS CUSTODES MOUNTED model only. In your Command phase, select one ADEPTUS CUSTODES VEHICLE or ADEPTUS CUSTODES MOUNTED unit within 6\" of the bearer. Until the start of your next Command phase, that unit is eligible to shoot in a turn in which it Fell Back."
+        },
+        {
+          "name": "Superior Creation",
+          "description": "**^^Adeptus Custodes Infantry^^** model only. The first time the bearer is destroyed, roll one D6 at the end of the phase. On a 2+, set the bearer back up on the battlefield, as close as possible to where it was destroyed and not within Engagement Range of one or more enemy units, with its full wounds remaining."
+        },
+        {
+          "name": "Praesidius",
+          "description": "The bearer has the Lone Operative and Stealth abilities."
+        },
+        {
+          "name": "Fierce Conqueror",
+          "description": "At the start of the Fight phase, until the end of the phase, add 2 to the Attacks characteristic of melee weapons equipped by the bearer for every 5 enemy models within 6\" of the bearer (rounding  down)."
+        },
+        {
+          "name": "Admonimortis",
+          "description": "**^^Shield‑Captain^^** model only. Improve the Strength characteristic of melee weapons equipped by the bearer by 3, and improve the Armour Penetration and Damage characteristics of those weapons by  1."
+        },
+        {
+          "name": "Earned Name",
+          "description": "Each time this model's unit is selected to fight, both Ka'tah Stances are active for that unit, instead of only one."
+        }
+      ]
+    },
+    {
+      "id": "58fa-4a25-a5af-1144",
+      "name": "Shield-Captain on Dawneagle Jetbike",
+      "points": 150,
+      "keywords": [
+        "Dawneagle Jetbike",
+        "Imperium",
+        "Mounted",
+        "Character",
+        "Fly",
+        "Shield-Captain"
+      ],
+      "factionKeywords": [
+        "Adeptus Custodes"
+      ],
+      "stats": {
+        "M": "12\"",
+        "T": "7",
+        "SV": "2+",
+        "W": "8",
+        "LD": "6+",
+        "OC": "2"
+      },
+      "rangedWeapons": [],
+      "meleeWeapons": [
+        {
+          "name": "Interceptor lance",
+          "range": "Melee",
+          "A": "6",
+          "WS": "2+",
+          "S": "7",
+          "AP": "-2",
+          "D": "2",
+          "keywords": [
+            "Lance"
+          ]
+        }
+      ],
+      "abilities": [
+        {
+          "name": "Leader",
+          "description": "This model can be attached to the following units:\n■ Vertus Praetors"
+        },
+        {
+          "name": "Sweeping Advance",
+          "description": "Once per battle, at the end of the Fight phase, if this model's unit fought this phase, if it is within Engagement Range of one or more enemy units, it can make a Fall Back move or, if it is not within Engagement Range of one or more enemy units, it can make a Normal move."
+        },
+        {
+          "name": "Raptor Blade",
+          "description": "Add 1 to the Attacks, Strength and Damage characteristics of the bearer's melee weapons. While the bearer is within Engagement Range of one or more enemy **^^Psyker^^** units that are Battle-shocked, add 2 to the Attacks, Strength and Damage characteristics of the bearer's melee weapons instead."
+        },
+        {
+          "name": "Castellan's Mark",
+          "description": "After both players have deployed their armies, you can select up to two ADEPTUS CUSTODES units from your army (excluding ANATHEMA PSYKANA units) and redeploy all of those units. When doing so, any of those units can be placed into Strategic Reserves, regardless of how  any units are already in Strategic Reserves."
+        },
+        {
+          "name": "Panoptispex",
+          "description": "While the bearer is leading a unit, ranged weapons equipped by models in that unit have the [IGNORES COVER] ability."
+        },
+        {
+          "name": "From the Hall of Armouries",
+          "description": "Add 1 to the Strength and Damage characteristics of the bearer's melee weapons."
+        },
+        {
+          "name": "Radiant Mantle",
+          "description": "Each time an attack targets the bearer's unit, if the attacking model is within 12\", subtract 1 from the Hit roll."
+        },
+        {
+          "name": "Aegis Projector",
+          "description": "Once per turn, the first time a saving throw is failed for the bearer's unit, change the Damage characteristic of that attack to 0."
+        },
+        {
+          "name": "Gift of Terran Artifice",
+          "description": "Each time the bearer makes a melee attack, add 1 to the Wound roll."
+        },
+        {
+          "name": "Champion of the Imperium",
+          "description": "The range of the bearer’s Null Aegis or Deadly Unity ability (see left) is increased to 9\"."
+        },
+        {
+          "name": "Auric Mantle",
+          "description": "**^^Shield-Captain^^** or **^^Blade Champion^^** model only. Add 2 to the bearer's Wounds characteristic."
+        },
+        {
+          "name": "Enhanced Voidsheen Cloak",
+          "description": "Each time an attack is allocated to the bearer, subtract 1 from the Damage characteristic of that attack. If that attack was made by a **^^Psyker^^** or Battle-shocked model, change the Damage characteristic of that attack to 1 instead."
+        },
+        {
+          "name": "Huntress' Eye",
+          "description": "In your Command phase, select one enemy unit within 12\" of the bearer. That unit must take a Battle-shock test."
+        },
+        {
+          "name": "Oblivion Knight",
+          "description": "While the bearer is leading a unit, each time a model in that unit makes an attack, add 1 to the Hit roll. If that attack targeted an enemy **^^Psyker^^** unit, add 1 to the Wound roll as well."
+        },
+        {
+          "name": "Blade Imperator",
+          "description": "Each time the bearer's unit ends a Charge move, select one enemy unit within Engagement Range of the bearer and roll one D6: on a 4+, that enemy unit suffers D3 mortal wounds. Once per battle, when the bearer's unit ends a Charge move, all enemy units within 6\" of the bearer must take a Battle-shock test."
+        },
+        {
+          "name": "Inspirational Exemplar",
+          "description": "The bearer has a Leadership characteristic of 5+. Once per battle, at the start of any phase, you can select one friendly **^^Adeptus Custodes^^** unit that is Battle-shocked and within 12\" of the bearer: that unit is no longer Battle-shocked."
+        },
+        {
+          "name": "Veiled Blade",
+          "description": "Add 2 to the Attacks characteristic of the bearer's melee weapons. Once per battle, at the start of any Command phase, triple the bearer's Objective Control characteristic until the end of the turn."
+        },
+        {
+          "name": "Martial Philosopher",
+          "description": "The bearer's unit is eligible to shoot and/or declare a charge in a turn in which it Fell Back. Once per battle, when an enemy unit ends a Normal, Advance or Fall Back move within 9\" of the bearer, if the bearer's unit is not within Engagement Range of one or more enemy units, it can make a Normal move of up to 6\"."
+        },
+        {
+          "name": "Honoured Fallen",
+          "description": "ADEPTUS CUSTODES VEHICLE model only. While a friendly ADEPTUS CUSTODES INFANTRY or ADEPTUS CUSTODES MOUNTED unit is within 6\" of the bearer, each time a model in that unit makes  an attack, re‑roll a Hit roll of 1."
+        },
+        {
+          "name": "Augury Uplink",
+          "description": "ADEPTUS CUSTODES model only. The bearer has the Feel No Pain 5+ ability."
+        },
+        {
+          "name": "Adamantine Talisman",
+          "description": "**^^Adeptus Custodes^^** model only. Improve the Attacks, Strength and Damage characteristics of melee weapons equipped by the bearer by 1."
+        },
+        {
+          "name": "Veteran of the Kataphraktoi",
+          "description": "ADEPTUS CUSTODES INFANTRY or ADEPTUS CUSTODES MOUNTED model only. In your Command phase, select one ADEPTUS CUSTODES VEHICLE or ADEPTUS CUSTODES MOUNTED unit within 6\" of the bearer. Until the start of your next Command phase, that unit is eligible to shoot in a turn in which it Fell Back."
+        },
+        {
+          "name": "Superior Creation",
+          "description": "**^^Adeptus Custodes Infantry^^** model only. The first time the bearer is destroyed, roll one D6 at the end of the phase. On a 2+, set the bearer back up on the battlefield, as close as possible to where it was destroyed and not within Engagement Range of one or more enemy units, with its full wounds remaining."
+        },
+        {
+          "name": "Praesidius",
+          "description": "The bearer has the Lone Operative and Stealth abilities."
+        },
+        {
+          "name": "Fierce Conqueror",
+          "description": "At the start of the Fight phase, until the end of the phase, add 2 to the Attacks characteristic of melee weapons equipped by the bearer for every 5 enemy models within 6\" of the bearer (rounding  down)."
+        },
+        {
+          "name": "Admonimortis",
+          "description": "**^^Shield‑Captain^^** model only. Improve the Strength characteristic of melee weapons equipped by the bearer by 3, and improve the Armour Penetration and Damage characteristics of those weapons by  1."
+        },
+        {
+          "name": "Earned Name",
+          "description": "Each time this model's unit is selected to fight, both Ka'tah Stances are active for that unit, instead of only one."
+        }
+      ]
+    },
+    {
+      "id": "7d7c-c212-47a3-38e4",
+      "name": "Trajann Valoris",
+      "points": 140,
+      "keywords": [
+        "Epic Hero",
+        "Character",
+        "Infantry",
+        "Imperium"
+      ],
+      "factionKeywords": [
+        "Adeptus Custodes"
+      ],
+      "stats": {
+        "M": "6\"",
+        "T": "6",
+        "SV": "2+",
+        "W": "7",
+        "LD": "5+",
+        "OC": "2"
+      },
+      "rangedWeapons": [
+        {
+          "name": "Eagle's Scream",
+          "range": "24\"",
+          "A": "2",
+          "BS": "2+",
+          "S": "5",
+          "AP": "-2",
+          "D": "3",
+          "keywords": [
+            "Assault"
+          ]
+        }
+      ],
+      "meleeWeapons": [
+        {
+          "name": "Watcher's Axe",
+          "range": "Melee",
+          "A": "6",
+          "WS": "2+",
+          "S": "10",
+          "AP": "-2",
+          "D": "3",
+          "keywords": []
+        }
+      ],
+      "abilities": [
+        {
+          "name": "Feel No Pain",
+          "description": "5+"
+        },
+        {
+          "name": "Leader",
+          "description": "This model can be attached to the following units:\n■ Custodian Guard\n■ Custodian Wardens"
+        },
+        {
+          "name": "Captain-General",
+          "description": "While this model is leading a unit, each time a model in that unit makes an attack, you can ignore any or all modifiers to that attack's Ballistic Skill or Weapon Skill characteristics and/or all modifiers to the Hit roll."
+        },
+        {
+          "name": "Moment Shackle",
+          "description": "Once per battle, at the start of the Fight phase, you can select one of the following to take effect until the end of the phase:\n■ This model's Watcher's Axe melee weapon has an Attacks characteristic of 12.\n■ This model has a 2+ invulnerable save."
+        }
+      ]
+    },
+    {
+      "id": "8103-2e01-5d6a-b761",
+      "name": "Valerian",
+      "points": 110,
+      "keywords": [
+        "Infantry",
+        "Character",
+        "Imperium",
+        "Shield-Captain",
+        "Epic Hero"
+      ],
+      "factionKeywords": [
+        "Adeptus Custodes"
+      ],
+      "stats": {
+        "M": "6\"",
+        "T": "6",
+        "SV": "2+",
+        "W": "6",
+        "LD": "6+",
+        "OC": "2"
+      },
+      "rangedWeapons": [
+        {
+          "name": "Gnosis",
+          "range": "24\"",
+          "A": "3",
+          "BS": "2+",
+          "S": "4",
+          "AP": "-1",
+          "D": "2",
+          "keywords": [
+            "Assault"
+          ]
+        }
+      ],
+      "meleeWeapons": [
+        {
+          "name": "Gnosis",
+          "range": "Melee",
+          "A": "7",
+          "WS": "2+",
+          "S": "8",
+          "AP": "-3",
+          "D": "2",
+          "keywords": []
+        }
+      ],
+      "abilities": [
+        {
+          "name": "Leader",
+          "description": "This model can be attached to the following units:\n■ Custodian Guard\n■ Custodian Wardens"
+        },
+        {
+          "name": "Golden Laurels",
+          "description": "While this model is leading a unit, each time a melee attack targets that unit, worsen that Armour Penetration characteristic of that attack by 1."
+        },
+        {
+          "name": "Hero of Lion's Gate",
+          "description": "Once per battle, after making a Hit roll, Wound roll or saving throw for this model, you can change the result of that roll to an unmodified 6."
+        }
+      ]
+    },
+    {
+      "id": "188b-e48b-29f-1456",
+      "name": "Venerable Contemptor Dreadnought",
+      "points": 170,
+      "keywords": [
+        "Vehicle",
+        "Walker",
+        "Imperium",
+        "AC Walker"
+      ],
+      "factionKeywords": [
+        "Adeptus Custodes"
+      ],
+      "stats": {
+        "M": "6\"",
+        "T": "9",
+        "SV": "2+",
+        "W": "10",
+        "LD": "6+",
+        "OC": "3"
+      },
+      "rangedWeapons": [
+        {
+          "name": "Combi-bolter",
+          "range": "24\"",
+          "A": "2",
+          "BS": "2+",
+          "S": "4",
+          "AP": "0",
+          "D": "1",
+          "keywords": [
+            "Rapid Fire 2"
+          ]
+        }
+      ],
+      "meleeWeapons": [
+        {
+          "name": "Contemptor combat weapon",
+          "range": "Melee",
+          "A": "5",
+          "WS": "2+",
+          "S": "12",
+          "AP": "-2",
+          "D": "3",
+          "keywords": []
+        }
+      ],
+      "abilities": [
+        {
+          "name": "Unyielding Ancient",
+          "description": "The first time this model is destroyed, remove it from play without resolving its Deadly Demise ability. Then, at the end of the phase, roll one D6: on a 2+, set this model back up on the battlefield as close as possible to where it was destroyed and not within Engagement Range of any enemy units, with D6 wounds remaining."
+        },
+        {
+          "name": "Earned Name",
+          "description": "Each time this model's unit is selected to fight, both Ka'tah Stances are active for that unit, instead of only one."
+        },
+        {
+          "name": "Raptor Blade",
+          "description": "Add 1 to the Attacks, Strength and Damage characteristics of the bearer's melee weapons. While the bearer is within Engagement Range of one or more enemy **^^Psyker^^** units that are Battle-shocked, add 2 to the Attacks, Strength and Damage characteristics of the bearer's melee weapons instead."
+        },
+        {
+          "name": "Castellan's Mark",
+          "description": "After both players have deployed their armies, you can select up to two ADEPTUS CUSTODES units from your army (excluding ANATHEMA PSYKANA units) and redeploy all of those units. When doing so, any of those units can be placed into Strategic Reserves, regardless of how  any units are already in Strategic Reserves."
+        },
+        {
+          "name": "Panoptispex",
+          "description": "While the bearer is leading a unit, ranged weapons equipped by models in that unit have the [IGNORES COVER] ability."
+        },
+        {
+          "name": "From the Hall of Armouries",
+          "description": "Add 1 to the Strength and Damage characteristics of the bearer's melee weapons."
+        },
+        {
+          "name": "Radiant Mantle",
+          "description": "Each time an attack targets the bearer's unit, if the attacking model is within 12\", subtract 1 from the Hit roll."
+        },
+        {
+          "name": "Aegis Projector",
+          "description": "Once per turn, the first time a saving throw is failed for the bearer's unit, change the Damage characteristic of that attack to 0."
+        },
+        {
+          "name": "Gift of Terran Artifice",
+          "description": "Each time the bearer makes a melee attack, add 1 to the Wound roll."
+        },
+        {
+          "name": "Champion of the Imperium",
+          "description": "The range of the bearer’s Null Aegis or Deadly Unity ability (see left) is increased to 9\"."
+        },
+        {
+          "name": "Auric Mantle",
+          "description": "**^^Shield-Captain^^** or **^^Blade Champion^^** model only. Add 2 to the bearer's Wounds characteristic."
+        },
+        {
+          "name": "Enhanced Voidsheen Cloak",
+          "description": "Each time an attack is allocated to the bearer, subtract 1 from the Damage characteristic of that attack. If that attack was made by a **^^Psyker^^** or Battle-shocked model, change the Damage characteristic of that attack to 1 instead."
+        },
+        {
+          "name": "Huntress' Eye",
+          "description": "In your Command phase, select one enemy unit within 12\" of the bearer. That unit must take a Battle-shock test."
+        },
+        {
+          "name": "Oblivion Knight",
+          "description": "While the bearer is leading a unit, each time a model in that unit makes an attack, add 1 to the Hit roll. If that attack targeted an enemy **^^Psyker^^** unit, add 1 to the Wound roll as well."
+        },
+        {
+          "name": "Blade Imperator",
+          "description": "Each time the bearer's unit ends a Charge move, select one enemy unit within Engagement Range of the bearer and roll one D6: on a 4+, that enemy unit suffers D3 mortal wounds. Once per battle, when the bearer's unit ends a Charge move, all enemy units within 6\" of the bearer must take a Battle-shock test."
+        },
+        {
+          "name": "Inspirational Exemplar",
+          "description": "The bearer has a Leadership characteristic of 5+. Once per battle, at the start of any phase, you can select one friendly **^^Adeptus Custodes^^** unit that is Battle-shocked and within 12\" of the bearer: that unit is no longer Battle-shocked."
+        },
+        {
+          "name": "Veiled Blade",
+          "description": "Add 2 to the Attacks characteristic of the bearer's melee weapons. Once per battle, at the start of any Command phase, triple the bearer's Objective Control characteristic until the end of the turn."
+        },
+        {
+          "name": "Martial Philosopher",
+          "description": "The bearer's unit is eligible to shoot and/or declare a charge in a turn in which it Fell Back. Once per battle, when an enemy unit ends a Normal, Advance or Fall Back move within 9\" of the bearer, if the bearer's unit is not within Engagement Range of one or more enemy units, it can make a Normal move of up to 6\"."
+        },
+        {
+          "name": "Honoured Fallen",
+          "description": "ADEPTUS CUSTODES VEHICLE model only. While a friendly ADEPTUS CUSTODES INFANTRY or ADEPTUS CUSTODES MOUNTED unit is within 6\" of the bearer, each time a model in that unit makes  an attack, re‑roll a Hit roll of 1."
+        },
+        {
+          "name": "Augury Uplink",
+          "description": "ADEPTUS CUSTODES model only. The bearer has the Feel No Pain 5+ ability."
+        },
+        {
+          "name": "Adamantine Talisman",
+          "description": "**^^Adeptus Custodes^^** model only. Improve the Attacks, Strength and Damage characteristics of melee weapons equipped by the bearer by 1."
+        },
+        {
+          "name": "Veteran of the Kataphraktoi",
+          "description": "ADEPTUS CUSTODES INFANTRY or ADEPTUS CUSTODES MOUNTED model only. In your Command phase, select one ADEPTUS CUSTODES VEHICLE or ADEPTUS CUSTODES MOUNTED unit within 6\" of the bearer. Until the start of your next Command phase, that unit is eligible to shoot in a turn in which it Fell Back."
+        },
+        {
+          "name": "Superior Creation",
+          "description": "**^^Adeptus Custodes Infantry^^** model only. The first time the bearer is destroyed, roll one D6 at the end of the phase. On a 2+, set the bearer back up on the battlefield, as close as possible to where it was destroyed and not within Engagement Range of one or more enemy units, with its full wounds remaining."
+        },
+        {
+          "name": "Praesidius",
+          "description": "The bearer has the Lone Operative and Stealth abilities."
+        },
+        {
+          "name": "Fierce Conqueror",
+          "description": "At the start of the Fight phase, until the end of the phase, add 2 to the Attacks characteristic of melee weapons equipped by the bearer for every 5 enemy models within 6\" of the bearer (rounding  down)."
+        },
+        {
+          "name": "Admonimortis",
+          "description": "**^^Shield‑Captain^^** model only. Improve the Strength characteristic of melee weapons equipped by the bearer by 3, and improve the Armour Penetration and Damage characteristics of those weapons by  1."
+        }
+      ]
+    },
+    {
+      "id": "76be-3bcb-cf4-bcbd",
+      "name": "Venerable Land Raider",
+      "points": 220,
+      "keywords": [
+        "Transport",
+        "Vehicle",
+        "Imperium",
+        "Smoke"
+      ],
+      "factionKeywords": [
+        "Adeptus Custodes"
+      ],
+      "stats": {
+        "M": "10\"",
+        "T": "12",
+        "SV": "2+",
+        "W": "16",
+        "LD": "6+",
+        "OC": "5"
+      },
+      "rangedWeapons": [
+        {
+          "name": "Godhammer lascannon",
+          "range": "48\"",
+          "A": "2",
+          "BS": "2+",
+          "S": "12",
+          "AP": "-3",
+          "D": "D6+1",
+          "keywords": []
+        },
+        {
+          "name": "Storm bolter",
+          "range": "24\"",
+          "A": "2",
+          "BS": "2+",
+          "S": "4",
+          "AP": "0",
+          "D": "1",
+          "keywords": [
+            "Rapid fire 2"
+          ]
+        },
+        {
+          "name": "Twin heavy bolter",
+          "range": "36\"",
+          "A": "3",
+          "BS": "2+",
+          "S": "5",
+          "AP": "-1",
+          "D": "2",
+          "keywords": [
+            "Sustained Hits 1",
+            "Twin-linked"
+          ]
+        },
+        {
+          "name": "Hunter-killer missile",
+          "range": "48\"",
+          "A": "1",
+          "BS": "2+",
+          "S": "14",
+          "AP": "-3",
+          "D": "D6",
+          "keywords": [
+            "One Shot"
+          ]
+        }
+      ],
+      "meleeWeapons": [
+        {
+          "name": "Armoured tracks",
+          "range": "Melee",
+          "A": "6",
+          "WS": "4+",
+          "S": "8",
+          "AP": "0",
+          "D": "1",
+          "keywords": []
+        }
+      ],
+      "abilities": [
+        {
+          "name": "Assault Ramp",
+          "description": "Each time a unit disembarks from this model after it has made a Normal move, that unit is still eligible to declare a charge this turn."
+        },
+        {
+          "name": "Damaged: 1-5 Wounds remaining",
+          "description": "While this model has 1-5 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
+        },
+        {
+          "name": "Earned Name",
+          "description": "Each time this model's unit is selected to fight, both Ka'tah Stances are active for that unit, instead of only one."
+        }
+      ],
+      "transportCapacity": "This model has a transport capacity of 6 ADEPTUS CUSTODES INFANTRY models."
+    },
+    {
+      "id": "918b-c9ed-7af7-74df",
+      "name": "Vertus Praetors",
+      "points": 150,
+      "keywords": [
+        "Fly",
+        "Mounted",
+        "Imperium"
+      ],
+      "factionKeywords": [
+        "Adeptus Custodes"
+      ],
+      "stats": {
+        "M": "12\"",
+        "T": "7",
+        "SV": "2+",
+        "W": "5",
+        "LD": "6+",
+        "OC": "2"
+      },
+      "rangedWeapons": [
+        {
+          "name": "Salvo launcher",
+          "range": "24\"",
+          "A": "1",
+          "BS": "2+",
+          "S": "10",
+          "AP": "-3",
+          "D": "D6+1",
+          "keywords": [
+            "Twin-linked"
+          ]
+        },
+        {
+          "name": "Vertus hurricane bolter",
+          "range": "18\"",
+          "A": "3",
+          "BS": "2+",
+          "S": "4",
+          "AP": "-1",
+          "D": "2",
+          "keywords": [
+            "Rapid Fire 3",
+            "Twin-linked"
+          ]
+        }
+      ],
+      "meleeWeapons": [
+        {
+          "name": "Interceptor lance",
+          "range": "Melee",
+          "A": "5",
+          "WS": "2+",
+          "S": "7",
+          "AP": "-2",
+          "D": "2",
+          "keywords": [
+            "Lance"
+          ]
+        }
+      ],
+      "abilities": [
+        {
+          "name": "Turbo Boost",
+          "description": "Each time this unit Advances, do not make an Advance roll. Instead, until the end of the phase, add 6\" to the Move characteristic of models in this unit."
+        },
+        {
+          "name": "Quicksilver Execution",
+          "description": "Once per battle, after this unit ends a normal or Advance move, you can select one enemy unit (excluding MONSTER and VEHICLE units) that it moved over during that move, then roll one D6 for each model in this unit; for each 2+, that enemy unit suffers 2 mortal wounds."
+        },
+        {
+          "name": "Earned Name",
+          "description": "Each time this model's unit is selected to fight, both Ka'tah Stances are active for that unit, instead of only one."
+        }
+      ]
+    },
+    {
+      "id": "dd2d-568a-9c56-1b6e",
+      "name": "Vigilators",
+      "points": 45,
+      "keywords": [
+        "Anathema Psykana",
+        "Infantry",
+        "Imperium"
+      ],
+      "factionKeywords": [
+        "Adeptus Custodes"
+      ],
+      "stats": {
+        "M": "6\"",
+        "T": "3",
+        "SV": "3+",
+        "W": "1",
+        "LD": "6+",
+        "OC": "1"
+      },
+      "rangedWeapons": [],
+      "meleeWeapons": [
+        {
+          "name": "Executioner greatblade",
+          "range": "Melee",
+          "A": "2",
+          "WS": "3+",
+          "S": "5",
+          "AP": "-2",
+          "D": "2",
+          "keywords": [
+            "Anti-Psyker 5+",
+            "Devastating Wounds"
+          ]
+        }
+      ],
+      "abilities": [
+        {
+          "name": "Deft Parry",
+          "description": "Each time a melee attack targets this unit, subtract 1 from the Hit roll."
+        },
+        {
+          "name": "Earned Name",
+          "description": "Each time this model's unit is selected to fight, both Ka'tah Stances are active for that unit, instead of only one."
+        }
+      ]
+    },
+    {
+      "id": "503b-f7be-eeeb-9e31",
+      "name": "Witchseekers",
+      "points": 45,
+      "keywords": [
+        "Anathema Psykana",
+        "Infantry",
+        "Imperium"
+      ],
+      "factionKeywords": [
+        "Adeptus Custodes"
+      ],
+      "stats": {
+        "M": "6\"",
+        "T": "3",
+        "SV": "3+",
+        "W": "1",
+        "LD": "6+",
+        "OC": "1"
+      },
+      "rangedWeapons": [
+        {
+          "name": "Witchseeker flamer",
+          "range": "12\"",
+          "A": "D6",
+          "BS": "N/A",
+          "S": "4",
+          "AP": "0",
+          "D": "1",
+          "keywords": [
+            "Ignores Cover",
+            "Torrent"
+          ]
+        }
+      ],
+      "meleeWeapons": [
+        {
+          "name": "Close combat weapon",
+          "range": "Melee",
+          "A": "2",
+          "WS": "3+",
+          "S": "3",
+          "AP": "0",
+          "D": "1",
+          "keywords": []
+        }
+      ],
+      "abilities": [
+        {
+          "name": "Sanctified Flames",
+          "description": "In your Shooting phase, after this unit has shot, select one enemy unit that was hit by one or more of those attacks. That unit must take a Battle-shock test."
+        },
+        {
+          "name": "Earned Name",
+          "description": "Each time this model's unit is selected to fight, both Ka'tah Stances are active for that unit, instead of only one."
+        }
+      ]
+    },
+    {
+      "id": "af0f-5212-907e-7125",
+      "name": "Custodian Guard with Adrasite and Pyrithite spears",
+      "points": 250,
+      "keywords": [
+        "Custodian Guard",
+        "Infantry",
+        "Imperium"
+      ],
+      "factionKeywords": [
+        "Adeptus Custodes"
+      ],
+      "stats": {
+        "M": "6\"",
+        "T": "6",
+        "SV": "2+",
+        "W": "3",
+        "LD": "6+",
+        "OC": "2"
+      },
+      "rangedWeapons": [
+        {
+          "name": "Adrasite spear",
+          "range": "18\"",
+          "A": "1",
+          "BS": "2+",
+          "S": "5",
+          "AP": "-2",
+          "D": "3",
+          "keywords": []
+        },
+        {
+          "name": "Pyrithite spear",
+          "range": "12\"",
+          "A": "1",
+          "BS": "2+",
+          "S": "9",
+          "AP": "-4",
+          "D": "D6",
+          "keywords": [
+            "Melta 2"
+          ]
+        }
+      ],
+      "meleeWeapons": [
+        {
+          "name": "Adrasite spear",
+          "range": "Melee",
+          "A": "5",
+          "WS": "2+",
+          "S": "7",
+          "AP": "-2",
+          "D": "2",
+          "keywords": []
+        },
+        {
+          "name": "Pyrithite spear",
+          "range": "Melee",
+          "A": "5",
+          "WS": "2+",
+          "S": "7",
+          "AP": "-2",
+          "D": "2",
+          "keywords": []
+        }
+      ],
+      "abilities": [
+        {
+          "name": "Stand Vigil",
+          "description": "Each time a model in this unit makes an attack, re-roll a Wound roll of 1. While this unit is within range of an objective marker you control, you can re-roll the Wound roll instead."
+        },
+        {
+          "name": "No Foe Shall Stand",
+          "description": "Once per battle, at the start of your Shooting phase, this unit can use this ability. If it does, until the end of the phase, ranged weapons equipped by models in this unit have the [LETHAL HITS] and [IGNORES COVER abilities]."
+        },
+        {
+          "name": "Earned Name",
+          "description": "Each time this model's unit is selected to fight, both Ka'tah Stances are active for that unit, instead of only one."
+        }
+      ]
+    },
+    {
+      "id": "6f9f-e6aa-ba13-aab1",
+      "name": "Sagittarum Custodians",
+      "points": 225,
+      "keywords": [
+        "Infantry",
+        "Imperium"
+      ],
+      "factionKeywords": [
+        "Adeptus Custodes"
+      ],
+      "stats": {
+        "M": "6\"",
+        "T": "6",
+        "SV": "2+",
+        "W": "3",
+        "LD": "6+",
+        "OC": "2"
+      },
+      "rangedWeapons": [
+        {
+          "name": "Adrastus bolt caliver",
+          "range": "36\"",
+          "A": "3",
+          "BS": "2+",
+          "S": "5",
+          "AP": "-1",
+          "D": "2",
+          "keywords": [
+            "Sustained Hits 1"
+          ]
+        }
+      ],
+      "meleeWeapons": [
+        {
+          "name": "Misericordia",
+          "range": "Melee",
+          "A": "4",
+          "WS": "2+",
+          "S": "5",
+          "AP": "-2",
+          "D": "1",
+          "keywords": []
+        }
+      ],
+      "abilities": [
+        {
+          "name": "Disintegration Beams",
+          "description": "Once per battle, at the start of your Shooting phase, this unit can use this ability. If it does, until the end of the phase, ranged weapons equipped by models in this unit have the Devastating Wounds ability."
+        },
+        {
+          "name": "Saturation Volleys",
+          "description": "In your Shooting phase, after this unit has shot, select one enemy unit (excluding MONSTERS and VEHICLES) hit by one or more of those attacks. Until the start of your next turn, while this unit is on the battlefield. that enemy unit is suppressed. While a unit is suppressed, each time a model in that unit makes an attack, subtract 1 from the hit roll."
+        },
+        {
+          "name": "Earned Name",
+          "description": "Each time this model's unit is selected to fight, both Ka'tah Stances are active for that unit, instead of only one."
+        }
+      ]
+    },
+    {
+      "id": "03bc-0141-b967-40e0",
+      "name": "Aquilon Custodians",
+      "points": 195,
+      "keywords": [
+        "Imperium",
+        "Terminator",
+        "Infantry"
+      ],
+      "factionKeywords": [
+        "Adeptus Custodes"
+      ],
+      "stats": {
+        "M": "5\"",
+        "T": "7",
+        "SV": "2+",
+        "W": "4",
+        "LD": "6+",
+        "OC": "2"
+      },
+      "rangedWeapons": [
+        {
+          "name": "Lastrum storm bolter",
+          "range": "24\"",
+          "A": "2",
+          "BS": "2+",
+          "S": "5",
+          "AP": "-1",
+          "D": "1",
+          "keywords": [
+            "Rapid Fire 2"
+          ]
+        },
+        {
+          "name": "Twin adrathic destructor",
+          "range": "18\"",
+          "A": "1",
+          "BS": "2+",
+          "S": "6",
+          "AP": "-2",
+          "D": "3",
+          "keywords": [
+            "Twin-linked"
+          ]
+        },
+        {
+          "name": "Infernus firepike",
+          "range": "12\"",
+          "A": "D6",
+          "BS": "N/A",
+          "S": "6",
+          "AP": "-1",
+          "D": "1",
+          "keywords": [
+            "Ignores Cover",
+            "Torrent"
+          ]
+        }
+      ],
+      "meleeWeapons": [
+        {
+          "name": "Solerite power gauntlet",
+          "range": "Melee",
+          "A": "5",
+          "WS": "2+",
+          "S": "8",
+          "AP": "-2",
+          "D": "2",
+          "keywords": []
+        },
+        {
+          "name": "Solerite power talon",
+          "range": "Melee",
+          "A": "7",
+          "WS": "2+",
+          "S": "7",
+          "AP": "-2",
+          "D": "1",
+          "keywords": []
+        }
+      ],
+      "abilities": [
+        {
+          "name": "Heavy Assault Infantry",
+          "description": "Each time a model in this unit makes a ranged attack that targets the closest eligible target, re-roll a Wound roll of 1."
+        },
+        {
+          "name": "From Golden Light",
+          "description": "Once per battle, at the end of your opponent's turn, if this unit is not whithin Engagement Range of one or more enemy units, you can remove it from the battlefield. In the Reinforcements step of your next Movement phase, set it up anywhere on the battlefield that is more than 9\" horizontally away from all enemy models."
+        },
+        {
+          "name": "Earned Name",
+          "description": "Each time this model's unit is selected to fight, both Ka'tah Stances are active for that unit, instead of only one."
+        }
+      ]
+    },
+    {
+      "id": "00ab-41c4-cf52-4ad2",
+      "name": "Agamatus Custodians",
+      "points": 225,
+      "keywords": [
+        "Mounted",
+        "Fly",
+        "Imperium"
+      ],
+      "factionKeywords": [
+        "Adeptus Custodes"
+      ],
+      "stats": {
+        "M": "12\"",
+        "T": "6",
+        "SV": "2+",
+        "W": "4",
+        "LD": "6+",
+        "OC": "2"
+      },
+      "rangedWeapons": [
+        {
+          "name": "Lastrum bolt cannon",
+          "range": "36\"",
+          "A": "3",
+          "BS": "2+",
+          "S": "6",
+          "AP": "-1",
+          "D": "1",
+          "keywords": [
+            "Sustained Hits 1"
+          ]
+        },
+        {
+          "name": "Adrathic devastator",
+          "range": "18\"",
+          "A": "1",
+          "BS": "2+",
+          "S": "7",
+          "AP": "-2",
+          "D": "3",
+          "keywords": []
+        },
+        {
+          "name": "Twin las-pulsar",
+          "range": "24\"",
+          "A": "2",
+          "BS": "2+",
+          "S": "9",
+          "AP": "-1",
+          "D": "2",
+          "keywords": [
+            "Twin-linked"
+          ]
+        }
+      ],
+      "meleeWeapons": [
+        {
+          "name": "Interceptor Lance",
+          "range": "Melee",
+          "A": "5",
+          "WS": "2+",
+          "S": "7",
+          "AP": "-2",
+          "D": "2",
+          "keywords": [
+            "Lance"
+          ]
+        }
+      ],
+      "abilities": [
+        {
+          "name": "Implacable Vanguard",
+          "description": "Once per battle, in your Shooting phase, after this unit has shot, if it is not within Engagement Range of one or more enemy units, it can make a Normal move of up to 6\". If it does, until the end of the turn, this unit is not elgibile to declare a charge."
+        },
+        {
+          "name": "Turbo Boost",
+          "description": "Each time this unit Advances, do not make an Advance roll. Instead, until the end of the phase, add 6\" to the Move characteristic of models in this unit."
+        },
+        {
+          "name": "Earned Name",
+          "description": "Each time this model's unit is selected to fight, both Ka'tah Stances are active for that unit, instead of only one."
+        }
+      ]
+    },
+    {
+      "id": "201e-e502-a8d1-3974",
+      "name": "Venatari Custodians",
+      "points": 165,
+      "keywords": [
+        "Imperium",
+        "Infantry",
+        "Fly",
+        "Jump Pack"
+      ],
+      "factionKeywords": [
+        "Adeptus Custodes"
+      ],
+      "stats": {
+        "M": "10\"",
+        "T": "6",
+        "SV": "2+",
+        "W": "3",
+        "LD": "6+",
+        "OC": "2"
+      },
+      "rangedWeapons": [
+        {
+          "name": "Venatari lance",
+          "range": "24\"",
+          "A": "2",
+          "BS": "2+",
+          "S": "4",
+          "AP": "-1",
+          "D": "2",
+          "keywords": [
+            "Assault"
+          ]
+        },
+        {
+          "name": "Kinetic destroyer",
+          "range": "12\"",
+          "A": "2",
+          "BS": "2+",
+          "S": "6",
+          "AP": "-1",
+          "D": "1",
+          "keywords": [
+            "Pistol",
+            "Sustained Hits 1"
+          ]
+        }
+      ],
+      "meleeWeapons": [
+        {
+          "name": "Venatari lance",
+          "range": "Melee",
+          "A": "5",
+          "WS": "2+",
+          "S": "7",
+          "AP": "-2",
+          "D": "2",
+          "keywords": [
+            "Lance"
+          ]
+        },
+        {
+          "name": "Tarsis buckler",
+          "range": "Melee",
+          "A": "5",
+          "WS": "2+",
+          "S": "5",
+          "AP": "-2",
+          "D": "1",
+          "keywords": []
+        }
+      ],
+      "abilities": [
+        {
+          "name": "Strike from the Skies",
+          "description": "This unit is eligible to shoot and declare a charge in a turn in which it Fell Back."
+        },
+        {
+          "name": "Swooping Dive",
+          "description": "Once per battle, you can target this unit with the Rapid Ingress Stratagem for 0 CP, and can do so even if you have already targeted a different unit with that Stratagem that phase."
+        },
+        {
+          "name": "Tarsis Buckler",
+          "description": "The bearer has a Wounds characteristic of 4."
+        },
+        {
+          "name": "Earned Name",
+          "description": "Each time this model's unit is selected to fight, both Ka'tah Stances are active for that unit, instead of only one."
+        }
+      ]
+    },
+    {
+      "id": "4988-d93e-5034-2b3c",
+      "name": "Contemptor-Galatus Dreadnought",
+      "points": 165,
+      "keywords": [
+        "Vehicle",
+        "Walker",
+        "Imperium",
+        "AC Walker"
+      ],
+      "factionKeywords": [
+        "Adeptus Custodes"
+      ],
+      "stats": {
+        "M": "6\"",
+        "T": "9",
+        "SV": "2+",
+        "W": "10",
+        "LD": "6+",
+        "OC": "3"
+      },
+      "rangedWeapons": [
+        {
+          "name": "Galatus warblade",
+          "range": "12\"",
+          "A": "D6",
+          "BS": "N/A",
+          "S": "6",
+          "AP": "-1",
+          "D": "1",
+          "keywords": [
+            "Ignores Cover",
+            "Torrent",
+            "Twin-linked"
+          ]
+        }
+      ],
+      "meleeWeapons": [
+        {
+          "name": "Galatus warblade",
+          "range": "Melee",
+          "A": "8",
+          "WS": "2+",
+          "S": "8",
+          "AP": "-2",
+          "D": "3",
+          "keywords": []
+        }
+      ],
+      "abilities": [
+        {
+          "name": "Galatus Shield",
+          "description": "Each time a melee attack targets this model subtract 1 from the Wound roll."
+        },
+        {
+          "name": "Earned Name",
+          "description": "Each time this model's unit is selected to fight, both Ka'tah Stances are active for that unit, instead of only one."
+        },
+        {
+          "name": "Raptor Blade",
+          "description": "Add 1 to the Attacks, Strength and Damage characteristics of the bearer's melee weapons. While the bearer is within Engagement Range of one or more enemy **^^Psyker^^** units that are Battle-shocked, add 2 to the Attacks, Strength and Damage characteristics of the bearer's melee weapons instead."
+        },
+        {
+          "name": "Castellan's Mark",
+          "description": "After both players have deployed their armies, you can select up to two ADEPTUS CUSTODES units from your army (excluding ANATHEMA PSYKANA units) and redeploy all of those units. When doing so, any of those units can be placed into Strategic Reserves, regardless of how  any units are already in Strategic Reserves."
+        },
+        {
+          "name": "Panoptispex",
+          "description": "While the bearer is leading a unit, ranged weapons equipped by models in that unit have the [IGNORES COVER] ability."
+        },
+        {
+          "name": "From the Hall of Armouries",
+          "description": "Add 1 to the Strength and Damage characteristics of the bearer's melee weapons."
+        },
+        {
+          "name": "Radiant Mantle",
+          "description": "Each time an attack targets the bearer's unit, if the attacking model is within 12\", subtract 1 from the Hit roll."
+        },
+        {
+          "name": "Aegis Projector",
+          "description": "Once per turn, the first time a saving throw is failed for the bearer's unit, change the Damage characteristic of that attack to 0."
+        },
+        {
+          "name": "Gift of Terran Artifice",
+          "description": "Each time the bearer makes a melee attack, add 1 to the Wound roll."
+        },
+        {
+          "name": "Champion of the Imperium",
+          "description": "The range of the bearer’s Null Aegis or Deadly Unity ability (see left) is increased to 9\"."
+        },
+        {
+          "name": "Auric Mantle",
+          "description": "**^^Shield-Captain^^** or **^^Blade Champion^^** model only. Add 2 to the bearer's Wounds characteristic."
+        },
+        {
+          "name": "Enhanced Voidsheen Cloak",
+          "description": "Each time an attack is allocated to the bearer, subtract 1 from the Damage characteristic of that attack. If that attack was made by a **^^Psyker^^** or Battle-shocked model, change the Damage characteristic of that attack to 1 instead."
+        },
+        {
+          "name": "Huntress' Eye",
+          "description": "In your Command phase, select one enemy unit within 12\" of the bearer. That unit must take a Battle-shock test."
+        },
+        {
+          "name": "Oblivion Knight",
+          "description": "While the bearer is leading a unit, each time a model in that unit makes an attack, add 1 to the Hit roll. If that attack targeted an enemy **^^Psyker^^** unit, add 1 to the Wound roll as well."
+        },
+        {
+          "name": "Blade Imperator",
+          "description": "Each time the bearer's unit ends a Charge move, select one enemy unit within Engagement Range of the bearer and roll one D6: on a 4+, that enemy unit suffers D3 mortal wounds. Once per battle, when the bearer's unit ends a Charge move, all enemy units within 6\" of the bearer must take a Battle-shock test."
+        },
+        {
+          "name": "Inspirational Exemplar",
+          "description": "The bearer has a Leadership characteristic of 5+. Once per battle, at the start of any phase, you can select one friendly **^^Adeptus Custodes^^** unit that is Battle-shocked and within 12\" of the bearer: that unit is no longer Battle-shocked."
+        },
+        {
+          "name": "Veiled Blade",
+          "description": "Add 2 to the Attacks characteristic of the bearer's melee weapons. Once per battle, at the start of any Command phase, triple the bearer's Objective Control characteristic until the end of the turn."
+        },
+        {
+          "name": "Martial Philosopher",
+          "description": "The bearer's unit is eligible to shoot and/or declare a charge in a turn in which it Fell Back. Once per battle, when an enemy unit ends a Normal, Advance or Fall Back move within 9\" of the bearer, if the bearer's unit is not within Engagement Range of one or more enemy units, it can make a Normal move of up to 6\"."
+        },
+        {
+          "name": "Honoured Fallen",
+          "description": "ADEPTUS CUSTODES VEHICLE model only. While a friendly ADEPTUS CUSTODES INFANTRY or ADEPTUS CUSTODES MOUNTED unit is within 6\" of the bearer, each time a model in that unit makes  an attack, re‑roll a Hit roll of 1."
+        },
+        {
+          "name": "Augury Uplink",
+          "description": "ADEPTUS CUSTODES model only. The bearer has the Feel No Pain 5+ ability."
+        },
+        {
+          "name": "Adamantine Talisman",
+          "description": "**^^Adeptus Custodes^^** model only. Improve the Attacks, Strength and Damage characteristics of melee weapons equipped by the bearer by 1."
+        },
+        {
+          "name": "Veteran of the Kataphraktoi",
+          "description": "ADEPTUS CUSTODES INFANTRY or ADEPTUS CUSTODES MOUNTED model only. In your Command phase, select one ADEPTUS CUSTODES VEHICLE or ADEPTUS CUSTODES MOUNTED unit within 6\" of the bearer. Until the start of your next Command phase, that unit is eligible to shoot in a turn in which it Fell Back."
+        },
+        {
+          "name": "Superior Creation",
+          "description": "**^^Adeptus Custodes Infantry^^** model only. The first time the bearer is destroyed, roll one D6 at the end of the phase. On a 2+, set the bearer back up on the battlefield, as close as possible to where it was destroyed and not within Engagement Range of one or more enemy units, with its full wounds remaining."
+        },
+        {
+          "name": "Praesidius",
+          "description": "The bearer has the Lone Operative and Stealth abilities."
+        },
+        {
+          "name": "Fierce Conqueror",
+          "description": "At the start of the Fight phase, until the end of the phase, add 2 to the Attacks characteristic of melee weapons equipped by the bearer for every 5 enemy models within 6\" of the bearer (rounding  down)."
+        },
+        {
+          "name": "Admonimortis",
+          "description": "**^^Shield‑Captain^^** model only. Improve the Strength characteristic of melee weapons equipped by the bearer by 3, and improve the Armour Penetration and Damage characteristics of those weapons by  1."
+        }
+      ]
+    },
+    {
+      "id": "db3b-02cd-87a2-3b52",
+      "name": "Contemptor-Achillus Dreadnought",
+      "points": 155,
+      "keywords": [
+        "Vehicle",
+        "Imperium",
+        "Walker",
+        "AC Walker"
+      ],
+      "factionKeywords": [
+        "Adeptus Custodes"
+      ],
+      "stats": {
+        "M": "6\"",
+        "T": "9",
+        "SV": "2+",
+        "W": "10",
+        "LD": "6+",
+        "OC": "3"
+      },
+      "rangedWeapons": [
+        {
+          "name": "Achillus dreadspear",
+          "range": "12\"",
+          "A": "1",
+          "BS": "2+",
+          "S": "9",
+          "AP": "-2",
+          "D": "3",
+          "keywords": []
+        }
+      ],
+      "meleeWeapons": [
+        {
+          "name": "Achillus dreadspear",
+          "range": "Melee",
+          "A": "5",
+          "WS": "2+",
+          "S": "12",
+          "AP": "-2",
+          "D": "D6+1",
+          "keywords": [
+            "Lance"
+          ]
+        }
+      ],
+      "abilities": [
+        {
+          "name": "Dread Foe",
+          "description": "Each time this model is selected to fight, you can select one enemy unit within Engagement Range of it and roll one D6, adding 2 to the result if this model made a Charge move this turn: on 4-5, that enemy unit suffers D3 mortal wounds; on a 6+, that enemy unit suffers 3 mortal wounds."
+        },
+        {
+          "name": "Earned Name",
+          "description": "Each time this model's unit is selected to fight, both Ka'tah Stances are active for that unit, instead of only one."
+        },
+        {
+          "name": "Raptor Blade",
+          "description": "Add 1 to the Attacks, Strength and Damage characteristics of the bearer's melee weapons. While the bearer is within Engagement Range of one or more enemy **^^Psyker^^** units that are Battle-shocked, add 2 to the Attacks, Strength and Damage characteristics of the bearer's melee weapons instead."
+        },
+        {
+          "name": "Castellan's Mark",
+          "description": "After both players have deployed their armies, you can select up to two ADEPTUS CUSTODES units from your army (excluding ANATHEMA PSYKANA units) and redeploy all of those units. When doing so, any of those units can be placed into Strategic Reserves, regardless of how  any units are already in Strategic Reserves."
+        },
+        {
+          "name": "Panoptispex",
+          "description": "While the bearer is leading a unit, ranged weapons equipped by models in that unit have the [IGNORES COVER] ability."
+        },
+        {
+          "name": "From the Hall of Armouries",
+          "description": "Add 1 to the Strength and Damage characteristics of the bearer's melee weapons."
+        },
+        {
+          "name": "Radiant Mantle",
+          "description": "Each time an attack targets the bearer's unit, if the attacking model is within 12\", subtract 1 from the Hit roll."
+        },
+        {
+          "name": "Aegis Projector",
+          "description": "Once per turn, the first time a saving throw is failed for the bearer's unit, change the Damage characteristic of that attack to 0."
+        },
+        {
+          "name": "Gift of Terran Artifice",
+          "description": "Each time the bearer makes a melee attack, add 1 to the Wound roll."
+        },
+        {
+          "name": "Champion of the Imperium",
+          "description": "The range of the bearer’s Null Aegis or Deadly Unity ability (see left) is increased to 9\"."
+        },
+        {
+          "name": "Auric Mantle",
+          "description": "**^^Shield-Captain^^** or **^^Blade Champion^^** model only. Add 2 to the bearer's Wounds characteristic."
+        },
+        {
+          "name": "Enhanced Voidsheen Cloak",
+          "description": "Each time an attack is allocated to the bearer, subtract 1 from the Damage characteristic of that attack. If that attack was made by a **^^Psyker^^** or Battle-shocked model, change the Damage characteristic of that attack to 1 instead."
+        },
+        {
+          "name": "Huntress' Eye",
+          "description": "In your Command phase, select one enemy unit within 12\" of the bearer. That unit must take a Battle-shock test."
+        },
+        {
+          "name": "Oblivion Knight",
+          "description": "While the bearer is leading a unit, each time a model in that unit makes an attack, add 1 to the Hit roll. If that attack targeted an enemy **^^Psyker^^** unit, add 1 to the Wound roll as well."
+        },
+        {
+          "name": "Blade Imperator",
+          "description": "Each time the bearer's unit ends a Charge move, select one enemy unit within Engagement Range of the bearer and roll one D6: on a 4+, that enemy unit suffers D3 mortal wounds. Once per battle, when the bearer's unit ends a Charge move, all enemy units within 6\" of the bearer must take a Battle-shock test."
+        },
+        {
+          "name": "Inspirational Exemplar",
+          "description": "The bearer has a Leadership characteristic of 5+. Once per battle, at the start of any phase, you can select one friendly **^^Adeptus Custodes^^** unit that is Battle-shocked and within 12\" of the bearer: that unit is no longer Battle-shocked."
+        },
+        {
+          "name": "Veiled Blade",
+          "description": "Add 2 to the Attacks characteristic of the bearer's melee weapons. Once per battle, at the start of any Command phase, triple the bearer's Objective Control characteristic until the end of the turn."
+        },
+        {
+          "name": "Martial Philosopher",
+          "description": "The bearer's unit is eligible to shoot and/or declare a charge in a turn in which it Fell Back. Once per battle, when an enemy unit ends a Normal, Advance or Fall Back move within 9\" of the bearer, if the bearer's unit is not within Engagement Range of one or more enemy units, it can make a Normal move of up to 6\"."
+        },
+        {
+          "name": "Honoured Fallen",
+          "description": "ADEPTUS CUSTODES VEHICLE model only. While a friendly ADEPTUS CUSTODES INFANTRY or ADEPTUS CUSTODES MOUNTED unit is within 6\" of the bearer, each time a model in that unit makes  an attack, re‑roll a Hit roll of 1."
+        },
+        {
+          "name": "Augury Uplink",
+          "description": "ADEPTUS CUSTODES model only. The bearer has the Feel No Pain 5+ ability."
+        },
+        {
+          "name": "Adamantine Talisman",
+          "description": "**^^Adeptus Custodes^^** model only. Improve the Attacks, Strength and Damage characteristics of melee weapons equipped by the bearer by 1."
+        },
+        {
+          "name": "Veteran of the Kataphraktoi",
+          "description": "ADEPTUS CUSTODES INFANTRY or ADEPTUS CUSTODES MOUNTED model only. In your Command phase, select one ADEPTUS CUSTODES VEHICLE or ADEPTUS CUSTODES MOUNTED unit within 6\" of the bearer. Until the start of your next Command phase, that unit is eligible to shoot in a turn in which it Fell Back."
+        },
+        {
+          "name": "Superior Creation",
+          "description": "**^^Adeptus Custodes Infantry^^** model only. The first time the bearer is destroyed, roll one D6 at the end of the phase. On a 2+, set the bearer back up on the battlefield, as close as possible to where it was destroyed and not within Engagement Range of one or more enemy units, with its full wounds remaining."
+        },
+        {
+          "name": "Praesidius",
+          "description": "The bearer has the Lone Operative and Stealth abilities."
+        },
+        {
+          "name": "Fierce Conqueror",
+          "description": "At the start of the Fight phase, until the end of the phase, add 2 to the Attacks characteristic of melee weapons equipped by the bearer for every 5 enemy models within 6\" of the bearer (rounding  down)."
+        },
+        {
+          "name": "Admonimortis",
+          "description": "**^^Shield‑Captain^^** model only. Improve the Strength characteristic of melee weapons equipped by the bearer by 3, and improve the Armour Penetration and Damage characteristics of those weapons by  1."
+        }
+      ]
+    },
+    {
+      "id": "06df-2fb2-8dfa-2fce",
+      "name": "Pallas Grav-attack",
+      "points": 105,
+      "keywords": [
+        "Vehicle",
+        "Fly",
+        "Imperium"
+      ],
+      "factionKeywords": [
+        "Adeptus Custodes"
+      ],
+      "stats": {
+        "M": "12\"",
+        "T": "8",
+        "SV": "2+",
+        "W": "9",
+        "LD": "6+",
+        "OC": "2"
+      },
+      "rangedWeapons": [
+        {
+          "name": "Twin arachnus blaze cannon",
+          "range": "24\"",
+          "A": "8",
+          "BS": "2+",
+          "S": "5",
+          "AP": "-1",
+          "D": "1",
+          "keywords": [
+            "Devastating Wounds",
+            "Twin-linked"
+          ]
+        }
+      ],
+      "meleeWeapons": [
+        {
+          "name": "Armoured hull",
+          "range": "Melee",
+          "A": "3",
+          "WS": "4+",
+          "S": "6",
+          "AP": "0",
+          "D": "1",
+          "keywords": []
+        }
+      ],
+      "abilities": [
+        {
+          "name": "Merciless Hunter",
+          "description": "In your Shooting phase, each time this model makes an attack that targets an enemy unit that is Below Half-strength, add 1 to the Wound roll."
+        },
+        {
+          "name": "Earned Name",
+          "description": "Each time this model's unit is selected to fight, both Ka'tah Stances are active for that unit, instead of only one."
+        }
+      ]
+    },
+    {
+      "id": "3ee2-62a9-af84-1a90",
+      "name": "Caladius Grav-tank",
+      "points": 215,
+      "keywords": [
+        "Vehicle",
+        "Fly",
+        "Imperium"
+      ],
+      "factionKeywords": [
+        "Adeptus Custodes"
+      ],
+      "stats": {
+        "M": "10\"",
+        "T": "11",
+        "SV": "2+",
+        "W": "14",
+        "LD": "6+",
+        "OC": "4"
+      },
+      "rangedWeapons": [
+        {
+          "name": "Twin lastrum bolt cannon",
+          "range": "36\"",
+          "A": "3",
+          "BS": "2+",
+          "S": "6",
+          "AP": "-1",
+          "D": "1",
+          "keywords": [
+            "Sustained Hits 1"
+          ]
+        }
+      ],
+      "meleeWeapons": [
+        {
+          "name": "Armoured hull",
+          "range": "Melee",
+          "A": "4",
+          "WS": "4+",
+          "S": "6",
+          "AP": "0",
+          "D": "1",
+          "keywords": []
+        }
+      ],
+      "abilities": [
+        {
+          "name": "Advanced Firepower",
+          "description": "Each time this model makes an attack with its Twin iliastus accelerator cannon that targets an enemy unit (excluding MONSTERS and VEHICLES), that attack has the [LETHAL HITS] ability. Each time this model makes an attack with its Twin arachnus heavy blaze cannon that targets an enemy MONSTER or VEHICLE unit, that attack has the [LETHAL HITS] ability."
+        },
+        {
+          "name": "Damaged: 1-5 wounds remaining",
+          "description": "While this model has 1-5 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
+        },
+        {
+          "name": "Earned Name",
+          "description": "Each time this model's unit is selected to fight, both Ka'tah Stances are active for that unit, instead of only one."
+        }
+      ]
+    },
+    {
+      "id": "e7d8-1c73-7d03-8b62",
+      "name": "Telemon Heavy Dreadnought",
+      "points": 225,
+      "keywords": [
+        "Vehicle",
+        "Imperium",
+        "Walker",
+        "AC Walker"
+      ],
+      "factionKeywords": [
+        "Adeptus Custodes"
+      ],
+      "stats": {
+        "M": "8\"",
+        "T": "10",
+        "SV": "2+",
+        "W": "12",
+        "LD": "6+",
+        "OC": "4"
+      },
+      "rangedWeapons": [
+        {
+          "name": "Spiculus bolt launcher",
+          "range": "36\"",
+          "A": "D6+3",
+          "BS": "2+",
+          "S": "5",
+          "AP": "0",
+          "D": "1",
+          "keywords": [
+            "Blast"
+          ]
+        }
+      ],
+      "meleeWeapons": [
+        {
+          "name": "Armoured feet",
+          "range": "Melee",
+          "A": "5",
+          "WS": "2+",
+          "S": "7",
+          "AP": "0",
+          "D": "1",
+          "keywords": []
+        }
+      ],
+      "abilities": [
+        {
+          "name": "Guardian Eternal",
+          "description": "Each time an attack is allocated to this model, subtract 1 from the Damage characteristic of that attack."
+        },
+        {
+          "name": "Damaged: 1-4 wounds remaining",
+          "description": "While this model has 1-4 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
+        },
+        {
+          "name": "Devoted to Destruction",
+          "description": "If this model is equipped with 2 Telemon caestus weapons in addition to its armoured feet weapon, add 2 to the Attacks characteristic of those Telemon caestus weapons."
+        },
+        {
+          "name": "Earned Name",
+          "description": "Each time this model's unit is selected to fight, both Ka'tah Stances are active for that unit, instead of only one."
+        },
+        {
+          "name": "Raptor Blade",
+          "description": "Add 1 to the Attacks, Strength and Damage characteristics of the bearer's melee weapons. While the bearer is within Engagement Range of one or more enemy **^^Psyker^^** units that are Battle-shocked, add 2 to the Attacks, Strength and Damage characteristics of the bearer's melee weapons instead."
+        },
+        {
+          "name": "Castellan's Mark",
+          "description": "After both players have deployed their armies, you can select up to two ADEPTUS CUSTODES units from your army (excluding ANATHEMA PSYKANA units) and redeploy all of those units. When doing so, any of those units can be placed into Strategic Reserves, regardless of how  any units are already in Strategic Reserves."
+        },
+        {
+          "name": "Panoptispex",
+          "description": "While the bearer is leading a unit, ranged weapons equipped by models in that unit have the [IGNORES COVER] ability."
+        },
+        {
+          "name": "From the Hall of Armouries",
+          "description": "Add 1 to the Strength and Damage characteristics of the bearer's melee weapons."
+        },
+        {
+          "name": "Radiant Mantle",
+          "description": "Each time an attack targets the bearer's unit, if the attacking model is within 12\", subtract 1 from the Hit roll."
+        },
+        {
+          "name": "Aegis Projector",
+          "description": "Once per turn, the first time a saving throw is failed for the bearer's unit, change the Damage characteristic of that attack to 0."
+        },
+        {
+          "name": "Gift of Terran Artifice",
+          "description": "Each time the bearer makes a melee attack, add 1 to the Wound roll."
+        },
+        {
+          "name": "Champion of the Imperium",
+          "description": "The range of the bearer’s Null Aegis or Deadly Unity ability (see left) is increased to 9\"."
+        },
+        {
+          "name": "Auric Mantle",
+          "description": "**^^Shield-Captain^^** or **^^Blade Champion^^** model only. Add 2 to the bearer's Wounds characteristic."
+        },
+        {
+          "name": "Enhanced Voidsheen Cloak",
+          "description": "Each time an attack is allocated to the bearer, subtract 1 from the Damage characteristic of that attack. If that attack was made by a **^^Psyker^^** or Battle-shocked model, change the Damage characteristic of that attack to 1 instead."
+        },
+        {
+          "name": "Huntress' Eye",
+          "description": "In your Command phase, select one enemy unit within 12\" of the bearer. That unit must take a Battle-shock test."
+        },
+        {
+          "name": "Oblivion Knight",
+          "description": "While the bearer is leading a unit, each time a model in that unit makes an attack, add 1 to the Hit roll. If that attack targeted an enemy **^^Psyker^^** unit, add 1 to the Wound roll as well."
+        },
+        {
+          "name": "Blade Imperator",
+          "description": "Each time the bearer's unit ends a Charge move, select one enemy unit within Engagement Range of the bearer and roll one D6: on a 4+, that enemy unit suffers D3 mortal wounds. Once per battle, when the bearer's unit ends a Charge move, all enemy units within 6\" of the bearer must take a Battle-shock test."
+        },
+        {
+          "name": "Inspirational Exemplar",
+          "description": "The bearer has a Leadership characteristic of 5+. Once per battle, at the start of any phase, you can select one friendly **^^Adeptus Custodes^^** unit that is Battle-shocked and within 12\" of the bearer: that unit is no longer Battle-shocked."
+        },
+        {
+          "name": "Veiled Blade",
+          "description": "Add 2 to the Attacks characteristic of the bearer's melee weapons. Once per battle, at the start of any Command phase, triple the bearer's Objective Control characteristic until the end of the turn."
+        },
+        {
+          "name": "Martial Philosopher",
+          "description": "The bearer's unit is eligible to shoot and/or declare a charge in a turn in which it Fell Back. Once per battle, when an enemy unit ends a Normal, Advance or Fall Back move within 9\" of the bearer, if the bearer's unit is not within Engagement Range of one or more enemy units, it can make a Normal move of up to 6\"."
+        },
+        {
+          "name": "Honoured Fallen",
+          "description": "ADEPTUS CUSTODES VEHICLE model only. While a friendly ADEPTUS CUSTODES INFANTRY or ADEPTUS CUSTODES MOUNTED unit is within 6\" of the bearer, each time a model in that unit makes  an attack, re‑roll a Hit roll of 1."
+        },
+        {
+          "name": "Augury Uplink",
+          "description": "ADEPTUS CUSTODES model only. The bearer has the Feel No Pain 5+ ability."
+        },
+        {
+          "name": "Adamantine Talisman",
+          "description": "**^^Adeptus Custodes^^** model only. Improve the Attacks, Strength and Damage characteristics of melee weapons equipped by the bearer by 1."
+        },
+        {
+          "name": "Veteran of the Kataphraktoi",
+          "description": "ADEPTUS CUSTODES INFANTRY or ADEPTUS CUSTODES MOUNTED model only. In your Command phase, select one ADEPTUS CUSTODES VEHICLE or ADEPTUS CUSTODES MOUNTED unit within 6\" of the bearer. Until the start of your next Command phase, that unit is eligible to shoot in a turn in which it Fell Back."
+        },
+        {
+          "name": "Superior Creation",
+          "description": "**^^Adeptus Custodes Infantry^^** model only. The first time the bearer is destroyed, roll one D6 at the end of the phase. On a 2+, set the bearer back up on the battlefield, as close as possible to where it was destroyed and not within Engagement Range of one or more enemy units, with its full wounds remaining."
+        },
+        {
+          "name": "Praesidius",
+          "description": "The bearer has the Lone Operative and Stealth abilities."
+        },
+        {
+          "name": "Fierce Conqueror",
+          "description": "At the start of the Fight phase, until the end of the phase, add 2 to the Attacks characteristic of melee weapons equipped by the bearer for every 5 enemy models within 6\" of the bearer (rounding  down)."
+        },
+        {
+          "name": "Admonimortis",
+          "description": "**^^Shield‑Captain^^** model only. Improve the Strength characteristic of melee weapons equipped by the bearer by 3, and improve the Armour Penetration and Damage characteristics of those weapons by  1."
+        }
+      ]
+    },
+    {
+      "id": "f35e-ef9c-9ef4-77e1",
+      "name": "Coronus Grav-carrier",
+      "points": 200,
+      "keywords": [
+        "Vehicle",
+        "Transport",
+        "Fly",
+        "Imperium"
+      ],
+      "factionKeywords": [
+        "Adeptus Custodes"
+      ],
+      "stats": {
+        "M": "12\"",
+        "T": "12",
+        "SV": "2+",
+        "W": "16",
+        "LD": "6+",
+        "OC": "5"
+      },
+      "rangedWeapons": [
+        {
+          "name": "Twin arachnus blaze cannon",
+          "range": "24\"",
+          "A": "8",
+          "BS": "2+",
+          "S": "5",
+          "AP": "-1",
+          "D": "1",
+          "keywords": [
+            "Devastating Wounds",
+            "Twin-linked"
+          ]
+        },
+        {
+          "name": "Twin lastrum bolt cannon",
+          "range": "36\"",
+          "A": "3",
+          "BS": "2+",
+          "S": "6",
+          "AP": "-1",
+          "D": "1",
+          "keywords": [
+            "Sustained Hits 1"
+          ]
+        }
+      ],
+      "meleeWeapons": [
+        {
+          "name": "Armoured hull",
+          "range": "Melee",
+          "A": "6",
+          "WS": "4+",
+          "S": "8",
+          "AP": "0",
+          "D": "1",
+          "keywords": []
+        }
+      ],
+      "abilities": [
+        {
+          "name": "Fire Support",
+          "description": "In your Shooting phase, after this model has shot, select one enemy unit hit by one or more of those attacks. Until the end of the phase, each time a friendly model that disembarked from this ^^Transport^^ this turn makes an attack that targets that enemy unit, you can re-roll the Wound roll."
+        },
+        {
+          "name": "Damaged: 1-5 wounds remaining",
+          "description": "While this model has 1-5 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
+        },
+        {
+          "name": "Earned Name",
+          "description": "Each time this model's unit is selected to fight, both Ka'tah Stances are active for that unit, instead of only one."
+        }
+      ],
+      "transportCapacity": "This model has a transport capacity of 8 ^^Adeptus Custodes Infantry^^ models."
+    },
+    {
+      "id": "9c1a-7efd-ed36-440e",
+      "name": "Orion Assault Dropship",
+      "points": 690,
+      "keywords": [
+        "Vehicle",
+        "Transport",
+        "Aircraft",
+        "Fly",
+        "Imperium"
+      ],
+      "factionKeywords": [
+        "Adeptus Custodes"
+      ],
+      "stats": {
+        "M": "20+\"",
+        "T": "12",
+        "SV": "2+",
+        "W": "22",
+        "LD": "6+",
+        "OC": "0"
+      },
+      "rangedWeapons": [
+        {
+          "name": "Arachnus heavy blaze cannon",
+          "range": "36\"",
+          "A": "4",
+          "BS": "2+",
+          "S": "12",
+          "AP": "-3",
+          "D": "D6+1",
+          "keywords": []
+        },
+        {
+          "name": "Spiculus heavy bolt launcher",
+          "range": "36\"",
+          "A": "D6+6",
+          "BS": "2+",
+          "S": "7",
+          "AP": "-1",
+          "D": "2",
+          "keywords": [
+            "Blast"
+          ]
+        },
+        {
+          "name": "Twin lastrum bolt cannon",
+          "range": "36\"",
+          "A": "3",
+          "BS": "2+",
+          "S": "6",
+          "AP": "-1",
+          "D": "1",
+          "keywords": [
+            "Sustained Hits 1"
+          ]
+        }
+      ],
+      "meleeWeapons": [
+        {
+          "name": "Armoured hull",
+          "range": "Melee",
+          "A": "9",
+          "WS": "4+",
+          "S": "9",
+          "AP": "0",
+          "D": "1",
+          "keywords": []
+        }
+      ],
+      "abilities": [
+        {
+          "name": "Damaged: 1-7 wounds remaining",
+          "description": "While this model has 1-7 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
+        },
+        {
+          "name": "Assault Dropship",
+          "description": "If a unit disembarks from this TRANSPORT before it moves, until the end of the turn, that unit is eligibile to charge in a turn in which it Advanced."
+        },
+        {
+          "name": "Earned Name",
+          "description": "Each time this model's unit is selected to fight, both Ka'tah Stances are active for that unit, instead of only one."
+        }
+      ],
+      "transportCapacity": "This model has a transport capacity of 12 ADEPTUS CUSTODES INFANTRY models. This model can also transport 1 VENERABLE CONTEMPTOR DREADNOUGHt, 1 CONTEMPTOR-ACHILLUS DREADNOUGHT or 1 CONTEMPTOR GALATUS-DREADNOUGHT; while doing so, its transport capacity is reduced to 6 ADEPTUS CUSTODES INFANTRY models."
+    },
+    {
+      "id": "9335-74d9-ad68-3ff7",
+      "name": "Ares Gunship",
+      "points": 580,
+      "keywords": [
+        "Vehicle",
+        "Aircraft",
+        "Fly",
+        "Imperium"
+      ],
+      "factionKeywords": [
+        "Adeptus Custodes"
+      ],
+      "stats": {
+        "M": "20+\"",
+        "T": "12",
+        "SV": "2+",
+        "W": "22",
+        "LD": "6+",
+        "OC": "0"
+      },
+      "rangedWeapons": [
+        {
+          "name": "Arachnus heavy blaze cannon",
+          "range": "36\"",
+          "A": "4",
+          "BS": "2+",
+          "S": "12",
+          "AP": "-3",
+          "D": "D6+1",
+          "keywords": []
+        },
+        {
+          "name": "Arachnus magna-blaze cannon",
+          "range": "48\"",
+          "A": "3",
+          "BS": "2+",
+          "S": "18",
+          "AP": "-4",
+          "D": "D6+6",
+          "keywords": []
+        }
+      ],
+      "meleeWeapons": [
+        {
+          "name": "Armoured hull",
+          "range": "Melee",
+          "A": "9",
+          "WS": "4+",
+          "S": "9",
+          "AP": "0",
+          "D": "1",
+          "keywords": []
+        }
+      ],
+      "abilities": [
+        {
+          "name": "Infernus Firebomb",
+          "description": "Each time this model ends a Normal move, you can select one enemy unit it moved over during that move. Until the end of the turn, models in that unit cannot have the Benefit of Cover. In addition, roll one D6 for each model in that unit: for each 6, that unit suffers 1 mortal wound."
+        },
+        {
+          "name": "Damaged: 1-7 wounds remaining",
+          "description": "While this model has 1-7 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
+        },
+        {
+          "name": "Earned Name",
+          "description": "Each time this model's unit is selected to fight, both Ka'tah Stances are active for that unit, instead of only one."
+        }
+      ]
+    },
+    {
+      "id": "de0b-37e9-b9f5-d3a6",
+      "name": "Guardian of the Throne [Crucible]",
+      "points": 130,
+      "keywords": [
+        "Character",
+        "Infantry",
+        "Imperium",
+        "Guardian of the Throne",
+        "Crucible"
+      ],
+      "factionKeywords": [
+        "Adeptus Custodes"
+      ],
+      "stats": {
+        "M": "6\"",
+        "T": "6",
+        "SV": "2+",
+        "W": "6",
+        "LD": "6+",
+        "OC": "2"
+      },
+      "rangedWeapons": [
+        {
+          "name": "Balistus grenade launcher",
+          "range": "18\"",
+          "A": "D6",
+          "BS": "2+",
+          "S": "4",
+          "AP": "-1",
+          "D": "1",
+          "keywords": [
+            "Blast"
+          ]
+        },
+        {
+          "name": "Guardian spear",
+          "range": "24\"",
+          "A": "2",
+          "BS": "2+",
+          "S": "4",
+          "AP": "-1",
+          "D": "2",
+          "keywords": [
+            "Assault"
+          ]
+        },
+        {
+          "name": "Castellan axe",
+          "range": "24\"",
+          "A": "2",
+          "BS": "2+",
+          "S": "4",
+          "AP": "-1",
+          "D": "2",
+          "keywords": [
+            "Assault"
+          ]
+        },
+        {
+          "name": "Master-crafted boltgun",
+          "range": "24\"",
+          "A": "1",
+          "BS": "2+",
+          "S": "4",
+          "AP": "0",
+          "D": "2",
+          "keywords": [
+            "Rapid Fire 1"
+          ]
+        },
+        {
+          "name": "Witchseeker flamer",
+          "range": "12\"",
+          "A": "D6",
+          "BS": "N/A",
+          "S": "4",
+          "AP": "0",
+          "D": "1",
+          "keywords": [
+            "Ignores Cover",
+            "Torrent"
+          ]
+        },
+        {
+          "name": "Pyrithite spear",
+          "range": "12\"",
+          "A": "1",
+          "BS": "2+",
+          "S": "9",
+          "AP": "-4",
+          "D": "D6",
+          "keywords": [
+            "Melta 2"
+          ]
+        },
+        {
+          "name": "Sentinel blade",
+          "range": "12\"",
+          "A": "2",
+          "BS": "2+",
+          "S": "4",
+          "AP": "-1",
+          "D": "2",
+          "keywords": [
+            "Assault",
+            "Pistol"
+          ]
+        }
+      ],
+      "meleeWeapons": [
+        {
+          "name": "Guardian spear",
+          "range": "Melee",
+          "A": "7",
+          "WS": "2+",
+          "S": "7",
+          "AP": "-2",
+          "D": "2",
+          "keywords": []
+        },
+        {
+          "name": "Close combat weapon",
+          "range": "Melee",
+          "A": "4",
+          "WS": "2+",
+          "S": "3",
+          "AP": "0",
+          "D": "1",
+          "keywords": []
+        },
+        {
+          "name": "Executioner greatblade",
+          "range": "Melee",
+          "A": "3",
+          "WS": "2+",
+          "S": "5",
+          "AP": "-2",
+          "D": "2",
+          "keywords": [
+            "Anti-Psyker 5+",
+            "Devastating Wounds"
+          ]
+        },
+        {
+          "name": "Castellan axe",
+          "range": "Melee",
+          "A": "6",
+          "WS": "2+",
+          "S": "9",
+          "AP": "-1",
+          "D": "3",
+          "keywords": []
+        },
+        {
+          "name": "Interceptor lance",
+          "range": "Melee",
+          "A": "6",
+          "WS": "2+",
+          "S": "7",
+          "AP": "-2",
+          "D": "2",
+          "keywords": [
+            "Lance"
+          ]
+        },
+        {
+          "name": "Pyrithite spear",
+          "range": "Melee",
+          "A": "7",
+          "WS": "2+",
+          "S": "7",
+          "AP": "-2",
+          "D": "2",
+          "keywords": []
+        },
+        {
+          "name": "Misericordia",
+          "range": "Melee",
+          "A": "2",
+          "WS": "2+",
+          "S": "5",
+          "AP": "-2",
+          "D": "1",
+          "keywords": [
+            "Extra Attacks"
+          ]
+        },
+        {
+          "name": "Sentinel blade",
+          "range": "Melee",
+          "A": "7",
+          "WS": "2+",
+          "S": "6",
+          "AP": "-2",
+          "D": "1",
+          "keywords": []
+        },
+        {
+          "name": "➤ Vaultswords - Behemor",
+          "range": "Melee",
+          "A": "6",
+          "WS": "2+",
+          "S": "7",
+          "AP": "-2",
+          "D": "2",
+          "keywords": [
+            "Precision"
+          ]
+        },
+        {
+          "name": "➤ Vaultswords - Hurricanis",
+          "range": "Melee",
+          "A": "9",
+          "WS": "2+",
+          "S": "5",
+          "AP": "-1",
+          "D": "1",
+          "keywords": [
+            "Sustained Hits 1"
+          ]
+        },
+        {
+          "name": "➤ Vaultswords - Victus",
+          "range": "Melee",
+          "A": "5",
+          "WS": "2+",
+          "S": "6",
+          "AP": "-3",
+          "D": "3",
+          "keywords": [
+            "Devastating Wounds"
+          ]
+        }
+      ],
+      "abilities": [
+        {
+          "name": "Invulnerable Save (4+)",
+          "description": "This model has a 4+ invulnerable save."
+        },
+        {
+          "name": "Leader",
+          "description": "This model can be attached to the following units: ^^**Custodian Guard, Custodian Wardens**^^"
+        },
+        {
+          "name": "Ka'tah Master",
+          "description": "Once per phase, you can re-roll one Hit roll or one Wound roll for an attack made by this model."
+        },
+        {
+          "name": "Earned Name",
+          "description": "Each time this model's unit is selected to fight, both Ka'tah Stances are active for that unit, instead of only one."
+        },
+        {
+          "name": "Leader",
+          "description": "This model can be attached to the following units: ^^**Allarus Custodians**^^"
+        },
+        {
+          "name": "Abyssal Void",
+          "description": "Models in this unit have the Lone Operative ability."
+        },
+        {
+          "name": "Singular Expertise",
+          "description": "While this model is not leading a unit, each time this model makes a melee attack, you can re-roll the Hit roll and you can re-roll the Wound roll."
+        },
+        {
+          "name": "Swift Onslaught",
+          "description": "While this model is leading a unit, you can re-roll Charge rolls made for that unit."
+        }
+      ]
+    },
+    {
+      "id": "e58d-17d4-71f8-4137",
+      "name": "Null Maiden [Crucible]",
+      "points": 65,
+      "keywords": [
+        "Character",
+        "Infantry",
+        "Imperium",
+        "Crucible",
+        "Null Maiden",
+        "Anathema Psykana"
+      ],
+      "factionKeywords": [
+        "Adeptus Custodes"
+      ],
+      "stats": {
+        "M": "6\"",
+        "T": "3",
+        "SV": "3+",
+        "W": "4",
+        "LD": "6+",
+        "OC": "1"
+      },
+      "rangedWeapons": [
+        {
+          "name": "Balistus grenade launcher",
+          "range": "18\"",
+          "A": "D6",
+          "BS": "2+",
+          "S": "4",
+          "AP": "-1",
+          "D": "1",
+          "keywords": [
+            "Blast"
+          ]
+        },
+        {
+          "name": "Guardian spear",
+          "range": "24\"",
+          "A": "2",
+          "BS": "2+",
+          "S": "4",
+          "AP": "-1",
+          "D": "2",
+          "keywords": [
+            "Assault"
+          ]
+        },
+        {
+          "name": "Castellan axe",
+          "range": "24\"",
+          "A": "2",
+          "BS": "2+",
+          "S": "4",
+          "AP": "-1",
+          "D": "2",
+          "keywords": [
+            "Assault"
+          ]
+        },
+        {
+          "name": "Master-crafted boltgun",
+          "range": "24\"",
+          "A": "1",
+          "BS": "2+",
+          "S": "4",
+          "AP": "0",
+          "D": "2",
+          "keywords": [
+            "Rapid Fire 1"
+          ]
+        },
+        {
+          "name": "Witchseeker flamer",
+          "range": "12\"",
+          "A": "D6",
+          "BS": "N/A",
+          "S": "4",
+          "AP": "0",
+          "D": "1",
+          "keywords": [
+            "Ignores Cover",
+            "Torrent"
+          ]
+        },
+        {
+          "name": "Pyrithite spear",
+          "range": "12\"",
+          "A": "1",
+          "BS": "2+",
+          "S": "9",
+          "AP": "-4",
+          "D": "D6",
+          "keywords": [
+            "Melta 2"
+          ]
+        },
+        {
+          "name": "Sentinel blade",
+          "range": "12\"",
+          "A": "2",
+          "BS": "2+",
+          "S": "4",
+          "AP": "-1",
+          "D": "2",
+          "keywords": [
+            "Assault",
+            "Pistol"
+          ]
+        }
+      ],
+      "meleeWeapons": [
+        {
+          "name": "Guardian spear",
+          "range": "Melee",
+          "A": "7",
+          "WS": "2+",
+          "S": "7",
+          "AP": "-2",
+          "D": "2",
+          "keywords": []
+        },
+        {
+          "name": "Close combat weapon",
+          "range": "Melee",
+          "A": "4",
+          "WS": "2+",
+          "S": "3",
+          "AP": "0",
+          "D": "1",
+          "keywords": []
+        },
+        {
+          "name": "Executioner greatblade",
+          "range": "Melee",
+          "A": "3",
+          "WS": "2+",
+          "S": "5",
+          "AP": "-2",
+          "D": "2",
+          "keywords": [
+            "Anti-Psyker 5+",
+            "Devastating Wounds"
+          ]
+        },
+        {
+          "name": "Castellan axe",
+          "range": "Melee",
+          "A": "6",
+          "WS": "2+",
+          "S": "9",
+          "AP": "-1",
+          "D": "3",
+          "keywords": []
+        },
+        {
+          "name": "Interceptor lance",
+          "range": "Melee",
+          "A": "6",
+          "WS": "2+",
+          "S": "7",
+          "AP": "-2",
+          "D": "2",
+          "keywords": [
+            "Lance"
+          ]
+        },
+        {
+          "name": "Pyrithite spear",
+          "range": "Melee",
+          "A": "7",
+          "WS": "2+",
+          "S": "7",
+          "AP": "-2",
+          "D": "2",
+          "keywords": []
+        },
+        {
+          "name": "Misericordia",
+          "range": "Melee",
+          "A": "2",
+          "WS": "2+",
+          "S": "5",
+          "AP": "-2",
+          "D": "1",
+          "keywords": [
+            "Extra Attacks"
+          ]
+        },
+        {
+          "name": "Sentinel blade",
+          "range": "Melee",
+          "A": "7",
+          "WS": "2+",
+          "S": "6",
+          "AP": "-2",
+          "D": "1",
+          "keywords": []
+        },
+        {
+          "name": "➤ Vaultswords - Behemor",
+          "range": "Melee",
+          "A": "6",
+          "WS": "2+",
+          "S": "7",
+          "AP": "-2",
+          "D": "2",
+          "keywords": [
+            "Precision"
+          ]
+        },
+        {
+          "name": "➤ Vaultswords - Hurricanis",
+          "range": "Melee",
+          "A": "9",
+          "WS": "2+",
+          "S": "5",
+          "AP": "-1",
+          "D": "1",
+          "keywords": [
+            "Sustained Hits 1"
+          ]
+        },
+        {
+          "name": "➤ Vaultswords - Victus",
+          "range": "Melee",
+          "A": "5",
+          "WS": "2+",
+          "S": "6",
+          "AP": "-3",
+          "D": "3",
+          "keywords": [
+            "Devastating Wounds"
+          ]
+        }
+      ],
+      "abilities": [
+        {
+          "name": "Invulnerable Save (5+)",
+          "description": "This model has a 5+ invulnerable save."
+        },
+        {
+          "name": "Leader",
+          "description": "This model can be attached to the following units: ^^**Prosecutors, Vigilators, Witchseekers**^^"
+        },
+        {
+          "name": "Daughter of the Abyss",
+          "description": "This model has the Feel No Pain 3+ ability against Psychic Attacks and mortal wounds."
+        },
+        {
+          "name": "Earned Name",
+          "description": "Each time this model's unit is selected to fight, both Ka'tah Stances are active for that unit, instead of only one."
+        },
+        {
+          "name": "Leader",
+          "description": "This model can be attached to the following units: ^^**Allarus Custodians**^^"
+        },
+        {
+          "name": "Abyssal Void",
+          "description": "Models in this unit have the Lone Operative ability."
+        },
+        {
+          "name": "Singular Expertise",
+          "description": "While this model is not leading a unit, each time this model makes a melee attack, you can re-roll the Hit roll and you can re-roll the Wound roll."
+        },
+        {
+          "name": "Swift Onslaught",
+          "description": "While this model is leading a unit, you can re-roll Charge rolls made for that unit."
+        }
+      ]
+    },
+    {
+      "id": "c11a-f70a-2877-ed27",
+      "name": "Kataphraktoi Exemplar [Crucible]",
+      "points": 150,
+      "keywords": [
+        "Character",
+        "Imperium",
+        "Crucible",
+        "Kataphraktoi Exemplar",
+        "Mounted",
+        "Dawneagle Jetbike",
+        "Fly"
+      ],
+      "factionKeywords": [
+        "Adeptus Custodes"
+      ],
+      "stats": {
+        "M": "12\"",
+        "T": "7",
+        "SV": "2+",
+        "W": "8",
+        "LD": "6+",
+        "OC": "2"
+      },
+      "rangedWeapons": [
+        {
+          "name": "Balistus grenade launcher",
+          "range": "18\"",
+          "A": "D6",
+          "BS": "2+",
+          "S": "4",
+          "AP": "-1",
+          "D": "1",
+          "keywords": [
+            "Blast"
+          ]
+        },
+        {
+          "name": "Guardian spear",
+          "range": "24\"",
+          "A": "2",
+          "BS": "2+",
+          "S": "4",
+          "AP": "-1",
+          "D": "2",
+          "keywords": [
+            "Assault"
+          ]
+        },
+        {
+          "name": "Castellan axe",
+          "range": "24\"",
+          "A": "2",
+          "BS": "2+",
+          "S": "4",
+          "AP": "-1",
+          "D": "2",
+          "keywords": [
+            "Assault"
+          ]
+        },
+        {
+          "name": "Master-crafted boltgun",
+          "range": "24\"",
+          "A": "1",
+          "BS": "2+",
+          "S": "4",
+          "AP": "0",
+          "D": "2",
+          "keywords": [
+            "Rapid Fire 1"
+          ]
+        },
+        {
+          "name": "Witchseeker flamer",
+          "range": "12\"",
+          "A": "D6",
+          "BS": "N/A",
+          "S": "4",
+          "AP": "0",
+          "D": "1",
+          "keywords": [
+            "Ignores Cover",
+            "Torrent"
+          ]
+        },
+        {
+          "name": "Pyrithite spear",
+          "range": "12\"",
+          "A": "1",
+          "BS": "2+",
+          "S": "9",
+          "AP": "-4",
+          "D": "D6",
+          "keywords": [
+            "Melta 2"
+          ]
+        },
+        {
+          "name": "Sentinel blade",
+          "range": "12\"",
+          "A": "2",
+          "BS": "2+",
+          "S": "4",
+          "AP": "-1",
+          "D": "2",
+          "keywords": [
+            "Assault",
+            "Pistol"
+          ]
+        }
+      ],
+      "meleeWeapons": [
+        {
+          "name": "Guardian spear",
+          "range": "Melee",
+          "A": "7",
+          "WS": "2+",
+          "S": "7",
+          "AP": "-2",
+          "D": "2",
+          "keywords": []
+        },
+        {
+          "name": "Close combat weapon",
+          "range": "Melee",
+          "A": "4",
+          "WS": "2+",
+          "S": "3",
+          "AP": "0",
+          "D": "1",
+          "keywords": []
+        },
+        {
+          "name": "Executioner greatblade",
+          "range": "Melee",
+          "A": "3",
+          "WS": "2+",
+          "S": "5",
+          "AP": "-2",
+          "D": "2",
+          "keywords": [
+            "Anti-Psyker 5+",
+            "Devastating Wounds"
+          ]
+        },
+        {
+          "name": "Castellan axe",
+          "range": "Melee",
+          "A": "6",
+          "WS": "2+",
+          "S": "9",
+          "AP": "-1",
+          "D": "3",
+          "keywords": []
+        },
+        {
+          "name": "Interceptor lance",
+          "range": "Melee",
+          "A": "6",
+          "WS": "2+",
+          "S": "7",
+          "AP": "-2",
+          "D": "2",
+          "keywords": [
+            "Lance"
+          ]
+        },
+        {
+          "name": "Pyrithite spear",
+          "range": "Melee",
+          "A": "7",
+          "WS": "2+",
+          "S": "7",
+          "AP": "-2",
+          "D": "2",
+          "keywords": []
+        },
+        {
+          "name": "Misericordia",
+          "range": "Melee",
+          "A": "2",
+          "WS": "2+",
+          "S": "5",
+          "AP": "-2",
+          "D": "1",
+          "keywords": [
+            "Extra Attacks"
+          ]
+        },
+        {
+          "name": "Sentinel blade",
+          "range": "Melee",
+          "A": "7",
+          "WS": "2+",
+          "S": "6",
+          "AP": "-2",
+          "D": "1",
+          "keywords": []
+        },
+        {
+          "name": "➤ Vaultswords - Behemor",
+          "range": "Melee",
+          "A": "6",
+          "WS": "2+",
+          "S": "7",
+          "AP": "-2",
+          "D": "2",
+          "keywords": [
+            "Precision"
+          ]
+        },
+        {
+          "name": "➤ Vaultswords - Hurricanis",
+          "range": "Melee",
+          "A": "9",
+          "WS": "2+",
+          "S": "5",
+          "AP": "-1",
+          "D": "1",
+          "keywords": [
+            "Sustained Hits 1"
+          ]
+        },
+        {
+          "name": "➤ Vaultswords - Victus",
+          "range": "Melee",
+          "A": "5",
+          "WS": "2+",
+          "S": "6",
+          "AP": "-3",
+          "D": "3",
+          "keywords": [
+            "Devastating Wounds"
+          ]
+        }
+      ],
+      "abilities": [
+        {
+          "name": "Invulnerable Save (4+)",
+          "description": "This model has a 4+ invulnerable save."
+        },
+        {
+          "name": "Leader",
+          "description": "This model can be attached to the following units: ^^**Vertus Praetors**^^"
+        },
+        {
+          "name": "Fiend Slayer",
+          "description": "Each time this model makes an attack that targets a ^^**Monster**^^ or ^^**Vehicle**^^ unit, you can re-roll the Wound roll."
+        },
+        {
+          "name": "Earned Name",
+          "description": "Each time this model's unit is selected to fight, both Ka'tah Stances are active for that unit, instead of only one."
+        },
+        {
+          "name": "Leader",
+          "description": "This model can be attached to the following units: ^^**Allarus Custodians**^^"
+        },
+        {
+          "name": "Abyssal Void",
+          "description": "Models in this unit have the Lone Operative ability."
+        },
+        {
+          "name": "Singular Expertise",
+          "description": "While this model is not leading a unit, each time this model makes a melee attack, you can re-roll the Hit roll and you can re-roll the Wound roll."
+        },
+        {
+          "name": "Swift Onslaught",
+          "description": "While this model is leading a unit, you can re-roll Charge rolls made for that unit."
+        }
+      ]
+    }
+  ],
+  "enhancements": [
+    {
+      "name": "Raptor Blade",
+      "points": 5,
+      "description": "Add 1 to the Attacks, Strength and Damage characteristics of the bearer's melee weapons. While the bearer is within Engagement Range of one or more enemy **^^Psyker^^** units that are Battle-shocked, add 2 to the Attacks, Strength and Damage characteristics of the bearer's melee weapons instead."
+    },
+    {
+      "name": "Castellan's Mark",
+      "points": 20,
+      "description": "After both players have deployed their armies, you can select up to two ADEPTUS CUSTODES units from your army (excluding ANATHEMA PSYKANA units) and redeploy all of those units. When doing so, any of those units can be placed into Strategic Reserves, regardless of how  any units are already in Strategic Reserves."
+    },
+    {
+      "name": "Panoptispex",
+      "points": 5,
+      "description": "While the bearer is leading a unit, ranged weapons equipped by models in that unit have the [IGNORES COVER] ability."
+    },
+    {
+      "name": "From the Hall of Armouries",
+      "points": 25,
+      "description": "Add 1 to the Strength and Damage characteristics of the bearer's melee weapons."
+    },
+    {
+      "name": "Radiant Mantle",
+      "points": 30,
+      "description": "Each time an attack targets the bearer's unit, if the attacking model is within 12\", subtract 1 from the Hit roll."
+    },
+    {
+      "name": "Aegis Projector",
+      "points": 20,
+      "description": "Once per turn, the first time a saving throw is failed for the bearer's unit, change the Damage characteristic of that attack to 0."
+    },
+    {
+      "name": "Gift of Terran Artifice",
+      "points": 15,
+      "description": "Each time the bearer makes a melee attack, add 1 to the Wound roll."
+    },
+    {
+      "name": "Champion of the Imperium",
+      "points": 25,
+      "description": "The range of the bearer’s Null Aegis or Deadly Unity ability (see left) is increased to 9\"."
+    },
+    {
+      "name": "Auric Mantle",
+      "points": 15,
+      "description": "**^^Shield-Captain^^** or **^^Blade Champion^^** model only. Add 2 to the bearer's Wounds characteristic."
+    },
+    {
+      "name": "Enhanced Voidsheen Cloak",
+      "points": 10,
+      "description": "Each time an attack is allocated to the bearer, subtract 1 from the Damage characteristic of that attack. If that attack was made by a **^^Psyker^^** or Battle-shocked model, change the Damage characteristic of that attack to 1 instead."
+    },
+    {
+      "name": "Huntress' Eye",
+      "points": 15,
+      "description": "In your Command phase, select one enemy unit within 12\" of the bearer. That unit must take a Battle-shock test."
+    },
+    {
+      "name": "Oblivion Knight",
+      "points": 25,
+      "description": "While the bearer is leading a unit, each time a model in that unit makes an attack, add 1 to the Hit roll. If that attack targeted an enemy **^^Psyker^^** unit, add 1 to the Wound roll as well."
+    },
+    {
+      "name": "Blade Imperator",
+      "points": 25,
+      "description": "Each time the bearer's unit ends a Charge move, select one enemy unit within Engagement Range of the bearer and roll one D6: on a 4+, that enemy unit suffers D3 mortal wounds. Once per battle, when the bearer's unit ends a Charge move, all enemy units within 6\" of the bearer must take a Battle-shock test."
+    },
+    {
+      "name": "Inspirational Exemplar",
+      "points": 10,
+      "description": "The bearer has a Leadership characteristic of 5+. Once per battle, at the start of any phase, you can select one friendly **^^Adeptus Custodes^^** unit that is Battle-shocked and within 12\" of the bearer: that unit is no longer Battle-shocked."
+    },
+    {
+      "name": "Veiled Blade",
+      "points": 25,
+      "description": "Add 2 to the Attacks characteristic of the bearer's melee weapons. Once per battle, at the start of any Command phase, triple the bearer's Objective Control characteristic until the end of the turn."
+    },
+    {
+      "name": "Martial Philosopher",
+      "points": 30,
+      "description": "The bearer's unit is eligible to shoot and/or declare a charge in a turn in which it Fell Back. Once per battle, when an enemy unit ends a Normal, Advance or Fall Back move within 9\" of the bearer, if the bearer's unit is not within Engagement Range of one or more enemy units, it can make a Normal move of up to 6\"."
+    },
+    {
+      "name": "Honoured Fallen (Aura)",
+      "points": 15,
+      "description": "ADEPTUS CUSTODES VEHICLE model only. While a friendly ADEPTUS CUSTODES INFANTRY or ADEPTUS CUSTODES MOUNTED unit is within 6\" of the bearer, each time a model in that unit makes  an attack, re‑roll a Hit roll of 1."
+    },
+    {
+      "name": "Augury Uplink",
+      "points": 35,
+      "description": "ADEPTUS CUSTODES model only. The bearer has the Feel No Pain 5+ ability."
+    },
+    {
+      "name": "Adamantine Talisman",
+      "points": 25,
+      "description": "**^^Adeptus Custodes^^** model only. Improve the Attacks, Strength and Damage characteristics of melee weapons equipped by the bearer by 1."
+    },
+    {
+      "name": "Veteran of the Kataphraktoi",
+      "points": 10,
+      "description": "ADEPTUS CUSTODES INFANTRY or ADEPTUS CUSTODES MOUNTED model only. In your Command phase, select one ADEPTUS CUSTODES VEHICLE or ADEPTUS CUSTODES MOUNTED unit within 6\" of the bearer. Until the start of your next Command phase, that unit is eligible to shoot in a turn in which it Fell Back."
+    },
+    {
+      "name": "Superior Creation",
+      "points": 25,
+      "description": "**^^Adeptus Custodes Infantry^^** model only. The first time the bearer is destroyed, roll one D6 at the end of the phase. On a 2+, set the bearer back up on the battlefield, as close as possible to where it was destroyed and not within Engagement Range of one or more enemy units, with its full wounds remaining."
+    },
+    {
+      "name": "Praesidius",
+      "points": 25,
+      "description": "The bearer has the Lone Operative and Stealth abilities."
+    },
+    {
+      "name": "Fierce Conqueror",
+      "points": 15,
+      "description": "At the start of the Fight phase, until the end of the phase, add 2 to the Attacks characteristic of melee weapons equipped by the bearer for every 5 enemy models within 6\" of the bearer (rounding  down)."
+    },
+    {
+      "name": "Admonimortis",
+      "points": 10,
+      "description": "**^^Shield‑Captain^^** model only. Improve the Strength characteristic of melee weapons equipped by the bearer by 3, and improve the Armour Penetration and Damage characteristics of those weapons by  1."
+    }
+  ]
+}

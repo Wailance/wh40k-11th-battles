@@ -1,0 +1,140 @@
+{
+  "id": "6e59-e1ee-47ad-6ce5",
+  "name": "Adeptus Astartes - Raven Guard",
+  "catalogueName": "Imperium - Adeptus Astartes - Raven Guard",
+  "units": [
+    {
+      "id": "339f-9776-243d-69a6",
+      "name": "Kayvaan Shrike",
+      "points": 100,
+      "keywords": [
+        "Epic Hero",
+        "Character",
+        "Infantry",
+        "Imperium",
+        "Fly",
+        "Jump Pack",
+        "Chapter Master",
+        "Phobos"
+      ],
+      "factionKeywords": [
+        "Adeptus Astartes",
+        "Raven Guard"
+      ],
+      "stats": {
+        "M": "12\"",
+        "T": "4",
+        "SV": "3+",
+        "W": "5",
+        "LD": "6+",
+        "OC": "1"
+      },
+      "rangedWeapons": [
+        {
+          "name": "Blackout",
+          "range": "18\"",
+          "A": "2",
+          "BS": "2+",
+          "S": "5",
+          "AP": "-1",
+          "D": "2",
+          "keywords": [
+            "Pistol",
+            "Precision"
+          ]
+        }
+      ],
+      "meleeWeapons": [
+        {
+          "name": "The Raven's Talons",
+          "range": "Melee",
+          "A": "7",
+          "WS": "2+",
+          "S": "5",
+          "AP": "-2",
+          "D": "2",
+          "keywords": [
+            "Precision",
+            "Twin-linked"
+          ]
+        }
+      ],
+      "abilities": [
+        {
+          "name": "Trifold Path of Shadow",
+          "description": "While this model is leading a unit, models  in this unit cannot be targeted by ranged attacks unless the attacking model is within 12\"."
+        },
+        {
+          "name": "Echo of the Ravenspire",
+          "description": "At the end of your opponent’s turn, if this model’s unit is not within Engagement Range of any enemy models, you can remove it from the battlefield and place it into Strategic Reserves."
+        },
+        {
+          "name": "Leader",
+          "description": "This model can be attached to the following units:\n\n■ Assault Intercessors with Jump Packs\n■ Vanguard Veteran Squad with Jump Packs"
+        },
+        {
+          "name": "Inspiring Commander",
+          "description": "If you include this model in your army, until the end of the battle, non-Character models in Assault\nIntercessors with Jump Packs units from your army have an Objective Control characteristic of 2 while they are not Battle-shocked."
+        }
+      ]
+    },
+    {
+      "id": "cbb9-15e9-16ae-6597",
+      "name": "Aethon Shaan",
+      "points": 110,
+      "keywords": [
+        "Character",
+        "Epic Hero",
+        "Infantry",
+        "Fly",
+        "Jump Pack",
+        "Imperium",
+        "Tacticus",
+        "Chapter Master"
+      ],
+      "factionKeywords": [
+        "Adeptus Astartes",
+        "Raven Guard"
+      ],
+      "stats": {
+        "M": "14\"",
+        "T": "4",
+        "SV": "3+",
+        "W": "5",
+        "LD": "6+",
+        "OC": "1"
+      },
+      "rangedWeapons": [],
+      "meleeWeapons": [
+        {
+          "name": "Claws of Severax",
+          "range": "Melee",
+          "A": "7",
+          "WS": "2+",
+          "S": "5",
+          "AP": "-2",
+          "D": "2",
+          "keywords": [
+            "Sustained Hits 2",
+            "Twin-linked"
+          ]
+        }
+      ],
+      "abilities": [
+        {
+          "name": "Chapter Master of the Raven Guard",
+          "description": "At the start of the Declare Battle Formations step, if your army includes Aethon Shaan and Kayvaan\nShrike, until the end of the battle, your Kayvaan Shrike unit loses its Lone Operative ability and it\nreplaces its Chapter Master keyword with Captain."
+        },
+        {
+          "name": "Master of Shadows",
+          "description": "In your Command phase, you can select one unit from your opponent’s army. Until the start of your next Command phase, each time an Adeptus Astartes unit from your army declares a charge while it is within 12\" of that enemy unit, you can re-roll the Charge roll, but it must declare that enemy unit as a target of that charge (if possible)."
+        },
+        {
+          "name": "Blackwing Mantle",
+          "description": "You can target this model’s unit with the Rapid Ingress and Heroic Intervention Stratagems for 0CP,\neven if you have already used that Stratagem on a different unit this phase."
+        }
+      ]
+    }
+  ],
+  "enhancements": []
+}
