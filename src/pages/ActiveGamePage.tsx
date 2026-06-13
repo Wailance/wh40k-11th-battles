@@ -34,6 +34,7 @@ import {
 import { clearActiveGame, loadActiveGame, saveActiveGame, saveToHistory } from '../lib/storage'
 import { calculateWtcScores } from '../lib/wtc-scoring'
 import type { GameState, PlayerScores, PlayerSetup } from '../types/game'
+import { DOMINATUS_ALLIANCE_LABELS, DOMINATUS_POST_BATTLE } from '../data/dominatus-companion'
 
 function pruneSecondaryTallies(
   tally: Record<string, number[]>,
@@ -313,11 +314,29 @@ export function ActiveGamePage() {
         </div>
       </div>
 
+      {game.format !== 'standard' && (
+        <p className="mb-1 text-center text-[10px] uppercase tracking-wide text-accent-dim">
+          {game.format === 'dominatus' ? copy.game.formatDominatus : copy.game.formatDoubles}
+          {game.format === 'doubles' && game.doubles
+            ? ` · ${game.doubles.team1Name} vs ${game.doubles.team2Name}`
+            : ''}
+          {game.format === 'dominatus' && game.dominatus
+            ? ` · Phase ${game.dominatus.phase}`
+            : ''}
+        </p>
+      )}
+
       <div className="game-score-strip">
         <div className="min-w-0 text-left">
           <p className="truncate text-[11px] font-semibold" style={{ color: 'var(--color-p1)' }}>
-            {game.player1.name}
+            {game.format === 'doubles' && game.doubles ? game.doubles.team1Name : game.player1.name}
           </p>
+          {game.format === 'doubles' && game.doubles && (
+            <p className="truncate text-[9px] text-muted">
+              {game.player1.name}
+              {game.doubles.team1Player2 ? ` · ${game.doubles.team1Player2}` : ''}
+            </p>
+          )}
           <p className="text-lg font-display tabular-nums leading-none" style={{ color: 'var(--color-p1)' }}>
             {game.scores.player1.vp}
           </p>
@@ -330,8 +349,14 @@ export function ActiveGamePage() {
         </div>
         <div className="min-w-0 text-right">
           <p className="truncate text-[11px] font-semibold" style={{ color: 'var(--color-p2)' }}>
-            {game.player2.name}
+            {game.format === 'doubles' && game.doubles ? game.doubles.team2Name : game.player2.name}
           </p>
+          {game.format === 'doubles' && game.doubles && (
+            <p className="truncate text-[9px] text-muted">
+              {game.player2.name}
+              {game.doubles.team2Player2 ? ` · ${game.doubles.team2Player2}` : ''}
+            </p>
+          )}
           <p className="text-lg font-display tabular-nums leading-none" style={{ color: 'var(--color-p2)' }}>
             {game.scores.player2.vp}
           </p>
@@ -506,6 +531,24 @@ export function ActiveGamePage() {
               <div className="mt-4 max-h-[40vh] overflow-y-auto">
                 <GameTotalSummary game={game} />
               </div>
+              {game.format === 'dominatus' && game.dominatus && (
+                <div className="mt-4 app-panel p-3 text-xs">
+                  <p className="font-medium text-bone">{copy.game.dominatusPostBattle}</p>
+                  <p className="mt-1 text-muted">{copy.game.dominatusPostBattleHint}</p>
+                  <ul className="mt-2 list-disc space-y-1 pl-4 text-muted">
+                    {DOMINATUS_POST_BATTLE.map((line) => (
+                      <li key={line}>{line}</li>
+                    ))}
+                  </ul>
+                  <p className="mt-2 text-[10px] text-muted">
+                    P1: {DOMINATUS_ALLIANCE_LABELS[game.dominatus.player1Alliance]}
+                    {game.dominatus.player1AttemptAgenda ? ' · Agenda' : ' · Standard primary'}
+                    {' · '}
+                    P2: {DOMINATUS_ALLIANCE_LABELS[game.dominatus.player2Alliance]}
+                    {game.dominatus.player2AttemptAgenda ? ' · Agenda' : ' · Standard primary'}
+                  </p>
+                </div>
+              )}
               <div className="mt-4 flex gap-3">
                 <button type="button" onClick={() => setShowEnd(false)} className="app-btn-ghost flex-1 py-3 text-sm">
                   {copy.game.continue}

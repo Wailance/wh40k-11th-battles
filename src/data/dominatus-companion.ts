@@ -1,0 +1,87 @@
+/** Warhammer Dominatus Event Companion v1.0 */
+
+export const DOMINATUS_COMPANION_PDF =
+  'https://assets.warhammer-community.com/eng_12-06_warhammer40000_dominatus_event_companion-i9vapqcbqf-zuit0tso2r.pdf'
+
+export const DOMINATUS_ALLIANCES = ['liberator', 'oppressor', 'raider'] as const
+export type DominatusAlliance = (typeof DOMINATUS_ALLIANCES)[number]
+
+export const DOMINATUS_ALLIANCE_LABELS: Record<DominatusAlliance, string> = {
+  liberator: 'Liberators',
+  oppressor: 'Oppressors',
+  raider: 'Raiders',
+}
+
+export const DOMINATUS_GUIDANCE = [
+  {
+    title: 'Resources',
+    body: 'Each player must have a Dominatus deck.',
+  },
+  {
+    title: 'Warmaster',
+    body: 'The event organiser is the Warmaster. They may select each phase Location card and can require a player to change Alliance at muster.',
+  },
+  {
+    title: 'End of campaign phase',
+    body: 'Acquire Relics, Discard, Fresh Supplies, Test of Mettle and Auspicious Augury resolve at Determine Mission of the first battle in the next phase (not immediately after the phase ends).',
+  },
+] as const
+
+export const DOMINATUS_MISSION_SEQUENCE = [
+  {
+    step: 1,
+    title: 'Muster Armies',
+    when: 'Before the event',
+    body: 'Muster in the Warhammer 40,000 app. Select one Force Disposition and one Alliance from the Dominatus deck; record both on your roster.',
+  },
+  {
+    step: 2,
+    title: 'Determine Mission',
+    when: 'At the table',
+    body: 'Read war zone rules from the phase Location card. If both players attempt Agendas, use the Briefing chart (FD vs FD → Agenda Primary). If either declines, standard FD→Primary Mission applies only for players who declined Agendas.',
+    sub: [
+      'Agenda player: score VP only from Agenda Primary Mission.',
+      'Declined Agendas: score VP from standard Primary Mission on FD card.',
+      'Layouts still use FD pairing from the Event Companion.',
+    ],
+  },
+  { step: 3, title: 'Determine a Layout', when: 'At the table', body: 'Three layouts A/B/C per mission pairing — as directed by the Warmaster or random.' },
+  { step: 4, title: 'Create the Battlefield', when: 'At the table', body: '44" × 60" table. Terrain areas and features per selected layout.' },
+  { step: 5, title: 'Attacker and Defender', when: 'At the table', body: 'Agree table edges, roll off — winner chooses Attacker/Defender.' },
+  {
+    step: 6,
+    title: 'Select Secondary Missions',
+    when: 'At the table',
+    body: 'Same Fixed/Tactical rules as the Warhammer Event Companion.',
+  },
+  {
+    step: 7,
+    title: 'Declare Battle Formations',
+    when: 'Pre-battle',
+    body: 'Note up to 3 earned Upgrade cards and which units receive them, plus Transports and strategic reserves. Reveal simultaneously.',
+  },
+  { step: 8, title: 'Deploy Armies', when: 'Pre-battle', body: 'Alternate setup, Defender first. TITANIC skips your next setup turn.' },
+  { step: 9, title: 'Redeploy Units', when: 'Pre-battle', body: 'Alternate redeploy rules, Attacker first.' },
+  { step: 10, title: 'Determine First Turn', when: 'Pre-battle', body: 'Roll off — winner takes first turn.' },
+  { step: 11, title: 'Resolve Pre-battle Rules', when: 'Pre-battle', body: 'Alternate, starting with the first-turn player.' },
+  { step: 12, title: 'Begin the Battle', when: 'Battle', body: 'First battle round begins.' },
+  { step: 13, title: 'End the Battle', when: 'Battle', body: 'Five battle rounds. Continue turns even if one army has no models.' },
+  {
+    step: 14,
+    title: 'Determine Victor & Campaign Cards',
+    when: 'After battle',
+    body: 'Standard VP caps (45/45/10). Agenda players check Agenda conditions for Agenda Achieved cards.',
+    sub: [
+      'Phases 1–2: Victor draws 1 Battle Honour; loser draws 1 Battle Skill. Draw = both draw Battle Skill.',
+      'Agenda Achieved: draw extra cards of that type, keep one.',
+      'Phase 3: Victor gains Path to Conquest Battle Honour.',
+    ],
+  },
+] as const
+
+export const DOMINATUS_POST_BATTLE = [
+  'Check Agenda Achieved conditions (if attempting Agenda)',
+  'Phases 1–2: Victor → Battle Honour · Loser → Battle Skill · Draw → both Battle Skill',
+  'Extra draws if Agenda Achieved cards earned',
+  'Phase 3: Victor → Path to Conquest',
+] as const

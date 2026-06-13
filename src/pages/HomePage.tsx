@@ -83,12 +83,7 @@ export function HomePage() {
           to="/formats/dominatus"
           className="app-btn-ghost flex w-full min-h-[4rem] flex-col items-stretch justify-center gap-1 py-3.5 text-left"
         >
-          <span className="flex items-center gap-2">
-            <span className="font-display text-sm tracking-wide text-bone">{copy.formats.dominatus.title}</span>
-            <span className="rounded border border-white/15 px-1.5 py-0.5 text-[9px] uppercase tracking-wide text-muted">
-              {copy.formats.comingSoon}
-            </span>
-          </span>
+          <span className="font-display text-sm tracking-wide text-bone">{copy.formats.dominatus.title}</span>
           <span className="text-xs text-muted">{copy.formats.dominatus.subtitle}</span>
         </Link>
 
@@ -96,12 +91,7 @@ export function HomePage() {
           to="/formats/doubles"
           className="app-btn-ghost flex w-full min-h-[4rem] flex-col items-stretch justify-center gap-1 py-3.5 text-left"
         >
-          <span className="flex items-center gap-2">
-            <span className="font-display text-sm tracking-wide text-bone">{copy.formats.doubles.title}</span>
-            <span className="rounded border border-white/15 px-1.5 py-0.5 text-[9px] uppercase tracking-wide text-muted">
-              {copy.formats.comingSoon}
-            </span>
-          </span>
+          <span className="font-display text-sm tracking-wide text-bone">{copy.formats.doubles.title}</span>
           <span className="text-xs text-muted">{copy.formats.doubles.subtitle}</span>
         </Link>
       </section>

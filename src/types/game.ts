@@ -7,6 +7,32 @@ export type ForceDisposition =
 
 export type SecondaryMode = 'fixed' | 'tactical'
 
+export type GameFormat = 'standard' | 'dominatus' | 'doubles'
+
+export type DominatusAlliance = 'liberator' | 'oppressor' | 'raider'
+
+export interface DominatusBattleMeta {
+  phase: 1 | 2 | 3
+  player1Alliance: DominatusAlliance
+  player2Alliance: DominatusAlliance
+  player1AttemptAgenda: boolean
+  player2AttemptAgenda: boolean
+  player1AgendaName: string
+  player2AgendaName: string
+  locationNotes: string
+}
+
+export interface DoublesBattleMeta {
+  team1Name: string
+  team2Name: string
+  team1Player2: string
+  team2Player2: string
+  team1Army2: string
+  team2Army2: string
+  team1Warlord: 1 | 2
+  team2Warlord: 1 | 2
+}
+
 export type ArmyCategory = 'chaos' | 'imperium' | 'space-marines' | 'xenos'
 
 export interface Detachment {
@@ -69,6 +95,9 @@ export interface GameState {
   id: string
   createdAt: string
   status: 'setup' | 'active' | 'finished'
+  format: GameFormat
+  dominatus?: DominatusBattleMeta
+  doubles?: DoublesBattleMeta
   matchupId: number | null
   /** Index into matchup terrain layout variants (0–2) */
   layoutVariantIndex: number

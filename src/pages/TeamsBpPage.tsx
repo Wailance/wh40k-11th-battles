@@ -2,14 +2,22 @@ import { useEffect, useState } from 'react'
 import { battlePointsFromVp, teamMatchResult } from '../lib/teams-scoring'
 import { copy } from '../lib/copy'
 import {
+  addRoundToActiveMatch,
+  clearActiveTeamMatch,
   clearActiveTeamRound,
+  deleteTeamMatchFromHistory,
   deleteTeamRoundFromHistory,
+  finishTeamMatch,
+  loadActiveTeamMatch,
   loadActiveTeamRound,
+  loadTeamMatchHistory,
   loadTeamRoundHistory,
+  matchStanding,
   saveActiveTeamRound,
-  saveTeamRoundToHistory,
   sumTeamBp,
+  type ActiveTeamMatch,
   type ActiveTeamRound,
+  type SavedTeamMatch,
   type SavedTeamRound,
   type TeamSize,
 } from '../lib/teams-storage'
@@ -19,10 +27,13 @@ const TEAM_SIZES = [3, 4, 5, 6, 7, 8] as const
 
 export function TeamsBpPage() {
   const [round, setRound] = useState<ActiveTeamRound>(() => loadActiveTeamRound())
-  const [history, setHistory] = useState<SavedTeamRound[]>(() => loadTeamRoundHistory())
+  const [match, setMatch] = useState<ActiveTeamMatch>(() => loadActiveTeamMatch())
+  const [roundHistory, setRoundHistory] = useState<SavedTeamRound[]>(() => loadTeamRoundHistory())
+  const [matchHistory, setMatchHistory] = useState<SavedTeamMatch[]>(() => loadTeamMatchHistory())
   const [p1Vp, setP1Vp] = useState('')
   const [p2Vp, setP2Vp] = useState('')
-  const [deleteId, setDeleteId] = useState<string | null>(null)
+  const [deleteRoundId, setDeleteRoundId] = useState<string | null>(null)
+  const [confirmFinish, setConfirmFinish] = useState(false)
 
   useEffect(() => {
     saveActiveTeamRound(round)
@@ -34,7 +45,8 @@ export function TeamsBpPage() {
   const bp2 = battlePointsFromVp(v2, v1)
 
   const { teamABp: runningA, teamBBp: runningB } = sumTeamBp(round.games)
-  const match = teamMatchResult(runningA, runningB, round.teamSize)
+  const roundResult = teamMatchResult(runningA, runningB, round.teamSize)
+  const standing = matchStanding(match)
 
   const updateRound = (patch: Partial<ActiveTeamRound>) => setRound((r) => ({ ...r, ...patch }))
 
@@ -45,11 +57,19 @@ export function TeamsBpPage() {
     setP2Vp('')
   }
 
-  const saveRound = () => {
+  const saveRoundToMatch = () => {
     if (round.games.length === 0) return
-    saveTeamRoundToHistory(round)
-    setHistory(loadTeamRoundHistory())
+    const { match: next } = addRoundToActiveMatch(round)
+    setMatch(next)
+    setRoundHistory(loadTeamRoundHistory())
     setRound(clearActiveTeamRound())
+  }
+
+  const completeMatch = () => {
+    finishTeamMatch()
+    setMatch(loadActiveTeamMatch())
+    setMatchHistory(loadTeamMatchHistory())
+    setConfirmFinish(false)
   }
 
   return (
@@ -57,8 +77,71 @@ export function TeamsBpPage() {
       <div>
         <h1 className="app-page-title">{copy.teams.title}</h1>
         <p className="mt-1 text-sm text-muted">{copy.teams.subtitle}</p>
-        <p className="mt-2 text-[11px] text-muted">{copy.teams.activeRoundHint}</p>
+        <p className="mt-2 text-[11px] text-muted">{copy.teams.matchHint}</p>
       </div>
+
+      <section className="app-panel space-y-3 p-4">
+        <div className="flex items-center justify-between gap-2">
+          <h2 className="text-sm font-semibold text-bone">{copy.teams.matchTitle}</h2>
+          {match.rounds.length > 0 && (
+            <button
+              type="button"
+              onClick={() => setConfirmFinish(true)}
+              className="app-btn-ghost px-2 py-1 text-[10px]"
+            >
+              {copy.teams.finishMatch}
+            </button>
+          )}
+        </div>
+        <div className="grid grid-cols-2 gap-2 text-center">
+          <div className="rounded-lg border border-accent/30 bg-accent/10 p-3">
+            <p className="text-[10px] text-muted">{match.teamAName || copy.teams.teamAName}</p>
+            <p className="font-display text-2xl tabular-nums">{match.teamATp}</p>
+            <p className="text-[10px] text-muted">TP</p>
+          </div>
+          <div className="rounded-lg border border-accent/30 bg-accent/10 p-3">
+            <p className="text-[10px] text-muted">{match.teamBName || copy.teams.teamBName}</p>
+            <p className="font-display text-2xl tabular-nums">{match.teamBTp}</p>
+            <p className="text-[10px] text-muted">TP</p>
+          </div>
+        </div>
+        <p className="text-center text-xs text-bone">
+          {copy.teams.matchTp(match.teamATp, match.teamBTp)}
+          {match.rounds.length > 0 &&
+            (standing.leader === 'draw'
+              ? ' · Tied'
+              : ` · ${standing.leader === 'A' ? match.teamAName : match.teamBName} leads`)}
+        </p>
+        {match.rounds.length > 0 && (
+          <ul className="space-y-1 border-t border-border pt-2 text-xs text-muted">
+            {match.rounds.map((r, i) => (
+              <li key={r.id} className="flex justify-between tabular-nums">
+                <span>
+                  {copy.teams.roundInMatch(match.rounds.length - i)}: {r.teamABp}–{r.teamBBp} BP
+                </span>
+                <span>
+                  +{r.teamAP} / +{r.teamBP} TP
+                </span>
+              </li>
+            ))}
+          </ul>
+        )}
+        {match.rounds.length === 0 && (
+          <p className="text-center text-xs text-muted">{copy.teams.activeRoundHint}</p>
+        )}
+        {match.rounds.length > 0 && (
+          <button
+            type="button"
+            onClick={() => {
+              clearActiveTeamMatch()
+              setMatch(loadActiveTeamMatch())
+            }}
+            className="app-btn-ghost w-full py-2 text-xs"
+          >
+            {copy.teams.clearMatch}
+          </button>
+        )}
+      </section>
 
       <section className="app-panel grid grid-cols-2 gap-3 p-4">
         <label className="block text-xs text-muted">
@@ -158,14 +241,14 @@ export function TeamsBpPage() {
             </div>
           </div>
           <p className="text-center text-sm text-bone">
-            {match.winner === 'draw'
-              ? copy.teams.matchDraw(match.teamAP)
-              : match.winner === 'A'
-                ? copy.teams.matchWin(round.teamAName, match.teamAP, match.teamBP)
-                : copy.teams.matchWin(round.teamBName, match.teamBP, match.teamAP)}
+            {roundResult.winner === 'draw'
+              ? copy.teams.matchDraw(roundResult.teamAP)
+              : roundResult.winner === 'A'
+                ? copy.teams.matchWin(round.teamAName, roundResult.teamAP, roundResult.teamBP)
+                : copy.teams.matchWin(round.teamBName, roundResult.teamBP, roundResult.teamAP)}
           </p>
           <div className="grid grid-cols-2 gap-2">
-            <button type="button" onClick={saveRound} className="app-btn py-2 text-xs">
+            <button type="button" onClick={saveRoundToMatch} className="app-btn py-2 text-xs">
               {copy.teams.saveRound}
             </button>
             <button
@@ -179,11 +262,43 @@ export function TeamsBpPage() {
         </section>
       )}
 
-      {history.length > 0 && (
+      {matchHistory.length > 0 && (
+        <section className="app-panel space-y-3 p-4">
+          <h2 className="text-sm font-semibold text-bone">{copy.teams.savedMatches}</h2>
+          <ul className="space-y-2">
+            {matchHistory.map((item) => (
+              <li key={item.id} className="rounded-lg border border-border bg-panel p-3 text-xs">
+                <p className="font-medium text-bone">
+                  {item.teamAName} vs {item.teamBName}
+                </p>
+                <p className="mt-0.5 text-muted">
+                  {item.rounds.length} rounds · {item.teamATp}–{item.teamBTp} TP ·{' '}
+                  {item.winner === 'draw'
+                    ? 'Draw'
+                    : `${item.winner === 'A' ? item.teamAName : item.teamBName} wins`}
+                </p>
+                <p className="mt-0.5 text-[10px] text-muted">{copy.teams.savedAt(item.savedAt)}</p>
+                <button
+                  type="button"
+                  onClick={() => {
+                    deleteTeamMatchFromHistory(item.id)
+                    setMatchHistory(loadTeamMatchHistory())
+                  }}
+                  className="mt-2 text-[10px] text-warning"
+                >
+                  {copy.teams.deleteRound}
+                </button>
+              </li>
+            ))}
+          </ul>
+        </section>
+      )}
+
+      {roundHistory.length > 0 && (
         <section className="app-panel space-y-3 p-4">
           <h2 className="text-sm font-semibold text-bone">{copy.teams.savedRounds}</h2>
           <ul className="space-y-2">
-            {history.map((item) => (
+            {roundHistory.map((item) => (
               <li key={item.id} className="rounded-lg border border-border bg-panel p-3 text-xs">
                 <div className="flex items-start justify-between gap-2">
                   <div className="min-w-0">
@@ -191,16 +306,13 @@ export function TeamsBpPage() {
                       {item.teamAName} vs {item.teamBName}
                     </p>
                     <p className="mt-0.5 text-muted">
-                      {item.games.length} games · {item.teamABp}–{item.teamBBp} BP ·{' '}
-                      {item.winner === 'draw'
-                        ? `Draw ${item.teamAP}–${item.teamBP} TP`
-                        : `${item.winner === 'A' ? item.teamAName : item.teamBName} ${item.teamAP}–${item.teamBP} TP`}
+                      {item.games.length} games · {item.teamABp}–{item.teamBBp} BP
                     </p>
                     <p className="mt-0.5 text-[10px] text-muted">{copy.teams.savedAt(item.savedAt)}</p>
                   </div>
                   <button
                     type="button"
-                    onClick={() => setDeleteId(item.id)}
+                    onClick={() => setDeleteRoundId(item.id)}
                     className="shrink-0 text-[10px] text-warning"
                   >
                     {copy.teams.deleteRound}
@@ -213,17 +325,26 @@ export function TeamsBpPage() {
       )}
 
       <ConfirmDialog
-        open={Boolean(deleteId)}
+        open={Boolean(deleteRoundId)}
         title={copy.teams.deleteRound}
         body={copy.teams.deleteRoundConfirm}
         confirmLabel={copy.teams.deleteRound}
         danger
-        onCancel={() => setDeleteId(null)}
+        onCancel={() => setDeleteRoundId(null)}
         onConfirm={() => {
-          if (deleteId) deleteTeamRoundFromHistory(deleteId)
-          setHistory(loadTeamRoundHistory())
-          setDeleteId(null)
+          if (deleteRoundId) deleteTeamRoundFromHistory(deleteRoundId)
+          setRoundHistory(loadTeamRoundHistory())
+          setDeleteRoundId(null)
         }}
+      />
+
+      <ConfirmDialog
+        open={confirmFinish}
+        title={copy.teams.finishMatch}
+        body={copy.teams.finishMatchConfirm}
+        confirmLabel={copy.teams.finishMatch}
+        onCancel={() => setConfirmFinish(false)}
+        onConfirm={completeMatch}
       />
     </div>
   )

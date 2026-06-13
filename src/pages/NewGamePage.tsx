@@ -22,14 +22,23 @@ import { ConfirmDialog } from '../components/ConfirmDialog'
 import { copy } from '../lib/copy'
 import { wizardStepHint } from '../lib/wizard-hints'
 import { loadActiveGame, saveActiveGame } from '../lib/storage'
-import type { ForceDisposition, GameState, PlayerSetup, SecondaryMode, SelectedDetachment } from '../types/game'
+import type {
+  DominatusAlliance,
+  ForceDisposition,
+  GameFormat,
+  GameState,
+  PlayerSetup,
+  SecondaryMode,
+  SelectedDetachment,
+} from '../types/game'
+import { DOMINATUS_ALLIANCE_LABELS, DOMINATUS_ALLIANCES } from '../data/dominatus-companion'
 
 const STEPS = ['Players', 'Detachments', 'Mission', 'Secondaries', 'Start']
 
-export function NewGamePage() {
+export function NewGamePage({ format = 'standard' }: { format?: GameFormat }) {
   const navigate = useNavigate()
   const [step, setStep] = useState(0)
-  const [game, setGame] = useState<GameState>(() => createNewGame())
+  const [game, setGame] = useState<GameState>(() => createNewGame(format))
   const [confirmOverwrite, setConfirmOverwrite] = useState(false)
   const activeGame = loadActiveGame()
   const hasActive = activeGame?.status === 'active'
@@ -83,8 +92,18 @@ export function NewGamePage() {
     p.secondaryMode === 'tactical' ||
     (p.secondaryMode === 'fixed' && p.secondaries.length === 2)
 
+  const pageTitle =
+    format === 'dominatus'
+      ? copy.newGame.titleDominatus
+      : format === 'doubles'
+        ? copy.newGame.titleDoubles
+        : copy.newGame.title
+
   const canNext = [
-    game.player1.army && game.player2.army,
+    game.player1.army &&
+      game.player2.army &&
+      (format !== 'doubles' ||
+        Boolean(game.doubles?.team1Player2.trim() && game.doubles?.team2Player2.trim())),
     game.player1.detachments.length >= 1 && game.player2.detachments.length >= 1,
     Boolean(game.player1.primaryMission && game.player2.primaryMission && game.matchupId),
     secondaryReady(game.player1) && secondaryReady(game.player2),
@@ -108,7 +127,7 @@ export function NewGamePage() {
       )}
       <div className="mb-5 flex items-start justify-between gap-3">
         <div>
-          <h1 className="app-page-title">{copy.newGame.title}</h1>
+          <h1 className="app-page-title">{pageTitle}</h1>
           <p className="mt-0.5 text-sm text-muted">{STEPS[step]}</p>
         </div>
         <button type="button" onClick={() => navigate('/')} className="app-btn-ghost shrink-0 px-3 py-2 text-xs">
@@ -119,28 +138,49 @@ export function NewGamePage() {
 
       {step === 0 && (
         <div className="space-y-4">
-          <PlayerFields
-            label="Player 1"
-            color="var(--color-p1)"
-            name={game.player1.name}
-            army={game.player1.army}
-            battleReady={game.player1.battleReady}
-            armies={armyList.map((a) => a.army)}
-            onName={(name) => updateP1({ name })}
-            onArmy={(army) => updateP1({ army, detachments: [] })}
-            onBattleReady={(battleReady) => updateP1({ battleReady })}
-          />
-          <PlayerFields
-            label="Player 2"
-            color="var(--color-p2)"
-            name={game.player2.name}
-            army={game.player2.army}
-            battleReady={game.player2.battleReady}
-            armies={armyList.map((a) => a.army)}
-            onName={(name) => updateP2({ name })}
-            onArmy={(army) => updateP2({ army, detachments: [] })}
-            onBattleReady={(battleReady) => updateP2({ battleReady })}
-          />
+          {format === 'doubles' && game.doubles && (
+            <DoublesTeamFields
+              meta={game.doubles}
+              player1={game.player1}
+              player2={game.player2}
+              onMeta={(patch) => update({ doubles: { ...game.doubles!, ...patch } })}
+              onP1={(patch) => updateP1(patch)}
+              onP2={(patch) => updateP2(patch)}
+              armies={armyList.map((a) => a.army)}
+            />
+          )}
+          {format !== 'doubles' && (
+            <>
+              <PlayerFields
+                label="Player 1"
+                color="var(--color-p1)"
+                name={game.player1.name}
+                army={game.player1.army}
+                battleReady={game.player1.battleReady}
+                armies={armyList.map((a) => a.army)}
+                onName={(name) => updateP1({ name })}
+                onArmy={(army) => updateP1({ army, detachments: [] })}
+                onBattleReady={(battleReady) => updateP1({ battleReady })}
+              />
+              <PlayerFields
+                label="Player 2"
+                color="var(--color-p2)"
+                name={game.player2.name}
+                army={game.player2.army}
+                battleReady={game.player2.battleReady}
+                armies={armyList.map((a) => a.army)}
+                onName={(name) => updateP2({ name })}
+                onArmy={(army) => updateP2({ army, detachments: [] })}
+                onBattleReady={(battleReady) => updateP2({ battleReady })}
+              />
+            </>
+          )}
+          {format === 'dominatus' && game.dominatus && (
+            <DominatusSetupFields
+              meta={game.dominatus}
+              onChange={(patch) => update({ dominatus: { ...game.dominatus!, ...patch } })}
+            />
+          )}
         </div>
       )}
 
@@ -682,6 +722,188 @@ function SummaryRow({ label, value }: { label: string; value: string }) {
   return (
     <div className="border-b border-border py-2 last:border-0">
       <span className="text-muted">{label}: </span>{value}
+    </div>
+  )
+}
+
+function DominatusSetupFields({
+  meta,
+  onChange,
+}: {
+  meta: NonNullable<GameState['dominatus']>
+  onChange: (patch: Partial<NonNullable<GameState['dominatus']>>) => void
+}) {
+  return (
+    <div className="app-panel space-y-3 p-4">
+      <p className="text-sm font-semibold text-bone">{copy.formats.dominatus.title}</p>
+      <label className="block text-xs text-muted">
+        {copy.formats.dominatus.phase}
+        <select
+          value={meta.phase}
+          onChange={(e) => onChange({ phase: Number(e.target.value) as 1 | 2 | 3 })}
+          className="app-input mt-1 w-full"
+        >
+          {[1, 2, 3].map((p) => (
+            <option key={p} value={p}>
+              Phase {p}
+            </option>
+          ))}
+        </select>
+      </label>
+      <label className="block text-xs text-muted">
+        {copy.formats.dominatus.locationStep}
+        <textarea
+          value={meta.locationNotes}
+          onChange={(e) => onChange({ locationNotes: e.target.value })}
+          className="app-input mt-1 min-h-[3rem] w-full"
+        />
+      </label>
+      <div className="grid grid-cols-1 gap-3 min-[400px]:grid-cols-2">
+        {([1, 2] as const).map((n) => {
+          const allianceKey = n === 1 ? 'player1Alliance' : 'player2Alliance'
+          const agendaKey = n === 1 ? 'player1AttemptAgenda' : 'player2AttemptAgenda'
+          const agendaNameKey = n === 1 ? 'player1AgendaName' : 'player2AgendaName'
+          return (
+            <div key={n} className="rounded-lg border border-border p-3">
+              <p className="mb-2 text-xs font-medium" style={{ color: n === 1 ? 'var(--color-p1)' : 'var(--color-p2)' }}>
+                Player {n}
+              </p>
+              <label className="block text-xs text-muted">
+                {copy.formats.dominatus.alliance}
+                <select
+                  value={meta[allianceKey]}
+                  onChange={(e) => onChange({ [allianceKey]: e.target.value as DominatusAlliance })}
+                  className="app-input mt-1 w-full"
+                >
+                  {DOMINATUS_ALLIANCES.map((a) => (
+                    <option key={a} value={a}>
+                      {DOMINATUS_ALLIANCE_LABELS[a]}
+                    </option>
+                  ))}
+                </select>
+              </label>
+              <label className="mt-2 flex items-center gap-2 text-xs text-muted">
+                <input
+                  type="checkbox"
+                  checked={meta[agendaKey]}
+                  onChange={(e) => onChange({ [agendaKey]: e.target.checked })}
+                />
+                {copy.formats.dominatus.attemptAgenda}
+              </label>
+              {meta[agendaKey] && (
+                <input
+                  value={meta[agendaNameKey]}
+                  onChange={(e) => onChange({ [agendaNameKey]: e.target.value })}
+                  placeholder={copy.formats.dominatus.agendaName}
+                  className="app-input mt-2 w-full text-xs"
+                />
+              )}
+            </div>
+          )
+        })}
+      </div>
+    </div>
+  )
+}
+
+function DoublesTeamFields({
+  meta,
+  player1,
+  player2,
+  onMeta,
+  onP1,
+  onP2,
+  armies,
+}: {
+  meta: NonNullable<GameState['doubles']>
+  player1: PlayerSetup
+  player2: PlayerSetup
+  onMeta: (patch: Partial<NonNullable<GameState['doubles']>>) => void
+  onP1: (patch: Partial<PlayerSetup>) => void
+  onP2: (patch: Partial<PlayerSetup>) => void
+  armies: string[]
+}) {
+  const teamPanel = (
+    teamKey: 'team1' | 'team2',
+    color: string,
+    player: PlayerSetup,
+    onPlayer: (patch: Partial<PlayerSetup>) => void,
+  ) => {
+    const isTeam1 = teamKey === 'team1'
+    const nameKey = isTeam1 ? 'team1Name' : 'team2Name'
+    const p2Key = isTeam1 ? 'team1Player2' : 'team2Player2'
+    const army2Key = isTeam1 ? 'team1Army2' : 'team2Army2'
+    const warlordKey = isTeam1 ? 'team1Warlord' : 'team2Warlord'
+    return (
+      <div className="app-panel p-4">
+        <p className="mb-3 font-semibold" style={{ color }}>
+          {meta[nameKey]}
+        </p>
+        <input
+          value={meta[nameKey]}
+          onChange={(e) => onMeta({ [nameKey]: e.target.value })}
+          placeholder={copy.formats.doubles.teamName}
+          className="app-input mb-3 w-full text-sm"
+        />
+        <input
+          value={player.name}
+          onChange={(e) => onPlayer({ name: e.target.value })}
+          placeholder="Player 1"
+          className="app-input mb-2 w-full text-sm"
+        />
+        <select
+          value={player.army}
+          onChange={(e) => onPlayer({ army: e.target.value, detachments: [] })}
+          className="app-input mb-2 w-full text-sm"
+        >
+          <option value="">Army 1…</option>
+          {armies.map((a) => (
+            <option key={a} value={a}>
+              {a}
+            </option>
+          ))}
+        </select>
+        <input
+          value={meta[p2Key]}
+          onChange={(e) => onMeta({ [p2Key]: e.target.value })}
+          placeholder={copy.formats.doubles.player2}
+          className="app-input mb-2 w-full text-sm"
+        />
+        <input
+          value={meta[army2Key]}
+          onChange={(e) => onMeta({ [army2Key]: e.target.value })}
+          placeholder={copy.formats.doubles.army2}
+          className="app-input mb-2 w-full text-sm"
+        />
+        <label className="block text-xs text-muted">
+          {copy.formats.doubles.warlord}
+          <select
+            value={meta[warlordKey]}
+            onChange={(e) => onMeta({ [warlordKey]: Number(e.target.value) as 1 | 2 })}
+            className="app-input mt-1 w-full"
+          >
+            <option value={1}>Player 1</option>
+            <option value={2}>Player 2</option>
+          </select>
+        </label>
+        <button
+          type="button"
+          onClick={() => onPlayer({ battleReady: !player.battleReady })}
+          className={`mt-3 flex w-full items-center justify-between rounded-lg border px-3 py-2 text-left text-xs ${
+            player.battleReady ? 'border-accent/40 bg-accent/10 text-accent' : 'border-border text-muted'
+          }`}
+        >
+          <span>{copy.game.battleReady}</span>
+          <span>{player.battleReady ? copy.game.battleReadyOn : copy.game.battleReadyOff}</span>
+        </button>
+      </div>
+    )
+  }
+
+  return (
+    <div className="space-y-4">
+      {teamPanel('team1', 'var(--color-p1)', player1, onP1)}
+      {teamPanel('team2', 'var(--color-p2)', player2, onP2)}
     </div>
   )
 }

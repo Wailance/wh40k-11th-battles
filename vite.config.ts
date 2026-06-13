@@ -9,6 +9,28 @@ const base =
 
 export default defineConfig({
   base,
+  build: {
+    rollupOptions: {
+      output: {
+        manualChunks(id) {
+          if (id.includes('node_modules')) {
+            if (id.includes('react-router')) return 'router'
+            if (id.includes('react-dom') || id.includes('react/')) return 'react'
+            return 'vendor'
+          }
+          if (id.includes('mission-cards.json') || id.includes('game-data.json')) return 'game-data'
+          if (
+            id.includes('ListBuilderPage') ||
+            id.includes('ListsPage') ||
+            id.includes('list-engine') ||
+            id.includes('faction-loader')
+          ) {
+            return 'army-builder'
+          }
+        },
+      },
+    },
+  },
   plugins: [
     react(),
     tailwindcss(),

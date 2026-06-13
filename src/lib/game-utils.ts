@@ -2,7 +2,10 @@ import gameData from '../data/game-data.json'
 import { shouldAutoRedrawWhenDrawn } from './tactical-when-drawn'
 import type {
   Army,
+  DominatusBattleMeta,
+  DoublesBattleMeta,
   ForceDisposition,
+  GameFormat,
   GameState,
   PlayerScores,
   PlayerSetup,
@@ -268,8 +271,12 @@ function migrateScores(raw: Record<string, unknown> | undefined): PlayerScores {
 
 export function migrateGameState(raw: Record<string, unknown>): GameState {
   const g = raw as unknown as GameState
+  const format = (g.format as GameFormat) ?? 'standard'
   return {
     ...g,
+    format,
+    dominatus: g.dominatus as DominatusBattleMeta | undefined,
+    doubles: g.doubles as DoublesBattleMeta | undefined,
     player1: migratePlayerSetup(g.player1 as unknown as Record<string, unknown>),
     player2: migratePlayerSetup(g.player2 as unknown as Record<string, unknown>),
     scores: {
@@ -282,6 +289,32 @@ export function migrateGameState(raw: Record<string, unknown>): GameState {
       Array.isArray(g.preBattleChecks) && g.preBattleChecks.length === 5
         ? g.preBattleChecks
         : [false, false, false, false, false],
+  }
+}
+
+export function defaultDominatusMeta(): DominatusBattleMeta {
+  return {
+    phase: 1,
+    player1Alliance: 'liberator',
+    player2Alliance: 'oppressor',
+    player1AttemptAgenda: false,
+    player2AttemptAgenda: false,
+    player1AgendaName: '',
+    player2AgendaName: '',
+    locationNotes: '',
+  }
+}
+
+export function defaultDoublesMeta(): DoublesBattleMeta {
+  return {
+    team1Name: 'Team A',
+    team2Name: 'Team B',
+    team1Player2: '',
+    team2Player2: '',
+    team1Army2: '',
+    team2Army2: '',
+    team1Warlord: 1,
+    team2Warlord: 1,
   }
 }
 
@@ -298,16 +331,25 @@ export function emptyPlayer(): PlayerSetup {
   }
 }
 
-export function createNewGame(): GameState {
+export function createNewGame(format: GameFormat = 'standard'): GameState {
   return {
     id: crypto.randomUUID(),
     createdAt: new Date().toISOString(),
     status: 'setup',
+    format,
+    dominatus: format === 'dominatus' ? defaultDominatusMeta() : undefined,
+    doubles: format === 'doubles' ? defaultDoublesMeta() : undefined,
     matchupId: null,
     layoutVariantIndex: 0,
     preBattleChecks: [false, false, false, false, false],
-    player1: { ...emptyPlayer(), name: 'Player 1' },
-    player2: { ...emptyPlayer(), name: 'Player 2' },
+    player1: {
+      ...emptyPlayer(),
+      name: format === 'doubles' ? 'Team A · Player 1' : 'Player 1',
+    },
+    player2: {
+      ...emptyPlayer(),
+      name: format === 'doubles' ? 'Team B · Player 1' : 'Player 2',
+    },
     firstPlayer: 1,
     attacker: 1,
     battleRound: 1,
