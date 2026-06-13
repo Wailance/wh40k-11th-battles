@@ -1,4 +1,4 @@
-import { useEffect, useState } from 'react'
+import { useState } from 'react'
 import { Link, useNavigate } from 'react-router-dom'
 import { DpBudget, DpCost } from '../components/DpDisplay'
 import { ForceDispositionBadge } from '../components/ForceDispositionBadge'
@@ -16,6 +16,7 @@ import {
   togglePlayerDetachment,
 } from '../lib/game-utils'
 import { BattlefieldMap } from '../components/BattlefieldMap'
+import { PreBattleChecklist } from '../components/PreBattleChecklist'
 import { getMatchupBattlefield } from '../lib/battlefield'
 import { ConfirmDialog } from '../components/ConfirmDialog'
 import { copy } from '../lib/copy'
@@ -43,11 +44,12 @@ export function NewGamePage() {
   const updateP2Fd = (fd: ForceDisposition) =>
     setGame((g) => applyMissionsToGame({ ...g, player2: { ...g.player2, forceDisposition: fd } }))
 
-  useEffect(() => {
-    if (step === 2) setGame((g) => applyMissionsToGame(g))
-  }, [step])
-
   const armyList = armies
+
+  function advanceStep() {
+    if (step === 1) setGame((g) => applyMissionsToGame(g))
+    setStep((s) => s + 1)
+  }
 
   function toggleDetachment(player: 1 | 2, armyName: string, detName: string) {
     const army = armyList.find((a) => a.army === armyName)
@@ -143,22 +145,11 @@ export function NewGamePage() {
       )}
 
       {step === 1 && (
-        <div className="space-y-6">
-          <DetachmentPicker
-            playerName={game.player1.name}
-            armyName={game.player1.army}
-            selected={game.player1.detachments}
-            color="var(--color-p1)"
-            onToggle={(d) => toggleDetachment(1, game.player1.army, d)}
-          />
-          <DetachmentPicker
-            playerName={game.player2.name}
-            armyName={game.player2.army}
-            selected={game.player2.detachments}
-            color="var(--color-p2)"
-            onToggle={(d) => toggleDetachment(2, game.player2.army, d)}
-          />
-        </div>
+        <DetachmentStep
+          player1={game.player1}
+          player2={game.player2}
+          onToggle={(player, det) => toggleDetachment(player, player === 1 ? game.player1.army : game.player2.army, det)}
+        />
       )}
 
       {step === 2 && (
@@ -202,8 +193,6 @@ export function NewGamePage() {
               player2Name={game.player2.name}
               variantIndex={game.layoutVariantIndex}
               onVariantChange={(i) => update({ layoutVariantIndex: i })}
-              referenceMatchupId={game.mapReferenceMatchupId}
-              onReferenceMatchupChange={(id) => update({ mapReferenceMatchupId: id })}
               compact
             />
           )}
@@ -259,11 +248,18 @@ export function NewGamePage() {
                 player2Name={game.player2.name}
                 variantIndex={game.layoutVariantIndex}
                 onVariantChange={(i) => update({ layoutVariantIndex: i })}
-                referenceMatchupId={game.mapReferenceMatchupId}
-                onReferenceMatchupChange={(id) => update({ mapReferenceMatchupId: id })}
               />
             </div>
           )}
+
+          <PreBattleChecklist
+            checks={game.preBattleChecks}
+            onToggle={(i) => {
+              const next = [...game.preBattleChecks]
+              next[i] = !next[i]
+              update({ preBattleChecks: next })
+            }}
+          />
 
           <div className="app-panel p-4 text-sm">
             <SummaryRow label="P1" value={`${game.player1.army} — ${formatPlayerDetachments(game.player1)}`} />
@@ -275,12 +271,6 @@ export function NewGamePage() {
                 value={
                   getMatchupBattlefield(game.matchupId)!.variants[game.layoutVariantIndex].label
                 }
-              />
-            )}
-            {game.mapReferenceMatchupId && (
-              <SummaryRow
-                label="Map ref."
-                value={`Layout #${game.mapReferenceMatchupId} (mission #${game.matchupId} has no map)`}
               />
             )}
             <SummaryRow
@@ -324,7 +314,7 @@ export function NewGamePage() {
           <button
             type="button"
             disabled={!canNext}
-            onClick={() => setStep((s) => s + 1)}
+            onClick={advanceStep}
             className="app-btn flex-1 py-3 text-sm disabled:opacity-40"
           >
             {copy.newGame.next}
@@ -390,6 +380,62 @@ function PlayerFields({
   )
 }
 
+function DetachmentStep({
+  player1,
+  player2,
+  onToggle,
+}: {
+  player1: PlayerSetup
+  player2: PlayerSetup
+  onToggle: (player: 1 | 2, det: string) => void
+}) {
+  const [activePlayer, setActivePlayer] = useState<1 | 2>(1)
+  const player = activePlayer === 1 ? player1 : player2
+  const color = activePlayer === 1 ? 'var(--color-p1)' : 'var(--color-p2)'
+
+  return (
+    <div className="space-y-4">
+      <div className="grid grid-cols-2 gap-2">
+        {([1, 2] as const).map((n) => {
+          const p = n === 1 ? player1 : player2
+          const ready = p.detachments.length >= 1
+          return (
+            <button
+              key={n}
+              type="button"
+              onClick={() => setActivePlayer(n)}
+              className={`rounded-lg border px-3 py-2.5 text-left text-sm touch-manipulation ${
+                activePlayer === n
+                  ? 'border-accent bg-accent/15 ring-1 ring-accent/25'
+                  : 'border-border bg-panel'
+              }`}
+            >
+              <span
+                className="block truncate font-semibold"
+                style={{ color: n === 1 ? 'var(--color-p1)' : 'var(--color-p2)' }}
+              >
+                {p.name}
+              </span>
+              <span className="mt-0.5 block text-[10px] text-muted">
+                {ready ? `${p.detachments.length} det · ${p.detachments.reduce((s, d) => s + d.dp, 0)}/${MAX_DP} DP` : 'Pick detachments'}
+              </span>
+            </button>
+          )
+        })}
+      </div>
+
+      <DetachmentPicker
+        key={activePlayer}
+        playerName={player.name}
+        armyName={player.army}
+        selected={player.detachments}
+        color={color}
+        onToggle={(d) => onToggle(activePlayer, d)}
+      />
+    </div>
+  )
+}
+
 function DetachmentPicker({
   playerName, armyName, selected, color, onToggle,
 }: {
@@ -409,6 +455,7 @@ function DetachmentPicker({
     <div>
       <div className="mb-3 flex items-center justify-between gap-2">
         <p className="font-semibold" style={{ color }}>{playerName}</p>
+        <p className="text-xs text-muted">{armyName}</p>
       </div>
 
       <div className="app-panel mb-3 !rounded-xl !p-3">
@@ -434,7 +481,7 @@ function DetachmentPicker({
 
       <p className="mb-2 text-xs text-muted">{copy.dp.pickHint}</p>
 
-      <div className="max-h-[min(24rem,50vh)] space-y-2 overflow-y-auto overscroll-contain">
+      <div className="space-y-2">
         {army?.detachments.map((d) => {
           const isSelected = selectedNames.has(d.name)
           const wouldExceed = !isSelected && usedDp + d.dp > MAX_DP

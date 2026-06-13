@@ -1,0 +1,57 @@
+{
+  "dataEdition": "10e",
+  "disclaimer": "Unit points and datasheets may not match the latest Chapter Approved. Detachments and mission scoring in this app use 11th Edition rules.",
+  "mappings": [
+    { "army": "Adepta Sororitas", "slugs": ["imperium-adepta-sororitas"] },
+    { "army": "Adeptus Custodes", "slugs": ["imperium-adeptus-custodes"] },
+    { "army": "Adeptus Mechanicus", "slugs": ["imperium-adeptus-mechanicus"] },
+    {
+      "army": "Aeldari",
+      "slugs": ["aeldari-aeldari-library"],
+      "unitFilter": { "excludeNameContains": ["Drukhari", "Ynnari", "Harlequin"] }
+    },
+    { "army": "Astra Militarum", "slugs": ["imperium-astra-militarum-library"] },
+    {
+      "army": "Black Templar",
+      "slugs": ["imperium-black-templars", "imperium-space-marines"]
+    },
+    {
+      "army": "Blood Angels",
+      "slugs": ["imperium-blood-angels", "imperium-space-marines"]
+    },
+    { "army": "Chaos Daemons", "slugs": ["chaos-chaos-daemons-library"] },
+    { "army": "Chaos Knights", "slugs": ["chaos-chaos-knights-library"] },
+    { "army": "Chaos Space Marines", "slugs": ["chaos-chaos-space-marines"] },
+    {
+      "army": "Dark Angels",
+      "slugs": ["imperium-dark-angels", "imperium-space-marines"]
+    },
+    { "army": "Death Guard", "slugs": ["chaos-death-guard"] },
+    {
+      "army": "Deathwatch",
+      "slugs": ["imperium-deathwatch", "imperium-space-marines"]
+    },
+    {
+      "army": "Drukhari",
+      "slugs": ["aeldari-aeldari-library"],
+      "unitFilter": { "nameContainsAny": ["Archon", "Kabal", "Wych", "Incubi", "Mandrake", "Scourge", "Venom", "Raider", "Ravager", "Razorwing", "Voidraven", "Talos", "Cronos", "Wrack", "Beast", "Succubus", "Haemonculus", "Drazhar", "Lelith", "Urien", "Court of"] }
+    },
+    { "army": "Emperor’s Children", "slugs": ["chaos-emperors-children"] },
+    { "army": "Genestealer Cults", "slugs": ["genestealer-cults"] },
+    { "army": "Grey Knights", "slugs": ["imperium-grey-knights"] },
+    { "army": "Imperial Agents", "slugs": ["imperium-agents-of-the-imperium"] },
+    { "army": "Imperial Knights", "slugs": ["imperium-imperial-knights-library"] },
+    { "army": "League of Votann", "slugs": ["leagues-of-votann"] },
+    { "army": "Necrons", "slugs": ["necrons"] },
+    { "army": "Orks", "slugs": ["orks"] },
+    { "army": "Space Marines", "slugs": ["imperium-space-marines"] },
+    {
+      "army": "Space Wolves",
+      "slugs": ["imperium-space-wolves", "imperium-space-marines"]
+    },
+    { "army": "Thousand Sons", "slugs": ["chaos-thousand-sons"] },
+    { "army": "Tyranids", "slugs": ["tyranids", "library-tyranids"] },
+    { "army": "T’au Empire", "slugs": ["tau-empire"] },
+    { "army": "World Eaters", "slugs": ["chaos-world-eaters"] }
+  ]
+}

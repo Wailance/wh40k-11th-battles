@@ -110,6 +110,12 @@ export function HistoryPage() {
                 <span>·</span>
                 <span>{g.player2.primaryMission}</span>
               </div>
+              <Link
+                to={`/history/${g.id}`}
+                className="mt-3 inline-block text-xs font-medium text-accent"
+              >
+                {copy.history.viewDetails} →
+              </Link>
             </div>
           )
         })}

@@ -1,12 +1,15 @@
 import { MissionNameButton } from './MissionNameButton'
 import { MissionScoreButtons } from './MissionScoreButtons'
 import { SecondaryCardHand } from './SecondaryCardHand'
+import { CpTracker } from './CpTracker'
 import { copy } from '../lib/copy'
+import { whenDrawnReminder, mayManualRedrawWhenDrawn } from '../lib/tactical-when-drawn'
 import {
   DEFAULT_CAPS,
   formatRoundFiveTimingHint,
   getMissionScoreOptions,
   getTallyCount,
+  secondaryCardsForRound,
   secondaryScoreKey,
   tacticalDrawCount,
   validateScoreIncrement,
@@ -19,31 +22,40 @@ export function PlayerMissionScorer({
   scores,
   color,
   battleRound,
+  isCurrentRound = true,
   isSecondPlayer = false,
+  tablePhase = 'command' as 'command' | 'turn' | 'end-turn',
+  onTablePhaseChange,
+  compact = false,
   onPrimaryScore,
   onSecondaryScore,
   onDrawTactical,
   onReturnToDeck,
-  onDiscardSecondary,
+  onDiscardForCp,
+  onAchieveTactical,
+  onRerollTactical,
   onRemoveFixedSecondary,
 }: {
   player: PlayerSetup
   scores: PlayerScores
   color: string
   battleRound: number
+  isCurrentRound?: boolean
   isSecondPlayer?: boolean
+  tablePhase?: 'command' | 'turn' | 'end-turn'
+  onTablePhaseChange?: (p: 'command' | 'turn' | 'end-turn') => void
+  compact?: boolean
   onPrimaryScore: (optionId: string, delta: 1 | -1) => void
   onSecondaryScore: (card: string, optionId: string, delta: 1 | -1) => void
   onDrawTactical: () => void
   onReturnToDeck: (card: string, index: number) => void
-  onDiscardSecondary: (card: string, index: number) => void
+  onDiscardForCp: (card: string, index: number) => void
+  onAchieveTactical: (card: string, index: number) => void
+  onRerollTactical: (card: string, index: number) => void
   onRemoveFixedSecondary: (card: string) => void
 }) {
   const primaryOptions = getMissionScoreOptions(player.primaryMission)
-  const activeSecondaries =
-    player.secondaryMode === 'tactical'
-      ? scores.tacticalHand
-      : player.secondaries.filter((s) => !scores.removedSecondaries.includes(s))
+  const activeSecondaries = secondaryCardsForRound(player, scores, battleRound)
 
   const roundPrimary = scores.primaryRoundVp[battleRound - 1] ?? 0
   const roundSecondary = scores.secondaryRoundVp[battleRound - 1] ?? 0
@@ -85,6 +97,119 @@ export function PlayerMissionScorer({
       secondaryCard: card,
       caps: DEFAULT_CAPS,
     })
+  }
+
+  if (compact) {
+    return (
+      <div className="app-panel app-compact-panel space-y-1.5">
+        <div className="flex items-center justify-between gap-2 border-b border-white/[0.06] pb-1">
+          <p className="truncate text-xs font-semibold" style={{ color }}>
+            {player.name}
+          </p>
+          <p className="shrink-0 text-[9px] tabular-nums text-muted">
+            {scores.primaryVp}/{DEFAULT_CAPS.primaryMaxGame}P · {scores.secondaryVp}/{secondaryCap}S
+            {player.battleReady && ` · +${DEFAULT_CAPS.battleReadyVp}`}
+          </p>
+        </div>
+        <p className="truncate text-[9px] text-muted">
+          <MissionNameButton name={player.primaryMission} className="text-[9px]" showIcon={false} />
+          {' · '}
+          R{battleRound}: {roundPrimary + roundSecondary}/30
+        </p>
+
+        <MissionScoreButtons
+          title={`${copy.game.primaryScoring} ${scores.primaryVp}/${DEFAULT_CAPS.primaryMaxGame}`}
+          options={primaryOptions}
+          getCount={(id) => getTallyCount(scores.primaryScoreTally, id, battleRound)}
+          canScore={canPrimary}
+          onScore={onPrimaryScore}
+          color={color}
+          formatTiming={formatTiming}
+          compact
+        />
+
+        {player.secondaryMode === 'tactical' && isCurrentRound && (
+          <>
+            <CpTracker
+              compact
+              extraCpThisRound={scores.extraCpThisRound}
+              rerollUsed={scores.tacticalRerollUsed}
+              phase={tablePhase}
+              onPhaseChange={onTablePhaseChange ?? (() => {})}
+            />
+            <SecondaryCardHand
+              compact
+              hand={scores.tacticalHand}
+              achieved={scores.tacticalAchieved}
+              deckCount={scores.tacticalDeck.length}
+              battleRound={battleRound}
+              drawCount={tacticalDrawCount(scores)}
+              canDraw={drawValidation.allowed}
+              drawBlockedReason={drawValidation.reason}
+              rerollUsed={scores.tacticalRerollUsed}
+              canReroll={tablePhase === 'command'}
+              scores={scores}
+              onDraw={onDrawTactical}
+              onReturnToDeck={onReturnToDeck}
+              onDiscardForCp={onDiscardForCp}
+              onAchieve={onAchieveTactical}
+              onReroll={onRerollTactical}
+            />
+            {scores.tacticalHand.map((card) => {
+              const note = whenDrawnReminder(card)
+              if (!note && !mayManualRedrawWhenDrawn(card)) return null
+              return (
+                <p key={card} className="text-[9px] leading-snug text-muted">
+                  <span className="text-accent-dim">{copy.game.whenDrawnNote}:</span> {note ?? copy.game.discardCard}
+                </p>
+              )
+            })}
+          </>
+        )}
+
+        {player.secondaryMode === 'fixed' && isCurrentRound && activeSecondaries.length > 0 && (
+          <div className="app-dash-box px-2 py-1.5">
+            <p className="app-dash-label mb-1">Fixed</p>
+            {activeSecondaries.map((card) => (
+              <div key={card} className="app-score-row">
+                <MissionNameButton name={card} className="min-w-0 flex-1 truncate text-[10px]" showIcon={false} />
+                <button
+                  type="button"
+                  onClick={() => onRemoveFixedSecondary(card)}
+                  className="app-score-row-btn text-[10px]"
+                >
+                  ×
+                </button>
+              </div>
+            ))}
+          </div>
+        )}
+
+        {activeSecondaries.length > 0 && (
+          <div className="space-y-1.5">
+            {activeSecondaries.map((card) => {
+              const options = getMissionScoreOptions(card, player.secondaryMode)
+              if (!options.length) return null
+              return (
+                <MissionScoreButtons
+                  key={card}
+                  title={`${copy.game.secondaryScoring}: ${card}`}
+                  options={options}
+                  color={color}
+                  getCount={(id) =>
+                    getTallyCount(scores.secondaryScoreTally, secondaryScoreKey(card, id), battleRound)
+                  }
+                  canScore={(id, delta) => canSecondary(card, id, delta)}
+                  onScore={(id, delta) => onSecondaryScore(card, id, delta)}
+                  formatTiming={formatTiming}
+                  compact
+                />
+              )
+            })}
+          </div>
+        )}
+      </div>
+    )
   }
 
   return (
@@ -145,21 +270,26 @@ export function PlayerMissionScorer({
         formatTiming={formatTiming}
       />
 
-      {player.secondaryMode === 'tactical' && (
+      {player.secondaryMode === 'tactical' && isCurrentRound && (
         <SecondaryCardHand
           hand={scores.tacticalHand}
+          achieved={scores.tacticalAchieved}
           deckCount={scores.tacticalDeck.length}
           battleRound={battleRound}
           drawCount={tacticalDrawCount(scores)}
           canDraw={drawValidation.allowed}
           drawBlockedReason={drawValidation.reason}
+          rerollUsed={scores.tacticalRerollUsed}
+          scores={scores}
           onDraw={onDrawTactical}
           onReturnToDeck={onReturnToDeck}
-          onDiscard={onDiscardSecondary}
+          onDiscardForCp={onDiscardForCp}
+          onAchieve={onAchieveTactical}
+          onReroll={onRerollTactical}
         />
       )}
 
-      {player.secondaryMode === 'fixed' && activeSecondaries.length > 0 && (
+      {player.secondaryMode === 'fixed' && isCurrentRound && activeSecondaries.length > 0 && (
         <div className="space-y-2">
           <p className="text-xs font-medium text-muted">Fixed Secondaries</p>
           {activeSecondaries.map((card) => (

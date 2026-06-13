@@ -1,4 +1,5 @@
 import gameData from '../data/game-data.json'
+import { shouldAutoRedrawWhenDrawn } from './tactical-when-drawn'
 import type {
   Army,
   ForceDisposition,
@@ -73,6 +74,9 @@ export function emptyScores(): PlayerScores {
     secondaryRoundVp: [0, 0, 0, 0, 0],
     tacticalHand: [],
     tacticalDeck: [],
+    tacticalAchieved: [],
+    tacticalRerollUsed: false,
+    extraCpThisRound: 0,
     removedSecondaries: [],
     primaryScoreTally: {},
     secondaryScoreTally: {},
@@ -97,6 +101,37 @@ export function drawTacticalCards(deck: string[], count: number): { drawn: strin
   return { drawn, remaining: deck.slice(count) }
 }
 
+/** Draw tactical cards applying When Drawn auto-redraw (round 1). */
+export function drawTacticalCardsResolved(
+  deck: string[],
+  hand: string[],
+  battleRound: number,
+  count: number,
+): { hand: string[]; deck: string[]; redrawn: string[] } {
+  let remaining = [...deck]
+  const nextHand = [...hand]
+  const redrawn: string[] = []
+  let slots = count
+
+  for (let guard = 0; guard < 20 && slots > 0 && remaining.length > 0; guard++) {
+    const { drawn, remaining: rest } = drawTacticalCards(remaining, 1)
+    remaining = rest
+    const card = drawn[0]
+    if (!card) break
+
+    if (shouldAutoRedrawWhenDrawn(card, battleRound)) {
+      remaining = shuffleCardIntoDeck(remaining, card)
+      redrawn.push(card)
+      continue
+    }
+
+    nextHand.push(card)
+    slots -= 1
+  }
+
+  return { hand: nextHand, deck: remaining, redrawn }
+}
+
 export function shuffleCardIntoDeck(deck: string[], card: string): string[] {
   const next = [...deck, card]
   const j = Math.floor(Math.random() * next.length)
@@ -105,7 +140,14 @@ export function shuffleCardIntoDeck(deck: string[], card: string): string[] {
 }
 
 export function getActiveSecondaries(player: PlayerSetup, scores: PlayerScores): string[] {
-  if (player.secondaryMode === 'tactical') return scores.tacticalHand
+  if (player.secondaryMode === 'tactical') {
+    const cards = new Set([...scores.tacticalHand, ...scores.tacticalAchieved])
+    for (const key of Object.keys(scores.secondaryScoreTally)) {
+      const card = key.includes('::') ? key.slice(0, key.indexOf('::')) : key
+      cards.add(card)
+    }
+    return [...cards]
+  }
   return player.secondaries.filter((s) => !scores.removedSecondaries.includes(s))
 }
 
@@ -215,6 +257,9 @@ function migrateScores(raw: Record<string, unknown> | undefined): PlayerScores {
     secondaryRoundVp: (s.secondaryRoundVp as number[]) ?? [0, 0, 0, 0, 0],
     tacticalHand: (s.tacticalHand as string[]) ?? [],
     tacticalDeck: (s.tacticalDeck as string[]) ?? [],
+    tacticalAchieved: (s.tacticalAchieved as string[]) ?? [],
+    tacticalRerollUsed: (s.tacticalRerollUsed as boolean) ?? false,
+    extraCpThisRound: (s.extraCpThisRound as number) ?? 0,
     removedSecondaries: (s.removedSecondaries as string[]) ?? [],
     primaryScoreTally: (s.primaryScoreTally as Record<string, number[]>) ?? {},
     secondaryScoreTally: (s.secondaryScoreTally as Record<string, number[]>) ?? {},
@@ -233,8 +278,10 @@ export function migrateGameState(raw: Record<string, unknown>): GameState {
     },
     layoutVariantIndex:
       typeof g.layoutVariantIndex === 'number' ? g.layoutVariantIndex : 0,
-    mapReferenceMatchupId:
-      typeof g.mapReferenceMatchupId === 'number' ? g.mapReferenceMatchupId : null,
+    preBattleChecks:
+      Array.isArray(g.preBattleChecks) && g.preBattleChecks.length === 5
+        ? g.preBattleChecks
+        : [false, false, false, false, false],
   }
 }
 
@@ -258,7 +305,7 @@ export function createNewGame(): GameState {
     status: 'setup',
     matchupId: null,
     layoutVariantIndex: 0,
-    mapReferenceMatchupId: null,
+    preBattleChecks: [false, false, false, false, false],
     player1: { ...emptyPlayer(), name: 'Player 1' },
     player2: { ...emptyPlayer(), name: 'Player 2' },
     firstPlayer: 1,
@@ -282,14 +329,13 @@ export function applyMissionsToGame(game: GameState): GameState {
     ...game,
     matchupId: setup.matchupId,
     layoutVariantIndex: matchupChanged ? 0 : (game.layoutVariantIndex ?? 0),
-    mapReferenceMatchupId: matchupChanged ? null : (game.mapReferenceMatchupId ?? null),
     player1: { ...game.player1, primaryMission: setup.player1Primary },
     player2: { ...game.player2, primaryMission: setup.player2Primary },
   }
 }
 
 export function prepareGameForStart(game: GameState): GameState {
-  let g = applyMissionsToGame(game)
+  const g = applyMissionsToGame(game)
   const scores = { ...g.scores }
 
   if (g.player1.secondaryMode === 'tactical') {

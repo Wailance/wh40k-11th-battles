@@ -1,0 +1,274 @@
+{
+  "id": "7481-280e-b55e-7867",
+  "name": "Titans",
+  "catalogueName": "Library - Titans",
+  "units": [
+    {
+      "id": "8eb5-a990-6eb0-9b41",
+      "name": "Warhound Titan",
+      "points": 1100,
+      "keywords": [
+        "Vehicle",
+        "Walker",
+        "Titanic",
+        "Towering"
+      ],
+      "factionKeywords": [],
+      "stats": {
+        "M": "14\"",
+        "T": "13",
+        "SV": "2+",
+        "W": "40",
+        "LD": "6+",
+        "OC": "16"
+      },
+      "rangedWeapons": [],
+      "meleeWeapons": [
+        {
+          "name": "Warhound feet",
+          "range": "Melee",
+          "A": "8",
+          "WS": "4+",
+          "S": "10",
+          "AP": "-1",
+          "D": "2",
+          "keywords": []
+        }
+      ],
+      "abilities": [
+        {
+          "name": "Flank Speed",
+          "description": "Each time this model Advances, do not make an Advance roll for it. Instead, until the end of the phase, add 8\" to the Move characteristic of this model."
+        },
+        {
+          "name": "Damaged: 1-13 wounds remaining",
+          "description": "While this model has 1-13 wounds remaining, subtract 8 from this model’s Objective Control characteristic and each time this model makes an attack, subtract 1 from the Hit roll."
+        },
+        {
+          "name": "Invulnerable Save",
+          "description": "This model has a 5+ invulnerable save against ranged attacks only."
+        },
+        {
+          "name": "Striding Colossus",
+          "description": "Each time you target this model with a Stratagem, you must spend twice that Stratagem’s stated CP cost to do so."
+        }
+      ]
+    },
+    {
+      "id": "b7e8-f3ae-be53-9ba5",
+      "name": "Reaver Titan",
+      "points": 2200,
+      "keywords": [
+        "Vehicle",
+        "Walker",
+        "Titanic",
+        "Towering"
+      ],
+      "factionKeywords": [],
+      "stats": {
+        "M": "12\"",
+        "T": "14",
+        "SV": "2+",
+        "W": "60",
+        "LD": "6+",
+        "OC": "20"
+      },
+      "rangedWeapons": [
+        {
+          "name": "Reaver apocalypse launcher",
+          "range": "200\"",
+          "A": "3D6",
+          "BS": "3+",
+          "S": "7",
+          "AP": "-1",
+          "D": "2",
+          "keywords": [
+            "Blast",
+            "Indirect Fire"
+          ]
+        }
+      ],
+      "meleeWeapons": [
+        {
+          "name": "Reaver feet",
+          "range": "Melee",
+          "A": "8",
+          "WS": "4+",
+          "S": "12",
+          "AP": "-2",
+          "D": "4",
+          "keywords": []
+        }
+      ],
+      "abilities": [
+        {
+          "name": "Damaged: 1-20 wounds remaining",
+          "description": "While this model has 1-20 wounds remaining, subtract 10 from this model’s Objective Control characteristic and each time this model makes an attack, subtract 1 from the Hit roll."
+        },
+        {
+          "name": "Invulnerable Save",
+          "description": "This model has a 5+ invulnerable save against ranged attacks only."
+        },
+        {
+          "name": "God-machine",
+          "description": "This model is eligible to shoot and declare a charge in a turn in which it Fell Back."
+        },
+        {
+          "name": "Striding Colossus",
+          "description": "Each time you target this model with a Stratagem, you must spend three times that Stratagem’s stated CP cost to do so."
+        }
+      ]
+    },
+    {
+      "id": "8e6f-4e09-12d5-fafd",
+      "name": "Warbringer Nemesis Titan",
+      "points": 2600,
+      "keywords": [
+        "Vehicle",
+        "Walker",
+        "Titanic",
+        "Towering"
+      ],
+      "factionKeywords": [],
+      "stats": {
+        "M": "12\"",
+        "T": "14",
+        "SV": "2+",
+        "W": "80",
+        "LD": "6+",
+        "OC": "20"
+      },
+      "rangedWeapons": [
+        {
+          "name": "Anvillus defence battery",
+          "range": "72\"",
+          "A": "8",
+          "BS": "3+",
+          "S": "8",
+          "AP": "-1",
+          "D": "2",
+          "keywords": [
+            "Anti-FLY 4+"
+          ]
+        },
+        {
+          "name": "Ardex-defensor mauler",
+          "range": "36\"",
+          "A": "6",
+          "BS": "3+",
+          "S": "6",
+          "AP": "-2",
+          "D": "2",
+          "keywords": []
+        }
+      ],
+      "meleeWeapons": [
+        {
+          "name": "Nemesis feet",
+          "range": "Melee",
+          "A": "6",
+          "WS": "4+",
+          "S": "12",
+          "AP": "-2",
+          "D": "4",
+          "keywords": []
+        }
+      ],
+      "abilities": [
+        {
+          "name": "Damaged: 1-26 wounds remaining",
+          "description": "While this model has 1-26 wounds remaining, subtract 10 from this model’s Objective Control characteristic and each time this model makes an attack, subtract 1 from the Hit roll."
+        },
+        {
+          "name": "Invulnerable Save",
+          "description": "This model has a 5+ invulnerable save against ranged attacks only."
+        },
+        {
+          "name": "Titanic Fire Support",
+          "description": "In your Shooting phase, after this model has shot, select one enemy unit hit by one or more of those attacks. Until the end of the phase, each time a friendly IMPERIUM model makes an attack that targets that enemy unit, on a Critical Wound, improve the Armour Penetration characteristic of that attack by 1."
+        },
+        {
+          "name": "Titanic Fire Support",
+          "description": "In your Shooting phase, after this model has shot, select one enemy unit hit by one or more of those attacks. Until the end of the phase, each time a friendly CHAOS model makes an attack that targets that enemy unit, on a Critical Wound, improve the Armour Penetration characteristic of that attack by 1."
+        },
+        {
+          "name": "Striding Colossus",
+          "description": "Each time you target this model with a Stratagem, you must spend three times that Stratagem’s stated CP cost to do so."
+        }
+      ]
+    },
+    {
+      "id": "eafa-cd47-1c2f-61ee",
+      "name": "Warlord Titan",
+      "points": 3500,
+      "keywords": [
+        "Vehicle",
+        "Walker",
+        "Titanic",
+        "Towering"
+      ],
+      "factionKeywords": [],
+      "stats": {
+        "M": "10\"",
+        "T": "16",
+        "SV": "2+",
+        "W": "100",
+        "LD": "6+",
+        "OC": "30"
+      },
+      "rangedWeapons": [
+        {
+          "name": "Ardex-defensor lascannon",
+          "range": "48\"",
+          "A": "1",
+          "BS": "3+",
+          "S": "12",
+          "AP": "-3",
+          "D": "D6+1",
+          "keywords": []
+        },
+        {
+          "name": "Ardex-defensor mauler",
+          "range": "36\"",
+          "A": "6",
+          "BS": "3+",
+          "S": "6",
+          "AP": "-2",
+          "D": "2",
+          "keywords": []
+        }
+      ],
+      "meleeWeapons": [
+        {
+          "name": "Warlord feet",
+          "range": "Melee",
+          "A": "6",
+          "WS": "4+",
+          "S": "12",
+          "AP": "-2",
+          "D": "4",
+          "keywords": []
+        }
+      ],
+      "abilities": [
+        {
+          "name": "Invulnerable Save",
+          "description": "This model has a 5+ invulnerable save against ranged attacks only."
+        },
+        {
+          "name": "Damaged: 1-33 wounds remaining",
+          "description": "While this model has 1-33 wounds remaining, subtract 15 from this model’s Objective Control characteristic and each time this model makes an attack, subtract 1 from the Hit roll."
+        },
+        {
+          "name": "Wrath of the Omnissiah",
+          "description": "In your Shooting phase, after this model has shot, select one enemy unit hit by one or more of those attacks. That unit must take a Battle-shock test."
+        },
+        {
+          "name": "Striding Colossus",
+          "description": "Each time you target this model with a Stratagem, you must spend four times that Stratagem’s stated CP cost to do so."
+        }
+      ]
+    }
+  ],
+  "enhancements": []
+}

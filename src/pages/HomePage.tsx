@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import { Link } from 'react-router-dom'
 import { copy } from '../lib/copy'
+import { publicUrl } from '../lib/public-url'
 import { loadActiveGame, loadHistory } from '../lib/storage'
 import { getWinner } from '../lib/game-utils'
 import { calculateWtcScores } from '../lib/wtc-scoring'
@@ -61,15 +62,66 @@ export function HomePage() {
         </section>
       )}
 
-      <section className="grid grid-cols-1 gap-3 min-[400px]:grid-cols-2">
-        <FeatureCard
-          to="/detachments"
-          title={copy.home.listsTitle}
-          desc={copy.home.listsDesc}
-          glyph="DP"
-        />
-        <FeatureCard to="/rules" title={copy.home.rulesTitle} desc={copy.home.rulesDesc} glyph="CA" />
+      <section className="space-y-3">
+        <div>
+          <h2 className="font-display text-xs tracking-wide text-accent-dim">{copy.formats.sectionTitle}</h2>
+          <p className="mt-1 text-[11px] text-muted">{copy.formats.sectionHint}</p>
+        </div>
+
+        <Link
+          to="/teams"
+          className="app-btn flex w-full min-h-[4.5rem] flex-col items-stretch justify-center gap-1 py-4 text-left"
+        >
+          <span className="text-[11px] font-medium uppercase tracking-widest text-white/80">
+            {copy.formats.teams.badge}
+          </span>
+          <span className="font-display text-base tracking-wide">{copy.formats.teams.title}</span>
+          <span className="text-sm font-normal text-white/75">{copy.formats.teams.subtitle}</span>
+        </Link>
+
+        <Link
+          to="/formats/dominatus"
+          className="app-btn-ghost flex w-full min-h-[4rem] flex-col items-stretch justify-center gap-1 py-3.5 text-left"
+        >
+          <span className="flex items-center gap-2">
+            <span className="font-display text-sm tracking-wide text-bone">{copy.formats.dominatus.title}</span>
+            <span className="rounded border border-white/15 px-1.5 py-0.5 text-[9px] uppercase tracking-wide text-muted">
+              {copy.formats.comingSoon}
+            </span>
+          </span>
+          <span className="text-xs text-muted">{copy.formats.dominatus.subtitle}</span>
+        </Link>
+
+        <Link
+          to="/formats/doubles"
+          className="app-btn-ghost flex w-full min-h-[4rem] flex-col items-stretch justify-center gap-1 py-3.5 text-left"
+        >
+          <span className="flex items-center gap-2">
+            <span className="font-display text-sm tracking-wide text-bone">{copy.formats.doubles.title}</span>
+            <span className="rounded border border-white/15 px-1.5 py-0.5 text-[9px] uppercase tracking-wide text-muted">
+              {copy.formats.comingSoon}
+            </span>
+          </span>
+          <span className="text-xs text-muted">{copy.formats.doubles.subtitle}</span>
+        </Link>
       </section>
+
+      <section className="grid grid-cols-1 gap-3">
+        <FeatureCard
+          to="/mission-sequence"
+          title={copy.missionSequence.title}
+          desc={copy.missionSequence.subtitle}
+          glyph="MS"
+        />
+      </section>
+
+      <p className="text-center text-xs text-muted">
+        <Link to="/lists" className="text-accent underline-offset-2 hover:underline">
+          {copy.home.armyListsCta}
+        </Link>
+        {' · '}
+        <span className="text-muted/70">{copy.home.armyListsBadge}</span>
+      </p>
 
       <p className="text-center text-[11px] leading-relaxed text-muted/80">
         {copy.home.credit}
@@ -87,7 +139,7 @@ function Hero() {
     <div className="dw-hero">
       {photoOk && (
         <img
-          src="/deathwatch/team-deathwatch.jpg"
+          src={publicUrl('/deathwatch/team-deathwatch.jpg')}
           alt=""
           className="dw-hero-photo"
           onError={() => setPhotoOk(false)}

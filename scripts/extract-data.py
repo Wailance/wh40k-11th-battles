@@ -56,26 +56,39 @@ def main():
             target = 'xl/' + rid_to_path[rid].lstrip('/')
             sheets[s.get('name')] = read_sheet(z, shared, target)
 
+    def parse_det_row(vals):
+        if len(vals) < 2 or ' DP' not in vals[1]:
+            return None
+        dp = int(vals[1].replace(' DP', '').strip())
+        note = vals[3] if len(vals) > 3 and vals[3] not in FD else ''
+        fd = vals[4] if len(vals) > 4 else (vals[3] if len(vals) > 3 else '')
+        return {'name': vals[2], 'dp': dp, 'note': note, 'forceDisposition': fd}
+
     def parse_det(sheet_name, category):
         rows = sheets[sheet_name]
         armies, current = [], None
         for r in sorted(rows):
             vals = row_vals(rows, r)
-            if not vals: continue
-            if vals[0].startswith('http'):
-                if current: current['factionPackUrl'] = vals[0]
+            if not vals:
                 continue
-            if len(vals) < 2 or ' DP' not in vals[1]: continue
-            dp = int(vals[1].replace(' DP','').strip())
-            note = vals[3] if len(vals)>3 and vals[3] not in FD else ''
-            fd = vals[4] if len(vals)>4 else (vals[3] if len(vals)>3 else '')
-            det = {'name': vals[2], 'dp': dp, 'note': note, 'forceDisposition': fd}
+            if vals[0].startswith('http'):
+                if current:
+                    current['factionPackUrl'] = vals[0]
+                    det = parse_det_row(vals)
+                    if det:
+                        current['detachments'].append(det)
+                continue
+            det = parse_det_row(vals)
+            if not det:
+                continue
             if vals[0]:
-                if current: armies.append(current)
+                if current:
+                    armies.append(current)
                 current = {'army': vals[0], 'category': category, 'factionPackUrl': '', 'detachments': [det]}
             elif current:
                 current['detachments'].append(det)
-        if current: armies.append(current)
+        if current:
+            armies.append(current)
         return armies
 
     all_armies = []
@@ -101,16 +114,29 @@ def main():
         'RECONNAISSANCE': 3, 'PRIORITY ASSETS': 4,
     }
 
+    SECONDARY_ALIASES = {'Engage on all Fronts': 'Engage on All Fronts'}
+
+    def canon_secondary(name):
+        return SECONDARY_ALIASES.get(name, name)
+
     secondaries_confirmed, secondaries_leaked = [], []
     mode = None
     for r in sorted(sheets['Secondary']):
         cells = sheets['Secondary'][r]
         v1 = cells.get(1,'')
-        if v1 == 'Cards presented': mode = 'confirmed'
-        elif v1 == 'Confirmed': mode = 'leaked'
+        if v1 == 'Cards presented':
+            mode = 'confirmed'
+        elif v1 == 'Confirmed':
+            # 18th card (A Tempting Target) listed after the initial 17
+            mode = 'confirmed_late'
+        elif v1 == 'LEAK BELOW':
+            mode = 'leaked'
         elif mode == 'confirmed' and v1 and v1 not in ('18 SECONDARIES CONFIRMED',):
-            secondaries_confirmed.append(v1)
-        elif mode == 'leaked' and v1 and v1 != 'LEAK BELOW':
+            secondaries_confirmed.append(canon_secondary(v1))
+        elif mode == 'confirmed_late' and v1:
+            secondaries_confirmed.append(canon_secondary(v1))
+            mode = 'skip_card_body'
+        elif mode == 'leaked' and v1 and v1 not in ('LEAK BELOW',) and v1.isupper() and len(v1) < 40:
             secondaries_leaked.append(v1)
 
     def parse_rules(sheet_name):
@@ -130,12 +156,28 @@ def main():
         if current: rules.append(current)
         return [x for x in rules if x['title'] or x['body']]
 
+    matchup_fd = {m['id']: m for m in matchups}
+    seen_layouts = set()
     layouts = []
     for r in sorted(sheets['Layouts']):
         cells = sheets['Layouts'][r]
         k, p1, p2, avail = cells.get(1,''), cells.get(2,''), cells.get(3,''), cells.get(4,'')
-        if k.startswith('#') and p1 in FD:
-            layouts.append({'id': int(k.replace('#','')), 'player1': p1, 'player2': p2, 'available': avail != 'NOT AVAILABLE'})
+        if not k.startswith('#') or not p1:
+            continue
+        mid = int(k.replace('#', ''))
+        if mid in seen_layouts:
+            continue
+        fd = matchup_fd.get(mid)
+        if not fd:
+            continue
+        seen_layouts.add(mid)
+        layouts.append({
+            'id': mid,
+            'player1': fd['player1'],
+            'player2': fd['player2'],
+            'available': avail != 'NOT AVAILABLE',
+        })
+    layouts.sort(key=lambda l: l['id'])
 
     data = {
         'version': '0.4', 'source': 'Veizla.gg',

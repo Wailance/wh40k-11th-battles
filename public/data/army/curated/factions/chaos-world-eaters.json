@@ -1,0 +1,4767 @@
+{
+  "id": "df9a-59b2-f464-59ad",
+  "name": "World Eaters",
+  "catalogueName": "Chaos - World Eaters",
+  "units": [
+    {
+      "id": "f4b8-1179-de57-4d69",
+      "name": "Angron",
+      "points": 340,
+      "keywords": [
+        "Monster",
+        "Fly",
+        "Character",
+        "Epic Hero",
+        "Chaos",
+        "Khorne",
+        "Daemon",
+        "Primarch"
+      ],
+      "factionKeywords": [
+        "World Eaters"
+      ],
+      "stats": {
+        "M": "14\"",
+        "T": "11",
+        "SV": "2+",
+        "W": "16",
+        "LD": "5+",
+        "OC": "6"
+      },
+      "rangedWeapons": [],
+      "meleeWeapons": [
+        {
+          "name": "➤ Samni’arius and Spinegrinder - strike",
+          "range": "Melee",
+          "A": "8",
+          "WS": "2+",
+          "S": "14",
+          "AP": "-3",
+          "D": "D6+2",
+          "keywords": [
+            "Devastating Wounds"
+          ]
+        },
+        {
+          "name": "➤ Samni’arius and Spinegrinder - sweep",
+          "range": "Melee",
+          "A": "16",
+          "WS": "2+",
+          "S": "7",
+          "AP": "-2",
+          "D": "2",
+          "keywords": [
+            "Devastating Wounds"
+          ]
+        }
+      ],
+      "abilities": [
+        {
+          "name": "Invulnerable Save",
+          "description": "This model has a 4+ invulnerable save."
+        },
+        {
+          "name": "Reborn in Blood",
+          "description": "At the start of the battle round, when you make a Blessings of Khorne roll, if this model is destroyed, you can use a triple 6 from that roll to use this ability instead of activating any Blessings of Khorne at the start of that battle round. If you do, this model is no longer destroyed and in the Reinforcements step of your next Movement phase, it is set up anywhere on the battlefield using its Deep Strike ability, with 8 wounds remaining."
+        },
+        {
+          "name": "Wrathful Presence",
+          "description": "At the start of the battle round, select one Wrathful Presence ability. Until the start of the next battle round, this model has that ability."
+        },
+        {
+          "name": "Damaged: 1-6 wounds remaining",
+          "description": "While this model has 1-6 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
+        }
+      ]
+    },
+    {
+      "id": "3449-7dac-6ac8-5d51",
+      "name": "Khârn the Betrayer",
+      "points": 100,
+      "keywords": [
+        "Infantry",
+        "Character",
+        "Epic Hero",
+        "Grenades",
+        "Chaos",
+        "Khorne"
+      ],
+      "factionKeywords": [
+        "World Eaters"
+      ],
+      "stats": {
+        "M": "8\"",
+        "T": "4",
+        "SV": "3+",
+        "W": "5",
+        "LD": "6+",
+        "OC": "1"
+      },
+      "rangedWeapons": [
+        {
+          "name": "➤ Plasma pistol - standard",
+          "range": "12\"",
+          "A": "1",
+          "BS": "3+",
+          "S": "7",
+          "AP": "-2",
+          "D": "1",
+          "keywords": [
+            "Pistol"
+          ]
+        },
+        {
+          "name": "➤ Plasma pistol - supercharge",
+          "range": "12\"",
+          "A": "1",
+          "BS": "3+",
+          "S": "8",
+          "AP": "-3",
+          "D": "2",
+          "keywords": [
+            "Hazardous",
+            "Pistol"
+          ]
+        }
+      ],
+      "meleeWeapons": [
+        {
+          "name": "Gorechild",
+          "range": "Melee",
+          "A": "8",
+          "WS": "2+",
+          "S": "7",
+          "AP": "-2",
+          "D": "3",
+          "keywords": []
+        }
+      ],
+      "abilities": [
+        {
+          "name": "Legendary Killer",
+          "description": "While this model is leading a unit, each time a model in that unit makes a melee attack, re-roll a Hit roll of 1 and re-roll a Wound roll of 1."
+        },
+        {
+          "name": "The Betrayer",
+          "description": "At the end of your Charge phase, if this model is leading a unit and that unit is not within Engagement Range of one or more enemy units, you must take a Leadership test for this model. If that test is failed, one Bodyguard model of your choice in that unit is destroyed."
+        },
+        {
+          "name": "Berserker Frenzy",
+          "description": "The first time this model is destroyed, at the end of the phase, roll one D6: on a 2+, set this model back up on the battlefield as close as possible to where it was destroyed and not within Engagement Range of any enemy units, with 3 wounds remaining."
+        },
+        {
+          "name": "Invulnerable Save",
+          "description": "This model has a 4+ invulnerable save."
+        },
+        {
+          "name": "Leader",
+          "description": "This model can be attached to the following unit: ^^**Khorne Berzerkers^^**"
+        }
+      ]
+    },
+    {
+      "id": "3b15-b424-2059-71fa",
+      "name": "Lord Invocatus",
+      "points": 110,
+      "keywords": [
+        "Mounted",
+        "Character",
+        "Epic Hero",
+        "Chaos",
+        "Khorne"
+      ],
+      "factionKeywords": [
+        "World Eaters"
+      ],
+      "stats": {
+        "M": "10\"",
+        "T": "6",
+        "SV": "3+",
+        "W": "8",
+        "LD": "6+",
+        "OC": "2"
+      },
+      "rangedWeapons": [
+        {
+          "name": "Bolt pistol",
+          "range": "12\"",
+          "A": "1",
+          "BS": "2+",
+          "S": "4",
+          "AP": "0",
+          "D": "1",
+          "keywords": [
+            "Pistol"
+          ]
+        }
+      ],
+      "meleeWeapons": [
+        {
+          "name": "Coward's Bane",
+          "range": "Melee",
+          "A": "7",
+          "WS": "2+",
+          "S": "6",
+          "AP": "-2",
+          "D": "2",
+          "keywords": [
+            "Devastating Wounds"
+          ]
+        },
+        {
+          "name": "Bladed horn",
+          "range": "Melee",
+          "A": "4",
+          "WS": "3+",
+          "S": "6",
+          "AP": "-1",
+          "D": "2",
+          "keywords": [
+            "Extra Attacks",
+            "Lance"
+          ]
+        }
+      ],
+      "abilities": [
+        {
+          "name": "Invulnerable Save",
+          "description": "This model has a 4+ invulnerable save."
+        },
+        {
+          "name": "Leader",
+          "description": "This model can be attached to the following units: ^^**Eightbound^^**, ^^**Exalted Eightbound^^**, ^^**Khorne Berzerkers^^**"
+        },
+        {
+          "name": "Fire Riders",
+          "description": "While this model is leading a unit, models in that unit have the Deep Strike ability and each time a model in that unit makes a Normal, Advance, Fall Back or Charge move, it can move horizontally through models and terrain features. When making a Normal, Advance or Fall Back move, models in that unit can move within Engagement Range of enemy models, but cannot end that move within Engagement Range of them and any Desperate Escape test is automatically passed."
+        },
+        {
+          "name": "Bloody Stampede",
+          "description": "Each time this model's unit ends a Charge move, select one enemy unit within Engagement Range of this model, then roll one D6: on a 2-3, that enemy unit suffers 1 mortal wound; on a 4-5, that enemy unit suffers D3 mortal wounds; on a 6, that enemy unit suffers D3+3 mortal wounds."
+        }
+      ]
+    },
+    {
+      "id": "40c5-9ebd-6d42-2855",
+      "name": "Daemon Prince of Khorne",
+      "points": 200,
+      "keywords": [
+        "Monster",
+        "Character",
+        "Chaos",
+        "Khorne",
+        "Daemon",
+        "Daemon Prince"
+      ],
+      "factionKeywords": [
+        "World Eaters"
+      ],
+      "stats": {
+        "M": "10\"",
+        "T": "10",
+        "SV": "2+",
+        "W": "10",
+        "LD": "6+",
+        "OC": "3"
+      },
+      "rangedWeapons": [
+        {
+          "name": "Infernal cannon",
+          "range": "24\"",
+          "A": "3",
+          "BS": "3+",
+          "S": "5",
+          "AP": "-1",
+          "D": "2",
+          "keywords": [
+            "Rapid Fire 1"
+          ]
+        }
+      ],
+      "meleeWeapons": [
+        {
+          "name": "➤ Hellforged weapons - strike",
+          "range": "Melee",
+          "A": "8",
+          "WS": "2+",
+          "S": "8",
+          "AP": "-2",
+          "D": "3",
+          "keywords": []
+        },
+        {
+          "name": "➤ Hellforged weapons - sweep",
+          "range": "Melee",
+          "A": "16",
+          "WS": "2+",
+          "S": "6",
+          "AP": "-1",
+          "D": "1",
+          "keywords": []
+        }
+      ],
+      "abilities": [
+        {
+          "name": "Invulnerable Save",
+          "description": "This model has a 4+ invulnerable save."
+        },
+        {
+          "name": "Lord of Murder",
+          "description": "While this model is within 3\" of one or more friendly ^^**World Eaters Infantry**^^ units, this model has the Lone Operative ability."
+        },
+        {
+          "name": "Devastating Assault",
+          "description": "Each time this model makes a Charge move, until the end of the turn, its hellforged weapons have the [DEVASTATING WOUNDS] ability."
+        },
+        {
+          "name": "Direct the Slaughter",
+          "description": "Once per battle round, one model from your army with this ability can use it when a friendly ^^**World Eaters^^** unit within 12\" of this model is targeted with a Stratagem. If it does, reduce the CP cost of that Stratagem by 1CP."
+        },
+        {
+          "name": "Berzerker Glaive",
+          "description": "Add 1 to the Attacks and Damage characteristics of melee weapons (excluding Extra Attacks weapons) equipped by the bearer."
+        },
+        {
+          "name": "Battle-lust",
+          "description": "You can re-roll Charge rolls made for the bearer's unit. In addition, while the Unbridled Bloodlust Blessing of Khorne is active for your army, add 1 to Charge rolls made for the bearer's unit."
+        },
+        {
+          "name": "Helm of Brazen Ire",
+          "description": "Each time an attack is allocated to the bearer, subtract 1 from the Damage characteristic of that attack."
+        },
+        {
+          "name": "Favoured of Khorne",
+          "description": "Each time you make a Blessings of Khorne roll, if the bearer is on the battlefield, you can re-roll up to 2 of the D6 rolled."
+        },
+        {
+          "name": "Archslaughterer",
+          "description": "Improve the Armour Penetration characteristic of melee weapons equipped by the bearer by 1. While the bearer is a **^^Vessel Of Wrath^^**, improve the Damage characteristic of those weapons by 1 as well."
+        },
+        {
+          "name": "Vox-Diabolus",
+          "description": "Each time the bearer’s unit destroys an enemy unit with a melee attack, roll one D6, adding 1 to the result if the bearer is a VESSEL OF WRATH: on a 4+, you gain 1CP."
+        },
+        {
+          "name": "Avenger's Crown",
+          "description": "If the bearer is destroyed by a melee attack, if it has not fought this phase, roll one D6: on a 2+, do not remove it from play. The destroyed model can fight after the attacking unit has finished making its attacks, and is then removed from play."
+        },
+        {
+          "name": "Gateways to Glory",
+          "description": "Each time the bearer makes a Normal, Advance or Charge move, it can move horizontally through models and terrain features. When doing so, it can move within Engagement Range of such models but cannot end a Normal or Advance move within Engagement Range of them."
+        },
+        {
+          "name": "Brazen Form",
+          "description": "Add 1 to the bearer's Toughness characteristic and the bearer has the Feel No Pain 5+ ability."
+        },
+        {
+          "name": "Butcher Lord",
+          "description": "During the Declare Battle Formations step, the bearer can be attached to a ^^**Jakhals^^** or ^^**Goremongers^^** unit. If attached to a ^^**Goremongers^^** unit, the bearer has the Infiltrators ability."
+        },
+        {
+          "name": "Chosen of the Blood God",
+          "description": "Add 3\" to the range of the bearer's Aura abilities."
+        },
+        {
+          "name": "Strategic Slaughter",
+          "description": "After both players have deployed their armies, select up to 3 ^^**Jakhals^^** and/or ^^**Goremongers^^** units from your army and redeploy them. When doing so, you can set those units up in Strategic Reserves, regardless of how many units are already in Strategic Reserves."
+        },
+        {
+          "name": "Disciple of Khorne",
+          "description": "During the Declare Battle Formations step, the bearer can be attached to a ^^**Bloodcrushers^^** or ^^**Flesh Hounds^^** unit. While leading one of these units, the bearer has the Deep Strike ability, and it has the ^^**Blood Legions^^** Faction keyword instead of the ^^**World Eaters^^** Faction keyword."
+        },
+        {
+          "name": "Blood-forged Armour",
+          "description": "The bearer has a Save characteristic of 2+. If the bearer is destroyed, you gain 1 Blood Tithe point."
+        },
+        {
+          "name": "Icon of War",
+          "description": "While a friendly ^^**Blood Legions^^** unit is within 6\" of the bearer, that unit has the Blessings of Khorne ability. If the Might of Khorne ability is active for your army, then while a friendly ^^**Blood Legions^^** unit is within 6\" of the bearer, you can re-roll Battle-shock tests taken for that unit."
+        },
+        {
+          "name": "Blade of Endless Bloodshed",
+          "description": "Add 1 to the Attacks, Strength and Damage characteristics of the bearer's melee weapons. Each time the bearer's unit destroys an enemy unit with a melee attack, do not roll to gain a Blood Tithe point, you automatically gain 1 Blood Tithe point instead."
+        },
+        {
+          "name": "Frenzied Focus",
+          "description": "Each time a model in the bearer's unit makes an attack, a Critical Hit is scored on an unmodified Hit roll of 5+, instead of only a 6."
+        },
+        {
+          "name": "Killing Clarity",
+          "description": "Each time the bearer's unit destroys an enemy unit, roll one D6: on a 4+, you gain 1CP."
+        },
+        {
+          "name": "Violent Demise",
+          "description": "The bearer's Deadly Demise ability inflicts mortal wounds on a D6 roll of 2+ instead of on a 6. In addition, the bearer has the Deadly Demise D3+1 ability, instead of the Deadly Demise D3 ability."
+        },
+        {
+          "name": "Malicious Vigour",
+          "description": "Each time the bearer's unit makes a Brazen Fury move, it is treated as having rolled a 6 for the distance the unit can be moved."
+        },
+        {
+          "name": "Aggressive Deployment",
+          "description": "In the Declare Battle Formations step, if the bearer starts the battle embarked within a ^^**Dedicated Transport^^**, that ^^**Dedicated Transport^^** has the Scouts 9\" ability."
+        },
+        {
+          "name": "Unleash Hell",
+          "description": "At the start of your Shooting phase, you can select one ^^**Vehicle^^** model within 6\" of the bearer or, if the bearer is embarked within a ^^**Transport^^**, you can select that ^^**Transport^^** model. Until the end of the phase, after the selected model has shot, select one enemy unit hit by one or more of those attacks. Until the start of your next turn, that enemy unit is suppressed. While a unit is suppressed, each time a model in that unit makes an attack, subtract 1 from the Hit roll."
+        },
+        {
+          "name": "Infernal Infusion",
+          "description": "Once per battle, at the start of the Fight phase, the bearer can use this Enhancement. If it does, until the end of the phase, the bearer's unit has the Fights First ability."
+        },
+        {
+          "name": "Murderous Onslaught",
+          "description": "If the bearer's unit disembarked from a ^^**Transport^^** this turn, until the end of the turn, enemy units cannot use the Fire Overwatch Stratagem to shoot at the bearer's unit."
+        },
+        {
+          "name": "Collar of Khorne",
+          "description": "This model has the Feel No Pain 4+ ability against Psychic Attacks. While this model is leading a unit, Bodyguard models in that unit have the Feel No Pain 5+ ability against Psychic Attacks."
+        },
+        {
+          "name": "Bestial Limbs",
+          "description": "Add 1 to Advance and Charge rolls for this model's unit."
+        },
+        {
+          "name": "Muscular Bulk",
+          "description": "Add 2 to this model's Wounds characteristic."
+        },
+        {
+          "name": "Jagged Horns",
+          "description": "This model's melee weapons have the **[LANCE]** ability."
+        },
+        {
+          "name": "Daemonic Visage",
+          "description": "Improve this model's Leadership characteristic by 1 and its Objective Control characteristic by 2. If this model is within range of an objective marker you control that is wholly within your opponent's deployment zone at the end of the battle, you gain 1RP."
+        },
+        {
+          "name": "Brazen Flesh",
+          "description": "This model has a Save characteristic of 2+."
+        },
+        {
+          "name": "Steel Sinews",
+          "description": "Add 1\" to the Move characteristic of models in this model's unit and add 1 to Advance rolls made for this model's unit."
+        },
+        {
+          "name": "Tearing Claws",
+          "description": "Add 1 to the Attacks characteristic of melee weapons equipped by this model. If this model destroys eight or more models during a battle, at the end of the battle, it gains 1 bonus Skull point."
+        },
+        {
+          "name": "Warp Strength",
+          "description": "Improve the Strength characteristic of melee weapons equipped by this model by 2. If this model destroys one or more **^^Monster^^** models and/or one or more **^^Character^^** models during a battle, at the end of the battle, it gains 1 bonus Skull point."
+        }
+      ]
+    },
+    {
+      "id": "0294-61a4-c6ed-b2e8",
+      "name": "Daemon Prince of Khorne with wings",
+      "points": 180,
+      "keywords": [
+        "Monster",
+        "Character",
+        "Chaos",
+        "Khorne",
+        "Daemon",
+        "Daemon Prince",
+        "Fly"
+      ],
+      "factionKeywords": [
+        "World Eaters"
+      ],
+      "stats": {
+        "M": "14\"",
+        "T": "9",
+        "SV": "2+",
+        "W": "10",
+        "LD": "6+",
+        "OC": "3"
+      },
+      "rangedWeapons": [
+        {
+          "name": "Infernal cannon",
+          "range": "24\"",
+          "A": "3",
+          "BS": "3+",
+          "S": "5",
+          "AP": "-1",
+          "D": "2",
+          "keywords": [
+            "Rapid Fire 1"
+          ]
+        }
+      ],
+      "meleeWeapons": [
+        {
+          "name": "➤ Hellforged weapons - strike",
+          "range": "Melee",
+          "A": "8",
+          "WS": "2+",
+          "S": "8",
+          "AP": "-2",
+          "D": "3",
+          "keywords": []
+        },
+        {
+          "name": "➤ Hellforged weapons - sweep",
+          "range": "Melee",
+          "A": "16",
+          "WS": "2+",
+          "S": "6",
+          "AP": "-1",
+          "D": "1",
+          "keywords": []
+        }
+      ],
+      "abilities": [
+        {
+          "name": "Invulnerable Save",
+          "description": "This model has a 4+ invulnerable save."
+        },
+        {
+          "name": "Bloodied Terror",
+          "description": "At the start of the Fight phase, each enemy unit within Engagement Range of this model must take a Battle-shock test, subtracting 1 if that enemy unit is Below Half-strength."
+        },
+        {
+          "name": "Swooping Predator",
+          "description": "Each time this model ends a Normal or Advance move, you can select one enemy unit that it moved over during that move and roll 6 D6: for each 4+, that enemy unit suffers 1 mortal wound."
+        },
+        {
+          "name": "Berzerker Glaive",
+          "description": "Add 1 to the Attacks and Damage characteristics of melee weapons (excluding Extra Attacks weapons) equipped by the bearer."
+        },
+        {
+          "name": "Battle-lust",
+          "description": "You can re-roll Charge rolls made for the bearer's unit. In addition, while the Unbridled Bloodlust Blessing of Khorne is active for your army, add 1 to Charge rolls made for the bearer's unit."
+        },
+        {
+          "name": "Helm of Brazen Ire",
+          "description": "Each time an attack is allocated to the bearer, subtract 1 from the Damage characteristic of that attack."
+        },
+        {
+          "name": "Favoured of Khorne",
+          "description": "Each time you make a Blessings of Khorne roll, if the bearer is on the battlefield, you can re-roll up to 2 of the D6 rolled."
+        },
+        {
+          "name": "Archslaughterer",
+          "description": "Improve the Armour Penetration characteristic of melee weapons equipped by the bearer by 1. While the bearer is a **^^Vessel Of Wrath^^**, improve the Damage characteristic of those weapons by 1 as well."
+        },
+        {
+          "name": "Vox-Diabolus",
+          "description": "Each time the bearer’s unit destroys an enemy unit with a melee attack, roll one D6, adding 1 to the result if the bearer is a VESSEL OF WRATH: on a 4+, you gain 1CP."
+        },
+        {
+          "name": "Avenger's Crown",
+          "description": "If the bearer is destroyed by a melee attack, if it has not fought this phase, roll one D6: on a 2+, do not remove it from play. The destroyed model can fight after the attacking unit has finished making its attacks, and is then removed from play."
+        },
+        {
+          "name": "Gateways to Glory",
+          "description": "Each time the bearer makes a Normal, Advance or Charge move, it can move horizontally through models and terrain features. When doing so, it can move within Engagement Range of such models but cannot end a Normal or Advance move within Engagement Range of them."
+        },
+        {
+          "name": "Brazen Form",
+          "description": "Add 1 to the bearer's Toughness characteristic and the bearer has the Feel No Pain 5+ ability."
+        },
+        {
+          "name": "Butcher Lord",
+          "description": "During the Declare Battle Formations step, the bearer can be attached to a ^^**Jakhals^^** or ^^**Goremongers^^** unit. If attached to a ^^**Goremongers^^** unit, the bearer has the Infiltrators ability."
+        },
+        {
+          "name": "Chosen of the Blood God",
+          "description": "Add 3\" to the range of the bearer's Aura abilities."
+        },
+        {
+          "name": "Strategic Slaughter",
+          "description": "After both players have deployed their armies, select up to 3 ^^**Jakhals^^** and/or ^^**Goremongers^^** units from your army and redeploy them. When doing so, you can set those units up in Strategic Reserves, regardless of how many units are already in Strategic Reserves."
+        },
+        {
+          "name": "Disciple of Khorne",
+          "description": "During the Declare Battle Formations step, the bearer can be attached to a ^^**Bloodcrushers^^** or ^^**Flesh Hounds^^** unit. While leading one of these units, the bearer has the Deep Strike ability, and it has the ^^**Blood Legions^^** Faction keyword instead of the ^^**World Eaters^^** Faction keyword."
+        },
+        {
+          "name": "Blood-forged Armour",
+          "description": "The bearer has a Save characteristic of 2+. If the bearer is destroyed, you gain 1 Blood Tithe point."
+        },
+        {
+          "name": "Icon of War",
+          "description": "While a friendly ^^**Blood Legions^^** unit is within 6\" of the bearer, that unit has the Blessings of Khorne ability. If the Might of Khorne ability is active for your army, then while a friendly ^^**Blood Legions^^** unit is within 6\" of the bearer, you can re-roll Battle-shock tests taken for that unit."
+        },
+        {
+          "name": "Blade of Endless Bloodshed",
+          "description": "Add 1 to the Attacks, Strength and Damage characteristics of the bearer's melee weapons. Each time the bearer's unit destroys an enemy unit with a melee attack, do not roll to gain a Blood Tithe point, you automatically gain 1 Blood Tithe point instead."
+        },
+        {
+          "name": "Frenzied Focus",
+          "description": "Each time a model in the bearer's unit makes an attack, a Critical Hit is scored on an unmodified Hit roll of 5+, instead of only a 6."
+        },
+        {
+          "name": "Killing Clarity",
+          "description": "Each time the bearer's unit destroys an enemy unit, roll one D6: on a 4+, you gain 1CP."
+        },
+        {
+          "name": "Violent Demise",
+          "description": "The bearer's Deadly Demise ability inflicts mortal wounds on a D6 roll of 2+ instead of on a 6. In addition, the bearer has the Deadly Demise D3+1 ability, instead of the Deadly Demise D3 ability."
+        },
+        {
+          "name": "Malicious Vigour",
+          "description": "Each time the bearer's unit makes a Brazen Fury move, it is treated as having rolled a 6 for the distance the unit can be moved."
+        },
+        {
+          "name": "Aggressive Deployment",
+          "description": "In the Declare Battle Formations step, if the bearer starts the battle embarked within a ^^**Dedicated Transport^^**, that ^^**Dedicated Transport^^** has the Scouts 9\" ability."
+        },
+        {
+          "name": "Unleash Hell",
+          "description": "At the start of your Shooting phase, you can select one ^^**Vehicle^^** model within 6\" of the bearer or, if the bearer is embarked within a ^^**Transport^^**, you can select that ^^**Transport^^** model. Until the end of the phase, after the selected model has shot, select one enemy unit hit by one or more of those attacks. Until the start of your next turn, that enemy unit is suppressed. While a unit is suppressed, each time a model in that unit makes an attack, subtract 1 from the Hit roll."
+        },
+        {
+          "name": "Infernal Infusion",
+          "description": "Once per battle, at the start of the Fight phase, the bearer can use this Enhancement. If it does, until the end of the phase, the bearer's unit has the Fights First ability."
+        },
+        {
+          "name": "Murderous Onslaught",
+          "description": "If the bearer's unit disembarked from a ^^**Transport^^** this turn, until the end of the turn, enemy units cannot use the Fire Overwatch Stratagem to shoot at the bearer's unit."
+        },
+        {
+          "name": "Collar of Khorne",
+          "description": "This model has the Feel No Pain 4+ ability against Psychic Attacks. While this model is leading a unit, Bodyguard models in that unit have the Feel No Pain 5+ ability against Psychic Attacks."
+        },
+        {
+          "name": "Bestial Limbs",
+          "description": "Add 1 to Advance and Charge rolls for this model's unit."
+        },
+        {
+          "name": "Muscular Bulk",
+          "description": "Add 2 to this model's Wounds characteristic."
+        },
+        {
+          "name": "Jagged Horns",
+          "description": "This model's melee weapons have the **[LANCE]** ability."
+        },
+        {
+          "name": "Daemonic Visage",
+          "description": "Improve this model's Leadership characteristic by 1 and its Objective Control characteristic by 2. If this model is within range of an objective marker you control that is wholly within your opponent's deployment zone at the end of the battle, you gain 1RP."
+        },
+        {
+          "name": "Brazen Flesh",
+          "description": "This model has a Save characteristic of 2+."
+        },
+        {
+          "name": "Steel Sinews",
+          "description": "Add 1\" to the Move characteristic of models in this model's unit and add 1 to Advance rolls made for this model's unit."
+        },
+        {
+          "name": "Tearing Claws",
+          "description": "Add 1 to the Attacks characteristic of melee weapons equipped by this model. If this model destroys eight or more models during a battle, at the end of the battle, it gains 1 bonus Skull point."
+        },
+        {
+          "name": "Warp Strength",
+          "description": "Improve the Strength characteristic of melee weapons equipped by this model by 2. If this model destroys one or more **^^Monster^^** models and/or one or more **^^Character^^** models during a battle, at the end of the battle, it gains 1 bonus Skull point."
+        }
+      ]
+    },
+    {
+      "id": "ec72-f024-4283-0558",
+      "name": "Lord on Juggernaut",
+      "points": 105,
+      "keywords": [
+        "Mounted",
+        "Character",
+        "Chaos",
+        "Khorne"
+      ],
+      "factionKeywords": [
+        "World Eaters"
+      ],
+      "stats": {
+        "M": "10\"",
+        "T": "6",
+        "SV": "3+",
+        "W": "7",
+        "LD": "6+",
+        "OC": "2"
+      },
+      "rangedWeapons": [
+        {
+          "name": "➤ Plasma pistol - standard",
+          "range": "12\"",
+          "A": "1",
+          "BS": "3+",
+          "S": "7",
+          "AP": "-2",
+          "D": "1",
+          "keywords": [
+            "Pistol"
+          ]
+        },
+        {
+          "name": "➤ Plasma pistol - supercharge",
+          "range": "12\"",
+          "A": "1",
+          "BS": "3+",
+          "S": "8",
+          "AP": "-3",
+          "D": "2",
+          "keywords": [
+            "Hazardous",
+            "Pistol"
+          ]
+        }
+      ],
+      "meleeWeapons": [
+        {
+          "name": "Bladed horn",
+          "range": "Melee",
+          "A": "4",
+          "WS": "3+",
+          "S": "6",
+          "AP": "-1",
+          "D": "2",
+          "keywords": [
+            "Extra Attacks",
+            "Lance"
+          ]
+        },
+        {
+          "name": "Exalted chainblade",
+          "range": "Melee",
+          "A": "7",
+          "WS": "2+",
+          "S": "6",
+          "AP": "-1",
+          "D": "2",
+          "keywords": []
+        }
+      ],
+      "abilities": [
+        {
+          "name": "Aggressive Advance",
+          "description": "While this model is leading a unit, models in that unit have a Move characteristic of 10\" and each time a model in that unit makes a Normal, Advance, Fall Back or Charge move, it can move horizontally though terrain features."
+        },
+        {
+          "name": "Crush All Who Stand Before Us",
+          "description": "Each time this model's unit is selected to fight, you can use this ability. When determining which models in this unit are eligible to fight, any models in it that are within 3\" of one or more enemy models are eligible to fight. When resolving those attacks, such models can target one of those enemy units that is within 3\" of them and within Engagement Range of their unit."
+        },
+        {
+          "name": "Invulnerable Save",
+          "description": "This model has a 4+ invulnerable save."
+        },
+        {
+          "name": "Leader",
+          "description": "This model can be attached to the following units: ^^**Eightbound^^**, ^^**Exalted Eightbound^^**, ^^**Khorne Berzerkers^^**"
+        },
+        {
+          "name": "Berzerker Glaive",
+          "description": "Add 1 to the Attacks and Damage characteristics of melee weapons (excluding Extra Attacks weapons) equipped by the bearer."
+        },
+        {
+          "name": "Battle-lust",
+          "description": "You can re-roll Charge rolls made for the bearer's unit. In addition, while the Unbridled Bloodlust Blessing of Khorne is active for your army, add 1 to Charge rolls made for the bearer's unit."
+        },
+        {
+          "name": "Helm of Brazen Ire",
+          "description": "Each time an attack is allocated to the bearer, subtract 1 from the Damage characteristic of that attack."
+        },
+        {
+          "name": "Favoured of Khorne",
+          "description": "Each time you make a Blessings of Khorne roll, if the bearer is on the battlefield, you can re-roll up to 2 of the D6 rolled."
+        },
+        {
+          "name": "Archslaughterer",
+          "description": "Improve the Armour Penetration characteristic of melee weapons equipped by the bearer by 1. While the bearer is a **^^Vessel Of Wrath^^**, improve the Damage characteristic of those weapons by 1 as well."
+        },
+        {
+          "name": "Vox-Diabolus",
+          "description": "Each time the bearer’s unit destroys an enemy unit with a melee attack, roll one D6, adding 1 to the result if the bearer is a VESSEL OF WRATH: on a 4+, you gain 1CP."
+        },
+        {
+          "name": "Avenger's Crown",
+          "description": "If the bearer is destroyed by a melee attack, if it has not fought this phase, roll one D6: on a 2+, do not remove it from play. The destroyed model can fight after the attacking unit has finished making its attacks, and is then removed from play."
+        },
+        {
+          "name": "Gateways to Glory",
+          "description": "Each time the bearer makes a Normal, Advance or Charge move, it can move horizontally through models and terrain features. When doing so, it can move within Engagement Range of such models but cannot end a Normal or Advance move within Engagement Range of them."
+        },
+        {
+          "name": "Brazen Form",
+          "description": "Add 1 to the bearer's Toughness characteristic and the bearer has the Feel No Pain 5+ ability."
+        },
+        {
+          "name": "Butcher Lord",
+          "description": "During the Declare Battle Formations step, the bearer can be attached to a ^^**Jakhals^^** or ^^**Goremongers^^** unit. If attached to a ^^**Goremongers^^** unit, the bearer has the Infiltrators ability."
+        },
+        {
+          "name": "Chosen of the Blood God",
+          "description": "Add 3\" to the range of the bearer's Aura abilities."
+        },
+        {
+          "name": "Strategic Slaughter",
+          "description": "After both players have deployed their armies, select up to 3 ^^**Jakhals^^** and/or ^^**Goremongers^^** units from your army and redeploy them. When doing so, you can set those units up in Strategic Reserves, regardless of how many units are already in Strategic Reserves."
+        },
+        {
+          "name": "Disciple of Khorne",
+          "description": "During the Declare Battle Formations step, the bearer can be attached to a ^^**Bloodcrushers^^** or ^^**Flesh Hounds^^** unit. While leading one of these units, the bearer has the Deep Strike ability, and it has the ^^**Blood Legions^^** Faction keyword instead of the ^^**World Eaters^^** Faction keyword."
+        },
+        {
+          "name": "Blood-forged Armour",
+          "description": "The bearer has a Save characteristic of 2+. If the bearer is destroyed, you gain 1 Blood Tithe point."
+        },
+        {
+          "name": "Icon of War",
+          "description": "While a friendly ^^**Blood Legions^^** unit is within 6\" of the bearer, that unit has the Blessings of Khorne ability. If the Might of Khorne ability is active for your army, then while a friendly ^^**Blood Legions^^** unit is within 6\" of the bearer, you can re-roll Battle-shock tests taken for that unit."
+        },
+        {
+          "name": "Blade of Endless Bloodshed",
+          "description": "Add 1 to the Attacks, Strength and Damage characteristics of the bearer's melee weapons. Each time the bearer's unit destroys an enemy unit with a melee attack, do not roll to gain a Blood Tithe point, you automatically gain 1 Blood Tithe point instead."
+        },
+        {
+          "name": "Frenzied Focus",
+          "description": "Each time a model in the bearer's unit makes an attack, a Critical Hit is scored on an unmodified Hit roll of 5+, instead of only a 6."
+        },
+        {
+          "name": "Killing Clarity",
+          "description": "Each time the bearer's unit destroys an enemy unit, roll one D6: on a 4+, you gain 1CP."
+        },
+        {
+          "name": "Violent Demise",
+          "description": "The bearer's Deadly Demise ability inflicts mortal wounds on a D6 roll of 2+ instead of on a 6. In addition, the bearer has the Deadly Demise D3+1 ability, instead of the Deadly Demise D3 ability."
+        },
+        {
+          "name": "Malicious Vigour",
+          "description": "Each time the bearer's unit makes a Brazen Fury move, it is treated as having rolled a 6 for the distance the unit can be moved."
+        },
+        {
+          "name": "Aggressive Deployment",
+          "description": "In the Declare Battle Formations step, if the bearer starts the battle embarked within a ^^**Dedicated Transport^^**, that ^^**Dedicated Transport^^** has the Scouts 9\" ability."
+        },
+        {
+          "name": "Unleash Hell",
+          "description": "At the start of your Shooting phase, you can select one ^^**Vehicle^^** model within 6\" of the bearer or, if the bearer is embarked within a ^^**Transport^^**, you can select that ^^**Transport^^** model. Until the end of the phase, after the selected model has shot, select one enemy unit hit by one or more of those attacks. Until the start of your next turn, that enemy unit is suppressed. While a unit is suppressed, each time a model in that unit makes an attack, subtract 1 from the Hit roll."
+        },
+        {
+          "name": "Infernal Infusion",
+          "description": "Once per battle, at the start of the Fight phase, the bearer can use this Enhancement. If it does, until the end of the phase, the bearer's unit has the Fights First ability."
+        },
+        {
+          "name": "Murderous Onslaught",
+          "description": "If the bearer's unit disembarked from a ^^**Transport^^** this turn, until the end of the turn, enemy units cannot use the Fire Overwatch Stratagem to shoot at the bearer's unit."
+        },
+        {
+          "name": "Collar of Khorne",
+          "description": "This model has the Feel No Pain 4+ ability against Psychic Attacks. While this model is leading a unit, Bodyguard models in that unit have the Feel No Pain 5+ ability against Psychic Attacks."
+        },
+        {
+          "name": "Bestial Limbs",
+          "description": "Add 1 to Advance and Charge rolls for this model's unit."
+        },
+        {
+          "name": "Muscular Bulk",
+          "description": "Add 2 to this model's Wounds characteristic."
+        },
+        {
+          "name": "Jagged Horns",
+          "description": "This model's melee weapons have the **[LANCE]** ability."
+        },
+        {
+          "name": "Daemonic Visage",
+          "description": "Improve this model's Leadership characteristic by 1 and its Objective Control characteristic by 2. If this model is within range of an objective marker you control that is wholly within your opponent's deployment zone at the end of the battle, you gain 1RP."
+        },
+        {
+          "name": "Brazen Flesh",
+          "description": "This model has a Save characteristic of 2+."
+        },
+        {
+          "name": "Steel Sinews",
+          "description": "Add 1\" to the Move characteristic of models in this model's unit and add 1 to Advance rolls made for this model's unit."
+        },
+        {
+          "name": "Tearing Claws",
+          "description": "Add 1 to the Attacks characteristic of melee weapons equipped by this model. If this model destroys eight or more models during a battle, at the end of the battle, it gains 1 bonus Skull point."
+        },
+        {
+          "name": "Warp Strength",
+          "description": "Improve the Strength characteristic of melee weapons equipped by this model by 2. If this model destroys one or more **^^Monster^^** models and/or one or more **^^Character^^** models during a battle, at the end of the battle, it gains 1 bonus Skull point."
+        }
+      ]
+    },
+    {
+      "id": "1b56-682c-ac33-bc5f",
+      "name": "Master of Executions",
+      "points": 60,
+      "keywords": [
+        "Infantry",
+        "Character",
+        "Chaos",
+        "Khorne"
+      ],
+      "factionKeywords": [
+        "World Eaters"
+      ],
+      "stats": {
+        "M": "8\"",
+        "T": "4",
+        "SV": "3+",
+        "W": "4",
+        "LD": "6+",
+        "OC": "1"
+      },
+      "rangedWeapons": [
+        {
+          "name": "Bolt pistol",
+          "range": "12\"",
+          "A": "1",
+          "BS": "3+",
+          "S": "4",
+          "AP": "0",
+          "D": "1",
+          "keywords": [
+            "Pistol"
+          ]
+        }
+      ],
+      "meleeWeapons": [
+        {
+          "name": "Axe of dismemberment",
+          "range": "Melee",
+          "A": "5",
+          "WS": "2+",
+          "S": "7",
+          "AP": "-2",
+          "D": "2",
+          "keywords": [
+            "Devastating Wounds",
+            "Precision"
+          ]
+        }
+      ],
+      "abilities": [
+        {
+          "name": "Leader",
+          "description": "This model can be attached to the following unit: ^^**Khorne Berzerkers^^**"
+        },
+        {
+          "name": "A Worthy Skull",
+          "description": "Each time this model makes a melee attack that targets a ^^**Character^^** unit, you can re-roll the Hit roll and you can re-roll the Wound roll. Each time this model's unit destroys a ^^**Character^^** model, you gain 1CP."
+        },
+        {
+          "name": "Forwards, For Blood!",
+          "description": "While this model is leading a unit, you can re-roll Advance rolls made for that unit and each time that unit makes a Blood Surge move, you can re-roll the D6 used to determine how far models in that unit move."
+        },
+        {
+          "name": "Berzerker Glaive",
+          "description": "Add 1 to the Attacks and Damage characteristics of melee weapons (excluding Extra Attacks weapons) equipped by the bearer."
+        },
+        {
+          "name": "Battle-lust",
+          "description": "You can re-roll Charge rolls made for the bearer's unit. In addition, while the Unbridled Bloodlust Blessing of Khorne is active for your army, add 1 to Charge rolls made for the bearer's unit."
+        },
+        {
+          "name": "Helm of Brazen Ire",
+          "description": "Each time an attack is allocated to the bearer, subtract 1 from the Damage characteristic of that attack."
+        },
+        {
+          "name": "Favoured of Khorne",
+          "description": "Each time you make a Blessings of Khorne roll, if the bearer is on the battlefield, you can re-roll up to 2 of the D6 rolled."
+        },
+        {
+          "name": "Archslaughterer",
+          "description": "Improve the Armour Penetration characteristic of melee weapons equipped by the bearer by 1. While the bearer is a **^^Vessel Of Wrath^^**, improve the Damage characteristic of those weapons by 1 as well."
+        },
+        {
+          "name": "Vox-Diabolus",
+          "description": "Each time the bearer’s unit destroys an enemy unit with a melee attack, roll one D6, adding 1 to the result if the bearer is a VESSEL OF WRATH: on a 4+, you gain 1CP."
+        },
+        {
+          "name": "Avenger's Crown",
+          "description": "If the bearer is destroyed by a melee attack, if it has not fought this phase, roll one D6: on a 2+, do not remove it from play. The destroyed model can fight after the attacking unit has finished making its attacks, and is then removed from play."
+        },
+        {
+          "name": "Gateways to Glory",
+          "description": "Each time the bearer makes a Normal, Advance or Charge move, it can move horizontally through models and terrain features. When doing so, it can move within Engagement Range of such models but cannot end a Normal or Advance move within Engagement Range of them."
+        },
+        {
+          "name": "Brazen Form",
+          "description": "Add 1 to the bearer's Toughness characteristic and the bearer has the Feel No Pain 5+ ability."
+        },
+        {
+          "name": "Butcher Lord",
+          "description": "During the Declare Battle Formations step, the bearer can be attached to a ^^**Jakhals^^** or ^^**Goremongers^^** unit. If attached to a ^^**Goremongers^^** unit, the bearer has the Infiltrators ability."
+        },
+        {
+          "name": "Chosen of the Blood God",
+          "description": "Add 3\" to the range of the bearer's Aura abilities."
+        },
+        {
+          "name": "Strategic Slaughter",
+          "description": "After both players have deployed their armies, select up to 3 ^^**Jakhals^^** and/or ^^**Goremongers^^** units from your army and redeploy them. When doing so, you can set those units up in Strategic Reserves, regardless of how many units are already in Strategic Reserves."
+        },
+        {
+          "name": "Disciple of Khorne",
+          "description": "During the Declare Battle Formations step, the bearer can be attached to a ^^**Bloodcrushers^^** or ^^**Flesh Hounds^^** unit. While leading one of these units, the bearer has the Deep Strike ability, and it has the ^^**Blood Legions^^** Faction keyword instead of the ^^**World Eaters^^** Faction keyword."
+        },
+        {
+          "name": "Blood-forged Armour",
+          "description": "The bearer has a Save characteristic of 2+. If the bearer is destroyed, you gain 1 Blood Tithe point."
+        },
+        {
+          "name": "Icon of War",
+          "description": "While a friendly ^^**Blood Legions^^** unit is within 6\" of the bearer, that unit has the Blessings of Khorne ability. If the Might of Khorne ability is active for your army, then while a friendly ^^**Blood Legions^^** unit is within 6\" of the bearer, you can re-roll Battle-shock tests taken for that unit."
+        },
+        {
+          "name": "Blade of Endless Bloodshed",
+          "description": "Add 1 to the Attacks, Strength and Damage characteristics of the bearer's melee weapons. Each time the bearer's unit destroys an enemy unit with a melee attack, do not roll to gain a Blood Tithe point, you automatically gain 1 Blood Tithe point instead."
+        },
+        {
+          "name": "Frenzied Focus",
+          "description": "Each time a model in the bearer's unit makes an attack, a Critical Hit is scored on an unmodified Hit roll of 5+, instead of only a 6."
+        },
+        {
+          "name": "Killing Clarity",
+          "description": "Each time the bearer's unit destroys an enemy unit, roll one D6: on a 4+, you gain 1CP."
+        },
+        {
+          "name": "Violent Demise",
+          "description": "The bearer's Deadly Demise ability inflicts mortal wounds on a D6 roll of 2+ instead of on a 6. In addition, the bearer has the Deadly Demise D3+1 ability, instead of the Deadly Demise D3 ability."
+        },
+        {
+          "name": "Malicious Vigour",
+          "description": "Each time the bearer's unit makes a Brazen Fury move, it is treated as having rolled a 6 for the distance the unit can be moved."
+        },
+        {
+          "name": "Aggressive Deployment",
+          "description": "In the Declare Battle Formations step, if the bearer starts the battle embarked within a ^^**Dedicated Transport^^**, that ^^**Dedicated Transport^^** has the Scouts 9\" ability."
+        },
+        {
+          "name": "Unleash Hell",
+          "description": "At the start of your Shooting phase, you can select one ^^**Vehicle^^** model within 6\" of the bearer or, if the bearer is embarked within a ^^**Transport^^**, you can select that ^^**Transport^^** model. Until the end of the phase, after the selected model has shot, select one enemy unit hit by one or more of those attacks. Until the start of your next turn, that enemy unit is suppressed. While a unit is suppressed, each time a model in that unit makes an attack, subtract 1 from the Hit roll."
+        },
+        {
+          "name": "Infernal Infusion",
+          "description": "Once per battle, at the start of the Fight phase, the bearer can use this Enhancement. If it does, until the end of the phase, the bearer's unit has the Fights First ability."
+        },
+        {
+          "name": "Murderous Onslaught",
+          "description": "If the bearer's unit disembarked from a ^^**Transport^^** this turn, until the end of the turn, enemy units cannot use the Fire Overwatch Stratagem to shoot at the bearer's unit."
+        },
+        {
+          "name": "Collar of Khorne",
+          "description": "This model has the Feel No Pain 4+ ability against Psychic Attacks. While this model is leading a unit, Bodyguard models in that unit have the Feel No Pain 5+ ability against Psychic Attacks."
+        },
+        {
+          "name": "Bestial Limbs",
+          "description": "Add 1 to Advance and Charge rolls for this model's unit."
+        },
+        {
+          "name": "Muscular Bulk",
+          "description": "Add 2 to this model's Wounds characteristic."
+        },
+        {
+          "name": "Jagged Horns",
+          "description": "This model's melee weapons have the **[LANCE]** ability."
+        },
+        {
+          "name": "Daemonic Visage",
+          "description": "Improve this model's Leadership characteristic by 1 and its Objective Control characteristic by 2. If this model is within range of an objective marker you control that is wholly within your opponent's deployment zone at the end of the battle, you gain 1RP."
+        },
+        {
+          "name": "Brazen Flesh",
+          "description": "This model has a Save characteristic of 2+."
+        },
+        {
+          "name": "Steel Sinews",
+          "description": "Add 1\" to the Move characteristic of models in this model's unit and add 1 to Advance rolls made for this model's unit."
+        },
+        {
+          "name": "Tearing Claws",
+          "description": "Add 1 to the Attacks characteristic of melee weapons equipped by this model. If this model destroys eight or more models during a battle, at the end of the battle, it gains 1 bonus Skull point."
+        },
+        {
+          "name": "Warp Strength",
+          "description": "Improve the Strength characteristic of melee weapons equipped by this model by 2. If this model destroys one or more **^^Monster^^** models and/or one or more **^^Character^^** models during a battle, at the end of the battle, it gains 1 bonus Skull point."
+        }
+      ]
+    },
+    {
+      "id": "f909-00c7-8ba4-018a",
+      "name": "Khorne Berzerkers",
+      "points": 180,
+      "keywords": [
+        "Infantry",
+        "Battleline",
+        "Grenades",
+        "Chaos",
+        "Khorne",
+        "Berzerkers"
+      ],
+      "factionKeywords": [
+        "World Eaters"
+      ],
+      "stats": {
+        "M": "8\"",
+        "T": "4",
+        "SV": "3+",
+        "W": "2",
+        "LD": "6+",
+        "OC": "2"
+      },
+      "rangedWeapons": [
+        {
+          "name": "Bolt pistol",
+          "range": "12\"",
+          "A": "1",
+          "BS": "4+",
+          "S": "4",
+          "AP": "0",
+          "D": "1",
+          "keywords": [
+            "Pistol"
+          ]
+        }
+      ],
+      "meleeWeapons": [
+        {
+          "name": "Chainblade",
+          "range": "Melee",
+          "A": "4",
+          "WS": "3+",
+          "S": "4",
+          "AP": "-1",
+          "D": "1",
+          "keywords": []
+        }
+      ],
+      "abilities": [
+        {
+          "name": "Blood Surge",
+          "description": "In your opponent's Shooting phase, each time an enemy unit has shot, if any models from this unit were destroyed as a result of those attacks, this unit can make a Blood Surge move. To do so, roll one D6 and add 2 to the roll: models in this unit move a number of inches up to this result, but this unit must finish that move as close as possible to the closest enemy unit (excluding ^^**Aircraft^^**). When doing so, those models can be moved within Engagement Range of that enemy unit. This unit cannot make a Blood Surge move while it is Battle-shocked or within Engagement Range of one or more enemy units, and can only make one Blood Surge move per phase."
+        },
+        {
+          "name": "Icon of Khorne",
+          "description": "If the bearer's unit contains 1 or more Icons of Khorne, each time the bearer's unit destroys an enemy unit, you gain one Bloodshed point. Each time you make a Blessings of Khorne roll, roll one additional D6 for each Bloodshed point you have, after which, all your Bloodshed points are lost."
+        },
+        {
+          "name": "Collar of Khorne",
+          "description": "This model has the Feel No Pain 4+ ability against Psychic Attacks. While this model is leading a unit, Bodyguard models in that unit have the Feel No Pain 5+ ability against Psychic Attacks."
+        },
+        {
+          "name": "Bestial Limbs",
+          "description": "Add 1 to Advance and Charge rolls for this model's unit."
+        },
+        {
+          "name": "Muscular Bulk",
+          "description": "Add 2 to this model's Wounds characteristic."
+        },
+        {
+          "name": "Jagged Horns",
+          "description": "This model's melee weapons have the **[LANCE]** ability."
+        },
+        {
+          "name": "Daemonic Visage",
+          "description": "Improve this model's Leadership characteristic by 1 and its Objective Control characteristic by 2. If this model is within range of an objective marker you control that is wholly within your opponent's deployment zone at the end of the battle, you gain 1RP."
+        },
+        {
+          "name": "Brazen Flesh",
+          "description": "This model has a Save characteristic of 2+."
+        },
+        {
+          "name": "Steel Sinews",
+          "description": "Add 1\" to the Move characteristic of models in this model's unit and add 1 to Advance rolls made for this model's unit."
+        },
+        {
+          "name": "Tearing Claws",
+          "description": "Add 1 to the Attacks characteristic of melee weapons equipped by this model. If this model destroys eight or more models during a battle, at the end of the battle, it gains 1 bonus Skull point."
+        },
+        {
+          "name": "Warp Strength",
+          "description": "Improve the Strength characteristic of melee weapons equipped by this model by 2. If this model destroys one or more **^^Monster^^** models and/or one or more **^^Character^^** models during a battle, at the end of the battle, it gains 1 bonus Skull point."
+        }
+      ]
+    },
+    {
+      "id": "45f6-8429-a1d9-2a51",
+      "name": "Chaos Terminators",
+      "points": 175,
+      "keywords": [
+        "Infantry",
+        "Chaos",
+        "Khorne",
+        "Terminator",
+        "Terminator Squad"
+      ],
+      "factionKeywords": [
+        "World Eaters"
+      ],
+      "stats": {
+        "M": "7\"",
+        "T": "5",
+        "SV": "2+",
+        "W": "3",
+        "LD": "6+",
+        "OC": "1"
+      },
+      "rangedWeapons": [
+        {
+          "name": "Combi-weapon",
+          "range": "24\"",
+          "A": "1",
+          "BS": "4+",
+          "S": "4",
+          "AP": "0",
+          "D": "1",
+          "keywords": [
+            "Anti-Infantry 4+",
+            "Devastating Wounds",
+            "Rapid Fire 1"
+          ]
+        },
+        {
+          "name": "Combi-bolter",
+          "range": "24\"",
+          "A": "2",
+          "BS": "4+",
+          "S": "4",
+          "AP": "0",
+          "D": "1",
+          "keywords": [
+            "Rapid Fire 4"
+          ]
+        },
+        {
+          "name": "Reaper autocannon",
+          "range": "36\"",
+          "A": "4",
+          "BS": "4+",
+          "S": "7",
+          "AP": "-1",
+          "D": "1",
+          "keywords": [
+            "Devastating Wounds",
+            "Rapid Fire 2",
+            "Sustained Hits 1"
+          ]
+        },
+        {
+          "name": "Heavy flamer",
+          "range": "12\"",
+          "A": "D6",
+          "BS": "N/A",
+          "S": "5",
+          "AP": "-1",
+          "D": "1",
+          "keywords": [
+            "Ignores Cover",
+            "Torrent"
+          ]
+        }
+      ],
+      "meleeWeapons": [
+        {
+          "name": "Power fist",
+          "range": "Melee",
+          "A": "3",
+          "WS": "3+",
+          "S": "8",
+          "AP": "-2",
+          "D": "2",
+          "keywords": []
+        },
+        {
+          "name": "Accursed weapon",
+          "range": "Melee",
+          "A": "4",
+          "WS": "3+",
+          "S": "5",
+          "AP": "-2",
+          "D": "1",
+          "keywords": []
+        },
+        {
+          "name": "Chainfist",
+          "range": "Melee",
+          "A": "3",
+          "WS": "4+",
+          "S": "8",
+          "AP": "-3",
+          "D": "2",
+          "keywords": [
+            "Anti-VEHICLE 3+"
+          ]
+        },
+        {
+          "name": "Paired accursed weapons",
+          "range": "Melee",
+          "A": "5",
+          "WS": "3+",
+          "S": "5",
+          "AP": "-2",
+          "D": "1",
+          "keywords": [
+            "Twin-linked"
+          ]
+        }
+      ],
+      "abilities": [
+        {
+          "name": "Invulnerable Save",
+          "description": "Model in this unit have a 4+ invulnerable save."
+        },
+        {
+          "name": "Bloody Fury",
+          "description": "Each time a model in this unit makes a ranged attack that targets the closest enemy unit, you can re-roll the Hit roll. Each time this unit declares a charge that targets the closest enemy unit, you can re-roll the Charge roll."
+        },
+        {
+          "name": "Collar of Khorne",
+          "description": "This model has the Feel No Pain 4+ ability against Psychic Attacks. While this model is leading a unit, Bodyguard models in that unit have the Feel No Pain 5+ ability against Psychic Attacks."
+        },
+        {
+          "name": "Bestial Limbs",
+          "description": "Add 1 to Advance and Charge rolls for this model's unit."
+        },
+        {
+          "name": "Muscular Bulk",
+          "description": "Add 2 to this model's Wounds characteristic."
+        },
+        {
+          "name": "Jagged Horns",
+          "description": "This model's melee weapons have the **[LANCE]** ability."
+        },
+        {
+          "name": "Daemonic Visage",
+          "description": "Improve this model's Leadership characteristic by 1 and its Objective Control characteristic by 2. If this model is within range of an objective marker you control that is wholly within your opponent's deployment zone at the end of the battle, you gain 1RP."
+        },
+        {
+          "name": "Brazen Flesh",
+          "description": "This model has a Save characteristic of 2+."
+        },
+        {
+          "name": "Steel Sinews",
+          "description": "Add 1\" to the Move characteristic of models in this model's unit and add 1 to Advance rolls made for this model's unit."
+        },
+        {
+          "name": "Tearing Claws",
+          "description": "Add 1 to the Attacks characteristic of melee weapons equipped by this model. If this model destroys eight or more models during a battle, at the end of the battle, it gains 1 bonus Skull point."
+        },
+        {
+          "name": "Warp Strength",
+          "description": "Improve the Strength characteristic of melee weapons equipped by this model by 2. If this model destroys one or more **^^Monster^^** models and/or one or more **^^Character^^** models during a battle, at the end of the battle, it gains 1 bonus Skull point."
+        }
+      ]
+    },
+    {
+      "id": "6f81-4538-a414-251e",
+      "name": "Jakhals",
+      "points": 65,
+      "keywords": [
+        "Infantry",
+        "Chaos",
+        "Khorne",
+        "Grenades"
+      ],
+      "factionKeywords": [
+        "World Eaters"
+      ],
+      "stats": {
+        "M": "7\"",
+        "T": "4",
+        "SV": "6+",
+        "W": "1",
+        "LD": "7+",
+        "OC": "1"
+      },
+      "rangedWeapons": [
+        {
+          "name": "Autopistol",
+          "range": "12\"",
+          "A": "1",
+          "BS": "4+",
+          "S": "3",
+          "AP": "0",
+          "D": "1",
+          "keywords": [
+            "Pistol"
+          ]
+        }
+      ],
+      "meleeWeapons": [
+        {
+          "name": "Chainblades",
+          "range": "Melee",
+          "A": "3",
+          "WS": "4+",
+          "S": "3",
+          "AP": "0",
+          "D": "1",
+          "keywords": []
+        },
+        {
+          "name": "Mauler chainblade",
+          "range": "Melee",
+          "A": "3",
+          "WS": "5+",
+          "S": "4",
+          "AP": "-1",
+          "D": "2",
+          "keywords": []
+        },
+        {
+          "name": "Skullsmasher and mangler",
+          "range": "Melee",
+          "A": "2",
+          "WS": "4+",
+          "S": "4",
+          "AP": "-1",
+          "D": "2",
+          "keywords": []
+        },
+        {
+          "name": "Paired manglers",
+          "range": "Melee",
+          "A": "4",
+          "WS": "4+",
+          "S": "4",
+          "AP": "0",
+          "D": "1",
+          "keywords": []
+        }
+      ],
+      "abilities": [
+        {
+          "name": "Objective Ravaged",
+          "description": "At the end of your Command phase, if this unit is within range of an objective marker you control, that objective marker remains under your control until your opponent's Level of Control over that objective marker is greater than yours at the end of a phase."
+        },
+        {
+          "name": "Icon of Khorne",
+          "description": "If the bearer's unit contains 1 or more Icons of Khorne, each time the bearer's unit destroys an enemy unit, you gain one Bloodshed point. Each time you make a Blessings of Khorne roll, roll one additional D6 for each Bloodshed point you have, after which, all your Bloodshed points are lost."
+        },
+        {
+          "name": "Collar of Khorne",
+          "description": "This model has the Feel No Pain 4+ ability against Psychic Attacks. While this model is leading a unit, Bodyguard models in that unit have the Feel No Pain 5+ ability against Psychic Attacks."
+        },
+        {
+          "name": "Bestial Limbs",
+          "description": "Add 1 to Advance and Charge rolls for this model's unit."
+        },
+        {
+          "name": "Muscular Bulk",
+          "description": "Add 2 to this model's Wounds characteristic."
+        },
+        {
+          "name": "Jagged Horns",
+          "description": "This model's melee weapons have the **[LANCE]** ability."
+        },
+        {
+          "name": "Daemonic Visage",
+          "description": "Improve this model's Leadership characteristic by 1 and its Objective Control characteristic by 2. If this model is within range of an objective marker you control that is wholly within your opponent's deployment zone at the end of the battle, you gain 1RP."
+        },
+        {
+          "name": "Brazen Flesh",
+          "description": "This model has a Save characteristic of 2+."
+        },
+        {
+          "name": "Steel Sinews",
+          "description": "Add 1\" to the Move characteristic of models in this model's unit and add 1 to Advance rolls made for this model's unit."
+        },
+        {
+          "name": "Tearing Claws",
+          "description": "Add 1 to the Attacks characteristic of melee weapons equipped by this model. If this model destroys eight or more models during a battle, at the end of the battle, it gains 1 bonus Skull point."
+        },
+        {
+          "name": "Warp Strength",
+          "description": "Improve the Strength characteristic of melee weapons equipped by this model by 2. If this model destroys one or more **^^Monster^^** models and/or one or more **^^Character^^** models during a battle, at the end of the battle, it gains 1 bonus Skull point."
+        }
+      ]
+    },
+    {
+      "id": "9435-1f44-7e5b-d510",
+      "name": "Eightbound",
+      "points": 135,
+      "keywords": [
+        "Infantry",
+        "Chaos",
+        "Khorne",
+        "Daemon",
+        "Possessed"
+      ],
+      "factionKeywords": [
+        "World Eaters"
+      ],
+      "stats": {
+        "M": "10\"",
+        "T": "6",
+        "SV": "3+",
+        "W": "3",
+        "LD": "6+",
+        "OC": "1"
+      },
+      "rangedWeapons": [],
+      "meleeWeapons": [
+        {
+          "name": "Chainblades",
+          "range": "Melee",
+          "A": "5",
+          "WS": "3+",
+          "S": "8",
+          "AP": "-2",
+          "D": "2",
+          "keywords": []
+        }
+      ],
+      "abilities": [
+        {
+          "name": "Beacons of Rage (Aura)",
+          "description": "While a friendly ^^**World Eaters^^** unit is within 6\" of this unit, each time a model in that unit makes a melee attack that targets a unit (excluding ^^**Monsters^^** and ^^**Vehicles^^**), add 1 to the Hit roll. If that attack targets a unit that is Below Half-strength, add 1 to the Wound roll as well."
+        },
+        {
+          "name": "Invulnerable Save",
+          "description": "Models in this unit have a 5+ invulnerable save."
+        },
+        {
+          "name": "Collar of Khorne",
+          "description": "This model has the Feel No Pain 4+ ability against Psychic Attacks. While this model is leading a unit, Bodyguard models in that unit have the Feel No Pain 5+ ability against Psychic Attacks."
+        },
+        {
+          "name": "Bestial Limbs",
+          "description": "Add 1 to Advance and Charge rolls for this model's unit."
+        },
+        {
+          "name": "Muscular Bulk",
+          "description": "Add 2 to this model's Wounds characteristic."
+        },
+        {
+          "name": "Jagged Horns",
+          "description": "This model's melee weapons have the **[LANCE]** ability."
+        },
+        {
+          "name": "Daemonic Visage",
+          "description": "Improve this model's Leadership characteristic by 1 and its Objective Control characteristic by 2. If this model is within range of an objective marker you control that is wholly within your opponent's deployment zone at the end of the battle, you gain 1RP."
+        },
+        {
+          "name": "Brazen Flesh",
+          "description": "This model has a Save characteristic of 2+."
+        },
+        {
+          "name": "Steel Sinews",
+          "description": "Add 1\" to the Move characteristic of models in this model's unit and add 1 to Advance rolls made for this model's unit."
+        },
+        {
+          "name": "Tearing Claws",
+          "description": "Add 1 to the Attacks characteristic of melee weapons equipped by this model. If this model destroys eight or more models during a battle, at the end of the battle, it gains 1 bonus Skull point."
+        },
+        {
+          "name": "Warp Strength",
+          "description": "Improve the Strength characteristic of melee weapons equipped by this model by 2. If this model destroys one or more **^^Monster^^** models and/or one or more **^^Character^^** models during a battle, at the end of the battle, it gains 1 bonus Skull point."
+        }
+      ]
+    },
+    {
+      "id": "9932-3d2b-1e47-d53b",
+      "name": "Exalted Eightbound",
+      "points": 140,
+      "keywords": [
+        "Infantry",
+        "Chaos",
+        "Khorne",
+        "Daemon",
+        "Possessed"
+      ],
+      "factionKeywords": [
+        "World Eaters"
+      ],
+      "stats": {
+        "M": "10\"",
+        "T": "6",
+        "SV": "3+",
+        "W": "3",
+        "LD": "6+",
+        "OC": "1"
+      },
+      "rangedWeapons": [],
+      "meleeWeapons": [],
+      "abilities": [
+        {
+          "name": "Rend and Tear",
+          "description": "Each time a model in this unit makes a melee attack that targets a ^^**Monster^^** or ^^**Vehicle^^** unit, until the end of the phase, improve the Damage characteristic of that attack by 1."
+        },
+        {
+          "name": "Invulnerable Save",
+          "description": "Models in this unit have a 5+ invulnerable save."
+        },
+        {
+          "name": "Collar of Khorne",
+          "description": "This model has the Feel No Pain 4+ ability against Psychic Attacks. While this model is leading a unit, Bodyguard models in that unit have the Feel No Pain 5+ ability against Psychic Attacks."
+        },
+        {
+          "name": "Bestial Limbs",
+          "description": "Add 1 to Advance and Charge rolls for this model's unit."
+        },
+        {
+          "name": "Muscular Bulk",
+          "description": "Add 2 to this model's Wounds characteristic."
+        },
+        {
+          "name": "Jagged Horns",
+          "description": "This model's melee weapons have the **[LANCE]** ability."
+        },
+        {
+          "name": "Daemonic Visage",
+          "description": "Improve this model's Leadership characteristic by 1 and its Objective Control characteristic by 2. If this model is within range of an objective marker you control that is wholly within your opponent's deployment zone at the end of the battle, you gain 1RP."
+        },
+        {
+          "name": "Brazen Flesh",
+          "description": "This model has a Save characteristic of 2+."
+        },
+        {
+          "name": "Steel Sinews",
+          "description": "Add 1\" to the Move characteristic of models in this model's unit and add 1 to Advance rolls made for this model's unit."
+        },
+        {
+          "name": "Tearing Claws",
+          "description": "Add 1 to the Attacks characteristic of melee weapons equipped by this model. If this model destroys eight or more models during a battle, at the end of the battle, it gains 1 bonus Skull point."
+        },
+        {
+          "name": "Warp Strength",
+          "description": "Improve the Strength characteristic of melee weapons equipped by this model by 2. If this model destroys one or more **^^Monster^^** models and/or one or more **^^Character^^** models during a battle, at the end of the battle, it gains 1 bonus Skull point."
+        }
+      ]
+    },
+    {
+      "id": "4251-bd4f-f7ac-9487",
+      "name": "Chaos Land Raider",
+      "points": 220,
+      "keywords": [
+        "Vehicle",
+        "Transport",
+        "Smoke",
+        "Chaos",
+        "Khorne",
+        "Land Raider"
+      ],
+      "factionKeywords": [
+        "World Eaters"
+      ],
+      "stats": {
+        "M": "10\"",
+        "T": "12",
+        "SV": "2+",
+        "W": "16",
+        "LD": "6+",
+        "OC": "5"
+      },
+      "rangedWeapons": [
+        {
+          "name": "Soulshatter lascannon",
+          "range": "48\"",
+          "A": "2",
+          "BS": "4+",
+          "S": "12",
+          "AP": "-3",
+          "D": "D6+1",
+          "keywords": [
+            "Rapid Fire 2"
+          ]
+        },
+        {
+          "name": "Havoc launcher",
+          "range": "48\"",
+          "A": "D6",
+          "BS": "4+",
+          "S": "5",
+          "AP": "0",
+          "D": "1",
+          "keywords": [
+            "Blast"
+          ]
+        },
+        {
+          "name": "Twin heavy bolter",
+          "range": "36\"",
+          "A": "3",
+          "BS": "4+",
+          "S": "5",
+          "AP": "-1",
+          "D": "2",
+          "keywords": [
+            "Rapid Fire 2",
+            "Sustained Hits 1",
+            "Twin-linked"
+          ]
+        }
+      ],
+      "meleeWeapons": [
+        {
+          "name": "Armoured tracks",
+          "range": "Melee",
+          "A": "9",
+          "WS": "3+",
+          "S": "8",
+          "AP": "0",
+          "D": "1",
+          "keywords": []
+        }
+      ],
+      "abilities": [
+        {
+          "name": "Assault Ramp",
+          "description": "Each time a unit disembarks from this model after it has made a Normal move, that unit is still eligible to declare a charge this turn."
+        },
+        {
+          "name": "Collar of Khorne",
+          "description": "This model has the Feel No Pain 4+ ability against Psychic Attacks. While this model is leading a unit, Bodyguard models in that unit have the Feel No Pain 5+ ability against Psychic Attacks."
+        },
+        {
+          "name": "Bestial Limbs",
+          "description": "Add 1 to Advance and Charge rolls for this model's unit."
+        },
+        {
+          "name": "Muscular Bulk",
+          "description": "Add 2 to this model's Wounds characteristic."
+        },
+        {
+          "name": "Jagged Horns",
+          "description": "This model's melee weapons have the **[LANCE]** ability."
+        },
+        {
+          "name": "Daemonic Visage",
+          "description": "Improve this model's Leadership characteristic by 1 and its Objective Control characteristic by 2. If this model is within range of an objective marker you control that is wholly within your opponent's deployment zone at the end of the battle, you gain 1RP."
+        },
+        {
+          "name": "Brazen Flesh",
+          "description": "This model has a Save characteristic of 2+."
+        },
+        {
+          "name": "Steel Sinews",
+          "description": "Add 1\" to the Move characteristic of models in this model's unit and add 1 to Advance rolls made for this model's unit."
+        },
+        {
+          "name": "Tearing Claws",
+          "description": "Add 1 to the Attacks characteristic of melee weapons equipped by this model. If this model destroys eight or more models during a battle, at the end of the battle, it gains 1 bonus Skull point."
+        },
+        {
+          "name": "Warp Strength",
+          "description": "Improve the Strength characteristic of melee weapons equipped by this model by 2. If this model destroys one or more **^^Monster^^** models and/or one or more **^^Character^^** models during a battle, at the end of the battle, it gains 1 bonus Skull point."
+        }
+      ],
+      "transportCapacity": "This model has a transport capacity of 14 ^^**World Eaters Infantry^^** models. Each ^^**Possessed^^** and ^^**Terminator^^** model takes up the space of 2 models."
+    },
+    {
+      "id": "497c-f787-5a7e-1020",
+      "name": "Chaos Predator Annihilator",
+      "points": 145,
+      "keywords": [
+        "Vehicle",
+        "Smoke",
+        "Chaos",
+        "Khorne",
+        "Predator Annihilator"
+      ],
+      "factionKeywords": [
+        "World Eaters"
+      ],
+      "stats": {
+        "M": "10\"",
+        "T": "10",
+        "SV": "3+",
+        "W": "11",
+        "LD": "6+",
+        "OC": "3"
+      },
+      "rangedWeapons": [
+        {
+          "name": "Predator twin lascannon",
+          "range": "48\"",
+          "A": "1",
+          "BS": "4+",
+          "S": "14",
+          "AP": "-3",
+          "D": "D6+1",
+          "keywords": [
+            "Rapid Fire 2",
+            "Twin-linked"
+          ]
+        },
+        {
+          "name": "Havoc launcher",
+          "range": "48\"",
+          "A": "D6",
+          "BS": "4+",
+          "S": "5",
+          "AP": "0",
+          "D": "1",
+          "keywords": [
+            "Blast"
+          ]
+        }
+      ],
+      "meleeWeapons": [
+        {
+          "name": "Armoured tracks",
+          "range": "Melee",
+          "A": "6",
+          "WS": "3+",
+          "S": "6",
+          "AP": "0",
+          "D": "1",
+          "keywords": []
+        }
+      ],
+      "abilities": [
+        {
+          "name": "Blood-hungry Annihilator",
+          "description": "Each time this model makes a ranged attack that targets the closest eligible ^^**Monster^^** or ^^**Vehicle^^** target within 18\", you can re-roll the Wound roll and you can re-roll the Damage roll."
+        },
+        {
+          "name": "Collar of Khorne",
+          "description": "This model has the Feel No Pain 4+ ability against Psychic Attacks. While this model is leading a unit, Bodyguard models in that unit have the Feel No Pain 5+ ability against Psychic Attacks."
+        },
+        {
+          "name": "Bestial Limbs",
+          "description": "Add 1 to Advance and Charge rolls for this model's unit."
+        },
+        {
+          "name": "Muscular Bulk",
+          "description": "Add 2 to this model's Wounds characteristic."
+        },
+        {
+          "name": "Jagged Horns",
+          "description": "This model's melee weapons have the **[LANCE]** ability."
+        },
+        {
+          "name": "Daemonic Visage",
+          "description": "Improve this model's Leadership characteristic by 1 and its Objective Control characteristic by 2. If this model is within range of an objective marker you control that is wholly within your opponent's deployment zone at the end of the battle, you gain 1RP."
+        },
+        {
+          "name": "Brazen Flesh",
+          "description": "This model has a Save characteristic of 2+."
+        },
+        {
+          "name": "Steel Sinews",
+          "description": "Add 1\" to the Move characteristic of models in this model's unit and add 1 to Advance rolls made for this model's unit."
+        },
+        {
+          "name": "Tearing Claws",
+          "description": "Add 1 to the Attacks characteristic of melee weapons equipped by this model. If this model destroys eight or more models during a battle, at the end of the battle, it gains 1 bonus Skull point."
+        },
+        {
+          "name": "Warp Strength",
+          "description": "Improve the Strength characteristic of melee weapons equipped by this model by 2. If this model destroys one or more **^^Monster^^** models and/or one or more **^^Character^^** models during a battle, at the end of the battle, it gains 1 bonus Skull point."
+        }
+      ]
+    },
+    {
+      "id": "04a0-269e-3bab-2c61",
+      "name": "Chaos Predator Destructor",
+      "points": 145,
+      "keywords": [
+        "Vehicle",
+        "Smoke",
+        "Chaos",
+        "Khorne",
+        "Predator Destructor"
+      ],
+      "factionKeywords": [
+        "World Eaters"
+      ],
+      "stats": {
+        "M": "10\"",
+        "T": "10",
+        "SV": "3+",
+        "W": "11",
+        "LD": "6+",
+        "OC": "3"
+      },
+      "rangedWeapons": [
+        {
+          "name": "Predator autocannon",
+          "range": "48\"",
+          "A": "4",
+          "BS": "4+",
+          "S": "9",
+          "AP": "-1",
+          "D": "3",
+          "keywords": [
+            "Rapid Fire 6"
+          ]
+        },
+        {
+          "name": "Havoc launcher",
+          "range": "48\"",
+          "A": "D6",
+          "BS": "4+",
+          "S": "5",
+          "AP": "0",
+          "D": "1",
+          "keywords": [
+            "Blast"
+          ]
+        }
+      ],
+      "meleeWeapons": [
+        {
+          "name": "Armoured tracks",
+          "range": "Melee",
+          "A": "6",
+          "WS": "3+",
+          "S": "6",
+          "AP": "0",
+          "D": "1",
+          "keywords": []
+        }
+      ],
+      "abilities": [
+        {
+          "name": "Punishing Suppression",
+          "description": "In your Shooting phase, after this model has shot, select one enemy unit hit by one or more of those attacks (excluding ^^**Monsters^^** and ^^**Vehicles^^*). Until the start of your next turn, that enemy unit is suppressed. While a unit is suppressed, each time a model in that unit makes an attack, subtract 1 from the Hit roll."
+        },
+        {
+          "name": "Collar of Khorne",
+          "description": "This model has the Feel No Pain 4+ ability against Psychic Attacks. While this model is leading a unit, Bodyguard models in that unit have the Feel No Pain 5+ ability against Psychic Attacks."
+        },
+        {
+          "name": "Bestial Limbs",
+          "description": "Add 1 to Advance and Charge rolls for this model's unit."
+        },
+        {
+          "name": "Muscular Bulk",
+          "description": "Add 2 to this model's Wounds characteristic."
+        },
+        {
+          "name": "Jagged Horns",
+          "description": "This model's melee weapons have the **[LANCE]** ability."
+        },
+        {
+          "name": "Daemonic Visage",
+          "description": "Improve this model's Leadership characteristic by 1 and its Objective Control characteristic by 2. If this model is within range of an objective marker you control that is wholly within your opponent's deployment zone at the end of the battle, you gain 1RP."
+        },
+        {
+          "name": "Brazen Flesh",
+          "description": "This model has a Save characteristic of 2+."
+        },
+        {
+          "name": "Steel Sinews",
+          "description": "Add 1\" to the Move characteristic of models in this model's unit and add 1 to Advance rolls made for this model's unit."
+        },
+        {
+          "name": "Tearing Claws",
+          "description": "Add 1 to the Attacks characteristic of melee weapons equipped by this model. If this model destroys eight or more models during a battle, at the end of the battle, it gains 1 bonus Skull point."
+        },
+        {
+          "name": "Warp Strength",
+          "description": "Improve the Strength characteristic of melee weapons equipped by this model by 2. If this model destroys one or more **^^Monster^^** models and/or one or more **^^Character^^** models during a battle, at the end of the battle, it gains 1 bonus Skull point."
+        }
+      ]
+    },
+    {
+      "id": "ea51-5575-9e74-9346",
+      "name": "Defiler",
+      "points": 250,
+      "keywords": [
+        "Vehicle",
+        "Walker",
+        "Chaos",
+        "Khorne",
+        "Daemon"
+      ],
+      "factionKeywords": [
+        "World Eaters"
+      ],
+      "stats": {
+        "M": "14\"",
+        "T": "11",
+        "SV": "3+",
+        "W": "18",
+        "LD": "6+",
+        "OC": "5"
+      },
+      "rangedWeapons": [],
+      "meleeWeapons": [
+        {
+          "name": "Shearing claws - strike",
+          "range": "Melee",
+          "A": "6",
+          "WS": "3+",
+          "S": "16",
+          "AP": "-3",
+          "D": "D6+1",
+          "keywords": []
+        },
+        {
+          "name": "Shearing claws - sweep",
+          "range": "Melee",
+          "A": "12",
+          "WS": "3+",
+          "S": "6",
+          "AP": "-2",
+          "D": "1",
+          "keywords": []
+        }
+      ],
+      "abilities": [
+        {
+          "name": "Scuttling Walker",
+          "description": "Each time this unit makes a Normal, Advance or Fall Back move, it can move through models (excluding ^^**Titanic**^^ models) and terrain features. When doing so, it can move within Engagement Range of enemy models, but cannot end that move within Engagement Range of them, and any Desperate Escape test is automatically passed."
+        },
+        {
+          "name": "Unleash Wrath",
+          "description": "At the end of your opponent's Movement phase, you can select one enemy unit that was set up on the battlefield within 12\" of this model; this model can then either:\n- Shoot at that unit, but only if it is an eligible target.\n- Declare a charge against that unit (note that even if this charge is successful, this model does not receive any Charge bonus this turn)."
+        },
+        {
+          "name": "Collar of Khorne",
+          "description": "This model has the Feel No Pain 4+ ability against Psychic Attacks. While this model is leading a unit, Bodyguard models in that unit have the Feel No Pain 5+ ability against Psychic Attacks."
+        },
+        {
+          "name": "Bestial Limbs",
+          "description": "Add 1 to Advance and Charge rolls for this model's unit."
+        },
+        {
+          "name": "Muscular Bulk",
+          "description": "Add 2 to this model's Wounds characteristic."
+        },
+        {
+          "name": "Jagged Horns",
+          "description": "This model's melee weapons have the **[LANCE]** ability."
+        },
+        {
+          "name": "Daemonic Visage",
+          "description": "Improve this model's Leadership characteristic by 1 and its Objective Control characteristic by 2. If this model is within range of an objective marker you control that is wholly within your opponent's deployment zone at the end of the battle, you gain 1RP."
+        },
+        {
+          "name": "Brazen Flesh",
+          "description": "This model has a Save characteristic of 2+."
+        },
+        {
+          "name": "Steel Sinews",
+          "description": "Add 1\" to the Move characteristic of models in this model's unit and add 1 to Advance rolls made for this model's unit."
+        },
+        {
+          "name": "Tearing Claws",
+          "description": "Add 1 to the Attacks characteristic of melee weapons equipped by this model. If this model destroys eight or more models during a battle, at the end of the battle, it gains 1 bonus Skull point."
+        },
+        {
+          "name": "Warp Strength",
+          "description": "Improve the Strength characteristic of melee weapons equipped by this model by 2. If this model destroys one or more **^^Monster^^** models and/or one or more **^^Character^^** models during a battle, at the end of the battle, it gains 1 bonus Skull point."
+        }
+      ]
+    },
+    {
+      "id": "81e1-b212-69c1-308f",
+      "name": "Forgefiend",
+      "points": 165,
+      "keywords": [
+        "Vehicle",
+        "Walker",
+        "Chaos",
+        "Khorne",
+        "Daemon"
+      ],
+      "factionKeywords": [
+        "World Eaters"
+      ],
+      "stats": {
+        "M": "10\"",
+        "T": "10",
+        "SV": "3+",
+        "W": "12",
+        "LD": "6+",
+        "OC": "3"
+      },
+      "rangedWeapons": [],
+      "meleeWeapons": [],
+      "abilities": [
+        {
+          "name": "Furious Onslaught",
+          "description": "Each time this model makes a ranged attack that targets the closest eligible target within 18\", you can re-roll the Hit roll."
+        },
+        {
+          "name": "Invulnerable Save",
+          "description": "This model has a 5+ invulnerable save."
+        },
+        {
+          "name": "Collar of Khorne",
+          "description": "This model has the Feel No Pain 4+ ability against Psychic Attacks. While this model is leading a unit, Bodyguard models in that unit have the Feel No Pain 5+ ability against Psychic Attacks."
+        },
+        {
+          "name": "Bestial Limbs",
+          "description": "Add 1 to Advance and Charge rolls for this model's unit."
+        },
+        {
+          "name": "Muscular Bulk",
+          "description": "Add 2 to this model's Wounds characteristic."
+        },
+        {
+          "name": "Jagged Horns",
+          "description": "This model's melee weapons have the **[LANCE]** ability."
+        },
+        {
+          "name": "Daemonic Visage",
+          "description": "Improve this model's Leadership characteristic by 1 and its Objective Control characteristic by 2. If this model is within range of an objective marker you control that is wholly within your opponent's deployment zone at the end of the battle, you gain 1RP."
+        },
+        {
+          "name": "Brazen Flesh",
+          "description": "This model has a Save characteristic of 2+."
+        },
+        {
+          "name": "Steel Sinews",
+          "description": "Add 1\" to the Move characteristic of models in this model's unit and add 1 to Advance rolls made for this model's unit."
+        },
+        {
+          "name": "Tearing Claws",
+          "description": "Add 1 to the Attacks characteristic of melee weapons equipped by this model. If this model destroys eight or more models during a battle, at the end of the battle, it gains 1 bonus Skull point."
+        },
+        {
+          "name": "Warp Strength",
+          "description": "Improve the Strength characteristic of melee weapons equipped by this model by 2. If this model destroys one or more **^^Monster^^** models and/or one or more **^^Character^^** models during a battle, at the end of the battle, it gains 1 bonus Skull point."
+        }
+      ]
+    },
+    {
+      "id": "273a-db24-3f7c-b977",
+      "name": "Helbrute",
+      "points": 120,
+      "keywords": [
+        "Vehicle",
+        "Walker",
+        "Chaos",
+        "Khorne"
+      ],
+      "factionKeywords": [
+        "World Eaters"
+      ],
+      "stats": {
+        "M": "9\"",
+        "T": "9",
+        "SV": "2+",
+        "W": "8",
+        "LD": "6+",
+        "OC": "3"
+      },
+      "rangedWeapons": [],
+      "meleeWeapons": [
+        {
+          "name": "Close combat weapon",
+          "range": "Melee",
+          "A": "6",
+          "WS": "3+",
+          "S": "6",
+          "AP": "0",
+          "D": "1",
+          "keywords": []
+        }
+      ],
+      "abilities": [
+        {
+          "name": "Frenzy",
+          "description": "In your opponent's Shooting phase, and in the Fight phase, each time an enemy unit targets this model, after that unit has finished making its attacks, this model can either shoot or fight, but when resolving those attacks it can only target that enemy unit (and only if it is an eligible target)."
+        },
+        {
+          "name": "Devoted to Destruction",
+          "description": "If this model is equipped with 2 melee weapons in addition to its close combat weapon, add 2 to the Attacks characteristic of those two weapons."
+        },
+        {
+          "name": "Collar of Khorne",
+          "description": "This model has the Feel No Pain 4+ ability against Psychic Attacks. While this model is leading a unit, Bodyguard models in that unit have the Feel No Pain 5+ ability against Psychic Attacks."
+        },
+        {
+          "name": "Bestial Limbs",
+          "description": "Add 1 to Advance and Charge rolls for this model's unit."
+        },
+        {
+          "name": "Muscular Bulk",
+          "description": "Add 2 to this model's Wounds characteristic."
+        },
+        {
+          "name": "Jagged Horns",
+          "description": "This model's melee weapons have the **[LANCE]** ability."
+        },
+        {
+          "name": "Daemonic Visage",
+          "description": "Improve this model's Leadership characteristic by 1 and its Objective Control characteristic by 2. If this model is within range of an objective marker you control that is wholly within your opponent's deployment zone at the end of the battle, you gain 1RP."
+        },
+        {
+          "name": "Brazen Flesh",
+          "description": "This model has a Save characteristic of 2+."
+        },
+        {
+          "name": "Steel Sinews",
+          "description": "Add 1\" to the Move characteristic of models in this model's unit and add 1 to Advance rolls made for this model's unit."
+        },
+        {
+          "name": "Tearing Claws",
+          "description": "Add 1 to the Attacks characteristic of melee weapons equipped by this model. If this model destroys eight or more models during a battle, at the end of the battle, it gains 1 bonus Skull point."
+        },
+        {
+          "name": "Warp Strength",
+          "description": "Improve the Strength characteristic of melee weapons equipped by this model by 2. If this model destroys one or more **^^Monster^^** models and/or one or more **^^Character^^** models during a battle, at the end of the battle, it gains 1 bonus Skull point."
+        }
+      ]
+    },
+    {
+      "id": "de2e-8fae-9d22-24a4",
+      "name": "Heldrake",
+      "points": 200,
+      "keywords": [
+        "Vehicle",
+        "Fly",
+        "Aircraft",
+        "Chaos",
+        "Khorne",
+        "Daemon"
+      ],
+      "factionKeywords": [
+        "World Eaters"
+      ],
+      "stats": {
+        "M": "20\"+",
+        "T": "9",
+        "SV": "3+",
+        "W": "12",
+        "LD": "6+",
+        "OC": "0"
+      },
+      "rangedWeapons": [],
+      "meleeWeapons": [
+        {
+          "name": "Heldrake claws",
+          "range": "Melee",
+          "A": "6",
+          "WS": "3+",
+          "S": "7",
+          "AP": "-1",
+          "D": "2",
+          "keywords": [
+            "Anti-FLY 2+",
+            "Devastating Wounds"
+          ]
+        }
+      ],
+      "abilities": [
+        {
+          "name": "Airborne Predator",
+          "description": "Each time this model makes an attack that targets a unit that can ^^**Fly^^**, add 1 to the Hit roll."
+        },
+        {
+          "name": "Invulnerable Save",
+          "description": "This model has a 5+ invulnerable save."
+        },
+        {
+          "name": "Collar of Khorne",
+          "description": "This model has the Feel No Pain 4+ ability against Psychic Attacks. While this model is leading a unit, Bodyguard models in that unit have the Feel No Pain 5+ ability against Psychic Attacks."
+        },
+        {
+          "name": "Bestial Limbs",
+          "description": "Add 1 to Advance and Charge rolls for this model's unit."
+        },
+        {
+          "name": "Muscular Bulk",
+          "description": "Add 2 to this model's Wounds characteristic."
+        },
+        {
+          "name": "Jagged Horns",
+          "description": "This model's melee weapons have the **[LANCE]** ability."
+        },
+        {
+          "name": "Daemonic Visage",
+          "description": "Improve this model's Leadership characteristic by 1 and its Objective Control characteristic by 2. If this model is within range of an objective marker you control that is wholly within your opponent's deployment zone at the end of the battle, you gain 1RP."
+        },
+        {
+          "name": "Brazen Flesh",
+          "description": "This model has a Save characteristic of 2+."
+        },
+        {
+          "name": "Steel Sinews",
+          "description": "Add 1\" to the Move characteristic of models in this model's unit and add 1 to Advance rolls made for this model's unit."
+        },
+        {
+          "name": "Tearing Claws",
+          "description": "Add 1 to the Attacks characteristic of melee weapons equipped by this model. If this model destroys eight or more models during a battle, at the end of the battle, it gains 1 bonus Skull point."
+        },
+        {
+          "name": "Warp Strength",
+          "description": "Improve the Strength characteristic of melee weapons equipped by this model by 2. If this model destroys one or more **^^Monster^^** models and/or one or more **^^Character^^** models during a battle, at the end of the battle, it gains 1 bonus Skull point."
+        }
+      ]
+    },
+    {
+      "id": "a619-8a52-be03-3bd5",
+      "name": "Maulerfiend",
+      "points": 150,
+      "keywords": [
+        "Vehicle",
+        "Walker",
+        "Chaos",
+        "Khorne",
+        "Daemon"
+      ],
+      "factionKeywords": [
+        "World Eaters"
+      ],
+      "stats": {
+        "M": "12\"",
+        "T": "10",
+        "SV": "3+",
+        "W": "12",
+        "LD": "6+",
+        "OC": "3"
+      },
+      "rangedWeapons": [],
+      "meleeWeapons": [
+        {
+          "name": "Maulerfiend fists",
+          "range": "Melee",
+          "A": "8",
+          "WS": "3+",
+          "S": "14",
+          "AP": "-2",
+          "D": "D6+1",
+          "keywords": []
+        }
+      ],
+      "abilities": [
+        {
+          "name": "The Scent of Blood",
+          "description": "Each time this model declares a charge that targets one or more units below Starting Strength, add 1 to the Charge roll. If one or more of the targets of that charge are Below Half-strength, add 2 to the Charge roll instead."
+        },
+        {
+          "name": "Invulnerable Save",
+          "description": "This model has a 5+ invulnerable save."
+        },
+        {
+          "name": "Savage Exaltation",
+          "description": "Each time this model makes a melee attack that targets an enemy unit that is below its Starting Strength, add 1 to the Hit roll and, if that attack targets an enemy unit that is Below Half-Strength, add 1 to the Wound roll as well."
+        },
+        {
+          "name": "Collar of Khorne",
+          "description": "This model has the Feel No Pain 4+ ability against Psychic Attacks. While this model is leading a unit, Bodyguard models in that unit have the Feel No Pain 5+ ability against Psychic Attacks."
+        },
+        {
+          "name": "Bestial Limbs",
+          "description": "Add 1 to Advance and Charge rolls for this model's unit."
+        },
+        {
+          "name": "Muscular Bulk",
+          "description": "Add 2 to this model's Wounds characteristic."
+        },
+        {
+          "name": "Jagged Horns",
+          "description": "This model's melee weapons have the **[LANCE]** ability."
+        },
+        {
+          "name": "Daemonic Visage",
+          "description": "Improve this model's Leadership characteristic by 1 and its Objective Control characteristic by 2. If this model is within range of an objective marker you control that is wholly within your opponent's deployment zone at the end of the battle, you gain 1RP."
+        },
+        {
+          "name": "Brazen Flesh",
+          "description": "This model has a Save characteristic of 2+."
+        },
+        {
+          "name": "Steel Sinews",
+          "description": "Add 1\" to the Move characteristic of models in this model's unit and add 1 to Advance rolls made for this model's unit."
+        },
+        {
+          "name": "Tearing Claws",
+          "description": "Add 1 to the Attacks characteristic of melee weapons equipped by this model. If this model destroys eight or more models during a battle, at the end of the battle, it gains 1 bonus Skull point."
+        },
+        {
+          "name": "Warp Strength",
+          "description": "Improve the Strength characteristic of melee weapons equipped by this model by 2. If this model destroys one or more **^^Monster^^** models and/or one or more **^^Character^^** models during a battle, at the end of the battle, it gains 1 bonus Skull point."
+        }
+      ]
+    },
+    {
+      "id": "e849-ce40-ee43-7623",
+      "name": "Chaos Rhino",
+      "points": 85,
+      "keywords": [
+        "Vehicle",
+        "Transport",
+        "Dedicated Transport",
+        "Smoke",
+        "Chaos",
+        "Khorne",
+        "Rhino"
+      ],
+      "factionKeywords": [
+        "World Eaters"
+      ],
+      "stats": {
+        "M": "12\"",
+        "T": "9",
+        "SV": "3+",
+        "W": "10",
+        "LD": "6+",
+        "OC": "2"
+      },
+      "rangedWeapons": [
+        {
+          "name": "Combi-bolter",
+          "range": "24\"",
+          "A": "2",
+          "BS": "4+",
+          "S": "4",
+          "AP": "0",
+          "D": "1",
+          "keywords": [
+            "Rapid Fire 4"
+          ]
+        },
+        {
+          "name": "Havoc launcher",
+          "range": "48\"",
+          "A": "D6",
+          "BS": "4+",
+          "S": "5",
+          "AP": "0",
+          "D": "1",
+          "keywords": [
+            "Blast"
+          ]
+        }
+      ],
+      "meleeWeapons": [
+        {
+          "name": "Armoured tracks",
+          "range": "Melee",
+          "A": "6",
+          "WS": "3+",
+          "S": "6",
+          "AP": "0",
+          "D": "1",
+          "keywords": []
+        }
+      ],
+      "abilities": [
+        {
+          "name": "Meet Any Challenge",
+          "description": "In your opponent's Movement phase, each time an enemy unit is set up or ends a Normal, Advance or Fall Back move within 9\" of this model, any units embarked within it can disembark."
+        },
+        {
+          "name": "Collar of Khorne",
+          "description": "This model has the Feel No Pain 4+ ability against Psychic Attacks. While this model is leading a unit, Bodyguard models in that unit have the Feel No Pain 5+ ability against Psychic Attacks."
+        },
+        {
+          "name": "Bestial Limbs",
+          "description": "Add 1 to Advance and Charge rolls for this model's unit."
+        },
+        {
+          "name": "Muscular Bulk",
+          "description": "Add 2 to this model's Wounds characteristic."
+        },
+        {
+          "name": "Jagged Horns",
+          "description": "This model's melee weapons have the **[LANCE]** ability."
+        },
+        {
+          "name": "Daemonic Visage",
+          "description": "Improve this model's Leadership characteristic by 1 and its Objective Control characteristic by 2. If this model is within range of an objective marker you control that is wholly within your opponent's deployment zone at the end of the battle, you gain 1RP."
+        },
+        {
+          "name": "Brazen Flesh",
+          "description": "This model has a Save characteristic of 2+."
+        },
+        {
+          "name": "Steel Sinews",
+          "description": "Add 1\" to the Move characteristic of models in this model's unit and add 1 to Advance rolls made for this model's unit."
+        },
+        {
+          "name": "Tearing Claws",
+          "description": "Add 1 to the Attacks characteristic of melee weapons equipped by this model. If this model destroys eight or more models during a battle, at the end of the battle, it gains 1 bonus Skull point."
+        },
+        {
+          "name": "Warp Strength",
+          "description": "Improve the Strength characteristic of melee weapons equipped by this model by 2. If this model destroys one or more **^^Monster^^** models and/or one or more **^^Character^^** models during a battle, at the end of the battle, it gains 1 bonus Skull point."
+        }
+      ],
+      "transportCapacity": "This model has a transport capacity of 12 ^^**World Eaters Infantry**^^ models. It cannot transport ^^**Possessed^^** or ^^**Terminator^^** models."
+    },
+    {
+      "id": "edde-57bf-bccc-d8b2",
+      "name": "Chaos Spawn",
+      "points": 90,
+      "keywords": [
+        "Beast",
+        "Chaos",
+        "Khorne",
+        "Spawn"
+      ],
+      "factionKeywords": [
+        "World Eaters"
+      ],
+      "stats": {
+        "M": "10\"",
+        "T": "5",
+        "SV": "4+",
+        "W": "4",
+        "LD": "7+",
+        "OC": "1"
+      },
+      "rangedWeapons": [],
+      "meleeWeapons": [
+        {
+          "name": "Hideous Mutations",
+          "range": "Melee",
+          "A": "D6+4",
+          "WS": "4+",
+          "S": "5",
+          "AP": "-1",
+          "D": "2",
+          "keywords": []
+        }
+      ],
+      "abilities": [
+        {
+          "name": "To Slake Its Rage",
+          "description": "This unit is eligible to declare a charge in a turn in which it Advanced."
+        },
+        {
+          "name": "Collar of Khorne",
+          "description": "This model has the Feel No Pain 4+ ability against Psychic Attacks. While this model is leading a unit, Bodyguard models in that unit have the Feel No Pain 5+ ability against Psychic Attacks."
+        },
+        {
+          "name": "Bestial Limbs",
+          "description": "Add 1 to Advance and Charge rolls for this model's unit."
+        },
+        {
+          "name": "Muscular Bulk",
+          "description": "Add 2 to this model's Wounds characteristic."
+        },
+        {
+          "name": "Jagged Horns",
+          "description": "This model's melee weapons have the **[LANCE]** ability."
+        },
+        {
+          "name": "Daemonic Visage",
+          "description": "Improve this model's Leadership characteristic by 1 and its Objective Control characteristic by 2. If this model is within range of an objective marker you control that is wholly within your opponent's deployment zone at the end of the battle, you gain 1RP."
+        },
+        {
+          "name": "Brazen Flesh",
+          "description": "This model has a Save characteristic of 2+."
+        },
+        {
+          "name": "Steel Sinews",
+          "description": "Add 1\" to the Move characteristic of models in this model's unit and add 1 to Advance rolls made for this model's unit."
+        },
+        {
+          "name": "Tearing Claws",
+          "description": "Add 1 to the Attacks characteristic of melee weapons equipped by this model. If this model destroys eight or more models during a battle, at the end of the battle, it gains 1 bonus Skull point."
+        },
+        {
+          "name": "Warp Strength",
+          "description": "Improve the Strength characteristic of melee weapons equipped by this model by 2. If this model destroys one or more **^^Monster^^** models and/or one or more **^^Character^^** models during a battle, at the end of the battle, it gains 1 bonus Skull point."
+        }
+      ]
+    },
+    {
+      "id": "836c-f65b-6bcb-9663",
+      "name": "Khorne Lord of Skulls",
+      "points": 505,
+      "keywords": [
+        "Vehicle",
+        "Titanic",
+        "Towering",
+        "Chaos",
+        "Khorne",
+        "Daemon",
+        "Lord of Skulls"
+      ],
+      "factionKeywords": [
+        "World Eaters"
+      ],
+      "stats": {
+        "M": "12\"",
+        "T": "13",
+        "SV": "3+",
+        "W": "24",
+        "LD": "6+",
+        "OC": "8"
+      },
+      "rangedWeapons": [],
+      "meleeWeapons": [
+        {
+          "name": "➤ Great cleaver of Khorne - strike",
+          "range": "Melee",
+          "A": "6",
+          "WS": "3+",
+          "S": "16",
+          "AP": "-4",
+          "D": "8",
+          "keywords": []
+        },
+        {
+          "name": "➤ Great cleaver of Khorne - sweep",
+          "range": "Melee",
+          "A": "18",
+          "WS": "3+",
+          "S": "8",
+          "AP": "-2",
+          "D": "2",
+          "keywords": []
+        }
+      ],
+      "abilities": [
+        {
+          "name": "Idol of Blessed Blood",
+          "description": "At the start of the battle round, if this unit is on the battlefield, when you make a Blessings of Khorne roll, roll one additional D6."
+        },
+        {
+          "name": "Damaged: 1-8 wounds remaining",
+          "description": "While this model has 1-8 wounds remaining, subtract 4 from this model’s Objective Control characteristic and each time this model makes an attack, subtract 1 from the Hit roll."
+        },
+        {
+          "name": "Invulnerable Save",
+          "description": "This model has a 5+ invulnerable save."
+        },
+        {
+          "name": "Collar of Khorne",
+          "description": "This model has the Feel No Pain 4+ ability against Psychic Attacks. While this model is leading a unit, Bodyguard models in that unit have the Feel No Pain 5+ ability against Psychic Attacks."
+        },
+        {
+          "name": "Bestial Limbs",
+          "description": "Add 1 to Advance and Charge rolls for this model's unit."
+        },
+        {
+          "name": "Muscular Bulk",
+          "description": "Add 2 to this model's Wounds characteristic."
+        },
+        {
+          "name": "Jagged Horns",
+          "description": "This model's melee weapons have the **[LANCE]** ability."
+        },
+        {
+          "name": "Daemonic Visage",
+          "description": "Improve this model's Leadership characteristic by 1 and its Objective Control characteristic by 2. If this model is within range of an objective marker you control that is wholly within your opponent's deployment zone at the end of the battle, you gain 1RP."
+        },
+        {
+          "name": "Brazen Flesh",
+          "description": "This model has a Save characteristic of 2+."
+        },
+        {
+          "name": "Steel Sinews",
+          "description": "Add 1\" to the Move characteristic of models in this model's unit and add 1 to Advance rolls made for this model's unit."
+        },
+        {
+          "name": "Tearing Claws",
+          "description": "Add 1 to the Attacks characteristic of melee weapons equipped by this model. If this model destroys eight or more models during a battle, at the end of the battle, it gains 1 bonus Skull point."
+        },
+        {
+          "name": "Warp Strength",
+          "description": "Improve the Strength characteristic of melee weapons equipped by this model by 2. If this model destroys one or more **^^Monster^^** models and/or one or more **^^Character^^** models during a battle, at the end of the battle, it gains 1 bonus Skull point."
+        }
+      ]
+    },
+    {
+      "id": "4e04-74aa-2c2f-66d0",
+      "name": "Hell Talon [Legends]",
+      "points": 140,
+      "keywords": [
+        "Vehicle",
+        "Aircraft",
+        "Fly",
+        "Chaos",
+        "Khorne",
+        "Hell Talon"
+      ],
+      "factionKeywords": [
+        "World Eaters"
+      ],
+      "stats": {
+        "M": "20+\"",
+        "T": "9",
+        "SV": "3+",
+        "W": "14",
+        "LD": "6+",
+        "OC": "0"
+      },
+      "rangedWeapons": [
+        {
+          "name": "Twin lascannon",
+          "range": "48\"",
+          "A": "1",
+          "BS": "4+",
+          "S": "12",
+          "AP": "-3",
+          "D": "D6+1",
+          "keywords": [
+            "Rapid Fire 1",
+            "Twin-linked"
+          ]
+        }
+      ],
+      "meleeWeapons": [
+        {
+          "name": "Armoured hull",
+          "range": "Melee",
+          "A": "6",
+          "WS": "4+",
+          "S": "6",
+          "AP": "0",
+          "D": "1",
+          "keywords": []
+        }
+      ],
+      "abilities": [
+        {
+          "name": "Invulnerable Save",
+          "description": "This model has a 5+ invulnerable save."
+        },
+        {
+          "name": "Bomb Rack",
+          "description": "Each time this model ends a Normal move, you can select one enemy unit it moved across during that move and roll six D6: for each 3+, that unit suffers 1 mortal wound."
+        },
+        {
+          "name": "Collar of Khorne",
+          "description": "This model has the Feel No Pain 4+ ability against Psychic Attacks. While this model is leading a unit, Bodyguard models in that unit have the Feel No Pain 5+ ability against Psychic Attacks."
+        },
+        {
+          "name": "Bestial Limbs",
+          "description": "Add 1 to Advance and Charge rolls for this model's unit."
+        },
+        {
+          "name": "Muscular Bulk",
+          "description": "Add 2 to this model's Wounds characteristic."
+        },
+        {
+          "name": "Jagged Horns",
+          "description": "This model's melee weapons have the **[LANCE]** ability."
+        },
+        {
+          "name": "Daemonic Visage",
+          "description": "Improve this model's Leadership characteristic by 1 and its Objective Control characteristic by 2. If this model is within range of an objective marker you control that is wholly within your opponent's deployment zone at the end of the battle, you gain 1RP."
+        },
+        {
+          "name": "Brazen Flesh",
+          "description": "This model has a Save characteristic of 2+."
+        },
+        {
+          "name": "Steel Sinews",
+          "description": "Add 1\" to the Move characteristic of models in this model's unit and add 1 to Advance rolls made for this model's unit."
+        },
+        {
+          "name": "Tearing Claws",
+          "description": "Add 1 to the Attacks characteristic of melee weapons equipped by this model. If this model destroys eight or more models during a battle, at the end of the battle, it gains 1 bonus Skull point."
+        },
+        {
+          "name": "Warp Strength",
+          "description": "Improve the Strength characteristic of melee weapons equipped by this model by 2. If this model destroys one or more **^^Monster^^** models and/or one or more **^^Character^^** models during a battle, at the end of the battle, it gains 1 bonus Skull point."
+        }
+      ]
+    },
+    {
+      "id": "7320-3dba-703c-b3f0",
+      "name": "Hellblade [Legends]",
+      "points": 115,
+      "keywords": [
+        "Vehicle",
+        "Aircraft",
+        "Fly",
+        "Chaos",
+        "Khorne",
+        "Hellblade"
+      ],
+      "factionKeywords": [
+        "World Eaters"
+      ],
+      "stats": {
+        "M": "20+\"",
+        "T": "8",
+        "SV": "3+",
+        "W": "10",
+        "LD": "6+",
+        "OC": "0"
+      },
+      "rangedWeapons": [],
+      "meleeWeapons": [
+        {
+          "name": "Armoured hull",
+          "range": "Melee",
+          "A": "3",
+          "WS": "4+",
+          "S": "6",
+          "AP": "0",
+          "D": "1",
+          "keywords": []
+        }
+      ],
+      "abilities": [
+        {
+          "name": "Invulnerable Save",
+          "description": "This model has a 5+ invulnerable save."
+        },
+        {
+          "name": "Interceptor",
+          "description": "Each time this model makes a ranged attack that targets a unit that can FLY, add 1 to the Hit roll."
+        },
+        {
+          "name": "Collar of Khorne",
+          "description": "This model has the Feel No Pain 4+ ability against Psychic Attacks. While this model is leading a unit, Bodyguard models in that unit have the Feel No Pain 5+ ability against Psychic Attacks."
+        },
+        {
+          "name": "Bestial Limbs",
+          "description": "Add 1 to Advance and Charge rolls for this model's unit."
+        },
+        {
+          "name": "Muscular Bulk",
+          "description": "Add 2 to this model's Wounds characteristic."
+        },
+        {
+          "name": "Jagged Horns",
+          "description": "This model's melee weapons have the **[LANCE]** ability."
+        },
+        {
+          "name": "Daemonic Visage",
+          "description": "Improve this model's Leadership characteristic by 1 and its Objective Control characteristic by 2. If this model is within range of an objective marker you control that is wholly within your opponent's deployment zone at the end of the battle, you gain 1RP."
+        },
+        {
+          "name": "Brazen Flesh",
+          "description": "This model has a Save characteristic of 2+."
+        },
+        {
+          "name": "Steel Sinews",
+          "description": "Add 1\" to the Move characteristic of models in this model's unit and add 1 to Advance rolls made for this model's unit."
+        },
+        {
+          "name": "Tearing Claws",
+          "description": "Add 1 to the Attacks characteristic of melee weapons equipped by this model. If this model destroys eight or more models during a battle, at the end of the battle, it gains 1 bonus Skull point."
+        },
+        {
+          "name": "Warp Strength",
+          "description": "Improve the Strength characteristic of melee weapons equipped by this model by 2. If this model destroys one or more **^^Monster^^** models and/or one or more **^^Character^^** models during a battle, at the end of the battle, it gains 1 bonus Skull point."
+        }
+      ]
+    },
+    {
+      "id": "b399-9b66-e550-8050",
+      "name": "Goremongers",
+      "points": 75,
+      "keywords": [
+        "Infantry",
+        "Grenades",
+        "Chaos",
+        "Khorne"
+      ],
+      "factionKeywords": [
+        "World Eaters"
+      ],
+      "stats": {
+        "M": "9\"",
+        "T": "4",
+        "SV": "6+",
+        "W": "1",
+        "LD": "7+",
+        "OC": "1"
+      },
+      "rangedWeapons": [
+        {
+          "name": "Autopistol",
+          "range": "12\"",
+          "A": "1",
+          "BS": "4+",
+          "S": "3",
+          "AP": "0",
+          "D": "1",
+          "keywords": [
+            "Pistol"
+          ]
+        },
+        {
+          "name": "Blood harpoon",
+          "range": "18\"",
+          "A": "1",
+          "BS": "4+",
+          "S": "5",
+          "AP": "-1",
+          "D": "2",
+          "keywords": [
+            "Assault",
+            "Sustained Hits D3"
+          ]
+        }
+      ],
+      "meleeWeapons": [
+        {
+          "name": "Chainblade",
+          "range": "Melee",
+          "A": "3",
+          "WS": "4+",
+          "S": "3",
+          "AP": "0",
+          "D": "1",
+          "keywords": [
+            "Lance"
+          ]
+        },
+        {
+          "name": "Close combat weapon",
+          "range": "Melee",
+          "A": "2",
+          "WS": "4+",
+          "S": "3",
+          "AP": "0",
+          "D": "1",
+          "keywords": []
+        }
+      ],
+      "abilities": [
+        {
+          "name": "Loping Speed",
+          "description": "Once per turn, when an enemy unit ends a Normal, Advance or Fall Back move within 9\" of this unit, if this unit is not within Engagement Range of one or more enemy units, it can make a Normal move of up to D6\"."
+        },
+        {
+          "name": "Collar of Khorne",
+          "description": "This model has the Feel No Pain 4+ ability against Psychic Attacks. While this model is leading a unit, Bodyguard models in that unit have the Feel No Pain 5+ ability against Psychic Attacks."
+        },
+        {
+          "name": "Bestial Limbs",
+          "description": "Add 1 to Advance and Charge rolls for this model's unit."
+        },
+        {
+          "name": "Muscular Bulk",
+          "description": "Add 2 to this model's Wounds characteristic."
+        },
+        {
+          "name": "Jagged Horns",
+          "description": "This model's melee weapons have the **[LANCE]** ability."
+        },
+        {
+          "name": "Daemonic Visage",
+          "description": "Improve this model's Leadership characteristic by 1 and its Objective Control characteristic by 2. If this model is within range of an objective marker you control that is wholly within your opponent's deployment zone at the end of the battle, you gain 1RP."
+        },
+        {
+          "name": "Brazen Flesh",
+          "description": "This model has a Save characteristic of 2+."
+        },
+        {
+          "name": "Steel Sinews",
+          "description": "Add 1\" to the Move characteristic of models in this model's unit and add 1 to Advance rolls made for this model's unit."
+        },
+        {
+          "name": "Tearing Claws",
+          "description": "Add 1 to the Attacks characteristic of melee weapons equipped by this model. If this model destroys eight or more models during a battle, at the end of the battle, it gains 1 bonus Skull point."
+        },
+        {
+          "name": "Warp Strength",
+          "description": "Improve the Strength characteristic of melee weapons equipped by this model by 2. If this model destroys one or more **^^Monster^^** models and/or one or more **^^Character^^** models during a battle, at the end of the battle, it gains 1 bonus Skull point."
+        }
+      ]
+    },
+    {
+      "id": "71c9-b10b-b55f-483e",
+      "name": "Slaughterbound",
+      "points": 100,
+      "keywords": [
+        "Character",
+        "Infantry",
+        "Chaos",
+        "Khorne",
+        "Daemon",
+        "Possessed"
+      ],
+      "factionKeywords": [
+        "World Eaters"
+      ],
+      "stats": {
+        "M": "10\"",
+        "T": "6",
+        "SV": "3+",
+        "W": "6",
+        "LD": "6+",
+        "OC": "1"
+      },
+      "rangedWeapons": [],
+      "meleeWeapons": [
+        {
+          "name": "Lacerator and daemonic claw",
+          "range": "Melee",
+          "A": "6",
+          "WS": "2+",
+          "S": "10",
+          "AP": "-2",
+          "D": "2",
+          "keywords": []
+        }
+      ],
+      "abilities": [
+        {
+          "name": "Invulnerable Save",
+          "description": "This model has a 5+ invulnerable save."
+        },
+        {
+          "name": "Rage Eternal",
+          "description": "While this model is leading a unit, in your Command phase, you can return one destroyed Bodyguard model to that unit."
+        },
+        {
+          "name": "Possessed Lord",
+          "description": "Once per battle, at the start of the Fight phase, this model can use this ability. If it does, until the end of the phase, add 3 to the Attacks characteristic of melee weapons equipped by this model and those weapons have the [Devastating Wounds] ability."
+        },
+        {
+          "name": "Leader",
+          "description": "This model can be attached to the following units: ^^**Eightbound^^**, ^^**Exalted Eightbound^^**"
+        },
+        {
+          "name": "Lord of the Eightbound",
+          "description": "If this model is attached to a ^^**World Eaters Possessed^^** unit during the Declare Battle Formations step, this model has the Deep Strike and Scouts 6\" abilities."
+        },
+        {
+          "name": "Berzerker Glaive",
+          "description": "Add 1 to the Attacks and Damage characteristics of melee weapons (excluding Extra Attacks weapons) equipped by the bearer."
+        },
+        {
+          "name": "Battle-lust",
+          "description": "You can re-roll Charge rolls made for the bearer's unit. In addition, while the Unbridled Bloodlust Blessing of Khorne is active for your army, add 1 to Charge rolls made for the bearer's unit."
+        },
+        {
+          "name": "Helm of Brazen Ire",
+          "description": "Each time an attack is allocated to the bearer, subtract 1 from the Damage characteristic of that attack."
+        },
+        {
+          "name": "Favoured of Khorne",
+          "description": "Each time you make a Blessings of Khorne roll, if the bearer is on the battlefield, you can re-roll up to 2 of the D6 rolled."
+        },
+        {
+          "name": "Archslaughterer",
+          "description": "Improve the Armour Penetration characteristic of melee weapons equipped by the bearer by 1. While the bearer is a **^^Vessel Of Wrath^^**, improve the Damage characteristic of those weapons by 1 as well."
+        },
+        {
+          "name": "Vox-Diabolus",
+          "description": "Each time the bearer’s unit destroys an enemy unit with a melee attack, roll one D6, adding 1 to the result if the bearer is a VESSEL OF WRATH: on a 4+, you gain 1CP."
+        },
+        {
+          "name": "Avenger's Crown",
+          "description": "If the bearer is destroyed by a melee attack, if it has not fought this phase, roll one D6: on a 2+, do not remove it from play. The destroyed model can fight after the attacking unit has finished making its attacks, and is then removed from play."
+        },
+        {
+          "name": "Gateways to Glory",
+          "description": "Each time the bearer makes a Normal, Advance or Charge move, it can move horizontally through models and terrain features. When doing so, it can move within Engagement Range of such models but cannot end a Normal or Advance move within Engagement Range of them."
+        },
+        {
+          "name": "Brazen Form",
+          "description": "Add 1 to the bearer's Toughness characteristic and the bearer has the Feel No Pain 5+ ability."
+        },
+        {
+          "name": "Butcher Lord",
+          "description": "During the Declare Battle Formations step, the bearer can be attached to a ^^**Jakhals^^** or ^^**Goremongers^^** unit. If attached to a ^^**Goremongers^^** unit, the bearer has the Infiltrators ability."
+        },
+        {
+          "name": "Chosen of the Blood God",
+          "description": "Add 3\" to the range of the bearer's Aura abilities."
+        },
+        {
+          "name": "Strategic Slaughter",
+          "description": "After both players have deployed their armies, select up to 3 ^^**Jakhals^^** and/or ^^**Goremongers^^** units from your army and redeploy them. When doing so, you can set those units up in Strategic Reserves, regardless of how many units are already in Strategic Reserves."
+        },
+        {
+          "name": "Disciple of Khorne",
+          "description": "During the Declare Battle Formations step, the bearer can be attached to a ^^**Bloodcrushers^^** or ^^**Flesh Hounds^^** unit. While leading one of these units, the bearer has the Deep Strike ability, and it has the ^^**Blood Legions^^** Faction keyword instead of the ^^**World Eaters^^** Faction keyword."
+        },
+        {
+          "name": "Blood-forged Armour",
+          "description": "The bearer has a Save characteristic of 2+. If the bearer is destroyed, you gain 1 Blood Tithe point."
+        },
+        {
+          "name": "Icon of War",
+          "description": "While a friendly ^^**Blood Legions^^** unit is within 6\" of the bearer, that unit has the Blessings of Khorne ability. If the Might of Khorne ability is active for your army, then while a friendly ^^**Blood Legions^^** unit is within 6\" of the bearer, you can re-roll Battle-shock tests taken for that unit."
+        },
+        {
+          "name": "Blade of Endless Bloodshed",
+          "description": "Add 1 to the Attacks, Strength and Damage characteristics of the bearer's melee weapons. Each time the bearer's unit destroys an enemy unit with a melee attack, do not roll to gain a Blood Tithe point, you automatically gain 1 Blood Tithe point instead."
+        },
+        {
+          "name": "Frenzied Focus",
+          "description": "Each time a model in the bearer's unit makes an attack, a Critical Hit is scored on an unmodified Hit roll of 5+, instead of only a 6."
+        },
+        {
+          "name": "Killing Clarity",
+          "description": "Each time the bearer's unit destroys an enemy unit, roll one D6: on a 4+, you gain 1CP."
+        },
+        {
+          "name": "Violent Demise",
+          "description": "The bearer's Deadly Demise ability inflicts mortal wounds on a D6 roll of 2+ instead of on a 6. In addition, the bearer has the Deadly Demise D3+1 ability, instead of the Deadly Demise D3 ability."
+        },
+        {
+          "name": "Malicious Vigour",
+          "description": "Each time the bearer's unit makes a Brazen Fury move, it is treated as having rolled a 6 for the distance the unit can be moved."
+        },
+        {
+          "name": "Aggressive Deployment",
+          "description": "In the Declare Battle Formations step, if the bearer starts the battle embarked within a ^^**Dedicated Transport^^**, that ^^**Dedicated Transport^^** has the Scouts 9\" ability."
+        },
+        {
+          "name": "Unleash Hell",
+          "description": "At the start of your Shooting phase, you can select one ^^**Vehicle^^** model within 6\" of the bearer or, if the bearer is embarked within a ^^**Transport^^**, you can select that ^^**Transport^^** model. Until the end of the phase, after the selected model has shot, select one enemy unit hit by one or more of those attacks. Until the start of your next turn, that enemy unit is suppressed. While a unit is suppressed, each time a model in that unit makes an attack, subtract 1 from the Hit roll."
+        },
+        {
+          "name": "Infernal Infusion",
+          "description": "Once per battle, at the start of the Fight phase, the bearer can use this Enhancement. If it does, until the end of the phase, the bearer's unit has the Fights First ability."
+        },
+        {
+          "name": "Murderous Onslaught",
+          "description": "If the bearer's unit disembarked from a ^^**Transport^^** this turn, until the end of the turn, enemy units cannot use the Fire Overwatch Stratagem to shoot at the bearer's unit."
+        },
+        {
+          "name": "Collar of Khorne",
+          "description": "This model has the Feel No Pain 4+ ability against Psychic Attacks. While this model is leading a unit, Bodyguard models in that unit have the Feel No Pain 5+ ability against Psychic Attacks."
+        },
+        {
+          "name": "Bestial Limbs",
+          "description": "Add 1 to Advance and Charge rolls for this model's unit."
+        },
+        {
+          "name": "Muscular Bulk",
+          "description": "Add 2 to this model's Wounds characteristic."
+        },
+        {
+          "name": "Jagged Horns",
+          "description": "This model's melee weapons have the **[LANCE]** ability."
+        },
+        {
+          "name": "Daemonic Visage",
+          "description": "Improve this model's Leadership characteristic by 1 and its Objective Control characteristic by 2. If this model is within range of an objective marker you control that is wholly within your opponent's deployment zone at the end of the battle, you gain 1RP."
+        },
+        {
+          "name": "Brazen Flesh",
+          "description": "This model has a Save characteristic of 2+."
+        },
+        {
+          "name": "Steel Sinews",
+          "description": "Add 1\" to the Move characteristic of models in this model's unit and add 1 to Advance rolls made for this model's unit."
+        },
+        {
+          "name": "Tearing Claws",
+          "description": "Add 1 to the Attacks characteristic of melee weapons equipped by this model. If this model destroys eight or more models during a battle, at the end of the battle, it gains 1 bonus Skull point."
+        },
+        {
+          "name": "Warp Strength",
+          "description": "Improve the Strength characteristic of melee weapons equipped by this model by 2. If this model destroys one or more **^^Monster^^** models and/or one or more **^^Character^^** models during a battle, at the end of the battle, it gains 1 bonus Skull point."
+        }
+      ]
+    },
+    {
+      "id": "71d9-9dc2-2b9a-6db3",
+      "name": "Skarbrand",
+      "points": 305,
+      "keywords": [
+        "Monster",
+        "Character",
+        "Epic Hero",
+        "Chaos",
+        "Daemon",
+        "Khorne"
+      ],
+      "factionKeywords": [
+        "Blood Legions"
+      ],
+      "stats": {
+        "M": "10\"",
+        "T": "11",
+        "SV": "3+",
+        "W": "20",
+        "LD": "6+",
+        "OC": "5"
+      },
+      "rangedWeapons": [
+        {
+          "name": "Bellow of endless fury",
+          "range": "12\"",
+          "A": "2D6",
+          "BS": "N/A",
+          "S": "8",
+          "AP": "-1",
+          "D": "1",
+          "keywords": [
+            "Ignores Cover",
+            "Torrent"
+          ]
+        }
+      ],
+      "meleeWeapons": [
+        {
+          "name": "➤ Slaughter and Carnage - strike",
+          "range": "Melee",
+          "A": "8",
+          "WS": "2+",
+          "S": "16",
+          "AP": "-4",
+          "D": "6",
+          "keywords": []
+        },
+        {
+          "name": "➤ Slaughter and Carnage - sweep",
+          "range": "Melee",
+          "A": "16",
+          "WS": "2+",
+          "S": "8",
+          "AP": "-2",
+          "D": "2",
+          "keywords": []
+        }
+      ],
+      "abilities": [
+        {
+          "name": "Invulnerable Save",
+          "description": "This model has a 4+ invulnerable save."
+        },
+        {
+          "name": "Rage Embodied (Aura)",
+          "description": "While a friendly ^^Blood Legions^^ unit is within 6\" of this model, add 1 to the Attacks characteristic of melee weapons equipped by models in that unit."
+        },
+        {
+          "name": "Murderlust",
+          "description": "This unit is eligible to declare a charge in a turn in which it Advanced."
+        },
+        {
+          "name": "Damaged: 1-7 wounds remaining",
+          "description": "While this model has 1-7 wounds remaining, add 2 to the Attacks characteristic of this model’s Slaughter and Carnage."
+        }
+      ]
+    },
+    {
+      "id": "4ad2-bd20-6dfe-776b",
+      "name": "Bloodthirster",
+      "points": 305,
+      "keywords": [
+        "Monster",
+        "Character",
+        "Fly",
+        "Chaos",
+        "Daemon",
+        "Khorne",
+        "Summoned"
+      ],
+      "factionKeywords": [
+        "Blood Legions"
+      ],
+      "stats": {
+        "M": "12\"",
+        "T": "11",
+        "SV": "3+",
+        "W": "18",
+        "LD": "6+",
+        "OC": "5"
+      },
+      "rangedWeapons": [
+        {
+          "name": "Hellfire breath",
+          "range": "12\"",
+          "A": "D6",
+          "BS": "N/A",
+          "S": "5",
+          "AP": "-1",
+          "D": "1",
+          "keywords": [
+            "Ignores Cover",
+            "Torrent"
+          ]
+        }
+      ],
+      "meleeWeapons": [],
+      "abilities": [
+        {
+          "name": "Daemon Lord of Khorne (Aura)",
+          "description": "While a friendly ^^Blood Legions^^ unit is within 6\" of this model, each time a model in that unit makes a melee attack, add 1 to the Hit roll."
+        },
+        {
+          "name": "Relentless Carnage",
+          "description": "At the end of the Fight phase, you can select one enemy unit within Engagement Range of this model and roll eight D6: for each 4+, that enemy unit suffers 1 mortal wound."
+        },
+        {
+          "name": "Invulnerable Save",
+          "description": "This model has a 4+ invulnerable save."
+        },
+        {
+          "name": "Damaged: 1-6 wounds remaining",
+          "description": "While this model has 1-6 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
+        },
+        {
+          "name": "Berzerker Glaive",
+          "description": "Add 1 to the Attacks and Damage characteristics of melee weapons (excluding Extra Attacks weapons) equipped by the bearer."
+        },
+        {
+          "name": "Battle-lust",
+          "description": "You can re-roll Charge rolls made for the bearer's unit. In addition, while the Unbridled Bloodlust Blessing of Khorne is active for your army, add 1 to Charge rolls made for the bearer's unit."
+        },
+        {
+          "name": "Helm of Brazen Ire",
+          "description": "Each time an attack is allocated to the bearer, subtract 1 from the Damage characteristic of that attack."
+        },
+        {
+          "name": "Favoured of Khorne",
+          "description": "Each time you make a Blessings of Khorne roll, if the bearer is on the battlefield, you can re-roll up to 2 of the D6 rolled."
+        },
+        {
+          "name": "Archslaughterer",
+          "description": "Improve the Armour Penetration characteristic of melee weapons equipped by the bearer by 1. While the bearer is a **^^Vessel Of Wrath^^**, improve the Damage characteristic of those weapons by 1 as well."
+        },
+        {
+          "name": "Vox-Diabolus",
+          "description": "Each time the bearer’s unit destroys an enemy unit with a melee attack, roll one D6, adding 1 to the result if the bearer is a VESSEL OF WRATH: on a 4+, you gain 1CP."
+        },
+        {
+          "name": "Avenger's Crown",
+          "description": "If the bearer is destroyed by a melee attack, if it has not fought this phase, roll one D6: on a 2+, do not remove it from play. The destroyed model can fight after the attacking unit has finished making its attacks, and is then removed from play."
+        },
+        {
+          "name": "Gateways to Glory",
+          "description": "Each time the bearer makes a Normal, Advance or Charge move, it can move horizontally through models and terrain features. When doing so, it can move within Engagement Range of such models but cannot end a Normal or Advance move within Engagement Range of them."
+        },
+        {
+          "name": "Brazen Form",
+          "description": "Add 1 to the bearer's Toughness characteristic and the bearer has the Feel No Pain 5+ ability."
+        },
+        {
+          "name": "Butcher Lord",
+          "description": "During the Declare Battle Formations step, the bearer can be attached to a ^^**Jakhals^^** or ^^**Goremongers^^** unit. If attached to a ^^**Goremongers^^** unit, the bearer has the Infiltrators ability."
+        },
+        {
+          "name": "Chosen of the Blood God",
+          "description": "Add 3\" to the range of the bearer's Aura abilities."
+        },
+        {
+          "name": "Strategic Slaughter",
+          "description": "After both players have deployed their armies, select up to 3 ^^**Jakhals^^** and/or ^^**Goremongers^^** units from your army and redeploy them. When doing so, you can set those units up in Strategic Reserves, regardless of how many units are already in Strategic Reserves."
+        },
+        {
+          "name": "Disciple of Khorne",
+          "description": "During the Declare Battle Formations step, the bearer can be attached to a ^^**Bloodcrushers^^** or ^^**Flesh Hounds^^** unit. While leading one of these units, the bearer has the Deep Strike ability, and it has the ^^**Blood Legions^^** Faction keyword instead of the ^^**World Eaters^^** Faction keyword."
+        },
+        {
+          "name": "Blood-forged Armour",
+          "description": "The bearer has a Save characteristic of 2+. If the bearer is destroyed, you gain 1 Blood Tithe point."
+        },
+        {
+          "name": "Icon of War",
+          "description": "While a friendly ^^**Blood Legions^^** unit is within 6\" of the bearer, that unit has the Blessings of Khorne ability. If the Might of Khorne ability is active for your army, then while a friendly ^^**Blood Legions^^** unit is within 6\" of the bearer, you can re-roll Battle-shock tests taken for that unit."
+        },
+        {
+          "name": "Blade of Endless Bloodshed",
+          "description": "Add 1 to the Attacks, Strength and Damage characteristics of the bearer's melee weapons. Each time the bearer's unit destroys an enemy unit with a melee attack, do not roll to gain a Blood Tithe point, you automatically gain 1 Blood Tithe point instead."
+        },
+        {
+          "name": "Frenzied Focus",
+          "description": "Each time a model in the bearer's unit makes an attack, a Critical Hit is scored on an unmodified Hit roll of 5+, instead of only a 6."
+        },
+        {
+          "name": "Killing Clarity",
+          "description": "Each time the bearer's unit destroys an enemy unit, roll one D6: on a 4+, you gain 1CP."
+        },
+        {
+          "name": "Violent Demise",
+          "description": "The bearer's Deadly Demise ability inflicts mortal wounds on a D6 roll of 2+ instead of on a 6. In addition, the bearer has the Deadly Demise D3+1 ability, instead of the Deadly Demise D3 ability."
+        },
+        {
+          "name": "Malicious Vigour",
+          "description": "Each time the bearer's unit makes a Brazen Fury move, it is treated as having rolled a 6 for the distance the unit can be moved."
+        },
+        {
+          "name": "Aggressive Deployment",
+          "description": "In the Declare Battle Formations step, if the bearer starts the battle embarked within a ^^**Dedicated Transport^^**, that ^^**Dedicated Transport^^** has the Scouts 9\" ability."
+        },
+        {
+          "name": "Unleash Hell",
+          "description": "At the start of your Shooting phase, you can select one ^^**Vehicle^^** model within 6\" of the bearer or, if the bearer is embarked within a ^^**Transport^^**, you can select that ^^**Transport^^** model. Until the end of the phase, after the selected model has shot, select one enemy unit hit by one or more of those attacks. Until the start of your next turn, that enemy unit is suppressed. While a unit is suppressed, each time a model in that unit makes an attack, subtract 1 from the Hit roll."
+        },
+        {
+          "name": "Infernal Infusion",
+          "description": "Once per battle, at the start of the Fight phase, the bearer can use this Enhancement. If it does, until the end of the phase, the bearer's unit has the Fights First ability."
+        },
+        {
+          "name": "Murderous Onslaught",
+          "description": "If the bearer's unit disembarked from a ^^**Transport^^** this turn, until the end of the turn, enemy units cannot use the Fire Overwatch Stratagem to shoot at the bearer's unit."
+        }
+      ]
+    },
+    {
+      "id": "9188-4709-00ba-e5e0",
+      "name": "Bloodletters",
+      "points": 90,
+      "keywords": [
+        "Infantry",
+        "Battleline",
+        "Chaos",
+        "Daemon",
+        "Khorne",
+        "Summoned"
+      ],
+      "factionKeywords": [
+        "Blood Legions"
+      ],
+      "stats": {
+        "M": "8\"",
+        "T": "4",
+        "SV": "7+",
+        "W": "1",
+        "LD": "7+",
+        "OC": "1"
+      },
+      "rangedWeapons": [],
+      "meleeWeapons": [
+        {
+          "name": "Hellblade",
+          "range": "Melee",
+          "A": "2",
+          "WS": "3+",
+          "S": "5",
+          "AP": "-2",
+          "D": "2",
+          "keywords": []
+        }
+      ],
+      "abilities": [
+        {
+          "name": "Invulnerable Save",
+          "description": "Models in this unit have a 5+ invulnerable save."
+        },
+        {
+          "name": "Bane of Cowards",
+          "description": "Each time an enemy unit (excluding Monsters and Vehicles) within Engagement Range of one or more units from your army with this ability Falls Back, models in that enemy unit must take Desperate Escape tests. When doing so, if that enemy unit is also Battle-shocked, subtract 1 from each of those Desperate Escape tests."
+        },
+        {
+          "name": "Instrument of Chaos",
+          "description": "Add 1 to Charge rolls made for the bearer’s unit."
+        },
+        {
+          "name": "Daemonic Icon",
+          "description": "Models in the bearer’s unit have a Leadership characteristic of 6+."
+        }
+      ]
+    },
+    {
+      "id": "e65f-c7c7-1d18-1a60",
+      "name": "Bloodcrushers",
+      "points": 110,
+      "keywords": [
+        "Mounted",
+        "Chaos",
+        "Daemon",
+        "Khorne",
+        "Summoned"
+      ],
+      "factionKeywords": [
+        "Blood Legions"
+      ],
+      "stats": {
+        "M": "10\"",
+        "T": "7",
+        "SV": "3+",
+        "W": "4",
+        "LD": "7+",
+        "OC": "2"
+      },
+      "rangedWeapons": [],
+      "meleeWeapons": [
+        {
+          "name": "Hellblade",
+          "range": "Melee",
+          "A": "2",
+          "WS": "3+",
+          "S": "5",
+          "AP": "-2",
+          "D": "2",
+          "keywords": []
+        },
+        {
+          "name": "Bladed horn",
+          "range": "Melee",
+          "A": "4",
+          "WS": "4+",
+          "S": "6",
+          "AP": "-1",
+          "D": "1",
+          "keywords": [
+            "Extra Attacks",
+            "Lance"
+          ]
+        }
+      ],
+      "abilities": [
+        {
+          "name": "Invulnerable Save",
+          "description": "Models in this unit have a 5+ invulnerable save."
+        },
+        {
+          "name": "Brass Stampede",
+          "description": "Each time this unit ends a Charge move, select one enemy unit within Engagement Range of this unit and roll one D6 for each model in this unit: for each 4+, that enemy unit suffers D3 mortal wounds."
+        },
+        {
+          "name": "Instrument of Chaos",
+          "description": "Add 1 to Charge rolls made for the bearer’s unit."
+        },
+        {
+          "name": "Daemonic Icon",
+          "description": "Models in the bearer’s unit have a Leadership characteristic of 6+."
+        }
+      ]
+    },
+    {
+      "id": "b657-1743-6e3a-0838",
+      "name": "Flesh Hounds",
+      "points": 75,
+      "keywords": [
+        "Beast",
+        "Chaos",
+        "Daemon",
+        "Khorne",
+        "Summoned"
+      ],
+      "factionKeywords": [
+        "Blood Legions"
+      ],
+      "stats": {
+        "M": "12\"",
+        "T": "4",
+        "SV": "7+",
+        "W": "2",
+        "LD": "7+",
+        "OC": "1"
+      },
+      "rangedWeapons": [
+        {
+          "name": "Burning roar",
+          "range": "12\"",
+          "A": "D6",
+          "BS": "N/A",
+          "S": "4",
+          "AP": "0",
+          "D": "1",
+          "keywords": [
+            "Ignores Cover",
+            "Torrent"
+          ]
+        }
+      ],
+      "meleeWeapons": [
+        {
+          "name": "Gore-drenched fangs",
+          "range": "Melee",
+          "A": "3",
+          "WS": "3+",
+          "S": "5",
+          "AP": "-1",
+          "D": "1",
+          "keywords": []
+        }
+      ],
+      "abilities": [
+        {
+          "name": "Invulnerable Save",
+          "description": "Models in this unit have a 5+ invulnerable save."
+        },
+        {
+          "name": "Hunters from the Warp",
+          "description": "At the end of your opponent’s turn, if this unit is not within Engagement Range of one or more enemy units, you can remove it from the battlefield and place it into Strategic Reserves."
+        },
+        {
+          "name": "Collar of Khorne",
+          "description": "The bearer has the Feel No Pain 3+ ability against Psychic Attacks."
+        }
+      ]
+    },
+    {
+      "id": "85e5-721a-d505-3881",
+      "name": "Butcherlord [Crucible]",
+      "points": 90,
+      "keywords": [
+        "Infantry",
+        "Character",
+        "Grenades",
+        "Chaos",
+        "Khorne",
+        "Butcherlord",
+        "Crucible"
+      ],
+      "factionKeywords": [
+        "World Eaters"
+      ],
+      "stats": {
+        "M": "8\"",
+        "T": "4",
+        "SV": "3+",
+        "W": "5",
+        "LD": "6+",
+        "OC": "1"
+      },
+      "rangedWeapons": [
+        {
+          "name": "Bolt pistol",
+          "range": "12\"",
+          "A": "1",
+          "BS": "2+",
+          "S": "4",
+          "AP": "0",
+          "D": "1",
+          "keywords": [
+            "Pistol"
+          ]
+        },
+        {
+          "name": "Autopistol",
+          "range": "12\"",
+          "A": "1",
+          "BS": "2+",
+          "S": "3",
+          "AP": "0",
+          "D": "1",
+          "keywords": [
+            "Pistol"
+          ]
+        },
+        {
+          "name": "➤ Plasma pistol - standard",
+          "range": "12\"",
+          "A": "1",
+          "BS": "2+",
+          "S": "7",
+          "AP": "-2",
+          "D": "1",
+          "keywords": [
+            "Pistol"
+          ]
+        },
+        {
+          "name": "➤ Plasma pistol - supercharge",
+          "range": "12\"",
+          "A": "1",
+          "BS": "2+",
+          "S": "8",
+          "AP": "-3",
+          "D": "2",
+          "keywords": [
+            "Hazardous",
+            "Pistol"
+          ]
+        },
+        {
+          "name": "Blood harpoon",
+          "range": "18\"",
+          "A": "1",
+          "BS": "3+",
+          "S": "5",
+          "AP": "-1",
+          "D": "2",
+          "keywords": [
+            "Assault",
+            "Sustained Hits D3"
+          ]
+        },
+        {
+          "name": "Combi-bolter",
+          "range": "24\"",
+          "A": "2",
+          "BS": "3+",
+          "S": "4",
+          "AP": "0",
+          "D": "1",
+          "keywords": [
+            "Rapid Fire 1"
+          ]
+        },
+        {
+          "name": "Combi-weapon",
+          "range": "24\"",
+          "A": "1",
+          "BS": "3+",
+          "S": "4",
+          "AP": "0",
+          "D": "1",
+          "keywords": [
+            "Anti-Infantry 4+",
+            "Devastating Wounds",
+            "Rapid Fire 1"
+          ]
+        },
+        {
+          "name": "Heavy flamer",
+          "range": "12\"",
+          "A": "D6",
+          "BS": "N/A",
+          "S": "5",
+          "AP": "-1",
+          "D": "1",
+          "keywords": [
+            "Ignores Cover",
+            "Torrent"
+          ]
+        },
+        {
+          "name": "Reaper autocannon",
+          "range": "36\"",
+          "A": "4",
+          "BS": "3+",
+          "S": "7",
+          "AP": "-1",
+          "D": "1",
+          "keywords": [
+            "Devastating Wounds",
+            "Rapid Fire 2",
+            "Sustained Hits 1"
+          ]
+        }
+      ],
+      "meleeWeapons": [
+        {
+          "name": "Accursed weapon",
+          "range": "Melee",
+          "A": "6",
+          "WS": "2+",
+          "S": "5",
+          "AP": "-2",
+          "D": "1",
+          "keywords": []
+        },
+        {
+          "name": "Axe of dismemberment",
+          "range": "Melee",
+          "A": "5",
+          "WS": "2+",
+          "S": "7",
+          "AP": "-2",
+          "D": "2",
+          "keywords": [
+            "Devastating Wounds",
+            "Precision"
+          ]
+        },
+        {
+          "name": "Chainblades",
+          "range": "Melee",
+          "A": "5",
+          "WS": "3+",
+          "S": "3",
+          "AP": "0",
+          "D": "1",
+          "keywords": []
+        },
+        {
+          "name": "Chainfist",
+          "range": "Melee",
+          "A": "5",
+          "WS": "3+",
+          "S": "8",
+          "AP": "-2",
+          "D": "2",
+          "keywords": [
+            "Anti-Vehicle 3+"
+          ]
+        },
+        {
+          "name": "Close combat weapon",
+          "range": "Melee",
+          "A": "6",
+          "WS": "2+",
+          "S": "4",
+          "AP": "0",
+          "D": "1",
+          "keywords": []
+        },
+        {
+          "name": "Daemon hammer",
+          "range": "Melee",
+          "A": "5",
+          "WS": "3+",
+          "S": "8",
+          "AP": "-2",
+          "D": "2",
+          "keywords": [
+            "Devastating Wounds"
+          ]
+        },
+        {
+          "name": "Exalted chainblade",
+          "range": "Melee",
+          "A": "7",
+          "WS": "2+",
+          "S": "6",
+          "AP": "-1",
+          "D": "2",
+          "keywords": []
+        },
+        {
+          "name": "Khornate eviscerator",
+          "range": "Melee",
+          "A": "5",
+          "WS": "3+",
+          "S": "8",
+          "AP": "-2",
+          "D": "2",
+          "keywords": []
+        },
+        {
+          "name": "Mauler chainblade",
+          "range": "Melee",
+          "A": "4",
+          "WS": "4+",
+          "S": "4",
+          "AP": "-1",
+          "D": "2",
+          "keywords": []
+        },
+        {
+          "name": "Paired manglers",
+          "range": "Melee",
+          "A": "4",
+          "WS": "3+",
+          "S": "4",
+          "AP": "0",
+          "D": "1",
+          "keywords": []
+        },
+        {
+          "name": "Power fist",
+          "range": "Melee",
+          "A": "5",
+          "WS": "2+",
+          "S": "8",
+          "AP": "-2",
+          "D": "2",
+          "keywords": []
+        },
+        {
+          "name": "Skullsmasher and mangler",
+          "range": "Melee",
+          "A": "3",
+          "WS": "3+",
+          "S": "4",
+          "AP": "-1",
+          "D": "2",
+          "keywords": []
+        }
+      ],
+      "abilities": [
+        {
+          "name": "Endless Hatred",
+          "description": "You can re-roll Charge rolls made for this model's unit."
+        },
+        {
+          "name": "Invulnerable Save (4+)",
+          "description": "This model has a 4+ invulnerable save."
+        },
+        {
+          "name": "Leader",
+          "description": "This model can be attached to the following unit: ^^**Khorne Berzerkers**^^"
+        },
+        {
+          "name": "Collar of Khorne",
+          "description": "This model has the Feel No Pain 4+ ability against Psychic Attacks. While this model is leading a unit, Bodyguard models in that unit have the Feel No Pain 5+ ability against Psychic Attacks."
+        },
+        {
+          "name": "Bestial Limbs",
+          "description": "Add 1 to Advance and Charge rolls for this model's unit."
+        },
+        {
+          "name": "Muscular Bulk",
+          "description": "Add 2 to this model's Wounds characteristic."
+        },
+        {
+          "name": "Jagged Horns",
+          "description": "This model's melee weapons have the **[LANCE]** ability."
+        },
+        {
+          "name": "Daemonic Visage",
+          "description": "Improve this model's Leadership characteristic by 1 and its Objective Control characteristic by 2. If this model is within range of an objective marker you control that is wholly within your opponent's deployment zone at the end of the battle, you gain 1RP."
+        },
+        {
+          "name": "Brazen Flesh",
+          "description": "This model has a Save characteristic of 2+."
+        },
+        {
+          "name": "Steel Sinews",
+          "description": "Add 1\" to the Move characteristic of models in this model's unit and add 1 to Advance rolls made for this model's unit."
+        },
+        {
+          "name": "Tearing Claws",
+          "description": "Add 1 to the Attacks characteristic of melee weapons equipped by this model. If this model destroys eight or more models during a battle, at the end of the battle, it gains 1 bonus Skull point."
+        },
+        {
+          "name": "Warp Strength",
+          "description": "Improve the Strength characteristic of melee weapons equipped by this model by 2. If this model destroys one or more **^^Monster^^** models and/or one or more **^^Character^^** models during a battle, at the end of the battle, it gains 1 bonus Skull point."
+        },
+        {
+          "name": "Leader",
+          "description": "This model can be attached to the following units: ^^**Goremongers**^^"
+        },
+        {
+          "name": "Leader",
+          "description": "This model can be attached to the following units: ^^**Eightbound, Exalted Eightbound**^^"
+        },
+        {
+          "name": "Leader",
+          "description": "This model can be attached to the following units: ^^**Terminator Squad**^^"
+        },
+        {
+          "name": "Bellowed Challenge",
+          "description": "Melee weapons (excluding Devastating Wounds weapons) equipped by models in this unit gain the [^^ANTI-MONSTER^^ 3+] and [^^ANTI-VEHICLE^^ 3+] abilities."
+        },
+        {
+          "name": "Forwards, for Blood",
+          "description": "While this model is leading a unit, you can re-roll Advance rolls made for that unit and each time that unit makes a Blood Surge move, you can re-roll the D6 used to determine how far models in that unit move."
+        },
+        {
+          "name": "Lord of Slaughter",
+          "description": "Once per battle round, one unit from your army with this ability can be targeted with a Strategem for 0CP, even if a different unit from your army has already been targeted with that Stratagem this phase."
+        },
+        {
+          "name": "Murderous Insight",
+          "description": "Each time an attack made by this unit destroys an enemy unit, roll one D6: on a 4+, you gain 1CP."
+        },
+        {
+          "name": "Rage Eternal",
+          "description": "While this model is leading a unit, in your Command phase, you can return one destroyed Bodyguard model to that unit."
+        }
+      ]
+    },
+    {
+      "id": "71ad-8562-f833-5872",
+      "name": "Eight-blessed Lord [Crucible]",
+      "points": 90,
+      "keywords": [
+        "Character",
+        "Chaos",
+        "Khorne",
+        "Mounted",
+        "Eight-blessed Lord",
+        "Crucible"
+      ],
+      "factionKeywords": [
+        "World Eaters"
+      ],
+      "stats": {
+        "M": "10\"",
+        "T": "6",
+        "SV": "3+",
+        "W": "7",
+        "LD": "6+",
+        "OC": "2"
+      },
+      "rangedWeapons": [
+        {
+          "name": "Bolt pistol",
+          "range": "12\"",
+          "A": "1",
+          "BS": "2+",
+          "S": "4",
+          "AP": "0",
+          "D": "1",
+          "keywords": [
+            "Pistol"
+          ]
+        },
+        {
+          "name": "Autopistol",
+          "range": "12\"",
+          "A": "1",
+          "BS": "2+",
+          "S": "3",
+          "AP": "0",
+          "D": "1",
+          "keywords": [
+            "Pistol"
+          ]
+        },
+        {
+          "name": "➤ Plasma pistol - standard",
+          "range": "12\"",
+          "A": "1",
+          "BS": "2+",
+          "S": "7",
+          "AP": "-2",
+          "D": "1",
+          "keywords": [
+            "Pistol"
+          ]
+        },
+        {
+          "name": "➤ Plasma pistol - supercharge",
+          "range": "12\"",
+          "A": "1",
+          "BS": "2+",
+          "S": "8",
+          "AP": "-3",
+          "D": "2",
+          "keywords": [
+            "Hazardous",
+            "Pistol"
+          ]
+        },
+        {
+          "name": "Blood harpoon",
+          "range": "18\"",
+          "A": "1",
+          "BS": "3+",
+          "S": "5",
+          "AP": "-1",
+          "D": "2",
+          "keywords": [
+            "Assault",
+            "Sustained Hits D3"
+          ]
+        },
+        {
+          "name": "Combi-bolter",
+          "range": "24\"",
+          "A": "2",
+          "BS": "3+",
+          "S": "4",
+          "AP": "0",
+          "D": "1",
+          "keywords": [
+            "Rapid Fire 1"
+          ]
+        },
+        {
+          "name": "Combi-weapon",
+          "range": "24\"",
+          "A": "1",
+          "BS": "3+",
+          "S": "4",
+          "AP": "0",
+          "D": "1",
+          "keywords": [
+            "Anti-Infantry 4+",
+            "Devastating Wounds",
+            "Rapid Fire 1"
+          ]
+        },
+        {
+          "name": "Heavy flamer",
+          "range": "12\"",
+          "A": "D6",
+          "BS": "N/A",
+          "S": "5",
+          "AP": "-1",
+          "D": "1",
+          "keywords": [
+            "Ignores Cover",
+            "Torrent"
+          ]
+        },
+        {
+          "name": "Reaper autocannon",
+          "range": "36\"",
+          "A": "4",
+          "BS": "3+",
+          "S": "7",
+          "AP": "-1",
+          "D": "1",
+          "keywords": [
+            "Devastating Wounds",
+            "Rapid Fire 2",
+            "Sustained Hits 1"
+          ]
+        }
+      ],
+      "meleeWeapons": [
+        {
+          "name": "Bladed horn",
+          "range": "Melee",
+          "A": "4",
+          "WS": "3+",
+          "S": "6",
+          "AP": "-1",
+          "D": "2",
+          "keywords": [
+            "Extra Attacks",
+            "Lance"
+          ]
+        },
+        {
+          "name": "Accursed weapon",
+          "range": "Melee",
+          "A": "6",
+          "WS": "2+",
+          "S": "5",
+          "AP": "-2",
+          "D": "1",
+          "keywords": []
+        },
+        {
+          "name": "Axe of dismemberment",
+          "range": "Melee",
+          "A": "5",
+          "WS": "2+",
+          "S": "7",
+          "AP": "-2",
+          "D": "2",
+          "keywords": [
+            "Devastating Wounds",
+            "Precision"
+          ]
+        },
+        {
+          "name": "Chainblades",
+          "range": "Melee",
+          "A": "5",
+          "WS": "3+",
+          "S": "3",
+          "AP": "0",
+          "D": "1",
+          "keywords": []
+        },
+        {
+          "name": "Chainfist",
+          "range": "Melee",
+          "A": "5",
+          "WS": "3+",
+          "S": "8",
+          "AP": "-2",
+          "D": "2",
+          "keywords": [
+            "Anti-Vehicle 3+"
+          ]
+        },
+        {
+          "name": "Close combat weapon",
+          "range": "Melee",
+          "A": "6",
+          "WS": "2+",
+          "S": "4",
+          "AP": "0",
+          "D": "1",
+          "keywords": []
+        },
+        {
+          "name": "Daemon hammer",
+          "range": "Melee",
+          "A": "5",
+          "WS": "3+",
+          "S": "8",
+          "AP": "-2",
+          "D": "2",
+          "keywords": [
+            "Devastating Wounds"
+          ]
+        },
+        {
+          "name": "Exalted chainblade",
+          "range": "Melee",
+          "A": "7",
+          "WS": "2+",
+          "S": "6",
+          "AP": "-1",
+          "D": "2",
+          "keywords": []
+        },
+        {
+          "name": "Khornate eviscerator",
+          "range": "Melee",
+          "A": "5",
+          "WS": "3+",
+          "S": "8",
+          "AP": "-2",
+          "D": "2",
+          "keywords": []
+        },
+        {
+          "name": "Mauler chainblade",
+          "range": "Melee",
+          "A": "4",
+          "WS": "4+",
+          "S": "4",
+          "AP": "-1",
+          "D": "2",
+          "keywords": []
+        },
+        {
+          "name": "Paired manglers",
+          "range": "Melee",
+          "A": "4",
+          "WS": "3+",
+          "S": "4",
+          "AP": "0",
+          "D": "1",
+          "keywords": []
+        },
+        {
+          "name": "Power fist",
+          "range": "Melee",
+          "A": "5",
+          "WS": "2+",
+          "S": "8",
+          "AP": "-2",
+          "D": "2",
+          "keywords": []
+        },
+        {
+          "name": "Skullsmasher and mangler",
+          "range": "Melee",
+          "A": "3",
+          "WS": "3+",
+          "S": "4",
+          "AP": "-1",
+          "D": "2",
+          "keywords": []
+        }
+      ],
+      "abilities": [
+        {
+          "name": "Bloodthirst",
+          "description": "Add 2 to Charge rolls made for this unit."
+        },
+        {
+          "name": "Invulnerable Save (4+)",
+          "description": "This model has a 4+ invulnerable save."
+        },
+        {
+          "name": "Leader",
+          "description": "This model can be attached to the following unit: ^^**Khorne Berzerkers**^^"
+        },
+        {
+          "name": "Collar of Khorne",
+          "description": "This model has the Feel No Pain 4+ ability against Psychic Attacks. While this model is leading a unit, Bodyguard models in that unit have the Feel No Pain 5+ ability against Psychic Attacks."
+        },
+        {
+          "name": "Bestial Limbs",
+          "description": "Add 1 to Advance and Charge rolls for this model's unit."
+        },
+        {
+          "name": "Muscular Bulk",
+          "description": "Add 2 to this model's Wounds characteristic."
+        },
+        {
+          "name": "Jagged Horns",
+          "description": "This model's melee weapons have the **[LANCE]** ability."
+        },
+        {
+          "name": "Daemonic Visage",
+          "description": "Improve this model's Leadership characteristic by 1 and its Objective Control characteristic by 2. If this model is within range of an objective marker you control that is wholly within your opponent's deployment zone at the end of the battle, you gain 1RP."
+        },
+        {
+          "name": "Brazen Flesh",
+          "description": "This model has a Save characteristic of 2+."
+        },
+        {
+          "name": "Steel Sinews",
+          "description": "Add 1\" to the Move characteristic of models in this model's unit and add 1 to Advance rolls made for this model's unit."
+        },
+        {
+          "name": "Tearing Claws",
+          "description": "Add 1 to the Attacks characteristic of melee weapons equipped by this model. If this model destroys eight or more models during a battle, at the end of the battle, it gains 1 bonus Skull point."
+        },
+        {
+          "name": "Warp Strength",
+          "description": "Improve the Strength characteristic of melee weapons equipped by this model by 2. If this model destroys one or more **^^Monster^^** models and/or one or more **^^Character^^** models during a battle, at the end of the battle, it gains 1 bonus Skull point."
+        },
+        {
+          "name": "Leader",
+          "description": "This model can be attached to the following units: ^^**Goremongers**^^"
+        },
+        {
+          "name": "Leader",
+          "description": "This model can be attached to the following units: ^^**Eightbound, Exalted Eightbound**^^"
+        },
+        {
+          "name": "Leader",
+          "description": "This model can be attached to the following units: ^^**Terminator Squad**^^"
+        },
+        {
+          "name": "Bellowed Challenge",
+          "description": "Melee weapons (excluding Devastating Wounds weapons) equipped by models in this unit gain the [^^ANTI-MONSTER^^ 3+] and [^^ANTI-VEHICLE^^ 3+] abilities."
+        },
+        {
+          "name": "Forwards, for Blood",
+          "description": "While this model is leading a unit, you can re-roll Advance rolls made for that unit and each time that unit makes a Blood Surge move, you can re-roll the D6 used to determine how far models in that unit move."
+        },
+        {
+          "name": "Lord of Slaughter",
+          "description": "Once per battle round, one unit from your army with this ability can be targeted with a Strategem for 0CP, even if a different unit from your army has already been targeted with that Stratagem this phase."
+        },
+        {
+          "name": "Murderous Insight",
+          "description": "Each time an attack made by this unit destroys an enemy unit, roll one D6: on a 4+, you gain 1CP."
+        },
+        {
+          "name": "Rage Eternal",
+          "description": "While this model is leading a unit, in your Command phase, you can return one destroyed Bodyguard model to that unit."
+        }
+      ]
+    },
+    {
+      "id": "544e-3db3-4878-3db3",
+      "name": "Bloodcult Champion [Crucible]",
+      "points": 60,
+      "keywords": [
+        "Infantry",
+        "Character",
+        "Grenades",
+        "Khorne",
+        "Bloodcult Champion",
+        "Crucible"
+      ],
+      "factionKeywords": [
+        "World Eaters"
+      ],
+      "stats": {
+        "M": "7\"",
+        "T": "4",
+        "SV": "6+",
+        "W": "3",
+        "LD": "6+",
+        "OC": "1"
+      },
+      "rangedWeapons": [
+        {
+          "name": "Bolt pistol",
+          "range": "12\"",
+          "A": "1",
+          "BS": "2+",
+          "S": "4",
+          "AP": "0",
+          "D": "1",
+          "keywords": [
+            "Pistol"
+          ]
+        },
+        {
+          "name": "Autopistol",
+          "range": "12\"",
+          "A": "1",
+          "BS": "2+",
+          "S": "3",
+          "AP": "0",
+          "D": "1",
+          "keywords": [
+            "Pistol"
+          ]
+        },
+        {
+          "name": "➤ Plasma pistol - standard",
+          "range": "12\"",
+          "A": "1",
+          "BS": "2+",
+          "S": "7",
+          "AP": "-2",
+          "D": "1",
+          "keywords": [
+            "Pistol"
+          ]
+        },
+        {
+          "name": "➤ Plasma pistol - supercharge",
+          "range": "12\"",
+          "A": "1",
+          "BS": "2+",
+          "S": "8",
+          "AP": "-3",
+          "D": "2",
+          "keywords": [
+            "Hazardous",
+            "Pistol"
+          ]
+        },
+        {
+          "name": "Blood harpoon",
+          "range": "18\"",
+          "A": "1",
+          "BS": "3+",
+          "S": "5",
+          "AP": "-1",
+          "D": "2",
+          "keywords": [
+            "Assault",
+            "Sustained Hits D3"
+          ]
+        },
+        {
+          "name": "Combi-bolter",
+          "range": "24\"",
+          "A": "2",
+          "BS": "3+",
+          "S": "4",
+          "AP": "0",
+          "D": "1",
+          "keywords": [
+            "Rapid Fire 1"
+          ]
+        },
+        {
+          "name": "Combi-weapon",
+          "range": "24\"",
+          "A": "1",
+          "BS": "3+",
+          "S": "4",
+          "AP": "0",
+          "D": "1",
+          "keywords": [
+            "Anti-Infantry 4+",
+            "Devastating Wounds",
+            "Rapid Fire 1"
+          ]
+        },
+        {
+          "name": "Heavy flamer",
+          "range": "12\"",
+          "A": "D6",
+          "BS": "N/A",
+          "S": "5",
+          "AP": "-1",
+          "D": "1",
+          "keywords": [
+            "Ignores Cover",
+            "Torrent"
+          ]
+        },
+        {
+          "name": "Reaper autocannon",
+          "range": "36\"",
+          "A": "4",
+          "BS": "3+",
+          "S": "7",
+          "AP": "-1",
+          "D": "1",
+          "keywords": [
+            "Devastating Wounds",
+            "Rapid Fire 2",
+            "Sustained Hits 1"
+          ]
+        }
+      ],
+      "meleeWeapons": [
+        {
+          "name": "Accursed weapon",
+          "range": "Melee",
+          "A": "6",
+          "WS": "2+",
+          "S": "5",
+          "AP": "-2",
+          "D": "1",
+          "keywords": []
+        },
+        {
+          "name": "Axe of dismemberment",
+          "range": "Melee",
+          "A": "5",
+          "WS": "2+",
+          "S": "7",
+          "AP": "-2",
+          "D": "2",
+          "keywords": [
+            "Devastating Wounds",
+            "Precision"
+          ]
+        },
+        {
+          "name": "Chainblades",
+          "range": "Melee",
+          "A": "5",
+          "WS": "3+",
+          "S": "3",
+          "AP": "0",
+          "D": "1",
+          "keywords": []
+        },
+        {
+          "name": "Chainfist",
+          "range": "Melee",
+          "A": "5",
+          "WS": "3+",
+          "S": "8",
+          "AP": "-2",
+          "D": "2",
+          "keywords": [
+            "Anti-Vehicle 3+"
+          ]
+        },
+        {
+          "name": "Close combat weapon",
+          "range": "Melee",
+          "A": "6",
+          "WS": "2+",
+          "S": "4",
+          "AP": "0",
+          "D": "1",
+          "keywords": []
+        },
+        {
+          "name": "Daemon hammer",
+          "range": "Melee",
+          "A": "5",
+          "WS": "3+",
+          "S": "8",
+          "AP": "-2",
+          "D": "2",
+          "keywords": [
+            "Devastating Wounds"
+          ]
+        },
+        {
+          "name": "Exalted chainblade",
+          "range": "Melee",
+          "A": "7",
+          "WS": "2+",
+          "S": "6",
+          "AP": "-1",
+          "D": "2",
+          "keywords": []
+        },
+        {
+          "name": "Khornate eviscerator",
+          "range": "Melee",
+          "A": "5",
+          "WS": "3+",
+          "S": "8",
+          "AP": "-2",
+          "D": "2",
+          "keywords": []
+        },
+        {
+          "name": "Mauler chainblade",
+          "range": "Melee",
+          "A": "4",
+          "WS": "4+",
+          "S": "4",
+          "AP": "-1",
+          "D": "2",
+          "keywords": []
+        },
+        {
+          "name": "Paired manglers",
+          "range": "Melee",
+          "A": "4",
+          "WS": "3+",
+          "S": "4",
+          "AP": "0",
+          "D": "1",
+          "keywords": []
+        },
+        {
+          "name": "Power fist",
+          "range": "Melee",
+          "A": "5",
+          "WS": "2+",
+          "S": "8",
+          "AP": "-2",
+          "D": "2",
+          "keywords": []
+        },
+        {
+          "name": "Skullsmasher and mangler",
+          "range": "Melee",
+          "A": "3",
+          "WS": "3+",
+          "S": "4",
+          "AP": "-1",
+          "D": "2",
+          "keywords": []
+        }
+      ],
+      "abilities": [
+        {
+          "name": "Aura of Dark Glory",
+          "description": "Models in this unit have an invulnerable save characteristic of 5+."
+        },
+        {
+          "name": "Leader",
+          "description": "This model can be attached to the following unit: ^^**Jakhals**^^"
+        },
+        {
+          "name": "Collar of Khorne",
+          "description": "This model has the Feel No Pain 4+ ability against Psychic Attacks. While this model is leading a unit, Bodyguard models in that unit have the Feel No Pain 5+ ability against Psychic Attacks."
+        },
+        {
+          "name": "Bestial Limbs",
+          "description": "Add 1 to Advance and Charge rolls for this model's unit."
+        },
+        {
+          "name": "Muscular Bulk",
+          "description": "Add 2 to this model's Wounds characteristic."
+        },
+        {
+          "name": "Jagged Horns",
+          "description": "This model's melee weapons have the **[LANCE]** ability."
+        },
+        {
+          "name": "Daemonic Visage",
+          "description": "Improve this model's Leadership characteristic by 1 and its Objective Control characteristic by 2. If this model is within range of an objective marker you control that is wholly within your opponent's deployment zone at the end of the battle, you gain 1RP."
+        },
+        {
+          "name": "Brazen Flesh",
+          "description": "This model has a Save characteristic of 2+."
+        },
+        {
+          "name": "Steel Sinews",
+          "description": "Add 1\" to the Move characteristic of models in this model's unit and add 1 to Advance rolls made for this model's unit."
+        },
+        {
+          "name": "Tearing Claws",
+          "description": "Add 1 to the Attacks characteristic of melee weapons equipped by this model. If this model destroys eight or more models during a battle, at the end of the battle, it gains 1 bonus Skull point."
+        },
+        {
+          "name": "Warp Strength",
+          "description": "Improve the Strength characteristic of melee weapons equipped by this model by 2. If this model destroys one or more **^^Monster^^** models and/or one or more **^^Character^^** models during a battle, at the end of the battle, it gains 1 bonus Skull point."
+        },
+        {
+          "name": "Leader",
+          "description": "This model can be attached to the following units: ^^**Goremongers**^^"
+        },
+        {
+          "name": "Leader",
+          "description": "This model can be attached to the following units: ^^**Eightbound, Exalted Eightbound**^^"
+        },
+        {
+          "name": "Leader",
+          "description": "This model can be attached to the following units: ^^**Terminator Squad**^^"
+        },
+        {
+          "name": "Bellowed Challenge",
+          "description": "Melee weapons (excluding Devastating Wounds weapons) equipped by models in this unit gain the [^^ANTI-MONSTER^^ 3+] and [^^ANTI-VEHICLE^^ 3+] abilities."
+        },
+        {
+          "name": "Forwards, for Blood",
+          "description": "While this model is leading a unit, you can re-roll Advance rolls made for that unit and each time that unit makes a Blood Surge move, you can re-roll the D6 used to determine how far models in that unit move."
+        },
+        {
+          "name": "Lord of Slaughter",
+          "description": "Once per battle round, one unit from your army with this ability can be targeted with a Strategem for 0CP, even if a different unit from your army has already been targeted with that Stratagem this phase."
+        },
+        {
+          "name": "Murderous Insight",
+          "description": "Each time an attack made by this unit destroys an enemy unit, roll one D6: on a 4+, you gain 1CP."
+        },
+        {
+          "name": "Rage Eternal",
+          "description": "While this model is leading a unit, in your Command phase, you can return one destroyed Bodyguard model to that unit."
+        }
+      ]
+    }
+  ],
+  "enhancements": [
+    {
+      "name": "Berzerker Glaive",
+      "points": 35,
+      "description": "Add 1 to the Attacks and Damage characteristics of melee weapons (excluding Extra Attacks weapons) equipped by the bearer.",
+      "detachment": "Berzerker Warband"
+    },
+    {
+      "name": "Battle-lust",
+      "points": 10,
+      "description": "You can re-roll Charge rolls made for the bearer's unit. In addition, while the Unbridled Bloodlust Blessing of Khorne is active for your army, add 1 to Charge rolls made for the bearer's unit.",
+      "detachment": "Berzerker Warband"
+    },
+    {
+      "name": "Helm of Brazen Ire",
+      "points": 30,
+      "description": "Each time an attack is allocated to the bearer, subtract 1 from the Damage characteristic of that attack.",
+      "detachment": "Berzerker Warband"
+    },
+    {
+      "name": "Favoured of Khorne",
+      "points": 15,
+      "description": "Each time you make a Blessings of Khorne roll, if the bearer is on the battlefield, you can re-roll up to 2 of the D6 rolled.",
+      "detachment": "Berzerker Warband"
+    },
+    {
+      "name": "Archslaughterer",
+      "points": 25,
+      "description": "Improve the Armour Penetration characteristic of melee weapons equipped by the bearer by 1. While the bearer is a **^^Vessel Of Wrath^^**, improve the Damage characteristic of those weapons by 1 as well.",
+      "detachment": "Vessels of Wrath"
+    },
+    {
+      "name": "Vox-Diabolus",
+      "points": 20,
+      "description": "Each time the bearer’s unit destroys an enemy unit with a melee attack, roll one D6, adding 1 to the result if the bearer is a VESSEL OF WRATH: on a 4+, you gain 1CP.",
+      "detachment": "Vessels of Wrath"
+    },
+    {
+      "name": "Avenger's Crown",
+      "points": 15,
+      "description": "If the bearer is destroyed by a melee attack, if it has not fought this phase, roll one D6: on a 2+, do not remove it from play. The destroyed model can fight after the attacking unit has finished making its attacks, and is then removed from play.",
+      "detachment": "Vessels of Wrath"
+    },
+    {
+      "name": "Gateways to Glory",
+      "points": 10,
+      "description": "Each time the bearer makes a Normal, Advance or Charge move, it can move horizontally through models and terrain features. When doing so, it can move within Engagement Range of such models but cannot end a Normal or Advance move within Engagement Range of them.",
+      "detachment": "Vessels of Wrath"
+    },
+    {
+      "name": "Brazen Form",
+      "points": 25,
+      "description": "Add 1 to the bearer's Toughness characteristic and the bearer has the Feel No Pain 5+ ability.",
+      "detachment": "Cult of Blood"
+    },
+    {
+      "name": "Butcher Lord",
+      "points": 10,
+      "description": "During the Declare Battle Formations step, the bearer can be attached to a ^^**Jakhals^^** or ^^**Goremongers^^** unit. If attached to a ^^**Goremongers^^** unit, the bearer has the Infiltrators ability.",
+      "detachment": "Cult of Blood"
+    },
+    {
+      "name": "Chosen of the Blood God",
+      "points": 15,
+      "description": "Add 3\" to the range of the bearer's Aura abilities.",
+      "detachment": "Cult of Blood"
+    },
+    {
+      "name": "Strategic Slaughter",
+      "points": 20,
+      "description": "After both players have deployed their armies, select up to 3 ^^**Jakhals^^** and/or ^^**Goremongers^^** units from your army and redeploy them. When doing so, you can set those units up in Strategic Reserves, regardless of how many units are already in Strategic Reserves.",
+      "detachment": "Cult of Blood"
+    },
+    {
+      "name": "Disciple of Khorne",
+      "points": 15,
+      "description": "During the Declare Battle Formations step, the bearer can be attached to a ^^**Bloodcrushers^^** or ^^**Flesh Hounds^^** unit. While leading one of these units, the bearer has the Deep Strike ability, and it has the ^^**Blood Legions^^** Faction keyword instead of the ^^**World Eaters^^** Faction keyword.",
+      "detachment": "Khorne Daemonkin"
+    },
+    {
+      "name": "Blood-forged Armour",
+      "points": 20,
+      "description": "The bearer has a Save characteristic of 2+. If the bearer is destroyed, you gain 1 Blood Tithe point.",
+      "detachment": "Khorne Daemonkin"
+    },
+    {
+      "name": "Icon of War",
+      "points": 25,
+      "description": "While a friendly ^^**Blood Legions^^** unit is within 6\" of the bearer, that unit has the Blessings of Khorne ability. If the Might of Khorne ability is active for your army, then while a friendly ^^**Blood Legions^^** unit is within 6\" of the bearer, you can re-roll Battle-shock tests taken for that unit.",
+      "detachment": "Khorne Daemonkin"
+    },
+    {
+      "name": "Blade of Endless Bloodshed",
+      "points": 30,
+      "description": "Add 1 to the Attacks, Strength and Damage characteristics of the bearer's melee weapons. Each time the bearer's unit destroys an enemy unit with a melee attack, do not roll to gain a Blood Tithe point, you automatically gain 1 Blood Tithe point instead.",
+      "detachment": "Khorne Daemonkin"
+    },
+    {
+      "name": "Frenzied Focus",
+      "points": 20,
+      "description": "Each time a model in the bearer's unit makes an attack, a Critical Hit is scored on an unmodified Hit roll of 5+, instead of only a 6.",
+      "detachment": "Possessed Slaughterband"
+    },
+    {
+      "name": "Killing Clarity",
+      "points": 15,
+      "description": "Each time the bearer's unit destroys an enemy unit, roll one D6: on a 4+, you gain 1CP.",
+      "detachment": "Possessed Slaughterband"
+    },
+    {
+      "name": "Violent Demise",
+      "points": 10,
+      "description": "The bearer's Deadly Demise ability inflicts mortal wounds on a D6 roll of 2+ instead of on a 6. In addition, the bearer has the Deadly Demise D3+1 ability, instead of the Deadly Demise D3 ability.",
+      "detachment": "Possessed Slaughterband"
+    },
+    {
+      "name": "Malicious Vigour",
+      "points": 30,
+      "description": "Each time the bearer's unit makes a Brazen Fury move, it is treated as having rolled a 6 for the distance the unit can be moved.",
+      "detachment": "Possessed Slaughterband"
+    },
+    {
+      "name": "Aggressive Deployment",
+      "points": 20,
+      "description": "In the Declare Battle Formations step, if the bearer starts the battle embarked within a ^^**Dedicated Transport^^**, that ^^**Dedicated Transport^^** has the Scouts 9\" ability.",
+      "detachment": "Goretrack Onslaught"
+    },
+    {
+      "name": "Unleash Hell",
+      "points": 10,
+      "description": "At the start of your Shooting phase, you can select one ^^**Vehicle^^** model within 6\" of the bearer or, if the bearer is embarked within a ^^**Transport^^**, you can select that ^^**Transport^^** model. Until the end of the phase, after the selected model has shot, select one enemy unit hit by one or more of those attacks. Until the start of your next turn, that enemy unit is suppressed. While a unit is suppressed, each time a model in that unit makes an attack, subtract 1 from the Hit roll.",
+      "detachment": "Goretrack Onslaught"
+    },
+    {
+      "name": "Infernal Infusion",
+      "points": 25,
+      "description": "Once per battle, at the start of the Fight phase, the bearer can use this Enhancement. If it does, until the end of the phase, the bearer's unit has the Fights First ability.",
+      "detachment": "Goretrack Onslaught"
+    },
+    {
+      "name": "Murderous Onslaught",
+      "points": 5,
+      "description": "If the bearer's unit disembarked from a ^^**Transport^^** this turn, until the end of the turn, enemy units cannot use the Fire Overwatch Stratagem to shoot at the bearer's unit.",
+      "detachment": "Goretrack Onslaught"
+    }
+  ]
+}

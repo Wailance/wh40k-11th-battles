@@ -25,4 +25,6 @@ dist-ssr
 
 # Large GW source PDFs (fetch via npm run fetch-rules-pdfs)
 data/sources/*.pdf
+data/bsdata-wh40k-10e/
+public/unit-art/
 .venv/

@@ -306,6 +306,15 @@ export function validateScoreIncrement(params: {
     return count > 0 ? { allowed: true } : { allowed: false, reason: 'Nothing to undo' }
   }
 
+  if (kind === 'secondary' && player.secondaryMode === 'tactical' && secondaryCard) {
+    if (scores.tacticalAchieved.includes(secondaryCard)) {
+      return { allowed: false, reason: 'Card already achieved' }
+    }
+    if (!scores.tacticalHand.includes(secondaryCard)) {
+      return { allowed: false, reason: 'Not an active card' }
+    }
+  }
+
   const timing = timingReason(option, battleRound)
   if (timing) return { allowed: false, reason: timing }
 
@@ -351,7 +360,7 @@ export function validateScoreIncrement(params: {
 
     const allSecondaryCards =
       player.secondaryMode === 'tactical'
-        ? scores.tacticalHand
+        ? [...scores.tacticalHand, ...scores.tacticalAchieved]
         : player.secondaries.filter((s) => !scores.removedSecondaries.includes(s))
 
     let totalSecondaryGame = 0
@@ -516,6 +525,34 @@ export function formatRoundFiveTimingHint(
   if (battleRound !== 5 || !/fifth battle round/i.test(timing)) return timing
   if (isSecondPlayer) return `${timing} · use End of your turn`
   return `${timing} · use End of Command phase`
+}
+
+/** Cards to show for secondary scoring in a given round (hand + any scored this round). */
+export function secondaryCardsForRound(
+  player: PlayerSetup,
+  scores: PlayerScores,
+  battleRound: number,
+): string[] {
+  const cards = new Set<string>()
+  if (player.secondaryMode === 'tactical') {
+    for (const c of [...scores.tacticalHand, ...scores.tacticalAchieved]) cards.add(c)
+  } else {
+    for (const c of player.secondaries) {
+      if (!scores.removedSecondaries.includes(c)) cards.add(c)
+    }
+  }
+  for (const key of Object.keys(scores.secondaryScoreTally)) {
+    if (getTallyCount(scores.secondaryScoreTally, key, battleRound) > 0) {
+      const card = key.includes('::') ? key.slice(0, key.indexOf('::')) : key
+      cards.add(card)
+    }
+  }
+  return [...cards]
+}
+
+export function roundCombinedVp(scores: PlayerScores, battleRound: number): number {
+  const i = battleRound - 1
+  return (scores.primaryRoundVp[i] ?? 0) + (scores.secondaryRoundVp[i] ?? 0)
 }
 
 export function listSecondaryCardNames(): string[] {

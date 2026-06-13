@@ -1,0 +1,149 @@
+{
+  "id": "2261-79a5-19d9-1668",
+  "name": "Adeptus Astartes - Salamanders",
+  "catalogueName": "Imperium - Adeptus Astartes - Salamanders",
+  "units": [
+    {
+      "id": "98c-87ea-f51b-1475",
+      "name": "Adrax Agatone",
+      "points": 85,
+      "keywords": [
+        "Epic Hero",
+        "Character",
+        "Infantry",
+        "Captain",
+        "Imperium",
+        "Tacticus"
+      ],
+      "factionKeywords": [
+        "Adeptus Astartes",
+        "Salamanders"
+      ],
+      "stats": {
+        "M": "6\"",
+        "T": "4",
+        "SV": "2+",
+        "W": "5",
+        "LD": "6+",
+        "OC": "1"
+      },
+      "rangedWeapons": [
+        {
+          "name": "Drakkis",
+          "range": "12\"",
+          "A": "D6+3",
+          "BS": "N/A",
+          "S": "4",
+          "AP": "-1",
+          "D": "1",
+          "keywords": [
+            "Ignores Cover",
+            "Pistol",
+            "Torrent"
+          ]
+        }
+      ],
+      "meleeWeapons": [
+        {
+          "name": "Malleus Noctum",
+          "range": "Melee",
+          "A": "5",
+          "WS": "2+",
+          "S": "10",
+          "AP": "-2",
+          "D": "3",
+          "keywords": []
+        }
+      ],
+      "abilities": [
+        {
+          "name": "Unto the Anvil",
+          "description": "While this model is leading a unit, each time a model in that unit makes a melee attack, you can re-roll the Wound roll."
+        },
+        {
+          "name": "Lord of the Pyroclasts",
+          "description": "While an enemy unit is within Engagement Range of this model, halve the Objective Control characteristic of models in that enemy unit"
+        },
+        {
+          "name": "Leader",
+          "description": "This model can be attached to the following units:\n\n■ Assault Intercessor Squad\n■ Bladeguard Veteran Squad\n■ Company Heroes\n■ Infernus Squad\n■ Intercessor Squad\n■ Sternguard Veteran Squad\n■ Tactical Squad"
+        }
+      ]
+    },
+    {
+      "id": "b351-fccc-2121-1e1e",
+      "name": "Vulkan He'stan",
+      "points": 100,
+      "keywords": [
+        "Epic Hero",
+        "Character",
+        "Infantry",
+        "Captain",
+        "Imperium",
+        "Grenades",
+        "Tacticus"
+      ],
+      "factionKeywords": [
+        "Adeptus Astartes",
+        "Salamanders"
+      ],
+      "stats": {
+        "M": "6\"",
+        "T": "4",
+        "SV": "2+",
+        "W": "5",
+        "LD": "6+",
+        "OC": "1"
+      },
+      "rangedWeapons": [
+        {
+          "name": "Gauntlet of the Forge",
+          "range": "12\"",
+          "A": "D6+3",
+          "BS": "N/A",
+          "S": "6",
+          "AP": "-1",
+          "D": "1",
+          "keywords": [
+            "Ignores Cover",
+            "Pistol",
+            "Torrent"
+          ]
+        }
+      ],
+      "meleeWeapons": [
+        {
+          "name": "Spear of Vulkan",
+          "range": "Melee",
+          "A": "6",
+          "WS": "2+",
+          "S": "6",
+          "AP": "-2",
+          "D": "2",
+          "keywords": [
+            "Devastating Wounds"
+          ]
+        }
+      ],
+      "abilities": [
+        {
+          "name": "Forgefather",
+          "description": "In your Shooting phase, select one enemy unit within 24\" of and visible to this model. Until the end of the phase, each time a friendly Adeptus Astartes model makes a ranged attack with a Torrent or Melta weapon that targets that enemy unit, you can re-roll the Wound roll"
+        },
+        {
+          "name": "Seeker of the Unfound",
+          "description": "The first time this model is set up on the battlefield, select one objective marker on the battlefield. While this model is within range of that objective marker, it has an Objective Control characteristic of 10, a Leadership characteristic of 5+ and the Feel No Pain 4+ ability."
+        },
+        {
+          "name": "Leader",
+          "description": "This model can be attached to the following units:\n\n■ Assault Intercessor Squad\n■ Company Heroes\n■ Infernus Squad\n■ Tactical Squad"
+        },
+        {
+          "name": "Inspiring Commander",
+          "description": "If you include this model in your army, until the end of the battle, non-Character models in Infernus Squad units from your army have an Objective Control characteristic of 2 while they are not Battle-shocked."
+        }
+      ]
+    }
+  ],
+  "enhancements": []
+}

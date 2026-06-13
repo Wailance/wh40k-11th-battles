@@ -1,0 +1,80 @@
+import { DpCost } from './DpDisplay'
+import { ForceDispositionBadge } from './ForceDispositionBadge'
+import { copy } from '../lib/copy'
+import { toggleDetachment } from '../lib/list-engine'
+import type { Army, ForceDisposition, SelectedDetachment } from '../types/game'
+import type { ArmyRoster } from '../types/roster'
+
+export function DetachmentPicker({
+  roster,
+  armyEntry,
+  dpUsed,
+  onPersist,
+  battleSize,
+  onBattleSize,
+  showBattleSize = true,
+}: {
+  roster: ArmyRoster
+  armyEntry: Army
+  dpUsed: number
+  onPersist: (r: ArmyRoster) => void
+  battleSize?: ArmyRoster['battleSize']
+  onBattleSize?: (size: ArmyRoster['battleSize']) => void
+  showBattleSize?: boolean
+}) {
+  return (
+    <div className="space-y-3">
+      {showBattleSize && onBattleSize && battleSize !== undefined && (
+        <div>
+          <p className="mb-1.5 text-[10px] uppercase tracking-widest text-muted">
+            {copy.armyLists.battleSizeLabel}
+          </p>
+          <select
+            value={battleSize}
+            onChange={(e) => onBattleSize(Number(e.target.value) as ArmyRoster['battleSize'])}
+            className="w-full rounded-lg border border-white/10 bg-black/40 px-3 py-2.5 text-sm text-bone"
+          >
+            <option value={1000}>{copy.armyLists.battleSizeIncursion}</option>
+            <option value={2000}>{copy.armyLists.battleSizeStrike}</option>
+          </select>
+        </div>
+      )}
+
+      <p className="text-xs text-muted">
+        {copy.armyLists.detachmentsHint} · {copy.dp.remaining(3 - dpUsed)}
+      </p>
+
+      <div className="space-y-2">
+        {armyEntry.detachments.map((d) => {
+          const selected = roster.detachments.some((x) => x.name === d.name)
+          const det: SelectedDetachment = {
+            name: d.name,
+            dp: d.dp,
+            note: d.note,
+            forceDisposition: d.forceDisposition as ForceDisposition,
+          }
+          return (
+            <button
+              key={d.name}
+              type="button"
+              disabled={!selected && dpUsed + d.dp > 3}
+              onClick={() => onPersist(toggleDetachment(roster, det))}
+              className={`flex w-full items-start gap-3 rounded-xl border p-3 text-left transition-colors ${
+                selected
+                  ? 'border-[var(--color-gw-gold)]/40 bg-[var(--color-gw-gold)]/10'
+                  : 'border-white/8 hover:border-white/15'
+              } disabled:opacity-40`}
+            >
+              <DpCost dp={d.dp} />
+              <div className="min-w-0 flex-1">
+                <p className="text-sm font-medium text-bone">{d.name}</p>
+                {d.note && <p className="mt-0.5 text-xs text-muted">{d.note}</p>}
+                <ForceDispositionBadge fd={d.forceDisposition as ForceDisposition} short />
+              </div>
+            </button>
+          )
+        })}
+      </div>
+    </div>
+  )
+}

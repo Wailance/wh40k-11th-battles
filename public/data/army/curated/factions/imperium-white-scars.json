@@ -1,0 +1,146 @@
+{
+  "id": "67c1-fc13-f9a1-cbbf",
+  "name": "Adeptus Astartes - White Scars",
+  "catalogueName": "Imperium - Adeptus Astartes - White Scars",
+  "units": [
+    {
+      "id": "63f3-6aeb-c9ed-abfc",
+      "name": "Kor'sarro Khan",
+      "points": 60,
+      "keywords": [
+        "Epic Hero",
+        "Character",
+        "Infantry",
+        "Captain",
+        "Imperium",
+        "Tacticus"
+      ],
+      "factionKeywords": [
+        "Adeptus Astartes",
+        "White Scars"
+      ],
+      "stats": {
+        "M": "6\"",
+        "T": "4",
+        "SV": "3+",
+        "W": "5",
+        "LD": "6+",
+        "OC": "1"
+      },
+      "rangedWeapons": [],
+      "meleeWeapons": [
+        {
+          "name": "Moonfang",
+          "range": "Melee",
+          "A": "6",
+          "WS": "2+",
+          "S": "5",
+          "AP": "-2",
+          "D": "2",
+          "keywords": [
+            "Devastating Wounds",
+            "Precision"
+          ]
+        }
+      ],
+      "abilities": [
+        {
+          "name": "For the Khan!",
+          "description": "While this model is leading a unit, ranged weapons equipped by models in that unit have the [ASSAULT] ability and melee weapons equipped by models in that unit have the [LANCE] ability."
+        },
+        {
+          "name": "Trophy Taker",
+          "description": "Each time this model destroys an enemy Character model, you gain 1CP"
+        },
+        {
+          "name": "Leader",
+          "description": "This model can be attached to the following units:\n\n■ Assault Intercessor Squad\n■ Bladeguard Veteran Squad\n■ Intercessor Squad\n■ Sternguard Veteran Squad\n■ Tactical Squad\n■ Company Heroes"
+        },
+        {
+          "name": "Inspiring Commander",
+          "description": "If you include this model in your army, until the end of the battle, non-Character models in Outrider Squad units from your army have an Objective Control characteristic of 3 while they are not Battle-shocked."
+        }
+      ]
+    },
+    {
+      "id": "d72d-b930-9849-924e",
+      "name": "Suboden Khan",
+      "points": 115,
+      "keywords": [
+        "Mounted",
+        "Character",
+        "Epic Hero",
+        "Imperium",
+        "Grenades",
+        "Captain"
+      ],
+      "factionKeywords": [
+        "Adeptus Astartes",
+        "White Scars"
+      ],
+      "stats": {
+        "M": "12\"",
+        "T": "5",
+        "SV": "3+",
+        "W": "8",
+        "LD": "6+",
+        "OC": "2"
+      },
+      "rangedWeapons": [
+        {
+          "name": "Onslaught Gatling Cannon",
+          "range": "24\"",
+          "A": "8",
+          "BS": "2+",
+          "S": "5",
+          "AP": "0",
+          "D": "1",
+          "keywords": [
+            "Devastating Wounds"
+          ]
+        }
+      ],
+      "meleeWeapons": [
+        {
+          "name": "Stormtooth",
+          "range": "Melee",
+          "A": "6",
+          "WS": "2+",
+          "S": "6",
+          "AP": "-2",
+          "D": "2",
+          "keywords": [
+            "Lance",
+            "Anti-monster 4+",
+            "Anti-vehicle 4+"
+          ]
+        },
+        {
+          "name": "Power Sword",
+          "range": "Melee",
+          "A": "8",
+          "WS": "2+",
+          "S": "5",
+          "AP": "-2",
+          "D": "1",
+          "keywords": []
+        }
+      ],
+      "abilities": [
+        {
+          "name": "Spear of Chogoris",
+          "description": "This model’s unit is eligible to shoot and declare a charge in a turn in which it Advanced or Fell Back. If that unit is already eligible to shoot and declare a charge in a turn in which it Advanced, add 1 to Advance and Charge rolls made for that unit instead."
+        },
+        {
+          "name": "Skilled Riders",
+          "description": "Each time a model in this model’s unit makes a Normal, Advance, Fall Back or Charge move, it can move horizontally through terrain features."
+        },
+        {
+          "name": "Leader",
+          "description": "This model can be attached to the following units: ^^**Outrider Squad^^**"
+        }
+      ]
+    }
+  ],
+  "enhancements": []
+}

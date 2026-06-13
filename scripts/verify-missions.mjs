@@ -101,13 +101,43 @@ for (const c of fixed) {
 }
 if (errors === 0) ok('Fixed secondaries (4 options)')
 
-// --- Layout #4 typo check ---
-const layout4 = gameData.layouts.find((l) => l.id === 4)
-if (layout4?.player2 !== 'PURGE THE FOE') {
-  fail(`Layout #4 player2: expected PURGE THE FOE, got ${layout4?.player2}`)
-} else {
-  ok('Layout #4 player2 is PURGE THE FOE (not RED typo)')
+const FD_SET = new Set(FD_ORDER)
+
+// --- Layouts vs matchups ---
+for (const m of gameData.forceDispositionMatchups) {
+  const layout = gameData.layouts.find((l) => l.id === m.id)
+  if (!layout) fail(`Layout missing for matchup #${m.id}`)
+  else if (layout.player1 !== m.player1 || layout.player2 !== m.player2) {
+    fail(
+      `Layout #${m.id} FD mismatch: layout ${layout.player1}/${layout.player2} vs matchup ${m.player1}/${m.player2}`,
+    )
+  }
 }
+if (gameData.layouts.length !== 15) {
+  fail(`Expected 15 layouts, got ${gameData.layouts.length}`)
+}
+const layoutIds = gameData.layouts.map((l) => l.id)
+if (new Set(layoutIds).size !== layoutIds.length) fail('Duplicate layout ids in game-data.json')
+for (const l of gameData.layouts) {
+  if (!FD_SET.has(l.player1)) fail(`Layout #${l.id} invalid player1: ${l.player1}`)
+  if (!FD_SET.has(l.player2)) fail(`Layout #${l.id} invalid player2: ${l.player2}`)
+}
+if (errors === 0) ok('Layouts match force disposition matchups (no RED-style typos)')
+
+// --- Detachments ---
+const totalDets = gameData.armies.reduce((n, a) => n + a.detachments.length, 0)
+if (gameData.armies.length !== 28) fail(`Expected 28 armies, got ${gameData.armies.length}`)
+for (const army of gameData.armies) {
+  const names = new Set()
+  for (const d of army.detachments) {
+    if (!FD_SET.has(d.forceDisposition)) {
+      fail(`${army.army} / ${d.name}: invalid FD ${d.forceDisposition}`)
+    }
+    if (names.has(d.name)) fail(`${army.army}: duplicate detachment "${d.name}"`)
+    names.add(d.name)
+  }
+}
+if (errors === 0) ok(`Detachments valid (${totalDets} across ${gameData.armies.length} armies)`)
 
 // --- Matrix dimensions ---
 if (MATRIX.length !== 5) fail(`Matrix rows: expected 5, got ${MATRIX.length}`)
@@ -140,6 +170,20 @@ for (const [mid, data] of Object.entries(battlefield.matchups)) {
   }
 }
 if (errors === 0) ok('Battlefield map assets present for available matchups')
+
+// --- Available layouts have map variants ---
+for (const l of gameData.layouts) {
+  const variants = battlefield.matchups[String(l.id)]?.variants ?? []
+  if (l.available && variants.length === 0) {
+    fail(`Layout #${l.id} marked available but has no battlefield map variants`)
+  }
+}
+
+// --- Engage on All Fronts canonical name in tactical deck ---
+if (deck.includes('Engage on all Fronts')) {
+  fail('Tactical deck uses non-canonical "Engage on all Fronts" — expected "Engage on All Fronts"')
+}
+if (errors === 0) ok('Tactical deck uses canonical secondary names')
 
 console.log('')
 if (errors > 0) {

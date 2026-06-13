@@ -1,172 +1,413 @@
 {
-  "source": "Chapter Approved Event Companion layouts (Veizla.gg cheat sheet)",
-  "table": { "widthIn": 60, "heightIn": 44 },
+  "source": "Warhammer Event Companion v1.0 (Dec 2024) \u2014 official terrain layouts",
+  "table": {
+    "widthIn": 60,
+    "heightIn": 44
+  },
   "setupSteps": [
-    "Place objective markers per the deployment map (terrain footprints may count as objectives in 11th Edition).",
-    "Set up terrain pieces on the grey footprints — green/yellow walls show suggested ruin placement.",
-    "Agree Attacker and Defender battlefield edges; Attacker sets up first after Defender (Strike Force).",
-    "Use one of the three layout variants for this matchup (organiser's choice or dice roll)."
+    "Battlefield 44\" \u00d7 60\" (height \u00d7 width).",
+    "Place terrain areas per Layout A, B or C for this Force Disposition pairing.",
+    "Set up terrain features on those areas (dense = green, light = yellow in the PDF).",
+    "Agree Attacker and Defender edges; Defender deploys first.",
+    "Objective markers per the layout (home, central, expansion)."
   ],
   "matchups": {
+    "1": {
+      "variants": [
+        {
+          "id": 0,
+          "label": "Layout A",
+          "title": "Purge vs Assets \u00b7 Layout A",
+          "image": "/maps/ec/matchup-1-a.png",
+          "deployment": "PURGE THE FOE vs PRIORITY ASSETS \u2014 Event Companion Layout A"
+        },
+        {
+          "id": 1,
+          "label": "Layout B",
+          "title": "Purge vs Assets \u00b7 Layout B",
+          "image": "/maps/ec/matchup-1-b.png",
+          "deployment": "PURGE THE FOE vs PRIORITY ASSETS \u2014 Event Companion Layout B"
+        },
+        {
+          "id": 2,
+          "label": "Layout C",
+          "title": "Purge vs Assets \u00b7 Layout C",
+          "image": "/maps/ec/matchup-1-c.png",
+          "deployment": "PURGE THE FOE vs PRIORITY ASSETS \u2014 Event Companion Layout C"
+        }
+      ]
+    },
+    "2": {
+      "variants": [
+        {
+          "id": 0,
+          "label": "Layout A",
+          "title": "Purge vs Disrupt \u00b7 Layout A",
+          "image": "/maps/ec/matchup-2-a.png",
+          "deployment": "PURGE THE FOE vs DISRUPTION \u2014 Event Companion Layout A"
+        },
+        {
+          "id": 1,
+          "label": "Layout B",
+          "title": "Purge vs Disrupt \u00b7 Layout B",
+          "image": "/maps/ec/matchup-2-b.png",
+          "deployment": "PURGE THE FOE vs DISRUPTION \u2014 Event Companion Layout B"
+        },
+        {
+          "id": 2,
+          "label": "Layout C",
+          "title": "Purge vs Disrupt \u00b7 Layout C",
+          "image": "/maps/ec/matchup-2-c.png",
+          "deployment": "PURGE THE FOE vs DISRUPTION \u2014 Event Companion Layout C"
+        }
+      ]
+    },
     "3": {
       "variants": [
         {
-          "id": 2,
-          "label": "Variant 2",
-          "title": "Take and Hold vs Purge the Foe 2",
-          "image": "/maps/matchup-3-v2.png",
-          "deployment": "Diagonal quarters — central objective with quarter-circle cutouts"
+          "id": 0,
+          "label": "Layout A",
+          "title": "Purge vs Hold \u00b7 Layout A",
+          "image": "/maps/ec/matchup-3-a.png",
+          "deployment": "PURGE THE FOE vs TAKE AND HOLD \u2014 Event Companion Layout A"
         },
         {
-          "id": 3,
-          "label": "Variant 3",
-          "title": "Take and Hold vs Purge the Foe 3",
-          "image": "/maps/matchup-3-v3.png",
-          "deployment": "Hammer and Anvil — 18\" zones top/bottom, central skull objective"
+          "id": 1,
+          "label": "Layout B",
+          "title": "Purge vs Hold \u00b7 Layout B",
+          "image": "/maps/ec/matchup-3-b.png",
+          "deployment": "PURGE THE FOE vs TAKE AND HOLD \u2014 Event Companion Layout B"
+        },
+        {
+          "id": 2,
+          "label": "Layout C",
+          "title": "Purge vs Hold \u00b7 Layout C",
+          "image": "/maps/ec/matchup-3-c.png",
+          "deployment": "PURGE THE FOE vs TAKE AND HOLD \u2014 Event Companion Layout C"
+        }
+      ]
+    },
+    "4": {
+      "variants": [
+        {
+          "id": 0,
+          "label": "Layout A",
+          "title": "Purge vs Purge \u00b7 Layout A",
+          "image": "/maps/ec/matchup-4-a.png",
+          "deployment": "PURGE THE FOE vs PURGE THE FOE \u2014 Event Companion Layout A"
+        },
+        {
+          "id": 1,
+          "label": "Layout B",
+          "title": "Purge vs Purge \u00b7 Layout B",
+          "image": "/maps/ec/matchup-4-b.png",
+          "deployment": "PURGE THE FOE vs PURGE THE FOE \u2014 Event Companion Layout B"
+        },
+        {
+          "id": 2,
+          "label": "Layout C",
+          "title": "Purge vs Purge \u00b7 Layout C",
+          "image": "/maps/ec/matchup-4-c.png",
+          "deployment": "PURGE THE FOE vs PURGE THE FOE \u2014 Event Companion Layout C"
+        }
+      ]
+    },
+    "5": {
+      "variants": [
+        {
+          "id": 0,
+          "label": "Layout A",
+          "title": "Purge vs Recon \u00b7 Layout A",
+          "image": "/maps/ec/matchup-5-a.png",
+          "deployment": "PURGE THE FOE vs RECONNAISSANCE \u2014 Event Companion Layout A"
+        },
+        {
+          "id": 1,
+          "label": "Layout B",
+          "title": "Purge vs Recon \u00b7 Layout B",
+          "image": "/maps/ec/matchup-5-b.png",
+          "deployment": "PURGE THE FOE vs RECONNAISSANCE \u2014 Event Companion Layout B"
+        },
+        {
+          "id": 2,
+          "label": "Layout C",
+          "title": "Purge vs Recon \u00b7 Layout C",
+          "image": "/maps/ec/matchup-5-c.png",
+          "deployment": "PURGE THE FOE vs RECONNAISSANCE \u2014 Event Companion Layout C"
         }
       ]
     },
     "6": {
       "variants": [
         {
+          "id": 0,
+          "label": "Layout A",
+          "title": "Hold vs Assets \u00b7 Layout A",
+          "image": "/maps/ec/matchup-6-a.png",
+          "deployment": "TAKE AND HOLD vs PRIORITY ASSETS \u2014 Event Companion Layout A"
+        },
+        {
           "id": 1,
-          "label": "Variant 1",
-          "title": "Take and Hold vs Priority Assets 1",
-          "image": "/maps/matchup-6-v1.png",
-          "deployment": "Diagonal corners — Attacker top-left, Defender bottom-right"
+          "label": "Layout B",
+          "title": "Hold vs Assets \u00b7 Layout B",
+          "image": "/maps/ec/matchup-6-b.png",
+          "deployment": "TAKE AND HOLD vs PRIORITY ASSETS \u2014 Event Companion Layout B"
         },
         {
           "id": 2,
-          "label": "Variant 2",
-          "title": "Take and Hold vs Priority Assets 2",
-          "image": "/maps/matchup-6-v2.png",
-          "deployment": "Hammer and Anvil — 18\" zones, five objectives"
-        },
-        {
-          "id": 3,
-          "label": "Variant 3",
-          "title": "Take and Hold vs Priority Assets 3",
-          "image": "/maps/matchup-6-v3.png",
-          "deployment": "Side deployment — 12\" zones left/right"
+          "label": "Layout C",
+          "title": "Hold vs Assets \u00b7 Layout C",
+          "image": "/maps/ec/matchup-6-c.png",
+          "deployment": "TAKE AND HOLD vs PRIORITY ASSETS \u2014 Event Companion Layout C"
         }
       ]
     },
     "7": {
       "variants": [
         {
+          "id": 0,
+          "label": "Layout A",
+          "title": "Hold vs Hold \u00b7 Layout A",
+          "image": "/maps/ec/matchup-7-a.png",
+          "deployment": "TAKE AND HOLD vs TAKE AND HOLD \u2014 Event Companion Layout A"
+        },
+        {
           "id": 1,
-          "label": "Variant 1",
-          "title": "Take and Hold vs Take and Hold 1",
-          "image": "/maps/matchup-7-v1.png",
-          "deployment": "Hammer and Anvil — 12\" zones, staggered flanks"
+          "label": "Layout B",
+          "title": "Hold vs Hold \u00b7 Layout B",
+          "image": "/maps/ec/matchup-7-b.png",
+          "deployment": "TAKE AND HOLD vs TAKE AND HOLD \u2014 Event Companion Layout B"
         },
         {
           "id": 2,
-          "label": "Variant 2",
-          "title": "Take and Hold vs Take and Hold 2",
-          "image": "/maps/matchup-7-v2.png",
-          "deployment": "Hammer and Anvil — mirrored home objectives"
-        },
-        {
-          "id": 3,
-          "label": "Variant 3",
-          "title": "Take and Hold vs Take and Hold 3",
-          "image": "/maps/matchup-7-v3.png",
-          "deployment": "Side deployment — 12\" zones, three centre objectives"
+          "label": "Layout C",
+          "title": "Hold vs Hold \u00b7 Layout C",
+          "image": "/maps/ec/matchup-7-c.png",
+          "deployment": "TAKE AND HOLD vs TAKE AND HOLD \u2014 Event Companion Layout C"
         }
       ]
     },
     "8": {
       "variants": [
         {
+          "id": 0,
+          "label": "Layout A",
+          "title": "Hold vs Disrupt \u00b7 Layout A",
+          "image": "/maps/ec/matchup-8-a.png",
+          "deployment": "TAKE AND HOLD vs DISRUPTION \u2014 Event Companion Layout A"
+        },
+        {
           "id": 1,
-          "label": "Variant 1",
-          "title": "Take and Hold vs Disruption 1",
-          "image": "/maps/matchup-8-v1.png",
-          "deployment": "Staggered sides — 14\"/8\" depth zones"
+          "label": "Layout B",
+          "title": "Hold vs Disrupt \u00b7 Layout B",
+          "image": "/maps/ec/matchup-8-b.png",
+          "deployment": "TAKE AND HOLD vs DISRUPTION \u2014 Event Companion Layout B"
         },
         {
           "id": 2,
-          "label": "Variant 2",
-          "title": "Take and Hold vs Disruption 2",
-          "image": "/maps/matchup-8-v2.png",
-          "deployment": "Hammer and Anvil — asymmetric depth zones"
-        },
-        {
-          "id": 3,
-          "label": "Variant 3",
-          "title": "Take and Hold vs Disruption 3",
-          "image": "/maps/matchup-8-v3.png",
-          "deployment": "Diagonal deployment — corner zones"
+          "label": "Layout C",
+          "title": "Hold vs Disrupt \u00b7 Layout C",
+          "image": "/maps/ec/matchup-8-c.png",
+          "deployment": "TAKE AND HOLD vs DISRUPTION \u2014 Event Companion Layout C"
         }
       ]
     },
     "9": {
       "variants": [
         {
+          "id": 0,
+          "label": "Layout A",
+          "title": "Hold vs Recon \u00b7 Layout A",
+          "image": "/maps/ec/matchup-9-a.png",
+          "deployment": "TAKE AND HOLD vs RECONNAISSANCE \u2014 Event Companion Layout A"
+        },
+        {
           "id": 1,
-          "label": "Variant 1",
-          "title": "Take and Hold vs Reconnaissance 1",
-          "image": "/maps/matchup-9-v1.png",
-          "deployment": "Hammer and Anvil — five objectives"
+          "label": "Layout B",
+          "title": "Hold vs Recon \u00b7 Layout B",
+          "image": "/maps/ec/matchup-9-b.png",
+          "deployment": "TAKE AND HOLD vs RECONNAISSANCE \u2014 Event Companion Layout B"
         },
         {
           "id": 2,
-          "label": "Variant 2",
-          "title": "Take and Hold vs Reconnaissance 2",
-          "image": "/maps/matchup-9-v2.png",
-          "deployment": "Side deployment — flank objectives"
+          "label": "Layout C",
+          "title": "Hold vs Recon \u00b7 Layout C",
+          "image": "/maps/ec/matchup-9-c.png",
+          "deployment": "TAKE AND HOLD vs RECONNAISSANCE \u2014 Event Companion Layout C"
+        }
+      ]
+    },
+    "10": {
+      "variants": [
+        {
+          "id": 0,
+          "label": "Layout A",
+          "title": "Assets vs Assets \u00b7 Layout A",
+          "image": "/maps/ec/matchup-10-a.png",
+          "deployment": "PRIORITY ASSETS vs PRIORITY ASSETS \u2014 Event Companion Layout A"
         },
         {
-          "id": 3,
-          "label": "Variant 3",
-          "title": "Take and Hold vs Reconnaissance 3",
-          "image": "/maps/matchup-9-v3.png",
-          "deployment": "Diagonal corners — central control"
+          "id": 1,
+          "label": "Layout B",
+          "title": "Assets vs Assets \u00b7 Layout B",
+          "image": "/maps/ec/matchup-10-b.png",
+          "deployment": "PRIORITY ASSETS vs PRIORITY ASSETS \u2014 Event Companion Layout B"
+        },
+        {
+          "id": 2,
+          "label": "Layout C",
+          "title": "Assets vs Assets \u00b7 Layout C",
+          "image": "/maps/ec/matchup-10-c.png",
+          "deployment": "PRIORITY ASSETS vs PRIORITY ASSETS \u2014 Event Companion Layout C"
+        }
+      ]
+    },
+    "11": {
+      "variants": [
+        {
+          "id": 0,
+          "label": "Layout A",
+          "title": "Assets vs Recon \u00b7 Layout A",
+          "image": "/maps/ec/matchup-11-a.png",
+          "deployment": "PRIORITY ASSETS vs RECONNAISSANCE \u2014 Event Companion Layout A"
+        },
+        {
+          "id": 1,
+          "label": "Layout B",
+          "title": "Assets vs Recon \u00b7 Layout B",
+          "image": "/maps/ec/matchup-11-b.png",
+          "deployment": "PRIORITY ASSETS vs RECONNAISSANCE \u2014 Event Companion Layout B"
+        },
+        {
+          "id": 2,
+          "label": "Layout C",
+          "title": "Assets vs Recon \u00b7 Layout C",
+          "image": "/maps/ec/matchup-11-c.png",
+          "deployment": "PRIORITY ASSETS vs RECONNAISSANCE \u2014 Event Companion Layout C"
+        }
+      ]
+    },
+    "12": {
+      "variants": [
+        {
+          "id": 0,
+          "label": "Layout A",
+          "title": "Assets vs Disrupt \u00b7 Layout A",
+          "image": "/maps/ec/matchup-12-a.png",
+          "deployment": "PRIORITY ASSETS vs DISRUPTION \u2014 Event Companion Layout A"
+        },
+        {
+          "id": 1,
+          "label": "Layout B",
+          "title": "Assets vs Disrupt \u00b7 Layout B",
+          "image": "/maps/ec/matchup-12-b.png",
+          "deployment": "PRIORITY ASSETS vs DISRUPTION \u2014 Event Companion Layout B"
+        },
+        {
+          "id": 2,
+          "label": "Layout C",
+          "title": "Assets vs Disrupt \u00b7 Layout C",
+          "image": "/maps/ec/matchup-12-c.png",
+          "deployment": "PRIORITY ASSETS vs DISRUPTION \u2014 Event Companion Layout C"
+        }
+      ]
+    },
+    "13": {
+      "variants": [
+        {
+          "id": 0,
+          "label": "Layout A",
+          "title": "Recon vs Recon \u00b7 Layout A",
+          "image": "/maps/ec/matchup-13-a.png",
+          "deployment": "RECONNAISSANCE vs RECONNAISSANCE \u2014 Event Companion Layout A"
+        },
+        {
+          "id": 1,
+          "label": "Layout B",
+          "title": "Recon vs Recon \u00b7 Layout B",
+          "image": "/maps/ec/matchup-13-b.png",
+          "deployment": "RECONNAISSANCE vs RECONNAISSANCE \u2014 Event Companion Layout B"
+        },
+        {
+          "id": 2,
+          "label": "Layout C",
+          "title": "Recon vs Recon \u00b7 Layout C",
+          "image": "/maps/ec/matchup-13-c.png",
+          "deployment": "RECONNAISSANCE vs RECONNAISSANCE \u2014 Event Companion Layout C"
+        }
+      ]
+    },
+    "14": {
+      "variants": [
+        {
+          "id": 0,
+          "label": "Layout A",
+          "title": "Recon vs Disrupt \u00b7 Layout A",
+          "image": "/maps/ec/matchup-14-a.png",
+          "deployment": "RECONNAISSANCE vs DISRUPTION \u2014 Event Companion Layout A"
+        },
+        {
+          "id": 1,
+          "label": "Layout B",
+          "title": "Recon vs Disrupt \u00b7 Layout B",
+          "image": "/maps/ec/matchup-14-b.png",
+          "deployment": "RECONNAISSANCE vs DISRUPTION \u2014 Event Companion Layout B"
+        },
+        {
+          "id": 2,
+          "label": "Layout C",
+          "title": "Recon vs Disrupt \u00b7 Layout C",
+          "image": "/maps/ec/matchup-14-c.png",
+          "deployment": "RECONNAISSANCE vs DISRUPTION \u2014 Event Companion Layout C"
+        }
+      ]
+    },
+    "15": {
+      "variants": [
+        {
+          "id": 0,
+          "label": "Layout A",
+          "title": "Disrupt vs Disrupt \u00b7 Layout A",
+          "image": "/maps/ec/matchup-15-a.png",
+          "deployment": "DISRUPTION vs DISRUPTION \u2014 Event Companion Layout A"
+        },
+        {
+          "id": 1,
+          "label": "Layout B",
+          "title": "Disrupt vs Disrupt \u00b7 Layout B",
+          "image": "/maps/ec/matchup-15-b.png",
+          "deployment": "DISRUPTION vs DISRUPTION \u2014 Event Companion Layout B"
+        },
+        {
+          "id": 2,
+          "label": "Layout C",
+          "title": "Disrupt vs Disrupt \u00b7 Layout C",
+          "image": "/maps/ec/matchup-15-c.png",
+          "deployment": "DISRUPTION vs DISRUPTION \u2014 Event Companion Layout C"
         }
       ]
     }
   },
-  "gwTerrainLayouts": [
+  "terrainFootprints": [
     {
-      "id": 1,
-      "name": "Terrain Layout 1",
-      "deployments": ["Tipping Point", "Hammer and Anvil", "Search and Destroy", "Crucible of Battle"]
+      "size": "6\" \u00d7 4\"",
+      "qty": 4
     },
     {
-      "id": 2,
-      "name": "Terrain Layout 2",
-      "deployments": ["Tipping Point", "Search and Destroy", "Crucible of Battle"]
+      "size": "10\" \u00d7 2.5\"",
+      "qty": 2
     },
     {
-      "id": 3,
-      "name": "Terrain Layout 3",
-      "deployments": ["Search and Destroy", "Sweeping Engagement"]
+      "size": "6\" \u00d7 2\"",
+      "qty": 4
     },
     {
-      "id": 4,
-      "name": "Terrain Layout 4",
-      "deployments": ["Tipping Point", "Search and Destroy", "Crucible of Battle"]
+      "size": "7\" \u00d7 11.5\"",
+      "qty": 4
     },
     {
-      "id": 5,
-      "name": "Terrain Layout 5",
-      "deployments": ["Sweeping Engagement", "Dawn of War"]
-    },
-    {
-      "id": 6,
-      "name": "Terrain Layout 6",
-      "deployments": ["Tipping Point", "Search and Destroy", "Crucible of Battle"]
-    },
-    {
-      "id": 7,
-      "name": "Terrain Layout 7",
-      "deployments": ["Tipping Point", "Hammer and Anvil"]
-    },
-    {
-      "id": 8,
-      "name": "Terrain Layout 8",
-      "deployments": ["Tipping Point", "Hammer and Anvil", "Crucible of Battle"]
+      "size": "8\" \u00d7 11.5\" polygon",
+      "qty": 2
     }
   ]
 }

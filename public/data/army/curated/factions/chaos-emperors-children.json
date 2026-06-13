@@ -1,0 +1,4506 @@
+{
+  "id": "03fe-a162-4c02-f07b",
+  "name": "Emperor's Children",
+  "catalogueName": "Chaos - Emperor's Children",
+  "units": [
+    {
+      "id": "e390-b58b-db9-816",
+      "name": "Lucius the Eternal",
+      "points": 150,
+      "keywords": [
+        "Infantry",
+        "Character",
+        "Epic Hero",
+        "Chaos",
+        "Slaanesh"
+      ],
+      "factionKeywords": [
+        "Emperor's Children"
+      ],
+      "stats": {
+        "M": "8\"",
+        "T": "5",
+        "SV": "2+",
+        "W": "6",
+        "LD": "6+",
+        "OC": "1"
+      },
+      "rangedWeapons": [],
+      "meleeWeapons": [
+        {
+          "name": "Blade of the Laer",
+          "range": "Melee",
+          "A": "6",
+          "WS": "2+",
+          "S": "8",
+          "AP": "-3",
+          "D": "3",
+          "keywords": [
+            "Precision"
+          ]
+        },
+        {
+          "name": "Lash of Torment",
+          "range": "Melee",
+          "A": "10",
+          "WS": "2+",
+          "S": "4",
+          "AP": "-1",
+          "D": "1",
+          "keywords": [
+            "Sustained Hits 1"
+          ]
+        }
+      ],
+      "abilities": [
+        {
+          "name": "Leader",
+          "description": "This model can be attached to the following units:\n- **^^Flawless Blades^^**"
+        },
+        {
+          "name": "Duellist’s Hubris",
+          "description": "At the start of the Fight phase, if this model is not leading a unit, until the end of the phase, it has the Fights First ability."
+        },
+        {
+          "name": "Invulnerable Save",
+          "description": "This model has a 4+ invulnerable save."
+        },
+        {
+          "name": "A Challenge Worthy of Skill",
+          "description": "Each time this model makes an attack that targets a **^^Character, Monster^^** or **^^Walker^^** unit, you can re-roll the Hit roll and re-roll the Wound roll."
+        }
+      ]
+    },
+    {
+      "id": "1e0a-cf2b-6602-2a34",
+      "name": "Fulgrim",
+      "points": 340,
+      "keywords": [
+        "Chaos",
+        "Slaanesh",
+        "Primarch",
+        "Daemon",
+        "Monster",
+        "Fly",
+        "Epic Hero",
+        "Character"
+      ],
+      "factionKeywords": [
+        "Emperor's Children"
+      ],
+      "stats": {
+        "M": "16\"",
+        "T": "11",
+        "SV": "2+",
+        "W": "16",
+        "LD": "5+",
+        "OC": "6"
+      },
+      "rangedWeapons": [
+        {
+          "name": "Malefic lash",
+          "range": "12\"",
+          "A": "6",
+          "BS": "2+",
+          "S": "8",
+          "AP": "-2",
+          "D": "2",
+          "keywords": [
+            "Sustained Hits 1"
+          ]
+        }
+      ],
+      "meleeWeapons": [
+        {
+          "name": "Serpentine tail",
+          "range": "Melee",
+          "A": "6",
+          "WS": "2+",
+          "S": "6",
+          "AP": "-1",
+          "D": "1",
+          "keywords": [
+            "Extra Attacks"
+          ]
+        },
+        {
+          "name": "➤ Daemonic blades - strike",
+          "range": "Melee",
+          "A": "6",
+          "WS": "2+",
+          "S": "14",
+          "AP": "-3",
+          "D": "D6+1",
+          "keywords": [
+            "Sustained Hits 1"
+          ]
+        },
+        {
+          "name": "➤ Daemonic blades - sweep",
+          "range": "Melee",
+          "A": "12",
+          "WS": "2+",
+          "S": "8",
+          "AP": "-2",
+          "D": "2",
+          "keywords": [
+            "Sustained Hits 1"
+          ]
+        }
+      ],
+      "abilities": [
+        {
+          "name": "Invulnerable Save",
+          "description": "This model has a 4+ invulnerable save."
+        },
+        {
+          "name": "Daemonic Poisons",
+          "description": "In your Shooting phase and the Fight phase, after this model has finished making its attacks, select one enemy unit hit by one or more of those attacks. Until the end of the battle, that enemy unit is poisoned. At the start of each player's Command phase, roll one D6 for each poisoned enemy unit on the battlefield: on a 4+, that enemy unit suffers D3 mortal wounds."
+        },
+        {
+          "name": "Daemon Prince of Slaanesh",
+          "description": "At the start of your opponent's Command phase, select one of the abilities in the Daemon Prince of Slaanesh section. Until the start of your opponent's next Command phase, this model has that ability."
+        },
+        {
+          "name": "Damaged: 1-6 Wounds Remaining",
+          "description": "While this model has 1-6 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
+        },
+        {
+          "name": "Supreme Commander",
+          "description": "If this model is in your army, it must be your **^^Warlord^^**."
+        },
+        {
+          "name": "Serpentine",
+          "description": "Each time this model makes a Normal, Advance or Fall Back move, it can move over sections of terrain features that are 4\" or less in height."
+        }
+      ]
+    },
+    {
+      "id": "7b4c-dfe0-6a0a-304a",
+      "name": "Lord Exultant",
+      "points": 80,
+      "keywords": [
+        "Character",
+        "Infantry",
+        "Grenades",
+        "Chaos",
+        "Slaanesh"
+      ],
+      "factionKeywords": [
+        "Emperor's Children"
+      ],
+      "stats": {
+        "M": "7\"",
+        "T": "4",
+        "SV": "3+",
+        "W": "5",
+        "LD": "6+",
+        "OC": "1"
+      },
+      "rangedWeapons": [
+        {
+          "name": "Bolt pistol",
+          "range": "12\"",
+          "A": "1",
+          "BS": "3+",
+          "S": "4",
+          "AP": "0",
+          "D": "1",
+          "keywords": [
+            "Pistol"
+          ]
+        }
+      ],
+      "meleeWeapons": [
+        {
+          "name": "Close combat weapon",
+          "range": "Melee",
+          "A": "6",
+          "WS": "2+",
+          "S": "4",
+          "AP": "0",
+          "D": "1",
+          "keywords": []
+        }
+      ],
+      "abilities": [
+        {
+          "name": "Invulnerable Save",
+          "description": "This model has a 4+ invulnerable save."
+        },
+        {
+          "name": "Perfectionists",
+          "description": "While this model is leading a unit, weapons equipped by models in that unit have the **^^[LETHAL HITS]^^** ability."
+        },
+        {
+          "name": "Euphoric Strikes",
+          "description": "Once per battle, at the start of the Fight phase, this model can use this ability. If it does so, until the end of the phase, add 3 to the Attacks characteristic of melee weapons equipped by this model and improve the Armour Penetration characteristic of those weapons by 1."
+        },
+        {
+          "name": "Lord of the Host",
+          "description": "If this model is attached to an **^^Emperor's Children Battleline^^** unit during the Declare Battle Formations step, this model has the Infiltrators and Scouts 6\" ability."
+        },
+        {
+          "name": "Leader",
+          "description": "This model can be attached to the following units: **^^Infractors; Tormentors^^**"
+        },
+        {
+          "name": "Eager to Prove",
+          "description": "You can re-roll Charge rolls made for the bearer's unit. While the bearer's unit is your army's Favoured Champions, add 2\" to the Move characteristic of models in that unit."
+        },
+        {
+          "name": "Repulsed by Weakness",
+          "description": "Each time an enemy unit (excluding **^^Monster**^^ and ^^**Vehicle**^^ units) within Engagement Range of the bearer's unit Falls Back, models in that enemy unit must take Desperate Escape tests. When doing so, if the bearer's unit is your army's Favoured Champions, subtract 1 from each of those Desperate Escape tests."
+        },
+        {
+          "name": "Proud and Vainglorious",
+          "description": "You can re-roll Battle-shock and Leadership tests taken for the bearer's unit. While the bearer's unit is your army's Favoured Champions, add 1 to the Objective Control characteristics of models in that unit."
+        },
+        {
+          "name": "Slayer of Champions",
+          "description": "The bearer's melee weapons have the [^^Precision^^] ability, and each time the bearer makes a melee attack that targets a ^^**Character**^^ unit, improve the Strength and Armour Penetration characteristics of that attack by 1."
+        },
+        {
+          "name": "Faultless Opportunist",
+          "description": "You can target the bearer's unit with the Heroic Intervention Stratagem for 0CP; and can do so even if you have already targeted a different unit with that Stratagem this phase."
+        },
+        {
+          "name": "Blinding Speed",
+          "description": "Once per battle, at the start of the Fight phase, the bearer can use this Enhancement. If it does so, until the end of the phase, models in the bearer's unit have the Fights First ability."
+        },
+        {
+          "name": "Distortion",
+          "description": "Add 1 to the Attacks and Damage characteristics of melee weapons equipped by the bearer."
+        },
+        {
+          "name": "Rise to the Challenge",
+          "description": "Once per battle, at the end of the Fight phase, if the bearer is within Engagement Range of three or more enemy models, it can use this Enhancement. If it does, the bearer can fight one additional time. When doing so, you can select one ability using the Exquisite Swordsmanship Detachment rule to apply to those attacks."
+        },
+        {
+          "name": "Sublime Presence",
+          "description": "Once per turn, in your Movement phase, the bearer can use this Enhancement. If it does, select one friendly **^^Emperor's Children Transport**^^ that is in Strategic Reserves. Until the end of the phase, for the purposes of setting up that **^^Transport**^^ on the battlefield, treat the current battle round number as being one higher than it actually is."
+        },
+        {
+          "name": "Spearhead Striker",
+          "description": "Each time the bearer disembarks from a **^^Transport**^^, until the end of the turn, you can re-roll Charge rolls made for the bearer's unit and enemy units cannot use the Fire Overwatch Stratagem to shoot at the bearer's unit."
+        },
+        {
+          "name": "Accomplished Tactician",
+          "description": "Once per turn, in your opponent's Shooting phase, just after an enemy unit has shot, you can select one friendly **^^Emperor's Children**^^ unit within 9\" of the bearer that was hit by one or more of those attacks, then select one friendly **^^Transport**^^ that unit is wholly within 6\" of and is able to embark within. That **^^Emperor's Children**^^ unit can embark in that **^^Transport**^^."
+        },
+        {
+          "name": "Heretek Adept",
+          "description": "Once per battle round, when a saving throw is failed for a friendly **^^Emperor's Children Vehicle**^^ model within 6\" of the bearer, you can change the Damage characteristic of that attack to 0."
+        },
+        {
+          "name": "Pledge of Eternal Servitude",
+          "description": "The first time the bearer is destroyed, take a Leadership test for the bearer at the end of the phase. if that test is passed, set the bearer back up on the battlefield as close as possible to where it was destroyed and not within Engagement Range of any enemy units, with D6 wounds remaining (up to its Wounds characteristic)."
+        },
+        {
+          "name": "Pledge of Dark Glory",
+          "description": "While the bearer is leading a unit, improve the Leadership and Objective Control characteristics of models in that unit by 1."
+        },
+        {
+          "name": "Pledge of Mortal Pain",
+          "description": "At the start of your Shooting phase, select one enemy unit within 12\" of and visible to the bearer. That unit must take a Leadership test, subtracting 2 from the result if it is Battle-shocked: if failed, that enemy unit suffers 3 mortal wounds."
+        },
+        {
+          "name": "Pledge of Unholy Fortune",
+          "description": "Once per turn, after making a Hit roll, a Wound roll or a saving throw for a model in the bearer's unit, if the bearer is not Battle-shocked, it can use this Enhancement. If it does, treat the result as an unmodified roll of 6 instead."
+        },
+        {
+          "name": "Steeped in Suffering",
+          "description": "Each time a model in the bearer's unit makes an attack that targets an enemy unit below its Starting Strength, add 1 to the Hit roll. If that target is also Below Half-Strength, add 1 to the Wound roll as well."
+        },
+        {
+          "name": "Intoxicating Musk",
+          "description": "Each time a melee attack targets the bearer's unit, if the Strength characteristic of that attack is greater than the Toughness characteristic of that unit, subtract 1 from the Wound roll."
+        },
+        {
+          "name": "Tactical Perfection",
+          "description": "After both players have deployed their armies, select up to two **^^Emperor's Children**^^ units from your army and redeploy them. When doing so, you can set those units up in Strategic Reserves if you wish, regardless of how many units are already in Strategic Reserves."
+        },
+        {
+          "name": "Loathsome Dexterity",
+          "description": "Each time a model in the bearer's unit makes a Normal, Advance or Fall Back move, it can move through enemy models. When doing so, it can move within Engagement Range of such models, but cannot end that move within Engagement Range of them, and any Desperate Escape test is automatically passed."
+        },
+        {
+          "name": "Empyric Suffusion",
+          "description": "Once per battle round, you can target one friendly **^^Slaanesh**^^ unit within 6\" of the bearer with the Heroic Intervention Stratagem for 0CP."
+        },
+        {
+          "name": "Dark Blessings",
+          "description": "Once per battle, just after an enemy unit has selected its targets, the bearer can use this Enhancement. If it does, until the end of the phase, the bearer has a 3+ invulnerable save."
+        },
+        {
+          "name": "Possessed Blade",
+          "description": "At the start of the battle, select one melee weapon equipped by the bearer; add 1 to the Attacks characteristic of that weapon. In addition, each time the bearer is selected to fight, it can use this Enhancement. If it does, when resolving those attacks add 1 to the Damage characteristic of that weapon and that weapon has the [^^Devastating Wounds^^] and [^^Hazardous^^] abilities."
+        },
+        {
+          "name": "Warp Walker",
+          "description": "Each time the bearer's unit Advances, do not make an Advance roll. Instead, until the end of the phase, add 6\" to the Movement characteristic of models in that unit. Each time a model in the bearer's unit makes a Normal, Advance or Fall Back move, it can move through enemy models. When doing so, it can move within Engagement Range of such models, but cannot end that move within Engagement Range of them, and any Desperate Escape test is automatically passed."
+        },
+        {
+          "name": "Soulstain Made Manifest",
+          "description": "At the start of the Fight phase, you can select one enemy unit within Engagement Range of the bearer; that unit must take a Battle‑shock test, subtracting 1 from the result."
+        },
+        {
+          "name": "Exalted Patron",
+          "description": "Add 1\" to the Move characteristic of the bearer.\nIn the Declare Battle Formations step, the bearer can be attached to a ^^**Flawless Blades^^** unit."
+        },
+        {
+          "name": "Spiritsliver",
+          "description": "Add 1 to the Strength and Attacks characteristics of the bearer’s melee weapons."
+        },
+        {
+          "name": "Tears of the Phoenix",
+          "description": "Each time a model in the bearer’s unit makes a melee attack, you can ignore any or all modifiers to that attack’s Weapon Skill characteristic and any or all modifiers to the Hit roll and Wound roll."
+        },
+        {
+          "name": "Dark Majesty",
+          "description": "Improve this model's Leadership characteristic by 1 and its Objective Control characteristic by 2. At the end of the battle, if this model is within range of an objective marker you control that is wholly within your opponent's deployment zone, you gain 1 Rare ingredient."
+        },
+        {
+          "name": "Odious Grace",
+          "description": "You can re-roll Advance and Charge rolls made for this model's unit."
+        },
+        {
+          "name": "Fickle Speed",
+          "description": "Add 1 to Advance and Charge rolls made for this model's unit."
+        },
+        {
+          "name": "Whipcord Sinews",
+          "description": "Improve the Strength characteristic of melee weapons equipped by this model by 2."
+        },
+        {
+          "name": "Razor Claws",
+          "description": "Improve the Armour Penetration characteristic of melee weapons equipped by this model by 1. If this model destroys one or more units with a melee attack during a battle (excluding **^^Imperium^^** and **^^Chaos^^** units), then at the end of that battle you gain 1 Extract of Xeno-matter."
+        },
+        {
+          "name": "Psychotropic Aura",
+          "description": "Once per battle, at the start of the Fight phase, this model can use this ability. If it does, until the end of the phase, each time an attack targets this model's unit, subtract 1 from the Hit roll."
+        },
+        {
+          "name": "Betentacled Limbs",
+          "description": "Add 1 to the Attacks characteristic of melee weapons equipped by this model. If this model destroys one or more **^^Chaos^^** units with a melee attack during a battle, then at the end of that battle you gain 1 Infusion of Traitor's Blood."
+        },
+        {
+          "name": "Perfection of the Body",
+          "description": "This model has the Feel No Pain 6+ ability."
+        },
+        {
+          "name": "Silver Skin",
+          "description": "Add 1 to this model's Toughness characteristic."
+        }
+      ]
+    },
+    {
+      "id": "ee50-955a-0a81-41f1",
+      "name": "Lord Kakophonist",
+      "points": 70,
+      "keywords": [
+        "Character",
+        "Grenades",
+        "Infantry",
+        "Chaos",
+        "Slaanesh"
+      ],
+      "factionKeywords": [
+        "Emperor's Children"
+      ],
+      "stats": {
+        "M": "6\"",
+        "T": "5",
+        "SV": "2+",
+        "W": "6",
+        "LD": "6+",
+        "OC": "1"
+      },
+      "rangedWeapons": [
+        {
+          "name": "Screamer pistol",
+          "range": "12\"",
+          "A": "3",
+          "BS": "2+",
+          "S": "5",
+          "AP": "-1",
+          "D": "2",
+          "keywords": [
+            "Ignores Cover",
+            "Pistol"
+          ]
+        }
+      ],
+      "meleeWeapons": [],
+      "abilities": [
+        {
+          "name": "Invulnerable Save",
+          "description": "This model has a 4+ invulnerable save."
+        },
+        {
+          "name": "Leader",
+          "description": "This model can be attached to the following units: **^^Emperor's Children Terminator Squad; Noise Marines^^**"
+        },
+        {
+          "name": "Obsessive Annunciation",
+          "description": "While this model is leading a unit, ranged weapons equipped by that unit have the [SUSTAINED HITS 1] ability."
+        },
+        {
+          "name": "Doom Siren",
+          "description": "In your Shooting phase, after this model's unit has shot, select one enemy **^^Infantry^^** unit hit by one or more of those attacks and roll three D6: for each 4+, that enemy unit suffers 1 mortal wound. If an enemy suffers one or more mortal wounds as a result of this ability, it must take a Battle-shock test."
+        },
+        {
+          "name": "Eager to Prove",
+          "description": "You can re-roll Charge rolls made for the bearer's unit. While the bearer's unit is your army's Favoured Champions, add 2\" to the Move characteristic of models in that unit."
+        },
+        {
+          "name": "Repulsed by Weakness",
+          "description": "Each time an enemy unit (excluding **^^Monster**^^ and ^^**Vehicle**^^ units) within Engagement Range of the bearer's unit Falls Back, models in that enemy unit must take Desperate Escape tests. When doing so, if the bearer's unit is your army's Favoured Champions, subtract 1 from each of those Desperate Escape tests."
+        },
+        {
+          "name": "Proud and Vainglorious",
+          "description": "You can re-roll Battle-shock and Leadership tests taken for the bearer's unit. While the bearer's unit is your army's Favoured Champions, add 1 to the Objective Control characteristics of models in that unit."
+        },
+        {
+          "name": "Slayer of Champions",
+          "description": "The bearer's melee weapons have the [^^Precision^^] ability, and each time the bearer makes a melee attack that targets a ^^**Character**^^ unit, improve the Strength and Armour Penetration characteristics of that attack by 1."
+        },
+        {
+          "name": "Faultless Opportunist",
+          "description": "You can target the bearer's unit with the Heroic Intervention Stratagem for 0CP; and can do so even if you have already targeted a different unit with that Stratagem this phase."
+        },
+        {
+          "name": "Blinding Speed",
+          "description": "Once per battle, at the start of the Fight phase, the bearer can use this Enhancement. If it does so, until the end of the phase, models in the bearer's unit have the Fights First ability."
+        },
+        {
+          "name": "Distortion",
+          "description": "Add 1 to the Attacks and Damage characteristics of melee weapons equipped by the bearer."
+        },
+        {
+          "name": "Rise to the Challenge",
+          "description": "Once per battle, at the end of the Fight phase, if the bearer is within Engagement Range of three or more enemy models, it can use this Enhancement. If it does, the bearer can fight one additional time. When doing so, you can select one ability using the Exquisite Swordsmanship Detachment rule to apply to those attacks."
+        },
+        {
+          "name": "Sublime Presence",
+          "description": "Once per turn, in your Movement phase, the bearer can use this Enhancement. If it does, select one friendly **^^Emperor's Children Transport**^^ that is in Strategic Reserves. Until the end of the phase, for the purposes of setting up that **^^Transport**^^ on the battlefield, treat the current battle round number as being one higher than it actually is."
+        },
+        {
+          "name": "Spearhead Striker",
+          "description": "Each time the bearer disembarks from a **^^Transport**^^, until the end of the turn, you can re-roll Charge rolls made for the bearer's unit and enemy units cannot use the Fire Overwatch Stratagem to shoot at the bearer's unit."
+        },
+        {
+          "name": "Accomplished Tactician",
+          "description": "Once per turn, in your opponent's Shooting phase, just after an enemy unit has shot, you can select one friendly **^^Emperor's Children**^^ unit within 9\" of the bearer that was hit by one or more of those attacks, then select one friendly **^^Transport**^^ that unit is wholly within 6\" of and is able to embark within. That **^^Emperor's Children**^^ unit can embark in that **^^Transport**^^."
+        },
+        {
+          "name": "Heretek Adept",
+          "description": "Once per battle round, when a saving throw is failed for a friendly **^^Emperor's Children Vehicle**^^ model within 6\" of the bearer, you can change the Damage characteristic of that attack to 0."
+        },
+        {
+          "name": "Pledge of Eternal Servitude",
+          "description": "The first time the bearer is destroyed, take a Leadership test for the bearer at the end of the phase. if that test is passed, set the bearer back up on the battlefield as close as possible to where it was destroyed and not within Engagement Range of any enemy units, with D6 wounds remaining (up to its Wounds characteristic)."
+        },
+        {
+          "name": "Pledge of Dark Glory",
+          "description": "While the bearer is leading a unit, improve the Leadership and Objective Control characteristics of models in that unit by 1."
+        },
+        {
+          "name": "Pledge of Mortal Pain",
+          "description": "At the start of your Shooting phase, select one enemy unit within 12\" of and visible to the bearer. That unit must take a Leadership test, subtracting 2 from the result if it is Battle-shocked: if failed, that enemy unit suffers 3 mortal wounds."
+        },
+        {
+          "name": "Pledge of Unholy Fortune",
+          "description": "Once per turn, after making a Hit roll, a Wound roll or a saving throw for a model in the bearer's unit, if the bearer is not Battle-shocked, it can use this Enhancement. If it does, treat the result as an unmodified roll of 6 instead."
+        },
+        {
+          "name": "Steeped in Suffering",
+          "description": "Each time a model in the bearer's unit makes an attack that targets an enemy unit below its Starting Strength, add 1 to the Hit roll. If that target is also Below Half-Strength, add 1 to the Wound roll as well."
+        },
+        {
+          "name": "Intoxicating Musk",
+          "description": "Each time a melee attack targets the bearer's unit, if the Strength characteristic of that attack is greater than the Toughness characteristic of that unit, subtract 1 from the Wound roll."
+        },
+        {
+          "name": "Tactical Perfection",
+          "description": "After both players have deployed their armies, select up to two **^^Emperor's Children**^^ units from your army and redeploy them. When doing so, you can set those units up in Strategic Reserves if you wish, regardless of how many units are already in Strategic Reserves."
+        },
+        {
+          "name": "Loathsome Dexterity",
+          "description": "Each time a model in the bearer's unit makes a Normal, Advance or Fall Back move, it can move through enemy models. When doing so, it can move within Engagement Range of such models, but cannot end that move within Engagement Range of them, and any Desperate Escape test is automatically passed."
+        },
+        {
+          "name": "Empyric Suffusion",
+          "description": "Once per battle round, you can target one friendly **^^Slaanesh**^^ unit within 6\" of the bearer with the Heroic Intervention Stratagem for 0CP."
+        },
+        {
+          "name": "Dark Blessings",
+          "description": "Once per battle, just after an enemy unit has selected its targets, the bearer can use this Enhancement. If it does, until the end of the phase, the bearer has a 3+ invulnerable save."
+        },
+        {
+          "name": "Possessed Blade",
+          "description": "At the start of the battle, select one melee weapon equipped by the bearer; add 1 to the Attacks characteristic of that weapon. In addition, each time the bearer is selected to fight, it can use this Enhancement. If it does, when resolving those attacks add 1 to the Damage characteristic of that weapon and that weapon has the [^^Devastating Wounds^^] and [^^Hazardous^^] abilities."
+        },
+        {
+          "name": "Warp Walker",
+          "description": "Each time the bearer's unit Advances, do not make an Advance roll. Instead, until the end of the phase, add 6\" to the Movement characteristic of models in that unit. Each time a model in the bearer's unit makes a Normal, Advance or Fall Back move, it can move through enemy models. When doing so, it can move within Engagement Range of such models, but cannot end that move within Engagement Range of them, and any Desperate Escape test is automatically passed."
+        },
+        {
+          "name": "Soulstain Made Manifest",
+          "description": "At the start of the Fight phase, you can select one enemy unit within Engagement Range of the bearer; that unit must take a Battle‑shock test, subtracting 1 from the result."
+        },
+        {
+          "name": "Exalted Patron",
+          "description": "Add 1\" to the Move characteristic of the bearer.\nIn the Declare Battle Formations step, the bearer can be attached to a ^^**Flawless Blades^^** unit."
+        },
+        {
+          "name": "Spiritsliver",
+          "description": "Add 1 to the Strength and Attacks characteristics of the bearer’s melee weapons."
+        },
+        {
+          "name": "Tears of the Phoenix",
+          "description": "Each time a model in the bearer’s unit makes a melee attack, you can ignore any or all modifiers to that attack’s Weapon Skill characteristic and any or all modifiers to the Hit roll and Wound roll."
+        },
+        {
+          "name": "Dark Majesty",
+          "description": "Improve this model's Leadership characteristic by 1 and its Objective Control characteristic by 2. At the end of the battle, if this model is within range of an objective marker you control that is wholly within your opponent's deployment zone, you gain 1 Rare ingredient."
+        },
+        {
+          "name": "Odious Grace",
+          "description": "You can re-roll Advance and Charge rolls made for this model's unit."
+        },
+        {
+          "name": "Fickle Speed",
+          "description": "Add 1 to Advance and Charge rolls made for this model's unit."
+        },
+        {
+          "name": "Whipcord Sinews",
+          "description": "Improve the Strength characteristic of melee weapons equipped by this model by 2."
+        },
+        {
+          "name": "Razor Claws",
+          "description": "Improve the Armour Penetration characteristic of melee weapons equipped by this model by 1. If this model destroys one or more units with a melee attack during a battle (excluding **^^Imperium^^** and **^^Chaos^^** units), then at the end of that battle you gain 1 Extract of Xeno-matter."
+        },
+        {
+          "name": "Psychotropic Aura",
+          "description": "Once per battle, at the start of the Fight phase, this model can use this ability. If it does, until the end of the phase, each time an attack targets this model's unit, subtract 1 from the Hit roll."
+        },
+        {
+          "name": "Betentacled Limbs",
+          "description": "Add 1 to the Attacks characteristic of melee weapons equipped by this model. If this model destroys one or more **^^Chaos^^** units with a melee attack during a battle, then at the end of that battle you gain 1 Infusion of Traitor's Blood."
+        },
+        {
+          "name": "Perfection of the Body",
+          "description": "This model has the Feel No Pain 6+ ability."
+        },
+        {
+          "name": "Silver Skin",
+          "description": "Add 1 to this model's Toughness characteristic."
+        }
+      ]
+    },
+    {
+      "id": "2cd1-13f5-d59d-cc7f",
+      "name": "Sorcerer",
+      "points": 60,
+      "keywords": [
+        "Character",
+        "Infantry",
+        "Psyker",
+        "Chaos",
+        "Slaanesh",
+        "Grenades"
+      ],
+      "factionKeywords": [
+        "Emperor's Children"
+      ],
+      "stats": {
+        "M": "7\"",
+        "T": "4",
+        "SV": "3+",
+        "W": "4",
+        "LD": "6+",
+        "OC": "1"
+      },
+      "rangedWeapons": [
+        {
+          "name": "Agonising Energies - witchfire",
+          "range": "18\"",
+          "A": "D6",
+          "BS": "3+",
+          "S": "5",
+          "AP": "-1",
+          "D": "D3",
+          "keywords": [
+            "Psychic"
+          ]
+        },
+        {
+          "name": "Agonising Energies - focused witchfire",
+          "range": "18\"",
+          "A": "D6",
+          "BS": "3+",
+          "S": "6",
+          "AP": "-2",
+          "D": "D3",
+          "keywords": [
+            "Devastating Wounds",
+            "Hazardous",
+            "Psychic"
+          ]
+        },
+        {
+          "name": "Bolt pistol",
+          "range": "12\"",
+          "A": "1",
+          "BS": "3+",
+          "S": "4",
+          "AP": "0",
+          "D": "1",
+          "keywords": [
+            "Pistol"
+          ]
+        }
+      ],
+      "meleeWeapons": [
+        {
+          "name": "Force weapon",
+          "range": "Melee",
+          "A": "4",
+          "WS": "3+",
+          "S": "6",
+          "AP": "-2",
+          "D": "D3",
+          "keywords": [
+            "Psychic"
+          ]
+        }
+      ],
+      "abilities": [
+        {
+          "name": "Leader",
+          "description": "This model can be attached to the following units: **^^Infractors; Noise Marines; Tormentors^^**"
+        },
+        {
+          "name": "Warped Interference (Psychic)",
+          "description": "While this model is leading a unit, each time a ranged attack targets that unit, models in it have the Benefit of Cover against that attack."
+        },
+        {
+          "name": "Wracking Agonies (Psychic)",
+          "description": "In your Shooting phase, after this model has shot, select one INFANTRY unit hit by one or more of those attacks made with its Agonising Energies. Until the start of your next turn, that unit is wracked with agonies. While a unit is wracked with agonies, subtract 2\" from its Move characteristic and subtract 2 from charge rolls made for it."
+        },
+        {
+          "name": "Eager to Prove",
+          "description": "You can re-roll Charge rolls made for the bearer's unit. While the bearer's unit is your army's Favoured Champions, add 2\" to the Move characteristic of models in that unit."
+        },
+        {
+          "name": "Repulsed by Weakness",
+          "description": "Each time an enemy unit (excluding **^^Monster**^^ and ^^**Vehicle**^^ units) within Engagement Range of the bearer's unit Falls Back, models in that enemy unit must take Desperate Escape tests. When doing so, if the bearer's unit is your army's Favoured Champions, subtract 1 from each of those Desperate Escape tests."
+        },
+        {
+          "name": "Proud and Vainglorious",
+          "description": "You can re-roll Battle-shock and Leadership tests taken for the bearer's unit. While the bearer's unit is your army's Favoured Champions, add 1 to the Objective Control characteristics of models in that unit."
+        },
+        {
+          "name": "Slayer of Champions",
+          "description": "The bearer's melee weapons have the [^^Precision^^] ability, and each time the bearer makes a melee attack that targets a ^^**Character**^^ unit, improve the Strength and Armour Penetration characteristics of that attack by 1."
+        },
+        {
+          "name": "Faultless Opportunist",
+          "description": "You can target the bearer's unit with the Heroic Intervention Stratagem for 0CP; and can do so even if you have already targeted a different unit with that Stratagem this phase."
+        },
+        {
+          "name": "Blinding Speed",
+          "description": "Once per battle, at the start of the Fight phase, the bearer can use this Enhancement. If it does so, until the end of the phase, models in the bearer's unit have the Fights First ability."
+        },
+        {
+          "name": "Distortion",
+          "description": "Add 1 to the Attacks and Damage characteristics of melee weapons equipped by the bearer."
+        },
+        {
+          "name": "Rise to the Challenge",
+          "description": "Once per battle, at the end of the Fight phase, if the bearer is within Engagement Range of three or more enemy models, it can use this Enhancement. If it does, the bearer can fight one additional time. When doing so, you can select one ability using the Exquisite Swordsmanship Detachment rule to apply to those attacks."
+        },
+        {
+          "name": "Sublime Presence",
+          "description": "Once per turn, in your Movement phase, the bearer can use this Enhancement. If it does, select one friendly **^^Emperor's Children Transport**^^ that is in Strategic Reserves. Until the end of the phase, for the purposes of setting up that **^^Transport**^^ on the battlefield, treat the current battle round number as being one higher than it actually is."
+        },
+        {
+          "name": "Spearhead Striker",
+          "description": "Each time the bearer disembarks from a **^^Transport**^^, until the end of the turn, you can re-roll Charge rolls made for the bearer's unit and enemy units cannot use the Fire Overwatch Stratagem to shoot at the bearer's unit."
+        },
+        {
+          "name": "Accomplished Tactician",
+          "description": "Once per turn, in your opponent's Shooting phase, just after an enemy unit has shot, you can select one friendly **^^Emperor's Children**^^ unit within 9\" of the bearer that was hit by one or more of those attacks, then select one friendly **^^Transport**^^ that unit is wholly within 6\" of and is able to embark within. That **^^Emperor's Children**^^ unit can embark in that **^^Transport**^^."
+        },
+        {
+          "name": "Heretek Adept",
+          "description": "Once per battle round, when a saving throw is failed for a friendly **^^Emperor's Children Vehicle**^^ model within 6\" of the bearer, you can change the Damage characteristic of that attack to 0."
+        },
+        {
+          "name": "Pledge of Eternal Servitude",
+          "description": "The first time the bearer is destroyed, take a Leadership test for the bearer at the end of the phase. if that test is passed, set the bearer back up on the battlefield as close as possible to where it was destroyed and not within Engagement Range of any enemy units, with D6 wounds remaining (up to its Wounds characteristic)."
+        },
+        {
+          "name": "Pledge of Dark Glory",
+          "description": "While the bearer is leading a unit, improve the Leadership and Objective Control characteristics of models in that unit by 1."
+        },
+        {
+          "name": "Pledge of Mortal Pain",
+          "description": "At the start of your Shooting phase, select one enemy unit within 12\" of and visible to the bearer. That unit must take a Leadership test, subtracting 2 from the result if it is Battle-shocked: if failed, that enemy unit suffers 3 mortal wounds."
+        },
+        {
+          "name": "Pledge of Unholy Fortune",
+          "description": "Once per turn, after making a Hit roll, a Wound roll or a saving throw for a model in the bearer's unit, if the bearer is not Battle-shocked, it can use this Enhancement. If it does, treat the result as an unmodified roll of 6 instead."
+        },
+        {
+          "name": "Steeped in Suffering",
+          "description": "Each time a model in the bearer's unit makes an attack that targets an enemy unit below its Starting Strength, add 1 to the Hit roll. If that target is also Below Half-Strength, add 1 to the Wound roll as well."
+        },
+        {
+          "name": "Intoxicating Musk",
+          "description": "Each time a melee attack targets the bearer's unit, if the Strength characteristic of that attack is greater than the Toughness characteristic of that unit, subtract 1 from the Wound roll."
+        },
+        {
+          "name": "Tactical Perfection",
+          "description": "After both players have deployed their armies, select up to two **^^Emperor's Children**^^ units from your army and redeploy them. When doing so, you can set those units up in Strategic Reserves if you wish, regardless of how many units are already in Strategic Reserves."
+        },
+        {
+          "name": "Loathsome Dexterity",
+          "description": "Each time a model in the bearer's unit makes a Normal, Advance or Fall Back move, it can move through enemy models. When doing so, it can move within Engagement Range of such models, but cannot end that move within Engagement Range of them, and any Desperate Escape test is automatically passed."
+        },
+        {
+          "name": "Empyric Suffusion",
+          "description": "Once per battle round, you can target one friendly **^^Slaanesh**^^ unit within 6\" of the bearer with the Heroic Intervention Stratagem for 0CP."
+        },
+        {
+          "name": "Dark Blessings",
+          "description": "Once per battle, just after an enemy unit has selected its targets, the bearer can use this Enhancement. If it does, until the end of the phase, the bearer has a 3+ invulnerable save."
+        },
+        {
+          "name": "Possessed Blade",
+          "description": "At the start of the battle, select one melee weapon equipped by the bearer; add 1 to the Attacks characteristic of that weapon. In addition, each time the bearer is selected to fight, it can use this Enhancement. If it does, when resolving those attacks add 1 to the Damage characteristic of that weapon and that weapon has the [^^Devastating Wounds^^] and [^^Hazardous^^] abilities."
+        },
+        {
+          "name": "Warp Walker",
+          "description": "Each time the bearer's unit Advances, do not make an Advance roll. Instead, until the end of the phase, add 6\" to the Movement characteristic of models in that unit. Each time a model in the bearer's unit makes a Normal, Advance or Fall Back move, it can move through enemy models. When doing so, it can move within Engagement Range of such models, but cannot end that move within Engagement Range of them, and any Desperate Escape test is automatically passed."
+        },
+        {
+          "name": "Soulstain Made Manifest",
+          "description": "At the start of the Fight phase, you can select one enemy unit within Engagement Range of the bearer; that unit must take a Battle‑shock test, subtracting 1 from the result."
+        },
+        {
+          "name": "Exalted Patron",
+          "description": "Add 1\" to the Move characteristic of the bearer.\nIn the Declare Battle Formations step, the bearer can be attached to a ^^**Flawless Blades^^** unit."
+        },
+        {
+          "name": "Spiritsliver",
+          "description": "Add 1 to the Strength and Attacks characteristics of the bearer’s melee weapons."
+        },
+        {
+          "name": "Tears of the Phoenix",
+          "description": "Each time a model in the bearer’s unit makes a melee attack, you can ignore any or all modifiers to that attack’s Weapon Skill characteristic and any or all modifiers to the Hit roll and Wound roll."
+        },
+        {
+          "name": "Dark Majesty",
+          "description": "Improve this model's Leadership characteristic by 1 and its Objective Control characteristic by 2. At the end of the battle, if this model is within range of an objective marker you control that is wholly within your opponent's deployment zone, you gain 1 Rare ingredient."
+        },
+        {
+          "name": "Odious Grace",
+          "description": "You can re-roll Advance and Charge rolls made for this model's unit."
+        },
+        {
+          "name": "Fickle Speed",
+          "description": "Add 1 to Advance and Charge rolls made for this model's unit."
+        },
+        {
+          "name": "Whipcord Sinews",
+          "description": "Improve the Strength characteristic of melee weapons equipped by this model by 2."
+        },
+        {
+          "name": "Razor Claws",
+          "description": "Improve the Armour Penetration characteristic of melee weapons equipped by this model by 1. If this model destroys one or more units with a melee attack during a battle (excluding **^^Imperium^^** and **^^Chaos^^** units), then at the end of that battle you gain 1 Extract of Xeno-matter."
+        },
+        {
+          "name": "Psychotropic Aura",
+          "description": "Once per battle, at the start of the Fight phase, this model can use this ability. If it does, until the end of the phase, each time an attack targets this model's unit, subtract 1 from the Hit roll."
+        },
+        {
+          "name": "Betentacled Limbs",
+          "description": "Add 1 to the Attacks characteristic of melee weapons equipped by this model. If this model destroys one or more **^^Chaos^^** units with a melee attack during a battle, then at the end of that battle you gain 1 Infusion of Traitor's Blood."
+        },
+        {
+          "name": "Perfection of the Body",
+          "description": "This model has the Feel No Pain 6+ ability."
+        },
+        {
+          "name": "Silver Skin",
+          "description": "Add 1 to this model's Toughness characteristic."
+        }
+      ]
+    },
+    {
+      "id": "ad59-b823-900d-ee2d",
+      "name": "Daemon Prince of Slaanesh",
+      "points": 180,
+      "keywords": [
+        "Monster",
+        "Character",
+        "Chaos",
+        "Daemon",
+        "Slaanesh",
+        "Daemon Prince"
+      ],
+      "factionKeywords": [
+        "Emperor's Children"
+      ],
+      "stats": {
+        "M": "10\"",
+        "T": "10",
+        "SV": "2+",
+        "W": "10",
+        "LD": "6+",
+        "OC": "3"
+      },
+      "rangedWeapons": [
+        {
+          "name": "Infernal cannon",
+          "range": "24\"",
+          "A": "3",
+          "BS": "2+",
+          "S": "5",
+          "AP": "-1",
+          "D": "2",
+          "keywords": []
+        }
+      ],
+      "meleeWeapons": [
+        {
+          "name": "➤ Hellforged weapons - strike",
+          "range": "Melee",
+          "A": "6",
+          "WS": "2+",
+          "S": "8",
+          "AP": "-2",
+          "D": "3",
+          "keywords": []
+        },
+        {
+          "name": "➤ Hellforged weapons - sweep",
+          "range": "Melee",
+          "A": "14",
+          "WS": "2+",
+          "S": "6",
+          "AP": "0",
+          "D": "1",
+          "keywords": []
+        }
+      ],
+      "abilities": [
+        {
+          "name": "Invulnerable Save",
+          "description": "This model has a 4+ invulnerable save."
+        },
+        {
+          "name": "Lord of Excess",
+          "description": "While this model is within 3\" of one or more friendly **^^Slaanesh Infantry^^**, this model has the Lone Operative ability."
+        },
+        {
+          "name": "Excessive Vigour (Aura)",
+          "description": "While a friendly **^^Slaanesh^^** unit is within 6\" of this model, if that unit made a Charge move this turn, improve the Armour Penetration characteristic of melee weapons equipped by that unit by 1."
+        },
+        {
+          "name": "Ecstatic Death",
+          "description": "If this model is destroyed by a melee attack, if it has not fought this phase, roll one D6: on a 2+, do not remove it from play. This model can fight after the attacking unit has finished making its attacks, and is then removed from play."
+        },
+        {
+          "name": "Eager to Prove",
+          "description": "You can re-roll Charge rolls made for the bearer's unit. While the bearer's unit is your army's Favoured Champions, add 2\" to the Move characteristic of models in that unit."
+        },
+        {
+          "name": "Repulsed by Weakness",
+          "description": "Each time an enemy unit (excluding **^^Monster**^^ and ^^**Vehicle**^^ units) within Engagement Range of the bearer's unit Falls Back, models in that enemy unit must take Desperate Escape tests. When doing so, if the bearer's unit is your army's Favoured Champions, subtract 1 from each of those Desperate Escape tests."
+        },
+        {
+          "name": "Proud and Vainglorious",
+          "description": "You can re-roll Battle-shock and Leadership tests taken for the bearer's unit. While the bearer's unit is your army's Favoured Champions, add 1 to the Objective Control characteristics of models in that unit."
+        },
+        {
+          "name": "Slayer of Champions",
+          "description": "The bearer's melee weapons have the [^^Precision^^] ability, and each time the bearer makes a melee attack that targets a ^^**Character**^^ unit, improve the Strength and Armour Penetration characteristics of that attack by 1."
+        },
+        {
+          "name": "Faultless Opportunist",
+          "description": "You can target the bearer's unit with the Heroic Intervention Stratagem for 0CP; and can do so even if you have already targeted a different unit with that Stratagem this phase."
+        },
+        {
+          "name": "Blinding Speed",
+          "description": "Once per battle, at the start of the Fight phase, the bearer can use this Enhancement. If it does so, until the end of the phase, models in the bearer's unit have the Fights First ability."
+        },
+        {
+          "name": "Distortion",
+          "description": "Add 1 to the Attacks and Damage characteristics of melee weapons equipped by the bearer."
+        },
+        {
+          "name": "Rise to the Challenge",
+          "description": "Once per battle, at the end of the Fight phase, if the bearer is within Engagement Range of three or more enemy models, it can use this Enhancement. If it does, the bearer can fight one additional time. When doing so, you can select one ability using the Exquisite Swordsmanship Detachment rule to apply to those attacks."
+        },
+        {
+          "name": "Sublime Presence",
+          "description": "Once per turn, in your Movement phase, the bearer can use this Enhancement. If it does, select one friendly **^^Emperor's Children Transport**^^ that is in Strategic Reserves. Until the end of the phase, for the purposes of setting up that **^^Transport**^^ on the battlefield, treat the current battle round number as being one higher than it actually is."
+        },
+        {
+          "name": "Spearhead Striker",
+          "description": "Each time the bearer disembarks from a **^^Transport**^^, until the end of the turn, you can re-roll Charge rolls made for the bearer's unit and enemy units cannot use the Fire Overwatch Stratagem to shoot at the bearer's unit."
+        },
+        {
+          "name": "Accomplished Tactician",
+          "description": "Once per turn, in your opponent's Shooting phase, just after an enemy unit has shot, you can select one friendly **^^Emperor's Children**^^ unit within 9\" of the bearer that was hit by one or more of those attacks, then select one friendly **^^Transport**^^ that unit is wholly within 6\" of and is able to embark within. That **^^Emperor's Children**^^ unit can embark in that **^^Transport**^^."
+        },
+        {
+          "name": "Heretek Adept",
+          "description": "Once per battle round, when a saving throw is failed for a friendly **^^Emperor's Children Vehicle**^^ model within 6\" of the bearer, you can change the Damage characteristic of that attack to 0."
+        },
+        {
+          "name": "Pledge of Eternal Servitude",
+          "description": "The first time the bearer is destroyed, take a Leadership test for the bearer at the end of the phase. if that test is passed, set the bearer back up on the battlefield as close as possible to where it was destroyed and not within Engagement Range of any enemy units, with D6 wounds remaining (up to its Wounds characteristic)."
+        },
+        {
+          "name": "Pledge of Dark Glory",
+          "description": "While the bearer is leading a unit, improve the Leadership and Objective Control characteristics of models in that unit by 1."
+        },
+        {
+          "name": "Pledge of Mortal Pain",
+          "description": "At the start of your Shooting phase, select one enemy unit within 12\" of and visible to the bearer. That unit must take a Leadership test, subtracting 2 from the result if it is Battle-shocked: if failed, that enemy unit suffers 3 mortal wounds."
+        },
+        {
+          "name": "Pledge of Unholy Fortune",
+          "description": "Once per turn, after making a Hit roll, a Wound roll or a saving throw for a model in the bearer's unit, if the bearer is not Battle-shocked, it can use this Enhancement. If it does, treat the result as an unmodified roll of 6 instead."
+        },
+        {
+          "name": "Steeped in Suffering",
+          "description": "Each time a model in the bearer's unit makes an attack that targets an enemy unit below its Starting Strength, add 1 to the Hit roll. If that target is also Below Half-Strength, add 1 to the Wound roll as well."
+        },
+        {
+          "name": "Intoxicating Musk",
+          "description": "Each time a melee attack targets the bearer's unit, if the Strength characteristic of that attack is greater than the Toughness characteristic of that unit, subtract 1 from the Wound roll."
+        },
+        {
+          "name": "Tactical Perfection",
+          "description": "After both players have deployed their armies, select up to two **^^Emperor's Children**^^ units from your army and redeploy them. When doing so, you can set those units up in Strategic Reserves if you wish, regardless of how many units are already in Strategic Reserves."
+        },
+        {
+          "name": "Loathsome Dexterity",
+          "description": "Each time a model in the bearer's unit makes a Normal, Advance or Fall Back move, it can move through enemy models. When doing so, it can move within Engagement Range of such models, but cannot end that move within Engagement Range of them, and any Desperate Escape test is automatically passed."
+        },
+        {
+          "name": "Empyric Suffusion",
+          "description": "Once per battle round, you can target one friendly **^^Slaanesh**^^ unit within 6\" of the bearer with the Heroic Intervention Stratagem for 0CP."
+        },
+        {
+          "name": "Dark Blessings",
+          "description": "Once per battle, just after an enemy unit has selected its targets, the bearer can use this Enhancement. If it does, until the end of the phase, the bearer has a 3+ invulnerable save."
+        },
+        {
+          "name": "Possessed Blade",
+          "description": "At the start of the battle, select one melee weapon equipped by the bearer; add 1 to the Attacks characteristic of that weapon. In addition, each time the bearer is selected to fight, it can use this Enhancement. If it does, when resolving those attacks add 1 to the Damage characteristic of that weapon and that weapon has the [^^Devastating Wounds^^] and [^^Hazardous^^] abilities."
+        },
+        {
+          "name": "Warp Walker",
+          "description": "Each time the bearer's unit Advances, do not make an Advance roll. Instead, until the end of the phase, add 6\" to the Movement characteristic of models in that unit. Each time a model in the bearer's unit makes a Normal, Advance or Fall Back move, it can move through enemy models. When doing so, it can move within Engagement Range of such models, but cannot end that move within Engagement Range of them, and any Desperate Escape test is automatically passed."
+        },
+        {
+          "name": "Soulstain Made Manifest",
+          "description": "At the start of the Fight phase, you can select one enemy unit within Engagement Range of the bearer; that unit must take a Battle‑shock test, subtracting 1 from the result."
+        },
+        {
+          "name": "Exalted Patron",
+          "description": "Add 1\" to the Move characteristic of the bearer.\nIn the Declare Battle Formations step, the bearer can be attached to a ^^**Flawless Blades^^** unit."
+        },
+        {
+          "name": "Spiritsliver",
+          "description": "Add 1 to the Strength and Attacks characteristics of the bearer’s melee weapons."
+        },
+        {
+          "name": "Tears of the Phoenix",
+          "description": "Each time a model in the bearer’s unit makes a melee attack, you can ignore any or all modifiers to that attack’s Weapon Skill characteristic and any or all modifiers to the Hit roll and Wound roll."
+        },
+        {
+          "name": "Dark Majesty",
+          "description": "Improve this model's Leadership characteristic by 1 and its Objective Control characteristic by 2. At the end of the battle, if this model is within range of an objective marker you control that is wholly within your opponent's deployment zone, you gain 1 Rare ingredient."
+        },
+        {
+          "name": "Odious Grace",
+          "description": "You can re-roll Advance and Charge rolls made for this model's unit."
+        },
+        {
+          "name": "Fickle Speed",
+          "description": "Add 1 to Advance and Charge rolls made for this model's unit."
+        },
+        {
+          "name": "Whipcord Sinews",
+          "description": "Improve the Strength characteristic of melee weapons equipped by this model by 2."
+        },
+        {
+          "name": "Razor Claws",
+          "description": "Improve the Armour Penetration characteristic of melee weapons equipped by this model by 1. If this model destroys one or more units with a melee attack during a battle (excluding **^^Imperium^^** and **^^Chaos^^** units), then at the end of that battle you gain 1 Extract of Xeno-matter."
+        },
+        {
+          "name": "Psychotropic Aura",
+          "description": "Once per battle, at the start of the Fight phase, this model can use this ability. If it does, until the end of the phase, each time an attack targets this model's unit, subtract 1 from the Hit roll."
+        },
+        {
+          "name": "Betentacled Limbs",
+          "description": "Add 1 to the Attacks characteristic of melee weapons equipped by this model. If this model destroys one or more **^^Chaos^^** units with a melee attack during a battle, then at the end of that battle you gain 1 Infusion of Traitor's Blood."
+        },
+        {
+          "name": "Perfection of the Body",
+          "description": "This model has the Feel No Pain 6+ ability."
+        },
+        {
+          "name": "Silver Skin",
+          "description": "Add 1 to this model's Toughness characteristic."
+        }
+      ]
+    },
+    {
+      "id": "e452-08be-33e6-3864",
+      "name": "Daemon Prince of Slaanesh with Wings",
+      "points": 215,
+      "keywords": [
+        "Monster",
+        "Character",
+        "Chaos",
+        "Daemon",
+        "Slaanesh",
+        "Fly",
+        "Daemon Prince with Wings"
+      ],
+      "factionKeywords": [
+        "Emperor's Children"
+      ],
+      "stats": {
+        "M": "14\"",
+        "T": "9",
+        "SV": "2+",
+        "W": "10",
+        "LD": "6+",
+        "OC": "3"
+      },
+      "rangedWeapons": [
+        {
+          "name": "Infernal cannon",
+          "range": "24\"",
+          "A": "3",
+          "BS": "2+",
+          "S": "5",
+          "AP": "-1",
+          "D": "2",
+          "keywords": []
+        }
+      ],
+      "meleeWeapons": [
+        {
+          "name": "➤ Hellforged weapons - strike",
+          "range": "Melee",
+          "A": "6",
+          "WS": "2+",
+          "S": "8",
+          "AP": "-2",
+          "D": "3",
+          "keywords": []
+        },
+        {
+          "name": "➤ Hellforged weapons - sweep",
+          "range": "Melee",
+          "A": "14",
+          "WS": "2+",
+          "S": "6",
+          "AP": "0",
+          "D": "1",
+          "keywords": []
+        }
+      ],
+      "abilities": [
+        {
+          "name": "Invulnerable Save",
+          "description": "This model has a 4+ invulnerable save."
+        },
+        {
+          "name": "Daemonic Destruction",
+          "description": "Each time this model ends a Charge move, select one enemy unit within Engagement Range of this model and roll one D6 for each of this model's remaining wounds: for each 4+, that enemy unit suffers 1 mortal wound (to a maximum of 6 mortal wounds)."
+        },
+        {
+          "name": "Stimulated by Pain",
+          "description": "Each time an attack is allocated to this model, subtract 1 from the Damage characteristic of that attack."
+        },
+        {
+          "name": "Eager to Prove",
+          "description": "You can re-roll Charge rolls made for the bearer's unit. While the bearer's unit is your army's Favoured Champions, add 2\" to the Move characteristic of models in that unit."
+        },
+        {
+          "name": "Repulsed by Weakness",
+          "description": "Each time an enemy unit (excluding **^^Monster**^^ and ^^**Vehicle**^^ units) within Engagement Range of the bearer's unit Falls Back, models in that enemy unit must take Desperate Escape tests. When doing so, if the bearer's unit is your army's Favoured Champions, subtract 1 from each of those Desperate Escape tests."
+        },
+        {
+          "name": "Proud and Vainglorious",
+          "description": "You can re-roll Battle-shock and Leadership tests taken for the bearer's unit. While the bearer's unit is your army's Favoured Champions, add 1 to the Objective Control characteristics of models in that unit."
+        },
+        {
+          "name": "Slayer of Champions",
+          "description": "The bearer's melee weapons have the [^^Precision^^] ability, and each time the bearer makes a melee attack that targets a ^^**Character**^^ unit, improve the Strength and Armour Penetration characteristics of that attack by 1."
+        },
+        {
+          "name": "Faultless Opportunist",
+          "description": "You can target the bearer's unit with the Heroic Intervention Stratagem for 0CP; and can do so even if you have already targeted a different unit with that Stratagem this phase."
+        },
+        {
+          "name": "Blinding Speed",
+          "description": "Once per battle, at the start of the Fight phase, the bearer can use this Enhancement. If it does so, until the end of the phase, models in the bearer's unit have the Fights First ability."
+        },
+        {
+          "name": "Distortion",
+          "description": "Add 1 to the Attacks and Damage characteristics of melee weapons equipped by the bearer."
+        },
+        {
+          "name": "Rise to the Challenge",
+          "description": "Once per battle, at the end of the Fight phase, if the bearer is within Engagement Range of three or more enemy models, it can use this Enhancement. If it does, the bearer can fight one additional time. When doing so, you can select one ability using the Exquisite Swordsmanship Detachment rule to apply to those attacks."
+        },
+        {
+          "name": "Sublime Presence",
+          "description": "Once per turn, in your Movement phase, the bearer can use this Enhancement. If it does, select one friendly **^^Emperor's Children Transport**^^ that is in Strategic Reserves. Until the end of the phase, for the purposes of setting up that **^^Transport**^^ on the battlefield, treat the current battle round number as being one higher than it actually is."
+        },
+        {
+          "name": "Spearhead Striker",
+          "description": "Each time the bearer disembarks from a **^^Transport**^^, until the end of the turn, you can re-roll Charge rolls made for the bearer's unit and enemy units cannot use the Fire Overwatch Stratagem to shoot at the bearer's unit."
+        },
+        {
+          "name": "Accomplished Tactician",
+          "description": "Once per turn, in your opponent's Shooting phase, just after an enemy unit has shot, you can select one friendly **^^Emperor's Children**^^ unit within 9\" of the bearer that was hit by one or more of those attacks, then select one friendly **^^Transport**^^ that unit is wholly within 6\" of and is able to embark within. That **^^Emperor's Children**^^ unit can embark in that **^^Transport**^^."
+        },
+        {
+          "name": "Heretek Adept",
+          "description": "Once per battle round, when a saving throw is failed for a friendly **^^Emperor's Children Vehicle**^^ model within 6\" of the bearer, you can change the Damage characteristic of that attack to 0."
+        },
+        {
+          "name": "Pledge of Eternal Servitude",
+          "description": "The first time the bearer is destroyed, take a Leadership test for the bearer at the end of the phase. if that test is passed, set the bearer back up on the battlefield as close as possible to where it was destroyed and not within Engagement Range of any enemy units, with D6 wounds remaining (up to its Wounds characteristic)."
+        },
+        {
+          "name": "Pledge of Dark Glory",
+          "description": "While the bearer is leading a unit, improve the Leadership and Objective Control characteristics of models in that unit by 1."
+        },
+        {
+          "name": "Pledge of Mortal Pain",
+          "description": "At the start of your Shooting phase, select one enemy unit within 12\" of and visible to the bearer. That unit must take a Leadership test, subtracting 2 from the result if it is Battle-shocked: if failed, that enemy unit suffers 3 mortal wounds."
+        },
+        {
+          "name": "Pledge of Unholy Fortune",
+          "description": "Once per turn, after making a Hit roll, a Wound roll or a saving throw for a model in the bearer's unit, if the bearer is not Battle-shocked, it can use this Enhancement. If it does, treat the result as an unmodified roll of 6 instead."
+        },
+        {
+          "name": "Steeped in Suffering",
+          "description": "Each time a model in the bearer's unit makes an attack that targets an enemy unit below its Starting Strength, add 1 to the Hit roll. If that target is also Below Half-Strength, add 1 to the Wound roll as well."
+        },
+        {
+          "name": "Intoxicating Musk",
+          "description": "Each time a melee attack targets the bearer's unit, if the Strength characteristic of that attack is greater than the Toughness characteristic of that unit, subtract 1 from the Wound roll."
+        },
+        {
+          "name": "Tactical Perfection",
+          "description": "After both players have deployed their armies, select up to two **^^Emperor's Children**^^ units from your army and redeploy them. When doing so, you can set those units up in Strategic Reserves if you wish, regardless of how many units are already in Strategic Reserves."
+        },
+        {
+          "name": "Loathsome Dexterity",
+          "description": "Each time a model in the bearer's unit makes a Normal, Advance or Fall Back move, it can move through enemy models. When doing so, it can move within Engagement Range of such models, but cannot end that move within Engagement Range of them, and any Desperate Escape test is automatically passed."
+        },
+        {
+          "name": "Empyric Suffusion",
+          "description": "Once per battle round, you can target one friendly **^^Slaanesh**^^ unit within 6\" of the bearer with the Heroic Intervention Stratagem for 0CP."
+        },
+        {
+          "name": "Dark Blessings",
+          "description": "Once per battle, just after an enemy unit has selected its targets, the bearer can use this Enhancement. If it does, until the end of the phase, the bearer has a 3+ invulnerable save."
+        },
+        {
+          "name": "Possessed Blade",
+          "description": "At the start of the battle, select one melee weapon equipped by the bearer; add 1 to the Attacks characteristic of that weapon. In addition, each time the bearer is selected to fight, it can use this Enhancement. If it does, when resolving those attacks add 1 to the Damage characteristic of that weapon and that weapon has the [^^Devastating Wounds^^] and [^^Hazardous^^] abilities."
+        },
+        {
+          "name": "Warp Walker",
+          "description": "Each time the bearer's unit Advances, do not make an Advance roll. Instead, until the end of the phase, add 6\" to the Movement characteristic of models in that unit. Each time a model in the bearer's unit makes a Normal, Advance or Fall Back move, it can move through enemy models. When doing so, it can move within Engagement Range of such models, but cannot end that move within Engagement Range of them, and any Desperate Escape test is automatically passed."
+        },
+        {
+          "name": "Soulstain Made Manifest",
+          "description": "At the start of the Fight phase, you can select one enemy unit within Engagement Range of the bearer; that unit must take a Battle‑shock test, subtracting 1 from the result."
+        },
+        {
+          "name": "Exalted Patron",
+          "description": "Add 1\" to the Move characteristic of the bearer.\nIn the Declare Battle Formations step, the bearer can be attached to a ^^**Flawless Blades^^** unit."
+        },
+        {
+          "name": "Spiritsliver",
+          "description": "Add 1 to the Strength and Attacks characteristics of the bearer’s melee weapons."
+        },
+        {
+          "name": "Tears of the Phoenix",
+          "description": "Each time a model in the bearer’s unit makes a melee attack, you can ignore any or all modifiers to that attack’s Weapon Skill characteristic and any or all modifiers to the Hit roll and Wound roll."
+        },
+        {
+          "name": "Dark Majesty",
+          "description": "Improve this model's Leadership characteristic by 1 and its Objective Control characteristic by 2. At the end of the battle, if this model is within range of an objective marker you control that is wholly within your opponent's deployment zone, you gain 1 Rare ingredient."
+        },
+        {
+          "name": "Odious Grace",
+          "description": "You can re-roll Advance and Charge rolls made for this model's unit."
+        },
+        {
+          "name": "Fickle Speed",
+          "description": "Add 1 to Advance and Charge rolls made for this model's unit."
+        },
+        {
+          "name": "Whipcord Sinews",
+          "description": "Improve the Strength characteristic of melee weapons equipped by this model by 2."
+        },
+        {
+          "name": "Razor Claws",
+          "description": "Improve the Armour Penetration characteristic of melee weapons equipped by this model by 1. If this model destroys one or more units with a melee attack during a battle (excluding **^^Imperium^^** and **^^Chaos^^** units), then at the end of that battle you gain 1 Extract of Xeno-matter."
+        },
+        {
+          "name": "Psychotropic Aura",
+          "description": "Once per battle, at the start of the Fight phase, this model can use this ability. If it does, until the end of the phase, each time an attack targets this model's unit, subtract 1 from the Hit roll."
+        },
+        {
+          "name": "Betentacled Limbs",
+          "description": "Add 1 to the Attacks characteristic of melee weapons equipped by this model. If this model destroys one or more **^^Chaos^^** units with a melee attack during a battle, then at the end of that battle you gain 1 Infusion of Traitor's Blood."
+        },
+        {
+          "name": "Perfection of the Body",
+          "description": "This model has the Feel No Pain 6+ ability."
+        },
+        {
+          "name": "Silver Skin",
+          "description": "Add 1 to this model's Toughness characteristic."
+        }
+      ]
+    },
+    {
+      "id": "4494-dd7d-69f7-306c",
+      "name": "Tormentors",
+      "points": 85,
+      "keywords": [
+        "Infantry",
+        "Battleline",
+        "Grenades",
+        "Chaos",
+        "Slaanesh"
+      ],
+      "factionKeywords": [
+        "Emperor's Children"
+      ],
+      "stats": {
+        "M": "7\"",
+        "T": "4",
+        "SV": "3+",
+        "W": "2",
+        "LD": "6+",
+        "OC": "2"
+      },
+      "rangedWeapons": [
+        {
+          "name": "Bolt pistol",
+          "range": "12\"",
+          "A": "1",
+          "BS": "3+",
+          "S": "4",
+          "AP": "0",
+          "D": "1",
+          "keywords": [
+            "Pistol"
+          ]
+        },
+        {
+          "name": "➤ Plasma pistol - standard",
+          "range": "12\"",
+          "A": "1",
+          "BS": "3+",
+          "S": "7",
+          "AP": "-2",
+          "D": "1",
+          "keywords": [
+            "Pistol"
+          ]
+        },
+        {
+          "name": "➤ Plasma pistol - supercharge",
+          "range": "12\"",
+          "A": "1",
+          "BS": "3+",
+          "S": "8",
+          "AP": "-3",
+          "D": "2",
+          "keywords": [
+            "Hazardous",
+            "Pistol"
+          ]
+        },
+        {
+          "name": "Boltgun",
+          "range": "24\"",
+          "A": "2",
+          "BS": "3+",
+          "S": "4",
+          "AP": "0",
+          "D": "1",
+          "keywords": [
+            "Precision"
+          ]
+        },
+        {
+          "name": "➤ Plasma gun - standard",
+          "range": "24\"",
+          "A": "1",
+          "BS": "3+",
+          "S": "7",
+          "AP": "-2",
+          "D": "1",
+          "keywords": [
+            "Precision",
+            "Rapid Fire 1"
+          ]
+        },
+        {
+          "name": "➤ Plasma gun - supercharge",
+          "range": "24\"",
+          "A": "1",
+          "BS": "3+",
+          "S": "8",
+          "AP": "-3",
+          "D": "2",
+          "keywords": [
+            "Hazardous",
+            "Precision",
+            "Rapid Fire 1"
+          ]
+        },
+        {
+          "name": "Meltagun",
+          "range": "12\"",
+          "A": "1",
+          "BS": "3+",
+          "S": "9",
+          "AP": "-4",
+          "D": "D6",
+          "keywords": [
+            "Melta 2",
+            "Precision"
+          ]
+        }
+      ],
+      "meleeWeapons": [
+        {
+          "name": "Rapture lash",
+          "range": "Melee",
+          "A": "6",
+          "WS": "3+",
+          "S": "4",
+          "AP": "-1",
+          "D": "1",
+          "keywords": []
+        },
+        {
+          "name": "Power sword",
+          "range": "Melee",
+          "A": "4",
+          "WS": "3+",
+          "S": "5",
+          "AP": "-2",
+          "D": "1",
+          "keywords": []
+        },
+        {
+          "name": "Close combat weapon",
+          "range": "Melee",
+          "A": "3",
+          "WS": "3+",
+          "S": "4",
+          "AP": "0",
+          "D": "1",
+          "keywords": []
+        }
+      ],
+      "abilities": [
+        {
+          "name": "Objective Defiled",
+          "description": "At the end of your Command phase, if this unit is within range of an objective marker you control, that objective marker remains under your control until your opponent's Level of Control over that objective marker is greater than yours at the end of a phase."
+        },
+        {
+          "name": "Icon of Excess",
+          "description": "At the end of your Shooting phase or the Fight phase, if the bearer's unit destroyed one or more enemy units this phase, the bearer's unit takes a Leadership test. If that test is passed, you gain 1CP."
+        },
+        {
+          "name": "Dark Majesty",
+          "description": "Improve this model's Leadership characteristic by 1 and its Objective Control characteristic by 2. At the end of the battle, if this model is within range of an objective marker you control that is wholly within your opponent's deployment zone, you gain 1 Rare ingredient."
+        },
+        {
+          "name": "Odious Grace",
+          "description": "You can re-roll Advance and Charge rolls made for this model's unit."
+        },
+        {
+          "name": "Fickle Speed",
+          "description": "Add 1 to Advance and Charge rolls made for this model's unit."
+        },
+        {
+          "name": "Whipcord Sinews",
+          "description": "Improve the Strength characteristic of melee weapons equipped by this model by 2."
+        },
+        {
+          "name": "Razor Claws",
+          "description": "Improve the Armour Penetration characteristic of melee weapons equipped by this model by 1. If this model destroys one or more units with a melee attack during a battle (excluding **^^Imperium^^** and **^^Chaos^^** units), then at the end of that battle you gain 1 Extract of Xeno-matter."
+        },
+        {
+          "name": "Psychotropic Aura",
+          "description": "Once per battle, at the start of the Fight phase, this model can use this ability. If it does, until the end of the phase, each time an attack targets this model's unit, subtract 1 from the Hit roll."
+        },
+        {
+          "name": "Betentacled Limbs",
+          "description": "Add 1 to the Attacks characteristic of melee weapons equipped by this model. If this model destroys one or more **^^Chaos^^** units with a melee attack during a battle, then at the end of that battle you gain 1 Infusion of Traitor's Blood."
+        },
+        {
+          "name": "Perfection of the Body",
+          "description": "This model has the Feel No Pain 6+ ability."
+        },
+        {
+          "name": "Silver Skin",
+          "description": "Add 1 to this model's Toughness characteristic."
+        }
+      ]
+    },
+    {
+      "id": "e456-0afc-9b42-226c",
+      "name": "Infractors",
+      "points": 85,
+      "keywords": [
+        "Infantry",
+        "Battleline",
+        "Grenades",
+        "Chaos",
+        "Slaanesh"
+      ],
+      "factionKeywords": [
+        "Emperor's Children"
+      ],
+      "stats": {
+        "M": "7\"",
+        "T": "4",
+        "SV": "3+",
+        "W": "2",
+        "LD": "6+",
+        "OC": "2"
+      },
+      "rangedWeapons": [
+        {
+          "name": "Bolt pistol",
+          "range": "12\"",
+          "A": "1",
+          "BS": "3+",
+          "S": "4",
+          "AP": "0",
+          "D": "1",
+          "keywords": [
+            "Pistol"
+          ]
+        },
+        {
+          "name": "➤ Plasma pistol - standard",
+          "range": "12\"",
+          "A": "1",
+          "BS": "3+",
+          "S": "7",
+          "AP": "-2",
+          "D": "1",
+          "keywords": [
+            "Pistol"
+          ]
+        },
+        {
+          "name": "➤ Plasma pistol - supercharge",
+          "range": "12\"",
+          "A": "1",
+          "BS": "3+",
+          "S": "8",
+          "AP": "-3",
+          "D": "2",
+          "keywords": [
+            "Hazardous",
+            "Pistol"
+          ]
+        }
+      ],
+      "meleeWeapons": [
+        {
+          "name": "Rapture lash",
+          "range": "Melee",
+          "A": "6",
+          "WS": "3+",
+          "S": "4",
+          "AP": "-1",
+          "D": "1",
+          "keywords": []
+        },
+        {
+          "name": "Power sword",
+          "range": "Melee",
+          "A": "4",
+          "WS": "3+",
+          "S": "5",
+          "AP": "-2",
+          "D": "1",
+          "keywords": []
+        },
+        {
+          "name": "Duelling sabre",
+          "range": "Melee",
+          "A": "4",
+          "WS": "3+",
+          "S": "4",
+          "AP": "-1",
+          "D": "1",
+          "keywords": [
+            "Precision"
+          ]
+        }
+      ],
+      "abilities": [
+        {
+          "name": "Excessive Assault",
+          "description": "Each time a model in this unit targets an enemy unit with a melee attack, re-roll a Wound roll of 1. If that enemy unit is within range of an objective marker, you can re-roll the Wound roll instead."
+        },
+        {
+          "name": "Icon of Excess",
+          "description": "At the end of your Shooting phase or the Fight phase, if the bearer's unit destroyed one or more enemy units this phase, the bearer's unit takes a Leadership test. If that test is passed, you gain 1CP."
+        },
+        {
+          "name": "Dark Majesty",
+          "description": "Improve this model's Leadership characteristic by 1 and its Objective Control characteristic by 2. At the end of the battle, if this model is within range of an objective marker you control that is wholly within your opponent's deployment zone, you gain 1 Rare ingredient."
+        },
+        {
+          "name": "Odious Grace",
+          "description": "You can re-roll Advance and Charge rolls made for this model's unit."
+        },
+        {
+          "name": "Fickle Speed",
+          "description": "Add 1 to Advance and Charge rolls made for this model's unit."
+        },
+        {
+          "name": "Whipcord Sinews",
+          "description": "Improve the Strength characteristic of melee weapons equipped by this model by 2."
+        },
+        {
+          "name": "Razor Claws",
+          "description": "Improve the Armour Penetration characteristic of melee weapons equipped by this model by 1. If this model destroys one or more units with a melee attack during a battle (excluding **^^Imperium^^** and **^^Chaos^^** units), then at the end of that battle you gain 1 Extract of Xeno-matter."
+        },
+        {
+          "name": "Psychotropic Aura",
+          "description": "Once per battle, at the start of the Fight phase, this model can use this ability. If it does, until the end of the phase, each time an attack targets this model's unit, subtract 1 from the Hit roll."
+        },
+        {
+          "name": "Betentacled Limbs",
+          "description": "Add 1 to the Attacks characteristic of melee weapons equipped by this model. If this model destroys one or more **^^Chaos^^** units with a melee attack during a battle, then at the end of that battle you gain 1 Infusion of Traitor's Blood."
+        },
+        {
+          "name": "Perfection of the Body",
+          "description": "This model has the Feel No Pain 6+ ability."
+        },
+        {
+          "name": "Silver Skin",
+          "description": "Add 1 to this model's Toughness characteristic."
+        }
+      ]
+    },
+    {
+      "id": "183e-f3bb-3ce6-7b55",
+      "name": "Flawless Blades",
+      "points": 100,
+      "keywords": [
+        "Infantry",
+        "Grenades",
+        "Chaos",
+        "Slaanesh"
+      ],
+      "factionKeywords": [
+        "Emperor's Children"
+      ],
+      "stats": {
+        "M": "8\"",
+        "T": "5",
+        "SV": "3+",
+        "W": "3",
+        "LD": "6+",
+        "OC": "1"
+      },
+      "rangedWeapons": [
+        {
+          "name": "Bolt pistol",
+          "range": "12\"",
+          "A": "1",
+          "BS": "3+",
+          "S": "4",
+          "AP": "0",
+          "D": "1",
+          "keywords": [
+            "Pistol"
+          ]
+        }
+      ],
+      "meleeWeapons": [
+        {
+          "name": "Blissblade",
+          "range": "Melee",
+          "A": "4",
+          "WS": "2+",
+          "S": "6",
+          "AP": "-3",
+          "D": "2",
+          "keywords": []
+        }
+      ],
+      "abilities": [
+        {
+          "name": "Daemonic Patrons",
+          "description": "Each time this unit is selected to fight, it can call upon daemonic patrons. If it does, until the end of the phase, each time a model in this unit makes an attack. an unmodified Wound roll of 3+ scores a Critical Wound. At the end of the Fight phase, if this unit called upon daemonic patrons this phase and no enemy models were destroyed by attacks made by models in this unit this phase, one model in this unit is destroyed."
+        },
+        {
+          "name": "Invulnerable Save",
+          "description": "Models in this unit have a 5+ invulnerable save."
+        },
+        {
+          "name": "Dark Majesty",
+          "description": "Improve this model's Leadership characteristic by 1 and its Objective Control characteristic by 2. At the end of the battle, if this model is within range of an objective marker you control that is wholly within your opponent's deployment zone, you gain 1 Rare ingredient."
+        },
+        {
+          "name": "Odious Grace",
+          "description": "You can re-roll Advance and Charge rolls made for this model's unit."
+        },
+        {
+          "name": "Fickle Speed",
+          "description": "Add 1 to Advance and Charge rolls made for this model's unit."
+        },
+        {
+          "name": "Whipcord Sinews",
+          "description": "Improve the Strength characteristic of melee weapons equipped by this model by 2."
+        },
+        {
+          "name": "Razor Claws",
+          "description": "Improve the Armour Penetration characteristic of melee weapons equipped by this model by 1. If this model destroys one or more units with a melee attack during a battle (excluding **^^Imperium^^** and **^^Chaos^^** units), then at the end of that battle you gain 1 Extract of Xeno-matter."
+        },
+        {
+          "name": "Psychotropic Aura",
+          "description": "Once per battle, at the start of the Fight phase, this model can use this ability. If it does, until the end of the phase, each time an attack targets this model's unit, subtract 1 from the Hit roll."
+        },
+        {
+          "name": "Betentacled Limbs",
+          "description": "Add 1 to the Attacks characteristic of melee weapons equipped by this model. If this model destroys one or more **^^Chaos^^** units with a melee attack during a battle, then at the end of that battle you gain 1 Infusion of Traitor's Blood."
+        },
+        {
+          "name": "Perfection of the Body",
+          "description": "This model has the Feel No Pain 6+ ability."
+        },
+        {
+          "name": "Silver Skin",
+          "description": "Add 1 to this model's Toughness characteristic."
+        }
+      ]
+    },
+    {
+      "id": "5926-4deb-a85d-c73a",
+      "name": "Chaos Terminators",
+      "points": 145,
+      "keywords": [
+        "Infantry",
+        "Chaos",
+        "Terminator",
+        "Slaanesh",
+        "Terminator Squad"
+      ],
+      "factionKeywords": [
+        "Emperor's Children"
+      ],
+      "stats": {
+        "M": "6\"",
+        "T": "5",
+        "SV": "2+",
+        "W": "3",
+        "LD": "6+",
+        "OC": "1"
+      },
+      "rangedWeapons": [
+        {
+          "name": "Combi-weapon",
+          "range": "24\"",
+          "A": "1",
+          "BS": "4+",
+          "S": "4",
+          "AP": "0",
+          "D": "1",
+          "keywords": [
+            "Anti-INFANTRY 4+",
+            "Devastating Wounds",
+            "Rapid Fire 1"
+          ]
+        },
+        {
+          "name": "Heavy flamer",
+          "range": "12\"",
+          "A": "D6",
+          "BS": "N/A",
+          "S": "5",
+          "AP": "-1",
+          "D": "1",
+          "keywords": [
+            "Ignores Cover",
+            "Torrent"
+          ]
+        },
+        {
+          "name": "Reaper autocannon",
+          "range": "36\"",
+          "A": "4",
+          "BS": "3+",
+          "S": "7",
+          "AP": "-1",
+          "D": "1",
+          "keywords": [
+            "Devastating Wounds",
+            "Sustained Hits 1"
+          ]
+        }
+      ],
+      "meleeWeapons": [
+        {
+          "name": "Chainfist",
+          "range": "Melee",
+          "A": "3",
+          "WS": "4+",
+          "S": "8",
+          "AP": "-2",
+          "D": "2",
+          "keywords": [
+            "Anti-VEHICLE 3+"
+          ]
+        },
+        {
+          "name": "Power fist",
+          "range": "Melee",
+          "A": "3",
+          "WS": "3+",
+          "S": "8",
+          "AP": "-2",
+          "D": "2",
+          "keywords": []
+        },
+        {
+          "name": "Paired accursed weapons",
+          "range": "Melee",
+          "A": "5",
+          "WS": "3+",
+          "S": "5",
+          "AP": "-2",
+          "D": "1",
+          "keywords": [
+            "Twin-linked"
+          ]
+        }
+      ],
+      "abilities": [
+        {
+          "name": "Lethal Obsession",
+          "description": "In your Shooting phase, each time this unit is selected to shoot, if it makes one or more shooting attacks and all of those attacks target the same enemy unit, until the end of the turn, each time this unit declares a charge, if that enemy unit is a target of that charge, you can re-roll the Charge roll."
+        },
+        {
+          "name": "Invulnerable Save",
+          "description": "Models in this unit have a 4+ invulnerable save."
+        },
+        {
+          "name": "Dark Majesty",
+          "description": "Improve this model's Leadership characteristic by 1 and its Objective Control characteristic by 2. At the end of the battle, if this model is within range of an objective marker you control that is wholly within your opponent's deployment zone, you gain 1 Rare ingredient."
+        },
+        {
+          "name": "Odious Grace",
+          "description": "You can re-roll Advance and Charge rolls made for this model's unit."
+        },
+        {
+          "name": "Fickle Speed",
+          "description": "Add 1 to Advance and Charge rolls made for this model's unit."
+        },
+        {
+          "name": "Whipcord Sinews",
+          "description": "Improve the Strength characteristic of melee weapons equipped by this model by 2."
+        },
+        {
+          "name": "Razor Claws",
+          "description": "Improve the Armour Penetration characteristic of melee weapons equipped by this model by 1. If this model destroys one or more units with a melee attack during a battle (excluding **^^Imperium^^** and **^^Chaos^^** units), then at the end of that battle you gain 1 Extract of Xeno-matter."
+        },
+        {
+          "name": "Psychotropic Aura",
+          "description": "Once per battle, at the start of the Fight phase, this model can use this ability. If it does, until the end of the phase, each time an attack targets this model's unit, subtract 1 from the Hit roll."
+        },
+        {
+          "name": "Betentacled Limbs",
+          "description": "Add 1 to the Attacks characteristic of melee weapons equipped by this model. If this model destroys one or more **^^Chaos^^** units with a melee attack during a battle, then at the end of that battle you gain 1 Infusion of Traitor's Blood."
+        },
+        {
+          "name": "Perfection of the Body",
+          "description": "This model has the Feel No Pain 6+ ability."
+        },
+        {
+          "name": "Silver Skin",
+          "description": "Add 1 to this model's Toughness characteristic."
+        }
+      ]
+    },
+    {
+      "id": "896c-5816-3abd-5199",
+      "name": "Chaos Spawn",
+      "points": 70,
+      "keywords": [
+        "Beast",
+        "Chaos",
+        "Slaanesh"
+      ],
+      "factionKeywords": [
+        "Emperor's Children"
+      ],
+      "stats": {
+        "M": "10\"",
+        "T": "5",
+        "SV": "4+",
+        "W": "4",
+        "LD": "7+",
+        "OC": "1"
+      },
+      "rangedWeapons": [],
+      "meleeWeapons": [
+        {
+          "name": "Hideous Mutations",
+          "range": "Melee",
+          "A": "D6+2",
+          "WS": "4+",
+          "S": "5",
+          "AP": "-1",
+          "D": "2",
+          "keywords": []
+        }
+      ],
+      "abilities": [
+        {
+          "name": "Scuttling Horrors",
+          "description": "Once per turn, when an enemy unit ends a Normal, Advance or Fall Back move within 9\" of this unit, this unit can make a Normal move of up to 6\"."
+        },
+        {
+          "name": "Dark Majesty",
+          "description": "Improve this model's Leadership characteristic by 1 and its Objective Control characteristic by 2. At the end of the battle, if this model is within range of an objective marker you control that is wholly within your opponent's deployment zone, you gain 1 Rare ingredient."
+        },
+        {
+          "name": "Odious Grace",
+          "description": "You can re-roll Advance and Charge rolls made for this model's unit."
+        },
+        {
+          "name": "Fickle Speed",
+          "description": "Add 1 to Advance and Charge rolls made for this model's unit."
+        },
+        {
+          "name": "Whipcord Sinews",
+          "description": "Improve the Strength characteristic of melee weapons equipped by this model by 2."
+        },
+        {
+          "name": "Razor Claws",
+          "description": "Improve the Armour Penetration characteristic of melee weapons equipped by this model by 1. If this model destroys one or more units with a melee attack during a battle (excluding **^^Imperium^^** and **^^Chaos^^** units), then at the end of that battle you gain 1 Extract of Xeno-matter."
+        },
+        {
+          "name": "Psychotropic Aura",
+          "description": "Once per battle, at the start of the Fight phase, this model can use this ability. If it does, until the end of the phase, each time an attack targets this model's unit, subtract 1 from the Hit roll."
+        },
+        {
+          "name": "Betentacled Limbs",
+          "description": "Add 1 to the Attacks characteristic of melee weapons equipped by this model. If this model destroys one or more **^^Chaos^^** units with a melee attack during a battle, then at the end of that battle you gain 1 Infusion of Traitor's Blood."
+        },
+        {
+          "name": "Perfection of the Body",
+          "description": "This model has the Feel No Pain 6+ ability."
+        },
+        {
+          "name": "Silver Skin",
+          "description": "Add 1 to this model's Toughness characteristic."
+        }
+      ]
+    },
+    {
+      "id": "f10c-5f3e-c09d-0b12",
+      "name": "Chaos Land Raider",
+      "points": 220,
+      "keywords": [
+        "Vehicle",
+        "Transport",
+        "Smoke",
+        "Chaos",
+        "Slaanesh",
+        "Land Raider"
+      ],
+      "factionKeywords": [
+        "Emperor's Children"
+      ],
+      "stats": {
+        "M": "10\"",
+        "T": "12",
+        "SV": "2+",
+        "W": "16",
+        "LD": "6+",
+        "OC": "5"
+      },
+      "rangedWeapons": [
+        {
+          "name": "Soulshatter lascannon",
+          "range": "48\"",
+          "A": "2",
+          "BS": "3+",
+          "S": "12",
+          "AP": "-3",
+          "D": "D6+1",
+          "keywords": []
+        },
+        {
+          "name": "Havoc launcher",
+          "range": "48\"",
+          "A": "D6",
+          "BS": "3+",
+          "S": "5",
+          "AP": "0",
+          "D": "1",
+          "keywords": [
+            "Blast"
+          ]
+        },
+        {
+          "name": "Twin heavy bolter",
+          "range": "36\"",
+          "A": "3",
+          "BS": "3+",
+          "S": "5",
+          "AP": "-1",
+          "D": "2",
+          "keywords": [
+            "Sustained Hits 1",
+            "Twin-linked"
+          ]
+        }
+      ],
+      "meleeWeapons": [
+        {
+          "name": "Armoured tracks",
+          "range": "Melee",
+          "A": "6",
+          "WS": "4+",
+          "S": "8",
+          "AP": "0",
+          "D": "1",
+          "keywords": []
+        }
+      ],
+      "abilities": [
+        {
+          "name": "Assault Ramp",
+          "description": "Each time a unit disembarks from this model after it has made a Normal move, that unit is still eligible to declare a charge this turn."
+        },
+        {
+          "name": "Damaged: 1-5 wounds remaining",
+          "description": "While this model has 1-5 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
+        },
+        {
+          "name": "Dark Majesty",
+          "description": "Improve this model's Leadership characteristic by 1 and its Objective Control characteristic by 2. At the end of the battle, if this model is within range of an objective marker you control that is wholly within your opponent's deployment zone, you gain 1 Rare ingredient."
+        },
+        {
+          "name": "Odious Grace",
+          "description": "You can re-roll Advance and Charge rolls made for this model's unit."
+        },
+        {
+          "name": "Fickle Speed",
+          "description": "Add 1 to Advance and Charge rolls made for this model's unit."
+        },
+        {
+          "name": "Whipcord Sinews",
+          "description": "Improve the Strength characteristic of melee weapons equipped by this model by 2."
+        },
+        {
+          "name": "Razor Claws",
+          "description": "Improve the Armour Penetration characteristic of melee weapons equipped by this model by 1. If this model destroys one or more units with a melee attack during a battle (excluding **^^Imperium^^** and **^^Chaos^^** units), then at the end of that battle you gain 1 Extract of Xeno-matter."
+        },
+        {
+          "name": "Psychotropic Aura",
+          "description": "Once per battle, at the start of the Fight phase, this model can use this ability. If it does, until the end of the phase, each time an attack targets this model's unit, subtract 1 from the Hit roll."
+        },
+        {
+          "name": "Betentacled Limbs",
+          "description": "Add 1 to the Attacks characteristic of melee weapons equipped by this model. If this model destroys one or more **^^Chaos^^** units with a melee attack during a battle, then at the end of that battle you gain 1 Infusion of Traitor's Blood."
+        },
+        {
+          "name": "Perfection of the Body",
+          "description": "This model has the Feel No Pain 6+ ability."
+        },
+        {
+          "name": "Silver Skin",
+          "description": "Add 1 to this model's Toughness characteristic."
+        }
+      ],
+      "transportCapacity": "This model has a transport capacity of 14 **^^Emperor's Children Infantry^^** models. Each **^^Terminator^^** and ^^**Flawless Blade^^** model takes up the space of 2 models."
+    },
+    {
+      "id": "5817-0d6c-973c-68f8",
+      "name": "Noise Marines",
+      "points": 145,
+      "keywords": [
+        "Infantry",
+        "Chaos",
+        "Slaanesh"
+      ],
+      "factionKeywords": [
+        "Emperor's Children"
+      ],
+      "stats": {
+        "M": "6\"",
+        "T": "5",
+        "SV": "3+",
+        "W": "2",
+        "LD": "6+",
+        "OC": "1"
+      },
+      "rangedWeapons": [
+        {
+          "name": "Screamer pistol",
+          "range": "12\"",
+          "A": "3",
+          "BS": "3+",
+          "S": "5",
+          "AP": "-1",
+          "D": "2",
+          "keywords": [
+            "Ignores Cover",
+            "Pistol"
+          ]
+        },
+        {
+          "name": "Sonic blaster",
+          "range": "18\"",
+          "A": "3",
+          "BS": "3+",
+          "S": "5",
+          "AP": "-1",
+          "D": "2",
+          "keywords": [
+            "Ignores Cover"
+          ]
+        },
+        {
+          "name": "➤ Blastmaster - varied frequency",
+          "range": "18\"",
+          "A": "6",
+          "BS": "3+",
+          "S": "6",
+          "AP": "-2",
+          "D": "1",
+          "keywords": [
+            "Ignores Cover"
+          ]
+        },
+        {
+          "name": "➤ Blastmaster - single frequency",
+          "range": "18\"",
+          "A": "3",
+          "BS": "3+",
+          "S": "10",
+          "AP": "-2",
+          "D": "3",
+          "keywords": [
+            "Ignores Cover"
+          ]
+        }
+      ],
+      "meleeWeapons": [
+        {
+          "name": "Power sword",
+          "range": "Melee",
+          "A": "4",
+          "WS": "3+",
+          "S": "5",
+          "AP": "-2",
+          "D": "1",
+          "keywords": []
+        },
+        {
+          "name": "Close combat weapon",
+          "range": "Melee",
+          "A": "3",
+          "WS": "3+",
+          "S": "4",
+          "AP": "0",
+          "D": "1",
+          "keywords": []
+        }
+      ],
+      "abilities": [
+        {
+          "name": "Terrifying Crescendo",
+          "description": "In your Shooting phase, after this unit has shot, select one enemy unit hit by one or more of those attacks. Until the start of your next Shooting phase, each time a Battle-shock or Leadership test is taken for that enemy unit, subtract 1 from that test."
+        },
+        {
+          "name": "Dark Majesty",
+          "description": "Improve this model's Leadership characteristic by 1 and its Objective Control characteristic by 2. At the end of the battle, if this model is within range of an objective marker you control that is wholly within your opponent's deployment zone, you gain 1 Rare ingredient."
+        },
+        {
+          "name": "Odious Grace",
+          "description": "You can re-roll Advance and Charge rolls made for this model's unit."
+        },
+        {
+          "name": "Fickle Speed",
+          "description": "Add 1 to Advance and Charge rolls made for this model's unit."
+        },
+        {
+          "name": "Whipcord Sinews",
+          "description": "Improve the Strength characteristic of melee weapons equipped by this model by 2."
+        },
+        {
+          "name": "Razor Claws",
+          "description": "Improve the Armour Penetration characteristic of melee weapons equipped by this model by 1. If this model destroys one or more units with a melee attack during a battle (excluding **^^Imperium^^** and **^^Chaos^^** units), then at the end of that battle you gain 1 Extract of Xeno-matter."
+        },
+        {
+          "name": "Psychotropic Aura",
+          "description": "Once per battle, at the start of the Fight phase, this model can use this ability. If it does, until the end of the phase, each time an attack targets this model's unit, subtract 1 from the Hit roll."
+        },
+        {
+          "name": "Betentacled Limbs",
+          "description": "Add 1 to the Attacks characteristic of melee weapons equipped by this model. If this model destroys one or more **^^Chaos^^** units with a melee attack during a battle, then at the end of that battle you gain 1 Infusion of Traitor's Blood."
+        },
+        {
+          "name": "Perfection of the Body",
+          "description": "This model has the Feel No Pain 6+ ability."
+        },
+        {
+          "name": "Silver Skin",
+          "description": "Add 1 to this model's Toughness characteristic."
+        }
+      ]
+    },
+    {
+      "id": "3750-df25-165d-d003",
+      "name": "Heldrake",
+      "points": 195,
+      "keywords": [
+        "Vehicle",
+        "Fly",
+        "Aircraft",
+        "Chaos",
+        "Daemon",
+        "Slaanesh"
+      ],
+      "factionKeywords": [
+        "Emperor's Children"
+      ],
+      "stats": {
+        "M": "20\"+",
+        "T": "10",
+        "SV": "3+",
+        "W": "14",
+        "LD": "7+",
+        "OC": "0"
+      },
+      "rangedWeapons": [],
+      "meleeWeapons": [
+        {
+          "name": "Heldrake claws",
+          "range": "Melee",
+          "A": "5",
+          "WS": "3+",
+          "S": "7",
+          "AP": "-1",
+          "D": "2",
+          "keywords": [
+            "Anti-FLY 2+",
+            "Devastating Wounds"
+          ]
+        }
+      ],
+      "abilities": [
+        {
+          "name": "Airborne Predator",
+          "description": "Each time this model ends a Normal move, you can select one enemy unit that it moved over during that move and roll two D6, adding 1 to each result if that enemy unit can ^^FLY^^: for each 4+, that enemy unit suffers D3 mortal wounds."
+        },
+        {
+          "name": "Invulnerable Save",
+          "description": "This model has a 5+ invulnerable save."
+        },
+        {
+          "name": "Dark Majesty",
+          "description": "Improve this model's Leadership characteristic by 1 and its Objective Control characteristic by 2. At the end of the battle, if this model is within range of an objective marker you control that is wholly within your opponent's deployment zone, you gain 1 Rare ingredient."
+        },
+        {
+          "name": "Odious Grace",
+          "description": "You can re-roll Advance and Charge rolls made for this model's unit."
+        },
+        {
+          "name": "Fickle Speed",
+          "description": "Add 1 to Advance and Charge rolls made for this model's unit."
+        },
+        {
+          "name": "Whipcord Sinews",
+          "description": "Improve the Strength characteristic of melee weapons equipped by this model by 2."
+        },
+        {
+          "name": "Razor Claws",
+          "description": "Improve the Armour Penetration characteristic of melee weapons equipped by this model by 1. If this model destroys one or more units with a melee attack during a battle (excluding **^^Imperium^^** and **^^Chaos^^** units), then at the end of that battle you gain 1 Extract of Xeno-matter."
+        },
+        {
+          "name": "Psychotropic Aura",
+          "description": "Once per battle, at the start of the Fight phase, this model can use this ability. If it does, until the end of the phase, each time an attack targets this model's unit, subtract 1 from the Hit roll."
+        },
+        {
+          "name": "Betentacled Limbs",
+          "description": "Add 1 to the Attacks characteristic of melee weapons equipped by this model. If this model destroys one or more **^^Chaos^^** units with a melee attack during a battle, then at the end of that battle you gain 1 Infusion of Traitor's Blood."
+        },
+        {
+          "name": "Perfection of the Body",
+          "description": "This model has the Feel No Pain 6+ ability."
+        },
+        {
+          "name": "Silver Skin",
+          "description": "Add 1 to this model's Toughness characteristic."
+        }
+      ]
+    },
+    {
+      "id": "656c-8b78-8e59-0591",
+      "name": "Maulerfiend",
+      "points": 130,
+      "keywords": [
+        "Vehicle",
+        "Walker",
+        "Chaos",
+        "Daemon",
+        "Slaanesh"
+      ],
+      "factionKeywords": [
+        "Emperor's Children"
+      ],
+      "stats": {
+        "M": "10\"",
+        "T": "10",
+        "SV": "3+",
+        "W": "12",
+        "LD": "6+",
+        "OC": "3"
+      },
+      "rangedWeapons": [],
+      "meleeWeapons": [
+        {
+          "name": "Maulerfiend fists",
+          "range": "Melee",
+          "A": "6",
+          "WS": "3+",
+          "S": "14",
+          "AP": "-2",
+          "D": "D6+1",
+          "keywords": []
+        }
+      ],
+      "abilities": [
+        {
+          "name": "Glutton for Punishment",
+          "description": "Each time this model makes an attack, if it is below its Starting Strength, add 1 to the Hit roll. If this model is also Below Half-Strength, add 1 to the Wound roll as well."
+        },
+        {
+          "name": "Invulnerable Save",
+          "description": "This model has a 5+ invulnerable save."
+        },
+        {
+          "name": "Dark Majesty",
+          "description": "Improve this model's Leadership characteristic by 1 and its Objective Control characteristic by 2. At the end of the battle, if this model is within range of an objective marker you control that is wholly within your opponent's deployment zone, you gain 1 Rare ingredient."
+        },
+        {
+          "name": "Odious Grace",
+          "description": "You can re-roll Advance and Charge rolls made for this model's unit."
+        },
+        {
+          "name": "Fickle Speed",
+          "description": "Add 1 to Advance and Charge rolls made for this model's unit."
+        },
+        {
+          "name": "Whipcord Sinews",
+          "description": "Improve the Strength characteristic of melee weapons equipped by this model by 2."
+        },
+        {
+          "name": "Razor Claws",
+          "description": "Improve the Armour Penetration characteristic of melee weapons equipped by this model by 1. If this model destroys one or more units with a melee attack during a battle (excluding **^^Imperium^^** and **^^Chaos^^** units), then at the end of that battle you gain 1 Extract of Xeno-matter."
+        },
+        {
+          "name": "Psychotropic Aura",
+          "description": "Once per battle, at the start of the Fight phase, this model can use this ability. If it does, until the end of the phase, each time an attack targets this model's unit, subtract 1 from the Hit roll."
+        },
+        {
+          "name": "Betentacled Limbs",
+          "description": "Add 1 to the Attacks characteristic of melee weapons equipped by this model. If this model destroys one or more **^^Chaos^^** units with a melee attack during a battle, then at the end of that battle you gain 1 Infusion of Traitor's Blood."
+        },
+        {
+          "name": "Perfection of the Body",
+          "description": "This model has the Feel No Pain 6+ ability."
+        },
+        {
+          "name": "Silver Skin",
+          "description": "Add 1 to this model's Toughness characteristic."
+        }
+      ]
+    },
+    {
+      "id": "8ae1-aa47-e1d1-1b31",
+      "name": "Chaos Rhino",
+      "points": 80,
+      "keywords": [
+        "Vehicle",
+        "Transport",
+        "Dedicated Transport",
+        "Chaos",
+        "Rhino",
+        "Smoke",
+        "Slaanesh"
+      ],
+      "factionKeywords": [
+        "Emperor's Children"
+      ],
+      "stats": {
+        "M": "12\"",
+        "T": "9",
+        "SV": "3+",
+        "W": "10",
+        "LD": "6+",
+        "OC": "2"
+      },
+      "rangedWeapons": [
+        {
+          "name": "Havoc launcher",
+          "range": "48\"",
+          "A": "D6",
+          "BS": "3+",
+          "S": "5",
+          "AP": "0",
+          "D": "1",
+          "keywords": [
+            "Blast"
+          ]
+        }
+      ],
+      "meleeWeapons": [
+        {
+          "name": "Armoured tracks",
+          "range": "Melee",
+          "A": "3",
+          "WS": "4+",
+          "S": "6",
+          "AP": "0",
+          "D": "1",
+          "keywords": []
+        }
+      ],
+      "abilities": [
+        {
+          "name": "Assault Vehicle",
+          "description": "Units can disembark from this **^^Vehicle**^^ after it has Advanced. Units that do so count as having made a Normal move that phase, and cannot declare a charge in the same turn, but can otherwise act normally."
+        },
+        {
+          "name": "Dark Majesty",
+          "description": "Improve this model's Leadership characteristic by 1 and its Objective Control characteristic by 2. At the end of the battle, if this model is within range of an objective marker you control that is wholly within your opponent's deployment zone, you gain 1 Rare ingredient."
+        },
+        {
+          "name": "Odious Grace",
+          "description": "You can re-roll Advance and Charge rolls made for this model's unit."
+        },
+        {
+          "name": "Fickle Speed",
+          "description": "Add 1 to Advance and Charge rolls made for this model's unit."
+        },
+        {
+          "name": "Whipcord Sinews",
+          "description": "Improve the Strength characteristic of melee weapons equipped by this model by 2."
+        },
+        {
+          "name": "Razor Claws",
+          "description": "Improve the Armour Penetration characteristic of melee weapons equipped by this model by 1. If this model destroys one or more units with a melee attack during a battle (excluding **^^Imperium^^** and **^^Chaos^^** units), then at the end of that battle you gain 1 Extract of Xeno-matter."
+        },
+        {
+          "name": "Psychotropic Aura",
+          "description": "Once per battle, at the start of the Fight phase, this model can use this ability. If it does, until the end of the phase, each time an attack targets this model's unit, subtract 1 from the Hit roll."
+        },
+        {
+          "name": "Betentacled Limbs",
+          "description": "Add 1 to the Attacks characteristic of melee weapons equipped by this model. If this model destroys one or more **^^Chaos^^** units with a melee attack during a battle, then at the end of that battle you gain 1 Infusion of Traitor's Blood."
+        },
+        {
+          "name": "Perfection of the Body",
+          "description": "This model has the Feel No Pain 6+ ability."
+        },
+        {
+          "name": "Silver Skin",
+          "description": "Add 1 to this model's Toughness characteristic."
+        }
+      ],
+      "transportCapacity": "This model has a transport capacity of 12 **^^Emperor's Children Infantry^^**models (excluding ^^**Terminator**^^ and ^^**Flawless Blade**^^ models)."
+    },
+    {
+      "id": "20df-143c-fc59-77e0",
+      "name": "Shalaxi Helbane",
+      "points": 340,
+      "keywords": [
+        "Monster",
+        "Character",
+        "Epic Hero",
+        "Psyker",
+        "Chaos",
+        "Daemon",
+        "Slaanesh"
+      ],
+      "factionKeywords": [
+        "Legions of Excess"
+      ],
+      "stats": {
+        "M": "14\"",
+        "T": "10",
+        "SV": "3+",
+        "W": "20",
+        "LD": "6+",
+        "OC": "5"
+      },
+      "rangedWeapons": [
+        {
+          "name": "Lash of Slaanesh",
+          "range": "12\"",
+          "A": "6",
+          "BS": "2+",
+          "S": "6",
+          "AP": "-1",
+          "D": "2",
+          "keywords": [
+            "Assault"
+          ]
+        },
+        {
+          "name": "➤ Pavane of Slaanesh - witchfire",
+          "range": "18\"",
+          "A": "D6",
+          "BS": "2+",
+          "S": "9",
+          "AP": "-1",
+          "D": "D3",
+          "keywords": [
+            "Devastating Wounds",
+            "Psychic"
+          ]
+        },
+        {
+          "name": "➤ Pavane of Slaanesh - focused witchfire",
+          "range": "18\"",
+          "A": "D6",
+          "BS": "2+",
+          "S": "9",
+          "AP": "-2",
+          "D": "D3",
+          "keywords": [
+            "Hazardous",
+            "Devastating Wounds",
+            "Psychic",
+            "Sustained Hits 3"
+          ]
+        }
+      ],
+      "meleeWeapons": [
+        {
+          "name": "Snapping claws",
+          "range": "Melee",
+          "A": "4",
+          "WS": "2+",
+          "S": "6",
+          "AP": "-2",
+          "D": "3",
+          "keywords": [
+            "Devastating Wounds",
+            "Extra Attacks"
+          ]
+        },
+        {
+          "name": "Soulpiercer",
+          "range": "Melee",
+          "A": "6",
+          "WS": "2+",
+          "S": "12",
+          "AP": "-3",
+          "D": "D6+2",
+          "keywords": [
+            "Precision"
+          ]
+        }
+      ],
+      "abilities": [
+        {
+          "name": "Invulnerable Save",
+          "description": "This model has a 4+ invulnerable save."
+        },
+        {
+          "name": "No Prey Can Evade",
+          "description": "You can re-roll Advance and Charge rolls made for this model."
+        },
+        {
+          "name": "Monarch of the Hunt",
+          "description": "At the start of the first battle round, select one enemy unit to be this model's quarry. Each time this model makes a melee attack that targets its quarry, you can re-roll the Hit roll and you can re-roll the Wound roll. Each time this model's quarry is destroyed, select one new enemy unit to be this model's quarry."
+        }
+      ]
+    },
+    {
+      "id": "7b2b-4508-263d-f20f",
+      "name": "Keeper of Secrets",
+      "points": 240,
+      "keywords": [
+        "Monster",
+        "Character",
+        "Psyker",
+        "Chaos",
+        "Daemon",
+        "Slaanesh"
+      ],
+      "factionKeywords": [
+        "Legions of Excess"
+      ],
+      "stats": {
+        "M": "14\"",
+        "T": "10",
+        "SV": "5+",
+        "W": "18",
+        "LD": "6+",
+        "OC": "5"
+      },
+      "rangedWeapons": [
+        {
+          "name": "➤ Phantasmagoria - witchfire",
+          "range": "18\"",
+          "A": "6",
+          "BS": "2+",
+          "S": "6",
+          "AP": "-2",
+          "D": "1",
+          "keywords": [
+            "Devastating Wounds",
+            "Psychic"
+          ]
+        },
+        {
+          "name": "➤ Phantasmagoria - focused witchfire",
+          "range": "18\"",
+          "A": "9",
+          "BS": "2+",
+          "S": "6",
+          "AP": "-2",
+          "D": "1",
+          "keywords": [
+            "Devastating Wounds",
+            "Hazardous",
+            "Psychic"
+          ]
+        }
+      ],
+      "meleeWeapons": [
+        {
+          "name": "Snapping claws",
+          "range": "Melee",
+          "A": "4",
+          "WS": "2+",
+          "S": "6",
+          "AP": "-2",
+          "D": "3",
+          "keywords": [
+            "Devastating Wounds",
+            "Extra Attacks"
+          ]
+        },
+        {
+          "name": "Witstealer sword",
+          "range": "Melee",
+          "A": "6",
+          "WS": "2+",
+          "S": "8",
+          "AP": "-2",
+          "D": "3",
+          "keywords": []
+        }
+      ],
+      "abilities": [
+        {
+          "name": "Invulnerable Save",
+          "description": "This model has a 4+ invulnerable save."
+        },
+        {
+          "name": "Daemon Lord of Slaanesh (Aura)",
+          "description": "While a friendly ^^**Legions of Excess**^^ unit is within 6\" of this model, improve the Armour Penetration of melee weapons in that unit by 1."
+        },
+        {
+          "name": "Mesmerising Form",
+          "description": "Each time an attack targets this model, subtract 1 from the Hit roll."
+        },
+        {
+          "name": "Eager to Prove",
+          "description": "You can re-roll Charge rolls made for the bearer's unit. While the bearer's unit is your army's Favoured Champions, add 2\" to the Move characteristic of models in that unit."
+        },
+        {
+          "name": "Repulsed by Weakness",
+          "description": "Each time an enemy unit (excluding **^^Monster**^^ and ^^**Vehicle**^^ units) within Engagement Range of the bearer's unit Falls Back, models in that enemy unit must take Desperate Escape tests. When doing so, if the bearer's unit is your army's Favoured Champions, subtract 1 from each of those Desperate Escape tests."
+        },
+        {
+          "name": "Proud and Vainglorious",
+          "description": "You can re-roll Battle-shock and Leadership tests taken for the bearer's unit. While the bearer's unit is your army's Favoured Champions, add 1 to the Objective Control characteristics of models in that unit."
+        },
+        {
+          "name": "Slayer of Champions",
+          "description": "The bearer's melee weapons have the [^^Precision^^] ability, and each time the bearer makes a melee attack that targets a ^^**Character**^^ unit, improve the Strength and Armour Penetration characteristics of that attack by 1."
+        },
+        {
+          "name": "Faultless Opportunist",
+          "description": "You can target the bearer's unit with the Heroic Intervention Stratagem for 0CP; and can do so even if you have already targeted a different unit with that Stratagem this phase."
+        },
+        {
+          "name": "Blinding Speed",
+          "description": "Once per battle, at the start of the Fight phase, the bearer can use this Enhancement. If it does so, until the end of the phase, models in the bearer's unit have the Fights First ability."
+        },
+        {
+          "name": "Distortion",
+          "description": "Add 1 to the Attacks and Damage characteristics of melee weapons equipped by the bearer."
+        },
+        {
+          "name": "Rise to the Challenge",
+          "description": "Once per battle, at the end of the Fight phase, if the bearer is within Engagement Range of three or more enemy models, it can use this Enhancement. If it does, the bearer can fight one additional time. When doing so, you can select one ability using the Exquisite Swordsmanship Detachment rule to apply to those attacks."
+        },
+        {
+          "name": "Sublime Presence",
+          "description": "Once per turn, in your Movement phase, the bearer can use this Enhancement. If it does, select one friendly **^^Emperor's Children Transport**^^ that is in Strategic Reserves. Until the end of the phase, for the purposes of setting up that **^^Transport**^^ on the battlefield, treat the current battle round number as being one higher than it actually is."
+        },
+        {
+          "name": "Spearhead Striker",
+          "description": "Each time the bearer disembarks from a **^^Transport**^^, until the end of the turn, you can re-roll Charge rolls made for the bearer's unit and enemy units cannot use the Fire Overwatch Stratagem to shoot at the bearer's unit."
+        },
+        {
+          "name": "Accomplished Tactician",
+          "description": "Once per turn, in your opponent's Shooting phase, just after an enemy unit has shot, you can select one friendly **^^Emperor's Children**^^ unit within 9\" of the bearer that was hit by one or more of those attacks, then select one friendly **^^Transport**^^ that unit is wholly within 6\" of and is able to embark within. That **^^Emperor's Children**^^ unit can embark in that **^^Transport**^^."
+        },
+        {
+          "name": "Heretek Adept",
+          "description": "Once per battle round, when a saving throw is failed for a friendly **^^Emperor's Children Vehicle**^^ model within 6\" of the bearer, you can change the Damage characteristic of that attack to 0."
+        },
+        {
+          "name": "Pledge of Eternal Servitude",
+          "description": "The first time the bearer is destroyed, take a Leadership test for the bearer at the end of the phase. if that test is passed, set the bearer back up on the battlefield as close as possible to where it was destroyed and not within Engagement Range of any enemy units, with D6 wounds remaining (up to its Wounds characteristic)."
+        },
+        {
+          "name": "Pledge of Dark Glory",
+          "description": "While the bearer is leading a unit, improve the Leadership and Objective Control characteristics of models in that unit by 1."
+        },
+        {
+          "name": "Pledge of Mortal Pain",
+          "description": "At the start of your Shooting phase, select one enemy unit within 12\" of and visible to the bearer. That unit must take a Leadership test, subtracting 2 from the result if it is Battle-shocked: if failed, that enemy unit suffers 3 mortal wounds."
+        },
+        {
+          "name": "Pledge of Unholy Fortune",
+          "description": "Once per turn, after making a Hit roll, a Wound roll or a saving throw for a model in the bearer's unit, if the bearer is not Battle-shocked, it can use this Enhancement. If it does, treat the result as an unmodified roll of 6 instead."
+        },
+        {
+          "name": "Steeped in Suffering",
+          "description": "Each time a model in the bearer's unit makes an attack that targets an enemy unit below its Starting Strength, add 1 to the Hit roll. If that target is also Below Half-Strength, add 1 to the Wound roll as well."
+        },
+        {
+          "name": "Intoxicating Musk",
+          "description": "Each time a melee attack targets the bearer's unit, if the Strength characteristic of that attack is greater than the Toughness characteristic of that unit, subtract 1 from the Wound roll."
+        },
+        {
+          "name": "Tactical Perfection",
+          "description": "After both players have deployed their armies, select up to two **^^Emperor's Children**^^ units from your army and redeploy them. When doing so, you can set those units up in Strategic Reserves if you wish, regardless of how many units are already in Strategic Reserves."
+        },
+        {
+          "name": "Loathsome Dexterity",
+          "description": "Each time a model in the bearer's unit makes a Normal, Advance or Fall Back move, it can move through enemy models. When doing so, it can move within Engagement Range of such models, but cannot end that move within Engagement Range of them, and any Desperate Escape test is automatically passed."
+        },
+        {
+          "name": "Empyric Suffusion",
+          "description": "Once per battle round, you can target one friendly **^^Slaanesh**^^ unit within 6\" of the bearer with the Heroic Intervention Stratagem for 0CP."
+        },
+        {
+          "name": "Dark Blessings",
+          "description": "Once per battle, just after an enemy unit has selected its targets, the bearer can use this Enhancement. If it does, until the end of the phase, the bearer has a 3+ invulnerable save."
+        },
+        {
+          "name": "Possessed Blade",
+          "description": "At the start of the battle, select one melee weapon equipped by the bearer; add 1 to the Attacks characteristic of that weapon. In addition, each time the bearer is selected to fight, it can use this Enhancement. If it does, when resolving those attacks add 1 to the Damage characteristic of that weapon and that weapon has the [^^Devastating Wounds^^] and [^^Hazardous^^] abilities."
+        },
+        {
+          "name": "Warp Walker",
+          "description": "Each time the bearer's unit Advances, do not make an Advance roll. Instead, until the end of the phase, add 6\" to the Movement characteristic of models in that unit. Each time a model in the bearer's unit makes a Normal, Advance or Fall Back move, it can move through enemy models. When doing so, it can move within Engagement Range of such models, but cannot end that move within Engagement Range of them, and any Desperate Escape test is automatically passed."
+        },
+        {
+          "name": "Soulstain Made Manifest",
+          "description": "At the start of the Fight phase, you can select one enemy unit within Engagement Range of the bearer; that unit must take a Battle‑shock test, subtracting 1 from the result."
+        },
+        {
+          "name": "Exalted Patron",
+          "description": "Add 1\" to the Move characteristic of the bearer.\nIn the Declare Battle Formations step, the bearer can be attached to a ^^**Flawless Blades^^** unit."
+        },
+        {
+          "name": "Spiritsliver",
+          "description": "Add 1 to the Strength and Attacks characteristics of the bearer’s melee weapons."
+        },
+        {
+          "name": "Tears of the Phoenix",
+          "description": "Each time a model in the bearer’s unit makes a melee attack, you can ignore any or all modifiers to that attack’s Weapon Skill characteristic and any or all modifiers to the Hit roll and Wound roll."
+        }
+      ]
+    },
+    {
+      "id": "06f6-b870-4e43-4ed9",
+      "name": "Daemonettes",
+      "points": 90,
+      "keywords": [
+        "Infantry",
+        "Battleline",
+        "Chaos",
+        "Daemon",
+        "Slaanesh",
+        "Summoned"
+      ],
+      "factionKeywords": [
+        "Legions of Excess"
+      ],
+      "stats": {
+        "M": "9\"",
+        "T": "3",
+        "SV": "7+",
+        "W": "1",
+        "LD": "7+",
+        "OC": "1"
+      },
+      "rangedWeapons": [],
+      "meleeWeapons": [
+        {
+          "name": "Slashing claws",
+          "range": "Melee",
+          "A": "3",
+          "WS": "3+",
+          "S": "4",
+          "AP": "-1",
+          "D": "1",
+          "keywords": [
+            "Devastating Wounds"
+          ]
+        }
+      ],
+      "abilities": [
+        {
+          "name": "Horrifying Beauty",
+          "description": "At the start of the Fight phase, each enemy unit in Engagement Range of one or more units from your army with this ability must take a Battle-shock test, subtracting 1 from that test if that enemy unit is Below Half-strength."
+        },
+        {
+          "name": "Invulnerable Save",
+          "description": "Models in this unit have a 5+ invulnerable save."
+        },
+        {
+          "name": "Daemonic Icon",
+          "description": "Models in the bearer's unit have a Leadership characteristic of 6+."
+        },
+        {
+          "name": "Instrument of Chaos",
+          "description": "Add 1 to Charge rolls made for the bearer's unit."
+        }
+      ]
+    },
+    {
+      "id": "c2ca-f754-cc05-0743",
+      "name": "Fiends",
+      "points": 95,
+      "keywords": [
+        "Beast",
+        "Chaos",
+        "Daemon",
+        "Slaanesh",
+        "Summoned"
+      ],
+      "factionKeywords": [
+        "Legions of Excess"
+      ],
+      "stats": {
+        "M": "12\"",
+        "T": "5",
+        "SV": "7+",
+        "W": "4",
+        "LD": "7+",
+        "OC": "2"
+      },
+      "rangedWeapons": [],
+      "meleeWeapons": [
+        {
+          "name": "Barbed tail and dissecting claws",
+          "range": "Melee",
+          "A": "5",
+          "WS": "3+",
+          "S": "5",
+          "AP": "-2",
+          "D": "2",
+          "keywords": [
+            "Devastating Wounds"
+          ]
+        }
+      ],
+      "abilities": [
+        {
+          "name": "Invulnerable Save",
+          "description": "Models in this unit have a 5+ invulnerable save."
+        },
+        {
+          "name": "Soporific Musk",
+          "description": "Each time an enemy unit (excluding ^^**Monsters**^^ and **^^Vehicles**^^) within Engagement Range of one or more units from your army with this ability Falls Back, models in that unit must take Desperate Escape tests. When doing so, if that enemy unit is also Battle-shocked, subtract 1 from each of those Desperate Escape tests."
+        }
+      ]
+    },
+    {
+      "id": "c9df-2c38-25e5-ffc7",
+      "name": "Seekers",
+      "points": 80,
+      "keywords": [
+        "Mounted",
+        "Chaos",
+        "Daemon",
+        "Slaanesh",
+        "Summoned"
+      ],
+      "factionKeywords": [
+        "Legions of Excess"
+      ],
+      "stats": {
+        "M": "14\"",
+        "T": "4",
+        "SV": "7+",
+        "W": "2",
+        "LD": "7+",
+        "OC": "1"
+      },
+      "rangedWeapons": [],
+      "meleeWeapons": [
+        {
+          "name": "Lashing tongues",
+          "range": "Melee",
+          "A": "2",
+          "WS": "4+",
+          "S": "4",
+          "AP": "0",
+          "D": "1",
+          "keywords": [
+            "Extra Attacks",
+            "Lethal Hits"
+          ]
+        },
+        {
+          "name": "Slashing claws",
+          "range": "Melee",
+          "A": "3",
+          "WS": "3+",
+          "S": "4",
+          "AP": "-1",
+          "D": "1",
+          "keywords": [
+            "Devastating Wounds"
+          ]
+        }
+      ],
+      "abilities": [
+        {
+          "name": "Unholy Speed",
+          "description": "You can re-roll Advance and Charge rolls made for this unit."
+        },
+        {
+          "name": "Invulnerable Save",
+          "description": "Models in this unit have a 5+ invulnerable save."
+        },
+        {
+          "name": "Daemonic Icon",
+          "description": "Models in the bearer's unit have a Leadership characteristic of 6+."
+        },
+        {
+          "name": "Instrument of Chaos",
+          "description": "Add 1 to Charge rolls made for the bearer's unit."
+        }
+      ]
+    },
+    {
+      "id": "eeac-c9b8-3904-11a5",
+      "name": "Excruciator [Crucible]",
+      "points": 60,
+      "keywords": [
+        "Infantry",
+        "Character",
+        "Psyker",
+        "Grenades",
+        "Chaos",
+        "Slaanesh",
+        "Excruciator",
+        "Crucible"
+      ],
+      "factionKeywords": [
+        "Emperor's Children"
+      ],
+      "stats": {
+        "M": "7\"",
+        "T": "4",
+        "SV": "3+",
+        "W": "4",
+        "LD": "6+",
+        "OC": "1"
+      },
+      "rangedWeapons": [
+        {
+          "name": "Agonising Energies - witchfire",
+          "range": "18\"",
+          "A": "D6",
+          "BS": "3+",
+          "S": "5",
+          "AP": "-1",
+          "D": "D3",
+          "keywords": [
+            "Psychic"
+          ]
+        },
+        {
+          "name": "Agonising Energies - focused witchfire",
+          "range": "18\"",
+          "A": "D6",
+          "BS": "3+",
+          "S": "6",
+          "AP": "-2",
+          "D": "D3",
+          "keywords": [
+            "Devastating Wounds",
+            "Hazardous",
+            "Psychic"
+          ]
+        },
+        {
+          "name": "Boltgun",
+          "range": "24\"",
+          "A": "2",
+          "BS": "2+",
+          "S": "4",
+          "AP": "0",
+          "D": "1",
+          "keywords": [
+            "Precision"
+          ]
+        },
+        {
+          "name": "➤ Blastmaster - varied frequency",
+          "range": "18\"",
+          "A": "6",
+          "BS": "2+",
+          "S": "6",
+          "AP": "-2",
+          "D": "1",
+          "keywords": [
+            "Ignores Cover"
+          ]
+        },
+        {
+          "name": "➤ Blastmaster - single frequency",
+          "range": "18\"",
+          "A": "3",
+          "BS": "2+",
+          "S": "10",
+          "AP": "-2",
+          "D": "3",
+          "keywords": [
+            "Ignores Cover"
+          ]
+        },
+        {
+          "name": "Combi-bolter",
+          "range": "24\"",
+          "A": "2",
+          "BS": "2+",
+          "S": "4",
+          "AP": "0",
+          "D": "1",
+          "keywords": [
+            "Rapid Fire 2"
+          ]
+        },
+        {
+          "name": "Combi-weapon",
+          "range": "24\"",
+          "A": "1",
+          "BS": "2+",
+          "S": "4",
+          "AP": "0",
+          "D": "1",
+          "keywords": [
+            "Anti-Infantry 4+",
+            "Devastating Wounds",
+            "Rapid Fire 1"
+          ]
+        },
+        {
+          "name": "Heavy flamer",
+          "range": "12\"",
+          "A": "D6",
+          "BS": "N/A",
+          "S": "5",
+          "AP": "-1",
+          "D": "1",
+          "keywords": [
+            "Ignores Cover",
+            "Torrent"
+          ]
+        },
+        {
+          "name": "➤ Plasma gun - standard",
+          "range": "24\"",
+          "A": "1",
+          "BS": "2+",
+          "S": "7",
+          "AP": "-2",
+          "D": "1",
+          "keywords": [
+            "Precision",
+            "Rapid Fire 1"
+          ]
+        },
+        {
+          "name": "➤ Plasma gun - supercharge",
+          "range": "24\"",
+          "A": "1",
+          "BS": "2+",
+          "S": "8",
+          "AP": "-3",
+          "D": "2",
+          "keywords": [
+            "Hazardous",
+            "Precision",
+            "Rapid Fire 1"
+          ]
+        },
+        {
+          "name": "Reaper autocannon",
+          "range": "36\"",
+          "A": "4",
+          "BS": "2+",
+          "S": "7",
+          "AP": "-1",
+          "D": "1",
+          "keywords": [
+            "Devastating Wounds",
+            "Sustained Hits 1"
+          ]
+        },
+        {
+          "name": "Sonic blaster",
+          "range": "18\"",
+          "A": "3",
+          "BS": "2+",
+          "S": "5",
+          "AP": "-1",
+          "D": "2",
+          "keywords": [
+            "Ignores Cover"
+          ]
+        },
+        {
+          "name": "➤ Plasma pistol - standard",
+          "range": "12\"",
+          "A": "1",
+          "BS": "2+",
+          "S": "7",
+          "AP": "-2",
+          "D": "1",
+          "keywords": [
+            "Pistol"
+          ]
+        },
+        {
+          "name": "➤ Plasma pistol - supercharge",
+          "range": "12\"",
+          "A": "1",
+          "BS": "2+",
+          "S": "8",
+          "AP": "-3",
+          "D": "2",
+          "keywords": [
+            "Hazardous",
+            "Pistol"
+          ]
+        },
+        {
+          "name": "Bolt pistol",
+          "range": "12\"",
+          "A": "1",
+          "BS": "2+",
+          "S": "4",
+          "AP": "0",
+          "D": "1",
+          "keywords": [
+            "Pistol"
+          ]
+        },
+        {
+          "name": "Screamer pistol",
+          "range": "12\"",
+          "A": "3",
+          "BS": "2+",
+          "S": "5",
+          "AP": "-1",
+          "D": "2",
+          "keywords": [
+            "Ignores Cover",
+            "Pistol"
+          ]
+        }
+      ],
+      "meleeWeapons": [
+        {
+          "name": "Blissblade",
+          "range": "Melee",
+          "A": "4",
+          "WS": "2+",
+          "S": "6",
+          "AP": "-3",
+          "D": "2",
+          "keywords": []
+        },
+        {
+          "name": "Chainfist",
+          "range": "Melee",
+          "A": "5",
+          "WS": "3+",
+          "S": "8",
+          "AP": "-2",
+          "D": "2",
+          "keywords": [
+            "Anti-Vehicle 3+"
+          ]
+        },
+        {
+          "name": "Close combat weapon",
+          "range": "Melee",
+          "A": "6",
+          "WS": "2+",
+          "S": "4",
+          "AP": "0",
+          "D": "1",
+          "keywords": []
+        },
+        {
+          "name": "Dueling sabre",
+          "range": "Melee",
+          "A": "5",
+          "WS": "3+",
+          "S": "4",
+          "AP": "-1",
+          "D": "1",
+          "keywords": [
+            "Precision"
+          ]
+        },
+        {
+          "name": "Force weapon",
+          "range": "Melee",
+          "A": "4",
+          "WS": "3+",
+          "S": "6",
+          "AP": "-1",
+          "D": "D3",
+          "keywords": [
+            "Psychic"
+          ]
+        },
+        {
+          "name": "Master-crafted power sword",
+          "range": "Melee",
+          "A": "5",
+          "WS": "2+",
+          "S": "5",
+          "AP": "-2",
+          "D": "2",
+          "keywords": [
+            "Precision"
+          ]
+        },
+        {
+          "name": "Paired accursed weapons",
+          "range": "Melee",
+          "A": "6",
+          "WS": "2+",
+          "S": "5",
+          "AP": "-2",
+          "D": "1",
+          "keywords": [
+            "Twin-linked"
+          ]
+        },
+        {
+          "name": "Phoenix power spear",
+          "range": "Melee",
+          "A": "5",
+          "WS": "2+",
+          "S": "7",
+          "AP": "-2",
+          "D": "2",
+          "keywords": [
+            "Lance"
+          ]
+        },
+        {
+          "name": "Power fist",
+          "range": "Melee",
+          "A": "5",
+          "WS": "3+",
+          "S": "8",
+          "AP": "-2",
+          "D": "2",
+          "keywords": []
+        },
+        {
+          "name": "Power weapon",
+          "range": "Melee",
+          "A": "6",
+          "WS": "2+",
+          "S": "5",
+          "AP": "-2",
+          "D": "1",
+          "keywords": []
+        },
+        {
+          "name": "Rapture lash",
+          "range": "Melee",
+          "A": "4",
+          "WS": "2+",
+          "S": "4",
+          "AP": "-1",
+          "D": "1",
+          "keywords": [
+            "Extra Attacks"
+          ]
+        }
+      ],
+      "abilities": [
+        {
+          "name": "Leader",
+          "description": "This unit can be attached to the following units: ^^**Infractors, Noise Marines, Tormentors**^^"
+        },
+        {
+          "name": "Warped Invigoration (Psychic)",
+          "description": "In your Shooting phase, after this model has shot, if an enemy unit was hit by one or more of those attacks, until the end of the turn, add 1 to Charge rolls made for this unit."
+        },
+        {
+          "name": "Dark Majesty",
+          "description": "Improve this model's Leadership characteristic by 1 and its Objective Control characteristic by 2. At the end of the battle, if this model is within range of an objective marker you control that is wholly within your opponent's deployment zone, you gain 1 Rare ingredient."
+        },
+        {
+          "name": "Odious Grace",
+          "description": "You can re-roll Advance and Charge rolls made for this model's unit."
+        },
+        {
+          "name": "Fickle Speed",
+          "description": "Add 1 to Advance and Charge rolls made for this model's unit."
+        },
+        {
+          "name": "Whipcord Sinews",
+          "description": "Improve the Strength characteristic of melee weapons equipped by this model by 2."
+        },
+        {
+          "name": "Razor Claws",
+          "description": "Improve the Armour Penetration characteristic of melee weapons equipped by this model by 1. If this model destroys one or more units with a melee attack during a battle (excluding **^^Imperium^^** and **^^Chaos^^** units), then at the end of that battle you gain 1 Extract of Xeno-matter."
+        },
+        {
+          "name": "Psychotropic Aura",
+          "description": "Once per battle, at the start of the Fight phase, this model can use this ability. If it does, until the end of the phase, each time an attack targets this model's unit, subtract 1 from the Hit roll."
+        },
+        {
+          "name": "Betentacled Limbs",
+          "description": "Add 1 to the Attacks characteristic of melee weapons equipped by this model. If this model destroys one or more **^^Chaos^^** units with a melee attack during a battle, then at the end of that battle you gain 1 Infusion of Traitor's Blood."
+        },
+        {
+          "name": "Perfection of the Body",
+          "description": "This model has the Feel No Pain 6+ ability."
+        },
+        {
+          "name": "Silver Skin",
+          "description": "Add 1 to this model's Toughness characteristic."
+        },
+        {
+          "name": "Invulnerable Save (4+)",
+          "description": "This model has a 4+ invulnerable save."
+        },
+        {
+          "name": "Leader",
+          "description": "This model can be attached to the following unit: ^^**Emperor's Children Terminator Squad.**^^"
+        },
+        {
+          "name": "Doom Siren",
+          "description": "In your Shooting phase, after this model's unit has shot, select one enemy ^^**Infantry**^^ unit hit by one or more of those attacks and roll three D6: for each 4+, that enemy unit suffers 1 mortal wound. If an enemy unit suffers one or more mortal wounds as a result of this ability, it must take a Battle-shock test."
+        },
+        {
+          "name": "Feverish Butchery",
+          "description": "Each time a model in this unit makes a melee attack, add 1 to the Wound roll."
+        },
+        {
+          "name": "Obsessive Denunciation",
+          "description": "While this model is leading a unit, ranged weapons equipped by models in that unit have the [^^Sustained Hits 1^^] ability."
+        },
+        {
+          "name": "Perfectionists",
+          "description": "While this model is leading a unit, weapons equipped by models in that unit have the [^^Lethal Hits^^] ability."
+        },
+        {
+          "name": "Sickening Stimulation",
+          "description": "While this model is leading a unit, in your Command phase, you can return one destroyed model (excluding ^^**Character**^^ models) to that unit."
+        }
+      ]
+    },
+    {
+      "id": "cc4d-41d6-dfea-414f",
+      "name": "Champion of Excess [Crucible]",
+      "points": 80,
+      "keywords": [
+        "Infantry",
+        "Character",
+        "Grenades",
+        "Chaos",
+        "Slaanesh",
+        "Crucible",
+        "Champion of Excess"
+      ],
+      "factionKeywords": [
+        "Emperor's Children"
+      ],
+      "stats": {
+        "M": "7\"",
+        "T": "4",
+        "SV": "3+",
+        "W": "4",
+        "LD": "6+",
+        "OC": "1"
+      },
+      "rangedWeapons": [
+        {
+          "name": "Agonising Energies - witchfire",
+          "range": "18\"",
+          "A": "D6",
+          "BS": "3+",
+          "S": "5",
+          "AP": "-1",
+          "D": "D3",
+          "keywords": [
+            "Psychic"
+          ]
+        },
+        {
+          "name": "Agonising Energies - focused witchfire",
+          "range": "18\"",
+          "A": "D6",
+          "BS": "3+",
+          "S": "6",
+          "AP": "-2",
+          "D": "D3",
+          "keywords": [
+            "Devastating Wounds",
+            "Hazardous",
+            "Psychic"
+          ]
+        },
+        {
+          "name": "Boltgun",
+          "range": "24\"",
+          "A": "2",
+          "BS": "2+",
+          "S": "4",
+          "AP": "0",
+          "D": "1",
+          "keywords": [
+            "Precision"
+          ]
+        },
+        {
+          "name": "➤ Blastmaster - varied frequency",
+          "range": "18\"",
+          "A": "6",
+          "BS": "2+",
+          "S": "6",
+          "AP": "-2",
+          "D": "1",
+          "keywords": [
+            "Ignores Cover"
+          ]
+        },
+        {
+          "name": "➤ Blastmaster - single frequency",
+          "range": "18\"",
+          "A": "3",
+          "BS": "2+",
+          "S": "10",
+          "AP": "-2",
+          "D": "3",
+          "keywords": [
+            "Ignores Cover"
+          ]
+        },
+        {
+          "name": "Combi-bolter",
+          "range": "24\"",
+          "A": "2",
+          "BS": "2+",
+          "S": "4",
+          "AP": "0",
+          "D": "1",
+          "keywords": [
+            "Rapid Fire 2"
+          ]
+        },
+        {
+          "name": "Combi-weapon",
+          "range": "24\"",
+          "A": "1",
+          "BS": "2+",
+          "S": "4",
+          "AP": "0",
+          "D": "1",
+          "keywords": [
+            "Anti-Infantry 4+",
+            "Devastating Wounds",
+            "Rapid Fire 1"
+          ]
+        },
+        {
+          "name": "Heavy flamer",
+          "range": "12\"",
+          "A": "D6",
+          "BS": "N/A",
+          "S": "5",
+          "AP": "-1",
+          "D": "1",
+          "keywords": [
+            "Ignores Cover",
+            "Torrent"
+          ]
+        },
+        {
+          "name": "➤ Plasma gun - standard",
+          "range": "24\"",
+          "A": "1",
+          "BS": "2+",
+          "S": "7",
+          "AP": "-2",
+          "D": "1",
+          "keywords": [
+            "Precision",
+            "Rapid Fire 1"
+          ]
+        },
+        {
+          "name": "➤ Plasma gun - supercharge",
+          "range": "24\"",
+          "A": "1",
+          "BS": "2+",
+          "S": "8",
+          "AP": "-3",
+          "D": "2",
+          "keywords": [
+            "Hazardous",
+            "Precision",
+            "Rapid Fire 1"
+          ]
+        },
+        {
+          "name": "Reaper autocannon",
+          "range": "36\"",
+          "A": "4",
+          "BS": "2+",
+          "S": "7",
+          "AP": "-1",
+          "D": "1",
+          "keywords": [
+            "Devastating Wounds",
+            "Sustained Hits 1"
+          ]
+        },
+        {
+          "name": "Sonic blaster",
+          "range": "18\"",
+          "A": "3",
+          "BS": "2+",
+          "S": "5",
+          "AP": "-1",
+          "D": "2",
+          "keywords": [
+            "Ignores Cover"
+          ]
+        },
+        {
+          "name": "➤ Plasma pistol - standard",
+          "range": "12\"",
+          "A": "1",
+          "BS": "2+",
+          "S": "7",
+          "AP": "-2",
+          "D": "1",
+          "keywords": [
+            "Pistol"
+          ]
+        },
+        {
+          "name": "➤ Plasma pistol - supercharge",
+          "range": "12\"",
+          "A": "1",
+          "BS": "2+",
+          "S": "8",
+          "AP": "-3",
+          "D": "2",
+          "keywords": [
+            "Hazardous",
+            "Pistol"
+          ]
+        },
+        {
+          "name": "Bolt pistol",
+          "range": "12\"",
+          "A": "1",
+          "BS": "2+",
+          "S": "4",
+          "AP": "0",
+          "D": "1",
+          "keywords": [
+            "Pistol"
+          ]
+        },
+        {
+          "name": "Screamer pistol",
+          "range": "12\"",
+          "A": "3",
+          "BS": "2+",
+          "S": "5",
+          "AP": "-1",
+          "D": "2",
+          "keywords": [
+            "Ignores Cover",
+            "Pistol"
+          ]
+        }
+      ],
+      "meleeWeapons": [
+        {
+          "name": "Blissblade",
+          "range": "Melee",
+          "A": "4",
+          "WS": "2+",
+          "S": "6",
+          "AP": "-3",
+          "D": "2",
+          "keywords": []
+        },
+        {
+          "name": "Chainfist",
+          "range": "Melee",
+          "A": "5",
+          "WS": "3+",
+          "S": "8",
+          "AP": "-2",
+          "D": "2",
+          "keywords": [
+            "Anti-Vehicle 3+"
+          ]
+        },
+        {
+          "name": "Close combat weapon",
+          "range": "Melee",
+          "A": "6",
+          "WS": "2+",
+          "S": "4",
+          "AP": "0",
+          "D": "1",
+          "keywords": []
+        },
+        {
+          "name": "Dueling sabre",
+          "range": "Melee",
+          "A": "5",
+          "WS": "3+",
+          "S": "4",
+          "AP": "-1",
+          "D": "1",
+          "keywords": [
+            "Precision"
+          ]
+        },
+        {
+          "name": "Force weapon",
+          "range": "Melee",
+          "A": "4",
+          "WS": "3+",
+          "S": "6",
+          "AP": "-1",
+          "D": "D3",
+          "keywords": [
+            "Psychic"
+          ]
+        },
+        {
+          "name": "Master-crafted power sword",
+          "range": "Melee",
+          "A": "5",
+          "WS": "2+",
+          "S": "5",
+          "AP": "-2",
+          "D": "2",
+          "keywords": [
+            "Precision"
+          ]
+        },
+        {
+          "name": "Paired accursed weapons",
+          "range": "Melee",
+          "A": "6",
+          "WS": "2+",
+          "S": "5",
+          "AP": "-2",
+          "D": "1",
+          "keywords": [
+            "Twin-linked"
+          ]
+        },
+        {
+          "name": "Phoenix power spear",
+          "range": "Melee",
+          "A": "5",
+          "WS": "2+",
+          "S": "7",
+          "AP": "-2",
+          "D": "2",
+          "keywords": [
+            "Lance"
+          ]
+        },
+        {
+          "name": "Power fist",
+          "range": "Melee",
+          "A": "5",
+          "WS": "3+",
+          "S": "8",
+          "AP": "-2",
+          "D": "2",
+          "keywords": []
+        },
+        {
+          "name": "Power weapon",
+          "range": "Melee",
+          "A": "6",
+          "WS": "2+",
+          "S": "5",
+          "AP": "-2",
+          "D": "1",
+          "keywords": []
+        },
+        {
+          "name": "Rapture lash",
+          "range": "Melee",
+          "A": "4",
+          "WS": "2+",
+          "S": "4",
+          "AP": "-1",
+          "D": "1",
+          "keywords": [
+            "Extra Attacks"
+          ]
+        }
+      ],
+      "abilities": [
+        {
+          "name": "Leader",
+          "description": "This unit can be attached to the following units: ^^**Infractors, Noise Marines, Tormentors**^^"
+        },
+        {
+          "name": "Euphoric Strikes",
+          "description": "Once per battle, at the start of the Fight phase, this model can use this ability. If it does, until the end of the phase, add 3 to the Attacks characteristic of melee weapons equipped by this model and improve the Armour Penetration characteristic of those weapons by 1."
+        },
+        {
+          "name": "Invulnerable Save (4+)",
+          "description": "This model has a 4+ invulnerable save."
+        },
+        {
+          "name": "Dark Majesty",
+          "description": "Improve this model's Leadership characteristic by 1 and its Objective Control characteristic by 2. At the end of the battle, if this model is within range of an objective marker you control that is wholly within your opponent's deployment zone, you gain 1 Rare ingredient."
+        },
+        {
+          "name": "Odious Grace",
+          "description": "You can re-roll Advance and Charge rolls made for this model's unit."
+        },
+        {
+          "name": "Fickle Speed",
+          "description": "Add 1 to Advance and Charge rolls made for this model's unit."
+        },
+        {
+          "name": "Whipcord Sinews",
+          "description": "Improve the Strength characteristic of melee weapons equipped by this model by 2."
+        },
+        {
+          "name": "Razor Claws",
+          "description": "Improve the Armour Penetration characteristic of melee weapons equipped by this model by 1. If this model destroys one or more units with a melee attack during a battle (excluding **^^Imperium^^** and **^^Chaos^^** units), then at the end of that battle you gain 1 Extract of Xeno-matter."
+        },
+        {
+          "name": "Psychotropic Aura",
+          "description": "Once per battle, at the start of the Fight phase, this model can use this ability. If it does, until the end of the phase, each time an attack targets this model's unit, subtract 1 from the Hit roll."
+        },
+        {
+          "name": "Betentacled Limbs",
+          "description": "Add 1 to the Attacks characteristic of melee weapons equipped by this model. If this model destroys one or more **^^Chaos^^** units with a melee attack during a battle, then at the end of that battle you gain 1 Infusion of Traitor's Blood."
+        },
+        {
+          "name": "Perfection of the Body",
+          "description": "This model has the Feel No Pain 6+ ability."
+        },
+        {
+          "name": "Silver Skin",
+          "description": "Add 1 to this model's Toughness characteristic."
+        },
+        {
+          "name": "Invulnerable Save (4+)",
+          "description": "This model has a 4+ invulnerable save."
+        },
+        {
+          "name": "Leader",
+          "description": "This model can be attached to the following unit: ^^**Emperor's Children Terminator Squad.**^^"
+        },
+        {
+          "name": "Doom Siren",
+          "description": "In your Shooting phase, after this model's unit has shot, select one enemy ^^**Infantry**^^ unit hit by one or more of those attacks and roll three D6: for each 4+, that enemy unit suffers 1 mortal wound. If an enemy unit suffers one or more mortal wounds as a result of this ability, it must take a Battle-shock test."
+        },
+        {
+          "name": "Feverish Butchery",
+          "description": "Each time a model in this unit makes a melee attack, add 1 to the Wound roll."
+        },
+        {
+          "name": "Obsessive Denunciation",
+          "description": "While this model is leading a unit, ranged weapons equipped by models in that unit have the [^^Sustained Hits 1^^] ability."
+        },
+        {
+          "name": "Perfectionists",
+          "description": "While this model is leading a unit, weapons equipped by models in that unit have the [^^Lethal Hits^^] ability."
+        },
+        {
+          "name": "Sickening Stimulation",
+          "description": "While this model is leading a unit, in your Command phase, you can return one destroyed model (excluding ^^**Character**^^ models) to that unit."
+        }
+      ]
+    },
+    {
+      "id": "2334-eccf-6ea5-562e",
+      "name": "Flawless Champion [Crucible]",
+      "points": 100,
+      "keywords": [
+        "Infantry",
+        "Character",
+        "Grenades",
+        "Chaos",
+        "Slaanesh",
+        "Crucible",
+        "Flawless Champion"
+      ],
+      "factionKeywords": [
+        "Emperor's Children"
+      ],
+      "stats": {
+        "M": "8\"",
+        "T": "5",
+        "SV": "3+",
+        "W": "5",
+        "LD": "6+",
+        "OC": "1"
+      },
+      "rangedWeapons": [
+        {
+          "name": "Agonising Energies - witchfire",
+          "range": "18\"",
+          "A": "D6",
+          "BS": "3+",
+          "S": "5",
+          "AP": "-1",
+          "D": "D3",
+          "keywords": [
+            "Psychic"
+          ]
+        },
+        {
+          "name": "Agonising Energies - focused witchfire",
+          "range": "18\"",
+          "A": "D6",
+          "BS": "3+",
+          "S": "6",
+          "AP": "-2",
+          "D": "D3",
+          "keywords": [
+            "Devastating Wounds",
+            "Hazardous",
+            "Psychic"
+          ]
+        },
+        {
+          "name": "Boltgun",
+          "range": "24\"",
+          "A": "2",
+          "BS": "2+",
+          "S": "4",
+          "AP": "0",
+          "D": "1",
+          "keywords": [
+            "Precision"
+          ]
+        },
+        {
+          "name": "➤ Blastmaster - varied frequency",
+          "range": "18\"",
+          "A": "6",
+          "BS": "2+",
+          "S": "6",
+          "AP": "-2",
+          "D": "1",
+          "keywords": [
+            "Ignores Cover"
+          ]
+        },
+        {
+          "name": "➤ Blastmaster - single frequency",
+          "range": "18\"",
+          "A": "3",
+          "BS": "2+",
+          "S": "10",
+          "AP": "-2",
+          "D": "3",
+          "keywords": [
+            "Ignores Cover"
+          ]
+        },
+        {
+          "name": "Combi-bolter",
+          "range": "24\"",
+          "A": "2",
+          "BS": "2+",
+          "S": "4",
+          "AP": "0",
+          "D": "1",
+          "keywords": [
+            "Rapid Fire 2"
+          ]
+        },
+        {
+          "name": "Combi-weapon",
+          "range": "24\"",
+          "A": "1",
+          "BS": "2+",
+          "S": "4",
+          "AP": "0",
+          "D": "1",
+          "keywords": [
+            "Anti-Infantry 4+",
+            "Devastating Wounds",
+            "Rapid Fire 1"
+          ]
+        },
+        {
+          "name": "Heavy flamer",
+          "range": "12\"",
+          "A": "D6",
+          "BS": "N/A",
+          "S": "5",
+          "AP": "-1",
+          "D": "1",
+          "keywords": [
+            "Ignores Cover",
+            "Torrent"
+          ]
+        },
+        {
+          "name": "➤ Plasma gun - standard",
+          "range": "24\"",
+          "A": "1",
+          "BS": "2+",
+          "S": "7",
+          "AP": "-2",
+          "D": "1",
+          "keywords": [
+            "Precision",
+            "Rapid Fire 1"
+          ]
+        },
+        {
+          "name": "➤ Plasma gun - supercharge",
+          "range": "24\"",
+          "A": "1",
+          "BS": "2+",
+          "S": "8",
+          "AP": "-3",
+          "D": "2",
+          "keywords": [
+            "Hazardous",
+            "Precision",
+            "Rapid Fire 1"
+          ]
+        },
+        {
+          "name": "Reaper autocannon",
+          "range": "36\"",
+          "A": "4",
+          "BS": "2+",
+          "S": "7",
+          "AP": "-1",
+          "D": "1",
+          "keywords": [
+            "Devastating Wounds",
+            "Sustained Hits 1"
+          ]
+        },
+        {
+          "name": "Sonic blaster",
+          "range": "18\"",
+          "A": "3",
+          "BS": "2+",
+          "S": "5",
+          "AP": "-1",
+          "D": "2",
+          "keywords": [
+            "Ignores Cover"
+          ]
+        },
+        {
+          "name": "➤ Plasma pistol - standard",
+          "range": "12\"",
+          "A": "1",
+          "BS": "2+",
+          "S": "7",
+          "AP": "-2",
+          "D": "1",
+          "keywords": [
+            "Pistol"
+          ]
+        },
+        {
+          "name": "➤ Plasma pistol - supercharge",
+          "range": "12\"",
+          "A": "1",
+          "BS": "2+",
+          "S": "8",
+          "AP": "-3",
+          "D": "2",
+          "keywords": [
+            "Hazardous",
+            "Pistol"
+          ]
+        },
+        {
+          "name": "Bolt pistol",
+          "range": "12\"",
+          "A": "1",
+          "BS": "2+",
+          "S": "4",
+          "AP": "0",
+          "D": "1",
+          "keywords": [
+            "Pistol"
+          ]
+        },
+        {
+          "name": "Screamer pistol",
+          "range": "12\"",
+          "A": "3",
+          "BS": "2+",
+          "S": "5",
+          "AP": "-1",
+          "D": "2",
+          "keywords": [
+            "Ignores Cover",
+            "Pistol"
+          ]
+        }
+      ],
+      "meleeWeapons": [
+        {
+          "name": "Blissblade",
+          "range": "Melee",
+          "A": "4",
+          "WS": "2+",
+          "S": "6",
+          "AP": "-3",
+          "D": "2",
+          "keywords": []
+        },
+        {
+          "name": "Chainfist",
+          "range": "Melee",
+          "A": "5",
+          "WS": "3+",
+          "S": "8",
+          "AP": "-2",
+          "D": "2",
+          "keywords": [
+            "Anti-Vehicle 3+"
+          ]
+        },
+        {
+          "name": "Close combat weapon",
+          "range": "Melee",
+          "A": "6",
+          "WS": "2+",
+          "S": "4",
+          "AP": "0",
+          "D": "1",
+          "keywords": []
+        },
+        {
+          "name": "Dueling sabre",
+          "range": "Melee",
+          "A": "5",
+          "WS": "3+",
+          "S": "4",
+          "AP": "-1",
+          "D": "1",
+          "keywords": [
+            "Precision"
+          ]
+        },
+        {
+          "name": "Force weapon",
+          "range": "Melee",
+          "A": "4",
+          "WS": "3+",
+          "S": "6",
+          "AP": "-1",
+          "D": "D3",
+          "keywords": [
+            "Psychic"
+          ]
+        },
+        {
+          "name": "Master-crafted power sword",
+          "range": "Melee",
+          "A": "5",
+          "WS": "2+",
+          "S": "5",
+          "AP": "-2",
+          "D": "2",
+          "keywords": [
+            "Precision"
+          ]
+        },
+        {
+          "name": "Paired accursed weapons",
+          "range": "Melee",
+          "A": "6",
+          "WS": "2+",
+          "S": "5",
+          "AP": "-2",
+          "D": "1",
+          "keywords": [
+            "Twin-linked"
+          ]
+        },
+        {
+          "name": "Phoenix power spear",
+          "range": "Melee",
+          "A": "5",
+          "WS": "2+",
+          "S": "7",
+          "AP": "-2",
+          "D": "2",
+          "keywords": [
+            "Lance"
+          ]
+        },
+        {
+          "name": "Power fist",
+          "range": "Melee",
+          "A": "5",
+          "WS": "3+",
+          "S": "8",
+          "AP": "-2",
+          "D": "2",
+          "keywords": []
+        },
+        {
+          "name": "Power weapon",
+          "range": "Melee",
+          "A": "6",
+          "WS": "2+",
+          "S": "5",
+          "AP": "-2",
+          "D": "1",
+          "keywords": []
+        },
+        {
+          "name": "Rapture lash",
+          "range": "Melee",
+          "A": "4",
+          "WS": "2+",
+          "S": "4",
+          "AP": "-1",
+          "D": "1",
+          "keywords": [
+            "Extra Attacks"
+          ]
+        }
+      ],
+      "abilities": [
+        {
+          "name": "Leader",
+          "description": "This unit can be attached to the following units: ^^**Flawless Blades**^^"
+        },
+        {
+          "name": "Obsessive Huntsman",
+          "description": "Melee weapons equipped by this model have the [Precision] ability."
+        },
+        {
+          "name": "Invulnerable Save (5+)",
+          "description": "This model has a 5+ invulnerable save."
+        },
+        {
+          "name": "Dark Majesty",
+          "description": "Improve this model's Leadership characteristic by 1 and its Objective Control characteristic by 2. At the end of the battle, if this model is within range of an objective marker you control that is wholly within your opponent's deployment zone, you gain 1 Rare ingredient."
+        },
+        {
+          "name": "Odious Grace",
+          "description": "You can re-roll Advance and Charge rolls made for this model's unit."
+        },
+        {
+          "name": "Fickle Speed",
+          "description": "Add 1 to Advance and Charge rolls made for this model's unit."
+        },
+        {
+          "name": "Whipcord Sinews",
+          "description": "Improve the Strength characteristic of melee weapons equipped by this model by 2."
+        },
+        {
+          "name": "Razor Claws",
+          "description": "Improve the Armour Penetration characteristic of melee weapons equipped by this model by 1. If this model destroys one or more units with a melee attack during a battle (excluding **^^Imperium^^** and **^^Chaos^^** units), then at the end of that battle you gain 1 Extract of Xeno-matter."
+        },
+        {
+          "name": "Psychotropic Aura",
+          "description": "Once per battle, at the start of the Fight phase, this model can use this ability. If it does, until the end of the phase, each time an attack targets this model's unit, subtract 1 from the Hit roll."
+        },
+        {
+          "name": "Betentacled Limbs",
+          "description": "Add 1 to the Attacks characteristic of melee weapons equipped by this model. If this model destroys one or more **^^Chaos^^** units with a melee attack during a battle, then at the end of that battle you gain 1 Infusion of Traitor's Blood."
+        },
+        {
+          "name": "Perfection of the Body",
+          "description": "This model has the Feel No Pain 6+ ability."
+        },
+        {
+          "name": "Silver Skin",
+          "description": "Add 1 to this model's Toughness characteristic."
+        },
+        {
+          "name": "Invulnerable Save (4+)",
+          "description": "This model has a 4+ invulnerable save."
+        },
+        {
+          "name": "Leader",
+          "description": "This model can be attached to the following unit: ^^**Emperor's Children Terminator Squad.**^^"
+        },
+        {
+          "name": "Doom Siren",
+          "description": "In your Shooting phase, after this model's unit has shot, select one enemy ^^**Infantry**^^ unit hit by one or more of those attacks and roll three D6: for each 4+, that enemy unit suffers 1 mortal wound. If an enemy unit suffers one or more mortal wounds as a result of this ability, it must take a Battle-shock test."
+        },
+        {
+          "name": "Feverish Butchery",
+          "description": "Each time a model in this unit makes a melee attack, add 1 to the Wound roll."
+        },
+        {
+          "name": "Obsessive Denunciation",
+          "description": "While this model is leading a unit, ranged weapons equipped by models in that unit have the [^^Sustained Hits 1^^] ability."
+        },
+        {
+          "name": "Perfectionists",
+          "description": "While this model is leading a unit, weapons equipped by models in that unit have the [^^Lethal Hits^^] ability."
+        },
+        {
+          "name": "Sickening Stimulation",
+          "description": "While this model is leading a unit, in your Command phase, you can return one destroyed model (excluding ^^**Character**^^ models) to that unit."
+        }
+      ]
+    },
+    {
+      "id": "b541-3292-a5cc-dbeb",
+      "name": "Defiler",
+      "points": 250,
+      "keywords": [
+        "Vehicle",
+        "Walker",
+        "Chaos",
+        "Daemon",
+        "Slaanesh"
+      ],
+      "factionKeywords": [
+        "Emperor's Children"
+      ],
+      "stats": {
+        "M": "12\"",
+        "T": "11",
+        "SV": "3+",
+        "W": "18",
+        "LD": "6+",
+        "OC": "5"
+      },
+      "rangedWeapons": [],
+      "meleeWeapons": [
+        {
+          "name": "Shearing claws - strike",
+          "range": "Melee",
+          "A": "5",
+          "WS": "3+",
+          "S": "16",
+          "AP": "-3",
+          "D": "D6+1",
+          "keywords": [
+            "Precision"
+          ]
+        },
+        {
+          "name": "Shearing claws - sweep",
+          "range": "Melee",
+          "A": "10",
+          "WS": "3+",
+          "S": "6",
+          "AP": "-2",
+          "D": "1",
+          "keywords": []
+        }
+      ],
+      "abilities": [
+        {
+          "name": "Scuttling Walker",
+          "description": "Each time this unit makes a Normal, Advance or Fall Back move, it can move through models (excluding ^^**Titanic**^^ models) and terrain features. When doing so, it can move within Engagement Range of enemy models, but cannot end that move within Engagement Range of them, and any Desperate Escape test is automatically passed."
+        },
+        {
+          "name": "Revel in Desecration",
+          "description": "Each time this model makes an attack that targets an enemy unit that is not below Half-strength, add 1 to the Hit roll."
+        },
+        {
+          "name": "Dark Majesty",
+          "description": "Improve this model's Leadership characteristic by 1 and its Objective Control characteristic by 2. At the end of the battle, if this model is within range of an objective marker you control that is wholly within your opponent's deployment zone, you gain 1 Rare ingredient."
+        },
+        {
+          "name": "Odious Grace",
+          "description": "You can re-roll Advance and Charge rolls made for this model's unit."
+        },
+        {
+          "name": "Fickle Speed",
+          "description": "Add 1 to Advance and Charge rolls made for this model's unit."
+        },
+        {
+          "name": "Whipcord Sinews",
+          "description": "Improve the Strength characteristic of melee weapons equipped by this model by 2."
+        },
+        {
+          "name": "Razor Claws",
+          "description": "Improve the Armour Penetration characteristic of melee weapons equipped by this model by 1. If this model destroys one or more units with a melee attack during a battle (excluding **^^Imperium^^** and **^^Chaos^^** units), then at the end of that battle you gain 1 Extract of Xeno-matter."
+        },
+        {
+          "name": "Psychotropic Aura",
+          "description": "Once per battle, at the start of the Fight phase, this model can use this ability. If it does, until the end of the phase, each time an attack targets this model's unit, subtract 1 from the Hit roll."
+        },
+        {
+          "name": "Betentacled Limbs",
+          "description": "Add 1 to the Attacks characteristic of melee weapons equipped by this model. If this model destroys one or more **^^Chaos^^** units with a melee attack during a battle, then at the end of that battle you gain 1 Infusion of Traitor's Blood."
+        },
+        {
+          "name": "Perfection of the Body",
+          "description": "This model has the Feel No Pain 6+ ability."
+        },
+        {
+          "name": "Silver Skin",
+          "description": "Add 1 to this model's Toughness characteristic."
+        }
+      ]
+    }
+  ],
+  "enhancements": [
+    {
+      "name": "Eager to Prove",
+      "points": 15,
+      "description": "You can re-roll Charge rolls made for the bearer's unit. While the bearer's unit is your army's Favoured Champions, add 2\" to the Move characteristic of models in that unit.",
+      "detachment": "Slaanesh's Chosen"
+    },
+    {
+      "name": "Repulsed by Weakness",
+      "points": 25,
+      "description": "Each time an enemy unit (excluding **^^Monster**^^ and ^^**Vehicle**^^ units) within Engagement Range of the bearer's unit Falls Back, models in that enemy unit must take Desperate Escape tests. When doing so, if the bearer's unit is your army's Favoured Champions, subtract 1 from each of those Desperate Escape tests.",
+      "detachment": "Slaanesh's Chosen"
+    },
+    {
+      "name": "Proud and Vainglorious",
+      "points": 20,
+      "description": "You can re-roll Battle-shock and Leadership tests taken for the bearer's unit. While the bearer's unit is your army's Favoured Champions, add 1 to the Objective Control characteristics of models in that unit.",
+      "detachment": "Slaanesh's Chosen"
+    },
+    {
+      "name": "Slayer of Champions",
+      "points": 15,
+      "description": "The bearer's melee weapons have the [^^Precision^^] ability, and each time the bearer makes a melee attack that targets a ^^**Character**^^ unit, improve the Strength and Armour Penetration characteristics of that attack by 1.",
+      "detachment": "Slaanesh's Chosen"
+    },
+    {
+      "name": "Faultless Opportunist",
+      "points": 15,
+      "description": "You can target the bearer's unit with the Heroic Intervention Stratagem for 0CP; and can do so even if you have already targeted a different unit with that Stratagem this phase.",
+      "detachment": "Peerless Bladesmen"
+    },
+    {
+      "name": "Blinding Speed",
+      "points": 25,
+      "description": "Once per battle, at the start of the Fight phase, the bearer can use this Enhancement. If it does so, until the end of the phase, models in the bearer's unit have the Fights First ability.",
+      "detachment": "Peerless Bladesmen"
+    },
+    {
+      "name": "Distortion",
+      "points": 25,
+      "description": "Add 1 to the Attacks and Damage characteristics of melee weapons equipped by the bearer.",
+      "detachment": "Peerless Bladesmen"
+    },
+    {
+      "name": "Rise to the Challenge",
+      "points": 30,
+      "description": "Once per battle, at the end of the Fight phase, if the bearer is within Engagement Range of three or more enemy models, it can use this Enhancement. If it does, the bearer can fight one additional time. When doing so, you can select one ability using the Exquisite Swordsmanship Detachment rule to apply to those attacks.",
+      "detachment": "Peerless Bladesmen"
+    },
+    {
+      "name": "Sublime Presence",
+      "points": 25,
+      "description": "Once per turn, in your Movement phase, the bearer can use this Enhancement. If it does, select one friendly **^^Emperor's Children Transport**^^ that is in Strategic Reserves. Until the end of the phase, for the purposes of setting up that **^^Transport**^^ on the battlefield, treat the current battle round number as being one higher than it actually is.",
+      "detachment": "Rapid Evisceration"
+    },
+    {
+      "name": "Spearhead Striker",
+      "points": 20,
+      "description": "Each time the bearer disembarks from a **^^Transport**^^, until the end of the turn, you can re-roll Charge rolls made for the bearer's unit and enemy units cannot use the Fire Overwatch Stratagem to shoot at the bearer's unit.",
+      "detachment": "Rapid Evisceration"
+    },
+    {
+      "name": "Accomplished Tactician",
+      "points": 35,
+      "description": "Once per turn, in your opponent's Shooting phase, just after an enemy unit has shot, you can select one friendly **^^Emperor's Children**^^ unit within 9\" of the bearer that was hit by one or more of those attacks, then select one friendly **^^Transport**^^ that unit is wholly within 6\" of and is able to embark within. That **^^Emperor's Children**^^ unit can embark in that **^^Transport**^^.",
+      "detachment": "Rapid Evisceration"
+    },
+    {
+      "name": "Heretek Adept",
+      "points": 35,
+      "description": "Once per battle round, when a saving throw is failed for a friendly **^^Emperor's Children Vehicle**^^ model within 6\" of the bearer, you can change the Damage characteristic of that attack to 0.",
+      "detachment": "Rapid Evisceration"
+    },
+    {
+      "name": "Pledge of Eternal Servitude",
+      "points": 25,
+      "description": "The first time the bearer is destroyed, take a Leadership test for the bearer at the end of the phase. if that test is passed, set the bearer back up on the battlefield as close as possible to where it was destroyed and not within Engagement Range of any enemy units, with D6 wounds remaining (up to its Wounds characteristic).",
+      "detachment": "Coterie"
+    },
+    {
+      "name": "Pledge of Dark Glory",
+      "points": 25,
+      "description": "While the bearer is leading a unit, improve the Leadership and Objective Control characteristics of models in that unit by 1.",
+      "detachment": "Coterie"
+    },
+    {
+      "name": "Pledge of Mortal Pain",
+      "points": 15,
+      "description": "At the start of your Shooting phase, select one enemy unit within 12\" of and visible to the bearer. That unit must take a Leadership test, subtracting 2 from the result if it is Battle-shocked: if failed, that enemy unit suffers 3 mortal wounds.",
+      "detachment": "Coterie"
+    },
+    {
+      "name": "Pledge of Unholy Fortune",
+      "points": 30,
+      "description": "Once per turn, after making a Hit roll, a Wound roll or a saving throw for a model in the bearer's unit, if the bearer is not Battle-shocked, it can use this Enhancement. If it does, treat the result as an unmodified roll of 6 instead.",
+      "detachment": "Coterie"
+    },
+    {
+      "name": "Steeped in Suffering",
+      "points": 20,
+      "description": "Each time a model in the bearer's unit makes an attack that targets an enemy unit below its Starting Strength, add 1 to the Hit roll. If that target is also Below Half-Strength, add 1 to the Wound roll as well.",
+      "detachment": "Mercurial Host"
+    },
+    {
+      "name": "Intoxicating Musk",
+      "points": 20,
+      "description": "Each time a melee attack targets the bearer's unit, if the Strength characteristic of that attack is greater than the Toughness characteristic of that unit, subtract 1 from the Wound roll.",
+      "detachment": "Mercurial Host"
+    },
+    {
+      "name": "Tactical Perfection",
+      "points": 15,
+      "description": "After both players have deployed their armies, select up to two **^^Emperor's Children**^^ units from your army and redeploy them. When doing so, you can set those units up in Strategic Reserves if you wish, regardless of how many units are already in Strategic Reserves.",
+      "detachment": "Mercurial Host"
+    },
+    {
+      "name": "Loathsome Dexterity",
+      "points": 10,
+      "description": "Each time a model in the bearer's unit makes a Normal, Advance or Fall Back move, it can move through enemy models. When doing so, it can move within Engagement Range of such models, but cannot end that move within Engagement Range of them, and any Desperate Escape test is automatically passed.",
+      "detachment": "Mercurial Host"
+    },
+    {
+      "name": "Empyric Suffusion",
+      "points": 15,
+      "description": "Once per battle round, you can target one friendly **^^Slaanesh**^^ unit within 6\" of the bearer with the Heroic Intervention Stratagem for 0CP.",
+      "detachment": "Carnival of Excess"
+    },
+    {
+      "name": "Dark Blessings",
+      "points": 10,
+      "description": "Once per battle, just after an enemy unit has selected its targets, the bearer can use this Enhancement. If it does, until the end of the phase, the bearer has a 3+ invulnerable save.",
+      "detachment": "Carnival of Excess"
+    },
+    {
+      "name": "Possessed Blade",
+      "points": 25,
+      "description": "At the start of the battle, select one melee weapon equipped by the bearer; add 1 to the Attacks characteristic of that weapon. In addition, each time the bearer is selected to fight, it can use this Enhancement. If it does, when resolving those attacks add 1 to the Damage characteristic of that weapon and that weapon has the [^^Devastating Wounds^^] and [^^Hazardous^^] abilities.",
+      "detachment": "Carnival of Excess"
+    },
+    {
+      "name": "Warp Walker",
+      "points": 30,
+      "description": "Each time the bearer's unit Advances, do not make an Advance roll. Instead, until the end of the phase, add 6\" to the Movement characteristic of models in that unit. Each time a model in the bearer's unit makes a Normal, Advance or Fall Back move, it can move through enemy models. When doing so, it can move within Engagement Range of such models, but cannot end that move within Engagement Range of them, and any Desperate Escape test is automatically passed.",
+      "detachment": "Carnival of Excess"
+    },
+    {
+      "name": "Soulstain Made Manifest",
+      "points": 15,
+      "description": "At the start of the Fight phase, you can select one enemy unit within Engagement Range of the bearer; that unit must take a Battle‑shock test, subtracting 1 from the result.",
+      "detachment": "Court of the Phoenician"
+    },
+    {
+      "name": "Exalted Patron",
+      "points": 15,
+      "description": "Add 1\" to the Move characteristic of the bearer.\nIn the Declare Battle Formations step, the bearer can be attached to a ^^**Flawless Blades^^** unit.",
+      "detachment": "Court of the Phoenician"
+    },
+    {
+      "name": "Spiritsliver",
+      "points": 20,
+      "description": "Add 1 to the Strength and Attacks characteristics of the bearer’s melee weapons.",
+      "detachment": "Court of the Phoenician"
+    },
+    {
+      "name": "Tears of the Phoenix",
+      "points": 25,
+      "description": "Each time a model in the bearer’s unit makes a melee attack, you can ignore any or all modifiers to that attack’s Weapon Skill characteristic and any or all modifiers to the Hit roll and Wound roll.",
+      "detachment": "Court of the Phoenician"
+    }
+  ]
+}

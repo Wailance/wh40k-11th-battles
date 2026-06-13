@@ -8,6 +8,7 @@ export function MissionScoreButtons({
   onScore,
   color,
   formatTiming,
+  compact = false,
 }: {
   title: string
   options: MissionScoreOption[]
@@ -19,6 +20,62 @@ export function MissionScoreButtons({
   formatTiming?: (timing: string) => string
 }) {
   if (!options.length) return null
+
+  if (compact) {
+    return (
+      <div className="app-dash-box px-2 py-1.5">
+        <p className="app-dash-label mb-1" style={{ color }}>
+          {title}
+        </p>
+        <div>
+          {options.map((opt) => {
+            const count = getCount(opt.id)
+            const plus = canScore(opt.id, 1)
+            const minus = canScore(opt.id, -1)
+            const inactive = !plus.allowed && count === 0
+            const timing = formatTiming ? formatTiming(opt.timing) : opt.timing
+
+            return (
+              <div
+                key={opt.id}
+                className="app-score-row"
+                data-inactive={inactive}
+                title={inactive ? plus.reason : undefined}
+              >
+                <div className="min-w-0 flex-1">
+                  <p className="truncate text-[10px] leading-tight text-bone">{opt.label}</p>
+                  <p className="text-[9px] text-muted">
+                    +{opt.vp} · {timing}
+                  </p>
+                </div>
+                <button
+                  type="button"
+                  onClick={() => minus.allowed && onScore(opt.id, -1)}
+                  disabled={!minus.allowed}
+                  className="app-score-row-btn"
+                  aria-label={`Undo ${opt.label}`}
+                >
+                  −
+                </button>
+                <span className="w-4 shrink-0 text-center text-[11px] tabular-nums" style={{ color }}>
+                  {count}
+                </span>
+                <button
+                  type="button"
+                  onClick={() => plus.allowed && onScore(opt.id, 1)}
+                  disabled={!plus.allowed}
+                  className="app-score-row-btn app-score-row-btn-plus"
+                  aria-label={`Score ${opt.label}`}
+                >
+                  +
+                </button>
+              </div>
+            )
+          })}
+        </div>
+      </div>
+    )
+  }
 
   return (
     <div className="space-y-2">

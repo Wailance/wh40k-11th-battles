@@ -1,0 +1,3274 @@
+{
+  "id": "3bdf-a114-5035-c6ac",
+  "name": "Genestealer Cults",
+  "catalogueName": "Xenos - Genestealer Cults",
+  "units": [
+    {
+      "id": "f51d-bc51-f301-9dee",
+      "name": "Aberrants",
+      "points": 135,
+      "keywords": [
+        "Infantry",
+        "Great Devourer"
+      ],
+      "factionKeywords": [
+        "Genestealer Cults"
+      ],
+      "stats": {
+        "M": "6\"",
+        "T": "6",
+        "SV": "5+",
+        "W": "3",
+        "LD": "7+",
+        "OC": "1"
+      },
+      "rangedWeapons": [],
+      "meleeWeapons": [
+        {
+          "name": "Aberrant weapons",
+          "range": "Melee",
+          "A": "3",
+          "WS": "3+",
+          "S": "7",
+          "AP": "-2",
+          "D": "2",
+          "keywords": []
+        }
+      ],
+      "abilities": [
+        {
+          "name": "Feel No Pain 5+",
+          "description": "This unit has a 5+ Feel No Pain"
+        },
+        {
+          "name": "Hulking Bodyguards",
+          "description": "While a CHARACTER is leading this unit, each time an attack targets this unit, if the Strength characteristic of that attack is greater than the Toughness characteristic of this unit, subtract 1 from the Wound roll."
+        },
+        {
+          "name": "Deadly Crossfire",
+          "description": "In your Shooting phase, each time you select a **^^Crossfire^^** unit to shoot, you can select up to two other **^^Crossfire^^** units from your Crusade army that are eligible to shoot to perform a Deadly Crossfire, Then, you can select one enemy unit that would be an eligible target for one or more ranged weapons equipped by models in each of the selected **^^Crossfire^^** units. Until the end of the turn, that enemy unit is a Crossfire target.\n\nEach time one of those selected **^^Crossfire^^** units makes a ranged attack, models in that unit can only target their Crossfire target, and:\n- If two **^^Crossfire^^** units were selected to perform a Deadly Crossfire against the at enemy unit, add 1 to the Hit roll.\n- If three **^^Crossfire^^** units were selected to perform a Deadly Crossfire against that enemy unit, add 1 to the Hit roll and add 1 to the Wound roll."
+        },
+        {
+          "name": "Shrewd Strategy",
+          "description": "You gain 6 Planning points, which you can spend to purchase Shrewd Strategy abilities to use during that battle."
+        },
+        {
+          "name": "Beloved of the Cult",
+          "description": "Each time a unit that is beloved of the cult gains 1 or more XP in a Crusade battle and survives that battle, after that battle, roll one D6 for each other unit from your Crusade army that survived that battle: on a 6, the unit you rolled for gains 1XP."
+        }
+      ]
+    },
+    {
+      "id": "97b1-4873-9fcb-5cb8",
+      "name": "Abominant",
+      "points": 85,
+      "keywords": [
+        "Infantry",
+        "Character",
+        "Great Devourer"
+      ],
+      "factionKeywords": [
+        "Genestealer Cults"
+      ],
+      "stats": {
+        "M": "6\"",
+        "T": "6",
+        "SV": "5+",
+        "W": "5",
+        "LD": "7+",
+        "OC": "1"
+      },
+      "rangedWeapons": [],
+      "meleeWeapons": [
+        {
+          "name": "Power sledgehammer",
+          "range": "Melee",
+          "A": "4",
+          "WS": "3+",
+          "S": "12",
+          "AP": "-2",
+          "D": "D6+1",
+          "keywords": []
+        }
+      ],
+      "abilities": [
+        {
+          "name": "Feel No Pain 5+",
+          "description": "This model has a 5+ Feel No Pain"
+        },
+        {
+          "name": "The Chosen One",
+          "description": "While this model is leading a unit, each time a model in that unit is destroyed by a melee attack, if that model has not fought this phase, roll one D6. On a 4+ do not remove the destroyed model from play, it can fight after the attacking model's unit has finished making it's attacks and is then removed from play."
+        },
+        {
+          "name": "Regenerating Gene-mass",
+          "description": "The first time this model is destroyed, roll one D6 at the end of the phase. On a 2+, set this model back up on the battlefield as close as possible to where it was destroyed and not within Engagement Range of any enemy units, with its full wounds remaining."
+        },
+        {
+          "name": "Deadly Crossfire",
+          "description": "In your Shooting phase, each time you select a **^^Crossfire^^** unit to shoot, you can select up to two other **^^Crossfire^^** units from your Crusade army that are eligible to shoot to perform a Deadly Crossfire, Then, you can select one enemy unit that would be an eligible target for one or more ranged weapons equipped by models in each of the selected **^^Crossfire^^** units. Until the end of the turn, that enemy unit is a Crossfire target.\n\nEach time one of those selected **^^Crossfire^^** units makes a ranged attack, models in that unit can only target their Crossfire target, and:\n- If two **^^Crossfire^^** units were selected to perform a Deadly Crossfire against the at enemy unit, add 1 to the Hit roll.\n- If three **^^Crossfire^^** units were selected to perform a Deadly Crossfire against that enemy unit, add 1 to the Hit roll and add 1 to the Wound roll."
+        },
+        {
+          "name": "Shrewd Strategy",
+          "description": "You gain 6 Planning points, which you can spend to purchase Shrewd Strategy abilities to use during that battle."
+        },
+        {
+          "name": "Beloved of the Cult",
+          "description": "Each time a unit that is beloved of the cult gains 1 or more XP in a Crusade battle and survives that battle, after that battle, roll one D6 for each other unit from your Crusade army that survived that battle: on a 6, the unit you rolled for gains 1XP."
+        }
+      ]
+    },
+    {
+      "id": "cf71-a12a-2730-c40b",
+      "name": "Achilles Ridgerunners",
+      "points": 95,
+      "keywords": [
+        "Vehicle",
+        "Great Devourer"
+      ],
+      "factionKeywords": [
+        "Genestealer Cults"
+      ],
+      "stats": {
+        "M": "12\"",
+        "T": "7",
+        "SV": "3+",
+        "W": "8",
+        "LD": "7+",
+        "OC": "3"
+      },
+      "rangedWeapons": [
+        {
+          "name": "Twin heavy stubber",
+          "range": "36\"",
+          "A": "3",
+          "BS": "4+",
+          "S": "4",
+          "AP": "0",
+          "D": "1",
+          "keywords": [
+            "Twin-linked",
+            "Rapid Fire 3"
+          ]
+        }
+      ],
+      "meleeWeapons": [
+        {
+          "name": "Armoured hull",
+          "range": "Melee",
+          "A": "3",
+          "WS": "4+",
+          "S": "5",
+          "AP": "0",
+          "D": "1",
+          "keywords": []
+        }
+      ],
+      "abilities": [
+        {
+          "name": "Crossfire",
+          "description": "in your Shooting phase, after this unit has shot, select one enemy unit hit by one or more of those attacks. Until the end of the turn, each time a friendly **^^Genestealer Cults^^** unit makes an attack that targets that enemy unit, improve the Armour Penetration characteristic of that attack by 1. The same enemy unit can only be affected by this ability once per turn."
+        },
+        {
+          "name": "Deadly Crossfire",
+          "description": "In your Shooting phase, each time you select a **^^Crossfire^^** unit to shoot, you can select up to two other **^^Crossfire^^** units from your Crusade army that are eligible to shoot to perform a Deadly Crossfire, Then, you can select one enemy unit that would be an eligible target for one or more ranged weapons equipped by models in each of the selected **^^Crossfire^^** units. Until the end of the turn, that enemy unit is a Crossfire target.\n\nEach time one of those selected **^^Crossfire^^** units makes a ranged attack, models in that unit can only target their Crossfire target, and:\n- If two **^^Crossfire^^** units were selected to perform a Deadly Crossfire against the at enemy unit, add 1 to the Hit roll.\n- If three **^^Crossfire^^** units were selected to perform a Deadly Crossfire against that enemy unit, add 1 to the Hit roll and add 1 to the Wound roll."
+        },
+        {
+          "name": "Shrewd Strategy",
+          "description": "You gain 6 Planning points, which you can spend to purchase Shrewd Strategy abilities to use during that battle."
+        },
+        {
+          "name": "Beloved of the Cult",
+          "description": "Each time a unit that is beloved of the cult gains 1 or more XP in a Crusade battle and survives that battle, after that battle, roll one D6 for each other unit from your Crusade army that survived that battle: on a 6, the unit you rolled for gains 1XP."
+        }
+      ]
+    },
+    {
+      "id": "e367-b2cb-d22a-b17c",
+      "name": "Acolyte Iconward",
+      "points": 50,
+      "keywords": [
+        "Infantry",
+        "Character",
+        "Grenades",
+        "Great Devourer"
+      ],
+      "factionKeywords": [
+        "Genestealer Cults"
+      ],
+      "stats": {
+        "M": "6\"",
+        "T": "4",
+        "SV": "5+",
+        "W": "3",
+        "LD": "6+",
+        "OC": "1"
+      },
+      "rangedWeapons": [
+        {
+          "name": "Autopistol",
+          "range": "12\"",
+          "A": "1",
+          "BS": "3+",
+          "S": "3",
+          "AP": "0",
+          "D": "1",
+          "keywords": [
+            "Pistol"
+          ]
+        }
+      ],
+      "meleeWeapons": [
+        {
+          "name": "Cult claws",
+          "range": "Melee",
+          "A": "4",
+          "WS": "3+",
+          "S": "4",
+          "AP": "-1",
+          "D": "1",
+          "keywords": []
+        }
+      ],
+      "abilities": [
+        {
+          "name": "Nexus of Devotion",
+          "description": "While this model is leading a unit, models in that unit have the Feel No Pain 5+ ability. If that unit has the HYBRID METAMORPHS keyword, models in that unit have the Feel No Pain 4+ ability instead."
+        },
+        {
+          "name": "Summon the Cult",
+          "description": "Once per battle, when you have to remove a Cult Ambush marker because your opponent has moved too close to it, if one or more models from your army with this ability are on the battlefield, you can use this ability. If you do, instead of removing that marker, you can place it anywhere on the battlefield that is within 12\" of a model from your army with this ability and more than 9\" horizontally away from all enemy units (if this is not possible, this ability is not considered to have been used and that marker is removed as normal)."
+        },
+        {
+          "name": "Leader",
+          "description": "This model can be attached to the following units:\n- **^^Acolyte Hybrids^^**\n- **^^Hybrid Metamorphs^^**\n- **^^Neophyte Hybrids^^**"
+        },
+        {
+          "name": "Deadly Crossfire",
+          "description": "In your Shooting phase, each time you select a **^^Crossfire^^** unit to shoot, you can select up to two other **^^Crossfire^^** units from your Crusade army that are eligible to shoot to perform a Deadly Crossfire, Then, you can select one enemy unit that would be an eligible target for one or more ranged weapons equipped by models in each of the selected **^^Crossfire^^** units. Until the end of the turn, that enemy unit is a Crossfire target.\n\nEach time one of those selected **^^Crossfire^^** units makes a ranged attack, models in that unit can only target their Crossfire target, and:\n- If two **^^Crossfire^^** units were selected to perform a Deadly Crossfire against the at enemy unit, add 1 to the Hit roll.\n- If three **^^Crossfire^^** units were selected to perform a Deadly Crossfire against that enemy unit, add 1 to the Hit roll and add 1 to the Wound roll."
+        },
+        {
+          "name": "Shrewd Strategy",
+          "description": "You gain 6 Planning points, which you can spend to purchase Shrewd Strategy abilities to use during that battle."
+        },
+        {
+          "name": "Beloved of the Cult",
+          "description": "Each time a unit that is beloved of the cult gains 1 or more XP in a Crusade battle and survives that battle, after that battle, roll one D6 for each other unit from your Crusade army that survived that battle: on a 6, the unit you rolled for gains 1XP."
+        }
+      ]
+    },
+    {
+      "id": "3a81-2b84-bf4c-4f85",
+      "name": "Atalan Jackals",
+      "points": 85,
+      "keywords": [
+        "Mounted",
+        "Grenades",
+        "Great Devourer"
+      ],
+      "factionKeywords": [
+        "Genestealer Cults"
+      ],
+      "stats": {
+        "M": "12\"",
+        "T": "4",
+        "SV": "5+",
+        "W": "2",
+        "LD": "7+",
+        "OC": "1"
+      },
+      "rangedWeapons": [
+        {
+          "name": "➤ Grenade launcher - frag",
+          "range": "24\"",
+          "A": "D3",
+          "BS": "4+",
+          "S": "4",
+          "AP": "0",
+          "D": "1",
+          "keywords": [
+            "Blast"
+          ]
+        },
+        {
+          "name": "➤ Grenade launcher - krak",
+          "range": "24\"",
+          "A": "1",
+          "BS": "4+",
+          "S": "9",
+          "AP": "-2",
+          "D": "D3",
+          "keywords": []
+        },
+        {
+          "name": "Atalan small arms",
+          "range": "12\"",
+          "A": "2",
+          "BS": "4+",
+          "S": "4",
+          "AP": "0",
+          "D": "1",
+          "keywords": [
+            "Pistol"
+          ]
+        },
+        {
+          "name": "Mining laser",
+          "range": "24\"",
+          "A": "1",
+          "BS": "4+",
+          "S": "12",
+          "AP": "-3",
+          "D": "D6+1",
+          "keywords": []
+        },
+        {
+          "name": "Atalan incinerator",
+          "range": "12\"",
+          "A": "D6",
+          "BS": "N/A",
+          "S": "5",
+          "AP": "-1",
+          "D": "1",
+          "keywords": [
+            "Ignores Cover",
+            "Torrent"
+          ]
+        },
+        {
+          "name": "Heavy stubber",
+          "range": "36\"",
+          "A": "3",
+          "BS": "4+",
+          "S": "4",
+          "AP": "0",
+          "D": "1",
+          "keywords": [
+            "Assault",
+            "Rapid Fire 3"
+          ]
+        }
+      ],
+      "meleeWeapons": [
+        {
+          "name": "Close combat weapon",
+          "range": "Melee",
+          "A": "2",
+          "WS": "4+",
+          "S": "3",
+          "AP": "0",
+          "D": "1",
+          "keywords": []
+        },
+        {
+          "name": "Atalan power weapon",
+          "range": "Melee",
+          "A": "2",
+          "WS": "4+",
+          "S": "4",
+          "AP": "-2",
+          "D": "1",
+          "keywords": []
+        }
+      ],
+      "abilities": [
+        {
+          "name": "Outrider Gangs",
+          "description": "Each time you use the Cult Ambush ability to set this unit back up on the battlefield, in addition to the normal rules, all of its models must be set up wholly within 9\" of a battlefield edge and at least one of its models must be touching one of your Cult Ambush markers (that marker is then removed from the battlefield). If this cannot be done, this unit cannot be set back up."
+        },
+        {
+          "name": "Demolition Run",
+          "description": "Once per battle round, in your Movement phase, when this unit ends a Normal, Advance, or Fall Back move, you can select one enemy unit within 6\" of and visible to this unit and roll one D6 for each ATALAN JACKALS model in this unit: for each 4+, that enemy unit suffers 1 mortal wound (to a maximum of 6 mortal wounds.)"
+        },
+        {
+          "name": "Deadly Crossfire",
+          "description": "In your Shooting phase, each time you select a **^^Crossfire^^** unit to shoot, you can select up to two other **^^Crossfire^^** units from your Crusade army that are eligible to shoot to perform a Deadly Crossfire, Then, you can select one enemy unit that would be an eligible target for one or more ranged weapons equipped by models in each of the selected **^^Crossfire^^** units. Until the end of the turn, that enemy unit is a Crossfire target.\n\nEach time one of those selected **^^Crossfire^^** units makes a ranged attack, models in that unit can only target their Crossfire target, and:\n- If two **^^Crossfire^^** units were selected to perform a Deadly Crossfire against the at enemy unit, add 1 to the Hit roll.\n- If three **^^Crossfire^^** units were selected to perform a Deadly Crossfire against that enemy unit, add 1 to the Hit roll and add 1 to the Wound roll."
+        },
+        {
+          "name": "Shrewd Strategy",
+          "description": "You gain 6 Planning points, which you can spend to purchase Shrewd Strategy abilities to use during that battle."
+        },
+        {
+          "name": "Beloved of the Cult",
+          "description": "Each time a unit that is beloved of the cult gains 1 or more XP in a Crusade battle and survives that battle, after that battle, roll one D6 for each other unit from your Crusade army that survived that battle: on a 6, the unit you rolled for gains 1XP."
+        }
+      ]
+    },
+    {
+      "id": "725f-8a41-dc78-52f5",
+      "name": "Biophagus",
+      "points": 50,
+      "keywords": [
+        "Infantry",
+        "Character",
+        "Great Devourer"
+      ],
+      "factionKeywords": [
+        "Genestealer Cults"
+      ],
+      "stats": {
+        "M": "6\"",
+        "T": "3",
+        "SV": "5+",
+        "W": "3",
+        "LD": "7+",
+        "OC": "1"
+      },
+      "rangedWeapons": [
+        {
+          "name": "Autopistol",
+          "range": "12\"",
+          "A": "1",
+          "BS": "3+",
+          "S": "3",
+          "AP": "0",
+          "D": "1",
+          "keywords": [
+            "Pistol"
+          ]
+        },
+        {
+          "name": "Chemical vials",
+          "range": "6\"",
+          "A": "1",
+          "BS": "3+",
+          "S": "1",
+          "AP": "-1",
+          "D": "2",
+          "keywords": [
+            "Anti-Infantry 2+"
+          ]
+        }
+      ],
+      "meleeWeapons": [
+        {
+          "name": "Injector goad",
+          "range": "Melee",
+          "A": "1",
+          "WS": "3+",
+          "S": "2",
+          "AP": "0",
+          "D": "D3",
+          "keywords": [
+            "Anti-infantry 2+"
+          ]
+        }
+      ],
+      "abilities": [
+        {
+          "name": "Twisted Science",
+          "description": "While this model is leading a unit, melee weapons equipped by models in that unit have the [LETHAL HITS] ability."
+        },
+        {
+          "name": "Biological Warfare",
+          "description": "Once per battle, when this model’s unit is selected to fight, this model can use this ability. If it does, until the end of the phase, improve the Attacks and Damage characteristics of its injector goad by 3."
+        },
+        {
+          "name": "Alchemicus Familiar",
+          "description": "Once per battle, when the bearer’s unit is selected to fight, the bearer can use its alchemicus familiar. If it does, until the end of the phase, each time a model in the bearer's unit makes an attack that targets an INFANTRY unit, add 1 to the Wound roll"
+        },
+        {
+          "name": "Deadly Crossfire",
+          "description": "In your Shooting phase, each time you select a **^^Crossfire^^** unit to shoot, you can select up to two other **^^Crossfire^^** units from your Crusade army that are eligible to shoot to perform a Deadly Crossfire, Then, you can select one enemy unit that would be an eligible target for one or more ranged weapons equipped by models in each of the selected **^^Crossfire^^** units. Until the end of the turn, that enemy unit is a Crossfire target.\n\nEach time one of those selected **^^Crossfire^^** units makes a ranged attack, models in that unit can only target their Crossfire target, and:\n- If two **^^Crossfire^^** units were selected to perform a Deadly Crossfire against the at enemy unit, add 1 to the Hit roll.\n- If three **^^Crossfire^^** units were selected to perform a Deadly Crossfire against that enemy unit, add 1 to the Hit roll and add 1 to the Wound roll."
+        },
+        {
+          "name": "Shrewd Strategy",
+          "description": "You gain 6 Planning points, which you can spend to purchase Shrewd Strategy abilities to use during that battle."
+        },
+        {
+          "name": "Beloved of the Cult",
+          "description": "Each time a unit that is beloved of the cult gains 1 or more XP in a Crusade battle and survives that battle, after that battle, roll one D6 for each other unit from your Crusade army that survived that battle: on a 6, the unit you rolled for gains 1XP."
+        }
+      ]
+    },
+    {
+      "id": "5543-973a-cd2e-c941",
+      "name": "Clamavus",
+      "points": 50,
+      "keywords": [
+        "Infantry",
+        "Character",
+        "Great Devourer"
+      ],
+      "factionKeywords": [
+        "Genestealer Cults"
+      ],
+      "stats": {
+        "M": "6\"",
+        "T": "3",
+        "SV": "5+",
+        "W": "3",
+        "LD": "6+",
+        "OC": "1"
+      },
+      "rangedWeapons": [
+        {
+          "name": "Autopistol",
+          "range": "12\"",
+          "A": "1",
+          "BS": "3+",
+          "S": "3",
+          "AP": "0",
+          "D": "1",
+          "keywords": [
+            "Pistol"
+          ]
+        }
+      ],
+      "meleeWeapons": [
+        {
+          "name": "Close combat weapon",
+          "range": "Melee",
+          "A": "2",
+          "WS": "3+",
+          "S": "3",
+          "AP": "0",
+          "D": "1",
+          "keywords": []
+        }
+      ],
+      "abilities": [
+        {
+          "name": "Voice of New Truths",
+          "description": "In your Command phase, one model from your army with this ability can use it, if it does, select one enemy unit with 18\" of it, that enemy unit must take a Battle-shock test."
+        },
+        {
+          "name": "Scrambler Array",
+          "description": "Enemy units that are set up on the battlefield as Reinforcements cannot be set up within 12\" of this model."
+        },
+        {
+          "name": "Deadly Crossfire",
+          "description": "In your Shooting phase, each time you select a **^^Crossfire^^** unit to shoot, you can select up to two other **^^Crossfire^^** units from your Crusade army that are eligible to shoot to perform a Deadly Crossfire, Then, you can select one enemy unit that would be an eligible target for one or more ranged weapons equipped by models in each of the selected **^^Crossfire^^** units. Until the end of the turn, that enemy unit is a Crossfire target.\n\nEach time one of those selected **^^Crossfire^^** units makes a ranged attack, models in that unit can only target their Crossfire target, and:\n- If two **^^Crossfire^^** units were selected to perform a Deadly Crossfire against the at enemy unit, add 1 to the Hit roll.\n- If three **^^Crossfire^^** units were selected to perform a Deadly Crossfire against that enemy unit, add 1 to the Hit roll and add 1 to the Wound roll."
+        },
+        {
+          "name": "Shrewd Strategy",
+          "description": "You gain 6 Planning points, which you can spend to purchase Shrewd Strategy abilities to use during that battle."
+        },
+        {
+          "name": "Beloved of the Cult",
+          "description": "Each time a unit that is beloved of the cult gains 1 or more XP in a Crusade battle and survives that battle, after that battle, roll one D6 for each other unit from your Crusade army that survived that battle: on a 6, the unit you rolled for gains 1XP."
+        }
+      ]
+    },
+    {
+      "id": "5ac1-3adb-212a-5e02",
+      "name": "Goliath Rockgrinder",
+      "points": 120,
+      "keywords": [
+        "Vehicle",
+        "Great Devourer",
+        "Transport"
+      ],
+      "factionKeywords": [
+        "Genestealer Cults"
+      ],
+      "stats": {
+        "M": "12\"",
+        "T": "10",
+        "SV": "3+",
+        "W": "10",
+        "LD": "7+",
+        "OC": "3"
+      },
+      "rangedWeapons": [
+        {
+          "name": "Heavy stubber",
+          "range": "36\"",
+          "A": "3",
+          "BS": "4+",
+          "S": "4",
+          "AP": "0",
+          "D": "1",
+          "keywords": [
+            "Rapid Fire 3"
+          ]
+        },
+        {
+          "name": "Demolition charge cache",
+          "range": "8\"",
+          "A": "D6",
+          "BS": "5+",
+          "S": "9",
+          "AP": "-2",
+          "D": "2",
+          "keywords": [
+            "Assault",
+            "Blast",
+            "Hazardous"
+          ]
+        }
+      ],
+      "meleeWeapons": [
+        {
+          "name": "Drilldozer blade",
+          "range": "Melee",
+          "A": "8",
+          "WS": "3+",
+          "S": "10",
+          "AP": "-2",
+          "D": "2",
+          "keywords": []
+        }
+      ],
+      "abilities": [
+        {
+          "name": "Grinding Line-breaker",
+          "description": "Each time an enemy unit (excluding MONSTER and VEHICLES) that is within Engagement Range of this model Falls Back, all models in that enemy unit must take a Desperate Escape test. When doing so, if that enemy unit is Battle-shocked, subtract 1 from each of those tests."
+        },
+        {
+          "name": "Deadly Crossfire",
+          "description": "In your Shooting phase, each time you select a **^^Crossfire^^** unit to shoot, you can select up to two other **^^Crossfire^^** units from your Crusade army that are eligible to shoot to perform a Deadly Crossfire, Then, you can select one enemy unit that would be an eligible target for one or more ranged weapons equipped by models in each of the selected **^^Crossfire^^** units. Until the end of the turn, that enemy unit is a Crossfire target.\n\nEach time one of those selected **^^Crossfire^^** units makes a ranged attack, models in that unit can only target their Crossfire target, and:\n- If two **^^Crossfire^^** units were selected to perform a Deadly Crossfire against the at enemy unit, add 1 to the Hit roll.\n- If three **^^Crossfire^^** units were selected to perform a Deadly Crossfire against that enemy unit, add 1 to the Hit roll and add 1 to the Wound roll."
+        },
+        {
+          "name": "Shrewd Strategy",
+          "description": "You gain 6 Planning points, which you can spend to purchase Shrewd Strategy abilities to use during that battle."
+        },
+        {
+          "name": "Beloved of the Cult",
+          "description": "Each time a unit that is beloved of the cult gains 1 or more XP in a Crusade battle and survives that battle, after that battle, roll one D6 for each other unit from your Crusade army that survived that battle: on a 6, the unit you rolled for gains 1XP."
+        }
+      ],
+      "transportCapacity": "This model has a transport capacity of 6 GENESTEALER CULTS INFANTRY models."
+    },
+    {
+      "id": "1d1-f0d2-b810-12fe",
+      "name": "Goliath Truck",
+      "points": 85,
+      "keywords": [
+        "Vehicle",
+        "Dedicated Transport",
+        "Transport",
+        "Great Devourer"
+      ],
+      "factionKeywords": [
+        "Genestealer Cults"
+      ],
+      "stats": {
+        "M": "12\"",
+        "T": "9",
+        "SV": "3+",
+        "W": "10",
+        "LD": "7+",
+        "OC": "2"
+      },
+      "rangedWeapons": [
+        {
+          "name": "Twin autocannon",
+          "range": "48\"",
+          "A": "2",
+          "BS": "4+",
+          "S": "9",
+          "AP": "-1",
+          "D": "3",
+          "keywords": [
+            "Twin-linked"
+          ]
+        },
+        {
+          "name": "Demolition charge cache",
+          "range": "8\"",
+          "A": "D6",
+          "BS": "5+",
+          "S": "9",
+          "AP": "-2",
+          "D": "2",
+          "keywords": [
+            "Assault",
+            "Blast",
+            "Hazardous"
+          ]
+        },
+        {
+          "name": "Heavy stubber",
+          "range": "36\"",
+          "A": "3",
+          "BS": "4+",
+          "S": "4",
+          "AP": "0",
+          "D": "1",
+          "keywords": [
+            "Rapid Fire 3"
+          ]
+        }
+      ],
+      "meleeWeapons": [
+        {
+          "name": "Goliath wheels",
+          "range": "Melee",
+          "A": "3",
+          "WS": "4+",
+          "S": "6",
+          "AP": "0",
+          "D": "1",
+          "keywords": []
+        }
+      ],
+      "abilities": [
+        {
+          "name": "Fire Support",
+          "description": "In your Shooting phase, after this model has shot, select one enemy unit it scored one or more hits against this phase. Until the end of the phase, each time a friendly model that disembarked from this TRANSPORT this turn makes an attack that targets that enemy unit, you can re-roll the Wound roll."
+        },
+        {
+          "name": "Deadly Crossfire",
+          "description": "In your Shooting phase, each time you select a **^^Crossfire^^** unit to shoot, you can select up to two other **^^Crossfire^^** units from your Crusade army that are eligible to shoot to perform a Deadly Crossfire, Then, you can select one enemy unit that would be an eligible target for one or more ranged weapons equipped by models in each of the selected **^^Crossfire^^** units. Until the end of the turn, that enemy unit is a Crossfire target.\n\nEach time one of those selected **^^Crossfire^^** units makes a ranged attack, models in that unit can only target their Crossfire target, and:\n- If two **^^Crossfire^^** units were selected to perform a Deadly Crossfire against the at enemy unit, add 1 to the Hit roll.\n- If three **^^Crossfire^^** units were selected to perform a Deadly Crossfire against that enemy unit, add 1 to the Hit roll and add 1 to the Wound roll."
+        },
+        {
+          "name": "Shrewd Strategy",
+          "description": "You gain 6 Planning points, which you can spend to purchase Shrewd Strategy abilities to use during that battle."
+        },
+        {
+          "name": "Beloved of the Cult",
+          "description": "Each time a unit that is beloved of the cult gains 1 or more XP in a Crusade battle and survives that battle, after that battle, roll one D6 for each other unit from your Crusade army that survived that battle: on a 6, the unit you rolled for gains 1XP."
+        }
+      ],
+      "transportCapacity": "This model has a transport capacity of 12 GENESTEALER CULTS INFANTRY models."
+    },
+    {
+      "id": "8a84-a8fd-977e-9118",
+      "name": "Hybrid Metamorphs",
+      "points": 70,
+      "keywords": [
+        "Infantry",
+        "Grenades",
+        "Great Devourer"
+      ],
+      "factionKeywords": [
+        "Genestealer Cults"
+      ],
+      "stats": {
+        "M": "6\"",
+        "T": "4",
+        "SV": "5+",
+        "W": "1",
+        "LD": "7+",
+        "OC": "1"
+      },
+      "rangedWeapons": [
+        {
+          "name": "Autopistol",
+          "range": "12\"",
+          "A": "1",
+          "BS": "4+",
+          "S": "3",
+          "AP": "0",
+          "D": "1",
+          "keywords": [
+            "Pistol"
+          ]
+        },
+        {
+          "name": "Hand flamer",
+          "range": "12\"",
+          "A": "D6",
+          "BS": "N/A",
+          "S": "3",
+          "AP": "0",
+          "D": "1",
+          "keywords": [
+            "Ignores Cover",
+            "Pistol",
+            "Torrent"
+          ]
+        }
+      ],
+      "meleeWeapons": [
+        {
+          "name": "➤ Metamorph mutations - strike",
+          "range": "Melee",
+          "A": "3",
+          "WS": "3+",
+          "S": "5",
+          "AP": "-1",
+          "D": "2",
+          "keywords": []
+        },
+        {
+          "name": "➤ Metamorph mutations - sweep",
+          "range": "Melee",
+          "A": "5",
+          "WS": "3+",
+          "S": "4",
+          "AP": "-1",
+          "D": "1",
+          "keywords": []
+        },
+        {
+          "name": "Leader's Bio-weapons",
+          "range": "Melee",
+          "A": "5",
+          "WS": "3+",
+          "S": "5",
+          "AP": "-1",
+          "D": "2",
+          "keywords": []
+        }
+      ],
+      "abilities": [
+        {
+          "name": "Brood Surge",
+          "description": "Each time an enemy unit is selected to shoot, after that unit has shot, if any models from this unit were destroyed as a result of those attacks, this unit can make a Brood Surge move. To do so, roll one D6: this unit can be moved a number of inches up to the result, but it must end that move as close as possible to the closest enemy unit (excluding AIRCRAFT). When doing so those models can be within Engagement Range of that enemy unit.\n\nIf, at the start of the battle, no model in this unit is equipped with a hand flamer, each time this unit makes a Brood Surge move, it can be moved up to 6\" instead of up to D6\". A unit cannot make a Brood Surge move while it is Battle-shocked."
+        },
+        {
+          "name": "Cult Icon",
+          "description": "In your Command phase, you can return up to D3 destroyed models to the bearer’s unit. If the bearer’s unit is within range of an objective marker you control, you can return up to 3 destroyed models to that unit instead. This ability cannot be used to return destroyed CHARACTER models in Attached units and any [ONE SHOT] weapons equipped with by returned models that were shot before they were destroyed are still considered to have been shot."
+        },
+        {
+          "name": "Deadly Crossfire",
+          "description": "In your Shooting phase, each time you select a **^^Crossfire^^** unit to shoot, you can select up to two other **^^Crossfire^^** units from your Crusade army that are eligible to shoot to perform a Deadly Crossfire, Then, you can select one enemy unit that would be an eligible target for one or more ranged weapons equipped by models in each of the selected **^^Crossfire^^** units. Until the end of the turn, that enemy unit is a Crossfire target.\n\nEach time one of those selected **^^Crossfire^^** units makes a ranged attack, models in that unit can only target their Crossfire target, and:\n- If two **^^Crossfire^^** units were selected to perform a Deadly Crossfire against the at enemy unit, add 1 to the Hit roll.\n- If three **^^Crossfire^^** units were selected to perform a Deadly Crossfire against that enemy unit, add 1 to the Hit roll and add 1 to the Wound roll."
+        },
+        {
+          "name": "Shrewd Strategy",
+          "description": "You gain 6 Planning points, which you can spend to purchase Shrewd Strategy abilities to use during that battle."
+        },
+        {
+          "name": "Beloved of the Cult",
+          "description": "Each time a unit that is beloved of the cult gains 1 or more XP in a Crusade battle and survives that battle, after that battle, roll one D6 for each other unit from your Crusade army that survived that battle: on a 6, the unit you rolled for gains 1XP."
+        }
+      ]
+    },
+    {
+      "id": "6426-ca59-402a-d399",
+      "name": "Jackal Alphus",
+      "points": 55,
+      "keywords": [
+        "Character",
+        "Grenades",
+        "Great Devourer",
+        "Mounted"
+      ],
+      "factionKeywords": [
+        "Genestealer Cults"
+      ],
+      "stats": {
+        "M": "12\"",
+        "T": "4",
+        "SV": "5+",
+        "W": "4",
+        "LD": "7+",
+        "OC": "1"
+      },
+      "rangedWeapons": [
+        {
+          "name": "Cult sniper rifle",
+          "range": "36\"",
+          "A": "1",
+          "BS": "3+",
+          "S": "5",
+          "AP": "-2",
+          "D": "3",
+          "keywords": [
+            "Heavy",
+            "Precision"
+          ]
+        },
+        {
+          "name": "Autopistol",
+          "range": "12\"",
+          "A": "1",
+          "BS": "3+",
+          "S": "3",
+          "AP": "0",
+          "D": "1",
+          "keywords": [
+            "Pistol"
+          ]
+        }
+      ],
+      "meleeWeapons": [
+        {
+          "name": "Close combat weapon",
+          "range": "Melee",
+          "A": "3",
+          "WS": "3+",
+          "S": "3",
+          "AP": "0",
+          "D": "1",
+          "keywords": []
+        }
+      ],
+      "abilities": [
+        {
+          "name": "Priority Target",
+          "description": "In your Shooting phase, after this model's unit has shot, select one enemy unit hit by one or more of those attacks made with a cult sniper rifle. Until the end of the phase, each time a friendly **^^Genestealer Cults^^** model makes an attack that targets that enemy unit, re-roll a Hit roll of 1."
+        },
+        {
+          "name": "Master Outrider",
+          "description": "In your Shooting phase, after this model’s unit has shot, if it is not within Engagement Range of any enemy units, that unit can make a Normal move of up to 6\" as if it were your Movement phase. If it does, until the end of the turn, that unit is not eligible to declare a charge."
+        },
+        {
+          "name": "Deadly Crossfire",
+          "description": "In your Shooting phase, each time you select a **^^Crossfire^^** unit to shoot, you can select up to two other **^^Crossfire^^** units from your Crusade army that are eligible to shoot to perform a Deadly Crossfire, Then, you can select one enemy unit that would be an eligible target for one or more ranged weapons equipped by models in each of the selected **^^Crossfire^^** units. Until the end of the turn, that enemy unit is a Crossfire target.\n\nEach time one of those selected **^^Crossfire^^** units makes a ranged attack, models in that unit can only target their Crossfire target, and:\n- If two **^^Crossfire^^** units were selected to perform a Deadly Crossfire against the at enemy unit, add 1 to the Hit roll.\n- If three **^^Crossfire^^** units were selected to perform a Deadly Crossfire against that enemy unit, add 1 to the Hit roll and add 1 to the Wound roll."
+        },
+        {
+          "name": "Shrewd Strategy",
+          "description": "You gain 6 Planning points, which you can spend to purchase Shrewd Strategy abilities to use during that battle."
+        },
+        {
+          "name": "Beloved of the Cult",
+          "description": "Each time a unit that is beloved of the cult gains 1 or more XP in a Crusade battle and survives that battle, after that battle, roll one D6 for each other unit from your Crusade army that survived that battle: on a 6, the unit you rolled for gains 1XP."
+        }
+      ]
+    },
+    {
+      "id": "5e0e-11d9-181d-3481",
+      "name": "Kelermorph",
+      "points": 60,
+      "keywords": [
+        "Infantry",
+        "Character",
+        "Great Devourer"
+      ],
+      "factionKeywords": [
+        "Genestealer Cults"
+      ],
+      "stats": {
+        "M": "6\"",
+        "T": "3",
+        "SV": "5+",
+        "W": "3",
+        "LD": "7+",
+        "OC": "1"
+      },
+      "rangedWeapons": [
+        {
+          "name": "Liberator autostubs",
+          "range": "12\"",
+          "A": "6",
+          "BS": "2+",
+          "S": "6",
+          "AP": "-2",
+          "D": "1",
+          "keywords": [
+            "Devastating Wounds",
+            "Pistol"
+          ]
+        }
+      ],
+      "meleeWeapons": [
+        {
+          "name": "Close combat weapon",
+          "range": "Melee",
+          "A": "3",
+          "WS": "3+",
+          "S": "3",
+          "AP": "0",
+          "D": "1",
+          "keywords": []
+        }
+      ],
+      "abilities": [
+        {
+          "name": "Hypersensory Abilities",
+          "description": "Once per turn, in your opponent's Movement phase, when an enemy unit ends a Normal, Advance, or Fall Back move within 9\" of this model, if this unit is not within Engagement Range of one or more enemy units, it can shoot at that unit as if it were your Shooting phase, and then make a Normal move of up to D6\" (it cannot embark within a TRANSPORT as part of this move)"
+        },
+        {
+          "name": "Heroic Fusillade",
+          "description": "Once per turn, after one model from your army with this ability has shot, you can select one INFANTRY unit hit by one or more of those attacks. That unit must take a Battle-shock test."
+        },
+        {
+          "name": "Deadly Crossfire",
+          "description": "In your Shooting phase, each time you select a **^^Crossfire^^** unit to shoot, you can select up to two other **^^Crossfire^^** units from your Crusade army that are eligible to shoot to perform a Deadly Crossfire, Then, you can select one enemy unit that would be an eligible target for one or more ranged weapons equipped by models in each of the selected **^^Crossfire^^** units. Until the end of the turn, that enemy unit is a Crossfire target.\n\nEach time one of those selected **^^Crossfire^^** units makes a ranged attack, models in that unit can only target their Crossfire target, and:\n- If two **^^Crossfire^^** units were selected to perform a Deadly Crossfire against the at enemy unit, add 1 to the Hit roll.\n- If three **^^Crossfire^^** units were selected to perform a Deadly Crossfire against that enemy unit, add 1 to the Hit roll and add 1 to the Wound roll."
+        },
+        {
+          "name": "Shrewd Strategy",
+          "description": "You gain 6 Planning points, which you can spend to purchase Shrewd Strategy abilities to use during that battle."
+        },
+        {
+          "name": "Beloved of the Cult",
+          "description": "Each time a unit that is beloved of the cult gains 1 or more XP in a Crusade battle and survives that battle, after that battle, roll one D6 for each other unit from your Crusade army that survived that battle: on a 6, the unit you rolled for gains 1XP."
+        }
+      ]
+    },
+    {
+      "id": "51e8-dac1-561a-aaa9",
+      "name": "Locus",
+      "points": 45,
+      "keywords": [
+        "Infantry",
+        "Character",
+        "Great Devourer"
+      ],
+      "factionKeywords": [
+        "Genestealer Cults"
+      ],
+      "stats": {
+        "M": "6\"",
+        "T": "4",
+        "SV": "5+",
+        "W": "3",
+        "LD": "7+",
+        "OC": "1"
+      },
+      "rangedWeapons": [],
+      "meleeWeapons": [
+        {
+          "name": "Locus blades",
+          "range": "Melee",
+          "A": "5",
+          "WS": "2+",
+          "S": "5",
+          "AP": "-2",
+          "D": "2",
+          "keywords": []
+        }
+      ],
+      "abilities": [
+        {
+          "name": "Sudden Assault",
+          "description": "While this model is leading a unit, models in that unit have the Fights First ability"
+        },
+        {
+          "name": "Bodyguard",
+          "description": "While this model is leading a unit, other Character models attached to that unit have the Feel No Pain 4+ ability"
+        },
+        {
+          "name": "Deadly Crossfire",
+          "description": "In your Shooting phase, each time you select a **^^Crossfire^^** unit to shoot, you can select up to two other **^^Crossfire^^** units from your Crusade army that are eligible to shoot to perform a Deadly Crossfire, Then, you can select one enemy unit that would be an eligible target for one or more ranged weapons equipped by models in each of the selected **^^Crossfire^^** units. Until the end of the turn, that enemy unit is a Crossfire target.\n\nEach time one of those selected **^^Crossfire^^** units makes a ranged attack, models in that unit can only target their Crossfire target, and:\n- If two **^^Crossfire^^** units were selected to perform a Deadly Crossfire against the at enemy unit, add 1 to the Hit roll.\n- If three **^^Crossfire^^** units were selected to perform a Deadly Crossfire against that enemy unit, add 1 to the Hit roll and add 1 to the Wound roll."
+        },
+        {
+          "name": "Shrewd Strategy",
+          "description": "You gain 6 Planning points, which you can spend to purchase Shrewd Strategy abilities to use during that battle."
+        },
+        {
+          "name": "Beloved of the Cult",
+          "description": "Each time a unit that is beloved of the cult gains 1 or more XP in a Crusade battle and survives that battle, after that battle, roll one D6 for each other unit from your Crusade army that survived that battle: on a 6, the unit you rolled for gains 1XP."
+        }
+      ]
+    },
+    {
+      "id": "4f4-2157-2cb5-8bb",
+      "name": "Magus",
+      "points": 50,
+      "keywords": [
+        "Infantry",
+        "Character",
+        "Psyker",
+        "Great Devourer"
+      ],
+      "factionKeywords": [
+        "Genestealer Cults"
+      ],
+      "stats": {
+        "M": "6\"",
+        "T": "3",
+        "SV": "5+",
+        "W": "4",
+        "LD": "6+",
+        "OC": "1"
+      },
+      "rangedWeapons": [
+        {
+          "name": "Autopistol",
+          "range": "12\"",
+          "A": "1",
+          "BS": "3+",
+          "S": "3",
+          "AP": "0",
+          "D": "1",
+          "keywords": [
+            "Pistol"
+          ]
+        }
+      ],
+      "meleeWeapons": [
+        {
+          "name": "Force stave",
+          "range": "Melee",
+          "A": "3",
+          "WS": "3+",
+          "S": "5",
+          "AP": "-1",
+          "D": "D3",
+          "keywords": [
+            "Psychic"
+          ]
+        }
+      ],
+      "abilities": [
+        {
+          "name": "Psychic Familiar",
+          "description": "Once per battle, at the start of any of your opponent’s Shooting phases, this model can use its psychic familiar. If it does, until the end of the phase, add 6\" to the range of its Mind Control ability."
+        },
+        {
+          "name": "Mind Control (Psychic)",
+          "description": "At the start of your opponent’s Shooting phase, one PSYKER model from your army with this ability can use it. If used, select one enemy unit within 18\" of and visible to that PSYKER model and roll one D6: on a 1, that PSYKER model suffers D3 mortal wounds; on a 2-5, until the end of the phase, each time a model in that enemy unit makes an attack, subtract 1 from the Hit roll; on a 6, each time a model in that enemy unit makes an attack, subtract 1 from the Hit roll and subtract 1 from the Wound Roll."
+        },
+        {
+          "name": "Spiritual Leader",
+          "description": "Once per battle, at the start of any phase, you can select one friendly GENESTELERS CULTS unit that is Battle-shocked and within 12\" of this model. That unit is no longer Battle-shocked."
+        },
+        {
+          "name": "Deadly Crossfire",
+          "description": "In your Shooting phase, each time you select a **^^Crossfire^^** unit to shoot, you can select up to two other **^^Crossfire^^** units from your Crusade army that are eligible to shoot to perform a Deadly Crossfire, Then, you can select one enemy unit that would be an eligible target for one or more ranged weapons equipped by models in each of the selected **^^Crossfire^^** units. Until the end of the turn, that enemy unit is a Crossfire target.\n\nEach time one of those selected **^^Crossfire^^** units makes a ranged attack, models in that unit can only target their Crossfire target, and:\n- If two **^^Crossfire^^** units were selected to perform a Deadly Crossfire against the at enemy unit, add 1 to the Hit roll.\n- If three **^^Crossfire^^** units were selected to perform a Deadly Crossfire against that enemy unit, add 1 to the Hit roll and add 1 to the Wound roll."
+        },
+        {
+          "name": "Shrewd Strategy",
+          "description": "You gain 6 Planning points, which you can spend to purchase Shrewd Strategy abilities to use during that battle."
+        },
+        {
+          "name": "Beloved of the Cult",
+          "description": "Each time a unit that is beloved of the cult gains 1 or more XP in a Crusade battle and survives that battle, after that battle, roll one D6 for each other unit from your Crusade army that survived that battle: on a 6, the unit you rolled for gains 1XP."
+        }
+      ]
+    },
+    {
+      "id": "b5d2-8681-6bba-f05b",
+      "name": "Neophyte Hybrids",
+      "points": 65,
+      "keywords": [
+        "Infantry",
+        "Grenades",
+        "Great Devourer",
+        "Battleline"
+      ],
+      "factionKeywords": [
+        "Genestealer Cults"
+      ],
+      "stats": {
+        "M": "6\"",
+        "T": "3",
+        "SV": "5+",
+        "W": "1",
+        "LD": "7+",
+        "OC": "2"
+      },
+      "rangedWeapons": [
+        {
+          "name": "Hybrid firearm",
+          "range": "24\"",
+          "A": "1",
+          "BS": "4+",
+          "S": "3",
+          "AP": "0",
+          "D": "1",
+          "keywords": [
+            "Rapid Fire 1"
+          ]
+        },
+        {
+          "name": "Autopistol",
+          "range": "12\"",
+          "A": "1",
+          "BS": "4+",
+          "S": "3",
+          "AP": "0",
+          "D": "1",
+          "keywords": [
+            "Pistol"
+          ]
+        },
+        {
+          "name": "Mining laser",
+          "range": "24\"",
+          "A": "1",
+          "BS": "5+",
+          "S": "10",
+          "AP": "-3",
+          "D": "D6+1",
+          "keywords": [
+            "Heavy"
+          ]
+        },
+        {
+          "name": "Seismic cannon",
+          "range": "24\"",
+          "A": "2",
+          "BS": "5+",
+          "S": "6",
+          "AP": "-1",
+          "D": "D3",
+          "keywords": [
+            "Heavy",
+            "Rapid Fire 2"
+          ]
+        },
+        {
+          "name": "Heavy stubber",
+          "range": "36\"",
+          "A": "3",
+          "BS": "4+",
+          "S": "4",
+          "AP": "0",
+          "D": "1",
+          "keywords": [
+            "Rapid Fire 3"
+          ]
+        },
+        {
+          "name": "Webber",
+          "range": "12\"",
+          "A": "D6",
+          "BS": "N/A",
+          "S": "2",
+          "AP": "0",
+          "D": "1",
+          "keywords": [
+            "Devastating Wounds",
+            "Torrent"
+          ]
+        },
+        {
+          "name": "Flamer",
+          "range": "12\"",
+          "A": "D6",
+          "BS": "N/A",
+          "S": "4",
+          "AP": "0",
+          "D": "1",
+          "keywords": [
+            "Ignores Cover",
+            "Torrent"
+          ]
+        },
+        {
+          "name": "➤ Grenade launcher - frag",
+          "range": "24\"",
+          "A": "D3",
+          "BS": "4+",
+          "S": "4",
+          "AP": "0",
+          "D": "1",
+          "keywords": [
+            "Blast"
+          ]
+        },
+        {
+          "name": "➤ Grenade launcher - krak",
+          "range": "24\"",
+          "A": "1",
+          "BS": "4+",
+          "S": "9",
+          "AP": "-2",
+          "D": "D3",
+          "keywords": []
+        },
+        {
+          "name": "Anointed pistol",
+          "range": "12\"",
+          "A": "1",
+          "BS": "4+",
+          "S": "4",
+          "AP": "0",
+          "D": "1",
+          "keywords": [
+            "Pistol"
+          ]
+        }
+      ],
+      "meleeWeapons": [
+        {
+          "name": "Close combat weapon",
+          "range": "Melee",
+          "A": "1",
+          "WS": "4+",
+          "S": "3",
+          "AP": "0",
+          "D": "1",
+          "keywords": []
+        },
+        {
+          "name": "Power weapon",
+          "range": "Melee",
+          "A": "1",
+          "WS": "4+",
+          "S": "4",
+          "AP": "-2",
+          "D": "1",
+          "keywords": []
+        },
+        {
+          "name": "Chainsword",
+          "range": "Melee",
+          "A": "2",
+          "WS": "4+",
+          "S": "3",
+          "AP": "0",
+          "D": "1",
+          "keywords": []
+        }
+      ],
+      "abilities": [
+        {
+          "name": "A Plan Generations in the Making",
+          "description": "At the end of your Command phase, if this unit is within range of an objective marker you control, that objective marker remains under your control, even if you have no models within range of it, until your opponent controls it at the start or end of any turn."
+        },
+        {
+          "name": "Cult Icon",
+          "description": "In your Command phase, you can return up to 3 destroyed models to the bearer’s unit. If the bearer’s unit is within range of an objective marker you control, you can return up to D3+3 destroyed models to that unit instead. This ability cannot be used to return destroyed CHARACTER models in Attached units and any [ONE SHOT] weapons equipped with by returned models that were shot before they were destroyed are still considered to have been shot."
+        },
+        {
+          "name": "Deadly Crossfire",
+          "description": "In your Shooting phase, each time you select a **^^Crossfire^^** unit to shoot, you can select up to two other **^^Crossfire^^** units from your Crusade army that are eligible to shoot to perform a Deadly Crossfire, Then, you can select one enemy unit that would be an eligible target for one or more ranged weapons equipped by models in each of the selected **^^Crossfire^^** units. Until the end of the turn, that enemy unit is a Crossfire target.\n\nEach time one of those selected **^^Crossfire^^** units makes a ranged attack, models in that unit can only target their Crossfire target, and:\n- If two **^^Crossfire^^** units were selected to perform a Deadly Crossfire against the at enemy unit, add 1 to the Hit roll.\n- If three **^^Crossfire^^** units were selected to perform a Deadly Crossfire against that enemy unit, add 1 to the Hit roll and add 1 to the Wound roll."
+        },
+        {
+          "name": "Shrewd Strategy",
+          "description": "You gain 6 Planning points, which you can spend to purchase Shrewd Strategy abilities to use during that battle."
+        },
+        {
+          "name": "Beloved of the Cult",
+          "description": "Each time a unit that is beloved of the cult gains 1 or more XP in a Crusade battle and survives that battle, after that battle, roll one D6 for each other unit from your Crusade army that survived that battle: on a 6, the unit you rolled for gains 1XP."
+        }
+      ]
+    },
+    {
+      "id": "55c7-90e0-419-44f9",
+      "name": "Nexos",
+      "points": 60,
+      "keywords": [
+        "Infantry",
+        "Character",
+        "Great Devourer"
+      ],
+      "factionKeywords": [
+        "Genestealer Cults"
+      ],
+      "stats": {
+        "M": "6\"",
+        "T": "3",
+        "SV": "5+",
+        "W": "3",
+        "LD": "7+",
+        "OC": "1"
+      },
+      "rangedWeapons": [
+        {
+          "name": "Autopistol",
+          "range": "12\"",
+          "A": "1",
+          "BS": "3+",
+          "S": "3",
+          "AP": "0",
+          "D": "1",
+          "keywords": [
+            "Pistol"
+          ]
+        }
+      ],
+      "meleeWeapons": [
+        {
+          "name": "Close combat weapon",
+          "range": "Melee",
+          "A": "2",
+          "WS": "3+",
+          "S": "3",
+          "AP": "0",
+          "D": "1",
+          "keywords": []
+        }
+      ],
+      "abilities": [
+        {
+          "name": "Battlefield Analysis",
+          "description": "Once per battle round, one model from your army with this ability can use it when its unit is targeted with a Stratagem. If it does, reduce the CP cost of that use of that Stratagem by 1CP."
+        },
+        {
+          "name": "Cult Infiltration",
+          "description": "At the start of each player’s Command phase, if this model is on the battlefield, you can select one of your Cult Ambush markers that is on the battlefield and has not been moved this turn and move it up to 6\""
+        },
+        {
+          "name": "Deadly Crossfire",
+          "description": "In your Shooting phase, each time you select a **^^Crossfire^^** unit to shoot, you can select up to two other **^^Crossfire^^** units from your Crusade army that are eligible to shoot to perform a Deadly Crossfire, Then, you can select one enemy unit that would be an eligible target for one or more ranged weapons equipped by models in each of the selected **^^Crossfire^^** units. Until the end of the turn, that enemy unit is a Crossfire target.\n\nEach time one of those selected **^^Crossfire^^** units makes a ranged attack, models in that unit can only target their Crossfire target, and:\n- If two **^^Crossfire^^** units were selected to perform a Deadly Crossfire against the at enemy unit, add 1 to the Hit roll.\n- If three **^^Crossfire^^** units were selected to perform a Deadly Crossfire against that enemy unit, add 1 to the Hit roll and add 1 to the Wound roll."
+        },
+        {
+          "name": "Shrewd Strategy",
+          "description": "You gain 6 Planning points, which you can spend to purchase Shrewd Strategy abilities to use during that battle."
+        },
+        {
+          "name": "Beloved of the Cult",
+          "description": "Each time a unit that is beloved of the cult gains 1 or more XP in a Crusade battle and survives that battle, after that battle, roll one D6 for each other unit from your Crusade army that survived that battle: on a 6, the unit you rolled for gains 1XP."
+        }
+      ]
+    },
+    {
+      "id": "2a91-a18e-bd08-fa66",
+      "name": "Patriarch",
+      "points": 75,
+      "keywords": [
+        "Infantry",
+        "Character",
+        "Psyker",
+        "Great Devourer"
+      ],
+      "factionKeywords": [
+        "Genestealer Cults"
+      ],
+      "stats": {
+        "M": "8\"",
+        "T": "5",
+        "SV": "4+",
+        "W": "6",
+        "LD": "6+",
+        "OC": "1"
+      },
+      "rangedWeapons": [],
+      "meleeWeapons": [
+        {
+          "name": "Patriarch's claws",
+          "range": "Melee",
+          "A": "5",
+          "WS": "2+",
+          "S": "6",
+          "AP": "-2",
+          "D": "2",
+          "keywords": [
+            "Devastating Wounds",
+            "Twin-linked"
+          ]
+        }
+      ],
+      "abilities": [
+        {
+          "name": "Might From Beyond",
+          "description": "While this model is leading a unit, melee weapons equipped by models in that unit have the [DEVASTATING WOUNDS] ability."
+        },
+        {
+          "name": "Cosmic Horror (Psychic)",
+          "description": "At the start of the Fight phase, each enemy unit within 6\" of this model must take a Battle-shock test."
+        },
+        {
+          "name": "Psychic Familiar",
+          "description": "Once per battle, at the start of the Fight phase, this model can use its psychic familiar. If it does, until the end of the phase, add 6\" to the range of its Cosmic Horror ability."
+        },
+        {
+          "name": "Supreme Commander",
+          "description": "- You cannot include more than one **^^Patriarch^^** model in your army.\n- If this model is in your army, it must be your **^^Warlord^^**."
+        },
+        {
+          "name": "Deadly Crossfire",
+          "description": "In your Shooting phase, each time you select a **^^Crossfire^^** unit to shoot, you can select up to two other **^^Crossfire^^** units from your Crusade army that are eligible to shoot to perform a Deadly Crossfire, Then, you can select one enemy unit that would be an eligible target for one or more ranged weapons equipped by models in each of the selected **^^Crossfire^^** units. Until the end of the turn, that enemy unit is a Crossfire target.\n\nEach time one of those selected **^^Crossfire^^** units makes a ranged attack, models in that unit can only target their Crossfire target, and:\n- If two **^^Crossfire^^** units were selected to perform a Deadly Crossfire against the at enemy unit, add 1 to the Hit roll.\n- If three **^^Crossfire^^** units were selected to perform a Deadly Crossfire against that enemy unit, add 1 to the Hit roll and add 1 to the Wound roll."
+        },
+        {
+          "name": "Shrewd Strategy",
+          "description": "You gain 6 Planning points, which you can spend to purchase Shrewd Strategy abilities to use during that battle."
+        },
+        {
+          "name": "Beloved of the Cult",
+          "description": "Each time a unit that is beloved of the cult gains 1 or more XP in a Crusade battle and survives that battle, after that battle, roll one D6 for each other unit from your Crusade army that survived that battle: on a 6, the unit you rolled for gains 1XP."
+        }
+      ]
+    },
+    {
+      "id": "30e9-42fa-3a6e-e8ef",
+      "name": "Primus",
+      "points": 70,
+      "keywords": [
+        "Infantry",
+        "Character",
+        "Great Devourer"
+      ],
+      "factionKeywords": [
+        "Genestealer Cults"
+      ],
+      "stats": {
+        "M": "6\"",
+        "T": "3",
+        "SV": "5+",
+        "W": "4",
+        "LD": "6+",
+        "OC": "1"
+      },
+      "rangedWeapons": [
+        {
+          "name": "Scoped needle pistol",
+          "range": "18\"",
+          "A": "1",
+          "BS": "2+",
+          "S": "1",
+          "AP": "0",
+          "D": "D3",
+          "keywords": [
+            "Anti-infantry 2+",
+            "Ignores Cover",
+            "Pistol"
+          ]
+        }
+      ],
+      "meleeWeapons": [
+        {
+          "name": "Toxin injector claw",
+          "range": "Melee",
+          "A": "2",
+          "WS": "2+",
+          "S": "2",
+          "AP": "0",
+          "D": "D3",
+          "keywords": [
+            "Anti-infantry 2+",
+            "Extra Attacks"
+          ]
+        },
+        {
+          "name": "Cult bonesword",
+          "range": "Melee",
+          "A": "5",
+          "WS": "2+",
+          "S": "5",
+          "AP": "-2",
+          "D": "1",
+          "keywords": []
+        }
+      ],
+      "abilities": [
+        {
+          "name": "Cult Demagogue",
+          "description": "While this model is leading a unit, each time a model in that unit makes an attack, you can add 1 to the Hit roll."
+        },
+        {
+          "name": "Decoys and Misdirection",
+          "description": "If your army includes one or more models with this ability, after both players have deployed their armies, select up to three GENESTEALER CULTS units from your army and redeploy them. When doing so, you can set those units up in Strategic Reserves if you wish, regardless of how many units are already in Strategic Reserves."
+        },
+        {
+          "name": "Leader",
+          "description": "This model can be attached to the following units:\n- **^^Acolyte Hybrids^^**\n- **^^Hybrid Metamorphs^^**\n- **^^Neophyte Hybrids^^**"
+        },
+        {
+          "name": "Deadly Crossfire",
+          "description": "In your Shooting phase, each time you select a **^^Crossfire^^** unit to shoot, you can select up to two other **^^Crossfire^^** units from your Crusade army that are eligible to shoot to perform a Deadly Crossfire, Then, you can select one enemy unit that would be an eligible target for one or more ranged weapons equipped by models in each of the selected **^^Crossfire^^** units. Until the end of the turn, that enemy unit is a Crossfire target.\n\nEach time one of those selected **^^Crossfire^^** units makes a ranged attack, models in that unit can only target their Crossfire target, and:\n- If two **^^Crossfire^^** units were selected to perform a Deadly Crossfire against the at enemy unit, add 1 to the Hit roll.\n- If three **^^Crossfire^^** units were selected to perform a Deadly Crossfire against that enemy unit, add 1 to the Hit roll and add 1 to the Wound roll."
+        },
+        {
+          "name": "Shrewd Strategy",
+          "description": "You gain 6 Planning points, which you can spend to purchase Shrewd Strategy abilities to use during that battle."
+        },
+        {
+          "name": "Beloved of the Cult",
+          "description": "Each time a unit that is beloved of the cult gains 1 or more XP in a Crusade battle and survives that battle, after that battle, roll one D6 for each other unit from your Crusade army that survived that battle: on a 6, the unit you rolled for gains 1XP."
+        }
+      ]
+    },
+    {
+      "id": "965b-496a-3a1b-22a8",
+      "name": "Purestrain Genestealers",
+      "points": 75,
+      "keywords": [
+        "Infantry",
+        "Great Devourer"
+      ],
+      "factionKeywords": [
+        "Genestealer Cults"
+      ],
+      "stats": {
+        "M": "8\"",
+        "T": "4",
+        "SV": "5+",
+        "W": "2",
+        "LD": "7+",
+        "OC": "1"
+      },
+      "rangedWeapons": [],
+      "meleeWeapons": [
+        {
+          "name": "Cult claws and talons",
+          "range": "Melee",
+          "A": "4",
+          "WS": "2+",
+          "S": "4",
+          "AP": "-2",
+          "D": "1",
+          "keywords": []
+        }
+      ],
+      "abilities": [
+        {
+          "name": "Swift and Deadly",
+          "description": "This unit is eligible to declare a charge in a turn in which it Advanced."
+        },
+        {
+          "name": "Deadly Crossfire",
+          "description": "In your Shooting phase, each time you select a **^^Crossfire^^** unit to shoot, you can select up to two other **^^Crossfire^^** units from your Crusade army that are eligible to shoot to perform a Deadly Crossfire, Then, you can select one enemy unit that would be an eligible target for one or more ranged weapons equipped by models in each of the selected **^^Crossfire^^** units. Until the end of the turn, that enemy unit is a Crossfire target.\n\nEach time one of those selected **^^Crossfire^^** units makes a ranged attack, models in that unit can only target their Crossfire target, and:\n- If two **^^Crossfire^^** units were selected to perform a Deadly Crossfire against the at enemy unit, add 1 to the Hit roll.\n- If three **^^Crossfire^^** units were selected to perform a Deadly Crossfire against that enemy unit, add 1 to the Hit roll and add 1 to the Wound roll."
+        },
+        {
+          "name": "Shrewd Strategy",
+          "description": "You gain 6 Planning points, which you can spend to purchase Shrewd Strategy abilities to use during that battle."
+        },
+        {
+          "name": "Beloved of the Cult",
+          "description": "Each time a unit that is beloved of the cult gains 1 or more XP in a Crusade battle and survives that battle, after that battle, roll one D6 for each other unit from your Crusade army that survived that battle: on a 6, the unit you rolled for gains 1XP."
+        }
+      ]
+    },
+    {
+      "id": "4565-bd65-9e8b-284d",
+      "name": "Reductus Saboteur",
+      "points": 65,
+      "keywords": [
+        "Infantry",
+        "Character",
+        "Grenades",
+        "Great Devourer"
+      ],
+      "factionKeywords": [
+        "Genestealer Cults"
+      ],
+      "stats": {
+        "M": "6\"",
+        "T": "3",
+        "SV": "5+",
+        "W": "3",
+        "LD": "7+",
+        "OC": "1"
+      },
+      "rangedWeapons": [
+        {
+          "name": "Demolition charges",
+          "range": "8\"",
+          "A": "D6",
+          "BS": "3+",
+          "S": "9",
+          "AP": "-2",
+          "D": "2",
+          "keywords": [
+            "Assault",
+            "Blast",
+            "One Shot"
+          ]
+        },
+        {
+          "name": "Autopistol",
+          "range": "12\"",
+          "A": "1",
+          "BS": "3+",
+          "S": "3",
+          "AP": "0",
+          "D": "1",
+          "keywords": [
+            "Pistol"
+          ]
+        },
+        {
+          "name": "Remote explosives",
+          "range": "24\"",
+          "A": "D6+3",
+          "BS": "3+",
+          "S": "5",
+          "AP": "0",
+          "D": "1",
+          "keywords": [
+            "Blast",
+            "Indirect Fire"
+          ]
+        }
+      ],
+      "meleeWeapons": [
+        {
+          "name": "Close combat weapon",
+          "range": "Melee",
+          "A": "2",
+          "WS": "3+",
+          "S": "3",
+          "AP": "0",
+          "D": "1",
+          "keywords": []
+        }
+      ],
+      "abilities": [
+        {
+          "name": "Primed and Ready",
+          "description": "In your Shooting phase, you can select one model from your army with this ability as the target of the Grenade Stratagem for 0CP, provided that model has not already been the target of that Stratagem this phase."
+        },
+        {
+          "name": "Planted Explosives",
+          "description": "Once per battle, when an enemy unit ends a Normal, Advance or Fall Back move within 9\" of this model, this model can use its Reductus mine. If it does, roll one D6: on a 2+, that enemy unit suffers D3+3 mortal wounds. Only one model from your army with this ability can use it in the same battle round."
+        },
+        {
+          "name": "Deadly Crossfire",
+          "description": "In your Shooting phase, each time you select a **^^Crossfire^^** unit to shoot, you can select up to two other **^^Crossfire^^** units from your Crusade army that are eligible to shoot to perform a Deadly Crossfire, Then, you can select one enemy unit that would be an eligible target for one or more ranged weapons equipped by models in each of the selected **^^Crossfire^^** units. Until the end of the turn, that enemy unit is a Crossfire target.\n\nEach time one of those selected **^^Crossfire^^** units makes a ranged attack, models in that unit can only target their Crossfire target, and:\n- If two **^^Crossfire^^** units were selected to perform a Deadly Crossfire against the at enemy unit, add 1 to the Hit roll.\n- If three **^^Crossfire^^** units were selected to perform a Deadly Crossfire against that enemy unit, add 1 to the Hit roll and add 1 to the Wound roll."
+        },
+        {
+          "name": "Shrewd Strategy",
+          "description": "You gain 6 Planning points, which you can spend to purchase Shrewd Strategy abilities to use during that battle."
+        },
+        {
+          "name": "Beloved of the Cult",
+          "description": "Each time a unit that is beloved of the cult gains 1 or more XP in a Crusade battle and survives that battle, after that battle, roll one D6 for each other unit from your Crusade army that survived that battle: on a 6, the unit you rolled for gains 1XP."
+        }
+      ]
+    },
+    {
+      "id": "3d6c-357e-3c09-813c",
+      "name": "Sanctus",
+      "points": 50,
+      "keywords": [
+        "Infantry",
+        "Character",
+        "Great Devourer"
+      ],
+      "factionKeywords": [
+        "Genestealer Cults"
+      ],
+      "stats": {
+        "M": "6\"",
+        "T": "3",
+        "SV": "5+",
+        "W": "3",
+        "LD": "7+",
+        "OC": "1"
+      },
+      "rangedWeapons": [
+        {
+          "name": "Cult sniper rifle",
+          "range": "36\"",
+          "A": "1",
+          "BS": "3+",
+          "S": "7",
+          "AP": "-2",
+          "D": "3",
+          "keywords": [
+            "Anti-Psyker 2+",
+            "Heavy",
+            "Precision"
+          ]
+        }
+      ],
+      "meleeWeapons": [
+        {
+          "name": "Sanctus bio-dagger",
+          "range": "Melee",
+          "A": "6",
+          "WS": "2+",
+          "S": "3",
+          "AP": "-2",
+          "D": "2",
+          "keywords": [
+            "Anti-infantry 3+",
+            "Precision"
+          ]
+        },
+        {
+          "name": "Close combat weapon",
+          "range": "Melee",
+          "A": "2",
+          "WS": "3+",
+          "S": "3",
+          "AP": "0",
+          "D": "1",
+          "keywords": []
+        }
+      ],
+      "abilities": [
+        {
+          "name": "Creeping Shadow",
+          "description": "If this model is equipped with a cult sniper rifle, once per turn when an enemy unit ends a Normal, Advance, or Fall Back move within 9\" of this model, if this model is not within Engagement Range of one or more enemy units, it can make a Normal move of up to 6\""
+        },
+        {
+          "name": "Psychic Spoor",
+          "description": "At the start of the first battle round, select one enemy unit to be this model’s prey. Each time this model makes an attack that targets its prey, you can re-roll the Hit roll and you can re-roll the Wound roll."
+        },
+        {
+          "name": "Cloaked Assassin",
+          "description": "If this model is equipped with a Sanctus Bio-dagger, enemy units cannot use the Fire Overwatch Stratagem to shoot at this model."
+        },
+        {
+          "name": "Deadly Crossfire",
+          "description": "In your Shooting phase, each time you select a **^^Crossfire^^** unit to shoot, you can select up to two other **^^Crossfire^^** units from your Crusade army that are eligible to shoot to perform a Deadly Crossfire, Then, you can select one enemy unit that would be an eligible target for one or more ranged weapons equipped by models in each of the selected **^^Crossfire^^** units. Until the end of the turn, that enemy unit is a Crossfire target.\n\nEach time one of those selected **^^Crossfire^^** units makes a ranged attack, models in that unit can only target their Crossfire target, and:\n- If two **^^Crossfire^^** units were selected to perform a Deadly Crossfire against the at enemy unit, add 1 to the Hit roll.\n- If three **^^Crossfire^^** units were selected to perform a Deadly Crossfire against that enemy unit, add 1 to the Hit roll and add 1 to the Wound roll."
+        },
+        {
+          "name": "Shrewd Strategy",
+          "description": "You gain 6 Planning points, which you can spend to purchase Shrewd Strategy abilities to use during that battle."
+        },
+        {
+          "name": "Beloved of the Cult",
+          "description": "Each time a unit that is beloved of the cult gains 1 or more XP in a Crusade battle and survives that battle, after that battle, roll one D6 for each other unit from your Crusade army that survived that battle: on a 6, the unit you rolled for gains 1XP."
+        }
+      ]
+    },
+    {
+      "id": "4c63-309e-88e3-7d17",
+      "name": "Tectonic Fragdrill [Legends]",
+      "points": 125,
+      "keywords": [
+        "Fortification",
+        "Vehicle",
+        "Tectonic Fragdrill"
+      ],
+      "factionKeywords": [
+        "Genestealer Cults"
+      ],
+      "stats": {
+        "M": "-",
+        "T": "11",
+        "SV": "3+",
+        "W": "14",
+        "LD": "7+",
+        "OC": "0"
+      },
+      "rangedWeapons": [],
+      "meleeWeapons": [
+        {
+          "name": "Fragdrill",
+          "range": "Melee",
+          "A": "6",
+          "WS": "6+",
+          "S": "12",
+          "AP": "-2",
+          "D": "D6",
+          "keywords": []
+        }
+      ],
+      "abilities": [
+        {
+          "name": "Tectonic Fragdrill",
+          "description": "Friendly GENESTEALER CULT INFANTRY models can be set up or end any type of move on top of the floor sections of this FORTIFICATION."
+        },
+        {
+          "name": "Underground Egress",
+          "description": "Each time one of your Cult Ambush markers is removed as the result of an enemy unit ending any kind of move within 9\" of it, you can instead move that marker so that it is wholly within 9\" of this FORTIFICATION and more than 9\" horizontally away from all enemy units (if this is not possible, that marker is removed as normal)."
+        },
+        {
+          "name": "Manufactorum Cover",
+          "description": "Each time a ranged attack is allocated to a model, if that model is not fully visible to every model in the attacking unit because of this FORTIFICATION, that model has the Benefit of Cover against that attack."
+        },
+        {
+          "name": "Fortification",
+          "description": "While an enemy unit is only within Engagement Range of one or more FORTIFICATION from your army:\n■ That unit can still be selected as the target of ranged attacks, but each time such an attack is made, unless it is made with a Pistol, subtract 1 from the Hit roll.\n■ Models in that unit do not need to take Desperate Escape tests due to Falling Back while Battle-shocked, except for those that will move over enemy models when doing so."
+        }
+      ]
+    },
+    {
+      "id": "908a-9fd8-2270-8dbd",
+      "name": "Benefictus",
+      "points": 70,
+      "keywords": [
+        "Character",
+        "Infantry",
+        "Psyker",
+        "Great Devourer"
+      ],
+      "factionKeywords": [
+        "Genestealer Cults"
+      ],
+      "stats": {
+        "M": "6\"",
+        "T": "3",
+        "SV": "5+",
+        "W": "3",
+        "LD": "7+",
+        "OC": "1"
+      },
+      "rangedWeapons": [
+        {
+          "name": "➤ Psionic cascade - witchfire",
+          "range": "18\"",
+          "A": "1",
+          "BS": "3+",
+          "S": "12",
+          "AP": "-3",
+          "D": "D6+1",
+          "keywords": [
+            "Ignores Cover",
+            "Psychic"
+          ]
+        },
+        {
+          "name": "➤ Psionic cascade - focused witchfire",
+          "range": "18\"",
+          "A": "2",
+          "BS": "3+",
+          "S": "12",
+          "AP": "-3",
+          "D": "D6+1",
+          "keywords": [
+            "Hazardous",
+            "Ignores Cover",
+            "Psychic"
+          ]
+        }
+      ],
+      "meleeWeapons": [
+        {
+          "name": "Close combat weapon",
+          "range": "Melee",
+          "A": "2",
+          "WS": "3+",
+          "S": "3",
+          "AP": "0",
+          "D": "1",
+          "keywords": []
+        }
+      ],
+      "abilities": [
+        {
+          "name": "Bio-horror Disruption (Psychic)",
+          "description": "While this model is leading a unit, ranged weapons equipped by models in that unit have the [LETHAL HITS] ability."
+        },
+        {
+          "name": "Psionic Shield (Psychic)",
+          "description": "Once per battle, at the start of any phase, this model can use this ability. If it does, until the end of the phase, this model has a 4+ invulnerable save."
+        },
+        {
+          "name": "Deadly Crossfire",
+          "description": "In your Shooting phase, each time you select a **^^Crossfire^^** unit to shoot, you can select up to two other **^^Crossfire^^** units from your Crusade army that are eligible to shoot to perform a Deadly Crossfire, Then, you can select one enemy unit that would be an eligible target for one or more ranged weapons equipped by models in each of the selected **^^Crossfire^^** units. Until the end of the turn, that enemy unit is a Crossfire target.\n\nEach time one of those selected **^^Crossfire^^** units makes a ranged attack, models in that unit can only target their Crossfire target, and:\n- If two **^^Crossfire^^** units were selected to perform a Deadly Crossfire against the at enemy unit, add 1 to the Hit roll.\n- If three **^^Crossfire^^** units were selected to perform a Deadly Crossfire against that enemy unit, add 1 to the Hit roll and add 1 to the Wound roll."
+        },
+        {
+          "name": "Shrewd Strategy",
+          "description": "You gain 6 Planning points, which you can spend to purchase Shrewd Strategy abilities to use during that battle."
+        },
+        {
+          "name": "Beloved of the Cult",
+          "description": "Each time a unit that is beloved of the cult gains 1 or more XP in a Crusade battle and survives that battle, after that battle, roll one D6 for each other unit from your Crusade army that survived that battle: on a 6, the unit you rolled for gains 1XP."
+        }
+      ]
+    },
+    {
+      "id": "0f8d-ba1b-c2cf-c8e7",
+      "name": "Cult Insurrectionist [Crucible]",
+      "points": 80,
+      "keywords": [
+        "Character",
+        "Infantry",
+        "Crucible",
+        "Great Devourer",
+        "Cult Insurrectionist"
+      ],
+      "factionKeywords": [
+        "Genestealer Cults"
+      ],
+      "stats": {
+        "M": "6\"",
+        "T": "3",
+        "SV": "5+",
+        "W": "4",
+        "LD": "6+",
+        "OC": "1"
+      },
+      "rangedWeapons": [
+        {
+          "name": "Demolition charges",
+          "range": "6\"",
+          "A": "D6",
+          "BS": "3+",
+          "S": "9",
+          "AP": "-2",
+          "D": "2",
+          "keywords": [
+            "Assault",
+            "Blast",
+            "One Shot"
+          ]
+        },
+        {
+          "name": "➤ Grenade launcher - frag",
+          "range": "24\"",
+          "A": "D3",
+          "BS": "3+",
+          "S": "4",
+          "AP": "0",
+          "D": "1",
+          "keywords": [
+            "Blast"
+          ]
+        },
+        {
+          "name": "➤ Grenade launcher - krak",
+          "range": "24\"",
+          "A": "1",
+          "BS": "3+",
+          "S": "9",
+          "AP": "-2",
+          "D": "D3",
+          "keywords": []
+        },
+        {
+          "name": "Heavy stubber",
+          "range": "36\"",
+          "A": "3",
+          "BS": "3+",
+          "S": "4",
+          "AP": "0",
+          "D": "1",
+          "keywords": [
+            "Rapid Fire 3"
+          ]
+        },
+        {
+          "name": "Hybrid firearm",
+          "range": "24\"",
+          "A": "1",
+          "BS": "3+",
+          "S": "3",
+          "AP": "0",
+          "D": "1",
+          "keywords": [
+            "Rapid Fire 1"
+          ]
+        },
+        {
+          "name": "Mining laser",
+          "range": "24\"",
+          "A": "1",
+          "BS": "4+",
+          "S": "10",
+          "AP": "-3",
+          "D": "D6+1",
+          "keywords": [
+            "Heavy"
+          ]
+        },
+        {
+          "name": "Seismic cannon",
+          "range": "24\"",
+          "A": "2",
+          "BS": "4+",
+          "S": "6",
+          "AP": "-1",
+          "D": "D3",
+          "keywords": [
+            "Heavy",
+            "Rapid Fire 2"
+          ]
+        },
+        {
+          "name": "Chemical vials",
+          "range": "6\"",
+          "A": "1",
+          "BS": "3+",
+          "S": "1",
+          "AP": "-1",
+          "D": "2",
+          "keywords": [
+            "Anti-Infantry 2+"
+          ]
+        },
+        {
+          "name": "Cult sniper rifle",
+          "range": "36\"",
+          "A": "1",
+          "BS": "3+",
+          "S": "7",
+          "AP": "-2",
+          "D": "3",
+          "keywords": [
+            "Anti-Psyker 2+",
+            "Heavy",
+            "Precision"
+          ]
+        },
+        {
+          "name": "Flamer",
+          "range": "12\"",
+          "A": "D6",
+          "BS": "N/A",
+          "S": "4",
+          "AP": "0",
+          "D": "1",
+          "keywords": [
+            "Ignores Cover",
+            "Torrent"
+          ]
+        },
+        {
+          "name": "➤ Psionic cascade - witchfire",
+          "range": "18\"",
+          "A": "1",
+          "BS": "3+",
+          "S": "12",
+          "AP": "-3",
+          "D": "D6+1",
+          "keywords": [
+            "Ignores Cover",
+            "Psychic"
+          ]
+        },
+        {
+          "name": "➤ Psionic cascade - focused witchfire",
+          "range": "18\"",
+          "A": "2",
+          "BS": "3+",
+          "S": "12",
+          "AP": "-3",
+          "D": "D6+1",
+          "keywords": [
+            "Hazardous",
+            "Ignores Cover",
+            "Psychic"
+          ]
+        },
+        {
+          "name": "Webber",
+          "range": "12\"",
+          "A": "D6",
+          "BS": "N/A",
+          "S": "2",
+          "AP": "0",
+          "D": "1",
+          "keywords": [
+            "Devastating Wounds",
+            "Torrent"
+          ]
+        },
+        {
+          "name": "Remote explosives",
+          "range": "24\"",
+          "A": "D6+3",
+          "BS": "3+",
+          "S": "5",
+          "AP": "0",
+          "D": "1",
+          "keywords": [
+            "Blast",
+            "Indirect Fire"
+          ]
+        },
+        {
+          "name": "Anointed pistol",
+          "range": "12\"",
+          "A": "1",
+          "BS": "2+",
+          "S": "4",
+          "AP": "0",
+          "D": "1",
+          "keywords": [
+            "Pistol"
+          ]
+        },
+        {
+          "name": "Autopistol",
+          "range": "12\"",
+          "A": "1",
+          "BS": "2+",
+          "S": "3",
+          "AP": "0",
+          "D": "1",
+          "keywords": [
+            "Pistol"
+          ]
+        },
+        {
+          "name": "Liberator autostub",
+          "range": "12\"",
+          "A": "2",
+          "BS": "2+",
+          "S": "6",
+          "AP": "-2",
+          "D": "1",
+          "keywords": [
+            "Devastating Wounds",
+            "Pistol"
+          ]
+        },
+        {
+          "name": "Scoped needle pistol",
+          "range": "18\"",
+          "A": "1",
+          "BS": "2+",
+          "S": "1",
+          "AP": "0",
+          "D": "D3",
+          "keywords": [
+            "Anti-infantry 2+",
+            "Ignores Cover",
+            "Pistol"
+          ]
+        },
+        {
+          "name": "Hand flamer",
+          "range": "12\"",
+          "A": "D6",
+          "BS": "N/A",
+          "S": "3",
+          "AP": "0",
+          "D": "1",
+          "keywords": [
+            "Ignores Cover",
+            "Pistol",
+            "Torrent"
+          ]
+        }
+      ],
+      "meleeWeapons": [
+        {
+          "name": "Bio-dagger",
+          "range": "Melee",
+          "A": "6",
+          "WS": "2+",
+          "S": "3",
+          "AP": "-2",
+          "D": "2",
+          "keywords": [
+            "Anti-infantry 3+",
+            "Precision"
+          ]
+        },
+        {
+          "name": "Close combat weapon",
+          "range": "Melee",
+          "A": "4",
+          "WS": "3+",
+          "S": "3",
+          "AP": "0",
+          "D": "1",
+          "keywords": []
+        },
+        {
+          "name": "Heavy mining tool",
+          "range": "Melee",
+          "A": "3",
+          "WS": "3+",
+          "S": "5",
+          "AP": "-2",
+          "D": "3",
+          "keywords": [
+            "Anti-Vehicle 4+"
+          ]
+        },
+        {
+          "name": "➤ Metamorph mutations - strike",
+          "range": "Melee",
+          "A": "3",
+          "WS": "2+",
+          "S": "5",
+          "AP": "-1",
+          "D": "2",
+          "keywords": []
+        },
+        {
+          "name": "➤ Metamorph mutations - sweep",
+          "range": "Melee",
+          "A": "5",
+          "WS": "2+",
+          "S": "4",
+          "AP": "-1",
+          "D": "1",
+          "keywords": []
+        },
+        {
+          "name": "Power weapon",
+          "range": "Melee",
+          "A": "4",
+          "WS": "2+",
+          "S": "4",
+          "AP": "-2",
+          "D": "1",
+          "keywords": []
+        },
+        {
+          "name": "Cult bonesword",
+          "range": "Melee",
+          "A": "5",
+          "WS": "2+",
+          "S": "5",
+          "AP": "-2",
+          "D": "1",
+          "keywords": []
+        },
+        {
+          "name": "Cult claws and talons",
+          "range": "Melee",
+          "A": "4",
+          "WS": "2+",
+          "S": "4",
+          "AP": "-2",
+          "D": "1",
+          "keywords": []
+        },
+        {
+          "name": "Force stave",
+          "range": "Melee",
+          "A": "3",
+          "WS": "3+",
+          "S": "5",
+          "AP": "-1",
+          "D": "D3",
+          "keywords": [
+            "Psychic"
+          ]
+        },
+        {
+          "name": "Injector goad",
+          "range": "Melee",
+          "A": "1",
+          "WS": "3+",
+          "S": "2",
+          "AP": "0",
+          "D": "D3",
+          "keywords": [
+            "Anti-infantry 2+"
+          ]
+        },
+        {
+          "name": "Toxin injector claw",
+          "range": "Melee",
+          "A": "2",
+          "WS": "2+",
+          "S": "2",
+          "AP": "0",
+          "D": "D3",
+          "keywords": [
+            "Anti-infantry 2+",
+            "Extra Attacks"
+          ]
+        }
+      ],
+      "abilities": [
+        {
+          "name": "Cult Demagogue",
+          "description": "While this model is leading a unit, each time a model in that unit makes an attack, you can re-roll the Hit roll."
+        },
+        {
+          "name": "Leader",
+          "description": "This model can be attached to the following units:\n- **^^Acolyte Hybrids with Hand Flamers^^**\n- **^^Acolyte Hybrids with Autopistols^^**\n- **^^Hybrid Metamorphs^^**\n- **^^Neophyte Hybrids^^**"
+        },
+        {
+          "name": "Deadly Crossfire",
+          "description": "In your Shooting phase, each time you select a **^^Crossfire^^** unit to shoot, you can select up to two other **^^Crossfire^^** units from your Crusade army that are eligible to shoot to perform a Deadly Crossfire, Then, you can select one enemy unit that would be an eligible target for one or more ranged weapons equipped by models in each of the selected **^^Crossfire^^** units. Until the end of the turn, that enemy unit is a Crossfire target.\n\nEach time one of those selected **^^Crossfire^^** units makes a ranged attack, models in that unit can only target their Crossfire target, and:\n- If two **^^Crossfire^^** units were selected to perform a Deadly Crossfire against the at enemy unit, add 1 to the Hit roll.\n- If three **^^Crossfire^^** units were selected to perform a Deadly Crossfire against that enemy unit, add 1 to the Hit roll and add 1 to the Wound roll."
+        },
+        {
+          "name": "Shrewd Strategy",
+          "description": "You gain 6 Planning points, which you can spend to purchase Shrewd Strategy abilities to use during that battle."
+        },
+        {
+          "name": "Beloved of the Cult",
+          "description": "Each time a unit that is beloved of the cult gains 1 or more XP in a Crusade battle and survives that battle, after that battle, roll one D6 for each other unit from your Crusade army that survived that battle: on a 6, the unit you rolled for gains 1XP."
+        },
+        {
+          "name": "Dirtcycle",
+          "description": "Change this model's Move characteristic to 12\", its Toughness characteristic to 4, remove the **^^Infantry^^** keyword, and add the **^^Mounted^^** keyword. Remove the Deep Strike and Infiltrators abilities (if applicable), it gains the Scouts 9\" and Stealth abilities, and replace the list of units this model can be attached to: **^^Atalan Jackals^^**."
+        },
+        {
+          "name": "Shepherd of the Blessed",
+          "description": "Replace the list of units this model can be attached to: **^^Aberrants^^**."
+        },
+        {
+          "name": "Voice of New Truths",
+          "description": "In your Command phase, one model from your army with this ability can use it. If it does, select one enemy unit within 18\" of it; that enemy unit must take a Battle-shock test."
+        },
+        {
+          "name": "Blessed Venom",
+          "description": "Melee weapons equipped by models in this unit have the **[ANTI-INFANTRY 3+]** ability"
+        },
+        {
+          "name": "Elusive",
+          "description": "Once per turn, when an enemy unit ends a Normal, Advance or Fall Back move within 9\" of this model, if this model is not within Engagement Range of one or more enemy units, it can make a Normal move of up to 6\"."
+        },
+        {
+          "name": "Insidious Evasion",
+          "description": "At the end of your opponent's Fight phase, if this unit is not within Engagement Range of any enemy units, once per battle, you may remove this unit from the battlefield and place it into Strategic Reserves."
+        },
+        {
+          "name": "Psychic Spoor",
+          "description": "At the start of the first battle round, select one enemy unit to be this model's prey. Each time this model makes an attack that targets it prey, you can re-roll the Hit roll and you can re-roll the Wound roll."
+        },
+        {
+          "name": "Shadow Killer",
+          "description": "If this model is no part of an Attached unit and if this model is equipped with no ranged weapons (excluding pistols), enemy units cannot use the Fire Overwatch Stratagem to shoot at this model."
+        },
+        {
+          "name": "Spiritual Leader",
+          "description": "Once per battle, at the start of any phase, you can select one friendly **^^Genestealer Cults^^** unit that is Battle-shocked and within 12\" of this model. That unit is no longer Battle-shocked."
+        },
+        {
+          "name": "Twisted Science",
+          "description": "While this model is leading a unit, melee weapons equipped by models in that unit have the **[LETHAL HITS]** ability."
+        }
+      ]
+    },
+    {
+      "id": "5138-978e-c8e6-b90c",
+      "name": "Cult Guerrilla [Crucible]",
+      "points": 60,
+      "keywords": [
+        "Character",
+        "Infantry",
+        "Crucible",
+        "Great Devourer",
+        "Grenades",
+        "Cult Guerrilla"
+      ],
+      "factionKeywords": [
+        "Genestealer Cults"
+      ],
+      "stats": {
+        "M": "6\"",
+        "T": "3",
+        "SV": "5+",
+        "W": "3",
+        "LD": "7+",
+        "OC": "1"
+      },
+      "rangedWeapons": [
+        {
+          "name": "Demolition charges",
+          "range": "6\"",
+          "A": "D6",
+          "BS": "3+",
+          "S": "9",
+          "AP": "-2",
+          "D": "2",
+          "keywords": [
+            "Assault",
+            "Blast",
+            "One Shot"
+          ]
+        },
+        {
+          "name": "➤ Grenade launcher - frag",
+          "range": "24\"",
+          "A": "D3",
+          "BS": "3+",
+          "S": "4",
+          "AP": "0",
+          "D": "1",
+          "keywords": [
+            "Blast"
+          ]
+        },
+        {
+          "name": "➤ Grenade launcher - krak",
+          "range": "24\"",
+          "A": "1",
+          "BS": "3+",
+          "S": "9",
+          "AP": "-2",
+          "D": "D3",
+          "keywords": []
+        },
+        {
+          "name": "Heavy stubber",
+          "range": "36\"",
+          "A": "3",
+          "BS": "3+",
+          "S": "4",
+          "AP": "0",
+          "D": "1",
+          "keywords": [
+            "Rapid Fire 3"
+          ]
+        },
+        {
+          "name": "Hybrid firearm",
+          "range": "24\"",
+          "A": "1",
+          "BS": "3+",
+          "S": "3",
+          "AP": "0",
+          "D": "1",
+          "keywords": [
+            "Rapid Fire 1"
+          ]
+        },
+        {
+          "name": "Mining laser",
+          "range": "24\"",
+          "A": "1",
+          "BS": "4+",
+          "S": "10",
+          "AP": "-3",
+          "D": "D6+1",
+          "keywords": [
+            "Heavy"
+          ]
+        },
+        {
+          "name": "Seismic cannon",
+          "range": "24\"",
+          "A": "2",
+          "BS": "4+",
+          "S": "6",
+          "AP": "-1",
+          "D": "D3",
+          "keywords": [
+            "Heavy",
+            "Rapid Fire 2"
+          ]
+        },
+        {
+          "name": "Chemical vials",
+          "range": "6\"",
+          "A": "1",
+          "BS": "3+",
+          "S": "1",
+          "AP": "-1",
+          "D": "2",
+          "keywords": [
+            "Anti-Infantry 2+"
+          ]
+        },
+        {
+          "name": "Cult sniper rifle",
+          "range": "36\"",
+          "A": "1",
+          "BS": "3+",
+          "S": "7",
+          "AP": "-2",
+          "D": "3",
+          "keywords": [
+            "Anti-Psyker 2+",
+            "Heavy",
+            "Precision"
+          ]
+        },
+        {
+          "name": "Flamer",
+          "range": "12\"",
+          "A": "D6",
+          "BS": "N/A",
+          "S": "4",
+          "AP": "0",
+          "D": "1",
+          "keywords": [
+            "Ignores Cover",
+            "Torrent"
+          ]
+        },
+        {
+          "name": "➤ Psionic cascade - witchfire",
+          "range": "18\"",
+          "A": "1",
+          "BS": "3+",
+          "S": "12",
+          "AP": "-3",
+          "D": "D6+1",
+          "keywords": [
+            "Ignores Cover",
+            "Psychic"
+          ]
+        },
+        {
+          "name": "➤ Psionic cascade - focused witchfire",
+          "range": "18\"",
+          "A": "2",
+          "BS": "3+",
+          "S": "12",
+          "AP": "-3",
+          "D": "D6+1",
+          "keywords": [
+            "Hazardous",
+            "Ignores Cover",
+            "Psychic"
+          ]
+        },
+        {
+          "name": "Webber",
+          "range": "12\"",
+          "A": "D6",
+          "BS": "N/A",
+          "S": "2",
+          "AP": "0",
+          "D": "1",
+          "keywords": [
+            "Devastating Wounds",
+            "Torrent"
+          ]
+        },
+        {
+          "name": "Remote explosives",
+          "range": "24\"",
+          "A": "D6+3",
+          "BS": "3+",
+          "S": "5",
+          "AP": "0",
+          "D": "1",
+          "keywords": [
+            "Blast",
+            "Indirect Fire"
+          ]
+        },
+        {
+          "name": "Anointed pistol",
+          "range": "12\"",
+          "A": "1",
+          "BS": "2+",
+          "S": "4",
+          "AP": "0",
+          "D": "1",
+          "keywords": [
+            "Pistol"
+          ]
+        },
+        {
+          "name": "Autopistol",
+          "range": "12\"",
+          "A": "1",
+          "BS": "2+",
+          "S": "3",
+          "AP": "0",
+          "D": "1",
+          "keywords": [
+            "Pistol"
+          ]
+        },
+        {
+          "name": "Liberator autostub",
+          "range": "12\"",
+          "A": "2",
+          "BS": "2+",
+          "S": "6",
+          "AP": "-2",
+          "D": "1",
+          "keywords": [
+            "Devastating Wounds",
+            "Pistol"
+          ]
+        },
+        {
+          "name": "Scoped needle pistol",
+          "range": "18\"",
+          "A": "1",
+          "BS": "2+",
+          "S": "1",
+          "AP": "0",
+          "D": "D3",
+          "keywords": [
+            "Anti-infantry 2+",
+            "Ignores Cover",
+            "Pistol"
+          ]
+        },
+        {
+          "name": "Hand flamer",
+          "range": "12\"",
+          "A": "D6",
+          "BS": "N/A",
+          "S": "3",
+          "AP": "0",
+          "D": "1",
+          "keywords": [
+            "Ignores Cover",
+            "Pistol",
+            "Torrent"
+          ]
+        }
+      ],
+      "meleeWeapons": [
+        {
+          "name": "Bio-dagger",
+          "range": "Melee",
+          "A": "6",
+          "WS": "2+",
+          "S": "3",
+          "AP": "-2",
+          "D": "2",
+          "keywords": [
+            "Anti-infantry 3+",
+            "Precision"
+          ]
+        },
+        {
+          "name": "Close combat weapon",
+          "range": "Melee",
+          "A": "4",
+          "WS": "3+",
+          "S": "3",
+          "AP": "0",
+          "D": "1",
+          "keywords": []
+        },
+        {
+          "name": "Heavy mining tool",
+          "range": "Melee",
+          "A": "3",
+          "WS": "3+",
+          "S": "5",
+          "AP": "-2",
+          "D": "3",
+          "keywords": [
+            "Anti-Vehicle 4+"
+          ]
+        },
+        {
+          "name": "➤ Metamorph mutations - strike",
+          "range": "Melee",
+          "A": "3",
+          "WS": "2+",
+          "S": "5",
+          "AP": "-1",
+          "D": "2",
+          "keywords": []
+        },
+        {
+          "name": "➤ Metamorph mutations - sweep",
+          "range": "Melee",
+          "A": "5",
+          "WS": "2+",
+          "S": "4",
+          "AP": "-1",
+          "D": "1",
+          "keywords": []
+        },
+        {
+          "name": "Power weapon",
+          "range": "Melee",
+          "A": "4",
+          "WS": "2+",
+          "S": "4",
+          "AP": "-2",
+          "D": "1",
+          "keywords": []
+        },
+        {
+          "name": "Cult bonesword",
+          "range": "Melee",
+          "A": "5",
+          "WS": "2+",
+          "S": "5",
+          "AP": "-2",
+          "D": "1",
+          "keywords": []
+        },
+        {
+          "name": "Cult claws and talons",
+          "range": "Melee",
+          "A": "4",
+          "WS": "2+",
+          "S": "4",
+          "AP": "-2",
+          "D": "1",
+          "keywords": []
+        },
+        {
+          "name": "Force stave",
+          "range": "Melee",
+          "A": "3",
+          "WS": "3+",
+          "S": "5",
+          "AP": "-1",
+          "D": "D3",
+          "keywords": [
+            "Psychic"
+          ]
+        },
+        {
+          "name": "Injector goad",
+          "range": "Melee",
+          "A": "1",
+          "WS": "3+",
+          "S": "2",
+          "AP": "0",
+          "D": "D3",
+          "keywords": [
+            "Anti-infantry 2+"
+          ]
+        },
+        {
+          "name": "Toxin injector claw",
+          "range": "Melee",
+          "A": "2",
+          "WS": "2+",
+          "S": "2",
+          "AP": "0",
+          "D": "D3",
+          "keywords": [
+            "Anti-infantry 2+",
+            "Extra Attacks"
+          ]
+        }
+      ],
+      "abilities": [
+        {
+          "name": "Battlefield Analysis",
+          "description": "Once per battle round, one model from your army with this ability can use it when its unit is targeted with a Stratagem. If it does, reduce the CP cost of that use of that Stratagem by 1CP."
+        },
+        {
+          "name": "Leader",
+          "description": "This model can be attached to the following units:\n- **^^Acolyte Hybrids with Hand Flamers^^**\n- **^^Acolyte Hybrids with Autopistols^^**\n- **^^Hybrid Metamorphs^^**\n- **^^Neophyte Hybrids^^**"
+        },
+        {
+          "name": "Deadly Crossfire",
+          "description": "In your Shooting phase, each time you select a **^^Crossfire^^** unit to shoot, you can select up to two other **^^Crossfire^^** units from your Crusade army that are eligible to shoot to perform a Deadly Crossfire, Then, you can select one enemy unit that would be an eligible target for one or more ranged weapons equipped by models in each of the selected **^^Crossfire^^** units. Until the end of the turn, that enemy unit is a Crossfire target.\n\nEach time one of those selected **^^Crossfire^^** units makes a ranged attack, models in that unit can only target their Crossfire target, and:\n- If two **^^Crossfire^^** units were selected to perform a Deadly Crossfire against the at enemy unit, add 1 to the Hit roll.\n- If three **^^Crossfire^^** units were selected to perform a Deadly Crossfire against that enemy unit, add 1 to the Hit roll and add 1 to the Wound roll."
+        },
+        {
+          "name": "Shrewd Strategy",
+          "description": "You gain 6 Planning points, which you can spend to purchase Shrewd Strategy abilities to use during that battle."
+        },
+        {
+          "name": "Beloved of the Cult",
+          "description": "Each time a unit that is beloved of the cult gains 1 or more XP in a Crusade battle and survives that battle, after that battle, roll one D6 for each other unit from your Crusade army that survived that battle: on a 6, the unit you rolled for gains 1XP."
+        },
+        {
+          "name": "Dirtcycle",
+          "description": "Change this model's Move characteristic to 12\", its Toughness characteristic to 4, remove the **^^Infantry^^** keyword, and add the **^^Mounted^^** keyword. Remove the Deep Strike and Infiltrators abilities (if applicable), it gains the Scouts 9\" and Stealth abilities, and replace the list of units this model can be attached to: **^^Atalan Jackals^^**."
+        },
+        {
+          "name": "Shepherd of the Blessed",
+          "description": "Replace the list of units this model can be attached to: **^^Aberrants^^**."
+        },
+        {
+          "name": "Voice of New Truths",
+          "description": "In your Command phase, one model from your army with this ability can use it. If it does, select one enemy unit within 18\" of it; that enemy unit must take a Battle-shock test."
+        },
+        {
+          "name": "Blessed Venom",
+          "description": "Melee weapons equipped by models in this unit have the **[ANTI-INFANTRY 3+]** ability"
+        },
+        {
+          "name": "Elusive",
+          "description": "Once per turn, when an enemy unit ends a Normal, Advance or Fall Back move within 9\" of this model, if this model is not within Engagement Range of one or more enemy units, it can make a Normal move of up to 6\"."
+        },
+        {
+          "name": "Insidious Evasion",
+          "description": "At the end of your opponent's Fight phase, if this unit is not within Engagement Range of any enemy units, once per battle, you may remove this unit from the battlefield and place it into Strategic Reserves."
+        },
+        {
+          "name": "Psychic Spoor",
+          "description": "At the start of the first battle round, select one enemy unit to be this model's prey. Each time this model makes an attack that targets it prey, you can re-roll the Hit roll and you can re-roll the Wound roll."
+        },
+        {
+          "name": "Shadow Killer",
+          "description": "If this model is no part of an Attached unit and if this model is equipped with no ranged weapons (excluding pistols), enemy units cannot use the Fire Overwatch Stratagem to shoot at this model."
+        },
+        {
+          "name": "Spiritual Leader",
+          "description": "Once per battle, at the start of any phase, you can select one friendly **^^Genestealer Cults^^** unit that is Battle-shocked and within 12\" of this model. That unit is no longer Battle-shocked."
+        },
+        {
+          "name": "Twisted Science",
+          "description": "While this model is leading a unit, melee weapons equipped by models in that unit have the **[LETHAL HITS]** ability."
+        }
+      ]
+    },
+    {
+      "id": "678c-b59c-f85d-0a43",
+      "name": "Voice of the Patriarch [Crucible]",
+      "points": 70,
+      "keywords": [
+        "Character",
+        "Infantry",
+        "Crucible",
+        "Great Devourer",
+        "Psyker",
+        "Voice of the Patriarch"
+      ],
+      "factionKeywords": [
+        "Genestealer Cults"
+      ],
+      "stats": {
+        "M": "6\"",
+        "T": "3",
+        "SV": "5+",
+        "W": "4",
+        "LD": "6+",
+        "OC": "1"
+      },
+      "rangedWeapons": [
+        {
+          "name": "Demolition charges",
+          "range": "6\"",
+          "A": "D6",
+          "BS": "3+",
+          "S": "9",
+          "AP": "-2",
+          "D": "2",
+          "keywords": [
+            "Assault",
+            "Blast",
+            "One Shot"
+          ]
+        },
+        {
+          "name": "➤ Grenade launcher - frag",
+          "range": "24\"",
+          "A": "D3",
+          "BS": "3+",
+          "S": "4",
+          "AP": "0",
+          "D": "1",
+          "keywords": [
+            "Blast"
+          ]
+        },
+        {
+          "name": "➤ Grenade launcher - krak",
+          "range": "24\"",
+          "A": "1",
+          "BS": "3+",
+          "S": "9",
+          "AP": "-2",
+          "D": "D3",
+          "keywords": []
+        },
+        {
+          "name": "Heavy stubber",
+          "range": "36\"",
+          "A": "3",
+          "BS": "3+",
+          "S": "4",
+          "AP": "0",
+          "D": "1",
+          "keywords": [
+            "Rapid Fire 3"
+          ]
+        },
+        {
+          "name": "Hybrid firearm",
+          "range": "24\"",
+          "A": "1",
+          "BS": "3+",
+          "S": "3",
+          "AP": "0",
+          "D": "1",
+          "keywords": [
+            "Rapid Fire 1"
+          ]
+        },
+        {
+          "name": "Mining laser",
+          "range": "24\"",
+          "A": "1",
+          "BS": "4+",
+          "S": "10",
+          "AP": "-3",
+          "D": "D6+1",
+          "keywords": [
+            "Heavy"
+          ]
+        },
+        {
+          "name": "Seismic cannon",
+          "range": "24\"",
+          "A": "2",
+          "BS": "4+",
+          "S": "6",
+          "AP": "-1",
+          "D": "D3",
+          "keywords": [
+            "Heavy",
+            "Rapid Fire 2"
+          ]
+        },
+        {
+          "name": "Chemical vials",
+          "range": "6\"",
+          "A": "1",
+          "BS": "3+",
+          "S": "1",
+          "AP": "-1",
+          "D": "2",
+          "keywords": [
+            "Anti-Infantry 2+"
+          ]
+        },
+        {
+          "name": "Cult sniper rifle",
+          "range": "36\"",
+          "A": "1",
+          "BS": "3+",
+          "S": "7",
+          "AP": "-2",
+          "D": "3",
+          "keywords": [
+            "Anti-Psyker 2+",
+            "Heavy",
+            "Precision"
+          ]
+        },
+        {
+          "name": "Flamer",
+          "range": "12\"",
+          "A": "D6",
+          "BS": "N/A",
+          "S": "4",
+          "AP": "0",
+          "D": "1",
+          "keywords": [
+            "Ignores Cover",
+            "Torrent"
+          ]
+        },
+        {
+          "name": "➤ Psionic cascade - witchfire",
+          "range": "18\"",
+          "A": "1",
+          "BS": "3+",
+          "S": "12",
+          "AP": "-3",
+          "D": "D6+1",
+          "keywords": [
+            "Ignores Cover",
+            "Psychic"
+          ]
+        },
+        {
+          "name": "➤ Psionic cascade - focused witchfire",
+          "range": "18\"",
+          "A": "2",
+          "BS": "3+",
+          "S": "12",
+          "AP": "-3",
+          "D": "D6+1",
+          "keywords": [
+            "Hazardous",
+            "Ignores Cover",
+            "Psychic"
+          ]
+        },
+        {
+          "name": "Webber",
+          "range": "12\"",
+          "A": "D6",
+          "BS": "N/A",
+          "S": "2",
+          "AP": "0",
+          "D": "1",
+          "keywords": [
+            "Devastating Wounds",
+            "Torrent"
+          ]
+        },
+        {
+          "name": "Remote explosives",
+          "range": "24\"",
+          "A": "D6+3",
+          "BS": "3+",
+          "S": "5",
+          "AP": "0",
+          "D": "1",
+          "keywords": [
+            "Blast",
+            "Indirect Fire"
+          ]
+        },
+        {
+          "name": "Anointed pistol",
+          "range": "12\"",
+          "A": "1",
+          "BS": "2+",
+          "S": "4",
+          "AP": "0",
+          "D": "1",
+          "keywords": [
+            "Pistol"
+          ]
+        },
+        {
+          "name": "Autopistol",
+          "range": "12\"",
+          "A": "1",
+          "BS": "2+",
+          "S": "3",
+          "AP": "0",
+          "D": "1",
+          "keywords": [
+            "Pistol"
+          ]
+        },
+        {
+          "name": "Liberator autostub",
+          "range": "12\"",
+          "A": "2",
+          "BS": "2+",
+          "S": "6",
+          "AP": "-2",
+          "D": "1",
+          "keywords": [
+            "Devastating Wounds",
+            "Pistol"
+          ]
+        },
+        {
+          "name": "Scoped needle pistol",
+          "range": "18\"",
+          "A": "1",
+          "BS": "2+",
+          "S": "1",
+          "AP": "0",
+          "D": "D3",
+          "keywords": [
+            "Anti-infantry 2+",
+            "Ignores Cover",
+            "Pistol"
+          ]
+        },
+        {
+          "name": "Hand flamer",
+          "range": "12\"",
+          "A": "D6",
+          "BS": "N/A",
+          "S": "3",
+          "AP": "0",
+          "D": "1",
+          "keywords": [
+            "Ignores Cover",
+            "Pistol",
+            "Torrent"
+          ]
+        }
+      ],
+      "meleeWeapons": [
+        {
+          "name": "Bio-dagger",
+          "range": "Melee",
+          "A": "6",
+          "WS": "2+",
+          "S": "3",
+          "AP": "-2",
+          "D": "2",
+          "keywords": [
+            "Anti-infantry 3+",
+            "Precision"
+          ]
+        },
+        {
+          "name": "Close combat weapon",
+          "range": "Melee",
+          "A": "4",
+          "WS": "3+",
+          "S": "3",
+          "AP": "0",
+          "D": "1",
+          "keywords": []
+        },
+        {
+          "name": "Heavy mining tool",
+          "range": "Melee",
+          "A": "3",
+          "WS": "3+",
+          "S": "5",
+          "AP": "-2",
+          "D": "3",
+          "keywords": [
+            "Anti-Vehicle 4+"
+          ]
+        },
+        {
+          "name": "➤ Metamorph mutations - strike",
+          "range": "Melee",
+          "A": "3",
+          "WS": "2+",
+          "S": "5",
+          "AP": "-1",
+          "D": "2",
+          "keywords": []
+        },
+        {
+          "name": "➤ Metamorph mutations - sweep",
+          "range": "Melee",
+          "A": "5",
+          "WS": "2+",
+          "S": "4",
+          "AP": "-1",
+          "D": "1",
+          "keywords": []
+        },
+        {
+          "name": "Power weapon",
+          "range": "Melee",
+          "A": "4",
+          "WS": "2+",
+          "S": "4",
+          "AP": "-2",
+          "D": "1",
+          "keywords": []
+        },
+        {
+          "name": "Cult bonesword",
+          "range": "Melee",
+          "A": "5",
+          "WS": "2+",
+          "S": "5",
+          "AP": "-2",
+          "D": "1",
+          "keywords": []
+        },
+        {
+          "name": "Cult claws and talons",
+          "range": "Melee",
+          "A": "4",
+          "WS": "2+",
+          "S": "4",
+          "AP": "-2",
+          "D": "1",
+          "keywords": []
+        },
+        {
+          "name": "Force stave",
+          "range": "Melee",
+          "A": "3",
+          "WS": "3+",
+          "S": "5",
+          "AP": "-1",
+          "D": "D3",
+          "keywords": [
+            "Psychic"
+          ]
+        },
+        {
+          "name": "Injector goad",
+          "range": "Melee",
+          "A": "1",
+          "WS": "3+",
+          "S": "2",
+          "AP": "0",
+          "D": "D3",
+          "keywords": [
+            "Anti-infantry 2+"
+          ]
+        },
+        {
+          "name": "Toxin injector claw",
+          "range": "Melee",
+          "A": "2",
+          "WS": "2+",
+          "S": "2",
+          "AP": "0",
+          "D": "D3",
+          "keywords": [
+            "Anti-infantry 2+",
+            "Extra Attacks"
+          ]
+        }
+      ],
+      "abilities": [
+        {
+          "name": "Biohorror Disruption (Psychic)",
+          "description": "Ranged weapons equipped by models in this unit have the **[LETHAL HITS]** ability."
+        },
+        {
+          "name": "Leader",
+          "description": "This model can be attached to the following units:\n- **^^Acolyte Hybrids with Hand Flamers^^**\n- **^^Acolyte Hybrids with Autopistols^^**\n- **^^Hybrid Metamorphs^^**\n- **^^Neophyte Hybrids^^**"
+        },
+        {
+          "name": "Deadly Crossfire",
+          "description": "In your Shooting phase, each time you select a **^^Crossfire^^** unit to shoot, you can select up to two other **^^Crossfire^^** units from your Crusade army that are eligible to shoot to perform a Deadly Crossfire, Then, you can select one enemy unit that would be an eligible target for one or more ranged weapons equipped by models in each of the selected **^^Crossfire^^** units. Until the end of the turn, that enemy unit is a Crossfire target.\n\nEach time one of those selected **^^Crossfire^^** units makes a ranged attack, models in that unit can only target their Crossfire target, and:\n- If two **^^Crossfire^^** units were selected to perform a Deadly Crossfire against the at enemy unit, add 1 to the Hit roll.\n- If three **^^Crossfire^^** units were selected to perform a Deadly Crossfire against that enemy unit, add 1 to the Hit roll and add 1 to the Wound roll."
+        },
+        {
+          "name": "Shrewd Strategy",
+          "description": "You gain 6 Planning points, which you can spend to purchase Shrewd Strategy abilities to use during that battle."
+        },
+        {
+          "name": "Beloved of the Cult",
+          "description": "Each time a unit that is beloved of the cult gains 1 or more XP in a Crusade battle and survives that battle, after that battle, roll one D6 for each other unit from your Crusade army that survived that battle: on a 6, the unit you rolled for gains 1XP."
+        },
+        {
+          "name": "Dirtcycle",
+          "description": "Change this model's Move characteristic to 12\", its Toughness characteristic to 4, remove the **^^Infantry^^** keyword, and add the **^^Mounted^^** keyword. Remove the Deep Strike and Infiltrators abilities (if applicable), it gains the Scouts 9\" and Stealth abilities, and replace the list of units this model can be attached to: **^^Atalan Jackals^^**."
+        },
+        {
+          "name": "Shepherd of the Blessed",
+          "description": "Replace the list of units this model can be attached to: **^^Aberrants^^**."
+        },
+        {
+          "name": "Voice of New Truths",
+          "description": "In your Command phase, one model from your army with this ability can use it. If it does, select one enemy unit within 18\" of it; that enemy unit must take a Battle-shock test."
+        },
+        {
+          "name": "Blessed Venom",
+          "description": "Melee weapons equipped by models in this unit have the **[ANTI-INFANTRY 3+]** ability"
+        },
+        {
+          "name": "Elusive",
+          "description": "Once per turn, when an enemy unit ends a Normal, Advance or Fall Back move within 9\" of this model, if this model is not within Engagement Range of one or more enemy units, it can make a Normal move of up to 6\"."
+        },
+        {
+          "name": "Insidious Evasion",
+          "description": "At the end of your opponent's Fight phase, if this unit is not within Engagement Range of any enemy units, once per battle, you may remove this unit from the battlefield and place it into Strategic Reserves."
+        },
+        {
+          "name": "Psychic Spoor",
+          "description": "At the start of the first battle round, select one enemy unit to be this model's prey. Each time this model makes an attack that targets it prey, you can re-roll the Hit roll and you can re-roll the Wound roll."
+        },
+        {
+          "name": "Shadow Killer",
+          "description": "If this model is no part of an Attached unit and if this model is equipped with no ranged weapons (excluding pistols), enemy units cannot use the Fire Overwatch Stratagem to shoot at this model."
+        },
+        {
+          "name": "Spiritual Leader",
+          "description": "Once per battle, at the start of any phase, you can select one friendly **^^Genestealer Cults^^** unit that is Battle-shocked and within 12\" of this model. That unit is no longer Battle-shocked."
+        },
+        {
+          "name": "Twisted Science",
+          "description": "While this model is leading a unit, melee weapons equipped by models in that unit have the **[LETHAL HITS]** ability."
+        }
+      ]
+    }
+  ],
+  "enhancements": []
+}

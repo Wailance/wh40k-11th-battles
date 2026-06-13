@@ -39,6 +39,12 @@ export interface PlayerScores {
   secondaryRoundVp: number[]
   tacticalHand: string[]
   tacticalDeck: string[]
+  /** Tactical: achieved this battle — kept for review, not active */
+  tacticalAchieved: string[]
+  /** Tactical: once per battle CP reroll used */
+  tacticalRerollUsed: boolean
+  /** Extra CP gained this battle round (max 1 beyond Command phase) */
+  extraCpThisRound: number
   /** Fixed mode: secondaries removed from active scoring */
   removedSecondaries: string[]
   /** Per-mission score button tallies (option id → counts per round) */
@@ -66,13 +72,13 @@ export interface GameState {
   matchupId: number | null
   /** Index into matchup terrain layout variants (0–2) */
   layoutVariantIndex: number
-  /** When mission map is missing, optional reference layout from another matchup */
-  mapReferenceMatchupId: number | null
   player1: PlayerSetup
   player2: PlayerSetup
   firstPlayer: 1 | 2
   attacker: 1 | 2
   battleRound: number
+  /** Pre-battle checklist (steps 7–11) */
+  preBattleChecks: boolean[]
   scores: {
     player1: PlayerScores
     player2: PlayerScores
