@@ -7,7 +7,8 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "tsc -b && vite build",
+    "build": "node scripts/generate-pwa-icons.mjs && tsc -b && vite build",
+    "build:pwa-icons": "node scripts/generate-pwa-icons.mjs",
     "verify": "node scripts/verify-missions.mjs && node scripts/verify-faction-map.mjs && node scripts/verify-list-engine.mjs",
     "build:army-data": "node scripts/build-army-data.mjs",
     "build:unit-art": "node scripts/build-unit-art.mjs",
@@ -39,6 +40,7 @@
     "tailwindcss": "^4.3.0",
     "typescript": "~6.0.2",
     "typescript-eslint": "^8.59.2",
-    "vite": "^8.0.12"
+    "vite": "^8.0.12",
+    "vite-plugin-pwa": "^1.3.0"
   }
 }
