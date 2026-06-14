@@ -41,7 +41,6 @@ export function GameRoundNav({
         </button>
 
         <div className="game-round-nav-center">
-          <p className="game-round-nav-title">{copy.game.roundVp(viewRound)}</p>
           <div
             className="game-round-progress"
             role="progressbar"
@@ -51,7 +50,17 @@ export function GameRoundNav({
             aria-label={copy.game.roundVp(viewRound)}
           >
             <div className="game-round-progress-fill" style={{ width: `${progressPct}%` }} />
+            <div className="game-round-progress-ticks" aria-hidden>
+              {Array.from({ length: MAX_ROUNDS - 1 }, (_, i) => (
+                <span
+                  key={i}
+                  className="game-round-progress-tick"
+                  style={{ left: `${((i + 1) / MAX_ROUNDS) * 100}%` }}
+                />
+              ))}
+            </div>
           </div>
+          <p className="game-round-nav-title">{copy.game.roundVp(viewRound)}</p>
         </div>
 
         <button
