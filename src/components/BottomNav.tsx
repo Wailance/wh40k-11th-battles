@@ -54,7 +54,7 @@ export function BottomNav({ compact = false }: { compact?: boolean }) {
             to={l.to}
             end={l.end}
             className={({ isActive }) =>
-              `relative flex flex-1 flex-col items-center justify-center gap-0.5 px-0.5 text-micro font-medium transition-colors ${
+              `relative flex flex-1 flex-col items-center justify-center gap-0.5 px-0.5 ${compact ? 'text-micro' : 'text-caption'} font-medium transition-colors ${
                 compact ? 'min-h-[2.75rem]' : 'min-h-[3.25rem]'
               } ${isActive ? 'text-accent' : 'text-muted'} ${
                 l.to === '/game' && !isActive ? 'text-crimson-bright' : ''

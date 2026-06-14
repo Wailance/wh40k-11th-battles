@@ -5,7 +5,6 @@ import { copy } from '../lib/copy'
 import { publicUrl } from '../lib/public-url'
 import { loadActiveGame, loadHistory } from '../lib/storage'
 import { getWinner } from '../lib/game-utils'
-import { calculateWtcScores } from '../lib/wtc-scoring'
 
 export function HomePage() {
   const navigate = useNavigate()
@@ -16,34 +15,12 @@ export function HomePage() {
   const p1Wins = history.filter((g) => getWinner(g) === 1).length
   const p2Wins = history.filter((g) => getWinner(g) === 2).length
   const draws = history.filter((g) => getWinner(g) === 0).length
-  const activeWtc =
-    hasActive && active
-      ? calculateWtcScores(active.scores.player1.vp, active.scores.player2.vp)
-      : null
 
   return (
     <div className="motion-stagger space-y-5">
       <Hero />
 
       <div className="space-y-3">
-        {hasActive && activeWtc && active && (
-          <Link
-            to="/game"
-            className="app-btn flex w-full min-h-[4.5rem] flex-col items-stretch justify-center gap-1 py-4 text-left"
-          >
-            <span className="text-caption font-medium uppercase tracking-widest text-white/80">
-              {copy.home.activeGame}
-            </span>
-            <span className="truncate font-display text-title tracking-wide">
-              {active.player1.name} vs {active.player2.name}
-            </span>
-            <span className="text-body font-normal text-white/75">
-              R{active.battleRound} · {active.scores.player1.vp}–{active.scores.player2.vp} VP · WTC{' '}
-              {activeWtc.player1}–{activeWtc.player2}
-            </span>
-          </Link>
-        )}
-
         {hasActive ? (
           <button
             type="button"
@@ -101,10 +78,10 @@ export function HomePage() {
         />
       </section>
 
-      <p className="text-center text-caption leading-relaxed text-muted/80">
+      <p className="text-center text-caption leading-relaxed text-muted">
         {copy.home.credit}
         <br />
-        <span className="text-muted/70">{copy.home.photoCredit}</span>
+        <span className="text-muted">{copy.home.photoCredit}</span>
       </p>
     </div>
   )

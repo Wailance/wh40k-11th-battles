@@ -31,8 +31,8 @@ export function SupportFooter() {
           {copied ? copy.support.copied : copy.support.copy}
         </span>
       </button>
-      <p className="mt-2 text-micro text-muted/70">{copy.support.hint}</p>
-      <p className="mt-5 text-caption leading-relaxed text-muted/80">
+      <p className="mt-2 text-caption text-muted">{copy.support.hint}</p>
+      <p className="mt-5 text-caption leading-relaxed text-muted">
         {copy.support.feedback}{' '}
         <a href={`mailto:${copy.support.email}`} className="text-accent underline-offset-2 hover:underline">
           {copy.support.email}
