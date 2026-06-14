@@ -1,0 +1,1 @@
+function e(e){let t=Math.max(0,e);return t<=5?10:Math.min(20,10+Math.ceil((t-5)/5))}function t(t,n){let r=t-n,i=Math.abs(r);if(r>=0){let t=e(r);return{player1:t,player2:20-t,margin:i}}let a=e(-r);return{player1:20-a,player2:a,margin:i}}export{t};
