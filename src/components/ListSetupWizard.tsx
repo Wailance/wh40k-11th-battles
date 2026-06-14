@@ -40,18 +40,22 @@ export function ListSetupWizard({
   return (
     <div className="bf-viewport -mx-2 flex min-h-0 flex-1 flex-col">
       <header className="shrink-0 border-b border-white/[0.08] px-2 py-2">
-        <Link to="/lists" className="text-caption text-muted hover:text-[var(--color-gw-gold)]">
+        <Link to="/lists" className="text-caption text-muted hover:text-accent">
           ← {copy.armyLists.back}
         </Link>
-        <h1 className="mt-2 font-display text-display tracking-wide text-[var(--color-gw-gold)]">
+        <h1 className="mt-2 font-display text-display tracking-wide text-accent">
           {copy.armyLists.newList}
         </h1>
         <div className="mt-3 flex gap-1">
           {STEPS.map((s, i) => (
             <div
               key={s}
-              className={`h-1 flex-1 rounded-full ${
-                i <= stepIndex ? 'bg-[var(--color-gw-gold)]' : 'bg-white/10'
+              className={`h-1 flex-1 rounded-full transition-colors ${
+                i < stepIndex
+                  ? 'bg-crimson-bright'
+                  : i === stepIndex
+                    ? 'bg-accent/50'
+                    : 'bg-white/10'
               }`}
             />
           ))}
@@ -72,7 +76,7 @@ export function ListSetupWizard({
                 type="button"
                 onClick={() => onAllegiance(id)}
                 className={`app-panel p-5 text-left transition-colors ${
-                  allegiance === id ? 'ring-1 ring-[var(--color-gw-gold)]/50' : ''
+                  allegiance === id ? 'ring-1 ring-crimson/40' : ''
                 }`}
               >
                 <p className="font-display text-display tracking-wide text-bone">{copy.armyLists[labelKey]}</p>
@@ -100,7 +104,7 @@ export function ListSetupWizard({
                 onClick={() => onFaction(a.army)}
                 className={`flex w-full items-center justify-between rounded-xl border p-4 text-left ${
                   roster?.army === a.army
-                    ? 'border-[var(--color-gw-gold)]/40 bg-[var(--color-gw-gold)]/10'
+                    ? 'border-crimson/35 bg-crimson-soft'
                     : 'border-white/8'
                 }`}
               >

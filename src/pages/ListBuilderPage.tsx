@@ -229,14 +229,14 @@ export function ListBuilderPage() {
     <div className="bf-viewport bf-builder -mx-2">
       <header className="bf-header shrink-0 px-2 py-2">
         <div className="flex items-center gap-2">
-          <Link to="/lists" className="text-caption text-muted hover:text-[var(--color-gw-gold)]">
+          <Link to="/lists" className="text-caption text-muted hover:text-accent">
             ← {copy.armyLists.back}
           </Link>
           <div className="min-w-0 flex-1">
             <input
               value={roster.name}
               onChange={(e) => persist({ ...roster, name: e.target.value })}
-              className="w-full truncate bg-transparent font-display text-title tracking-wide text-[var(--color-gw-gold)] outline-none"
+              className="w-full truncate bg-transparent font-display text-title tracking-wide text-accent outline-none"
             />
             <p className="truncate text-micro uppercase tracking-widest text-muted">{roster.army}</p>
           </div>
@@ -258,12 +258,12 @@ export function ListBuilderPage() {
                 : copy.armyLists.noDetachment}
             </p>
           </div>
-          <span className="shrink-0 text-micro font-semibold uppercase tracking-wide text-[var(--color-gw-gold)]">
+          <span className="shrink-0 text-micro font-semibold uppercase tracking-wide text-crimson-bright">
             {copy.armyLists.changeDetachment}
           </span>
         </button>
 
-        <AppSegment gold className="mt-2">
+        <AppSegment className="mt-2">
           <AppSegmentButton active={builderTab === 'units'} onClick={() => setBuilderTab('units')}>
             {copy.armyLists.tabUnits}
           </AppSegmentButton>
@@ -283,7 +283,7 @@ export function ListBuilderPage() {
               key={issue.message}
               className={`rounded-lg px-3 py-1.5 text-caption ${
                 issue.level === 'error'
-                  ? 'bg-red-500/10 text-red-300'
+                  ? 'bg-crimson-soft text-status-danger'
                   : 'bg-warning/10 text-warning'
               }`}
             >
@@ -333,7 +333,7 @@ export function ListBuilderPage() {
             {copy.armyLists.exportText}
           </button>
           {!isNewRoute && (
-            <button type="button" onClick={handleDelete} className="app-btn-ghost px-3 py-2 text-caption text-red-400">
+            <button type="button" onClick={handleDelete} className="app-btn-ghost app-btn-ghost-danger px-3 py-2 text-caption">
               Delete
             </button>
           )}
@@ -384,14 +384,14 @@ function PointsRing({
           cy="36"
           r={r}
           fill="none"
-          stroke={over ? '#ef4444' : 'var(--color-gw-gold)'}
+          stroke={over ? 'var(--color-crimson-bright)' : 'var(--color-gw-gold)'}
           strokeWidth="6"
           strokeDasharray={`${dash} ${c}`}
           strokeLinecap="round"
         />
       </svg>
       <div className="absolute inset-0 flex flex-col items-center justify-center">
-        <span className={`font-display text-body tabular-nums ${over ? 'text-red-300' : 'text-bone'}`}>
+        <span className={`font-display text-body tabular-nums ${over ? 'text-status-danger' : 'text-bone'}`}>
           {total}
         </span>
         <span className="text-micro text-muted">/{limit}</span>
@@ -437,7 +437,7 @@ function CatalogPanel({
               onClick={() => onBucket(id)}
               className={`rounded-full px-2 py-0.5 text-micro ${
                 bucketFilter === id
-                  ? 'bg-[var(--color-gw-gold)]/20 text-[var(--color-gw-gold)]'
+                  ? 'bg-crimson-soft text-crimson-bright ring-1 ring-crimson/25'
                   : 'bg-white/5 text-muted'
               }`}
             >
@@ -465,7 +465,7 @@ function CatalogPanel({
                     onClick={() => onOpen(u)}
                   >
                     <p className="truncate text-caption font-medium leading-tight text-bone">{u.name}</p>
-                    <p className="text-micro tabular-nums text-[var(--color-gw-gold)]">{u.points}</p>
+                    <p className="text-micro tabular-nums text-accent-dim">{u.points}</p>
                   </button>
                   {inArmy > 0 && (
                     <span className="shrink-0 text-micro tabular-nums text-muted">×{inArmy}</span>
@@ -519,7 +519,7 @@ function RosterPanel({
                 <div key={cu.id} className="bf-unit-row">
                   <div className="min-w-0 flex-1">
                     <p className="truncate text-caption font-medium text-bone">{u.name}</p>
-                    <p className="text-micro tabular-nums text-[var(--color-gw-gold)]">
+                    <p className="text-micro tabular-nums text-accent-dim">
                       {u.points * u.count}
                     </p>
                   </div>
@@ -572,12 +572,12 @@ function EnhancementsPanel({
               type="button"
               onClick={() => onPersist(toggleEnhancement(roster, e.name, e.points))}
               className={`w-full rounded-xl border p-3 text-left ${
-                on ? 'border-[var(--color-gw-gold)]/40' : 'border-white/8'
+                on ? 'border-crimson/35 bg-crimson-soft ring-1 ring-crimson/20' : 'border-white/8'
               }`}
             >
               <div className="flex justify-between">
                 <p className="text-body font-medium text-bone">{e.name}</p>
-                <span className="text-caption text-[var(--color-gw-gold)]">{e.points} pts</span>
+                <span className="text-caption tabular-nums text-accent-dim">{e.points} pts</span>
               </div>
               <p className="mt-1 line-clamp-2 text-caption text-muted">{e.description}</p>
             </button>

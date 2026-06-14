@@ -75,7 +75,7 @@ export function ListsPage() {
               </Link>
               <button
                 type="button"
-                className="text-caption text-red-400"
+                className="text-caption text-status-danger"
                 onClick={() => {
                   if (confirm(copy.armyLists.deleteConfirm)) {
                     deleteRoster(r.id)

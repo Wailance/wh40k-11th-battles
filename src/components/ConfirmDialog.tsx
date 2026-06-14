@@ -38,7 +38,7 @@ export function ConfirmDialog({
       <p className="mt-2 text-body leading-relaxed text-muted">{body}</p>
       <div className={`mt-5 flex gap-3 ${extraAction ? 'flex-col' : ''}`}>
         {extraAction && (
-          <button type="button" onClick={extraAction.onClick} className="app-btn w-full py-3 text-body">
+          <button type="button" onClick={extraAction.onClick} className="app-btn app-btn-success w-full py-3 text-body">
             {extraAction.label}
           </button>
         )}

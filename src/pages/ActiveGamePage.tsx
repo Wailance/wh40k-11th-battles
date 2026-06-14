@@ -547,7 +547,7 @@ export function ActiveGamePage() {
             <button type="button" onClick={() => setShowEnd(false)} className="app-btn-ghost flex-1 py-2.5 text-caption">
               {copy.game.continue}
             </button>
-            <button type="button" onClick={endGame} className="app-btn flex-1 py-2.5 text-caption">
+            <button type="button" onClick={endGame} className="app-btn app-btn-success flex-1 py-2.5 text-caption">
               {copy.game.save}
             </button>
           </div>
@@ -602,7 +602,7 @@ export function ActiveGamePage() {
               <p className="text-caption text-muted">{copy.game.mapNoLayout}</p>
             )}
           </div>
-          <button type="button" onClick={() => setShowMap(false)} className="app-btn game-map-dialog-close w-full py-2.5 text-caption">
+          <button type="button" onClick={() => setShowMap(false)} className="app-btn-ghost game-map-dialog-close w-full py-2.5 text-caption">
             {copy.common.close}
           </button>
         </AppDialog>
@@ -650,7 +650,7 @@ function GameMissionBriefDialog({
           />
         </div>
       </div>
-      <button type="button" onClick={onClose} className="app-btn mt-4 w-full py-2.5 text-caption">
+      <button type="button" onClick={onClose} className="app-btn-ghost mt-4 w-full py-2.5 text-caption">
         {copy.common.close}
       </button>
     </AppDialog>

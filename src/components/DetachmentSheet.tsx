@@ -21,9 +21,9 @@ export function DetachmentSheet({
   if (!open || !armyEntry) return null
 
   return (
-    <AppSheet open={open} onClose={onClose} titleId="detachment-sheet-title" className="app-sheet-gold">
+    <AppSheet open={open} onClose={onClose} titleId="detachment-sheet-title">
       <div className="app-sheet-scroll px-4 pb-8 pt-1">
-        <h2 id="detachment-sheet-title" className="font-display text-title tracking-wide text-[var(--color-gw-gold)]">
+        <h2 id="detachment-sheet-title" className="font-display text-title tracking-wide text-accent">
           {copy.armyLists.changeDetachment}
         </h2>
         <p className="mt-1 text-body text-muted">{roster.army}</p>
@@ -37,7 +37,7 @@ export function DetachmentSheet({
             onBattleSize={(size) => onPersist({ ...roster, battleSize: size })}
           />
         </div>
-        <button type="button" onClick={onClose} className="app-btn mt-4 w-full py-3 text-body">
+        <button type="button" onClick={onClose} className="app-btn-ghost mt-4 w-full py-3 text-body">
           {copy.common.done}
         </button>
       </div>

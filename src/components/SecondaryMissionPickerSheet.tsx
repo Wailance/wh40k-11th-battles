@@ -190,7 +190,7 @@ export function SecondaryMissionPickerSheet({
         </div>
 
         <div className="app-secondary-picker-footer">
-          <button type="button" onClick={onClose} className="app-btn flex-1 py-2 text-caption">
+          <button type="button" onClick={onClose} className="app-btn-ghost flex-1 py-2 text-caption">
             {copy.common.cancel}
           </button>
           {editable && (
@@ -198,7 +198,7 @@ export function SecondaryMissionPickerSheet({
               type="button"
               onClick={apply}
               disabled={mode === 'fixed' ? !fixedValid : false}
-              className="app-btn flex-1 border-accent/40 bg-accent/15 py-2 text-caption text-accent disabled:opacity-40"
+              className="app-btn flex-1 py-2 text-caption disabled:opacity-40"
             >
               {copy.game.secondaryPickerSave}
             </button>

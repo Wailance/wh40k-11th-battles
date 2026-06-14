@@ -52,7 +52,7 @@ export function MissionScoreButtons({
                   type="button"
                   onClick={() => minus.allowed && onScore(opt.id, -1)}
                   disabled={!minus.allowed}
-                  className="app-score-row-btn"
+                  className="app-score-row-btn app-score-row-btn-minus"
                   aria-label={`Undo ${opt.label}`}
                 >
                   −

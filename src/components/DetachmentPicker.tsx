@@ -61,7 +61,7 @@ export function DetachmentPicker({
               onClick={() => onPersist(toggleDetachment(roster, det))}
               className={`flex w-full items-start gap-3 rounded-xl border p-3 text-left transition-colors ${
                 selected
-                  ? 'border-[var(--color-gw-gold)]/40 bg-[var(--color-gw-gold)]/10'
+                  ? 'border-crimson/35 bg-crimson-soft ring-1 ring-crimson/20'
                   : 'border-white/8 hover:border-white/15'
               } disabled:opacity-40`}
             >
