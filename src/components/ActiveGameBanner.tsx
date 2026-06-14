@@ -11,15 +11,15 @@ export function ActiveGameBanner() {
   return (
     <Link
       to="/game"
-      className="mb-4 flex min-h-[2.75rem] items-center gap-3 rounded-xl border border-crimson/30 bg-crimson-soft px-3 py-2.5 text-sm transition-colors hover:border-crimson/45"
+      className="motion-banner mb-4 flex min-h-[2.75rem] items-center gap-3 rounded-xl border border-crimson/30 bg-crimson-soft px-3 py-2.5 text-body transition-colors hover:border-crimson/45"
     >
-      <span className="shrink-0 font-display text-[10px] uppercase tracking-wider text-crimson-bright">
+      <span className="shrink-0 font-display text-micro uppercase tracking-wider text-crimson-bright">
         {copy.nav.backToGame}
       </span>
       <span className="min-w-0 flex-1 truncate text-bone">
         {active.player1.name} vs {active.player2.name}
       </span>
-      <span className="shrink-0 text-xs tabular-nums text-muted">
+      <span className="shrink-0 text-caption tabular-nums text-muted">
         R{active.battleRound} · {active.scores.player1.vp}–{active.scores.player2.vp}
       </span>
     </Link>

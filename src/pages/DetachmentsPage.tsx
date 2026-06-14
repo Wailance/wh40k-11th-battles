@@ -40,10 +40,10 @@ export function DetachmentsPage() {
     <div className="space-y-4">
       <div>
         <h1 className="app-page-title">{copy.lists.title}</h1>
-        <p className="mt-1 text-sm text-muted">
+        <p className="mt-1 text-body text-muted">
           {filtered.length} armies · {totalDets} detachments
         </p>
-        <p className="mt-1 text-xs text-muted">{copy.lists.dpHint}</p>
+        <p className="mt-1 text-caption text-muted">{copy.lists.dpHint}</p>
         <div className="app-divider mt-4" />
       </div>
 
@@ -51,7 +51,7 @@ export function DetachmentsPage() {
         value={search}
         onChange={(e) => setSearch(e.target.value)}
         placeholder={copy.lists.search}
-        className="app-input w-full px-4 py-3 text-sm"
+        className="app-input w-full px-4 py-3 text-body"
       />
 
       <div className="app-scroll-hint flex gap-2 overflow-x-auto pb-1">
@@ -83,7 +83,7 @@ export function DetachmentsPage() {
       </div>
 
       {filtered.length === 0 && (
-        <div className="app-panel p-6 text-center text-sm text-muted">
+        <div className="app-panel p-6 text-center text-body text-muted">
           <p>{copy.common.noResults}</p>
           <button
             type="button"
@@ -92,7 +92,7 @@ export function DetachmentsPage() {
               setCategory('all')
               setFd('all')
             }}
-            className="app-btn-ghost mt-3 px-4 py-2 text-xs"
+            className="app-btn-ghost mt-3 px-4 py-2 text-caption"
           >
             {copy.common.clearFilters}
           </button>
@@ -109,7 +109,7 @@ export function DetachmentsPage() {
             >
               <div>
                 <p className="font-semibold">{army.army}</p>
-                <p className="text-xs text-muted">{army.detachments.length} detachments</p>
+                <p className="text-caption text-muted">{army.detachments.length} detachments</p>
               </div>
               <span className="text-muted">{expanded === army.army ? '▲' : '▼'}</span>
             </button>
@@ -120,7 +120,7 @@ export function DetachmentsPage() {
                     href={army.factionPackUrl}
                     target="_blank"
                     rel="noreferrer"
-                    className="mb-3 mt-3 block text-xs text-accent"
+                    className="mb-3 mt-3 block text-caption text-accent"
                   >
                     Faction Pack PDF →
                   </a>
@@ -131,7 +131,7 @@ export function DetachmentsPage() {
                     .map((d) => (
                       <div
                         key={d.name}
-                        className="rounded-xl border border-white/[0.06] bg-void p-3 text-sm"
+                        className="rounded-xl border border-white/[0.06] bg-void p-3 text-body"
                       >
                         <div className="flex items-center justify-between gap-2">
                           <span className="font-medium">{d.name}</span>
@@ -139,7 +139,7 @@ export function DetachmentsPage() {
                         </div>
                         <div className="mt-1 flex flex-wrap items-center gap-2">
                           <ForceDispositionBadge fd={d.forceDisposition as ForceDisposition} short />
-                          {d.note && <span className="text-xs text-muted">{d.note}</span>}
+                          {d.note && <span className="text-caption text-muted">{d.note}</span>}
                         </div>
                       </div>
                     ))}

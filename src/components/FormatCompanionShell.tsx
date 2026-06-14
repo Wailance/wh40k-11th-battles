@@ -19,15 +19,15 @@ export function FormatSequenceList({
       {steps.map((step) => (
         <li key={step.step} className="app-panel p-3">
           <div className="flex items-start gap-3">
-            <span className="flex h-7 w-7 shrink-0 items-center justify-center rounded-full border border-accent/40 bg-accent/10 font-display text-xs text-accent">
+            <span className="flex h-7 w-7 shrink-0 items-center justify-center rounded-full border border-accent/40 bg-accent/10 font-display text-caption text-accent">
               {step.step}
             </span>
             <div className="min-w-0 flex-1">
-              <p className="font-display text-sm tracking-wide text-bone">{step.title}</p>
-              <p className="mt-0.5 text-[10px] uppercase tracking-wider text-muted">{step.when}</p>
-              <p className="mt-2 text-xs leading-relaxed text-muted">{step.body}</p>
+              <p className="font-display text-body tracking-wide text-bone">{step.title}</p>
+              <p className="mt-0.5 text-micro uppercase tracking-wider text-muted">{step.when}</p>
+              <p className="mt-2 text-caption leading-relaxed text-muted">{step.body}</p>
               {step.sub && (
-                <ul className="mt-2 list-disc space-y-1 pl-4 text-xs leading-relaxed text-muted">
+                <ul className="mt-2 list-disc space-y-1 pl-4 text-caption leading-relaxed text-muted">
                   {step.sub.map((line) => (
                     <li key={line}>{line}</li>
                   ))}
@@ -69,7 +69,7 @@ export function FormatSectionTabs({
 
 export function FormatStartBattleLink({ to, label }: { to: string; label: string }) {
   return (
-    <Link to={to} className="app-btn flex w-full py-3.5 text-sm">
+    <Link to={to} className="app-btn flex w-full py-3.5 text-body">
       {label}
     </Link>
   )
@@ -77,7 +77,7 @@ export function FormatStartBattleLink({ to, label }: { to: string; label: string
 
 export function FormatPdfLink({ href, label }: { href: string; label: string }) {
   return (
-    <a href={href} target="_blank" rel="noreferrer" className="app-btn-ghost inline-flex py-2 text-xs">
+    <a href={href} target="_blank" rel="noreferrer" className="app-btn-ghost inline-flex py-2 text-caption">
       {label} ↗
     </a>
   )

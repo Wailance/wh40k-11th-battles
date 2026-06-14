@@ -153,11 +153,15 @@
     "blocks": [
       {
         "label": "BATTLE ROUNDS 1–2",
-        "text": "WHEN: End of your turn. REQUIREMENT: You control more objective markers than your opponent. REWARD: 2 VP per marker you control."
+        "text": "WHEN: End of your turn. REQUIREMENT: You control more objective markers than your opponent. REWARD: 2 VP."
       },
       {
         "label": "SECOND BATTLE ROUND ONWARDS",
-        "text": "WHEN: End of the Command phase (or the end of your turn if it is the fifth battle round and you are going second). REQUIREMENT: You control your home objective. REWARD: 3 VP per objective you control, +2 VP per non-home objective."
+        "text": "WHEN: End of the Command phase (or the end of your turn if it is the fifth battle round and you are going second). REQUIREMENT: Per home objective you control while you control your home objective. REWARD: 3 VP per objective."
+      },
+      {
+        "label": "SECOND BATTLE ROUND ONWARDS",
+        "text": "WHEN: End of the Command phase (or the end of your turn if it is the fifth battle round and you are going second). REQUIREMENT: Per non-home objective you control while you control your home objective. REWARD: 5 VP per objective."
       }
     ],
     "actions": [],
@@ -173,7 +177,11 @@
       },
       {
         "label": "SECOND BATTLE ROUND ONWARDS",
-        "text": "WHEN: End of the Command phase (or the end of your turn if it is the fifth battle round and you are going second). REQUIREMENT: Per objective you control in opponent territory. REWARD: 3 VP base + 3 VP bonus for objectives in opponent deployment zone."
+        "text": "WHEN: End of the Command phase (or the end of your turn if it is the fifth battle round and you are going second). REQUIREMENT: Per objective you control outside opponent deployment zone. REWARD: 3 VP per objective."
+      },
+      {
+        "label": "SECOND BATTLE ROUND ONWARDS",
+        "text": "WHEN: End of the Command phase (or the end of your turn if it is the fifth battle round and you are going second). REQUIREMENT: Per objective you control in opponent deployment zone. REWARD: 6 VP per objective."
       }
     ],
     "actions": [],
@@ -189,7 +197,11 @@
       },
       {
         "label": "SECOND BATTLE ROUND ONWARDS",
-        "text": "WHEN: End of the Command phase (or the end of your turn if it is the fifth battle round and you are going second). REQUIREMENT: You control 2+ objectives. REWARD: 5 VP. If you control more than your opponent: +4 VP."
+        "text": "WHEN: End of the Command phase (or the end of your turn if it is the fifth battle round and you are going second). REQUIREMENT: You control 2+ objectives. REWARD: 5 VP."
+      },
+      {
+        "label": "SECOND BATTLE ROUND ONWARDS",
+        "text": "WHEN: End of the Command phase (or the end of your turn if it is the fifth battle round and you are going second). REQUIREMENT: You control more objective markers than your opponent. REWARD: 4 VP."
       },
       {
         "label": "END OF BATTLE",
@@ -245,7 +257,11 @@
     "blocks": [
       {
         "label": "ANY BATTLE ROUND",
-        "text": "WHEN: End of your turn. REQUIREMENT: Per terrain area trapped this turn. REWARD: 2 VP (+3 VP if that area is also an objective)."
+        "text": "WHEN: End of your turn. REQUIREMENT: Per terrain area trapped this turn (not an objective). REWARD: 2 VP each."
+      },
+      {
+        "label": "ANY BATTLE ROUND",
+        "text": "WHEN: End of your turn. REQUIREMENT: Per trap placed on an objective marker this turn. REWARD: 5 VP each."
       },
       {
         "label": "ANY BATTLE ROUND",
@@ -317,7 +333,11 @@
     "blocks": [
       {
         "label": "ANY BATTLE ROUND",
-        "text": "WHEN: End of your turn. REQUIREMENT: Per objective decoyed (+2 VP if in opponent territory). REWARD: 2 VP each."
+        "text": "WHEN: End of your turn. REQUIREMENT: Per objective decoyed this turn (not in opponent deployment zone). REWARD: 2 VP each."
+      },
+      {
+        "label": "ANY BATTLE ROUND",
+        "text": "WHEN: End of your turn. REQUIREMENT: Per objective decoyed in opponent deployment zone this turn. REWARD: 4 VP each."
       },
       {
         "label": "SECOND BATTLE ROUND ONWARDS",
@@ -339,7 +359,11 @@
     "blocks": [
       {
         "label": "ANY BATTLE ROUND",
-        "text": "WHEN: End of your turn. REQUIREMENT: You control one or more Centre objectives. REWARD: 2 VP + 1 VP per Operation marker on Centre objectives you control."
+        "text": "WHEN: End of your turn. REQUIREMENT: You control one or more Centre objectives. REWARD: 2 VP."
+      },
+      {
+        "label": "ANY BATTLE ROUND",
+        "text": "WHEN: End of your turn. REQUIREMENT: Per Operation marker on Centre objectives you control. REWARD: 1 VP per marker."
       },
       {
         "label": "SECOND BATTLE ROUND ONWARDS",
@@ -417,7 +441,11 @@
     "blocks": [
       {
         "label": "ANY BATTLE ROUND",
-        "text": "WHEN: End of your turn. REQUIREMENT: Per objective sabotaged (+2 VP if in opponent deployment zone). REWARD: 3 VP each."
+        "text": "WHEN: End of your turn. REQUIREMENT: Per objective sabotaged this turn (not in opponent deployment zone). REWARD: 3 VP each."
+      },
+      {
+        "label": "ANY BATTLE ROUND",
+        "text": "WHEN: End of your turn. REQUIREMENT: Per objective sabotaged in opponent deployment zone this turn. REWARD: 5 VP each."
       },
       {
         "label": "SECOND BATTLE ROUND ONWARDS",
@@ -479,7 +507,7 @@
     "blocks": [
       {
         "label": "ANY BATTLE ROUND",
-        "text": "WHEN: End of your turn. REQUIREMENT: Units in 3 table corners (6\"+ from centre): 3 VP. All 4 corners: 6 VP."
+        "text": "WHEN: End of your turn. REQUIREMENT: Units in 3 table corners (6\"+ from centre). REWARD: 3 VP. OR REQUIREMENT: Units in all 4 table corners (6\"+ from centre). REWARD: 6 VP."
       },
       {
         "label": "ANY BATTLE ROUND",
@@ -561,7 +589,11 @@
       },
       {
         "label": "END OF BATTLE",
-        "text": "WHEN: End of the battle. REQUIREMENT: Intel extracted on 3+ objectives and on one in opponent territory. REWARD: 5 VP each condition."
+        "text": "WHEN: End of the battle. REQUIREMENT: Intel extracted on 3+ objectives. REWARD: 5 VP."
+      },
+      {
+        "label": "END OF BATTLE",
+        "text": "WHEN: End of the battle. REQUIREMENT: Intel extracted on one objective in opponent territory. REWARD: 5 VP."
       }
     ],
     "actions": [
@@ -582,7 +614,7 @@
         "text": "WHEN: End of either player's turn. One or more enemy CHARACTER models destroyed: 5 VP. OR all enemy CHARACTERS destroyed during the battle: 5 VP."
       }
     ],
-    "cap": "Max 40 VP (Tactical) or 20 VP per card (Fixed) · 15 VP per battle round"
+    "cap": "Max 45 VP (Tactical) or 20 VP per card (Fixed) · 15 VP per battle round"
   },
   "Bring it Down": {
     "type": "secondary",
@@ -597,7 +629,7 @@
         "text": "WHEN: End of either player's turn. One or more enemy MONSTER or VEHICLE units destroyed this turn. REWARD: 4 VP."
       }
     ],
-    "cap": "Max 40 VP (Tactical) or 20 VP per card (Fixed) · 15 VP per battle round",
+    "cap": "Max 45 VP (Tactical) or 20 VP per card (Fixed) · 15 VP per battle round",
     "whenDrawn": "When Drawn: If no enemy MONSTER or VEHICLE units are on the battlefield, you may discard and redraw."
   },
   "A Grievous Blow": {
@@ -613,7 +645,7 @@
         "text": "WHEN: End of either player's turn. One or more such units destroyed this turn. REWARD: 5 VP."
       }
     ],
-    "cap": "Max 40 VP (Tactical) or 20 VP per card (Fixed) · 15 VP per battle round",
+    "cap": "Max 45 VP (Tactical) or 20 VP per card (Fixed) · 15 VP per battle round",
     "whenDrawn": "When Drawn: If no eligible enemy INFANTRY units are on the battlefield, you may discard and redraw."
   },
   "Engage on All Fronts": {
@@ -625,7 +657,7 @@
         "text": "WHEN: End of your turn. Presence in 2 quarters: 1 VP. OR 3 quarters: 2 VP. OR 4 quarters: 4 VP."
       }
     ],
-    "cap": "Max 40 VP (Tactical) or 20 VP per card (Fixed) · 15 VP per battle round",
+    "cap": "Max 45 VP (Tactical) or 20 VP per card (Fixed) · 15 VP per battle round",
     "whenDrawn": "When Drawn: A unit wholly in a table quarter more than 6\" from the battlefield centre counts as presence in that quarter."
   },
   "Engage on all Fronts": {
@@ -637,7 +669,7 @@
         "text": "WHEN: End of your turn. Presence in 2 quarters: 1 VP. OR 3 quarters: 2 VP. OR 4 quarters: 4 VP."
       }
     ],
-    "cap": "Max 40 VP (Tactical) or 20 VP per card (Fixed) · 15 VP per battle round",
+    "cap": "Max 45 VP (Tactical) or 20 VP per card (Fixed) · 15 VP per battle round",
     "whenDrawn": "When Drawn: A unit wholly in a table quarter more than 6\" from the battlefield centre counts as presence in that quarter."
   },
   "Behind Enemy Lines": {
@@ -649,7 +681,7 @@
         "text": "WHEN: End of your turn. One unit (not AIRCRAFT, not Battle-shocked) wholly in opponent deployment zone: 3 VP. OR two or more such units: 4 VP."
       }
     ],
-    "cap": "Max 40 VP (Tactical) or 20 VP per card (Fixed) · 15 VP per battle round",
+    "cap": "Max 45 VP (Tactical) or 20 VP per card (Fixed) · 15 VP per battle round",
     "whenDrawn": "When Drawn: If battle round 1, you may shuffle this card back into your deck and draw a new card."
   },
   "Secure No Man's Land": {
@@ -661,7 +693,7 @@
         "text": "WHEN: End of your turn. You control one objective in No Man's Land: 2 VP. OR two or more: 5 VP."
       }
     ],
-    "cap": "Max 40 VP (Tactical) or 20 VP per card (Fixed) · 15 VP per battle round"
+    "cap": "Max 45 VP (Tactical) or 20 VP per card (Fixed) · 15 VP per battle round"
   },
   "No Prisoners": {
     "type": "secondary",
@@ -669,14 +701,14 @@
     "blocks": [
       {
         "label": "FIXED",
-        "text": "WHEN: While this card is active. Each time an enemy Bodyguard or non-CHARACTER unit is destroyed (up to 5 VP)."
+        "text": "WHEN: While this card is active. Each time an enemy Bodyguard or non-CHARACTER unit is destroyed. REWARD: 2 VP each (up to 5 VP per battle round)."
       },
       {
         "label": "TACTICAL",
-        "text": "WHEN: While this card is active. Each time an enemy unit is destroyed (up to 5 VP)."
+        "text": "WHEN: While this card is active. Each time an enemy unit is destroyed. REWARD: 2 VP each (up to 5 VP per battle round)."
       }
     ],
-    "cap": "Max 40 VP (Tactical) or 20 VP per card (Fixed) · 15 VP per battle round"
+    "cap": "Max 45 VP (Tactical) or 20 VP per card (Fixed) · 15 VP per battle round"
   },
   "Cleanse": {
     "type": "secondary",
@@ -684,14 +716,18 @@
     "blocks": [
       {
         "label": "CLEANSE (ACTION)",
-        "text": "STARTS: Shooting phase. UNITS: One or more within range of a non-home objective. COMPLETES: End of your turn if you still control it. REWARD: Fixed 2 VP / Tactical 5 VP for one cleansed; double for two or more."
+        "text": "STARTS: Shooting phase. UNITS: One or more within range of a non-home objective. COMPLETES: End of your turn if you still control it. IF COMPLETED: That objective marker is cleansed by your army."
       },
       {
-        "label": "ANY BATTLE ROUND",
-        "text": "WHEN: End of your turn. One or more objectives cleansed by your army this turn."
+        "label": "FIXED",
+        "text": "WHEN: End of your turn. One objective marker cleansed by your army this turn. REWARD: 2 VP. OR two or more objective markers cleansed. REWARD: 4 VP."
+      },
+      {
+        "label": "TACTICAL",
+        "text": "WHEN: End of your turn. One objective marker cleansed by your army this turn. REWARD: 3 VP. OR two or more objective markers cleansed. REWARD: 5 VP."
       }
     ],
-    "cap": "Max 40 VP (Tactical) or 20 VP per card (Fixed) · 15 VP per battle round",
+    "cap": "Max 45 VP (Tactical) or 20 VP per card (Fixed) · 15 VP per battle round",
     "whenDrawn": "When Drawn: Select objectives to cleanse as per card."
   },
   "Defend Stronghold": {
@@ -703,7 +739,7 @@
         "text": "WHEN: End of opponent's turn or end of battle. You control one or more objectives in your deployment zone. REWARD: 3 VP."
       }
     ],
-    "cap": "Max 40 VP (Tactical) or 20 VP per card (Fixed) · 15 VP per battle round",
+    "cap": "Max 45 VP (Tactical) or 20 VP per card (Fixed) · 15 VP per battle round",
     "whenDrawn": "When Drawn: If battle round 1, shuffle back and draw a new card."
   },
   "Overwhelming Force": {
@@ -712,10 +748,10 @@
     "blocks": [
       {
         "label": "ANY BATTLE ROUND",
-        "text": "WHEN: While this card is active. Each time an enemy unit that started the turn within range of an objective is destroyed (up to 5 VP). Leader and Bodyguard count separately if Attached."
+        "text": "WHEN: While this card is active. Each time an enemy unit that started the turn within range of an objective marker is destroyed. REWARD: 3 VP each (up to 5 VP per battle round). Leader and Bodyguard count separately if Attached."
       }
     ],
-    "cap": "Max 40 VP (Tactical) or 20 VP per card (Fixed) · 15 VP per battle round"
+    "cap": "Max 45 VP (Tactical) or 20 VP per card (Fixed) · 15 VP per battle round"
   },
   "Display of Might": {
     "type": "secondary",
@@ -726,7 +762,7 @@
         "text": "WHEN: End of your turn. More of your units than opponent's wholly within No Man's Land. REWARD: 4 VP."
       }
     ],
-    "cap": "Max 40 VP (Tactical) or 20 VP per card (Fixed) · 15 VP per battle round",
+    "cap": "Max 45 VP (Tactical) or 20 VP per card (Fixed) · 15 VP per battle round",
     "whenDrawn": "When Drawn: If battle round 1, shuffle back and draw a new card."
   },
   "Outflank": {
@@ -738,7 +774,7 @@
         "text": "WHEN: End of your turn. You have units wholly within both the left and right halves of the battlefield (see card). REWARD: 5 VP."
       }
     ],
-    "cap": "Max 40 VP (Tactical) or 20 VP per card (Fixed) · 15 VP per battle round"
+    "cap": "Max 45 VP (Tactical) or 20 VP per card (Fixed) · 15 VP per battle round"
   },
   "Forward Position": {
     "type": "secondary",
@@ -749,7 +785,7 @@
         "text": "WHEN: End of your turn. You control your opponent's home objective marker. REWARD: 5 VP. OR you control each Expansion objective marker. REWARD: 5 VP."
       }
     ],
-    "cap": "Max 40 VP (Tactical) or 20 VP per card (Fixed) · 15 VP per battle round"
+    "cap": "Max 45 VP (Tactical) or 20 VP per card (Fixed) · 15 VP per battle round"
   },
   "Burden of Thrust": {
     "type": "secondary",
@@ -757,10 +793,10 @@
     "blocks": [
       {
         "label": "ANY BATTLE ROUND",
-        "text": "WHEN: End of your turn. Each nominated objective is controlled by its guardian unit. REWARD: 4 VP per objective."
+        "text": "WHEN: End of your turn. Each nominated objective is controlled by its guardian unit. REWARD: 2 VP per objective (up to 5 VP per battle round)."
       }
     ],
-    "cap": "Max 40 VP (Tactical) or 20 VP per card (Fixed) · 15 VP per battle round",
+    "cap": "Max 45 VP (Tactical) or 20 VP per card (Fixed) · 15 VP per battle round",
     "whenDrawn": "When Drawn: Select objectives and guardian units as described on the card."
   },
   "Centre Ground": {
@@ -772,7 +808,7 @@
         "text": "WHEN: End of your turn. One or more units wholly within 3\" of the battlefield centre and no enemy within 3\": 2 VP. OR no enemy within 6\": 5 VP."
       }
     ],
-    "cap": "Max 40 VP (Tactical) or 20 VP per card (Fixed) · 15 VP per battle round"
+    "cap": "Max 45 VP (Tactical) or 20 VP per card (Fixed) · 15 VP per battle round"
   },
   "Beacon": {
     "type": "secondary",
@@ -783,7 +819,7 @@
         "text": "WHEN: End of your opponent's turn. Your Beacon unit is not destroyed and is wholly outside your deployment zone. REWARD: 5 VP."
       }
     ],
-    "cap": "Max 40 VP (Tactical) or 20 VP per card (Fixed) · 15 VP per battle round",
+    "cap": "Max 45 VP (Tactical) or 20 VP per card (Fixed) · 15 VP per battle round",
     "whenDrawn": "When Drawn: Select a Beacon unit on the battlefield or embarked in a TRANSPORT."
   },
   "Plunder": {
@@ -799,7 +835,7 @@
         "text": "WHEN: End of your turn. You completed Plunder on a terrain feature. REWARD: 5 VP."
       }
     ],
-    "cap": "Max 40 VP (Tactical) or 20 VP per card (Fixed) · 15 VP per battle round",
+    "cap": "Max 45 VP (Tactical) or 20 VP per card (Fixed) · 15 VP per battle round",
     "whenDrawn": "When Drawn: If you already have Cleanse, you may discard and redraw (and vice versa)."
   },
   "A Tempting Target": {
@@ -811,7 +847,7 @@
         "text": "WHEN: End of either player's turn. You control your Tempting Target objective marker. REWARD: 5 VP."
       }
     ],
-    "cap": "Max 40 VP (Tactical) or 20 VP per card (Fixed) · 15 VP per battle round",
+    "cap": "Max 45 VP (Tactical) or 20 VP per card (Fixed) · 15 VP per battle round",
     "whenDrawn": "When Drawn: Opponent selects one No Man's Land objective (not a home objective) as your Tempting Target."
   }
 }

@@ -19,7 +19,7 @@ export function ForceDispositionBadge({
   size?: 'sm' | 'md'
 }) {
   const c = colorClass[FD_COLORS[fd]] ?? 'bg-panel text-muted border-border'
-  const pad = size === 'md' ? 'px-3 py-1 text-xs' : 'px-2 py-0.5 text-[10px]'
+  const pad = size === 'md' ? 'px-3 py-1 text-caption' : 'px-2 py-0.5 text-micro'
   return (
     <span
       className={`inline-block rounded-sm border font-semibold uppercase tracking-wide ${c} ${pad}`}

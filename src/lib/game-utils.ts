@@ -1,4 +1,5 @@
 import gameData from '../data/game-data.json'
+import { TACTICAL_ACTIVE_LIMIT, clearSecondaryScoresForCard, deriveTacticalRoundCardsFromTally, getMissionScoreOptions, getTallyCount, isTacticalCardExhausted, registerTacticalRoundCard, secondaryScoreKey, unregisterTacticalRoundCard } from './mission-scoring'
 import { shouldAutoRedrawWhenDrawn } from './tactical-when-drawn'
 import type {
   Army,
@@ -83,6 +84,7 @@ export function emptyScores(): PlayerScores {
     removedSecondaries: [],
     primaryScoreTally: {},
     secondaryScoreTally: {},
+    tacticalRoundCards: [[], [], [], [], []],
   }
 }
 
@@ -104,6 +106,21 @@ export function drawTacticalCards(deck: string[], count: number): { drawn: strin
   return { drawn, remaining: deck.slice(count) }
 }
 
+/** Keep at most TACTICAL_ACTIVE_LIMIT cards in hand; overflow returns to deck. */
+export function enforceTacticalHandLimit(scores: PlayerScores): PlayerScores {
+  if (scores.tacticalHand.length <= TACTICAL_ACTIVE_LIMIT) return scores
+
+  const hand = scores.tacticalHand.slice(0, TACTICAL_ACTIVE_LIMIT)
+  const overflow = scores.tacticalHand.slice(TACTICAL_ACTIVE_LIMIT)
+  let deck = [...scores.tacticalDeck]
+  for (const card of overflow) {
+    if (scores.removedSecondaries.includes(card)) continue
+    deck = deck.filter((c) => c !== card)
+    deck = shuffleCardIntoDeck(deck, card)
+  }
+  return { ...scores, tacticalHand: hand, tacticalDeck: deck }
+}
+
 /** Draw tactical cards applying When Drawn auto-redraw (round 1). */
 export function drawTacticalCardsResolved(
   deck: string[],
@@ -114,9 +131,12 @@ export function drawTacticalCardsResolved(
   let remaining = [...deck]
   const nextHand = [...hand]
   const redrawn: string[] = []
-  let slots = count
+  const slotsToFill = Math.min(count, TACTICAL_ACTIVE_LIMIT - nextHand.length)
+  let slots = slotsToFill
 
   for (let guard = 0; guard < 20 && slots > 0 && remaining.length > 0; guard++) {
+    if (nextHand.length >= TACTICAL_ACTIVE_LIMIT) break
+
     const { drawn, remaining: rest } = drawTacticalCards(remaining, 1)
     remaining = rest
     const card = drawn[0]
@@ -135,6 +155,76 @@ export function drawTacticalCardsResolved(
   return { hand: nextHand, deck: remaining, redrawn }
 }
 
+/** Draw one tactical card into hand (Random button). Respects When Drawn auto-redraw. */
+export function drawOneTacticalToHand(
+  scores: PlayerScores,
+  battleRound: number,
+  fullDeck: string[],
+  currentBattleRound?: number,
+): PlayerScores {
+  if (scores.tacticalHand.length >= TACTICAL_ACTIVE_LIMIT) return scores
+
+  const deck = remainingTacticalDeck(scores, fullDeck)
+  if (!deck.length) return scores
+
+  const { hand, deck: remaining } = drawTacticalCardsResolved(
+    deck,
+    scores.tacticalHand,
+    battleRound,
+    1,
+  )
+  const drawn = hand.filter((c) => !scores.tacticalHand.includes(c))
+  if (!drawn.length) return { ...scores, tacticalDeck: remaining }
+
+  let next: PlayerScores = enforceTacticalHandLimit({ ...scores, tacticalHand: hand, tacticalDeck: remaining })
+  if (currentBattleRound == null || battleRound === currentBattleRound) {
+    next = registerTacticalRoundCard(next, drawn[0], battleRound)
+  }
+  return next
+}
+
+/** Return an in-hand tactical card to the deck (When Drawn manual redraw). */
+export function restoreTacticalCardFromHandToDeck(
+  scores: PlayerScores,
+  card: string,
+  viewRound?: number,
+): PlayerScores {
+  if (!scores.tacticalHand.includes(card)) return scores
+
+  const hand = scores.tacticalHand.filter((c) => c !== card)
+  const fullDeck = gameData.secondaries.tacticalDeck as string[]
+  let deck =
+    scores.tacticalDeck.length > 0
+      ? [...scores.tacticalDeck]
+      : fullDeck.filter((c) => !hand.includes(c) && !scores.removedSecondaries.includes(c))
+  deck = deck.filter((c) => c !== card)
+  deck = shuffleCardIntoDeck(deck, card)
+
+  let next: PlayerScores = { ...scores, tacticalHand: hand, tacticalDeck: deck }
+  if (viewRound != null) {
+    next = unregisterTacticalRoundCard(next, card, viewRound)
+  }
+  return next
+}
+
+/** Return a permanently discarded tactical card back into the deck. */
+export function restoreDiscardedTacticalToDeck(scores: PlayerScores, card: string): PlayerScores {
+  if (!scores.removedSecondaries.includes(card)) return scores
+  if (scores.tacticalHand.includes(card)) return scores
+
+  const removed = scores.removedSecondaries.filter((c) => c !== card)
+  const hand = scores.tacticalHand
+  const fullDeck = gameData.secondaries.tacticalDeck as string[]
+  let deck =
+    scores.tacticalDeck.length > 0
+      ? [...scores.tacticalDeck]
+      : fullDeck.filter((c) => !hand.includes(c) && !removed.includes(c))
+  deck = deck.filter((c) => c !== card)
+  deck = shuffleCardIntoDeck(deck, card)
+
+  return { ...scores, removedSecondaries: removed, tacticalDeck: deck }
+}
+
 export function shuffleCardIntoDeck(deck: string[], card: string): string[] {
   const next = [...deck, card]
   const j = Math.floor(Math.random() * next.length)
@@ -142,9 +232,184 @@ export function shuffleCardIntoDeck(deck: string[], card: string): string[] {
   return next
 }
 
+/** Remaining tactical cards not in hand or permanently discarded. */
+export function remainingTacticalDeck(scores: PlayerScores, fullDeck: string[]): string[] {
+  const removed = new Set(scores.removedSecondaries)
+  const taken = new Set(scores.tacticalHand)
+  if (scores.tacticalDeck.length > 0) {
+    return scores.tacticalDeck.filter((c) => !removed.has(c))
+  }
+  return fullDeck.filter((c) => !taken.has(c) && !removed.has(c))
+}
+
+/** Permanently discard a tactical secondary; clears any scored VP. */
+export function discardTacticalSecondaryMission(scores: PlayerScores, card: string): PlayerScores {
+  let next = clearSecondaryScoresForCard(scores, card)
+  const hand = next.tacticalHand.filter((c) => c !== card)
+  const removed = next.removedSecondaries.includes(card)
+    ? next.removedSecondaries
+    : [...next.removedSecondaries, card]
+  return enforceTacticalHandLimit({ ...next, tacticalHand: hand, removedSecondaries: removed })
+}
+
+/** Permanently discard a fixed secondary; clears any scored VP. */
+export function discardFixedSecondaryMission(scores: PlayerScores, card: string): PlayerScores {
+  const next = clearSecondaryScoresForCard(scores, card)
+  const removed = next.removedSecondaries.includes(card)
+    ? next.removedSecondaries
+    : [...next.removedSecondaries, card]
+  return { ...next, removedSecondaries: removed }
+}
+
+/** Remove a scored tactical card from the active hand (achieved & discarded). */
+export function discardAchievedTacticalCard(scores: PlayerScores, card: string): PlayerScores {
+  const hand = scores.tacticalHand.filter((c) => c !== card)
+  const removed = scores.removedSecondaries.includes(card)
+    ? scores.removedSecondaries
+    : [...scores.removedSecondaries, card]
+  return { ...scores, tacticalHand: hand, removedSecondaries: removed }
+}
+
+/** At round end: discard tactical cards that were scored this round but still in hand. */
+export function discardTacticalScoredInRound(scores: PlayerScores, round: number): PlayerScores {
+  const scoredInHand = new Set<string>()
+  for (const key of Object.keys(scores.secondaryScoreTally)) {
+    if (getTallyCount(scores.secondaryScoreTally, key, round) <= 0) continue
+    const card = key.includes('::') ? key.slice(0, key.indexOf('::')) : key
+    if (card && scores.tacticalHand.includes(card)) scoredInHand.add(card)
+  }
+  let next = scores
+  for (const card of scoredInHand) {
+    next = discardAchievedTacticalCard(next, card)
+  }
+  return next
+}
+
+/** Pin active hand + scored cards to a battle round (for past-round edits). */
+export function snapshotRoundTacticalCards(scores: PlayerScores, round: number): PlayerScores {
+  let next = scores
+  for (const card of scores.tacticalHand) {
+    next = registerTacticalRoundCard(next, card, round)
+  }
+  for (const key of Object.keys(scores.secondaryScoreTally)) {
+    if (getTallyCount(scores.secondaryScoreTally, key, round) <= 0) continue
+    const card = key.includes('::') ? key.slice(0, key.indexOf('::')) : key
+    if (card) next = registerTacticalRoundCard(next, card, round)
+  }
+  return next
+}
+
+/** Apply GW achieve-and-discard after scoring, or restore hand on undo. */
+export function afterTacticalSecondaryScore(
+  scores: PlayerScores,
+  player: PlayerSetup,
+  card: string,
+  battleRound: number,
+  delta: 1 | -1,
+  currentBattleRound?: number,
+): PlayerScores {
+  if (player.secondaryMode !== 'tactical') return scores
+
+  if (delta === 1) {
+    let next =
+      currentBattleRound != null && battleRound === currentBattleRound
+        ? snapshotRoundTacticalCards(scores, battleRound)
+        : scores
+    next = registerTacticalRoundCard(next, card, battleRound)
+    if (isTacticalCardExhausted(card, next, player, battleRound, undefined, currentBattleRound)) {
+      next = discardAchievedTacticalCard(next, card)
+    }
+    return next
+  }
+
+  if (delta === -1) {
+    const options = getMissionScoreOptions(card, 'tactical')
+    const scoredThisRound = options.some(
+      (o) => getTallyCount(scores.secondaryScoreTally, secondaryScoreKey(card, o.id), battleRound) > 0,
+    )
+    let next = scores
+
+    const onLiveRound = currentBattleRound == null || battleRound === currentBattleRound
+    if (
+      !scoredThisRound &&
+      onLiveRound &&
+      next.removedSecondaries.includes(card) &&
+      !next.tacticalHand.includes(card) &&
+      next.tacticalHand.length < TACTICAL_ACTIVE_LIMIT
+    ) {
+      next = {
+        ...next,
+        tacticalHand: [...next.tacticalHand, card],
+        removedSecondaries: next.removedSecondaries.filter((c) => c !== card),
+      }
+    }
+
+    if (scoredThisRound || next.tacticalHand.includes(card)) {
+      next = registerTacticalRoundCard(next, card, battleRound)
+    } else {
+      next = unregisterTacticalRoundCard(next, card, battleRound)
+    }
+    return enforceTacticalHandLimit(next)
+  }
+
+  return scores
+}
+
+/** Fix saves where scored tactical cards were never discarded at round end. */
+export function healStaleTacticalHand(
+  scores: PlayerScores,
+  player: PlayerSetup,
+  battleRound: number,
+): PlayerScores {
+  if (player.secondaryMode !== 'tactical') return scores
+  let next = scores
+  for (let round = 1; round < battleRound; round++) {
+    next = discardTacticalScoredInRound(next, round)
+  }
+  return next
+}
+
+export function applyTacticalHandState(
+  scores: PlayerScores,
+  nextHand: string[],
+  restoreDiscardedToDeck: string[] = [],
+): PlayerScores {
+  // Only removals from hand — new cards must be drawn via Random.
+  const inHand = new Set(scores.tacticalHand)
+  const hand = nextHand.filter((c) => inHand.has(c)).slice(0, TACTICAL_ACTIVE_LIMIT)
+  let deck = [...scores.tacticalDeck]
+  let removed = [...scores.removedSecondaries]
+
+  for (const card of restoreDiscardedToDeck) {
+    if (!removed.includes(card) || hand.includes(card)) continue
+    removed = removed.filter((c) => c !== card)
+    deck = shuffleCardIntoDeck(deck, card)
+  }
+
+  for (const card of hand) {
+    if (removed.includes(card)) {
+      removed = removed.filter((c) => c !== card)
+    }
+  }
+
+  for (const c of scores.tacticalHand) {
+    if (!hand.includes(c) && !removed.includes(c)) {
+      deck = shuffleCardIntoDeck(deck, c)
+    }
+  }
+
+  return {
+    ...scores,
+    tacticalHand: hand,
+    tacticalDeck: deck,
+    removedSecondaries: removed,
+    tacticalAchieved: [],
+  }
+}
+
 export function getActiveSecondaries(player: PlayerSetup, scores: PlayerScores): string[] {
   if (player.secondaryMode === 'tactical') {
-    const cards = new Set([...scores.tacticalHand, ...scores.tacticalAchieved])
+    const cards = new Set([...scores.tacticalHand])
     for (const key of Object.keys(scores.secondaryScoreTally)) {
       const card = key.includes('::') ? key.slice(0, key.indexOf('::')) : key
       cards.add(card)
@@ -251,22 +516,42 @@ function migrateScores(raw: Record<string, unknown> | undefined): PlayerScores {
   const s = raw ?? {}
   const vp = (s.vp as number) ?? 0
   const roundVp = (s.roundVp as number[]) ?? [0, 0, 0, 0, 0]
-  return {
+  let tacticalHand = (s.tacticalHand as string[]) ?? []
+  let tacticalDeck = (s.tacticalDeck as string[]) ?? []
+  const legacyAchieved = (s.tacticalAchieved as string[]) ?? []
+
+  for (const card of legacyAchieved) {
+    if (!tacticalHand.includes(card) && !tacticalDeck.includes(card)) {
+      tacticalDeck = shuffleCardIntoDeck(tacticalDeck, card)
+    }
+  }
+
+  const base: PlayerScores = {
     vp,
     primaryVp: (s.primaryVp as number) ?? vp,
     secondaryVp: (s.secondaryVp as number) ?? 0,
     roundVp,
     primaryRoundVp: (s.primaryRoundVp as number[]) ?? [...roundVp],
     secondaryRoundVp: (s.secondaryRoundVp as number[]) ?? [0, 0, 0, 0, 0],
-    tacticalHand: (s.tacticalHand as string[]) ?? [],
-    tacticalDeck: (s.tacticalDeck as string[]) ?? [],
-    tacticalAchieved: (s.tacticalAchieved as string[]) ?? [],
+    tacticalHand,
+    tacticalDeck,
+    tacticalAchieved: [],
     tacticalRerollUsed: (s.tacticalRerollUsed as boolean) ?? false,
     extraCpThisRound: (s.extraCpThisRound as number) ?? 0,
     removedSecondaries: (s.removedSecondaries as string[]) ?? [],
     primaryScoreTally: (s.primaryScoreTally as Record<string, number[]>) ?? {},
     secondaryScoreTally: (s.secondaryScoreTally as Record<string, number[]>) ?? {},
+    tacticalRoundCards: [[], [], [], [], []],
   }
+
+  const migrated = {
+    ...base,
+    tacticalRoundCards:
+      (s.tacticalRoundCards as string[][])?.length === 5
+        ? (s.tacticalRoundCards as string[][])
+        : deriveTacticalRoundCardsFromTally(base),
+  }
+  return enforceTacticalHandLimit(migrated)
 }
 
 export function migrateGameState(raw: Record<string, unknown>): GameState {

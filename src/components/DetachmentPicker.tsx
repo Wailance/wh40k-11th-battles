@@ -26,13 +26,13 @@ export function DetachmentPicker({
     <div className="space-y-3">
       {showBattleSize && onBattleSize && battleSize !== undefined && (
         <div>
-          <p className="mb-1.5 text-[10px] uppercase tracking-widest text-muted">
+          <p className="mb-1.5 text-micro uppercase tracking-widest text-muted">
             {copy.armyLists.battleSizeLabel}
           </p>
           <select
             value={battleSize}
             onChange={(e) => onBattleSize(Number(e.target.value) as ArmyRoster['battleSize'])}
-            className="w-full rounded-lg border border-white/10 bg-black/40 px-3 py-2.5 text-sm text-bone"
+            className="w-full rounded-lg border border-white/10 bg-black/40 px-3 py-2.5 text-body text-bone"
           >
             <option value={1000}>{copy.armyLists.battleSizeIncursion}</option>
             <option value={2000}>{copy.armyLists.battleSizeStrike}</option>
@@ -40,7 +40,7 @@ export function DetachmentPicker({
         </div>
       )}
 
-      <p className="text-xs text-muted">
+      <p className="text-caption text-muted">
         {copy.armyLists.detachmentsHint} · {copy.dp.remaining(3 - dpUsed)}
       </p>
 
@@ -67,8 +67,8 @@ export function DetachmentPicker({
             >
               <DpCost dp={d.dp} />
               <div className="min-w-0 flex-1">
-                <p className="text-sm font-medium text-bone">{d.name}</p>
-                {d.note && <p className="mt-0.5 text-xs text-muted">{d.note}</p>}
+                <p className="text-body font-medium text-bone">{d.name}</p>
+                {d.note && <p className="mt-0.5 text-caption text-muted">{d.note}</p>}
                 <ForceDispositionBadge fd={d.forceDisposition as ForceDisposition} short />
               </div>
             </button>

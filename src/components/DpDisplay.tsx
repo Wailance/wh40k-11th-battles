@@ -48,7 +48,7 @@ export function DpCost({
   return (
     <span className="inline-flex items-center gap-1.5">
       <DpPips value={dp} size={size} dimUnused={false} />
-      <span className="text-[10px] font-semibold uppercase tracking-wide text-accent tabular-nums">
+      <span className="text-micro font-semibold uppercase tracking-wide text-accent tabular-nums">
         {dp}
       </span>
     </span>
@@ -76,12 +76,12 @@ export function DpBudget({
     >
       <div className="flex items-center justify-between gap-2">
         {label && (
-          <span className="text-[11px] font-medium uppercase tracking-wide text-muted">{label}</span>
+          <span className="text-caption font-medium uppercase tracking-wide text-muted">{label}</span>
         )}
         <div className="flex items-center gap-2">
           <DpPips value={used} max={max} size="md" color={color} />
           <span
-            className={`text-sm font-semibold tabular-nums ${full ? 'text-accent' : 'text-bone'}`}
+            className={`text-body font-semibold tabular-nums ${full ? 'text-accent' : 'text-bone'}`}
           >
             {used}
             <span className="text-muted/70">/{max}</span>
@@ -109,7 +109,7 @@ export function DpBudget({
         ))}
       </div>
 
-      <p className="text-[11px] text-muted">
+      <p className="text-caption text-muted">
         {full ? (
           <span className="text-accent">{copy.dp.full}</span>
         ) : (

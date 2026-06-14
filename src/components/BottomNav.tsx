@@ -18,7 +18,7 @@ const links = [
 function NavLabel({ label }: { label: string }) {
   if (label === 'Detachment Points') {
     return (
-      <span className="text-center font-display text-[9px] uppercase leading-tight tracking-wide">
+      <span className="text-center font-display text-micro uppercase leading-tight tracking-wide">
         <span className="block">Detachment</span>
         <span className="block opacity-80">Points</span>
       </span>
@@ -26,7 +26,7 @@ function NavLabel({ label }: { label: string }) {
   }
   if (label === 'Mission Sequence') {
     return (
-      <span className="text-center font-display text-[9px] uppercase leading-tight tracking-wide">
+      <span className="text-center font-display text-micro uppercase leading-tight tracking-wide">
         <span className="block">Mission</span>
         <span className="block opacity-80">Sequence</span>
       </span>
@@ -34,13 +34,13 @@ function NavLabel({ label }: { label: string }) {
   }
   if (label === 'Army Builder') {
     return (
-      <span className="text-center font-display text-[9px] uppercase leading-tight tracking-wide">
+      <span className="text-center font-display text-micro uppercase leading-tight tracking-wide">
         <span className="block">Army</span>
         <span className="block opacity-80">Builder</span>
       </span>
     )
   }
-  return <span className="text-[10px] font-display uppercase tracking-wider">{label}</span>
+  return <span className="text-micro font-display uppercase tracking-wider">{label}</span>
 }
 
 export function BottomNav({ compact = false }: { compact?: boolean }) {
@@ -54,7 +54,7 @@ export function BottomNav({ compact = false }: { compact?: boolean }) {
             to={l.to}
             end={l.end}
             className={({ isActive }) =>
-              `relative flex flex-1 flex-col items-center justify-center gap-0.5 px-0.5 text-[10px] font-medium transition-colors ${
+              `relative flex flex-1 flex-col items-center justify-center gap-0.5 px-0.5 text-micro font-medium transition-colors ${
                 compact ? 'min-h-[2.75rem]' : 'min-h-[3.25rem]'
               } ${isActive ? 'text-accent' : 'text-muted'} ${
                 l.to === '/game' && !isActive ? 'text-crimson-bright' : ''

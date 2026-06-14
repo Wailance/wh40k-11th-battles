@@ -43,8 +43,8 @@ export function MissionScoreButtons({
                 title={inactive ? plus.reason : undefined}
               >
                 <div className="min-w-0 flex-1">
-                  <p className="truncate text-[10px] leading-tight text-bone">{opt.label}</p>
-                  <p className="text-[9px] text-muted">
+                  <p className="truncate text-caption leading-tight text-bone">{opt.label}</p>
+                  <p className="text-meta">
                     +{opt.vp} · {timing}
                   </p>
                 </div>
@@ -57,7 +57,7 @@ export function MissionScoreButtons({
                 >
                   −
                 </button>
-                <span className="w-4 shrink-0 text-center text-[11px] tabular-nums" style={{ color }}>
+                <span className="w-5 shrink-0 text-center text-caption font-semibold tabular-nums" style={{ color }}>
                   {count}
                 </span>
                 <button
@@ -79,7 +79,7 @@ export function MissionScoreButtons({
 
   return (
     <div className="space-y-2">
-      <p className="text-xs font-medium text-muted" style={{ color }}>
+      <p className="text-caption font-medium text-muted" style={{ color }}>
         {title}
       </p>
       <div className="grid grid-cols-1 gap-2">
@@ -108,27 +108,27 @@ export function MissionScoreButtons({
                 −
               </button>
               <div className="min-w-0 flex-1 px-2 py-2">
-                <span className="block text-[10px] font-medium uppercase tracking-wide text-accent-dim">
+                <span className="block text-micro font-medium uppercase tracking-wide text-accent-dim">
                   {formatTiming ? formatTiming(opt.timing) : opt.timing}
                 </span>
-                <span className="block text-sm leading-snug text-bone">{opt.label}</span>
-                <span className="mt-1 block text-sm font-semibold tabular-nums" style={{ color }}>
+                <span className="block text-body leading-snug text-bone">{opt.label}</span>
+                <span className="mt-1 block text-body font-semibold tabular-nums" style={{ color }}>
                   +{opt.vp} VP
                   {count > 0 && (
-                    <span className="ml-2 text-xs font-normal text-muted">
+                    <span className="ml-2 text-caption font-normal text-muted">
                       ×{count} = {roundVp}
                     </span>
                   )}
                 </span>
                 {!plus.allowed && count === 0 && plus.reason && (
-                  <span className="mt-1 block text-xs text-warning">{plus.reason}</span>
+                  <span className="mt-1 block text-caption text-warning">{plus.reason}</span>
                 )}
               </div>
               <button
                 type="button"
                 onClick={() => plus.allowed && onScore(opt.id, 1)}
                 disabled={!plus.allowed}
-                className="app-btn app-score-touch m-0.5 shrink-0 rounded-[10px] text-xl font-bold disabled:opacity-30"
+                className="app-btn app-score-touch m-0.5 shrink-0 rounded-[10px] text-display font-bold disabled:opacity-30"
                 aria-label={`Score ${opt.label}`}
                 title={plus.reason}
               >

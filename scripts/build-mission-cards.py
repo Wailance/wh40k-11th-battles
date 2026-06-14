@@ -118,8 +118,9 @@ CARDS['Immovable Object'] = primary(
 CARDS['Battlefield Dominance'] = primary(
     'Take and Hold mirror — dominate the objective count.',
     [
-        {'label': 'BATTLE ROUNDS 1–2', 'text': 'WHEN: End of your turn. REQUIREMENT: You control more objective markers than your opponent. REWARD: 2 VP per marker you control.'},
-        {'label': 'SECOND BATTLE ROUND ONWARDS', 'text': f'WHEN: {CMD} REQUIREMENT: You control your home objective. REWARD: 3 VP per objective you control, +2 VP per non-home objective.'},
+        {'label': 'BATTLE ROUNDS 1–2', 'text': 'WHEN: End of your turn. REQUIREMENT: You control more objective markers than your opponent. REWARD: 2 VP.'},
+        {'label': 'SECOND BATTLE ROUND ONWARDS', 'text': f'WHEN: {CMD} REQUIREMENT: Per home objective you control while you control your home objective. REWARD: 3 VP per objective.'},
+        {'label': 'SECOND BATTLE ROUND ONWARDS', 'text': f'WHEN: {CMD} REQUIREMENT: Per non-home objective you control while you control your home objective. REWARD: 5 VP per objective.'},
     ],
 )
 
@@ -127,7 +128,8 @@ CARDS['Determined Acquisition'] = primary(
     'Take and Hold vs Disruption — cap uncontested objectives.',
     [
         {'label': 'ANY BATTLE ROUND', 'text': 'WHEN: End of your turn. REQUIREMENT: You control an objective you did not control at the start of your turn (not your home). REWARD: 2 VP per such objective.'},
-        {'label': 'SECOND BATTLE ROUND ONWARDS', 'text': f'WHEN: {CMD} REQUIREMENT: Per objective you control in opponent territory. REWARD: 3 VP base + 3 VP bonus for objectives in opponent deployment zone.'},
+        {'label': 'SECOND BATTLE ROUND ONWARDS', 'text': f'WHEN: {CMD} REQUIREMENT: Per objective you control outside opponent deployment zone. REWARD: 3 VP per objective.'},
+        {'label': 'SECOND BATTLE ROUND ONWARDS', 'text': f'WHEN: {CMD} REQUIREMENT: Per objective you control in opponent deployment zone. REWARD: 6 VP per objective.'},
     ],
 )
 
@@ -135,7 +137,8 @@ CARDS['Inescapable Dominion'] = primary(
     'Take and Hold vs Priority Assets — wide board control.',
     [
         {'label': 'ANY BATTLE ROUND', 'text': 'WHEN: End of your turn. REQUIREMENT: You control 3+ objective markers. REWARD: 4 VP.'},
-        {'label': 'SECOND BATTLE ROUND ONWARDS', 'text': f'WHEN: {CMD} REQUIREMENT: You control 2+ objectives. REWARD: 5 VP. If you control more than your opponent: +4 VP.'},
+        {'label': 'SECOND BATTLE ROUND ONWARDS', 'text': f'WHEN: {CMD} REQUIREMENT: You control 2+ objectives. REWARD: 5 VP.'},
+        {'label': 'SECOND BATTLE ROUND ONWARDS', 'text': f'WHEN: {CMD} REQUIREMENT: You control more objective markers than your opponent. REWARD: 4 VP.'},
         {'label': 'END OF BATTLE', 'text': 'WHEN: End of the battle. REQUIREMENT: You control opponent\'s home objective. REWARD: 5 VP.'},
     ],
 )
@@ -162,7 +165,8 @@ CARDS['Delaying Action'] = primary(
 CARDS['Death Trap'] = primary(
     'Disruption vs Take and Hold — booby-trap terrain and objectives.',
     [
-        {'label': 'ANY BATTLE ROUND', 'text': 'WHEN: End of your turn. REQUIREMENT: Per terrain area trapped this turn. REWARD: 2 VP (+3 VP if that area is also an objective).'},
+        {'label': 'ANY BATTLE ROUND', 'text': 'WHEN: End of your turn. REQUIREMENT: Per terrain area trapped this turn (not an objective). REWARD: 2 VP each.'},
+        {'label': 'ANY BATTLE ROUND', 'text': 'WHEN: End of your turn. REQUIREMENT: Per trap placed on an objective marker this turn. REWARD: 5 VP each.'},
         {'label': 'ANY BATTLE ROUND', 'text': 'WHEN: End of your turn. REQUIREMENT: One or more enemy units that started the turn in a trapped area were destroyed. REWARD: 3 VP.'},
         *hold_non_home('4 VP'),
     ],
@@ -193,7 +197,8 @@ CARDS['Locate and Deny'] = primary(
 CARDS['Smoke and Mirrors'] = primary(
     'Disruption vs Reconnaissance — decoy objectives.',
     [
-        {'label': 'ANY BATTLE ROUND', 'text': 'WHEN: End of your turn. REQUIREMENT: Per objective decoyed (+2 VP if in opponent territory). REWARD: 2 VP each.'},
+        {'label': 'ANY BATTLE ROUND', 'text': 'WHEN: End of your turn. REQUIREMENT: Per objective decoyed this turn (not in opponent deployment zone). REWARD: 2 VP each.'},
+        {'label': 'ANY BATTLE ROUND', 'text': 'WHEN: End of your turn. REQUIREMENT: Per objective decoyed in opponent deployment zone this turn. REWARD: 4 VP each.'},
         *hold_non_home('4 VP'),
         {'label': 'END OF BATTLE', 'text': 'WHEN: End of the battle. REQUIREMENT: 4+ objectives are decoyed. REWARD: 10 VP.'},
     ],
@@ -204,7 +209,8 @@ CARDS['Smoke and Mirrors'] = primary(
 CARDS['Vital Link'] = primary(
     'Priority Assets vs Purge — stack Operation markers on Centre objectives.',
     [
-        {'label': 'ANY BATTLE ROUND', 'text': 'WHEN: End of your turn. REQUIREMENT: You control one or more Centre objectives. REWARD: 2 VP + 1 VP per Operation marker on Centre objectives you control.'},
+        {'label': 'ANY BATTLE ROUND', 'text': 'WHEN: End of your turn. REQUIREMENT: You control one or more Centre objectives. REWARD: 2 VP.'},
+        {'label': 'ANY BATTLE ROUND', 'text': 'WHEN: End of your turn. REQUIREMENT: Per Operation marker on Centre objectives you control. REWARD: 1 VP per marker.'},
         *hold_non_home('4 VP', [
             {'label': 'SECOND BATTLE ROUND ONWARDS', 'text': f'WHEN: {CMD} REQUIREMENT: You control a Centre objective. REWARD: +4 VP.'},
             {'label': 'END OF BATTLE', 'text': 'WHEN: End of the battle. REQUIREMENT: You control opponent\'s home objective. REWARD: 10 VP.'},
@@ -239,7 +245,8 @@ CARDS['Extract Relic'] = primary(
 CARDS['Sabotage'] = primary(
     'Priority Assets mirror — sabotage enemy-side objectives.',
     [
-        {'label': 'ANY BATTLE ROUND', 'text': 'WHEN: End of your turn. REQUIREMENT: Per objective sabotaged (+2 VP if in opponent deployment zone). REWARD: 3 VP each.'},
+        {'label': 'ANY BATTLE ROUND', 'text': 'WHEN: End of your turn. REQUIREMENT: Per objective sabotaged this turn (not in opponent deployment zone). REWARD: 3 VP each.'},
+        {'label': 'ANY BATTLE ROUND', 'text': 'WHEN: End of your turn. REQUIREMENT: Per objective sabotaged in opponent deployment zone this turn. REWARD: 5 VP each.'},
         *hold_non_home('4 VP'),
     ],
     actions=['SABOTAGE (ACTION): On a non-home objective; completes when performed.'],
@@ -269,7 +276,7 @@ CARDS['Triangulation'] = primary(
 CARDS['Reconnaissance Sweep'] = primary(
     'Recon vs Take and Hold — table corners and kills.',
     [
-        {'label': 'ANY BATTLE ROUND', 'text': 'WHEN: End of your turn. REQUIREMENT: Units in 3 table corners (6"+ from centre): 3 VP. All 4 corners: 6 VP.'},
+        {'label': 'ANY BATTLE ROUND', 'text': 'WHEN: End of your turn. REQUIREMENT: Units in 3 table corners (6"+ from centre). REWARD: 3 VP. OR REQUIREMENT: Units in all 4 table corners (6"+ from centre). REWARD: 6 VP.'},
         {'label': 'ANY BATTLE ROUND', 'text': 'WHEN: End of your turn. REQUIREMENT: Per enemy unit destroyed. REWARD: 1 VP each.'},
         *hold_non_home('3 VP'),
     ],
@@ -303,7 +310,8 @@ CARDS['Gather Intel'] = primary(
         {'label': 'BATTLE ROUND 1', 'text': 'WHEN: End of your turn. REQUIREMENT: You control a Centre objective. REWARD: 6 VP.'},
         *hold_non_home('4 VP'),
         {'label': 'ANY BATTLE ROUND', 'text': 'WHEN: End of your turn. REQUIREMENT: You extracted intel on an objective. REWARD: 6 VP.'},
-        {'label': 'END OF BATTLE', 'text': 'WHEN: End of the battle. REQUIREMENT: Intel extracted on 3+ objectives and on one in opponent territory. REWARD: 5 VP each condition.'},
+        {'label': 'END OF BATTLE', 'text': 'WHEN: End of the battle. REQUIREMENT: Intel extracted on 3+ objectives. REWARD: 5 VP.'},
+        {'label': 'END OF BATTLE', 'text': 'WHEN: End of the battle. REQUIREMENT: Intel extracted on one objective in opponent territory. REWARD: 5 VP.'},
     ],
     actions=['EXTRACT INTEL (ACTION): From round 2 on objectives you control; completes end of turn. Place Intel marker.'],
 )
@@ -362,16 +370,17 @@ CARDS['Secure No Man\'s Land'] = secondary(
 CARDS['No Prisoners'] = secondary(
     'Show no mercy — destroy enemy units.',
     [
-        {'label': 'FIXED', 'text': 'WHEN: While this card is active. Each time an enemy Bodyguard or non-CHARACTER unit is destroyed (up to 5 VP).'},
-        {'label': 'TACTICAL', 'text': 'WHEN: While this card is active. Each time an enemy unit is destroyed (up to 5 VP).'},
+        {'label': 'FIXED', 'text': 'WHEN: While this card is active. Each time an enemy Bodyguard or non-CHARACTER unit is destroyed. REWARD: 2 VP each (up to 5 VP per battle round).'},
+        {'label': 'TACTICAL', 'text': 'WHEN: While this card is active. Each time an enemy unit is destroyed. REWARD: 2 VP each (up to 5 VP per battle round).'},
     ],
 )
 
 CARDS['Cleanse'] = secondary(
     'Purify tainted objectives.',
     [
-        {'label': 'CLEANSE (ACTION)', 'text': 'STARTS: Shooting phase. UNITS: One or more within range of a non-home objective. COMPLETES: End of your turn if you still control it. REWARD: Fixed 2 VP / Tactical 5 VP for one cleansed; double for two or more.'},
-        {'label': 'ANY BATTLE ROUND', 'text': 'WHEN: End of your turn. One or more objectives cleansed by your army this turn.'},
+        {'label': 'CLEANSE (ACTION)', 'text': 'STARTS: Shooting phase. UNITS: One or more within range of a non-home objective. COMPLETES: End of your turn if you still control it. IF COMPLETED: That objective marker is cleansed by your army.'},
+        {'label': 'FIXED', 'text': 'WHEN: End of your turn. One objective marker cleansed by your army this turn. REWARD: 2 VP. OR two or more objective markers cleansed. REWARD: 4 VP.'},
+        {'label': 'TACTICAL', 'text': 'WHEN: End of your turn. One objective marker cleansed by your army this turn. REWARD: 3 VP. OR two or more objective markers cleansed. REWARD: 5 VP.'},
     ],
     when_drawn='When Drawn: Select objectives to cleanse as per card.',
 )
@@ -387,7 +396,7 @@ CARDS['Defend Stronghold'] = secondary(
 CARDS['Overwhelming Force'] = secondary(
     'Destroy enemies on objectives.',
     [
-        {'label': 'ANY BATTLE ROUND', 'text': 'WHEN: While this card is active. Each time an enemy unit that started the turn within range of an objective is destroyed (up to 5 VP). Leader and Bodyguard count separately if Attached.'},
+        {'label': 'ANY BATTLE ROUND', 'text': 'WHEN: While this card is active. Each time an enemy unit that started the turn within range of an objective marker is destroyed. REWARD: 3 VP each (up to 5 VP per battle round). Leader and Bodyguard count separately if Attached.'},
     ],
 )
 
@@ -416,7 +425,7 @@ CARDS['Forward Position'] = secondary(
 CARDS['Burden of Thrust'] = secondary(
     'Guard nominated objectives with assigned units.',
     [
-        {'label': 'ANY BATTLE ROUND', 'text': 'WHEN: End of your turn. Each nominated objective is controlled by its guardian unit. REWARD: 4 VP per objective.'},
+        {'label': 'ANY BATTLE ROUND', 'text': 'WHEN: End of your turn. Each nominated objective is controlled by its guardian unit. REWARD: 2 VP per objective (up to 5 VP per battle round).'},
     ],
     when_drawn='When Drawn: Select objectives and guardian units as described on the card.',
 )

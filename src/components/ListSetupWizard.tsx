@@ -40,10 +40,10 @@ export function ListSetupWizard({
   return (
     <div className="bf-viewport -mx-2 flex min-h-0 flex-1 flex-col">
       <header className="shrink-0 border-b border-white/[0.08] px-2 py-2">
-        <Link to="/lists" className="text-xs text-muted hover:text-[var(--color-gw-gold)]">
+        <Link to="/lists" className="text-caption text-muted hover:text-[var(--color-gw-gold)]">
           ← {copy.armyLists.back}
         </Link>
-        <h1 className="mt-2 font-display text-lg tracking-wide text-[var(--color-gw-gold)]">
+        <h1 className="mt-2 font-display text-display tracking-wide text-[var(--color-gw-gold)]">
           {copy.armyLists.newList}
         </h1>
         <div className="mt-3 flex gap-1">
@@ -56,7 +56,7 @@ export function ListSetupWizard({
             />
           ))}
         </div>
-        <p className="mt-2 text-[11px] uppercase tracking-widest text-muted">
+        <p className="mt-2 text-caption uppercase tracking-widest text-muted">
           {step === 'allegiance' && copy.armyLists.stepAllegiance}
           {step === 'faction' && copy.armyLists.stepFaction}
           {step === 'detachment' && copy.armyLists.stepDetachment}
@@ -75,8 +75,8 @@ export function ListSetupWizard({
                   allegiance === id ? 'ring-1 ring-[var(--color-gw-gold)]/50' : ''
                 }`}
               >
-                <p className="font-display text-xl tracking-wide text-bone">{copy.armyLists[labelKey]}</p>
-                <p className="mt-1 text-xs text-muted">
+                <p className="font-display text-display tracking-wide text-bone">{copy.armyLists[labelKey]}</p>
+                <p className="mt-1 text-caption text-muted">
                   {armiesForAllegiance(id).length} {copy.armyLists.factionsCount}
                 </p>
               </button>
@@ -89,7 +89,7 @@ export function ListSetupWizard({
             <button
               type="button"
               onClick={() => onStep('allegiance')}
-              className="mb-2 text-xs text-muted hover:text-bone"
+              className="mb-2 text-caption text-muted hover:text-bone"
             >
               ← {copy.armyLists.changeAllegiance}
             </button>
@@ -105,7 +105,7 @@ export function ListSetupWizard({
                 }`}
               >
                 <span className="font-medium text-bone">{a.army}</span>
-                <span className="text-xs text-muted">{a.detachments.length} det.</span>
+                <span className="text-caption text-muted">{a.detachments.length} det.</span>
               </button>
             ))}
           </div>
@@ -116,11 +116,11 @@ export function ListSetupWizard({
             <button
               type="button"
               onClick={() => onStep('faction')}
-              className="mb-3 text-xs text-muted hover:text-bone"
+              className="mb-3 text-caption text-muted hover:text-bone"
             >
               ← {copy.armyLists.changeFaction}
             </button>
-            <p className="mb-3 font-display text-base text-bone">{roster.army}</p>
+            <p className="mb-3 font-display text-title text-bone">{roster.army}</p>
             <DetachmentPicker
               roster={roster}
               armyEntry={armyEntry}
@@ -139,7 +139,7 @@ export function ListSetupWizard({
             type="button"
             disabled={!roster?.detachments.length}
             onClick={onComplete}
-            className="app-btn flex w-full py-3.5 text-sm disabled:opacity-40"
+            className="app-btn flex w-full py-3.5 text-body disabled:opacity-40"
           >
             {copy.armyLists.startBuilding}
           </button>

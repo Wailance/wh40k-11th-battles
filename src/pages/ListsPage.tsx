@@ -29,21 +29,21 @@ export function ListsPage() {
   return (
     <div className="space-y-4">
       <div>
-        <h1 className="font-display text-xl tracking-wide text-accent">{copy.armyLists.title}</h1>
-        <p className="mt-1 text-sm text-muted">{copy.armyLists.subtitle}</p>
+        <h1 className="app-page-title">{copy.armyLists.title}</h1>
+        <p className="mt-1 text-body text-muted">{copy.armyLists.subtitle}</p>
       </div>
 
       <ArmyBuilderWipBanner />
       <ArmyDataBanner />
 
       <div className="flex flex-wrap gap-2">
-        <Link to="/lists/new" className="app-btn-muted px-4 py-2.5 text-sm">
+        <Link to="/lists/new" className="app-btn-muted px-4 py-2.5 text-body">
           {copy.armyLists.newList}
           <span className="app-btn-badge">{copy.armyLists.wipBadge}</span>
         </Link>
         <button
           type="button"
-          className="app-btn-ghost px-4 py-2.5 text-sm"
+          className="app-btn-ghost px-4 py-2.5 text-body"
           onClick={() => fileRef.current?.click()}
         >
           {copy.armyLists.import}
@@ -62,20 +62,20 @@ export function ListsPage() {
       </div>
 
       {rosters.length === 0 ? (
-        <p className="app-panel p-6 text-center text-sm text-muted">{copy.armyLists.empty}</p>
+        <p className="app-panel p-6 text-center text-body text-muted">{copy.armyLists.empty}</p>
       ) : (
         <ul className="space-y-2">
           {rosters.map((r) => (
             <li key={r.id} className="app-panel flex items-center gap-3 p-4">
               <Link to={`/lists/${r.id}`} className="min-w-0 flex-1">
                 <p className="truncate font-medium text-bone">{r.name}</p>
-                <p className="mt-0.5 text-xs text-muted">
+                <p className="mt-0.5 text-caption text-muted">
                   {r.army} · {r.pointsTotal}/{r.battleSize} pts · {r.units.length} units
                 </p>
               </Link>
               <button
                 type="button"
-                className="text-xs text-red-400"
+                className="text-caption text-red-400"
                 onClick={() => {
                   if (confirm(copy.armyLists.deleteConfirm)) {
                     deleteRoster(r.id)
@@ -90,7 +90,7 @@ export function ListsPage() {
         </ul>
       )}
 
-      <p className="text-center text-[11px] text-muted">
+      <p className="text-center text-caption text-muted">
         {copy.armyLists.externalBuilder}{' '}
         <a
           href="https://warorgan.com/"

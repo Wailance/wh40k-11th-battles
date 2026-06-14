@@ -1,4 +1,4 @@
-import { useState } from 'react'
+import { useRef, useState, type CSSProperties, type ReactNode } from 'react'
 import { Link, useNavigate } from 'react-router-dom'
 import { DpBudget, DpCost } from '../components/DpDisplay'
 import { ForceDispositionBadge } from '../components/ForceDispositionBadge'
@@ -16,7 +16,6 @@ import {
   togglePlayerDetachment,
 } from '../lib/game-utils'
 import { BattlefieldMap } from '../components/BattlefieldMap'
-import { PreBattleChecklist } from '../components/PreBattleChecklist'
 import { getMatchupBattlefield } from '../lib/battlefield'
 import { ConfirmDialog } from '../components/ConfirmDialog'
 import { copy } from '../lib/copy'
@@ -33,7 +32,7 @@ import type {
 } from '../types/game'
 import { DOMINATUS_ALLIANCE_LABELS, DOMINATUS_ALLIANCES } from '../data/dominatus-companion'
 
-const STEPS = ['Players', 'Detachments', 'Mission', 'Secondaries', 'Start']
+const STEPS = ['Players', 'Detachments', 'Mission', 'Secondaries', 'Layout']
 
 export function NewGamePage({ format = 'standard' }: { format?: GameFormat }) {
   const navigate = useNavigate()
@@ -115,12 +114,12 @@ export function NewGamePage({ format = 'standard' }: { format?: GameFormat }) {
   return (
     <div>
       {hasActive && (
-        <div className="app-panel mb-4 border-crimson/20 bg-crimson-soft/40 p-3 text-sm">
+        <div className="app-panel mb-4 border-crimson/20 bg-crimson-soft/40 p-3 text-body">
           <p className="font-medium text-bone">{copy.home.activeSub}</p>
-          <p className="mt-1 text-xs text-muted">
+          <p className="mt-1 text-caption text-muted">
             {activeGame!.player1.name} vs {activeGame!.player2.name} · Round {activeGame!.battleRound}
           </p>
-          <Link to="/game" className="mt-2 inline-block text-xs font-medium text-accent">
+          <Link to="/game" className="mt-2 inline-block text-caption font-medium text-accent">
             {copy.home.resumeCta} →
           </Link>
         </div>
@@ -128,14 +127,20 @@ export function NewGamePage({ format = 'standard' }: { format?: GameFormat }) {
       <div className="mb-5 flex items-start justify-between gap-3">
         <div>
           <h1 className="app-page-title">{pageTitle}</h1>
-          <p className="mt-0.5 text-sm text-muted">{STEPS[step]}</p>
+          <p className="mt-0.5 text-body text-muted">{STEPS[step]}</p>
         </div>
-        <button type="button" onClick={() => navigate('/')} className="app-btn-ghost shrink-0 px-3 py-2 text-xs">
+        <button type="button" onClick={() => navigate('/')} className="app-btn-ghost shrink-0 px-3 py-2 text-caption">
           {copy.newGame.cancel}
         </button>
       </div>
-      <WizardProgress step={step} total={STEPS.length} labels={STEPS} />
+      <WizardProgress
+        step={step}
+        total={STEPS.length}
+        labels={STEPS}
+        onStepClick={(i) => setStep(i)}
+      />
 
+      <div key={step} className="motion-step">
       {step === 0 && (
         <div className="space-y-4">
           {format === 'doubles' && game.doubles && (
@@ -208,34 +213,22 @@ export function NewGamePage({ format = 'standard' }: { format?: GameFormat }) {
           />
 
           <div className="app-panel p-4">
-            <p className="mb-2 text-sm text-muted">Chapter Approved matchup</p>
+            <p className="mb-2 text-body text-muted">Chapter Approved matchup</p>
             <div className="flex flex-wrap items-center gap-2">
               <ForceDispositionBadge fd={game.player1.forceDisposition} />
               <span className="text-muted">vs</span>
               <ForceDispositionBadge fd={game.player2.forceDisposition} />
             </div>
             {game.matchupId && (
-              <p className="mt-2 text-xs text-accent">Mission &amp; Layout #{game.matchupId}</p>
+              <p className="mt-2 text-caption text-accent">Mission &amp; Layout #{game.matchupId}</p>
             )}
-            <p className="mt-2 text-xs text-muted">
+            <p className="mt-2 text-caption text-muted">
               Primary missions are set by the pairing of Force Dispositions (Chapter Approved deck).
             </p>
           </div>
 
           <MissionCard player={game.player1.name} mission={game.player1.primaryMission} fd={game.player1.forceDisposition} color="var(--color-p1)" />
           <MissionCard player={game.player2.name} mission={game.player2.primaryMission} fd={game.player2.forceDisposition} color="var(--color-p2)" />
-
-          {game.matchupId && getMatchupBattlefield(game.matchupId) && (
-            <BattlefieldMap
-              battlefield={getMatchupBattlefield(game.matchupId)!}
-              attacker={game.attacker}
-              player1Name={game.player1.name}
-              player2Name={game.player2.name}
-              variantIndex={game.layoutVariantIndex}
-              onVariantChange={(i) => update({ layoutVariantIndex: i })}
-              compact
-            />
-          )}
         </div>
       )}
 
@@ -258,29 +251,10 @@ export function NewGamePage({ format = 'standard' }: { format?: GameFormat }) {
 
       {step === 4 && (
         <div className="space-y-4">
-          <ToggleGroup
-            label="Who goes first?"
-            options={[
-              { value: 1, label: game.player1.name },
-              { value: 2, label: game.player2.name },
-            ]}
-            value={game.firstPlayer}
-            onChange={(v) => update({ firstPlayer: v as 1 | 2 })}
-          />
-          <ToggleGroup
-            label="Attacker"
-            options={[
-              { value: 1, label: game.player1.name },
-              { value: 2, label: game.player2.name },
-            ]}
-            value={game.attacker}
-            onChange={(v) => update({ attacker: v as 1 | 2 })}
-          />
-
           {game.matchupId && getMatchupBattlefield(game.matchupId) && (
             <div className="space-y-2">
-              <p className="text-sm font-medium text-bone">{copy.newGame.layoutPick}</p>
-              <p className="text-xs text-muted">{copy.newGame.layoutPickHint}</p>
+              <p className="text-body font-medium text-bone">{copy.newGame.layoutPick}</p>
+              <p className="text-caption text-muted">{copy.newGame.layoutPickHint}</p>
               <BattlefieldMap
                 battlefield={getMatchupBattlefield(game.matchupId)!}
                 attacker={game.attacker}
@@ -288,20 +262,14 @@ export function NewGamePage({ format = 'standard' }: { format?: GameFormat }) {
                 player2Name={game.player2.name}
                 variantIndex={game.layoutVariantIndex}
                 onVariantChange={(i) => update({ layoutVariantIndex: i })}
+                preview
               />
             </div>
           )}
 
-          <PreBattleChecklist
-            checks={game.preBattleChecks}
-            onToggle={(i) => {
-              const next = [...game.preBattleChecks]
-              next[i] = !next[i]
-              update({ preBattleChecks: next })
-            }}
-          />
+          <p className="text-caption leading-relaxed text-muted">{copy.newGame.layoutPreBattleNote}</p>
 
-          <div className="app-panel p-4 text-sm">
+          <div className="app-panel p-4 text-body">
             <SummaryRow label="P1" value={`${game.player1.army} — ${formatPlayerDetachments(game.player1)}`} />
             <SummaryRow label="P2" value={`${game.player2.army} — ${formatPlayerDetachments(game.player2)}`} />
             <SummaryRow label="Primary" value={`${game.player1.primaryMission} / ${game.player2.primaryMission}`} />
@@ -321,8 +289,10 @@ export function NewGamePage({ format = 'standard' }: { format?: GameFormat }) {
         </div>
       )}
 
+      </div>
+
       {stepHint && (
-        <p className="mt-4 text-center text-sm text-warning" role="status">
+        <p className="mt-4 text-center text-body text-warning" role="status">
           {stepHint}
         </p>
       )}
@@ -340,12 +310,12 @@ export function NewGamePage({ format = 'standard' }: { format?: GameFormat }) {
         }}
       />
 
-      <div className="mt-8 flex gap-3">
+      <div className={`flex gap-3 ${step === 1 ? 'mt-4' : 'mt-8'}`}>
         {step > 0 && (
           <button
             type="button"
             onClick={() => setStep((s) => s - 1)}
-            className="app-btn-ghost flex-1 py-3 text-sm"
+            className="app-btn-ghost flex-1 py-3 text-body"
           >
             {copy.newGame.back}
           </button>
@@ -355,7 +325,7 @@ export function NewGamePage({ format = 'standard' }: { format?: GameFormat }) {
             type="button"
             disabled={!canNext}
             onClick={advanceStep}
-            className="app-btn flex-1 py-3 text-sm disabled:opacity-40"
+            className="app-btn flex-1 py-3 text-body disabled:opacity-40"
           >
             {copy.newGame.next}
           </button>
@@ -363,7 +333,7 @@ export function NewGamePage({ format = 'standard' }: { format?: GameFormat }) {
           <button
             type="button"
             onClick={startGame}
-            className="app-btn flex-1 py-3 text-sm"
+            className="app-btn flex-1 py-3 text-body"
           >
             {copy.newGame.start}
           </button>
@@ -393,12 +363,12 @@ function PlayerFields({
         value={name}
         onChange={(e) => onName(e.target.value)}
         placeholder="Name"
-        className="app-input mb-3 w-full px-3 py-2 text-sm outline-none"
+        className="app-input mb-3 w-full px-3 py-2 text-body outline-none"
       />
       <select
         value={army}
         onChange={(e) => onArmy(e.target.value)}
-        className="app-input mb-3 w-full px-3 py-2 text-sm outline-none"
+        className="app-input mb-3 w-full px-3 py-2 text-body outline-none"
       >
         <option value="">Select army…</option>
         {armies.map((a) => (
@@ -408,14 +378,14 @@ function PlayerFields({
       <button
         type="button"
         onClick={() => onBattleReady(!battleReady)}
-        className={`flex w-full items-center justify-between rounded-lg border px-3 py-2.5 text-left text-sm touch-manipulation ${
+        className={`flex w-full items-center justify-between rounded-lg border px-3 py-2.5 text-left text-body touch-manipulation ${
           battleReady ? 'border-accent/40 bg-accent/10 text-accent' : 'border-border text-muted'
         }`}
       >
         <span>{copy.game.battleReady}</span>
-        <span className="text-xs">{battleReady ? copy.game.battleReadyOn : copy.game.battleReadyOff}</span>
+        <span className="text-caption">{battleReady ? copy.game.battleReadyOn : copy.game.battleReadyOff}</span>
       </button>
-      <p className="mt-2 text-[11px] leading-relaxed text-muted">{copy.game.battleReadyHint}</p>
+      <p className="mt-2 text-caption leading-relaxed text-muted">{copy.game.battleReadyHint}</p>
     </div>
   )
 }
@@ -430,38 +400,97 @@ function DetachmentStep({
   onToggle: (player: 1 | 2, det: string) => void
 }) {
   const [activePlayer, setActivePlayer] = useState<1 | 2>(1)
+  const stepRef = useRef<HTMLDivElement>(null)
   const player = activePlayer === 1 ? player1 : player2
   const color = activePlayer === 1 ? 'var(--color-p1)' : 'var(--color-p2)'
 
-  return (
-    <div className="space-y-4">
-      <div className="grid grid-cols-2 gap-2">
-        {([1, 2] as const).map((n) => {
-          const p = n === 1 ? player1 : player2
-          const ready = p.detachments.length >= 1
-          return (
-            <button
-              key={n}
-              type="button"
-              onClick={() => setActivePlayer(n)}
-              className={`rounded-lg border px-3 py-2.5 text-left text-sm touch-manipulation ${
-                activePlayer === n
-                  ? 'border-accent bg-accent/15 ring-1 ring-accent/25'
+  const p1Ready = player1.detachments.length >= 1
+  const p2Ready = player2.detachments.length >= 1
+  const highlightP2 = p1Ready && !p2Ready && activePlayer === 1
+  const highlightP1 = p2Ready && !p1Ready && activePlayer === 2
+  const handoffTo: 1 | 2 | null = highlightP2 ? 2 : highlightP1 ? 1 : null
+
+  function switchPlayer(n: 1 | 2) {
+    setActivePlayer(n)
+    stepRef.current?.scrollIntoView({ behavior: 'smooth', block: 'start' })
+  }
+
+  const tabButtons = (
+    <div className="grid grid-cols-2 gap-2">
+      {([1, 2] as const).map((n) => {
+        const p = n === 1 ? player1 : player2
+        const ready = p.detachments.length >= 1
+        const dp = p.detachments.reduce((s, d) => s + d.dp, 0)
+        const isHandoffTarget = handoffTo === n
+        const isDoneHandoff = activePlayer === n && handoffTo !== null && handoffTo !== n
+        const seatColor = n === 1 ? 'var(--color-p1)' : 'var(--color-p2)'
+        return (
+          <button
+            key={n}
+            type="button"
+            onClick={() => switchPlayer(n)}
+            data-next={isHandoffTarget || undefined}
+            className={`rounded-lg border px-3 py-2.5 text-left text-body touch-manipulation transition-shadow ${
+              isHandoffTarget
+                ? 'detachment-tab-next'
+                : activePlayer === n
+                  ? isDoneHandoff
+                    ? 'detachment-tab-done'
+                    : 'player-seat-active'
                   : 'border-border bg-panel'
-              }`}
-            >
+            }`}
+            style={
+              isHandoffTarget
+                ? ({ '--detachment-tab-glow': seatColor } as CSSProperties)
+                : activePlayer === n && !isDoneHandoff
+                  ? ({ '--player-seat-color': seatColor } as CSSProperties)
+                  : undefined
+            }
+          >
+            <span className="flex items-center gap-1.5">
               <span
-                className="block truncate font-semibold"
-                style={{ color: n === 1 ? 'var(--color-p1)' : 'var(--color-p2)' }}
+                className={`block truncate ${isHandoffTarget ? 'font-bold' : 'font-semibold'}`}
+                style={{ color: seatColor }}
               >
                 {p.name}
               </span>
-              <span className="mt-0.5 block text-[10px] text-muted">
-                {ready ? `${p.detachments.length} det · ${p.detachments.reduce((s, d) => s + d.dp, 0)}/${MAX_DP} DP` : 'Pick detachments'}
-              </span>
-            </button>
-          )
-        })}
+              {isHandoffTarget && (
+                <span
+                  className="detachment-tab-next-label shrink-0 rounded px-1.5 py-0.5 text-micro uppercase tracking-wide"
+                  style={
+                    {
+                      '--detachment-tab-glow': seatColor,
+                      color: seatColor,
+                    } as CSSProperties
+                  }
+                >
+                  {copy.newGame.detachmentYourTurn}
+                </span>
+              )}
+            </span>
+            <span
+              className={`mt-0.5 block text-micro ${isHandoffTarget ? 'font-medium' : 'text-muted'}`}
+              style={isHandoffTarget ? { color: seatColor } : undefined}
+            >
+              {ready
+                ? `${p.detachments.length} det · ${dp}/${MAX_DP} DP`
+                : isHandoffTarget
+                  ? copy.newGame.detachmentContinue(p.name)
+                  : 'Pick detachments'}
+            </span>
+          </button>
+        )
+      })}
+    </div>
+  )
+
+  return (
+    <div ref={stepRef} className="detachment-step">
+      <div className="detachment-step-tabs sticky top-0 z-20 -mx-1 mb-3 border-b border-white/[0.06] bg-void/95 px-1 pb-3 pt-1 backdrop-blur-md">
+        <p className="mb-2 text-micro font-medium uppercase tracking-wider text-muted">
+          {copy.newGame.detachmentSwitch}
+        </p>
+        {tabButtons}
       </div>
 
       <DetachmentPicker
@@ -471,19 +500,35 @@ function DetachmentStep({
         selected={player.detachments}
         color={color}
         onToggle={(d) => onToggle(activePlayer, d)}
+        footer={
+          activePlayer === 1 && p1Ready && !p2Ready ? (
+            <button
+              type="button"
+              onClick={() => switchPlayer(2)}
+              className="app-btn detachment-continue-next mt-4 w-full py-3 text-body"
+            >
+              {copy.newGame.detachmentContinue(player2.name)}
+            </button>
+          ) : activePlayer === 2 && p2Ready && !p1Ready ? (
+            <button type="button" onClick={() => switchPlayer(1)} className="app-btn-ghost mt-4 w-full py-3 text-body">
+              {copy.newGame.detachmentBack(player1.name)}
+            </button>
+          ) : null
+        }
       />
     </div>
   )
 }
 
 function DetachmentPicker({
-  playerName, armyName, selected, color, onToggle,
+  playerName, armyName, selected, color, onToggle, footer,
 }: {
   playerName: string
   armyName: string
   selected: SelectedDetachment[]
   color: string
   onToggle: (d: string) => void
+  footer?: ReactNode
 }) {
   const army = armies.find((a) => a.army === armyName)
   const usedDp = selected.reduce((s, d) => s + d.dp, 0)
@@ -492,10 +537,10 @@ function DetachmentPicker({
   const remainingDp = MAX_DP - usedDp
 
   return (
-    <div>
+    <div className="motion-step">
       <div className="mb-3 flex items-center justify-between gap-2">
         <p className="font-semibold" style={{ color }}>{playerName}</p>
-        <p className="text-xs text-muted">{armyName}</p>
+        <p className="text-caption text-muted">{armyName}</p>
       </div>
 
       <div className="app-panel mb-3 !rounded-xl !p-3">
@@ -509,7 +554,8 @@ function DetachmentPicker({
               key={d.name}
               type="button"
               onClick={() => onToggle(d.name)}
-              className="flex items-center gap-2 rounded-lg border border-accent/50 bg-accent/15 px-2.5 py-1.5 text-xs text-accent touch-manipulation"
+              className="player-seat-chip flex items-center gap-2 rounded-lg border px-2.5 py-1.5 text-caption touch-manipulation"
+              style={{ '--player-seat-color': color } as CSSProperties}
             >
               <span className="font-medium">{d.name}</span>
               <DpCost dp={d.dp} size="sm" />
@@ -519,7 +565,7 @@ function DetachmentPicker({
         </div>
       )}
 
-      <p className="mb-2 text-xs text-muted">{copy.dp.pickHint}</p>
+      <p className="mb-2 text-caption text-muted">{copy.dp.pickHint}</p>
 
       <div className="space-y-2">
         {army?.detachments.map((d) => {
@@ -532,29 +578,31 @@ function DetachmentPicker({
               disabled={wouldExceed}
               onClick={() => onToggle(d.name)}
               title={wouldExceed ? copy.dp.tooMany(d.dp, remainingDp) : undefined}
-              className={`min-h-[3.25rem] w-full rounded-lg border p-3 text-left text-sm transition-colors touch-manipulation ${
+              className={`min-h-[3.25rem] w-full rounded-lg border p-3 text-left text-body transition-colors touch-manipulation ${
                 isSelected
-                  ? 'border-accent bg-accent/15 ring-1 ring-accent/25'
+                  ? 'player-seat-active'
                   : wouldExceed
                     ? 'border-border bg-panel opacity-45'
                     : 'border-border bg-panel active:bg-panel-hover'
               }`}
+              style={isSelected ? ({ '--player-seat-color': color } as CSSProperties) : undefined}
             >
               <div className="flex items-center justify-between gap-2">
                 <span className="font-medium">{d.name}</span>
                 <DpCost dp={d.dp} size="sm" />
               </div>
               {wouldExceed && !isSelected && (
-                <p className="mt-1 text-[10px] text-warning">{copy.dp.tooMany(d.dp, remainingDp)}</p>
+                <p className="mt-1 text-micro text-warning">{copy.dp.tooMany(d.dp, remainingDp)}</p>
               )}
               <div className="mt-1 flex flex-wrap items-center gap-2">
                 <ForceDispositionBadge fd={d.forceDisposition as ForceDisposition} short />
-                {d.note && <span className="text-xs text-muted">{d.note}</span>}
+                {d.note && <span className="text-caption text-muted">{d.note}</span>}
               </div>
             </button>
           )
         })}
       </div>
+      {footer}
     </div>
   )
 }
@@ -571,7 +619,7 @@ function ForceDispositionPicker({
   if (options.length <= 1) return null
   return (
     <div className="app-panel p-4">
-      <p className="mb-2 text-sm" style={{ color }}>
+      <p className="mb-2 text-body" style={{ color }}>
         {label} — Force Disposition for mission
       </p>
       <div className="flex flex-wrap gap-2">
@@ -594,11 +642,11 @@ function MissionCard({ player, mission, fd, color }: { player: string; mission: 
   if (!mission) return null
   return (
     <div className="app-panel p-4">
-      <p className="text-xs font-semibold uppercase" style={{ color }}>{player}</p>
+      <p className="text-caption font-semibold uppercase" style={{ color }}>{player}</p>
       <p className="mt-1 text-lg font-bold">
         <MissionNameButton name={mission} className="text-lg font-bold text-text no-underline hover:text-accent" />
       </p>
-      <p className="mt-1 text-[10px] text-muted">Tap mission for scoring guide</p>
+      <p className="mt-1 text-micro text-muted">Tap mission for scoring guide</p>
       <div className="mt-2"><ForceDispositionBadge fd={fd} size="md" /></div>
     </div>
   )
@@ -633,20 +681,25 @@ function SecondarySetup({
             key={mode}
             type="button"
             onClick={() => setMode(mode)}
-            className={`flex-1 rounded-lg border py-2 text-sm capitalize ${
+            className={`flex min-h-[3.25rem] flex-1 flex-col items-center justify-center rounded-lg border px-2 py-2 text-center touch-manipulation ${
               player.secondaryMode === mode
                 ? 'border-accent/30 bg-accent-soft text-accent'
                 : 'border-border text-muted'
             }`}
           >
-            {mode}
+            <span className="text-body font-medium">
+              {mode === 'fixed' ? copy.newGame.secondaryFixed : copy.newGame.secondaryTactical}
+            </span>
+            <span className="mt-0.5 text-micro leading-tight opacity-80">
+              {mode === 'fixed' ? copy.newGame.secondaryFixedHint : copy.newGame.secondaryTacticalHint}
+            </span>
           </button>
         ))}
       </div>
 
       {player.secondaryMode === 'fixed' && (
         <>
-          <p className="mb-2 text-xs text-muted">
+          <p className="mb-2 text-caption text-muted">
             Pick 2 from the 4 Fixed options (max 20 VP each, 15 VP/round)
           </p>
           <div className="flex flex-col gap-2">
@@ -662,7 +715,7 @@ function SecondarySetup({
                 <button
                   type="button"
                   onClick={() => toggleFixed(s)}
-                  className={`flex h-11 w-11 shrink-0 items-center justify-center rounded-md border text-sm touch-manipulation ${
+                  className={`flex h-11 w-11 shrink-0 items-center justify-center rounded-md border text-body touch-manipulation ${
                     player.secondaries.includes(s)
                       ? 'border-accent bg-accent text-void'
                       : 'border-border text-muted'
@@ -671,7 +724,7 @@ function SecondarySetup({
                 >
                   {player.secondaries.includes(s) ? '✓' : ''}
                 </button>
-                <MissionNameButton name={s} className="min-w-0 flex-1 text-sm" />
+                <MissionNameButton name={s} className="min-w-0 flex-1 text-body" />
               </div>
             ))}
           </div>
@@ -679,41 +732,12 @@ function SecondarySetup({
       )}
 
       {player.secondaryMode === 'tactical' && (
-        <p className="text-xs text-muted leading-relaxed">
-          Each Command phase, draw until you have 2 active cards (max 2 in hand). Achieved
-          cards are discarded. Max {gameData.scoringCaps.tacticalSecondaryMaxGame} VP from
-          Tactical secondaries ({gameData.scoringCaps.tacticalSecondaryMaxRound} VP/round).
+        <p className="text-caption text-muted leading-relaxed">
+          Use Random to draw one card at a time (max 2 in hand). Achieved cards are
+          discarded. Max {gameData.scoringCaps.tacticalSecondaryMaxGame} VP from Tactical
+          secondaries ({gameData.scoringCaps.tacticalSecondaryMaxRound} VP/round).
         </p>
       )}
-    </div>
-  )
-}
-
-function ToggleGroup({
-  label, options, value, onChange,
-}: {
-  label: string
-  options: { value: number; label: string }[]
-  value: number
-  onChange: (v: number) => void
-}) {
-  return (
-    <div>
-      <p className="mb-2 text-sm text-muted">{label}</p>
-      <div className="flex gap-2">
-        {options.map((o) => (
-          <button
-            key={o.value}
-            type="button"
-            onClick={() => onChange(o.value)}
-            className={`flex-1 rounded-sm border py-3 text-sm font-medium ${
-              value === o.value ? 'border-accent bg-accent/15 text-accent' : 'border-border bg-panel'
-            }`}
-          >
-            {o.label}
-          </button>
-        ))}
-      </div>
     </div>
   )
 }
@@ -735,8 +759,8 @@ function DominatusSetupFields({
 }) {
   return (
     <div className="app-panel space-y-3 p-4">
-      <p className="text-sm font-semibold text-bone">{copy.formats.dominatus.title}</p>
-      <label className="block text-xs text-muted">
+      <p className="text-body font-semibold text-bone">{copy.formats.dominatus.title}</p>
+      <label className="block text-caption text-muted">
         {copy.formats.dominatus.phase}
         <select
           value={meta.phase}
@@ -750,7 +774,7 @@ function DominatusSetupFields({
           ))}
         </select>
       </label>
-      <label className="block text-xs text-muted">
+      <label className="block text-caption text-muted">
         {copy.formats.dominatus.locationStep}
         <textarea
           value={meta.locationNotes}
@@ -765,10 +789,10 @@ function DominatusSetupFields({
           const agendaNameKey = n === 1 ? 'player1AgendaName' : 'player2AgendaName'
           return (
             <div key={n} className="rounded-lg border border-border p-3">
-              <p className="mb-2 text-xs font-medium" style={{ color: n === 1 ? 'var(--color-p1)' : 'var(--color-p2)' }}>
+              <p className="mb-2 text-caption font-medium" style={{ color: n === 1 ? 'var(--color-p1)' : 'var(--color-p2)' }}>
                 Player {n}
               </p>
-              <label className="block text-xs text-muted">
+              <label className="block text-caption text-muted">
                 {copy.formats.dominatus.alliance}
                 <select
                   value={meta[allianceKey]}
@@ -782,7 +806,7 @@ function DominatusSetupFields({
                   ))}
                 </select>
               </label>
-              <label className="mt-2 flex items-center gap-2 text-xs text-muted">
+              <label className="mt-2 flex items-center gap-2 text-caption text-muted">
                 <input
                   type="checkbox"
                   checked={meta[agendaKey]}
@@ -795,7 +819,7 @@ function DominatusSetupFields({
                   value={meta[agendaNameKey]}
                   onChange={(e) => onChange({ [agendaNameKey]: e.target.value })}
                   placeholder={copy.formats.dominatus.agendaName}
-                  className="app-input mt-2 w-full text-xs"
+                  className="app-input mt-2 w-full text-caption"
                 />
               )}
             </div>
@@ -843,18 +867,18 @@ function DoublesTeamFields({
           value={meta[nameKey]}
           onChange={(e) => onMeta({ [nameKey]: e.target.value })}
           placeholder={copy.formats.doubles.teamName}
-          className="app-input mb-3 w-full text-sm"
+          className="app-input mb-3 w-full text-body"
         />
         <input
           value={player.name}
           onChange={(e) => onPlayer({ name: e.target.value })}
           placeholder="Player 1"
-          className="app-input mb-2 w-full text-sm"
+          className="app-input mb-2 w-full text-body"
         />
         <select
           value={player.army}
           onChange={(e) => onPlayer({ army: e.target.value, detachments: [] })}
-          className="app-input mb-2 w-full text-sm"
+          className="app-input mb-2 w-full text-body"
         >
           <option value="">Army 1…</option>
           {armies.map((a) => (
@@ -867,15 +891,15 @@ function DoublesTeamFields({
           value={meta[p2Key]}
           onChange={(e) => onMeta({ [p2Key]: e.target.value })}
           placeholder={copy.formats.doubles.player2}
-          className="app-input mb-2 w-full text-sm"
+          className="app-input mb-2 w-full text-body"
         />
         <input
           value={meta[army2Key]}
           onChange={(e) => onMeta({ [army2Key]: e.target.value })}
           placeholder={copy.formats.doubles.army2}
-          className="app-input mb-2 w-full text-sm"
+          className="app-input mb-2 w-full text-body"
         />
-        <label className="block text-xs text-muted">
+        <label className="block text-caption text-muted">
           {copy.formats.doubles.warlord}
           <select
             value={meta[warlordKey]}
@@ -889,7 +913,7 @@ function DoublesTeamFields({
         <button
           type="button"
           onClick={() => onPlayer({ battleReady: !player.battleReady })}
-          className={`mt-3 flex w-full items-center justify-between rounded-lg border px-3 py-2 text-left text-xs ${
+          className={`mt-3 flex w-full items-center justify-between rounded-lg border px-3 py-2 text-left text-caption ${
             player.battleReady ? 'border-accent/40 bg-accent/10 text-accent' : 'border-border text-muted'
           }`}
         >

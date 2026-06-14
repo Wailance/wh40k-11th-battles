@@ -44,7 +44,7 @@ export function DominatusPage() {
     <div className="space-y-4 pb-2">
       <div>
         <h1 className="app-page-title">{copy.formats.dominatus.title}</h1>
-        <p className="mt-1 text-sm text-muted">{copy.formats.dominatus.subtitle}</p>
+        <p className="mt-1 text-body text-muted">{copy.formats.dominatus.subtitle}</p>
         <FormatPdfLink href={DOMINATUS_COMPANION_PDF} label={copy.formats.pdfLink} />
       </div>
 
@@ -58,13 +58,13 @@ export function DominatusPage() {
         <div className="space-y-2">
           {DOMINATUS_GUIDANCE.map((g) => (
             <article key={g.title} className="app-panel p-4">
-              <h2 className="text-sm font-semibold text-bone">{g.title}</h2>
-              <p className="mt-2 text-xs leading-relaxed text-muted">{g.body}</p>
+              <h2 className="text-body font-semibold text-bone">{g.title}</h2>
+              <p className="mt-2 text-caption leading-relaxed text-muted">{g.body}</p>
             </article>
           ))}
           <article className="app-panel p-4">
-            <h2 className="text-sm font-semibold text-bone">{copy.formats.dominatus.postBattleTitle}</h2>
-            <ul className="mt-2 list-disc space-y-1 pl-4 text-xs text-muted">
+            <h2 className="text-body font-semibold text-bone">{copy.formats.dominatus.postBattleTitle}</h2>
+            <ul className="mt-2 list-disc space-y-1 pl-4 text-caption text-muted">
               {DOMINATUS_POST_BATTLE.map((line) => (
                 <li key={line}>{line}</li>
               ))}
@@ -76,7 +76,7 @@ export function DominatusPage() {
       {section === 'campaign' && (
         <div className="space-y-3">
           <section className="app-panel grid grid-cols-2 gap-3 p-4">
-            <label className="text-xs text-muted">
+            <label className="text-caption text-muted">
               {copy.formats.dominatus.phase}
               <select
                 value={campaign.phase}
@@ -92,7 +92,7 @@ export function DominatusPage() {
                 ))}
               </select>
             </label>
-            <label className="text-xs text-muted">
+            <label className="text-caption text-muted">
               {copy.formats.dominatus.location}
               <input
                 value={campaign.locationName}
@@ -100,7 +100,7 @@ export function DominatusPage() {
                 className="app-input mt-1 w-full"
               />
             </label>
-            <label className="col-span-2 text-xs text-muted">
+            <label className="col-span-2 text-caption text-muted">
               {copy.formats.dominatus.locationNotes}
               <textarea
                 value={campaign.locationNotes}
@@ -111,7 +111,7 @@ export function DominatusPage() {
           </section>
 
           <section className="app-panel space-y-3 p-4">
-            <h2 className="text-sm font-semibold text-bone">{copy.formats.dominatus.players}</h2>
+            <h2 className="text-body font-semibold text-bone">{copy.formats.dominatus.players}</h2>
             <div className="flex gap-2">
               <input
                 value={newPlayer}
@@ -137,18 +137,18 @@ export function DominatusPage() {
                   setCampaign((c) => addDominatusPlayer(c, newPlayer, newAlliance))
                   setNewPlayer('')
                 }}
-                className="app-btn shrink-0 px-3 text-xs"
+                className="app-btn shrink-0 px-3 text-caption"
               >
                 {copy.formats.dominatus.addPlayer}
               </button>
             </div>
 
             {campaign.players.length === 0 ? (
-              <p className="text-xs text-muted">{copy.formats.dominatus.noPlayers}</p>
+              <p className="text-caption text-muted">{copy.formats.dominatus.noPlayers}</p>
             ) : (
               <ul className="space-y-2">
                 {campaign.players.map((p) => (
-                  <li key={p.id} className="rounded-lg border border-border bg-panel p-3 text-xs">
+                  <li key={p.id} className="rounded-lg border border-border bg-panel p-3 text-caption">
                     <div className="flex items-start justify-between gap-2">
                       <div>
                         <p className="font-medium text-bone">{p.name}</p>
@@ -162,7 +162,7 @@ export function DominatusPage() {
                             players: c.players.filter((x) => x.id !== p.id),
                           }))
                         }
-                        className="text-[10px] text-warning"
+                        className="text-micro text-warning"
                       >
                         {copy.common.close}
                       </button>
@@ -176,7 +176,7 @@ export function DominatusPage() {
                         ] as const
                       ).map(([key, label]) => (
                         <div key={key} className="text-center">
-                          <p className="text-[10px] text-muted">{label}</p>
+                          <p className="text-micro text-muted">{label}</p>
                           <div className="mt-1 flex items-center justify-center gap-2">
                             <button
                               type="button"
@@ -221,7 +221,7 @@ export function DominatusPage() {
         </div>
       )}
 
-      <Link to="/" className="app-btn-ghost flex w-full py-3 text-sm">
+      <Link to="/" className="app-btn-ghost flex w-full py-3 text-body">
         {copy.formats.backHome}
       </Link>
     </div>

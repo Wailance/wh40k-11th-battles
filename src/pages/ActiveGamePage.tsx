@@ -1,33 +1,43 @@
-import { useEffect, useState } from 'react'
-import { Link, useNavigate } from 'react-router-dom'
+import { useEffect, useState, type CSSProperties } from 'react'
+import { useNavigate } from 'react-router-dom'
 import { ConfirmDialog } from '../components/ConfirmDialog'
+import { AppDialog } from '../components/AppDialog'
+import { GamePlayerSeatBar, GameScoreTotals, doublesPlayerLabels } from '../components/GameScoreStrip'
+import { GameRoundNav } from '../components/GameRoundNav'
+import { BattlefieldMap } from '../components/BattlefieldMap'
+import { getMatchupBattlefield } from '../lib/battlefield'
 import { PageLoading } from '../components/PageLoading'
-import { DpCost } from '../components/DpDisplay'
-import { ForceDispositionBadge } from '../components/ForceDispositionBadge'
 import { MissionNameButton } from '../components/MissionNameButton'
 import { PlayerMissionScorer } from '../components/PlayerMissionScorer'
 import {
-  drawTacticalCards,
-  drawTacticalCardsResolved,
+  applyTacticalHandState,
+  afterTacticalSecondaryScore,
+  discardTacticalScoredInRound,
+  discardTacticalSecondaryMission,
+  drawOneTacticalToHand,
+  enforceTacticalHandLimit,
+  FD_COLORS,
+  FD_SHORT,
   gameData,
   getActiveSecondaries,
   getWinner,
-  shuffleCardIntoDeck,
+  healStaleTacticalHand,
+  restoreDiscardedTacticalToDeck,
+  restoreTacticalCardFromHandToDeck,
+  snapshotRoundTacticalCards,
   syncTotalVp,
 } from '../lib/game-utils'
-import { BattlefieldMap } from '../components/BattlefieldMap'
 import { GameRoundSummary, GameTotalSummary } from '../components/GameRoundSummary'
 import { PreBattleChecklist } from '../components/PreBattleChecklist'
-import { getMatchupBattlefield } from '../lib/battlefield'
 import { copy } from '../lib/copy'
 import {
   DEFAULT_CAPS,
   getMissionScoreOptions,
   incrementTally,
   recalcVpFromTallies,
-  roundCombinedVp,
+  missionBriefRoundBreakdown,
+  secondaryBriefBuckets,
   secondaryScoreKey,
-  tacticalDrawCount,
   validateScoreIncrement,
   validateTacticalDraw,
 } from '../lib/mission-scoring'
@@ -35,18 +45,6 @@ import { clearActiveGame, loadActiveGame, saveActiveGame, saveToHistory } from '
 import { calculateWtcScores } from '../lib/wtc-scoring'
 import type { GameState, PlayerScores, PlayerSetup } from '../types/game'
 import { DOMINATUS_ALLIANCE_LABELS, DOMINATUS_POST_BATTLE } from '../data/dominatus-companion'
-
-function pruneSecondaryTallies(
-  tally: Record<string, number[]>,
-  card: string,
-): Record<string, number[]> {
-  const prefix = `${card}::`
-  const next = { ...tally }
-  for (const key of Object.keys(next)) {
-    if (key.startsWith(prefix)) delete next[key]
-  }
-  return next
-}
 
 function recalcPlayerScores(scores: PlayerScores, player: PlayerSetup): PlayerScores {
   const secondaries = getActiveSecondaries(player, scores)
@@ -70,32 +68,60 @@ function recalcPlayerScores(scores: PlayerScores, player: PlayerSetup): PlayerSc
   )
 }
 
+function normalizeLoadedGame(g: GameState): GameState {
+  const heal = (player: PlayerSetup, scores: PlayerScores) =>
+    recalcPlayerScores(healStaleTacticalHand(scores, player, g.battleRound), player)
+  return {
+    ...g,
+    scores: {
+      player1: heal(g.player1, g.scores.player1),
+      player2: heal(g.player2, g.scores.player2),
+    },
+  }
+}
+
 export function ActiveGamePage() {
   const navigate = useNavigate()
   const [game, setGame] = useState<GameState | null>(() => {
     const g = loadActiveGame()
     if (!g || g.status !== 'active') return null
-    return {
-      ...g,
-      scores: {
-        player1: recalcPlayerScores(g.scores.player1, g.player1),
-        player2: recalcPlayerScores(g.scores.player2, g.player2),
-      },
-    }
+    const normalized = normalizeLoadedGame(g)
+    saveActiveGame(normalized)
+    return normalized
   })
-  const [tab, setTab] = useState<'score' | 'results' | 'mission'>('score')
   const [viewRound, setViewRound] = useState(() => {
     const g = loadActiveGame()
     return g?.status === 'active' ? g.battleRound : 1
   })
   const [showEnd, setShowEnd] = useState(false)
   const [showAbandon, setShowAbandon] = useState(false)
-  const [p1Phase, setP1Phase] = useState<'command' | 'turn' | 'end-turn'>('command')
-  const [p2Phase, setP2Phase] = useState<'command' | 'turn' | 'end-turn'>('command')
+  const [showMissionBrief, setShowMissionBrief] = useState(false)
+  const [showMap, setShowMap] = useState(false)
+  const [scorePlayer, setScorePlayer] = useState<1 | 2>(() => {
+    const g = loadActiveGame()
+    return g?.status === 'active' ? g.firstPlayer : 1
+  })
+  const [roundAnim, setRoundAnim] = useState<'fwd' | 'back' | null>(null)
 
   useEffect(() => {
-    if (!game) navigate('/new')
+    if (!game) navigate('/', { replace: true })
   }, [game, navigate])
+
+  useEffect(() => {
+    if (!game) return
+    if (viewRound > game.battleRound) setViewRound(game.battleRound)
+  }, [game?.battleRound, viewRound, game])
+
+  useEffect(() => {
+    if (!roundAnim) return
+    const t = window.setTimeout(() => setRoundAnim(null), 280)
+    return () => window.clearTimeout(t)
+  }, [roundAnim, viewRound])
+
+  useEffect(() => {
+    if (!game) return
+    setScorePlayer(game.firstPlayer)
+  }, [game?.firstPlayer])
 
   if (!game) return <PageLoading label={copy.game.loading} />
 
@@ -107,36 +133,72 @@ export function ActiveGamePage() {
   }
 
   const selectRound = (round: number) => {
-    setViewRound(round)
-    let scores = game.scores
-    if (round > game.battleRound) {
-      scores = {
-        player1: { ...game.scores.player1, extraCpThisRound: 0 },
-        player2: { ...game.scores.player2, extraCpThisRound: 0 },
-      }
+    if (round > game.battleRound || round < 1) return
+    if (round !== viewRound) {
+      setRoundAnim(round > viewRound ? 'fwd' : 'back')
     }
-    persist({ ...game, battleRound: round, scores })
+    setViewRound(round)
+  }
+
+  const advanceRound = () => {
+    if (game.battleRound >= 5) return
+    const completingRound = game.battleRound
+    const next = game.battleRound + 1
+    const nextScores = (player: PlayerSetup, scores: PlayerScores) => {
+      let s: PlayerScores = { ...scores, extraCpThisRound: 0 }
+      if (player.secondaryMode === 'tactical') {
+        s = snapshotRoundTacticalCards(s, completingRound)
+        s = discardTacticalScoredInRound(s, completingRound)
+      }
+      return recalcPlayerScores(s, player)
+    }
+    persist({
+      ...game,
+      battleRound: next,
+      scores: {
+        player1: nextScores(game.player1, game.scores.player1),
+        player2: nextScores(game.player2, game.scores.player2),
+      },
+    })
+    setRoundAnim('fwd')
+    setViewRound(next)
+    setScorePlayer(1)
   }
 
   const togglePreBattle = (index: number) => {
     const next = [...game.preBattleChecks]
-    next[index] = !next[index]
+    if (next[index]) {
+      for (let i = index; i < next.length; i++) next[i] = false
+    } else {
+      if (index > 0 && !next[index - 1]) return
+      next[index] = true
+    }
     persist({ ...game, preBattleChecks: next })
   }
 
   const preBattleDone = game.preBattleChecks.every(Boolean)
+  const scoringEnabled = preBattleDone && viewRound <= game.battleRound
+  const scoringLockReason = !preBattleDone ? copy.game.scoringLockedPreBattle : copy.game.scoringLockedPastRound
 
-  const roundVpP1 = roundCombinedVp(game.scores.player1, viewRound)
-  const roundVpP2 = roundCombinedVp(game.scores.player2, viewRound)
+  const roundPanelClass =
+    roundAnim === 'fwd' ? 'motion-round-fwd' : roundAnim === 'back' ? 'motion-round-back' : 'motion-tab-panel'
+
+  const doublesLabels = doublesPlayerLabels(game.doubles, game.player1.name, game.player2.name)
+  const bottomActivePlayer = preBattleDone ? scorePlayer : null
+  const bottomOnSelectPlayer = preBattleDone ? setScorePlayer : undefined
+  const battlefield = game.matchupId ? getMatchupBattlefield(game.matchupId) : null
 
   const updateScores = (player: 1 | 2, updater: (s: PlayerScores) => PlayerScores) => {
     const key = player === 1 ? 'player1' : 'player2'
     const setup = game[key]
-    const next = recalcPlayerScores(updater(game.scores[key]), setup)
+    let raw = updater(game.scores[key])
+    if (setup.secondaryMode === 'tactical') raw = enforceTacticalHandLimit(raw)
+    const next = recalcPlayerScores(raw, setup)
     persist({ ...game, scores: { ...game.scores, [key]: next } })
   }
 
   const scorePrimary = (player: 1 | 2, optionId: string, delta: 1 | -1) => {
+    if (!scoringEnabled) return
     const setup = player === 1 ? game.player1 : game.player2
     const scores = player === 1 ? game.scores.player1 : game.scores.player2
     const options = getMissionScoreOptions(setup.primaryMission)
@@ -161,6 +223,7 @@ export function ActiveGamePage() {
   }
 
   const scoreSecondary = (player: 1 | 2, card: string, optionId: string, delta: 1 | -1) => {
+    if (!scoringEnabled) return
     const setup = player === 1 ? game.player1 : game.player2
     const scores = player === 1 ? game.scores.player1 : game.scores.player2
     const options = getMissionScoreOptions(card, setup.secondaryMode)
@@ -173,6 +236,7 @@ export function ActiveGamePage() {
       scores,
       player: setup,
       battleRound: viewRound,
+      currentBattleRound: game.battleRound,
       delta,
       secondaryCard: card,
     })
@@ -182,105 +246,81 @@ export function ActiveGamePage() {
     updateScores(player, (s) => {
       const next = incrementTally(s.secondaryScoreTally, key, viewRound, delta)
       if (!next) return s
-      return { ...s, secondaryScoreTally: next }
+      let updated: PlayerScores = { ...s, secondaryScoreTally: next }
+      if (setup.secondaryMode === 'tactical') {
+        updated = afterTacticalSecondaryScore(
+          updated,
+          setup,
+          card,
+          viewRound,
+          delta,
+          game.battleRound,
+        )
+      }
+      return updated
     })
   }
 
-  const drawTactical = (player: 1 | 2) => {
+  const randomOneTactical = (player: 1 | 2) => {
+    if (!scoringEnabled) return
     const key = player === 1 ? 'player1' : 'player2'
     const p = game[key]
     const scores = player === 1 ? game.scores.player1 : game.scores.player2
     if (p.secondaryMode !== 'tactical') return
-    if (!validateTacticalDraw(scores).allowed) return
+    if (!validateTacticalDraw(scores).allowed) {
+      return
+    }
 
-    updateScores(player, (s) => {
-      const deck = s.tacticalDeck.length
-        ? s.tacticalDeck
-        : [...(gameData.secondaries.tacticalDeck as string[])]
-      const count = tacticalDrawCount(s)
-      if (count < 1) return s
-      const { hand, deck: remaining } = drawTacticalCardsResolved(
-        deck,
-        s.tacticalHand,
-        viewRound,
-        count,
-      )
-      return {
-        ...s,
-        tacticalDeck: remaining,
-        tacticalHand: hand,
-      }
-    })
+    updateScores(player, (s) =>
+      drawOneTacticalToHand(s, viewRound, gameData.secondaries.tacticalDeck as string[], game.battleRound),
+    )
   }
 
-  const returnSecondaryToDeck = (player: 1 | 2, card: string, index: number) => {
-    updateScores(player, (s) => {
-      const hand = [...s.tacticalHand]
-      if (hand[index] !== card) return s
-      hand.splice(index, 1)
-      return {
-        ...s,
-        tacticalHand: hand,
-        tacticalDeck: shuffleCardIntoDeck(s.tacticalDeck, card),
-        secondaryScoreTally: pruneSecondaryTallies(s.secondaryScoreTally, card),
-      }
-    })
+  const randomSecondary = (player: 1 | 2) => {
+    const p = game[player === 1 ? 'player1' : 'player2']
+    if (p.secondaryMode !== 'tactical') return
+    randomOneTactical(player)
   }
 
-  const discardTacticalForCp = (player: 1 | 2, card: string, index: number) => {
-    const scores = player === 1 ? game.scores.player1 : game.scores.player2
-    if (scores.extraCpThisRound >= 1) return
-    updateScores(player, (s) => {
-      const hand = [...s.tacticalHand]
-      if (hand[index] !== card) return s
-      hand.splice(index, 1)
-      return { ...s, tacticalHand: hand, extraCpThisRound: s.extraCpThisRound + 1 }
-    })
+  const discardSecondary = (player: 1 | 2, card: string, index: number) => {
+    const p = game[player === 1 ? 'player1' : 'player2']
+    if (p.secondaryMode !== 'tactical') return
+    discardTacticalSecondary(player, card, index)
   }
 
-  const achieveTactical = (player: 1 | 2, card: string, index: number) => {
-    updateScores(player, (s) => {
-      const hand = [...s.tacticalHand]
-      if (hand[index] !== card) return s
-      hand.splice(index, 1)
-      return {
-        ...s,
-        tacticalHand: hand,
-        tacticalAchieved: [...s.tacticalAchieved, card],
-      }
-    })
+  const discardTacticalSecondary = (player: 1 | 2, card: string, _index: number) => {
+    if (!scoringEnabled) return
+    updateScores(player, (s) => discardTacticalSecondaryMission(s, card))
   }
 
-  const rerollTactical = (player: 1 | 2, card: string, index: number) => {
-    const phase = player === 1 ? p1Phase : p2Phase
-    if (phase !== 'command') return
-    updateScores(player, (s) => {
-      if (s.tacticalRerollUsed) return s
-      const hand = [...s.tacticalHand]
-      if (hand[index] !== card) return s
-      hand.splice(index, 1)
-      const deck = s.tacticalDeck.length
-        ? s.tacticalDeck
-        : [...(gameData.secondaries.tacticalDeck as string[])]
-      if (!deck.length) {
-        return { ...s, tacticalHand: hand, tacticalRerollUsed: true }
-      }
-      const { drawn, remaining } = drawTacticalCards(deck, 1)
-      return {
-        ...s,
-        tacticalHand: [...hand, ...drawn],
-        tacticalDeck: remaining,
-        tacticalRerollUsed: true,
-      }
-    })
+  const restoreTacticalToDeck = (player: 1 | 2, card: string) => {
+    if (!scoringEnabled) return
+    updateScores(player, (s) => restoreTacticalCardFromHandToDeck(s, card, viewRound))
   }
 
-  const removeFixedSecondary = (player: 1 | 2, card: string) => {
-    updateScores(player, (s) => ({
-      ...s,
-      removedSecondaries: [...s.removedSecondaries, card],
-      secondaryScoreTally: pruneSecondaryTallies(s.secondaryScoreTally, card),
-    }))
+  const restoreDiscardedToDeck = (player: 1 | 2, card: string) => {
+    if (!scoringEnabled) return
+    updateScores(player, (s) => restoreDiscardedTacticalToDeck(s, card))
+  }
+
+  const applyTacticalSecondaries = (player: 1 | 2, hand: string[], restoreToDeck: string[] = []) => {
+    if (!scoringEnabled) return
+    updateScores(player, (s) => applyTacticalHandState(s, hand, restoreToDeck))
+  }
+
+  const applyFixedSecondaries = (player: 1 | 2, selected: string[]) => {
+    if (!scoringEnabled || selected.length !== 2) return
+    const playerKey = player === 1 ? 'player1' : 'player2'
+    if (game[playerKey].secondaryMode !== 'fixed') return
+    const scoreKey = player === 1 ? 'player1' : 'player2'
+    persist({
+      ...game,
+      [playerKey]: { ...game[playerKey], secondaries: selected },
+      scores: {
+        ...game.scores,
+        [scoreKey]: { ...game.scores[scoreKey], removedSecondaries: [] },
+      },
+    })
   }
 
   const endGame = () => {
@@ -293,29 +333,76 @@ export function ActiveGamePage() {
     navigate('/')
   }
 
+  const saveAndLeave = () => {
+    saveToHistory(game)
+    navigate('/history')
+  }
+
   return (
     <div className="game-viewport">
-      <div className="game-topbar">
-        <button type="button" onClick={() => navigate('/')} className="app-btn-ghost px-2 py-1 text-[10px]">
-          {copy.game.home}
-        </button>
-        <span className="app-chip !py-0.5 !text-[9px]">{copy.game.roundVp(viewRound)}</span>
-        <div className="flex gap-1">
-          <Link to="/mission-sequence" className="app-btn-ghost px-2 py-1 text-[10px]">
-            {copy.nav.missionSequence}
-          </Link>
-          <button
-            type="button"
-            onClick={() => setShowAbandon(true)}
-            className="app-btn-ghost px-2 py-1 text-[10px]"
-          >
-            {copy.game.abandon}
+      <header className="game-topbar">
+        <div className="game-topbar-shell">
+          <button type="button" onClick={() => navigate('/')} className="game-topbar-home">
+            <span className="game-topbar-home-icon" aria-hidden>
+              ←
+            </span>
+            <span>{copy.game.home}</span>
           </button>
+
+          <div className="game-topbar-brand">
+            <span className="game-topbar-brand-mark" aria-hidden />
+            <span className="game-topbar-brand-text">{copy.game.gameHeaderTitle}</span>
+          </div>
+
+          <div className="game-topbar-actions">
+            <button
+              type="button"
+              onClick={() => setShowMap(true)}
+              disabled={!battlefield}
+              className="game-topbar-action game-topbar-action--map"
+              title={battlefield ? copy.game.mapShortcut : copy.game.mapNoLayout}
+            >
+              {copy.game.mapShortcut}
+            </button>
+            <button
+              type="button"
+              onClick={() => setShowMissionBrief(true)}
+              className="game-topbar-action game-topbar-action--log"
+            >
+              {copy.game.missionBriefOpen}
+            </button>
+            <button
+              type="button"
+              onClick={() => setShowEnd(true)}
+              className="game-topbar-action game-topbar-action--end"
+            >
+              {copy.game.endGame}
+            </button>
+          </div>
         </div>
-      </div>
+      </header>
+
+      <section className="game-score-panel shrink-0">
+        <GameScoreTotals
+          player1Vp={game.scores.player1.vp}
+          player2Vp={game.scores.player2.vp}
+          wtcPlayer1={wtc.player1}
+          wtcPlayer2={wtc.player2}
+        />
+      </section>
+
+      <section className="game-mission-panel shrink-0 pb-2">
+        <GamePlayerSeatBar
+          {...doublesLabels}
+          player1Vp={game.scores.player1.vp}
+          player2Vp={game.scores.player2.vp}
+          activePlayer={bottomActivePlayer}
+          onSelectPlayer={bottomOnSelectPlayer}
+        />
+      </section>
 
       {game.format !== 'standard' && (
-        <p className="mb-1 text-center text-[10px] uppercase tracking-wide text-accent-dim">
+        <p className="game-format-banner mb-1 text-center">
           {game.format === 'dominatus' ? copy.game.formatDominatus : copy.game.formatDoubles}
           {game.format === 'doubles' && game.doubles
             ? ` · ${game.doubles.team1Name} vs ${game.doubles.team2Name}`
@@ -326,175 +413,89 @@ export function ActiveGamePage() {
         </p>
       )}
 
-      <div className="game-score-strip">
-        <div className="min-w-0 text-left">
-          <p className="truncate text-[11px] font-semibold" style={{ color: 'var(--color-p1)' }}>
-            {game.format === 'doubles' && game.doubles ? game.doubles.team1Name : game.player1.name}
-          </p>
-          {game.format === 'doubles' && game.doubles && (
-            <p className="truncate text-[9px] text-muted">
-              {game.player1.name}
-              {game.doubles.team1Player2 ? ` · ${game.doubles.team1Player2}` : ''}
-            </p>
-          )}
-          <p className="text-lg font-display tabular-nums leading-none" style={{ color: 'var(--color-p1)' }}>
-            {game.scores.player1.vp}
-          </p>
-        </div>
-        <div className="text-center">
-          <p className="font-display text-sm tabular-nums text-bone">
-            {wtc.player1}–{wtc.player2}
-          </p>
-          <p className="text-[8px] uppercase tracking-wider text-muted">{copy.game.wtcScore}</p>
-        </div>
-        <div className="min-w-0 text-right">
-          <p className="truncate text-[11px] font-semibold" style={{ color: 'var(--color-p2)' }}>
-            {game.format === 'doubles' && game.doubles ? game.doubles.team2Name : game.player2.name}
-          </p>
-          {game.format === 'doubles' && game.doubles && (
-            <p className="truncate text-[9px] text-muted">
-              {game.player2.name}
-              {game.doubles.team2Player2 ? ` · ${game.doubles.team2Player2}` : ''}
-            </p>
-          )}
-          <p className="text-lg font-display tabular-nums leading-none" style={{ color: 'var(--color-p2)' }}>
-            {game.scores.player2.vp}
-          </p>
-        </div>
-      </div>
-
-      <div className="game-round-tabs" role="tablist" aria-label={copy.game.selectRound}>
-        {[1, 2, 3, 4, 5].map((round) => {
-          const vp =
-            roundCombinedVp(game.scores.player1, round) + roundCombinedVp(game.scores.player2, round)
-          return (
-            <button
-              key={round}
-              type="button"
-              role="tab"
-              aria-selected={viewRound === round}
-              data-active={viewRound === round}
-              onClick={() => selectRound(round)}
-              className="game-round-tab"
-            >
-              <span className="game-round-tab-label">{copy.game.roundTab(round)}</span>
-              {vp > 0 && <span className="game-round-tab-vp">{vp} VP</span>}
-            </button>
-          )
-        })}
-      </div>
-
-      {tab === 'score' && (
-        <p className="game-round-banner">
-          {copy.game.roundVp(viewRound)} · P1: {roundVpP1} · P2: {roundVpP2} VP
-        </p>
-      )}
-
-      <div className="app-segment my-1 shrink-0" role="tablist" aria-label="Game views">
-        {(['score', 'results', 'mission'] as const).map((t) => (
-          <button
-            key={t}
-            type="button"
-            role="tab"
-            aria-selected={tab === t}
-            data-active={tab === t}
-            onClick={() => setTab(t)}
-            className="app-segment-btn !py-1.5 !text-[10px]"
-          >
-            {t === 'score' ? copy.game.tabScore : t === 'results' ? copy.game.tabResults : copy.game.tabMission}
-          </button>
-        ))}
-      </div>
-
       <div className="game-scroll">
-        {!preBattleDone && tab === 'score' && (
+        {!preBattleDone && (
           <PreBattleChecklist
             compact
             checks={game.preBattleChecks}
             onToggle={togglePreBattle}
+            attacker={game.attacker}
+            onAttackerChange={(v) => persist({ ...game, attacker: v })}
+            firstPlayer={game.firstPlayer}
+            onFirstPlayerChange={(v) => persist({ ...game, firstPlayer: v })}
+            player1Name={game.player1.name}
+            player2Name={game.player2.name}
           />
         )}
 
-        {tab === 'score' && (
-          <div className="space-y-2 pb-2">
-            <PlayerMissionScorer
-              compact
-              player={game.player1}
-              scores={game.scores.player1}
-              color="var(--color-p1)"
-              battleRound={viewRound}
-              isCurrentRound={viewRound === game.battleRound}
-              isSecondPlayer={game.firstPlayer === 2}
-              tablePhase={p1Phase}
-              onTablePhaseChange={setP1Phase}
-              onPrimaryScore={(id, d) => scorePrimary(1, id, d)}
-              onSecondaryScore={(card, id, d) => scoreSecondary(1, card, id, d)}
-              onDrawTactical={() => drawTactical(1)}
-              onReturnToDeck={(card, i) => returnSecondaryToDeck(1, card, i)}
-              onDiscardForCp={(card, i) => discardTacticalForCp(1, card, i)}
-              onAchieveTactical={(card, i) => achieveTactical(1, card, i)}
-              onRerollTactical={(card, i) => rerollTactical(1, card, i)}
-              onRemoveFixedSecondary={(card) => removeFixedSecondary(1, card)}
-            />
-
-            <PlayerMissionScorer
-              compact
-              player={game.player2}
-              scores={game.scores.player2}
-              color="var(--color-p2)"
-              battleRound={viewRound}
-              isCurrentRound={viewRound === game.battleRound}
-              isSecondPlayer={game.firstPlayer === 1}
-              tablePhase={p2Phase}
-              onTablePhaseChange={setP2Phase}
-              onPrimaryScore={(id, d) => scorePrimary(2, id, d)}
-              onSecondaryScore={(card, id, d) => scoreSecondary(2, card, id, d)}
-              onDrawTactical={() => drawTactical(2)}
-              onReturnToDeck={(card, i) => returnSecondaryToDeck(2, card, i)}
-              onDiscardForCp={(card, i) => discardTacticalForCp(2, card, i)}
-              onAchieveTactical={(card, i) => achieveTactical(2, card, i)}
-              onRerollTactical={(card, i) => rerollTactical(2, card, i)}
-              onRemoveFixedSecondary={(card) => removeFixedSecondary(2, card)}
-            />
-          </div>
-        )}
-
-        {tab === 'results' && (
-          <div className="space-y-2 pb-2">
-            <GameRoundSummary game={game} round={viewRound} />
-            <GameTotalSummary game={game} />
-          </div>
-        )}
-
-        {tab === 'mission' && (
-          <div className="space-y-2 pb-2">
-            {game.matchupId && getMatchupBattlefield(game.matchupId) && (
-              <BattlefieldMap
-                battlefield={getMatchupBattlefield(game.matchupId)!}
-                attacker={game.attacker}
-                player1Name={game.player1.name}
-                player2Name={game.player2.name}
-                variantIndex={game.layoutVariantIndex}
-                onVariantChange={(i) => persist({ ...game, layoutVariantIndex: i })}
+        <div
+          key={`score-r${viewRound}`}
+          className={`${roundPanelClass} space-y-2 pb-2`}
+        >
+            {scorePlayer === 1 ? (
+              <PlayerMissionScorer
+                key="p1"
+                compact
+                hidePlayerHeader={preBattleDone}
+                player={game.player1}
+                scores={game.scores.player1}
+                color="var(--color-p1)"
+                battleRound={viewRound}
+                currentBattleRound={game.battleRound}
+                scoringEnabled={scoringEnabled}
+                scoringLockReason={scoringLockReason}
+                isSecondPlayer={game.firstPlayer === 2}
+                onPrimaryScore={(id, d) => scorePrimary(1, id, d)}
+                onSecondaryScore={(card, id, d) => scoreSecondary(1, card, id, d)}
+                onRandomSecondary={() => randomSecondary(1)}
+                onDiscardSecondary={(card, i) => discardSecondary(1, card, i)}
+                onRestoreTacticalToDeck={(card) => restoreTacticalToDeck(1, card)}
+                onRestoreDiscardedToDeck={(card) => restoreDiscardedToDeck(1, card)}
+                onApplyFixedSecondaries={(selected) => applyFixedSecondaries(1, selected)}
+                onApplyTacticalSecondaries={(hand, restoreToDeck) => applyTacticalSecondaries(1, hand, restoreToDeck)}
+              />
+            ) : (
+              <PlayerMissionScorer
+                key="p2"
+                compact
+                hidePlayerHeader={preBattleDone}
+                player={game.player2}
+                scores={game.scores.player2}
+                color="var(--color-p2)"
+                battleRound={viewRound}
+                currentBattleRound={game.battleRound}
+                scoringEnabled={scoringEnabled}
+                scoringLockReason={scoringLockReason}
+                isSecondPlayer={game.firstPlayer === 1}
+                onPrimaryScore={(id, d) => scorePrimary(2, id, d)}
+                onSecondaryScore={(card, id, d) => scoreSecondary(2, card, id, d)}
+                onRandomSecondary={() => randomSecondary(2)}
+                onDiscardSecondary={(card, i) => discardSecondary(2, card, i)}
+                onRestoreTacticalToDeck={(card) => restoreTacticalToDeck(2, card)}
+                onRestoreDiscardedToDeck={(card) => restoreDiscardedToDeck(2, card)}
+                onApplyFixedSecondaries={(selected) => applyFixedSecondaries(2, selected)}
+                onApplyTacticalSecondaries={(hand, restoreToDeck) => applyTacticalSecondaries(2, hand, restoreToDeck)}
               />
             )}
-            <MissionPanel player={game.player1} color="var(--color-p1)" scores={game.scores.player1} />
-            <MissionPanel player={game.player2} color="var(--color-p2)" scores={game.scores.player2} />
-          </div>
-        )}
+        </div>
       </div>
 
-      <div className="game-bottombar">
-        <button type="button" onClick={() => setShowEnd(true)} className="app-btn flex-1 py-2 text-xs">
-          {copy.game.endGame}
-        </button>
-      </div>
+      <GameRoundNav
+        viewRound={viewRound}
+        battleRound={game.battleRound}
+        onSelectRound={selectRound}
+        onAdvanceRound={advanceRound}
+      />
 
         <ConfirmDialog
           open={showAbandon}
           title={copy.game.abandonTitle}
           body={copy.game.abandonBody}
           confirmLabel={copy.game.abandon}
+          extraAction={{ label: copy.game.abandonSave, onClick: () => {
+            setShowAbandon(false)
+            saveAndLeave()
+          }}}
           danger
           onCancel={() => setShowAbandon(false)}
           onConfirm={() => {
@@ -503,115 +504,242 @@ export function ActiveGamePage() {
           }}
         />
 
-        {showEnd && (
-          <div
-            className="fixed inset-0 z-50 flex items-end justify-center bg-black/75 p-4 backdrop-blur-sm sm:items-center"
-            role="presentation"
-          >
-            <div
-              role="dialog"
-              aria-modal="true"
-              aria-labelledby="end-game-title"
-              className="w-full max-w-lg rounded-2xl border border-white/[0.08] bg-panel p-6 shadow-2xl"
-            >
-              <h2 id="end-game-title" className="font-display text-xl">
-                {copy.game.gameOver}
-              </h2>
-              <p className="mt-2 text-muted">
-                {getWinner(game) === 0
-                  ? copy.game.draw
-                  : copy.game.wins(getWinner(game) === 1 ? game.player1.name : game.player2.name)}
-              </p>
-              <p className="mt-1 font-display text-2xl tabular-nums text-accent">
-                {game.scores.player1.vp} – {game.scores.player2.vp} VP
-              </p>
-              <p className="mt-1 text-sm text-muted">
-                WTC: {wtc.player1} – {wtc.player2} ({copy.game.wtcMargin(wtc.margin)})
-              </p>
-              <div className="mt-4 max-h-[40vh] overflow-y-auto">
-                <GameTotalSummary game={game} />
-              </div>
-              {game.format === 'dominatus' && game.dominatus && (
-                <div className="mt-4 app-panel p-3 text-xs">
-                  <p className="font-medium text-bone">{copy.game.dominatusPostBattle}</p>
-                  <p className="mt-1 text-muted">{copy.game.dominatusPostBattleHint}</p>
-                  <ul className="mt-2 list-disc space-y-1 pl-4 text-muted">
-                    {DOMINATUS_POST_BATTLE.map((line) => (
-                      <li key={line}>{line}</li>
-                    ))}
-                  </ul>
-                  <p className="mt-2 text-[10px] text-muted">
-                    P1: {DOMINATUS_ALLIANCE_LABELS[game.dominatus.player1Alliance]}
-                    {game.dominatus.player1AttemptAgenda ? ' · Agenda' : ' · Standard primary'}
-                    {' · '}
-                    P2: {DOMINATUS_ALLIANCE_LABELS[game.dominatus.player2Alliance]}
-                    {game.dominatus.player2AttemptAgenda ? ' · Agenda' : ' · Standard primary'}
-                  </p>
-                </div>
-              )}
-              <div className="mt-4 flex gap-3">
-                <button type="button" onClick={() => setShowEnd(false)} className="app-btn-ghost flex-1 py-3 text-sm">
-                  {copy.game.continue}
-                </button>
-                <button type="button" onClick={endGame} className="app-btn flex-1 py-3 text-sm">
-                  {copy.game.save}
-                </button>
-              </div>
-            </div>
+        <AppDialog open={showEnd} onClose={() => setShowEnd(false)} titleId="end-game-title" className="app-dialog-panel-lg">
+          <h2 id="end-game-title" className="font-display text-display">
+            {copy.game.gameOver}
+          </h2>
+          <p className="mt-2 text-muted">
+            {getWinner(game) === 0
+              ? copy.game.draw
+              : copy.game.wins(getWinner(game) === 1 ? game.player1.name : game.player2.name)}
+          </p>
+          <p className="mt-1 font-display text-stat tabular-nums text-accent">
+            {game.scores.player1.vp} – {game.scores.player2.vp} VP
+          </p>
+          <p className="mt-1 text-body text-muted">
+            WTC: {wtc.player1} – {wtc.player2} ({copy.game.wtcMargin(wtc.margin)})
+          </p>
+          <div className="mt-4 max-h-[50vh] space-y-3 overflow-y-auto">
+            {Array.from({ length: game.battleRound }, (_, i) => i + 1).map((round) => (
+              <GameRoundSummary key={round} game={game} round={round} />
+            ))}
+            <GameTotalSummary game={game} />
           </div>
-        )}
+          {game.format === 'dominatus' && game.dominatus && (
+            <div className="mt-4 app-panel p-3 text-caption">
+              <p className="font-medium text-bone">{copy.game.dominatusPostBattle}</p>
+              <p className="mt-1 text-muted">{copy.game.dominatusPostBattleHint}</p>
+              <ul className="mt-2 list-disc space-y-1 pl-4 text-muted">
+                {DOMINATUS_POST_BATTLE.map((line) => (
+                  <li key={line}>{line}</li>
+                ))}
+              </ul>
+              <p className="mt-2 text-micro text-muted">
+                P1: {DOMINATUS_ALLIANCE_LABELS[game.dominatus.player1Alliance]}
+                {game.dominatus.player1AttemptAgenda ? ' · Agenda' : ' · Standard primary'}
+                {' · '}
+                P2: {DOMINATUS_ALLIANCE_LABELS[game.dominatus.player2Alliance]}
+                {game.dominatus.player2AttemptAgenda ? ' · Agenda' : ' · Standard primary'}
+              </p>
+            </div>
+          )}
+          <div className="mt-4 flex gap-2">
+            <button type="button" onClick={() => setShowEnd(false)} className="app-btn-ghost flex-1 py-2.5 text-caption">
+              {copy.game.continue}
+            </button>
+            <button type="button" onClick={endGame} className="app-btn flex-1 py-2.5 text-caption">
+              {copy.game.save}
+            </button>
+          </div>
+          <button
+            type="button"
+            onClick={() => {
+              setShowEnd(false)
+              setShowAbandon(true)
+            }}
+            className="mt-3 w-full py-1 text-center text-micro text-muted underline-offset-2 hover:text-bone hover:underline"
+          >
+            {copy.game.abandon}
+          </button>
+        </AppDialog>
+
+        <GameMissionBriefDialog
+          open={showMissionBrief}
+          onClose={() => setShowMissionBrief(false)}
+          game={game}
+        />
+
+        <AppDialog
+          open={showMap}
+          onClose={() => setShowMap(false)}
+          titleId="game-map-title"
+          className="app-dialog-panel-lg game-map-dialog"
+        >
+          <div className="game-map-dialog-head">
+            <h2 id="game-map-title" className="font-display text-title text-accent">
+              {copy.game.mapShortcut}
+            </h2>
+            <button
+              type="button"
+              onClick={() => setShowMap(false)}
+              className="app-secondary-picker-close"
+              aria-label={copy.common.close}
+            >
+              ×
+            </button>
+          </div>
+          <div className="game-map-dialog-body">
+            {battlefield ? (
+              <BattlefieldMap
+                battlefield={battlefield}
+                attacker={game.attacker}
+                player1Name={game.player1.name}
+                player2Name={game.player2.name}
+                variantIndex={game.layoutVariantIndex}
+                compact
+              />
+            ) : (
+              <p className="text-caption text-muted">{copy.game.mapNoLayout}</p>
+            )}
+          </div>
+          <button type="button" onClick={() => setShowMap(false)} className="app-btn game-map-dialog-close w-full py-2.5 text-caption">
+            {copy.common.close}
+          </button>
+        </AppDialog>
     </div>
   )
 }
 
-function MissionPanel({
+function GameMissionBriefDialog({
+  open,
+  onClose,
+  game,
+}: {
+  open: boolean
+  onClose: () => void
+  game: GameState
+}) {
+  return (
+    <AppDialog
+      open={open}
+      onClose={onClose}
+      titleId="mission-brief-title"
+      className="app-dialog-panel-lg game-mission-brief-dialog"
+    >
+      <div className="game-mission-brief-dialog-head">
+        <h2 id="mission-brief-title" className="font-display text-title text-accent">
+          {copy.game.tabMission}
+        </h2>
+        <button type="button" onClick={onClose} className="app-secondary-picker-close" aria-label={copy.common.close}>
+          ×
+        </button>
+      </div>
+      <div className="game-mission-brief-dialog-body">
+        <div className="game-mission-brief-grid">
+          <MissionBriefCard
+            player={game.player1}
+            scores={game.scores.player1}
+            battleRound={game.battleRound}
+            color="var(--color-p1)"
+          />
+          <MissionBriefCard
+            player={game.player2}
+            scores={game.scores.player2}
+            battleRound={game.battleRound}
+            color="var(--color-p2)"
+          />
+        </div>
+      </div>
+      <button type="button" onClick={onClose} className="app-btn mt-4 w-full py-2.5 text-caption">
+        {copy.common.close}
+      </button>
+    </AppDialog>
+  )
+}
+
+function MissionBriefCard({
   player,
   color,
   scores,
+  battleRound,
 }: {
   player: PlayerSetup
   color: string
   scores: PlayerScores
+  battleRound: number
 }) {
-  const secondaries =
-    player.secondaryMode === 'tactical'
-      ? [...scores.tacticalHand, ...scores.tacticalAchieved]
-      : player.secondaries.filter((s) => !scores.removedSecondaries.includes(s))
+  const { discarded } = secondaryBriefBuckets(player, scores)
+  const scoredRounds = missionBriefRoundBreakdown(player, scores).filter(
+    (entry) =>
+      entry.round <= battleRound && (entry.primary > 0 || entry.secondaries.length > 0),
+  )
+  const fdTone = FD_COLORS[player.forceDisposition] ?? 'red'
 
   return (
-    <div className="app-panel p-4">
-      <p className="font-semibold" style={{ color }}>
-        {player.name}
-      </p>
-      <p className="text-sm text-muted">{player.army}</p>
-      <div className="mt-1 space-y-1">
-        {player.detachments.map((d) => (
-          <p key={d.name} className="flex items-center gap-2 text-xs text-muted">
-            <span>· {d.name}</span>
-            <DpCost dp={d.dp} size="sm" />
-          </p>
-        ))}
-      </div>
-      <div className="mt-3">
-        <p className="text-xs uppercase text-muted">Primary</p>
-        <p className="font-bold">
-          <MissionNameButton name={player.primaryMission} className="font-bold" />
-        </p>
-        <div className="mt-1">
-          <ForceDispositionBadge fd={player.forceDisposition} short />
+    <article
+      className="game-mission-brief-card"
+      style={{ '--player-accent': color } as CSSProperties}
+    >
+      <header className="game-mission-brief-card-head">
+        <div className="game-mission-brief-head-row">
+          <p className="game-mission-brief-player truncate">{player.name}</p>
+          <span className={`game-mission-brief-fd game-mission-brief-fd--${fdTone}`}>
+            {FD_SHORT[player.forceDisposition]}
+          </span>
         </div>
+        <MissionNameButton
+          name={player.primaryMission}
+          className="game-mission-brief-primary"
+          showIcon
+        />
+      </header>
+
+      <div className="game-mission-brief-log">
+        {scoredRounds.length === 0 ? (
+          <p className="game-mission-brief-empty">{copy.game.missionBriefNoVp}</p>
+        ) : (
+          scoredRounds.map(({ round, primary, secondaries }) => (
+            <div key={round} className="game-mission-brief-round">
+              <span className="game-mission-brief-round-badge tabular-nums">R{round}</span>
+              <div className="game-mission-brief-round-body">
+                {primary > 0 && (
+                  <span className="game-mission-brief-p-chip tabular-nums">
+                    <span className="game-mission-brief-p-chip-label">
+                      {copy.game.missionBriefRoundPrimary}
+                    </span>
+                    <span className="game-mission-brief-p-chip-vp">+{primary}</span>
+                  </span>
+                )}
+                {secondaries.map(({ card, vp }) => (
+                  <span key={card} className="game-mission-brief-s-chip">
+                    <MissionNameButton
+                      name={card}
+                      className="game-mission-brief-s-chip-name"
+                      showIcon={false}
+                    />
+                    <span className="game-mission-brief-s-chip-vp tabular-nums">+{vp}</span>
+                  </span>
+                ))}
+              </div>
+            </div>
+          ))
+        )}
       </div>
-      <div className="mt-3">
-        <p className="text-xs uppercase text-muted">Secondaries ({player.secondaryMode})</p>
-        <div className="mt-1 flex flex-wrap gap-1">
-          {secondaries.length === 0 && <span className="text-xs text-muted">—</span>}
-          {secondaries.map((s, i) => (
-            <span key={`${s}-${i}`} className="rounded border border-border px-2 py-0.5 text-xs">
-              <MissionNameButton name={s} className="text-xs" showIcon={false} />
+
+      {discarded.length > 0 && (
+        <footer className="game-mission-brief-footer">
+          <p className="game-mission-brief-foot-row">
+            <span className="game-mission-brief-foot-label">{copy.game.missionBriefDiscarded}</span>
+            <span className="game-mission-brief-foot-chips">
+              {discarded.map((card) => (
+                <span key={card} className="game-mission-brief-foot-chip game-mission-brief-foot-chip--off">
+                  <MissionNameButton name={card} className="game-mission-brief-chip-label" showIcon={false} />
+                </span>
+              ))}
             </span>
-          ))}
-        </div>
-      </div>
-    </div>
+          </p>
+        </footer>
+      )}
+    </article>
   )
 }

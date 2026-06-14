@@ -28,7 +28,7 @@ export function MissionNameButton({
       >
         <span className="truncate">{name}</span>
         {showIcon && (
-          <span className="shrink-0 text-[10px] text-accent-dim opacity-70 group-hover:opacity-100" aria-hidden>
+          <span className="shrink-0 text-micro text-accent-dim opacity-70 group-hover:opacity-100" aria-hidden>
             ⓘ
           </span>
         )}

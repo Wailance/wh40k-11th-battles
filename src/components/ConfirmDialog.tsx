@@ -1,4 +1,5 @@
 import { useEffect, useRef } from 'react'
+import { AppDialog } from './AppDialog'
 import { copy } from '../lib/copy'
 
 export function ConfirmDialog({
@@ -8,6 +9,7 @@ export function ConfirmDialog({
   confirmLabel,
   cancelLabel = copy.common.cancel,
   danger = false,
+  extraAction,
   onConfirm,
   onCancel,
 }: {
@@ -17,6 +19,7 @@ export function ConfirmDialog({
   confirmLabel: string
   cancelLabel?: string
   danger?: boolean
+  extraAction?: { label: string; onClick: () => void }
   onConfirm: () => void
   onCancel: () => void
 }) {
@@ -25,51 +28,35 @@ export function ConfirmDialog({
   useEffect(() => {
     if (!open) return
     confirmRef.current?.focus()
-    const onKey = (e: KeyboardEvent) => {
-      if (e.key === 'Escape') onCancel()
-    }
-    document.addEventListener('keydown', onKey)
-    const prev = document.body.style.overflow
-    document.body.style.overflow = 'hidden'
-    return () => {
-      document.removeEventListener('keydown', onKey)
-      document.body.style.overflow = prev
-    }
-  }, [open, onCancel])
-
-  if (!open) return null
+  }, [open])
 
   return (
-    <div
-      className="fixed inset-0 z-[60] flex items-end justify-center bg-black/75 p-4 backdrop-blur-sm sm:items-center"
-      role="presentation"
-      onClick={onCancel}
-    >
-      <div
-        role="dialog"
-        aria-modal="true"
-        aria-labelledby="confirm-dialog-title"
-        className="w-full max-w-sm rounded-2xl border border-white/[0.08] bg-panel p-5 shadow-2xl"
-        onClick={(e) => e.stopPropagation()}
-      >
-        <h2 id="confirm-dialog-title" className="font-display text-lg text-bone">
-          {title}
-        </h2>
-        <p className="mt-2 text-sm leading-relaxed text-muted">{body}</p>
-        <div className="mt-5 flex gap-3">
-          <button type="button" onClick={onCancel} className="app-btn-ghost flex-1 py-3 text-sm">
+    <AppDialog open={open} onClose={onCancel} titleId="confirm-dialog-title">
+      <h2 id="confirm-dialog-title" className="font-display text-title text-bone">
+        {title}
+      </h2>
+      <p className="mt-2 text-body leading-relaxed text-muted">{body}</p>
+      <div className={`mt-5 flex gap-3 ${extraAction ? 'flex-col' : ''}`}>
+        {extraAction && (
+          <button type="button" onClick={extraAction.onClick} className="app-btn w-full py-3 text-body">
+            {extraAction.label}
+          </button>
+        )}
+        <div className="flex gap-3">
+          <button type="button" onClick={onCancel} className="app-btn-ghost flex-1 py-3 text-body">
             {cancelLabel}
           </button>
           <button
             ref={confirmRef}
             type="button"
             onClick={onConfirm}
-            className={`flex-1 py-3 text-sm ${danger ? 'app-btn' : 'app-btn'}`}
+            className="app-btn flex-1 py-3 text-body"
+            data-danger={danger || undefined}
           >
             {confirmLabel}
           </button>
         </div>
       </div>
-    </div>
+    </AppDialog>
   )
 }

@@ -1,4 +1,4 @@
-import { useMemo, useState } from 'react'
+import { useMemo, useState, type CSSProperties } from 'react'
 import { ForceDispositionBadge } from './ForceDispositionBadge'
 import { copy } from '../lib/copy'
 import { GW_EVENT_COMPANION_PDF, GW_PDF_LABELS } from '../lib/gw-links'
@@ -17,6 +17,7 @@ type MapProps = {
   variantIndex?: number
   onVariantChange?: (index: number) => void
   compact?: boolean
+  preview?: boolean
 }
 
 export function BattlefieldMap({
@@ -27,6 +28,7 @@ export function BattlefieldMap({
   variantIndex: variantIndexProp,
   onVariantChange,
   compact = false,
+  preview = false,
 }: MapProps) {
   const [internalVariantIndex, setInternalVariantIndex] = useState(0)
   const [flipped, setFlipped] = useState(false)
@@ -54,29 +56,27 @@ export function BattlefieldMap({
     <div className="app-panel space-y-3 p-4">
       <div className="flex flex-wrap items-start justify-between gap-2">
         <div>
-          <p className="text-xs font-semibold uppercase tracking-wide text-accent">
+          <p className="text-caption font-semibold uppercase tracking-wide text-accent">
             {copy.battlefield.title}
           </p>
-          <p className="mt-1 text-sm text-muted">
+          <p className="mt-1 text-body text-muted">
             {copy.battlefield.matchupLabel(battlefield.matchupId)} ·{' '}
             {BATTLEFIELD_TABLE.widthIn}&quot; × {BATTLEFIELD_TABLE.heightIn}&quot;
           </p>
           <div className="mt-2 flex flex-wrap items-center gap-2">
             <ForceDispositionBadge fd={battlefield.player1 as never} short />
-            <span className="text-xs text-muted">vs</span>
+            <span className="text-caption text-muted">vs</span>
             <ForceDispositionBadge fd={battlefield.player2 as never} short />
           </div>
         </div>
-        {!compact && (
-          <button
-            type="button"
-            onClick={() => setFlipped((f) => !f)}
-            className="app-btn-ghost rounded-lg px-2.5 py-1.5 text-[11px]"
-            title={flipHint}
-          >
-            {flipped ? copy.battlefield.viewAttackerTop : copy.battlefield.viewDefenderBottom}
-          </button>
-        )}
+        <button
+          type="button"
+          onClick={() => setFlipped((f) => !f)}
+          className={`app-btn-ghost rounded-lg touch-manipulation ${compact ? 'px-2 py-1 text-micro' : 'px-2.5 py-1.5 text-caption'}`}
+          title={flipHint}
+        >
+          {flipped ? copy.battlefield.viewAttackerTop : copy.battlefield.viewDefenderBottom}
+        </button>
       </div>
 
       <div className="flex flex-wrap gap-1.5">
@@ -85,7 +85,7 @@ export function BattlefieldMap({
             key={v.id}
             type="button"
             onClick={() => setVariantIndex(i)}
-            className={`rounded-lg border px-2.5 py-1 text-[11px] touch-manipulation ${
+            className={`rounded-lg border px-2.5 py-1 text-caption touch-manipulation ${
               i === variantIndex
                 ? 'border-accent/40 bg-accent/15 text-accent'
                 : 'border-border text-muted'
@@ -98,39 +98,60 @@ export function BattlefieldMap({
 
       {active && (
         <>
-          <p className="text-sm font-medium text-bone">{active.title}</p>
-          <p className="text-xs text-muted">{active.deployment}</p>
+          <p className="text-body font-medium text-bone">{active.title}</p>
+          <p className="text-caption text-muted">{active.deployment}</p>
 
-          <div className="overflow-hidden rounded-xl border border-white/[0.08] bg-black/30">
-            <img
-              src={active.image}
-              alt={active.title}
-              className={`w-full object-contain ${flipped ? 'rotate-180' : ''}`}
-              loading="lazy"
-            />
-          </div>
+          <figure key={active.id} className="battlefield-map-figure motion-step m-0 rounded-xl border border-white/[0.08] bg-black/30">
+            <div className={`battlefield-map-flip${flipped ? ' is-flipped' : ''}`}>
+              <img
+                src={active.image}
+                alt={active.title}
+                className="battlefield-map-img"
+                loading="lazy"
+                decoding="async"
+              />
+            </div>
+          </figure>
         </>
       )}
 
-      <div className="grid grid-cols-2 gap-2 text-[11px]">
-        <div className="rounded-lg border border-red-500/25 bg-red-500/10 px-2.5 py-2">
-          <span className="font-medium text-red-300">{copy.battlefield.attacker}</span>
-          <p className="mt-0.5 text-muted">{attackerName}</p>
-        </div>
-        <div className="rounded-lg border border-blue-500/25 bg-blue-500/10 px-2.5 py-2">
-          <span className="font-medium text-blue-300">{copy.battlefield.defender}</span>
-          <p className="mt-0.5 text-muted">{defenderName}</p>
-        </div>
+      <div className="grid grid-cols-2 gap-2 text-caption">
+        {preview ? (
+          <p className="col-span-2 rounded-lg border border-white/10 bg-white/[0.03] px-2.5 py-2 text-micro leading-snug text-muted">
+            {copy.battlefield.previewNote}
+          </p>
+        ) : (
+          <>
+            <div
+              className="player-seat-panel rounded-lg border px-2.5 py-2"
+              style={{ '--player-seat-color': attacker === 1 ? 'var(--color-p1)' : 'var(--color-p2)' } as CSSProperties}
+            >
+              <span className="font-medium" style={{ color: attacker === 1 ? 'var(--color-p1)' : 'var(--color-p2)' }}>
+                {copy.battlefield.attacker}
+              </span>
+              <p className="mt-0.5 text-muted">{attackerName}</p>
+            </div>
+            <div
+              className="player-seat-panel rounded-lg border px-2.5 py-2"
+              style={{ '--player-seat-color': attacker === 1 ? 'var(--color-p2)' : 'var(--color-p1)' } as CSSProperties}
+            >
+              <span className="font-medium" style={{ color: attacker === 1 ? 'var(--color-p2)' : 'var(--color-p1)' }}>
+                {copy.battlefield.defender}
+              </span>
+              <p className="mt-0.5 text-muted">{defenderName}</p>
+            </div>
+          </>
+        )}
       </div>
 
       {!compact && (
-        <a href={GW_EVENT_COMPANION_PDF} target="_blank" rel="noreferrer" className="text-xs text-accent">
+        <a href={GW_EVENT_COMPANION_PDF} target="_blank" rel="noreferrer" className="text-caption text-accent">
           {GW_PDF_LABELS.eventCompanion} ↗
         </a>
       )}
 
       {!compact && (
-        <details className="text-xs text-muted">
+        <details className="text-caption text-muted">
           <summary className="cursor-pointer font-medium text-bone">{copy.battlefield.setupTitle}</summary>
           <ol className="mt-2 list-decimal space-y-1 pl-4 leading-relaxed">
             {BATTLEFIELD_SETUP_STEPS.map((step) => (

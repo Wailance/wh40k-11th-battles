@@ -11,14 +11,14 @@ export function UnitDatasheet({
   showAdd?: boolean
 }) {
   return (
-    <div className="space-y-3 text-sm">
+    <div className="space-y-3 text-body">
       <div className="flex items-start justify-between gap-2">
         <div>
-          <h3 className="font-display text-base tracking-wide text-accent">{unit.name}</h3>
-          <p className="text-xs text-muted">{unit.points} pts</p>
+          <h3 className="font-display text-title tracking-wide text-accent">{unit.name}</h3>
+          <p className="text-caption text-muted">{unit.points} pts</p>
         </div>
         {showAdd && onAdd && (
-          <button type="button" onClick={onAdd} className="app-btn shrink-0 px-3 py-1.5 text-xs">
+          <button type="button" onClick={onAdd} className="app-btn shrink-0 px-3 py-1.5 text-caption">
             {copy.armyLists.addUnit}
           </button>
         )}
@@ -28,7 +28,7 @@ export function UnitDatasheet({
         {unit.keywords.map((k) => (
           <span
             key={k}
-            className="rounded-md border border-white/10 bg-white/5 px-1.5 py-0.5 text-[10px] text-muted"
+            className="rounded-md border border-white/10 bg-white/5 px-1.5 py-0.5 text-micro text-muted"
           >
             {k}
           </span>
@@ -36,10 +36,10 @@ export function UnitDatasheet({
       </div>
 
       {Object.keys(unit.stats).length > 0 && (
-        <div className="grid grid-cols-3 gap-1 text-[11px] sm:grid-cols-6">
+        <div className="grid grid-cols-3 gap-1 text-caption sm:grid-cols-6">
           {Object.entries(unit.stats).map(([k, v]) => (
             <div key={k} className="rounded-lg border border-white/8 bg-black/20 px-2 py-1 text-center">
-              <div className="text-[9px] uppercase text-muted">{k}</div>
+              <div className="text-micro uppercase text-muted">{k}</div>
               <div className="font-medium text-bone">{v}</div>
             </div>
           ))}
@@ -55,11 +55,11 @@ export function UnitDatasheet({
 
       {unit.abilities.length > 0 && (
         <div className="space-y-2">
-          <p className="text-xs font-semibold uppercase tracking-wide text-muted">{copy.armyLists.abilities}</p>
+          <p className="text-caption font-semibold uppercase tracking-wide text-muted">{copy.armyLists.abilities}</p>
           {unit.abilities.map((a) => (
             <div key={a.name} className="rounded-lg border border-white/8 bg-black/20 p-2.5">
-              <p className="text-xs font-medium text-bone">{a.name}</p>
-              <p className="mt-1 text-[11px] leading-relaxed text-muted whitespace-pre-wrap">{a.description}</p>
+              <p className="text-caption font-medium text-bone">{a.name}</p>
+              <p className="mt-1 text-caption leading-relaxed text-muted whitespace-pre-wrap">{a.description}</p>
             </div>
           ))}
         </div>
@@ -77,10 +77,10 @@ function WeaponBlock({
 }) {
   return (
     <div>
-      <p className="mb-1.5 text-xs font-semibold uppercase tracking-wide text-muted">{title}</p>
+      <p className="mb-1.5 text-caption font-semibold uppercase tracking-wide text-muted">{title}</p>
       <div className="space-y-1.5">
         {weapons.map((w) => (
-          <div key={w.name} className="rounded-lg border border-white/8 bg-black/20 px-2.5 py-2 text-[11px]">
+          <div key={w.name} className="rounded-lg border border-white/8 bg-black/20 px-2.5 py-2 text-caption">
             <p className="font-medium text-bone">{w.name}</p>
             <p className="mt-0.5 text-muted">
               {[w.range, w.A && `A${w.A}`, w.BS && `BS${w.BS}`, w.WS && `WS${w.WS}`, `S${w.S}`, `AP${w.AP}`, `D${w.D}`]
@@ -88,7 +88,7 @@ function WeaponBlock({
                 .join(' · ')}
             </p>
             {w.keywords.length > 0 && (
-              <p className="mt-1 text-[10px] text-accent-dim">{w.keywords.join(', ')}</p>
+              <p className="mt-1 text-micro text-accent-dim">{w.keywords.join(', ')}</p>
             )}
           </div>
         ))}

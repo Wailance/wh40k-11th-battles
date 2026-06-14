@@ -22,6 +22,7 @@ const HistoryGamePage = lazy(() =>
   import('./pages/HistoryGamePage').then((m) => ({ default: m.HistoryGamePage })),
 )
 const ListsPage = lazy(() => import('./pages/ListsPage').then((m) => ({ default: m.ListsPage })))
+const InDevPage = lazy(() => import('./pages/InDevPage').then((m) => ({ default: m.InDevPage })))
 const ListBuilderPage = lazy(() =>
   import('./pages/ListBuilderPage').then((m) => ({ default: m.ListBuilderPage })),
 )
@@ -65,6 +66,14 @@ export default function App() {
             element={
               <LazyPage>
                 <ActiveGamePage />
+              </LazyPage>
+            }
+          />
+          <Route
+            path="in-dev"
+            element={
+              <LazyPage>
+                <InDevPage />
               </LazyPage>
             }
           />

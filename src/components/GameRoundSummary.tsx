@@ -31,7 +31,7 @@ function playerRoundLines(
     cards.add(card)
   }
   if (player.secondaryMode === 'tactical') {
-    for (const c of [...scores.tacticalHand, ...scores.tacticalAchieved]) cards.add(c)
+    for (const c of scores.tacticalHand) cards.add(c)
   } else {
     for (const c of player.secondaries) cards.add(c)
   }
@@ -50,23 +50,23 @@ function playerRoundLines(
   const roundSecondary = scores.secondaryRoundVp[round - 1] ?? 0
 
   return (
-    <div className="app-panel app-compact-panel p-3">
-      <div className="mb-2 flex items-center justify-between gap-2 border-b border-white/[0.06] pb-1">
-        <p className="truncate text-xs font-semibold" style={{ color }}>
+    <div className="app-panel app-compact-panel p-3" data-allow-select>
+      <div className="mb-2 flex items-center justify-between gap-2 border-b border-subtle pb-1">
+        <p className="truncate text-caption font-semibold" style={{ color }}>
           {player.name}
         </p>
-        <p className="shrink-0 text-[10px] tabular-nums text-muted">
+        <p className="shrink-0 text-micro tabular-nums text-muted">
           {roundPrimary + roundSecondary} VP
         </p>
       </div>
-      <p className="mb-2 truncate text-[9px] text-muted">
+      <p className="mb-2 truncate text-micro text-muted">
         P {roundPrimary} · S {roundSecondary}
       </p>
       {primaryLines.length > 0 && (
         <div className="mb-2">
           <p className="app-dash-label mb-1">{copy.game.primaryScoring}</p>
           {primaryLines.map((l) => (
-            <div key={l.label} className="flex justify-between gap-2 text-[10px] text-muted">
+            <div key={l.label} className="flex justify-between gap-2 text-micro text-muted">
               <span className="min-w-0 truncate">{l.label}</span>
               <span className="tabular-nums text-bone">+{l.vp}</span>
             </div>
@@ -79,10 +79,10 @@ function playerRoundLines(
           {secondaryLines.map((l) => (
             <div
               key={`${l.card}-${l.label}`}
-              className="flex justify-between gap-2 text-[10px] text-muted"
+              className="flex justify-between gap-2 text-micro text-muted"
             >
               <span className="min-w-0 truncate">
-                <MissionNameButton name={l.card} className="text-[10px]" showIcon={false} />
+                <MissionNameButton name={l.card} className="text-micro" showIcon={false} />
                 {' · '}
                 {l.label}
               </span>
@@ -92,7 +92,7 @@ function playerRoundLines(
         </div>
       )}
       {primaryLines.length === 0 && secondaryLines.length === 0 && (
-        <p className="text-[10px] text-muted">{copy.game.roundEmpty}</p>
+        <p className="text-micro text-muted">{copy.game.roundEmpty}</p>
       )}
     </div>
   )
@@ -130,9 +130,9 @@ export function GameTotalSummary({ game }: { game: GameState }) {
 
   return (
     <section className="app-panel space-y-3 p-4">
-      <h2 className="font-display text-sm tracking-wide text-accent">{copy.game.totalSummaryTitle}</h2>
+      <h2 className="font-display text-body tracking-wide text-accent">{copy.game.totalSummaryTitle}</h2>
       <div className="overflow-x-auto">
-        <table className="w-full min-w-[280px] text-left text-[10px]">
+        <table className="w-full min-w-[280px] text-left text-micro">
           <thead>
             <tr className="border-b border-white/10 text-muted">
               <th className="pb-2 pr-2 font-medium">Round</th>
@@ -181,7 +181,7 @@ export function GameTotalSummary({ game }: { game: GameState }) {
           </tbody>
         </table>
       </div>
-      <p className="text-[9px] text-muted">
+      <p className="text-micro text-muted">
         Caps: Primary {DEFAULT_CAPS.primaryMaxGame} · Secondary {DEFAULT_CAPS.tacticalSecondaryMaxGame} ·
         Battle Ready +{DEFAULT_CAPS.battleReadyVp}
       </p>

@@ -9,7 +9,7 @@
     "dev": "vite",
     "build": "node scripts/generate-pwa-icons.mjs && tsc -b && vite build",
     "build:pwa-icons": "node scripts/generate-pwa-icons.mjs",
-    "verify": "node scripts/verify-missions.mjs && node scripts/verify-faction-map.mjs && node scripts/verify-list-engine.mjs",
+    "verify": "node scripts/verify-missions.mjs && npx --yes tsx scripts/verify-mission-scoring.ts && node scripts/verify-faction-map.mjs && node scripts/verify-list-engine.mjs",
     "build:army-data": "node scripts/build-army-data.mjs",
     "build:unit-art": "node scripts/build-unit-art.mjs",
     "setup-maps": "node scripts/setup-map-assets.mjs",

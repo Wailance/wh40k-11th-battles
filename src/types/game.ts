@@ -65,18 +65,20 @@ export interface PlayerScores {
   secondaryRoundVp: number[]
   tacticalHand: string[]
   tacticalDeck: string[]
-  /** Tactical: achieved this battle — kept for review, not active */
+  /** Legacy field — no longer written; kept for save migration */
   tacticalAchieved: string[]
   /** Tactical: once per battle CP reroll used */
   tacticalRerollUsed: boolean
   /** Extra CP gained this battle round (max 1 beyond Command phase) */
   extraCpThisRound: number
-  /** Fixed mode: secondaries removed from active scoring */
+  /** Fixed mode: secondaries removed from active scoring. Tactical: manually discarded (out of deck). */
   removedSecondaries: string[]
   /** Per-mission score button tallies (option id → counts per round) */
   primaryScoreTally: Record<string, number[]>
   /** Secondary tallies keyed as `card::optionId` */
   secondaryScoreTally: Record<string, number[]>
+  /** Tactical: cards used for scoring in each round (sticky for past-round edits). */
+  tacticalRoundCards: string[][]
 }
 
 export interface PlayerSetup {

@@ -25,9 +25,10 @@ export function Layout() {
       >
         {shell !== 'builder' && <ActiveGameBanner />}
         <div
+          key={shell ? 'shell' : pathname}
           className={`flex min-h-0 flex-1 flex-col ${
             shell ? 'overflow-hidden' : 'overflow-y-auto overscroll-contain [-webkit-overflow-scrolling:touch]'
-          }`}
+          } ${shell ? '' : 'motion-page'}`}
         >
           <Outlet />
         </div>

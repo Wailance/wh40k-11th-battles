@@ -1,5 +1,6 @@
 import { useState } from 'react'
-import { Link } from 'react-router-dom'
+import { Link, useNavigate } from 'react-router-dom'
+import { ConfirmDialog } from '../components/ConfirmDialog'
 import { copy } from '../lib/copy'
 import { publicUrl } from '../lib/public-url'
 import { loadActiveGame, loadHistory } from '../lib/storage'
@@ -7,6 +8,8 @@ import { getWinner } from '../lib/game-utils'
 import { calculateWtcScores } from '../lib/wtc-scoring'
 
 export function HomePage() {
+  const navigate = useNavigate()
+  const [confirmNew, setConfirmNew] = useState(false)
   const active = loadActiveGame()
   const history = loadHistory()
   const hasActive = active?.status === 'active'
@@ -19,7 +22,7 @@ export function HomePage() {
       : null
 
   return (
-    <div className="space-y-5">
+    <div className="motion-stagger space-y-5">
       <Hero />
 
       <div className="space-y-3">
@@ -28,31 +31,51 @@ export function HomePage() {
             to="/game"
             className="app-btn flex w-full min-h-[4.5rem] flex-col items-stretch justify-center gap-1 py-4 text-left"
           >
-            <span className="text-[11px] font-medium uppercase tracking-widest text-white/80">
+            <span className="text-caption font-medium uppercase tracking-widest text-white/80">
               {copy.home.activeGame}
             </span>
-            <span className="truncate font-display text-base tracking-wide">
+            <span className="truncate font-display text-title tracking-wide">
               {active.player1.name} vs {active.player2.name}
             </span>
-            <span className="text-sm font-normal text-white/75">
+            <span className="text-body font-normal text-white/75">
               R{active.battleRound} · {active.scores.player1.vp}–{active.scores.player2.vp} VP · WTC{' '}
               {activeWtc.player1}–{activeWtc.player2}
             </span>
           </Link>
         )}
 
-        <Link
-          to="/new"
-          className={hasActive ? 'app-btn-ghost flex w-full py-3.5 text-sm' : 'app-btn flex w-full py-3.5 text-sm'}
-        >
-          {copy.home.cta}
-        </Link>
+        {hasActive ? (
+          <button
+            type="button"
+            onClick={() => setConfirmNew(true)}
+            className="app-btn-ghost flex w-full py-3.5 text-body"
+          >
+            {copy.home.cta}
+          </button>
+        ) : (
+          <Link to="/new" className="app-btn flex w-full py-3.5 text-body">
+            {copy.home.cta}
+          </Link>
+        )}
       </div>
+
+      <ConfirmDialog
+        open={confirmNew}
+        title={copy.home.newGameWhileActive}
+        body={copy.home.newGameWhileActiveBody}
+        confirmLabel={copy.home.cta}
+        danger
+        onCancel={() => setConfirmNew(false)}
+        onConfirm={() => {
+          setConfirmNew(false)
+          navigate('/new')
+        }}
+      />
 
       {history.length > 0 && (
         <section className="app-panel p-4">
-          <h2 className="mb-1 font-display text-xs tracking-wide text-accent-dim">{copy.home.statsTitle}</h2>
-          <p className="mb-3 text-[10px] text-muted">Wins by seat (Player 1 / Player 2)</p>
+          <h2 className="mb-1 font-display text-caption tracking-wide text-accent-dim">{copy.home.statsTitle}</h2>
+          <p className="mb-3 text-micro text-muted">Wins by seat (Seat 1 / Seat 2 at the table)</p>
           <div className="grid grid-cols-4 gap-2 text-center">
             <Stat label={copy.home.statGames} value={history.length} />
             <Stat label={copy.home.statWins} value={p1Wins} color="var(--color-p1)" />
@@ -62,40 +85,6 @@ export function HomePage() {
         </section>
       )}
 
-      <section className="space-y-3">
-        <div>
-          <h2 className="font-display text-xs tracking-wide text-accent-dim">{copy.formats.sectionTitle}</h2>
-          <p className="mt-1 text-[11px] text-muted">{copy.formats.sectionHint}</p>
-        </div>
-
-        <Link
-          to="/teams"
-          className="app-btn flex w-full min-h-[4.5rem] flex-col items-stretch justify-center gap-1 py-4 text-left"
-        >
-          <span className="text-[11px] font-medium uppercase tracking-widest text-white/80">
-            {copy.formats.teams.badge}
-          </span>
-          <span className="font-display text-base tracking-wide">{copy.formats.teams.title}</span>
-          <span className="text-sm font-normal text-white/75">{copy.formats.teams.subtitle}</span>
-        </Link>
-
-        <Link
-          to="/formats/dominatus"
-          className="app-btn-ghost flex w-full min-h-[4rem] flex-col items-stretch justify-center gap-1 py-3.5 text-left"
-        >
-          <span className="font-display text-sm tracking-wide text-bone">{copy.formats.dominatus.title}</span>
-          <span className="text-xs text-muted">{copy.formats.dominatus.subtitle}</span>
-        </Link>
-
-        <Link
-          to="/formats/doubles"
-          className="app-btn-ghost flex w-full min-h-[4rem] flex-col items-stretch justify-center gap-1 py-3.5 text-left"
-        >
-          <span className="font-display text-sm tracking-wide text-bone">{copy.formats.doubles.title}</span>
-          <span className="text-xs text-muted">{copy.formats.doubles.subtitle}</span>
-        </Link>
-      </section>
-
       <section className="grid grid-cols-1 gap-3">
         <FeatureCard
           to="/mission-sequence"
@@ -103,17 +92,16 @@ export function HomePage() {
           desc={copy.missionSequence.subtitle}
           glyph="MS"
         />
+        <FeatureCard
+          to="/in-dev"
+          title={copy.inDev.title}
+          desc={copy.inDev.homeDesc}
+          glyph="ID"
+          muted
+        />
       </section>
 
-      <p className="text-center text-xs text-muted">
-        <Link to="/lists" className="text-accent underline-offset-2 hover:underline">
-          {copy.home.armyListsCta}
-        </Link>
-        {' · '}
-        <span className="text-muted/70">{copy.home.armyListsBadge}</span>
-      </p>
-
-      <p className="text-center text-[11px] leading-relaxed text-muted/80">
+      <p className="text-center text-caption leading-relaxed text-muted/80">
         {copy.home.credit}
         <br />
         <span className="text-muted/70">{copy.home.photoCredit}</span>
@@ -148,10 +136,10 @@ function Hero() {
 function Stat({ label, value, color }: { label: string; value: number; color?: string }) {
   return (
     <div>
-      <p className="font-display text-2xl tabular-nums" style={{ color: color ?? 'var(--color-accent)' }}>
+      <p className="font-display text-stat tabular-nums" style={{ color: color ?? 'var(--color-accent)' }}>
         {value}
       </p>
-      <p className="text-[10px] uppercase tracking-wide text-muted">{label}</p>
+      <p className="text-micro uppercase tracking-wide text-muted">{label}</p>
     </div>
   )
 }
@@ -161,23 +149,60 @@ function FeatureCard({
   title,
   desc,
   glyph,
+  badge,
+  muted,
 }: {
   to: string
   title: string
   desc: string
   glyph: string
+  badge?: string
+  muted?: boolean
 }) {
   return (
     <Link
       to={to}
-      className="app-panel flex min-h-[4.5rem] items-center gap-3 p-4 transition-colors active:bg-panel-hover"
+      className={
+        muted
+          ? 'app-panel-muted flex min-h-[3.25rem] items-center gap-2.5 p-3 text-left'
+          : 'app-panel flex min-h-[4.5rem] items-center gap-3 p-4 text-left transition-colors active:bg-panel-hover'
+      }
     >
-      <div className="flex h-11 w-11 shrink-0 items-center justify-center rounded-lg border border-crimson/25 bg-crimson-soft font-display text-sm tracking-wider text-crimson-bright">
+      <div
+        className={
+          muted
+            ? 'flex h-8 w-8 shrink-0 items-center justify-center rounded-md border border-faint bg-white/[0.03] font-display text-micro tracking-wider text-muted'
+            : 'flex h-11 w-11 shrink-0 items-center justify-center rounded-lg border border-crimson/25 bg-crimson-soft font-display text-body tracking-wider text-crimson-bright'
+        }
+      >
         {glyph}
       </div>
-      <div className="min-w-0">
-        <p className="truncate font-display text-sm tracking-wide text-accent">{title}</p>
-        <p className="mt-0.5 line-clamp-2 text-xs leading-snug text-muted">{desc}</p>
+      <div className="min-w-0 flex-1">
+        <p className="flex flex-wrap items-center gap-2">
+          <span
+            className={
+              muted
+                ? 'truncate font-display text-caption tracking-wide text-accent-dim'
+                : 'truncate font-display text-body tracking-wide text-accent'
+            }
+          >
+            {title}
+          </span>
+          {badge && (
+            <span className="rounded border border-faint px-1.5 py-0.5 text-micro uppercase tracking-wide text-muted/80">
+              {badge}
+            </span>
+          )}
+        </p>
+        <p
+          className={
+            muted
+              ? 'mt-0.5 line-clamp-2 text-caption leading-snug text-muted/75'
+              : 'mt-0.5 line-clamp-2 text-caption leading-snug text-muted'
+          }
+        >
+          {desc}
+        </p>
       </div>
     </Link>
   )

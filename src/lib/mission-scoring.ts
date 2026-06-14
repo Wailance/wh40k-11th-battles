@@ -56,14 +56,23 @@ function shortenRequirement(text: string): string {
   return s
 }
 
-function parseRoundWindow(label: string): { roundMin: number; roundMax: number } {
-  if (/END OF BATTLE/i.test(label)) return { roundMin: 5, roundMax: 5 }
-  if (/BATTLE ROUND 5/i.test(label)) return { roundMin: 5, roundMax: 5 }
-  if (/BATTLE ROUNDS?\s*2[–-]4/i.test(label)) return { roundMin: 2, roundMax: 4 }
-  if (/BATTLE ROUNDS?\s*1[–-]2/i.test(label)) return { roundMin: 1, roundMax: 2 }
-  if (/^BATTLE ROUND 1$/i.test(label.trim())) return { roundMin: 1, roundMax: 1 }
-  if (/SECOND BATTLE ROUND ONWARDS/i.test(label)) return { roundMin: 2, roundMax: 5 }
-  return { roundMin: 1, roundMax: 5 }
+function parseRoundWindow(label: string, blockText = ''): { roundMin: number; roundMax: number } {
+  let window: { roundMin: number; roundMax: number }
+  if (/END OF BATTLE/i.test(label)) window = { roundMin: 5, roundMax: 5 }
+  else if (/BATTLE ROUND 5/i.test(label)) window = { roundMin: 5, roundMax: 5 }
+  else if (/BATTLE ROUNDS?\s*2[–-]4/i.test(label)) window = { roundMin: 2, roundMax: 4 }
+  else if (/BATTLE ROUNDS?\s*2[–-]3/i.test(label)) window = { roundMin: 2, roundMax: 3 }
+  else if (/BATTLE ROUND\s*4\+/i.test(label)) window = { roundMin: 4, roundMax: 5 }
+  else if (/BATTLE ROUNDS?\s*1[–-]2/i.test(label)) window = { roundMin: 1, roundMax: 2 }
+  else if (/^BATTLE ROUND 1$/i.test(label.trim())) window = { roundMin: 1, roundMax: 1 }
+  else if (/SECOND BATTLE ROUND ONWARDS/i.test(label)) window = { roundMin: 2, roundMax: 5 }
+  else window = { roundMin: 1, roundMax: 5 }
+
+  // GW: "2–4" blocks still score on round 5 (end of turn if going second).
+  if (/fifth battle round/i.test(blockText) && window.roundMax < 5) {
+    window = { ...window, roundMax: 5 }
+  }
+  return window
 }
 
 function blockAppliesToMode(blockLabel: string, mode: SecondaryMode | null | undefined): boolean {
@@ -72,40 +81,149 @@ function blockAppliesToMode(blockLabel: string, mode: SecondaryMode | null | und
   return true
 }
 
+function stripVpCapClauses(text: string): string {
+  return text.replace(/\(\s*(?:up\s+to|max)\s+\d+\s*vp\s*\)/gi, '')
+}
+
+/** GW cards use uppercase OR between tiers; lowercase "or" in prose must not split. */
+function splitOrTiers(text: string): string[] {
+  return text.split(/\s+OR\s+/)
+}
+
 function inferScoringRules(
   blockText: string,
   rewardCount: number,
 ): Pick<MissionScoreOption, 'maxCountPerRound' | 'maxVpPerRound' | 'exclusiveGroup'> {
+  const isCumulativeCap = /REWARD:\s*\+?\d+\s*VP\s*(?:each|per\b)[^.]*\(\s*up to \d+ VP/i.test(
+    blockText,
+  )
+
   const upTo = blockText.match(/up to (\d+) VP/i)
-  const maxVpPerRound = upTo ? Number(upTo[1]) : null
+  const maxVpPerRound = isCumulativeCap ? null : upTo ? Number(upTo[1]) : null
 
   const isRepeatable =
-    /each time|per unit|per such|per objective|per marker|per terrain|per enemy|per condemned|REWARD:\s*\d+\s*VP\s*each/i.test(
+    !isCumulativeCap &&
+    /each time|per unit|per such|per objective|per marker|per terrain|per enemy|per condemned|REWARD:\s*\+?\d+\s*VP\s*(?:each|per\b)/i.test(
       blockText,
     )
 
   const isWoundTier = /VP\s*\(Wounds/i.test(blockText)
   const isExclusiveTiers =
     rewardCount > 1 &&
-    !isWoundTier &&
-    (/quarters?:/i.test(blockText) ||
+    (isCumulativeCap ||
+      isWoundTier ||
+      /\bOR\b/.test(blockText) ||
+      /quarters?:/i.test(blockText) ||
+      /table corners/i.test(blockText) ||
+      /Triangulated/i.test(blockText) ||
+      /;\s*\d\+?:\s*\d+\s*VP/i.test(blockText) ||
       /:\s*\d+\s*VP\.\s*OR\s*\d+/i.test(blockText) ||
-      /objectives.*OR.*objectives/i.test(blockText))
+      /objectives?.*\bOR\b.*objectives?/i.test(blockText) ||
+      /VP\s*\(\+\d+\s*VP cumulative/i.test(blockText))
 
   return {
     exclusiveGroup: isExclusiveTiers ? 'or-tiers' : null,
-    maxCountPerRound: isRepeatable ? null : 1,
+    maxCountPerRound: isRepeatable ? null : isExclusiveTiers ? 1 : 1,
     maxVpPerRound,
   }
 }
 
+function buildCumulativeCapTiers(perVp: number, capVp: number): number[] {
+  const tiers: number[] = []
+  let total = 0
+  while (total < capVp) {
+    const next = total + perVp
+    if (next > capVp) {
+      if (total < capVp) tiers.push(capVp)
+      break
+    }
+    total = next
+    tiers.push(total)
+  }
+  return tiers
+}
+
+function cumulativeCapLabel(
+  perVp: number,
+  tierVp: number,
+  capVp: number,
+  blockText: string,
+): string {
+  const noun = /per objective/i.test(blockText)
+    ? 'objective'
+    : /each/i.test(blockText)
+      ? 'unit'
+      : 'score'
+  const count = tierVp / perVp
+  if (Number.isInteger(count)) {
+    const n = Number(count)
+    return `${n} ${noun}${n > 1 ? 's' : ''}`
+  }
+  return `max ${capVp} VP`
+}
+
+function extractCumulativeCapRewards(text: string): { vp: number; label: string }[] | null {
+  const match = text.match(
+    /REWARD:\s*\+?(\d+)\s*VP\s*(?:each|per\b[^.]*)\s*\(\s*up to (\d+) VP/i,
+  )
+  if (!match) return null
+
+  const perVp = Number(match[1])
+  const capVp = Number(match[2])
+  return buildCumulativeCapTiers(perVp, capVp).map((tierVp) => ({
+    vp: tierVp,
+    label: cumulativeCapLabel(perVp, tierVp, capVp, text),
+  }))
+}
+
 function extractRewards(text: string): { vp: number; label?: string }[] {
+  const cumulative = extractCumulativeCapRewards(text)
+  if (cumulative) return cumulative
+
   const results: { vp: number; label?: string }[] = []
-  const orParts = text.split(/\s+OR\s+/i)
+  const orParts = splitOrTiers(text)
 
   for (const part of orParts) {
-    const tierMatch = part.match(/([^:]+):\s*(\d+)\s*VP/i)
-    if (tierMatch && !/REWARD:/i.test(part)) {
+    const stripped = stripVpCapClauses(part)
+
+    const semiTiers = [
+      ...stripped.matchAll(/(\d\+?)\s+objectives?\s+Triangulated:\s*(\d+)\s*VP/gi),
+      ...stripped.matchAll(/;\s*(\d\+?):\s*(\d+)\s*VP/gi),
+    ]
+    if (semiTiers.length >= 2) {
+      for (const m of semiTiers) {
+        const count = m[1]
+        results.push({
+          vp: Number(m[2]),
+          label: `${count} objective${count.endsWith('+') || Number(count) > 1 ? 's' : ''} Triangulated`,
+        })
+      }
+      continue
+    }
+
+    const cumulativeWounds = stripped.match(
+      /(\d+)\s*VP\s*\(\+(\d+)\s*VP cumulative[^;]*;\s*\+(\d+)\s*VP more/i,
+    )
+    if (cumulativeWounds) {
+      const base = Number(cumulativeWounds[1])
+      const plus15 = Number(cumulativeWounds[2])
+      const plus20 = Number(cumulativeWounds[3])
+      results.push({ vp: base, label: `${base} VP · under 15 wounds` })
+      results.push({ vp: base + plus15, label: `${base + plus15} VP · 15+ wounds` })
+      results.push({ vp: base + plus15 + plus20, label: `${base + plus15 + plus20} VP · 20+ wounds` })
+      continue
+    }
+
+    const characterWoundTiers = [...stripped.matchAll(/(\d+)\s*VP\s*\(Wounds[^)]+\)/gi)]
+    if (characterWoundTiers.length >= 2) {
+      for (const m of characterWoundTiers) {
+        results.push({ vp: Number(m[1]), label: m[0] })
+      }
+      continue
+    }
+
+    const tierMatch = stripped.match(/([^:]+):\s*(\d+)\s*VP/i)
+    if (tierMatch && !/REWARD:/i.test(stripped) && !/Wounds/i.test(stripped)) {
       results.push({
         vp: Number(tierMatch[2]),
         label: tierMatch[1].replace(/^WHEN:\s*End of your turn\.\s*Presence in\s*/i, '').trim(),
@@ -113,13 +231,24 @@ function extractRewards(text: string): { vp: number; label?: string }[] {
       continue
     }
 
-    const perMatch = part.match(/REWARD:\s*(\d+)\s*VP\s*(?:each|per\b[^.]*)/i)
+    const perMatch = stripped.match(/REWARD:\s*\+?(\d+)\s*VP\s*(?:each|per\b[^.]*)/i)
     if (perMatch) {
-      results.push({ vp: Number(perMatch[1]), label: shortenRequirement(part) })
+      results.push({ vp: Number(perMatch[1]), label: shortenRequirement(stripped) })
       continue
     }
 
-    const woundTiers = [...part.matchAll(/(\d+)\s*VP\s*\([^)]+\)/gi)]
+    const rewardLines = [...stripped.matchAll(/REWARD:\s*\+?(\d+)\s*VP\.?/gi)]
+    if (rewardLines.length) {
+      for (const m of rewardLines) {
+        results.push({
+          vp: Number(m[1]),
+          label: shortenRequirement(stripped),
+        })
+      }
+      continue
+    }
+
+    const woundTiers = [...stripped.matchAll(/(\d+)\s*VP\s*\([^)]+\)/gi)]
     if (woundTiers.length >= 2) {
       for (const m of woundTiers) {
         results.push({ vp: Number(m[1]), label: m[0] })
@@ -127,35 +256,25 @@ function extractRewards(text: string): { vp: number; label?: string }[] {
       continue
     }
 
-    const rewards = [...part.matchAll(/REWARD:\s*(\d+)\s*VP/gi)]
-    if (rewards.length) {
-      for (const m of rewards) {
-        results.push({
-          vp: Number(m[1]),
-          label: rewards.length > 1 ? shortenRequirement(part) : undefined,
-        })
-      }
-      continue
-    }
-
-    const inlineOr = [...part.matchAll(/(\d+)\s*VP(?:\s*\([^)]+\))?/gi)]
-    if (inlineOr.length >= 2 && /\bor\b/i.test(part)) {
+    const inlineOr = [...stripped.matchAll(/(\d+)\s*VP(?:\s*\([^)]+\))?/gi)]
+    if (inlineOr.length >= 2 && /\bOR\b/.test(stripped)) {
       for (const m of inlineOr) {
         results.push({ vp: Number(m[1]), label: m[0] })
       }
       continue
     }
 
-    const whenVp = part.match(/:\s*(\d+)\s*VP\b/i)
+    const whenVp = stripped.match(/:\s*(\d+)\s*VP\b/i)
     if (whenVp) {
-      results.push({ vp: Number(whenVp[1]), label: shortenRequirement(part) })
+      results.push({ vp: Number(whenVp[1]), label: shortenRequirement(stripped) })
     }
   }
 
   if (!results.length) {
-    const fallback = text.match(/(\d+)\s*VP/)
-    if (fallback && /REWARD|WHEN|destroyed|control|Presence/i.test(text)) {
-      results.push({ vp: Number(fallback[1]), label: shortenRequirement(text) })
+    const stripped = stripVpCapClauses(text)
+    const fallback = stripped.match(/(\d+)\s*VP/)
+    if (fallback && /REWARD|WHEN|destroyed|control|Presence/i.test(stripped)) {
+      results.push({ vp: Number(fallback[1]), label: shortenRequirement(stripped) })
     }
   }
 
@@ -176,13 +295,14 @@ export function getMissionScoreOptions(
   const options: MissionScoreOption[] = []
   detail.blocks.forEach((block, blockIdx) => {
     if (block.label === 'SETUP' || block.label === 'MECHANIC') return
+    if (/\(ACTION\)/i.test(block.label)) return
     if (detail.type === 'secondary' && !blockAppliesToMode(block.label, secondaryMode)) return
 
     const rewards = extractRewards(block.text)
     if (!rewards.length) return
 
     const rules = inferScoringRules(block.text, rewards.length)
-    const { roundMin, roundMax } = parseRoundWindow(block.label)
+    const { roundMin, roundMax } = parseRoundWindow(block.label, block.text)
     const exclusiveGroup =
       rules.exclusiveGroup === 'or-tiers' ? `${slug(missionName)}-b${blockIdx}` : null
 
@@ -206,12 +326,96 @@ export function getMissionScoreOptions(
   return options
 }
 
+function compactTacticalOptionHint(label: string): string {
+  let s = label.replace(/\s*…$/, '').trim()
+  if (/^more such units$/i.test(s)) return '2+ units in opp. DZ'
+
+  s = s
+    .replace(/^End of your turn\.\s*/i, '')
+    .replace(/^While this card is active\.\s*/i, '')
+    .replace(/^Each time\s+/i, '')
+    .replace(/\(not AIRCRAFT[^)]*\)\s*/gi, '')
+    .replace(/opponent deployment zone/gi, 'opp. DZ')
+    .replace(/objective marker/gi, 'objective')
+    .replace(/\s*REWARD:.*$/i, '')
+    .trim()
+
+  if (s.length > 52) s = `${s.slice(0, 51)}…`
+  return s
+}
+
+/** Short actionable line for tactical card scoring (replaces timing labels like ANY BATTLE ROUND). */
+export function tacticalScoreHint(
+  missionName: string,
+  option: MissionScoreOption,
+  options: MissionScoreOption[],
+): string {
+  if (options.length === 1) {
+    const summary = getMissionDetail(missionName)?.summary
+    if (summary) return summary.replace(/\.\s*$/, '')
+  }
+  return compactTacticalOptionHint(option.label)
+}
+
 export function secondaryScoreKey(cardName: string, optionId: string): string {
   return `${cardName}::${optionId}`
 }
 
 export function emptyRoundCounts(): number[] {
   return [0, 0, 0, 0, 0]
+}
+
+export function emptyRoundCardLists(): string[][] {
+  return [[], [], [], [], []]
+}
+
+export function ensureTacticalRoundCards(scores: PlayerScores): string[][] {
+  if (scores.tacticalRoundCards?.length === 5) return scores.tacticalRoundCards
+  return deriveTacticalRoundCardsFromTally(scores)
+}
+
+export function getTacticalRoundCards(scores: PlayerScores, round: number): string[] {
+  return ensureTacticalRoundCards(scores)[round - 1] ?? []
+}
+
+export function registerTacticalRoundCard(
+  scores: PlayerScores,
+  card: string,
+  round: number,
+): PlayerScores {
+  const lists = ensureTacticalRoundCards(scores).map((r) => [...r])
+  const idx = round - 1
+  if (!lists[idx].includes(card)) lists[idx] = [...lists[idx], card]
+  return { ...scores, tacticalRoundCards: lists }
+}
+
+export function unregisterTacticalRoundCard(
+  scores: PlayerScores,
+  card: string,
+  round: number,
+): PlayerScores {
+  const lists = ensureTacticalRoundCards(scores).map((r) => [...r])
+  const idx = round - 1
+  lists[idx] = lists[idx].filter((c) => c !== card)
+  return { ...scores, tacticalRoundCards: lists }
+}
+
+export function deriveTacticalRoundCardsFromTally(scores: PlayerScores): string[][] {
+  const lists = emptyRoundCardLists()
+  const seen = lists.map(() => new Set<string>())
+  for (const key of Object.keys(scores.secondaryScoreTally)) {
+    const card = key.includes('::') ? key.slice(0, key.indexOf('::')) : key
+    if (!card) continue
+    for (let round = 1; round <= 5; round++) {
+      if (getTallyCount(scores.secondaryScoreTally, key, round) > 0) {
+        if (!seen[round - 1].has(card)) {
+          seen[round - 1].add(card)
+          lists[round - 1].push(card)
+        }
+      }
+    }
+  }
+  return lists
 }
 
 export function getTallyCount(tally: Record<string, number[]>, key: string, round: number): number {
@@ -289,12 +493,14 @@ export function validateScoreIncrement(params: {
   scores: PlayerScores
   player: PlayerSetup
   battleRound: number
+  currentBattleRound?: number
   delta: 1 | -1
   secondaryCard?: string
   caps?: ScoringCaps
 }): ScoreValidation {
   const caps = params.caps ?? DEFAULT_CAPS
-  const { kind, option, allOptions, scores, player, battleRound, delta, secondaryCard } = params
+  const { kind, option, allOptions, scores, player, battleRound, delta, secondaryCard, currentBattleRound } =
+    params
   const key = tallyKey(kind, option.id, secondaryCard)
   const count = getTallyCount(
     kind === 'primary' ? scores.primaryScoreTally : scores.secondaryScoreTally,
@@ -307,11 +513,24 @@ export function validateScoreIncrement(params: {
   }
 
   if (kind === 'secondary' && player.secondaryMode === 'tactical' && secondaryCard) {
-    if (scores.tacticalAchieved.includes(secondaryCard)) {
-      return { allowed: false, reason: 'Card already achieved' }
+    if (delta === 1 && scores.removedSecondaries.includes(secondaryCard) && !scores.tacticalHand.includes(secondaryCard)) {
+      const hasScoreThisRound = Object.entries(scores.secondaryScoreTally).some(
+        ([k, counts]) => k.startsWith(`${secondaryCard}::`) && (counts[battleRound - 1] ?? 0) > 0,
+      )
+      if (!hasScoreThisRound) {
+        return { allowed: false, reason: 'Card discarded' }
+      }
     }
-    if (!scores.tacticalHand.includes(secondaryCard)) {
-      return { allowed: false, reason: 'Not an active card' }
+    if (delta === 1) {
+      const roundCards = secondaryCardsForRound(
+        player,
+        scores,
+        battleRound,
+        currentBattleRound,
+      )
+      if (!roundCards.includes(secondaryCard)) {
+        return { allowed: false, reason: 'Not an active card' }
+      }
     }
   }
 
@@ -343,25 +562,25 @@ export function validateScoreIncrement(params: {
     }
   } else {
     const card = secondaryCard!
-    const roundVp =
-      roundCategoryVp(scores.secondaryScoreTally, allOptions, battleRound, card) + option.vp
-    const roundCap =
-      player.secondaryMode === 'fixed'
-        ? caps.tacticalSecondaryMaxRound
-        : caps.tacticalSecondaryMaxRound
-    if (roundVp > roundCap) {
-      return { allowed: false, reason: `Secondary cap ${roundCap} VP/round` }
+    const allSecondaryCards =
+      player.secondaryMode === 'tactical'
+        ? secondaryCardsForRound(player, scores, battleRound, currentBattleRound)
+        : secondaryCardsForGameCap(player, scores)
+
+    let roundSecondaryTotal = 0
+    for (const c of allSecondaryCards) {
+      const opts = getMissionScoreOptions(c, player.secondaryMode)
+      const cardRoundVp = roundCategoryVp(scores.secondaryScoreTally, opts, battleRound, c)
+      roundSecondaryTotal += c === card ? cardRoundVp + option.vp : cardRoundVp
+    }
+    if (roundSecondaryTotal > caps.tacticalSecondaryMaxRound) {
+      return { allowed: false, reason: `Secondary cap ${caps.tacticalSecondaryMaxRound} VP/round` }
     }
 
     const cardGameVp = gameCategoryVp(scores.secondaryScoreTally, allOptions, card) + option.vp
     if (player.secondaryMode === 'fixed' && cardGameVp > caps.fixedSecondaryMaxPerCard) {
       return { allowed: false, reason: `Fixed card cap ${caps.fixedSecondaryMaxPerCard} VP` }
     }
-
-    const allSecondaryCards =
-      player.secondaryMode === 'tactical'
-        ? [...scores.tacticalHand, ...scores.tacticalAchieved]
-        : player.secondaries.filter((s) => !scores.removedSecondaries.includes(s))
 
     let totalSecondaryGame = 0
     for (const c of allSecondaryCards) {
@@ -398,11 +617,49 @@ export function incrementTally(
   delta: 1 | -1,
 ): Record<string, number[]> | null {
   const counts = [...(tally[key] ?? emptyRoundCounts())]
+  while (counts.length < 5) counts.push(0)
   const idx = round - 1
   const next = (counts[idx] ?? 0) + delta
   if (next < 0) return null
   counts[idx] = next
   return { ...tally, [key]: counts }
+}
+
+/** Remove all VP tallies and round tracking for a secondary card. */
+export function clearSecondaryScoresForCard(scores: PlayerScores, card: string): PlayerScores {
+  const prefix = `${card}::`
+  const secondaryScoreTally: Record<string, number[]> = {}
+  for (const [key, counts] of Object.entries(scores.secondaryScoreTally)) {
+    if (!key.startsWith(prefix) && key !== card) {
+      secondaryScoreTally[key] = counts
+    }
+  }
+  const tacticalRoundCards = scores.tacticalRoundCards.map((round) => round.filter((c) => c !== card))
+  return { ...scores, secondaryScoreTally, tacticalRoundCards }
+}
+
+export function isSecondaryScoredThisRound(
+  scores: PlayerScores,
+  card: string,
+  battleRound: number,
+): boolean {
+  for (const key of Object.keys(scores.secondaryScoreTally)) {
+    if (!key.startsWith(`${card}::`) && key !== card) continue
+    if (getTallyCount(scores.secondaryScoreTally, key, battleRound) > 0) return true
+  }
+  return false
+}
+
+export function scoreOptionsForRound(
+  options: MissionScoreOption[],
+  battleRound: number,
+): MissionScoreOption[] {
+  return options.filter((option) => timingReason(option, battleRound) === null)
+}
+
+/** Fixed secondaries: repeatable options (e.g. each kill) use +/- counter instead of a checkbox. */
+export function scoreOptionUsesCounter(option: MissionScoreOption): boolean {
+  return option.maxCountPerRound === null
 }
 
 export function recalcVpFromTallies(
@@ -474,11 +731,21 @@ export function canReturnSecondaryToDeck(
   return redrawCards.some((c) => c.toLowerCase() === norm)
 }
 
+export function tacticalDrawPoolSize(scores: PlayerScores): number {
+  const fullDeck = gameData.secondaries.tacticalDeck as string[]
+  const removed = new Set(scores.removedSecondaries)
+  if (scores.tacticalDeck.length > 0) {
+    return scores.tacticalDeck.filter((c) => !removed.has(c)).length
+  }
+  const taken = new Set(scores.tacticalHand)
+  return fullDeck.filter((c) => !taken.has(c) && !removed.has(c)).length
+}
+
 export function validateTacticalDraw(scores: PlayerScores): ScoreValidation {
   if (scores.tacticalHand.length >= TACTICAL_ACTIVE_LIMIT) {
     return { allowed: false, reason: `Already have ${TACTICAL_ACTIVE_LIMIT} active cards` }
   }
-  if (scores.tacticalDeck.length < 1) {
+  if (tacticalDrawPoolSize(scores) < 1) {
     return { allowed: false, reason: 'Deck empty' }
   }
   return { allowed: true }
@@ -486,29 +753,31 @@ export function validateTacticalDraw(scores: PlayerScores): ScoreValidation {
 
 export function tacticalDrawCount(scores: PlayerScores): number {
   const slots = TACTICAL_ACTIVE_LIMIT - scores.tacticalHand.length
-  return Math.min(2, slots, scores.tacticalDeck.length)
+  return Math.min(2, slots, tacticalDrawPoolSize(scores))
 }
 
-/** True when no further VP can be scored on this tactical card. */
+/** True when no further VP can be scored on this tactical card this round. */
 export function isTacticalCardExhausted(
   card: string,
   scores: PlayerScores,
   player: PlayerSetup,
   battleRound: number,
   caps: ScoringCaps = DEFAULT_CAPS,
+  currentBattleRound?: number,
 ): boolean {
   if (player.secondaryMode !== 'tactical') return false
-  const options = getMissionScoreOptions(card, 'tactical')
+  const options = scoreOptionsForRound(getMissionScoreOptions(card, 'tactical'), battleRound)
   if (!options.length) return false
 
   return !options.some((option) => {
     const check = validateScoreIncrement({
       kind: 'secondary',
       option,
-      allOptions: options,
+      allOptions: getMissionScoreOptions(card, 'tactical'),
       scores,
       player,
       battleRound,
+      currentBattleRound,
       delta: 1,
       secondaryCard: card,
       caps,
@@ -528,14 +797,150 @@ export function formatRoundFiveTimingHint(
 }
 
 /** Cards to show for secondary scoring in a given round (hand + any scored this round). */
+export type TacticalSecondaryStatus = 'hand' | 'scored-only'
+
+export function tacticalSecondaryInventory(
+  scores: PlayerScores,
+): { card: string; status: TacticalSecondaryStatus }[] {
+  const hand = new Set(scores.tacticalHand)
+  const tallyCards = new Set<string>()
+  for (const key of Object.keys(scores.secondaryScoreTally)) {
+    const card = key.includes('::') ? key.slice(0, key.indexOf('::')) : key
+    if (card) tallyCards.add(card)
+  }
+
+  const ordered = [
+    ...scores.tacticalHand,
+    ...[...tallyCards].filter((c) => !hand.has(c)),
+  ]
+  const seen = new Set<string>()
+  const result: { card: string; status: TacticalSecondaryStatus }[] = []
+  for (const card of ordered) {
+    if (seen.has(card)) continue
+    seen.add(card)
+    const status: TacticalSecondaryStatus = hand.has(card) ? 'hand' : 'scored-only'
+    result.push({ card, status })
+  }
+  return result
+}
+
+export interface SecondaryBriefBuckets {
+  active: string[]
+  achieved: string[]
+  discarded: string[]
+}
+
+export function secondaryCardVp(
+  scores: PlayerScores,
+  card: string,
+  mode: SecondaryMode | null | undefined,
+): number {
+  let total = 0
+  for (const opt of getMissionScoreOptions(card, mode)) {
+    const key = secondaryScoreKey(card, opt.id)
+    const counts = scores.secondaryScoreTally[key]
+    if (!counts) continue
+    for (const n of counts) total += n * opt.vp
+  }
+  return total
+}
+
+export interface MissionBriefRoundEntry {
+  round: number
+  primary: number
+  secondaries: { card: string; vp: number }[]
+}
+
+export function missionBriefRoundBreakdown(
+  player: PlayerSetup,
+  scores: PlayerScores,
+): MissionBriefRoundEntry[] {
+  const cards = new Set<string>()
+  for (const key of Object.keys(scores.secondaryScoreTally)) {
+    const card = key.includes('::') ? key.slice(0, key.indexOf('::')) : key
+    if (card) cards.add(card)
+  }
+
+  return [1, 2, 3, 4, 5].map((round) => {
+    const secondaries: { card: string; vp: number }[] = []
+    for (const card of cards) {
+      let vp = 0
+      for (const opt of getMissionScoreOptions(card, player.secondaryMode)) {
+        vp +=
+          getTallyCount(scores.secondaryScoreTally, secondaryScoreKey(card, opt.id), round) *
+          opt.vp
+      }
+      if (vp > 0) secondaries.push({ card, vp })
+    }
+    secondaries.sort((a, b) => a.card.localeCompare(b.card))
+    return {
+      round,
+      primary: scores.primaryRoundVp[round - 1] ?? 0,
+      secondaries,
+    }
+  })
+}
+
+/** Active hand, scored (done), and discarded secondaries for the mission brief. */
+export function secondaryBriefBuckets(
+  player: PlayerSetup,
+  scores: PlayerScores,
+): SecondaryBriefBuckets {
+  const isTactical = player.secondaryMode === 'tactical'
+  const hand = new Set(scores.tacticalHand)
+
+  const discarded = isTactical
+    ? [...scores.removedSecondaries]
+    : player.secondaries.filter((s) => scores.removedSecondaries.includes(s))
+  const discardedSet = new Set(discarded)
+
+  const active = isTactical
+    ? [...scores.tacticalHand]
+    : player.secondaries.filter((s) => !discardedSet.has(s))
+
+  const tallyCards = new Set<string>()
+  for (const key of Object.keys(scores.secondaryScoreTally)) {
+    const card = key.includes('::') ? key.slice(0, key.indexOf('::')) : key
+    if (card) tallyCards.add(card)
+  }
+
+  const achieved: string[] = []
+  for (const card of tallyCards) {
+    if (discardedSet.has(card)) continue
+    if (secondaryCardVp(scores, card, player.secondaryMode) <= 0) continue
+    if (isTactical && hand.has(card)) continue
+    achieved.push(card)
+  }
+
+  return { active, achieved, discarded }
+}
+
+function secondaryCardsForGameCap(player: PlayerSetup, scores: PlayerScores): string[] {
+  if (player.secondaryMode === 'tactical') {
+    const cards = new Set([...scores.tacticalHand])
+    for (const key of Object.keys(scores.secondaryScoreTally)) {
+      const card = key.includes('::') ? key.slice(0, key.indexOf('::')) : key
+      if (card) cards.add(card)
+    }
+    return [...cards]
+  }
+  return player.secondaries.filter((s) => !scores.removedSecondaries.includes(s))
+}
+
 export function secondaryCardsForRound(
   player: PlayerSetup,
   scores: PlayerScores,
   battleRound: number,
+  currentBattleRound?: number,
 ): string[] {
   const cards = new Set<string>()
+  const onLiveRound = currentBattleRound === undefined || battleRound === currentBattleRound
+
   if (player.secondaryMode === 'tactical') {
-    for (const c of [...scores.tacticalHand, ...scores.tacticalAchieved]) cards.add(c)
+    for (const c of getTacticalRoundCards(scores, battleRound)) cards.add(c)
+    if (onLiveRound) {
+      for (const c of scores.tacticalHand) cards.add(c)
+    }
   } else {
     for (const c of player.secondaries) {
       if (!scores.removedSecondaries.includes(c)) cards.add(c)
@@ -548,6 +953,54 @@ export function secondaryCardsForRound(
     }
   }
   return [...cards]
+}
+
+/** Cards shown in the live scoring panel; stable order from this round's card list. */
+export function tacticalPanelCards(
+  player: PlayerSetup,
+  scores: PlayerScores,
+  battleRound: number,
+  currentBattleRound: number,
+): string[] {
+  if (battleRound !== currentBattleRound) {
+    return secondaryCardsForRound(player, scores, battleRound, currentBattleRound)
+  }
+
+  const seen = new Set<string>()
+  const ordered: string[] = []
+
+  for (const card of getTacticalRoundCards(scores, battleRound)) {
+    if (!card || seen.has(card)) continue
+    if (!isTacticalPanelCard(scores, card, battleRound)) continue
+    seen.add(card)
+    ordered.push(card)
+  }
+
+  for (const card of scores.tacticalHand) {
+    if (seen.has(card)) continue
+    seen.add(card)
+    ordered.push(card)
+  }
+
+  for (const key of Object.keys(scores.secondaryScoreTally)) {
+    if (getTallyCount(scores.secondaryScoreTally, key, battleRound) <= 0) continue
+    const card = key.includes('::') ? key.slice(0, key.indexOf('::')) : key
+    if (!card || seen.has(card)) continue
+    if (!isTacticalPanelCard(scores, card, battleRound)) continue
+    seen.add(card)
+    ordered.push(card)
+  }
+
+  return ordered
+}
+
+function isTacticalPanelCard(scores: PlayerScores, card: string, battleRound: number): boolean {
+  if (scores.tacticalHand.includes(card)) return true
+  for (const key of Object.keys(scores.secondaryScoreTally)) {
+    if (!key.startsWith(`${card}::`) && key !== card) continue
+    if (getTallyCount(scores.secondaryScoreTally, key, battleRound) > 0) return true
+  }
+  return false
 }
 
 export function roundCombinedVp(scores: PlayerScores, battleRound: number): number {
