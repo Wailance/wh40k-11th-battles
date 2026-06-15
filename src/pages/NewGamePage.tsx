@@ -21,6 +21,7 @@ import { ConfirmDialog } from '../components/ConfirmDialog'
 import { copy } from '../lib/copy'
 import { wizardStepHint } from '../lib/wizard-hints'
 import { loadActiveGame, saveActiveGame } from '../lib/storage'
+import { trackGoal } from '../lib/analytics'
 import type {
   DominatusAlliance,
   ForceDisposition,
@@ -84,6 +85,7 @@ export function NewGamePage({ format = 'standard' }: { format?: GameFormat }) {
   function launchGame() {
     const ready = prepareGameForStart({ ...game, status: 'active' })
     saveActiveGame(ready)
+    trackGoal('start_game', { format: format ?? 'standard' })
     navigate('/game')
   }
 

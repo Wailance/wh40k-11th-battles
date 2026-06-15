@@ -1,5 +1,6 @@
 import { lazy, Suspense, type ReactNode } from 'react'
 import { HashRouter, Route, Routes } from 'react-router-dom'
+import { Analytics } from './components/Analytics'
 import { Layout } from './components/Layout'
 import { PageLoading } from './components/PageLoading'
 import { HomePage } from './pages/HomePage'
@@ -34,6 +35,7 @@ function LazyPage({ children }: { children: ReactNode }) {
 export default function App() {
   return (
     <HashRouter>
+      <Analytics />
       <Routes>
         <Route element={<Layout />}>
           <Route index element={<HomePage />} />

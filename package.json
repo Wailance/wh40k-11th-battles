@@ -17,7 +17,9 @@
     "extract-rules": ".venv/bin/python scripts/extract-rules-from-pdf.py",
     "supplement-rules": "npm run fetch-rules-pdfs && npm run extract-rules",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "build:pages": "GITHUB_PAGES=true npm run build",
+    "deploy": "npm run build:pages && npx --yes gh-pages -d dist -m \"Deploy $(date +%Y-%m-%d)\""
   },
   "dependencies": {
     "react": "^19.2.6",

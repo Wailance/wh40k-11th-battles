@@ -42,6 +42,7 @@ import {
   validateTacticalDraw,
 } from '../lib/mission-scoring'
 import { clearActiveGame, loadActiveGame, saveActiveGame, saveToHistory } from '../lib/storage'
+import { trackGoal } from '../lib/analytics'
 import { calculateWtcScores } from '../lib/wtc-scoring'
 import type { GameState, PlayerScores, PlayerSetup } from '../types/game'
 import { DOMINATUS_ALLIANCE_LABELS, DOMINATUS_POST_BATTLE } from '../data/dominatus-companion'
@@ -325,6 +326,7 @@ export function ActiveGamePage() {
 
   const endGame = () => {
     saveToHistory(game)
+    trackGoal('end_game')
     navigate('/history')
   }
 
@@ -335,6 +337,7 @@ export function ActiveGamePage() {
 
   const saveAndLeave = () => {
     saveToHistory(game)
+    trackGoal('save_history')
     navigate('/history')
   }
 
