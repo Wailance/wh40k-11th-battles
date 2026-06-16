@@ -90,10 +90,15 @@ export function SecondaryMissionPickerSheet({
 
   const toggleHand = (card: string, status: CardStatus) => {
     if (!editable) return
-    if (status !== 'hand') return
+    if (status === 'discarded') return
 
     if (selectedHand.includes(card)) {
       setSelectedHand(selectedHand.filter((c) => c !== card))
+    } else if (
+      selectedHand.length < TACTICAL_ACTIVE_LIMIT &&
+      (status === 'hand' || status === 'deck')
+    ) {
+      setSelectedHand([...selectedHand, card])
     }
   }
 
@@ -108,15 +113,16 @@ export function SecondaryMissionPickerSheet({
     onClose()
   }
 
-  const rowChecked = (card: string, status: CardStatus): boolean => {
+  const rowChecked = (card: string): boolean => {
     if (mode === 'fixed') return selectedFixed.includes(card)
-    return status === 'hand' && selectedHand.includes(card)
+    return selectedHand.includes(card)
   }
 
   const rowDisabled = (checked: boolean, status: CardStatus): boolean => {
     if (!editable) return true
     if (mode === 'fixed') return !checked && selectedFixed.length >= 2
-    return status !== 'hand' || !checked
+    if (status === 'discarded') return true
+    return !checked && selectedHand.length >= TACTICAL_ACTIVE_LIMIT
   }
 
   const fixedValid = selectedFixed.length === 2
@@ -156,7 +162,7 @@ export function SecondaryMissionPickerSheet({
           <div className="app-secondary-picker-list">
             {catalog.map((card) => {
               const status = cardStatus(card, mode, scores, player)
-              const checked = rowChecked(card, status)
+              const checked = rowChecked(card)
               const disabled = rowDisabled(checked, status)
 
               return (

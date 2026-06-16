@@ -141,29 +141,46 @@ export function ActiveGamePage() {
     setViewRound(round)
   }
 
+  const completeRoundScores = (
+    completingRound: number,
+    scores: PlayerScores,
+    player: PlayerSetup,
+  ): PlayerScores => {
+    let s: PlayerScores = { ...scores, extraCpThisRound: 0 }
+    if (player.secondaryMode === 'tactical') {
+      s = snapshotRoundTacticalCards(s, completingRound)
+      s = discardTacticalScoredInRound(s, completingRound)
+    }
+    return recalcPlayerScores(s, player)
+  }
+
   const advanceRound = () => {
     if (game.battleRound >= 5) return
     const completingRound = game.battleRound
     const next = game.battleRound + 1
-    const nextScores = (player: PlayerSetup, scores: PlayerScores) => {
-      let s: PlayerScores = { ...scores, extraCpThisRound: 0 }
-      if (player.secondaryMode === 'tactical') {
-        s = snapshotRoundTacticalCards(s, completingRound)
-        s = discardTacticalScoredInRound(s, completingRound)
-      }
-      return recalcPlayerScores(s, player)
-    }
     persist({
       ...game,
       battleRound: next,
       scores: {
-        player1: nextScores(game.player1, game.scores.player1),
-        player2: nextScores(game.player2, game.scores.player2),
+        player1: completeRoundScores(completingRound, game.scores.player1, game.player1),
+        player2: completeRoundScores(completingRound, game.scores.player2, game.player2),
       },
     })
     setRoundAnim('fwd')
     setViewRound(next)
     setScorePlayer(1)
+  }
+
+  const showResults = () => {
+    if (viewRound !== game.battleRound || game.battleRound !== 5) return
+    persist({
+      ...game,
+      scores: {
+        player1: completeRoundScores(5, game.scores.player1, game.player1),
+        player2: completeRoundScores(5, game.scores.player2, game.player2),
+      },
+    })
+    setShowEnd(true)
   }
 
   const togglePreBattle = (index: number) => {
@@ -488,6 +505,7 @@ export function ActiveGamePage() {
         battleRound={game.battleRound}
         onSelectRound={selectRound}
         onAdvanceRound={advanceRound}
+        onShowResults={showResults}
       />
 
         <ConfirmDialog
@@ -671,7 +689,7 @@ function MissionBriefCard({
   scores: PlayerScores
   battleRound: number
 }) {
-  const { discarded } = secondaryBriefBuckets(player, scores)
+  const { achieved, discarded } = secondaryBriefBuckets(player, scores)
   const scoredRounds = missionBriefRoundBreakdown(player, scores).filter(
     (entry) =>
       entry.round <= battleRound && (entry.primary > 0 || entry.secondaries.length > 0),
@@ -729,18 +747,32 @@ function MissionBriefCard({
         )}
       </div>
 
-      {discarded.length > 0 && (
+      {(achieved.length > 0 || discarded.length > 0) && (
         <footer className="game-mission-brief-footer">
-          <p className="game-mission-brief-foot-row">
-            <span className="game-mission-brief-foot-label">{copy.game.missionBriefDiscarded}</span>
-            <span className="game-mission-brief-foot-chips">
-              {discarded.map((card) => (
-                <span key={card} className="game-mission-brief-foot-chip game-mission-brief-foot-chip--off">
-                  <MissionNameButton name={card} className="game-mission-brief-chip-label" showIcon={false} />
-                </span>
-              ))}
-            </span>
-          </p>
+          {achieved.length > 0 && (
+            <p className="game-mission-brief-foot-row">
+              <span className="game-mission-brief-foot-label">{copy.game.missionBriefAchieved}</span>
+              <span className="game-mission-brief-foot-chips">
+                {achieved.map((card) => (
+                  <span key={card} className="game-mission-brief-foot-chip game-mission-brief-foot-chip--active">
+                    <MissionNameButton name={card} className="game-mission-brief-chip-label" showIcon={false} />
+                  </span>
+                ))}
+              </span>
+            </p>
+          )}
+          {discarded.length > 0 && (
+            <p className="game-mission-brief-foot-row">
+              <span className="game-mission-brief-foot-label">{copy.game.missionBriefDiscarded}</span>
+              <span className="game-mission-brief-foot-chips">
+                {discarded.map((card) => (
+                  <span key={card} className="game-mission-brief-foot-chip game-mission-brief-foot-chip--off">
+                    <MissionNameButton name={card} className="game-mission-brief-chip-label" showIcon={false} />
+                  </span>
+                ))}
+              </span>
+            </p>
+          )}
         </footer>
       )}
     </article>

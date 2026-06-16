@@ -7,14 +7,18 @@ export function GameRoundNav({
   battleRound,
   onSelectRound,
   onAdvanceRound,
+  onShowResults,
 }: {
   viewRound: number
   battleRound: number
   onSelectRound: (round: number) => void
   onAdvanceRound: () => void
+  onShowResults: () => void
 }) {
   const canPrev = viewRound > 1
-  const canNext = viewRound < battleRound || (viewRound === battleRound && battleRound < 5)
+  const atFinalRound = viewRound === battleRound && battleRound === MAX_ROUNDS
+  const canNext =
+    viewRound < battleRound || (viewRound === battleRound && battleRound < MAX_ROUNDS) || atFinalRound
   const progressPct = (viewRound / MAX_ROUNDS) * 100
 
   function goNext() {
@@ -22,8 +26,12 @@ export function GameRoundNav({
       onSelectRound(viewRound + 1)
       return
     }
-    if (viewRound === battleRound && battleRound < 5) {
+    if (viewRound === battleRound && battleRound < MAX_ROUNDS) {
       onAdvanceRound()
+      return
+    }
+    if (atFinalRound) {
+      onShowResults()
     }
   }
 
@@ -69,9 +77,11 @@ export function GameRoundNav({
           disabled={!canNext}
           onClick={goNext}
           aria-label={
-            viewRound === battleRound && battleRound < 5
+            viewRound === battleRound && battleRound < MAX_ROUNDS
               ? copy.game.advanceRound(battleRound + 1)
-              : copy.game.roundNext(viewRound + 1)
+              : atFinalRound
+                ? copy.game.roundShowResults
+                : copy.game.roundNext(viewRound + 1)
           }
         >
           ›

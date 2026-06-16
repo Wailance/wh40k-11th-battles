@@ -551,16 +551,9 @@ export function validateScoreIncrement(params: {
     return { allowed: false, reason: `Max ${option.maxVpPerRound} VP this round` }
   }
 
-  if (kind === 'primary') {
-    const roundVp = roundCategoryVp(scores.primaryScoreTally, allOptions, battleRound) + option.vp
-    if (roundVp > caps.primaryMaxRound) {
-      return { allowed: false, reason: `Primary cap ${caps.primaryMaxRound} VP/round` }
-    }
-    const gameVp = gameCategoryVp(scores.primaryScoreTally, allOptions) + option.vp
-    if (gameVp > caps.primaryMaxGame) {
-      return { allowed: false, reason: `Primary cap ${caps.primaryMaxGame} VP/game` }
-    }
-  } else {
+  // Primary game/round caps are enforced in recalcVpFromTallies — tally may exceed
+  // capped VP so players can keep tracking objectives after the cap is reached.
+  if (kind === 'secondary') {
     const card = secondaryCard!
     const allSecondaryCards =
       player.secondaryMode === 'tactical'
@@ -888,15 +881,27 @@ export function secondaryBriefBuckets(
 ): SecondaryBriefBuckets {
   const isTactical = player.secondaryMode === 'tactical'
   const hand = new Set(scores.tacticalHand)
+  const mode = player.secondaryMode
 
-  const discarded = isTactical
+  const removedList = isTactical
     ? [...scores.removedSecondaries]
     : player.secondaries.filter((s) => scores.removedSecondaries.includes(s))
-  const discardedSet = new Set(discarded)
+  const removedSet = new Set(removedList)
 
   const active = isTactical
     ? [...scores.tacticalHand]
-    : player.secondaries.filter((s) => !discardedSet.has(s))
+    : player.secondaries.filter((s) => !removedSet.has(s))
+
+  const achieved: string[] = []
+  const discarded: string[] = []
+
+  for (const card of removedList) {
+    if (secondaryCardVp(scores, card, mode) > 0) {
+      achieved.push(card)
+    } else {
+      discarded.push(card)
+    }
+  }
 
   const tallyCards = new Set<string>()
   for (const key of Object.keys(scores.secondaryScoreTally)) {
@@ -904,10 +909,9 @@ export function secondaryBriefBuckets(
     if (card) tallyCards.add(card)
   }
 
-  const achieved: string[] = []
   for (const card of tallyCards) {
-    if (discardedSet.has(card)) continue
-    if (secondaryCardVp(scores, card, player.secondaryMode) <= 0) continue
+    if (removedSet.has(card)) continue
+    if (secondaryCardVp(scores, card, mode) <= 0) continue
     if (isTactical && hand.has(card)) continue
     achieved.push(card)
   }

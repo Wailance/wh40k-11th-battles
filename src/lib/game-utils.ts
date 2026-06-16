@@ -374,9 +374,9 @@ export function applyTacticalHandState(
   nextHand: string[],
   restoreDiscardedToDeck: string[] = [],
 ): PlayerScores {
-  // Only removals from hand — new cards must be drawn via Random.
-  const inHand = new Set(scores.tacticalHand)
-  const hand = nextHand.filter((c) => inHand.has(c)).slice(0, TACTICAL_ACTIVE_LIMIT)
+  const pickable = (card: string) =>
+    scores.tacticalHand.includes(card) || scores.tacticalDeck.includes(card)
+  const hand = [...new Set(nextHand)].filter(pickable).slice(0, TACTICAL_ACTIVE_LIMIT)
   let deck = [...scores.tacticalDeck]
   let removed = [...scores.removedSecondaries]
 
@@ -391,6 +391,8 @@ export function applyTacticalHandState(
       removed = removed.filter((c) => c !== card)
     }
   }
+
+  deck = deck.filter((c) => !hand.includes(c))
 
   for (const c of scores.tacticalHand) {
     if (!hand.includes(c) && !removed.includes(c)) {
