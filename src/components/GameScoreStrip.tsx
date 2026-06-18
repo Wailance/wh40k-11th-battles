@@ -101,6 +101,7 @@ export function GamePlayerSeatBar({
   player2Label,
   player2Meta,
   player2Vp,
+  firstPlayer = 1,
   activePlayer,
   onSelectPlayer,
 }: {
@@ -110,10 +111,50 @@ export function GamePlayerSeatBar({
   player2Label: string
   player2Meta?: string
   player2Vp: number
+  firstPlayer?: 1 | 2
   activePlayer?: 1 | 2 | null
   onSelectPlayer?: (player: 1 | 2) => void
 }) {
   const selectable = activePlayer != null && onSelectPlayer != null
+
+  const seats =
+    firstPlayer === 1
+      ? [
+          {
+            player: 1 as const,
+            side: 'left' as const,
+            label: player1Label,
+            meta: player1Meta,
+            vp: player1Vp,
+            color: 'var(--color-p1)',
+          },
+          {
+            player: 2 as const,
+            side: 'right' as const,
+            label: player2Label,
+            meta: player2Meta,
+            vp: player2Vp,
+            color: 'var(--color-p2)',
+          },
+        ]
+      : [
+          {
+            player: 2 as const,
+            side: 'left' as const,
+            label: player2Label,
+            meta: player2Meta,
+            vp: player2Vp,
+            color: 'var(--color-p2)',
+          },
+          {
+            player: 1 as const,
+            side: 'right' as const,
+            label: player1Label,
+            meta: player1Meta,
+            vp: player1Vp,
+            color: 'var(--color-p1)',
+          },
+        ]
 
   return (
     <div className={`game-player-seat-bar ${selectable ? 'is-selectable' : ''}`}>
@@ -121,26 +162,19 @@ export function GamePlayerSeatBar({
         <p className="game-score-strip-hint">{copy.game.scoreStripHint}</p>
       )}
       <div className="game-player-seat-bar-row">
-        <PlayerSeat
-          side="left"
-          label={player1Label}
-          meta={player1Meta}
-          vp={player1Vp}
-          color="var(--color-p1)"
-          active={activePlayer === 1}
-          selectable={selectable}
-          onSelect={onSelectPlayer ? () => onSelectPlayer(1) : undefined}
-        />
-        <PlayerSeat
-          side="right"
-          label={player2Label}
-          meta={player2Meta}
-          vp={player2Vp}
-          color="var(--color-p2)"
-          active={activePlayer === 2}
-          selectable={selectable}
-          onSelect={onSelectPlayer ? () => onSelectPlayer(2) : undefined}
-        />
+        {seats.map((seat) => (
+          <PlayerSeat
+            key={seat.player}
+            side={seat.side}
+            label={seat.label}
+            meta={seat.meta}
+            vp={seat.vp}
+            color={seat.color}
+            active={activePlayer === seat.player}
+            selectable={selectable}
+            onSelect={onSelectPlayer ? () => onSelectPlayer(seat.player) : undefined}
+          />
+        ))}
       </div>
     </div>
   )

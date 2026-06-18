@@ -416,6 +416,7 @@ export function ActiveGamePage() {
           {...doublesLabels}
           player1Vp={game.scores.player1.vp}
           player2Vp={game.scores.player2.vp}
+          firstPlayer={game.firstPlayer}
           activePlayer={bottomActivePlayer}
           onSelectPlayer={bottomOnSelectPlayer}
         />
