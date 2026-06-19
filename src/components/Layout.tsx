@@ -1,7 +1,6 @@
 import { Outlet, useLocation } from 'react-router-dom'
 import { ActiveGameBanner } from './ActiveGameBanner'
 import { BottomNav } from './BottomNav'
-import { SupportFooter } from './SupportFooter'
 
 function useFullscreenShell() {
   const { pathname } = useLocation()
@@ -13,7 +12,6 @@ function useFullscreenShell() {
 export function Layout() {
   const { pathname } = useLocation()
   const shell = useFullscreenShell()
-  const isHome = pathname === '/'
 
   return (
     <div className="app-root flex h-[100dvh] max-h-[100dvh] flex-col overflow-hidden">
@@ -32,7 +30,6 @@ export function Layout() {
         >
           <Outlet />
         </div>
-        {isHome && <SupportFooter />}
       </main>
       <BottomNav compact={Boolean(shell)} />
     </div>

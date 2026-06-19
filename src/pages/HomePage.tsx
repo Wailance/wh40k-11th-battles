@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import { Link, useNavigate } from 'react-router-dom'
 import { ConfirmDialog } from '../components/ConfirmDialog'
+import { SupportFooter } from '../components/SupportFooter'
 import { copy } from '../lib/copy'
 import { publicUrl } from '../lib/public-url'
 import { loadActiveGame, loadHistory } from '../lib/storage'
@@ -83,6 +84,8 @@ export function HomePage() {
         <br />
         <span className="text-muted">{copy.home.photoCredit}</span>
       </p>
+
+      <SupportFooter />
     </div>
   )
 }
