@@ -40,7 +40,7 @@ export function HomePage() {
         open={confirmNew}
         title={copy.home.newGameWhileActive}
         body={copy.home.newGameWhileActiveBody}
-        confirmLabel={copy.home.cta}
+        confirmLabel={copy.home.newGameWhileActiveConfirm}
         danger
         onCancel={() => setConfirmNew(false)}
         onConfirm={() => {

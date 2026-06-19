@@ -303,7 +303,7 @@ export function NewGamePage({ format = 'standard' }: { format?: GameFormat }) {
         open={confirmOverwrite}
         title={copy.home.newGameWhileActive}
         body={copy.home.newGameWhileActiveBody}
-        confirmLabel={copy.home.cta}
+        confirmLabel={copy.home.newGameWhileActiveConfirm}
         danger
         onCancel={() => setConfirmOverwrite(false)}
         onConfirm={() => {

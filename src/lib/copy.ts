@@ -14,6 +14,7 @@ export const copy = {
     armyListsCta: 'Army Builder',
     armyListsBadge: 'In dev',
     newGameWhileActive: 'Start new game anyway?',
+    newGameWhileActiveConfirm: 'Start anyway',
     newGameWhileActiveBody:
       'This will replace your current mission in progress. Save or finish the active game first if you want to keep it.',
     resumeCta: 'Resume mission',

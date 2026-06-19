@@ -36,21 +36,25 @@ export function ConfirmDialog({
         {title}
       </h2>
       <p className="mt-2 text-body leading-relaxed text-muted">{body}</p>
-      <div className={`mt-5 flex gap-3 ${extraAction ? 'flex-col' : ''}`}>
+      <div className="mt-5 flex flex-col gap-3">
         {extraAction && (
           <button type="button" onClick={extraAction.onClick} className="app-btn app-btn-success w-full py-3 text-body">
             {extraAction.label}
           </button>
         )}
-        <div className="flex gap-3">
-          <button type="button" onClick={onCancel} className="app-btn-ghost flex-1 py-3 text-body">
+        <div className="flex w-full gap-3">
+          <button
+            type="button"
+            onClick={onCancel}
+            className="app-btn-ghost inline-flex min-h-11 min-w-0 flex-1 items-center justify-center whitespace-nowrap px-3 py-3 text-body"
+          >
             {cancelLabel}
           </button>
           <button
             ref={confirmRef}
             type="button"
             onClick={onConfirm}
-            className="app-btn flex-1 py-3 text-body"
+            className="app-btn inline-flex min-h-11 min-w-0 flex-1 items-center justify-center whitespace-nowrap px-3 py-3 text-body"
             data-danger={danger || undefined}
           >
             {confirmLabel}
