@@ -5,7 +5,7 @@ import { SecondaryScoreCheckboxes } from './SecondaryScoreCheckboxes'
 import { RestoreToDeckButton } from './RestoreToDeckButton'
 import { copy } from '../lib/copy'
 import { activateOnKeyboard } from '../lib/use-overlay'
-import { tacticalPanelCards, TACTICAL_ACTIVE_LIMIT, canReturnSecondaryToDeck } from '../lib/mission-scoring'
+import { tacticalPanelCards, canReturnSecondaryToDeck } from '../lib/mission-scoring'
 import { mayManualRedrawWhenDrawn, whenDrawnReminder } from '../lib/tactical-when-drawn'
 import type { PlayerScores, PlayerSetup } from '../types/game'
 
@@ -164,7 +164,7 @@ export function SecondaryMissionsPanel({
   }
 
   const meta = isTactical
-    ? copy.game.secondaryPanelMeta(deckCount ?? scores.tacticalDeck.length, handCount, TACTICAL_ACTIVE_LIMIT)
+    ? copy.game.secondaryPanelMeta(deckCount ?? scores.tacticalDeck.length, handCount)
     : copy.game.secondaryPanelFixedMeta(activeCards.length, 2)
 
   return (

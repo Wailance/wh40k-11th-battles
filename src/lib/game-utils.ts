@@ -1,5 +1,5 @@
 import gameData from '../data/game-data.json'
-import { TACTICAL_ACTIVE_LIMIT, clearSecondaryScoresForCard, deriveTacticalRoundCardsFromTally, getMissionScoreOptions, getTallyCount, isTacticalCardExhausted, registerTacticalRoundCard, secondaryScoreKey, unregisterTacticalRoundCard } from './mission-scoring'
+import { clearSecondaryScoresForCard, deriveTacticalRoundCardsFromTally, getMissionScoreOptions, getTallyCount, isTacticalCardExhausted, registerTacticalRoundCard, secondaryScoreKey, unregisterTacticalRoundCard } from './mission-scoring'
 import { shouldAutoRedrawWhenDrawn } from './tactical-when-drawn'
 import type {
   Army,
@@ -106,19 +106,9 @@ export function drawTacticalCards(deck: string[], count: number): { drawn: strin
   return { drawn, remaining: deck.slice(count) }
 }
 
-/** Keep at most TACTICAL_ACTIVE_LIMIT cards in hand; overflow returns to deck. */
+/** No hand-size cap — returns scores unchanged (kept for call-site stability). */
 export function enforceTacticalHandLimit(scores: PlayerScores): PlayerScores {
-  if (scores.tacticalHand.length <= TACTICAL_ACTIVE_LIMIT) return scores
-
-  const hand = scores.tacticalHand.slice(0, TACTICAL_ACTIVE_LIMIT)
-  const overflow = scores.tacticalHand.slice(TACTICAL_ACTIVE_LIMIT)
-  let deck = [...scores.tacticalDeck]
-  for (const card of overflow) {
-    if (scores.removedSecondaries.includes(card)) continue
-    deck = deck.filter((c) => c !== card)
-    deck = shuffleCardIntoDeck(deck, card)
-  }
-  return { ...scores, tacticalHand: hand, tacticalDeck: deck }
+  return scores
 }
 
 /** Draw tactical cards applying When Drawn auto-redraw (round 1). */
@@ -131,12 +121,9 @@ export function drawTacticalCardsResolved(
   let remaining = [...deck]
   const nextHand = [...hand]
   const redrawn: string[] = []
-  const slotsToFill = Math.min(count, TACTICAL_ACTIVE_LIMIT - nextHand.length)
-  let slots = slotsToFill
+  let slots = count
 
   for (let guard = 0; guard < 20 && slots > 0 && remaining.length > 0; guard++) {
-    if (nextHand.length >= TACTICAL_ACTIVE_LIMIT) break
-
     const { drawn, remaining: rest } = drawTacticalCards(remaining, 1)
     remaining = rest
     const card = drawn[0]
@@ -162,8 +149,6 @@ export function drawOneTacticalToHand(
   fullDeck: string[],
   currentBattleRound?: number,
 ): PlayerScores {
-  if (scores.tacticalHand.length >= TACTICAL_ACTIVE_LIMIT) return scores
-
   const deck = remainingTacticalDeck(scores, fullDeck)
   if (!deck.length) return scores
 
@@ -334,8 +319,7 @@ export function afterTacticalSecondaryScore(
       !scoredThisRound &&
       onLiveRound &&
       next.removedSecondaries.includes(card) &&
-      !next.tacticalHand.includes(card) &&
-      next.tacticalHand.length < TACTICAL_ACTIVE_LIMIT
+      !next.tacticalHand.includes(card)
     ) {
       next = {
         ...next,
@@ -376,7 +360,7 @@ export function applyTacticalHandState(
 ): PlayerScores {
   const pickable = (card: string) =>
     scores.tacticalHand.includes(card) || scores.tacticalDeck.includes(card)
-  const hand = [...new Set(nextHand)].filter(pickable).slice(0, TACTICAL_ACTIVE_LIMIT)
+  const hand = [...new Set(nextHand)].filter(pickable)
   let deck = [...scores.tacticalDeck]
   let removed = [...scores.removedSecondaries]
 

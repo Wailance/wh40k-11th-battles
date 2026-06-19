@@ -38,8 +38,6 @@ type CardRecord = {
 }
 
 const CARD_DATA = cards as Record<string, CardRecord>
-/** Max active tactical secondary cards (GW: draw until you have 2 active) */
-export const TACTICAL_ACTIVE_LIMIT = 2
 export const DEFAULT_CAPS: ScoringCaps = gameData.scoringCaps as ScoringCaps
 
 function shortenRequirement(text: string): string {
@@ -551,27 +549,13 @@ export function validateScoreIncrement(params: {
     return { allowed: false, reason: `Max ${option.maxVpPerRound} VP this round` }
   }
 
-  // Primary game/round caps are enforced in recalcVpFromTallies — tally may exceed
-  // capped VP so players can keep tracking objectives after the cap is reached.
-  if (kind === 'secondary') {
+  // Game/round caps are enforced in recalcVpFromTallies — tally may exceed capped VP.
+  if (kind === 'secondary' && player.secondaryMode === 'fixed') {
     const card = secondaryCard!
-    const allSecondaryCards =
-      player.secondaryMode === 'tactical'
-        ? secondaryCardsForRound(player, scores, battleRound, currentBattleRound)
-        : secondaryCardsForGameCap(player, scores)
-
-    let roundSecondaryTotal = 0
-    for (const c of allSecondaryCards) {
-      const opts = getMissionScoreOptions(c, player.secondaryMode)
-      const cardRoundVp = roundCategoryVp(scores.secondaryScoreTally, opts, battleRound, c)
-      roundSecondaryTotal += c === card ? cardRoundVp + option.vp : cardRoundVp
-    }
-    if (roundSecondaryTotal > caps.tacticalSecondaryMaxRound) {
-      return { allowed: false, reason: `Secondary cap ${caps.tacticalSecondaryMaxRound} VP/round` }
-    }
+    const allSecondaryCards = secondaryCardsForGameCap(player, scores)
 
     const cardGameVp = gameCategoryVp(scores.secondaryScoreTally, allOptions, card) + option.vp
-    if (player.secondaryMode === 'fixed' && cardGameVp > caps.fixedSecondaryMaxPerCard) {
+    if (cardGameVp > caps.fixedSecondaryMaxPerCard) {
       return { allowed: false, reason: `Fixed card cap ${caps.fixedSecondaryMaxPerCard} VP` }
     }
 
@@ -582,12 +566,18 @@ export function validateScoreIncrement(params: {
     }
     totalSecondaryGame += option.vp
 
-    const gameCap =
-      player.secondaryMode === 'fixed'
-        ? caps.fixedSecondaryMaxGame
-        : caps.tacticalSecondaryMaxGame
-    if (totalSecondaryGame > gameCap) {
-      return { allowed: false, reason: `Secondary cap ${gameCap} VP/game` }
+    if (totalSecondaryGame > caps.fixedSecondaryMaxGame) {
+      return { allowed: false, reason: `Secondary cap ${caps.fixedSecondaryMaxGame} VP/game` }
+    }
+
+    let roundSecondaryTotal = 0
+    for (const c of allSecondaryCards) {
+      const opts = getMissionScoreOptions(c, player.secondaryMode)
+      const cardRoundVp = roundCategoryVp(scores.secondaryScoreTally, opts, battleRound, c)
+      roundSecondaryTotal += c === card ? cardRoundVp + option.vp : cardRoundVp
+    }
+    if (roundSecondaryTotal > caps.tacticalSecondaryMaxRound) {
+      return { allowed: false, reason: `Secondary cap ${caps.tacticalSecondaryMaxRound} VP/round` }
     }
   }
 
@@ -735,9 +725,6 @@ export function tacticalDrawPoolSize(scores: PlayerScores): number {
 }
 
 export function validateTacticalDraw(scores: PlayerScores): ScoreValidation {
-  if (scores.tacticalHand.length >= TACTICAL_ACTIVE_LIMIT) {
-    return { allowed: false, reason: `Already have ${TACTICAL_ACTIVE_LIMIT} active cards` }
-  }
   if (tacticalDrawPoolSize(scores) < 1) {
     return { allowed: false, reason: 'Deck empty' }
   }
@@ -745,8 +732,7 @@ export function validateTacticalDraw(scores: PlayerScores): ScoreValidation {
 }
 
 export function tacticalDrawCount(scores: PlayerScores): number {
-  const slots = TACTICAL_ACTIVE_LIMIT - scores.tacticalHand.length
-  return Math.min(2, slots, tacticalDrawPoolSize(scores))
+  return Math.min(1, tacticalDrawPoolSize(scores))
 }
 
 /** True when no further VP can be scored on this tactical card this round. */

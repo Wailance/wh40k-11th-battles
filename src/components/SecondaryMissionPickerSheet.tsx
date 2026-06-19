@@ -4,7 +4,6 @@ import { RestoreToDeckButton } from './RestoreToDeckButton'
 import { AppSheet } from './AppSheet'
 import { copy } from '../lib/copy'
 import { gameData } from '../lib/game-utils'
-import { TACTICAL_ACTIVE_LIMIT } from '../lib/mission-scoring'
 import type { PlayerScores, PlayerSetup, SecondaryMode } from '../types/game'
 
 type CardStatus = 'hand' | 'deck' | 'active' | 'inactive' | 'discarded' | null
@@ -94,10 +93,7 @@ export function SecondaryMissionPickerSheet({
 
     if (selectedHand.includes(card)) {
       setSelectedHand(selectedHand.filter((c) => c !== card))
-    } else if (
-      selectedHand.length < TACTICAL_ACTIVE_LIMIT &&
-      (status === 'hand' || status === 'deck')
-    ) {
+    } else if (status === 'hand' || status === 'deck') {
       setSelectedHand([...selectedHand, card])
     }
   }
@@ -108,7 +104,7 @@ export function SecondaryMissionPickerSheet({
       if (selectedFixed.length !== 2) return
       onApplyFixed(selectedFixed)
     } else {
-      onApplyTactical(selectedHand.slice(0, TACTICAL_ACTIVE_LIMIT), [])
+      onApplyTactical(selectedHand, [])
     }
     onClose()
   }
@@ -122,7 +118,7 @@ export function SecondaryMissionPickerSheet({
     if (!editable) return true
     if (mode === 'fixed') return !checked && selectedFixed.length >= 2
     if (status === 'discarded') return true
-    return !checked && selectedHand.length >= TACTICAL_ACTIVE_LIMIT
+    return false
   }
 
   const fixedValid = selectedFixed.length === 2
@@ -153,7 +149,7 @@ export function SecondaryMissionPickerSheet({
           )}
           {mode === 'tactical' && editable && (
             <p className="mt-1.5 text-micro text-muted">
-              {copy.game.secondaryPickerHandCount(selectedHand.length, TACTICAL_ACTIVE_LIMIT)}
+              {copy.game.secondaryPickerHandCount(selectedHand.length)}
             </p>
           )}
         </div>

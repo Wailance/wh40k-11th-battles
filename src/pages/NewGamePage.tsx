@@ -735,7 +735,7 @@ function SecondarySetup({
 
       {player.secondaryMode === 'tactical' && (
         <p className="text-caption text-muted leading-relaxed">
-          Use Random or Manage to fill your hand (max 2). Achieved cards are
+          Use Random or Manage to add tactical cards to your hand. Achieved cards are
           discarded. Max {gameData.scoringCaps.tacticalSecondaryMaxGame} VP from Tactical
           secondaries ({gameData.scoringCaps.tacticalSecondaryMaxRound} VP/round).
         </p>
