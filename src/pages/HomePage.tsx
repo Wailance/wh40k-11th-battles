@@ -36,12 +36,7 @@ export function HomePage() {
         )}
       </div>
 
-      <FeatureCard
-        to="/lists/meta"
-        title={copy.home.tournamentListsTitle}
-        desc={copy.home.tournamentListsDesc}
-        glyph="TL"
-      />
+      <TournamentListsCta to="/lists/meta" />
 
       <ConfirmDialog
         open={confirmNew}
@@ -125,6 +120,30 @@ function Stat({ label, value, color }: { label: string; value: number; color?: s
       </p>
       <p className="text-micro uppercase tracking-wide text-muted">{label}</p>
     </div>
+  )
+}
+
+function TournamentListsCta({ to }: { to: string }) {
+  return (
+    <Link to={to} className="home-meta-cta motion-card">
+      <span className="home-meta-cta-icon" aria-hidden>
+        <svg viewBox="0 0 24 24" fill="none" className="h-5 w-5">
+          <path
+            d="M8 4h8l1 3h3v2h-1.2c-.5 4.2-2.8 7.4-6.8 9.1L12 20l-2-1.9C6 16.4 3.7 13.2 3.2 9H2V7h3l1-3Z"
+            stroke="currentColor"
+            strokeWidth="1.5"
+            strokeLinejoin="round"
+          />
+          <path d="M9.5 10h5M9.5 13h5" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" />
+        </svg>
+      </span>
+      <span className="home-meta-cta-body">
+        <span className="home-meta-cta-kicker">{copy.home.tournamentListsKicker}</span>
+        <span className="home-meta-cta-title">{copy.home.tournamentListsTitle}</span>
+        <span className="home-meta-cta-desc">{copy.home.tournamentListsDesc}</span>
+      </span>
+      <span className="home-meta-cta-chevron" aria-hidden />
+    </Link>
   )
 }
 

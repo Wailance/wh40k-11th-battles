@@ -6,7 +6,8 @@ import { SupportFooter } from './SupportFooter'
 function useFullscreenShell() {
   const { pathname } = useLocation()
   if (pathname === '/game') return 'game'
-  if (pathname.startsWith('/lists/')) return 'builder'
+  if (pathname === '/lists/new') return 'builder'
+  if (pathname.startsWith('/lists/') && pathname !== '/lists/meta') return 'builder'
   return null
 }
 

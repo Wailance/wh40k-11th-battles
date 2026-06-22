@@ -5,7 +5,6 @@ import { copy } from '../lib/copy'
 import {
   formatTournamentDate,
   formatTournamentResult,
-  listhammerListUrl,
   loadTournamentMetaLists,
   uniqueFactions,
 } from '../lib/tournament-lists-loader'
@@ -64,26 +63,16 @@ function TournamentListRow({ entry }: { entry: TournamentMetaList }) {
       {open && (
         <div className="meta-list-panel">
           <div className="meta-list-panel-actions">
-            {entry.listText ? (
+            {entry.listText && (
               <button type="button" className="app-btn-muted px-3 py-1.5 text-caption" onClick={() => void handleCopy()}>
                 {copied ? copy.tournamentLists.copied : copy.tournamentLists.copyList}
               </button>
-            ) : (
-              <p className="text-caption text-muted">{copy.tournamentLists.listPending}</p>
             )}
-            <a
-              href={listhammerListUrl(entry.listId)}
-              target="_blank"
-              rel="noreferrer"
-              className="app-btn-ghost px-3 py-1.5 text-caption"
-            >
-              {copy.tournamentLists.viewOnListhammer}
-            </a>
           </div>
           {entry.listText ? (
             <pre className="meta-list-text">{entry.listText}</pre>
           ) : (
-            <p className="text-body text-muted">{copy.tournamentLists.openExternal}</p>
+            <p className="text-body text-muted">{copy.tournamentLists.listUnavailable}</p>
           )}
         </div>
       )}
@@ -225,18 +214,6 @@ export function MetaListsPage() {
           </button>
         </div>
       )}
-
-      <p className="text-center text-caption text-muted">
-        {copy.tournamentLists.attribution}{' '}
-        <a
-          href="https://listhammer.info/"
-          target="_blank"
-          rel="noreferrer"
-          className="text-accent underline-offset-2 hover:underline"
-        >
-          Listhammer
-        </a>
-      </p>
     </div>
   )
 }

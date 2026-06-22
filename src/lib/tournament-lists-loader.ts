@@ -3,10 +3,6 @@ import type { TournamentMetaSnapshot } from '../types/tournament-list'
 
 let cache: TournamentMetaSnapshot | null = null
 
-export function listhammerListUrl(listId: string): string {
-  return `https://listhammer.info/list/${listId}`
-}
-
 export async function loadTournamentMetaLists(): Promise<TournamentMetaSnapshot> {
   if (cache) return cache
   const res = await fetch(publicUrl('/data/tournament-meta/recent-lists.json'))
