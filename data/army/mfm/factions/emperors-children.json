@@ -1,0 +1,807 @@
+{
+  "slug": "emperors-children",
+  "name": "Emperor’s Children",
+  "version": "1.0",
+  "firstSeen": "2026-06-17",
+  "detachments": [
+    {
+      "name": "Carnival Of Excess",
+      "dp": 2,
+      "objective": "PRIORITY ASSETS",
+      "enhancements": [
+        {
+          "name": "Dark Blessings",
+          "points": 10,
+          "detachment": "Carnival Of Excess"
+        },
+        {
+          "name": "Empyric Suffusion",
+          "points": 15,
+          "detachment": "Carnival Of Excess"
+        },
+        {
+          "name": "Possessed Blade",
+          "points": 25,
+          "detachment": "Carnival Of Excess"
+        },
+        {
+          "name": "Warp Walker",
+          "points": 30,
+          "detachment": "Carnival Of Excess"
+        }
+      ]
+    },
+    {
+      "name": "Coterie Of The Conceited",
+      "dp": 3,
+      "objective": "PURGE THE FOE",
+      "enhancements": [
+        {
+          "name": "Pledge of Dark Glory",
+          "points": 25,
+          "detachment": "Coterie Of The Conceited"
+        },
+        {
+          "name": "Pledge of Eternal Servitude",
+          "points": 25,
+          "detachment": "Coterie Of The Conceited"
+        },
+        {
+          "name": "Pledge of Mortal Pain",
+          "points": 15,
+          "detachment": "Coterie Of The Conceited"
+        },
+        {
+          "name": "Pledge of Unholy Fortune",
+          "points": 30,
+          "detachment": "Coterie Of The Conceited"
+        }
+      ]
+    },
+    {
+      "name": "Court Of The Phoenician",
+      "dp": 2,
+      "objective": "PURGE THE FOE",
+      "enhancements": [
+        {
+          "name": "Exalted Patron",
+          "points": 15,
+          "detachment": "Court Of The Phoenician"
+        },
+        {
+          "name": "Soulstain Made Manifest",
+          "points": 15,
+          "detachment": "Court Of The Phoenician"
+        },
+        {
+          "name": "Spiritsliver",
+          "points": 20,
+          "detachment": "Court Of The Phoenician"
+        },
+        {
+          "name": "Tears of the Phoenix",
+          "points": 25,
+          "detachment": "Court Of The Phoenician"
+        }
+      ]
+    },
+    {
+      "name": "Elegant Brutes",
+      "dp": 1,
+      "objective": "TAKE AND HOLD",
+      "enhancements": [
+        {
+          "name": "Cacophonic Accompaniment",
+          "points": 20,
+          "detachment": "Elegant Brutes"
+        },
+        {
+          "name": "Frenzied Ferocity (Upgrade)",
+          "points": 15,
+          "detachment": "Elegant Brutes"
+        }
+      ]
+    },
+    {
+      "name": "Frenzied Host",
+      "dp": 1,
+      "objective": "DISRUPTION",
+      "enhancements": [
+        {
+          "name": "Euphoric Crown",
+          "points": 20,
+          "detachment": "Frenzied Host"
+        },
+        {
+          "name": "Howling Plate",
+          "points": 20,
+          "detachment": "Frenzied Host"
+        }
+      ]
+    },
+    {
+      "name": "Mercurial Host",
+      "dp": 2,
+      "objective": "RECONNAISSANCE",
+      "enhancements": [
+        {
+          "name": "Intoxicating Musk",
+          "points": 20,
+          "detachment": "Mercurial Host"
+        },
+        {
+          "name": "Loathsome Dexterity",
+          "points": 10,
+          "detachment": "Mercurial Host"
+        },
+        {
+          "name": "Steeped in Suffering",
+          "points": 20,
+          "detachment": "Mercurial Host"
+        },
+        {
+          "name": "Tactical Perfection",
+          "points": 15,
+          "detachment": "Mercurial Host"
+        }
+      ]
+    },
+    {
+      "name": "Peerless Bladesmen",
+      "dp": 2,
+      "objective": "PRIORITY ASSETS",
+      "enhancements": [
+        {
+          "name": "Blinding Speed",
+          "points": 25,
+          "detachment": "Peerless Bladesmen"
+        },
+        {
+          "name": "Distortion",
+          "points": 25,
+          "detachment": "Peerless Bladesmen"
+        },
+        {
+          "name": "Faultless Opportunist",
+          "points": 15,
+          "detachment": "Peerless Bladesmen"
+        },
+        {
+          "name": "Rise to the Challenge",
+          "points": 30,
+          "detachment": "Peerless Bladesmen"
+        }
+      ]
+    },
+    {
+      "name": "Rapid Evisceration",
+      "dp": 2,
+      "objective": "DISRUPTION",
+      "enhancements": [
+        {
+          "name": "Accomplished Tactician",
+          "points": 35,
+          "detachment": "Rapid Evisceration"
+        },
+        {
+          "name": "Heretek Adept",
+          "points": 35,
+          "detachment": "Rapid Evisceration"
+        },
+        {
+          "name": "Spearhead Striker",
+          "points": 20,
+          "detachment": "Rapid Evisceration"
+        },
+        {
+          "name": "Sublime Prescience",
+          "points": 25,
+          "detachment": "Rapid Evisceration"
+        }
+      ]
+    },
+    {
+      "name": "Slaanesh’S Chosen",
+      "dp": 2,
+      "objective": "PURGE THE FOE",
+      "enhancements": [
+        {
+          "name": "Eager to Prove",
+          "points": 15,
+          "detachment": "Slaanesh’S Chosen"
+        },
+        {
+          "name": "Proud and Vainglorious",
+          "points": 20,
+          "detachment": "Slaanesh’S Chosen"
+        },
+        {
+          "name": "Repulsed by Weakness",
+          "points": 25,
+          "detachment": "Slaanesh’S Chosen"
+        },
+        {
+          "name": "Slayer of Champions",
+          "points": 15,
+          "detachment": "Slaanesh’S Chosen"
+        }
+      ]
+    },
+    {
+      "name": "Spectacle Of Slaughter",
+      "dp": 1,
+      "objective": "PURGE THE FOE",
+      "enhancements": [
+        {
+          "name": "Beguiling Grotesquerie (Upgrade)",
+          "points": 15,
+          "detachment": "Spectacle Of Slaughter"
+        },
+        {
+          "name": "Eager Patrons (Upgrade)",
+          "points": 20,
+          "detachment": "Spectacle Of Slaughter"
+        }
+      ]
+    }
+  ],
+  "units": [
+    {
+      "name": "Chaos Land Raider",
+      "normalizedName": "chaos land raider",
+      "pricing": [
+        {
+          "range": "[1,2]",
+          "label": "Your 1st To 2nd Units Cost",
+          "costs": [
+            {
+              "models": 1,
+              "points": 220
+            }
+          ]
+        },
+        {
+          "range": "[3,)",
+          "label": "Your 3rd + Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 240
+            }
+          ]
+        }
+      ],
+      "points": 220,
+      "pointsLabel": "220",
+      "legends": false
+    },
+    {
+      "name": "Chaos Rhino",
+      "normalizedName": "chaos rhino",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 80
+            }
+          ]
+        }
+      ],
+      "points": 80,
+      "pointsLabel": "80",
+      "legends": false
+    },
+    {
+      "name": "Chaos Spawn",
+      "normalizedName": "chaos spawn",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 2,
+              "points": 70
+            }
+          ]
+        }
+      ],
+      "points": 70,
+      "pointsLabel": "70",
+      "legends": false
+    },
+    {
+      "name": "Chaos Terminators",
+      "normalizedName": "chaos terminators",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 5,
+              "points": 145
+            }
+          ]
+        }
+      ],
+      "points": 145,
+      "pointsLabel": "145",
+      "legends": false
+    },
+    {
+      "name": "Daemon Prince Of Slaanesh",
+      "normalizedName": "daemon prince of slaanesh",
+      "pricing": [
+        {
+          "range": "[1,1]",
+          "label": "Your 1st Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 170
+            }
+          ]
+        },
+        {
+          "range": "[2,)",
+          "label": "Your 2nd + Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 185
+            }
+          ]
+        }
+      ],
+      "points": 170,
+      "pointsLabel": "170",
+      "legends": false
+    },
+    {
+      "name": "Daemon Prince Of Slaanesh With Wings",
+      "normalizedName": "daemon prince of slaanesh with wings",
+      "pricing": [
+        {
+          "range": "[1,1]",
+          "label": "Your 1st Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 205
+            }
+          ]
+        },
+        {
+          "range": "[2,)",
+          "label": "Your 2nd + Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 235
+            }
+          ]
+        }
+      ],
+      "points": 205,
+      "pointsLabel": "205",
+      "legends": false
+    },
+    {
+      "name": "Daemonettes",
+      "normalizedName": "daemonettes",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 10,
+              "points": 90
+            }
+          ]
+        }
+      ],
+      "points": 90,
+      "pointsLabel": "90",
+      "legends": false
+    },
+    {
+      "name": "Defiler",
+      "normalizedName": "defiler",
+      "pricing": [
+        {
+          "range": "[1,1]",
+          "label": "Your 1st Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 290
+            }
+          ]
+        },
+        {
+          "range": "[2,)",
+          "label": "Your 2nd + Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 320
+            }
+          ]
+        }
+      ],
+      "points": 290,
+      "pointsLabel": "290",
+      "legends": false
+    },
+    {
+      "name": "Fiends",
+      "normalizedName": "fiends",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 3,
+              "points": 90
+            },
+            {
+              "models": 6,
+              "points": 180
+            }
+          ]
+        }
+      ],
+      "points": 90,
+      "pointsLabel": "90/180",
+      "legends": false
+    },
+    {
+      "name": "Flawless Blades",
+      "normalizedName": "flawless blades",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 3,
+              "points": 95
+            },
+            {
+              "models": 6,
+              "points": 190
+            }
+          ]
+        }
+      ],
+      "points": 95,
+      "pointsLabel": "95/190",
+      "legends": false
+    },
+    {
+      "name": "Fulgrim",
+      "normalizedName": "fulgrim",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 350
+            }
+          ]
+        }
+      ],
+      "points": 350,
+      "pointsLabel": "350",
+      "legends": false
+    },
+    {
+      "name": "Heldrake",
+      "normalizedName": "heldrake",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 175
+            }
+          ]
+        }
+      ],
+      "points": 175,
+      "pointsLabel": "175",
+      "legends": false
+    },
+    {
+      "name": "Infractors",
+      "normalizedName": "infractors",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 5,
+              "points": 85
+            },
+            {
+              "models": 10,
+              "points": 160
+            }
+          ]
+        }
+      ],
+      "points": 85,
+      "pointsLabel": "85/160",
+      "legends": false
+    },
+    {
+      "name": "Keeper Of Secrets",
+      "normalizedName": "keeper of secrets",
+      "pricing": [
+        {
+          "range": "[1,2]",
+          "label": "Your 1st To 2nd Units Cost",
+          "costs": [
+            {
+              "models": 1,
+              "points": 255
+            }
+          ]
+        },
+        {
+          "range": "[3,)",
+          "label": "Your 3rd + Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 270
+            }
+          ]
+        }
+      ],
+      "points": 255,
+      "pointsLabel": "255",
+      "legends": false
+    },
+    {
+      "name": "Lord Exultant",
+      "normalizedName": "lord exultant",
+      "pricing": [
+        {
+          "range": "[1,2]",
+          "label": "Your 1st To 2nd Units Cost",
+          "costs": [
+            {
+              "models": 1,
+              "points": 80
+            }
+          ]
+        },
+        {
+          "range": "[3,)",
+          "label": "Your 3rd + Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 90
+            }
+          ]
+        }
+      ],
+      "points": 80,
+      "pointsLabel": "80",
+      "legends": false,
+      "role": "leader",
+      "attachTo": [
+        "Infractors",
+        "Tormentors"
+      ]
+    },
+    {
+      "name": "Lord Kakophonist",
+      "normalizedName": "lord kakophonist",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 70
+            }
+          ]
+        }
+      ],
+      "points": 70,
+      "pointsLabel": "70",
+      "legends": false,
+      "role": "leader",
+      "attachTo": [
+        "Chaos Terminators",
+        "Noise Marines"
+      ]
+    },
+    {
+      "name": "Lucius The Eternal",
+      "normalizedName": "lucius the eternal",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 130
+            }
+          ]
+        }
+      ],
+      "points": 130,
+      "pointsLabel": "130",
+      "legends": false,
+      "role": "leader",
+      "attachTo": [
+        "Flawless Blades"
+      ]
+    },
+    {
+      "name": "Maulerfiend",
+      "normalizedName": "maulerfiend",
+      "pricing": [
+        {
+          "range": "[1,2]",
+          "label": "Your 1st To 2nd Units Cost",
+          "costs": [
+            {
+              "models": 1,
+              "points": 130
+            }
+          ]
+        },
+        {
+          "range": "[3,)",
+          "label": "Your 3rd + Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 140
+            }
+          ]
+        }
+      ],
+      "points": 130,
+      "pointsLabel": "130",
+      "legends": false
+    },
+    {
+      "name": "Noise Marines",
+      "normalizedName": "noise marines",
+      "pricing": [
+        {
+          "range": "[1,2]",
+          "label": "Your 1st To 2nd Units Cost",
+          "costs": [
+            {
+              "models": 6,
+              "points": 145
+            }
+          ]
+        },
+        {
+          "range": "[3,)",
+          "label": "Your 3rd + Unit Costs",
+          "costs": [
+            {
+              "models": 6,
+              "points": 160
+            }
+          ]
+        }
+      ],
+      "points": 145,
+      "pointsLabel": "145",
+      "legends": false
+    },
+    {
+      "name": "Seekers",
+      "normalizedName": "seekers",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 5,
+              "points": 80
+            },
+            {
+              "models": 10,
+              "points": 155
+            }
+          ]
+        }
+      ],
+      "points": 80,
+      "pointsLabel": "80/155",
+      "legends": false
+    },
+    {
+      "name": "Shalaxi Helbane",
+      "normalizedName": "shalaxi helbane",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 340
+            }
+          ]
+        }
+      ],
+      "points": 340,
+      "pointsLabel": "340",
+      "legends": false
+    },
+    {
+      "name": "Sorcerer",
+      "normalizedName": "sorcerer",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 60
+            }
+          ]
+        }
+      ],
+      "points": 60,
+      "pointsLabel": "60",
+      "legends": false,
+      "role": "leader",
+      "attachTo": [
+        "Infractors",
+        "Noise Marines",
+        "Tormentors"
+      ]
+    },
+    {
+      "name": "Tormentors",
+      "normalizedName": "tormentors",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 5,
+              "points": 80
+            },
+            {
+              "models": 10,
+              "points": 160
+            }
+          ]
+        }
+      ],
+      "points": 80,
+      "pointsLabel": "80/160",
+      "legends": false
+    }
+  ]
+}

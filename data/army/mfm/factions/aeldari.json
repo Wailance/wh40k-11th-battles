@@ -1,0 +1,2566 @@
+{
+  "slug": "aeldari",
+  "name": "Aeldari",
+  "version": "1.0",
+  "firstSeen": "2026-06-17",
+  "detachments": [
+    {
+      "name": "Armoured Warhost",
+      "dp": 1,
+      "objective": "RECONNAISSANCE",
+      "enhancements": [
+        {
+          "name": "Guiding Presence",
+          "points": 25,
+          "detachment": "Armoured Warhost"
+        },
+        {
+          "name": "Spirit Stone of Raelyth",
+          "points": 20,
+          "detachment": "Armoured Warhost"
+        }
+      ]
+    },
+    {
+      "name": "Aspect Host",
+      "dp": 3,
+      "objective": "DISRUPTION",
+      "enhancements": [
+        {
+          "name": "Aspect of Murder",
+          "points": 15,
+          "detachment": "Aspect Host"
+        },
+        {
+          "name": "Mantle of Wisdom",
+          "points": 20,
+          "detachment": "Aspect Host"
+        },
+        {
+          "name": "Shimmerstone",
+          "points": 10,
+          "detachment": "Aspect Host"
+        },
+        {
+          "name": "Strategic Savant",
+          "points": 10,
+          "detachment": "Aspect Host"
+        }
+      ]
+    },
+    {
+      "name": "Corsair Coterie",
+      "dp": 2,
+      "objective": "PRIORITY ASSETS",
+      "enhancements": [
+        {
+          "name": "Archraider",
+          "points": 35,
+          "detachment": "Corsair Coterie"
+        },
+        {
+          "name": "Infamy",
+          "points": 25,
+          "detachment": "Corsair Coterie"
+        },
+        {
+          "name": "Voidstone",
+          "points": 15,
+          "detachment": "Corsair Coterie"
+        },
+        {
+          "name": "Webway Pathstone",
+          "points": 25,
+          "detachment": "Corsair Coterie"
+        }
+      ]
+    },
+    {
+      "name": "Devoted Of Ynnead",
+      "dp": 2,
+      "objective": "PRIORITY ASSETS",
+      "enhancements": [
+        {
+          "name": "Borrowed Vigour",
+          "points": 10,
+          "detachment": "Devoted Of Ynnead"
+        },
+        {
+          "name": "Gaze of Ynnead",
+          "points": 15,
+          "detachment": "Devoted Of Ynnead"
+        },
+        {
+          "name": "Morbid Might",
+          "points": 15,
+          "detachment": "Devoted Of Ynnead"
+        },
+        {
+          "name": "Storm of Whispers",
+          "points": 10,
+          "detachment": "Devoted Of Ynnead"
+        }
+      ]
+    },
+    {
+      "name": "Eldritch Raiders",
+      "dp": 2,
+      "objective": "DISRUPTION",
+      "enhancements": [
+        {
+          "name": "Adrenal Infusions",
+          "points": 20,
+          "detachment": "Eldritch Raiders"
+        },
+        {
+          "name": "Alacritous Assault",
+          "points": 20,
+          "detachment": "Eldritch Raiders"
+        },
+        {
+          "name": "Exotic Munitions",
+          "points": 15,
+          "detachment": "Eldritch Raiders"
+        },
+        {
+          "name": "Pirate Prince",
+          "points": 15,
+          "detachment": "Eldritch Raiders"
+        }
+      ]
+    },
+    {
+      "name": "Fateful Performance",
+      "dp": 1,
+      "objective": "DISRUPTION",
+      "enhancements": [
+        {
+          "name": "A Foot in the Future",
+          "points": 15,
+          "detachment": "Fateful Performance"
+        },
+        {
+          "name": "Mistweave",
+          "points": 20,
+          "detachment": "Fateful Performance"
+        }
+      ]
+    },
+    {
+      "name": "Ghosts Of The Webway",
+      "dp": 2,
+      "objective": "DISRUPTION",
+      "enhancements": [
+        {
+          "name": "Cegorach’s Coil",
+          "points": 25,
+          "detachment": "Ghosts Of The Webway"
+        },
+        {
+          "name": "Mask of Secrets",
+          "points": 15,
+          "detachment": "Ghosts Of The Webway"
+        },
+        {
+          "name": "Mistweave",
+          "points": 15,
+          "detachment": "Ghosts Of The Webway"
+        },
+        {
+          "name": "Murder’s Jest",
+          "points": 20,
+          "detachment": "Ghosts Of The Webway"
+        }
+      ]
+    },
+    {
+      "name": "Guardian Battlehost",
+      "dp": 2,
+      "objective": "TAKE AND HOLD",
+      "enhancements": [
+        {
+          "name": "Breath of Vaul",
+          "points": 10,
+          "detachment": "Guardian Battlehost"
+        },
+        {
+          "name": "Craftworld’s Champion",
+          "points": 25,
+          "detachment": "Guardian Battlehost"
+        },
+        {
+          "name": "Ethereal Pathway",
+          "points": 30,
+          "detachment": "Guardian Battlehost"
+        },
+        {
+          "name": "Protector of the Paths",
+          "points": 20,
+          "detachment": "Guardian Battlehost"
+        }
+      ]
+    },
+    {
+      "name": "Path Of The Outcast",
+      "dp": 1,
+      "objective": "RECONNAISSANCE",
+      "enhancements": [
+        {
+          "name": "Assassins' Eye (Upgrade)",
+          "points": 15,
+          "detachment": "Path Of The Outcast"
+        },
+        {
+          "name": "Camouflaged Snipers (Upgrade)",
+          "points": 10,
+          "detachment": "Path Of The Outcast"
+        }
+      ]
+    },
+    {
+      "name": "Seer Council",
+      "dp": 2,
+      "objective": "PRIORITY ASSETS",
+      "enhancements": [
+        {
+          "name": "Lucid Eye",
+          "points": 30,
+          "detachment": "Seer Council"
+        },
+        {
+          "name": "Runes of Warding",
+          "points": 25,
+          "detachment": "Seer Council"
+        },
+        {
+          "name": "Stone of Eldritch Fury",
+          "points": 15,
+          "detachment": "Seer Council"
+        },
+        {
+          "name": "Torc of Morai-Heg",
+          "points": 20,
+          "detachment": "Seer Council"
+        }
+      ]
+    },
+    {
+      "name": "Serpent’S Brood",
+      "dp": 2,
+      "objective": "PURGE THE FOE",
+      "enhancements": [
+        {
+          "name": "Fanged Leer",
+          "points": 10,
+          "detachment": "Serpent’S Brood"
+        },
+        {
+          "name": "Key of Ghosts",
+          "points": 20,
+          "detachment": "Serpent’S Brood"
+        },
+        {
+          "name": "Shedskin Raiment",
+          "points": 25,
+          "detachment": "Serpent’S Brood"
+        },
+        {
+          "name": "Weavers' Wail",
+          "points": 20,
+          "detachment": "Serpent’S Brood"
+        }
+      ]
+    },
+    {
+      "name": "Spirit Conclave",
+      "dp": 2,
+      "objective": "TAKE AND HOLD",
+      "enhancements": [
+        {
+          "name": "Higher Duty",
+          "points": 25,
+          "detachment": "Spirit Conclave"
+        },
+        {
+          "name": "Light of Clarity",
+          "points": 30,
+          "detachment": "Spirit Conclave"
+        },
+        {
+          "name": "Rune of Mists",
+          "points": 10,
+          "detachment": "Spirit Conclave"
+        },
+        {
+          "name": "Stave of Kurnous",
+          "points": 15,
+          "detachment": "Spirit Conclave"
+        }
+      ]
+    },
+    {
+      "name": "Twilight Flickers",
+      "dp": 1,
+      "objective": "TAKE AND HOLD",
+      "enhancements": [
+        {
+          "name": "Prelude Performer",
+          "points": 20,
+          "detachment": "Twilight Flickers"
+        },
+        {
+          "name": "Shadowfall Masks (Upgrade)",
+          "points": 15,
+          "detachment": "Twilight Flickers"
+        }
+      ]
+    },
+    {
+      "name": "Warhost",
+      "dp": 3,
+      "objective": "PURGE THE FOE",
+      "enhancements": [
+        {
+          "name": "Gift of Foresight",
+          "points": 15,
+          "detachment": "Warhost"
+        },
+        {
+          "name": "Phoenix Gem",
+          "points": 35,
+          "detachment": "Warhost"
+        },
+        {
+          "name": "Psychic Destroyer",
+          "points": 30,
+          "detachment": "Warhost"
+        },
+        {
+          "name": "Timeless Strategist",
+          "points": 15,
+          "detachment": "Warhost"
+        }
+      ]
+    },
+    {
+      "name": "Windrider Host",
+      "dp": 2,
+      "objective": "DISRUPTION",
+      "enhancements": [
+        {
+          "name": "Echoes of Ulthanesh",
+          "points": 20,
+          "detachment": "Windrider Host"
+        },
+        {
+          "name": "Firstdrawn Blade",
+          "points": 10,
+          "detachment": "Windrider Host"
+        },
+        {
+          "name": "Mirage Field",
+          "points": 25,
+          "detachment": "Windrider Host"
+        },
+        {
+          "name": "Seersight Strike",
+          "points": 15,
+          "detachment": "Windrider Host"
+        }
+      ]
+    }
+  ],
+  "units": [
+    {
+      "name": "Amallyn Shadowguide",
+      "normalizedName": "amallyn shadowguide",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 75
+            }
+          ]
+        }
+      ],
+      "points": 75,
+      "pointsLabel": "75",
+      "legends": true
+    },
+    {
+      "name": "Asurmen",
+      "normalizedName": "asurmen",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 135
+            }
+          ]
+        }
+      ],
+      "points": 135,
+      "pointsLabel": "135",
+      "legends": false,
+      "role": "leader",
+      "attachTo": [
+        "Dire Avengers"
+      ]
+    },
+    {
+      "name": "Autarch",
+      "normalizedName": "autarch",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 85
+            }
+          ]
+        }
+      ],
+      "points": 85,
+      "pointsLabel": "85",
+      "legends": false,
+      "role": "leader",
+      "attachTo": [
+        "Dark Reapers",
+        "Dire Avengers",
+        "Fire Dragons",
+        "Guardian Defenders",
+        "Howling Banshees",
+        "Storm Guardians",
+        "Striking Scorpions"
+      ]
+    },
+    {
+      "name": "Autarch Skyrunner",
+      "normalizedName": "autarch skyrunner",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 90
+            }
+          ]
+        }
+      ],
+      "points": 90,
+      "pointsLabel": "90",
+      "legends": true,
+      "role": "leader",
+      "attachTo": [
+        "Corsair Cloud Dancer Band",
+        "Windriders"
+      ]
+    },
+    {
+      "name": "Autarch Wayleaper",
+      "normalizedName": "autarch wayleaper",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 80
+            }
+          ]
+        }
+      ],
+      "points": 80,
+      "pointsLabel": "80",
+      "legends": false,
+      "role": "leader",
+      "attachTo": [
+        "Swooping Hawks",
+        "Warp Spiders"
+      ]
+    },
+    {
+      "name": "Avatar Of Khaine",
+      "normalizedName": "avatar of khaine",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 265
+            }
+          ]
+        }
+      ],
+      "points": 265,
+      "pointsLabel": "265",
+      "legends": false
+    },
+    {
+      "name": "Baharroth",
+      "normalizedName": "baharroth",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 125
+            }
+          ]
+        }
+      ],
+      "points": 125,
+      "pointsLabel": "125",
+      "legends": false,
+      "role": "leader",
+      "attachTo": [
+        "Swooping Hawks"
+      ]
+    },
+    {
+      "name": "Bonesinger",
+      "normalizedName": "bonesinger",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 45
+            }
+          ]
+        }
+      ],
+      "points": 45,
+      "pointsLabel": "45",
+      "legends": true,
+      "role": "leader",
+      "attachTo": [
+        "Wraithblades",
+        "Wraithguard",
+        "Wraithlord"
+      ]
+    },
+    {
+      "name": "Cobra",
+      "normalizedName": "cobra",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 415
+            }
+          ]
+        }
+      ],
+      "points": 415,
+      "pointsLabel": "415",
+      "legends": true
+    },
+    {
+      "name": "Corsair Cloud Dancer Band",
+      "normalizedName": "corsair cloud dancer band",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 3,
+              "points": 125
+            },
+            {
+              "models": 4,
+              "points": 150
+            },
+            {
+              "models": 6,
+              "points": 210
+            },
+            {
+              "models": 7,
+              "points": 245
+            }
+          ]
+        }
+      ],
+      "points": 125,
+      "pointsLabel": "125/150/210/245",
+      "legends": true
+    },
+    {
+      "name": "Corsair Reaver Band",
+      "normalizedName": "corsair reaver band",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 5,
+              "points": 125
+            },
+            {
+              "models": 6,
+              "points": 150
+            },
+            {
+              "models": 10,
+              "points": 250
+            },
+            {
+              "models": 11,
+              "points": 275
+            }
+          ]
+        }
+      ],
+      "points": 125,
+      "pointsLabel": "125/150/250/275",
+      "legends": true
+    },
+    {
+      "name": "Corsair Skyreavers",
+      "normalizedName": "corsair skyreavers",
+      "pricing": [
+        {
+          "range": "[1,2]",
+          "label": "Your 1st To 2nd Units Cost",
+          "costs": [
+            {
+              "models": 5,
+              "points": 80
+            },
+            {
+              "models": 10,
+              "points": 150
+            }
+          ]
+        },
+        {
+          "range": "[3,)",
+          "label": "Your 3rd + Unit Costs",
+          "costs": [
+            {
+              "models": 5,
+              "points": 90
+            },
+            {
+              "models": 10,
+              "points": 160
+            }
+          ]
+        }
+      ],
+      "points": 80,
+      "pointsLabel": "80/150",
+      "legends": false
+    },
+    {
+      "name": "Corsair Voidreavers",
+      "normalizedName": "corsair voidreavers",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 5,
+              "points": 65
+            },
+            {
+              "models": 10,
+              "points": 110
+            }
+          ]
+        }
+      ],
+      "points": 65,
+      "pointsLabel": "65/110",
+      "legends": false
+    },
+    {
+      "name": "Corsair Voidscarred",
+      "normalizedName": "corsair voidscarred",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 5,
+              "points": 80
+            },
+            {
+              "models": 10,
+              "points": 160
+            }
+          ]
+        }
+      ],
+      "points": 80,
+      "pointsLabel": "80/160",
+      "legends": false
+    },
+    {
+      "name": "Crimson Hunter",
+      "normalizedName": "crimson hunter",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 160
+            }
+          ]
+        }
+      ],
+      "points": 160,
+      "pointsLabel": "160",
+      "legends": false
+    },
+    {
+      "name": "D-Cannon Platform",
+      "normalizedName": "d cannon platform",
+      "pricing": [
+        {
+          "range": "[1,1]",
+          "label": "Your 1st Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 110
+            }
+          ]
+        },
+        {
+          "range": "[2,)",
+          "label": "Your 2nd + Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 125
+            }
+          ]
+        }
+      ],
+      "points": 110,
+      "pointsLabel": "110",
+      "legends": false
+    },
+    {
+      "name": "Dark Reapers",
+      "normalizedName": "dark reapers",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 5,
+              "points": 100
+            },
+            {
+              "models": 10,
+              "points": 210
+            }
+          ]
+        }
+      ],
+      "points": 100,
+      "pointsLabel": "100/210",
+      "legends": false
+    },
+    {
+      "name": "Death Jester",
+      "normalizedName": "death jester",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 80
+            }
+          ]
+        }
+      ],
+      "points": 80,
+      "pointsLabel": "80",
+      "legends": false
+    },
+    {
+      "name": "Dire Avengers",
+      "normalizedName": "dire avengers",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 5,
+              "points": 75
+            },
+            {
+              "models": 10,
+              "points": 150
+            }
+          ]
+        }
+      ],
+      "points": 75,
+      "pointsLabel": "75/150",
+      "legends": false
+    },
+    {
+      "name": "Eldrad Ulthran",
+      "normalizedName": "eldrad ulthran",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 130
+            }
+          ]
+        }
+      ],
+      "points": 130,
+      "pointsLabel": "130",
+      "legends": false,
+      "role": "leader",
+      "attachTo": [
+        "Guardian Defenders",
+        "Storm Guardians",
+        "Warlock Conclave"
+      ]
+    },
+    {
+      "name": "Falcon",
+      "normalizedName": "falcon",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 130
+            }
+          ]
+        }
+      ],
+      "points": 130,
+      "pointsLabel": "130",
+      "legends": false
+    },
+    {
+      "name": "Farseer",
+      "normalizedName": "farseer",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 70
+            }
+          ]
+        }
+      ],
+      "points": 70,
+      "pointsLabel": "70",
+      "legends": false,
+      "role": "leader",
+      "attachTo": [
+        "Guardian Defenders",
+        "Storm Guardians",
+        "Warlock Conclave"
+      ]
+    },
+    {
+      "name": "Farseer Skyrunner",
+      "normalizedName": "farseer skyrunner",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 70
+            }
+          ]
+        }
+      ],
+      "points": 70,
+      "pointsLabel": "70",
+      "legends": false,
+      "role": "leader",
+      "attachTo": [
+        "Warlock Skyrunners",
+        "Windriders"
+      ]
+    },
+    {
+      "name": "Fire Dragons",
+      "normalizedName": "fire dragons",
+      "pricing": [
+        {
+          "range": "[1,2]",
+          "label": "Your 1st To 2nd Units Cost",
+          "costs": [
+            {
+              "models": 5,
+              "points": 120
+            },
+            {
+              "models": 10,
+              "points": 240
+            }
+          ]
+        },
+        {
+          "range": "[3,)",
+          "label": "Your 3rd + Unit Costs",
+          "costs": [
+            {
+              "models": 5,
+              "points": 130
+            },
+            {
+              "models": 10,
+              "points": 250
+            }
+          ]
+        }
+      ],
+      "points": 120,
+      "pointsLabel": "120/240",
+      "legends": false
+    },
+    {
+      "name": "Fire Prism",
+      "normalizedName": "fire prism",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 150
+            }
+          ]
+        }
+      ],
+      "points": 150,
+      "pointsLabel": "150",
+      "legends": false
+    },
+    {
+      "name": "Firestorm",
+      "normalizedName": "firestorm",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 115
+            }
+          ]
+        }
+      ],
+      "points": 115,
+      "pointsLabel": "115",
+      "legends": true
+    },
+    {
+      "name": "Fuegan",
+      "normalizedName": "fuegan",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 130
+            }
+          ]
+        }
+      ],
+      "points": 130,
+      "pointsLabel": "130",
+      "legends": false,
+      "role": "leader",
+      "attachTo": [
+        "Fire Dragons"
+      ]
+    },
+    {
+      "name": "Guardian Defenders",
+      "normalizedName": "guardian defenders",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 11,
+              "points": 90
+            }
+          ]
+        }
+      ],
+      "points": 90,
+      "pointsLabel": "90",
+      "legends": false
+    },
+    {
+      "name": "Hemlock Wraithfighter",
+      "normalizedName": "hemlock wraithfighter",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 155
+            }
+          ]
+        }
+      ],
+      "points": 155,
+      "pointsLabel": "155",
+      "legends": false
+    },
+    {
+      "name": "Hornet",
+      "normalizedName": "hornet",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 100
+            }
+          ]
+        }
+      ],
+      "points": 100,
+      "pointsLabel": "100",
+      "legends": true
+    },
+    {
+      "name": "Howling Banshees",
+      "normalizedName": "howling banshees",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 5,
+              "points": 85
+            },
+            {
+              "models": 10,
+              "points": 165
+            }
+          ]
+        }
+      ],
+      "points": 85,
+      "pointsLabel": "85/165",
+      "legends": false
+    },
+    {
+      "name": "Illic Nightspear",
+      "normalizedName": "illic nightspear",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 70
+            }
+          ]
+        }
+      ],
+      "points": 70,
+      "pointsLabel": "70",
+      "legends": true,
+      "role": "leader",
+      "attachTo": [
+        "Rangers"
+      ]
+    },
+    {
+      "name": "Irillyth",
+      "normalizedName": "irillyth",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 105
+            }
+          ]
+        }
+      ],
+      "points": 105,
+      "pointsLabel": "105",
+      "legends": true,
+      "role": "leader",
+      "attachTo": [
+        "Shadow Spectres"
+      ]
+    },
+    {
+      "name": "Jain Zar",
+      "normalizedName": "jain zar",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 105
+            }
+          ]
+        }
+      ],
+      "points": 105,
+      "pointsLabel": "105",
+      "legends": false,
+      "role": "leader",
+      "attachTo": [
+        "Howling Banshees"
+      ]
+    },
+    {
+      "name": "Karandras",
+      "normalizedName": "karandras",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 90
+            }
+          ]
+        }
+      ],
+      "points": 90,
+      "pointsLabel": "90",
+      "legends": true,
+      "role": "leader",
+      "attachTo": [
+        "Striking Scorpions"
+      ]
+    },
+    {
+      "name": "Kharseth",
+      "normalizedName": "kharseth",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 85
+            }
+          ]
+        }
+      ],
+      "points": 85,
+      "pointsLabel": "85",
+      "legends": false,
+      "role": "leader",
+      "attachTo": [
+        "Corsair Reaver Band",
+        "Corsair Voidreavers",
+        "Corsair Voidscarred"
+      ]
+    },
+    {
+      "name": "Lhykhis",
+      "normalizedName": "lhykhis",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 135
+            }
+          ]
+        }
+      ],
+      "points": 135,
+      "pointsLabel": "135",
+      "legends": false,
+      "role": "leader",
+      "attachTo": [
+        "Warp Spiders"
+      ]
+    },
+    {
+      "name": "Lynx",
+      "normalizedName": "lynx",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 180
+            }
+          ]
+        }
+      ],
+      "points": 180,
+      "pointsLabel": "180",
+      "legends": true
+    },
+    {
+      "name": "Maugan Ra",
+      "normalizedName": "maugan ra",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 100
+            }
+          ]
+        }
+      ],
+      "points": 100,
+      "pointsLabel": "100",
+      "legends": false,
+      "role": "leader",
+      "attachTo": [
+        "Dark Reapers"
+      ]
+    },
+    {
+      "name": "Night Spinner",
+      "normalizedName": "night spinner",
+      "pricing": [
+        {
+          "range": "[1,1]",
+          "label": "Your 1st Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 170
+            }
+          ]
+        },
+        {
+          "range": "[2,)",
+          "label": "Your 2nd + Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 190
+            }
+          ]
+        }
+      ],
+      "points": 170,
+      "pointsLabel": "170",
+      "legends": false
+    },
+    {
+      "name": "Nightwing",
+      "normalizedName": "nightwing",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 150
+            }
+          ]
+        }
+      ],
+      "points": 150,
+      "pointsLabel": "150",
+      "legends": true
+    },
+    {
+      "name": "Phantom Titan",
+      "normalizedName": "phantom titan",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 2100
+            }
+          ]
+        }
+      ],
+      "points": 2100,
+      "pointsLabel": "2100",
+      "legends": false
+    },
+    {
+      "name": "Phoenix",
+      "normalizedName": "phoenix",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 175
+            }
+          ]
+        }
+      ],
+      "points": 175,
+      "pointsLabel": "175",
+      "legends": true
+    },
+    {
+      "name": "Prince Yriel",
+      "normalizedName": "prince yriel",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 95
+            }
+          ]
+        }
+      ],
+      "points": 95,
+      "pointsLabel": "95",
+      "legends": false,
+      "role": "leader",
+      "attachTo": [
+        "Corsair Reaver Band",
+        "Corsair Voidreavers",
+        "Corsair Voidscarred"
+      ]
+    },
+    {
+      "name": "Rangers",
+      "normalizedName": "rangers",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 5,
+              "points": 60
+            },
+            {
+              "models": 10,
+              "points": 110
+            }
+          ]
+        }
+      ],
+      "points": 60,
+      "pointsLabel": "60/110",
+      "legends": false
+    },
+    {
+      "name": "Revenant Titan",
+      "normalizedName": "revenant titan",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 1100
+            }
+          ]
+        }
+      ],
+      "points": 1100,
+      "pointsLabel": "1100",
+      "legends": false
+    },
+    {
+      "name": "Scorpion",
+      "normalizedName": "scorpion",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 410
+            }
+          ]
+        }
+      ],
+      "points": 410,
+      "pointsLabel": "410",
+      "legends": true
+    },
+    {
+      "name": "Shadow Spectres",
+      "normalizedName": "shadow spectres",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 30
+            },
+            {
+              "models": 5,
+              "points": 115
+            },
+            {
+              "models": 10,
+              "points": 230
+            }
+          ]
+        }
+      ],
+      "points": 30,
+      "pointsLabel": "30/115/230",
+      "legends": true
+    },
+    {
+      "name": "Shadow Weaver Platform",
+      "normalizedName": "shadow weaver platform",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 60
+            }
+          ]
+        }
+      ],
+      "points": 60,
+      "pointsLabel": "60",
+      "legends": false
+    },
+    {
+      "name": "Shadowseer",
+      "normalizedName": "shadowseer",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 60
+            }
+          ]
+        }
+      ],
+      "points": 60,
+      "pointsLabel": "60",
+      "legends": false,
+      "role": "leader",
+      "attachTo": [
+        "Troupe"
+      ]
+    },
+    {
+      "name": "Shining Spears",
+      "normalizedName": "shining spears",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 3,
+              "points": 105
+            },
+            {
+              "models": 6,
+              "points": 210
+            }
+          ]
+        }
+      ],
+      "points": 105,
+      "pointsLabel": "105/210",
+      "legends": false
+    },
+    {
+      "name": "Shroud Runners",
+      "normalizedName": "shroud runners",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 3,
+              "points": 95
+            },
+            {
+              "models": 6,
+              "points": 175
+            }
+          ]
+        }
+      ],
+      "points": 95,
+      "pointsLabel": "95/175",
+      "legends": false
+    },
+    {
+      "name": "Skathach Wraithknight",
+      "normalizedName": "skathach wraithknight",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 490
+            }
+          ]
+        }
+      ],
+      "points": 490,
+      "pointsLabel": "490",
+      "legends": true
+    },
+    {
+      "name": "Skyweavers",
+      "normalizedName": "skyweavers",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 2,
+              "points": 105
+            },
+            {
+              "models": 4,
+              "points": 210
+            }
+          ]
+        }
+      ],
+      "points": 105,
+      "pointsLabel": "105/210",
+      "legends": false
+    },
+    {
+      "name": "Solitaire",
+      "normalizedName": "solitaire",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 115
+            }
+          ]
+        }
+      ],
+      "points": 115,
+      "pointsLabel": "115",
+      "legends": false
+    },
+    {
+      "name": "Spiritseer",
+      "normalizedName": "spiritseer",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 55
+            }
+          ]
+        }
+      ],
+      "points": 55,
+      "pointsLabel": "55",
+      "legends": false
+    },
+    {
+      "name": "Starfangs",
+      "normalizedName": "starfangs",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 70
+            },
+            {
+              "models": 2,
+              "points": 140
+            }
+          ]
+        }
+      ],
+      "points": 70,
+      "pointsLabel": "70/140",
+      "legends": false
+    },
+    {
+      "name": "Starweaver",
+      "normalizedName": "starweaver",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 80
+            }
+          ]
+        }
+      ],
+      "points": 80,
+      "pointsLabel": "80",
+      "legends": false
+    },
+    {
+      "name": "Storm Guardians",
+      "normalizedName": "storm guardians",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 11,
+              "points": 110
+            }
+          ]
+        }
+      ],
+      "points": 110,
+      "pointsLabel": "110",
+      "legends": false
+    },
+    {
+      "name": "Striking Scorpions",
+      "normalizedName": "striking scorpions",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 5,
+              "points": 75
+            },
+            {
+              "models": 10,
+              "points": 145
+            }
+          ]
+        }
+      ],
+      "points": 75,
+      "pointsLabel": "75/145",
+      "legends": false
+    },
+    {
+      "name": "Swooping Hawks",
+      "normalizedName": "swooping hawks",
+      "pricing": [
+        {
+          "range": "[1,2]",
+          "label": "Your 1st To 2nd Units Cost",
+          "costs": [
+            {
+              "models": 5,
+              "points": 100
+            },
+            {
+              "models": 10,
+              "points": 190
+            }
+          ]
+        },
+        {
+          "range": "[3,)",
+          "label": "Your 3rd + Unit Costs",
+          "costs": [
+            {
+              "models": 5,
+              "points": 115
+            },
+            {
+              "models": 10,
+              "points": 205
+            }
+          ]
+        }
+      ],
+      "points": 100,
+      "pointsLabel": "100/190",
+      "legends": false
+    },
+    {
+      "name": "The Visarch",
+      "normalizedName": "the visarch",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 90
+            }
+          ]
+        }
+      ],
+      "points": 90,
+      "pointsLabel": "90",
+      "legends": false,
+      "role": "leader",
+      "attachTo": [
+        "Corsair Reaver Band",
+        "Corsair Voidreavers",
+        "Corsair Voidscarred",
+        "Guardian Defenders",
+        "Storm Guardians",
+        "Ynnari Incubi",
+        "Ynnari Kabalite Warriors",
+        "Ynnari Wyches"
+      ]
+    },
+    {
+      "name": "The Yncarne",
+      "normalizedName": "the yncarne",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 245
+            }
+          ]
+        }
+      ],
+      "points": 245,
+      "pointsLabel": "245",
+      "legends": false
+    },
+    {
+      "name": "Troupe",
+      "normalizedName": "troupe",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 5,
+              "points": 85
+            },
+            {
+              "models": 6,
+              "points": 100
+            },
+            {
+              "models": 11,
+              "points": 190
+            },
+            {
+              "models": 12,
+              "points": 205
+            }
+          ]
+        }
+      ],
+      "points": 85,
+      "pointsLabel": "85/100/190/205",
+      "legends": false
+    },
+    {
+      "name": "Troupe Master",
+      "normalizedName": "troupe master",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 75
+            }
+          ]
+        }
+      ],
+      "points": 75,
+      "pointsLabel": "75",
+      "legends": false,
+      "role": "leader",
+      "attachTo": [
+        "Troupe"
+      ]
+    },
+    {
+      "name": "Vampire Hunter",
+      "normalizedName": "vampire hunter",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 460
+            }
+          ]
+        }
+      ],
+      "points": 460,
+      "pointsLabel": "460",
+      "legends": true
+    },
+    {
+      "name": "Vampire Raider",
+      "normalizedName": "vampire raider",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 430
+            }
+          ]
+        }
+      ],
+      "points": 430,
+      "pointsLabel": "430",
+      "legends": true
+    },
+    {
+      "name": "Vibro Cannon Platform",
+      "normalizedName": "vibro cannon platform",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 60
+            }
+          ]
+        }
+      ],
+      "points": 60,
+      "pointsLabel": "60",
+      "legends": false
+    },
+    {
+      "name": "Voidweaver",
+      "normalizedName": "voidweaver",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 115
+            }
+          ]
+        }
+      ],
+      "points": 115,
+      "pointsLabel": "115",
+      "legends": false
+    },
+    {
+      "name": "Vyper",
+      "normalizedName": "vyper",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 75
+            },
+            {
+              "models": 2,
+              "points": 140
+            }
+          ]
+        }
+      ],
+      "points": 75,
+      "pointsLabel": "75/140",
+      "legends": false
+    },
+    {
+      "name": "War Walkers",
+      "normalizedName": "war walkers",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 85
+            },
+            {
+              "models": 2,
+              "points": 170
+            }
+          ]
+        }
+      ],
+      "points": 85,
+      "pointsLabel": "85/170",
+      "legends": false
+    },
+    {
+      "name": "Warlock",
+      "normalizedName": "warlock",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 45
+            }
+          ]
+        }
+      ],
+      "points": 45,
+      "pointsLabel": "45",
+      "legends": false,
+      "role": "support",
+      "attachTo": [
+        "Guardian Defenders",
+        "Storm Guardians"
+      ]
+    },
+    {
+      "name": "Warlock Conclave",
+      "normalizedName": "warlock conclave",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 2,
+              "points": 55
+            },
+            {
+              "models": 4,
+              "points": 120
+            }
+          ]
+        }
+      ],
+      "points": 55,
+      "pointsLabel": "55/120",
+      "legends": false,
+      "role": "leader",
+      "attachTo": [
+        "Guardian Defenders",
+        "Storm Guardians"
+      ]
+    },
+    {
+      "name": "Warlock Skyrunners",
+      "normalizedName": "warlock skyrunners",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 45
+            },
+            {
+              "models": 2,
+              "points": 90
+            }
+          ]
+        }
+      ],
+      "points": 45,
+      "pointsLabel": "45/90",
+      "legends": false,
+      "role": "leader",
+      "attachTo": [
+        "Windriders"
+      ]
+    },
+    {
+      "name": "Warp Hunter",
+      "normalizedName": "warp hunter",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 145
+            }
+          ]
+        }
+      ],
+      "points": 145,
+      "pointsLabel": "145",
+      "legends": true
+    },
+    {
+      "name": "Warp Spiders",
+      "normalizedName": "warp spiders",
+      "pricing": [
+        {
+          "range": "[1,2]",
+          "label": "Your 1st To 2nd Units Cost",
+          "costs": [
+            {
+              "models": 5,
+              "points": 115
+            },
+            {
+              "models": 10,
+              "points": 200
+            }
+          ]
+        },
+        {
+          "range": "[3,)",
+          "label": "Your 3rd + Unit Costs",
+          "costs": [
+            {
+              "models": 5,
+              "points": 130
+            },
+            {
+              "models": 10,
+              "points": 215
+            }
+          ]
+        }
+      ],
+      "points": 115,
+      "pointsLabel": "115/200",
+      "legends": false
+    },
+    {
+      "name": "Wasp Assault Walker",
+      "normalizedName": "wasp assault walker",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 95
+            }
+          ]
+        }
+      ],
+      "points": 95,
+      "pointsLabel": "95",
+      "legends": true
+    },
+    {
+      "name": "Wave Serpent",
+      "normalizedName": "wave serpent",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 125
+            }
+          ]
+        }
+      ],
+      "points": 125,
+      "pointsLabel": "125",
+      "legends": false
+    },
+    {
+      "name": "Webway Gate",
+      "normalizedName": "webway gate",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 2,
+              "points": 105
+            }
+          ]
+        }
+      ],
+      "points": 105,
+      "pointsLabel": "105",
+      "legends": true
+    },
+    {
+      "name": "Windriders",
+      "normalizedName": "windriders",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 3,
+              "points": 80
+            },
+            {
+              "models": 6,
+              "points": 160
+            }
+          ]
+        }
+      ],
+      "points": 80,
+      "pointsLabel": "80/160",
+      "legends": false
+    },
+    {
+      "name": "Wraithblades",
+      "normalizedName": "wraithblades",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 5,
+              "points": 140
+            }
+          ]
+        }
+      ],
+      "points": 140,
+      "pointsLabel": "140",
+      "legends": false
+    },
+    {
+      "name": "Wraithguard",
+      "normalizedName": "wraithguard",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 5,
+              "points": 145
+            }
+          ]
+        }
+      ],
+      "points": 145,
+      "pointsLabel": "145",
+      "legends": false
+    },
+    {
+      "name": "Wraithknight",
+      "normalizedName": "wraithknight",
+      "pricing": [
+        {
+          "range": "[1,1]",
+          "label": "Your 1st Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 415
+            }
+          ]
+        },
+        {
+          "range": "[2,)",
+          "label": "Your 2nd + Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 435
+            }
+          ]
+        }
+      ],
+      "points": 415,
+      "pointsLabel": "415",
+      "legends": false
+    },
+    {
+      "name": "Wraithknight With Ghostglaive",
+      "normalizedName": "wraithknight with ghostglaive",
+      "pricing": [
+        {
+          "range": "[1,1]",
+          "label": "Your 1st Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 405
+            }
+          ]
+        },
+        {
+          "range": "[2,)",
+          "label": "Your 2nd + Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 425
+            }
+          ]
+        }
+      ],
+      "points": 405,
+      "pointsLabel": "405",
+      "legends": false
+    },
+    {
+      "name": "Wraithlord",
+      "normalizedName": "wraithlord",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 125
+            }
+          ]
+        }
+      ],
+      "points": 125,
+      "pointsLabel": "125",
+      "legends": false
+    },
+    {
+      "name": "Wraithseer",
+      "normalizedName": "wraithseer",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 160
+            }
+          ]
+        }
+      ],
+      "points": 160,
+      "pointsLabel": "160",
+      "legends": true
+    },
+    {
+      "name": "Ynnari Archon",
+      "normalizedName": "ynnari archon",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 85
+            }
+          ]
+        }
+      ],
+      "points": 85,
+      "pointsLabel": "85",
+      "legends": false,
+      "role": "leader",
+      "attachTo": [
+        "Ynnari Incubi",
+        "Ynnari Kabalite Warriors"
+      ]
+    },
+    {
+      "name": "Ynnari Incubi",
+      "normalizedName": "ynnari incubi",
+      "pricing": [
+        {
+          "range": "[1,2]",
+          "label": "Your 1st To 2nd Units Cost",
+          "costs": [
+            {
+              "models": 5,
+              "points": 80
+            },
+            {
+              "models": 10,
+              "points": 160
+            }
+          ]
+        },
+        {
+          "range": "[3,)",
+          "label": "Your 3rd + Unit Costs",
+          "costs": [
+            {
+              "models": 5,
+              "points": 90
+            },
+            {
+              "models": 10,
+              "points": 170
+            }
+          ]
+        }
+      ],
+      "points": 80,
+      "pointsLabel": "80/160",
+      "legends": false
+    },
+    {
+      "name": "Ynnari Kabalite Warriors",
+      "normalizedName": "ynnari kabalite warriors",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 10,
+              "points": 110
+            }
+          ]
+        }
+      ],
+      "points": 110,
+      "pointsLabel": "110",
+      "legends": false
+    },
+    {
+      "name": "Ynnari Raider",
+      "normalizedName": "ynnari raider",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 80
+            }
+          ]
+        }
+      ],
+      "points": 80,
+      "pointsLabel": "80",
+      "legends": false
+    },
+    {
+      "name": "Ynnari Reavers",
+      "normalizedName": "ynnari reavers",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 3,
+              "points": 65
+            },
+            {
+              "models": 6,
+              "points": 120
+            }
+          ]
+        }
+      ],
+      "points": 65,
+      "pointsLabel": "65/120",
+      "legends": false
+    },
+    {
+      "name": "Ynnari Succubus",
+      "normalizedName": "ynnari succubus",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 45
+            }
+          ]
+        }
+      ],
+      "points": 45,
+      "pointsLabel": "45",
+      "legends": false,
+      "role": "leader",
+      "attachTo": [
+        "Ynnari Wyches"
+      ]
+    },
+    {
+      "name": "Ynnari Venom",
+      "normalizedName": "ynnari venom",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 70
+            }
+          ]
+        }
+      ],
+      "points": 70,
+      "pointsLabel": "70",
+      "legends": false
+    },
+    {
+      "name": "Ynnari Wyches",
+      "normalizedName": "ynnari wyches",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 10,
+              "points": 90
+            }
+          ]
+        }
+      ],
+      "points": 90,
+      "pointsLabel": "90",
+      "legends": false
+    },
+    {
+      "name": "Yvraine",
+      "normalizedName": "yvraine",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 100
+            }
+          ]
+        }
+      ],
+      "points": 100,
+      "pointsLabel": "100",
+      "legends": false,
+      "role": "leader",
+      "attachTo": [
+        "Corsair Reaver Band",
+        "Corsair Voidreavers",
+        "Corsair Voidscarred",
+        "Guardian Defenders",
+        "Storm Guardians",
+        "Ynnari Incubi",
+        "Ynnari Kabalite Warriors",
+        "Ynnari Wyches"
+      ]
+    }
+  ]
+}

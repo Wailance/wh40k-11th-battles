@@ -59,12 +59,31 @@
           "name": "Inspiring Commander",
           "description": "‘If you include this model in your army, until the end of the battle, non-Character models in Terminator Assault Squad and Terminator Squad units from your army have an Objective Control characteristic of 2 while they are not Battle-shocked."
         }
+      ],
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 100
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "100",
+      "mfmRole": "leader",
+      "attachTo": [
+        "Relic Terminator Squad",
+        "Terminator Assault Squad",
+        "Terminator Squad"
       ]
     },
     {
       "id": "5936-83d6-4e30-915c",
       "name": "Tor Garadon",
-      "points": 90,
+      "points": 80,
       "keywords": [
         "Epic Hero",
         "Character",
@@ -124,12 +143,31 @@
           "name": "Leader",
           "description": "This model can be attached to the following units:\n\n■ Aggressor Squad\n■ Eradicator Squad\n■ Heavy Intercessor Squad"
         }
+      ],
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 80
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "80",
+      "mfmRole": "leader",
+      "attachTo": [
+        "Aggressor Squad",
+        "Eradicator Squad",
+        "Heavy Intercessor Squad"
       ]
     },
     {
       "id": "59e3-5a97-f36d-5b94",
       "name": "Pedro Kantor",
-      "points": 90,
+      "points": 80,
       "keywords": [
         "Epic Hero",
         "Character",
@@ -194,6 +232,27 @@
           "name": "Inspiring Commander",
           "description": "If you include this model in your army, until the end of the battle, non-Character models in Sternguard\nVeteran Squad units from your army have an Objective Control characteristic of 2 while they are not Battle-shocked."
         }
+      ],
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 80
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "80",
+      "mfmRole": "leader",
+      "attachTo": [
+        "Bladeguard Veteran Squad",
+        "Command Squad",
+        "Company Heroes",
+        "Sternguard Veteran Squad",
+        "Tactical Squad"
       ]
     }
   ],

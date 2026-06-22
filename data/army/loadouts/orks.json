@@ -1,0 +1,3918 @@
+{
+  "306a-b2ac-aaf1-9a7c": {
+    "groups": [
+      {
+        "id": "f5cb-13eb-c974-fd0a",
+        "name": "Wargear",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "c182-dba9-45c0-5b68",
+            "name": "’Ard Case",
+            "min": 0,
+            "max": 1
+          },
+          {
+            "id": "d714-5c73-954c-9091",
+            "name": "Lobba",
+            "min": 0,
+            "max": 1
+          },
+          {
+            "id": "3c51-5eaa-8eab-c2da",
+            "name": "Wreckin' ball",
+            "min": 0,
+            "max": 1
+          },
+          {
+            "id": "5d30-eaaa-2400-b690",
+            "name": "Grabbin' klaw",
+            "min": 0,
+            "max": 1
+          },
+          {
+            "id": "0cc2-4235-4d46-90f0",
+            "name": "Big shoota",
+            "min": 0,
+            "max": 4
+          }
+        ],
+        "groups": [
+          {
+            "id": "3ae-5a0a-4510-21fe",
+            "name": "Big Gun",
+            "min": 0,
+            "max": 1,
+            "mode": "single",
+            "options": [
+              {
+                "id": "d5aa-da6c-782e-c6a9",
+                "name": "Killkannon",
+                "min": 0,
+                "max": 99
+              },
+              {
+                "id": "fda-8994-d709-20ff",
+                "name": "Zzap gun",
+                "min": 0,
+                "max": 99
+              },
+              {
+                "id": "1fcf-a839-4b11-5177",
+                "name": "Kannon",
+                "min": 0,
+                "max": 99
+              }
+            ]
+          },
+          {
+            "id": "63a7-6816-c39c-5afc",
+            "name": "Tracks and Wheels",
+            "min": 1,
+            "max": 1,
+            "mode": "single",
+            "options": [
+              {
+                "id": "6419-35ad-b9da-a3a2",
+                "name": "Deff rolla",
+                "min": 0,
+                "max": 99
+              },
+              {
+                "id": "f8d7-2bcc-346e-cb5d",
+                "name": "Tracks and wheels",
+                "min": 0,
+                "max": 99
+              }
+            ],
+            "defaultOptionId": "f8d7-2bcc-346e-cb5d"
+          }
+        ]
+      }
+    ]
+  },
+  "b7c3-d00e-daf2-76fb": {
+    "groups": [
+      {
+        "id": "3dc8-103b-baac-3620",
+        "name": "9-19 Beast Snagga Boyz",
+        "min": 9,
+        "max": 19,
+        "mode": "count",
+        "options": [
+          {
+            "id": "fb39-1402-5d38-83b2",
+            "name": "Beast Snagga Boy w/ Thump gun",
+            "min": 0,
+            "max": 1
+          },
+          {
+            "id": "8462-1df3-6409-5087",
+            "name": "Beast Snagga Boy",
+            "min": 8,
+            "max": 19,
+            "equippedWith": "Slugga and Choppa"
+          }
+        ],
+        "defaultOptionId": "8462-1df3-6409-5087"
+      },
+      {
+        "id": "cb1a-f005-c69e-728c",
+        "name": "Beast Snagga Nob",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "8495-e7e7-6d41-2f57",
+            "name": "Beast Snagga Nob",
+            "min": 1,
+            "max": 1,
+            "equippedWith": "Slugga"
+          }
+        ],
+        "defaultOptionId": "8495-e7e7-6d41-2f57"
+      }
+    ]
+  },
+  "5a5d-c5a4-39b8-4a3f": {
+    "groups": [
+      {
+        "id": "c2a6-b43b-7306-d984",
+        "name": "Wargear",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "8e20-4ae8-9125-42a6",
+            "name": "Beast Snagga klaw",
+            "min": 1,
+            "max": 1
+          },
+          {
+            "id": "64da-fae7-507d-8b18",
+            "name": "Shoota",
+            "min": 1,
+            "max": 1
+          },
+          {
+            "id": "4ecb-344f-f74f-2c0f",
+            "name": "Beastchoppa",
+            "min": 1,
+            "max": 1
+          }
+        ]
+      }
+    ]
+  },
+  "a8b7-351-d911-a4d6": {
+    "groups": [
+      {
+        "id": "b89a-f2fc-a891-c2f8",
+        "name": "Wargear",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "4dcd-5d7f-65c2-245b",
+            "name": "Squigosaur’s jaws",
+            "min": 1,
+            "max": 1
+          },
+          {
+            "id": "37d6-231f-76f8-77d2",
+            "name": "Beastchoppa",
+            "min": 1,
+            "max": 1
+          },
+          {
+            "id": "f81c-2c4b-fc42-ea80",
+            "name": "Slugga",
+            "min": 1,
+            "max": 1
+          }
+        ],
+        "groups": [
+          {
+            "id": "8329-c0ff-daf8-3fe9",
+            "name": "Thump Gun",
+            "min": 0,
+            "max": 1,
+            "mode": "count",
+            "options": [
+              {
+                "id": "4909-436c-d89-94e9",
+                "name": "Thump gun",
+                "min": 0,
+                "max": 99
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "95e9-6da3-5e75-2566": {
+    "groups": [
+      {
+        "id": "6cf1-2b7d-377b-6891",
+        "name": "Wargear",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "bddb-02eb-ece3-bd7d",
+            "name": "Power klaw",
+            "min": 1,
+            "max": 1
+          }
+        ],
+        "groups": [
+          {
+            "id": "130-ebbe-6bfe-794",
+            "name": "Additional Options",
+            "min": 0,
+            "max": 1,
+            "mode": "single",
+            "options": [
+              {
+                "id": "82cc-4b0b-8e55-bf48",
+                "name": "Tellyport blasta",
+                "min": 0,
+                "max": 99
+              },
+              {
+                "id": "4207-755a-5e60-313c",
+                "name": "Kustom force field",
+                "min": 0,
+                "max": 99
+              }
+            ]
+          },
+          {
+            "id": "8582-79ed-ccc1-e182",
+            "name": "Grot Oiler",
+            "min": 0,
+            "max": 1,
+            "mode": "count",
+            "options": [
+              {
+                "id": "98d-8b5c-a036-603b",
+                "name": "Grot oiler",
+                "min": 0,
+                "max": 99
+              }
+            ]
+          },
+          {
+            "id": "b3b9-15d9-18f8-ea8b",
+            "name": "Kustom-mega Blaster",
+            "min": 1,
+            "max": 1,
+            "mode": "single",
+            "options": [
+              {
+                "id": "c5a2-3b86-4d71-f926",
+                "name": "Kustom mega-blasta",
+                "min": 0,
+                "max": 99
+              },
+              {
+                "id": "4e8b-b781-673a-855f",
+                "name": "Kustom shoota",
+                "min": 0,
+                "max": 99
+              },
+              {
+                "id": "f87b-896f-3aad-d4d2",
+                "name": "Kombi-weapon",
+                "min": 0,
+                "max": 99
+              },
+              {
+                "id": "064a-bdc4-5d3a-ab24",
+                "name": "Killsaw",
+                "min": 0,
+                "max": 99
+              }
+            ],
+            "defaultOptionId": "c5a2-3b86-4d71-f926"
+          }
+        ]
+      }
+    ]
+  },
+  "e1b6-48a1-2598-7cae": {
+    "groups": [
+      {
+        "id": "1bf2-9cb6-cba9-eeee",
+        "name": "Wargear",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "8396-9b7-61f5-9ed",
+            "name": "Slugga",
+            "min": 1,
+            "max": 1
+          },
+          {
+            "id": "ab1e-8ea8-312b-0224",
+            "name": "Choppa",
+            "min": 1,
+            "max": 1
+          }
+        ],
+        "groups": [
+          {
+            "id": "9a8a-a44a-c342-2393",
+            "name": "Grot Helper",
+            "min": 0,
+            "max": 1,
+            "mode": "count",
+            "options": [
+              {
+                "id": "a3c1-fe87-1441-5222",
+                "name": "Grot helper",
+                "min": 0,
+                "max": 99
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "dde2-ca42-e3bc-2ef6": {
+    "groups": [
+      {
+        "id": "ade6-24f4-f4e3-f259",
+        "name": "Wargear",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "7c7b-a23e-0d85-08a1",
+            "name": "Close combat weapon",
+            "min": 1,
+            "max": 1
+          },
+          {
+            "id": "3d77-f1d6-997e-208c",
+            "name": "Shokk attack gun",
+            "min": 1,
+            "max": 1
+          }
+        ],
+        "groups": [
+          {
+            "id": "aa8d-63b1-65cf-1c8f",
+            "name": "Grot Assistant",
+            "min": 0,
+            "max": 1,
+            "mode": "count",
+            "options": [
+              {
+                "id": "fe2a-4df-c13e-f4c9",
+                "name": "Grot assistant",
+                "min": 0,
+                "max": 99
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "b82a-6b65-7050-ac48": {
+    "groups": [
+      {
+        "id": "e042-19ef-ff6d-8047",
+        "name": "Big Shootas (1-4)",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "fe33-2130-7376-8b82",
+            "name": "Big shoota",
+            "min": 1,
+            "max": 4
+          }
+        ]
+      }
+    ]
+  },
+  "a20-d3af-2c3e-3267": {
+    "groups": [
+      {
+        "id": "c03f-1692-bf00-f64d",
+        "name": "Wargear",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "d264-3450-4d4d-8904",
+            "name": "Big shoota",
+            "min": 1,
+            "max": 1
+          },
+          {
+            "id": "326b-4939-dbb5-383",
+            "name": "Twin supa-shoota",
+            "min": 1,
+            "max": 1
+          },
+          {
+            "id": "2713-06e9-90a2-a48e",
+            "name": "Armoured hull",
+            "min": 1,
+            "max": 1
+          }
+        ]
+      }
+    ]
+  },
+  "c7c8-6b5b-6bfc-52d1": {
+    "groups": [
+      {
+        "id": "3d81-1454-e4e1-cbb4",
+        "name": "Wargear",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "5db8-d013-81cc-308c",
+            "name": "Mek speshul",
+            "min": 1,
+            "max": 1
+          },
+          {
+            "id": "6d3e-df52-c018-d9fe",
+            "name": "Big shoota",
+            "min": 1,
+            "max": 1
+          },
+          {
+            "id": "23f2-7528-e37b-6e28",
+            "name": "Grot blasta",
+            "min": 1,
+            "max": 1
+          },
+          {
+            "id": "ba81-f9d0-485f-2e85",
+            "name": "Spiked wheels",
+            "min": 1,
+            "max": 1
+          }
+        ]
+      }
+    ]
+  },
+  "e3b1-1240-2476-cd86": {
+    "groups": [
+      {
+        "id": "3d4f-216d-1b28-ee93",
+        "name": "9-19 Boyz",
+        "min": 9,
+        "max": 19,
+        "mode": "count",
+        "options": [
+          {
+            "id": "7629-a9f5-e881-6ff9",
+            "name": "Boy w/ Slugga and choppa",
+            "min": 0,
+            "max": 19,
+            "equippedWith": "Choppa and Slugga"
+          },
+          {
+            "id": "f6f5-592e-de09-7238",
+            "name": "Boy w/ Shoota and close combat weapon",
+            "min": 0,
+            "max": 19,
+            "equippedWith": "Shoota and Close combat weapon"
+          }
+        ],
+        "defaultOptionId": "7629-a9f5-e881-6ff9",
+        "groups": [
+          {
+            "id": "80bc-1cce-f5af-1a8c",
+            "name": "Special Weapons",
+            "min": 0,
+            "max": 1,
+            "mode": "single",
+            "options": [
+              {
+                "id": "6fc2-677d-fc5e-9329",
+                "name": "Boy w/ Big shoota and close combat weapon",
+                "min": 0,
+                "max": 2,
+                "equippedWith": "Big shoota and Close combat weapon"
+              },
+              {
+                "id": "ca6b-d75f-c372-64ab",
+                "name": "Boy w/ Rokkit launcha and close combat weapon",
+                "min": 0,
+                "max": 2,
+                "equippedWith": "Rokkit launcha and Close combat weapon"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "0fe0-6121-efa6-8057",
+        "name": "Boss Nob",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "4660-3a1-f9f9-1a2b",
+            "name": "Boss Nob",
+            "min": 1,
+            "max": 1,
+            "groups": [
+              {
+                "id": "592c-f0be-c73a-5a3d",
+                "name": "Big Choppa and Slugga",
+                "min": 1,
+                "max": 1,
+                "mode": "single",
+                "options": [
+                  {
+                    "id": "9d77-2604-83bf-8c51",
+                    "name": "Big choppa and slugga",
+                    "min": 0,
+                    "max": 99,
+                    "equippedWith": "Slugga and Big choppa"
+                  },
+                  {
+                    "id": "abc-822a-8a4a-2c44",
+                    "name": "Power klaw and slugga",
+                    "min": 0,
+                    "max": 99,
+                    "equippedWith": "Slugga and Power klaw"
+                  },
+                  {
+                    "id": "1382-ada3-973-fd62",
+                    "name": "Kombi-weapon and close combat weapon",
+                    "min": 0,
+                    "max": 99,
+                    "equippedWith": "Kombi-weapon and Close combat weapon"
+                  }
+                ],
+                "defaultOptionId": "9d77-2604-83bf-8c51"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "71b2-e955-6588-87f4": {
+    "groups": [
+      {
+        "id": "fe77-55a3-e0a-8a6f",
+        "name": "Unit Composition",
+        "min": 1,
+        "max": 1,
+        "mode": "single",
+        "options": [
+          {
+            "id": "1af3-e720-2652-370c",
+            "name": "1 Spanner and 4 Burna Boyz",
+            "min": 0,
+            "max": 99,
+            "equippedWith": "Spanner"
+          },
+          {
+            "id": "9bed-59f8-4573-42ac",
+            "name": "2 Spanners and 8 Burna Boyz",
+            "min": 0,
+            "max": 99
+          }
+        ],
+        "defaultOptionId": "1af3-e720-2652-370c"
+      }
+    ]
+  },
+  "93a1-386a-e40f-472f": {
+    "groups": [
+      {
+        "id": "57c4-8244-5eab-33c3",
+        "name": "Wargear",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "c870-a811-b474-87d4",
+            "name": "Twin big shoota",
+            "min": 1,
+            "max": 1
+          },
+          {
+            "id": "59b0-90cc-a5d0-aa82",
+            "name": "Twin supa-shoota",
+            "min": 1,
+            "max": 1
+          },
+          {
+            "id": "d13b-19cb-f2d6-ae99",
+            "name": "Armoured hull",
+            "min": 1,
+            "max": 1
+          }
+        ],
+        "groups": [
+          {
+            "id": "f464-c9e3-535b-5188",
+            "name": "Skorcha Missile Rack",
+            "min": 0,
+            "max": 1,
+            "mode": "count",
+            "options": [
+              {
+                "id": "fa1-d94-c71c-36c8",
+                "name": "Skorcha missile rack",
+                "min": 0,
+                "max": 99
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "3b42-b41f-d11e-bdca": {
+    "groups": [
+      {
+        "id": "08c5-054c-3f84-8f68",
+        "name": "Wargear",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "3fe9-c673-6cfe-6f0c",
+            "name": "Armoured hull",
+            "min": 1,
+            "max": 1
+          }
+        ],
+        "groups": [
+          {
+            "id": "26d-7cdd-27c5-2cdd",
+            "name": "Twin Supa-shootas (2-3)",
+            "min": 2,
+            "max": 3,
+            "mode": "count",
+            "options": [
+              {
+                "id": "89f1-2b13-1285-d84e",
+                "name": "Twin supa-shoota",
+                "min": 2,
+                "max": 3
+              }
+            ],
+            "defaultOptionId": "89f1-2b13-1285-d84e"
+          }
+        ]
+      }
+    ]
+  },
+  "1594-b986-e77e-d89d": {
+    "groups": [
+      {
+        "id": "1dec-4515-a1cf-88f3",
+        "name": "Wargear",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "cce1-1241-fcb5-5997",
+            "name": "Stompy feet",
+            "min": 1,
+            "max": 1
+          }
+        ],
+        "groups": [
+          {
+            "id": "2f50-9d15-a92e-fb8c",
+            "name": "Wargear Options",
+            "min": 4,
+            "max": 4,
+            "mode": "count",
+            "options": [
+              {
+                "id": "7cfa-bba3-f906-b473",
+                "name": "Dread klaw",
+                "min": 2,
+                "max": 4
+              },
+              {
+                "id": "9f50-ada6-8082-15e7",
+                "name": "Big shoota",
+                "min": 2,
+                "max": 4
+              },
+              {
+                "id": "ba1e-528f-ec57-6a41",
+                "name": "Kustom mega-blasta",
+                "min": 0,
+                "max": 4
+              },
+              {
+                "id": "a0b-d6ca-bc06-2f6f",
+                "name": "Rokkit launcha",
+                "min": 0,
+                "max": 4
+              },
+              {
+                "id": "20ce-b502-54cb-4aae",
+                "name": "Skorcha",
+                "min": 0,
+                "max": 4
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "ca85-1d18-dc30-d64e": {
+    "groups": [
+      {
+        "id": "51a7-a637-9198-66b0",
+        "name": "Wargear",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "58d0-327e-c85e-b27d",
+            "name": "Deffkilla boomstikks",
+            "min": 1,
+            "max": 1
+          },
+          {
+            "id": "a413-c17b-1083-8a01",
+            "name": "Killa jet",
+            "min": 1,
+            "max": 1
+          },
+          {
+            "id": "16de-5cec-d130-a916",
+            "name": "Snagga klaw",
+            "min": 1,
+            "max": 1
+          }
+        ]
+      }
+    ]
+  },
+  "2d6e-aa3b-c28c-5ef0": {
+    "groups": [
+      {
+        "id": "c10c-e75b-392b-e562",
+        "name": "Deffkoptas (3-6)",
+        "min": 3,
+        "max": 6,
+        "mode": "count",
+        "options": [
+          {
+            "id": "c0f6-1a61-c90f-f188",
+            "name": "Deffkopta",
+            "min": 2,
+            "max": 6,
+            "groups": [
+              {
+                "id": "a74c-39dd-662c-91eb",
+                "name": "Wargear",
+                "min": 0,
+                "max": 99,
+                "mode": "count",
+                "options": [
+                  {
+                    "id": "ae47-e021-be5f-65b2",
+                    "name": "Kopta rokkits",
+                    "min": 1,
+                    "max": 1
+                  },
+                  {
+                    "id": "75b7-978d-84f4-1c69",
+                    "name": "Slugga",
+                    "min": 1,
+                    "max": 1
+                  },
+                  {
+                    "id": "17da-dc8a-754b-b5b6",
+                    "name": "Spinnin’ blades",
+                    "min": 1,
+                    "max": 1
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "484b-6da4-9390-33ae",
+            "name": "Deffkopta w/ Kustom mega-blasta",
+            "min": 0,
+            "max": 2,
+            "groups": [
+              {
+                "id": "19f7-b9ea-2742-3209",
+                "name": "Wargear",
+                "min": 0,
+                "max": 99,
+                "mode": "count",
+                "options": [
+                  {
+                    "id": "9656-df68-55bf-001c",
+                    "name": "Kustom mega-blasta",
+                    "min": 1,
+                    "max": 1
+                  },
+                  {
+                    "id": "6c86-a81f-2fda-5fb5",
+                    "name": "Slugga",
+                    "min": 1,
+                    "max": 1
+                  },
+                  {
+                    "id": "e5ea-ca0c-5d0d-95f4",
+                    "name": "Spinnin’ blades",
+                    "min": 1,
+                    "max": 1
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "defaultOptionId": "c0f6-1a61-c90f-f188"
+      }
+    ]
+  },
+  "1de9-b138-28a1-9c4b": {
+    "groups": [
+      {
+        "id": "ec33-7337-394-2c8a",
+        "name": "Ammo Runt",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "1c80-9a0b-d366-7fa3",
+            "name": "Ammo Runt",
+            "min": 0,
+            "max": 1
+          }
+        ]
+      },
+      {
+        "id": "69d4-55fa-16fe-8ed",
+        "name": "4-9 Flash Gitz",
+        "min": 4,
+        "max": 9,
+        "mode": "count",
+        "options": [
+          {
+            "id": "65c-aa48-f306-465a",
+            "name": "Flash Gitz",
+            "min": 4,
+            "max": 9,
+            "equippedWith": "Choppa and Snazzgun"
+          }
+        ]
+      },
+      {
+        "id": "3471-45c0-35b7-ca5f",
+        "name": "Kaptin",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "7d0f-67d3-25b-f6fe",
+            "name": "Kaptin",
+            "min": 1,
+            "max": 1,
+            "equippedWith": "Choppa and Snazzgun"
+          }
+        ]
+      }
+    ]
+  },
+  "56d6-a7fc-fa08-4345": {
+    "groups": [
+      {
+        "id": "4d9d-cb3b-fa0f-e7ea",
+        "name": "Wargear",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "75fe-1d78-6e54-db74",
+            "name": "Deffstorm mega-shoota",
+            "min": 1,
+            "max": 1
+          },
+          {
+            "id": "c7a9-3d8d-b20-587d",
+            "name": "Klaw of Gork",
+            "min": 1,
+            "max": 1
+          },
+          {
+            "id": "545-5421-bd02-3e6d",
+            "name": "Rokkit launcha",
+            "min": 2,
+            "max": 2
+          },
+          {
+            "id": "8c5a-354c-4d99-898b",
+            "name": "Skorcha",
+            "min": 1,
+            "max": 1
+          },
+          {
+            "id": "3651-2df5-f2aa-60a1",
+            "name": "Twin big shoota",
+            "min": 2,
+            "max": 2
+          }
+        ]
+      }
+    ]
+  },
+  "de8f-24f9-c543-92b7": {
+    "groups": [
+      {
+        "id": "816f-2188-7c92-19d",
+        "name": "Unit Composition",
+        "min": 1,
+        "max": 1,
+        "mode": "single",
+        "options": [
+          {
+            "id": "d682-30b9-55d8-8445",
+            "name": "1 Runtherd and 10 Gretchin",
+            "min": 0,
+            "max": 99,
+            "equippedWith": "Runtherd"
+          },
+          {
+            "id": "299b-56b8-c175-8691",
+            "name": "2 Runtherds and 20 Gretchin",
+            "min": 0,
+            "max": 99
+          }
+        ],
+        "defaultOptionId": "d682-30b9-55d8-8445"
+      }
+    ]
+  },
+  "70de-d621-8465-f7b8": {
+    "groups": [
+      {
+        "id": "efa9-a968-1153-37d7",
+        "name": "Wargear",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "4123-2100-8e66-4f1c",
+            "name": "’Eavy lobba",
+            "min": 1,
+            "max": 1
+          },
+          {
+            "id": "7e76-c1fb-5b80-12b1",
+            "name": "Butcha boyz",
+            "min": 1,
+            "max": 1
+          },
+          {
+            "id": "68d3-449c-d4ae-47d4",
+            "name": "Savage horns and hooves",
+            "min": 1,
+            "max": 1
+          },
+          {
+            "id": "2d35-921b-8784-7464",
+            "name": "Saw blades",
+            "min": 1,
+            "max": 1
+          },
+          {
+            "id": "25c1-3085-5380-86ce",
+            "name": "Stikka kannon",
+            "min": 1,
+            "max": 1
+          }
+        ]
+      }
+    ]
+  },
+  "eb21-c97f-2d9a-b363": {
+    "groups": [
+      {
+        "id": "8f8a-afcf-a345-4943",
+        "name": "Wargear",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "e28c-9fc3-d2d-5efb",
+            "name": "Wurrtower",
+            "min": 1,
+            "max": 1
+          },
+          {
+            "id": "c5b6-67fa-8ec9-fd78",
+            "name": "’Eavy lobba",
+            "min": 1,
+            "max": 1
+          },
+          {
+            "id": "5585-df0d-c1c6-e5b9",
+            "name": "Butcha boyz",
+            "min": 1,
+            "max": 1
+          },
+          {
+            "id": "3167-88c1-1f50-24e8",
+            "name": "Savage horns and hooves",
+            "min": 1,
+            "max": 1
+          },
+          {
+            "id": "a48d-957b-333-620f",
+            "name": "Saw blades",
+            "min": 1,
+            "max": 1
+          },
+          {
+            "id": "2e4f-609b-7491-2b58",
+            "name": "Stikka kannon",
+            "min": 1,
+            "max": 1
+          }
+        ]
+      }
+    ]
+  },
+  "8c36-c946-2e0f-f648": {
+    "groups": [
+      {
+        "id": "bc52-3f6b-6eb1-de0b",
+        "name": "Killa Kans (3-6)",
+        "min": 3,
+        "max": 6,
+        "mode": "count",
+        "options": [
+          {
+            "id": "fcf3-c626-e7c5-51ab",
+            "name": "Killa Kan w/ Kan shoota",
+            "min": 0,
+            "max": 6,
+            "groups": [
+              {
+                "id": "e899-c378-555d-4087",
+                "name": "Wargear",
+                "min": 0,
+                "max": 99,
+                "mode": "count",
+                "options": [
+                  {
+                    "id": "1e1f-c4f8-c26f-eaa8",
+                    "name": "Kan shoota",
+                    "min": 1,
+                    "max": 1
+                  },
+                  {
+                    "id": "6962-90bc-6a8e-57ad",
+                    "name": "Kan klaw",
+                    "min": 1,
+                    "max": 1
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "f03b-8761-eac6-1405",
+            "name": "Killa Kan w/ Grotzooka",
+            "min": 0,
+            "max": 6,
+            "groups": [
+              {
+                "id": "a5d4-0fa9-dc91-d62f",
+                "name": "Wargear",
+                "min": 0,
+                "max": 99,
+                "mode": "count",
+                "options": [
+                  {
+                    "id": "3e08-3707-fd91-3353",
+                    "name": "Grotzooka",
+                    "min": 1,
+                    "max": 1
+                  },
+                  {
+                    "id": "cd52-3197-ac3a-6c2a",
+                    "name": "Kan klaw",
+                    "min": 1,
+                    "max": 1
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "2058-9f53-d36e-a435",
+            "name": "Killa Kan w/ Rokkit launcha",
+            "min": 0,
+            "max": 6,
+            "groups": [
+              {
+                "id": "af19-cc67-4183-12bb",
+                "name": "Wargear",
+                "min": 0,
+                "max": 99,
+                "mode": "count",
+                "options": [
+                  {
+                    "id": "230e-4104-6fb8-9278",
+                    "name": "Kan klaw",
+                    "min": 1,
+                    "max": 1
+                  },
+                  {
+                    "id": "3f59-3ab4-0ac4-4cd2",
+                    "name": "Rokkit launcha",
+                    "min": 1,
+                    "max": 1
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "1137-3afb-3ba5-383c",
+            "name": "Killa Kan w/ Skorcha",
+            "min": 0,
+            "max": 6,
+            "groups": [
+              {
+                "id": "eac6-9b1b-5a94-f21f",
+                "name": "Wargear",
+                "min": 0,
+                "max": 99,
+                "mode": "count",
+                "options": [
+                  {
+                    "id": "dc36-ecd2-5863-8de7",
+                    "name": "Kan klaw",
+                    "min": 1,
+                    "max": 1
+                  },
+                  {
+                    "id": "f7dd-511a-cac2-4692",
+                    "name": "Skorcha",
+                    "min": 1,
+                    "max": 1
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "defaultOptionId": "fcf3-c626-e7c5-51ab"
+      }
+    ]
+  },
+  "303-267f-e45c-6aa9": {
+    "groups": [
+      {
+        "id": "f54e-a7d9-7277-2b41",
+        "name": "9 Kommandos",
+        "min": 9,
+        "max": 9,
+        "mode": "count",
+        "options": [
+          {
+            "id": "c06e-4f96-af48-1eb4",
+            "name": "Kommandos w/ Slugga and choppa",
+            "min": 0,
+            "max": 9,
+            "equippedWith": "Slugga and Choppa"
+          },
+          {
+            "id": "d19-9a70-ac11-9351",
+            "name": "Kommandos w/ Kustom shoota",
+            "min": 0,
+            "max": 2,
+            "equippedWith": "Kustom shoota and Close combat weapon"
+          },
+          {
+            "id": "ffd3-e26f-4606-2527",
+            "name": "Kommandos w/ Breacha ram",
+            "min": 0,
+            "max": 1
+          },
+          {
+            "id": "39f7-82a7-4170-d83d",
+            "name": "Kommandos w/ Burna",
+            "min": 0,
+            "max": 1,
+            "equippedWith": "Burna and Close combat weapon"
+          },
+          {
+            "id": "aa83-fff1-3e8b-6cf9",
+            "name": "Kommandos w/ Rokkit launcha",
+            "min": 0,
+            "max": 1,
+            "equippedWith": "Rokkit launcha and Close combat weapon"
+          }
+        ],
+        "defaultOptionId": "c06e-4f96-af48-1eb4"
+      },
+      {
+        "id": "bdc4-6e3b-3d-bebc",
+        "name": "Wargear",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "cf75-c8a1-84b0-5ce7",
+            "name": "Distraction Grot",
+            "min": 0,
+            "max": 1
+          },
+          {
+            "id": "998a-e057-e9c2-b4ef",
+            "name": "Bomb Squig",
+            "min": 0,
+            "max": 1
+          }
+        ]
+      },
+      {
+        "id": "9adf-2226-1896-2786",
+        "name": "Boss Nob",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "5536-33c7-b42c-9922",
+            "name": "Boss Nob",
+            "min": 1,
+            "max": 1,
+            "groups": [
+              {
+                "id": "a3eb-52dc-2193-a79c",
+                "name": "Choppa",
+                "min": 1,
+                "max": 1,
+                "mode": "single",
+                "options": [
+                  {
+                    "id": "3782-aaaf-b779-c267",
+                    "name": "Choppa",
+                    "min": 0,
+                    "max": 99
+                  },
+                  {
+                    "id": "b603-869d-2e64-f5b6",
+                    "name": "Power klaw",
+                    "min": 0,
+                    "max": 99
+                  },
+                  {
+                    "id": "4e6b-383a-8cf0-b74f",
+                    "name": "Big choppa",
+                    "min": 0,
+                    "max": 99
+                  }
+                ],
+                "defaultOptionId": "3782-aaaf-b779-c267"
+              }
+            ],
+            "equippedWith": "Slugga"
+          }
+        ]
+      }
+    ]
+  },
+  "b803-bafc-2b52-160d": {
+    "groups": [
+      {
+        "id": "ee1d-921c-383d-6428",
+        "name": "Wargear",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "6b99-4d78-87c-139c",
+            "name": "Burna exhausts",
+            "min": 1,
+            "max": 1
+          },
+          {
+            "id": "3dbb-ec2d-abf9-6dbf",
+            "name": "Rivet kannon",
+            "min": 1,
+            "max": 1
+          },
+          {
+            "id": "c15e-b852-2353-bc60",
+            "name": "Grot blasta",
+            "min": 1,
+            "max": 1
+          },
+          {
+            "id": "f82d-d476-10b6-d980",
+            "name": "Spiked wheels",
+            "min": 1,
+            "max": 1
+          }
+        ]
+      }
+    ]
+  },
+  "3bff-9fad-2d11-7866": {
+    "groups": [
+      {
+        "id": "6d84-b632-7598-1b83",
+        "name": "Unit Composition",
+        "min": 1,
+        "max": 1,
+        "mode": "single",
+        "options": [
+          {
+            "id": "45c5-6331-9ad2-e348",
+            "name": "2 Spanners and 8 Lootas",
+            "min": 0,
+            "max": 99
+          },
+          {
+            "id": "fdc1-320e-1c08-906a",
+            "name": "1 Spanner and 4 Lootas",
+            "min": 0,
+            "max": 99,
+            "equippedWith": "Spanner"
+          }
+        ],
+        "defaultOptionId": "fdc1-320e-1c08-906a"
+      }
+    ]
+  },
+  "7067-34f4-5272-e05f": {
+    "groups": [
+      {
+        "id": "3b89-522e-3f86-44a2",
+        "name": "2-6 Meganobz",
+        "min": 2,
+        "max": 6,
+        "mode": "count",
+        "options": [
+          {
+            "id": "e924-a316-2b53-ff06",
+            "name": "Meganob w/ Kustom shoota and power klaw",
+            "min": 0,
+            "max": 6,
+            "equippedWith": "Kustom shoota and Power klaw"
+          },
+          {
+            "id": "cdad-e2e0-9db3-93fc",
+            "name": "Meganob w/ Kombi-weapon and power klaw",
+            "min": 0,
+            "max": 6,
+            "equippedWith": "Kombi-weapon and Power klaw"
+          },
+          {
+            "id": "caae-830b-ecc1-cf",
+            "name": "Meganob w/ Kombi-weapon and killsaw",
+            "min": 0,
+            "max": 6,
+            "equippedWith": "Kombi-weapon and Killsaw"
+          },
+          {
+            "id": "2565-a1d8-4dd8-7649",
+            "name": "Meganob w/ Kustom shoota and killsaw",
+            "min": 0,
+            "max": 6,
+            "equippedWith": "Kustom shoota and Killsaw"
+          },
+          {
+            "id": "494c-95d1-815c-db90",
+            "name": "Meganob w/ Killsaw and power klaw",
+            "min": 0,
+            "max": 6,
+            "equippedWith": "Power klaw and Killsaw"
+          },
+          {
+            "id": "731f-2f2-7ca0-23ed",
+            "name": "Meganob w/ Twin killsaw",
+            "min": 0,
+            "max": 6
+          }
+        ],
+        "defaultOptionId": "e924-a316-2b53-ff06"
+      }
+    ]
+  },
+  "8dd-f235-ef18-d36": {
+    "groups": [
+      {
+        "id": "4a57-7179-53f1-882c",
+        "name": "Wargear",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "9b03-86ea-b6b9-8155",
+            "name": "Nose drill",
+            "min": 1,
+            "max": 1
+          },
+          {
+            "id": "b61f-53e8-255c-baa4",
+            "name": "Rokkit cannon",
+            "min": 1,
+            "max": 1
+          },
+          {
+            "id": "5432-c802-9ea6-7da1",
+            "name": "Wing missiles",
+            "min": 1,
+            "max": 1
+          },
+          {
+            "id": "bafd-7d07-3e69-25b6",
+            "name": "Twin big shoota",
+            "min": 2,
+            "max": 2
+          }
+        ]
+      }
+    ]
+  },
+  "3b2-8c11-616a-1005": {
+    "groups": [
+      {
+        "id": "53a0-9149-85b5-ca44",
+        "name": "Wargear",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "29df-345a-6ab5-4644",
+            "name": "Kustom mega-slugga",
+            "min": 1,
+            "max": 1
+          }
+        ],
+        "groups": [
+          {
+            "id": "529f-1fb5-b2da-8eae",
+            "name": "Wrench",
+            "min": 1,
+            "max": 1,
+            "mode": "single",
+            "options": [
+              {
+                "id": "c6e4-e5a5-d4be-d07c",
+                "name": "Wrench",
+                "min": 0,
+                "max": 99
+              },
+              {
+                "id": "8ca4-9bdd-d210-624d",
+                "name": "Killsaw",
+                "min": 0,
+                "max": 99
+              }
+            ],
+            "defaultOptionId": "c6e4-e5a5-d4be-d07c"
+          }
+        ]
+      }
+    ]
+  },
+  "b37a-8686-db2c-8cbd": {
+    "groups": [
+      {
+        "id": "d345-c8ce-1c40-5c46",
+        "name": "Mek Gunz (1-3)",
+        "min": 1,
+        "max": 3,
+        "mode": "count",
+        "options": [
+          {
+            "id": "e82a-232e-e43d-a061",
+            "name": "Mek Gun w/ Smasha gun",
+            "min": 0,
+            "max": 3,
+            "groups": [
+              {
+                "id": "9bf5-d276-c19b-2de5",
+                "name": "Wargear",
+                "min": 0,
+                "max": 99,
+                "mode": "count",
+                "options": [
+                  {
+                    "id": "507e-5415-d6c5-f5f5",
+                    "name": "Smasha gun",
+                    "min": 1,
+                    "max": 1
+                  },
+                  {
+                    "id": "3060-8353-1ee3-9e19",
+                    "name": "Grot crew",
+                    "min": 1,
+                    "max": 1
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "8aea-b460-9ad6-252d",
+            "name": "Mek Gun w/ Bubblechukka",
+            "min": 0,
+            "max": 3,
+            "groups": [
+              {
+                "id": "7254-b00c-7466-df1e",
+                "name": "Wargear",
+                "min": 0,
+                "max": 99,
+                "mode": "count",
+                "options": [
+                  {
+                    "id": "7405-d2d-3719-ef01",
+                    "name": "Bubblechukka",
+                    "min": 1,
+                    "max": 1
+                  },
+                  {
+                    "id": "205f-fd5d-bb45-ab7c",
+                    "name": "Grot crew",
+                    "min": 1,
+                    "max": 1
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "ef50-eb48-bba3-d692",
+            "name": "Mek Gun w/ Kustom mega-kannon",
+            "min": 0,
+            "max": 3,
+            "groups": [
+              {
+                "id": "6ea2-d9f3-7e61-a539",
+                "name": "Wargear",
+                "min": 0,
+                "max": 99,
+                "mode": "count",
+                "options": [
+                  {
+                    "id": "7c57-a55a-77b9-88f3",
+                    "name": "Kustom mega-kannon",
+                    "min": 1,
+                    "max": 1
+                  },
+                  {
+                    "id": "d684-62e5-327a-ced1",
+                    "name": "Grot crew",
+                    "min": 1,
+                    "max": 1
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "c800-4c3a-de49-f05b",
+            "name": "Mek Gun w/ Traktor kannon",
+            "min": 0,
+            "max": 3,
+            "groups": [
+              {
+                "id": "805d-d56f-58d1-be00",
+                "name": "Wargear",
+                "min": 0,
+                "max": 99,
+                "mode": "count",
+                "options": [
+                  {
+                    "id": "8c70-6865-15de-27f1",
+                    "name": "Traktor kannon",
+                    "min": 1,
+                    "max": 1
+                  },
+                  {
+                    "id": "5a56-139f-2382-4099",
+                    "name": "Grot crew",
+                    "min": 1,
+                    "max": 1
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "defaultOptionId": "e82a-232e-e43d-a061"
+      }
+    ]
+  },
+  "9ee5-2b39-de06-dda6": {
+    "groups": [
+      {
+        "id": "5a16-937d-3138-a1f7",
+        "name": "Wargear",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "4d14-52f3-b6dd-b10c",
+            "name": "Klaw of Mork",
+            "min": 1,
+            "max": 1
+          },
+          {
+            "id": "a551-a1e2-3fcd-4f4b",
+            "name": "Kustom mega-zappa",
+            "min": 1,
+            "max": 1
+          },
+          {
+            "id": "6a9c-b14b-c023-a7a7",
+            "name": "Kustom mega-blasta",
+            "min": 1,
+            "max": 1
+          },
+          {
+            "id": "240c-376d-9a96-3058",
+            "name": "Rokkit launcha",
+            "min": 2,
+            "max": 2
+          },
+          {
+            "id": "5206-9a8a-e9eb-3c77",
+            "name": "Twin big shoota",
+            "min": 2,
+            "max": 2
+          }
+        ]
+      }
+    ]
+  },
+  "3b35-92f5-bd1a-af8d": {
+    "groups": [
+      {
+        "id": "1c61-1fce-5872-833b",
+        "name": "Wargear",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "ffeb-65c9-3bb8-f2b1",
+            "name": "Waaagh! banner",
+            "min": 1,
+            "max": 1
+          },
+          {
+            "id": "4f15-b342-493f-f8b2",
+            "name": "Kustom shoota",
+            "min": 1,
+            "max": 1
+          }
+        ]
+      }
+    ]
+  },
+  "b16a-7132-3f8a-abe5": {
+    "groups": [
+      {
+        "id": "5222-939b-c573-eb83",
+        "name": "4-9 Nobz",
+        "min": 4,
+        "max": 9,
+        "mode": "count",
+        "options": [
+          {
+            "id": "9d59-90c-9048-1e82",
+            "name": "Nob w/ Slugga and big choppa",
+            "min": 0,
+            "max": 9,
+            "equippedWith": "Slugga and Big choppa"
+          },
+          {
+            "id": "3bd9-3eb1-8b1f-2b31",
+            "name": "Nob w/ Slugga and power klaw",
+            "min": 0,
+            "max": 9,
+            "equippedWith": "Slugga and Power klaw"
+          },
+          {
+            "id": "252b-cdba-84bd-3ed3",
+            "name": "Nob w/ Kombi-weapon",
+            "min": 0,
+            "max": 9,
+            "equippedWith": "Close combat weapon and Kombi-weapon"
+          }
+        ],
+        "defaultOptionId": "9d59-90c-9048-1e82"
+      },
+      {
+        "id": "f221-12dc-df28-fa18",
+        "name": "Ammo Runts",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "6956-bebe-2afb-dbdc",
+            "name": "Ammo Runt",
+            "min": 0,
+            "max": 2
+          }
+        ]
+      },
+      {
+        "id": "f238-57c6-c33b-b4eb",
+        "name": "Boss Nob",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "f2b7-9bff-748a-8744",
+            "name": "Boss Nob",
+            "min": 1,
+            "max": 1,
+            "groups": [
+              {
+                "id": "387b-a5a7-a417-16c7",
+                "name": "Wargear Options",
+                "min": 1,
+                "max": 1,
+                "mode": "single",
+                "options": [
+                  {
+                    "id": "c5-b330-c641-117c",
+                    "name": "Slugga and big choppa",
+                    "min": 0,
+                    "max": 99,
+                    "equippedWith": "Big choppa and Slugga"
+                  },
+                  {
+                    "id": "1705-b132-35ee-725b",
+                    "name": "Slugga and power klaw",
+                    "min": 0,
+                    "max": 99,
+                    "equippedWith": "Power klaw and Slugga"
+                  },
+                  {
+                    "id": "8c7d-35ea-4dd2-b6d0",
+                    "name": "Kombi-weapon",
+                    "min": 0,
+                    "max": 99,
+                    "equippedWith": "Kombi-weapon and Close combat weapon"
+                  }
+                ],
+                "defaultOptionId": "c5-b330-c641-117c"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "a74a-107a-e2ac-7e4c": {
+    "groups": [
+      {
+        "id": "e678-3063-de93-7a9e",
+        "name": "Wargear",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "e9e3-3cff-1ff2-f9cc",
+            "name": "Beast Snagga klaw",
+            "min": 1,
+            "max": 1
+          }
+        ],
+        "groups": [
+          {
+            "id": "1081-44a0-1e6f-9aef",
+            "name": "Grot Orderly",
+            "min": 0,
+            "max": 99,
+            "mode": "count",
+            "options": [
+              {
+                "id": "1c4c-796e-7007-a521",
+                "name": "Grot orderly",
+                "min": 0,
+                "max": 1
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "7669-1442-2c0b-e0c9": {
+    "groups": [
+      {
+        "id": "3ce2-52ad-7bf5-1235",
+        "name": "Wargear",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "73f5-86ce-612d-5a0f",
+            "name": "’Urty syringe",
+            "min": 1,
+            "max": 1
+          },
+          {
+            "id": "bc10-845c-3ec2-1091",
+            "name": "Power klaw",
+            "min": 1,
+            "max": 1
+          }
+        ],
+        "groups": [
+          {
+            "id": "310b-c762-8ff1-4e0f",
+            "name": "Grot Orderly",
+            "min": 0,
+            "max": 99,
+            "mode": "count",
+            "options": [
+              {
+                "id": "6407-2ded-3285-f3f6",
+                "name": "Grot orderly",
+                "min": 0,
+                "max": 1
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "a856-30b7-e56d-57db": {
+    "groups": [
+      {
+        "id": "b497-901a-24ed-3b28",
+        "name": "Wargear",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "612-a936-747-bddd",
+            "name": "Sawn-off shotgun",
+            "min": 1,
+            "max": 1
+          },
+          {
+            "id": "83de-e506-3087-6bc5",
+            "name": "Squig launchas",
+            "min": 1,
+            "max": 1
+          },
+          {
+            "id": "33be-89d1-e894-e8ca",
+            "name": "Saw blades",
+            "min": 1,
+            "max": 1
+          }
+        ]
+      }
+    ]
+  },
+  "1d12-e2ae-33bb-4558": {
+    "groups": [
+      {
+        "id": "490f-4fde-5b5d-723c",
+        "name": "Wargear",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "d940-23b6-c25b-104f",
+            "name": "Kustom shokk rifle",
+            "min": 1,
+            "max": 1
+          },
+          {
+            "id": "b2c3-7268-5404-3e18",
+            "name": "Rokkit launcha",
+            "min": 1,
+            "max": 1
+          },
+          {
+            "id": "cad9-5c0f-5aa3-7021",
+            "name": "Saw blades",
+            "min": 1,
+            "max": 1
+          }
+        ]
+      }
+    ]
+  },
+  "6a83-8e1f-63ef-50c3": {
+    "groups": [
+      {
+        "id": "5c27-9f7-1c50-dde",
+        "name": "Bomb Squigs",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "b664-1b2-e60f-2876",
+            "name": "Bomb squig",
+            "min": 0,
+            "max": 2
+          }
+        ]
+      },
+      {
+        "id": "6e05-cf12-2839-61d9",
+        "name": "Unit Composition",
+        "min": 1,
+        "max": 1,
+        "mode": "single",
+        "options": [
+          {
+            "id": "1fba-450a-537b-9db1",
+            "name": "1 Nob on Smasha Squig and 3 Squighog Boyz",
+            "min": 0,
+            "max": 99,
+            "equippedWith": "Nob on Smasha Squig"
+          },
+          {
+            "id": "46c2-9018-e733-2444",
+            "name": "2 Nobz on Smasha Squig and 6 Squighog Boyz",
+            "min": 0,
+            "max": 99
+          }
+        ],
+        "defaultOptionId": "1fba-450a-537b-9db1"
+      }
+    ]
+  },
+  "6c08-9131-14a3-a3b4": {
+    "groups": [
+      {
+        "id": "395f-d6e3-3801-171c",
+        "name": "Wargear",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "6f6c-ce7c-4b1-261",
+            "name": "Deffkannon",
+            "min": 1,
+            "max": 1
+          },
+          {
+            "id": "dccf-9841-24d4-bc7b",
+            "name": "Mega-choppa",
+            "min": 1,
+            "max": 1
+          },
+          {
+            "id": "6e92-6712-f0a8-94ee",
+            "name": "Supa-gatler",
+            "min": 1,
+            "max": 1
+          },
+          {
+            "id": "4d17-4755-2efd-6a88",
+            "name": "Supa-rokkits",
+            "min": 1,
+            "max": 1
+          },
+          {
+            "id": "f74e-262b-21b9-74b1",
+            "name": "Big shoota",
+            "min": 3,
+            "max": 3
+          },
+          {
+            "id": "1161-abdb-aa34-18a4",
+            "name": "Skorcha",
+            "min": 1,
+            "max": 1
+          },
+          {
+            "id": "846c-e0a-7507-fdcf",
+            "name": "Twin big shoota",
+            "min": 1,
+            "max": 1
+          }
+        ]
+      }
+    ]
+  },
+  "4adf-8249-c6b2-dd4f": {
+    "groups": [
+      {
+        "id": "cc60-4ca5-f0a5-4785",
+        "name": "4-9 Stormboyz",
+        "min": 4,
+        "max": 9,
+        "mode": "count",
+        "options": [
+          {
+            "id": "540f-1216-ff44-6a37",
+            "name": "Stormboy",
+            "min": 4,
+            "max": 9,
+            "equippedWith": "Slugga and Choppa"
+          }
+        ]
+      },
+      {
+        "id": "225f-c461-9aea-3a85",
+        "name": "Boss Nob",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "50fb-8b6d-ab70-7c2",
+            "name": "Boss Nob",
+            "min": 1,
+            "max": 1,
+            "groups": [
+              {
+                "id": "e1f9-1261-ab01-acb2",
+                "name": "Choppa",
+                "min": 1,
+                "max": 1,
+                "mode": "single",
+                "options": [
+                  {
+                    "id": "7b1e-c15b-f605-6dc0",
+                    "name": "Choppa",
+                    "min": 0,
+                    "max": 99
+                  },
+                  {
+                    "id": "57d-919c-458f-78fd",
+                    "name": "Power klaw",
+                    "min": 0,
+                    "max": 99
+                  }
+                ],
+                "defaultOptionId": "7b1e-c15b-f605-6dc0"
+              }
+            ],
+            "equippedWith": "Slugga"
+          }
+        ]
+      }
+    ]
+  },
+  "dadc-d370-ef10-853c": {
+    "groups": [
+      {
+        "id": "6d40-a54e-08db-64b5",
+        "name": "Boss Nob",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "cdd4-c8f7-bc72-9af0",
+            "name": "Boss Nob",
+            "min": 1,
+            "max": 1,
+            "groups": [
+              {
+                "id": "8d8e-4af3-cf19-7732",
+                "name": "Wargear Options",
+                "min": 2,
+                "max": 2,
+                "mode": "count",
+                "options": [
+                  {
+                    "id": "0413-5db3-c61f-dd87",
+                    "name": "Smash hammer",
+                    "min": 0,
+                    "max": 1
+                  },
+                  {
+                    "id": "3095-c083-618d-f3c2",
+                    "name": "Rokkit pistol",
+                    "min": 1,
+                    "max": 2
+                  }
+                ],
+                "defaultOptionId": "5e80-6836-23b7-06ff"
+              }
+            ],
+            "equippedWith": "Choppa"
+          }
+        ]
+      },
+      {
+        "id": "11f1-91c0-0fb4-b6a4",
+        "name": "Tankbustas",
+        "min": 5,
+        "max": 5,
+        "mode": "count",
+        "options": [
+          {
+            "id": "40b3-1364-acb9-c1eb",
+            "name": "Tankbusta w/ Rokkit launcha",
+            "min": 4,
+            "max": 5,
+            "equippedWith": "Rokkit launcha and Close combat weapon"
+          },
+          {
+            "id": "3697-d01c-ebcd-835d",
+            "name": "Tankbusta w/ Two rokkit launchas",
+            "min": 0,
+            "max": 1,
+            "equippedWith": "Close combat weapon"
+          },
+          {
+            "id": "f3be-f9fd-a145-5aa9",
+            "name": "Tankbusta w/ Pulsa rokkit",
+            "min": 0,
+            "max": 1,
+            "equippedWith": "Rokkit launcha and Close combat weapon"
+          }
+        ],
+        "defaultOptionId": "40b3-1364-acb9-c1eb"
+      }
+    ]
+  },
+  "1291-7ba8-2c5a-4a92": {
+    "groups": [
+      {
+        "id": "feb2-f0c1-ed5d-668e",
+        "name": "Wargear",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "16b1-d82e-be8a-fc4c",
+            "name": "Big shoota",
+            "min": 1,
+            "max": 1
+          },
+          {
+            "id": "130a-a1d3-c14c-8c8a",
+            "name": "Wreckin' ball",
+            "min": 0,
+            "max": 1
+          },
+          {
+            "id": "c821-35ce-bfd6-848b",
+            "name": "Spiked wheel",
+            "min": 1,
+            "max": 1
+          }
+        ]
+      }
+    ]
+  },
+  "83a7-ea20-ed9-d14a": {
+    "groups": [
+      {
+        "id": "50df-1baa-d403-9a74",
+        "name": "Warbikers (2-5)",
+        "min": 2,
+        "max": 5,
+        "mode": "count",
+        "options": [
+          {
+            "id": "64c4-85e4-bc36-e4b6",
+            "name": "Warbiker",
+            "min": 0,
+            "max": 5,
+            "equippedWith": "Twin dakkagun and Close combat weapon"
+          },
+          {
+            "id": "df67-9045-caed-7f37",
+            "name": "Warbiker w/ Slugga",
+            "min": 0,
+            "max": 5,
+            "equippedWith": "Twin dakkagun and Slugga and Close combat weapon"
+          },
+          {
+            "id": "b072-d55f-9271-c7f2",
+            "name": "Warbiker w/ Choppa",
+            "min": 0,
+            "max": 5,
+            "equippedWith": "Twin dakkagun and Choppa and Close combat weapon"
+          }
+        ],
+        "defaultOptionId": "64c4-85e4-bc36-e4b6"
+      },
+      {
+        "id": "a1f1-50c1-bba4-a7c8",
+        "name": "Boss Nob on Warbike",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "df4-aada-5a1f-924e",
+            "name": "Boss Nob on Warbike",
+            "min": 1,
+            "max": 1,
+            "groups": [
+              {
+                "id": "f089-d85-722a-56ed",
+                "name": "Wargear Options",
+                "min": 0,
+                "max": 1,
+                "mode": "single",
+                "options": [
+                  {
+                    "id": "b5aa-40ad-c736-31fa",
+                    "name": "Slugga",
+                    "min": 0,
+                    "max": 99
+                  },
+                  {
+                    "id": "b56f-1aa6-e973-3fce",
+                    "name": "Big choppa",
+                    "min": 0,
+                    "max": 99
+                  },
+                  {
+                    "id": "3cd8-8363-47d3-2f28",
+                    "name": "Power klaw",
+                    "min": 0,
+                    "max": 99
+                  }
+                ]
+              }
+            ],
+            "equippedWith": "Twin dakkagun and Close combat weapon"
+          }
+        ]
+      }
+    ]
+  },
+  "2efc-c4b3-2ecc-5a37": {
+    "groups": [
+      {
+        "id": "eec2-6ed3-27cd-f0cd",
+        "name": "Wargear",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "f8a0-f279-3ee8-2eda",
+            "name": "Twin slugga",
+            "min": 1,
+            "max": 1
+          },
+          {
+            "id": "183b-3f43-10fc-ca2d",
+            "name": "Kombi-weapon",
+            "min": 1,
+            "max": 1
+          }
+        ],
+        "groups": [
+          {
+            "id": "d636-df33-eff7-a1a5",
+            "name": "Attack Squig",
+            "min": 0,
+            "max": 99,
+            "mode": "count",
+            "options": [
+              {
+                "id": "b7a6-0fd2-8079-83c3",
+                "name": "Attack squig",
+                "min": 0,
+                "max": 1
+              }
+            ]
+          },
+          {
+            "id": "5eb8-cd57-5dee-4eec",
+            "name": "Big Choppa",
+            "min": 1,
+            "max": 1,
+            "mode": "single",
+            "options": [
+              {
+                "id": "446d-ce2c-1afc-c5fb",
+                "name": "Big choppa",
+                "min": 0,
+                "max": 99
+              },
+              {
+                "id": "9b81-c90b-705a-6af2",
+                "name": "Power klaw",
+                "min": 0,
+                "max": 99
+              }
+            ],
+            "defaultOptionId": "446d-ce2c-1afc-c5fb"
+          }
+        ]
+      }
+    ]
+  },
+  "494b-11ce-5af-5b50": {
+    "groups": [
+      {
+        "id": "7d97-c944-115e-fa82",
+        "name": "Wargear",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "7142-4c07-8072-8474",
+            "name": "Big shoota",
+            "min": 1,
+            "max": 1
+          },
+          {
+            "id": "c11c-b412-af97-2840",
+            "name": "’Uge choppa",
+            "min": 1,
+            "max": 1
+          }
+        ]
+      }
+    ]
+  },
+  "3832-ad97-2b3b-8775": {
+    "groups": [
+      {
+        "id": "2bdc-ca87-75f3-65df",
+        "name": "Wargear",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "c12-1527-2508-aa3f",
+            "name": "Smasha gun",
+            "min": 1,
+            "max": 1
+          },
+          {
+            "id": "7594-fe41-9050-fbf0",
+            "name": "Armoured hull",
+            "min": 1,
+            "max": 1
+          }
+        ],
+        "groups": [
+          {
+            "id": "1d07-b41f-f7f6-65b3",
+            "name": "Twin Wazbom Mega-kannon",
+            "min": 1,
+            "max": 1,
+            "mode": "single",
+            "options": [
+              {
+                "id": "adf-c65c-b8b9-6633",
+                "name": "Twin wazbom mega-kannon",
+                "min": 0,
+                "max": 99
+              },
+              {
+                "id": "9043-7ba-74b7-51f3",
+                "name": "Twin tellyport mega-blasta",
+                "min": 0,
+                "max": 99
+              }
+            ],
+            "defaultOptionId": "adf-c65c-b8b9-6633"
+          },
+          {
+            "id": "f8a7-188e-248d-5890",
+            "name": "Wargear Options",
+            "min": 0,
+            "max": 99,
+            "mode": "count",
+            "options": [
+              {
+                "id": "c2b-ce63-7b3b-ee6f",
+                "name": "Blastajet Force Field",
+                "min": 0,
+                "max": 1
+              },
+              {
+                "id": "7ad2-f83c-5cc5-4072",
+                "name": "Twin supa-shoota",
+                "min": 0,
+                "max": 1
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "260d-9ce4-ea1f-a957": {
+    "groups": [
+      {
+        "id": "c4a5-5229-e585-c627",
+        "name": "Wargear",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "f99b-9bf4-e78e-c487",
+            "name": "Weirdboy staff",
+            "min": 1,
+            "max": 1
+          },
+          {
+            "id": "4c24-af7a-40f1-dbb5",
+            "name": "’Eadbanger",
+            "min": 1,
+            "max": 1
+          }
+        ]
+      }
+    ]
+  },
+  "290-ff5a-b14f-e432": {
+    "groups": [
+      {
+        "id": "c07b-624c-d8f1-f7dd",
+        "name": "Wargear",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "a370-2714-7e9c-9640",
+            "name": "Eyez of Mork",
+            "min": 1,
+            "max": 1
+          },
+          {
+            "id": "2d78-c701-6d40-657c",
+            "name": "Close combat weapon",
+            "min": 1,
+            "max": 1
+          }
+        ]
+      }
+    ]
+  },
+  "2d97-52db-2c1b-de5e": {
+    "groups": [
+      {
+        "id": "8a89-f3d5-f974-56c9",
+        "name": "Wargear",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "1ebb-4e0a-9896-734f",
+            "name": "Armoured hull",
+            "min": 1,
+            "max": 1
+          },
+          {
+            "id": "cd6a-9500-bb1b-c525",
+            "name": "Mega-tank weapons",
+            "min": 1,
+            "max": 1
+          }
+        ],
+        "groups": [
+          {
+            "id": "63b9-7717-d040-5129",
+            "name": "Wargear Options",
+            "min": 2,
+            "max": 2,
+            "mode": "count",
+            "options": [
+              {
+                "id": "e81a-4309-ab7f-12b3",
+                "name": "Twin big shoota",
+                "min": 0,
+                "max": 2
+              },
+              {
+                "id": "e141-ac14-32c0-34f8",
+                "name": "Twin grotzooka",
+                "min": 0,
+                "max": 2
+              },
+              {
+                "id": "6b6d-51b9-b812-c520",
+                "name": "Twin kustom mega-blasta",
+                "min": 0,
+                "max": 2
+              },
+              {
+                "id": "ef28-3822-b537-22f2",
+                "name": "Twin rokkit launcha",
+                "min": 0,
+                "max": 2
+              },
+              {
+                "id": "2ff-3362-a51f-a276",
+                "name": "Twin skorcha",
+                "min": 0,
+                "max": 2
+              }
+            ],
+            "defaultOptionId": "e81a-4309-ab7f-12b3"
+          }
+        ]
+      }
+    ]
+  },
+  "df63-56a0-92e1-6191": {
+    "groups": [
+      {
+        "id": "5dc5-65b1-71e3-5cb4",
+        "name": "Wargear",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "89c7-3225-1bc6-f023",
+            "name": "Gorin’ horns",
+            "min": 1,
+            "max": 1
+          }
+        ],
+        "groups": [
+          {
+            "id": "5965-f0a9-9f75-c627",
+            "name": "Kannon",
+            "min": 0,
+            "max": 99,
+            "mode": "count",
+            "options": [
+              {
+                "id": "1bb4-4590-e7ed-d8f3",
+                "name": "Kannon",
+                "min": 0,
+                "max": 1
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "aeed-c6d9-4b90-376a": {
+    "groups": [
+      {
+        "id": "9d8a-457b-57ee-fa20",
+        "name": "Wargear",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "c0b1-a70b-89a0-a5f9",
+            "name": "Huge tusks",
+            "min": 1,
+            "max": 1
+          }
+        ],
+        "groups": [
+          {
+            "id": "c125-6ace-cee2-1f54",
+            "name": "Wargear Options",
+            "min": 0,
+            "max": 1,
+            "mode": "single",
+            "options": [
+              {
+                "id": "e2e9-d6e3-7d7d-76ae",
+                "name": "Supa-kannon",
+                "min": 0,
+                "max": 99
+              },
+              {
+                "id": "95b4-4fb1-62e8-ed4a",
+                "name": "Kannon",
+                "min": 0,
+                "max": 99
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "b8fe-c7af-20fd-631d": {
+    "groups": [
+      {
+        "id": "bede-984a-c688-c3ca",
+        "name": "Wargear",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "c7d8-6dc9-8246-dfaf",
+            "name": "Reinforced ram",
+            "min": 1,
+            "max": 1
+          },
+          {
+            "id": "7400-78ba-9ebc-2ecc",
+            "name": "Skorcha",
+            "min": 1,
+            "max": 1
+          },
+          {
+            "id": "4706-a695-3cfa-93bf",
+            "name": "Twin big shoota",
+            "min": 1,
+            "max": 1
+          }
+        ],
+        "groups": [
+          {
+            "id": "49d8-b298-b34f-2726",
+            "name": "Bursta Kannon",
+            "min": 1,
+            "max": 1,
+            "mode": "single",
+            "options": [
+              {
+                "id": "5ab6-c7c2-e5c4-2c34",
+                "name": "Bursta kannon",
+                "min": 0,
+                "max": 99
+              },
+              {
+                "id": "489a-ed98-e89a-6687",
+                "name": "Giga shoota",
+                "min": 0,
+                "max": 99
+              }
+            ],
+            "defaultOptionId": "5ab6-c7c2-e5c4-2c34"
+          }
+        ]
+      }
+    ]
+  },
+  "5c83-d9c7-5c58-8357": {
+    "groups": [
+      {
+        "id": "b8f0-6dc4-df27-5353",
+        "name": "Wargear",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "a182-6e27-79cb-8b58",
+            "name": "Boombits",
+            "min": 2,
+            "max": 2
+          },
+          {
+            "id": "33ce-59f7-5825-01ea",
+            "name": "Stompy feet",
+            "min": 1,
+            "max": 1
+          }
+        ],
+        "groups": [
+          {
+            "id": "9a90-445a-e807-577",
+            "name": "Wargear Options",
+            "min": 2,
+            "max": 2,
+            "mode": "count",
+            "options": [
+              {
+                "id": "cd25-a8c7-3a7f-0d29",
+                "name": "Dread killsaw",
+                "min": 0,
+                "max": 2
+              },
+              {
+                "id": "01d3-cb97-395a-08a2",
+                "name": "Killkannon",
+                "min": 0,
+                "max": 2
+              },
+              {
+                "id": "107d-96f4-5315-b31b",
+                "name": "Dread rippa klaw",
+                "min": 0,
+                "max": 2
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "121b-9fda-2ccb-e38c": {
+    "groups": [
+      {
+        "id": "2c1c-b249-b4a9-e5a1",
+        "name": "Wargear",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "795f-e59d-4b9e-7db5",
+            "name": "Stompy feet",
+            "min": 1,
+            "max": 1
+          }
+        ],
+        "groups": [
+          {
+            "id": "103a-7b9-d947-eb62",
+            "name": "Wargear Options",
+            "min": 2,
+            "max": 2,
+            "mode": "count",
+            "options": [
+              {
+                "id": "9b2d-bdb9-6d41-d4a2",
+                "name": "Dread killsaw",
+                "min": 0,
+                "max": 2
+              },
+              {
+                "id": "95d3-872e-fec2-5b4b",
+                "name": "Killkannon",
+                "min": 0,
+                "max": 2
+              },
+              {
+                "id": "a8ab-1f00-4a28-f5a3",
+                "name": "Dread rippa klaw",
+                "min": 0,
+                "max": 2
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "609a-6ef1-a3e3-3baa": {
+    "groups": [
+      {
+        "id": "f42d-3cbc-9cc9-b6e7",
+        "name": "Wargear",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "9880-2a15-14e7-773",
+            "name": "Big shoota",
+            "min": 2,
+            "max": 2
+          },
+          {
+            "id": "c85c-8627-5865-ac53",
+            "name": "Armoured hull",
+            "min": 1,
+            "max": 1
+          }
+        ],
+        "groups": [
+          {
+            "id": "84f-50d8-aa0f-c54c",
+            "name": "Wargear Options",
+            "min": 0,
+            "max": 1,
+            "mode": "single",
+            "options": [
+              {
+                "id": "514b-8040-22a0-4445",
+                "name": "Kannon",
+                "min": 0,
+                "max": 99
+              },
+              {
+                "id": "fd51-1b8f-c671-e9eb",
+                "name": "Supa-kannon",
+                "min": 0,
+                "max": 99
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "6aed-92bb-49d6-12da": {
+    "groups": [
+      {
+        "id": "a680-e95c-2ec5-3d54",
+        "name": "Wargear",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "ee39-3778-704e-1b8",
+            "name": "Twin dakkagun",
+            "min": 1,
+            "max": 1
+          }
+        ],
+        "groups": [
+          {
+            "id": "e0b3-c5ac-9034-e2db",
+            "name": "Killsaw",
+            "min": 1,
+            "max": 1,
+            "mode": "single",
+            "options": [
+              {
+                "id": "7da1-5006-14ad-879",
+                "name": "Killsaw",
+                "min": 0,
+                "max": 99
+              },
+              {
+                "id": "9144-7ad1-bbf2-9c81",
+                "name": "Big choppa",
+                "min": 0,
+                "max": 99
+              },
+              {
+                "id": "893c-a595-8f35-a8a6",
+                "name": "Power klaw",
+                "min": 0,
+                "max": 99
+              }
+            ],
+            "defaultOptionId": "7da1-5006-14ad-879"
+          }
+        ]
+      }
+    ]
+  },
+  "91c2-d40a-1f09-9e81": {
+    "groups": [
+      {
+        "id": "b8e3-3881-82d1-dd6f",
+        "name": "Wargear",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "8f81-e36d-bf1e-b823",
+            "name": "Spiked ram",
+            "min": 1,
+            "max": 1
+          },
+          {
+            "id": "119f-7117-dec1-fd6b",
+            "name": "Supa-kannon",
+            "min": 1,
+            "max": 1
+          }
+        ],
+        "groups": [
+          {
+            "id": "7790-8d5a-10f3-dd24",
+            "name": "Big Shootas (0-3)",
+            "min": 0,
+            "max": 3,
+            "mode": "count",
+            "options": [
+              {
+                "id": "597b-5c97-ab67-7fd7",
+                "name": "Big shoota",
+                "min": 0,
+                "max": 3
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "4852-225b-c426-c9b5": {
+    "groups": [
+      {
+        "id": "e4e9-cf79-ef80-4ac3",
+        "name": "Wargear",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "2ea5-2db8-ceb0-b2f",
+            "name": "’Urty syringe",
+            "min": 1,
+            "max": 1
+          },
+          {
+            "id": "470f-24a1-c7c1-33fc",
+            "name": "Twin dakkagun",
+            "min": 1,
+            "max": 1
+          }
+        ],
+        "groups": [
+          {
+            "id": "b568-fc65-1cb-7ba4",
+            "name": "Power Klaw",
+            "min": 1,
+            "max": 1,
+            "mode": "single",
+            "options": [
+              {
+                "id": "6cdf-c444-b379-3e29",
+                "name": "Power klaw",
+                "min": 0,
+                "max": 99
+              },
+              {
+                "id": "d82a-5fe1-8209-0442",
+                "name": "Killsaw",
+                "min": 0,
+                "max": 99
+              }
+            ],
+            "defaultOptionId": "6cdf-c444-b379-3e29"
+          }
+        ]
+      }
+    ]
+  },
+  "939f-63bc-4a63-4d93": {
+    "groups": [
+      {
+        "id": "e1db-7da0-2633-ebd2",
+        "name": "Skorchas (1-2)",
+        "min": 1,
+        "max": 2,
+        "mode": "count",
+        "options": [
+          {
+            "id": "bdc3-aa17-230c-4958",
+            "name": "Skorchas",
+            "min": 1,
+            "max": 2,
+            "equippedWith": "Skorcha and Spiked wheel"
+          }
+        ],
+        "defaultOptionId": "bdc3-aa17-230c-4958"
+      }
+    ]
+  },
+  "9e51-a749-18ba-2ea4": {
+    "groups": [
+      {
+        "id": "1ee6-966f-445b-c1d8",
+        "name": "Wartrakks (1-2)",
+        "min": 1,
+        "max": 2,
+        "mode": "count",
+        "options": [
+          {
+            "id": "29dc-3128-a272-807f",
+            "name": "Wartrakks w/ Twin big shoota",
+            "min": 0,
+            "max": 2,
+            "equippedWith": "Twin big shoota and Spiked wheel"
+          },
+          {
+            "id": "2690-b230-b4-ffee",
+            "name": "Wartrakks w/ Rack of rokkits",
+            "min": 0,
+            "max": 2,
+            "equippedWith": "Rack of rokkits and Spiked wheel"
+          }
+        ],
+        "defaultOptionId": "29dc-3128-a272-807f"
+      }
+    ]
+  },
+  "e969-cbc8-60a6-affb": {
+    "groups": [
+      {
+        "id": "9faa-38d2-6fb7-24bb",
+        "name": "Warbuggies (1-2)",
+        "min": 1,
+        "max": 2,
+        "mode": "count",
+        "options": [
+          {
+            "id": "41eb-f6ef-688b-e54",
+            "name": "Warbuggies w/ Twin big shoota",
+            "min": 0,
+            "max": 2,
+            "equippedWith": "Twin big shoota and Spiked wheel"
+          },
+          {
+            "id": "1a99-5d51-63-683f",
+            "name": "Warbuggies w/ Rack of rokkits",
+            "min": 0,
+            "max": 2,
+            "equippedWith": "Rack of rokkits and Spiked wheel"
+          }
+        ],
+        "defaultOptionId": "41eb-f6ef-688b-e54"
+      }
+    ]
+  },
+  "7eb0-5bc7-24c-6cb4": {
+    "groups": [
+      {
+        "id": "9b03-20cf-bd03-10b4",
+        "name": "Big Gunz",
+        "min": 1,
+        "max": 2,
+        "mode": "count",
+        "options": [
+          {
+            "id": "145f-7113-8466-d544",
+            "name": "Big Gunz w/ Kannon",
+            "min": 0,
+            "max": 2,
+            "groups": [
+              {
+                "id": "ee46-f404-b86d-7a5f",
+                "name": "Wargear",
+                "min": 0,
+                "max": 99,
+                "mode": "count",
+                "options": [
+                  {
+                    "id": "89b2-c3b0-388b-e03a",
+                    "name": "Kannon",
+                    "min": 1,
+                    "max": 1
+                  },
+                  {
+                    "id": "b156-abe0-7d41-ddda",
+                    "name": "Close combat weapons",
+                    "min": 1,
+                    "max": 1
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "14e1-a15e-e987-5c3c",
+            "name": "Big Gunz w/ Lobba",
+            "min": 0,
+            "max": 2,
+            "groups": [
+              {
+                "id": "9299-9b58-5e13-2ea1",
+                "name": "Wargear",
+                "min": 0,
+                "max": 99,
+                "mode": "count",
+                "options": [
+                  {
+                    "id": "2201-5df6-eea7-e216",
+                    "name": "Lobba",
+                    "min": 1,
+                    "max": 1
+                  },
+                  {
+                    "id": "128b-9bdf-997c-96a4",
+                    "name": "Close combat weapons",
+                    "min": 1,
+                    "max": 1
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "565b-5d57-1578-36bb",
+            "name": "Big Gunz w/ Zzap gun",
+            "min": 0,
+            "max": 2,
+            "groups": [
+              {
+                "id": "d4f7-4690-c698-ad7e",
+                "name": "Wargear",
+                "min": 0,
+                "max": 99,
+                "mode": "count",
+                "options": [
+                  {
+                    "id": "2e1d-6e80-e77d-69d9",
+                    "name": "Zzap gun",
+                    "min": 1,
+                    "max": 1
+                  },
+                  {
+                    "id": "1872-5364-e1d5-6707",
+                    "name": "Close combat weapons",
+                    "min": 1,
+                    "max": 1
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "defaultOptionId": "145f-7113-8466-d544"
+      }
+    ]
+  },
+  "3444-a152-c9e6-31aa": {
+    "groups": [
+      {
+        "id": "c721-5cd5-3190-4b5e",
+        "name": "Wargear",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "4b3d-dca5-3cda-b29d",
+            "name": "Krusha kannon",
+            "min": 1,
+            "max": 1
+          },
+          {
+            "id": "8d1e-3739-a173-9b91",
+            "name": "Tracks and wheels",
+            "min": 1,
+            "max": 1
+          }
+        ],
+        "groups": [
+          {
+            "id": "7e0a-c897-9ef6-9752",
+            "name": "Wargear Options (0-2)",
+            "min": 0,
+            "max": 2,
+            "mode": "count",
+            "options": [
+              {
+                "id": "2e66-f76f-4880-9897",
+                "name": "2 Rokkit launchas",
+                "min": 0,
+                "max": 2
+              },
+              {
+                "id": "9cd9-9830-add8-c7f8",
+                "name": "Twin big shoota",
+                "min": 0,
+                "max": 2
+              },
+              {
+                "id": "674b-7459-ce8a-5e7f",
+                "name": "Skorcha",
+                "min": 0,
+                "max": 2
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "8c96-c1f0-63ff-d6a9": {
+    "groups": [
+      {
+        "id": "09b5-0bc6-87c1-98ab",
+        "name": "Wargear",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "49f2-85d8-86db-7fdc",
+            "name": "Deff rolla",
+            "min": 1,
+            "max": 1
+          }
+        ],
+        "groups": [
+          {
+            "id": "6d7e-3046-8d01-6a36",
+            "name": "Big Gunz",
+            "min": 3,
+            "max": 3,
+            "mode": "count",
+            "options": [
+              {
+                "id": "f587-96e-8972-71a2",
+                "name": "Zzap gun",
+                "min": 2,
+                "max": 3
+              },
+              {
+                "id": "2f65-2b9d-1968-4cd5",
+                "name": "Kannon",
+                "min": 1,
+                "max": 3
+              },
+              {
+                "id": "67b6-ccb6-2a12-c691",
+                "name": "Lobba",
+                "min": 0,
+                "max": 3
+              }
+            ],
+            "defaultOptionId": "d070-1a19-92cd-b925"
+          },
+          {
+            "id": "64f7-2833-b2e6-1f31",
+            "name": "Big Shootas (0-5)",
+            "min": 0,
+            "max": 5,
+            "mode": "count",
+            "options": [
+              {
+                "id": "a87b-f43b-a214-d86b",
+                "name": "Big shoota",
+                "min": 0,
+                "max": 5
+              }
+            ]
+          },
+          {
+            "id": "5e9c-d9a2-1aaf-d0c2",
+            "name": "Twin Big Shootas",
+            "min": 2,
+            "max": 2,
+            "mode": "count",
+            "options": [
+              {
+                "id": "cd8b-6a59-841d-7a01",
+                "name": "Twin big shoota",
+                "min": 0,
+                "max": 2
+              },
+              {
+                "id": "f377-9791-191-c96f",
+                "name": "Skorcha",
+                "min": 0,
+                "max": 2
+              },
+              {
+                "id": "5a06-c20-6e22-2637",
+                "name": "Rokkit launcha",
+                "min": 0,
+                "max": 2
+              }
+            ],
+            "defaultOptionId": "cd8b-6a59-841d-7a01"
+          }
+        ]
+      }
+    ]
+  },
+  "f6cb-323b-3c25-75f7": {
+    "groups": [
+      {
+        "id": "8006-0bfe-1179-0701",
+        "name": "Wargear",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "4d62-d5f6-d4b1-18ab",
+            "name": "Armoured hull",
+            "min": 1,
+            "max": 1
+          }
+        ],
+        "groups": [
+          {
+            "id": "21a3-32b5-a8c1-147",
+            "name": "Big Bomms (0-2)",
+            "min": 0,
+            "max": 2,
+            "mode": "count",
+            "options": [
+              {
+                "id": "ab60-7362-6e45-9935",
+                "name": "Big bomms",
+                "min": 0,
+                "max": 2
+              }
+            ]
+          },
+          {
+            "id": "a048-e8e7-a613-abac",
+            "name": "Big Shoota",
+            "min": 1,
+            "max": 1,
+            "mode": "single",
+            "options": [
+              {
+                "id": "d849-e88e-213d-bd60",
+                "name": "Big shoota",
+                "min": 0,
+                "max": 99
+              },
+              {
+                "id": "6d52-9ce1-e768-5cba",
+                "name": "Kustom mega-blasta",
+                "min": 0,
+                "max": 99
+              },
+              {
+                "id": "9e71-3500-7b06-bef3",
+                "name": "Rokkit launcha",
+                "min": 0,
+                "max": 99
+              },
+              {
+                "id": "be3a-d081-e0f0-b904",
+                "name": "Skorcha",
+                "min": 0,
+                "max": 99
+              }
+            ],
+            "defaultOptionId": "d849-e88e-213d-bd60"
+          },
+          {
+            "id": "6079-5573-6bba-5b24",
+            "name": "Deffguns",
+            "min": 1,
+            "max": 1,
+            "mode": "single",
+            "options": [
+              {
+                "id": "620c-5d6b-82e7-6b4",
+                "name": "2 Deffguns",
+                "min": 0,
+                "max": 99
+              },
+              {
+                "id": "ac4-e6e2-d5b5-8928",
+                "name": "2 Rattler kannons",
+                "min": 0,
+                "max": 99
+              }
+            ],
+            "defaultOptionId": "620c-5d6b-82e7-6b4"
+          }
+        ]
+      }
+    ]
+  },
+  "dd02-c92c-fb0a-54ec": {
+    "groups": [
+      {
+        "id": "5c95-a5f4-611b-eeb1",
+        "name": "Wargear",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "5ed4-242b-198b-812a",
+            "name": "Twin big shoota",
+            "min": 3,
+            "max": 3
+          },
+          {
+            "id": "543c-1f07-767b-eaa5",
+            "name": "Armoured hull",
+            "min": 1,
+            "max": 1
+          }
+        ],
+        "groups": [
+          {
+            "id": "653e-6d8d-4f23-1be1",
+            "name": "Wargear Options",
+            "min": 0,
+            "max": 1,
+            "mode": "single",
+            "options": [
+              {
+                "id": "605e-3f70-32b-693b",
+                "name": "2 Wing missiles",
+                "min": 0,
+                "max": 99
+              },
+              {
+                "id": "49f5-61b1-d0d0-e46f",
+                "name": "2 Grot-guided bomms",
+                "min": 0,
+                "max": 99
+              },
+              {
+                "id": "89be-73ea-a3a3-42a4",
+                "name": "Small bomms",
+                "min": 0,
+                "max": 99
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "4229-83f0-b03b-bd44": {
+    "groups": [
+      {
+        "id": "5d6f-6704-1362-8033",
+        "name": "Wargear",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "bf79-afb1-e35a-6410",
+            "name": "Twin big shoota",
+            "min": 2,
+            "max": 2
+          },
+          {
+            "id": "683d-cd64-718-dbcb",
+            "name": "Wing missiles",
+            "min": 0,
+            "max": 1
+          },
+          {
+            "id": "49af-994f-dd9c-755e",
+            "name": "Armoured hull",
+            "min": 1,
+            "max": 1
+          }
+        ]
+      }
+    ]
+  },
+  "afab-635c-23c5-cacc": {
+    "groups": [
+      {
+        "id": "aadd-6ea5-a13a-2cbf",
+        "name": "Wargear",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "6b8d-e695-ea70-1193",
+            "name": "Lifta-droppa",
+            "min": 1,
+            "max": 1
+          }
+        ],
+        "groups": [
+          {
+            "id": "ebac-f97c-a529-97f2",
+            "name": "Wargear Options",
+            "min": 0,
+            "max": 99,
+            "mode": "count",
+            "options": [
+              {
+                "id": "8bdc-d59e-47a9-8cf0",
+                "name": "Grabbin' klaw",
+                "min": 0,
+                "max": 1
+              },
+              {
+                "id": "e737-889-219f-be14",
+                "name": "Wreckin' ball",
+                "min": 0,
+                "max": 1
+              }
+            ],
+            "groups": [
+              {
+                "id": "a588-439f-8146-68ea",
+                "name": "Tracks and Wheels",
+                "min": 1,
+                "max": 1,
+                "mode": "single",
+                "options": [
+                  {
+                    "id": "1746-5298-19ac-bc5a",
+                    "name": "Deff rolla",
+                    "min": 0,
+                    "max": 99
+                  },
+                  {
+                    "id": "cef2-1c81-b91e-6dbf",
+                    "name": "Tracks and wheels",
+                    "min": 0,
+                    "max": 99
+                  }
+                ],
+                "defaultOptionId": "cef2-1c81-b91e-6dbf"
+              },
+              {
+                "id": "c1cd-7e0e-e7c8-4cd7",
+                "name": "Gunz",
+                "min": 0,
+                "max": 1,
+                "mode": "single",
+                "options": [
+                  {
+                    "id": "30ff-f75c-8832-8899",
+                    "name": "1 Big shoota",
+                    "min": 0,
+                    "max": 99,
+                    "equippedWith": "Big shoota"
+                  },
+                  {
+                    "id": "c2cf-f1a9-e5d7-20de",
+                    "name": "2 Big shootas",
+                    "min": 0,
+                    "max": 99
+                  },
+                  {
+                    "id": "2610-4494-3dae-d87b",
+                    "name": "1 Rokkit launcha",
+                    "min": 0,
+                    "max": 99,
+                    "equippedWith": "Rokkit launcha"
+                  },
+                  {
+                    "id": "befd-b1f1-66e6-e5b3",
+                    "name": "2 Rokkit launchas",
+                    "min": 0,
+                    "max": 99
+                  },
+                  {
+                    "id": "eedf-4307-3af0-d39f",
+                    "name": "1 Big shoota and 1 rokkit launcha",
+                    "min": 0,
+                    "max": 99,
+                    "equippedWith": "Big shoota and Rokkit launcha"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "410e-7847-bcfc-1b62": {
+    "groups": [
+      {
+        "id": "29dd-96ab-369d-b39b",
+        "name": "Wargear",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "b0be-b98-43af-d32",
+            "name": "Grot-guided bomms",
+            "min": 1,
+            "max": 1
+          },
+          {
+            "id": "2aaf-c131-d002-9740",
+            "name": "Spiked wheel",
+            "min": 1,
+            "max": 1
+          }
+        ]
+      }
+    ]
+  },
+  "8b2-ca6b-b00c-d64c": {
+    "groups": [
+      {
+        "id": "ca53-cf0d-31e8-2745",
+        "name": "Wargear",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "9d35-2345-f5d5-20a7",
+            "name": "Twin dakkagun",
+            "min": 1,
+            "max": 1
+          },
+          {
+            "id": "936a-d4e3-edc7-01c2",
+            "name": "Close combat weapon",
+            "min": 1,
+            "max": 1
+          }
+        ],
+        "groups": [
+          {
+            "id": "38e9-915d-3f85-6888",
+            "name": "Slugga",
+            "min": 1,
+            "max": 1,
+            "mode": "single",
+            "options": [
+              {
+                "id": "27f5-548b-f42f-52bb",
+                "name": "Slugga",
+                "min": 0,
+                "max": 99
+              },
+              {
+                "id": "d4d0-3089-c473-3739",
+                "name": "Kombi-weapon",
+                "min": 0,
+                "max": 99
+              },
+              {
+                "id": "2fb0-19ec-adac-9567",
+                "name": "Kustom mega-blasta",
+                "min": 0,
+                "max": 99
+              },
+              {
+                "id": "9510-e9a8-26c0-fed7",
+                "name": "Rokkit launcha",
+                "min": 0,
+                "max": 99
+              },
+              {
+                "id": "9870-91d1-837f-9717",
+                "name": "Big choppa",
+                "min": 0,
+                "max": 99
+              },
+              {
+                "id": "c339-830b-366d-dae4",
+                "name": "Power klaw",
+                "min": 0,
+                "max": 99
+              },
+              {
+                "id": "f57d-8580-4645-8766",
+                "name": "Kustom mega-slugga",
+                "min": 0,
+                "max": 99
+              },
+              {
+                "id": "4362-996f-9fc4-dbc6",
+                "name": "Kustom force field",
+                "min": 0,
+                "max": 99
+              },
+              {
+                "id": "518b-ffc6-da4e-6c0d",
+                "name": "Shokk attack gun",
+                "min": 0,
+                "max": 99
+              }
+            ],
+            "defaultOptionId": "27f5-548b-f42f-52bb"
+          },
+          {
+            "id": "ca57-1c11-4d15-6e3",
+            "name": "Choppa",
+            "min": 1,
+            "max": 1,
+            "mode": "single",
+            "options": [
+              {
+                "id": "c65-4eee-17d-81c6",
+                "name": "Kombi-weapon",
+                "min": 0,
+                "max": 99
+              },
+              {
+                "id": "f8a9-c125-ed2d-f167",
+                "name": "Kustom mega-blasta",
+                "min": 0,
+                "max": 99
+              },
+              {
+                "id": "7534-df98-75fd-8844",
+                "name": "Rokkit launcha",
+                "min": 0,
+                "max": 99
+              },
+              {
+                "id": "7255-65e5-72ce-6514",
+                "name": "Choppa",
+                "min": 0,
+                "max": 99
+              },
+              {
+                "id": "9a7a-ce95-23ff-2be9",
+                "name": "Big choppa",
+                "min": 0,
+                "max": 99
+              },
+              {
+                "id": "79a4-04f7-f896-36cb",
+                "name": "Power klaw",
+                "min": 0,
+                "max": 99
+              },
+              {
+                "id": "5af6-2f8b-d073-37fe",
+                "name": "Killsaw",
+                "min": 0,
+                "max": 99
+              },
+              {
+                "id": "053c-feb1-c05c-5e16",
+                "name": "Kustom mega-slugga",
+                "min": 0,
+                "max": 99
+              }
+            ],
+            "defaultOptionId": "4ad9-4247-42dd-df68"
+          }
+        ]
+      }
+    ]
+  },
+  "fbee-427a-1c46-f621": {
+    "groups": [
+      {
+        "id": "e9ae-e89a-b35d-17ec",
+        "name": "Wargear",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [],
+        "groups": [
+          {
+            "id": "1a50-bfbe-962d-823",
+            "name": "Power Klaw",
+            "min": 1,
+            "max": 1,
+            "mode": "single",
+            "options": [
+              {
+                "id": "f197-c16b-9247-ca64",
+                "name": "Drilla",
+                "min": 0,
+                "max": 99
+              },
+              {
+                "id": "55b2-cc66-2517-6ed3",
+                "name": "Power klaw",
+                "min": 0,
+                "max": 99
+              }
+            ],
+            "defaultOptionId": "55b2-cc66-2517-6ed3"
+          },
+          {
+            "id": "9511-755a-8f81-9786",
+            "name": "Kustom Mega-blasta",
+            "min": 1,
+            "max": 1,
+            "mode": "single",
+            "options": [
+              {
+                "id": "4e4c-72ff-5df9-fe49",
+                "name": "Traktor blasta",
+                "min": 0,
+                "max": 99
+              },
+              {
+                "id": "7dd8-884a-5bdb-1b23",
+                "name": "Kustom mega-blasta",
+                "min": 0,
+                "max": 99
+              }
+            ],
+            "defaultOptionId": "2ffe-fa58-14cc-13"
+          }
+        ]
+      }
+    ]
+  },
+  "a596-3d99-257e-0ea1": {
+    "groups": [
+      {
+        "id": "616f-71b9-bc04-a9f9",
+        "name": "Breaka Boyz",
+        "min": 5,
+        "max": 5,
+        "mode": "count",
+        "options": [
+          {
+            "id": "6334-c1dc-0d7c-afda",
+            "name": "Breaka Boy",
+            "min": 3,
+            "max": 5,
+            "equippedWith": "Smash hammer"
+          },
+          {
+            "id": "80cc-5d2c-8d46-c853",
+            "name": "Breaka Boy w/ Tankhammer",
+            "min": 0,
+            "max": 1
+          },
+          {
+            "id": "0cba-8084-d5d3-051c",
+            "name": "Breaka Boy w/ Knucklebustas",
+            "min": 0,
+            "max": 1
+          }
+        ],
+        "defaultOptionId": "6334-c1dc-0d7c-afda"
+      },
+      {
+        "id": "8d2d-91c1-0d11-be58",
+        "name": "Boss Nob",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "02b4-bc44-8e0e-9830",
+            "name": "Boss Nob",
+            "min": 1,
+            "max": 1,
+            "groups": [
+              {
+                "id": "7d9e-641f-61fc-65cc",
+                "name": "Wargear Options",
+                "min": 2,
+                "max": 2,
+                "mode": "count",
+                "options": [
+                  {
+                    "id": "5eb7-e403-1abe-3160",
+                    "name": "Rokkit pistol",
+                    "min": 1,
+                    "max": 2
+                  },
+                  {
+                    "id": "a35e-42b2-c786-aa66",
+                    "name": "Smash hammer",
+                    "min": 0,
+                    "max": 1
+                  }
+                ],
+                "defaultOptionId": "a35e-42b2-c786-aa66"
+              }
+            ],
+            "equippedWith": "Choppa"
+          }
+        ]
+      }
+    ]
+  }
+}

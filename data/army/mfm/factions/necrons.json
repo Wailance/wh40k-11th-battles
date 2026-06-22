@@ -1,0 +1,1892 @@
+{
+  "slug": "necrons",
+  "name": "Necrons",
+  "version": "1.0",
+  "firstSeen": "2026-06-17",
+  "detachments": [
+    {
+      "name": "Annihilation Legion",
+      "dp": 2,
+      "objective": "PURGE THE FOE",
+      "enhancements": [
+        {
+          "name": "Eldritch Nightmare",
+          "points": 10,
+          "detachment": "Annihilation Legion"
+        },
+        {
+          "name": "Eternal Madness",
+          "points": 20,
+          "detachment": "Annihilation Legion"
+        },
+        {
+          "name": "Ingrained Superiority",
+          "points": 5,
+          "detachment": "Annihilation Legion"
+        },
+        {
+          "name": "Soulless Reaper",
+          "points": 15,
+          "detachment": "Annihilation Legion"
+        }
+      ]
+    },
+    {
+      "name": "Awakened Dynasty",
+      "dp": 3,
+      "objective": "TAKE AND HOLD",
+      "enhancements": [
+        {
+          "name": "Enaegic Dermal Bond",
+          "points": 30,
+          "detachment": "Awakened Dynasty"
+        },
+        {
+          "name": "Nether-realm Casket",
+          "points": 20,
+          "detachment": "Awakened Dynasty"
+        },
+        {
+          "name": "Phasal Subjugator",
+          "points": 35,
+          "detachment": "Awakened Dynasty"
+        },
+        {
+          "name": "Veil of Darkness",
+          "points": 20,
+          "detachment": "Awakened Dynasty"
+        }
+      ]
+    },
+    {
+      "name": "Canoptek Court",
+      "dp": 3,
+      "objective": "TAKE AND HOLD",
+      "enhancements": [
+        {
+          "name": "Autodivinator",
+          "points": 15,
+          "detachment": "Canoptek Court"
+        },
+        {
+          "name": "Dimensional Sanctum",
+          "points": 20,
+          "detachment": "Canoptek Court"
+        },
+        {
+          "name": "Hyperphasic Fulcrum",
+          "points": 15,
+          "detachment": "Canoptek Court"
+        },
+        {
+          "name": "Metalodermal Tesla Weave",
+          "points": 10,
+          "detachment": "Canoptek Court"
+        }
+      ]
+    },
+    {
+      "name": "Cryptek Conclave",
+      "dp": 2,
+      "objective": "PRIORITY ASSETS",
+      "enhancements": [
+        {
+          "name": "Atomic Disintegrators",
+          "points": 10,
+          "detachment": "Cryptek Conclave"
+        },
+        {
+          "name": "Gauntlet of Compression",
+          "points": 20,
+          "detachment": "Cryptek Conclave"
+        },
+        {
+          "name": "Gravitic Bolas",
+          "points": 15,
+          "detachment": "Cryptek Conclave"
+        },
+        {
+          "name": "Quantum Abacus",
+          "points": 15,
+          "detachment": "Cryptek Conclave"
+        }
+      ]
+    },
+    {
+      "name": "Cursed Legion",
+      "dp": 2,
+      "objective": "PURGE THE FOE",
+      "enhancements": [
+        {
+          "name": "Cursed Circlet",
+          "points": 25,
+          "detachment": "Cursed Legion"
+        },
+        {
+          "name": "Destroyer Ankh",
+          "points": 20,
+          "detachment": "Cursed Legion"
+        },
+        {
+          "name": "Mark of the Nekrosor",
+          "points": 20,
+          "detachment": "Cursed Legion"
+        },
+        {
+          "name": "Murdermind",
+          "points": 15,
+          "detachment": "Cursed Legion"
+        }
+      ]
+    },
+    {
+      "name": "Hand Of The Dynasty",
+      "dp": 1,
+      "objective": "TAKE AND HOLD",
+      "enhancements": [
+        {
+          "name": "Enlivened Sentinels (Upgrade)",
+          "points": 20,
+          "detachment": "Hand Of The Dynasty"
+        },
+        {
+          "name": "Tools of Dominion (Upgrade)",
+          "points": 15,
+          "detachment": "Hand Of The Dynasty"
+        }
+      ]
+    },
+    {
+      "name": "Hypercrypt Legion",
+      "dp": 2,
+      "objective": "RECONNAISSANCE",
+      "enhancements": [
+        {
+          "name": "Arisen Tyrant",
+          "points": 25,
+          "detachment": "Hypercrypt Legion"
+        },
+        {
+          "name": "Dimensional Overseer",
+          "points": 25,
+          "detachment": "Hypercrypt Legion"
+        },
+        {
+          "name": "Hyperspatial Transfer Node",
+          "points": 15,
+          "detachment": "Hypercrypt Legion"
+        },
+        {
+          "name": "Osteoclave Fulcrum",
+          "points": 20,
+          "detachment": "Hypercrypt Legion"
+        }
+      ]
+    },
+    {
+      "name": "Obeisance Phalanx",
+      "dp": 2,
+      "objective": "DISRUPTION",
+      "enhancements": [
+        {
+          "name": "Eternal Conqueror",
+          "points": 25,
+          "detachment": "Obeisance Phalanx"
+        },
+        {
+          "name": "Honourable Combatant",
+          "points": 10,
+          "detachment": "Obeisance Phalanx"
+        },
+        {
+          "name": "Unflinching Will",
+          "points": 20,
+          "detachment": "Obeisance Phalanx"
+        },
+        {
+          "name": "Warrior Noble",
+          "points": 15,
+          "detachment": "Obeisance Phalanx"
+        }
+      ]
+    },
+    {
+      "name": "Pantheon Of Woe",
+      "dp": 2,
+      "objective": "PURGE THE FOE",
+      "enhancements": [
+        {
+          "name": "Animus Damper",
+          "points": 35,
+          "detachment": "Pantheon Of Woe"
+        },
+        {
+          "name": "Quantum Goad",
+          "points": 45,
+          "detachment": "Pantheon Of Woe"
+        },
+        {
+          "name": "Reletavistic Tether",
+          "points": 40,
+          "detachment": "Pantheon Of Woe"
+        },
+        {
+          "name": "Singularity Matrix",
+          "points": 45,
+          "detachment": "Pantheon Of Woe"
+        }
+      ]
+    },
+    {
+      "name": "Skyshroud Spearhead",
+      "dp": 1,
+      "objective": "RECONNAISSANCE",
+      "enhancements": [
+        {
+          "name": "Deepening Madness (Upgrade)",
+          "points": 20,
+          "detachment": "Skyshroud Spearhead"
+        },
+        {
+          "name": "Recursive Reanimation (Upgrade)",
+          "points": 5,
+          "detachment": "Skyshroud Spearhead"
+        }
+      ]
+    },
+    {
+      "name": "Starshatter Arsenal",
+      "dp": 3,
+      "objective": "PRIORITY ASSETS",
+      "enhancements": [
+        {
+          "name": "Chrono-impedance Fields",
+          "points": 25,
+          "detachment": "Starshatter Arsenal"
+        },
+        {
+          "name": "Demanding Leader",
+          "points": 10,
+          "detachment": "Starshatter Arsenal"
+        },
+        {
+          "name": "Dread Majesty",
+          "points": 30,
+          "detachment": "Starshatter Arsenal"
+        },
+        {
+          "name": "Miniaturised Nebuloscope",
+          "points": 15,
+          "detachment": "Starshatter Arsenal"
+        }
+      ]
+    },
+    {
+      "name": "The Phaeron'S Armoury",
+      "dp": 1,
+      "objective": "PRIORITY ASSETS",
+      "enhancements": [
+        {
+          "name": "Mortality Shroud (Aura) (Upgrade)",
+          "points": 10,
+          "detachment": "The Phaeron'S Armoury"
+        },
+        {
+          "name": "Prelocational Optimiser",
+          "points": 25,
+          "detachment": "The Phaeron'S Armoury"
+        }
+      ]
+    }
+  ],
+  "units": [
+    {
+      "name": "Annihilation Barge",
+      "normalizedName": "annihilation barge",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 95
+            }
+          ]
+        }
+      ],
+      "points": 95,
+      "pointsLabel": "95",
+      "legends": false
+    },
+    {
+      "name": "Anrakyr The Traveller",
+      "normalizedName": "anrakyr the traveller",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 95
+            }
+          ]
+        }
+      ],
+      "points": 95,
+      "pointsLabel": "95",
+      "legends": true,
+      "role": "leader",
+      "attachTo": [
+        "Immortals"
+      ]
+    },
+    {
+      "name": "C’Tan Shard Of The Deceiver",
+      "normalizedName": "ctan shard of the deceiver",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 330
+            }
+          ]
+        }
+      ],
+      "points": 330,
+      "pointsLabel": "330",
+      "legends": false
+    },
+    {
+      "name": "C’Tan Shard Of The Nightbringer",
+      "normalizedName": "ctan shard of the nightbringer",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 360
+            }
+          ]
+        }
+      ],
+      "points": 360,
+      "pointsLabel": "360",
+      "legends": false
+    },
+    {
+      "name": "C’Tan Shard Of The Void Dragon",
+      "normalizedName": "ctan shard of the void dragon",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 345
+            }
+          ]
+        }
+      ],
+      "points": 345,
+      "pointsLabel": "345",
+      "legends": false
+    },
+    {
+      "name": "Canoptek Acanthrites",
+      "normalizedName": "canoptek acanthrites",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 3,
+              "points": 85
+            },
+            {
+              "models": 6,
+              "points": 170
+            }
+          ]
+        }
+      ],
+      "points": 85,
+      "pointsLabel": "85/170",
+      "legends": true
+    },
+    {
+      "name": "Canoptek Doomstalker",
+      "normalizedName": "canoptek doomstalker",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 140
+            }
+          ]
+        }
+      ],
+      "points": 140,
+      "pointsLabel": "140",
+      "legends": false
+    },
+    {
+      "name": "Canoptek Macrocytes",
+      "normalizedName": "canoptek macrocytes",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 5,
+              "points": 70
+            }
+          ]
+        }
+      ],
+      "points": 70,
+      "pointsLabel": "70",
+      "legends": false
+    },
+    {
+      "name": "Canoptek Reanimator",
+      "normalizedName": "canoptek reanimator",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 70
+            }
+          ]
+        }
+      ],
+      "points": 70,
+      "pointsLabel": "70",
+      "legends": false
+    },
+    {
+      "name": "Canoptek Scarab Swarms",
+      "normalizedName": "canoptek scarab swarms",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 3,
+              "points": 40
+            },
+            {
+              "models": 6,
+              "points": 80
+            }
+          ]
+        }
+      ],
+      "points": 40,
+      "pointsLabel": "40/80",
+      "legends": false
+    },
+    {
+      "name": "Canoptek Spyders",
+      "normalizedName": "canoptek spyders",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 65
+            },
+            {
+              "models": 2,
+              "points": 110
+            }
+          ]
+        }
+      ],
+      "points": 65,
+      "pointsLabel": "65/110",
+      "legends": false
+    },
+    {
+      "name": "Canoptek Tomb Crawlers",
+      "normalizedName": "canoptek tomb crawlers",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 2,
+              "points": 50
+            }
+          ]
+        }
+      ],
+      "points": 50,
+      "pointsLabel": "50",
+      "legends": false
+    },
+    {
+      "name": "Canoptek Tomb Sentinel",
+      "normalizedName": "canoptek tomb sentinel",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 115
+            }
+          ]
+        }
+      ],
+      "points": 115,
+      "pointsLabel": "115",
+      "legends": true
+    },
+    {
+      "name": "Canoptek Tomb Stalker",
+      "normalizedName": "canoptek tomb stalker",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 130
+            }
+          ]
+        }
+      ],
+      "points": 130,
+      "pointsLabel": "130",
+      "legends": true
+    },
+    {
+      "name": "Canoptek Wraiths",
+      "normalizedName": "canoptek wraiths",
+      "pricing": [
+        {
+          "range": "[1,1]",
+          "label": "Your 1st Unit Costs",
+          "costs": [
+            {
+              "models": 3,
+              "points": 95
+            },
+            {
+              "models": 6,
+              "points": 220
+            }
+          ]
+        },
+        {
+          "range": "[2,)",
+          "label": "Your 2nd + Unit Costs",
+          "costs": [
+            {
+              "models": 3,
+              "points": 115
+            },
+            {
+              "models": 6,
+              "points": 240
+            }
+          ]
+        }
+      ],
+      "points": 95,
+      "pointsLabel": "95/220",
+      "legends": false
+    },
+    {
+      "name": "Catacomb Command Barge",
+      "normalizedName": "catacomb command barge",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 120
+            }
+          ]
+        }
+      ],
+      "points": 120,
+      "pointsLabel": "120",
+      "legends": false
+    },
+    {
+      "name": "Chronomancer",
+      "normalizedName": "chronomancer",
+      "pricing": [
+        {
+          "range": "[1,1]",
+          "label": "Your 1st Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 80
+            }
+          ]
+        },
+        {
+          "range": "[2,)",
+          "label": "Your 2nd + Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 90
+            }
+          ]
+        }
+      ],
+      "points": 80,
+      "pointsLabel": "80",
+      "legends": false,
+      "role": "support",
+      "attachTo": [
+        "Immortals",
+        "Necron Warriors"
+      ]
+    },
+    {
+      "name": "Convergence Of Dominion",
+      "normalizedName": "convergence of dominion",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 60
+            },
+            {
+              "models": 2,
+              "points": 120
+            },
+            {
+              "models": 3,
+              "points": 180
+            }
+          ]
+        }
+      ],
+      "points": 60,
+      "pointsLabel": "60/120/180",
+      "legends": false
+    },
+    {
+      "name": "Cryptothralls",
+      "normalizedName": "cryptothralls",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 2,
+              "points": 60
+            }
+          ]
+        }
+      ],
+      "points": 60,
+      "pointsLabel": "60",
+      "legends": false
+    },
+    {
+      "name": "Deathmarks",
+      "normalizedName": "deathmarks",
+      "pricing": [
+        {
+          "range": "[1,2]",
+          "label": "Your 1st To 2nd Units Cost",
+          "costs": [
+            {
+              "models": 5,
+              "points": 60
+            },
+            {
+              "models": 10,
+              "points": 120
+            }
+          ]
+        },
+        {
+          "range": "[3,)",
+          "label": "Your 3rd + Unit Costs",
+          "costs": [
+            {
+              "models": 5,
+              "points": 70
+            },
+            {
+              "models": 10,
+              "points": 130
+            }
+          ]
+        }
+      ],
+      "points": 60,
+      "pointsLabel": "60/120",
+      "legends": false
+    },
+    {
+      "name": "Doom Scythe",
+      "normalizedName": "doom scythe",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 200
+            }
+          ]
+        }
+      ],
+      "points": 200,
+      "pointsLabel": "200",
+      "legends": false
+    },
+    {
+      "name": "Doomsday Ark",
+      "normalizedName": "doomsday ark",
+      "pricing": [
+        {
+          "range": "[1,2]",
+          "label": "Your 1st To 2nd Units Cost",
+          "costs": [
+            {
+              "models": 1,
+              "points": 200
+            }
+          ]
+        },
+        {
+          "range": "[3,)",
+          "label": "Your 3rd + Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 220
+            }
+          ]
+        }
+      ],
+      "points": 200,
+      "pointsLabel": "200",
+      "legends": false
+    },
+    {
+      "name": "Flayed Ones",
+      "normalizedName": "flayed ones",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 5,
+              "points": 55
+            },
+            {
+              "models": 10,
+              "points": 100
+            }
+          ]
+        }
+      ],
+      "points": 55,
+      "pointsLabel": "55/100",
+      "legends": false
+    },
+    {
+      "name": "Gauss Pylon",
+      "normalizedName": "gauss pylon",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 210
+            }
+          ]
+        }
+      ],
+      "points": 210,
+      "pointsLabel": "210",
+      "legends": true
+    },
+    {
+      "name": "Geomancer",
+      "normalizedName": "geomancer",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 75
+            }
+          ]
+        }
+      ],
+      "points": 75,
+      "pointsLabel": "75",
+      "legends": false,
+      "role": "support",
+      "attachTo": [
+        "Canoptek Macrocytes",
+        "Immortals",
+        "Necron Warriors"
+      ]
+    },
+    {
+      "name": "Ghost Ark",
+      "normalizedName": "ghost ark",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 100
+            }
+          ]
+        }
+      ],
+      "points": 100,
+      "pointsLabel": "100",
+      "legends": false
+    },
+    {
+      "name": "Hexmark Destroyer",
+      "normalizedName": "hexmark destroyer",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 75
+            }
+          ]
+        }
+      ],
+      "points": 75,
+      "pointsLabel": "75",
+      "legends": false
+    },
+    {
+      "name": "Illuminor Szeras",
+      "normalizedName": "illuminor szeras",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 175
+            }
+          ]
+        }
+      ],
+      "points": 175,
+      "pointsLabel": "175",
+      "legends": false
+    },
+    {
+      "name": "Immortals",
+      "normalizedName": "immortals",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 5,
+              "points": 70
+            },
+            {
+              "models": 10,
+              "points": 140
+            }
+          ]
+        }
+      ],
+      "points": 70,
+      "pointsLabel": "70/140",
+      "legends": false
+    },
+    {
+      "name": "Imotekh The Stormlord",
+      "normalizedName": "imotekh the stormlord",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 100
+            }
+          ]
+        }
+      ],
+      "points": 100,
+      "pointsLabel": "100",
+      "legends": false,
+      "role": "leader",
+      "attachTo": [
+        "Immortals",
+        "Lychguard",
+        "Necron Warriors"
+      ]
+    },
+    {
+      "name": "Lokhust Destroyers",
+      "normalizedName": "lokhust destroyers",
+      "pricing": [
+        {
+          "range": "[1,2]",
+          "label": "Your 1st To 2nd Units Cost",
+          "costs": [
+            {
+              "models": 1,
+              "points": 40
+            },
+            {
+              "models": 2,
+              "points": 55
+            },
+            {
+              "models": 3,
+              "points": 80
+            },
+            {
+              "models": 6,
+              "points": 160
+            }
+          ]
+        },
+        {
+          "range": "[3,)",
+          "label": "Your 3rd + Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 50
+            },
+            {
+              "models": 2,
+              "points": 65
+            },
+            {
+              "models": 3,
+              "points": 90
+            },
+            {
+              "models": 6,
+              "points": 170
+            }
+          ]
+        }
+      ],
+      "points": 40,
+      "pointsLabel": "40/55/80/160",
+      "legends": false
+    },
+    {
+      "name": "Lokhust Heavy Destroyers",
+      "normalizedName": "lokhust heavy destroyers",
+      "pricing": [
+        {
+          "range": "[1,2]",
+          "label": "Your 1st To 2nd Units Cost",
+          "costs": [
+            {
+              "models": 1,
+              "points": 50
+            },
+            {
+              "models": 2,
+              "points": 100
+            },
+            {
+              "models": 3,
+              "points": 150
+            }
+          ]
+        },
+        {
+          "range": "[3,)",
+          "label": "Your 3rd + Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 60
+            },
+            {
+              "models": 2,
+              "points": 110
+            },
+            {
+              "models": 3,
+              "points": 160
+            }
+          ]
+        }
+      ],
+      "points": 50,
+      "pointsLabel": "50/100/150",
+      "legends": false
+    },
+    {
+      "name": "Lokhust Lord",
+      "normalizedName": "lokhust lord",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 70
+            }
+          ]
+        }
+      ],
+      "points": 70,
+      "pointsLabel": "70",
+      "legends": false,
+      "role": "leader",
+      "attachTo": [
+        "Lokhust Destroyers",
+        "Lokhust Heavy Destroyers"
+      ]
+    },
+    {
+      "name": "Lord",
+      "normalizedName": "lord",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 65
+            }
+          ]
+        }
+      ],
+      "points": 65,
+      "pointsLabel": "65",
+      "legends": true,
+      "role": "leader",
+      "attachTo": [
+        "Immortals",
+        "Lychguard",
+        "Necron Warriors"
+      ]
+    },
+    {
+      "name": "Lychguard",
+      "normalizedName": "lychguard",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 5,
+              "points": 80
+            },
+            {
+              "models": 10,
+              "points": 160
+            }
+          ]
+        }
+      ],
+      "points": 80,
+      "pointsLabel": "80/160",
+      "legends": false
+    },
+    {
+      "name": "Monolith",
+      "normalizedName": "monolith",
+      "pricing": [
+        {
+          "range": "[1,1]",
+          "label": "Your 1st Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 420
+            }
+          ]
+        },
+        {
+          "range": "[2,)",
+          "label": "Your 2nd + Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 440
+            }
+          ]
+        }
+      ],
+      "points": 420,
+      "pointsLabel": "420",
+      "legends": false
+    },
+    {
+      "name": "Necron Warriors",
+      "normalizedName": "necron warriors",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 10,
+              "points": 80
+            },
+            {
+              "models": 20,
+              "points": 190
+            }
+          ]
+        }
+      ],
+      "points": 80,
+      "pointsLabel": "80/190",
+      "legends": false
+    },
+    {
+      "name": "Nekrosor Ammentar",
+      "normalizedName": "nekrosor ammentar",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 175
+            }
+          ]
+        }
+      ],
+      "points": 175,
+      "pointsLabel": "175",
+      "legends": false
+    },
+    {
+      "name": "Nemesor Zahndrekh",
+      "normalizedName": "nemesor zahndrekh",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 85
+            }
+          ]
+        }
+      ],
+      "points": 85,
+      "pointsLabel": "85",
+      "legends": true,
+      "role": "leader",
+      "attachTo": [
+        "Immortals",
+        "Lychguard",
+        "Necron Warriors"
+      ]
+    },
+    {
+      "name": "Night Scythe",
+      "normalizedName": "night scythe",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 125
+            }
+          ]
+        }
+      ],
+      "points": 125,
+      "pointsLabel": "125",
+      "legends": false
+    },
+    {
+      "name": "Night Shroud",
+      "normalizedName": "night shroud",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 140
+            }
+          ]
+        }
+      ],
+      "points": 140,
+      "pointsLabel": "140",
+      "legends": true
+    },
+    {
+      "name": "Obelisk",
+      "normalizedName": "obelisk",
+      "pricing": [
+        {
+          "range": "[1,1]",
+          "label": "Your 1st Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 280
+            }
+          ]
+        },
+        {
+          "range": "[2,)",
+          "label": "Your 2nd + Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 310
+            }
+          ]
+        }
+      ],
+      "points": 280,
+      "pointsLabel": "280",
+      "legends": false
+    },
+    {
+      "name": "Ophydian Destroyers",
+      "normalizedName": "ophydian destroyers",
+      "pricing": [
+        {
+          "range": "[1,2]",
+          "label": "Your 1st To 2nd Units Cost",
+          "costs": [
+            {
+              "models": 3,
+              "points": 80
+            },
+            {
+              "models": 6,
+              "points": 145
+            }
+          ]
+        },
+        {
+          "range": "[3,)",
+          "label": "Your 3rd + Unit Costs",
+          "costs": [
+            {
+              "models": 3,
+              "points": 90
+            },
+            {
+              "models": 6,
+              "points": 155
+            }
+          ]
+        }
+      ],
+      "points": 80,
+      "pointsLabel": "80/145",
+      "legends": false
+    },
+    {
+      "name": "Orikan The Diviner",
+      "normalizedName": "orikan the diviner",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 90
+            }
+          ]
+        }
+      ],
+      "points": 90,
+      "pointsLabel": "90",
+      "legends": false,
+      "role": "support",
+      "attachTo": [
+        "Immortals",
+        "Necron Warriors"
+      ]
+    },
+    {
+      "name": "Overlord",
+      "normalizedName": "overlord",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 90
+            }
+          ]
+        }
+      ],
+      "points": 90,
+      "pointsLabel": "90",
+      "legends": false,
+      "role": "leader",
+      "attachTo": [
+        "Immortals",
+        "Lychguard",
+        "Necron Warriors"
+      ]
+    },
+    {
+      "name": "Overlord With Translocation Shroud",
+      "normalizedName": "overlord with translocation shroud",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 90
+            }
+          ]
+        }
+      ],
+      "points": 90,
+      "pointsLabel": "90",
+      "legends": false,
+      "role": "leader",
+      "attachTo": [
+        "Immortals",
+        "Lychguard",
+        "Necron Warriors"
+      ]
+    },
+    {
+      "name": "Plasmancer",
+      "normalizedName": "plasmancer",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 55
+            }
+          ]
+        }
+      ],
+      "points": 55,
+      "pointsLabel": "55",
+      "legends": false,
+      "role": "support",
+      "attachTo": [
+        "Immortals",
+        "Necron Warriors"
+      ]
+    },
+    {
+      "name": "Psychomancer",
+      "normalizedName": "psychomancer",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 55
+            }
+          ]
+        }
+      ],
+      "points": 55,
+      "pointsLabel": "55",
+      "legends": false,
+      "role": "support",
+      "attachTo": [
+        "Immortals",
+        "Necron Warriors"
+      ]
+    },
+    {
+      "name": "Royal Warden",
+      "normalizedName": "royal warden",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 50
+            }
+          ]
+        }
+      ],
+      "points": 50,
+      "pointsLabel": "50",
+      "legends": false,
+      "role": "leader",
+      "attachTo": [
+        "Immortals",
+        "Necron Warriors"
+      ]
+    },
+    {
+      "name": "Sentry Pylons",
+      "normalizedName": "sentry pylons",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 120
+            }
+          ]
+        }
+      ],
+      "points": 120,
+      "pointsLabel": "120",
+      "legends": true
+    },
+    {
+      "name": "Seraptek Heavy Construct",
+      "normalizedName": "seraptek heavy construct",
+      "pricing": [
+        {
+          "range": "[1,1]",
+          "label": "Your 1st Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 540
+            }
+          ]
+        },
+        {
+          "range": "[2,)",
+          "label": "Your 2nd + Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 570
+            }
+          ]
+        }
+      ],
+      "points": 540,
+      "pointsLabel": "540",
+      "legends": false
+    },
+    {
+      "name": "Skorpekh Destroyers",
+      "normalizedName": "skorpekh destroyers",
+      "pricing": [
+        {
+          "range": "[1,2]",
+          "label": "Your 1st To 2nd Units Cost",
+          "costs": [
+            {
+              "models": 3,
+              "points": 85
+            },
+            {
+              "models": 6,
+              "points": 170
+            }
+          ]
+        },
+        {
+          "range": "[3,)",
+          "label": "Your 3rd + Unit Costs",
+          "costs": [
+            {
+              "models": 3,
+              "points": 95
+            },
+            {
+              "models": 6,
+              "points": 180
+            }
+          ]
+        }
+      ],
+      "points": 85,
+      "pointsLabel": "85/170",
+      "legends": false
+    },
+    {
+      "name": "Skorpekh Lord",
+      "normalizedName": "skorpekh lord",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 90
+            }
+          ]
+        }
+      ],
+      "points": 90,
+      "pointsLabel": "90",
+      "legends": false,
+      "role": "leader",
+      "attachTo": [
+        "Skorpekh Destroyers"
+      ]
+    },
+    {
+      "name": "Technomancer",
+      "normalizedName": "technomancer",
+      "pricing": [
+        {
+          "range": "[1,1]",
+          "label": "Your 1st Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 80
+            }
+          ]
+        },
+        {
+          "range": "[2,)",
+          "label": "Your 2nd + Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 90
+            }
+          ]
+        }
+      ],
+      "points": 80,
+      "pointsLabel": "80",
+      "legends": false,
+      "role": "support",
+      "attachTo": [
+        "Canoptek Wraiths",
+        "Immortals",
+        "Necron Warriors"
+      ]
+    },
+    {
+      "name": "Tesseract Ark",
+      "normalizedName": "tesseract ark",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 130
+            }
+          ]
+        }
+      ],
+      "points": 130,
+      "pointsLabel": "130",
+      "legends": true
+    },
+    {
+      "name": "Tesseract Vault",
+      "normalizedName": "tesseract vault",
+      "pricing": [
+        {
+          "range": "[1,1]",
+          "label": "Your 1st Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 445
+            }
+          ]
+        },
+        {
+          "range": "[2,)",
+          "label": "Your 2nd + Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 465
+            }
+          ]
+        }
+      ],
+      "points": 445,
+      "pointsLabel": "445",
+      "legends": false
+    },
+    {
+      "name": "The Silent King",
+      "normalizedName": "the silent king",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 3,
+              "points": 400
+            }
+          ]
+        }
+      ],
+      "points": 400,
+      "pointsLabel": "400",
+      "legends": false
+    },
+    {
+      "name": "Tomb Blades",
+      "normalizedName": "tomb blades",
+      "pricing": [
+        {
+          "range": "[1,2]",
+          "label": "Your 1st To 2nd Units Cost",
+          "costs": [
+            {
+              "models": 3,
+              "points": 70
+            },
+            {
+              "models": 6,
+              "points": 140
+            }
+          ]
+        },
+        {
+          "range": "[3,)",
+          "label": "Your 3rd + Unit Costs",
+          "costs": [
+            {
+              "models": 3,
+              "points": 80
+            },
+            {
+              "models": 6,
+              "points": 150
+            }
+          ]
+        }
+      ],
+      "points": 70,
+      "pointsLabel": "70/140",
+      "legends": false
+    },
+    {
+      "name": "Tomb Citadel Walls",
+      "normalizedName": "tomb citadel walls",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 180
+            }
+          ]
+        }
+      ],
+      "points": 180,
+      "pointsLabel": "180",
+      "legends": true
+    },
+    {
+      "name": "Transcendent C’Tan",
+      "normalizedName": "transcendent ctan",
+      "pricing": [
+        {
+          "range": "[1,1]",
+          "label": "Your 1st Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 340
+            }
+          ]
+        },
+        {
+          "range": "[2,)",
+          "label": "Your 2nd + Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 360
+            }
+          ]
+        }
+      ],
+      "points": 340,
+      "pointsLabel": "340",
+      "legends": false
+    },
+    {
+      "name": "Trazyn The Infinite",
+      "normalizedName": "trazyn the infinite",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 65
+            }
+          ]
+        }
+      ],
+      "points": 65,
+      "pointsLabel": "65",
+      "legends": false,
+      "role": "leader",
+      "attachTo": [
+        "Immortals",
+        "Lychguard",
+        "Necron Warriors"
+      ]
+    },
+    {
+      "name": "Triarch Praetorians",
+      "normalizedName": "triarch praetorians",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 5,
+              "points": 80
+            },
+            {
+              "models": 10,
+              "points": 160
+            }
+          ]
+        }
+      ],
+      "points": 80,
+      "pointsLabel": "80/160",
+      "legends": false
+    },
+    {
+      "name": "Triarch Stalker",
+      "normalizedName": "triarch stalker",
+      "pricing": [
+        {
+          "range": "[1,2]",
+          "label": "Your 1st To 2nd Units Cost",
+          "costs": [
+            {
+              "models": 1,
+              "points": 110
+            }
+          ]
+        },
+        {
+          "range": "[3,)",
+          "label": "Your 3rd + Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 120
+            }
+          ]
+        }
+      ],
+      "points": 110,
+      "pointsLabel": "110",
+      "legends": false
+    },
+    {
+      "name": "Vargard Obyron",
+      "normalizedName": "vargard obyron",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 85
+            }
+          ]
+        }
+      ],
+      "points": 85,
+      "pointsLabel": "85",
+      "legends": true,
+      "role": "leader",
+      "attachTo": [
+        "Immortals",
+        "Lychguard",
+        "Necron Warriors"
+      ]
+    }
+  ]
+}

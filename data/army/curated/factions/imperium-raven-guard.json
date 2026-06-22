@@ -76,12 +76,31 @@
           "name": "Inspiring Commander",
           "description": "If you include this model in your army, until the end of the battle, non-Character models in Assault\nIntercessors with Jump Packs units from your army have an Objective Control characteristic of 2 while they are not Battle-shocked."
         }
+      ],
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 100
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "100",
+      "mfmRole": "leader",
+      "attachTo": [
+        "Assault Intercessors With Jump Packs",
+        "Assault Squad With Jump Packs",
+        "Vanguard Veteran Squad With Jump Packs"
       ]
     },
     {
       "id": "cbb9-15e9-16ae-6597",
       "name": "Aethon Shaan",
-      "points": 110,
+      "points": 100,
       "keywords": [
         "Character",
         "Epic Hero",
@@ -133,7 +152,20 @@
           "name": "Blackwing Mantle",
           "description": "You can target this model’s unit with the Rapid Ingress and Heroic Intervention Stratagems for 0CP,\neven if you have already used that Stratagem on a different unit this phase."
         }
-      ]
+      ],
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 100
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "100"
     }
   ],
   "enhancements": []

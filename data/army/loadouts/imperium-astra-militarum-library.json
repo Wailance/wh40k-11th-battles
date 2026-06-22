@@ -1,0 +1,6132 @@
+{
+  "7e34-20cf-1149-74a1": {
+    "groups": [
+      {
+        "id": "55af-2c5d-de64-f953",
+        "name": "1-2 Armoured Sentinels",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "9a8d-8c1-315a-4948",
+            "name": "Armoured Sentinel",
+            "min": 1,
+            "max": 2,
+            "groups": [
+              {
+                "id": "bf3b-da15-a2d5-78db",
+                "name": "Wargear",
+                "min": 0,
+                "max": 99,
+                "mode": "count",
+                "options": [
+                  {
+                    "id": "c3e9-12c2-5604-a5dc",
+                    "name": "Close combat weapon",
+                    "min": 1,
+                    "max": 1
+                  },
+                  {
+                    "id": "a4ba-e0dd-db83-2d6e",
+                    "name": "Hunter-killer missile",
+                    "min": 0,
+                    "max": 1
+                  },
+                  {
+                    "id": "dd13-b27a-a0e7-7a5c",
+                    "name": "Sentinel chainsaw",
+                    "min": 0,
+                    "max": 1
+                  }
+                ],
+                "groups": [
+                  {
+                    "id": "60b-4c37-f126-68d5",
+                    "name": "Multi-laser",
+                    "min": 1,
+                    "max": 1,
+                    "mode": "single",
+                    "options": [
+                      {
+                        "id": "8ffa-a002-ced7-388a",
+                        "name": "Multi-laser",
+                        "min": 0,
+                        "max": 99
+                      },
+                      {
+                        "id": "bf47-27cc-a9ce-b017",
+                        "name": "Autocannon",
+                        "min": 0,
+                        "max": 99
+                      },
+                      {
+                        "id": "fc87-32b9-9e7b-701a",
+                        "name": "Lascannon",
+                        "min": 0,
+                        "max": 99
+                      },
+                      {
+                        "id": "757-da98-3e00-3e06",
+                        "name": "Heavy flamer",
+                        "min": 0,
+                        "max": 99
+                      },
+                      {
+                        "id": "9809-33d9-9594-f30f",
+                        "name": "Missile launcher",
+                        "min": 0,
+                        "max": 99
+                      },
+                      {
+                        "id": "525b-aaab-bb53-ca9c",
+                        "name": "Plasma cannon",
+                        "min": 0,
+                        "max": 99
+                      }
+                    ],
+                    "defaultOptionId": "8ffa-a002-ced7-388a"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "a6a1-1612-f982-31": {
+    "groups": [
+      {
+        "id": "6326-5547-d281-70bc",
+        "name": "Wargear",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "691f-b175-b914-c47a",
+            "name": "Baneblade cannon",
+            "min": 1,
+            "max": 1
+          },
+          {
+            "id": "e82c-8413-cc96-3e58",
+            "name": "Armoured tracks",
+            "min": 1,
+            "max": 1
+          },
+          {
+            "id": "758-f93a-cf5-4dca",
+            "name": "Coaxial autocannon",
+            "min": 1,
+            "max": 1
+          },
+          {
+            "id": "4b97-9c05-a7a0-4cad",
+            "name": "Demolisher cannon",
+            "min": 1,
+            "max": 1
+          },
+          {
+            "id": "8975-7736-710-759b",
+            "name": "Heavy stubber",
+            "min": 1,
+            "max": 1
+          },
+          {
+            "id": "d75e-27e5-6090-1a29",
+            "name": "Lascannon",
+            "min": 2,
+            "max": 2
+          },
+          {
+            "id": "6c48-61e1-2b0a-cf17",
+            "name": "Twin heavy bolter",
+            "min": 1,
+            "max": 1
+          }
+        ]
+      }
+    ]
+  },
+  "d10-48db-3241-ec72": {
+    "groups": [
+      {
+        "id": "af72-3bb1-08ab-e9b7",
+        "name": "Wargear",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "c129-8d55-11c6-2bc5",
+            "name": "Tremor cannon",
+            "min": 1,
+            "max": 1
+          },
+          {
+            "id": "537c-43e0-fae0-7ee2",
+            "name": "Armoured tracks",
+            "min": 1,
+            "max": 1
+          },
+          {
+            "id": "b60a-ebd6-0a23-d962",
+            "name": "Lascannon",
+            "min": 2,
+            "max": 2
+          },
+          {
+            "id": "05db-cdc0-e4af-9c55",
+            "name": "Twin heavy bolter",
+            "min": 1,
+            "max": 1
+          }
+        ]
+      }
+    ]
+  },
+  "30f5-d90a-9811-d763": {
+    "groups": [
+      {
+        "id": "71a6-3410-8ad2-172a",
+        "name": "Wargear",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "d288-8ac8-ba1-e9d7",
+            "name": "Quake cannon",
+            "min": 1,
+            "max": 1
+          },
+          {
+            "id": "02de-8f75-be46-4a52",
+            "name": "Armoured tracks",
+            "min": 1,
+            "max": 1
+          },
+          {
+            "id": "74bb-951f-4af5-c139",
+            "name": "Lascannon",
+            "min": 2,
+            "max": 2
+          },
+          {
+            "id": "3830-1943-f93f-cce4",
+            "name": "Twin heavy bolter",
+            "min": 1,
+            "max": 1
+          }
+        ]
+      }
+    ]
+  },
+  "bf53-4ab3-ff75-9aa0": {
+    "groups": [
+      {
+        "id": "69a0-87c6-6bfd-b766",
+        "name": "Wargear",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "95fd-90e5-54f7-5f34",
+            "name": "Earthshaker cannon",
+            "min": 1,
+            "max": 1
+          },
+          {
+            "id": "d990-575-bc6f-47ea",
+            "name": "Armoured tracks",
+            "min": 1,
+            "max": 1
+          }
+        ]
+      }
+    ]
+  },
+  "2b49-4d03-aaf5-3532": {
+    "groups": [
+      {
+        "id": "9a32-fa9e-ebfa-3360",
+        "name": "Wargear",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [],
+        "groups": [
+          {
+            "id": "2d1c-d7b9-fff5-45fd",
+            "name": "Laspistol",
+            "min": 1,
+            "max": 1,
+            "mode": "single",
+            "options": [
+              {
+                "id": "39e1-bd71-311f-f65c",
+                "name": "Bolt pistol",
+                "min": 0,
+                "max": 99
+              },
+              {
+                "id": "4257-b841-13f-47e0",
+                "name": "Laspistol",
+                "min": 0,
+                "max": 99
+              },
+              {
+                "id": "b543-cc43-cf4e-ff92",
+                "name": "Plasma pistol",
+                "min": 0,
+                "max": 99
+              }
+            ],
+            "defaultOptionId": "4257-b841-13f-47e0"
+          },
+          {
+            "id": "18df-42ba-b2e0-a164",
+            "name": "Chainsword",
+            "min": 1,
+            "max": 1,
+            "mode": "single",
+            "options": [
+              {
+                "id": "145d-997d-7bb8-303c",
+                "name": "Boltgun and close combat weapon",
+                "min": 0,
+                "max": 99,
+                "equippedWith": "Close combat weapon and Boltgun"
+              },
+              {
+                "id": "be28-8b62-4b23-4404",
+                "name": "Power fist",
+                "min": 0,
+                "max": 99
+              },
+              {
+                "id": "67b2-5a8a-5812-d6df",
+                "name": "Power weapon",
+                "min": 0,
+                "max": 99
+              },
+              {
+                "id": "0695-7ba0-d1b3-65ee",
+                "name": "Chainsword",
+                "min": 0,
+                "max": 99
+              }
+            ],
+            "defaultOptionId": "d296-1bb0-11bf-3b3a"
+          }
+        ]
+      }
+    ]
+  },
+  "4d28-f2a7-67c1-eb2e": {
+    "groups": [
+      {
+        "id": "9b16-d2ac-0438-bd82",
+        "name": "Cadian Commander",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "e830-b3b0-1c4f-cc0d",
+            "name": "Cadian Commander",
+            "min": 1,
+            "max": 1,
+            "groups": [
+              {
+                "id": "e96b-50ae-d75e-0f5f",
+                "name": "Wargear",
+                "min": 0,
+                "max": 99,
+                "mode": "count",
+                "options": [],
+                "groups": [
+                  {
+                    "id": "6d25-b72b-ec7e-904f",
+                    "name": "Chainsword",
+                    "min": 1,
+                    "max": 1,
+                    "mode": "single",
+                    "options": [
+                      {
+                        "id": "579-7570-767a-830f",
+                        "name": "Power fist",
+                        "min": 0,
+                        "max": 99
+                      },
+                      {
+                        "id": "59aa-2a98-dd4-37bc",
+                        "name": "Power weapon",
+                        "min": 0,
+                        "max": 99
+                      },
+                      {
+                        "id": "f853-7891-d530-ecf4",
+                        "name": "Chainsword",
+                        "min": 0,
+                        "max": 99
+                      }
+                    ],
+                    "defaultOptionId": "f853-7891-d530-ecf4"
+                  },
+                  {
+                    "id": "904-e9cc-7720-8251",
+                    "name": "Laspistol",
+                    "min": 1,
+                    "max": 1,
+                    "mode": "single",
+                    "options": [
+                      {
+                        "id": "7a32-40c7-76df-4081",
+                        "name": "Laspistol",
+                        "min": 0,
+                        "max": 99
+                      },
+                      {
+                        "id": "e107-290f-e825-e346",
+                        "name": "Bolt pistol",
+                        "min": 0,
+                        "max": 99
+                      },
+                      {
+                        "id": "417c-c979-778f-b448",
+                        "name": "Plasma pistol",
+                        "min": 0,
+                        "max": 99
+                      }
+                    ],
+                    "defaultOptionId": "7a32-40c7-76df-4081"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "e30e-3613-f593-fb0e",
+        "name": "Cadian Veteran Guardsmen",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "29df-a9ae-2225-34e9",
+            "name": "Cadian Veteran Guardsman w/ Regimental standard",
+            "min": 1,
+            "max": 1,
+            "groups": [
+              {
+                "id": "3266-b009-5078-df92",
+                "name": "Wargear Options",
+                "min": 1,
+                "max": 1,
+                "mode": "single",
+                "options": [
+                  {
+                    "id": "2951-e973-bdc3-7ba6",
+                    "name": "Regimental standard and lasgun",
+                    "min": 0,
+                    "max": 99,
+                    "equippedWith": "Regimental standard and Lasgun"
+                  },
+                  {
+                    "id": "6c4f-f23a-dfec-9aa2",
+                    "name": "Flamer",
+                    "min": 0,
+                    "max": 99
+                  },
+                  {
+                    "id": "7bd8-1b3f-b2c4-e490",
+                    "name": "Grenade launcher",
+                    "min": 0,
+                    "max": 99
+                  },
+                  {
+                    "id": "cde5-af1e-83ea-f8c1",
+                    "name": "Meltagun",
+                    "min": 0,
+                    "max": 99
+                  },
+                  {
+                    "id": "560a-661d-6d17-e45e",
+                    "name": "Plasma gun",
+                    "min": 0,
+                    "max": 99
+                  }
+                ],
+                "defaultOptionId": "2951-e973-bdc3-7ba6"
+              }
+            ],
+            "equippedWith": "Close combat weapon"
+          },
+          {
+            "id": "e27a-8715-6403-beb2",
+            "name": "Cadian Veteran Guardsman",
+            "min": 1,
+            "max": 1,
+            "groups": [
+              {
+                "id": "cb4c-a941-fe47-e06d",
+                "name": "Chainsword",
+                "min": 1,
+                "max": 1,
+                "mode": "single",
+                "options": [
+                  {
+                    "id": "c8b9-22f3-29d5-9190",
+                    "name": "Flamer and close combat weapon",
+                    "min": 0,
+                    "max": 99,
+                    "equippedWith": "Flamer and Close combat weapon"
+                  },
+                  {
+                    "id": "82ae-6ab0-b9bf-653c",
+                    "name": "Grenade launcher and close combat weapon",
+                    "min": 0,
+                    "max": 99,
+                    "equippedWith": "Close combat weapon and Grenade launcher"
+                  },
+                  {
+                    "id": "7888-3dc5-67b2-beb4",
+                    "name": "Plasma gun and close combat weapon",
+                    "min": 0,
+                    "max": 99,
+                    "equippedWith": "Close combat weapon and Plasma gun"
+                  },
+                  {
+                    "id": "8967-7839-f10a-3133",
+                    "name": "Meltagun and close combat weapon",
+                    "min": 0,
+                    "max": 99,
+                    "equippedWith": "Close combat weapon and Meltagun"
+                  },
+                  {
+                    "id": "f15d-bdc5-285c-e62e",
+                    "name": "Chainsword",
+                    "min": 0,
+                    "max": 99
+                  },
+                  {
+                    "id": "eb83-9b0e-5697-be52",
+                    "name": "Power fist",
+                    "min": 0,
+                    "max": 99
+                  },
+                  {
+                    "id": "fc10-bb5a-f637-b410",
+                    "name": "Power weapon",
+                    "min": 0,
+                    "max": 99
+                  }
+                ],
+                "defaultOptionId": "f15d-bdc5-285c-e62e"
+              },
+              {
+                "id": "af41-4488-ba17-95bd",
+                "name": "Laspistol",
+                "min": 1,
+                "max": 1,
+                "mode": "single",
+                "options": [
+                  {
+                    "id": "dd81-91f7-2b89-9579",
+                    "name": "Bolt pistol",
+                    "min": 0,
+                    "max": 99
+                  },
+                  {
+                    "id": "566e-6598-488c-26a3",
+                    "name": "Laspistol",
+                    "min": 0,
+                    "max": 99
+                  },
+                  {
+                    "id": "2a22-87a4-ddd9-c6f8",
+                    "name": "Plasma pistol",
+                    "min": 0,
+                    "max": 99
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "1a3b-10ec-4d14-6ecf",
+            "name": "Cadian Veteran Guardsman w/ Master vox",
+            "min": 1,
+            "max": 1,
+            "equippedWith": "Close combat weapon and Lasgun and Master vox"
+          },
+          {
+            "id": "e41f-68bb-44b5-5d3e",
+            "name": "Cadian Veteran Guardsman w/ Medi-pack",
+            "min": 1,
+            "max": 1,
+            "equippedWith": "Medi-pack and Close combat weapon and Lasgun"
+          }
+        ]
+      }
+    ]
+  },
+  "cf23-58db-8ba4-9ec8": {
+    "groups": [
+      {
+        "id": "5863-198b-40ff-e264",
+        "name": "Wargear",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "7792-a281-f520-fe36",
+            "name": "Lasgun array",
+            "min": 1,
+            "max": 1
+          },
+          {
+            "id": "b1a8-a90e-b7-e0ce",
+            "name": "Armoured tracks",
+            "min": 1,
+            "max": 1
+          }
+        ],
+        "groups": [
+          {
+            "id": "5622-68b7-9262-272e",
+            "name": "Wargear Options",
+            "min": 0,
+            "max": 99,
+            "mode": "count",
+            "options": [
+              {
+                "id": "709-66ee-3ae0-e6ba",
+                "name": "Hunter-killer missile",
+                "min": 0,
+                "max": 1
+              }
+            ],
+            "groups": [
+              {
+                "id": "c6fc-3d11-f250-d59f",
+                "name": "Multi-laser",
+                "min": 1,
+                "max": 1,
+                "mode": "single",
+                "options": [
+                  {
+                    "id": "a283-584d-1f51-2aad",
+                    "name": "Heavy bolter",
+                    "min": 0,
+                    "max": 99
+                  },
+                  {
+                    "id": "468c-29e1-1c99-1668",
+                    "name": "Heavy flamer",
+                    "min": 0,
+                    "max": 99
+                  },
+                  {
+                    "id": "e34e-d041-1116-86df",
+                    "name": "Multi-laser",
+                    "min": 0,
+                    "max": 99
+                  }
+                ],
+                "defaultOptionId": "e34e-d041-1116-86df"
+              },
+              {
+                "id": "c007-8a19-d23d-4977",
+                "name": "Heavy Bolter",
+                "min": 1,
+                "max": 1,
+                "mode": "single",
+                "options": [
+                  {
+                    "id": "2bb4-71cc-9f00-16c5",
+                    "name": "Heavy bolter",
+                    "min": 0,
+                    "max": 99
+                  },
+                  {
+                    "id": "d33b-4690-d04c-788e",
+                    "name": "Heavy flamer",
+                    "min": 0,
+                    "max": 99
+                  }
+                ],
+                "defaultOptionId": "2bb4-71cc-9f00-16c5"
+              },
+              {
+                "id": "2dcd-577f-eaf2-b8e0",
+                "name": "Pintle Mount",
+                "min": 0,
+                "max": 1,
+                "mode": "single",
+                "options": [
+                  {
+                    "id": "3669-edd4-8a52-105b",
+                    "name": "Storm bolter",
+                    "min": 0,
+                    "max": 99
+                  },
+                  {
+                    "id": "6d1e-d249-65c6-ea02",
+                    "name": "Heavy stubber",
+                    "min": 0,
+                    "max": 99
+                  }
+                ],
+                "defaultOptionId": "none"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "a979-5b21-dc69-b949": {
+    "groups": [
+      {
+        "id": "e380-c8f1-f67b-1564",
+        "name": "Wargear",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [],
+        "groups": [
+          {
+            "id": "2a00-5667-abe-8b4f",
+            "name": "Bolt Pistol",
+            "min": 1,
+            "max": 1,
+            "mode": "single",
+            "options": [
+              {
+                "id": "ad3-2167-f34c-2e14",
+                "name": "Bolt pistol",
+                "min": 0,
+                "max": 99
+              },
+              {
+                "id": "a6a8-4305-1831-2b1d",
+                "name": "Plasma pistol",
+                "min": 0,
+                "max": 99
+              }
+            ],
+            "defaultOptionId": "ad3-2167-f34c-2e14"
+          },
+          {
+            "id": "2f0b-0c9e-0391-7383",
+            "name": "Chainsword",
+            "min": 1,
+            "max": 1,
+            "mode": "single",
+            "options": [
+              {
+                "id": "e22b-3166-c41c-189e",
+                "name": "Power weapon",
+                "min": 0,
+                "max": 99
+              },
+              {
+                "id": "cf09-4428-9f51-d36c",
+                "name": "Chainsword",
+                "min": 0,
+                "max": 99
+              }
+            ],
+            "defaultOptionId": "cf09-4428-9f51-d36c"
+          }
+        ]
+      }
+    ]
+  },
+  "e19f-b9b8-75d5-8520": {
+    "groups": [
+      {
+        "id": "9113-8430-b730-5eb2",
+        "name": "Wargear",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "e994-dc10-3f71-1f2b",
+            "name": "Deathstrike Missile",
+            "min": 1,
+            "max": 1
+          },
+          {
+            "id": "b3a1-563f-ed24-b89a",
+            "name": "Armoured tracks",
+            "min": 1,
+            "max": 1
+          }
+        ]
+      }
+    ]
+  },
+  "8342-57dd-69d3-e698": {
+    "groups": [
+      {
+        "id": "96c6-89b3-3666-d6fc",
+        "name": "Wargear",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "8cfb-c9b2-90cf-5ac4",
+            "name": "Magma cannon",
+            "min": 1,
+            "max": 1
+          },
+          {
+            "id": "ab91-74f0-e5cf-f399",
+            "name": "Armoured tracks",
+            "min": 1,
+            "max": 1
+          },
+          {
+            "id": "bf8c-ea17-4e7e-4fdc",
+            "name": "Lascannon",
+            "min": 2,
+            "max": 2
+          },
+          {
+            "id": "a269-06d7-d467-4a28",
+            "name": "Twin heavy bolter",
+            "min": 1,
+            "max": 1
+          }
+        ]
+      }
+    ]
+  },
+  "8277-6399-5d74-760d": {
+    "groups": [
+      {
+        "id": "5468-e183-b8fc-3441",
+        "name": "Wargear",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "39f3-e8a1-125e-6533",
+            "name": "Hellhammer cannon",
+            "min": 1,
+            "max": 1
+          },
+          {
+            "id": "1352-eb5c-4c53-3937",
+            "name": "Armoured tracks",
+            "min": 1,
+            "max": 1
+          },
+          {
+            "id": "66b1-4213-4c8a-8704",
+            "name": "Coaxial autocannon",
+            "min": 1,
+            "max": 1
+          },
+          {
+            "id": "8735-242c-2cf7-af2d",
+            "name": "Demolisher cannon",
+            "min": 1,
+            "max": 1
+          },
+          {
+            "id": "7f76-15d4-282f-870b",
+            "name": "Heavy stubber",
+            "min": 1,
+            "max": 1
+          },
+          {
+            "id": "9555-5150-d8f2-acac",
+            "name": "Lascannon",
+            "min": 2,
+            "max": 2
+          },
+          {
+            "id": "9bd2-32cd-8336-7546",
+            "name": "Twin heavy bolter",
+            "min": 1,
+            "max": 1
+          }
+        ]
+      }
+    ]
+  },
+  "c28b-c3af-38b2-8865": {
+    "groups": [
+      {
+        "id": "1a5a-444f-59aa-e0a6",
+        "name": "Wargear",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "337a-1dcc-3ff7-711c",
+            "name": "Hunter-killer missile",
+            "min": 0,
+            "max": 1
+          },
+          {
+            "id": "88df-e86a-cdff-8ec9",
+            "name": "Armoured tracks",
+            "min": 1,
+            "max": 1
+          }
+        ],
+        "groups": [
+          {
+            "id": "9b5c-5b93-f178-a4e6",
+            "name": "Heavy Flamer",
+            "min": 1,
+            "max": 1,
+            "mode": "single",
+            "options": [
+              {
+                "id": "4592-8e1a-9227-f0ec",
+                "name": "Heavy flamer",
+                "min": 0,
+                "max": 99
+              },
+              {
+                "id": "6d7f-3b56-191-7397",
+                "name": "Multi-melta",
+                "min": 0,
+                "max": 99
+              },
+              {
+                "id": "45f9-5476-4fa4-17c1",
+                "name": "Heavy bolter",
+                "min": 0,
+                "max": 99
+              }
+            ],
+            "defaultOptionId": "4592-8e1a-9227-f0ec"
+          },
+          {
+            "id": "7b17-ba0-216c-5b2d",
+            "name": "Inferno Cannon",
+            "min": 1,
+            "max": 1,
+            "mode": "single",
+            "options": [
+              {
+                "id": "ad62-2f83-6282-7ee3",
+                "name": "Chem cannon",
+                "min": 0,
+                "max": 99
+              },
+              {
+                "id": "71b1-6cbd-de32-134b",
+                "name": "Inferno cannon",
+                "min": 0,
+                "max": 99
+              },
+              {
+                "id": "5883-9161-a6-ce2",
+                "name": "Melta cannon",
+                "min": 0,
+                "max": 99
+              }
+            ],
+            "defaultOptionId": "71b1-6cbd-de32-134b"
+          }
+        ]
+      }
+    ]
+  },
+  "4967-19b6-1e2a-a300": {
+    "groups": [
+      {
+        "id": "bf1a-5a49-bc83-dc4b",
+        "name": "Wargear",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "765-e58f-7093-d635",
+            "name": "Hydra autocannon",
+            "min": 1,
+            "max": 1
+          },
+          {
+            "id": "6753-7ddb-fcba-2249",
+            "name": "Armoured tracks",
+            "min": 1,
+            "max": 1
+          }
+        ]
+      }
+    ]
+  },
+  "41be-48c9-5476-f47a": {
+    "groups": [
+      {
+        "id": "8997-de85-36df-0421",
+        "name": "Wargear",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "4982-9d72-fd40-cbbb",
+            "name": "Storm eagle rockets",
+            "min": 1,
+            "max": 1
+          },
+          {
+            "id": "5c39-bab5-f3b0-8da5",
+            "name": "Armoured tracks",
+            "min": 1,
+            "max": 1
+          }
+        ]
+      }
+    ]
+  },
+  "497-36ad-8ecb-f7c7": {
+    "groups": [
+      {
+        "id": "fde9-a8a-9827-674a",
+        "name": "Tempestus Scions",
+        "min": 4,
+        "max": 4,
+        "mode": "count",
+        "options": [
+          {
+            "id": "fd99-ed-646c-8f3a",
+            "name": "Tempestus Scion",
+            "min": 0,
+            "max": 4,
+            "groups": [
+              {
+                "id": "bb86-a128-b9b6-c0d6",
+                "name": "Hot-shot Lasgun",
+                "min": 1,
+                "max": 1,
+                "mode": "single",
+                "options": [
+                  {
+                    "id": "ecf3-c5e-d188-26ea",
+                    "name": "Flamer",
+                    "min": 0,
+                    "max": 99
+                  },
+                  {
+                    "id": "7ec5-b045-af87-ea13",
+                    "name": "Grenade launcher",
+                    "min": 0,
+                    "max": 99
+                  },
+                  {
+                    "id": "9142-978c-328e-c753",
+                    "name": "Meltagun",
+                    "min": 0,
+                    "max": 99
+                  },
+                  {
+                    "id": "518-605d-1724-bd75",
+                    "name": "Hot-shot volley gun",
+                    "min": 0,
+                    "max": 99
+                  },
+                  {
+                    "id": "a276-c4a9-b708-ef9d",
+                    "name": "Plasma gun",
+                    "min": 0,
+                    "max": 99
+                  },
+                  {
+                    "id": "94c7-7c41-c95e-dd36",
+                    "name": "Hot-shot lasgun",
+                    "min": 0,
+                    "max": 1
+                  }
+                ],
+                "defaultOptionId": "94c7-7c41-c95e-dd36"
+              }
+            ],
+            "equippedWith": "Close combat weapon"
+          },
+          {
+            "id": "28f4-7031-b486-e3ef",
+            "name": "Tempestus Scion w/ Regimental Standard",
+            "min": 0,
+            "max": 1,
+            "equippedWith": "Regimental standard and Hot-shot lasgun and Close combat weapon"
+          },
+          {
+            "id": "e0a1-2dfc-4198-a10d",
+            "name": "Tempestus Scion w/ Master Vox",
+            "min": 0,
+            "max": 1,
+            "equippedWith": "Master vox and Hot-shot laspistol and Close combat weapon"
+          },
+          {
+            "id": "1346-7fbc-d56a-103e",
+            "name": "Tempestus Scion w/ Medi-pack",
+            "min": 0,
+            "max": 1,
+            "equippedWith": "Close combat weapon and Hot-shot laspistol"
+          }
+        ],
+        "defaultOptionId": "d17f-ef28-3a34-3a1e"
+      },
+      {
+        "id": "13ae-9951-4da9-9837",
+        "name": "Tempestor Prime",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "1999-fec0-869b-8e2",
+            "name": "Tempestor Prime",
+            "min": 1,
+            "max": 1,
+            "groups": [
+              {
+                "id": "46c8-3309-4c24-ef9a",
+                "name": "Wargear",
+                "min": 0,
+                "max": 99,
+                "mode": "count",
+                "options": [
+                  {
+                    "id": "2c1e-1eaf-32d2-2b4",
+                    "name": "Tempestus dagger",
+                    "min": 1,
+                    "max": 1
+                  }
+                ],
+                "groups": [
+                  {
+                    "id": "279e-4838-70f2-9019",
+                    "name": "Bolt Pistol",
+                    "min": 1,
+                    "max": 1,
+                    "mode": "single",
+                    "options": [
+                      {
+                        "id": "656c-c6b7-7696-bdb5",
+                        "name": "Command rod",
+                        "min": 0,
+                        "max": 99
+                      },
+                      {
+                        "id": "9c65-ce53-a479-7a7d",
+                        "name": "Bolt pistol",
+                        "min": 0,
+                        "max": 99
+                      },
+                      {
+                        "id": "9067-3ea0-f211-cb67",
+                        "name": "Plasma pistol",
+                        "min": 0,
+                        "max": 99
+                      }
+                    ],
+                    "defaultOptionId": "9c65-ce53-a479-7a7d"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "a7c2-1534-93b0-c0eb": {
+    "groups": [
+      {
+        "id": "3dfa-627f-3ab0-7feb",
+        "name": "Wargear",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "f8d6-98db-79b9-874e",
+            "name": "Close combat weapon",
+            "min": 1,
+            "max": 1
+          }
+        ],
+        "groups": [
+          {
+            "id": "e221-1dc2-1aaf-d342",
+            "name": "Huge Knife",
+            "min": 1,
+            "max": 1,
+            "mode": "single",
+            "options": [
+              {
+                "id": "d596-7298-b9ce-a5a6",
+                "name": "Slabshield",
+                "min": 0,
+                "max": 99
+              },
+              {
+                "id": "507e-db3a-b46d-1988",
+                "name": "Huge knife",
+                "min": 0,
+                "max": 99
+              },
+              {
+                "id": "3071-b18d-9d4f-74c5",
+                "name": "Brute shield",
+                "min": 0,
+                "max": 99
+              }
+            ],
+            "defaultOptionId": "f907-268f-d51-69b5"
+          },
+          {
+            "id": "850-b82c-9d30-e539",
+            "name": "Ripper Gun",
+            "min": 1,
+            "max": 1,
+            "mode": "single",
+            "options": [
+              {
+                "id": "03e6-eb5c-2a4c-f5cb",
+                "name": "Bullgryn maul",
+                "min": 0,
+                "max": 99
+              },
+              {
+                "id": "de24-e966-f355-6359",
+                "name": "Ripper gun",
+                "min": 0,
+                "max": 99
+              },
+              {
+                "id": "e326-d368-9bed-1c1d",
+                "name": "Grenadier gauntlet",
+                "min": 0,
+                "max": 99
+              }
+            ],
+            "defaultOptionId": "30cb-2c22-c869-45b8"
+          }
+        ]
+      }
+    ]
+  },
+  "4ad0-e988-a513-9530": {
+    "groups": [
+      {
+        "id": "6c38-689c-6e08-c0e3",
+        "name": "Wargear",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "9515-e9cf-131a-f0d7",
+            "name": "Psychic maelstrom",
+            "min": 1,
+            "max": 1
+          },
+          {
+            "id": "2d5b-a6ae-b21e-5eb2",
+            "name": "Force weapon",
+            "min": 1,
+            "max": 1
+          },
+          {
+            "id": "7f18-67d9-190a-9288",
+            "name": "Laspistol",
+            "min": 1,
+            "max": 1
+          }
+        ]
+      }
+    ]
+  },
+  "f556-a33d-dc90-d6fc": {
+    "groups": [
+      {
+        "id": "4c94-c7e2-2b7f-7e91",
+        "name": "Wargear",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "74f1-d3dd-89cd-fb48",
+            "name": "Enginseer Axe",
+            "min": 1,
+            "max": 1
+          },
+          {
+            "id": "c676-6adf-940c-3cc9",
+            "name": "Mechanicus pistol",
+            "min": 1,
+            "max": 1
+          },
+          {
+            "id": "5511-ebdb-4801-106e",
+            "name": "Servo-arm",
+            "min": 1,
+            "max": 1
+          }
+        ]
+      }
+    ]
+  },
+  "2127-efcc-1f62-7fab": {
+    "groups": [
+      {
+        "id": "cad2-9f7b-65f3-9caf",
+        "name": "Wargear",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "e078-6923-aba8-c984",
+            "name": "Armoured tracks",
+            "min": 1,
+            "max": 1
+          },
+          {
+            "id": "1031-7bf5-42a8-d57",
+            "name": "Heavy stubber",
+            "min": 1,
+            "max": 1
+          }
+        ],
+        "groups": [
+          {
+            "id": "4b01-2f6d-78b6-5a6e",
+            "name": "Twin Battle Cannon",
+            "min": 1,
+            "max": 1,
+            "mode": "single",
+            "options": [
+              {
+                "id": "16b0-0e0e-3fe0-cf48",
+                "name": "Oppressor cannon and coaxial autocannon",
+                "min": 0,
+                "max": 99,
+                "equippedWith": "Coaxial autocannon and Oppressor cannon"
+              },
+              {
+                "id": "0072-4273-fe22-4e8f",
+                "name": "Twin battle cannon",
+                "min": 0,
+                "max": 99
+              }
+            ],
+            "defaultOptionId": "efb5-fffa-82b4-f8c0"
+          },
+          {
+            "id": "b3de-077d-b4fa-b648",
+            "name": "Castigator Gatling Cannon",
+            "min": 1,
+            "max": 1,
+            "mode": "single",
+            "options": [
+              {
+                "id": "f976-b0d8-ed3e-e84d",
+                "name": "Castigator gatling cannon",
+                "min": 0,
+                "max": 99
+              },
+              {
+                "id": "dd43-0040-c828-92be",
+                "name": "Pulveriser cannon",
+                "min": 0,
+                "max": 99
+              }
+            ],
+            "defaultOptionId": "5e1e-1f73-a39a-ef9d"
+          },
+          {
+            "id": "ed4f-a6ba-54d4-3b3f",
+            "name": "Sponsons",
+            "min": 0,
+            "max": 1,
+            "mode": "single",
+            "options": [
+              {
+                "id": "8794-8678-a7dd-3e67",
+                "name": "2 Multi-meltas",
+                "min": 0,
+                "max": 99
+              },
+              {
+                "id": "34d0-52a4-0487-d414",
+                "name": "2 Heavy Bolters",
+                "min": 0,
+                "max": 99
+              }
+            ],
+            "defaultOptionId": "none"
+          },
+          {
+            "id": "ed34-9a55-9b47-43c4",
+            "name": "Hull Weapons",
+            "min": 0,
+            "max": 1,
+            "mode": "single",
+            "options": [
+              {
+                "id": "1f1f-0578-a662-e468",
+                "name": "2 Meltaguns",
+                "min": 0,
+                "max": 99
+              },
+              {
+                "id": "122d-6d1b-d8d8-36d1",
+                "name": "2 Additional Heavy Stubbers",
+                "min": 0,
+                "max": 99
+              }
+            ],
+            "defaultOptionId": "none"
+          }
+        ]
+      }
+    ]
+  },
+  "4424-a6ec-6d9e-a936": {
+    "groups": [
+      {
+        "id": "49d4-9930-cfa5-9842",
+        "name": "1-2 Scout Sentinels",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "e7ef-c8cc-3f5f-955a",
+            "name": "Scout Sentinel",
+            "min": 1,
+            "max": 2,
+            "groups": [
+              {
+                "id": "f83d-990d-f387-a67c",
+                "name": "Wargear",
+                "min": 0,
+                "max": 99,
+                "mode": "count",
+                "options": [
+                  {
+                    "id": "9f0d-c48b-9c8c-b224",
+                    "name": "Close combat weapon",
+                    "min": 1,
+                    "max": 1
+                  },
+                  {
+                    "id": "8d5b-6cf6-50fc-8a94",
+                    "name": "Hunter-killer missile",
+                    "min": 0,
+                    "max": 1
+                  },
+                  {
+                    "id": "632c-19ce-cdf3-a5f8",
+                    "name": "Sentinel chainsaw",
+                    "min": 0,
+                    "max": 1
+                  }
+                ],
+                "groups": [
+                  {
+                    "id": "547b-3f72-fc47-eb15",
+                    "name": "Multi-laser",
+                    "min": 1,
+                    "max": 1,
+                    "mode": "single",
+                    "options": [
+                      {
+                        "id": "6359-a056-3a2a-5a37",
+                        "name": "Autocannon",
+                        "min": 0,
+                        "max": 99
+                      },
+                      {
+                        "id": "26e9-862-9862-e1ba",
+                        "name": "Lascannon",
+                        "min": 0,
+                        "max": 99
+                      },
+                      {
+                        "id": "6b15-7d94-fb23-454d",
+                        "name": "Heavy flamer",
+                        "min": 0,
+                        "max": 99
+                      },
+                      {
+                        "id": "744c-fd1a-5ebe-46c7",
+                        "name": "Missile launcher",
+                        "min": 0,
+                        "max": 99
+                      },
+                      {
+                        "id": "1844-b72f-b74-4dd",
+                        "name": "Plasma cannon",
+                        "min": 0,
+                        "max": 99
+                      },
+                      {
+                        "id": "715a-8901-7a57-7b37",
+                        "name": "Multi-laser",
+                        "min": 0,
+                        "max": 99
+                      }
+                    ],
+                    "defaultOptionId": "715a-8901-7a57-7b37"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "1b48-2f2-8e9c-1308": {
+    "groups": [
+      {
+        "id": "0a91-184c-939d-0c6f",
+        "name": "Wargear",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "c341-7e80-e7f6-4f75",
+            "name": "Volcano cannon",
+            "min": 1,
+            "max": 1
+          },
+          {
+            "id": "62b2-021e-8d65-cfa2",
+            "name": "Armoured tracks",
+            "min": 1,
+            "max": 1
+          },
+          {
+            "id": "1426-d270-bec3-cdf2",
+            "name": "Lascannon",
+            "min": 2,
+            "max": 2
+          },
+          {
+            "id": "d39a-5cae-8a9c-a1e1",
+            "name": "Twin heavy bolter",
+            "min": 1,
+            "max": 1
+          }
+        ]
+      }
+    ]
+  },
+  "892b-678c-72e6-ee58": {
+    "groups": [
+      {
+        "id": "9f45-d784-d697-f475",
+        "name": "Wargear",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "1c82-8d6c-6e7c-9981",
+            "name": "Vulcan mega-bolter",
+            "min": 1,
+            "max": 1
+          },
+          {
+            "id": "e8c8-b75a-be9d-7302",
+            "name": "Twin heavy bolter",
+            "min": 1,
+            "max": 1
+          },
+          {
+            "id": "8e30-6efe-0877-a54f",
+            "name": "Lascannon",
+            "min": 2,
+            "max": 2
+          },
+          {
+            "id": "1b02-5e21-e3-5544",
+            "name": "Heavy stubber",
+            "min": 2,
+            "max": 2
+          },
+          {
+            "id": "8efc-a102-1e3f-7c00",
+            "name": "Armoured tracks",
+            "min": 1,
+            "max": 1
+          }
+        ]
+      }
+    ]
+  },
+  "67bc-a760-7ed5-9952": {
+    "groups": [
+      {
+        "id": "406f-5469-61f8-e367",
+        "name": "Wargear",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "7ed2-e35a-a22d-9f6b",
+            "name": "Stormsword siege cannon",
+            "min": 1,
+            "max": 1
+          },
+          {
+            "id": "a6c5-1875-a8c4-b71a",
+            "name": "Twin heavy bolter",
+            "min": 1,
+            "max": 1
+          },
+          {
+            "id": "16d7-7c75-08e2-60d0",
+            "name": "Lascannon",
+            "min": 2,
+            "max": 2
+          },
+          {
+            "id": "2ee4-fab6-5f04-8265",
+            "name": "Armoured tracks",
+            "min": 1,
+            "max": 1
+          }
+        ],
+        "groups": [
+          {
+            "id": "cc81-9f5a-4d8f-bc1d",
+            "name": "Wargear Options",
+            "min": 0,
+            "max": 99,
+            "mode": "count",
+            "options": [],
+            "groups": [
+              {
+                "id": "c966-7f2a-8956-c119",
+                "name": "Sponsons",
+                "min": 1,
+                "max": 1,
+                "mode": "single",
+                "options": [
+                  {
+                    "id": "45fd-4107-1a7b-5a6e",
+                    "name": "2 Twin Heavy Flamers",
+                    "min": 0,
+                    "max": 99
+                  },
+                  {
+                    "id": "af88-2996-4d1e-80cb",
+                    "name": "2 Twin Heavy Bolters",
+                    "min": 0,
+                    "max": 99
+                  }
+                ],
+                "defaultOptionId": "a66b-b49e-c29-75dd"
+              },
+              {
+                "id": "f0a4-4b7d-8574-6345",
+                "name": "Additional sponsons",
+                "min": 0,
+                "max": 1,
+                "mode": "single",
+                "options": [
+                  {
+                    "id": "f921-0392-4cbf-69c1",
+                    "name": "2 Lascannons and 2 Twin Heavy Bolters",
+                    "min": 0,
+                    "max": 99
+                  },
+                  {
+                    "id": "1f2f-bfab-c271-c593",
+                    "name": "2 Lascannons and 2 Twin Heavy Flamers",
+                    "min": 0,
+                    "max": 99
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "5430-18e-d7b0-1d54": {
+    "groups": [
+      {
+        "id": "613c-9f4c-fe84-1cee",
+        "name": "Wargear",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "c902-0f97-e418-3319",
+            "name": "Armoured tracks",
+            "min": 1,
+            "max": 1
+          },
+          {
+            "id": "201c-d228-fcee-a730",
+            "name": "Hunter-killer missile",
+            "min": 0,
+            "max": 1
+          }
+        ],
+        "groups": [
+          {
+            "id": "3370-7b69-7f4a-ef2d",
+            "name": "Leman Russ Battle Cannon",
+            "min": 1,
+            "max": 1,
+            "mode": "single",
+            "options": [
+              {
+                "id": "c1f9-42b2-e243-da06",
+                "name": "Leman Russ battle cannon",
+                "min": 0,
+                "max": 99
+              },
+              {
+                "id": "15aa-9ccd-22d-249d",
+                "name": "Demolisher battle cannon",
+                "min": 0,
+                "max": 99
+              },
+              {
+                "id": "5931-b5d6-ee75-e62f",
+                "name": "Vanquisher battle cannon",
+                "min": 0,
+                "max": 99
+              },
+              {
+                "id": "80a7-4ab5-623c-9698",
+                "name": "Eradicator nova cannon",
+                "min": 0,
+                "max": 99
+              },
+              {
+                "id": "8531-b996-ac59-3904",
+                "name": "Executioner plasma cannon",
+                "min": 0,
+                "max": 99
+              },
+              {
+                "id": "3207-c733-b653-168f",
+                "name": "Punisher gatling cannon",
+                "min": 0,
+                "max": 99
+              },
+              {
+                "id": "cc4b-c02f-7604-27d7",
+                "name": "Exterminator autocannon",
+                "min": 0,
+                "max": 99
+              }
+            ],
+            "defaultOptionId": "c1f9-42b2-e243-da06"
+          },
+          {
+            "id": "13a7-60d2-6199-1c32",
+            "name": "Lascannon",
+            "min": 1,
+            "max": 1,
+            "mode": "single",
+            "options": [
+              {
+                "id": "741b-e7c2-6641-b5cf",
+                "name": "Heavy bolter",
+                "min": 0,
+                "max": 99
+              },
+              {
+                "id": "c08d-c2ed-78a7-140d",
+                "name": "Lascannon",
+                "min": 0,
+                "max": 99
+              },
+              {
+                "id": "c44c-782b-f753-2ed0",
+                "name": "Heavy flamer",
+                "min": 0,
+                "max": 99
+              }
+            ],
+            "defaultOptionId": "c08d-c2ed-78a7-140d"
+          },
+          {
+            "id": "cb89-66b6-916-7010",
+            "name": "Sponsons",
+            "min": 0,
+            "max": 1,
+            "mode": "single",
+            "options": [
+              {
+                "id": "d25a-cbf2-4484-ec30",
+                "name": "2 Heavy bolters",
+                "min": 0,
+                "max": 99
+              },
+              {
+                "id": "61d4-77b3-9b25-257e",
+                "name": "2 Heavy flamers",
+                "min": 0,
+                "max": 99
+              },
+              {
+                "id": "270c-44d5-5d8c-becf",
+                "name": "2 Multi-meltas",
+                "min": 0,
+                "max": 99
+              },
+              {
+                "id": "7b64-9d2-8749-449b",
+                "name": "2 Plasma cannons",
+                "min": 0,
+                "max": 99
+              }
+            ]
+          },
+          {
+            "id": "aa11-0de2-38fa-9979",
+            "name": "Pintle Mount",
+            "min": 0,
+            "max": 1,
+            "mode": "single",
+            "options": [
+              {
+                "id": "7538-6273-f2a2-f108",
+                "name": "Storm bolter",
+                "min": 0,
+                "max": 99
+              },
+              {
+                "id": "f7ad-c6a6-8b94-9c2a",
+                "name": "Heavy stubber",
+                "min": 0,
+                "max": 99
+              }
+            ],
+            "defaultOptionId": "none"
+          }
+        ]
+      }
+    ]
+  },
+  "11e5-d4ab-d140-ac38": {
+    "groups": [
+      {
+        "id": "11f1-2890-1429-896e",
+        "name": "Wargear",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "3c7f-1049-8b0c-caf",
+            "name": "Twin autocannon",
+            "min": 1,
+            "max": 1
+          },
+          {
+            "id": "d91e-a9d-5a00-4943",
+            "name": "Armoured tracks",
+            "min": 1,
+            "max": 1
+          }
+        ],
+        "groups": [
+          {
+            "id": "ec02-eb87-767e-95b3",
+            "name": "Wargear Options",
+            "min": 0,
+            "max": 99,
+            "mode": "count",
+            "options": [
+              {
+                "id": "e208-bd4a-e94b-a1c6",
+                "name": "Storm bolter",
+                "min": 0,
+                "max": 1
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "4b67-f814-358e-f776": {
+    "groups": [
+      {
+        "id": "792f-be58-e244-aec5",
+        "name": "Wargear",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "3aea-7bde-734-3027",
+            "name": "Armoured tracks",
+            "min": 1,
+            "max": 1
+          }
+        ],
+        "groups": [
+          {
+            "id": "289d-1495-621c-3985",
+            "name": "Wargear Options",
+            "min": 0,
+            "max": 99,
+            "mode": "count",
+            "options": [
+              {
+                "id": "f593-3c7f-abcb-4236",
+                "name": "Storm bolter",
+                "min": 0,
+                "max": 1
+              }
+            ],
+            "groups": [
+              {
+                "id": "92dd-143c-db04-393d",
+                "name": "Taurox Battle Cannon",
+                "min": 1,
+                "max": 1,
+                "mode": "single",
+                "options": [
+                  {
+                    "id": "ec97-f7af-3200-6617",
+                    "name": "Taurox battle cannon",
+                    "min": 0,
+                    "max": 99
+                  },
+                  {
+                    "id": "8c87-8197-6367-4a23",
+                    "name": "Taurox gatling cannon",
+                    "min": 0,
+                    "max": 99
+                  },
+                  {
+                    "id": "c48b-7044-1ce1-41a7",
+                    "name": "Taurox missile launcher",
+                    "min": 0,
+                    "max": 99
+                  }
+                ],
+                "defaultOptionId": "ec97-f7af-3200-6617"
+              },
+              {
+                "id": "6ddc-1cda-5b13-2ef",
+                "name": "Twin Taurox Hot-Shot Volley Gun",
+                "min": 1,
+                "max": 1,
+                "mode": "single",
+                "options": [
+                  {
+                    "id": "fcfb-f4c1-e576-b208",
+                    "name": "Twin Taurox hot-shot volley gun",
+                    "min": 0,
+                    "max": 99
+                  },
+                  {
+                    "id": "c217-74dc-f364-869e",
+                    "name": "Twin autocannon",
+                    "min": 0,
+                    "max": 99
+                  }
+                ],
+                "defaultOptionId": "fcfb-f4c1-e576-b208"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "9665-3160-8a04-d2bc": {
+    "groups": [
+      {
+        "id": "ef35-cab2-f885-2886",
+        "name": "Wargear",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "24d3-690d-57af-7e2a",
+            "name": "Armoured hull",
+            "min": 1,
+            "max": 1
+          }
+        ],
+        "groups": [
+          {
+            "id": "0917-8fa9-dbcb-5b7b",
+            "name": "Wargear Options",
+            "min": 0,
+            "max": 99,
+            "mode": "count",
+            "options": [
+              {
+                "id": "6c9a-8d7d-461a-5f27",
+                "name": "2 Heavy Bolters",
+                "min": 0,
+                "max": 1
+              }
+            ],
+            "groups": [
+              {
+                "id": "406b-19b6-1c07-3c89",
+                "name": "Hellstrike Missiles",
+                "min": 1,
+                "max": 1,
+                "mode": "single",
+                "options": [
+                  {
+                    "id": "7cf4-1d82-264a-d1a6",
+                    "name": "2 Multiple Rocket Pods",
+                    "min": 0,
+                    "max": 99
+                  },
+                  {
+                    "id": "12be-e0aa-fe7a-3b0",
+                    "name": "Hellstrike missiles",
+                    "min": 0,
+                    "max": 99
+                  }
+                ],
+                "defaultOptionId": "12be-e0aa-fe7a-3b0"
+              },
+              {
+                "id": "2137-bfd7-2965-5778",
+                "name": "Multi-laser",
+                "min": 1,
+                "max": 1,
+                "mode": "single",
+                "options": [
+                  {
+                    "id": "c107-d37b-44fd-1bb9",
+                    "name": "Multi-laser",
+                    "min": 0,
+                    "max": 99
+                  },
+                  {
+                    "id": "fde0-f92c-40d8-6d5f",
+                    "name": "Lascannon",
+                    "min": 0,
+                    "max": 99
+                  }
+                ],
+                "defaultOptionId": "c107-d37b-44fd-1bb9"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "d11b-c49d-41bf-1f36": {
+    "groups": [
+      {
+        "id": "32a1-3bd7-29fd-c6c0",
+        "name": "Wargear",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "659b-d5a4-a8bb-f03a",
+            "name": "Wyvern quad stormshard mortar",
+            "min": 1,
+            "max": 1
+          },
+          {
+            "id": "8a1-9387-fb4e-bd4b",
+            "name": "Armoured tracks",
+            "min": 1,
+            "max": 1
+          }
+        ]
+      }
+    ]
+  },
+  "f1a-7c78-ffdc-bf5b": {
+    "groups": [
+      {
+        "id": "5d08-6e5d-b4d9-9385",
+        "name": "4-9 Death Riders",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "a208-7e48-d7f2-12ce",
+            "name": "Death Rider",
+            "min": 4,
+            "max": 9,
+            "equippedWith": "Steed's savage claws and Frag lance and Power sabre and Death Rider lascarbine"
+          }
+        ]
+      }
+    ]
+  },
+  "173e-ddd1-354c-583b": {
+    "groups": [
+      {
+        "id": "e3a1-7846-4673-022e",
+        "name": "Wargear",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "ef76-bb3b-cd8b-dc6c",
+            "name": "Armoured tracks",
+            "min": 1,
+            "max": 1
+          },
+          {
+            "id": "be2e-577b-f01f-b4b2",
+            "name": "Hunter-killer missile",
+            "min": 0,
+            "max": 1
+          }
+        ],
+        "groups": [
+          {
+            "id": "945e-eecd-2e07-e291",
+            "name": "Sponsons",
+            "min": 1,
+            "max": 1,
+            "mode": "single",
+            "options": [
+              {
+                "id": "4dd8-3ba0-6d32-b4c6",
+                "name": "Two heavy bolters",
+                "min": 0,
+                "max": 99
+              },
+              {
+                "id": "5cd7-5c43-9544-ae5b",
+                "name": "Two autocannons",
+                "min": 0,
+                "max": 99
+              },
+              {
+                "id": "58e7-b7dc-7906-4683",
+                "name": "Two heavy flamers",
+                "min": 0,
+                "max": 99
+              },
+              {
+                "id": "3e9f-467d-d515-c0c5",
+                "name": "Two lascannons",
+                "min": 0,
+                "max": 99
+              },
+              {
+                "id": "8e60-6419-38cb-253f",
+                "name": "Two multi-lasers",
+                "min": 0,
+                "max": 99
+              },
+              {
+                "id": "84f2-d693-ff91-d215",
+                "name": "Two volkite calivers",
+                "min": 0,
+                "max": 99
+              }
+            ],
+            "defaultOptionId": "5cd7-5c43-9544-ae5b"
+          },
+          {
+            "id": "9041-a55d-68dc-fefe",
+            "name": "Main weapon",
+            "min": 1,
+            "max": 1,
+            "mode": "single",
+            "options": [
+              {
+                "id": "c705-9c20-93bf-da0",
+                "name": "Carnodon twin autocannon",
+                "min": 0,
+                "max": 99
+              },
+              {
+                "id": "3409-f034-fff8-19f2",
+                "name": "Carnodon twin lascannon",
+                "min": 0,
+                "max": 99
+              },
+              {
+                "id": "f031-40d5-73be-2582",
+                "name": "Carnodon twin multi-laser",
+                "min": 0,
+                "max": 99
+              },
+              {
+                "id": "d6b2-29e4-9f8d-698e",
+                "name": "Volkite culverin",
+                "min": 0,
+                "max": 99
+              }
+            ],
+            "defaultOptionId": "c705-9c20-93bf-da0"
+          }
+        ]
+      }
+    ]
+  },
+  "f706-c35a-a325-38bf": {
+    "groups": [
+      {
+        "id": "f5cf-f6f4-87c1-61af",
+        "name": "Wargear",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "e379-38a7-880-3d58",
+            "name": "Malcador battle cannon",
+            "min": 1,
+            "max": 1
+          },
+          {
+            "id": "853d-c9a6-5440-e6ce",
+            "name": "Armoured tracks",
+            "min": 1,
+            "max": 1
+          },
+          {
+            "id": "fb2a-464a-aecf-8f84",
+            "name": "Hunter-killer missile",
+            "min": 0,
+            "max": 1
+          }
+        ],
+        "groups": [
+          {
+            "id": "37ba-704a-fc1d-84fa",
+            "name": "Sponsons",
+            "min": 1,
+            "max": 1,
+            "mode": "single",
+            "options": [
+              {
+                "id": "3baf-596b-441c-d511",
+                "name": "Two autocannons",
+                "min": 0,
+                "max": 99
+              },
+              {
+                "id": "91fd-570d-a49f-dbbc",
+                "name": "Two heavy bolters",
+                "min": 0,
+                "max": 99
+              },
+              {
+                "id": "8d37-a7c-fc98-b90",
+                "name": "Two lascannons",
+                "min": 0,
+                "max": 99
+              }
+            ],
+            "defaultOptionId": "3baf-596b-441c-d511"
+          },
+          {
+            "id": "61df-f550-fbf9-c14e",
+            "name": "Hull weapon",
+            "min": 1,
+            "max": 1,
+            "mode": "single",
+            "options": [
+              {
+                "id": "31f8-742a-80f6-adab",
+                "name": "Lascannon",
+                "min": 0,
+                "max": 99
+              },
+              {
+                "id": "13a2-9bd-e088-5e68",
+                "name": "Heavy bolter",
+                "min": 0,
+                "max": 99
+              },
+              {
+                "id": "8f23-36de-8b1e-a0dd",
+                "name": "Autocannon",
+                "min": 0,
+                "max": 99
+              }
+            ],
+            "defaultOptionId": "13a2-9bd-e088-5e68"
+          },
+          {
+            "id": "393d-4d74-c422-1560",
+            "name": "Pintle weapon",
+            "min": 0,
+            "max": 1,
+            "mode": "single",
+            "options": [
+              {
+                "id": "374-5f26-ceb4-22e6",
+                "name": "Heavy stubber",
+                "min": 0,
+                "max": 99
+              },
+              {
+                "id": "c36b-749d-a5fb-6c1d",
+                "name": "Storm bolter",
+                "min": 0,
+                "max": 99
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "bc69-45ff-789c-90bb": {
+    "groups": [
+      {
+        "id": "c741-7db7-fc38-d70d",
+        "name": "Wargear",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "55cf-4c72-17fb-607f",
+            "name": "Demolisher cannon",
+            "min": 1,
+            "max": 1
+          },
+          {
+            "id": "4e85-63bd-93ed-417f",
+            "name": "Malcador twin lascannon",
+            "min": 1,
+            "max": 1
+          },
+          {
+            "id": "4a3e-d821-9192-6701",
+            "name": "Armoured tracks",
+            "min": 1,
+            "max": 1
+          },
+          {
+            "id": "374a-96f1-bf85-bf38",
+            "name": "Hunter-killer missile",
+            "min": 0,
+            "max": 1
+          }
+        ],
+        "groups": [
+          {
+            "id": "9ac4-cb30-9556-c654",
+            "name": "Sponsons",
+            "min": 1,
+            "max": 1,
+            "mode": "single",
+            "options": [
+              {
+                "id": "2197-1338-89b2-9654",
+                "name": "Two autocannons",
+                "min": 0,
+                "max": 99
+              },
+              {
+                "id": "8525-cc34-36a7-409a",
+                "name": "Two heavy bolters",
+                "min": 0,
+                "max": 99
+              },
+              {
+                "id": "9e1a-8d12-6329-35b6",
+                "name": "Two lascannons",
+                "min": 0,
+                "max": 99
+              }
+            ],
+            "defaultOptionId": "2197-1338-89b2-9654"
+          },
+          {
+            "id": "47c9-a918-cdc1-751a",
+            "name": "Pintle weapon",
+            "min": 0,
+            "max": 1,
+            "mode": "single",
+            "options": [
+              {
+                "id": "5835-2ddf-eeaf-9daa",
+                "name": "Heavy stubber",
+                "min": 0,
+                "max": 99
+              },
+              {
+                "id": "7c97-68f8-eeeb-8995",
+                "name": "Storm bolter",
+                "min": 0,
+                "max": 99
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "a185-ae7a-4503-8ceb": {
+    "groups": [
+      {
+        "id": "464a-9d50-150e-b5e3",
+        "name": "Wargear",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "b3ca-b17d-c4e6-a8f2",
+            "name": "Demolisher cannon",
+            "min": 1,
+            "max": 1
+          },
+          {
+            "id": "88da-15e7-4d78-4c3f",
+            "name": "Armoured tracks",
+            "min": 1,
+            "max": 1
+          },
+          {
+            "id": "c641-7221-6de3-5e8a",
+            "name": "Heavy bolter",
+            "min": 5,
+            "max": 5
+          },
+          {
+            "id": "63f-1145-8145-ef3c",
+            "name": "Hunter-killer missile",
+            "min": 0,
+            "max": 1
+          }
+        ],
+        "groups": [
+          {
+            "id": "b944-3737-b37a-b124",
+            "name": "Sponsons",
+            "min": 1,
+            "max": 1,
+            "mode": "single",
+            "options": [
+              {
+                "id": "9be6-2773-dcac-f85c",
+                "name": "Two autocannons",
+                "min": 0,
+                "max": 99
+              },
+              {
+                "id": "37a8-756e-4216-65bc",
+                "name": "Two heavy bolters",
+                "min": 0,
+                "max": 99
+              },
+              {
+                "id": "d0f1-f38e-77a3-9cdc",
+                "name": "Two lascannons",
+                "min": 0,
+                "max": 99
+              }
+            ],
+            "defaultOptionId": "37a8-756e-4216-65bc"
+          },
+          {
+            "id": "8e1d-1615-30cd-934f",
+            "name": "Pintle weapon",
+            "min": 0,
+            "max": 1,
+            "mode": "single",
+            "options": [
+              {
+                "id": "ec15-295a-e767-673",
+                "name": "Heavy stubber",
+                "min": 0,
+                "max": 99
+              },
+              {
+                "id": "d5c4-d938-2dcc-804e",
+                "name": "Storm bolter",
+                "min": 0,
+                "max": 99
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "5e59-657b-5c85-1d92": {
+    "groups": [
+      {
+        "id": "e9ac-64d0-a067-74ec",
+        "name": "Wargear",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "d0e-fb65-71b0-25cd",
+            "name": "Inferno gun",
+            "min": 1,
+            "max": 1
+          },
+          {
+            "id": "842e-612-e805-2b4b",
+            "name": "Armoured tracks",
+            "min": 1,
+            "max": 1
+          },
+          {
+            "id": "64aa-89a0-169-29cd",
+            "name": "Hunter-killer missile",
+            "min": 0,
+            "max": 1
+          }
+        ],
+        "groups": [
+          {
+            "id": "dd4b-ed79-565b-bde5",
+            "name": "Sponsons",
+            "min": 1,
+            "max": 1,
+            "mode": "single",
+            "options": [
+              {
+                "id": "c72d-bd7-8e54-cc74",
+                "name": "Two autocannons",
+                "min": 0,
+                "max": 99
+              },
+              {
+                "id": "db76-49eb-c8a4-5404",
+                "name": "Two heavy bolters",
+                "min": 0,
+                "max": 99
+              },
+              {
+                "id": "d23f-88b3-6d37-1561",
+                "name": "Two lascannons",
+                "min": 0,
+                "max": 99
+              },
+              {
+                "id": "15ea-5805-44ff-ff5a",
+                "name": "Two heavy flamers",
+                "min": 0,
+                "max": 99
+              }
+            ],
+            "defaultOptionId": "db76-49eb-c8a4-5404"
+          },
+          {
+            "id": "a861-3b45-d7d9-c57f",
+            "name": "Pintle weapon",
+            "min": 0,
+            "max": 1,
+            "mode": "single",
+            "options": [
+              {
+                "id": "645d-b089-7d0-923",
+                "name": "Heavy stubber",
+                "min": 0,
+                "max": 99
+              },
+              {
+                "id": "e1cb-2557-45e1-e7c6",
+                "name": "Storm bolter",
+                "min": 0,
+                "max": 99
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "60c8-fd76-c98b-304a": {
+    "groups": [
+      {
+        "id": "3dc9-2699-36e0-3fe5",
+        "name": "Wargear",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "a985-33c9-13c2-f07b",
+            "name": "Battery close combat weapons",
+            "min": 1,
+            "max": 1
+          },
+          {
+            "id": "e077-405a-7ba9-81a1",
+            "name": "Medusa siege cannon",
+            "min": 1,
+            "max": 1
+          }
+        ]
+      }
+    ]
+  },
+  "efc7-ac4c-1fcd-5b39": {
+    "groups": [
+      {
+        "id": "bbd1-6b00-d76a-8b33",
+        "name": "Wargear",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "cb1c-c755-b33f-f83",
+            "name": "Battery close combat weapons",
+            "min": 1,
+            "max": 1
+          },
+          {
+            "id": "86ec-f7d4-6817-41ef",
+            "name": "Earthshaker cannon",
+            "min": 1,
+            "max": 1
+          }
+        ]
+      }
+    ]
+  },
+  "a93c-9d4b-8fd9-15b4": {
+    "groups": [
+      {
+        "id": "2f91-865f-7010-500c",
+        "name": "Wargear",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "737e-ccb9-a46b-ea13",
+            "name": "Stormblade plasma blastgun",
+            "min": 1,
+            "max": 1
+          },
+          {
+            "id": "4b8c-be88-31fa-8c62",
+            "name": "Armoured tracks",
+            "min": 1,
+            "max": 1
+          },
+          {
+            "id": "e738-b759-8f73-8c20",
+            "name": "Lascannon",
+            "min": 2,
+            "max": 2
+          }
+        ],
+        "groups": [
+          {
+            "id": "4b68-96f0-ffe1-d73b",
+            "name": "Wargear Options",
+            "min": 0,
+            "max": 99,
+            "mode": "count",
+            "options": [
+              {
+                "id": "8881-1fa7-4341-63e7",
+                "name": "Hunter-killer missile",
+                "min": 0,
+                "max": 1
+              }
+            ],
+            "groups": [
+              {
+                "id": "cbaa-81c7-bd08-71a2",
+                "name": "Sponson weapons",
+                "min": 1,
+                "max": 1,
+                "mode": "single",
+                "options": [
+                  {
+                    "id": "32d2-d5a-8f5e-c166",
+                    "name": "2 Twin Heavy Flamers",
+                    "min": 0,
+                    "max": 99
+                  },
+                  {
+                    "id": "36bf-b9b4-1de-aed9",
+                    "name": "2 Twin Heavy Bolters",
+                    "min": 0,
+                    "max": 99
+                  }
+                ],
+                "defaultOptionId": "36bf-b9b4-1de-aed9"
+              },
+              {
+                "id": "a9a0-18ab-cd8a-3242",
+                "name": "Pintle weapon",
+                "min": 0,
+                "max": 1,
+                "mode": "single",
+                "options": [
+                  {
+                    "id": "208c-4996-7ba5-dd4c",
+                    "name": "Heavy stubber",
+                    "min": 0,
+                    "max": 99
+                  },
+                  {
+                    "id": "116e-1efa-8033-eac9",
+                    "name": "Storm bolter",
+                    "min": 0,
+                    "max": 99
+                  }
+                ]
+              },
+              {
+                "id": "ea1-8b8b-74da-60cd",
+                "name": "Additional sponsons",
+                "min": 0,
+                "max": 1,
+                "mode": "single",
+                "options": [
+                  {
+                    "id": "1501-383a-65bc-b2cb",
+                    "name": "2 Lascannons and 2 Twin Heavy Bolters",
+                    "min": 0,
+                    "max": 99
+                  },
+                  {
+                    "id": "6028-349c-520b-3527",
+                    "name": "2 Lascannons and 2 Twin Heavy Flamers",
+                    "min": 0,
+                    "max": 99
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "d7a-7abb-831b-1c67": {
+    "groups": [
+      {
+        "id": "02f0-c053-fadc-775b",
+        "name": "Wargear",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "5eb2-fc01-738-4127",
+            "name": "Macharius twin battlecannon",
+            "min": 1,
+            "max": 1
+          },
+          {
+            "id": "bef9-5aa0-7b33-3435",
+            "name": "Armoured tracks",
+            "min": 1,
+            "max": 1
+          },
+          {
+            "id": "fa00-f317-dbb0-4ce4",
+            "name": "Hunter-killer missile",
+            "min": 0,
+            "max": 1
+          },
+          {
+            "id": "2dfe-2269-7208-d462",
+            "name": "Twin heavy stubber",
+            "min": 1,
+            "max": 1
+          }
+        ],
+        "groups": [
+          {
+            "id": "b00f-39e-6262-6caf",
+            "name": "Pintle weapon",
+            "min": 0,
+            "max": 1,
+            "mode": "single",
+            "options": [
+              {
+                "id": "99f6-1ee2-2e13-b34c",
+                "name": "Heavy stubber",
+                "min": 0,
+                "max": 99
+              },
+              {
+                "id": "2805-6f14-c77c-41fa",
+                "name": "Storm bolter",
+                "min": 0,
+                "max": 99
+              }
+            ]
+          },
+          {
+            "id": "efbf-9186-2014-85ce",
+            "name": "Sponson weapons",
+            "min": 1,
+            "max": 1,
+            "mode": "single",
+            "options": [
+              {
+                "id": "1f48-ec31-db66-1f74",
+                "name": "Two heavy stubbers",
+                "min": 0,
+                "max": 99
+              },
+              {
+                "id": "4d05-a3ec-c0ec-4075",
+                "name": "Two heavy bolters",
+                "min": 0,
+                "max": 99
+              },
+              {
+                "id": "55d9-1f48-bcd-62be",
+                "name": "Two heavy flamers",
+                "min": 0,
+                "max": 99
+              }
+            ],
+            "defaultOptionId": "1f48-ec31-db66-1f74"
+          }
+        ]
+      }
+    ]
+  },
+  "731f-e022-6394-3690": {
+    "groups": [
+      {
+        "id": "a0dd-4e3d-ce80-b234",
+        "name": "Wargear",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "781-8c7b-49c3-b04b",
+            "name": "Macharius twin vanquisher cannon",
+            "min": 1,
+            "max": 1
+          },
+          {
+            "id": "359-de8d-98c3-918b",
+            "name": "Armoured tracks",
+            "min": 1,
+            "max": 1
+          },
+          {
+            "id": "f563-a279-c553-bb30",
+            "name": "Hunter-killer missile",
+            "min": 0,
+            "max": 1
+          },
+          {
+            "id": "5194-0aae-611d-15d5",
+            "name": "Twin heavy stubber",
+            "min": 1,
+            "max": 1
+          }
+        ],
+        "groups": [
+          {
+            "id": "4434-b1a5-8049-2a14",
+            "name": "Sponson weapons",
+            "min": 1,
+            "max": 1,
+            "mode": "single",
+            "options": [
+              {
+                "id": "9964-9188-eba6-123f",
+                "name": "Two heavy stubbers",
+                "min": 0,
+                "max": 99
+              },
+              {
+                "id": "b91e-112f-126a-7df2",
+                "name": "Two heavy bolters",
+                "min": 0,
+                "max": 99
+              },
+              {
+                "id": "90ba-928f-f9ef-b34d",
+                "name": "Two heavy flamers",
+                "min": 0,
+                "max": 99
+              }
+            ],
+            "defaultOptionId": "9964-9188-eba6-123f"
+          },
+          {
+            "id": "e26-28aa-c405-6f0f",
+            "name": "Pintle weapon",
+            "min": 0,
+            "max": 1,
+            "mode": "single",
+            "options": [
+              {
+                "id": "cb9e-6386-4757-3dea",
+                "name": "Heavy stubber",
+                "min": 0,
+                "max": 99
+              },
+              {
+                "id": "fb04-ca75-3ee8-1f22",
+                "name": "Storm bolter",
+                "min": 0,
+                "max": 99
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "e951-f9f2-3dd4-d5b8": {
+    "groups": [
+      {
+        "id": "9bea-d778-301c-ed3b",
+        "name": "Wargear",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "b779-44c6-3b21-3260",
+            "name": "Macharius vulcan mega-bolter",
+            "min": 1,
+            "max": 1
+          },
+          {
+            "id": "cdd5-ec7c-de83-f09c",
+            "name": "Armoured tracks",
+            "min": 1,
+            "max": 1
+          },
+          {
+            "id": "b28a-8a30-62be-5bb3",
+            "name": "Hunter-killer missile",
+            "min": 0,
+            "max": 1
+          },
+          {
+            "id": "aa2b-b5f0-d9e9-cf5e",
+            "name": "Twin heavy stubber",
+            "min": 1,
+            "max": 1
+          }
+        ],
+        "groups": [
+          {
+            "id": "c1f0-a18e-ec6e-f38",
+            "name": "Sponson weapons",
+            "min": 1,
+            "max": 1,
+            "mode": "single",
+            "options": [
+              {
+                "id": "d261-8d3-77da-67d4",
+                "name": "Two heavy stubbers",
+                "min": 0,
+                "max": 99
+              },
+              {
+                "id": "3aaa-f034-c5e1-6d93",
+                "name": "Two heavy bolters",
+                "min": 0,
+                "max": 99
+              },
+              {
+                "id": "644a-4c7f-bfb9-c487",
+                "name": "Two heavy flamers",
+                "min": 0,
+                "max": 99
+              }
+            ],
+            "defaultOptionId": "d261-8d3-77da-67d4"
+          },
+          {
+            "id": "6b5c-a20e-6dfa-ac7e",
+            "name": "Pintle weapon",
+            "min": 0,
+            "max": 1,
+            "mode": "single",
+            "options": [
+              {
+                "id": "e000-20bf-2854-d4b6",
+                "name": "Heavy stubber",
+                "min": 0,
+                "max": 99
+              },
+              {
+                "id": "5fd4-48-d8c8-91de",
+                "name": "Storm bolter",
+                "min": 0,
+                "max": 99
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "247-2938-79b6-ff4b": {
+    "groups": [
+      {
+        "id": "3b42-d57a-6883-31cd",
+        "name": "Wargear",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "caef-d7ce-488a-1db3",
+            "name": "Armoured tracks",
+            "min": 1,
+            "max": 1
+          },
+          {
+            "id": "9efd-9c5f-c326-9d77",
+            "name": "Praetor launcher",
+            "min": 1,
+            "max": 1
+          },
+          {
+            "id": "b172-1417-853-e187",
+            "name": "Heavy bolter",
+            "min": 2,
+            "max": 2
+          }
+        ],
+        "groups": [
+          {
+            "id": "830c-37dd-188d-21ed",
+            "name": "Pintle weapon",
+            "min": 0,
+            "max": 1,
+            "mode": "single",
+            "options": [
+              {
+                "id": "88c-c015-1adc-46cd",
+                "name": "Heavy stubber",
+                "min": 0,
+                "max": 99
+              },
+              {
+                "id": "ba16-b186-4f0c-89d0",
+                "name": "Storm bolter",
+                "min": 0,
+                "max": 99
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "c7cc-ad05-15f6-a4f3": {
+    "groups": [
+      {
+        "id": "8dd3-994f-7b96-4f0b",
+        "name": "Wargear",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "108f-1372-dd3a-4c51",
+            "name": "Heavy bolter",
+            "min": 4,
+            "max": 4
+          },
+          {
+            "id": "c741-1a49-1d04-4ef8",
+            "name": "Armoured tracks",
+            "min": 1,
+            "max": 1
+          }
+        ],
+        "groups": [
+          {
+            "id": "414e-f1f6-e300-3e8e",
+            "name": "Pintle weapon",
+            "min": 0,
+            "max": 1,
+            "mode": "single",
+            "options": [
+              {
+                "id": "34f3-99c0-2d00-c15",
+                "name": "Heavy stubber",
+                "min": 0,
+                "max": 99
+              },
+              {
+                "id": "957c-8fde-53ec-4c66",
+                "name": "Storm bolter",
+                "min": 0,
+                "max": 99
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "1653-dc47-25b-c71f": {
+    "groups": [
+      {
+        "id": "fe23-1d7f-0029-9a29",
+        "name": "Wargear",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "1bd7-a985-449d-e6af",
+            "name": "Colossus siege mortar",
+            "min": 1,
+            "max": 1
+          },
+          {
+            "id": "2101-f720-3cae-a1c4",
+            "name": "Armoured tracks",
+            "min": 1,
+            "max": 1
+          },
+          {
+            "id": "a0a2-4cc7-d0b2-37e7",
+            "name": "Hunter-killer missile",
+            "min": 0,
+            "max": 1
+          }
+        ],
+        "groups": [
+          {
+            "id": "b09c-81f0-9c5c-adf8",
+            "name": "Pintle weapon",
+            "min": 0,
+            "max": 1,
+            "mode": "single",
+            "options": [
+              {
+                "id": "6984-d0c1-fdb2-94c6",
+                "name": "Heavy stubber",
+                "min": 0,
+                "max": 99
+              },
+              {
+                "id": "2b8c-d557-4395-e359",
+                "name": "Storm bolter",
+                "min": 0,
+                "max": 99
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "3936-a532-dc5e-8498": {
+    "groups": [
+      {
+        "id": "b210-302a-75cd-da9f",
+        "name": "Wargear",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "95fc-3740-2e90-d861",
+            "name": "Valdor neutron laser",
+            "min": 1,
+            "max": 1
+          },
+          {
+            "id": "cd55-5a9d-5517-afa4",
+            "name": "Armoured tracks",
+            "min": 1,
+            "max": 1
+          },
+          {
+            "id": "427e-38b7-f958-86db",
+            "name": "Hunter-killer missile",
+            "min": 0,
+            "max": 1
+          }
+        ],
+        "groups": [
+          {
+            "id": "f2f1-a889-5b33-7dff",
+            "name": "Pintle weapon",
+            "min": 0,
+            "max": 1,
+            "mode": "single",
+            "options": [
+              {
+                "id": "58ac-588c-a8a8-d79",
+                "name": "Heavy stubber",
+                "min": 0,
+                "max": 99
+              },
+              {
+                "id": "2be0-a6c4-8d4d-762b",
+                "name": "Storm bolter",
+                "min": 0,
+                "max": 99
+              }
+            ]
+          },
+          {
+            "id": "43e7-8a3-3c1e-e188",
+            "name": "Hull weapon",
+            "min": 1,
+            "max": 1,
+            "mode": "single",
+            "options": [
+              {
+                "id": "5529-532f-355f-318f",
+                "name": "Autocannon",
+                "min": 0,
+                "max": 99
+              },
+              {
+                "id": "717a-b09a-ac71-2df",
+                "name": "Heavy bolter",
+                "min": 0,
+                "max": 99
+              },
+              {
+                "id": "e79b-7ac7-5a04-e8f1",
+                "name": "Heavy flamer",
+                "min": 0,
+                "max": 99
+              },
+              {
+                "id": "61d-11e4-e405-3d5d",
+                "name": "Lascannon",
+                "min": 0,
+                "max": 99
+              }
+            ],
+            "defaultOptionId": "5529-532f-355f-318f"
+          }
+        ]
+      }
+    ]
+  },
+  "532c-2c97-357a-fa1e": {
+    "groups": [
+      {
+        "id": "f0f1-f600-c97b-efe7",
+        "name": "Wargear",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "596c-522f-3252-9584",
+            "name": "Avenger bolt cannon",
+            "min": 1,
+            "max": 1
+          },
+          {
+            "id": "66a-a1d1-9de6-8eec",
+            "name": "Armoured hull",
+            "min": 1,
+            "max": 1
+          },
+          {
+            "id": "5707-d6-756a-2283",
+            "name": "Heavy stubber",
+            "min": 1,
+            "max": 1
+          },
+          {
+            "id": "c48b-2bd4-2703-f304",
+            "name": "Lascannon",
+            "min": 2,
+            "max": 2
+          }
+        ]
+      }
+    ]
+  },
+  "ed3d-fa87-4f0d-d10c": {
+    "groups": [
+      {
+        "id": "cbbf-31d7-10b8-814b",
+        "name": "Wargear",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "f06b-f58a-1134-f895",
+            "name": "Lightning hellstrike rack",
+            "min": 0,
+            "max": 1
+          },
+          {
+            "id": "f21c-7bca-8c6b-3fe5",
+            "name": "Armoured hull",
+            "min": 1,
+            "max": 1
+          },
+          {
+            "id": "e3f5-f62c-9842-68ca",
+            "name": "Lascannon",
+            "min": 2,
+            "max": 2
+          }
+        ]
+      }
+    ]
+  },
+  "739e-cb18-c050-fca1": {
+    "groups": [
+      {
+        "id": "05a9-115d-b66e-d0af",
+        "name": "Wargear",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "a0fb-591e-c2ee-aee0",
+            "name": "Armoured hull",
+            "min": 1,
+            "max": 1
+          },
+          {
+            "id": "c2c5-effa-1d47-ab30",
+            "name": "Heavy bolter",
+            "min": 1,
+            "max": 1
+          }
+        ],
+        "groups": [
+          {
+            "id": "4eb6-7b58-f051-992f",
+            "name": "Wargear Options",
+            "min": 1,
+            "max": 1,
+            "mode": "single",
+            "options": [
+              {
+                "id": "95f7-bf1-b71f-5088",
+                "name": "Two Vulture gatling cannons",
+                "min": 0,
+                "max": 99
+              },
+              {
+                "id": "e466-913e-6cec-7718",
+                "name": "Two rocket pods and hellstrike rack",
+                "min": 0,
+                "max": 99
+              }
+            ],
+            "defaultOptionId": "e466-913e-6cec-7718"
+          }
+        ]
+      }
+    ]
+  },
+  "7f1f-38c8-1bdc-55d7": {
+    "groups": [
+      {
+        "id": "d7b5-cb66-6d2f-61be",
+        "name": "Wargear",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "1055-1403-d5cc-d718",
+            "name": "Armoured hull",
+            "min": 1,
+            "max": 1
+          },
+          {
+            "id": "58e1-40ae-e924-75e0",
+            "name": "Heavy bolter",
+            "min": 2,
+            "max": 2
+          },
+          {
+            "id": "8dfe-a5bb-f8d-9738",
+            "name": "Lascannon",
+            "min": 2,
+            "max": 2
+          }
+        ],
+        "groups": [
+          {
+            "id": "8fec-d411-bf45-d291",
+            "name": "Bombs",
+            "min": 1,
+            "max": 1,
+            "mode": "single",
+            "options": [
+              {
+                "id": "7677-cdc7-9473-49e6",
+                "name": "Heavy bombs",
+                "min": 0,
+                "max": 99
+              },
+              {
+                "id": "6627-6526-9162-9e11",
+                "name": "Inferno bombs",
+                "min": 0,
+                "max": 99
+              }
+            ],
+            "defaultOptionId": "7677-cdc7-9473-49e6"
+          }
+        ]
+      }
+    ]
+  },
+  "18f9-56ec-7334-69a7": {
+    "groups": [
+      {
+        "id": "b0c0-fc74-0123-62cd",
+        "name": "Wargear",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "acac-252c-48cb-abc1",
+            "name": "Marauder nose autocannons",
+            "min": 1,
+            "max": 1
+          },
+          {
+            "id": "a08-fa8f-11c6-33e8",
+            "name": "Assault cannon",
+            "min": 2,
+            "max": 2
+          },
+          {
+            "id": "38c8-8f32-6b1c-4e3b",
+            "name": "Hellstrike missile rack",
+            "min": 0,
+            "max": 1
+          },
+          {
+            "id": "940c-e3da-d9f5-dad5",
+            "name": "Armoured hull",
+            "min": 1,
+            "max": 1
+          },
+          {
+            "id": "a6c7-bcd4-77ae-c256",
+            "name": "Heavy bolter",
+            "min": 2,
+            "max": 2
+          }
+        ]
+      }
+    ]
+  },
+  "1502-bae3-93b4-c89a": {
+    "groups": [
+      {
+        "id": "d18d-117c-cfba-429c",
+        "name": "1-3 Tarantulas",
+        "min": 1,
+        "max": 3,
+        "mode": "count",
+        "options": [
+          {
+            "id": "7f51-3401-e115-9b48",
+            "name": "Tarantula w/ twin heavy bolter",
+            "min": 0,
+            "max": 3,
+            "groups": [
+              {
+                "id": "c358-f5cc-4193-3228",
+                "name": "Wargear",
+                "min": 0,
+                "max": 99,
+                "mode": "count",
+                "options": [
+                  {
+                    "id": "c980-ce3d-c029-62b",
+                    "name": "Twin heavy bolter",
+                    "min": 1,
+                    "max": 1
+                  },
+                  {
+                    "id": "2ddc-4191-e736-2af7",
+                    "name": "Close combat weapon",
+                    "min": 1,
+                    "max": 1
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "9af2-acc-32a4-c91e",
+            "name": "Tarantula w/ twin lascannon",
+            "min": 0,
+            "max": 3,
+            "groups": [
+              {
+                "id": "e277-3eba-4978-2c2f",
+                "name": "Wargear",
+                "min": 0,
+                "max": 99,
+                "mode": "count",
+                "options": [
+                  {
+                    "id": "8de1-15ac-85de-6960",
+                    "name": "Twin lascannon",
+                    "min": 1,
+                    "max": 1
+                  },
+                  {
+                    "id": "754d-cb3-694d-1940",
+                    "name": "Close combat weapon",
+                    "min": 1,
+                    "max": 1
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "defaultOptionId": "7f51-3401-e115-9b48"
+      }
+    ]
+  },
+  "31ec-a804-92ad-97": {
+    "groups": [
+      {
+        "id": "78ac-41f5-125e-5004",
+        "name": "1-3 Rapier Laser Destroyers",
+        "min": 1,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "848e-2032-547b-a6f1",
+            "name": "Rapier Laser Destroyer",
+            "min": 1,
+            "max": 3,
+            "equippedWith": "Close combat weapon"
+          }
+        ],
+        "defaultOptionId": "848e-2032-547b-a6f1"
+      }
+    ]
+  },
+  "ed8d-9053-9d33-61da": {
+    "groups": [
+      {
+        "id": "854e-cd5c-060d-c2fd",
+        "name": "Wargear",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "95ac-962f-3d2e-4920",
+            "name": "Melta-cutter drill",
+            "min": 1,
+            "max": 1
+          }
+        ]
+      }
+    ]
+  },
+  "fbaf-15f6-37d8-c5b": {
+    "groups": [
+      {
+        "id": "bf5f-0bee-ab41-0031",
+        "name": "Wargear",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "456-47f6-9b93-e1e6",
+            "name": "Hunter-killer missile",
+            "min": 0,
+            "max": 1
+          },
+          {
+            "id": "487f-c163-7eb3-1cd1",
+            "name": "Armoured tracks",
+            "min": 1,
+            "max": 1
+          }
+        ],
+        "groups": [
+          {
+            "id": "2c78-336c-bbc9-f6d1",
+            "name": "Hull weapon",
+            "min": 1,
+            "max": 1,
+            "mode": "single",
+            "options": [
+              {
+                "id": "e878-8e61-6767-53a1",
+                "name": "Heavy bolter",
+                "min": 0,
+                "max": 99
+              },
+              {
+                "id": "5fa6-2981-bada-3230",
+                "name": "Heavy flamer",
+                "min": 0,
+                "max": 99
+              }
+            ],
+            "defaultOptionId": "e878-8e61-6767-53a1"
+          }
+        ]
+      }
+    ]
+  },
+  "f8cc-73b7-6caa-f741": {
+    "groups": [
+      {
+        "id": "fbe6-8037-e064-b9d1",
+        "name": "Wargear",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "caad-fac6-7d0a-b66f",
+            "name": "Heavy bolter",
+            "min": 1,
+            "max": 1
+          },
+          {
+            "id": "d48a-dd71-b005-4f0",
+            "name": "Armoured hull",
+            "min": 1,
+            "max": 1
+          }
+        ],
+        "groups": [
+          {
+            "id": "f93e-ec72-6da0-eb9c",
+            "name": "Hellstrike Missile",
+            "min": 1,
+            "max": 1,
+            "mode": "single",
+            "options": [
+              {
+                "id": "6f6b-3feb-67d7-55fb",
+                "name": "2 Multiple Rocket Pods",
+                "min": 0,
+                "max": 99
+              },
+              {
+                "id": "5a9a-67d9-65b4-3079",
+                "name": "2 Hellstrike Missiles",
+                "min": 0,
+                "max": 99
+              }
+            ],
+            "defaultOptionId": "5a9a-67d9-65b4-3079"
+          }
+        ]
+      }
+    ]
+  },
+  "b44d-ecac-2542-e584": {
+    "groups": [
+      {
+        "id": "5fcb-a19d-432e-cc57",
+        "name": "Wargear",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "4f18-91d0-89b9-76f3",
+            "name": "Armoured hull",
+            "min": 1,
+            "max": 1
+          }
+        ],
+        "groups": [
+          {
+            "id": "e2f1-b4a3-658-424e",
+            "name": "Heavy Bolter",
+            "min": 1,
+            "max": 1,
+            "mode": "single",
+            "options": [
+              {
+                "id": "c4ab-1998-a00d-559c",
+                "name": "Heavy bolter",
+                "min": 0,
+                "max": 99
+              },
+              {
+                "id": "8585-c03-c10f-e8f8",
+                "name": "Autocannon",
+                "min": 0,
+                "max": 99
+              },
+              {
+                "id": "c082-3004-1ce7-0326",
+                "name": "Multi-laser",
+                "min": 0,
+                "max": 99
+              }
+            ],
+            "defaultOptionId": "c4ab-1998-a00d-559c"
+          }
+        ]
+      }
+    ]
+  },
+  "fc41-a899-8d5a-dc01": {
+    "groups": [
+      {
+        "id": "00c8-6f6f-3710-bb72",
+        "name": "Wargear",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "7db4-9bbb-e45e-72d8",
+            "name": "Dominus triple bombard",
+            "min": 1,
+            "max": 1
+          },
+          {
+            "id": "db56-f29d-8fa5-95b8",
+            "name": "Armoured tracks",
+            "min": 1,
+            "max": 1
+          },
+          {
+            "id": "2dff-289d-723d-83a7",
+            "name": "Hunter-killer missile",
+            "min": 0,
+            "max": 1
+          }
+        ],
+        "groups": [
+          {
+            "id": "c323-489c-9100-4d22",
+            "name": "Pintle Mount",
+            "min": 0,
+            "max": 1,
+            "mode": "single",
+            "options": [
+              {
+                "id": "ccab-b290-8eaa-d818",
+                "name": "Storm bolter",
+                "min": 0,
+                "max": 99
+              },
+              {
+                "id": "8d98-adb7-16ba-703f",
+                "name": "Heavy stubber",
+                "min": 0,
+                "max": 99
+              }
+            ],
+            "defaultOptionId": "none"
+          },
+          {
+            "id": "ce78-57a2-80fc-de01",
+            "name": "2 Heavy Bolter Options",
+            "min": 1,
+            "max": 1,
+            "mode": "single",
+            "options": [
+              {
+                "id": "cf0d-77f9-e6a-1fe5",
+                "name": "2 Heavy Bolters",
+                "min": 0,
+                "max": 99
+              },
+              {
+                "id": "1fcd-33ec-42ca-fc22",
+                "name": "2 Autocannons",
+                "min": 0,
+                "max": 99
+              },
+              {
+                "id": "fcc2-f12a-b7f-9d67",
+                "name": "2 Heavy Flamers",
+                "min": 0,
+                "max": 99
+              },
+              {
+                "id": "f239-6031-d2cc-c14",
+                "name": "2 Lascannon",
+                "min": 0,
+                "max": 99
+              }
+            ],
+            "defaultOptionId": "cf0d-77f9-e6a-1fe5"
+          }
+        ]
+      }
+    ]
+  },
+  "5d8e-2b2a-6ed1-8309": {
+    "groups": [
+      {
+        "id": "88d8-c2b3-165f-33d1",
+        "name": "Wargear",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "6553-615f-fed-3b31",
+            "name": "Landing ramp",
+            "min": 1,
+            "max": 1
+          },
+          {
+            "id": "ecb3-98e5-eb27-4db2",
+            "name": "Twin heavy stubber",
+            "min": 2,
+            "max": 2
+          },
+          {
+            "id": "65e9-5a3d-c71d-f12f",
+            "name": "Hunter-killer missile",
+            "min": 0,
+            "max": 1
+          }
+        ],
+        "groups": [
+          {
+            "id": "12b0-f5fd-8d06-79b9",
+            "name": "Gorgon Mortars",
+            "min": 1,
+            "max": 1,
+            "mode": "single",
+            "options": [
+              {
+                "id": "6a14-62b3-3047-6ab9",
+                "name": "2 Gorgon Mortars",
+                "min": 0,
+                "max": 99
+              },
+              {
+                "id": "2282-195f-3d13-bafb",
+                "name": "4 Heavy Bolters",
+                "min": 0,
+                "max": 99
+              },
+              {
+                "id": "5d50-ddff-1230-35a6",
+                "name": "4 Heavy Flamers",
+                "min": 0,
+                "max": 99
+              },
+              {
+                "id": "93a2-990b-ce63-ba78",
+                "name": "4 Heavy Stubbers",
+                "min": 0,
+                "max": 99
+              }
+            ],
+            "defaultOptionId": "6a14-62b3-3047-6ab9"
+          }
+        ]
+      }
+    ]
+  },
+  "8a25-2a0c-87d2-3ea6": {
+    "groups": [
+      {
+        "id": "baed-7c31-5898-eb0b",
+        "name": "Unit Composition",
+        "min": 9,
+        "max": 9,
+        "mode": "count",
+        "options": [
+          {
+            "id": "191-d513-bbf0-5af7",
+            "name": "Grenadier",
+            "min": 5,
+            "max": 9,
+            "equippedWith": "Hot-shot lasgun and Close combat weapon"
+          },
+          {
+            "id": "7f88-f3e8-592b-2de0",
+            "name": "Heavy Weapons Team",
+            "min": 0,
+            "max": 1,
+            "equippedWith": "Close combat weapon and Heavy flamer"
+          }
+        ],
+        "groups": [
+          {
+            "id": "8be7-1403-d963-7812",
+            "name": "Special Weapons",
+            "min": 0,
+            "max": 2,
+            "mode": "count",
+            "options": [
+              {
+                "id": "4966-94e3-8392-dccc",
+                "name": "Grenadier w/ Grenade launcher",
+                "min": 0,
+                "max": 2,
+                "equippedWith": "Close combat weapon and Grenade launcher"
+              },
+              {
+                "id": "91c8-e43c-8cd9-1694",
+                "name": "Grenadier w/ Heavy stubber",
+                "min": 0,
+                "max": 2,
+                "equippedWith": "Close combat weapon"
+              },
+              {
+                "id": "7e92-002a-1265-b04f",
+                "name": "Grenadier w/ Meltagun",
+                "min": 0,
+                "max": 2,
+                "equippedWith": "Close combat weapon and Meltagun"
+              },
+              {
+                "id": "8ae3-a772-c0c7-53a3",
+                "name": "Grenadier w/ Plasma gun",
+                "min": 0,
+                "max": 2,
+                "equippedWith": "Close combat weapon and Plasma gun"
+              },
+              {
+                "id": "7342-c076-0373-7f69",
+                "name": "Grenadier w/ Sniper rifle",
+                "min": 0,
+                "max": 2,
+                "equippedWith": "Close combat weapon and Sniper rifle"
+              },
+              {
+                "id": "c066-88c7-f985-c341",
+                "name": "Grenadier w/ Flamer",
+                "min": 0,
+                "max": 2,
+                "equippedWith": "Close combat weapon and Flamer"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "7928-c976-0121-36f2",
+        "name": "Grenadier Sergeant",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "23a5-c50c-8f24-c41f",
+            "name": "Grenadier Sergeant",
+            "min": 1,
+            "max": 1
+          }
+        ]
+      }
+    ]
+  },
+  "81d4-2ed9-b0a4-6bdd": {
+    "groups": [
+      {
+        "id": "bd4c-6260-72e3-00ae",
+        "name": "Wargear",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "9bfb-8bc2-4ab5-9c75",
+            "name": "Hunter-killer missile",
+            "min": 0,
+            "max": 1
+          },
+          {
+            "id": "31e-5220-c9fc-f844",
+            "name": "Armoured tracks",
+            "min": 1,
+            "max": 1
+          },
+          {
+            "id": "147e-ca2c-fadb-40c9",
+            "name": "Heavy stubber",
+            "min": 2,
+            "max": 2
+          }
+        ]
+      }
+    ]
+  },
+  "4b76-f049-77b1-38bf": {
+    "groups": [
+      {
+        "id": "4682-8f91-a273-0d0e",
+        "name": "Wargear",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "7472-692-326d-c22",
+            "name": "Omega-pattern plasma blastgun",
+            "min": 1,
+            "max": 1
+          },
+          {
+            "id": "4477-6717-ba90-1ee2",
+            "name": "Armoured tracks",
+            "min": 1,
+            "max": 1
+          }
+        ],
+        "groups": [
+          {
+            "id": "4732-7d85-b456-c6ba",
+            "name": "Sponson Weapons",
+            "min": 0,
+            "max": 1,
+            "mode": "single",
+            "options": [
+              {
+                "id": "1ea6-5679-ce20-683a",
+                "name": "2 Autocannons",
+                "min": 0,
+                "max": 99
+              },
+              {
+                "id": "dba7-6011-f0e5-6ca0",
+                "name": "2 Heavy Bolters",
+                "min": 0,
+                "max": 99
+              },
+              {
+                "id": "a067-a9f9-9f31-ff2f",
+                "name": "2 Heavy Flamers",
+                "min": 0,
+                "max": 99
+              }
+            ]
+          },
+          {
+            "id": "5acb-1543-d071-d361",
+            "name": "Pintle Mount",
+            "min": 0,
+            "max": 1,
+            "mode": "single",
+            "options": [
+              {
+                "id": "cf1a-d215-7dbf-bc0a",
+                "name": "Storm bolter",
+                "min": 0,
+                "max": 99
+              },
+              {
+                "id": "7b64-a1cc-3bf0-6b32",
+                "name": "Heavy stubber",
+                "min": 0,
+                "max": 99
+              }
+            ],
+            "defaultOptionId": "none"
+          }
+        ]
+      }
+    ]
+  },
+  "28d1-70b2-70be-c998": {
+    "groups": [
+      {
+        "id": "5a7c-b504-f019-9419",
+        "name": "Wargear",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "ebd7-468a-1fce-2f34",
+            "name": "Stygies laser destroyer",
+            "min": 1,
+            "max": 1
+          },
+          {
+            "id": "18fb-b59e-37d6-9d05",
+            "name": "Armoured tracks",
+            "min": 1,
+            "max": 1
+          },
+          {
+            "id": "eaa9-2f1a-35f0-4a6d",
+            "name": "Hunter-killer missile",
+            "min": 0,
+            "max": 1
+          }
+        ],
+        "groups": [
+          {
+            "id": "9497-7192-2366-2214",
+            "name": "Pintle Mount",
+            "min": 0,
+            "max": 1,
+            "mode": "single",
+            "options": [
+              {
+                "id": "1227-60a4-4e6d-4399",
+                "name": "Storm bolter",
+                "min": 0,
+                "max": 99
+              },
+              {
+                "id": "8f28-9f41-5d2d-52a8",
+                "name": "Heavy stubber",
+                "min": 0,
+                "max": 99
+              }
+            ],
+            "defaultOptionId": "none"
+          }
+        ]
+      }
+    ]
+  },
+  "1d02-5302-f162-65d6": {
+    "groups": [
+      {
+        "id": "77e7-36e2-99a9-dad5",
+        "name": "Quartermaster Revenant",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "5f94-ba04-56c9-60c0",
+            "name": "Quartermaster Revenant",
+            "min": 1,
+            "max": 1,
+            "groups": [
+              {
+                "id": "b424-1914-0ade-e124",
+                "name": "Wargear",
+                "min": 0,
+                "max": 99,
+                "mode": "count",
+                "options": [
+                  {
+                    "id": "9bb4-f7cb-408e-3309",
+                    "name": "Quartermaster's close combat weapon",
+                    "min": 1,
+                    "max": 1
+                  },
+                  {
+                    "id": "ca68-f610-c242-e855",
+                    "name": "Quartermaster's pistol",
+                    "min": 1,
+                    "max": 1
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "c5b6-585f-453f-d1c3",
+        "name": "Medicae Servitors",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "2eac-c382-3290-87d9",
+            "name": "Medicae Servitors",
+            "min": 4,
+            "max": 4
+          }
+        ]
+      }
+    ]
+  },
+  "9673-7eaa-8ed9-bc7c": {
+    "groups": [
+      {
+        "id": "622e-32da-8b48-3373",
+        "name": "Wargear",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "2d27-f9ee-c457-f268",
+            "name": "Armoured tracks",
+            "min": 1,
+            "max": 1
+          },
+          {
+            "id": "a072-2326-4363-dc6c",
+            "name": "Heavy bolter",
+            "min": 1,
+            "max": 1
+          },
+          {
+            "id": "6904-9b9a-b175-7fc0",
+            "name": "Hunter-killer missile",
+            "min": 0,
+            "max": 1
+          }
+        ],
+        "groups": [
+          {
+            "id": "4686-6f0c-96f2-52fd",
+            "name": "Pintle Mount",
+            "min": 0,
+            "max": 1,
+            "mode": "single",
+            "options": [
+              {
+                "id": "4327-bb4a-a0b6-7e7e",
+                "name": "Storm bolter",
+                "min": 0,
+                "max": 99
+              },
+              {
+                "id": "3397-0f2b-70ef-e129",
+                "name": "Heavy stubber",
+                "min": 0,
+                "max": 99
+              }
+            ],
+            "defaultOptionId": "none"
+          }
+        ]
+      }
+    ]
+  },
+  "badd-6133-a469-613c": {
+    "groups": [
+      {
+        "id": "559f-6d10-b176-c5b6",
+        "name": "Wargear",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "1f51-1d4f-a43d-b4d6",
+            "name": "Close Combat Weapons",
+            "min": 1,
+            "max": 1
+          },
+          {
+            "id": "a8c2-1dd5-879f-7f2c",
+            "name": "Heavy bolter",
+            "min": 1,
+            "max": 1
+          },
+          {
+            "id": "f67e-d4a1-da4f-622e",
+            "name": "Hunter-killer missile",
+            "min": 0,
+            "max": 1
+          }
+        ],
+        "groups": [
+          {
+            "id": "55d6-7725-b367-fe2",
+            "name": "Wargear Options",
+            "min": 0,
+            "max": 1,
+            "mode": "single",
+            "options": [
+              {
+                "id": "f3d3-ca8d-c1a1-6f1d",
+                "name": "Multi-melta",
+                "min": 0,
+                "max": 99
+              },
+              {
+                "id": "7c86-9e5-1ce0-a5c0",
+                "name": "Heavy flamer",
+                "min": 0,
+                "max": 99
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "e184-bfe9-ea12-a5e3": {
+    "groups": [
+      {
+        "id": "1147-49f3-d359-d08b",
+        "name": "Wargear",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "5e46-c214-d826-2fca",
+            "name": "Heavy mortar",
+            "min": 1,
+            "max": 1
+          },
+          {
+            "id": "1bf5-b6dd-c544-6400",
+            "name": "Close combat weapons",
+            "min": 1,
+            "max": 1
+          }
+        ]
+      }
+    ]
+  },
+  "a96a-83e1-9200-c88b": {
+    "groups": [
+      {
+        "id": "fbd3-c3d9-4b43-1ba4",
+        "name": "Wargear",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "9474-c5c1-530f-cc25",
+            "name": "Medusa siege cannon",
+            "min": 1,
+            "max": 1
+          },
+          {
+            "id": "56eb-c03c-9762-9d0a",
+            "name": "Armoured tracks",
+            "min": 1,
+            "max": 1
+          },
+          {
+            "id": "4a07-cfe1-4bd9-d1db",
+            "name": "Hunter-killer missile",
+            "min": 0,
+            "max": 1
+          }
+        ],
+        "groups": [
+          {
+            "id": "d135-f249-76fd-76e",
+            "name": "Heavy Bolter",
+            "min": 1,
+            "max": 1,
+            "mode": "single",
+            "options": [
+              {
+                "id": "c441-5d20-47bf-42b7",
+                "name": "Heavy bolter",
+                "min": 0,
+                "max": 99
+              },
+              {
+                "id": "ec6c-d8c1-5c96-f86e",
+                "name": "Heavy flamer",
+                "min": 0,
+                "max": 99
+              }
+            ],
+            "defaultOptionId": "c441-5d20-47bf-42b7"
+          },
+          {
+            "id": "08eb-daca-d15c-64ad",
+            "name": "Pintle Mount",
+            "min": 0,
+            "max": 1,
+            "mode": "single",
+            "options": [
+              {
+                "id": "a424-8170-78a9-39bb",
+                "name": "Storm bolter",
+                "min": 0,
+                "max": 99
+              },
+              {
+                "id": "4675-6f94-0151-7306",
+                "name": "Heavy stubber",
+                "min": 0,
+                "max": 99
+              }
+            ],
+            "defaultOptionId": "none"
+          }
+        ]
+      }
+    ]
+  },
+  "5762-f71e-7693-49a6": {
+    "groups": [
+      {
+        "id": "dc10-23e4-aa35-46e0",
+        "name": "Wargear",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "177-d831-7c0a-1dcd",
+            "name": "Heavy quad launcher",
+            "min": 1,
+            "max": 1
+          },
+          {
+            "id": "8355-7cc6-107e-6932",
+            "name": "Close combat weapons",
+            "min": 1,
+            "max": 1
+          }
+        ]
+      }
+    ]
+  },
+  "8b13-7c06-de12-4227": {
+    "groups": [
+      {
+        "id": "a1b4-7d90-c944-a064",
+        "name": "Wargear",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "f5d4-ddcd-b0f1-6b0e",
+            "name": "Armoured Hull",
+            "min": 1,
+            "max": 1
+          }
+        ]
+      }
+    ]
+  },
+  "4946-40d2-ee8b-a71c": {
+    "groups": [
+      {
+        "id": "6e38-7d29-6018-30d2",
+        "name": "Wargear",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "1686-bcbd-320c-b348",
+            "name": "Armoured hull",
+            "min": 1,
+            "max": 1
+          },
+          {
+            "id": "3b26-b122-10bc-5a7c",
+            "name": "2 Heavy Bolters",
+            "min": 0,
+            "max": 1
+          },
+          {
+            "id": "f60b-3a36-c23-55b4",
+            "name": "Vendetta twin lascannon",
+            "min": 1,
+            "max": 1
+          }
+        ],
+        "groups": [
+          {
+            "id": "cfd5-8cde-da7d-d415",
+            "name": "Vendetta Twin Lascannon",
+            "min": 1,
+            "max": 1,
+            "mode": "single",
+            "options": [
+              {
+                "id": "11e3-105c-a93c-3f1f",
+                "name": "2 Vendetta Twin Lascannons",
+                "min": 0,
+                "max": 99
+              },
+              {
+                "id": "2f2b-8df4-8234-7b91",
+                "name": "Vendetta hellstrike rack",
+                "min": 0,
+                "max": 99
+              }
+            ],
+            "defaultOptionId": "11e3-105c-a93c-3f1f"
+          }
+        ]
+      }
+    ]
+  },
+  "92a9-a820-b7f-7dc2": {
+    "groups": [
+      {
+        "id": "0161-c25e-b5bd-e739",
+        "name": "Wargear",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "e2a4-3da9-63cc-e054",
+            "name": "Minotaur twin earthshaker cannon",
+            "min": 1,
+            "max": 1
+          },
+          {
+            "id": "34da-b9ca-4e05-d41c",
+            "name": "Armoured tracks",
+            "min": 1,
+            "max": 1
+          }
+        ]
+      }
+    ]
+  },
+  "d58c-e97f-5062-d9e1": {
+    "groups": [
+      {
+        "id": "b4ff-0872-60c7-0449",
+        "name": "Wargear",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "31d7-6aef-e303-eb1f",
+            "name": "Commisar's pistol",
+            "min": 1,
+            "max": 1
+          },
+          {
+            "id": "57e-5dd9-dc2a-bc1f",
+            "name": "Commissar’s close combat weapon",
+            "min": 1,
+            "max": 1
+          },
+          {
+            "id": "2165-a9e4-4c72-d13e",
+            "name": "Savage claws",
+            "min": 1,
+            "max": 1
+          }
+        ]
+      }
+    ]
+  },
+  "8cc1-8512-710f-f15f": {
+    "groups": [
+      {
+        "id": "d4b9-07e9-22f2-a19b",
+        "name": "Wargear",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "cd36-f006-6626-40f3",
+            "name": "Powerlifter",
+            "min": 1,
+            "max": 1
+          }
+        ]
+      }
+    ]
+  },
+  "7be8-bfe0-6416-8ed7": {
+    "groups": [
+      {
+        "id": "447e-9583-9335-337d",
+        "name": "Wargear",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "cd39-d629-3c50-a0de",
+            "name": "Griffon heavy mortar",
+            "min": 1,
+            "max": 1
+          },
+          {
+            "id": "6534-443-60dc-434f",
+            "name": "Armoured tracks",
+            "min": 1,
+            "max": 1
+          }
+        ],
+        "groups": [
+          {
+            "id": "905c-3f1d-019e-e89d",
+            "name": "Heavy Bolter",
+            "min": 1,
+            "max": 1,
+            "mode": "single",
+            "options": [
+              {
+                "id": "05ba-7217-3ae9-ed73",
+                "name": "Heavy bolter",
+                "min": 0,
+                "max": 99
+              },
+              {
+                "id": "7b1b-ef4a-a3a0-3485",
+                "name": "Heavy flamer",
+                "min": 0,
+                "max": 99
+              }
+            ],
+            "defaultOptionId": "db5e-9e8f-e4b-6ec7"
+          },
+          {
+            "id": "6350-8a8f-0eac-ea57",
+            "name": "Pintle Mount",
+            "min": 0,
+            "max": 1,
+            "mode": "single",
+            "options": [
+              {
+                "id": "b035-76cc-ce6e-27ac",
+                "name": "Storm bolter",
+                "min": 0,
+                "max": 99
+              },
+              {
+                "id": "e1d8-050d-7ef6-2541",
+                "name": "Heavy stubber",
+                "min": 0,
+                "max": 99
+              }
+            ],
+            "defaultOptionId": "none"
+          }
+        ]
+      }
+    ]
+  },
+  "73b2-edbf-eec3-563d": {
+    "groups": [
+      {
+        "id": "b652-ad78-0d0e-d39b",
+        "name": "Wargear",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "e466-91cc-ae47-6cb0",
+            "name": "Armoured tracks",
+            "min": 1,
+            "max": 1
+          },
+          {
+            "id": "e406-31e7-73ae-fe6e",
+            "name": "Autocannon",
+            "min": 1,
+            "max": 1
+          },
+          {
+            "id": "55d-20e0-7e9b-ed15",
+            "name": "Heavy bolter",
+            "min": 1,
+            "max": 1
+          },
+          {
+            "id": "131e-41a-972c-48f9",
+            "name": "Hunter-killer missile",
+            "min": 0,
+            "max": 1
+          }
+        ],
+        "groups": [
+          {
+            "id": "dabb-c6c6-737c-a982",
+            "name": "Pintle Mount",
+            "min": 0,
+            "max": 1,
+            "mode": "single",
+            "options": [
+              {
+                "id": "0761-2938-61b6-ad53",
+                "name": "Storm bolter",
+                "min": 0,
+                "max": 99
+              },
+              {
+                "id": "3001-158f-ef58-aefe",
+                "name": "Heavy stubber",
+                "min": 0,
+                "max": 99
+              }
+            ],
+            "defaultOptionId": "none"
+          }
+        ]
+      }
+    ]
+  },
+  "6800-f1ce-7deb-d9eb": {
+    "groups": [
+      {
+        "id": "0ce9-444e-1720-f27a",
+        "name": "Wargear",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "e705-3c1-b23a-a776",
+            "name": "Armoured frame",
+            "min": 1,
+            "max": 1
+          },
+          {
+            "id": "82a1-efe7-4b3b-19f2",
+            "name": "Hunter-killer missile",
+            "min": 0,
+            "max": 1
+          }
+        ],
+        "groups": [
+          {
+            "id": "20b2-87fe-a850-7760",
+            "name": "Heavy Flamer",
+            "min": 1,
+            "max": 1,
+            "mode": "single",
+            "options": [
+              {
+                "id": "dc2c-d51d-492c-1c25",
+                "name": "Tauros grenade launcher",
+                "min": 0,
+                "max": 99
+              },
+              {
+                "id": "e914-e541-bd9c-8d00",
+                "name": "Heavy flamer",
+                "min": 0,
+                "max": 99
+              }
+            ],
+            "defaultOptionId": "e914-e541-bd9c-8d00"
+          }
+        ]
+      }
+    ]
+  },
+  "a95f-9dd6-de66-fa59": {
+    "groups": [
+      {
+        "id": "2fe7-6fba-6282-4571",
+        "name": "Wargear",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "e05-792-daed-567d",
+            "name": "Hunter-killer missile",
+            "min": 0,
+            "max": 1
+          },
+          {
+            "id": "b75-9ab1-fef0-5f63",
+            "name": "Armoured frame",
+            "min": 1,
+            "max": 1
+          }
+        ],
+        "groups": [
+          {
+            "id": "59e0-de5e-7498-cdd7",
+            "name": "Twin Multi-laser",
+            "min": 1,
+            "max": 1,
+            "mode": "single",
+            "options": [
+              {
+                "id": "6b7c-511c-123e-618c",
+                "name": "Twin multi-laser",
+                "min": 0,
+                "max": 99
+              },
+              {
+                "id": "7246-9f1d-2fa9-269",
+                "name": "Twin lascannon",
+                "min": 0,
+                "max": 99
+              }
+            ],
+            "defaultOptionId": "6b7c-511c-123e-618c"
+          }
+        ]
+      }
+    ]
+  },
+  "9fb1-876b-ac2d-6c9b": {
+    "groups": [
+      {
+        "id": "74ba-495c-bf29-5ebd",
+        "name": "Wargear",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "603d-a84b-2b9f-78c9",
+            "name": "Armoured tracks",
+            "min": 1,
+            "max": 1
+          },
+          {
+            "id": "5340-6144-6bf6-58b6",
+            "name": "Heavy bolter",
+            "min": 1,
+            "max": 1
+          },
+          {
+            "id": "6802-4c8c-bd86-c6ee",
+            "name": "Heavy flamer",
+            "min": 1,
+            "max": 1
+          },
+          {
+            "id": "d823-7e92-61f-9cf5",
+            "name": "Hunter-killer missile",
+            "min": 0,
+            "max": 1
+          }
+        ],
+        "groups": [
+          {
+            "id": "43d5-16f9-1726-77f2",
+            "name": "Pintle Mount",
+            "min": 0,
+            "max": 1,
+            "mode": "single",
+            "options": [
+              {
+                "id": "2c13-c5e7-56bc-6167",
+                "name": "Storm bolter",
+                "min": 0,
+                "max": 99
+              },
+              {
+                "id": "bfb3-9185-a9de-1857",
+                "name": "Heavy stubber",
+                "min": 0,
+                "max": 99
+              }
+            ],
+            "defaultOptionId": "none"
+          }
+        ]
+      }
+    ]
+  },
+  "59c4-e4de-fe70-b221": {
+    "groups": [
+      {
+        "id": "bb24-44f1-dcb2-10f5",
+        "name": "Wargear",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "d82b-dcae-41eb-3094",
+            "name": "Stormhammer cannon",
+            "min": 1,
+            "max": 1
+          },
+          {
+            "id": "ad2e-577d-c893-63b5",
+            "name": "Twin battle cannon",
+            "min": 1,
+            "max": 1
+          },
+          {
+            "id": "bcf9-a164-a2f1-e1c2",
+            "name": "Armoured tracks",
+            "min": 1,
+            "max": 1
+          },
+          {
+            "id": "c871-bfc3-ca61-86f8",
+            "name": "Hunter-killer missile",
+            "min": 0,
+            "max": 1
+          },
+          {
+            "id": "f6c0-62bf-f139-3884",
+            "name": "Lascannon",
+            "min": 1,
+            "max": 1
+          }
+        ],
+        "groups": [
+          {
+            "id": "629f-efb1-565a-607",
+            "name": "Multi-laser",
+            "min": 1,
+            "max": 1,
+            "mode": "single",
+            "options": [
+              {
+                "id": "698d-f738-ff73-4943",
+                "name": "7 Multi-lasers",
+                "min": 0,
+                "max": 99
+              },
+              {
+                "id": "8568-8d6d-1ae8-3bc0",
+                "name": "7 Heavy Bolters",
+                "min": 0,
+                "max": 99
+              },
+              {
+                "id": "2436-4608-f344-6978",
+                "name": "7 Heavy Flamers",
+                "min": 0,
+                "max": 99
+              },
+              {
+                "id": "27ea-1595-f6b9-af60",
+                "name": "7 Lascannons",
+                "min": 0,
+                "max": 99
+              }
+            ]
+          },
+          {
+            "id": "295d-14c2-090b-2c75",
+            "name": "Pintle Mount",
+            "min": 0,
+            "max": 1,
+            "mode": "single",
+            "options": [
+              {
+                "id": "17f3-9795-0822-0e69",
+                "name": "Storm bolter",
+                "min": 0,
+                "max": 99
+              },
+              {
+                "id": "04ba-3bf4-4fe4-090a",
+                "name": "Heavy stubber",
+                "min": 0,
+                "max": 99
+              }
+            ],
+            "defaultOptionId": "none"
+          }
+        ]
+      }
+    ]
+  },
+  "b6a7-4d64-1155-70c1": {
+    "groups": [
+      {
+        "id": "36d9-4c73-295a-25f9",
+        "name": "Wargear",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "7b64-aeb4-3c87-107d",
+            "name": "Armoured tracks",
+            "min": 1,
+            "max": 1
+          },
+          {
+            "id": "ee62-2805-4779-31d4",
+            "name": "Autocannon",
+            "min": 1,
+            "max": 1
+          },
+          {
+            "id": "7174-5440-d21f-4973",
+            "name": "Hunter-killer missile",
+            "min": 0,
+            "max": 1
+          }
+        ],
+        "groups": [
+          {
+            "id": "46f1-dbfd-304b-bf42",
+            "name": "Pintle Mount",
+            "min": 0,
+            "max": 1,
+            "mode": "single",
+            "options": [
+              {
+                "id": "5b1c-c4cf-933c-f815",
+                "name": "Storm bolter",
+                "min": 0,
+                "max": 99
+              },
+              {
+                "id": "e73c-474d-30ce-9658",
+                "name": "Heavy stubber",
+                "min": 0,
+                "max": 99
+              }
+            ],
+            "defaultOptionId": "none"
+          },
+          {
+            "id": "9525-78ab-8280-7d05",
+            "name": "Heavy Bolter",
+            "min": 1,
+            "max": 1,
+            "mode": "single",
+            "options": [
+              {
+                "id": "dc22-dd38-93e0-3a55",
+                "name": "Heavy bolter",
+                "min": 0,
+                "max": 99
+              },
+              {
+                "id": "8899-28a6-3329-a5ff",
+                "name": "Heavy flamer",
+                "min": 0,
+                "max": 99
+              }
+            ],
+            "defaultOptionId": "dc22-dd38-93e0-3a55"
+          }
+        ]
+      }
+    ]
+  },
+  "aa9f-f137-1638-0369": {
+    "groups": [
+      {
+        "id": "a4d6-8fd0-9492-c5c1",
+        "name": "9 Tempestus Aquilons",
+        "min": 9,
+        "max": 9,
+        "mode": "count",
+        "options": [
+          {
+            "id": "61d4-75d1-f33f-4d93",
+            "name": "Tempestus Aquilon",
+            "min": 4,
+            "max": 9,
+            "equippedWith": "Hot-shot lascarbine and Close combat weapon"
+          },
+          {
+            "id": "1ea1-6307-54cd-436e",
+            "name": "Tempestus Aquilon w/ 2 Hot-shot laspistols",
+            "min": 0,
+            "max": 1,
+            "equippedWith": "Close combat weapon"
+          },
+          {
+            "id": "78c4-710a-badf-5840",
+            "name": "Tempestus Aquilon w/ 1 Hot-shot laspistol",
+            "min": 0,
+            "max": 2,
+            "equippedWith": "Hot-shot laspistol and Close combat weapon"
+          },
+          {
+            "id": "1986-e027-1fdf-7db0",
+            "name": "Tempestus Aquilon w/ Hot-shot long-las",
+            "min": 0,
+            "max": 1,
+            "equippedWith": "Close combat weapon"
+          },
+          {
+            "id": "4d0f-ad58-f3e3-917a",
+            "name": "Tempestus Aquilon w/ Special weapon",
+            "min": 0,
+            "max": 1,
+            "groups": [
+              {
+                "id": "a4fd-9d0d-095a-4c66",
+                "name": "Special weapon",
+                "min": 1,
+                "max": 1,
+                "mode": "single",
+                "options": [
+                  {
+                    "id": "d69e-cdf4-3299-4b0a",
+                    "name": "Plasma carbine",
+                    "min": 0,
+                    "max": 99
+                  },
+                  {
+                    "id": "322b-f689-2267-a949",
+                    "name": "Melta carbine",
+                    "min": 0,
+                    "max": 99
+                  }
+                ],
+                "defaultOptionId": "none"
+              }
+            ],
+            "equippedWith": "Close combat weapon"
+          }
+        ]
+      },
+      {
+        "id": "249e-278c-c084-cd03",
+        "name": "Tempestor Aquilon",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "fad8-cb5e-0b39-7a87",
+            "name": "Tempestor Aquilon",
+            "min": 1,
+            "max": 1,
+            "groups": [
+              {
+                "id": "262a-f940-0aa1-ad83",
+                "name": "Hot-shot Lascarbine",
+                "min": 1,
+                "max": 1,
+                "mode": "single",
+                "options": [
+                  {
+                    "id": "d139-9db1-6bda-9be1",
+                    "name": "Hot-shot lascarbine",
+                    "min": 0,
+                    "max": 99
+                  },
+                  {
+                    "id": "90cb-729b-689f-ea55",
+                    "name": "Chainsword",
+                    "min": 0,
+                    "max": 99
+                  },
+                  {
+                    "id": "60d6-80a8-fae2-5ae9",
+                    "name": "Power weapon",
+                    "min": 0,
+                    "max": 99
+                  },
+                  {
+                    "id": "6d0b-f370-3a6f-b7ee",
+                    "name": "Hot-shot laspistol",
+                    "min": 0,
+                    "max": 99
+                  }
+                ],
+                "defaultOptionId": "d139-9db1-6bda-9be1"
+              },
+              {
+                "id": "0b66-bf12-11f9-13fb",
+                "name": "Pistol",
+                "min": 0,
+                "max": 1,
+                "mode": "single",
+                "options": [
+                  {
+                    "id": "3ccf-1022-7b45-cf0a",
+                    "name": "Hot-shot laspistol",
+                    "min": 0,
+                    "max": 99
+                  },
+                  {
+                    "id": "6e52-b7c2-7e54-6488",
+                    "name": "Bolt pistol",
+                    "min": 0,
+                    "max": 99
+                  }
+                ],
+                "defaultOptionId": "none"
+              },
+              {
+                "id": "c085-fe0c-8f38-e4b4",
+                "name": "Sentry Flamer",
+                "min": 1,
+                "max": 1,
+                "mode": "single",
+                "options": [
+                  {
+                    "id": "e47b-6771-baf1-0ea0",
+                    "name": "Sentry flamer",
+                    "min": 0,
+                    "max": 99
+                  },
+                  {
+                    "id": "ac41-1de9-a4e3-f7d1",
+                    "name": "Sentry hot-shot volley gun",
+                    "min": 0,
+                    "max": 99
+                  },
+                  {
+                    "id": "2f26-5e9a-212c-dc02",
+                    "name": "Sentry grenade launcher",
+                    "min": 0,
+                    "max": 99
+                  }
+                ],
+                "defaultOptionId": "e47b-6771-baf1-0ea0"
+              }
+            ],
+            "equippedWith": "Close combat weapon"
+          }
+        ]
+      }
+    ]
+  },
+  "8293-a070-2c87-de30": {
+    "groups": [
+      {
+        "id": "6fd2-69e9-13a3-c427",
+        "name": "5-10 Ratlings",
+        "min": 0,
+        "max": 10,
+        "mode": "count",
+        "options": [
+          {
+            "id": "c9f8-bfb9-b363-39d2",
+            "name": "Ratlings",
+            "min": 5,
+            "max": 10,
+            "equippedWith": "Sniper rifle"
+          },
+          {
+            "id": "b799-86fa-f6a9-4a76",
+            "name": "Ratling w/ tankstopper rifle",
+            "min": 0,
+            "max": 1
+          }
+        ]
+      },
+      {
+        "id": "d889-1c55-2404-0244",
+        "name": "Wargear Options",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "b5b8-1bac-7971-0fc0",
+            "name": "Ratling Battlemutt",
+            "min": 0,
+            "max": 1
+          },
+          {
+            "id": "7dca-134f-73b7-439c",
+            "name": "Demolition Gear",
+            "min": 0,
+            "max": 1
+          }
+        ]
+      }
+    ]
+  },
+  "fbcd-274b-0196-b4f6": {
+    "groups": [
+      {
+        "id": "2ae1-f612-ecfe-d102",
+        "name": "Lord Commissar",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "bdfc-7111-a16e-0aa7",
+            "name": "Lord Commissar",
+            "min": 1,
+            "max": 1,
+            "groups": [
+              {
+                "id": "e751-b9ff-adce-0313",
+                "name": "Wargear",
+                "min": 0,
+                "max": 99,
+                "mode": "count",
+                "options": [
+                  {
+                    "id": "1fab-bff9-5828-3f42",
+                    "name": "Plasma pistol",
+                    "min": 0,
+                    "max": 1
+                  },
+                  {
+                    "id": "4082-8083-ba97-db2f",
+                    "name": "Laspistol",
+                    "min": 1,
+                    "max": 1
+                  }
+                ],
+                "groups": [
+                  {
+                    "id": "c585-c8a6-5b7e-6875",
+                    "name": "Power Weapon",
+                    "min": 1,
+                    "max": 1,
+                    "mode": "single",
+                    "options": [
+                      {
+                        "id": "a32f-44c8-ab7b-baef",
+                        "name": "Power fist",
+                        "min": 0,
+                        "max": 99
+                      },
+                      {
+                        "id": "775c-9b75-c591-511e",
+                        "name": "Power weapon",
+                        "min": 0,
+                        "max": 99
+                      }
+                    ],
+                    "defaultOptionId": "775c-9b75-c591-511e"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "be04-415a-044a-d4d8",
+        "name": "Veteran Guardsmen",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "ef3e-c285-5221-d23c",
+            "name": "Veteran Guardsman w/ Alchemyk counteragents",
+            "min": 1,
+            "max": 1,
+            "equippedWith": "Close combat weapon and Laspistol"
+          },
+          {
+            "id": "ccf1-b4ab-e10f-3777",
+            "name": "Veteran Guardsman w/ Boltgun",
+            "min": 1,
+            "max": 1,
+            "groups": [
+              {
+                "id": "cd89-689b-51fd-06ca",
+                "name": "Boltgun",
+                "min": 1,
+                "max": 1,
+                "mode": "single",
+                "options": [
+                  {
+                    "id": "0513-0a53-2412-1d39",
+                    "name": "Boltgun",
+                    "min": 0,
+                    "max": 99
+                  },
+                  {
+                    "id": "8cb4-b749-054e-af7d",
+                    "name": "Plasma gun",
+                    "min": 0,
+                    "max": 99
+                  },
+                  {
+                    "id": "e4d8-354b-a5c4-1305",
+                    "name": "Meltagun",
+                    "min": 0,
+                    "max": 99
+                  },
+                  {
+                    "id": "d90b-47b9-5ea7-eb1c",
+                    "name": "Grenade launcher",
+                    "min": 0,
+                    "max": 99
+                  },
+                  {
+                    "id": "7714-8291-95a0-ae8e",
+                    "name": "Flamer",
+                    "min": 0,
+                    "max": 99
+                  }
+                ],
+                "defaultOptionId": "0513-0a53-2412-1d39"
+              }
+            ],
+            "equippedWith": "Close combat weapon"
+          },
+          {
+            "id": "47fe-c1b5-afc2-5352",
+            "name": "Veteran Guardsman w/ Chainsword",
+            "min": 1,
+            "max": 1,
+            "groups": [
+              {
+                "id": "fb79-08b2-d2a7-3aaa",
+                "name": "Chainsword",
+                "min": 1,
+                "max": 1,
+                "mode": "single",
+                "options": [
+                  {
+                    "id": "1c3c-2339-2fb4-dcbe",
+                    "name": "Trench club",
+                    "min": 0,
+                    "max": 99
+                  },
+                  {
+                    "id": "4075-8391-f4ce-dc56",
+                    "name": "Chainsword",
+                    "min": 0,
+                    "max": 99
+                  },
+                  {
+                    "id": "2bba-8612-e2df-faf7",
+                    "name": "Power weapon",
+                    "min": 0,
+                    "max": 99
+                  }
+                ],
+                "defaultOptionId": "4075-8391-f4ce-dc56"
+              },
+              {
+                "id": "a257-11bd-2383-ef2b",
+                "name": "Laspistol",
+                "min": 1,
+                "max": 1,
+                "mode": "single",
+                "options": [
+                  {
+                    "id": "d5b1-f799-7c9e-250f",
+                    "name": "Bolt pistol",
+                    "min": 0,
+                    "max": 99
+                  },
+                  {
+                    "id": "e3ee-17c9-bb4e-3c9c",
+                    "name": "Laspistol",
+                    "min": 0,
+                    "max": 99
+                  },
+                  {
+                    "id": "04d1-8497-c844-42cd",
+                    "name": "Plasma pistol",
+                    "min": 0,
+                    "max": 99
+                  }
+                ],
+                "defaultOptionId": "e3ee-17c9-bb4e-3c9c"
+              }
+            ]
+          },
+          {
+            "id": "bc00-4539-cb3a-5a22",
+            "name": "Veteran Guardsman w/ Master vox",
+            "min": 1,
+            "max": 1,
+            "equippedWith": "Close combat weapon and Lasgun and Master vox"
+          },
+          {
+            "id": "66f4-ce88-b2c5-0b46",
+            "name": "Veteran Guardsman w/ Regimental standard",
+            "min": 1,
+            "max": 1,
+            "equippedWith": "Close combat weapon and Lasgun and Regimental standard"
+          }
+        ]
+      }
+    ]
+  },
+  "7d22-9fb6-a7e0-c21b": {
+    "groups": [
+      {
+        "id": "60ce-8a9d-d7c6-a8d5",
+        "name": "Veteran Guardsmen",
+        "min": 4,
+        "max": 4,
+        "mode": "count",
+        "options": [
+          {
+            "id": "b179-d6c3-a951-7f51",
+            "name": "Veteran Guardsman",
+            "min": 0,
+            "max": 4,
+            "equippedWith": "Close combat weapon and Laspistol and Lasgun"
+          },
+          {
+            "id": "6add-45c6-1f7f-e50c",
+            "name": "Veteran Guardsman w/ Master vox",
+            "min": 0,
+            "max": 1,
+            "equippedWith": "Master vox and Close combat weapon and Laspistol and Lasgun"
+          },
+          {
+            "id": "991f-f0fa-0515-7512",
+            "name": "Veteran Guardsman w/ Regimental standard",
+            "min": 0,
+            "max": 1,
+            "equippedWith": "Regimental standard and Close combat weapon and Laspistol and Lasgun"
+          },
+          {
+            "id": "e771-60a8-8c34-1acd",
+            "name": "Veteran Guardsman w/ Medi-pack",
+            "min": 0,
+            "max": 1,
+            "equippedWith": "Medi-pack and Close combat weapon and Laspistol and Lasgun"
+          }
+        ],
+        "defaultOptionId": "b179-d6c3-a951-7f51",
+        "groups": [
+          {
+            "id": "7b6b-d738-d1aa-a9bd",
+            "name": "Special Weapons",
+            "min": 0,
+            "max": 4,
+            "mode": "count",
+            "options": [
+              {
+                "id": "c3aa-7206-aa07-06a9",
+                "name": "Veteran Guardsman w/ Flamer",
+                "min": 0,
+                "max": 1,
+                "equippedWith": "Close combat weapon and Laspistol and Flamer"
+              },
+              {
+                "id": "c54c-2cb2-d716-0f9b",
+                "name": "Veteran Guardsman w/ Grenade launcher",
+                "min": 0,
+                "max": 1,
+                "equippedWith": "Close combat weapon and Laspistol and Grenade launcher"
+              },
+              {
+                "id": "6ff4-bac6-1118-bed0",
+                "name": "Veteran Guardsman w/ Heavy flamer",
+                "min": 0,
+                "max": 1,
+                "equippedWith": "Close combat weapon and Laspistol and Heavy flamer"
+              },
+              {
+                "id": "d967-c8ec-a65d-da81",
+                "name": "Veteran Guardsman w/ Meltagun",
+                "min": 0,
+                "max": 1,
+                "equippedWith": "Close combat weapon and Laspistol and Meltagun"
+              },
+              {
+                "id": "f679-f0a2-ac5c-87a3",
+                "name": "Veteran Guardsman w/ Plasma gun",
+                "min": 0,
+                "max": 1,
+                "equippedWith": "Close combat weapon and Laspistol and Plasma gun"
+              },
+              {
+                "id": "50b1-0d06-c4c2-88f7",
+                "name": "Veteran Guardsman w/ Sniper rifle",
+                "min": 0,
+                "max": 1,
+                "equippedWith": "Close combat weapon and Laspistol and Sniper rifle"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "0094-3ba9-5a6f-f8b8",
+        "name": "Catachan Commander",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "2d9e-f95e-8a1d-81ac",
+            "name": "Catachan Commander",
+            "min": 1,
+            "max": 1,
+            "groups": [
+              {
+                "id": "3078-9555-cf47-990a",
+                "name": "Wargear",
+                "min": 0,
+                "max": 99,
+                "mode": "count",
+                "options": [
+                  {
+                    "id": "a098-f95c-b11c-5be3",
+                    "name": "Close combat weapon",
+                    "min": 1,
+                    "max": 1
+                  }
+                ],
+                "groups": [
+                  {
+                    "id": "ca6d-aa7c-6301-4683",
+                    "name": "Laspistol",
+                    "min": 1,
+                    "max": 1,
+                    "mode": "single",
+                    "options": [
+                      {
+                        "id": "f120-32bb-063e-96da",
+                        "name": "Laspistol",
+                        "min": 0,
+                        "max": 99
+                      },
+                      {
+                        "id": "1b09-8606-5619-389b",
+                        "name": "Bolt pistol",
+                        "min": 0,
+                        "max": 99
+                      },
+                      {
+                        "id": "ecfa-7457-8e3d-3f8e",
+                        "name": "Plasma pistol",
+                        "min": 0,
+                        "max": 99
+                      }
+                    ],
+                    "defaultOptionId": "f120-32bb-063e-96da"
+                  },
+                  {
+                    "id": "cfbf-5a15-e133-08f8",
+                    "name": "Melee Weapon",
+                    "min": 0,
+                    "max": 1,
+                    "mode": "single",
+                    "options": [
+                      {
+                        "id": "b12a-e5f7-4cbb-a589",
+                        "name": "Boltgun",
+                        "min": 0,
+                        "max": 99
+                      },
+                      {
+                        "id": "bb16-7a87-3dbe-c927",
+                        "name": "Chainsword",
+                        "min": 0,
+                        "max": 99
+                      },
+                      {
+                        "id": "d0d9-54fd-731f-60cc",
+                        "name": "Power fist",
+                        "min": 0,
+                        "max": 99
+                      },
+                      {
+                        "id": "e3ed-cf17-6552-2af4",
+                        "name": "Power weapon",
+                        "min": 0,
+                        "max": 99
+                      }
+                    ],
+                    "defaultOptionId": "none"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "78b6-f280-bba9-0594": {
+    "groups": [
+      {
+        "id": "e9e2-171b-8aa5-c0b7",
+        "name": "Wargear",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "8536-aafd-2206-7740",
+            "name": "Armoured tracks",
+            "min": 1,
+            "max": 1
+          },
+          {
+            "id": "dd25-5333-e995-00c7",
+            "name": "Heavy stubber",
+            "min": 1,
+            "max": 1
+          }
+        ],
+        "groups": [
+          {
+            "id": "3c4d-519a-3cd9-e8d1",
+            "name": "Castigator Gatling Cannon",
+            "min": 1,
+            "max": 1,
+            "mode": "single",
+            "options": [
+              {
+                "id": "0199-4b85-da65-3304",
+                "name": "Castigator gatling cannon",
+                "min": 0,
+                "max": 99
+              },
+              {
+                "id": "6201-b601-4b5f-d599",
+                "name": "Pulveriser cannon",
+                "min": 0,
+                "max": 99
+              }
+            ],
+            "defaultOptionId": "5e1e-1f73-a39a-ef9d"
+          },
+          {
+            "id": "19ce-c3bf-cb5b-7ac3",
+            "name": "Hull Weapons",
+            "min": 0,
+            "max": 1,
+            "mode": "single",
+            "options": [
+              {
+                "id": "10ec-300f-baf8-46a1",
+                "name": "2 Meltaguns",
+                "min": 0,
+                "max": 99
+              },
+              {
+                "id": "9794-fac7-b6de-640d",
+                "name": "2 Additional Heavy Stubbers",
+                "min": 0,
+                "max": 99
+              }
+            ],
+            "defaultOptionId": "none"
+          },
+          {
+            "id": "c910-2d8b-2248-66da",
+            "name": "Sponsons",
+            "min": 0,
+            "max": 1,
+            "mode": "single",
+            "options": [
+              {
+                "id": "e17b-349a-fa6f-abfe",
+                "name": "2 Multi-meltas",
+                "min": 0,
+                "max": 99
+              },
+              {
+                "id": "3a0b-c741-9098-9e42",
+                "name": "2 Heavy Bolters",
+                "min": 0,
+                "max": 99
+              }
+            ],
+            "defaultOptionId": "none"
+          },
+          {
+            "id": "d397-8887-5fac-3018",
+            "name": "Twin Battle Cannon",
+            "min": 1,
+            "max": 1,
+            "mode": "single",
+            "options": [
+              {
+                "id": "eee2-af08-94f6-0624",
+                "name": "Oppressor cannon and coaxial autocannon",
+                "min": 0,
+                "max": 99,
+                "equippedWith": "Coaxial autocannon and Oppressor cannon"
+              },
+              {
+                "id": "8e96-09b9-569b-70fd",
+                "name": "Twin battle cannon",
+                "min": 0,
+                "max": 99
+              }
+            ],
+            "defaultOptionId": "efb5-fffa-82b4-f8c0"
+          }
+        ]
+      }
+    ]
+  },
+  "ba72-7b05-33c9-a1c0": {
+    "groups": [
+      {
+        "id": "1fb8-255b-9971-17de",
+        "name": "Wargear",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [],
+        "groups": [
+          {
+            "id": "0eaa-5b92-47ff-848c",
+            "name": "Zealot's Vindicator",
+            "min": 1,
+            "max": 1,
+            "mode": "single",
+            "options": [
+              {
+                "id": "eb1c-f031-ae2b-7653",
+                "name": "Zealot's vindicator",
+                "min": 0,
+                "max": 99
+              },
+              {
+                "id": "192e-1448-7a00-1b81",
+                "name": "Holy pistol and power weapon",
+                "min": 0,
+                "max": 99
+              }
+            ],
+            "defaultOptionId": "eb1c-f031-ae2b-7653"
+          }
+        ]
+      }
+    ]
+  },
+  "1669-d311-eff9-243b": {
+    "groups": [
+      {
+        "id": "55a3-9a75-c917-e922",
+        "name": "3 Heavy Weapons Gunners",
+        "min": 3,
+        "max": 3,
+        "mode": "count",
+        "options": [
+          {
+            "id": "c5cb-ed63-c2cd-338a",
+            "name": "Heavy Weapons Gunners w/ Krieg heavy flamer",
+            "min": 0,
+            "max": 3,
+            "equippedWith": "Close combat weapon and Laspistol"
+          },
+          {
+            "id": "ae6d-a756-e82b-dd61",
+            "name": "Heavy Weapons Gunners w/ Twin Krieg heavy stubber",
+            "min": 0,
+            "max": 3,
+            "equippedWith": "Close combat weapon and Laspistol"
+          },
+          {
+            "id": "0707-563e-2d7d-09b2",
+            "name": "Heavy Weapons Gunners w/ Lascannon",
+            "min": 0,
+            "max": 3,
+            "equippedWith": "Close combat weapon and Lascannon and Laspistol"
+          }
+        ],
+        "defaultOptionId": "0707-563e-2d7d-09b2"
+      },
+      {
+        "id": "b566-91ae-0d78-df34",
+        "name": "Fire Coordinator",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "607d-c659-01f7-68bb",
+            "name": "Fire Coordinator",
+            "min": 1,
+            "max": 1,
+            "equippedWith": "Close combat weapon and Laspistol"
+          }
+        ]
+      }
+    ]
+  },
+  "0595-6d6c-a783-12ab": {
+    "groups": [
+      {
+        "id": "766b-3853-0748-f503",
+        "name": "Wargear",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "8dc4-901b-5d0f-bf66",
+            "name": "Crew close combat weapons",
+            "min": 1,
+            "max": 1
+          },
+          {
+            "id": "9c45-9f30-bd6c-f323",
+            "name": "Lasgun",
+            "min": 1,
+            "max": 1
+          }
+        ],
+        "groups": [
+          {
+            "id": "3027-ffa0-0a3f-d127",
+            "name": "Heavy mortar",
+            "min": 1,
+            "max": 1,
+            "mode": "single",
+            "options": [
+              {
+                "id": "d655-af98-433c-91f9",
+                "name": "Heavy mortar",
+                "min": 0,
+                "max": 99
+              },
+              {
+                "id": "7fb5-3f72-0ac2-f2f9",
+                "name": "Siege cannon",
+                "min": 0,
+                "max": 99
+              },
+              {
+                "id": "da88-5b9a-29cc-3e6e",
+                "name": "Multiple rocket launcher",
+                "min": 0,
+                "max": 99
+              },
+              {
+                "id": "2fd3-fcc7-3c74-554f",
+                "name": "Heavy quad launcher",
+                "min": 0,
+                "max": 99
+              }
+            ],
+            "defaultOptionId": "d655-af98-433c-91f9"
+          }
+        ]
+      }
+    ]
+  },
+  "2408-cf76-fe11-c6da": {
+    "groups": [
+      {
+        "id": "3ec0-8fcd-32a8-61cf",
+        "name": "Minka Lesk",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "0cae-25c3-a7b0-8a03",
+            "name": "Minka Lesk",
+            "min": 1,
+            "max": 1,
+            "groups": [
+              {
+                "id": "756a-5b4a-5ee4-74a6",
+                "name": "Wargear",
+                "min": 0,
+                "max": 99,
+                "mode": "count",
+                "options": [
+                  {
+                    "id": "a2a6-4744-02bf-95d2",
+                    "name": "Bolt pistol",
+                    "min": 1,
+                    "max": 1
+                  },
+                  {
+                    "id": "65a8-fd36-04a6-22cc",
+                    "name": "Power weapon",
+                    "min": 1,
+                    "max": 1
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "940d-e833-74e5-ee1c",
+        "name": "Lesk's Heroes",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "f13b-f830-0b6b-7d25",
+            "name": "Lesk's Hero",
+            "min": 1,
+            "max": 1,
+            "equippedWith": "Meltagun and Close combat weapon"
+          },
+          {
+            "id": "68e3-e975-c00e-cf4c",
+            "name": "Lesk's Hero",
+            "min": 1,
+            "max": 1,
+            "equippedWith": "Hot-shot laspistol"
+          },
+          {
+            "id": "2e95-479e-8c46-956d",
+            "name": "Lesk's Hero",
+            "min": 1,
+            "max": 1,
+            "equippedWith": "Bolt pistol and Power weapon"
+          },
+          {
+            "id": "d763-f52e-5797-67c0",
+            "name": "Lesk's Hero",
+            "min": 1,
+            "max": 1,
+            "equippedWith": "Power weapon"
+          }
+        ]
+      }
+    ]
+  },
+  "b566-8903-3a36-62f1": {
+    "groups": [
+      {
+        "id": "e046-1c42-b07a-0c8c",
+        "name": "1-2 Hippogriff AFV",
+        "min": 1,
+        "max": 2,
+        "mode": "count",
+        "options": [
+          {
+            "id": "4018-1f75-4709-96a5",
+            "name": "Hippogriff AFV",
+            "min": 0,
+            "max": 99,
+            "groups": [
+              {
+                "id": "8516-ecc3-d26c-f747",
+                "name": "Wargear",
+                "min": 0,
+                "max": 99,
+                "mode": "count",
+                "options": [
+                  {
+                    "id": "3058-950c-336a-996f",
+                    "name": "Armoured hull",
+                    "min": 1,
+                    "max": 1
+                  }
+                ],
+                "groups": [
+                  {
+                    "id": "dab0-9d63-81b8-8c1c",
+                    "name": "Heavy Stubber",
+                    "min": 1,
+                    "max": 1,
+                    "mode": "single",
+                    "options": [
+                      {
+                        "id": "58a2-6e60-73bd-e8a6",
+                        "name": "Heavy stubber",
+                        "min": 0,
+                        "max": 99
+                      },
+                      {
+                        "id": "7f05-b87b-4249-3052",
+                        "name": "Meltagun",
+                        "min": 0,
+                        "max": 99
+                      }
+                    ],
+                    "defaultOptionId": "58a2-6e60-73bd-e8a6"
+                  },
+                  {
+                    "id": "34c9-087a-031c-b44f",
+                    "name": "Vigilator Cannon",
+                    "min": 1,
+                    "max": 1,
+                    "mode": "single",
+                    "options": [
+                      {
+                        "id": "d24d-49a8-284a-cea8",
+                        "name": "Vigilator cannon",
+                        "min": 0,
+                        "max": 99
+                      },
+                      {
+                        "id": "b87a-c2ca-a3ff-3434",
+                        "name": "Melta cannon",
+                        "min": 0,
+                        "max": 99
+                      },
+                      {
+                        "id": "8543-4b9f-2819-2291",
+                        "name": "Chiron gatling cannon",
+                        "min": 0,
+                        "max": 99
+                      },
+                      {
+                        "id": "bb19-0828-e633-a38e",
+                        "name": "Lascannon",
+                        "min": 0,
+                        "max": 99
+                      }
+                    ],
+                    "defaultOptionId": "d24d-49a8-284a-cea8"
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "defaultOptionId": "4018-1f75-4709-96a5"
+      }
+    ]
+  },
+  "c871-4769-71ed-c4b3": {
+    "groups": [
+      {
+        "id": "40f2-9ca8-1a9f-7282",
+        "name": "Wargear",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "85ad-1f3f-a636-14d2",
+            "name": "Pintle-mounted heavy stubber",
+            "min": 1,
+            "max": 1
+          },
+          {
+            "id": "fe17-2e71-55c5-5ab1",
+            "name": "Armoured hull",
+            "min": 1,
+            "max": 1
+          }
+        ]
+      }
+    ]
+  }
+}

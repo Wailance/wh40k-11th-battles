@@ -1,0 +1,1072 @@
+{
+  "slug": "adeptus-custodes",
+  "name": "Adeptus Custodes",
+  "version": "1.0",
+  "firstSeen": "2026-06-17",
+  "detachments": [
+    {
+      "name": "Auric Champions",
+      "dp": 2,
+      "objective": "PRIORITY ASSETS",
+      "enhancements": [
+        {
+          "name": "Blade Imperator",
+          "points": 25,
+          "detachment": "Auric Champions"
+        },
+        {
+          "name": "Inspirational Exemplar",
+          "points": 10,
+          "detachment": "Auric Champions"
+        },
+        {
+          "name": "Martial Philosopher",
+          "points": 30,
+          "detachment": "Auric Champions"
+        },
+        {
+          "name": "Veiled Blade",
+          "points": 25,
+          "detachment": "Auric Champions"
+        }
+      ]
+    },
+    {
+      "name": "Lions Of The Emperor",
+      "dp": 2,
+      "objective": "DISRUPTION",
+      "enhancements": [
+        {
+          "name": "Admonimortis",
+          "points": 20,
+          "detachment": "Lions Of The Emperor"
+        },
+        {
+          "name": "Fierce Conqueror",
+          "points": 15,
+          "detachment": "Lions Of The Emperor"
+        },
+        {
+          "name": "Praesidius",
+          "points": 25,
+          "detachment": "Lions Of The Emperor"
+        },
+        {
+          "name": "Superior Creation",
+          "points": 25,
+          "detachment": "Lions Of The Emperor"
+        }
+      ]
+    },
+    {
+      "name": "Might Of The Moritoi",
+      "dp": 1,
+      "objective": "PURGE THE FOE",
+      "enhancements": [
+        {
+          "name": "Auramite Sarcophagus (Upgrade)",
+          "points": 15,
+          "detachment": "Might Of The Moritoi"
+        },
+        {
+          "name": "Interred Expertise (Upgrade)",
+          "points": 25,
+          "detachment": "Might Of The Moritoi"
+        }
+      ]
+    },
+    {
+      "name": "Null Maiden Vigil",
+      "dp": 2,
+      "objective": "RECONNAISSANCE",
+      "enhancements": [
+        {
+          "name": "Enhanced Voidsheen Cloak",
+          "points": 10,
+          "detachment": "Null Maiden Vigil"
+        },
+        {
+          "name": "Huntress’ Eye",
+          "points": 15,
+          "detachment": "Null Maiden Vigil"
+        },
+        {
+          "name": "Oblivion Knight",
+          "points": 25,
+          "detachment": "Null Maiden Vigil"
+        },
+        {
+          "name": "Raptor Blade",
+          "points": 5,
+          "detachment": "Null Maiden Vigil"
+        }
+      ]
+    },
+    {
+      "name": "Shield Host",
+      "dp": 2,
+      "objective": "PURGE THE FOE",
+      "enhancements": [
+        {
+          "name": "Auric Mantle",
+          "points": 15,
+          "detachment": "Shield Host"
+        },
+        {
+          "name": "Castellan’s Mark",
+          "points": 20,
+          "detachment": "Shield Host"
+        },
+        {
+          "name": "From the Hall of Armouries",
+          "points": 25,
+          "detachment": "Shield Host"
+        },
+        {
+          "name": "Panoptispex",
+          "points": 5,
+          "detachment": "Shield Host"
+        }
+      ]
+    },
+    {
+      "name": "Silent Hunters",
+      "dp": 1,
+      "objective": "RECONNAISSANCE",
+      "enhancements": [
+        {
+          "name": "Encircling Hunter",
+          "points": 15,
+          "detachment": "Silent Hunters"
+        },
+        {
+          "name": "Psyk-out Grenades (Upgrade)",
+          "points": 10,
+          "detachment": "Silent Hunters"
+        }
+      ]
+    },
+    {
+      "name": "Solar Spearhead",
+      "dp": 2,
+      "objective": "TAKE AND HOLD",
+      "enhancements": [
+        {
+          "name": "Adamantine Talisman",
+          "points": 25,
+          "detachment": "Solar Spearhead"
+        },
+        {
+          "name": "Augury Uplink",
+          "points": 35,
+          "detachment": "Solar Spearhead"
+        },
+        {
+          "name": "Honoured Fallen",
+          "points": 15,
+          "detachment": "Solar Spearhead"
+        },
+        {
+          "name": "Veteran of the Kataphraktoi",
+          "points": 10,
+          "detachment": "Solar Spearhead"
+        }
+      ]
+    },
+    {
+      "name": "Talons Of The Emperor",
+      "dp": 3,
+      "objective": "TAKE AND HOLD",
+      "enhancements": [
+        {
+          "name": "Aegis Projector",
+          "points": 20,
+          "detachment": "Talons Of The Emperor"
+        },
+        {
+          "name": "Champion of the Imperium",
+          "points": 25,
+          "detachment": "Talons Of The Emperor"
+        },
+        {
+          "name": "Gift of Terran Artifice",
+          "points": 15,
+          "detachment": "Talons Of The Emperor"
+        },
+        {
+          "name": "Radiant Mantle",
+          "points": 30,
+          "detachment": "Talons Of The Emperor"
+        }
+      ]
+    },
+    {
+      "name": "Tharanatoi Hammerblow",
+      "dp": 1,
+      "objective": "PRIORITY ASSETS",
+      "enhancements": [
+        {
+          "name": "Efficient Aggression",
+          "points": 25,
+          "detachment": "Tharanatoi Hammerblow"
+        },
+        {
+          "name": "Mnemo-locked Shrine Cipher",
+          "points": 25,
+          "detachment": "Tharanatoi Hammerblow"
+        }
+      ]
+    }
+  ],
+  "units": [
+    {
+      "name": "Agamatus Custodians",
+      "normalizedName": "agamatus custodians",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 3,
+              "points": 225
+            },
+            {
+              "models": 6,
+              "points": 450
+            }
+          ]
+        }
+      ],
+      "points": 225,
+      "pointsLabel": "225/450",
+      "legends": false
+    },
+    {
+      "name": "Aleya",
+      "normalizedName": "aleya",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 65
+            }
+          ]
+        }
+      ],
+      "points": 65,
+      "pointsLabel": "65",
+      "legends": false,
+      "role": "leader",
+      "attachTo": [
+        "Prosecutors",
+        "Vigilators",
+        "Witchseekers"
+      ]
+    },
+    {
+      "name": "Allarus Custodians",
+      "normalizedName": "allarus custodians",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 2,
+              "points": 110
+            },
+            {
+              "models": 3,
+              "points": 165
+            },
+            {
+              "models": 5,
+              "points": 275
+            },
+            {
+              "models": 6,
+              "points": 330
+            }
+          ]
+        }
+      ],
+      "points": 110,
+      "pointsLabel": "110/165/275/330",
+      "legends": false
+    },
+    {
+      "name": "Anathema Psykana Rhino",
+      "normalizedName": "anathema psykana rhino",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 75
+            }
+          ]
+        }
+      ],
+      "points": 75,
+      "pointsLabel": "75",
+      "legends": false
+    },
+    {
+      "name": "Aquilon Custodians",
+      "normalizedName": "aquilon custodians",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 3,
+              "points": 195
+            },
+            {
+              "models": 6,
+              "points": 390
+            }
+          ]
+        }
+      ],
+      "points": 195,
+      "pointsLabel": "195/390",
+      "legends": false
+    },
+    {
+      "name": "Ares Gunship",
+      "normalizedName": "ares gunship",
+      "pricing": [
+        {
+          "range": "[1,1]",
+          "label": "Your 1st Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 580
+            }
+          ]
+        },
+        {
+          "range": "[2,)",
+          "label": "Your 2nd + Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 610
+            }
+          ]
+        }
+      ],
+      "points": 580,
+      "pointsLabel": "580",
+      "legends": false
+    },
+    {
+      "name": "Blade Champion",
+      "normalizedName": "blade champion",
+      "pricing": [
+        {
+          "range": "[1,1]",
+          "label": "Your 1st Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 110
+            }
+          ]
+        },
+        {
+          "range": "[2,)",
+          "label": "Your 2nd + Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 125
+            }
+          ]
+        }
+      ],
+      "points": 110,
+      "pointsLabel": "110",
+      "legends": false,
+      "role": "leader",
+      "attachTo": [
+        "Custodian Guard",
+        "Custodian Guard With Adrasite And Pyrithite Spears",
+        "Custodian Wardens",
+        "Sagittarum Custodians"
+      ]
+    },
+    {
+      "name": "Caladius Grav-Tank",
+      "normalizedName": "caladius grav tank",
+      "pricing": [
+        {
+          "range": "[1,2]",
+          "label": "Your 1st To 2nd Units Cost",
+          "costs": [
+            {
+              "models": 1,
+              "points": 210
+            }
+          ]
+        },
+        {
+          "range": "[3,)",
+          "label": "Your 3rd + Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 225
+            }
+          ]
+        }
+      ],
+      "points": 210,
+      "pointsLabel": "210",
+      "legends": false
+    },
+    {
+      "name": "Contemptor-Achillus Dreadnought",
+      "normalizedName": "contemptor achillus dreadnought",
+      "pricing": [
+        {
+          "range": "[1,2]",
+          "label": "Your 1st To 2nd Units Cost",
+          "costs": [
+            {
+              "models": 1,
+              "points": 155
+            }
+          ]
+        },
+        {
+          "range": "[3,)",
+          "label": "Your 3rd + Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 170
+            }
+          ]
+        }
+      ],
+      "points": 155,
+      "pointsLabel": "155",
+      "legends": false
+    },
+    {
+      "name": "Contemptor-Galatus Dreadnought",
+      "normalizedName": "contemptor galatus dreadnought",
+      "pricing": [
+        {
+          "range": "[1,2]",
+          "label": "Your 1st To 2nd Units Cost",
+          "costs": [
+            {
+              "models": 1,
+              "points": 165
+            }
+          ]
+        },
+        {
+          "range": "[3,)",
+          "label": "Your 3rd + Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 180
+            }
+          ]
+        }
+      ],
+      "points": 165,
+      "pointsLabel": "165",
+      "legends": false
+    },
+    {
+      "name": "Coronus Grav-Carrier",
+      "normalizedName": "coronus grav carrier",
+      "pricing": [
+        {
+          "range": "[1,2]",
+          "label": "Your 1st To 2nd Units Cost",
+          "costs": [
+            {
+              "models": 1,
+              "points": 180
+            }
+          ]
+        },
+        {
+          "range": "[3,)",
+          "label": "Your 3rd + Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 200
+            }
+          ]
+        }
+      ],
+      "points": 180,
+      "pointsLabel": "180",
+      "legends": false
+    },
+    {
+      "name": "Custodian Guard",
+      "normalizedName": "custodian guard",
+      "pricing": [
+        {
+          "range": "[1,3]",
+          "label": "Your 1st To 3rd Units Cost",
+          "costs": [
+            {
+              "models": 4,
+              "points": 170
+            },
+            {
+              "models": 5,
+              "points": 215
+            }
+          ]
+        },
+        {
+          "range": "[4,)",
+          "label": "Your 4th + Unit Costs",
+          "costs": [
+            {
+              "models": 4,
+              "points": 180
+            },
+            {
+              "models": 5,
+              "points": 225
+            }
+          ]
+        }
+      ],
+      "points": 170,
+      "pointsLabel": "170/215",
+      "legends": false
+    },
+    {
+      "name": "Custodian Guard With Adrasite And Pyrithite Spears",
+      "normalizedName": "custodian guard with adrasite and pyrithite spears",
+      "pricing": [
+        {
+          "range": "[1,3]",
+          "label": "Your 1st To 3rd Units Cost",
+          "costs": [
+            {
+              "models": 5,
+              "points": 250
+            }
+          ]
+        },
+        {
+          "range": "[4,)",
+          "label": "Your 4th + Unit Costs",
+          "costs": [
+            {
+              "models": 5,
+              "points": 260
+            }
+          ]
+        }
+      ],
+      "points": 250,
+      "pointsLabel": "250",
+      "legends": false
+    },
+    {
+      "name": "Custodian Wardens",
+      "normalizedName": "custodian wardens",
+      "pricing": [
+        {
+          "range": "[1,1]",
+          "label": "Your 1st Unit Costs",
+          "costs": [
+            {
+              "models": 4,
+              "points": 210
+            },
+            {
+              "models": 5,
+              "points": 260
+            }
+          ]
+        },
+        {
+          "range": "[2,)",
+          "label": "Your 2nd + Unit Costs",
+          "costs": [
+            {
+              "models": 4,
+              "points": 230
+            },
+            {
+              "models": 5,
+              "points": 280
+            }
+          ]
+        }
+      ],
+      "points": 210,
+      "pointsLabel": "210/260",
+      "legends": false
+    },
+    {
+      "name": "Knight-Centura",
+      "normalizedName": "knight centura",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 55
+            }
+          ]
+        }
+      ],
+      "points": 55,
+      "pointsLabel": "55",
+      "legends": false,
+      "role": "leader",
+      "attachTo": [
+        "Prosecutors",
+        "Vigilators",
+        "Witchseekers"
+      ]
+    },
+    {
+      "name": "Orion Assault Dropship",
+      "normalizedName": "orion assault dropship",
+      "pricing": [
+        {
+          "range": "[1,1]",
+          "label": "Your 1st Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 690
+            }
+          ]
+        },
+        {
+          "range": "[2,)",
+          "label": "Your 2nd + Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 740
+            }
+          ]
+        }
+      ],
+      "points": 690,
+      "pointsLabel": "690",
+      "legends": false
+    },
+    {
+      "name": "Pallas Grav-Attack",
+      "normalizedName": "pallas grav attack",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 100
+            }
+          ]
+        }
+      ],
+      "points": 100,
+      "pointsLabel": "100",
+      "legends": false
+    },
+    {
+      "name": "Prosecutors",
+      "normalizedName": "prosecutors",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 4,
+              "points": 45
+            },
+            {
+              "models": 5,
+              "points": 50
+            },
+            {
+              "models": 9,
+              "points": 75
+            },
+            {
+              "models": 10,
+              "points": 85
+            }
+          ]
+        }
+      ],
+      "points": 45,
+      "pointsLabel": "45/50/75/85",
+      "legends": false
+    },
+    {
+      "name": "Sagittarum Custodians",
+      "normalizedName": "sagittarum custodians",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 5,
+              "points": 225
+            }
+          ]
+        }
+      ],
+      "points": 225,
+      "pointsLabel": "225",
+      "legends": false
+    },
+    {
+      "name": "Shield-Captain",
+      "normalizedName": "shield captain",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 110
+            }
+          ]
+        }
+      ],
+      "points": 110,
+      "pointsLabel": "110",
+      "legends": false,
+      "role": "leader",
+      "attachTo": [
+        "Custodian Guard",
+        "Custodian Guard With Adrasite And Pyrithite Spears",
+        "Custodian Wardens",
+        "Sagittarum Custodians"
+      ]
+    },
+    {
+      "name": "Shield-Captain In Allarus Terminator Armour",
+      "normalizedName": "shield captain in allarus terminator armour",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 130
+            }
+          ]
+        }
+      ],
+      "points": 130,
+      "pointsLabel": "130",
+      "legends": false,
+      "role": "leader",
+      "attachTo": [
+        "Allarus Custodians",
+        "Aquilon Custodians"
+      ]
+    },
+    {
+      "name": "Shield-Captain On Dawneagle Jetbike",
+      "normalizedName": "shield captain on dawneagle jetbike",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 140
+            }
+          ]
+        }
+      ],
+      "points": 140,
+      "pointsLabel": "140",
+      "legends": false,
+      "role": "leader",
+      "attachTo": [
+        "Agamatus Custodians",
+        "Vertus Praetors"
+      ]
+    },
+    {
+      "name": "Telemon Heavy Dreadnought",
+      "normalizedName": "telemon heavy dreadnought",
+      "pricing": [
+        {
+          "range": "[1,1]",
+          "label": "Your 1st Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 225
+            }
+          ]
+        },
+        {
+          "range": "[2,)",
+          "label": "Your 2nd + Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 245
+            }
+          ]
+        }
+      ],
+      "points": 225,
+      "pointsLabel": "225",
+      "legends": false
+    },
+    {
+      "name": "Trajann Valoris",
+      "normalizedName": "trajann valoris",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 135
+            }
+          ]
+        }
+      ],
+      "points": 135,
+      "pointsLabel": "135",
+      "legends": false,
+      "role": "leader",
+      "attachTo": [
+        "Custodian Guard",
+        "Custodian Guard With Adrasite And Pyrithite Spears",
+        "Custodian Wardens",
+        "Sagittarum Custodians"
+      ]
+    },
+    {
+      "name": "Valerian",
+      "normalizedName": "valerian",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 110
+            }
+          ]
+        }
+      ],
+      "points": 110,
+      "pointsLabel": "110",
+      "legends": false,
+      "role": "leader",
+      "attachTo": [
+        "Custodian Guard",
+        "Custodian Guard With Adrasite And Pyrithite Spears",
+        "Custodian Wardens",
+        "Sagittarum Custodians"
+      ]
+    },
+    {
+      "name": "Venatari Custodians",
+      "normalizedName": "venatari custodians",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 3,
+              "points": 160
+            },
+            {
+              "models": 6,
+              "points": 320
+            }
+          ]
+        }
+      ],
+      "points": 160,
+      "pointsLabel": "160/320",
+      "legends": false
+    },
+    {
+      "name": "Venerable Contemptor Dreadnought",
+      "normalizedName": "venerable contemptor dreadnought",
+      "pricing": [
+        {
+          "range": "[1,2]",
+          "label": "Your 1st To 2nd Units Cost",
+          "costs": [
+            {
+              "models": 1,
+              "points": 170
+            }
+          ]
+        },
+        {
+          "range": "[3,)",
+          "label": "Your 3rd + Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 185
+            }
+          ]
+        }
+      ],
+      "points": 170,
+      "pointsLabel": "170",
+      "legends": false
+    },
+    {
+      "name": "Venerable Land Raider",
+      "normalizedName": "venerable land raider",
+      "pricing": [
+        {
+          "range": "[1,1]",
+          "label": "Your 1st Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 220
+            }
+          ]
+        },
+        {
+          "range": "[2,)",
+          "label": "Your 2nd + Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 240
+            }
+          ]
+        }
+      ],
+      "points": 220,
+      "pointsLabel": "220",
+      "legends": false
+    },
+    {
+      "name": "Vertus Praetors",
+      "normalizedName": "vertus praetors",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 2,
+              "points": 145
+            },
+            {
+              "models": 3,
+              "points": 215
+            }
+          ]
+        }
+      ],
+      "points": 145,
+      "pointsLabel": "145/215",
+      "legends": false
+    },
+    {
+      "name": "Vigilators",
+      "normalizedName": "vigilators",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 4,
+              "points": 50
+            },
+            {
+              "models": 5,
+              "points": 55
+            },
+            {
+              "models": 9,
+              "points": 90
+            },
+            {
+              "models": 10,
+              "points": 100
+            }
+          ]
+        }
+      ],
+      "points": 50,
+      "pointsLabel": "50/55/90/100",
+      "legends": false
+    },
+    {
+      "name": "Witchseekers",
+      "normalizedName": "witchseekers",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 4,
+              "points": 50
+            },
+            {
+              "models": 5,
+              "points": 55
+            },
+            {
+              "models": 9,
+              "points": 90
+            },
+            {
+              "models": 10,
+              "points": 100
+            }
+          ]
+        }
+      ],
+      "points": 50,
+      "pointsLabel": "50/55/90/100",
+      "legends": false
+    }
+  ]
+}

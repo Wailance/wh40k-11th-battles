@@ -1,0 +1,1628 @@
+{
+  "379b-d6a0-cd05-ef89": {
+    "groups": [
+      {
+        "id": "ad0b-c116-8a4c-6db1",
+        "name": "Wargear",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "1bfa-d221-8708-c144",
+            "name": "Close combat weapon",
+            "min": 1,
+            "max": 1
+          },
+          {
+            "id": "ee6b-d65-2b19-eb6b",
+            "name": "Relic gauss blaster",
+            "min": 1,
+            "max": 1
+          }
+        ]
+      }
+    ]
+  },
+  "c401-d95f-c5ce-7738": {
+    "groups": [
+      {
+        "id": "30e1-73f0-aec6-7673",
+        "name": "Wargear",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "d6a0-be29-236d-55fa",
+            "name": "Enmitic annihilator",
+            "min": 1,
+            "max": 1
+          },
+          {
+            "id": "2bfb-b90e-c195-c439",
+            "name": "Flensing claw",
+            "min": 1,
+            "max": 1
+          },
+          {
+            "id": "4526-490-a589-713e",
+            "name": "Hyperphase harvester",
+            "min": 1,
+            "max": 1
+          }
+        ]
+      }
+    ]
+  },
+  "8725-de36-7ef7-45f6": {
+    "groups": [
+      {
+        "id": "6d1c-763f-6339-d787",
+        "name": "Wargear",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [],
+        "groups": [
+          {
+            "id": "151b-2df7-5a05-867d",
+            "name": "Weapon",
+            "min": 1,
+            "max": 1,
+            "mode": "single",
+            "options": [
+              {
+                "id": "960f-d536-c51c-f9b3",
+                "name": "Lord's blade",
+                "min": 0,
+                "max": 99
+              },
+              {
+                "id": "e3b4-5998-8b15-4d65",
+                "name": "Staff of light",
+                "min": 0,
+                "max": 1
+              }
+            ],
+            "defaultOptionId": "e3b4-5998-8b15-4d65"
+          },
+          {
+            "id": "2974-3737-c01f-d38e",
+            "name": "Equipment",
+            "min": 0,
+            "max": 1,
+            "mode": "single",
+            "options": [
+              {
+                "id": "51d0-9c2-aabb-338d",
+                "name": "Nanoscarab amulet",
+                "min": 0,
+                "max": 99
+              },
+              {
+                "id": "600c-859b-fe5c-58f6",
+                "name": "Resurrection orb",
+                "min": 0,
+                "max": 1
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "8005-b0eb-72ab-aed5": {
+    "groups": [
+      {
+        "id": "a1fe-a1ed-c161-4923",
+        "name": "Wargear",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "6a08-254d-f6ef-17a8",
+            "name": "Resurrection orb",
+            "min": 0,
+            "max": 1
+          }
+        ],
+        "groups": [
+          {
+            "id": "53bf-da38-ffc0-755c",
+            "name": "Weapon",
+            "min": 1,
+            "max": 1,
+            "mode": "single",
+            "options": [
+              {
+                "id": "420f-bcb8-2dfa-2077",
+                "name": "Lord's blade",
+                "min": 0,
+                "max": 99
+              },
+              {
+                "id": "442d-fd64-e0d6-1457",
+                "name": "Staff of light",
+                "min": 0,
+                "max": 1
+              }
+            ],
+            "defaultOptionId": "442d-fd64-e0d6-1457"
+          }
+        ]
+      }
+    ]
+  },
+  "e667-b37c-61c-4893": {
+    "groups": [
+      {
+        "id": "ebea-0e02-76a5-64cb",
+        "name": "Wargear",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "18b6-e7e4-aa21-25ba",
+            "name": "Resurrection orb",
+            "min": 0,
+            "max": 1
+          }
+        ],
+        "groups": [
+          {
+            "id": "a4e2-d6d2-6176-f4bb",
+            "name": "Main weapon",
+            "min": 1,
+            "max": 1,
+            "mode": "single",
+            "options": [
+              {
+                "id": "ef5a-444d-fea0-ca68",
+                "name": "Gauss cannon",
+                "min": 0,
+                "max": 99
+              },
+              {
+                "id": "510b-ff7d-bc2d-6b1e",
+                "name": "Tesla cannon",
+                "min": 0,
+                "max": 99
+              }
+            ],
+            "defaultOptionId": "ef5a-444d-fea0-ca68"
+          },
+          {
+            "id": "c2c1-c045-41a-dfd2",
+            "name": "Overlord's Weapon",
+            "min": 1,
+            "max": 1,
+            "mode": "single",
+            "options": [
+              {
+                "id": "77f2-d4ed-87d6-9ca",
+                "name": "Staff of light",
+                "min": 0,
+                "max": 1
+              },
+              {
+                "id": "4e84-d5bc-404e-e005",
+                "name": "Overlord's blade",
+                "min": 0,
+                "max": 99
+              }
+            ],
+            "defaultOptionId": "77f2-d4ed-87d6-9ca"
+          }
+        ]
+      }
+    ]
+  },
+  "dbe5-257e-e2bd-1b40": {
+    "groups": [
+      {
+        "id": "fc58-916e-e609-6a53",
+        "name": "Wargear",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "7add-2b0d-499a-3241",
+            "name": "Resurrection orb",
+            "min": 0,
+            "max": 1
+          }
+        ],
+        "groups": [
+          {
+            "id": "44d2-abff-c527-348c",
+            "name": "Weapons",
+            "min": 1,
+            "max": 1,
+            "mode": "single",
+            "options": [
+              {
+                "id": "ea24-9cfe-fe52-6ce9",
+                "name": "Overlord's blade and tachyon arrow",
+                "min": 0,
+                "max": 99,
+                "equippedWith": "Overlord's blade"
+              },
+              {
+                "id": "70cc-3ba1-79a2-91fc",
+                "name": "Voidscythe",
+                "min": 0,
+                "max": 99
+              },
+              {
+                "id": "697f-bd54-2688-80f3",
+                "name": "Staff of light",
+                "min": 0,
+                "max": 1
+              }
+            ],
+            "defaultOptionId": "ea24-9cfe-fe52-6ce9"
+          }
+        ]
+      }
+    ]
+  },
+  "852a-ba39-e93f-6b62": {
+    "groups": [
+      {
+        "id": "007c-80bc-3a6b-1cd1",
+        "name": "Wargear",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "49fe-eee5-a977-311",
+            "name": "Staff of light",
+            "min": 1,
+            "max": 1
+          }
+        ]
+      }
+    ]
+  },
+  "aea6-b6a1-a924-d31": {
+    "groups": [
+      {
+        "id": "0fd6-ce88-8ce5-53ef",
+        "name": "Wargear",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "1c26-d31e-6562-37ab",
+            "name": "Abyssal lance",
+            "min": 1,
+            "max": 1
+          }
+        ]
+      }
+    ]
+  },
+  "5b7d-54ea-f7a8-9688": {
+    "groups": [
+      {
+        "id": "fd05-29c2-dca7-ed1b",
+        "name": "Wargear",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "2858-d50c-c90a-4039",
+            "name": "Chronomancer's stave",
+            "min": 1,
+            "max": 1
+          }
+        ]
+      }
+    ]
+  },
+  "84bc-87b1-1eec-f574": {
+    "groups": [
+      {
+        "id": "bdb3-5660-4a17-d2b6",
+        "name": "Wargear",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "2868-b1aa-bebd-67c8",
+            "name": "Plasmic lance",
+            "min": 1,
+            "max": 1
+          }
+        ]
+      }
+    ]
+  },
+  "58e9-5212-f5a6-c12d": {
+    "groups": [
+      {
+        "id": "ea2d-fc31-6e16-fd70",
+        "name": "10-20 Warriors",
+        "min": 10,
+        "max": 20,
+        "mode": "count",
+        "options": [
+          {
+            "id": "2498-87b1-fec5-2973",
+            "name": "Warrior w/ gauss flayer",
+            "min": 0,
+            "max": 20
+          },
+          {
+            "id": "f32c-c036-164f-390b",
+            "name": "Warrior w/ gauss reaper",
+            "min": 0,
+            "max": 20
+          }
+        ],
+        "defaultOptionId": "2498-87b1-fec5-2973"
+      }
+    ]
+  },
+  "f81-b23c-e183-39d7": {
+    "groups": [
+      {
+        "id": "a349-35a2-c7f8-90f7",
+        "name": "5-10 Immortals",
+        "min": 5,
+        "max": 10,
+        "mode": "count",
+        "options": [
+          {
+            "id": "6c87-24f8-cd1c-c3c8",
+            "name": "Immortal",
+            "min": 0,
+            "max": 10,
+            "groups": [
+              {
+                "id": "47a5-d7f9-8376-eb62",
+                "name": "Weapons",
+                "min": 1,
+                "max": 1,
+                "mode": "single",
+                "options": [
+                  {
+                    "id": "cc7c-74ca-3bb6-926f",
+                    "name": "Gauss blaster",
+                    "min": 0,
+                    "max": 1
+                  },
+                  {
+                    "id": "7a74-dc6f-1118-92c3",
+                    "name": "Tesla carbine",
+                    "min": 0,
+                    "max": 1
+                  }
+                ],
+                "defaultOptionId": "cc7c-74ca-3bb6-926f"
+              }
+            ]
+          }
+        ],
+        "defaultOptionId": "6c87-24f8-cd1c-c3c8"
+      }
+    ]
+  },
+  "7c45-2aab-7526-febe": {
+    "groups": [
+      {
+        "id": "7fe5-a4c9-2ed6-67c1",
+        "name": "Wargear",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "3dcb-6d4a-632b-b2c5",
+            "name": "Atomiser beam",
+            "min": 2,
+            "max": 2
+          },
+          {
+            "id": "4dec-6404-8188-646a",
+            "name": "Reanimator's claws",
+            "min": 1,
+            "max": 1
+          }
+        ]
+      }
+    ]
+  },
+  "d504-e79e-f4d9-90aa": {
+    "groups": [
+      {
+        "id": "b6f2-7272-fd55-1b7c",
+        "name": "Wargear",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "d36d-2a66-84c9-e4be",
+            "name": "Close combat weapon",
+            "min": 1,
+            "max": 1
+          },
+          {
+            "id": "c9ef-62d-cd87-ef26",
+            "name": "Enmitic disintegrator pistols",
+            "min": 1,
+            "max": 1
+          }
+        ]
+      }
+    ]
+  },
+  "c4e3-f6b0-f3aa-9d90": {
+    "groups": [
+      {
+        "id": "343f-8f13-9ed5-d89e",
+        "name": "5-10 Lychguard",
+        "min": 5,
+        "max": 10,
+        "mode": "count",
+        "options": [
+          {
+            "id": "f5ac-5a05-f1de-5796",
+            "name": "Lychguard",
+            "min": 0,
+            "max": 10,
+            "groups": [
+              {
+                "id": "ea34-e270-ca5e-9ef6",
+                "name": "Weapons",
+                "min": 1,
+                "max": 1,
+                "mode": "single",
+                "options": [
+                  {
+                    "id": "423a-4db1-981-163",
+                    "name": "Warscythe",
+                    "min": 0,
+                    "max": 1
+                  },
+                  {
+                    "id": "d28a-823-5ce2-8af4",
+                    "name": "Hyperphase sword and dispersion shield",
+                    "min": 0,
+                    "max": 1
+                  }
+                ],
+                "defaultOptionId": "423a-4db1-981-163"
+              }
+            ]
+          }
+        ],
+        "defaultOptionId": "f5ac-5a05-f1de-5796"
+      }
+    ]
+  },
+  "b7d7-14c9-63c1-ded5": {
+    "groups": [
+      {
+        "id": "8fc2-efde-984b-b9b7",
+        "name": "5-10 Deathmarks",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "d029-2d51-e69c-1a87",
+            "name": "Deathmark",
+            "min": 5,
+            "max": 10
+          }
+        ],
+        "defaultOptionId": "d029-2d51-e69c-1a87"
+      }
+    ]
+  },
+  "c219-a708-f5b0-f0e7": {
+    "groups": [
+      {
+        "id": "fd0c-c5d7-7152-2587",
+        "name": "5-10 Flayed Ones",
+        "min": 5,
+        "max": 10,
+        "mode": "count",
+        "options": [
+          {
+            "id": "253b-c889-500a-8500",
+            "name": "Flayed One",
+            "min": 0,
+            "max": 10
+          }
+        ],
+        "defaultOptionId": "253b-c889-500a-8500"
+      }
+    ]
+  },
+  "66e-26f2-7c38-e4d8": {
+    "groups": [
+      {
+        "id": "28fb-f998-b145-69d4",
+        "name": "Unit Composition",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "adf3-49c0-14b4-c401",
+            "name": "Plasmacyte",
+            "min": 0,
+            "max": 2
+          }
+        ],
+        "groups": [
+          {
+            "id": "29b-1d43-154e-bc79",
+            "name": "3-6 Destroyers",
+            "min": 3,
+            "max": 6,
+            "mode": "count",
+            "options": [
+              {
+                "id": "ef69-b593-4685-18ce",
+                "name": "Skorpekh Destroyer",
+                "min": 3,
+                "max": 6
+              }
+            ],
+            "defaultOptionId": "ef69-b593-4685-18ce"
+          }
+        ]
+      }
+    ]
+  },
+  "14fa-6813-e51b-7942": {
+    "groups": [
+      {
+        "id": "aed4-721a-41bf-0aa7",
+        "name": "Wargear",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "a2b-3dc2-e1af-5df2",
+            "name": "Stalker's forelimbs",
+            "min": 1,
+            "max": 1
+          }
+        ],
+        "groups": [
+          {
+            "id": "3455-c1e9-9cb-3f53",
+            "name": "Weapon",
+            "min": 1,
+            "max": 1,
+            "mode": "single",
+            "options": [
+              {
+                "id": "86ac-3ebf-e3dd-116b",
+                "name": "Heat ray",
+                "min": 0,
+                "max": 99
+              },
+              {
+                "id": "49df-1333-60f6-da40",
+                "name": "Particle shredder",
+                "min": 0,
+                "max": 99
+              },
+              {
+                "id": "c517-baae-8b-697",
+                "name": "Heavy gauss cannon array",
+                "min": 0,
+                "max": 99
+              }
+            ],
+            "defaultOptionId": "86ac-3ebf-e3dd-116b"
+          }
+        ]
+      }
+    ]
+  },
+  "276e-bc21-e1d0-3c41": {
+    "groups": [
+      {
+        "id": "6e5e-44c0-bed7-e909",
+        "name": "Wargear",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "7ea0-112b-8b97-be63",
+            "name": "Crackling tendrils",
+            "min": 1,
+            "max": 1
+          },
+          {
+            "id": "3be7-4a0d-d4e7-b7cb",
+            "name": "Seismic assault",
+            "min": 1,
+            "max": 1
+          }
+        ]
+      }
+    ]
+  },
+  "259b-a8e3-928f-1d0c": {
+    "groups": [
+      {
+        "id": "5fc8-971-9971-c6d",
+        "name": "3-6 Scarab Swarms",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "207-e45f-bfde-3f41",
+            "name": "Canoptek Scarab Swarm",
+            "min": 3,
+            "max": 6
+          }
+        ]
+      }
+    ]
+  },
+  "c6db-9736-4d53-3ef6": {
+    "groups": [
+      {
+        "id": "6a3b-1f62-f34e-b95a",
+        "name": "Unit Composition",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "5d1a-213e-998a-a6d2",
+            "name": "Plasmacyte",
+            "min": 0,
+            "max": 2
+          }
+        ],
+        "groups": [
+          {
+            "id": "b93f-b828-8d2f-9d37",
+            "name": "3-6 Destroyers",
+            "min": 0,
+            "max": 99,
+            "mode": "count",
+            "options": [
+              {
+                "id": "7e20-6261-2ed0-b1f",
+                "name": "Ophydian Destroyer",
+                "min": 3,
+                "max": 6
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "77d-d442-a3-422c": {
+    "groups": [
+      {
+        "id": "5a77-c6d2-dcd9-449a",
+        "name": "3-6 Tomb Blades",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "378d-63df-4975-9fff",
+            "name": "Tomb Blade",
+            "min": 3,
+            "max": 6,
+            "groups": [
+              {
+                "id": "137-2929-5fb5-fb30",
+                "name": "Weapon",
+                "min": 1,
+                "max": 1,
+                "mode": "single",
+                "options": [
+                  {
+                    "id": "e1fb-c4ad-901f-1b1c",
+                    "name": "Twin gauss blaster",
+                    "min": 0,
+                    "max": 99
+                  },
+                  {
+                    "id": "cd6a-9b2b-495b-566f",
+                    "name": "Particle beamer",
+                    "min": 0,
+                    "max": 99
+                  },
+                  {
+                    "id": "bf83-35c7-d408-4238",
+                    "name": "Twin tesla carbine",
+                    "min": 0,
+                    "max": 99
+                  }
+                ],
+                "defaultOptionId": "e1fb-c4ad-901f-1b1c"
+              },
+              {
+                "id": "8add-80f8-971e-dee9",
+                "name": "Wargear",
+                "min": 0,
+                "max": 1,
+                "mode": "single",
+                "options": [
+                  {
+                    "id": "c98f-25b0-d4f7-4314",
+                    "name": "Shadowloom",
+                    "min": 0,
+                    "max": 99
+                  },
+                  {
+                    "id": "b4c4-7595-37d4-7a8c",
+                    "name": "Nebuloscope",
+                    "min": 0,
+                    "max": 99
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "6829-6dcb-b342-afe4": {
+    "groups": [
+      {
+        "id": "51e3-dc14-b91a-ae13",
+        "name": "5-10 Praetorians",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "3d09-9d0d-e98d-cf3d",
+            "name": "Triarch Praetorian",
+            "min": 5,
+            "max": 10,
+            "groups": [
+              {
+                "id": "b531-e9e2-c8c6-9e90",
+                "name": "Weapons",
+                "min": 1,
+                "max": 1,
+                "mode": "single",
+                "options": [
+                  {
+                    "id": "cb5c-1d59-4f49-c1e8",
+                    "name": "Rod of covenant",
+                    "min": 0,
+                    "max": 1
+                  },
+                  {
+                    "id": "4e70-6836-48d-8233",
+                    "name": "Particle caster and voidblade",
+                    "min": 0,
+                    "max": 1
+                  }
+                ],
+                "defaultOptionId": "cb5c-1d59-4f49-c1e8"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "a022-9bf6-f08b-c416": {
+    "groups": [
+      {
+        "id": "53c0-e715-1eb0-b795",
+        "name": "3-6 Wraiths",
+        "min": 3,
+        "max": 6,
+        "mode": "count",
+        "options": [
+          {
+            "id": "8e8e-dbd6-2923-62f3",
+            "name": "Wraith w/ claws and beamer",
+            "min": 0,
+            "max": 6
+          },
+          {
+            "id": "2ff8-681b-8afd-d3e3",
+            "name": "Wraith w/ claws and particle caster",
+            "min": 0,
+            "max": 6
+          },
+          {
+            "id": "35c6-7a15-4dc7-1661",
+            "name": "Wraith w/ claws",
+            "min": 0,
+            "max": 6
+          },
+          {
+            "id": "d475-c396-a37e-79be",
+            "name": "Wraith w/ coils",
+            "min": 0,
+            "max": 6
+          },
+          {
+            "id": "4d6b-4e95-6be7-fc11",
+            "name": "Wraith w/ coils and beamer",
+            "min": 0,
+            "max": 6
+          },
+          {
+            "id": "fd89-6d71-175c-1264",
+            "name": "Wraith w/ coils and particle caster",
+            "min": 0,
+            "max": 6
+          }
+        ],
+        "defaultOptionId": "35c6-7a15-4dc7-1661"
+      }
+    ]
+  },
+  "1ff-6384-ef1a-8297": {
+    "groups": [
+      {
+        "id": "ed80-84ae-13b8-7219",
+        "name": "Wargear",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "eb36-d3cc-bde0-aa1b",
+            "name": "Twin tesla destructor",
+            "min": 1,
+            "max": 1
+          },
+          {
+            "id": "801d-4444-6e10-c462",
+            "name": "Armoured bulk",
+            "min": 1,
+            "max": 1
+          }
+        ],
+        "groups": [
+          {
+            "id": "cb40-aa29-d568-52b3",
+            "name": "Secondary weapon",
+            "min": 1,
+            "max": 1,
+            "mode": "single",
+            "options": [
+              {
+                "id": "dea3-f269-a319-129b",
+                "name": "Gauss cannon",
+                "min": 0,
+                "max": 99
+              },
+              {
+                "id": "e2e6-5edd-5585-9c0d",
+                "name": "Tesla cannon",
+                "min": 0,
+                "max": 99
+              }
+            ],
+            "defaultOptionId": "dea3-f269-a319-129b"
+          }
+        ]
+      }
+    ]
+  },
+  "e046-8220-d8a2-1d19": {
+    "groups": [
+      {
+        "id": "ebdd-e4b1-1d7e-94c3",
+        "name": "Wargear",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "6767-c738-31be-b32a",
+            "name": "Doomsday cannon",
+            "min": 1,
+            "max": 1
+          },
+          {
+            "id": "c9e6-b252-d410-4ce3",
+            "name": "Gauss flayer array",
+            "min": 2,
+            "max": 2
+          },
+          {
+            "id": "3d52-97fe-d379-5382",
+            "name": "Armoured bulk",
+            "min": 1,
+            "max": 1
+          }
+        ]
+      }
+    ]
+  },
+  "6f72-b8f7-fd8d-5c2c": {
+    "groups": [
+      {
+        "id": "e83a-dd5e-4847-53f5",
+        "name": "1-6 Destroyers",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "368a-62a5-fa28-751b",
+            "name": "Lokhust Destroyer",
+            "min": 1,
+            "max": 6
+          }
+        ]
+      }
+    ]
+  },
+  "d9ea-2965-24-d3a3": {
+    "groups": [
+      {
+        "id": "5355-4513-4f12-f69e",
+        "name": "1-3 Heavy Destroyers",
+        "min": 1,
+        "max": 3,
+        "mode": "count",
+        "options": [
+          {
+            "id": "72a9-5a40-3553-43e6",
+            "name": "Destroyer w/ enmitic exterminator",
+            "min": 0,
+            "max": 3
+          },
+          {
+            "id": "a184-1eed-7423-2f21",
+            "name": "Destroyer w/ gauss destructor",
+            "min": 0,
+            "max": 3
+          }
+        ],
+        "defaultOptionId": "72a9-5a40-3553-43e6"
+      }
+    ]
+  },
+  "ff8f-2e43-8af1-3470": {
+    "groups": [
+      {
+        "id": "6b19-22ca-5345-bdd2",
+        "name": "Wargear",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "5edb-d0a-d124-1957",
+            "name": "Doomsday blaster",
+            "min": 1,
+            "max": 1
+          },
+          {
+            "id": "3c3c-3338-d05-da67",
+            "name": "Doomstalker limbs",
+            "min": 1,
+            "max": 1
+          },
+          {
+            "id": "a8e7-20a4-a9-49fa",
+            "name": "Twin gauss flayer",
+            "min": 1,
+            "max": 1
+          }
+        ]
+      }
+    ]
+  },
+  "9928-da6-4e86-ec9f": {
+    "groups": [
+      {
+        "id": "c241-7f68-03f3-8f80",
+        "name": "Wargear",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "f97d-ed16-324f-ef9f",
+            "name": "Gauss flayer array",
+            "min": 2,
+            "max": 2
+          },
+          {
+            "id": "4a08-f0a7-6732-b812",
+            "name": "Armoured bulk",
+            "min": 1,
+            "max": 1
+          }
+        ]
+      }
+    ]
+  },
+  "2a86-2d6-6446-7f1": {
+    "groups": [
+      {
+        "id": "d86a-8e69-db29-28ff",
+        "name": "Wargear",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "a25e-3494-a594-4b39",
+            "name": "Twin tesla destructor",
+            "min": 1,
+            "max": 1
+          },
+          {
+            "id": "a34a-c88f-dc13-cb49",
+            "name": "Armoured bulk",
+            "min": 1,
+            "max": 1
+          }
+        ]
+      }
+    ]
+  },
+  "52fb-edb1-c747-415a": {
+    "groups": [
+      {
+        "id": "1a5a-ab18-9944-8b8d",
+        "name": "Wargear",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "eb40-13b0-f6f4-e7cf",
+            "name": "Heavy death ray",
+            "min": 1,
+            "max": 1
+          },
+          {
+            "id": "c003-63df-e497-62f1",
+            "name": "Twin tesla destructor",
+            "min": 1,
+            "max": 1
+          },
+          {
+            "id": "ddcd-f493-ea4c-7b90",
+            "name": "Armoured bulk",
+            "min": 1,
+            "max": 1
+          }
+        ]
+      }
+    ]
+  },
+  "256d-92cd-5d14-bbab": {
+    "groups": [
+      {
+        "id": "e77f-4cb2-8b3b-d464",
+        "name": "Wargear",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "ddbc-8eca-bda7-2bf2",
+            "name": "Armoured bulk",
+            "min": 1,
+            "max": 1
+          },
+          {
+            "id": "e0a6-ce43-b479-de3b",
+            "name": "Tesla sphere",
+            "min": 4,
+            "max": 4
+          }
+        ]
+      }
+    ]
+  },
+  "5451-67b5-a66c-71d2": {
+    "groups": [
+      {
+        "id": "3c7e-7670-f674-7663",
+        "name": "Wargear",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "df62-ee85-5169-327e",
+            "name": "Armoured bulk",
+            "min": 1,
+            "max": 1
+          },
+          {
+            "id": "f4ab-3e53-32df-d47a",
+            "name": "C'tan Powers",
+            "min": 1,
+            "max": 1
+          },
+          {
+            "id": "68e9-a3fc-4ef2-b655",
+            "name": "Tesla sphere",
+            "min": 4,
+            "max": 4
+          }
+        ]
+      }
+    ]
+  },
+  "db10-2662-da6a-516e": {
+    "groups": [
+      {
+        "id": "3228-72d1-1549-70f9",
+        "name": "Wargear",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "713c-56a-6daf-39",
+            "name": "Particle whip",
+            "min": 1,
+            "max": 1
+          },
+          {
+            "id": "828c-60df-8e28-7d4c",
+            "name": "Portal of exile",
+            "min": 1,
+            "max": 1
+          }
+        ],
+        "groups": [
+          {
+            "id": "c3ef-3e6b-e57a-9c32",
+            "name": "Weapons",
+            "min": 1,
+            "max": 1,
+            "mode": "single",
+            "options": [
+              {
+                "id": "38b2-6df5-3b2a-ec",
+                "name": "Four death rays",
+                "min": 0,
+                "max": 99
+              },
+              {
+                "id": "266f-c700-199-e196",
+                "name": "Four gauss flux arcs",
+                "min": 0,
+                "max": 99
+              }
+            ],
+            "defaultOptionId": "266f-c700-199-e196"
+          }
+        ]
+      }
+    ]
+  },
+  "f868-afbc-9f6b-e4e9": {
+    "groups": [
+      {
+        "id": "9ca3-d510-8045-fb42",
+        "name": "Wargear",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "7446-6826-9589-4beb",
+            "name": "Gauss slicers",
+            "min": 1,
+            "max": 1
+          },
+          {
+            "id": "47dc-56ca-fd4e-a162",
+            "name": "Tomb Stalker claws",
+            "min": 1,
+            "max": 1
+          },
+          {
+            "id": "be86-b1af-873e-d37a",
+            "name": "Gloom prism",
+            "min": 1,
+            "max": 1
+          }
+        ]
+      }
+    ]
+  },
+  "9519-5dbc-ab5-c720": {
+    "groups": [
+      {
+        "id": "e5eb-87a3-c75c-df65",
+        "name": "Wargear",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "7326-a34c-1f34-5197",
+            "name": "Exile cannon",
+            "min": 1,
+            "max": 1
+          },
+          {
+            "id": "2e16-94db-1e74-c077",
+            "name": "Tomb Sentinel claws",
+            "min": 1,
+            "max": 1
+          },
+          {
+            "id": "76ec-d562-eb29-72ec",
+            "name": "Gloom prism",
+            "min": 1,
+            "max": 1
+          }
+        ]
+      }
+    ]
+  },
+  "a7e1-5b53-1d89-e1e3": {
+    "groups": [
+      {
+        "id": "ef1-349f-4676-b62f",
+        "name": "3-6 Acanthrites",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "9554-7913-19e3-7c2b",
+            "name": "Canoptek Acanthrite",
+            "min": 3,
+            "max": 6
+          }
+        ]
+      }
+    ]
+  },
+  "ef1-14e1-cf28-4701": {
+    "groups": [
+      {
+        "id": "c7ce-cfb4-23da-f08f",
+        "name": "Wargear",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "d326-f3d9-8bc1-153",
+            "name": "Tesseract singularity chamber",
+            "min": 1,
+            "max": 1
+          },
+          {
+            "id": "f0d3-b21-f515-1054",
+            "name": "Armoured bulk",
+            "min": 1,
+            "max": 1
+          }
+        ],
+        "groups": [
+          {
+            "id": "8cd-ad13-9ced-7622",
+            "name": "Secondary weapons",
+            "min": 1,
+            "max": 1,
+            "mode": "single",
+            "options": [
+              {
+                "id": "a83d-addc-d927-7f52",
+                "name": "Two gauss cannons",
+                "min": 0,
+                "max": 99
+              },
+              {
+                "id": "e442-690e-fc30-5ed9",
+                "name": "Two particle beamers",
+                "min": 0,
+                "max": 99
+              },
+              {
+                "id": "f97d-e878-7468-c1b8",
+                "name": "Two tesla cannons",
+                "min": 0,
+                "max": 99
+              }
+            ],
+            "defaultOptionId": "f97d-e878-7468-c1b8"
+          }
+        ]
+      }
+    ]
+  },
+  "fa11-cd65-fcf6-427c": {
+    "groups": [
+      {
+        "id": "4080-0461-78ca-dd29",
+        "name": "Wargear",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "9be5-1d97-4957-fd73",
+            "name": "Titanic forelimbs",
+            "min": 1,
+            "max": 1
+          }
+        ],
+        "groups": [
+          {
+            "id": "2815-eb02-857c-f8e6",
+            "name": "Weapons",
+            "min": 1,
+            "max": 1,
+            "mode": "single",
+            "options": [
+              {
+                "id": "237f-84f1-139b-e9ec",
+                "name": "Two singularity generators",
+                "min": 0,
+                "max": 99
+              },
+              {
+                "id": "879a-5e15-79eb-cf4d",
+                "name": "Two synaptic obliterators and two transdimensional projectors",
+                "min": 0,
+                "max": 99
+              }
+            ],
+            "defaultOptionId": "237f-84f1-139b-e9ec"
+          }
+        ]
+      }
+    ]
+  },
+  "37d1-5b3e-b4e6-f8ef": {
+    "groups": [
+      {
+        "id": "7492-15bb-4bd2-2b0d",
+        "name": "Weapon",
+        "min": 1,
+        "max": 1,
+        "mode": "single",
+        "options": [
+          {
+            "id": "f92e-9b67-83e1-d5d9",
+            "name": "Focused death ray",
+            "min": 0,
+            "max": 99
+          },
+          {
+            "id": "2e15-d0bf-e0c9-1145",
+            "name": "Gauss exterminator",
+            "min": 0,
+            "max": 99
+          },
+          {
+            "id": "e797-6514-16a1-d785",
+            "name": "Heat cannon",
+            "min": 0,
+            "max": 99
+          }
+        ],
+        "defaultOptionId": "2e15-d0bf-e0c9-1145"
+      }
+    ]
+  },
+  "e6d4-56e1-3bbd-475": {
+    "groups": [
+      {
+        "id": "e1c1-a929-bc92-0e42",
+        "name": "Wargear",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "d86e-8e81-3ddf-6e9f",
+            "name": "Twin tesla destructor",
+            "min": 1,
+            "max": 1
+          },
+          {
+            "id": "2e84-c615-c645-a59c",
+            "name": "Armoured bulk",
+            "min": 1,
+            "max": 1
+          }
+        ]
+      }
+    ]
+  },
+  "2e4-afdd-efdd-c5c8": {
+    "groups": [
+      {
+        "id": "ec5c-d69f-ec0f-3e72",
+        "name": "Wargear",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "7736-5dc3-ff2-6fd0",
+            "name": "Overlord's blade",
+            "min": 1,
+            "max": 1
+          },
+          {
+            "id": "1e71-c82b-c8c0-c30a",
+            "name": "Resurrection orb",
+            "min": 1,
+            "max": 1
+          }
+        ]
+      }
+    ]
+  },
+  "97d7-4b22-46b7-dae0": {
+    "groups": [
+      {
+        "id": "cfcb-54dc-1bb3-cf7c",
+        "name": "5 Macrocytes",
+        "min": 5,
+        "max": 5,
+        "mode": "count",
+        "options": [
+          {
+            "id": "b23f-37fd-a252-e8de",
+            "name": "Canoptek Macrocyte w/ atomiser beam",
+            "min": 0,
+            "max": 1
+          },
+          {
+            "id": "c888-2b4c-9c4f-98f2",
+            "name": "Canoptek Macrocyte w/ tesla caster",
+            "min": 0,
+            "max": 5
+          },
+          {
+            "id": "86dc-e532-a52f-6d14",
+            "name": "Canoptek Macrocyte w/ accelerator mandible",
+            "min": 0,
+            "max": 1
+          },
+          {
+            "id": "12f0-e346-b675-9b00",
+            "name": "Canoptek Macrocyte w/ gauss scalpel",
+            "min": 0,
+            "max": 5
+          }
+        ],
+        "defaultOptionId": "12f0-e346-b675-9b00"
+      }
+    ]
+  },
+  "b7ee-a0fa-5736-b58f": {
+    "groups": [
+      {
+        "id": "d9a7-8561-d713-e351",
+        "name": "2 Tomb Crawlers",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "9a7a-8363-90a4-cca3",
+            "name": "Tomb Crawler w/ twin gauss reaper",
+            "min": 1,
+            "max": 1
+          },
+          {
+            "id": "263f-f618-5046-e1b7",
+            "name": "Tomb Crawler w/ twin gauss reaper",
+            "min": 1,
+            "max": 1,
+            "groups": [
+              {
+                "id": "da0b-10d5-755b-f41d",
+                "name": "Weapon choice",
+                "min": 1,
+                "max": 1,
+                "mode": "single",
+                "options": [
+                  {
+                    "id": "008e-1fe4-dc3c-b1ea",
+                    "name": "Twin gauss reaper",
+                    "min": 0,
+                    "max": 99
+                  },
+                  {
+                    "id": "f70b-7187-4cf7-b9de",
+                    "name": "Dimensional isolator",
+                    "min": 0,
+                    "max": 99
+                  }
+                ],
+                "defaultOptionId": "008e-1fe4-dc3c-b1ea"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "92cc-9d54-5d0c-6663": {
+    "groups": [
+      {
+        "id": "7cdc-4c25-f4e5-d0c9",
+        "name": "Wargear",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "00f4-1c90-1139-bcf2",
+            "name": "Tremorglaive",
+            "min": 1,
+            "max": 1
+          }
+        ]
+      }
+    ]
+  },
+  "1d4b-a179-ae99-3283": {
+    "groups": [
+      {
+        "id": "b3f7-2c0a-1af8-4ad4",
+        "name": "Wargear",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "5481-c090-8363-be82",
+            "name": "Blade tail and whip coils",
+            "min": 1,
+            "max": 1
+          },
+          {
+            "id": "b50f-3d17-1d8f-ae81",
+            "name": "Enmitic disintegrators",
+            "min": 1,
+            "max": 1
+          },
+          {
+            "id": "a32a-76af-d6f9-2841",
+            "name": "Nullstone field generator",
+            "min": 1,
+            "max": 1
+          },
+          {
+            "id": "d3ec-fd61-4989-07d5",
+            "name": "Unmaker gauntlet",
+            "min": 1,
+            "max": 1
+          }
+        ]
+      }
+    ]
+  }
+}

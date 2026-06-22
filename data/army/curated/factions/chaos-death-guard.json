@@ -231,12 +231,25 @@
           "name": "Plaguesight",
           "description": "Each time this model makes an attack that targets an Afflicted unit, you can re-roll the Hit roll."
         }
-      ]
+      ],
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 195
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "195"
     },
     {
       "id": "f4d7-244d-16c4-f2f3",
       "name": "Daemon Prince of Nurgle with wings",
-      "points": 180,
+      "points": 170,
       "keywords": [
         "Monster",
         "Character",
@@ -458,7 +471,20 @@
           "name": "Plaguesight",
           "description": "Each time this model makes an attack that targets an Afflicted unit, you can re-roll the Hit roll."
         }
-      ]
+      ],
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 170
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "170"
     },
     {
       "id": "e6a4-7055-fd23-5123",
@@ -528,6 +554,25 @@
           "name": "Eater Plague (Psychic)",
           "description": "In your Shooting phase, you can select one enemy unit within 18\" of and visible to this ^^**Psyker^^** (excluding units with the Lone Operative ability that are not part of an Attached unit and are not within 12\" of this ^^**Psyker^^** and roll one D6: on a 1, this ^^**Psyker^^**'s unit suffers D3 mortal wounds; on a 2-5, that enemy unit suffers D6 mortal wounds; on a 6, that enemy unit suffers D3+3 mortal wounds."
         }
+      ],
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 100
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "100",
+      "mfmRole": "leader",
+      "attachTo": [
+        "Blightlord Terminators",
+        "Deathshroud Terminators",
+        "Poxwalkers"
       ]
     },
     {
@@ -1123,6 +1168,24 @@
           "name": "Plaguesight",
           "description": "Each time this model makes an attack that targets an Afflicted unit, you can re-roll the Hit roll."
         }
+      ],
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 100
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "100",
+      "mfmRole": "leader",
+      "attachTo": [
+        "Blightlord Terminators",
+        "Deathshroud Terminators"
       ]
     },
     {
@@ -1340,6 +1403,24 @@
           "name": "Plaguesight",
           "description": "Each time this model makes an attack that targets an Afflicted unit, you can re-roll the Hit roll."
         }
+      ],
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 120
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "120",
+      "mfmRole": "leader",
+      "attachTo": [
+        "Blightlord Terminators",
+        "Deathshroud Terminators"
       ]
     },
     {
@@ -1805,12 +1886,30 @@
           "name": "Plaguesight",
           "description": "Each time this model makes an attack that targets an Afflicted unit, you can re-roll the Hit roll."
         }
+      ],
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 60
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "60",
+      "mfmRole": "leader",
+      "attachTo": [
+        "Plague Marines",
+        "Poxwalkers"
       ]
     },
     {
       "id": "8467-b3a2-2597-de0d",
       "name": "Plague Marines",
-      "points": 95,
+      "points": 90,
       "keywords": [
         "Infantry",
         "Chaos",
@@ -1953,7 +2052,28 @@
           "name": "Plaguesight",
           "description": "Each time this model makes an attack that targets an Afflicted unit, you can re-roll the Hit roll."
         }
-      ]
+      ],
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 5,
+              "points": 90
+            },
+            {
+              "models": 7,
+              "points": 125
+            },
+            {
+              "models": 10,
+              "points": 190
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "90/125/190"
     },
     {
       "id": "d579-88cd-c634-f800",
@@ -2126,12 +2246,29 @@
           "name": "Curse of the Walking Pox",
           "description": "Each time a ^^**Poxwalker^^** model in this unit makes an attack that destroys an enemy model (excluding ^^**Monster^^** and ^^**Vehicle^^** models), after this unit has resolved its attacks, you can return one destroyed ^^**Poxwalker^^** model to this unit.\n\nWhile ^^**Typhus^^** is leading this unit, enemy models destroyed as a result of ^^**Typhus^^**’ Eater Plague ability count as enemy models destroyed by an attack made by a ^^**Poxwalker^^** model in this unit for the purposes of this ability."
         }
-      ]
+      ],
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 10,
+              "points": 65
+            },
+            {
+              "models": 20,
+              "points": 130
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "65/130"
     },
     {
       "id": "1ffc-27de-8aea-e7bb",
       "name": "Noxious Blightbringer",
-      "points": 50,
+      "points": 60,
       "keywords": [
         "Infantry",
         "Character",
@@ -2352,12 +2489,30 @@
           "name": "Plaguesight",
           "description": "Each time this model makes an attack that targets an Afflicted unit, you can re-roll the Hit roll."
         }
+      ],
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 60
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "60",
+      "mfmRole": "leader",
+      "attachTo": [
+        "Plague Marines",
+        "Poxwalkers"
       ]
     },
     {
       "id": "c88f-d4dc-84b3-1b31",
       "name": "Foul Blightspawn",
-      "points": 75,
+      "points": 65,
       "keywords": [
         "Infantry",
         "Character",
@@ -2561,6 +2716,23 @@
           "name": "Plaguesight",
           "description": "Each time this model makes an attack that targets an Afflicted unit, you can re-roll the Hit roll."
         }
+      ],
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 65
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "65",
+      "mfmRole": "leader",
+      "attachTo": [
+        "Plague Marines"
       ]
     },
     {
@@ -2786,12 +2958,29 @@
           "name": "Plaguesight",
           "description": "Each time this model makes an attack that targets an Afflicted unit, you can re-roll the Hit roll."
         }
+      ],
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 60
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "60",
+      "mfmRole": "leader",
+      "attachTo": [
+        "Plague Marines"
       ]
     },
     {
       "id": "506c-16a8-68f7-c08a",
       "name": "Tallyman",
-      "points": 50,
+      "points": 60,
       "keywords": [
         "Infantry",
         "Character",
@@ -3005,6 +3194,23 @@
           "name": "Plaguesight",
           "description": "Each time this model makes an attack that targets an Afflicted unit, you can re-roll the Hit roll."
         }
+      ],
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 60
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "60",
+      "mfmRole": "leader",
+      "attachTo": [
+        "Plague Marines"
       ]
     },
     {
@@ -3214,6 +3420,23 @@
           "name": "Plaguesight",
           "description": "Each time this model makes an attack that targets an Afflicted unit, you can re-roll the Hit roll."
         }
+      ],
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 50
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "50",
+      "mfmRole": "leader",
+      "attachTo": [
+        "Plague Marines"
       ]
     },
     {
@@ -3333,12 +3556,43 @@
           "name": "Plaguesight",
           "description": "Each time this model makes an attack that targets an Afflicted unit, you can re-roll the Hit roll."
         }
-      ]
+      ],
+      "pricing": [
+        {
+          "range": "[1,2]",
+          "label": "Your 1st To 2nd Units Cost",
+          "costs": [
+            {
+              "models": 3,
+              "points": 160
+            },
+            {
+              "models": 6,
+              "points": 320
+            }
+          ]
+        },
+        {
+          "range": "[3,)",
+          "label": "Your 3rd + Unit Costs",
+          "costs": [
+            {
+              "models": 3,
+              "points": 170
+            },
+            {
+              "models": 6,
+              "points": 330
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "160/320"
     },
     {
       "id": "2a2b-643e-860e-b524",
       "name": "Helbrute",
-      "points": 115,
+      "points": 110,
       "keywords": [
         "Vehicle",
         "Walker",
@@ -3414,7 +3668,20 @@
           "name": "Plaguesight",
           "description": "Each time this model makes an attack that targets an Afflicted unit, you can re-roll the Hit roll."
         }
-      ]
+      ],
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 110
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "110"
     },
     {
       "id": "5b4e-dcf1-5c6f-4d35",
@@ -3587,7 +3854,28 @@
           "name": "Plaguesight",
           "description": "Each time this model makes an attack that targets an Afflicted unit, you can re-roll the Hit roll."
         }
-      ]
+      ],
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 3,
+              "points": 115
+            },
+            {
+              "models": 5,
+              "points": 185
+            },
+            {
+              "models": 10,
+              "points": 370
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "115/185/370"
     },
     {
       "id": "1d85-475f-5ab-9823",
@@ -3664,7 +3952,20 @@
           "name": "Plaguesight",
           "description": "Each time this model makes an attack that targets an Afflicted unit, you can re-roll the Hit roll."
         }
-      ]
+      ],
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 2,
+              "points": 80
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "80"
     },
     {
       "id": "35b2-7490-1a7b-cd99",
@@ -3880,12 +4181,35 @@
           "name": "Plaguesight",
           "description": "Each time this model makes an attack that targets an Afflicted unit, you can re-roll the Hit roll."
         }
-      ]
+      ],
+      "pricing": [
+        {
+          "range": "[1,2]",
+          "label": "Your 1st To 2nd Units Cost",
+          "costs": [
+            {
+              "models": 1,
+              "points": 100
+            }
+          ]
+        },
+        {
+          "range": "[3,)",
+          "label": "Your 3rd + Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 110
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "100"
     },
     {
       "id": "e58b-507a-937f-7abf",
       "name": "Plagueburst Crawler",
-      "points": 210,
+      "points": 185,
       "keywords": [
         "Vehicle",
         "Chaos",
@@ -3976,7 +4300,30 @@
           "name": "Plaguesight",
           "description": "Each time this model makes an attack that targets an Afflicted unit, you can re-roll the Hit roll."
         }
-      ]
+      ],
+      "pricing": [
+        {
+          "range": "[1,1]",
+          "label": "Your 1st Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 185
+            }
+          ]
+        },
+        {
+          "range": "[2,)",
+          "label": "Your 2nd + Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 210
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "185"
     },
     {
       "id": "89d-b0c0-6e19-f017",
@@ -4093,7 +4440,30 @@
           "description": "Each time this model makes an attack that targets an Afflicted unit, you can re-roll the Hit roll."
         }
       ],
-      "transportCapacity": "This model has a transport capacity of 14 ^^**Death Guard Infantry^^** models. Each ^^**Terminator^^** model takes up the space of 2 models."
+      "transportCapacity": "This model has a transport capacity of 14 ^^**Death Guard Infantry^^** models. Each ^^**Terminator^^** model takes up the space of 2 models.",
+      "pricing": [
+        {
+          "range": "[1,2]",
+          "label": "Your 1st To 2nd Units Cost",
+          "costs": [
+            {
+              "models": 1,
+              "points": 220
+            }
+          ]
+        },
+        {
+          "range": "[3,)",
+          "label": "Your 3rd + Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 240
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "220"
     },
     {
       "id": "9b58-210d-c12f-4d46",
@@ -4196,7 +4566,30 @@
           "name": "Plaguesight",
           "description": "Each time this model makes an attack that targets an Afflicted unit, you can re-roll the Hit roll."
         }
-      ]
+      ],
+      "pricing": [
+        {
+          "range": "[1,2]",
+          "label": "Your 1st To 2nd Units Cost",
+          "costs": [
+            {
+              "models": 1,
+              "points": 135
+            }
+          ]
+        },
+        {
+          "range": "[3,)",
+          "label": "Your 3rd + Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 145
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "135"
     },
     {
       "id": "ab4e-466d-e9e8-89d5",
@@ -4300,7 +4693,30 @@
           "name": "Plaguesight",
           "description": "Each time this model makes an attack that targets an Afflicted unit, you can re-roll the Hit roll."
         }
-      ]
+      ],
+      "pricing": [
+        {
+          "range": "[1,2]",
+          "label": "Your 1st To 2nd Units Cost",
+          "costs": [
+            {
+              "models": 1,
+              "points": 145
+            }
+          ]
+        },
+        {
+          "range": "[3,)",
+          "label": "Your 3rd + Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 155
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "145"
     },
     {
       "id": "b899-92e2-693a-975f",
@@ -4407,12 +4823,25 @@
           "description": "Each time this model makes an attack that targets an Afflicted unit, you can re-roll the Hit roll."
         }
       ],
-      "transportCapacity": "This model has a transport capacity of 12 ^^**Death Guard Infantry**^^ models. It cannot transport ^^**Terminator**^^ models."
+      "transportCapacity": "This model has a transport capacity of 12 ^^**Death Guard Infantry**^^ models. It cannot transport ^^**Terminator**^^ models.",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 85
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "85"
     },
     {
       "id": "f5ac-4f37-fe7b-36b6",
       "name": "Mortarion",
-      "points": 380,
+      "points": 400,
       "keywords": [
         "Monster",
         "Psyker",
@@ -4511,7 +4940,20 @@
           "name": "Invulnerable Save",
           "description": "This model has a 4+ invulnerable save."
         }
-      ]
+      ],
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 400
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "400"
     },
     {
       "id": "3e5b-23db-4ccd-ea97",
@@ -4721,6 +5163,23 @@
           "name": "Plaguesight",
           "description": "Each time this model makes an attack that targets an Afflicted unit, you can re-roll the Hit roll."
         }
+      ],
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 45
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "45",
+      "mfmRole": "leader",
+      "attachTo": [
+        "Plague Marines"
       ]
     },
     {
@@ -4772,7 +5231,20 @@
           "name": "Deployment",
           "description": "Both parts of this ^^**Fortification**^^ must be deployed within 1\" of each other. Both parts are then treated as a single model for all rules purposes."
         }
-      ]
+      ],
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 105
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "105"
     },
     {
       "id": "1d25-87a1-2d17-5d02",
@@ -5656,7 +6128,7 @@
     {
       "id": "c5a7-5f07-2b1a-8f98",
       "name": "Lord of Poxes",
-      "points": 75,
+      "points": 65,
       "keywords": [
         "Character",
         "Infantry",
@@ -5882,12 +6354,29 @@
           "name": "Plaguesight",
           "description": "Each time this model makes an attack that targets an Afflicted unit, you can re-roll the Hit roll."
         }
+      ],
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 65
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "65",
+      "mfmRole": "leader",
+      "attachTo": [
+        "Plague Marines"
       ]
     },
     {
       "id": "2425-13a7-77f0-0112",
       "name": "Great Unclean One",
-      "points": 250,
+      "points": 265,
       "keywords": [
         "Monster",
         "Character",
@@ -6114,12 +6603,35 @@
           "name": "Tome of Bounteous Blessings",
           "description": "Each time a ^^**Plague Legions^^** unit within 12\" of the bearer takes a Battle-shock test, add 1 to that test and, if that test is passed, one model in that unit regains up to D3 lost wounds (if that unit is a ^^**Battleline^^** unit and that test is passed, up to D3 destroyed models can be returned to that unit instead)."
         }
-      ]
+      ],
+      "pricing": [
+        {
+          "range": "[1,2]",
+          "label": "Your 1st To 2nd Units Cost",
+          "costs": [
+            {
+              "models": 1,
+              "points": 265
+            }
+          ]
+        },
+        {
+          "range": "[3,)",
+          "label": "Your 3rd + Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 280
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "265"
     },
     {
       "id": "66dd-f8c9-f9a6-0e6b",
       "name": "Rotigus",
-      "points": 265,
+      "points": 280,
       "keywords": [
         "Monster",
         "Character",
@@ -6202,12 +6714,25 @@
           "name": "Damaged: 1-7 wounds remaining",
           "description": "While this model has 1-7 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
         }
-      ]
+      ],
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 280
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "280"
     },
     {
       "id": "904b-0319-7b2e-2145",
       "name": "Plaguebearers",
-      "points": 110,
+      "points": 115,
       "keywords": [
         "Infantry",
         "Battleline",
@@ -6259,12 +6784,25 @@
           "name": "Instrument of Chaos",
           "description": "Add 1 to Charge rolls made for the bearer’s unit."
         }
-      ]
+      ],
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 10,
+              "points": 115
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "115"
     },
     {
       "id": "cd03-e1f3-fa31-a271",
       "name": "Plague Drones",
-      "points": 115,
+      "points": 110,
       "keywords": [
         "Mounted",
         "Fly",
@@ -6343,12 +6881,29 @@
           "name": "Instrument of Chaos",
           "description": "Add 1 to Charge rolls made for the bearer’s unit."
         }
-      ]
+      ],
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 3,
+              "points": 110
+            },
+            {
+              "models": 6,
+              "points": 220
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "110/220"
     },
     {
       "id": "5f38-3bbb-ce09-485b",
       "name": "Beasts of Nurgle",
-      "points": 0,
+      "points": 70,
       "keywords": [
         "Beast",
         "Chaos",
@@ -6391,12 +6946,29 @@
           "name": "Grotesque Regeneration",
           "description": "At the end of each phase, if a Beasts of Nurgle model in this unit has lost any wounds but is not destroyed, that model regains all of its lost wounds."
         }
-      ]
+      ],
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 70
+            },
+            {
+              "models": 2,
+              "points": 140
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "70/140"
     },
     {
       "id": "7e32-0162-71e2-57a0",
       "name": "Nurglings",
-      "points": 40,
+      "points": 45,
       "keywords": [
         "Swarm",
         "Chaos",
@@ -6439,12 +7011,29 @@
           "name": "Mischief Makers (Aura)",
           "description": "Each time an enemy unit (excluding ^^Titanic^^ units) within Engagement Range of one or more units with this ability is selected to fight, until the end of the phase, each time a model in that enemy unit makes a melee attack, subtract 1 from the Hit roll."
         }
-      ]
+      ],
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 3,
+              "points": 45
+            },
+            {
+              "models": 6,
+              "points": 90
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "45/90"
     },
     {
       "id": "d055-25eb-eb2b-7f6a",
       "name": "Foetid Bloat-drone with heavy blight launcher",
-      "points": 120,
+      "points": 125,
       "keywords": [
         "Vehicle",
         "Fly",
@@ -6538,7 +7127,30 @@
           "name": "Plaguesight",
           "description": "Each time this model makes an attack that targets an Afflicted unit, you can re-roll the Hit roll."
         }
-      ]
+      ],
+      "pricing": [
+        {
+          "range": "[1,2]",
+          "label": "Your 1st To 2nd Units Cost",
+          "costs": [
+            {
+              "models": 1,
+              "points": 125
+            }
+          ]
+        },
+        {
+          "range": "[3,)",
+          "label": "Your 3rd + Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 135
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "125"
     },
     {
       "id": "d037-162a-ac85-9c88",
@@ -8097,7 +8709,7 @@
     {
       "id": "bc88-0833-743e-0146",
       "name": "Defiler",
-      "points": 250,
+      "points": 290,
       "keywords": [
         "Vehicle",
         "Walker",
@@ -8188,7 +8800,30 @@
           "name": "Plaguesight",
           "description": "Each time this model makes an attack that targets an Afflicted unit, you can re-roll the Hit roll."
         }
-      ]
+      ],
+      "pricing": [
+        {
+          "range": "[1,1]",
+          "label": "Your 1st Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 290
+            }
+          ]
+        },
+        {
+          "range": "[2,)",
+          "label": "Your 2nd + Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 320
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "290"
     }
   ],
   "enhancements": [

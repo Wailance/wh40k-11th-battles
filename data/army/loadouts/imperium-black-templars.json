@@ -1,0 +1,1389 @@
+{
+  "206c-6b4d-4aaa-7e79": {
+    "groups": [
+      {
+        "id": "93d5-a2f6-533-694f",
+        "name": "Sword Brethren",
+        "min": 4,
+        "max": 10,
+        "mode": "count",
+        "options": [
+          {
+            "id": "b3a3-f1ea-c706-bc9",
+            "name": "Sword Brother",
+            "min": 4,
+            "max": 10,
+            "groups": [
+              {
+                "id": "f362-37ed-ff1-2cc0",
+                "name": "Pistol Option",
+                "min": 1,
+                "max": 1,
+                "mode": "single",
+                "options": [
+                  {
+                    "id": "f2a8-18d2-4877-815e",
+                    "name": "Heavy Bolt Pistol",
+                    "min": 0,
+                    "max": 99
+                  },
+                  {
+                    "id": "a029-3c84-698f-2a37",
+                    "name": "Plasma pistol",
+                    "min": 0,
+                    "max": 99
+                  },
+                  {
+                    "id": "c2da-2af9-347f-8698",
+                    "name": "Pyre Pistol",
+                    "min": 0,
+                    "max": 99
+                  }
+                ],
+                "defaultOptionId": "f2a8-18d2-4877-815e"
+              },
+              {
+                "id": "27b1-12c8-e1f3-ff1c",
+                "name": "Melee Option",
+                "min": 1,
+                "max": 1,
+                "mode": "single",
+                "options": [
+                  {
+                    "id": "a4ba-650f-f99a-afcd",
+                    "name": "Thunder Hammer",
+                    "min": 0,
+                    "max": 99
+                  },
+                  {
+                    "id": "98d9-b9b5-f2e3-824e",
+                    "name": "Master-crafted Power Weapon",
+                    "min": 0,
+                    "max": 99
+                  },
+                  {
+                    "id": "de7a-3acb-5169-0755",
+                    "name": "Astartes Chainsword",
+                    "min": 0,
+                    "max": 99
+                  }
+                ],
+                "defaultOptionId": "de7a-3acb-5169-0755"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "ca2f-f408-c1bd-b87f": {
+    "groups": [
+      {
+        "id": "6df4-6e66-e72c-4bb5",
+        "name": "Wargear",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "9b84-fb40-64b2-6738",
+            "name": "Black Sword",
+            "min": 1,
+            "max": 1
+          },
+          {
+            "id": "6c8a-a7b9-ac76-de3c",
+            "name": "Bolt pistol",
+            "min": 1,
+            "max": 1
+          }
+        ]
+      }
+    ]
+  },
+  "2da2-ad08-6057-5a1c": {
+    "groups": [
+      {
+        "id": "8a26-cdbf-3480-3ec7",
+        "name": "Neophytes",
+        "min": 0,
+        "max": 5,
+        "mode": "count",
+        "options": [
+          {
+            "id": "70b9-da75-964e-bd31",
+            "name": "Neophyte w/Combat Knife",
+            "min": 0,
+            "max": 10,
+            "equippedWith": "Bolt pistol"
+          },
+          {
+            "id": "7c7-2f36-db28-b9a9",
+            "name": "Neophyte w/Astartes Shotgun",
+            "min": 0,
+            "max": 10,
+            "equippedWith": "Bolt pistol"
+          },
+          {
+            "id": "c93d-dc5a-9d7c-895d",
+            "name": "Neophyte w/Boltgun",
+            "min": 0,
+            "max": 10,
+            "equippedWith": "Bolt pistol and Boltgun"
+          }
+        ],
+        "defaultOptionId": "c93d-dc5a-9d7c-895d"
+      },
+      {
+        "id": "6413-eee8-56ef-f697",
+        "name": "Initiates",
+        "min": 4,
+        "max": 9,
+        "mode": "count",
+        "options": [
+          {
+            "id": "9c32-3649-fecb-f0e5",
+            "name": "Initiate w/Astartes Chainsword",
+            "min": 0,
+            "max": 9,
+            "equippedWith": "Bolt pistol and Astartes Chainsword"
+          },
+          {
+            "id": "a2f6-3946-52df-35f5",
+            "name": "Initiate w/Boltgun",
+            "min": 0,
+            "max": 9,
+            "equippedWith": "Bolt pistol and Boltgun"
+          },
+          {
+            "id": "91ac-edc7-b6b0-a0cb",
+            "name": "Initiate w/Heavy",
+            "min": 0,
+            "max": 1,
+            "groups": [
+              {
+                "id": "8158-f97f-2c78-32ab",
+                "name": "Weapon Option",
+                "min": 1,
+                "max": 1,
+                "mode": "single",
+                "options": [
+                  {
+                    "id": "a736-b2c5-5ee3-3ba",
+                    "name": "Power weapon",
+                    "min": 0,
+                    "max": 99
+                  },
+                  {
+                    "id": "796c-871e-ebba-6338",
+                    "name": "Power fist",
+                    "min": 0,
+                    "max": 99
+                  },
+                  {
+                    "id": "3949-7900-6c97-afb7",
+                    "name": "Heavy Bolter",
+                    "min": 0,
+                    "max": 99
+                  },
+                  {
+                    "id": "c36b-53c1-3ab2-919f",
+                    "name": "Heavy Flamer",
+                    "min": 0,
+                    "max": 99
+                  },
+                  {
+                    "id": "2525-2f71-a019-6871",
+                    "name": "Grav-cannon",
+                    "min": 0,
+                    "max": 99
+                  },
+                  {
+                    "id": "76ac-66aa-acce-12a1",
+                    "name": "Lascannon",
+                    "min": 0,
+                    "max": 99
+                  },
+                  {
+                    "id": "a685-5e6b-b495-6198",
+                    "name": "Missile Launcher",
+                    "min": 0,
+                    "max": 99
+                  },
+                  {
+                    "id": "fabd-b346-880e-3d34",
+                    "name": "Multi-melta",
+                    "min": 0,
+                    "max": 99
+                  },
+                  {
+                    "id": "a5b7-5d25-3825-19e",
+                    "name": "Plasma cannon",
+                    "min": 0,
+                    "max": 99
+                  }
+                ]
+              }
+            ],
+            "equippedWith": "Bolt pistol"
+          },
+          {
+            "id": "12dc-5d6c-abcf-1fd",
+            "name": "Initiate w/Special",
+            "min": 0,
+            "max": 1,
+            "groups": [
+              {
+                "id": "c027-673e-be05-3184",
+                "name": "Weapon Option",
+                "min": 1,
+                "max": 1,
+                "mode": "single",
+                "options": [
+                  {
+                    "id": "ac7e-a8c2-60cd-62cb",
+                    "name": "Flamer",
+                    "min": 0,
+                    "max": 99
+                  },
+                  {
+                    "id": "ea9e-c828-6233-4c61",
+                    "name": "Meltagun",
+                    "min": 0,
+                    "max": 99
+                  },
+                  {
+                    "id": "c7bc-67b8-abfb-b07b",
+                    "name": "Plasma gun",
+                    "min": 0,
+                    "max": 99
+                  },
+                  {
+                    "id": "2f8-e073-adf0-ee86",
+                    "name": "Grav-gun",
+                    "min": 0,
+                    "max": 99
+                  }
+                ]
+              }
+            ],
+            "equippedWith": "Bolt pistol"
+          }
+        ],
+        "defaultOptionId": "a2f6-3946-52df-35f5"
+      },
+      {
+        "id": "4f71-d948-3cb9-1758",
+        "name": "Sword Brother",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "40e4-11f1-529f-441d",
+            "name": "Sword Brother",
+            "min": 1,
+            "max": 1,
+            "groups": [
+              {
+                "id": "3d66-d1e0-648c-10d7",
+                "name": "Weapon Option 1",
+                "min": 1,
+                "max": 1,
+                "mode": "single",
+                "options": [
+                  {
+                    "id": "b27e-04cd-2f77-4615",
+                    "name": "Bolt pistol",
+                    "min": 0,
+                    "max": 99
+                  },
+                  {
+                    "id": "78c9-aebb-fd24-2392",
+                    "name": "Grav-pistol",
+                    "min": 0,
+                    "max": 1
+                  },
+                  {
+                    "id": "febd-af89-eb95-7e11",
+                    "name": "Hand flamer",
+                    "min": 0,
+                    "max": 1
+                  },
+                  {
+                    "id": "466f-8191-81f2-daa9",
+                    "name": "Inferno Pistol",
+                    "min": 0,
+                    "max": 1
+                  },
+                  {
+                    "id": "9847-8ed8-efbd-2920",
+                    "name": "Plasma pistol",
+                    "min": 0,
+                    "max": 1
+                  },
+                  {
+                    "id": "b33c-9769-4f42-2eba",
+                    "name": "Astartes Chainsword",
+                    "min": 0,
+                    "max": 99
+                  },
+                  {
+                    "id": "4909-9fad-ea05-2b20",
+                    "name": "Power fist",
+                    "min": 0,
+                    "max": 99
+                  },
+                  {
+                    "id": "9f61-3d86-b3f4-1094",
+                    "name": "Power weapon",
+                    "min": 0,
+                    "max": 99
+                  },
+                  {
+                    "id": "6b21-7abc-0b71-982d",
+                    "name": "Thunder Hammer",
+                    "min": 0,
+                    "max": 99
+                  }
+                ],
+                "defaultOptionId": "513f-5e76-2fc6-63e1"
+              },
+              {
+                "id": "92ba-31e2-640d-3ba3",
+                "name": "Weapon Option 2",
+                "min": 1,
+                "max": 1,
+                "mode": "single",
+                "options": [
+                  {
+                    "id": "af4e-505b-23d6-e232",
+                    "name": "Boltgun",
+                    "min": 0,
+                    "max": 99
+                  },
+                  {
+                    "id": "b30a-c2a0-151b-a2f8",
+                    "name": "Combi-weapon",
+                    "min": 0,
+                    "max": 1
+                  },
+                  {
+                    "id": "cff0-6b7e-1ce5-f585",
+                    "name": "Power fist",
+                    "min": 0,
+                    "max": 99
+                  },
+                  {
+                    "id": "d4bd-cf9a-7309-2402",
+                    "name": "Power weapon",
+                    "min": 0,
+                    "max": 99
+                  },
+                  {
+                    "id": "71e1-a092-edc5-fc7b",
+                    "name": "Thunder Hammer",
+                    "min": 0,
+                    "max": 99
+                  },
+                  {
+                    "id": "675c-9b01-84b1-f6b7",
+                    "name": "Storm bolter",
+                    "min": 0,
+                    "max": 1
+                  },
+                  {
+                    "id": "8f68-9d7b-c6d3-4e5a",
+                    "name": "Astartes Chainsword",
+                    "min": 0,
+                    "max": 99
+                  }
+                ],
+                "defaultOptionId": "c283-e4de-df8-ab05"
+              }
+            ],
+            "equippedWith": "Close combat weapon"
+          }
+        ]
+      }
+    ]
+  },
+  "7dec-dc3d-c40a-8ce": {
+    "groups": [
+      {
+        "id": "b5ce-e38c-f9de-3e51",
+        "name": "Wargear",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "d3b4-b33-8c3d-a82f",
+            "name": "Lancer Laser Destroyer",
+            "min": 1,
+            "max": 1
+          },
+          {
+            "id": "261-d90b-20a4-c8e4",
+            "name": "Armoured Hull",
+            "min": 1,
+            "max": 1
+          },
+          {
+            "id": "9d0-2034-31b5-dd36",
+            "name": "Icarus Rocket Pod",
+            "min": 0,
+            "max": 1
+          }
+        ],
+        "groups": [
+          {
+            "id": "855a-ed4d-f6ec-e6a1",
+            "name": "Pintle Mount Option",
+            "min": 0,
+            "max": 1,
+            "mode": "single",
+            "options": [
+              {
+                "id": "2a35-76f4-1e7b-2c26",
+                "name": "Ironhail Heavy Stubber",
+                "min": 0,
+                "max": 99
+              },
+              {
+                "id": "8d43-c098-fbb7-40a2",
+                "name": "Multi-melta",
+                "min": 0,
+                "max": 99
+              }
+            ]
+          },
+          {
+            "id": "a6c6-38b-f9d2-a778",
+            "name": "Sponson Weapons",
+            "min": 1,
+            "max": 1,
+            "mode": "single",
+            "options": [
+              {
+                "id": "1c04-55c9-791c-033d",
+                "name": "2 Fragstorm Grenade Launchers",
+                "min": 0,
+                "max": 99
+              },
+              {
+                "id": "abd2-2ce6-1691-3f9d",
+                "name": "2 Storm Bolters",
+                "min": 0,
+                "max": 99
+              }
+            ],
+            "defaultOptionId": "abd2-2ce6-1691-3f9d"
+          }
+        ]
+      }
+    ]
+  },
+  "bfb6-4320-74cf-bbda": {
+    "groups": [
+      {
+        "id": "f2cc-7c61-3446-e6c1",
+        "name": "Wargear",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "93e-fbbe-7176-a34e",
+            "name": "Tempest Bolter",
+            "min": 2,
+            "max": 2
+          },
+          {
+            "id": "ae4d-5d5c-a3ad-e214",
+            "name": "Twin Heavy Onslaught Gatling Cannon",
+            "min": 1,
+            "max": 1
+          },
+          {
+            "id": "9215-9b6c-81f8-3d48",
+            "name": "Armoured Hull",
+            "min": 1,
+            "max": 1
+          },
+          {
+            "id": "642d-c216-39b4-53ce",
+            "name": "Icarus Rocket Pod",
+            "min": 0,
+            "max": 1
+          }
+        ],
+        "groups": [
+          {
+            "id": "8b6e-1810-8082-e758",
+            "name": "Pintle Mount Option",
+            "min": 0,
+            "max": 1,
+            "mode": "single",
+            "options": [
+              {
+                "id": "ec5d-19c-10fb-eb05",
+                "name": "Ironhail Heavy Stubber",
+                "min": 0,
+                "max": 99
+              },
+              {
+                "id": "5e93-9c5b-d950-d88d",
+                "name": "Multi-melta",
+                "min": 0,
+                "max": 99
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "5704-ffe4-4a53-8789": {
+    "groups": [
+      {
+        "id": "4e12-0e6e-622d-3914",
+        "name": "Wargear",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "613d-95b2-7336-31e2",
+            "name": "Twin Las-talon",
+            "min": 1,
+            "max": 1
+          },
+          {
+            "id": "fa2a-9ce5-7979-1a18",
+            "name": "Armoured Hull",
+            "min": 1,
+            "max": 1
+          },
+          {
+            "id": "4b41-f70d-b30-4a35",
+            "name": "Icarus Rocket Pod",
+            "min": 0,
+            "max": 1
+          }
+        ],
+        "groups": [
+          {
+            "id": "9b10-aced-7aeb-ba29",
+            "name": "Pintle Mount Option",
+            "min": 0,
+            "max": 3,
+            "mode": "count",
+            "options": [
+              {
+                "id": "f29e-b741-f0ba-8a25",
+                "name": "Ironhail Heavy Stubber",
+                "min": 0,
+                "max": 1
+              },
+              {
+                "id": "3144-17de-9e9c-18fe",
+                "name": "Multi-melta",
+                "min": 2,
+                "max": 3
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "fa27-4bc1-72c9-894f": {
+    "groups": [
+      {
+        "id": "e447-8787-c657-e1a5",
+        "name": "Wargear",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "de19-de54-539-23d0",
+            "name": "Armoured Hull",
+            "min": 1,
+            "max": 1
+          }
+        ],
+        "groups": [
+          {
+            "id": "3ab0-ac18-e44d-42c1",
+            "name": "Option",
+            "min": 0,
+            "max": 1,
+            "mode": "single",
+            "options": [
+              {
+                "id": "188a-9bc2-59f5-727d",
+                "name": "Orbital Comms Array",
+                "min": 0,
+                "max": 99
+              },
+              {
+                "id": "284b-4ca3-1b81-a1a7",
+                "name": "Shield Dome",
+                "min": 0,
+                "max": 99
+              },
+              {
+                "id": "18f4-1a36-c674-ad37",
+                "name": "Ironhail Skytalon Array",
+                "min": 0,
+                "max": 99
+              },
+              {
+                "id": "3cbe-b4ef-bb2b-6282",
+                "name": "Bellicatus Missile Array",
+                "min": 0,
+                "max": 99
+              }
+            ]
+          },
+          {
+            "id": "2f54-9a17-c73b-eed4",
+            "name": "Pintle Mount Option",
+            "min": 0,
+            "max": 1,
+            "mode": "single",
+            "options": [
+              {
+                "id": "6324-f3c5-dc8c-779f",
+                "name": "Ironhail Heavy Stubber",
+                "min": 0,
+                "max": 99
+              },
+              {
+                "id": "ec25-89a7-5d6d-1176",
+                "name": "Multi-melta",
+                "min": 0,
+                "max": 99
+              }
+            ]
+          },
+          {
+            "id": "76b6-9c09-5e50-127f",
+            "name": "Sponsons",
+            "min": 1,
+            "max": 1,
+            "mode": "single",
+            "options": [
+              {
+                "id": "54f5-c4a7-8eea-a435",
+                "name": "2 Fragstorm Grenade Launchers",
+                "min": 0,
+                "max": 99
+              },
+              {
+                "id": "9242-224b-28ad-c3e2",
+                "name": "2 Storm Bolters",
+                "min": 0,
+                "max": 99
+              }
+            ],
+            "defaultOptionId": "9242-224b-28ad-c3e2"
+          }
+        ]
+      }
+    ]
+  },
+  "c3e8-3cde-8b39-4b19": {
+    "groups": [
+      {
+        "id": "3555-4938-c643-e6eb",
+        "name": "Wargear",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "cfcd-5e47-e27c-9b0e",
+            "name": "Armoured Hull",
+            "min": 1,
+            "max": 1
+          },
+          {
+            "id": "23fc-deab-77f8-f2d9",
+            "name": "Multi-melta",
+            "min": 0,
+            "max": 1
+          },
+          {
+            "id": "db34-b48e-eb27-9a25",
+            "name": "Hunter-slayer missile",
+            "min": 1,
+            "max": 1
+          },
+          {
+            "id": "9ad7-97b1-0a12-6832",
+            "name": "Repulsor Defensive Array",
+            "min": 1,
+            "max": 1
+          }
+        ],
+        "groups": [
+          {
+            "id": "63a6-e193-5452-fe0e",
+            "name": "Hull Weapon",
+            "min": 1,
+            "max": 1,
+            "mode": "single",
+            "options": [
+              {
+                "id": "836d-ca1f-cf0a-d9f5",
+                "name": "Twin heavy bolter",
+                "min": 0,
+                "max": 99
+              },
+              {
+                "id": "20e4-5007-d85a-e9b1",
+                "name": "Twin lascannon",
+                "min": 0,
+                "max": 99
+              }
+            ],
+            "defaultOptionId": "61fc-e36a-4d10-96b1"
+          },
+          {
+            "id": "c29a-a7bc-eb38-f0ff",
+            "name": "Turret Weapon",
+            "min": 1,
+            "max": 1,
+            "mode": "single",
+            "options": [
+              {
+                "id": "3619-7d22-2359-62c0",
+                "name": "Las-talon",
+                "min": 0,
+                "max": 99
+              },
+              {
+                "id": "e5ce-f9cc-ca96-9fa6",
+                "name": "Heavy Onslaught Gatling Cannon",
+                "min": 0,
+                "max": 99
+              }
+            ],
+            "defaultOptionId": "4d2c-f955-6a65-c1dd"
+          }
+        ]
+      }
+    ]
+  },
+  "a344-192f-aae2-16e5": {
+    "groups": [
+      {
+        "id": "f91e-17de-860c-18ac",
+        "name": "Wargear",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "9528-b267-9534-8c58",
+            "name": "Repulsor Executioner Defensive Array",
+            "min": 1,
+            "max": 1
+          },
+          {
+            "id": "ec7d-b667-d72d-ae11",
+            "name": "Armoured Hull",
+            "min": 1,
+            "max": 1
+          },
+          {
+            "id": "586a-2a76-382d-e53d",
+            "name": "Heavy Onslaught Gatling Cannon",
+            "min": 1,
+            "max": 1
+          },
+          {
+            "id": "7c61-e824-6694-44f5",
+            "name": "Icarus Rocket Pod",
+            "min": 0,
+            "max": 1
+          },
+          {
+            "id": "3c61-278f-852d-a296",
+            "name": "Twin heavy bolter",
+            "min": 1,
+            "max": 1
+          },
+          {
+            "id": "a902-ff64-9273-642",
+            "name": "Twin Icarus ironhail heavy stubber",
+            "min": 1,
+            "max": 1
+          }
+        ],
+        "groups": [
+          {
+            "id": "a9cf-b56e-f539-7419",
+            "name": "Pintle Mount Option",
+            "min": 0,
+            "max": 1,
+            "mode": "single",
+            "options": [
+              {
+                "id": "362d-bd44-cdf4-b99c",
+                "name": "Ironhail Heavy Stubber",
+                "min": 0,
+                "max": 99
+              },
+              {
+                "id": "e1ee-27d5-2c7b-e88c",
+                "name": "Multi-melta",
+                "min": 0,
+                "max": 99
+              }
+            ]
+          },
+          {
+            "id": "5d17-7232-7f46-d7d1",
+            "name": "Turret Weapon",
+            "min": 1,
+            "max": 1,
+            "mode": "single",
+            "options": [
+              {
+                "id": "5212-e8d7-efe3-491b",
+                "name": "Heavy Laser Destroyer",
+                "min": 0,
+                "max": 99
+              },
+              {
+                "id": "9458-a89-aae3-d05",
+                "name": "Macro Plasma Incinerator",
+                "min": 0,
+                "max": 99
+              }
+            ],
+            "defaultOptionId": "264c-997d-5a64-c072"
+          }
+        ]
+      }
+    ]
+  },
+  "f151-e676-d3b8-200c": {
+    "groups": [
+      {
+        "id": "f822-34c5-5c15-b5d8",
+        "name": "Wargear",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [],
+        "groups": [
+          {
+            "id": "6d3d-8bad-288f-8389",
+            "name": "Melee Weapon",
+            "min": 1,
+            "max": 1,
+            "mode": "single",
+            "options": [
+              {
+                "id": "f1f5-e3fc-9bd1-c5a9",
+                "name": "Astartes chainsword",
+                "min": 0,
+                "max": 99
+              },
+              {
+                "id": "aa24-54c6-ee86-cc35",
+                "name": "Master-crafted Power Weapon",
+                "min": 0,
+                "max": 99
+              }
+            ],
+            "defaultOptionId": "aa24-54c6-ee86-cc35"
+          },
+          {
+            "id": "eb9b-4d44-e583-2a0e",
+            "name": "Ranged Weapon",
+            "min": 1,
+            "max": 1,
+            "mode": "single",
+            "options": [
+              {
+                "id": "ce2f-75d1-de96-3c26",
+                "name": "Heavy Bolt Pistol",
+                "min": 0,
+                "max": 99
+              },
+              {
+                "id": "3651-3813-60cb-703b",
+                "name": "Combi-weapon",
+                "min": 0,
+                "max": 99
+              }
+            ],
+            "defaultOptionId": "3651-3813-60cb-703b"
+          }
+        ]
+      }
+    ]
+  },
+  "68dd-5f49-4f17-cd84": {
+    "groups": [
+      {
+        "id": "53da-64b0-4e7d-3c2b",
+        "name": "Wargear",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "5b0b-9cc5-4b5-3f9c",
+            "name": "Master-crafted Power Weapon",
+            "min": 1,
+            "max": 1
+          }
+        ],
+        "groups": [
+          {
+            "id": "c9cf-49ba-2389-88d2",
+            "name": "Ranged Weapon",
+            "min": 1,
+            "max": 1,
+            "mode": "single",
+            "options": [
+              {
+                "id": "9ffe-ab57-8e84-55aa",
+                "name": "Plasma Pistol",
+                "min": 0,
+                "max": 99,
+                "hint": "For every 5 models in this unit, one Heavy bolt pistol can be replaced with one Plasma pistol.",
+                "equippedWith": "Astartes chainsword and Plasma pistol"
+              },
+              {
+                "id": "6261-7afb-e272-28ce",
+                "name": "Combi-weapon",
+                "min": 0,
+                "max": 99
+              }
+            ],
+            "defaultOptionId": "9ffe-ab57-8e84-55aa"
+          }
+        ]
+      }
+    ]
+  },
+  "ea3d-f2b8-cce7-0762": {
+    "groups": [
+      {
+        "id": "beb9-c4bb-68b9-bed5",
+        "name": "Wargear",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "f7d8-9616-dd48-e3d4",
+            "name": "Master-crafted Power Weapon",
+            "min": 0,
+            "max": 1
+          },
+          {
+            "id": "3ec7-c2de-11ce-abb1",
+            "name": "Crozius arcanum",
+            "min": 1,
+            "max": 1
+          }
+        ],
+        "groups": [
+          {
+            "id": "9b3f-80d8-ad90-5990",
+            "name": "Pistol",
+            "min": 1,
+            "max": 1,
+            "mode": "single",
+            "options": [
+              {
+                "id": "cfe3-a0ee-85c3-cff5",
+                "name": "Pyre Pistol",
+                "min": 0,
+                "max": 99
+              },
+              {
+                "id": "9a2e-2565-fdc4-4e81",
+                "name": "Absolvor bolt pistol",
+                "min": 0,
+                "max": 99
+              }
+            ],
+            "defaultOptionId": "9a2e-2565-fdc4-4e81"
+          }
+        ]
+      }
+    ]
+  },
+  "dca2-b12f-d1a9-5822": {
+    "groups": [
+      {
+        "id": "4aae-9e96-eb47-9192",
+        "name": "Wargear",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "9ac5-e877-325f-9760",
+            "name": "Master-crafted Power Weapon",
+            "min": 1,
+            "max": 1
+          },
+          {
+            "id": "8073-6fe0-7afd-6f65",
+            "name": "Bolt pistol",
+            "min": 1,
+            "max": 1
+          }
+        ]
+      }
+    ]
+  },
+  "8525-2de1-14fd-c1f5": {
+    "groups": [
+      {
+        "id": "e3a6-0e08-ae07-439a",
+        "name": "Wargear",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "8058-f505-188d-e762",
+            "name": "Armoured Tracks",
+            "min": 1,
+            "max": 1
+          },
+          {
+            "id": "66e6-feef-5804-75f7",
+            "name": "Hunter-killer missile",
+            "min": 0,
+            "max": 1
+          },
+          {
+            "id": "512e-884b-6e87-af59",
+            "name": "Hurricane Bolter",
+            "min": 2,
+            "max": 2
+          },
+          {
+            "id": "b5cf-569d-f576-9958",
+            "name": "Multi-melta",
+            "min": 0,
+            "max": 1
+          },
+          {
+            "id": "2db2-7a05-c599-1717",
+            "name": "Storm bolter",
+            "min": 0,
+            "max": 1
+          },
+          {
+            "id": "ac48-97a6-ad0e-0e0a",
+            "name": "Twin assault cannon",
+            "min": 1,
+            "max": 1
+          }
+        ]
+      }
+    ]
+  },
+  "a499-86fa-4d0c-b06d": {
+    "groups": [
+      {
+        "id": "a14d-5fc3-6d6f-56bd",
+        "name": "Sternguard Veterans",
+        "min": 5,
+        "max": 10,
+        "mode": "count",
+        "options": [],
+        "groups": [
+          {
+            "id": "17d3-c73e-ed8b-f5b0-fixed",
+            "name": "Sternguard Veteran Sergeant",
+            "min": 1,
+            "max": 1,
+            "mode": "fixed",
+            "fixedOptionId": "17d3-c73e-ed8b-f5b0",
+            "options": [],
+            "groups": [
+              {
+                "id": "8947-fba3-8407-b5f2",
+                "name": "Weapon Option",
+                "min": 1,
+                "max": 1,
+                "mode": "single",
+                "options": [
+                  {
+                    "id": "03c1-ac9c-5ad0-abff",
+                    "name": "Combi-weapon",
+                    "min": 0,
+                    "max": 99
+                  },
+                  {
+                    "id": "c2ed-611e-50b1-cf08",
+                    "name": "Sternguard Bolt Rifle",
+                    "min": 0,
+                    "max": 99
+                  }
+                ],
+                "defaultOptionId": "816a-5359-89d4-ab0d"
+              },
+              {
+                "id": "74ea-a1ea-9073-b2af",
+                "name": "Melee Option",
+                "min": 0,
+                "max": 1,
+                "mode": "single",
+                "options": [
+                  {
+                    "id": "aa1f-01f9-7060-78a2",
+                    "name": "Astartes Chainsword",
+                    "min": 0,
+                    "max": 99
+                  },
+                  {
+                    "id": "af8f-6ea0-dad2-4fbf",
+                    "name": "Power Weapon",
+                    "min": 0,
+                    "max": 99
+                  },
+                  {
+                    "id": "d964-7381-f774-d389",
+                    "name": "Power Fist",
+                    "min": 0,
+                    "max": 99
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "a14d-5fc3-6d6f-56bd-squad",
+            "name": "Squad",
+            "min": 4,
+            "max": 9,
+            "mode": "count",
+            "options": [
+              {
+                "id": "26ce-cb2b-7a9b-b2c6",
+                "name": "Sternguard Veteran w/ Bolt Rifle",
+                "min": 0,
+                "max": 9,
+                "equippedWith": "Sternguard Bolt Rifle and Close combat weapon"
+              },
+              {
+                "id": "4ea5-5b69-8543-9af3",
+                "name": "Sternguard Veteran w/ Special Weapon",
+                "min": 0,
+                "max": 1,
+                "groups": [
+                  {
+                    "id": "17f4-c25b-803a-6b53",
+                    "name": "Weapon Option",
+                    "min": 1,
+                    "max": 1,
+                    "mode": "single",
+                    "options": [
+                      {
+                        "id": "7e09-b7fb-14d7-4217",
+                        "name": "Pyrecannon",
+                        "min": 0,
+                        "max": 99
+                      },
+                      {
+                        "id": "4b0a-8837-1c88-fb00",
+                        "name": "Sternguard Heavy Bolter",
+                        "min": 0,
+                        "max": 99
+                      }
+                    ]
+                  }
+                ],
+                "equippedWith": "Close combat weapon"
+              },
+              {
+                "id": "cea5-8e9b-e115-a293",
+                "name": "Sternguard Veteran w/ Combi-weapon",
+                "min": 0,
+                "max": 9,
+                "equippedWith": "Combi-weapon and Close combat weapon"
+              }
+            ],
+            "defaultOptionId": "5700-4122-349a-e5da"
+          }
+        ]
+      }
+    ]
+  },
+  "80ad-6e62-65e3-e667": {
+    "groups": [
+      {
+        "id": "57c1-cad8-095d-71a0",
+        "name": "Terminators",
+        "min": 5,
+        "max": 10,
+        "mode": "count",
+        "options": [],
+        "groups": [
+          {
+            "id": "7192-aac9-a0c5-8325-fixed",
+            "name": "Terminator Sergeant",
+            "min": 1,
+            "max": 1,
+            "mode": "fixed",
+            "fixedOptionId": "7192-aac9-a0c5-8325",
+            "options": [],
+            "groups": [
+              {
+                "id": "084c-d4bd-0514-2ce9",
+                "name": "Weapon Option",
+                "min": 1,
+                "max": 1,
+                "mode": "single",
+                "options": [
+                  {
+                    "id": "311f-7705-8fa8-197a",
+                    "name": "Power weapon",
+                    "min": 0,
+                    "max": 99
+                  },
+                  {
+                    "id": "c6e3-a8fc-97c2-5473",
+                    "name": "Chainfist",
+                    "min": 0,
+                    "max": 99
+                  },
+                  {
+                    "id": "15b0-80fe-519a-b956",
+                    "name": "Power fist",
+                    "min": 0,
+                    "max": 99
+                  }
+                ],
+                "defaultOptionId": "7227-b99b-6f6e-d8ee"
+              }
+            ]
+          },
+          {
+            "id": "57c1-cad8-095d-71a0-squad",
+            "name": "Squad",
+            "min": 4,
+            "max": 9,
+            "mode": "count",
+            "options": [
+              {
+                "id": "6595-1cf4-cefb-3621",
+                "name": "Terminator w/ Power Fist",
+                "min": 0,
+                "max": 9,
+                "equippedWith": "Power fist and Storm bolter"
+              },
+              {
+                "id": "ce2a-a7d6-ed01-aaf3",
+                "name": "Terminator w/ Chain Fist",
+                "min": 0,
+                "max": 9,
+                "equippedWith": "Storm bolter and Chainfist"
+              },
+              {
+                "id": "21e4-5f17-9fed-f014",
+                "name": "Terminator w/ Heavy Weapon",
+                "min": 0,
+                "max": 1,
+                "groups": [
+                  {
+                    "id": "47f4-78ba-ddd6-dd35",
+                    "name": "Ranged Weapon Option",
+                    "min": 1,
+                    "max": 1,
+                    "mode": "single",
+                    "options": [
+                      {
+                        "id": "b5e7-915a-2cf6-96e6",
+                        "name": "Cyclone Missile Launcher & Storm Bolter",
+                        "min": 0,
+                        "max": 99,
+                        "equippedWith": "Storm bolter and Cyclone missile launcher"
+                      },
+                      {
+                        "id": "cecd-d581-d818-32dd",
+                        "name": "Heavy Flamer",
+                        "min": 0,
+                        "max": 99
+                      },
+                      {
+                        "id": "05f4-c307-7613-4b6c",
+                        "name": "Assault Cannon",
+                        "min": 0,
+                        "max": 99
+                      }
+                    ]
+                  },
+                  {
+                    "id": "191c-6b37-f667-1321",
+                    "name": "Melee Weapon Option",
+                    "min": 1,
+                    "max": 1,
+                    "mode": "single",
+                    "options": [
+                      {
+                        "id": "2091-913a-2894-0d9f",
+                        "name": "Power Fist",
+                        "min": 0,
+                        "max": 99
+                      },
+                      {
+                        "id": "89e7-7bff-ade0-ebf7",
+                        "name": "Chainfist",
+                        "min": 0,
+                        "max": 99
+                      }
+                    ],
+                    "defaultOptionId": "e5be-2982-e40f-d95c"
+                  }
+                ]
+              }
+            ],
+            "defaultOptionId": "2-e9c0-140-a1ef"
+          }
+        ]
+      }
+    ]
+  },
+  "85b9-b304-a55c-30ef": {
+    "groups": [
+      {
+        "id": "deb2-0bdc-0569-869a",
+        "name": "Wargear",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "bff6-98c2-4e83-0de9",
+            "name": "Black Sword",
+            "min": 1,
+            "max": 1
+          },
+          {
+            "id": "7c29-9276-c408-372e",
+            "name": "Bolt pistol",
+            "min": 1,
+            "max": 1
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -6,7 +6,7 @@
     {
       "id": "7998-d0a-baa4-e8b3",
       "name": "Skarbrand",
-      "points": 305,
+      "points": 315,
       "keywords": [
         "Monster",
         "Character",
@@ -81,12 +81,25 @@
           "name": "Damaged: 1-7 wounds remaining",
           "description": "While this model has 1-7 wounds remaining, add 2 to the Attacks characteristic of this model’s Slaughter and Carnage."
         }
-      ]
+      ],
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 315
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "315"
     },
     {
       "id": "a018-ca33-afd0-be83",
       "name": "Bloodthirster",
-      "points": 305,
+      "points": 320,
       "keywords": [
         "Monster",
         "Character",
@@ -233,7 +246,30 @@
           "name": "Malice Made Manifest",
           "description": "At the start of the Fight phase, select one enemy unit within Engagement Range of the bearer’s unit and roll one D6: on a 2‑5, that enemy unit suffers D3 mortal wounds; on a 6, that enemy unit suffers 3 mortal wounds."
         }
-      ]
+      ],
+      "pricing": [
+        {
+          "range": "[1,2]",
+          "label": "Your 1st To 2nd Units Cost",
+          "costs": [
+            {
+              "models": 1,
+              "points": 320
+            }
+          ]
+        },
+        {
+          "range": "[3,)",
+          "label": "Your 3rd + Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 335
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "320"
     },
     {
       "id": "8872-785a-1efa-7ca1",
@@ -294,6 +330,23 @@
         }
       ],
       "leader": [
+        "Bloodletters"
+      ],
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 85
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "85",
+      "mfmRole": "leader",
+      "attachTo": [
         "Bloodletters"
       ]
     },
@@ -450,12 +503,29 @@
       ],
       "leader": [
         "Bloodletters"
+      ],
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 65
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "65",
+      "mfmRole": "leader",
+      "attachTo": [
+        "Bloodletters"
       ]
     },
     {
       "id": "dd30-ba4c-34a4-e788",
       "name": "Skullmaster",
-      "points": 100,
+      "points": 85,
       "keywords": [
         "Mounted",
         "Character",
@@ -618,12 +688,29 @@
       ],
       "leader": [
         "Bloodcrushers"
+      ],
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 85
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "85",
+      "mfmRole": "leader",
+      "attachTo": [
+        "Bloodcrushers"
       ]
     },
     {
       "id": "d1cc-e17a-f1a1-4349",
       "name": "Rendmaster on Blood Throne",
-      "points": 165,
+      "points": 150,
       "keywords": [
         "Mounted",
         "Character",
@@ -778,12 +865,35 @@
           "name": "Malice Made Manifest",
           "description": "At the start of the Fight phase, select one enemy unit within Engagement Range of the bearer’s unit and roll one D6: on a 2‑5, that enemy unit suffers D3 mortal wounds; on a 6, that enemy unit suffers 3 mortal wounds."
         }
-      ]
+      ],
+      "pricing": [
+        {
+          "range": "[1,2]",
+          "label": "Your 1st To 2nd Units Cost",
+          "costs": [
+            {
+              "models": 1,
+              "points": 150
+            }
+          ]
+        },
+        {
+          "range": "[3,)",
+          "label": "Your 3rd + Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 170
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "150"
     },
     {
       "id": "8436-cec1-e65a-d1a7",
       "name": "Karanak",
-      "points": 75,
+      "points": 70,
       "keywords": [
         "Beast",
         "Character",
@@ -858,6 +968,23 @@
       ],
       "leader": [
         "Flesh Hounds"
+      ],
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 70
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "70",
+      "mfmRole": "leader",
+      "attachTo": [
+        "Flesh Hounds"
       ]
     },
     {
@@ -914,12 +1041,25 @@
           "name": "Daemonic Icon",
           "description": "Models in the bearer’s unit have a Leadership characteristic of 6+."
         }
-      ]
+      ],
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 10,
+              "points": 110
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "110"
     },
     {
       "id": "2f31-9132-b703-5fd8",
       "name": "Bloodcrushers",
-      "points": 110,
+      "points": 95,
       "keywords": [
         "Mounted",
         "Chaos",
@@ -982,7 +1122,38 @@
           "name": "Daemonic Icon",
           "description": "Models in the bearer’s unit have a Leadership characteristic of 6+."
         }
-      ]
+      ],
+      "pricing": [
+        {
+          "range": "[1,2]",
+          "label": "Your 1st To 2nd Units Cost",
+          "costs": [
+            {
+              "models": 3,
+              "points": 95
+            },
+            {
+              "models": 6,
+              "points": 180
+            }
+          ]
+        },
+        {
+          "range": "[3,)",
+          "label": "Your 3rd + Unit Costs",
+          "costs": [
+            {
+              "models": 3,
+              "points": 105
+            },
+            {
+              "models": 6,
+              "points": 190
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "95/180"
     },
     {
       "id": "fd31-64a2-b20f-f0bc",
@@ -1047,12 +1218,29 @@
           "name": "Collar of Khorne",
           "description": "The bearer has the Feel No Pain 3+ ability against Psychic Attacks."
         }
-      ]
+      ],
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 5,
+              "points": 75
+            },
+            {
+              "models": 10,
+              "points": 150
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "75/150"
     },
     {
       "id": "fd37-8a80-3da8-f262",
       "name": "Skull Cannon",
-      "points": 95,
+      "points": 90,
       "keywords": [
         "Mounted",
         "Chaos",
@@ -1119,7 +1307,20 @@
           "name": "Skulls of the Fallen",
           "description": "In your Shooting phase, after this model has shot, select one enemy unit that was hit by one or more of those attacks. That unit must take a Battle-shock test."
         }
-      ]
+      ],
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 90
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "90"
     },
     {
       "id": "464a-b548-355f-2058",
@@ -1155,12 +1356,25 @@
           "name": "Cover",
           "description": "Each time a ranged attack is allocated to a model, if that model is not fully visible to every model in the attacking unit because of this Fortification, that model has the Benefit of Cover against that attack."
         }
-      ]
+      ],
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 105
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "105"
     },
     {
       "id": "2c37-2898-8350-ef45",
       "name": "Be'lakor",
-      "points": 375,
+      "points": 390,
       "keywords": [
         "Monster",
         "Character",
@@ -1253,12 +1467,25 @@
           "name": "Invulnerable Save",
           "description": "This model has a 4+ invulnerable save."
         }
-      ]
+      ],
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 390
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "390"
     },
     {
       "id": "497d-e065-f5a5-5e80",
       "name": "Daemon Prince of Chaos",
-      "points": 190,
+      "points": 165,
       "keywords": [
         "Monster",
         "Character",
@@ -1423,12 +1650,25 @@
           "name": "Malice Made Manifest",
           "description": "At the start of the Fight phase, select one enemy unit within Engagement Range of the bearer’s unit and roll one D6: on a 2‑5, that enemy unit suffers D3 mortal wounds; on a 6, that enemy unit suffers 3 mortal wounds."
         }
-      ]
+      ],
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 165
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "165"
     },
     {
       "id": "5800-3978-370d-b573",
       "name": "Daemon Prince of Chaos with wings",
-      "points": 180,
+      "points": 190,
       "keywords": [
         "Monster",
         "Character",
@@ -1590,7 +1830,20 @@
           "name": "Malice Made Manifest",
           "description": "At the start of the Fight phase, select one enemy unit within Engagement Range of the bearer’s unit and roll one D6: on a 2‑5, that enemy unit suffers D3 mortal wounds; on a 6, that enemy unit suffers 3 mortal wounds."
         }
-      ]
+      ],
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 190
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "190"
     },
     {
       "id": "6df5-f246-6bd-55b8",
@@ -1676,12 +1929,25 @@
           "name": "One Head Looks Back (Aura)",
           "description": "Each time your opponent targets a unit from their army with a Stratagem, if that unit is within 12\" of this model, increase the cost of that use of that Stratagem by 1CP (this is not cumulative with any other rules that would increase the CP cost of that Stratagem)."
         }
-      ]
+      ],
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 295
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "295"
     },
     {
       "id": "3600-9f92-933-bf54",
       "name": "Lord of Change",
-      "points": 285,
+      "points": 300,
       "keywords": [
         "Monster",
         "Character",
@@ -1854,12 +2120,35 @@
           "name": "Malice Made Manifest",
           "description": "At the start of the Fight phase, select one enemy unit within Engagement Range of the bearer’s unit and roll one D6: on a 2‑5, that enemy unit suffers D3 mortal wounds; on a 6, that enemy unit suffers 3 mortal wounds."
         }
-      ]
+      ],
+      "pricing": [
+        {
+          "range": "[1,2]",
+          "label": "Your 1st To 2nd Units Cost",
+          "costs": [
+            {
+              "models": 1,
+              "points": 300
+            }
+          ]
+        },
+        {
+          "range": "[3,)",
+          "label": "Your 3rd + Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 315
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "300"
     },
     {
       "id": "ac75-c011-9a10-2c4a",
       "name": "The Changeling",
-      "points": 90,
+      "points": 105,
       "keywords": [
         "Infantry",
         "Character",
@@ -1939,7 +2228,20 @@
           "name": "Mischief and Confusion",
           "description": "At the start of your opponent’s Shooting phase, select one enemy unit within 12\" of and visible to this model and roll one D6: on a 2-5, until the end of the phase, each time a model in that enemy unit makes an attack, subtract 1 from the Hit roll; on a 6, that enemy unit is not eligible to shoot this phase"
         }
-      ]
+      ],
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 105
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "105"
     },
     {
       "id": "c199-b27c-7cc2-7935",
@@ -2139,12 +2441,29 @@
       ],
       "leader": [
         "Screamers"
+      ],
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 95
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "95",
+      "mfmRole": "leader",
+      "attachTo": [
+        "Screamers"
       ]
     },
     {
       "id": "eba5-8a7a-fc5b-d7ec",
       "name": "Fluxmaster",
-      "points": 60,
+      "points": 80,
       "keywords": [
         "Mounted",
         "Character",
@@ -2326,6 +2645,24 @@
       "leader": [
         "Pink Horrors",
         "Blue Horrors"
+      ],
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 80
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "80",
+      "mfmRole": "leader",
+      "attachTo": [
+        "Blue Horrors",
+        "Pink Horrors"
       ]
     },
     {
@@ -2381,7 +2718,20 @@
           "name": "Xirat’p’s Sorcerous Barrages (Psychic)",
           "description": "At the end of your Movement phase, roll one D6 for each enemy unit within 6\" of this model: on a 2-3, that unit suffers 1 mortal wound; on a 4-5, that unit suffers D3 mortal wounds; on a 6, that unit suffers D6 mortal wounds."
         }
-      ]
+      ],
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 75
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "75"
     },
     {
       "id": "8b7c-d709-90d4-298e",
@@ -2567,6 +2917,24 @@
       "leader": [
         "Pink Horrors",
         "Blue Horrors"
+      ],
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 60
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "60",
+      "mfmRole": "leader",
+      "attachTo": [
+        "Blue Horrors",
+        "Pink Horrors"
       ]
     },
     {
@@ -2660,12 +3028,25 @@
           "name": "Exploding Horrors",
           "description": "Each time this unit is selected to fight, you can select one enemy unit within Engagement Range of it, then select one or more ^^Brimstone Horror^^ models in this unit. For each ^^Brimstone Horror^^ model you select, roll one D6: on a 4+, that model is destroyed and that enemy unit suffers 1 mortal wound."
         }
-      ]
+      ],
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 10,
+              "points": 125
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "125"
     },
     {
       "id": "e7b8-aa40-6da7-778e",
       "name": "Pink Horrors",
-      "points": 140,
+      "points": 150,
       "keywords": [
         "Infantry",
         "Battleline",
@@ -2780,7 +3161,20 @@
           "name": "Instrument of Chaos",
           "description": "Add 1 to Charge rolls made for the bearer’s unit."
         }
-      ]
+      ],
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 10,
+              "points": 150
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "150"
     },
     {
       "id": "5f23-4d6-f2f9-5973",
@@ -2843,7 +3237,24 @@
           "name": "Bounding Leaps",
           "description": "This unit is eligible to shoot in a turn in which it Fell Back."
         }
-      ]
+      ],
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 3,
+              "points": 65
+            },
+            {
+              "models": 6,
+              "points": 130
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "65/130"
     },
     {
       "id": "de54-5b38-8ca1-c39c",
@@ -2935,6 +3346,23 @@
       ],
       "leader": [
         "Flamers"
+      ],
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 65
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "65",
+      "mfmRole": "leader",
+      "attachTo": [
+        "Flamers"
       ]
     },
     {
@@ -2986,7 +3414,24 @@
           "name": "Slashing Dive",
           "description": "In your Movement phase, after this unit ends a Normal move, you can select one enemy unit it moved over during that move and roll one D6 for each model in this unit: for each 4+, that enemy unit suffers 1 mortal wound."
         }
-      ]
+      ],
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 3,
+              "points": 80
+            },
+            {
+              "models": 6,
+              "points": 160
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "80/160"
     },
     {
       "id": "f6eb-b62f-5baf-d96d",
@@ -3076,12 +3521,25 @@
           "name": "Eldritch Flames (Psychic)",
           "description": "In your Shooting phase, after this model has shot, select one enemy unit that was hit by one or more of those attacks. Until the end of the phase, that unit cannot have the Benefit of Cover."
         }
-      ]
+      ],
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 115
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "115"
     },
     {
       "id": "cff8-7388-a2c9-946c",
       "name": "Rotigus",
-      "points": 265,
+      "points": 280,
       "keywords": [
         "Monster",
         "Character",
@@ -3160,12 +3618,25 @@
           "name": "Deluge of Nurgle (Aura)",
           "description": "While an enemy unit is within 6\" of this model, subtract 2 from the Move characteristic and subtract 1 from the Objective Control characteristic of models in that unit."
         }
-      ]
+      ],
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 280
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "280"
     },
     {
       "id": "d490-6c4d-e83b-b183",
       "name": "Great Unclean One",
-      "points": 250,
+      "points": 265,
       "keywords": [
         "Monster",
         "Character",
@@ -3312,7 +3783,30 @@
           "name": "Malice Made Manifest",
           "description": "At the start of the Fight phase, select one enemy unit within Engagement Range of the bearer’s unit and roll one D6: on a 2‑5, that enemy unit suffers D3 mortal wounds; on a 6, that enemy unit suffers 3 mortal wounds."
         }
-      ]
+      ],
+      "pricing": [
+        {
+          "range": "[1,2]",
+          "label": "Your 1st To 2nd Units Cost",
+          "costs": [
+            {
+              "models": 1,
+              "points": 265
+            }
+          ]
+        },
+        {
+          "range": "[3,)",
+          "label": "Your 3rd + Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 280
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "265"
     },
     {
       "id": "7b06-189d-b11e-c189",
@@ -3469,6 +3963,23 @@
         }
       ],
       "leader": [
+        "Plaguebearers"
+      ],
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 55
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "55",
+      "mfmRole": "leader",
+      "attachTo": [
         "Plaguebearers"
       ]
     },
@@ -3641,6 +4152,23 @@
       ],
       "leader": [
         "Plague Bearers"
+      ],
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 60
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "60",
+      "mfmRole": "leader",
+      "attachTo": [
+        "Plaguebearers"
       ]
     },
     {
@@ -3701,6 +4229,23 @@
         }
       ],
       "leader": [
+        "Plaguebearers"
+      ],
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 80
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "80",
+      "mfmRole": "leader",
+      "attachTo": [
         "Plaguebearers"
       ]
     },
@@ -3859,6 +4404,23 @@
       ],
       "leader": [
         "Plaguebearers"
+      ],
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 55
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "55",
+      "mfmRole": "leader",
+      "attachTo": [
+        "Plaguebearers"
       ]
     },
     {
@@ -3933,12 +4495,31 @@
       ],
       "leader": [
         "Beasts Of Nurgle"
+      ],
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 120
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "120",
+      "mfmRole": "leader",
+      "attachTo": [
+        "Beasts Of Nurgle",
+        "Plague Toads",
+        "Pox Riders"
       ]
     },
     {
       "id": "d1eb-b092-d944-e729",
       "name": "Plaguebearers",
-      "points": 110,
+      "points": 115,
       "keywords": [
         "Infantry",
         "Battleline",
@@ -3991,12 +4572,25 @@
           "name": "Instrument of Chaos",
           "description": "Add 1 to Charge rolls made for the bearer’s unit."
         }
-      ]
+      ],
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 10,
+              "points": 115
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "115"
     },
     {
       "id": "e403-3a9-279e-41b7",
       "name": "Nurglings",
-      "points": 40,
+      "points": 45,
       "keywords": [
         "Swarm",
         "Battleline",
@@ -4041,12 +4635,29 @@
           "name": "Mischief Makers (Aura)",
           "description": "Each time an enemy unit (excluding ^^Titanic^^ units) within Engagement Range of one or more units with this ability is selected to fight, until the end of the phase, each time a model in that enemy unit makes a melee attack, subtract 1 from the Hit roll."
         }
-      ]
+      ],
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 3,
+              "points": 45
+            },
+            {
+              "models": 6,
+              "points": 90
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "45/90"
     },
     {
       "id": "2de0-5897-f724-a592",
       "name": "Beasts of Nurgle",
-      "points": 0,
+      "points": 70,
       "keywords": [
         "Beast",
         "Chaos",
@@ -4090,7 +4701,24 @@
           "name": "Grotesque Regeneration",
           "description": "At the end of each phase, if a Beasts of Nurgle model in this unit has lost any wounds but is not destroyed, that model regains all of its lost wounds."
         }
-      ]
+      ],
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 70
+            },
+            {
+              "models": 2,
+              "points": 140
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "70/140"
     },
     {
       "id": "d620-146a-41cd-f28f",
@@ -4175,7 +4803,24 @@
           "name": "Instrument of Chaos",
           "description": "Add 1 to Charge rolls made for the bearer’s unit."
         }
-      ]
+      ],
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 3,
+              "points": 110
+            },
+            {
+              "models": 6,
+              "points": 220
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "110/220"
     },
     {
       "id": "13f0-d2b5-6201-ba84",
@@ -4211,7 +4856,20 @@
           "name": "Diseased Cover",
           "description": "Each time a ranged attack is allocated to a model, if that model is not fully visible to every model in the attacking unit because of this FORTIFICATION, that model has the Benefit of Cover against that attack."
         }
-      ]
+      ],
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 100
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "100"
     },
     {
       "id": "c49d-5ebc-4ee4-689e",
@@ -4320,12 +4978,25 @@
           "name": "Monarch of the Hunt",
           "description": "At the start of the first battle round, select one enemy unit to be this model’s quarry. Each time this model makes a melee attack that targets its quarry, you can re-roll the Hit roll and you can re-roll the Wound roll. Each time this model’s quarry is destroyed, select one new enemy unit to be this model’s quarry."
         }
-      ]
+      ],
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 340
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "340"
     },
     {
       "id": "a903-dd97-339d-6899",
       "name": "Keeper of Secrets",
-      "points": 240,
+      "points": 255,
       "keywords": [
         "Monster",
         "Character",
@@ -4510,7 +5181,30 @@
           "name": "Malice Made Manifest",
           "description": "At the start of the Fight phase, select one enemy unit within Engagement Range of the bearer’s unit and roll one D6: on a 2‑5, that enemy unit suffers D3 mortal wounds; on a 6, that enemy unit suffers 3 mortal wounds."
         }
-      ]
+      ],
+      "pricing": [
+        {
+          "range": "[1,2]",
+          "label": "Your 1st To 2nd Units Cost",
+          "costs": [
+            {
+              "models": 1,
+              "points": 255
+            }
+          ]
+        },
+        {
+          "range": "[3,)",
+          "label": "Your 3rd + Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 270
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "255"
     },
     {
       "id": "2cc5-ef65-c4b9-28c6",
@@ -4692,6 +5386,23 @@
       ],
       "leader": [
         "Daemonettes"
+      ],
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 60
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "60",
+      "mfmRole": "leader",
+      "attachTo": [
+        "Daemonettes"
       ]
     },
     {
@@ -4747,7 +5458,20 @@
           "name": "Dazzling Acrobatics",
           "description": "This model is eligible to declare a charge in a turn in which it Advanced or Fell Back."
         }
-      ]
+      ],
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 95
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "95"
     },
     {
       "id": "27f6-d907-66f-ca28",
@@ -4862,6 +5586,23 @@
         }
       ],
       "leader": [
+        "Daemonettes"
+      ],
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 120
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "120",
+      "mfmRole": "leader",
+      "attachTo": [
         "Daemonettes"
       ]
     },
@@ -5032,12 +5773,29 @@
       ],
       "leader": [
         "Daemonettes"
+      ],
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 100
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "100",
+      "mfmRole": "leader",
+      "attachTo": [
+        "Daemonettes"
       ]
     },
     {
       "id": "673b-111b-6dcb-352",
       "name": "Tormentbringer",
-      "points": 140,
+      "points": 135,
       "keywords": [
         "Mounted",
         "Character",
@@ -5228,6 +5986,23 @@
           "name": "Malice Made Manifest",
           "description": "At the start of the Fight phase, select one enemy unit within Engagement Range of the bearer’s unit and roll one D6: on a 2‑5, that enemy unit suffers D3 mortal wounds; on a 6, that enemy unit suffers 3 mortal wounds."
         }
+      ],
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 135
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "135",
+      "mfmRole": "leader",
+      "attachTo": [
+        "Hellflayers"
       ]
     },
     {
@@ -5386,12 +6161,29 @@
       ],
       "leader": [
         "Daemonettes"
+      ],
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 60
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "60",
+      "mfmRole": "leader",
+      "attachTo": [
+        "Daemonettes"
       ]
     },
     {
       "id": "41c2-d2e6-ae43-3beb",
       "name": "Daemonettes",
-      "points": 100,
+      "points": 90,
       "keywords": [
         "Infantry",
         "Battleline",
@@ -5444,12 +6236,25 @@
           "name": "Instrument of Chaos",
           "description": "Add 1 to Charge rolls made for the bearer’s unit."
         }
-      ]
+      ],
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 10,
+              "points": 90
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "90"
     },
     {
       "id": "d1ee-8d05-4fae-1727",
       "name": "Fiends",
-      "points": 95,
+      "points": 90,
       "keywords": [
         "Beast",
         "Chaos",
@@ -5493,7 +6298,24 @@
           "name": "Soporific Musk",
           "description": "Each time an enemy unit (excluding ^^Monsters^^ and ^^Vehicles^^) within Engagement Range of one or more units from your army with this ability Falls Back, models in that enemy unit must take Desperate Escape tests. When doing so, if that enemy unit is also Battle-shocked, subtract 1 from each of those Desperate Escape tests."
         }
-      ]
+      ],
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 3,
+              "points": 90
+            },
+            {
+              "models": 6,
+              "points": 180
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "90/180"
     },
     {
       "id": "112d-8078-777f-76a5",
@@ -5563,12 +6385,29 @@
           "name": "Instrument of Chaos",
           "description": "Add 1 to Charge rolls made for the bearer’s unit."
         }
-      ]
+      ],
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 5,
+              "points": 80
+            },
+            {
+              "models": 10,
+              "points": 155
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "80/155"
     },
     {
       "id": "e8d-bf22-b29-d20e",
       "name": "Hellflayers",
-      "points": 0,
+      "points": 80,
       "keywords": [
         "Mounted",
         "Chaos",
@@ -5654,7 +6493,24 @@
           "name": "Cutting Down the Foe",
           "description": "Each time a model in this unit makes a melee attack, if this unit made a Charge move this turn, improve the Strength and Damage characteristics of that attack by 1."
         }
-      ]
+      ],
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 80
+            },
+            {
+              "models": 2,
+              "points": 160
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "80/160"
     },
     {
       "id": "5fe1-5a7a-9f8e-21e0",

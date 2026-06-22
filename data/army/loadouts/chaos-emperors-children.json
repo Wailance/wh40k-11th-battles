@@ -1,0 +1,796 @@
+{
+  "7b4c-dfe0-6a0a-304a": {
+    "groups": [
+      {
+        "id": "fab5-19a3-46fb-d77b",
+        "name": "Wargear",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "d5fe-026f-1f46-e9c5",
+            "name": "Close combat weapon",
+            "min": 1,
+            "max": 1
+          },
+          {
+            "id": "ca53-c39c-8291-16d1",
+            "name": "Bolt pistol",
+            "min": 1,
+            "max": 1
+          }
+        ],
+        "groups": [
+          {
+            "id": "e594-feb1-c608-86d9",
+            "name": "Plasma Pistol",
+            "min": 1,
+            "max": 1,
+            "mode": "single",
+            "options": [
+              {
+                "id": "f1b5-b55a-e18b-fe84",
+                "name": "Rapture lash",
+                "min": 0,
+                "max": 99
+              },
+              {
+                "id": "96d6-d69e-37b6-a9da",
+                "name": "Plasma pistol",
+                "min": 0,
+                "max": 1
+              },
+              {
+                "id": "95ba-0c75-8d73-154e",
+                "name": "Power fist",
+                "min": 0,
+                "max": 1
+              }
+            ],
+            "defaultOptionId": "96d6-d69e-37b6-a9da"
+          },
+          {
+            "id": "784f-73b2-9804-0de7",
+            "name": "Phoenix Power Spear",
+            "min": 1,
+            "max": 1,
+            "mode": "single",
+            "options": [
+              {
+                "id": "1e16-0387-abcf-0e9a",
+                "name": "Phoenix power spear",
+                "min": 0,
+                "max": 99
+              },
+              {
+                "id": "d453-bd87-1a87-97dc",
+                "name": "Master-crafted power sword",
+                "min": 0,
+                "max": 99
+              },
+              {
+                "id": "c07d-3e13-a092-9425",
+                "name": "Screamer pistol",
+                "min": 0,
+                "max": 99
+              }
+            ],
+            "defaultOptionId": "1e16-0387-abcf-0e9a"
+          }
+        ]
+      }
+    ]
+  },
+  "ee50-955a-0a81-41f1": {
+    "groups": [
+      {
+        "id": "8e34-44fe-394c-cfb1",
+        "name": "Wargear",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "562a-fb52-8dc2-aa72",
+            "name": "Screamer pistol",
+            "min": 1,
+            "max": 1
+          }
+        ],
+        "groups": [
+          {
+            "id": "f0f1-cd9e-ff4d-8561",
+            "name": "Weapons",
+            "min": 1,
+            "max": 1,
+            "mode": "single",
+            "options": [
+              {
+                "id": "827e-b138-4935-e78a",
+                "name": "Power sword",
+                "min": 0,
+                "max": 99
+              },
+              {
+                "id": "d3ce-37c9-31af-7513",
+                "name": "Screamer pistol and close combat weapon",
+                "min": 0,
+                "max": 99,
+                "equippedWith": "Screamer pistol"
+              }
+            ],
+            "defaultOptionId": "827e-b138-4935-e78a"
+          }
+        ]
+      }
+    ]
+  },
+  "2cd1-13f5-d59d-cc7f": {
+    "groups": [
+      {
+        "id": "2aad-c4e7-bd32-84d0",
+        "name": "Wargear",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "f2f1-616b-c202-a071",
+            "name": "Agonising Energies",
+            "min": 1,
+            "max": 1
+          },
+          {
+            "id": "76d8-2228-b6cb-2d36",
+            "name": "Force weapon",
+            "min": 1,
+            "max": 1
+          },
+          {
+            "id": "716b-1905-82ba-917b",
+            "name": "Bolt pistol",
+            "min": 1,
+            "max": 1
+          }
+        ]
+      }
+    ]
+  },
+  "ad59-b823-900d-ee2d": {
+    "groups": [
+      {
+        "id": "1672-83c5-eb04-4813",
+        "name": "Wargear",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "cd80-af32-8b71-8a3a",
+            "name": "Hellforged weapons",
+            "min": 1,
+            "max": 1
+          },
+          {
+            "id": "b0d7-6f51-f278-85ae",
+            "name": "Infernal cannon",
+            "min": 1,
+            "max": 1
+          }
+        ]
+      }
+    ]
+  },
+  "e452-08be-33e6-3864": {
+    "groups": [
+      {
+        "id": "7c86-15e7-a294-800a",
+        "name": "Wargear",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "40c1-075d-238e-1f6a",
+            "name": "Hellforged weapons",
+            "min": 1,
+            "max": 1
+          },
+          {
+            "id": "b803-ca37-2e2c-c815",
+            "name": "Infernal cannon",
+            "min": 1,
+            "max": 1
+          }
+        ]
+      }
+    ]
+  },
+  "4494-dd7d-69f7-306c": {
+    "groups": [
+      {
+        "id": "e5de-0c54-e036-829d",
+        "name": "4-9 Tormentors",
+        "min": 4,
+        "max": 9,
+        "mode": "count",
+        "options": [
+          {
+            "id": "d813-7c6b-1dfe-e99a",
+            "name": "Tormentor",
+            "min": 4,
+            "max": 9
+          },
+          {
+            "id": "4fc5-2f16-eba1-287c",
+            "name": "Tormentor w/ plasma gun",
+            "min": 0,
+            "max": 2
+          },
+          {
+            "id": "c6a8-0dbc-ab1b-38b5",
+            "name": "Tormentor w/ meltagun",
+            "min": 0,
+            "max": 2
+          }
+        ],
+        "defaultOptionId": "d813-7c6b-1dfe-e99a"
+      }
+    ]
+  },
+  "e456-0afc-9b42-226c": {
+    "groups": [
+      {
+        "id": "bca5-1eb4-b1eb-7a4e",
+        "name": "4-9 Infractors",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "ea82-9845-1b96-c57c",
+            "name": "Infractor",
+            "min": 4,
+            "max": 9,
+            "equippedWith": "Bolt pistol"
+          }
+        ],
+        "defaultOptionId": "ea82-9845-1b96-c57c"
+      }
+    ]
+  },
+  "5926-4deb-a85d-c73a": {
+    "groups": [
+      {
+        "id": "7059-5f21-88e3-3c6b",
+        "name": "4 Terminators",
+        "min": 4,
+        "max": 4,
+        "mode": "count",
+        "options": [
+          {
+            "id": "4a52-6694-b18b-54aa",
+            "name": "Accursed weapon and combi-bolter",
+            "min": 0,
+            "max": 4,
+            "equippedWith": "Combi-bolter"
+          },
+          {
+            "id": "dcc8-aa7a-d2d8-3439",
+            "name": "Accursed weapon and combi-weapon",
+            "min": 0,
+            "max": 4
+          },
+          {
+            "id": "b6be-5ffd-225e-84f0",
+            "name": "Power fist and combi-weapon",
+            "min": 0,
+            "max": 3
+          },
+          {
+            "id": "956e-421b-159a-4a41",
+            "name": "Chainfist and combi-bolter",
+            "min": 0,
+            "max": 1
+          },
+          {
+            "id": "a6f3-e4f2-481d-7cf5",
+            "name": "Heavy weapon",
+            "min": 0,
+            "max": 1,
+            "groups": [
+              {
+                "id": "0cfc-de60-32b8-fdf8",
+                "name": "Ranged weapon",
+                "min": 1,
+                "max": 1,
+                "mode": "single",
+                "options": [
+                  {
+                    "id": "67b2-85df-2416-e2c1",
+                    "name": "Heavy flamer",
+                    "min": 0,
+                    "max": 99
+                  },
+                  {
+                    "id": "6d30-9591-4f61-5eb0",
+                    "name": "Reaper autocannon",
+                    "min": 0,
+                    "max": 99
+                  }
+                ]
+              },
+              {
+                "id": "a186-c722-12f3-0283",
+                "name": "Melee weapon",
+                "min": 1,
+                "max": 1,
+                "mode": "single",
+                "options": [
+                  {
+                    "id": "8aed-68aa-c825-f692",
+                    "name": "Accursed weapon",
+                    "min": 0,
+                    "max": 99
+                  },
+                  {
+                    "id": "1f9a-6070-8127-8306",
+                    "name": "Chainfist",
+                    "min": 0,
+                    "max": 1
+                  },
+                  {
+                    "id": "54b7-0afb-16c7-368f",
+                    "name": "Power fist",
+                    "min": 0,
+                    "max": 1
+                  }
+                ],
+                "defaultOptionId": "1923-7bd-4a79-35be"
+              }
+            ]
+          },
+          {
+            "id": "0008-11d1-562a-f3cb",
+            "name": "Power fist and combi-bolter",
+            "min": 0,
+            "max": 3
+          },
+          {
+            "id": "a832-2d33-d1ee-ff41",
+            "name": "Chainfist and combi-weapon",
+            "min": 0,
+            "max": 1
+          },
+          {
+            "id": "5c7c-732c-3962-b336",
+            "name": "Paired accursed weapons",
+            "min": 0,
+            "max": 1
+          }
+        ],
+        "defaultOptionId": "d30b-b831-35ff-d173"
+      }
+    ]
+  },
+  "f10c-5f3e-c09d-0b12": {
+    "groups": [
+      {
+        "id": "f68d-7873-207f-27ef",
+        "name": "Wargear",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "61b6-4d0d-039d-6efc",
+            "name": "Armoured tracks",
+            "min": 1,
+            "max": 1
+          },
+          {
+            "id": "2e62-00e4-8585-c884",
+            "name": "Soulshatter lascannon",
+            "min": 2,
+            "max": 2
+          },
+          {
+            "id": "30af-8a66-f8ab-21e0",
+            "name": "Havoc launcher",
+            "min": 0,
+            "max": 1
+          },
+          {
+            "id": "7216-974e-0908-05d9",
+            "name": "Twin heavy bolter",
+            "min": 1,
+            "max": 1
+          }
+        ],
+        "groups": [
+          {
+            "id": "8209-27d3-d9ce-c774",
+            "name": "Pintle weapon",
+            "min": 0,
+            "max": 1,
+            "mode": "single",
+            "options": [
+              {
+                "id": "4972-4ee8-41a1-aa4b",
+                "name": "Combi-bolter",
+                "min": 0,
+                "max": 1
+              },
+              {
+                "id": "e28b-90a0-feb5-41f3",
+                "name": "Combi-weapon",
+                "min": 0,
+                "max": 1
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "5817-0d6c-973c-68f8": {
+    "groups": [
+      {
+        "id": "b0ac-a50f-69a0-b642",
+        "name": "5 Noise Marines",
+        "min": 5,
+        "max": 5,
+        "mode": "count",
+        "options": [
+          {
+            "id": "3dfa-a8d4-464a-ccf6",
+            "name": "Noise Marine w/ sonic blaster",
+            "min": 3,
+            "max": 5
+          },
+          {
+            "id": "f6c0-be94-3353-3376",
+            "name": "Noise Marine w/ blastmaster",
+            "min": 0,
+            "max": 2
+          }
+        ],
+        "defaultOptionId": "3dfa-a8d4-464a-ccf6"
+      }
+    ]
+  },
+  "3750-df25-165d-d003": {
+    "groups": [
+      {
+        "id": "8533-a9dd-cb7d-a50e",
+        "name": "Wargear",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "7a65-4137-9c72-54b3",
+            "name": "Heldrake claws",
+            "min": 1,
+            "max": 1
+          }
+        ],
+        "groups": [
+          {
+            "id": "7865-721c-2452-e4f0",
+            "name": "Mouth weapon",
+            "min": 1,
+            "max": 1,
+            "mode": "single",
+            "options": [
+              {
+                "id": "4b9e-bf33-333b-5a5e",
+                "name": "Baleflamer",
+                "min": 0,
+                "max": 99
+              },
+              {
+                "id": "c500-c09e-756c-4fe0",
+                "name": "Hades autocannon",
+                "min": 0,
+                "max": 99
+              }
+            ],
+            "defaultOptionId": "c500-c09e-756c-4fe0"
+          }
+        ]
+      }
+    ]
+  },
+  "656c-8b78-8e59-0591": {
+    "groups": [
+      {
+        "id": "fa13-51d4-17ac-b0ca",
+        "name": "Wargear",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "167f-5eee-fb7b-a9a9",
+            "name": "Maulerfiend fists",
+            "min": 1,
+            "max": 1
+          }
+        ],
+        "groups": [
+          {
+            "id": "b046-071d-91f7-b54c",
+            "name": "Head weapons",
+            "min": 1,
+            "max": 1,
+            "mode": "single",
+            "options": [
+              {
+                "id": "9ef8-1cb6-2f19-cc1b",
+                "name": "2 magma cutters",
+                "min": 0,
+                "max": 99
+              },
+              {
+                "id": "8dbf-9a87-47c4-fbd5",
+                "name": "Lasher tendrils",
+                "min": 0,
+                "max": 99
+              }
+            ],
+            "defaultOptionId": "8dbf-9a87-47c4-fbd5"
+          }
+        ]
+      }
+    ]
+  },
+  "8ae1-aa47-e1d1-1b31": {
+    "groups": [
+      {
+        "id": "c41a-af34-ad5b-d11a",
+        "name": "Wargear",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "661a-207c-a66d-8da0",
+            "name": "Armoured tracks",
+            "min": 1,
+            "max": 1
+          },
+          {
+            "id": "cbe3-34f5-707a-a2ab",
+            "name": "Combi-bolter",
+            "min": 1,
+            "max": 1
+          },
+          {
+            "id": "adb9-dbb1-e252-4c7e",
+            "name": "Havoc launcher",
+            "min": 0,
+            "max": 1
+          }
+        ],
+        "groups": [
+          {
+            "id": "8a8a-e8d1-b0c7-1d33",
+            "name": "Pintle weapon",
+            "min": 0,
+            "max": 1,
+            "mode": "single",
+            "options": [
+              {
+                "id": "2422-11aa-4998-1d39",
+                "name": "Combi-bolter",
+                "min": 0,
+                "max": 1
+              },
+              {
+                "id": "f695-9924-d71a-de25",
+                "name": "Combi-weapon",
+                "min": 0,
+                "max": 1
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "7b2b-4508-263d-f20f": {
+    "groups": [
+      {
+        "id": "bbce-3e22-c0a3-4470",
+        "name": "Wargear",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "78c6-1318-40cb-c8b9",
+            "name": "Phantasmagoria",
+            "min": 1,
+            "max": 1
+          },
+          {
+            "id": "9834-8ff1-3b29-8ea5",
+            "name": "Snapping claws",
+            "min": 1,
+            "max": 1
+          },
+          {
+            "id": "3cce-7e30-b9a6-b807",
+            "name": "Witstealer sword",
+            "min": 1,
+            "max": 1
+          }
+        ],
+        "groups": [
+          {
+            "id": "570e-2421-23fd-28e7",
+            "name": "Wargear",
+            "min": 0,
+            "max": 1,
+            "mode": "single",
+            "options": [
+              {
+                "id": "382c-8eac-d44c-58f7",
+                "name": "Living whip",
+                "min": 0,
+                "max": 99
+              },
+              {
+                "id": "f44e-fa7b-5e7a-7898",
+                "name": "Ritual knife",
+                "min": 0,
+                "max": 99
+              },
+              {
+                "id": "acf6-dc7e-c9b6-2c65",
+                "name": "Shining aegis",
+                "min": 0,
+                "max": 99
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "b541-3292-a5cc-dbeb": {
+    "groups": [
+      {
+        "id": "4800-3543-efe8-1bbb",
+        "name": "Wargear",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "b77f-43c5-91b6-7da7",
+            "name": "Shearing claws",
+            "min": 1,
+            "max": 1
+          }
+        ],
+        "groups": [
+          {
+            "id": "9589-c6c7-e243-3714",
+            "name": "Replace heavy missile launcher",
+            "min": 1,
+            "max": 1,
+            "mode": "single",
+            "options": [
+              {
+                "id": "abeb-fd42-d013-6b96",
+                "name": "Heavy missile launcher",
+                "min": 0,
+                "max": 99
+              },
+              {
+                "id": "f9a2-d419-389c-88dd",
+                "name": "Electroscourge",
+                "min": 0,
+                "max": 99
+              },
+              {
+                "id": "b6f2-acdf-a965-210b",
+                "name": "Hades lascannon",
+                "min": 0,
+                "max": 99
+              },
+              {
+                "id": "cda7-6790-d821-acb0",
+                "name": "Heavy reaper autocannon",
+                "min": 0,
+                "max": 99
+              }
+            ],
+            "defaultOptionId": "abeb-fd42-d013-6b96"
+          },
+          {
+            "id": "0ece-4542-666e-c088",
+            "name": "Main cannon",
+            "min": 1,
+            "max": 1,
+            "mode": "single",
+            "options": [
+              {
+                "id": "6eff-4b50-7611-42c5",
+                "name": "Hades battle cannon",
+                "min": 0,
+                "max": 99
+              },
+              {
+                "id": "2ca0-73ea-2725-79c7",
+                "name": "Ectoplasma destructor",
+                "min": 0,
+                "max": 99
+              }
+            ],
+            "defaultOptionId": "6eff-4b50-7611-42c5"
+          },
+          {
+            "id": "d56b-ba20-3982-b041",
+            "name": "Replace heavy baleflamer",
+            "min": 1,
+            "max": 1,
+            "mode": "single",
+            "options": [
+              {
+                "id": "4376-3a66-d9f7-8105",
+                "name": "Heavy baleflamer",
+                "min": 0,
+                "max": 99
+              },
+              {
+                "id": "7822-e4e3-8dc2-4ba1",
+                "name": "Electroscourge",
+                "min": 0,
+                "max": 99
+              },
+              {
+                "id": "f885-801a-6d0d-7ad2",
+                "name": "Hades lascannon",
+                "min": 0,
+                "max": 99
+              },
+              {
+                "id": "d778-784f-c1e1-d2b3",
+                "name": "Heavy reaper autocannon",
+                "min": 0,
+                "max": 99
+              }
+            ],
+            "defaultOptionId": "4376-3a66-d9f7-8105"
+          },
+          {
+            "id": "4f24-4dd0-04c2-83e1",
+            "name": "Replace excruciator cannons",
+            "min": 1,
+            "max": 1,
+            "mode": "single",
+            "options": [
+              {
+                "id": "23ce-dba1-8242-532d",
+                "name": "Two excruciator cannons",
+                "min": 0,
+                "max": 99
+              },
+              {
+                "id": "cf33-9c7b-1f90-74f7",
+                "name": "Two magma cutters",
+                "min": 0,
+                "max": 99
+              }
+            ],
+            "defaultOptionId": "23ce-dba1-8242-532d"
+          }
+        ]
+      }
+    ]
+  }
+}

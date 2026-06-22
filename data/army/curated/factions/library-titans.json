@@ -52,7 +52,20 @@
           "name": "Striding Colossus",
           "description": "Each time you target this model with a Stratagem, you must spend twice that Stratagem’s stated CP cost to do so."
         }
-      ]
+      ],
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 1100
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "1100"
     },
     {
       "id": "b7e8-f3ae-be53-9ba5",
@@ -117,7 +130,20 @@
           "name": "Striding Colossus",
           "description": "Each time you target this model with a Stratagem, you must spend three times that Stratagem’s stated CP cost to do so."
         }
-      ]
+      ],
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 2200
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "2200"
     },
     {
       "id": "8e6f-4e09-12d5-fafd",
@@ -195,7 +221,20 @@
           "name": "Striding Colossus",
           "description": "Each time you target this model with a Stratagem, you must spend three times that Stratagem’s stated CP cost to do so."
         }
-      ]
+      ],
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 2600
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "2600"
     },
     {
       "id": "eafa-cd47-1c2f-61ee",
@@ -267,7 +306,20 @@
           "name": "Striding Colossus",
           "description": "Each time you target this model with a Stratagem, you must spend four times that Stratagem’s stated CP cost to do so."
         }
-      ]
+      ],
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 3500
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "3500"
     }
   ],
   "enhancements": []

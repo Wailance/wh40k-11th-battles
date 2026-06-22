@@ -1,0 +1,804 @@
+{
+  "slug": "imperial-knights",
+  "name": "Imperial Knights",
+  "version": "1.0",
+  "firstSeen": "2026-06-17",
+  "detachments": [
+    {
+      "name": "Dominus Foebreakers",
+      "dp": 1,
+      "objective": "PURGE THE FOE",
+      "enhancements": [
+        {
+          "name": "Archeotech Autoloaders",
+          "points": 25,
+          "detachment": "Dominus Foebreakers"
+        },
+        {
+          "name": "Blessed Plate",
+          "points": 30,
+          "detachment": "Dominus Foebreakers"
+        }
+      ]
+    },
+    {
+      "name": "Freeblade Company",
+      "dp": 3,
+      "objective": "PURGE THE FOE",
+      "enhancements": [
+        {
+          "name": "Bringer of Justice",
+          "points": 30,
+          "detachment": "Freeblade Company"
+        },
+        {
+          "name": "Hunter’s Eye",
+          "points": 25,
+          "detachment": "Freeblade Company"
+        },
+        {
+          "name": "Mysterious Guardian",
+          "points": 35,
+          "detachment": "Freeblade Company"
+        },
+        {
+          "name": "Sanctuary",
+          "points": 20,
+          "detachment": "Freeblade Company"
+        }
+      ]
+    },
+    {
+      "name": "Gate Warden Lance",
+      "dp": 2,
+      "objective": "PRIORITY ASSETS",
+      "enhancements": [
+        {
+          "name": "Acquisitor-at-Arms",
+          "points": 15,
+          "detachment": "Gate Warden Lance"
+        },
+        {
+          "name": "Augury Halo",
+          "points": 20,
+          "detachment": "Gate Warden Lance"
+        },
+        {
+          "name": "Purgation’s Hand",
+          "points": 20,
+          "detachment": "Gate Warden Lance"
+        },
+        {
+          "name": "Vengeful Tread",
+          "points": 15,
+          "detachment": "Gate Warden Lance"
+        }
+      ]
+    },
+    {
+      "name": "Questor Forgepact",
+      "dp": 1,
+      "objective": "DISRUPTION",
+      "enhancements": [
+        {
+          "name": "Knight of the Opus Machina (Aura)",
+          "points": 15,
+          "detachment": "Questor Forgepact"
+        },
+        {
+          "name": "Magos Questoris",
+          "points": 20,
+          "detachment": "Questor Forgepact"
+        }
+      ]
+    },
+    {
+      "name": "Questoris Companions",
+      "dp": 3,
+      "objective": "TAKE AND HOLD",
+      "enhancements": [
+        {
+          "name": "Crushing Condemnation",
+          "points": 10,
+          "detachment": "Questoris Companions"
+        },
+        {
+          "name": "Herald of Triumph",
+          "points": 15,
+          "detachment": "Questoris Companions"
+        },
+        {
+          "name": "Pennant of Silvered Fury",
+          "points": 15,
+          "detachment": "Questoris Companions"
+        },
+        {
+          "name": "Wyrmslayer Divination",
+          "points": 10,
+          "detachment": "Questoris Companions"
+        }
+      ]
+    },
+    {
+      "name": "Spearhead-At-Arms",
+      "dp": 2,
+      "objective": "RECONNAISSANCE",
+      "enhancements": [
+        {
+          "name": "Fables of Nightmare",
+          "points": 10,
+          "detachment": "Spearhead-At-Arms"
+        },
+        {
+          "name": "Martial Tuition",
+          "points": 15,
+          "detachment": "Spearhead-At-Arms"
+        },
+        {
+          "name": "Mentor’s Pride",
+          "points": 20,
+          "detachment": "Spearhead-At-Arms"
+        },
+        {
+          "name": "Tales of Heroism",
+          "points": 10,
+          "detachment": "Spearhead-At-Arms"
+        }
+      ]
+    },
+    {
+      "name": "Throne-Bonded Outriders",
+      "dp": 1,
+      "objective": "RECONNAISSANCE",
+      "enhancements": [
+        {
+          "name": "Ancestral Overbleed (Upgrade)",
+          "points": 10,
+          "detachment": "Throne-Bonded Outriders"
+        },
+        {
+          "name": "Gyro-optimised Actuators (Upgrade)",
+          "points": 15,
+          "detachment": "Throne-Bonded Outriders"
+        }
+      ]
+    },
+    {
+      "name": "Valourstrike Lance",
+      "dp": 2,
+      "objective": "PURGE THE FOE",
+      "enhancements": [
+        {
+          "name": "Bearer of the Evanescent Ion",
+          "points": 15,
+          "detachment": "Valourstrike Lance"
+        },
+        {
+          "name": "Bearer of the Iron Chalice",
+          "points": 20,
+          "detachment": "Valourstrike Lance"
+        },
+        {
+          "name": "Bearer of the Judicant’s Helm",
+          "points": 25,
+          "detachment": "Valourstrike Lance"
+        },
+        {
+          "name": "Bearer of the Lancer’s Sigil",
+          "points": 25,
+          "detachment": "Valourstrike Lance"
+        }
+      ]
+    }
+  ],
+  "units": [
+    {
+      "name": "Acastus Knight Asterius",
+      "normalizedName": "acastus knight asterius",
+      "pricing": [
+        {
+          "range": "[1,1]",
+          "label": "Your 1st Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 785
+            }
+          ]
+        },
+        {
+          "range": "[2,)",
+          "label": "Your 2nd + Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 860
+            }
+          ]
+        }
+      ],
+      "points": 785,
+      "pointsLabel": "785",
+      "legends": false
+    },
+    {
+      "name": "Acastus Knight Porphyrion",
+      "normalizedName": "acastus knight porphyrion",
+      "pricing": [
+        {
+          "range": "[1,1]",
+          "label": "Your 1st Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 725
+            }
+          ]
+        },
+        {
+          "range": "[2,)",
+          "label": "Your 2nd + Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 800
+            }
+          ]
+        }
+      ],
+      "points": 725,
+      "pointsLabel": "725",
+      "legends": false
+    },
+    {
+      "name": "Armiger Helverin",
+      "normalizedName": "armiger helverin",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 140
+            }
+          ]
+        }
+      ],
+      "points": 140,
+      "pointsLabel": "140",
+      "legends": false
+    },
+    {
+      "name": "Armiger Moirax",
+      "normalizedName": "armiger moirax",
+      "pricing": [
+        {
+          "range": "[1,2]",
+          "label": "Your 1st To 2nd Units Cost",
+          "costs": [
+            {
+              "models": 1,
+              "points": 150
+            }
+          ]
+        },
+        {
+          "range": "[3,)",
+          "label": "Your 3rd + Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 160
+            }
+          ]
+        }
+      ],
+      "points": 150,
+      "pointsLabel": "150",
+      "legends": false
+    },
+    {
+      "name": "Armiger Warglaive",
+      "normalizedName": "armiger warglaive",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 140
+            }
+          ]
+        }
+      ],
+      "points": 140,
+      "pointsLabel": "140",
+      "legends": false
+    },
+    {
+      "name": "Canis Rex",
+      "normalizedName": "canis rex",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 415
+            }
+          ]
+        }
+      ],
+      "points": 415,
+      "pointsLabel": "415",
+      "legends": false
+    },
+    {
+      "name": "Cerastus Knight Acheron",
+      "normalizedName": "cerastus knight acheron",
+      "pricing": [
+        {
+          "range": "[1,1]",
+          "label": "Your 1st Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 380
+            }
+          ]
+        },
+        {
+          "range": "[2,)",
+          "label": "Your 2nd + Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 395
+            }
+          ]
+        }
+      ],
+      "points": 380,
+      "pointsLabel": "380",
+      "legends": false
+    },
+    {
+      "name": "Cerastus Knight Atrapos",
+      "normalizedName": "cerastus knight atrapos",
+      "pricing": [
+        {
+          "range": "[1,1]",
+          "label": "Your 1st Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 405
+            }
+          ]
+        },
+        {
+          "range": "[2,)",
+          "label": "Your 2nd + Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 425
+            }
+          ]
+        }
+      ],
+      "points": 405,
+      "pointsLabel": "405",
+      "legends": false
+    },
+    {
+      "name": "Cerastus Knight Castigator",
+      "normalizedName": "cerastus knight castigator",
+      "pricing": [
+        {
+          "range": "[1,1]",
+          "label": "Your 1st Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 380
+            }
+          ]
+        },
+        {
+          "range": "[2,)",
+          "label": "Your 2nd + Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 395
+            }
+          ]
+        }
+      ],
+      "points": 380,
+      "pointsLabel": "380",
+      "legends": false
+    },
+    {
+      "name": "Cerastus Knight Lancer",
+      "normalizedName": "cerastus knight lancer",
+      "pricing": [
+        {
+          "range": "[1,1]",
+          "label": "Your 1st Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 415
+            }
+          ]
+        },
+        {
+          "range": "[2,)",
+          "label": "Your 2nd + Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 435
+            }
+          ]
+        }
+      ],
+      "points": 415,
+      "pointsLabel": "415",
+      "legends": false
+    },
+    {
+      "name": "Knight Castellan",
+      "normalizedName": "knight castellan",
+      "pricing": [
+        {
+          "range": "[1,1]",
+          "label": "Your 1st Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 400
+            }
+          ]
+        },
+        {
+          "range": "[2,)",
+          "label": "Your 2nd + Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 420
+            }
+          ]
+        }
+      ],
+      "points": 400,
+      "pointsLabel": "400",
+      "legends": false
+    },
+    {
+      "name": "Knight Crusader",
+      "normalizedName": "knight crusader",
+      "pricing": [
+        {
+          "range": "[1,1]",
+          "label": "Your 1st Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 395
+            }
+          ]
+        },
+        {
+          "range": "[2,)",
+          "label": "Your 2nd + Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 415
+            }
+          ]
+        }
+      ],
+      "points": 395,
+      "pointsLabel": "395",
+      "legends": false
+    },
+    {
+      "name": "Knight Defender",
+      "normalizedName": "knight defender",
+      "pricing": [
+        {
+          "range": "[1,1]",
+          "label": "Your 1st Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 400
+            }
+          ]
+        },
+        {
+          "range": "[2,)",
+          "label": "Your 2nd + Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 420
+            }
+          ]
+        }
+      ],
+      "points": 400,
+      "pointsLabel": "400",
+      "legends": false
+    },
+    {
+      "name": "Knight Destrier",
+      "normalizedName": "knight destrier",
+      "pricing": [
+        {
+          "range": "[1,2]",
+          "label": "Your 1st To 2nd Units Cost",
+          "costs": [
+            {
+              "models": 1,
+              "points": 265
+            }
+          ]
+        },
+        {
+          "range": "[3,)",
+          "label": "Your 3rd + Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 280
+            }
+          ]
+        }
+      ],
+      "points": 265,
+      "pointsLabel": "265",
+      "legends": false
+    },
+    {
+      "name": "Knight Errant",
+      "normalizedName": "knight errant",
+      "pricing": [
+        {
+          "range": "[1,2]",
+          "label": "Your 1st To 2nd Units Cost",
+          "costs": [
+            {
+              "models": 1,
+              "points": 355
+            }
+          ]
+        },
+        {
+          "range": "[3,)",
+          "label": "Your 3rd + Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 370
+            }
+          ]
+        }
+      ],
+      "points": 355,
+      "pointsLabel": "355",
+      "legends": false
+    },
+    {
+      "name": "Knight Gallant",
+      "normalizedName": "knight gallant",
+      "pricing": [
+        {
+          "range": "[1,2]",
+          "label": "Your 1st To 2nd Units Cost",
+          "costs": [
+            {
+              "models": 1,
+              "points": 355
+            }
+          ]
+        },
+        {
+          "range": "[3,)",
+          "label": "Your 3rd + Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 370
+            }
+          ]
+        }
+      ],
+      "points": 355,
+      "pointsLabel": "355",
+      "legends": false
+    },
+    {
+      "name": "Knight Paladin",
+      "normalizedName": "knight paladin",
+      "pricing": [
+        {
+          "range": "[1,2]",
+          "label": "Your 1st To 2nd Units Cost",
+          "costs": [
+            {
+              "models": 1,
+              "points": 375
+            }
+          ]
+        },
+        {
+          "range": "[3,)",
+          "label": "Your 3rd + Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 390
+            }
+          ]
+        }
+      ],
+      "points": 375,
+      "pointsLabel": "375",
+      "legends": false
+    },
+    {
+      "name": "Knight Preceptor",
+      "normalizedName": "knight preceptor",
+      "pricing": [
+        {
+          "range": "[1,2]",
+          "label": "Your 1st To 2nd Units Cost",
+          "costs": [
+            {
+              "models": 1,
+              "points": 365
+            }
+          ]
+        },
+        {
+          "range": "[3,)",
+          "label": "Your 3rd + Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 380
+            }
+          ]
+        }
+      ],
+      "points": 365,
+      "pointsLabel": "365",
+      "legends": false
+    },
+    {
+      "name": "Knight Valiant",
+      "normalizedName": "knight valiant",
+      "pricing": [
+        {
+          "range": "[1,2]",
+          "label": "Your 1st To 2nd Units Cost",
+          "costs": [
+            {
+              "models": 1,
+              "points": 400
+            }
+          ]
+        },
+        {
+          "range": "[3,)",
+          "label": "Your 3rd + Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 415
+            }
+          ]
+        }
+      ],
+      "points": 400,
+      "pointsLabel": "400",
+      "legends": false
+    },
+    {
+      "name": "Knight Warden",
+      "normalizedName": "knight warden",
+      "pricing": [
+        {
+          "range": "[1,2]",
+          "label": "Your 1st To 2nd Units Cost",
+          "costs": [
+            {
+              "models": 1,
+              "points": 375
+            }
+          ]
+        },
+        {
+          "range": "[3,)",
+          "label": "Your 3rd + Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 390
+            }
+          ]
+        }
+      ],
+      "points": 375,
+      "pointsLabel": "375",
+      "legends": false
+    },
+    {
+      "name": "Questoris Knight Magaera",
+      "normalizedName": "questoris knight magaera",
+      "pricing": [
+        {
+          "range": "[1,1]",
+          "label": "Your 1st Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 385
+            }
+          ]
+        },
+        {
+          "range": "[2,)",
+          "label": "Your 2nd + Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 400
+            }
+          ]
+        }
+      ],
+      "points": 385,
+      "pointsLabel": "385",
+      "legends": false
+    },
+    {
+      "name": "Questoris Knight Styrix",
+      "normalizedName": "questoris knight styrix",
+      "pricing": [
+        {
+          "range": "[1,1]",
+          "label": "Your 1st Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 375
+            }
+          ]
+        },
+        {
+          "range": "[2,)",
+          "label": "Your 2nd + Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 390
+            }
+          ]
+        }
+      ],
+      "points": 375,
+      "pointsLabel": "375",
+      "legends": false
+    }
+  ]
+}

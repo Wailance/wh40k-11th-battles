@@ -1,0 +1,962 @@
+{
+  "slug": "drukhari",
+  "name": "Drukhari",
+  "version": "1.0",
+  "firstSeen": "2026-06-17",
+  "detachments": [
+    {
+      "name": "Covenite Coterie",
+      "dp": 2,
+      "objective": "PURGE THE FOE",
+      "enhancements": [
+        {
+          "name": "Master Artisan",
+          "points": 20,
+          "detachment": "Covenite Coterie"
+        },
+        {
+          "name": "Master Nemesine",
+          "points": 5,
+          "detachment": "Covenite Coterie"
+        },
+        {
+          "name": "Master Regenesist",
+          "points": 25,
+          "detachment": "Covenite Coterie"
+        },
+        {
+          "name": "Master Repugnomancer",
+          "points": 15,
+          "detachment": "Covenite Coterie"
+        }
+      ]
+    },
+    {
+      "name": "Exhibition Of Slaughter",
+      "dp": 1,
+      "objective": "DISRUPTION",
+      "enhancements": [
+        {
+          "name": "Hyperstimm Trafficker",
+          "points": 20,
+          "detachment": "Exhibition Of Slaughter"
+        },
+        {
+          "name": "Periapt of Torments",
+          "points": 20,
+          "detachment": "Exhibition Of Slaughter"
+        }
+      ]
+    },
+    {
+      "name": "Kabalite Agonysts",
+      "dp": 1,
+      "objective": "PURGE THE FOE",
+      "enhancements": [
+        {
+          "name": "Contempt for Rivals",
+          "points": 20,
+          "detachment": "Kabalite Agonysts"
+        },
+        {
+          "name": "Towering Arrogance",
+          "points": 15,
+          "detachment": "Kabalite Agonysts"
+        }
+      ]
+    },
+    {
+      "name": "Kabalite Cartel",
+      "dp": 2,
+      "objective": "DISRUPTION",
+      "enhancements": [
+        {
+          "name": "Informant Network",
+          "points": 30,
+          "detachment": "Kabalite Cartel"
+        },
+        {
+          "name": "Leechbite Plate",
+          "points": 5,
+          "detachment": "Kabalite Cartel"
+        },
+        {
+          "name": "Towering Arrogance",
+          "points": 20,
+          "detachment": "Kabalite Cartel"
+        },
+        {
+          "name": "Webway Awl",
+          "points": 25,
+          "detachment": "Kabalite Cartel"
+        }
+      ]
+    },
+    {
+      "name": "Realspace Raiders",
+      "dp": 2,
+      "objective": "PRIORITY ASSETS",
+      "enhancements": [
+        {
+          "name": "Crucible of Malediction",
+          "points": 15,
+          "detachment": "Realspace Raiders"
+        },
+        {
+          "name": "Dark Vitality",
+          "points": 20,
+          "detachment": "Realspace Raiders"
+        },
+        {
+          "name": "Eye of Spite",
+          "points": 15,
+          "detachment": "Realspace Raiders"
+        },
+        {
+          "name": "Labyrinthine Cunning",
+          "points": 25,
+          "detachment": "Realspace Raiders"
+        }
+      ]
+    },
+    {
+      "name": "Reaper’S Wager",
+      "dp": 3,
+      "objective": "PURGE THE FOE",
+      "enhancements": [
+        {
+          "name": "Archraider",
+          "points": 15,
+          "detachment": "Reaper’S Wager"
+        },
+        {
+          "name": "Conductor of Torment",
+          "points": 20,
+          "detachment": "Reaper’S Wager"
+        },
+        {
+          "name": "Reaper’s Cowl",
+          "points": 25,
+          "detachment": "Reaper’S Wager"
+        },
+        {
+          "name": "Webway Walker",
+          "points": 15,
+          "detachment": "Reaper’S Wager"
+        }
+      ]
+    },
+    {
+      "name": "Skysplinter Assault",
+      "dp": 2,
+      "objective": "RECONNAISSANCE",
+      "enhancements": [
+        {
+          "name": "Nightmare Shroud",
+          "points": 20,
+          "detachment": "Skysplinter Assault"
+        },
+        {
+          "name": "Phantasmal Smoke",
+          "points": 15,
+          "detachment": "Skysplinter Assault"
+        },
+        {
+          "name": "Sadistic Fulcrum",
+          "points": 15,
+          "detachment": "Skysplinter Assault"
+        },
+        {
+          "name": "Spiteful Raider",
+          "points": 10,
+          "detachment": "Skysplinter Assault"
+        }
+      ]
+    },
+    {
+      "name": "Spectacle Of Spite",
+      "dp": 2,
+      "objective": "PURGE THE FOE",
+      "enhancements": [
+        {
+          "name": "Chronoshard",
+          "points": 15,
+          "detachment": "Spectacle Of Spite"
+        },
+        {
+          "name": "MORGHENNA’S CURSE",
+          "points": 20,
+          "detachment": "Spectacle Of Spite"
+        },
+        {
+          "name": "Periapt of Torments",
+          "points": 25,
+          "detachment": "Spectacle Of Spite"
+        },
+        {
+          "name": "Pharmacophex",
+          "points": 15,
+          "detachment": "Spectacle Of Spite"
+        }
+      ]
+    },
+    {
+      "name": "Tools Of Torment",
+      "dp": 1,
+      "objective": "TAKE AND HOLD",
+      "enhancements": [
+        {
+          "name": "Elixir of the Corpse Courts (Upgrade)",
+          "points": 15,
+          "detachment": "Tools Of Torment"
+        },
+        {
+          "name": "Gnarlskin Experimentor",
+          "points": 20,
+          "detachment": "Tools Of Torment"
+        }
+      ]
+    }
+  ],
+  "units": [
+    {
+      "name": "Archon",
+      "normalizedName": "archon",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 80
+            }
+          ]
+        }
+      ],
+      "points": 80,
+      "pointsLabel": "80",
+      "legends": false,
+      "role": "leader",
+      "attachTo": [
+        "Court Of The Archon",
+        "Hand Of The Archon",
+        "Incubi",
+        "Kabalite Warriors"
+      ]
+    },
+    {
+      "name": "Beastmaster",
+      "normalizedName": "beastmaster",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 7,
+              "points": 135
+            }
+          ]
+        }
+      ],
+      "points": 135,
+      "pointsLabel": "135",
+      "legends": true
+    },
+    {
+      "name": "Court Of The Archon",
+      "normalizedName": "court of the archon",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 4,
+              "points": 95
+            }
+          ]
+        }
+      ],
+      "points": 95,
+      "pointsLabel": "95",
+      "legends": true
+    },
+    {
+      "name": "Cronos",
+      "normalizedName": "cronos",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 55
+            },
+            {
+              "models": 2,
+              "points": 100
+            }
+          ]
+        }
+      ],
+      "points": 55,
+      "pointsLabel": "55/100",
+      "legends": false
+    },
+    {
+      "name": "Drazhar",
+      "normalizedName": "drazhar",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 85
+            }
+          ]
+        }
+      ],
+      "points": 85,
+      "pointsLabel": "85",
+      "legends": false,
+      "role": "leader",
+      "attachTo": [
+        "Incubi"
+      ]
+    },
+    {
+      "name": "Grotesques",
+      "normalizedName": "grotesques",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 3,
+              "points": 80
+            },
+            {
+              "models": 6,
+              "points": 170
+            }
+          ]
+        }
+      ],
+      "points": 80,
+      "pointsLabel": "80/170",
+      "legends": true
+    },
+    {
+      "name": "Haemonculus",
+      "normalizedName": "haemonculus",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 50
+            }
+          ]
+        }
+      ],
+      "points": 50,
+      "pointsLabel": "50",
+      "legends": false,
+      "role": "leader",
+      "attachTo": [
+        "Wracks"
+      ]
+    },
+    {
+      "name": "Hand Of The Archon",
+      "normalizedName": "hand of the archon",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 10,
+              "points": 115
+            }
+          ]
+        }
+      ],
+      "points": 115,
+      "pointsLabel": "115",
+      "legends": false
+    },
+    {
+      "name": "Hellions",
+      "normalizedName": "hellions",
+      "pricing": [
+        {
+          "range": "[1,2]",
+          "label": "Your 1st To 2nd Units Cost",
+          "costs": [
+            {
+              "models": 5,
+              "points": 90
+            },
+            {
+              "models": 10,
+              "points": 180
+            }
+          ]
+        },
+        {
+          "range": "[3,)",
+          "label": "Your 3rd + Unit Costs",
+          "costs": [
+            {
+              "models": 5,
+              "points": 100
+            },
+            {
+              "models": 10,
+              "points": 190
+            }
+          ]
+        }
+      ],
+      "points": 90,
+      "pointsLabel": "90/180",
+      "legends": false
+    },
+    {
+      "name": "Incubi",
+      "normalizedName": "incubi",
+      "pricing": [
+        {
+          "range": "[1,2]",
+          "label": "Your 1st To 2nd Units Cost",
+          "costs": [
+            {
+              "models": 5,
+              "points": 90
+            },
+            {
+              "models": 10,
+              "points": 180
+            }
+          ]
+        },
+        {
+          "range": "[3,)",
+          "label": "Your 3rd + Unit Costs",
+          "costs": [
+            {
+              "models": 5,
+              "points": 100
+            },
+            {
+              "models": 10,
+              "points": 190
+            }
+          ]
+        }
+      ],
+      "points": 90,
+      "pointsLabel": "90/180",
+      "legends": false
+    },
+    {
+      "name": "Kabalite Warriors",
+      "normalizedName": "kabalite warriors",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 10,
+              "points": 110
+            }
+          ]
+        }
+      ],
+      "points": 110,
+      "pointsLabel": "110",
+      "legends": false
+    },
+    {
+      "name": "Lady Malys",
+      "normalizedName": "lady malys",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 100
+            }
+          ]
+        }
+      ],
+      "points": 100,
+      "pointsLabel": "100",
+      "legends": false,
+      "role": "leader",
+      "attachTo": [
+        "Hand Of The Archon",
+        "Incubi",
+        "Kabalite Warriors"
+      ]
+    },
+    {
+      "name": "Lelith Hesperax",
+      "normalizedName": "lelith hesperax",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 80
+            }
+          ]
+        }
+      ],
+      "points": 80,
+      "pointsLabel": "80",
+      "legends": false,
+      "role": "leader",
+      "attachTo": [
+        "Wyches"
+      ]
+    },
+    {
+      "name": "Mandrakes",
+      "normalizedName": "mandrakes",
+      "pricing": [
+        {
+          "range": "[1,2]",
+          "label": "Your 1st To 2nd Units Cost",
+          "costs": [
+            {
+              "models": 5,
+              "points": 80
+            },
+            {
+              "models": 10,
+              "points": 160
+            }
+          ]
+        },
+        {
+          "range": "[3,)",
+          "label": "Your 3rd + Unit Costs",
+          "costs": [
+            {
+              "models": 5,
+              "points": 90
+            },
+            {
+              "models": 10,
+              "points": 170
+            }
+          ]
+        }
+      ],
+      "points": 80,
+      "pointsLabel": "80/160",
+      "legends": false
+    },
+    {
+      "name": "Raider",
+      "normalizedName": "raider",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 85
+            }
+          ]
+        }
+      ],
+      "points": 85,
+      "pointsLabel": "85",
+      "legends": false
+    },
+    {
+      "name": "Ravager",
+      "normalizedName": "ravager",
+      "pricing": [
+        {
+          "range": "[1,2]",
+          "label": "Your 1st To 2nd Units Cost",
+          "costs": [
+            {
+              "models": 1,
+              "points": 100
+            }
+          ]
+        },
+        {
+          "range": "[3,)",
+          "label": "Your 3rd + Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 110
+            }
+          ]
+        }
+      ],
+      "points": 100,
+      "pointsLabel": "100",
+      "legends": false
+    },
+    {
+      "name": "Raven Strike Fighter",
+      "normalizedName": "raven strike fighter",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 170
+            }
+          ]
+        }
+      ],
+      "points": 170,
+      "pointsLabel": "170",
+      "legends": true
+    },
+    {
+      "name": "Razorwing Jetfighter",
+      "normalizedName": "razorwing jetfighter",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 170
+            }
+          ]
+        }
+      ],
+      "points": 170,
+      "pointsLabel": "170",
+      "legends": false
+    },
+    {
+      "name": "Reaper",
+      "normalizedName": "reaper",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 115
+            }
+          ]
+        }
+      ],
+      "points": 115,
+      "pointsLabel": "115",
+      "legends": true
+    },
+    {
+      "name": "Reavers",
+      "normalizedName": "reavers",
+      "pricing": [
+        {
+          "range": "[1,2]",
+          "label": "Your 1st To 2nd Units Cost",
+          "costs": [
+            {
+              "models": 3,
+              "points": 75
+            },
+            {
+              "models": 6,
+              "points": 150
+            }
+          ]
+        },
+        {
+          "range": "[3,)",
+          "label": "Your 3rd + Unit Costs",
+          "costs": [
+            {
+              "models": 3,
+              "points": 85
+            },
+            {
+              "models": 6,
+              "points": 160
+            }
+          ]
+        }
+      ],
+      "points": 75,
+      "pointsLabel": "75/150",
+      "legends": false
+    },
+    {
+      "name": "Scourges With Heavy Weapons",
+      "normalizedName": "scourges with heavy weapons",
+      "pricing": [
+        {
+          "range": "[1,2]",
+          "label": "Your 1st To 2nd Units Cost",
+          "costs": [
+            {
+              "models": 5,
+              "points": 110
+            }
+          ]
+        },
+        {
+          "range": "[3,)",
+          "label": "Your 3rd + Unit Costs",
+          "costs": [
+            {
+              "models": 5,
+              "points": 120
+            }
+          ]
+        }
+      ],
+      "points": 110,
+      "pointsLabel": "110",
+      "legends": false
+    },
+    {
+      "name": "Scourges With Shardcarbines",
+      "normalizedName": "scourges with shardcarbines",
+      "pricing": [
+        {
+          "range": "[1,2]",
+          "label": "Your 1st To 2nd Units Cost",
+          "costs": [
+            {
+              "models": 5,
+              "points": 75
+            }
+          ]
+        },
+        {
+          "range": "[3,)",
+          "label": "Your 3rd + Unit Costs",
+          "costs": [
+            {
+              "models": 5,
+              "points": 85
+            }
+          ]
+        }
+      ],
+      "points": 75,
+      "pointsLabel": "75",
+      "legends": false
+    },
+    {
+      "name": "Succubus",
+      "normalizedName": "succubus",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 50
+            }
+          ]
+        }
+      ],
+      "points": 50,
+      "pointsLabel": "50",
+      "legends": false,
+      "role": "leader",
+      "attachTo": [
+        "Wyches"
+      ]
+    },
+    {
+      "name": "Talos",
+      "normalizedName": "talos",
+      "pricing": [
+        {
+          "range": "[1,2]",
+          "label": "Your 1st To 2nd Units Cost",
+          "costs": [
+            {
+              "models": 1,
+              "points": 75
+            },
+            {
+              "models": 2,
+              "points": 150
+            }
+          ]
+        },
+        {
+          "range": "[3,)",
+          "label": "Your 3rd + Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 85
+            },
+            {
+              "models": 2,
+              "points": 160
+            }
+          ]
+        }
+      ],
+      "points": 75,
+      "pointsLabel": "75/150",
+      "legends": false
+    },
+    {
+      "name": "Tantalus",
+      "normalizedName": "tantalus",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 230
+            }
+          ]
+        }
+      ],
+      "points": 230,
+      "pointsLabel": "230",
+      "legends": true
+    },
+    {
+      "name": "Urien Rakarth",
+      "normalizedName": "urien rakarth",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 80
+            }
+          ]
+        }
+      ],
+      "points": 80,
+      "pointsLabel": "80",
+      "legends": true,
+      "role": "leader",
+      "attachTo": [
+        "Wracks"
+      ]
+    },
+    {
+      "name": "Venom",
+      "normalizedName": "venom",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 70
+            }
+          ]
+        }
+      ],
+      "points": 70,
+      "pointsLabel": "70",
+      "legends": false
+    },
+    {
+      "name": "Voidraven Bomber",
+      "normalizedName": "voidraven bomber",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 245
+            }
+          ]
+        }
+      ],
+      "points": 245,
+      "pointsLabel": "245",
+      "legends": false
+    },
+    {
+      "name": "Wracks",
+      "normalizedName": "wracks",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 5,
+              "points": 60
+            },
+            {
+              "models": 8,
+              "points": 100
+            },
+            {
+              "models": 10,
+              "points": 120
+            }
+          ]
+        }
+      ],
+      "points": 60,
+      "pointsLabel": "60/100/120",
+      "legends": false
+    },
+    {
+      "name": "Wyches",
+      "normalizedName": "wyches",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 10,
+              "points": 90
+            }
+          ]
+        }
+      ],
+      "points": 90,
+      "pointsLabel": "90",
+      "legends": false
+    }
+  ]
+}

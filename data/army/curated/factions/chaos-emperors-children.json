@@ -6,7 +6,7 @@
     {
       "id": "e390-b58b-db9-816",
       "name": "Lucius the Eternal",
-      "points": 150,
+      "points": 130,
       "keywords": [
         "Infantry",
         "Character",
@@ -69,12 +69,29 @@
           "name": "A Challenge Worthy of Skill",
           "description": "Each time this model makes an attack that targets a **^^Character, Monster^^** or **^^Walker^^** unit, you can re-roll the Hit roll and re-roll the Wound roll."
         }
+      ],
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 130
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "130",
+      "mfmRole": "leader",
+      "attachTo": [
+        "Flawless Blades"
       ]
     },
     {
       "id": "1e0a-cf2b-6602-2a34",
       "name": "Fulgrim",
-      "points": 340,
+      "points": 350,
       "keywords": [
         "Chaos",
         "Slaanesh",
@@ -173,7 +190,20 @@
           "name": "Serpentine",
           "description": "Each time this model makes a Normal, Advance or Fall Back move, it can move over sections of terrain features that are 4\" or less in height."
         }
-      ]
+      ],
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 350
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "350"
     },
     {
       "id": "7b4c-dfe0-6a0a-304a",
@@ -392,6 +422,34 @@
           "name": "Silver Skin",
           "description": "Add 1 to this model's Toughness characteristic."
         }
+      ],
+      "pricing": [
+        {
+          "range": "[1,2]",
+          "label": "Your 1st To 2nd Units Cost",
+          "costs": [
+            {
+              "models": 1,
+              "points": 80
+            }
+          ]
+        },
+        {
+          "range": "[3,)",
+          "label": "Your 3rd + Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 90
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "80",
+      "mfmRole": "leader",
+      "attachTo": [
+        "Infractors",
+        "Tormentors"
       ]
     },
     {
@@ -597,6 +655,24 @@
           "name": "Silver Skin",
           "description": "Add 1 to this model's Toughness characteristic."
         }
+      ],
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 70
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "70",
+      "mfmRole": "leader",
+      "attachTo": [
+        "Chaos Terminators",
+        "Noise Marines"
       ]
     },
     {
@@ -837,12 +913,31 @@
           "name": "Silver Skin",
           "description": "Add 1 to this model's Toughness characteristic."
         }
+      ],
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 60
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "60",
+      "mfmRole": "leader",
+      "attachTo": [
+        "Infractors",
+        "Noise Marines",
+        "Tormentors"
       ]
     },
     {
       "id": "ad59-b823-900d-ee2d",
       "name": "Daemon Prince of Slaanesh",
-      "points": 180,
+      "points": 170,
       "keywords": [
         "Monster",
         "Character",
@@ -1061,12 +1156,35 @@
           "name": "Silver Skin",
           "description": "Add 1 to this model's Toughness characteristic."
         }
-      ]
+      ],
+      "pricing": [
+        {
+          "range": "[1,1]",
+          "label": "Your 1st Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 170
+            }
+          ]
+        },
+        {
+          "range": "[2,)",
+          "label": "Your 2nd + Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 185
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "170"
     },
     {
       "id": "e452-08be-33e6-3864",
       "name": "Daemon Prince of Slaanesh with Wings",
-      "points": 215,
+      "points": 205,
       "keywords": [
         "Monster",
         "Character",
@@ -1282,12 +1400,35 @@
           "name": "Silver Skin",
           "description": "Add 1 to this model's Toughness characteristic."
         }
-      ]
+      ],
+      "pricing": [
+        {
+          "range": "[1,1]",
+          "label": "Your 1st Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 205
+            }
+          ]
+        },
+        {
+          "range": "[2,)",
+          "label": "Your 2nd + Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 235
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "205"
     },
     {
       "id": "4494-dd7d-69f7-306c",
       "name": "Tormentors",
-      "points": 85,
+      "points": 80,
       "keywords": [
         "Infantry",
         "Battleline",
@@ -1474,7 +1615,24 @@
           "name": "Silver Skin",
           "description": "Add 1 to this model's Toughness characteristic."
         }
-      ]
+      ],
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 5,
+              "points": 80
+            },
+            {
+              "models": 10,
+              "points": 160
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "80/160"
     },
     {
       "id": "e456-0afc-9b42-226c",
@@ -1616,12 +1774,29 @@
           "name": "Silver Skin",
           "description": "Add 1 to this model's Toughness characteristic."
         }
-      ]
+      ],
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 5,
+              "points": 85
+            },
+            {
+              "models": 10,
+              "points": 160
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "85/160"
     },
     {
       "id": "183e-f3bb-3ce6-7b55",
       "name": "Flawless Blades",
-      "points": 100,
+      "points": 95,
       "keywords": [
         "Infantry",
         "Grenades",
@@ -1710,7 +1885,24 @@
           "name": "Silver Skin",
           "description": "Add 1 to this model's Toughness characteristic."
         }
-      ]
+      ],
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 3,
+              "points": 95
+            },
+            {
+              "models": 6,
+              "points": 190
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "95/190"
     },
     {
       "id": "5926-4deb-a85d-c73a",
@@ -1857,7 +2049,20 @@
           "name": "Silver Skin",
           "description": "Add 1 to this model's Toughness characteristic."
         }
-      ]
+      ],
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 5,
+              "points": 145
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "145"
     },
     {
       "id": "896c-5816-3abd-5199",
@@ -1933,7 +2138,20 @@
           "name": "Silver Skin",
           "description": "Add 1 to this model's Toughness characteristic."
         }
-      ]
+      ],
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 2,
+              "points": 70
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "70"
     },
     {
       "id": "f10c-5f3e-c09d-0b12",
@@ -2053,7 +2271,30 @@
           "description": "Add 1 to this model's Toughness characteristic."
         }
       ],
-      "transportCapacity": "This model has a transport capacity of 14 **^^Emperor's Children Infantry^^** models. Each **^^Terminator^^** and ^^**Flawless Blade^^** model takes up the space of 2 models."
+      "transportCapacity": "This model has a transport capacity of 14 **^^Emperor's Children Infantry^^** models. Each **^^Terminator^^** and ^^**Flawless Blade^^** model takes up the space of 2 models.",
+      "pricing": [
+        {
+          "range": "[1,2]",
+          "label": "Your 1st To 2nd Units Cost",
+          "costs": [
+            {
+              "models": 1,
+              "points": 220
+            }
+          ]
+        },
+        {
+          "range": "[3,)",
+          "label": "Your 3rd + Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 240
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "220"
     },
     {
       "id": "5817-0d6c-973c-68f8",
@@ -2189,12 +2430,35 @@
           "name": "Silver Skin",
           "description": "Add 1 to this model's Toughness characteristic."
         }
-      ]
+      ],
+      "pricing": [
+        {
+          "range": "[1,2]",
+          "label": "Your 1st To 2nd Units Cost",
+          "costs": [
+            {
+              "models": 6,
+              "points": 145
+            }
+          ]
+        },
+        {
+          "range": "[3,)",
+          "label": "Your 3rd + Unit Costs",
+          "costs": [
+            {
+              "models": 6,
+              "points": 160
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "145"
     },
     {
       "id": "3750-df25-165d-d003",
       "name": "Heldrake",
-      "points": 195,
+      "points": 175,
       "keywords": [
         "Vehicle",
         "Fly",
@@ -2275,7 +2539,20 @@
           "name": "Silver Skin",
           "description": "Add 1 to this model's Toughness characteristic."
         }
-      ]
+      ],
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 175
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "175"
     },
     {
       "id": "656c-8b78-8e59-0591",
@@ -2357,7 +2634,30 @@
           "name": "Silver Skin",
           "description": "Add 1 to this model's Toughness characteristic."
         }
-      ]
+      ],
+      "pricing": [
+        {
+          "range": "[1,2]",
+          "label": "Your 1st To 2nd Units Cost",
+          "costs": [
+            {
+              "models": 1,
+              "points": 130
+            }
+          ]
+        },
+        {
+          "range": "[3,)",
+          "label": "Your 3rd + Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 140
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "130"
     },
     {
       "id": "8ae1-aa47-e1d1-1b31",
@@ -2451,7 +2751,20 @@
           "description": "Add 1 to this model's Toughness characteristic."
         }
       ],
-      "transportCapacity": "This model has a transport capacity of 12 **^^Emperor's Children Infantry^^**models (excluding ^^**Terminator**^^ and ^^**Flawless Blade**^^ models)."
+      "transportCapacity": "This model has a transport capacity of 12 **^^Emperor's Children Infantry^^**models (excluding ^^**Terminator**^^ and ^^**Flawless Blade**^^ models).",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 80
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "80"
     },
     {
       "id": "20df-143c-fc59-77e0",
@@ -2559,12 +2872,25 @@
           "name": "Monarch of the Hunt",
           "description": "At the start of the first battle round, select one enemy unit to be this model's quarry. Each time this model makes a melee attack that targets its quarry, you can re-roll the Hit roll and you can re-roll the Wound roll. Each time this model's quarry is destroyed, select one new enemy unit to be this model's quarry."
         }
-      ]
+      ],
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 340
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "340"
     },
     {
       "id": "7b2b-4508-263d-f20f",
       "name": "Keeper of Secrets",
-      "points": 240,
+      "points": 255,
       "keywords": [
         "Monster",
         "Character",
@@ -2763,7 +3089,30 @@
           "name": "Tears of the Phoenix",
           "description": "Each time a model in the bearer’s unit makes a melee attack, you can ignore any or all modifiers to that attack’s Weapon Skill characteristic and any or all modifiers to the Hit roll and Wound roll."
         }
-      ]
+      ],
+      "pricing": [
+        {
+          "range": "[1,2]",
+          "label": "Your 1st To 2nd Units Cost",
+          "costs": [
+            {
+              "models": 1,
+              "points": 255
+            }
+          ]
+        },
+        {
+          "range": "[3,)",
+          "label": "Your 3rd + Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 270
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "255"
     },
     {
       "id": "06f6-b870-4e43-4ed9",
@@ -2820,12 +3169,25 @@
           "name": "Instrument of Chaos",
           "description": "Add 1 to Charge rolls made for the bearer's unit."
         }
-      ]
+      ],
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 10,
+              "points": 90
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "90"
     },
     {
       "id": "c2ca-f754-cc05-0743",
       "name": "Fiends",
-      "points": 95,
+      "points": 90,
       "keywords": [
         "Beast",
         "Chaos",
@@ -2868,7 +3230,24 @@
           "name": "Soporific Musk",
           "description": "Each time an enemy unit (excluding ^^**Monsters**^^ and **^^Vehicles**^^) within Engagement Range of one or more units from your army with this ability Falls Back, models in that unit must take Desperate Escape tests. When doing so, if that enemy unit is also Battle-shocked, subtract 1 from each of those Desperate Escape tests."
         }
-      ]
+      ],
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 3,
+              "points": 90
+            },
+            {
+              "models": 6,
+              "points": 180
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "90/180"
     },
     {
       "id": "c9df-2c38-25e5-ffc7",
@@ -2937,7 +3316,24 @@
           "name": "Instrument of Chaos",
           "description": "Add 1 to Charge rolls made for the bearer's unit."
         }
-      ]
+      ],
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 5,
+              "points": 80
+            },
+            {
+              "models": 10,
+              "points": 155
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "80/155"
     },
     {
       "id": "eeac-c9b8-3904-11a5",
@@ -4241,7 +4637,7 @@
     {
       "id": "b541-3292-a5cc-dbeb",
       "name": "Defiler",
-      "points": 250,
+      "points": 290,
       "keywords": [
         "Vehicle",
         "Walker",
@@ -4330,7 +4726,30 @@
           "name": "Silver Skin",
           "description": "Add 1 to this model's Toughness characteristic."
         }
-      ]
+      ],
+      "pricing": [
+        {
+          "range": "[1,1]",
+          "label": "Your 1st Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 290
+            }
+          ]
+        },
+        {
+          "range": "[2,)",
+          "label": "Your 2nd + Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 320
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "290"
     }
   ],
   "enhancements": [

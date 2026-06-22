@@ -6,7 +6,7 @@
     {
       "id": "f51d-bc51-f301-9dee",
       "name": "Aberrants",
-      "points": 135,
+      "points": 150,
       "keywords": [
         "Infantry",
         "Great Devourer"
@@ -56,7 +56,38 @@
           "name": "Beloved of the Cult",
           "description": "Each time a unit that is beloved of the cult gains 1 or more XP in a Crusade battle and survives that battle, after that battle, roll one D6 for each other unit from your Crusade army that survived that battle: on a 6, the unit you rolled for gains 1XP."
         }
-      ]
+      ],
+      "pricing": [
+        {
+          "range": "[1,2]",
+          "label": "Your 1st To 2nd Units Cost",
+          "costs": [
+            {
+              "models": 5,
+              "points": 150
+            },
+            {
+              "models": 10,
+              "points": 300
+            }
+          ]
+        },
+        {
+          "range": "[3,)",
+          "label": "Your 3rd + Unit Costs",
+          "costs": [
+            {
+              "models": 5,
+              "points": 160
+            },
+            {
+              "models": 10,
+              "points": 310
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "150/300"
     },
     {
       "id": "97b1-4873-9fcb-5cb8",
@@ -116,6 +147,33 @@
           "name": "Beloved of the Cult",
           "description": "Each time a unit that is beloved of the cult gains 1 or more XP in a Crusade battle and survives that battle, after that battle, roll one D6 for each other unit from your Crusade army that survived that battle: on a 6, the unit you rolled for gains 1XP."
         }
+      ],
+      "pricing": [
+        {
+          "range": "[1,2]",
+          "label": "Your 1st To 2nd Units Cost",
+          "costs": [
+            {
+              "models": 1,
+              "points": 85
+            }
+          ]
+        },
+        {
+          "range": "[3,)",
+          "label": "Your 3rd + Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 95
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "85",
+      "mfmRole": "leader",
+      "attachTo": [
+        "Aberrants"
       ]
     },
     {
@@ -181,7 +239,38 @@
           "name": "Beloved of the Cult",
           "description": "Each time a unit that is beloved of the cult gains 1 or more XP in a Crusade battle and survives that battle, after that battle, roll one D6 for each other unit from your Crusade army that survived that battle: on a 6, the unit you rolled for gains 1XP."
         }
-      ]
+      ],
+      "pricing": [
+        {
+          "range": "[1,2]",
+          "label": "Your 1st To 2nd Units Cost",
+          "costs": [
+            {
+              "models": 1,
+              "points": 95
+            },
+            {
+              "models": 2,
+              "points": 160
+            }
+          ]
+        },
+        {
+          "range": "[3,)",
+          "label": "Your 3rd + Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 105
+            },
+            {
+              "models": 2,
+              "points": 170
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "95/160"
     },
     {
       "id": "e367-b2cb-d22a-b17c",
@@ -255,12 +344,32 @@
           "name": "Beloved of the Cult",
           "description": "Each time a unit that is beloved of the cult gains 1 or more XP in a Crusade battle and survives that battle, after that battle, roll one D6 for each other unit from your Crusade army that survived that battle: on a 6, the unit you rolled for gains 1XP."
         }
+      ],
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 50
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "50",
+      "mfmRole": "leader",
+      "attachTo": [
+        "Acolyte Hybrids With Autopistols",
+        "Acolyte Hybrids With Hand Flamers",
+        "Hybrid Metamorphs",
+        "Neophyte Hybrids"
       ]
     },
     {
       "id": "3a81-2b84-bf4c-4f85",
       "name": "Atalan Jackals",
-      "points": 85,
+      "points": 90,
       "keywords": [
         "Mounted",
         "Grenades",
@@ -392,7 +501,38 @@
           "name": "Beloved of the Cult",
           "description": "Each time a unit that is beloved of the cult gains 1 or more XP in a Crusade battle and survives that battle, after that battle, roll one D6 for each other unit from your Crusade army that survived that battle: on a 6, the unit you rolled for gains 1XP."
         }
-      ]
+      ],
+      "pricing": [
+        {
+          "range": "[1,2]",
+          "label": "Your 1st To 2nd Units Cost",
+          "costs": [
+            {
+              "models": 5,
+              "points": 90
+            },
+            {
+              "models": 10,
+              "points": 160
+            }
+          ]
+        },
+        {
+          "range": "[3,)",
+          "label": "Your 3rd + Unit Costs",
+          "costs": [
+            {
+              "models": 5,
+              "points": 100
+            },
+            {
+              "models": 10,
+              "points": 170
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "90/160"
     },
     {
       "id": "725f-8a41-dc78-52f5",
@@ -479,6 +619,27 @@
           "name": "Beloved of the Cult",
           "description": "Each time a unit that is beloved of the cult gains 1 or more XP in a Crusade battle and survives that battle, after that battle, roll one D6 for each other unit from your Crusade army that survived that battle: on a 6, the unit you rolled for gains 1XP."
         }
+      ],
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 50
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "50",
+      "mfmRole": "support",
+      "attachTo": [
+        "Aberrants",
+        "Acolyte Hybrids With Autopistols",
+        "Acolyte Hybrids With Hand Flamers",
+        "Hybrid Metamorphs",
+        "Neophyte Hybrids"
       ]
     },
     {
@@ -548,6 +709,26 @@
           "name": "Beloved of the Cult",
           "description": "Each time a unit that is beloved of the cult gains 1 or more XP in a Crusade battle and survives that battle, after that battle, roll one D6 for each other unit from your Crusade army that survived that battle: on a 6, the unit you rolled for gains 1XP."
         }
+      ],
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 50
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "50",
+      "mfmRole": "support",
+      "attachTo": [
+        "Acolyte Hybrids With Autopistols",
+        "Acolyte Hybrids With Hand Flamers",
+        "Hybrid Metamorphs",
+        "Neophyte Hybrids"
       ]
     },
     {
@@ -628,7 +809,30 @@
           "description": "Each time a unit that is beloved of the cult gains 1 or more XP in a Crusade battle and survives that battle, after that battle, roll one D6 for each other unit from your Crusade army that survived that battle: on a 6, the unit you rolled for gains 1XP."
         }
       ],
-      "transportCapacity": "This model has a transport capacity of 6 GENESTEALER CULTS INFANTRY models."
+      "transportCapacity": "This model has a transport capacity of 6 GENESTEALER CULTS INFANTRY models.",
+      "pricing": [
+        {
+          "range": "[1,2]",
+          "label": "Your 1st To 2nd Units Cost",
+          "costs": [
+            {
+              "models": 1,
+              "points": 120
+            }
+          ]
+        },
+        {
+          "range": "[3,)",
+          "label": "Your 3rd + Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 130
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "120"
     },
     {
       "id": "1d1-f0d2-b810-12fe",
@@ -721,12 +925,25 @@
           "description": "Each time a unit that is beloved of the cult gains 1 or more XP in a Crusade battle and survives that battle, after that battle, roll one D6 for each other unit from your Crusade army that survived that battle: on a 6, the unit you rolled for gains 1XP."
         }
       ],
-      "transportCapacity": "This model has a transport capacity of 12 GENESTEALER CULTS INFANTRY models."
+      "transportCapacity": "This model has a transport capacity of 12 GENESTEALER CULTS INFANTRY models.",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 85
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "85"
     },
     {
       "id": "8a84-a8fd-977e-9118",
       "name": "Hybrid Metamorphs",
-      "points": 70,
+      "points": 75,
       "keywords": [
         "Infantry",
         "Grenades",
@@ -824,7 +1041,38 @@
           "name": "Beloved of the Cult",
           "description": "Each time a unit that is beloved of the cult gains 1 or more XP in a Crusade battle and survives that battle, after that battle, roll one D6 for each other unit from your Crusade army that survived that battle: on a 6, the unit you rolled for gains 1XP."
         }
-      ]
+      ],
+      "pricing": [
+        {
+          "range": "[1,2]",
+          "label": "Your 1st To 2nd Units Cost",
+          "costs": [
+            {
+              "models": 5,
+              "points": 75
+            },
+            {
+              "models": 10,
+              "points": 150
+            }
+          ]
+        },
+        {
+          "range": "[3,)",
+          "label": "Your 3rd + Unit Costs",
+          "costs": [
+            {
+              "models": 5,
+              "points": 85
+            },
+            {
+              "models": 10,
+              "points": 160
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "75/150"
     },
     {
       "id": "6426-ca59-402a-d399",
@@ -907,6 +1155,23 @@
           "name": "Beloved of the Cult",
           "description": "Each time a unit that is beloved of the cult gains 1 or more XP in a Crusade battle and survives that battle, after that battle, roll one D6 for each other unit from your Crusade army that survived that battle: on a 6, the unit you rolled for gains 1XP."
         }
+      ],
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 55
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "55",
+      "mfmRole": "leader",
+      "attachTo": [
+        "Atalan Jackals"
       ]
     },
     {
@@ -977,12 +1242,25 @@
           "name": "Beloved of the Cult",
           "description": "Each time a unit that is beloved of the cult gains 1 or more XP in a Crusade battle and survives that battle, after that battle, roll one D6 for each other unit from your Crusade army that survived that battle: on a 6, the unit you rolled for gains 1XP."
         }
-      ]
+      ],
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 60
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "60"
     },
     {
       "id": "51e8-dac1-561a-aaa9",
       "name": "Locus",
-      "points": 45,
+      "points": 35,
       "keywords": [
         "Infantry",
         "Character",
@@ -1033,6 +1311,26 @@
           "name": "Beloved of the Cult",
           "description": "Each time a unit that is beloved of the cult gains 1 or more XP in a Crusade battle and survives that battle, after that battle, roll one D6 for each other unit from your Crusade army that survived that battle: on a 6, the unit you rolled for gains 1XP."
         }
+      ],
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 35
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "35",
+      "mfmRole": "support",
+      "attachTo": [
+        "Acolyte Hybrids With Autopistols",
+        "Acolyte Hybrids With Hand Flamers",
+        "Hybrid Metamorphs",
+        "Neophyte Hybrids"
       ]
     },
     {
@@ -1109,12 +1407,32 @@
           "name": "Beloved of the Cult",
           "description": "Each time a unit that is beloved of the cult gains 1 or more XP in a Crusade battle and survives that battle, after that battle, roll one D6 for each other unit from your Crusade army that survived that battle: on a 6, the unit you rolled for gains 1XP."
         }
+      ],
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 50
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "50",
+      "mfmRole": "leader",
+      "attachTo": [
+        "Acolyte Hybrids With Autopistols",
+        "Acolyte Hybrids With Hand Flamers",
+        "Hybrid Metamorphs",
+        "Neophyte Hybrids"
       ]
     },
     {
       "id": "b5d2-8681-6bba-f05b",
       "name": "Neophyte Hybrids",
-      "points": 65,
+      "points": 70,
       "keywords": [
         "Infantry",
         "Grenades",
@@ -1308,7 +1626,24 @@
           "name": "Beloved of the Cult",
           "description": "Each time a unit that is beloved of the cult gains 1 or more XP in a Crusade battle and survives that battle, after that battle, roll one D6 for each other unit from your Crusade army that survived that battle: on a 6, the unit you rolled for gains 1XP."
         }
-      ]
+      ],
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 10,
+              "points": 70
+            },
+            {
+              "models": 20,
+              "points": 145
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "70/145"
     },
     {
       "id": "55c7-90e0-419-44f9",
@@ -1377,12 +1712,32 @@
           "name": "Beloved of the Cult",
           "description": "Each time a unit that is beloved of the cult gains 1 or more XP in a Crusade battle and survives that battle, after that battle, roll one D6 for each other unit from your Crusade army that survived that battle: on a 6, the unit you rolled for gains 1XP."
         }
+      ],
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 60
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "60",
+      "mfmRole": "support",
+      "attachTo": [
+        "Acolyte Hybrids With Autopistols",
+        "Acolyte Hybrids With Hand Flamers",
+        "Hybrid Metamorphs",
+        "Neophyte Hybrids"
       ]
     },
     {
       "id": "2a91-a18e-bd08-fa66",
       "name": "Patriarch",
-      "points": 75,
+      "points": 80,
       "keywords": [
         "Infantry",
         "Character",
@@ -1445,6 +1800,23 @@
           "name": "Beloved of the Cult",
           "description": "Each time a unit that is beloved of the cult gains 1 or more XP in a Crusade battle and survives that battle, after that battle, roll one D6 for each other unit from your Crusade army that survived that battle: on a 6, the unit you rolled for gains 1XP."
         }
+      ],
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 80
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "80",
+      "mfmRole": "leader",
+      "attachTo": [
+        "Purestrain Genestealers"
       ]
     },
     {
@@ -1533,12 +1905,32 @@
           "name": "Beloved of the Cult",
           "description": "Each time a unit that is beloved of the cult gains 1 or more XP in a Crusade battle and survives that battle, after that battle, roll one D6 for each other unit from your Crusade army that survived that battle: on a 6, the unit you rolled for gains 1XP."
         }
+      ],
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 70
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "70",
+      "mfmRole": "leader",
+      "attachTo": [
+        "Acolyte Hybrids With Autopistols",
+        "Acolyte Hybrids With Hand Flamers",
+        "Hybrid Metamorphs",
+        "Neophyte Hybrids"
       ]
     },
     {
       "id": "965b-496a-3a1b-22a8",
       "name": "Purestrain Genestealers",
-      "points": 75,
+      "points": 80,
       "keywords": [
         "Infantry",
         "Great Devourer"
@@ -1584,12 +1976,43 @@
           "name": "Beloved of the Cult",
           "description": "Each time a unit that is beloved of the cult gains 1 or more XP in a Crusade battle and survives that battle, after that battle, roll one D6 for each other unit from your Crusade army that survived that battle: on a 6, the unit you rolled for gains 1XP."
         }
-      ]
+      ],
+      "pricing": [
+        {
+          "range": "[1,2]",
+          "label": "Your 1st To 2nd Units Cost",
+          "costs": [
+            {
+              "models": 5,
+              "points": 80
+            },
+            {
+              "models": 10,
+              "points": 140
+            }
+          ]
+        },
+        {
+          "range": "[3,)",
+          "label": "Your 3rd + Unit Costs",
+          "costs": [
+            {
+              "models": 5,
+              "points": 90
+            },
+            {
+              "models": 10,
+              "points": 150
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "80/140"
     },
     {
       "id": "4565-bd65-9e8b-284d",
       "name": "Reductus Saboteur",
-      "points": 65,
+      "points": 70,
       "keywords": [
         "Infantry",
         "Character",
@@ -1681,12 +2104,25 @@
           "name": "Beloved of the Cult",
           "description": "Each time a unit that is beloved of the cult gains 1 or more XP in a Crusade battle and survives that battle, after that battle, roll one D6 for each other unit from your Crusade army that survived that battle: on a 6, the unit you rolled for gains 1XP."
         }
-      ]
+      ],
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 70
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "70"
     },
     {
       "id": "3d6c-357e-3c09-813c",
       "name": "Sanctus",
-      "points": 50,
+      "points": 65,
       "keywords": [
         "Infantry",
         "Character",
@@ -1769,7 +2205,20 @@
           "name": "Beloved of the Cult",
           "description": "Each time a unit that is beloved of the cult gains 1 or more XP in a Crusade battle and survives that battle, after that battle, roll one D6 for each other unit from your Crusade army that survived that battle: on a 6, the unit you rolled for gains 1XP."
         }
-      ]
+      ],
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 65
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "65"
     },
     {
       "id": "4c63-309e-88e3-7d17",
@@ -1826,7 +2275,7 @@
     {
       "id": "908a-9fd8-2270-8dbd",
       "name": "Benefictus",
-      "points": 70,
+      "points": 75,
       "keywords": [
         "Character",
         "Infantry",
@@ -1906,6 +2355,26 @@
           "name": "Beloved of the Cult",
           "description": "Each time a unit that is beloved of the cult gains 1 or more XP in a Crusade battle and survives that battle, after that battle, roll one D6 for each other unit from your Crusade army that survived that battle: on a 6, the unit you rolled for gains 1XP."
         }
+      ],
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 75
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "75",
+      "mfmRole": "leader",
+      "attachTo": [
+        "Acolyte Hybrids With Autopistols",
+        "Acolyte Hybrids With Hand Flamers",
+        "Hybrid Metamorphs",
+        "Neophyte Hybrids"
       ]
     },
     {

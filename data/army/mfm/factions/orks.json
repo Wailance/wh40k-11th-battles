@@ -1,0 +1,2412 @@
+{
+  "slug": "orks",
+  "name": "Orks",
+  "version": "1.0",
+  "firstSeen": "2026-06-17",
+  "detachments": [
+    {
+      "name": "Blitz Brigade",
+      "dp": 2,
+      "objective": "RECONNAISSANCE",
+      "enhancements": [
+        {
+          "name": "Blitzkaptin",
+          "points": 25,
+          "detachment": "Blitz Brigade"
+        },
+        {
+          "name": "Runnin’ Boots",
+          "points": 10,
+          "detachment": "Blitz Brigade"
+        },
+        {
+          "name": "Supercharged Squig Oil",
+          "points": 10,
+          "detachment": "Blitz Brigade"
+        },
+        {
+          "name": "Tuff Git",
+          "points": 5,
+          "detachment": "Blitz Brigade"
+        }
+      ]
+    },
+    {
+      "name": "Bully Boyz",
+      "dp": 2,
+      "objective": "PURGE THE FOE",
+      "enhancements": [
+        {
+          "name": "’Eadstompa",
+          "points": 10,
+          "detachment": "Bully Boyz"
+        },
+        {
+          "name": "Big Gob",
+          "points": 20,
+          "detachment": "Bully Boyz"
+        },
+        {
+          "name": "Da Biggest Boss",
+          "points": 15,
+          "detachment": "Bully Boyz"
+        },
+        {
+          "name": "Tellyporta",
+          "points": 25,
+          "detachment": "Bully Boyz"
+        }
+      ]
+    },
+    {
+      "name": "Da Big Hunt",
+      "dp": 2,
+      "objective": "PURGE THE FOE",
+      "enhancements": [
+        {
+          "name": "Glory Hog",
+          "points": 30,
+          "detachment": "Da Big Hunt"
+        },
+        {
+          "name": "Proper Killy",
+          "points": 15,
+          "detachment": "Da Big Hunt"
+        },
+        {
+          "name": "Skrag Every Stash!",
+          "points": 25,
+          "detachment": "Da Big Hunt"
+        },
+        {
+          "name": "Surly as a Squiggoth",
+          "points": 20,
+          "detachment": "Da Big Hunt"
+        }
+      ]
+    },
+    {
+      "name": "Dread Mob",
+      "dp": 2,
+      "objective": "PURGE THE FOE",
+      "enhancements": [
+        {
+          "name": "Gitfinder Gogglez",
+          "points": 10,
+          "detachment": "Dread Mob"
+        },
+        {
+          "name": "Press It Fasta!",
+          "points": 35,
+          "detachment": "Dread Mob"
+        },
+        {
+          "name": "Smoky Gubbinz",
+          "points": 15,
+          "detachment": "Dread Mob"
+        },
+        {
+          "name": "Supa-glowy Fing",
+          "points": 20,
+          "detachment": "Dread Mob"
+        }
+      ]
+    },
+    {
+      "name": "Freebooter Krew",
+      "dp": 2,
+      "objective": "TAKE AND HOLD",
+      "enhancements": [
+        {
+          "name": "Bionik Workshop",
+          "points": 15,
+          "detachment": "Freebooter Krew"
+        },
+        {
+          "name": "Da Kaptin",
+          "points": 10,
+          "detachment": "Freebooter Krew"
+        },
+        {
+          "name": "Git-Spotter Squig",
+          "points": 20,
+          "detachment": "Freebooter Krew"
+        },
+        {
+          "name": "Razgit’s Magik Map",
+          "points": 25,
+          "detachment": "Freebooter Krew"
+        }
+      ]
+    },
+    {
+      "name": "Green Tide",
+      "dp": 2,
+      "objective": "TAKE AND HOLD",
+      "enhancements": [
+        {
+          "name": "Bloodthirsty Belligerence",
+          "points": 15,
+          "detachment": "Green Tide"
+        },
+        {
+          "name": "Brutal But Kunnin’",
+          "points": 25,
+          "detachment": "Green Tide"
+        },
+        {
+          "name": "Ferocious Show Off",
+          "points": 10,
+          "detachment": "Green Tide"
+        },
+        {
+          "name": "Raucous Warcaller",
+          "points": 20,
+          "detachment": "Green Tide"
+        }
+      ]
+    },
+    {
+      "name": "Kult Of Speed",
+      "dp": 2,
+      "objective": "DISRUPTION",
+      "enhancements": [
+        {
+          "name": "Fasta Than Yooz",
+          "points": 35,
+          "detachment": "Kult Of Speed"
+        },
+        {
+          "name": "Speed Makes Right",
+          "points": 25,
+          "detachment": "Kult Of Speed"
+        },
+        {
+          "name": "Squig-hide Tyres",
+          "points": 15,
+          "detachment": "Kult Of Speed"
+        },
+        {
+          "name": "Wazblasta",
+          "points": 10,
+          "detachment": "Kult Of Speed"
+        }
+      ]
+    },
+    {
+      "name": "More Dakka!",
+      "dp": 1,
+      "objective": "PURGE THE FOE",
+      "enhancements": [
+        {
+          "name": "Da Gobshot Thunderbuss",
+          "points": 15,
+          "detachment": "More Dakka!"
+        },
+        {
+          "name": "Dead Shiny Shootas (Upgrade)",
+          "points": 15,
+          "detachment": "More Dakka!"
+        }
+      ]
+    },
+    {
+      "name": "Rollin' Deff",
+      "dp": 1,
+      "objective": "PRIORITY ASSETS",
+      "enhancements": [
+        {
+          "name": "Boarding Ramps (Upgrade)",
+          "points": 10,
+          "detachment": "Rollin' Deff"
+        },
+        {
+          "name": "Targetin’ Gizmos (Upgrade)",
+          "points": 15,
+          "detachment": "Rollin' Deff"
+        }
+      ]
+    },
+    {
+      "name": "Speedwaaagh!",
+      "dp": 2,
+      "objective": "RECONNAISSANCE",
+      "enhancements": [
+        {
+          "name": "Dakkamek",
+          "points": 25,
+          "detachment": "Speedwaaagh!"
+        },
+        {
+          "name": "Kustom Shokk Box",
+          "points": 10,
+          "detachment": "Speedwaaagh!"
+        },
+        {
+          "name": "Master Meknologist",
+          "points": 20,
+          "detachment": "Speedwaaagh!"
+        },
+        {
+          "name": "Supa-Burny Fuel",
+          "points": 15,
+          "detachment": "Speedwaaagh!"
+        }
+      ]
+    },
+    {
+      "name": "Taktikal Brigade",
+      "dp": 1,
+      "objective": "DISRUPTION",
+      "enhancements": [
+        {
+          "name": "Mork’s Kunnin’",
+          "points": 20,
+          "detachment": "Taktikal Brigade"
+        },
+        {
+          "name": "Slippery Git",
+          "points": 15,
+          "detachment": "Taktikal Brigade"
+        }
+      ]
+    },
+    {
+      "name": "War Horde",
+      "dp": 3,
+      "objective": "TAKE AND HOLD",
+      "enhancements": [
+        {
+          "name": "Follow Me Ladz",
+          "points": 25,
+          "detachment": "War Horde"
+        },
+        {
+          "name": "Headwoppa’s Killchoppa",
+          "points": 20,
+          "detachment": "War Horde"
+        },
+        {
+          "name": "Kunnin’ But Brutal",
+          "points": 15,
+          "detachment": "War Horde"
+        },
+        {
+          "name": "Supa-Cybork Body",
+          "points": 15,
+          "detachment": "War Horde"
+        }
+      ]
+    }
+  ],
+  "units": [
+    {
+      "name": "Attack Fighta",
+      "normalizedName": "attack fighta",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 100
+            }
+          ]
+        }
+      ],
+      "points": 100,
+      "pointsLabel": "100",
+      "legends": true
+    },
+    {
+      "name": "Bannernob",
+      "normalizedName": "bannernob",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 50
+            }
+          ]
+        }
+      ],
+      "points": 50,
+      "pointsLabel": "50",
+      "legends": false,
+      "role": "support",
+      "attachTo": [
+        "Boyz",
+        "Breaka Boyz",
+        "Burna Boyz",
+        "Flash Gitz",
+        "Lootas",
+        "Nobz",
+        "Tankbustas"
+      ]
+    },
+    {
+      "name": "Battlewagon",
+      "normalizedName": "battlewagon",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 145
+            }
+          ]
+        }
+      ],
+      "points": 145,
+      "pointsLabel": "145",
+      "legends": false
+    },
+    {
+      "name": "Beast Snagga Boyz",
+      "normalizedName": "beast snagga boyz",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 10,
+              "points": 90
+            },
+            {
+              "models": 20,
+              "points": 170
+            }
+          ]
+        }
+      ],
+      "points": 90,
+      "pointsLabel": "90/170",
+      "legends": false
+    },
+    {
+      "name": "Beastboss",
+      "normalizedName": "beastboss",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 80
+            }
+          ]
+        }
+      ],
+      "points": 80,
+      "pointsLabel": "80",
+      "legends": false,
+      "role": "leader",
+      "attachTo": [
+        "Beast Snagga Boyz"
+      ]
+    },
+    {
+      "name": "Beastboss On Squigosaur",
+      "normalizedName": "beastboss on squigosaur",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 95
+            }
+          ]
+        }
+      ],
+      "points": 95,
+      "pointsLabel": "95",
+      "legends": false,
+      "role": "leader",
+      "attachTo": [
+        "Squighog Boyz"
+      ]
+    },
+    {
+      "name": "Big Gunz",
+      "normalizedName": "big gunz",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 20
+            },
+            {
+              "models": 2,
+              "points": 40
+            }
+          ]
+        }
+      ],
+      "points": 20,
+      "pointsLabel": "20/40",
+      "legends": true
+    },
+    {
+      "name": "Big Mek",
+      "normalizedName": "big mek",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 70
+            }
+          ]
+        }
+      ],
+      "points": 70,
+      "pointsLabel": "70",
+      "legends": false,
+      "role": "leader",
+      "attachTo": [
+        "Boyz",
+        "Breaka Boyz",
+        "Lootas",
+        "Mek Gunz",
+        "Nobz",
+        "Tankbustas"
+      ]
+    },
+    {
+      "name": "Big Mek Dakkarig",
+      "normalizedName": "big mek dakkarig",
+      "pricing": [
+        {
+          "range": "[1,2]",
+          "label": "Your 1st To 2nd Units Cost",
+          "costs": [
+            {
+              "models": 1,
+              "points": 100
+            }
+          ]
+        },
+        {
+          "range": "[3,)",
+          "label": "Your 3rd + Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 110
+            }
+          ]
+        }
+      ],
+      "points": 100,
+      "pointsLabel": "100",
+      "legends": false
+    },
+    {
+      "name": "Big Mek In Mega Armour",
+      "normalizedName": "big mek in mega armour",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 80
+            }
+          ]
+        }
+      ],
+      "points": 80,
+      "pointsLabel": "80",
+      "legends": false,
+      "role": "leader",
+      "attachTo": [
+        "Meganobz"
+      ]
+    },
+    {
+      "name": "Big Mek On Warbike",
+      "normalizedName": "big mek on warbike",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 105
+            }
+          ]
+        }
+      ],
+      "points": 105,
+      "pointsLabel": "105",
+      "legends": true,
+      "role": "leader",
+      "attachTo": [
+        "Nobz On Warbikes",
+        "Skorchas",
+        "Warbikers",
+        "Warbuggies"
+      ]
+    },
+    {
+      "name": "Big Mek With Kustom Force Field",
+      "normalizedName": "big mek with kustom force field",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 55
+            }
+          ]
+        }
+      ],
+      "points": 55,
+      "pointsLabel": "55",
+      "legends": true,
+      "role": "leader",
+      "attachTo": [
+        "Boyz",
+        "Burna Boyz",
+        "Lootas",
+        "Nobz",
+        "Tankbustas"
+      ]
+    },
+    {
+      "name": "Big Mek With Shokk Attack Gun",
+      "normalizedName": "big mek with shokk attack gun",
+      "pricing": [
+        {
+          "range": "[1,2]",
+          "label": "Your 1st To 2nd Units Cost",
+          "costs": [
+            {
+              "models": 1,
+              "points": 70
+            }
+          ]
+        },
+        {
+          "range": "[3,)",
+          "label": "Your 3rd + Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 80
+            }
+          ]
+        }
+      ],
+      "points": 70,
+      "pointsLabel": "70",
+      "legends": false,
+      "role": "leader",
+      "attachTo": [
+        "Boyz",
+        "Breaka Boyz",
+        "Lootas",
+        "Mek Gunz",
+        "Nobz",
+        "Tankbustas"
+      ]
+    },
+    {
+      "name": "Big Trakk",
+      "normalizedName": "big trakk",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 90
+            }
+          ]
+        }
+      ],
+      "points": 90,
+      "pointsLabel": "90",
+      "legends": true
+    },
+    {
+      "name": "Big’Ed Bossbunka",
+      "normalizedName": "biged bossbunka",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 135
+            }
+          ]
+        }
+      ],
+      "points": 135,
+      "pointsLabel": "135",
+      "legends": false
+    },
+    {
+      "name": "Bigboss",
+      "normalizedName": "bigboss",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 55
+            }
+          ]
+        }
+      ],
+      "points": 55,
+      "pointsLabel": "55",
+      "legends": false,
+      "role": "leader",
+      "attachTo": [
+        "Boyz",
+        "Breaka Boyz",
+        "Nobz"
+      ]
+    },
+    {
+      "name": "Blitza-Bommer",
+      "normalizedName": "blitza bommer",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 105
+            }
+          ]
+        }
+      ],
+      "points": 105,
+      "pointsLabel": "105",
+      "legends": false
+    },
+    {
+      "name": "Boomdakka Snazzwagon",
+      "normalizedName": "boomdakka snazzwagon",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 70
+            }
+          ]
+        }
+      ],
+      "points": 70,
+      "pointsLabel": "70",
+      "legends": false
+    },
+    {
+      "name": "Boss Snikrot",
+      "normalizedName": "boss snikrot",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 75
+            }
+          ]
+        }
+      ],
+      "points": 75,
+      "pointsLabel": "75",
+      "legends": false,
+      "role": "leader",
+      "attachTo": [
+        "Kommandos"
+      ]
+    },
+    {
+      "name": "Boss Zagstruk",
+      "normalizedName": "boss zagstruk",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 90
+            }
+          ]
+        }
+      ],
+      "points": 90,
+      "pointsLabel": "90",
+      "legends": true,
+      "role": "leader",
+      "attachTo": [
+        "Stormboyz"
+      ]
+    },
+    {
+      "name": "Boyz",
+      "normalizedName": "boyz",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 10,
+              "points": 75
+            },
+            {
+              "models": 20,
+              "points": 150
+            }
+          ]
+        }
+      ],
+      "points": 75,
+      "pointsLabel": "75/150",
+      "legends": false
+    },
+    {
+      "name": "Breaka Boyz",
+      "normalizedName": "breaka boyz",
+      "pricing": [
+        {
+          "range": "[1,2]",
+          "label": "Your 1st To 2nd Units Cost",
+          "costs": [
+            {
+              "models": 6,
+              "points": 125
+            }
+          ]
+        },
+        {
+          "range": "[3,)",
+          "label": "Your 3rd + Unit Costs",
+          "costs": [
+            {
+              "models": 6,
+              "points": 135
+            }
+          ]
+        }
+      ],
+      "points": 125,
+      "pointsLabel": "125",
+      "legends": false
+    },
+    {
+      "name": "Burna Boyz",
+      "normalizedName": "burna boyz",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 5,
+              "points": 60
+            },
+            {
+              "models": 10,
+              "points": 120
+            }
+          ]
+        }
+      ],
+      "points": 60,
+      "pointsLabel": "60/120",
+      "legends": false
+    },
+    {
+      "name": "Burna-Bommer",
+      "normalizedName": "burna bommer",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 115
+            }
+          ]
+        }
+      ],
+      "points": 115,
+      "pointsLabel": "115",
+      "legends": false
+    },
+    {
+      "name": "Chinork Warkopta",
+      "normalizedName": "chinork warkopta",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 105
+            }
+          ]
+        }
+      ],
+      "points": 105,
+      "pointsLabel": "105",
+      "legends": true
+    },
+    {
+      "name": "Da Red Gobbo",
+      "normalizedName": "da red gobbo",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 40
+            }
+          ]
+        }
+      ],
+      "points": 40,
+      "pointsLabel": "40",
+      "legends": true,
+      "role": "leader",
+      "attachTo": [
+        "Gretchin"
+      ]
+    },
+    {
+      "name": "Dakkajet",
+      "normalizedName": "dakkajet",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 125
+            }
+          ]
+        }
+      ],
+      "points": 125,
+      "pointsLabel": "125",
+      "legends": false
+    },
+    {
+      "name": "Deff Dread",
+      "normalizedName": "deff dread",
+      "pricing": [
+        {
+          "range": "[1,2]",
+          "label": "Your 1st To 2nd Units Cost",
+          "costs": [
+            {
+              "models": 1,
+              "points": 110
+            }
+          ]
+        },
+        {
+          "range": "[3,)",
+          "label": "Your 3rd + Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 120
+            }
+          ]
+        }
+      ],
+      "points": 110,
+      "pointsLabel": "110",
+      "legends": false
+    },
+    {
+      "name": "Deff Rolla Battle Fortress",
+      "normalizedName": "deff rolla battle fortress",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 250
+            }
+          ]
+        }
+      ],
+      "points": 250,
+      "pointsLabel": "250",
+      "legends": true
+    },
+    {
+      "name": "Deffkilla Wartrike",
+      "normalizedName": "deffkilla wartrike",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 70
+            }
+          ]
+        }
+      ],
+      "points": 70,
+      "pointsLabel": "70",
+      "legends": false,
+      "role": "leader",
+      "attachTo": [
+        "Nobz On Warbikes",
+        "Skorchas",
+        "Warbikers",
+        "Warbuggies"
+      ]
+    },
+    {
+      "name": "Deffkoptas",
+      "normalizedName": "deffkoptas",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 3,
+              "points": 75
+            },
+            {
+              "models": 6,
+              "points": 140
+            }
+          ]
+        }
+      ],
+      "points": 75,
+      "pointsLabel": "75/140",
+      "legends": false
+    },
+    {
+      "name": "Deffkoptas With Big Shootas",
+      "normalizedName": "deffkoptas with big shootas",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 3,
+              "points": 130
+            }
+          ]
+        }
+      ],
+      "points": 130,
+      "pointsLabel": "130",
+      "legends": true
+    },
+    {
+      "name": "Fighta-Bommer",
+      "normalizedName": "fighta bommer",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 100
+            }
+          ]
+        }
+      ],
+      "points": 100,
+      "pointsLabel": "100",
+      "legends": true
+    },
+    {
+      "name": "Flash Gitz",
+      "normalizedName": "flash gitz",
+      "pricing": [
+        {
+          "range": "[1,2]",
+          "label": "Your 1st To 2nd Units Cost",
+          "costs": [
+            {
+              "models": 5,
+              "points": 75
+            },
+            {
+              "models": 10,
+              "points": 150
+            }
+          ]
+        },
+        {
+          "range": "[3,)",
+          "label": "Your 3rd + Unit Costs",
+          "costs": [
+            {
+              "models": 5,
+              "points": 85
+            },
+            {
+              "models": 10,
+              "points": 160
+            }
+          ]
+        }
+      ],
+      "points": 75,
+      "pointsLabel": "75/150",
+      "legends": false
+    },
+    {
+      "name": "Gargantuan Squiggoth",
+      "normalizedName": "gargantuan squiggoth",
+      "pricing": [
+        {
+          "range": "[1,1]",
+          "label": "Your 1st Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 440
+            }
+          ]
+        },
+        {
+          "range": "[2,)",
+          "label": "Your 2nd + Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 490
+            }
+          ]
+        }
+      ],
+      "points": 440,
+      "pointsLabel": "440",
+      "legends": false
+    },
+    {
+      "name": "Ghazghkull Thraka",
+      "normalizedName": "ghazghkull thraka",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 2,
+              "points": 235
+            }
+          ]
+        }
+      ],
+      "points": 235,
+      "pointsLabel": "235",
+      "legends": false,
+      "role": "leader",
+      "attachTo": [
+        "Boyz",
+        "Breaka Boyz",
+        "Meganobz",
+        "Nobz"
+      ]
+    },
+    {
+      "name": "Gorkanaut",
+      "normalizedName": "gorkanaut",
+      "pricing": [
+        {
+          "range": "[1,2]",
+          "label": "Your 1st To 2nd Units Cost",
+          "costs": [
+            {
+              "models": 1,
+              "points": 255
+            }
+          ]
+        },
+        {
+          "range": "[3,)",
+          "label": "Your 3rd + Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 275
+            }
+          ]
+        }
+      ],
+      "points": 255,
+      "pointsLabel": "255",
+      "legends": false
+    },
+    {
+      "name": "Gretchin",
+      "normalizedName": "gretchin",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 11,
+              "points": 45
+            },
+            {
+              "models": 22,
+              "points": 80
+            }
+          ]
+        }
+      ],
+      "points": 45,
+      "pointsLabel": "45/80",
+      "legends": false
+    },
+    {
+      "name": "Grot Bomm Launcha",
+      "normalizedName": "grot bomm launcha",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 50
+            }
+          ]
+        }
+      ],
+      "points": 50,
+      "pointsLabel": "50",
+      "legends": true
+    },
+    {
+      "name": "Grot Mega-Tank",
+      "normalizedName": "grot mega tank",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 110
+            }
+          ]
+        }
+      ],
+      "points": 110,
+      "pointsLabel": "110",
+      "legends": true
+    },
+    {
+      "name": "Grot Tanks",
+      "normalizedName": "grot tanks",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 4,
+              "points": 155
+            },
+            {
+              "models": 8,
+              "points": 310
+            }
+          ]
+        }
+      ],
+      "points": 155,
+      "pointsLabel": "155/310",
+      "legends": true
+    },
+    {
+      "name": "Hunta Rig",
+      "normalizedName": "hunta rig",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 125
+            }
+          ]
+        }
+      ],
+      "points": 125,
+      "pointsLabel": "125",
+      "legends": false
+    },
+    {
+      "name": "Kannonwagon",
+      "normalizedName": "kannonwagon",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 115
+            }
+          ]
+        }
+      ],
+      "points": 115,
+      "pointsLabel": "115",
+      "legends": true
+    },
+    {
+      "name": "Kaptin Badrukk",
+      "normalizedName": "kaptin badrukk",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 80
+            }
+          ]
+        }
+      ],
+      "points": 80,
+      "pointsLabel": "80",
+      "legends": true,
+      "role": "leader",
+      "attachTo": [
+        "Flash Gitz"
+      ]
+    },
+    {
+      "name": "Kill Krusha",
+      "normalizedName": "kill krusha",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 230
+            }
+          ]
+        }
+      ],
+      "points": 230,
+      "pointsLabel": "230",
+      "legends": true
+    },
+    {
+      "name": "Kill Rig",
+      "normalizedName": "kill rig",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 145
+            }
+          ]
+        }
+      ],
+      "points": 145,
+      "pointsLabel": "145",
+      "legends": false
+    },
+    {
+      "name": "Kill Tank",
+      "normalizedName": "kill tank",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 295
+            }
+          ]
+        }
+      ],
+      "points": 295,
+      "pointsLabel": "295",
+      "legends": true
+    },
+    {
+      "name": "Killa Kans",
+      "normalizedName": "killa kans",
+      "pricing": [
+        {
+          "range": "[1,2]",
+          "label": "Your 1st To 2nd Units Cost",
+          "costs": [
+            {
+              "models": 3,
+              "points": 120
+            },
+            {
+              "models": 6,
+              "points": 240
+            }
+          ]
+        },
+        {
+          "range": "[3,)",
+          "label": "Your 3rd + Unit Costs",
+          "costs": [
+            {
+              "models": 3,
+              "points": 130
+            },
+            {
+              "models": 6,
+              "points": 250
+            }
+          ]
+        }
+      ],
+      "points": 120,
+      "pointsLabel": "120/240",
+      "legends": false
+    },
+    {
+      "name": "Kommandos",
+      "normalizedName": "kommandos",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 10,
+              "points": 120
+            }
+          ]
+        }
+      ],
+      "points": 120,
+      "pointsLabel": "120",
+      "legends": false
+    },
+    {
+      "name": "Kustom Boosta-Blasta",
+      "normalizedName": "kustom boosta blasta",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 70
+            }
+          ]
+        }
+      ],
+      "points": 70,
+      "pointsLabel": "70",
+      "legends": false
+    },
+    {
+      "name": "Lifta Wagon",
+      "normalizedName": "lifta wagon",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 135
+            }
+          ]
+        }
+      ],
+      "points": 135,
+      "pointsLabel": "135",
+      "legends": true
+    },
+    {
+      "name": "Lootas",
+      "normalizedName": "lootas",
+      "pricing": [
+        {
+          "range": "[1,2]",
+          "label": "Your 1st To 2nd Units Cost",
+          "costs": [
+            {
+              "models": 5,
+              "points": 50
+            },
+            {
+              "models": 10,
+              "points": 100
+            }
+          ]
+        },
+        {
+          "range": "[3,)",
+          "label": "Your 3rd + Unit Costs",
+          "costs": [
+            {
+              "models": 5,
+              "points": 60
+            },
+            {
+              "models": 10,
+              "points": 110
+            }
+          ]
+        }
+      ],
+      "points": 50,
+      "pointsLabel": "50/100",
+      "legends": false
+    },
+    {
+      "name": "Mad Dok Grotsnik",
+      "normalizedName": "mad dok grotsnik",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 65
+            }
+          ]
+        }
+      ],
+      "points": 65,
+      "pointsLabel": "65",
+      "legends": true,
+      "role": "leader",
+      "attachTo": [
+        "Boyz",
+        "Burna Boyz",
+        "Lootas",
+        "Nobz",
+        "Tankbustas"
+      ]
+    },
+    {
+      "name": "Mega Dread",
+      "normalizedName": "mega dread",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 225
+            }
+          ]
+        }
+      ],
+      "points": 225,
+      "pointsLabel": "225",
+      "legends": true
+    },
+    {
+      "name": "Meganobz",
+      "normalizedName": "meganobz",
+      "pricing": [
+        {
+          "range": "[1,2]",
+          "label": "Your 1st To 2nd Units Cost",
+          "costs": [
+            {
+              "models": 2,
+              "points": 60
+            },
+            {
+              "models": 3,
+              "points": 90
+            },
+            {
+              "models": 5,
+              "points": 150
+            },
+            {
+              "models": 6,
+              "points": 180
+            }
+          ]
+        },
+        {
+          "range": "[3,)",
+          "label": "Your 3rd + Unit Costs",
+          "costs": [
+            {
+              "models": 2,
+              "points": 80
+            },
+            {
+              "models": 3,
+              "points": 110
+            },
+            {
+              "models": 5,
+              "points": 170
+            },
+            {
+              "models": 6,
+              "points": 200
+            }
+          ]
+        }
+      ],
+      "points": 60,
+      "pointsLabel": "60/90/150/180",
+      "legends": false
+    },
+    {
+      "name": "Megatrakk Scrapjet",
+      "normalizedName": "megatrakk scrapjet",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 75
+            }
+          ]
+        }
+      ],
+      "points": 75,
+      "pointsLabel": "75",
+      "legends": false
+    },
+    {
+      "name": "Mek",
+      "normalizedName": "mek",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 45
+            }
+          ]
+        }
+      ],
+      "points": 45,
+      "pointsLabel": "45",
+      "legends": false,
+      "role": "leader",
+      "attachTo": [
+        "Boyz",
+        "Lootas",
+        "Mek Gunz",
+        "Nobz",
+        "Tankbustas"
+      ]
+    },
+    {
+      "name": "Mek Gunz",
+      "normalizedName": "mek gunz",
+      "pricing": [
+        {
+          "range": "[1,2]",
+          "label": "Your 1st To 2nd Units Cost",
+          "costs": [
+            {
+              "models": 1,
+              "points": 45
+            },
+            {
+              "models": 2,
+              "points": 90
+            },
+            {
+              "models": 3,
+              "points": 135
+            }
+          ]
+        },
+        {
+          "range": "[3,)",
+          "label": "Your 3rd + Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 55
+            },
+            {
+              "models": 2,
+              "points": 100
+            },
+            {
+              "models": 3,
+              "points": 145
+            }
+          ]
+        }
+      ],
+      "points": 45,
+      "pointsLabel": "45/90/135",
+      "legends": false
+    },
+    {
+      "name": "Meka-Dread",
+      "normalizedName": "meka dread",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 210
+            }
+          ]
+        }
+      ],
+      "points": 210,
+      "pointsLabel": "210",
+      "legends": true
+    },
+    {
+      "name": "Mekboy Workshop",
+      "normalizedName": "mekboy workshop",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 80
+            }
+          ]
+        }
+      ],
+      "points": 80,
+      "pointsLabel": "80",
+      "legends": true
+    },
+    {
+      "name": "Morkanaut",
+      "normalizedName": "morkanaut",
+      "pricing": [
+        {
+          "range": "[1,2]",
+          "label": "Your 1st To 2nd Units Cost",
+          "costs": [
+            {
+              "models": 1,
+              "points": 270
+            }
+          ]
+        },
+        {
+          "range": "[3,)",
+          "label": "Your 3rd + Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 290
+            }
+          ]
+        }
+      ],
+      "points": 270,
+      "pointsLabel": "270",
+      "legends": false
+    },
+    {
+      "name": "Mozrog Skragbad",
+      "normalizedName": "mozrog skragbad",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 125
+            }
+          ]
+        }
+      ],
+      "points": 125,
+      "pointsLabel": "125",
+      "legends": false,
+      "role": "leader",
+      "attachTo": [
+        "Squighog Boyz"
+      ]
+    },
+    {
+      "name": "Nobz",
+      "normalizedName": "nobz",
+      "pricing": [
+        {
+          "range": "[1,2]",
+          "label": "Your 1st To 2nd Units Cost",
+          "costs": [
+            {
+              "models": 5,
+              "points": 105
+            },
+            {
+              "models": 10,
+              "points": 210
+            }
+          ]
+        },
+        {
+          "range": "[3,)",
+          "label": "Your 3rd + Unit Costs",
+          "costs": [
+            {
+              "models": 5,
+              "points": 115
+            },
+            {
+              "models": 10,
+              "points": 220
+            }
+          ]
+        }
+      ],
+      "points": 105,
+      "pointsLabel": "105/210",
+      "legends": false
+    },
+    {
+      "name": "Nobz On Warbikes",
+      "normalizedName": "nobz on warbikes",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 3,
+              "points": 125
+            }
+          ]
+        }
+      ],
+      "points": 125,
+      "pointsLabel": "125",
+      "legends": true
+    },
+    {
+      "name": "Painboss",
+      "normalizedName": "painboss",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 60
+            }
+          ]
+        }
+      ],
+      "points": 60,
+      "pointsLabel": "60",
+      "legends": false,
+      "role": "leader",
+      "attachTo": [
+        "Beast Snagga Boyz"
+      ]
+    },
+    {
+      "name": "Painboy",
+      "normalizedName": "painboy",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 80
+            }
+          ]
+        }
+      ],
+      "points": 80,
+      "pointsLabel": "80",
+      "legends": false,
+      "role": "support",
+      "attachTo": [
+        "Boyz",
+        "Breaka Boyz",
+        "Burna Boyz",
+        "Lootas",
+        "Nobz",
+        "Tankbustas"
+      ]
+    },
+    {
+      "name": "Painboy On Warbike",
+      "normalizedName": "painboy on warbike",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 85
+            }
+          ]
+        }
+      ],
+      "points": 85,
+      "pointsLabel": "85",
+      "legends": true,
+      "role": "leader",
+      "attachTo": [
+        "Nobz On Warbikes",
+        "Skorchas",
+        "Warbikers",
+        "Warbuggies"
+      ]
+    },
+    {
+      "name": "Rukkatrukk Squigbuggy",
+      "normalizedName": "rukkatrukk squigbuggy",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 85
+            }
+          ]
+        }
+      ],
+      "points": 85,
+      "pointsLabel": "85",
+      "legends": false
+    },
+    {
+      "name": "Shokkjump Dragsta",
+      "normalizedName": "shokkjump dragsta",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 70
+            }
+          ]
+        }
+      ],
+      "points": 70,
+      "pointsLabel": "70",
+      "legends": false
+    },
+    {
+      "name": "Skorchas",
+      "normalizedName": "skorchas",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 45
+            },
+            {
+              "models": 2,
+              "points": 90
+            }
+          ]
+        }
+      ],
+      "points": 45,
+      "pointsLabel": "45/90",
+      "legends": true
+    },
+    {
+      "name": "Squiggoth",
+      "normalizedName": "squiggoth",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 150
+            }
+          ]
+        }
+      ],
+      "points": 150,
+      "pointsLabel": "150",
+      "legends": true
+    },
+    {
+      "name": "Squighog Boyz",
+      "normalizedName": "squighog boyz",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 4,
+              "points": 140
+            },
+            {
+              "models": 8,
+              "points": 270
+            }
+          ]
+        }
+      ],
+      "points": 140,
+      "pointsLabel": "140/270",
+      "legends": false
+    },
+    {
+      "name": "Stompa",
+      "normalizedName": "stompa",
+      "pricing": [
+        {
+          "range": "[1,1]",
+          "label": "Your 1st Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 600
+            }
+          ]
+        },
+        {
+          "range": "[2,)",
+          "label": "Your 2nd + Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 700
+            }
+          ]
+        }
+      ],
+      "points": 600,
+      "pointsLabel": "600",
+      "legends": false
+    },
+    {
+      "name": "Stormboyz",
+      "normalizedName": "stormboyz",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 5,
+              "points": 65
+            },
+            {
+              "models": 10,
+              "points": 130
+            }
+          ]
+        }
+      ],
+      "points": 65,
+      "pointsLabel": "65/130",
+      "legends": false
+    },
+    {
+      "name": "Tankbustas",
+      "normalizedName": "tankbustas",
+      "pricing": [
+        {
+          "range": "[1,2]",
+          "label": "Your 1st To 2nd Units Cost",
+          "costs": [
+            {
+              "models": 6,
+              "points": 125
+            }
+          ]
+        },
+        {
+          "range": "[3,)",
+          "label": "Your 3rd + Unit Costs",
+          "costs": [
+            {
+              "models": 6,
+              "points": 135
+            }
+          ]
+        }
+      ],
+      "points": 125,
+      "pointsLabel": "125",
+      "legends": false
+    },
+    {
+      "name": "Trukk",
+      "normalizedName": "trukk",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 65
+            }
+          ]
+        }
+      ],
+      "points": 65,
+      "pointsLabel": "65",
+      "legends": false
+    },
+    {
+      "name": "Ufthak Blackhawk",
+      "normalizedName": "ufthak blackhawk",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 70
+            }
+          ]
+        }
+      ],
+      "points": 70,
+      "pointsLabel": "70",
+      "legends": true,
+      "role": "leader",
+      "attachTo": [
+        "Boyz",
+        "Nobz"
+      ]
+    },
+    {
+      "name": "Warbikers",
+      "normalizedName": "warbikers",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 3,
+              "points": 60
+            },
+            {
+              "models": 6,
+              "points": 120
+            }
+          ]
+        }
+      ],
+      "points": 60,
+      "pointsLabel": "60/120",
+      "legends": false
+    },
+    {
+      "name": "Warboss",
+      "normalizedName": "warboss",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 75
+            }
+          ]
+        }
+      ],
+      "points": 75,
+      "pointsLabel": "75",
+      "legends": false,
+      "role": "leader",
+      "attachTo": [
+        "Boyz",
+        "Breaka Boyz",
+        "Nobz"
+      ]
+    },
+    {
+      "name": "Warboss In Mega Armour",
+      "normalizedName": "warboss in mega armour",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 80
+            }
+          ]
+        }
+      ],
+      "points": 80,
+      "pointsLabel": "80",
+      "legends": false,
+      "role": "leader",
+      "attachTo": [
+        "Meganobz"
+      ]
+    },
+    {
+      "name": "Warboss On Warbike",
+      "normalizedName": "warboss on warbike",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 75
+            }
+          ]
+        }
+      ],
+      "points": 75,
+      "pointsLabel": "75",
+      "legends": true,
+      "role": "leader",
+      "attachTo": [
+        "Nobz On Warbikes",
+        "Skorchas",
+        "Warbikers",
+        "Warbuggies"
+      ]
+    },
+    {
+      "name": "Warbuggies",
+      "normalizedName": "warbuggies",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 40
+            },
+            {
+              "models": 2,
+              "points": 80
+            }
+          ]
+        }
+      ],
+      "points": 40,
+      "pointsLabel": "40/80",
+      "legends": true
+    },
+    {
+      "name": "Wartrakk",
+      "normalizedName": "wartrakk",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 60
+            }
+          ]
+        }
+      ],
+      "points": 60,
+      "pointsLabel": "60",
+      "legends": false
+    },
+    {
+      "name": "Wazbom Blastajet",
+      "normalizedName": "wazbom blastajet",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 165
+            }
+          ]
+        }
+      ],
+      "points": 165,
+      "pointsLabel": "165",
+      "legends": false
+    },
+    {
+      "name": "Wazdakka Gutsmek",
+      "normalizedName": "wazdakka gutsmek",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 175
+            }
+          ]
+        }
+      ],
+      "points": 175,
+      "pointsLabel": "175",
+      "legends": false
+    },
+    {
+      "name": "Weirdboy",
+      "normalizedName": "weirdboy",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 65
+            }
+          ]
+        }
+      ],
+      "points": 65,
+      "pointsLabel": "65",
+      "legends": false,
+      "role": "leader",
+      "attachTo": [
+        "Boyz",
+        "Breaka Boyz"
+      ]
+    },
+    {
+      "name": "Wurrboy",
+      "normalizedName": "wurrboy",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 60
+            }
+          ]
+        }
+      ],
+      "points": 60,
+      "pointsLabel": "60",
+      "legends": false,
+      "role": "leader",
+      "attachTo": [
+        "Beast Snagga Boyz"
+      ]
+    },
+    {
+      "name": "Zodgrod Wortsnagga",
+      "normalizedName": "zodgrod wortsnagga",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 80
+            }
+          ]
+        }
+      ],
+      "points": 80,
+      "pointsLabel": "80",
+      "legends": false,
+      "role": "leader",
+      "attachTo": [
+        "Gretchin"
+      ]
+    }
+  ]
+}

@@ -124,7 +124,20 @@
           "name": "Using Sir Hekhtur",
           "description": "If your Canis Rex model is destroyed, this model is treated as a model disembarking from a destroyed **^^Transport^^** and must perform an Emergency Disembarkation. Sir Hekhtur cannot be selected as the target of any of your Stratagems other than Core Stratagems. Your Canis Rex unit is not considered to be destroyed until Sir Hekhtur is also destroyed."
         }
-      ]
+      ],
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 415
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "415"
     },
     {
       "id": "5bbd-c5d3-58d7-e391",
@@ -321,12 +334,25 @@
           "name": "Bonded In Shame",
           "description": "Subtract 2 from this unit's Objective Control characteristic and worsen its Leadership characteristic by 1."
         }
-      ]
+      ],
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 140
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "140"
     },
     {
       "id": "7314-3c4a-36ab-a594",
       "name": "Armiger Helverin",
-      "points": 135,
+      "points": 140,
       "keywords": [
         "Vehicle",
         "Walker",
@@ -506,7 +532,20 @@
           "name": "Bonded In Shame",
           "description": "Subtract 2 from this unit's Objective Control characteristic and worsen its Leadership characteristic by 1."
         }
-      ]
+      ],
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 140
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "140"
     },
     {
       "id": "8441-8356-5e7c-69ee",
@@ -858,7 +897,30 @@
           "name": "Bonded In Shame",
           "description": "Subtract 2 from this unit's Objective Control characteristic and worsen its Leadership characteristic by 1."
         }
-      ]
+      ],
+      "pricing": [
+        {
+          "range": "[1,2]",
+          "label": "Your 1st To 2nd Units Cost",
+          "costs": [
+            {
+              "models": 1,
+              "points": 375
+            }
+          ]
+        },
+        {
+          "range": "[3,)",
+          "label": "Your 3rd + Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 390
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "375"
     },
     {
       "id": "9efd-ec72-353f-4b23",
@@ -1210,7 +1272,30 @@
           "name": "Bonded In Shame",
           "description": "Subtract 2 from this unit's Objective Control characteristic and worsen its Leadership characteristic by 1."
         }
-      ]
+      ],
+      "pricing": [
+        {
+          "range": "[1,2]",
+          "label": "Your 1st To 2nd Units Cost",
+          "costs": [
+            {
+              "models": 1,
+              "points": 355
+            }
+          ]
+        },
+        {
+          "range": "[3,)",
+          "label": "Your 3rd + Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 370
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "355"
     },
     {
       "id": "eb4-4a67-11e9-3cb8",
@@ -1557,7 +1642,30 @@
           "name": "Bonded In Shame",
           "description": "Subtract 2 from this unit's Objective Control characteristic and worsen its Leadership characteristic by 1."
         }
-      ]
+      ],
+      "pricing": [
+        {
+          "range": "[1,2]",
+          "label": "Your 1st To 2nd Units Cost",
+          "costs": [
+            {
+              "models": 1,
+              "points": 355
+            }
+          ]
+        },
+        {
+          "range": "[3,)",
+          "label": "Your 3rd + Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 370
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "355"
     },
     {
       "id": "c609-c87e-f9dd-5006",
@@ -1919,12 +2027,35 @@
           "name": "Bonded In Shame",
           "description": "Subtract 2 from this unit's Objective Control characteristic and worsen its Leadership characteristic by 1."
         }
-      ]
+      ],
+      "pricing": [
+        {
+          "range": "[1,2]",
+          "label": "Your 1st To 2nd Units Cost",
+          "costs": [
+            {
+              "models": 1,
+              "points": 375
+            }
+          ]
+        },
+        {
+          "range": "[3,)",
+          "label": "Your 3rd + Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 390
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "375"
     },
     {
       "id": "1e27-a6de-3840-a050",
       "name": "Knight Crusader",
-      "points": 385,
+      "points": 395,
       "keywords": [
         "Vehicle",
         "Walker",
@@ -2251,7 +2382,30 @@
           "name": "Bonded In Shame",
           "description": "Subtract 2 from this unit's Objective Control characteristic and worsen its Leadership characteristic by 1."
         }
-      ]
+      ],
+      "pricing": [
+        {
+          "range": "[1,1]",
+          "label": "Your 1st Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 395
+            }
+          ]
+        },
+        {
+          "range": "[2,)",
+          "label": "Your 2nd + Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 415
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "395"
     },
     {
       "id": "ebd9-7175-3f0c-72a9",
@@ -2590,12 +2744,35 @@
           "name": "Bonded In Shame",
           "description": "Subtract 2 from this unit's Objective Control characteristic and worsen its Leadership characteristic by 1."
         }
-      ]
+      ],
+      "pricing": [
+        {
+          "range": "[1,2]",
+          "label": "Your 1st To 2nd Units Cost",
+          "costs": [
+            {
+              "models": 1,
+              "points": 365
+            }
+          ]
+        },
+        {
+          "range": "[3,)",
+          "label": "Your 3rd + Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 380
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "365"
     },
     {
       "id": "6e36-f85-1c3b-8bf3",
       "name": "Knight Castellan",
-      "points": 410,
+      "points": 400,
       "keywords": [
         "Vehicle",
         "Walker",
@@ -2915,12 +3092,35 @@
           "name": "Bonded In Shame",
           "description": "Subtract 2 from this unit's Objective Control characteristic and worsen its Leadership characteristic by 1."
         }
-      ]
+      ],
+      "pricing": [
+        {
+          "range": "[1,1]",
+          "label": "Your 1st Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 400
+            }
+          ]
+        },
+        {
+          "range": "[2,)",
+          "label": "Your 2nd + Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 420
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "400"
     },
     {
       "id": "8fb9-50b2-adc6-161a",
       "name": "Knight Valiant",
-      "points": 410,
+      "points": 400,
       "keywords": [
         "Vehicle",
         "Walker",
@@ -3229,12 +3429,35 @@
           "name": "Bonded In Shame",
           "description": "Subtract 2 from this unit's Objective Control characteristic and worsen its Leadership characteristic by 1."
         }
-      ]
+      ],
+      "pricing": [
+        {
+          "range": "[1,2]",
+          "label": "Your 1st To 2nd Units Cost",
+          "costs": [
+            {
+              "models": 1,
+              "points": 400
+            }
+          ]
+        },
+        {
+          "range": "[3,)",
+          "label": "Your 3rd + Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 415
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "400"
     },
     {
       "id": "f8d0-fdf2-2e5e-3b74",
       "name": "Acastus Knight Asterius",
-      "points": 765,
+      "points": 785,
       "keywords": [
         "Vehicle",
         "Walker",
@@ -3423,12 +3646,35 @@
           "name": "Bonded In Shame",
           "description": "Subtract 2 from this unit's Objective Control characteristic and worsen its Leadership characteristic by 1."
         }
-      ]
+      ],
+      "pricing": [
+        {
+          "range": "[1,1]",
+          "label": "Your 1st Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 785
+            }
+          ]
+        },
+        {
+          "range": "[2,)",
+          "label": "Your 2nd + Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 860
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "785"
     },
     {
       "id": "61c9-8baf-22b4-5d84",
       "name": "Acastus Knight Porphyrion",
-      "points": 700,
+      "points": 725,
       "keywords": [
         "Vehicle",
         "Walker",
@@ -3585,12 +3831,35 @@
           "name": "Bonded In Shame",
           "description": "Subtract 2 from this unit's Objective Control characteristic and worsen its Leadership characteristic by 1."
         }
-      ]
+      ],
+      "pricing": [
+        {
+          "range": "[1,1]",
+          "label": "Your 1st Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 725
+            }
+          ]
+        },
+        {
+          "range": "[2,)",
+          "label": "Your 2nd + Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 800
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "725"
     },
     {
       "id": "9ee-e289-bc6c-d943",
       "name": "Cerastus Knight Lancer",
-      "points": 395,
+      "points": 415,
       "keywords": [
         "Character",
         "Vehicle",
@@ -3860,12 +4129,35 @@
           "name": "Bonded In Shame",
           "description": "Subtract 2 from this unit's Objective Control characteristic and worsen its Leadership characteristic by 1."
         }
-      ]
+      ],
+      "pricing": [
+        {
+          "range": "[1,1]",
+          "label": "Your 1st Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 415
+            }
+          ]
+        },
+        {
+          "range": "[2,)",
+          "label": "Your 2nd + Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 435
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "415"
     },
     {
       "id": "1654-5c17-474e-2d84",
       "name": "Cerastus Knight Castigator",
-      "points": 395,
+      "points": 380,
       "keywords": [
         "Character",
         "Vehicle",
@@ -4132,12 +4424,35 @@
           "name": "Bonded In Shame",
           "description": "Subtract 2 from this unit's Objective Control characteristic and worsen its Leadership characteristic by 1."
         }
-      ]
+      ],
+      "pricing": [
+        {
+          "range": "[1,1]",
+          "label": "Your 1st Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 380
+            }
+          ]
+        },
+        {
+          "range": "[2,)",
+          "label": "Your 2nd + Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 395
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "380"
     },
     {
       "id": "11d3-167b-6dff-a4c2",
       "name": "Cerastus Knight Acheron",
-      "points": 395,
+      "points": 380,
       "keywords": [
         "Character",
         "Vehicle",
@@ -4422,7 +4737,30 @@
           "name": "Bonded In Shame",
           "description": "Subtract 2 from this unit's Objective Control characteristic and worsen its Leadership characteristic by 1."
         }
-      ]
+      ],
+      "pricing": [
+        {
+          "range": "[1,1]",
+          "label": "Your 1st Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 380
+            }
+          ]
+        },
+        {
+          "range": "[2,)",
+          "label": "Your 2nd + Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 395
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "380"
     },
     {
       "id": "37a7-d156-1e4c-8fe1",
@@ -4740,7 +5078,30 @@
           "name": "Bonded In Shame",
           "description": "Subtract 2 from this unit's Objective Control characteristic and worsen its Leadership characteristic by 1."
         }
-      ]
+      ],
+      "pricing": [
+        {
+          "range": "[1,1]",
+          "label": "Your 1st Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 405
+            }
+          ]
+        },
+        {
+          "range": "[2,)",
+          "label": "Your 2nd + Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 425
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "405"
     },
     {
       "id": "adfa-19fc-7337-7350",
@@ -5003,12 +5364,35 @@
           "name": "Bonded In Shame",
           "description": "Subtract 2 from this unit's Objective Control characteristic and worsen its Leadership characteristic by 1."
         }
-      ]
+      ],
+      "pricing": [
+        {
+          "range": "[1,1]",
+          "label": "Your 1st Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 385
+            }
+          ]
+        },
+        {
+          "range": "[2,)",
+          "label": "Your 2nd + Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 400
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "385"
     },
     {
       "id": "f8f3-a438-1212-93e8",
       "name": "Questoris Knight Styrix",
-      "points": 385,
+      "points": 375,
       "keywords": [
         "Character",
         "Vehicle",
@@ -5267,7 +5651,30 @@
           "name": "Bonded In Shame",
           "description": "Subtract 2 from this unit's Objective Control characteristic and worsen its Leadership characteristic by 1."
         }
-      ]
+      ],
+      "pricing": [
+        {
+          "range": "[1,1]",
+          "label": "Your 1st Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 375
+            }
+          ]
+        },
+        {
+          "range": "[2,)",
+          "label": "Your 2nd + Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 390
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "375"
     },
     {
       "id": "e3dd-7e90-140a-b3ab",
@@ -5417,12 +5824,35 @@
           "name": "Bonded In Shame",
           "description": "Subtract 2 from this unit's Objective Control characteristic and worsen its Leadership characteristic by 1."
         }
-      ]
+      ],
+      "pricing": [
+        {
+          "range": "[1,2]",
+          "label": "Your 1st To 2nd Units Cost",
+          "costs": [
+            {
+              "models": 1,
+              "points": 150
+            }
+          ]
+        },
+        {
+          "range": "[3,)",
+          "label": "Your 3rd + Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 160
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "150"
     },
     {
       "id": "f12b-ca2a-9c87-79bb",
       "name": "Knight Defender",
-      "points": 415,
+      "points": 400,
       "keywords": [
         "Vehicle",
         "Walker",
@@ -5731,12 +6161,35 @@
           "name": "Bonded In Shame",
           "description": "Subtract 2 from this unit's Objective Control characteristic and worsen its Leadership characteristic by 1."
         }
-      ]
+      ],
+      "pricing": [
+        {
+          "range": "[1,1]",
+          "label": "Your 1st Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 400
+            }
+          ]
+        },
+        {
+          "range": "[2,)",
+          "label": "Your 2nd + Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 420
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "400"
     },
     {
       "id": "10d8-d702-f556-5d3c",
       "name": "Knight Destrier",
-      "points": 250,
+      "points": 265,
       "keywords": [
         "Vehicle",
         "Walker",
@@ -6005,7 +6458,30 @@
           "name": "Bonded In Shame",
           "description": "Subtract 2 from this unit's Objective Control characteristic and worsen its Leadership characteristic by 1."
         }
-      ]
+      ],
+      "pricing": [
+        {
+          "range": "[1,2]",
+          "label": "Your 1st To 2nd Units Cost",
+          "costs": [
+            {
+              "models": 1,
+              "points": 265
+            }
+          ]
+        },
+        {
+          "range": "[3,)",
+          "label": "Your 3rd + Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 280
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "265"
     }
   ],
   "enhancements": []

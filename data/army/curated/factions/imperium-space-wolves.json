@@ -79,6 +79,23 @@
           "name": "Embarking within Transports",
           "description": "This model can embark within friendly Adeptus Astartes Transport models that can transport Terminator models. When doing, it takes up the space of 4 Infantry models"
         }
+      ],
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 110
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "110",
+      "mfmRole": "leader",
+      "attachTo": [
+        "Wolf Guard Terminators"
       ]
     },
     {
@@ -232,6 +249,25 @@
           "name": "Tempest's Wrath (Psychic)",
           "description": "In your Shooting phase, after this model's unit has shot, select one enemy unit, (excluding MONSTERS and VEHICLES) hit by one or more of those attacks made with this model's Living Lightning weapon. Until the start of your next turn, that enemy is stormwracked. While a unit is stormwracked, subtract 6\" from the Range characteristic of ranged weapons equipped by models in that unit (to a minimum of 12\")"
         }
+      ],
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 85
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "85",
+      "mfmRole": "leader",
+      "attachTo": [
+        "Blood Claws",
+        "Grey Hunters",
+        "Wolf Guard Headtakers"
       ]
     },
     {
@@ -334,7 +370,20 @@
           "name": "Invulnerable Save",
           "description": "5+"
         }
-      ]
+      ],
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 160
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "160"
     },
     {
       "id": "a9c8-1a6-a0e1-7698",
@@ -404,6 +453,23 @@
           "name": "Champion of the Kingsguard",
           "description": "Each time this model makes a melee attack that targets a CHARACTER unit, you can re-roll the Hit roll and you can re-roll the Wound roll."
         }
+      ],
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 105
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "105",
+      "mfmRole": "leader",
+      "attachTo": [
+        "Wolf Guard Terminators"
       ]
     },
     {
@@ -485,6 +551,25 @@
           "name": "Oathbound",
           "description": "While this model is leading a unit, each time a model in that unit makes a melee attack, add 1 to the Hit roll. If that attack targets a unit that has this model's Slayer's Oath keyword (see above), add 1 to the Wound roll as well."
         }
+      ],
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 70
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "70",
+      "mfmRole": "leader",
+      "attachTo": [
+        "Blood Claws",
+        "Grey Hunters",
+        "Wolf Guard Headtakers"
       ]
     },
     {
@@ -540,6 +625,24 @@
           "name": "Battle-lust",
           "description": "Each time this model ends a Charge move, until the end of the turn, add 2 to the Attacks characteristics of this model’s Frostfang."
         }
+      ],
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 100
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "100",
+      "mfmRole": "leader",
+      "attachTo": [
+        "Blood Claws",
+        "Wolf Guard Headtakers"
       ]
     },
     {
@@ -905,7 +1008,24 @@
           "name": "Berserk Charge",
           "description": "This unit is eligible to declare a charge in a turn in which it Advanced"
         }
-      ]
+      ],
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 10,
+              "points": 135
+            },
+            {
+              "models": 20,
+              "points": 270
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "135/270"
     },
     {
       "id": "60ce-47ea-50fa-53f2",
@@ -996,7 +1116,20 @@
           "name": "Cunning Hunters",
           "description": "Each time a model in this unit makes an attack, re-roll a Wound roll of 1. If the target is within range of an objective marker, you can re-roll the Wound roll instead."
         }
-      ]
+      ],
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 10,
+              "points": 165
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "165"
     },
     {
       "id": "8486-fe44-efc3-e51b",
@@ -1173,7 +1306,7 @@
     {
       "id": "ca30-caf3-d7a8-1d32",
       "name": "Wolf Guard Terminators",
-      "points": 170,
+      "points": 150,
       "keywords": [
         "Infantry",
         "Imperium",
@@ -1273,7 +1406,38 @@
           "name": "Storm Shield",
           "description": "The bearer has a Wounds characteristic of 4."
         }
-      ]
+      ],
+      "pricing": [
+        {
+          "range": "[1,1]",
+          "label": "Your 1st Unit Costs",
+          "costs": [
+            {
+              "models": 5,
+              "points": 150
+            },
+            {
+              "models": 10,
+              "points": 300
+            }
+          ]
+        },
+        {
+          "range": "[2,)",
+          "label": "Your 2nd + Unit Costs",
+          "costs": [
+            {
+              "models": 5,
+              "points": 160
+            },
+            {
+              "models": 10,
+              "points": 310
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "150/300"
     },
     {
       "id": "f37d-87d6-e14c-e697",
@@ -1429,7 +1593,30 @@
           "name": "Blizzard shield",
           "description": "The bearer has a 4+ invulnerable save."
         }
-      ]
+      ],
+      "pricing": [
+        {
+          "range": "[1,2]",
+          "label": "Your 1st To 2nd Units Cost",
+          "costs": [
+            {
+              "models": 1,
+              "points": 135
+            }
+          ]
+        },
+        {
+          "range": "[3,)",
+          "label": "Your 3rd + Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 145
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "135"
     },
     {
       "id": "6ef5-6700-d888-df3b",
@@ -1498,12 +1685,25 @@
           "name": "Beastial Fury",
           "description": "You can re-roll Advance and Charge rolls made for this model."
         }
-      ]
+      ],
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 150
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "150"
     },
     {
       "id": "7a50-3722-8195-5877",
       "name": "Thunderwolf Cavalry",
-      "points": 115,
+      "points": 100,
       "keywords": [
         "Mounted",
         "Grenades",
@@ -1581,12 +1781,43 @@
           "name": "Storm Shield",
           "description": "The bearer has a 4+ invulnerable save."
         }
-      ]
+      ],
+      "pricing": [
+        {
+          "range": "[1,2]",
+          "label": "Your 1st To 2nd Units Cost",
+          "costs": [
+            {
+              "models": 3,
+              "points": 100
+            },
+            {
+              "models": 6,
+              "points": 200
+            }
+          ]
+        },
+        {
+          "range": "[3,)",
+          "label": "Your 3rd + Unit Costs",
+          "costs": [
+            {
+              "models": 3,
+              "points": 110
+            },
+            {
+              "models": 6,
+              "points": 210
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "100/200"
     },
     {
       "id": "dc75-5a79-4121-1d72",
       "name": "Fenrisian Wolves",
-      "points": 40,
+      "points": 45,
       "keywords": [
         "Beast",
         "Imperium"
@@ -1625,7 +1856,38 @@
           "name": "Hunting Hounds",
           "description": "While this unit is within 6\" of one or more SPACE WOLVES CHARACTER models (excluding WULFEN models), if this unit is not Battle-shocked, models in it have an Objective Control characteristic of 1"
         }
-      ]
+      ],
+      "pricing": [
+        {
+          "range": "[1,2]",
+          "label": "Your 1st To 2nd Units Cost",
+          "costs": [
+            {
+              "models": 5,
+              "points": 45
+            },
+            {
+              "models": 10,
+              "points": 75
+            }
+          ]
+        },
+        {
+          "range": "[3,)",
+          "label": "Your 3rd + Unit Costs",
+          "costs": [
+            {
+              "models": 5,
+              "points": 50
+            },
+            {
+              "models": 10,
+              "points": 80
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "45/75"
     },
     {
       "id": "b556-b0e1-3b4e-597a",
@@ -2157,6 +2419,25 @@
           "name": "Judgement of the Omnissiah",
           "description": "Each time this model makes an attack that targets an enemy unit within Engagement Range of one or more friendly ADEPTUS ASTARTES VEHICLE units, you can re-roll the wound roll."
         }
+      ],
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 55
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "55",
+      "mfmRole": "leader",
+      "attachTo": [
+        "Blood Claws",
+        "Grey Hunters",
+        "Wolf Guard Headtakers"
       ]
     },
     {
@@ -2277,7 +2558,7 @@
     {
       "id": "c125-1106-f06d-9682",
       "name": "Venerable Dreadnought",
-      "points": 130,
+      "points": 125,
       "keywords": [
         "Vehicle",
         "Walker",
@@ -2342,7 +2623,31 @@
           "name": "Blizzard shield",
           "description": "The bearer has a 4+ invulnerable save."
         }
-      ]
+      ],
+      "pricing": [
+        {
+          "range": "[1,2]",
+          "label": "Your 1st To 2nd Units Cost",
+          "costs": [
+            {
+              "models": 1,
+              "points": 125
+            }
+          ]
+        },
+        {
+          "range": "[3,)",
+          "label": "Your 3rd + Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 135
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "125",
+      "legends": true
     },
     {
       "id": "6a01-437c-998a-f48e",
@@ -2456,6 +2761,25 @@
           "name": "Healing Balms",
           "description": "While this model is leading a unit, in your Command phase, you can return 1 model (excluding CHARACTER models) to that unit."
         }
+      ],
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 70
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "70",
+      "mfmRole": "leader",
+      "attachTo": [
+        "Blood Claws",
+        "Grey Hunters",
+        "Wolf Guard Headtakers"
       ]
     },
     {
@@ -2497,6 +2821,25 @@
           "name": "Leader",
           "description": "This model can be attached to the following units:\n\n■ Blood Claws\n■ Grey Hunters\n■ Wolf Guard Headtakers"
         }
+      ],
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 65
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "65",
+      "mfmRole": "leader",
+      "attachTo": [
+        "Blood Claws",
+        "Grey Hunters",
+        "Wolf Guard Headtakers"
       ]
     },
     {
@@ -2568,7 +2911,62 @@
           "name": "Storm Shield",
           "description": "The bearer has a 4+ invulnerable save."
         }
-      ]
+      ],
+      "pricing": [
+        {
+          "range": "[1,2]",
+          "label": "Your 1st To 2nd Units Cost",
+          "costs": [
+            {
+              "models": 3,
+              "points": 85,
+              "desc": "3 Wolf Guard Headtakers"
+            },
+            {
+              "models": 6,
+              "points": 115,
+              "desc": "3 Wolf Guard Headtakers, 3 Hunting Wolves"
+            },
+            {
+              "models": 6,
+              "points": 170,
+              "desc": "6 Wolf Guard Headtakers"
+            },
+            {
+              "models": 12,
+              "points": 230,
+              "desc": "6 Wolf Guard Headtakers, 6 Hunting Wolves"
+            }
+          ]
+        },
+        {
+          "range": "[3,)",
+          "label": "Your 3rd + Unit Costs",
+          "costs": [
+            {
+              "models": 3,
+              "points": 95,
+              "desc": "3 Wolf Guard Headtakers"
+            },
+            {
+              "models": 6,
+              "points": 125,
+              "desc": "3 Wolf Guard Headtakers, 3 Hunting Wolves"
+            },
+            {
+              "models": 6,
+              "points": 180,
+              "desc": "6 Wolf Guard Headtakers"
+            },
+            {
+              "models": 12,
+              "points": 240,
+              "desc": "6 Wolf Guard Headtakers, 6 Hunting Wolves"
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "85/115/170/230"
     },
     {
       "id": "4c72-3f0c-7f94-af96",
@@ -2634,7 +3032,38 @@
           "name": "Storm Shield",
           "description": "The bearer has a 4+ invulnerable save."
         }
-      ]
+      ],
+      "pricing": [
+        {
+          "range": "[1,2]",
+          "label": "Your 1st To 2nd Units Cost",
+          "costs": [
+            {
+              "models": 5,
+              "points": 100
+            },
+            {
+              "models": 10,
+              "points": 200
+            }
+          ]
+        },
+        {
+          "range": "[3,)",
+          "label": "Your 3rd + Unit Costs",
+          "costs": [
+            {
+              "models": 5,
+              "points": 110
+            },
+            {
+              "models": 10,
+              "points": 210
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "100/200"
     },
     {
       "id": "0f93-6850-8f14-a351",
@@ -2705,12 +3134,67 @@
           "name": "Storm Shield",
           "description": "The bearer has a 4+ invulnerable save."
         }
-      ]
+      ],
+      "pricing": [
+        {
+          "range": "[1,2]",
+          "label": "Your 1st To 2nd Units Cost",
+          "costs": [
+            {
+              "models": 3,
+              "points": 85,
+              "desc": "3 Wolf Guard Headtakers"
+            },
+            {
+              "models": 6,
+              "points": 115,
+              "desc": "3 Wolf Guard Headtakers, 3 Hunting Wolves"
+            },
+            {
+              "models": 6,
+              "points": 170,
+              "desc": "6 Wolf Guard Headtakers"
+            },
+            {
+              "models": 12,
+              "points": 230,
+              "desc": "6 Wolf Guard Headtakers, 6 Hunting Wolves"
+            }
+          ]
+        },
+        {
+          "range": "[3,)",
+          "label": "Your 3rd + Unit Costs",
+          "costs": [
+            {
+              "models": 3,
+              "points": 95,
+              "desc": "3 Wolf Guard Headtakers"
+            },
+            {
+              "models": 6,
+              "points": 125,
+              "desc": "3 Wolf Guard Headtakers, 3 Hunting Wolves"
+            },
+            {
+              "models": 6,
+              "points": 180,
+              "desc": "6 Wolf Guard Headtakers"
+            },
+            {
+              "models": 12,
+              "points": 240,
+              "desc": "6 Wolf Guard Headtakers, 6 Hunting Wolves"
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "85/115/170/230"
     },
     {
       "id": "ee6b-3815-3a1a-6458",
       "name": "Wolf Scouts",
-      "points": 105,
+      "points": 95,
       "keywords": [
         "Infantry",
         "Grenades",
@@ -2804,7 +3288,38 @@
           "name": "Haywire Mine",
           "description": "Once per battle, at the start of any phase, you can select one enemy unit within 3\" of the bearer and roll one D6: on a 2+, that enemy unit suffers D3 mortal wounds, or 2D3 mortal wounds instead if it is a ^^**Vehicle**^^ unit."
         }
-      ]
+      ],
+      "pricing": [
+        {
+          "range": "[1,2]",
+          "label": "Your 1st To 2nd Units Cost",
+          "costs": [
+            {
+              "models": 6,
+              "points": 95
+            },
+            {
+              "models": 12,
+              "points": 190
+            }
+          ]
+        },
+        {
+          "range": "[3,)",
+          "label": "Your 3rd + Unit Costs",
+          "costs": [
+            {
+              "models": 6,
+              "points": 105
+            },
+            {
+              "models": 12,
+              "points": 200
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "95/190"
     }
   ],
   "enhancements": []

@@ -944,6 +944,26 @@
           "name": "An Honourable End",
           "description": "- This model is eligible to shoot and declare a charge in a turn in which it Advanced.\n- Each time this model fails an Out of Action test, subtract an additional 1 from the result."
         }
+      ],
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 80
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "80",
+      "mfmRole": "leader",
+      "attachTo": [
+        "Aggressor Squad",
+        "Eradicator Squad",
+        "Heavy Intercessor Squad",
+        "Indomitor Kill Team"
       ]
     },
     {
@@ -1840,12 +1860,34 @@
           "name": "An Honourable End",
           "description": "- This model is eligible to shoot and declare a charge in a turn in which it Advanced.\n- Each time this model fails an Out of Action test, subtract an additional 1 from the result."
         }
+      ],
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 70
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "70",
+      "mfmRole": "leader",
+      "attachTo": [
+        "Eliminator Squad",
+        "Incursor Squad",
+        "Infiltrator Squad",
+        "Reiver Squad",
+        "Scout Squad",
+        "Spectrus Kill Team"
       ]
     },
     {
       "id": "dc24-dd64-5d97-df3c",
       "name": "Captain in Terminator Armour",
-      "points": 95,
+      "points": 85,
       "keywords": [
         "Character",
         "Infantry",
@@ -2699,6 +2741,28 @@
           "name": "An Honourable End",
           "description": "- This model is eligible to shoot and declare a charge in a turn in which it Advanced.\n- Each time this model fails an Out of Action test, subtract an additional 1 from the result."
         }
+      ],
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 85
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "85",
+      "mfmRole": "leader",
+      "attachTo": [
+        "Deathwatch Terminator Squad",
+        "Deathwing Knights",
+        "Deathwing Terminator Squad",
+        "Relic Terminator Squad",
+        "Terminator Assault Squad",
+        "Terminator Squad"
       ]
     },
     {
@@ -3660,6 +3724,27 @@
           "name": "An Honourable End",
           "description": "- This model is eligible to shoot and declare a charge in a turn in which it Advanced.\n- Each time this model fails an Out of Action test, subtract an additional 1 from the result."
         }
+      ],
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 75
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "75",
+      "mfmRole": "leader",
+      "attachTo": [
+        "Assault Intercessors With Jump Packs",
+        "Assault Squad With Jump Packs",
+        "Sanguinary Guard",
+        "Talonstrike Kill Team",
+        "Vanguard Veteran Squad With Jump Packs"
       ]
     },
     {
@@ -4035,12 +4120,29 @@
           "name": "An Honourable End",
           "description": "- This model is eligible to shoot and declare a charge in a turn in which it Advanced.\n- Each time this model fails an Out of Action test, subtract an additional 1 from the result."
         }
-      ]
+      ],
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 5,
+              "points": 80
+            },
+            {
+              "models": 10,
+              "points": 150
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "80/150"
     },
     {
       "id": "b007-fc7b-8e4a-b017",
       "name": "Infernus Squad",
-      "points": 90,
+      "points": 85,
       "keywords": [
         "Infantry",
         "Grenades",
@@ -4302,7 +4404,24 @@
           "name": "An Honourable End",
           "description": "- This model is eligible to shoot and declare a charge in a turn in which it Advanced.\n- Each time this model fails an Out of Action test, subtract an additional 1 from the result."
         }
-      ]
+      ],
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 5,
+              "points": 85
+            },
+            {
+              "models": 10,
+              "points": 170
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "85/170"
     },
     {
       "id": "a10b-fbfe-b1fa-6f0c",
@@ -4628,7 +4747,24 @@
           "name": "An Honourable End",
           "description": "- This model is eligible to shoot and declare a charge in a turn in which it Advanced.\n- Each time this model fails an Out of Action test, subtract an additional 1 from the result."
         }
-      ]
+      ],
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 5,
+              "points": 75
+            },
+            {
+              "models": 10,
+              "points": 150
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "75/150"
     },
     {
       "id": "7324-e591-939b-b675",
@@ -4910,12 +5046,29 @@
           "name": "An Honourable End",
           "description": "- This model is eligible to shoot and declare a charge in a turn in which it Advanced.\n- Each time this model fails an Out of Action test, subtract an additional 1 from the result."
         }
-      ]
+      ],
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 5,
+              "points": 100
+            },
+            {
+              "models": 10,
+              "points": 200
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "100/200"
     },
     {
       "id": "70dc-ed18-2788-b35a",
       "name": "Infiltrator Squad",
-      "points": 100,
+      "points": 110,
       "keywords": [
         "Infantry",
         "Grenades",
@@ -5185,12 +5338,43 @@
           "name": "An Honourable End",
           "description": "- This model is eligible to shoot and declare a charge in a turn in which it Advanced.\n- Each time this model fails an Out of Action test, subtract an additional 1 from the result."
         }
-      ]
+      ],
+      "pricing": [
+        {
+          "range": "[1,2]",
+          "label": "Your 1st To 2nd Units Cost",
+          "costs": [
+            {
+              "models": 5,
+              "points": 110
+            },
+            {
+              "models": 10,
+              "points": 180
+            }
+          ]
+        },
+        {
+          "range": "[3,)",
+          "label": "Your 3rd + Unit Costs",
+          "costs": [
+            {
+              "models": 5,
+              "points": 120
+            },
+            {
+              "models": 10,
+              "points": 190
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "110/180"
     },
     {
       "id": "527c-120e-9e4e-9bfe",
       "name": "Incursor Squad",
-      "points": 80,
+      "points": 85,
       "keywords": [
         "Infantry",
         "Grenades",
@@ -5459,7 +5643,38 @@
           "name": "An Honourable End",
           "description": "- This model is eligible to shoot and declare a charge in a turn in which it Advanced.\n- Each time this model fails an Out of Action test, subtract an additional 1 from the result."
         }
-      ]
+      ],
+      "pricing": [
+        {
+          "range": "[1,2]",
+          "label": "Your 1st To 2nd Units Cost",
+          "costs": [
+            {
+              "models": 5,
+              "points": 85
+            },
+            {
+              "models": 10,
+              "points": 150
+            }
+          ]
+        },
+        {
+          "range": "[3,)",
+          "label": "Your 3rd + Unit Costs",
+          "costs": [
+            {
+              "models": 5,
+              "points": 95
+            },
+            {
+              "models": 10,
+              "points": 160
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "85/150"
     },
     {
       "id": "c09a-6504-d25f-477",
@@ -6006,12 +6221,25 @@
           "name": "An Honourable End",
           "description": "- This model is eligible to shoot and declare a charge in a turn in which it Advanced.\n- Each time this model fails an Out of Action test, subtract an additional 1 from the result."
         }
-      ]
+      ],
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 10,
+              "points": 140
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "140"
     },
     {
       "id": "1117-cda-7f74-196b",
       "name": "Scout Squad",
-      "points": 70,
+      "points": 65,
       "keywords": [
         "Infantry",
         "Grenades",
@@ -6353,7 +6581,38 @@
           "name": "An Honourable End",
           "description": "- This model is eligible to shoot and declare a charge in a turn in which it Advanced.\n- Each time this model fails an Out of Action test, subtract an additional 1 from the result."
         }
-      ]
+      ],
+      "pricing": [
+        {
+          "range": "[1,2]",
+          "label": "Your 1st To 2nd Units Cost",
+          "costs": [
+            {
+              "models": 5,
+              "points": 65
+            },
+            {
+              "models": 10,
+              "points": 120
+            }
+          ]
+        },
+        {
+          "range": "[3,)",
+          "label": "Your 3rd + Unit Costs",
+          "costs": [
+            {
+              "models": 5,
+              "points": 75
+            },
+            {
+              "models": 10,
+              "points": 130
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "65/120"
     },
     {
       "id": "9a96-8de3-f4aa-7497",
@@ -6938,7 +7197,38 @@
           "name": "An Honourable End",
           "description": "- This model is eligible to shoot and declare a charge in a turn in which it Advanced.\n- Each time this model fails an Out of Action test, subtract an additional 1 from the result."
         }
-      ]
+      ],
+      "pricing": [
+        {
+          "range": "[1,2]",
+          "label": "Your 1st To 2nd Units Cost",
+          "costs": [
+            {
+              "models": 3,
+              "points": 80
+            },
+            {
+              "models": 6,
+              "points": 160
+            }
+          ]
+        },
+        {
+          "range": "[3,)",
+          "label": "Your 3rd + Unit Costs",
+          "costs": [
+            {
+              "models": 3,
+              "points": 90
+            },
+            {
+              "models": 6,
+              "points": 170
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "80/160"
     },
     {
       "id": "9e9c-bf4d-2d40-be82",
@@ -7267,7 +7557,38 @@
           "name": "An Honourable End",
           "description": "- This model is eligible to shoot and declare a charge in a turn in which it Advanced.\n- Each time this model fails an Out of Action test, subtract an additional 1 from the result."
         }
-      ]
+      ],
+      "pricing": [
+        {
+          "range": "[1,2]",
+          "label": "Your 1st To 2nd Units Cost",
+          "costs": [
+            {
+              "models": 5,
+              "points": 100
+            },
+            {
+              "models": 10,
+              "points": 200
+            }
+          ]
+        },
+        {
+          "range": "[3,)",
+          "label": "Your 3rd + Unit Costs",
+          "costs": [
+            {
+              "models": 5,
+              "points": 110
+            },
+            {
+              "models": 10,
+              "points": 210
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "100/200"
     },
     {
       "id": "f1b9-b2e8-4ccf-d6cb",
@@ -7945,12 +8266,29 @@
           "name": "An Honourable End",
           "description": "- This model is eligible to shoot and declare a charge in a turn in which it Advanced.\n- Each time this model fails an Out of Action test, subtract an additional 1 from the result."
         }
-      ]
+      ],
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 5,
+              "points": 100
+            },
+            {
+              "models": 10,
+              "points": 190
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "100/190"
     },
     {
       "id": "a7ae-e495-683b-7c90",
       "name": "Reiver Squad",
-      "points": 80,
+      "points": 75,
       "keywords": [
         "Infantry",
         "Grenades",
@@ -8237,12 +8575,29 @@
           "name": "An Honourable End",
           "description": "- This model is eligible to shoot and declare a charge in a turn in which it Advanced.\n- Each time this model fails an Out of Action test, subtract an additional 1 from the result."
         }
-      ]
+      ],
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 5,
+              "points": 75
+            },
+            {
+              "models": 10,
+              "points": 150
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "75/150"
     },
     {
       "id": "129d-2da5-66f3-f4ec",
       "name": "Aggressor Squad",
-      "points": 95,
+      "points": 90,
       "keywords": [
         "Infantry",
         "Imperium",
@@ -8518,12 +8873,43 @@
           "name": "An Honourable End",
           "description": "- This model is eligible to shoot and declare a charge in a turn in which it Advanced.\n- Each time this model fails an Out of Action test, subtract an additional 1 from the result."
         }
-      ]
+      ],
+      "pricing": [
+        {
+          "range": "[1,2]",
+          "label": "Your 1st To 2nd Units Cost",
+          "costs": [
+            {
+              "models": 3,
+              "points": 90
+            },
+            {
+              "models": 6,
+              "points": 180
+            }
+          ]
+        },
+        {
+          "range": "[3,)",
+          "label": "Your 3rd + Unit Costs",
+          "costs": [
+            {
+              "models": 3,
+              "points": 100
+            },
+            {
+              "models": 6,
+              "points": 190
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "90/180"
     },
     {
       "id": "ae9a-10e3-8091-20",
       "name": "Terminator Assault Squad",
-      "points": 180,
+      "points": 155,
       "keywords": [
         "Infantry",
         "Imperium",
@@ -8784,12 +9170,29 @@
           "name": "An Honourable End",
           "description": "- This model is eligible to shoot and declare a charge in a turn in which it Advanced.\n- Each time this model fails an Out of Action test, subtract an additional 1 from the result."
         }
-      ]
+      ],
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 5,
+              "points": 155
+            },
+            {
+              "models": 10,
+              "points": 310
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "155/310"
     },
     {
       "id": "4808-a80b-309a-7933",
       "name": "Terminator Squad",
-      "points": 170,
+      "points": 160,
       "keywords": [
         "Infantry",
         "Imperium",
@@ -9110,7 +9513,24 @@
           "name": "An Honourable End",
           "description": "- This model is eligible to shoot and declare a charge in a turn in which it Advanced.\n- Each time this model fails an Out of Action test, subtract an additional 1 from the result."
         }
-      ]
+      ],
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 5,
+              "points": 160
+            },
+            {
+              "models": 10,
+              "points": 320
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "160/320"
     },
     {
       "id": "9d3f-134e-1f5b-531a",
@@ -9753,7 +10173,24 @@
           "name": "An Honourable End",
           "description": "- This model is eligible to shoot and declare a charge in a turn in which it Advanced.\n- Each time this model fails an Out of Action test, subtract an additional 1 from the result."
         }
-      ]
+      ],
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 3,
+              "points": 150
+            },
+            {
+              "models": 6,
+              "points": 300
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "150/300"
     },
     {
       "id": "6ba0-cede-e278-f86b",
@@ -10056,7 +10493,24 @@
           "name": "An Honourable End",
           "description": "- This model is eligible to shoot and declare a charge in a turn in which it Advanced.\n- Each time this model fails an Out of Action test, subtract an additional 1 from the result."
         }
-      ]
+      ],
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 3,
+              "points": 175
+            },
+            {
+              "models": 6,
+              "points": 350
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "175/350"
     },
     {
       "id": "24df-fdd6-4d7b-fc0e",
@@ -10335,7 +10789,20 @@
           "name": "An Honourable End",
           "description": "- This model is eligible to shoot and declare a charge in a turn in which it Advanced.\n- Each time this model fails an Out of Action test, subtract an additional 1 from the result."
         }
-      ]
+      ],
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 125
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "125"
     },
     {
       "id": "d204-13c6-dab1-ecdc",
@@ -10565,7 +11032,20 @@
           "name": "An Honourable End",
           "description": "- This model is eligible to shoot and declare a charge in a turn in which it Advanced.\n- Each time this model fails an Out of Action test, subtract an additional 1 from the result."
         }
-      ]
+      ],
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 135
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "135"
     },
     {
       "id": "64c7-8b87-1b4f-7850",
@@ -10819,7 +11299,7 @@
     {
       "id": "1d94-b3c8-9205-827e",
       "name": "Redemptor Dreadnought",
-      "points": 205,
+      "points": 195,
       "keywords": [
         "Vehicle",
         "Walker",
@@ -11068,7 +11548,30 @@
           "name": "An Honourable End",
           "description": "- This model is eligible to shoot and declare a charge in a turn in which it Advanced.\n- Each time this model fails an Out of Action test, subtract an additional 1 from the result."
         }
-      ]
+      ],
+      "pricing": [
+        {
+          "range": "[1,2]",
+          "label": "Your 1st To 2nd Units Cost",
+          "costs": [
+            {
+              "models": 1,
+              "points": 195
+            }
+          ]
+        },
+        {
+          "range": "[3,)",
+          "label": "Your 3rd + Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 210
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "195"
     },
     {
       "id": "5dc7-aa6c-7053-cede",
@@ -11342,12 +11845,35 @@
           "name": "An Honourable End",
           "description": "- This model is eligible to shoot and declare a charge in a turn in which it Advanced.\n- Each time this model fails an Out of Action test, subtract an additional 1 from the result."
         }
-      ]
+      ],
+      "pricing": [
+        {
+          "range": "[1,2]",
+          "label": "Your 1st To 2nd Units Cost",
+          "costs": [
+            {
+              "models": 1,
+              "points": 150
+            }
+          ]
+        },
+        {
+          "range": "[3,)",
+          "label": "Your 3rd + Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 160
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "150"
     },
     {
       "id": "1c00-9398-b9e7-446a",
       "name": "Brutalis Dreadnought",
-      "points": 160,
+      "points": 150,
       "keywords": [
         "Vehicle",
         "Walker",
@@ -11587,7 +12113,30 @@
           "name": "An Honourable End",
           "description": "- This model is eligible to shoot and declare a charge in a turn in which it Advanced.\n- Each time this model fails an Out of Action test, subtract an additional 1 from the result."
         }
-      ]
+      ],
+      "pricing": [
+        {
+          "range": "[1,2]",
+          "label": "Your 1st To 2nd Units Cost",
+          "costs": [
+            {
+              "models": 1,
+              "points": 150
+            }
+          ]
+        },
+        {
+          "range": "[3,)",
+          "label": "Your 3rd + Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 160
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "150"
     },
     {
       "id": "ca4e-47d5-a704-8e5a",
@@ -12712,12 +13261,25 @@
           "name": "An Honourable End",
           "description": "- This model is eligible to shoot and declare a charge in a turn in which it Advanced.\n- Each time this model fails an Out of Action test, subtract an additional 1 from the result."
         }
-      ]
+      ],
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 60
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "60"
     },
     {
       "id": "b5e8-c34b-566b-8bda",
       "name": "Outrider Squad",
-      "points": 80,
+      "points": 70,
       "keywords": [
         "Mounted",
         "Grenades",
@@ -13003,7 +13565,30 @@
           "name": "An Honourable End",
           "description": "- This model is eligible to shoot and declare a charge in a turn in which it Advanced.\n- Each time this model fails an Out of Action test, subtract an additional 1 from the result."
         }
-      ]
+      ],
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 3,
+              "points": 70
+            },
+            {
+              "models": 6,
+              "points": 140
+            },
+            {
+              "models": 1,
+              "points": 60,
+              "desc": "Invader ATV",
+              "addon": true
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "70/140/60"
     },
     {
       "id": "7bef-c609-3897-8bd6",
@@ -14500,7 +15085,20 @@
           "name": "An Honourable End",
           "description": "- This model is eligible to shoot and declare a charge in a turn in which it Advanced.\n- Each time this model fails an Out of Action test, subtract an additional 1 from the result."
         }
-      ]
+      ],
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 3,
+              "points": 75
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "75"
     },
     {
       "id": "3e14-2a-d358-6ada",
@@ -14787,12 +15385,43 @@
           "name": "An Honourable End",
           "description": "- This model is eligible to shoot and declare a charge in a turn in which it Advanced.\n- Each time this model fails an Out of Action test, subtract an additional 1 from the result."
         }
-      ]
+      ],
+      "pricing": [
+        {
+          "range": "[1,2]",
+          "label": "Your 1st To 2nd Units Cost",
+          "costs": [
+            {
+              "models": 3,
+              "points": 120
+            },
+            {
+              "models": 6,
+              "points": 240
+            }
+          ]
+        },
+        {
+          "range": "[3,)",
+          "label": "Your 3rd + Unit Costs",
+          "costs": [
+            {
+              "models": 3,
+              "points": 135
+            },
+            {
+              "models": 6,
+              "points": 255
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "120/240"
     },
     {
       "id": "9cb9-9ab5-727f-80e5",
       "name": "Storm Speeder Hailstrike",
-      "points": 115,
+      "points": 105,
       "keywords": [
         "Vehicle",
         "Fly",
@@ -15065,7 +15694,30 @@
           "name": "An Honourable End",
           "description": "- This model is eligible to shoot and declare a charge in a turn in which it Advanced.\n- Each time this model fails an Out of Action test, subtract an additional 1 from the result."
         }
-      ]
+      ],
+      "pricing": [
+        {
+          "range": "[1,2]",
+          "label": "Your 1st To 2nd Units Cost",
+          "costs": [
+            {
+              "models": 1,
+              "points": 105
+            }
+          ]
+        },
+        {
+          "range": "[3,)",
+          "label": "Your 3rd + Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 115
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "105"
     },
     {
       "id": "993a-9cbc-8052-e40",
@@ -15339,12 +15991,35 @@
           "name": "An Honourable End",
           "description": "- This model is eligible to shoot and declare a charge in a turn in which it Advanced.\n- Each time this model fails an Out of Action test, subtract an additional 1 from the result."
         }
-      ]
+      ],
+      "pricing": [
+        {
+          "range": "[1,2]",
+          "label": "Your 1st To 2nd Units Cost",
+          "costs": [
+            {
+              "models": 1,
+              "points": 135
+            }
+          ]
+        },
+        {
+          "range": "[3,)",
+          "label": "Your 3rd + Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 145
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "135"
     },
     {
       "id": "9489-445c-f950-7292",
       "name": "Storm Speeder Hammerstrike",
-      "points": 125,
+      "points": 130,
       "keywords": [
         "Imperium",
         "Fly",
@@ -15612,7 +16287,30 @@
           "name": "An Honourable End",
           "description": "- This model is eligible to shoot and declare a charge in a turn in which it Advanced.\n- Each time this model fails an Out of Action test, subtract an additional 1 from the result."
         }
-      ]
+      ],
+      "pricing": [
+        {
+          "range": "[1,2]",
+          "label": "Your 1st To 2nd Units Cost",
+          "costs": [
+            {
+              "models": 1,
+              "points": 130
+            }
+          ]
+        },
+        {
+          "range": "[3,)",
+          "label": "Your 3rd + Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 140
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "130"
     },
     {
       "id": "90fe-d51c-1541-5d60",
@@ -16664,12 +17362,29 @@
           "name": "An Honourable End",
           "description": "- This model is eligible to shoot and declare a charge in a turn in which it Advanced.\n- Each time this model fails an Out of Action test, subtract an additional 1 from the result."
         }
-      ]
+      ],
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 5,
+              "points": 110
+            },
+            {
+              "models": 10,
+              "points": 220
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "110/220"
     },
     {
       "id": "d6c3-e9d2-430d-6c2f",
       "name": "Eliminator Squad",
-      "points": 85,
+      "points": 75,
       "keywords": [
         "Infantry",
         "Imperium",
@@ -16959,7 +17674,20 @@
           "name": "An Honourable End",
           "description": "- This model is eligible to shoot and declare a charge in a turn in which it Advanced.\n- Each time this model fails an Out of Action test, subtract an additional 1 from the result."
         }
-      ]
+      ],
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 3,
+              "points": 75
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "75"
     },
     {
       "id": "c570-c6ba-c9dc-5a44",
@@ -17239,7 +17967,38 @@
           "name": "An Honourable End",
           "description": "- This model is eligible to shoot and declare a charge in a turn in which it Advanced.\n- Each time this model fails an Out of Action test, subtract an additional 1 from the result."
         }
-      ]
+      ],
+      "pricing": [
+        {
+          "range": "[1,2]",
+          "label": "Your 1st To 2nd Units Cost",
+          "costs": [
+            {
+              "models": 3,
+              "points": 90
+            },
+            {
+              "models": 6,
+              "points": 180
+            }
+          ]
+        },
+        {
+          "range": "[3,)",
+          "label": "Your 3rd + Unit Costs",
+          "costs": [
+            {
+              "models": 3,
+              "points": 100
+            },
+            {
+              "models": 6,
+              "points": 190
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "90/180"
     },
     {
       "id": "3f4c-1e67-66dc-ffa5",
@@ -17609,12 +18368,29 @@
           "name": "An Honourable End",
           "description": "- This model is eligible to shoot and declare a charge in a turn in which it Advanced.\n- Each time this model fails an Out of Action test, subtract an additional 1 from the result."
         }
-      ]
+      ],
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 5,
+              "points": 120
+            },
+            {
+              "models": 10,
+              "points": 200
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "120/200"
     },
     {
       "id": "a3ea-7a0d-fef8-23bf",
       "name": "Desolation Squad",
-      "points": 200,
+      "points": 180,
       "keywords": [
         "Infantry",
         "Grenades",
@@ -17914,7 +18690,30 @@
           "name": "An Honourable End",
           "description": "- This model is eligible to shoot and declare a charge in a turn in which it Advanced.\n- Each time this model fails an Out of Action test, subtract an additional 1 from the result."
         }
-      ]
+      ],
+      "pricing": [
+        {
+          "range": "[1,1]",
+          "label": "Your 1st Unit Costs",
+          "costs": [
+            {
+              "models": 5,
+              "points": 180
+            }
+          ]
+        },
+        {
+          "range": "[2,)",
+          "label": "Your 2nd + Unit Costs",
+          "costs": [
+            {
+              "models": 5,
+              "points": 210
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "180"
     },
     {
       "id": "2fa7-e488-c012-4af1",
@@ -18243,7 +19042,7 @@
     {
       "id": "edf8-643b-cd1-3c11",
       "name": "Firestrike Servo-Turrets",
-      "points": 0,
+      "points": 75,
       "keywords": [
         "Artillery",
         "Vehicle",
@@ -18495,7 +19294,24 @@
           "name": "Astartes Tank Ace (Aura)",
           "description": "Adeptus Astartes Vehicle model only. In your Shooting phase, while a friendly Adeptus Astartes\nVehicle unit is within 6\" of the bearer, ranged weapons equipped by models in that unit have the\n[ASSAULT] ability"
         }
-      ]
+      ],
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 75
+            },
+            {
+              "models": 2,
+              "points": 150
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "75/150"
     },
     {
       "id": "3ad-729-3235-4777",
@@ -19090,7 +19906,7 @@
     {
       "id": "ae85-3e33-217d-7413",
       "name": "Whirlwind",
-      "points": 190,
+      "points": 175,
       "keywords": [
         "Imperium",
         "Vehicle",
@@ -19379,7 +20195,30 @@
           "name": "Astartes Tank Ace (Aura)",
           "description": "Adeptus Astartes Vehicle model only. In your Shooting phase, while a friendly Adeptus Astartes\nVehicle unit is within 6\" of the bearer, ranged weapons equipped by models in that unit have the\n[ASSAULT] ability"
         }
-      ]
+      ],
+      "pricing": [
+        {
+          "range": "[1,1]",
+          "label": "Your 1st Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 175
+            }
+          ]
+        },
+        {
+          "range": "[2,)",
+          "label": "Your 2nd + Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 195
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "175"
     },
     {
       "id": "d4c8-dd6a-cd7a-ccc3",
@@ -19672,7 +20511,30 @@
           "name": "Astartes Tank Ace (Aura)",
           "description": "Adeptus Astartes Vehicle model only. In your Shooting phase, while a friendly Adeptus Astartes\nVehicle unit is within 6\" of the bearer, ranged weapons equipped by models in that unit have the\n[ASSAULT] ability"
         }
-      ]
+      ],
+      "pricing": [
+        {
+          "range": "[1,2]",
+          "label": "Your 1st To 2nd Units Cost",
+          "costs": [
+            {
+              "models": 1,
+              "points": 140
+            }
+          ]
+        },
+        {
+          "range": "[3,)",
+          "label": "Your 3rd + Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 150
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "140"
     },
     {
       "id": "31a-6c3e-5843-4023",
@@ -19965,7 +20827,30 @@
           "name": "Astartes Tank Ace (Aura)",
           "description": "Adeptus Astartes Vehicle model only. In your Shooting phase, while a friendly Adeptus Astartes\nVehicle unit is within 6\" of the bearer, ranged weapons equipped by models in that unit have the\n[ASSAULT] ability"
         }
-      ]
+      ],
+      "pricing": [
+        {
+          "range": "[1,2]",
+          "label": "Your 1st To 2nd Units Cost",
+          "costs": [
+            {
+              "models": 1,
+              "points": 135
+            }
+          ]
+        },
+        {
+          "range": "[3,)",
+          "label": "Your 3rd + Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 145
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "135"
     },
     {
       "id": "7814-107b-a498-96f6",
@@ -20258,7 +21143,30 @@
           "name": "Astartes Tank Ace (Aura)",
           "description": "Adeptus Astartes Vehicle model only. In your Shooting phase, while a friendly Adeptus Astartes\nVehicle unit is within 6\" of the bearer, ranged weapons equipped by models in that unit have the\n[ASSAULT] ability"
         }
-      ]
+      ],
+      "pricing": [
+        {
+          "range": "[1,2]",
+          "label": "Your 1st To 2nd Units Cost",
+          "costs": [
+            {
+              "models": 1,
+              "points": 160
+            }
+          ]
+        },
+        {
+          "range": "[3,)",
+          "label": "Your 3rd + Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 170
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "160"
     },
     {
       "id": "ed20-824b-7419-aebc",
@@ -20564,7 +21472,30 @@
           "name": "Astartes Tank Ace (Aura)",
           "description": "Adeptus Astartes Vehicle model only. In your Shooting phase, while a friendly Adeptus Astartes\nVehicle unit is within 6\" of the bearer, ranged weapons equipped by models in that unit have the\n[ASSAULT] ability"
         }
-      ]
+      ],
+      "pricing": [
+        {
+          "range": "[1,2]",
+          "label": "Your 1st To 2nd Units Cost",
+          "costs": [
+            {
+              "models": 1,
+              "points": 160
+            }
+          ]
+        },
+        {
+          "range": "[3,)",
+          "label": "Your 3rd + Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 170
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "160"
     },
     {
       "id": "6b89-8147-9b6b-6db1",
@@ -20869,7 +21800,30 @@
           "name": "Astartes Tank Ace (Aura)",
           "description": "Adeptus Astartes Vehicle model only. In your Shooting phase, while a friendly Adeptus Astartes\nVehicle unit is within 6\" of the bearer, ranged weapons equipped by models in that unit have the\n[ASSAULT] ability"
         }
-      ]
+      ],
+      "pricing": [
+        {
+          "range": "[1,2]",
+          "label": "Your 1st To 2nd Units Cost",
+          "costs": [
+            {
+              "models": 1,
+              "points": 150
+            }
+          ]
+        },
+        {
+          "range": "[3,)",
+          "label": "Your 3rd + Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 160
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "150"
     },
     {
       "id": "cb6d-201f-4888-3027",
@@ -21162,7 +22116,30 @@
           "name": "Astartes Tank Ace (Aura)",
           "description": "Adeptus Astartes Vehicle model only. In your Shooting phase, while a friendly Adeptus Astartes\nVehicle unit is within 6\" of the bearer, ranged weapons equipped by models in that unit have the\n[ASSAULT] ability"
         }
-      ]
+      ],
+      "pricing": [
+        {
+          "range": "[1,2]",
+          "label": "Your 1st To 2nd Units Cost",
+          "costs": [
+            {
+              "models": 1,
+              "points": 185
+            }
+          ]
+        },
+        {
+          "range": "[3,)",
+          "label": "Your 3rd + Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 200
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "185"
     },
     {
       "id": "8cca-9318-3bec-d360",
@@ -21483,7 +22460,30 @@
           "name": "Astartes Tank Ace (Aura)",
           "description": "Adeptus Astartes Vehicle model only. In your Shooting phase, while a friendly Adeptus Astartes\nVehicle unit is within 6\" of the bearer, ranged weapons equipped by models in that unit have the\n[ASSAULT] ability"
         }
-      ]
+      ],
+      "pricing": [
+        {
+          "range": "[1,2]",
+          "label": "Your 1st To 2nd Units Cost",
+          "costs": [
+            {
+              "models": 1,
+              "points": 220
+            }
+          ]
+        },
+        {
+          "range": "[3,)",
+          "label": "Your 3rd + Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 240
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "220"
     },
     {
       "id": "1d65-c592-2e16-b045",
@@ -21809,12 +22809,35 @@
           "name": "Astartes Tank Ace (Aura)",
           "description": "Adeptus Astartes Vehicle model only. In your Shooting phase, while a friendly Adeptus Astartes\nVehicle unit is within 6\" of the bearer, ranged weapons equipped by models in that unit have the\n[ASSAULT] ability"
         }
-      ]
+      ],
+      "pricing": [
+        {
+          "range": "[1,2]",
+          "label": "Your 1st To 2nd Units Cost",
+          "costs": [
+            {
+              "models": 1,
+              "points": 220
+            }
+          ]
+        },
+        {
+          "range": "[3,)",
+          "label": "Your 3rd + Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 240
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "220"
     },
     {
       "id": "d361-a36e-1448-264d",
       "name": "Land Raider Redeemer",
-      "points": 270,
+      "points": 250,
       "keywords": [
         "Vehicle",
         "Grenades",
@@ -22135,12 +23158,35 @@
           "name": "Astartes Tank Ace (Aura)",
           "description": "Adeptus Astartes Vehicle model only. In your Shooting phase, while a friendly Adeptus Astartes\nVehicle unit is within 6\" of the bearer, ranged weapons equipped by models in that unit have the\n[ASSAULT] ability"
         }
-      ]
+      ],
+      "pricing": [
+        {
+          "range": "[1,2]",
+          "label": "Your 1st To 2nd Units Cost",
+          "costs": [
+            {
+              "models": 1,
+              "points": 250
+            }
+          ]
+        },
+        {
+          "range": "[3,)",
+          "label": "Your 3rd + Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 270
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "250"
     },
     {
       "id": "e8e-fc5c-c689-99ca",
       "name": "Repulsor",
-      "points": 180,
+      "points": 170,
       "keywords": [
         "Vehicle",
         "Imperium",
@@ -22420,12 +23466,35 @@
           "name": "Astartes Tank Ace (Aura)",
           "description": "Adeptus Astartes Vehicle model only. In your Shooting phase, while a friendly Adeptus Astartes\nVehicle unit is within 6\" of the bearer, ranged weapons equipped by models in that unit have the\n[ASSAULT] ability"
         }
-      ]
+      ],
+      "pricing": [
+        {
+          "range": "[1,2]",
+          "label": "Your 1st To 2nd Units Cost",
+          "costs": [
+            {
+              "models": 1,
+              "points": 170
+            }
+          ]
+        },
+        {
+          "range": "[3,)",
+          "label": "Your 3rd + Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 190
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "170"
     },
     {
       "id": "9259-f166-15f2-7f79",
       "name": "Repulsor Executioner",
-      "points": 230,
+      "points": 240,
       "keywords": [
         "Vehicle",
         "Smoke",
@@ -22755,7 +23824,30 @@
           "name": "Astartes Tank Ace (Aura)",
           "description": "Adeptus Astartes Vehicle model only. In your Shooting phase, while a friendly Adeptus Astartes\nVehicle unit is within 6\" of the bearer, ranged weapons equipped by models in that unit have the\n[ASSAULT] ability"
         }
-      ]
+      ],
+      "pricing": [
+        {
+          "range": "[1,2]",
+          "label": "Your 1st To 2nd Units Cost",
+          "costs": [
+            {
+              "models": 1,
+              "points": 240
+            }
+          ]
+        },
+        {
+          "range": "[3,)",
+          "label": "Your 3rd + Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 260
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "240"
     },
     {
       "id": "a14e-75ca-ef91-397f",
@@ -23042,7 +24134,20 @@
           "name": "Astartes Tank Ace (Aura)",
           "description": "Adeptus Astartes Vehicle model only. In your Shooting phase, while a friendly Adeptus Astartes\nVehicle unit is within 6\" of the bearer, ranged weapons equipped by models in that unit have the\n[ASSAULT] ability"
         }
-      ]
+      ],
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 75
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "75"
     },
     {
       "id": "ed11-25b9-a0eb-89f4",
@@ -23329,7 +24434,20 @@
           "name": "Astartes Tank Ace (Aura)",
           "description": "Adeptus Astartes Vehicle model only. In your Shooting phase, while a friendly Adeptus Astartes\nVehicle unit is within 6\" of the bearer, ranged weapons equipped by models in that unit have the\n[ASSAULT] ability"
         }
-      ]
+      ],
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 95
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "95"
     },
     {
       "id": "bfb1-7512-e1a3-9fa2",
@@ -23603,7 +24721,20 @@
           "name": "Astartes Tank Ace (Aura)",
           "description": "Adeptus Astartes Vehicle model only. In your Shooting phase, while a friendly Adeptus Astartes\nVehicle unit is within 6\" of the bearer, ranged weapons equipped by models in that unit have the\n[ASSAULT] ability"
         }
-      ]
+      ],
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 80
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "80"
     },
     {
       "id": "4d57-c5c8-c1a1-e8a6",
@@ -23843,7 +24974,20 @@
           "name": "An Honourable End",
           "description": "- This model is eligible to shoot and declare a charge in a turn in which it Advanced.\n- Each time this model fails an Out of Action test, subtract an additional 1 from the result."
         }
-      ]
+      ],
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 70
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "70"
     },
     {
       "id": "fce3-2e6f-cede-69cc",
@@ -24371,7 +25515,20 @@
           "name": "An Honourable End",
           "description": "- This model is eligible to shoot and declare a charge in a turn in which it Advanced.\n- Each time this model fails an Out of Action test, subtract an additional 1 from the result."
         }
-      ]
+      ],
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 155
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "155"
     },
     {
       "id": "1bb6-878e-7af1-5bdb",
@@ -24626,7 +25783,20 @@
           "name": "An Honourable End",
           "description": "- This model is eligible to shoot and declare a charge in a turn in which it Advanced.\n- Each time this model fails an Out of Action test, subtract an additional 1 from the result."
         }
-      ]
+      ],
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 165
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "165"
     },
     {
       "id": "469b-3370-30f3-473a",
@@ -24896,7 +26066,30 @@
           "name": "An Honourable End",
           "description": "- This model is eligible to shoot and declare a charge in a turn in which it Advanced.\n- Each time this model fails an Out of Action test, subtract an additional 1 from the result."
         }
-      ]
+      ],
+      "pricing": [
+        {
+          "range": "[1,1]",
+          "label": "Your 1st Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 280
+            }
+          ]
+        },
+        {
+          "range": "[2,)",
+          "label": "Your 2nd + Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 300
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "280"
     },
     {
       "id": "5882-9143-e7c5-ac11",
@@ -24988,7 +26181,20 @@
           "name": "Defensive Array",
           "description": "You can target this Fortification with the Fire Overwatch Strategem for 0CP, and can do so even if you have already targeted another unit with that Stratagem this turn. This Fortification can only be targeted with that Stratagem once per turn."
         }
-      ]
+      ],
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 175
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "175"
     },
     {
       "id": "faf9-bf62-8eb5-a3cb",
@@ -25878,7 +27084,7 @@
     {
       "id": "ce15-e87e-7cff-b129",
       "name": "Lieutenant",
-      "points": 55,
+      "points": 45,
       "keywords": [
         "Character",
         "Infantry",
@@ -26836,12 +28042,45 @@
           "name": "An Honourable End",
           "description": "- This model is eligible to shoot and declare a charge in a turn in which it Advanced.\n- Each time this model fails an Out of Action test, subtract an additional 1 from the result."
         }
+      ],
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 45
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "45",
+      "mfmRole": "support",
+      "attachTo": [
+        "Assault Intercessor Squad",
+        "Assault Squad",
+        "Bladeguard Veteran Squad",
+        "Command Squad",
+        "Company Heroes",
+        "Crusader Squad",
+        "Deathwatch Veterans",
+        "Decimus Kill Team",
+        "Fortis Kill Team",
+        "Hellblaster Squad",
+        "Infernus Squad",
+        "Inner Circle Companions",
+        "Intercessor Squad",
+        "Sternguard Veteran Squad",
+        "Sword Brethren Squad",
+        "Tactical Squad",
+        "Vanguard Veteran Squad"
       ]
     },
     {
       "id": "6dfd-beb0-5b01-b21e",
       "name": "Lieutenant in Reiver Armour",
-      "points": 55,
+      "points": 45,
       "keywords": [
         "Character",
         "Infantry",
@@ -27724,12 +28963,29 @@
           "name": "An Honourable End",
           "description": "- This model is eligible to shoot and declare a charge in a turn in which it Advanced.\n- Each time this model fails an Out of Action test, subtract an additional 1 from the result."
         }
+      ],
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 45
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "45",
+      "mfmRole": "support",
+      "attachTo": [
+        "Reiver Squad"
       ]
     },
     {
       "id": "fe0e-6070-e7b-d4b8",
       "name": "Lieutenant in Phobos Armour",
-      "points": 55,
+      "points": 45,
       "keywords": [
         "Character",
         "Infantry",
@@ -28620,12 +29876,32 @@
           "name": "An Honourable End",
           "description": "- This model is eligible to shoot and declare a charge in a turn in which it Advanced.\n- Each time this model fails an Out of Action test, subtract an additional 1 from the result."
         }
+      ],
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 45
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "45",
+      "mfmRole": "support",
+      "attachTo": [
+        "Incursor Squad",
+        "Infiltrator Squad",
+        "Reiver Squad",
+        "Spectrus Kill Team"
       ]
     },
     {
       "id": "78eb-9334-f5c0-6095",
       "name": "Librarian",
-      "points": 65,
+      "points": 60,
       "keywords": [
         "Character",
         "Infantry",
@@ -29532,6 +30808,36 @@
           "name": "An Honourable End",
           "description": "- This model is eligible to shoot and declare a charge in a turn in which it Advanced.\n- Each time this model fails an Out of Action test, subtract an additional 1 from the result."
         }
+      ],
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 60
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "60",
+      "mfmRole": "leader",
+      "attachTo": [
+        "Assault Intercessor Squad",
+        "Assault Squad",
+        "Deathwatch Veterans",
+        "Decimus Kill Team",
+        "Desolation Squad",
+        "Devastator Squad",
+        "Fortis Kill Team",
+        "Hellblaster Squad",
+        "Infernus Squad",
+        "Inner Circle Companions",
+        "Intercessor Squad",
+        "Sternguard Veteran Squad",
+        "Tactical Squad",
+        "Vanguard Veteran Squad"
       ]
     },
     {
@@ -30445,6 +31751,28 @@
           "name": "An Honourable End",
           "description": "- This model is eligible to shoot and declare a charge in a turn in which it Advanced.\n- Each time this model fails an Out of Action test, subtract an additional 1 from the result."
         }
+      ],
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 70
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "70",
+      "mfmRole": "leader",
+      "attachTo": [
+        "Eliminator Squad",
+        "Incursor Squad",
+        "Infiltrator Squad",
+        "Reiver Squad",
+        "Scout Squad",
+        "Spectrus Kill Team"
       ]
     },
     {
@@ -31345,6 +32673,28 @@
           "name": "An Honourable End",
           "description": "- This model is eligible to shoot and declare a charge in a turn in which it Advanced.\n- Each time this model fails an Out of Action test, subtract an additional 1 from the result."
         }
+      ],
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 75
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "75",
+      "mfmRole": "leader",
+      "attachTo": [
+        "Deathwatch Terminator Squad",
+        "Deathwing Knights",
+        "Deathwing Terminator Squad",
+        "Relic Terminator Squad",
+        "Terminator Assault Squad",
+        "Terminator Squad"
       ]
     },
     {
@@ -33126,6 +34476,39 @@
           "name": "An Honourable End",
           "description": "- This model is eligible to shoot and declare a charge in a turn in which it Advanced.\n- Each time this model fails an Out of Action test, subtract an additional 1 from the result."
         }
+      ],
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 60
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "60",
+      "mfmRole": "leader",
+      "attachTo": [
+        "Assault Intercessor Squad",
+        "Assault Squad",
+        "Bladeguard Veteran Squad",
+        "Crusader Squad",
+        "Death Company Marines",
+        "Death Company Marines With Bolt Rifles",
+        "Deathwatch Veterans",
+        "Decimus Kill Team",
+        "Fortis Kill Team",
+        "Hellblaster Squad",
+        "Infernus Squad",
+        "Inner Circle Companions",
+        "Intercessor Squad",
+        "Sternguard Veteran Squad",
+        "Sword Brethren Squad",
+        "Tactical Squad",
+        "Vanguard Veteran Squad"
       ]
     },
     {
@@ -33996,12 +35379,34 @@
           "name": "An Honourable End",
           "description": "- This model is eligible to shoot and declare a charge in a turn in which it Advanced.\n- Each time this model fails an Out of Action test, subtract an additional 1 from the result."
         }
+      ],
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 75
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "75",
+      "mfmRole": "leader",
+      "attachTo": [
+        "Deathwatch Terminator Squad",
+        "Deathwing Knights",
+        "Deathwing Terminator Squad",
+        "Relic Terminator Squad",
+        "Terminator Assault Squad",
+        "Terminator Squad"
       ]
     },
     {
       "id": "5d1d-2230-8199-3ab3",
       "name": "Chaplain on Bike",
-      "points": 75,
+      "points": 70,
       "keywords": [
         "Character",
         "Mounted",
@@ -34891,6 +36296,26 @@
           "name": "An Honourable End",
           "description": "- This model is eligible to shoot and declare a charge in a turn in which it Advanced.\n- Each time this model fails an Out of Action test, subtract an additional 1 from the result."
         }
+      ],
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 70
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "70",
+      "mfmRole": "leader",
+      "attachTo": [
+        "Bike Squad",
+        "Company Veterans On Bikes",
+        "Outrider Squad",
+        "Ravenwing Black Knights"
       ]
     },
     {
@@ -35762,6 +37187,27 @@
           "name": "An Honourable End",
           "description": "- This model is eligible to shoot and declare a charge in a turn in which it Advanced.\n- Each time this model fails an Out of Action test, subtract an additional 1 from the result."
         }
+      ],
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 75
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "75",
+      "mfmRole": "leader",
+      "attachTo": [
+        "Assault Intercessors With Jump Packs",
+        "Assault Squad With Jump Packs",
+        "Death Company Marines With Jump Packs",
+        "Talonstrike Kill Team",
+        "Vanguard Veteran Squad With Jump Packs"
       ]
     },
     {
@@ -36676,6 +38122,33 @@
           "name": "An Honourable End",
           "description": "- This model is eligible to shoot and declare a charge in a turn in which it Advanced.\n- Each time this model fails an Out of Action test, subtract an additional 1 from the result."
         }
+      ],
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 55
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "55",
+      "mfmRole": "leader",
+      "attachTo": [
+        "Assault Intercessor Squad",
+        "Assault Squad",
+        "Crusader Squad",
+        "Decimus Kill Team",
+        "Desolation Squad",
+        "Devastator Squad",
+        "Fortis Kill Team",
+        "Intercessor Squad",
+        "Sword Brethren Squad",
+        "Tactical Squad",
+        "Vanguard Veteran Squad"
       ]
     },
     {
@@ -37881,7 +39354,20 @@
           "name": "An Honourable End",
           "description": "- This model is eligible to shoot and declare a charge in a turn in which it Advanced.\n- Each time this model fails an Out of Action test, subtract an additional 1 from the result."
         }
-      ]
+      ],
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 85
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "85"
     },
     {
       "id": "36cf-5961-78b9-79ce",
@@ -38776,7 +40262,7 @@
     {
       "id": "8a9d-11f-fad-bd0f",
       "name": "Apothecary",
-      "points": 50,
+      "points": 40,
       "keywords": [
         "Character",
         "Grenades",
@@ -39670,6 +41156,39 @@
           "name": "An Honourable End",
           "description": "- This model is eligible to shoot and declare a charge in a turn in which it Advanced.\n- Each time this model fails an Out of Action test, subtract an additional 1 from the result."
         }
+      ],
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 40
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "40",
+      "mfmRole": "support",
+      "attachTo": [
+        "Assault Intercessor Squad",
+        "Assault Squad",
+        "Bladeguard Veteran Squad",
+        "Crusader Squad",
+        "Deathwatch Veterans",
+        "Decimus Kill Team",
+        "Desolation Squad",
+        "Devastator Squad",
+        "Fortis Kill Team",
+        "Hellblaster Squad",
+        "Infernus Squad",
+        "Inner Circle Companions",
+        "Intercessor Squad",
+        "Sternguard Veteran Squad",
+        "Sword Brethren Squad",
+        "Tactical Squad",
+        "Vanguard Veteran Squad"
       ]
     },
     {
@@ -40558,12 +42077,32 @@
           "name": "An Honourable End",
           "description": "- This model is eligible to shoot and declare a charge in a turn in which it Advanced.\n- Each time this model fails an Out of Action test, subtract an additional 1 from the result."
         }
+      ],
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 70
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "70",
+      "mfmRole": "support",
+      "attachTo": [
+        "Aggressor Squad",
+        "Eradicator Squad",
+        "Heavy Intercessor Squad",
+        "Indomitor Kill Team"
       ]
     },
     {
       "id": "6562-d718-b8e0-c457",
       "name": "Ancient",
-      "points": 50,
+      "points": 40,
       "keywords": [
         "Infantry",
         "Character",
@@ -41430,12 +42969,44 @@
           "name": "An Honourable End",
           "description": "- This model is eligible to shoot and declare a charge in a turn in which it Advanced.\n- Each time this model fails an Out of Action test, subtract an additional 1 from the result."
         }
+      ],
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 40
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "40",
+      "mfmRole": "support",
+      "attachTo": [
+        "Assault Intercessor Squad",
+        "Assault Squad",
+        "Crusader Squad",
+        "Deathwatch Veterans",
+        "Decimus Kill Team",
+        "Desolation Squad",
+        "Devastator Squad",
+        "Fortis Kill Team",
+        "Hellblaster Squad",
+        "Infernus Squad",
+        "Inner Circle Companions",
+        "Intercessor Squad",
+        "Sternguard Veteran Squad",
+        "Sword Brethren Squad",
+        "Tactical Squad",
+        "Vanguard Veteran Squad"
       ]
     },
     {
       "id": "9ca5-e5f4-f85d-bcca",
       "name": "Bladeguard Ancient",
-      "points": 45,
+      "points": 40,
       "keywords": [
         "Infantry",
         "Character",
@@ -42314,6 +43885,23 @@
           "name": "An Honourable End",
           "description": "- This model is eligible to shoot and declare a charge in a turn in which it Advanced.\n- Each time this model fails an Out of Action test, subtract an additional 1 from the result."
         }
+      ],
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 40
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "40",
+      "mfmRole": "support",
+      "attachTo": [
+        "Bladeguard Veteran Squad"
       ]
     },
     {
@@ -43881,7 +45469,7 @@
     {
       "id": "8dcb-987c-1ab4-b976",
       "name": "Judiciar",
-      "points": 70,
+      "points": 55,
       "keywords": [
         "Character",
         "Infantry",
@@ -44769,6 +46357,36 @@
           "name": "An Honourable End",
           "description": "- This model is eligible to shoot and declare a charge in a turn in which it Advanced.\n- Each time this model fails an Out of Action test, subtract an additional 1 from the result."
         }
+      ],
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 55
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "55",
+      "mfmRole": "leader",
+      "attachTo": [
+        "Assault Intercessor Squad",
+        "Assault Squad",
+        "Bladeguard Veteran Squad",
+        "Crusader Squad",
+        "Deathwatch Veterans",
+        "Decimus Kill Team",
+        "Fortis Kill Team",
+        "Infernus Squad",
+        "Inner Circle Companions",
+        "Intercessor Squad",
+        "Sternguard Veteran Squad",
+        "Sword Brethren Squad",
+        "Tactical Squad",
+        "Vanguard Veteran Squad"
       ]
     },
     {
@@ -45732,6 +47350,41 @@
           "name": "An Honourable End",
           "description": "- This model is eligible to shoot and declare a charge in a turn in which it Advanced.\n- Each time this model fails an Out of Action test, subtract an additional 1 from the result."
         }
+      ],
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 80
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "80",
+      "mfmRole": "leader",
+      "attachTo": [
+        "Assault Intercessor Squad",
+        "Assault Squad",
+        "Bladeguard Veteran Squad",
+        "Command Squad",
+        "Company Heroes",
+        "Crusader Squad",
+        "Deathwatch Veterans",
+        "Decimus Kill Team",
+        "Desolation Squad",
+        "Fortis Kill Team",
+        "Hellblaster Squad",
+        "Infernus Squad",
+        "Inner Circle Companions",
+        "Intercessor Squad",
+        "Sternguard Veteran Squad",
+        "Sword Brethren Squad",
+        "Tactical Squad",
+        "Vanguard Veteran Squad",
+        "Victrix Honour Guard"
       ]
     },
     {
@@ -46007,7 +47660,30 @@
           "name": "Astartes Tank Ace (Aura)",
           "description": "Adeptus Astartes Vehicle model only. In your Shooting phase, while a friendly Adeptus Astartes\nVehicle unit is within 6\" of the bearer, ranged weapons equipped by models in that unit have the\n[ASSAULT] ability"
         }
-      ]
+      ],
+      "pricing": [
+        {
+          "range": "[1,1]",
+          "label": "Your 1st Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 525
+            }
+          ]
+        },
+        {
+          "range": "[2,)",
+          "label": "Your 2nd + Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 575
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "525"
     },
     {
       "id": "3416-dfee-84ee-e21d",
@@ -46244,7 +47920,20 @@
           "description": "- This model is eligible to shoot and declare a charge in a turn in which it Advanced.\n- Each time this model fails an Out of Action test, subtract an additional 1 from the result."
         }
       ],
-      "transportCapacity": "This model has a transport capacity of 30 ADEPTUS ASTARTES INFANTRY or ADEPTUS ASTARTES MOUNTED models. Each JUMP PACK, WULFEN, GRAVIS or TERMINATOR model takes up the space of 2 models. Each CENTURION model takes up the space of 3 models. Each MOUNTED model takes up the space of 4 models."
+      "transportCapacity": "This model has a transport capacity of 30 ADEPTUS ASTARTES INFANTRY or ADEPTUS ASTARTES MOUNTED models. Each JUMP PACK, WULFEN, GRAVIS or TERMINATOR model takes up the space of 2 models. Each CENTURION model takes up the space of 3 models. Each MOUNTED model takes up the space of 4 models.",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 840
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "840"
     },
     {
       "id": "f62a-bea1-a015-3668",
@@ -56128,7 +57817,7 @@
     {
       "id": "cdd9-efda-95-e7b2",
       "name": "Assault Intercessors with Jump Packs",
-      "points": 90,
+      "points": 85,
       "keywords": [
         "Infantry",
         "Grenades",
@@ -56438,7 +58127,38 @@
           "name": "An Honourable End",
           "description": "- This model is eligible to shoot and declare a charge in a turn in which it Advanced.\n- Each time this model fails an Out of Action test, subtract an additional 1 from the result."
         }
-      ]
+      ],
+      "pricing": [
+        {
+          "range": "[1,2]",
+          "label": "Your 1st To 2nd Units Cost",
+          "costs": [
+            {
+              "models": 5,
+              "points": 85
+            },
+            {
+              "models": 10,
+              "points": 160
+            }
+          ]
+        },
+        {
+          "range": "[3,)",
+          "label": "Your 3rd + Unit Costs",
+          "costs": [
+            {
+              "models": 5,
+              "points": 95
+            },
+            {
+              "models": 10,
+              "points": 170
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "85/160"
     },
     {
       "id": "2f2e-d99b-b235-163a",
@@ -56748,7 +58468,20 @@
           "name": "An Honourable End",
           "description": "- This model is eligible to shoot and declare a charge in a turn in which it Advanced.\n- Each time this model fails an Out of Action test, subtract an additional 1 from the result."
         }
-      ]
+      ],
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 4,
+              "points": 105
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "105"
     },
     {
       "id": "dc83-f2ef-802a-5662",

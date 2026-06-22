@@ -1,0 +1,1454 @@
+{
+  "640-9969-d5b9-875c": {
+    "groups": [
+      {
+        "id": "af3f-e75e-0a33-495f",
+        "name": "Wargear",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "87c1-e409-328b-e9aa",
+            "name": "Armoured Tracks",
+            "min": 1,
+            "max": 1
+          },
+          {
+            "id": "2d8f-d57d-c9a-1746",
+            "name": "Hunter-killer missile",
+            "min": 0,
+            "max": 1
+          },
+          {
+            "id": "f270-2255-9e6f-7382",
+            "name": "Storm bolter",
+            "min": 0,
+            "max": 1
+          }
+        ],
+        "groups": [
+          {
+            "id": "a538-3b22-104c-6547",
+            "name": "Sponson Weapons",
+            "min": 0,
+            "max": 1,
+            "mode": "single",
+            "options": [
+              {
+                "id": "f126-f2a2-ed42-1efc",
+                "name": "2 Heavy Flamers",
+                "min": 0,
+                "max": 99
+              },
+              {
+                "id": "6397-897d-d959-af25",
+                "name": "2 Heavy Bolters",
+                "min": 0,
+                "max": 99
+              }
+            ]
+          },
+          {
+            "id": "d6b1-a463-2afa-bf38",
+            "name": "Turret Weapon",
+            "min": 1,
+            "max": 1,
+            "mode": "single",
+            "options": [
+              {
+                "id": "253b-b157-a181-71bd",
+                "name": "Baal Flamestorm Cannon",
+                "min": 0,
+                "max": 99
+              },
+              {
+                "id": "6e27-0c48-29c0-36cc",
+                "name": "Twin Assault Cannon",
+                "min": 0,
+                "max": 99
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "e7ee-e70-bd87-7c5c": {
+    "groups": [
+      {
+        "id": "b01c-0b8e-d76c-827f",
+        "name": "Wargear",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "68c9-5ae0-948c-bb78",
+            "name": "Smoke Launchers",
+            "min": 0,
+            "max": 1
+          }
+        ],
+        "groups": [
+          {
+            "id": "52f3-82d5-c00a-1471",
+            "name": "Melee Weapon",
+            "min": 1,
+            "max": 1,
+            "mode": "single",
+            "options": [
+              {
+                "id": "a911-6335-9592-e597",
+                "name": "Blood Talons",
+                "min": 0,
+                "max": 99
+              },
+              {
+                "id": "f802-ccaf-2016-12d6",
+                "name": "Twin Furioso Fists",
+                "min": 0,
+                "max": 99
+              }
+            ],
+            "defaultOptionId": "f802-ccaf-2016-12d6"
+          },
+          {
+            "id": "35bb-90d7-6a16-fee4",
+            "name": "Weapon Option 1",
+            "min": 1,
+            "max": 1,
+            "mode": "single",
+            "options": [
+              {
+                "id": "de07-4256-a577-5ff6",
+                "name": "Storm Bolter",
+                "min": 0,
+                "max": 99
+              },
+              {
+                "id": "15cd-5d24-af6-fdbe",
+                "name": "Heavy Flamer",
+                "min": 0,
+                "max": 99
+              }
+            ],
+            "defaultOptionId": "de07-4256-a577-5ff6"
+          },
+          {
+            "id": "72eb-3928-12be-62a3",
+            "name": "Weapon Option 2",
+            "min": 1,
+            "max": 1,
+            "mode": "single",
+            "options": [
+              {
+                "id": "2a75-2b92-1185-d20b",
+                "name": "Meltagun",
+                "min": 0,
+                "max": 99
+              },
+              {
+                "id": "5ce5-4183-b5ea-b056",
+                "name": "Heavy Flamer",
+                "min": 0,
+                "max": 99
+              }
+            ],
+            "defaultOptionId": "2a75-2b92-1185-d20b"
+          }
+        ]
+      }
+    ]
+  },
+  "6562-9dcd-afea-d4ae": {
+    "groups": [
+      {
+        "id": "d39b-8861-f88d-b9ac",
+        "name": "Death Company Marines",
+        "min": 5,
+        "max": 10,
+        "mode": "count",
+        "options": [
+          {
+            "id": "27fb-dae-85c5-9467",
+            "name": "Death Company Marine",
+            "min": 5,
+            "max": 10,
+            "groups": [
+              {
+                "id": "9505-5a7d-5cf8-9c",
+                "name": "Weapon Options",
+                "min": 1,
+                "max": 1,
+                "mode": "single",
+                "options": [
+                  {
+                    "id": "834f-3470-9783-f5e9",
+                    "name": "Boltgun and Close Combat Weapon",
+                    "min": 0,
+                    "max": 99,
+                    "equippedWith": "Boltgun and Close combat weapon"
+                  },
+                  {
+                    "id": "74a4-f65a-a086-c5b1",
+                    "name": "Melee and Pistol",
+                    "min": 0,
+                    "max": 99,
+                    "groups": [
+                      {
+                        "id": "fd0d-e87a-c31a-831",
+                        "name": "Melee Option",
+                        "min": 1,
+                        "max": 1,
+                        "mode": "single",
+                        "options": [
+                          {
+                            "id": "36c0-711a-50e7-ddba",
+                            "name": "Astartes Chainsword",
+                            "min": 0,
+                            "max": 99
+                          },
+                          {
+                            "id": "a1f1-82d9-a54e-4565",
+                            "name": "Power fist",
+                            "min": 0,
+                            "max": 99
+                          },
+                          {
+                            "id": "a629-6322-659d-fe70",
+                            "name": "Power weapon",
+                            "min": 0,
+                            "max": 99
+                          }
+                        ],
+                        "defaultOptionId": "36c0-711a-50e7-ddba"
+                      },
+                      {
+                        "id": "2be0-9da2-2d5a-a872",
+                        "name": "Pistol Option",
+                        "min": 1,
+                        "max": 1,
+                        "mode": "single",
+                        "options": [
+                          {
+                            "id": "2fdf-b222-d6a8-6af4",
+                            "name": "Bolt pistol",
+                            "min": 0,
+                            "max": 99
+                          },
+                          {
+                            "id": "de2-56ae-9256-5193",
+                            "name": "Plasma pistol",
+                            "min": 0,
+                            "max": 99
+                          },
+                          {
+                            "id": "d52b-e528-f242-31cc",
+                            "name": "Hand flamer",
+                            "min": 0,
+                            "max": 99
+                          },
+                          {
+                            "id": "fb3f-558c-2bd2-9dbc",
+                            "name": "Inferno Pistol",
+                            "min": 0,
+                            "max": 99
+                          }
+                        ],
+                        "defaultOptionId": "2fdf-b222-d6a8-6af4"
+                      }
+                    ]
+                  },
+                  {
+                    "id": "7510-1359-b27-4da8",
+                    "name": "Thunder Hammer",
+                    "min": 0,
+                    "max": 99
+                  }
+                ],
+                "defaultOptionId": "834f-3470-9783-f5e9"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "65f6-18df-f6df-7e39": {
+    "groups": [
+      {
+        "id": "38dc-f876-6405-8f17",
+        "name": "Death Company Marines",
+        "min": 5,
+        "max": 10,
+        "mode": "count",
+        "options": [
+          {
+            "id": "27ea-4039-2794-db20",
+            "name": "Death Company Marine",
+            "min": 0,
+            "max": 10,
+            "equippedWith": "Astartes Chainsword and Heavy Bolt Pistol"
+          },
+          {
+            "id": "b23e-8c93-e120-a322",
+            "name": "Death Company Marine w/ alternate weapons",
+            "min": 0,
+            "max": 7,
+            "groups": [
+              {
+                "id": "2bf2-4cf5-a4f3-9867",
+                "name": "Pistol Weapon",
+                "min": 1,
+                "max": 1,
+                "mode": "single",
+                "options": [
+                  {
+                    "id": "807b-c7cb-b04b-4194",
+                    "name": "Heavy Bolt Pistol",
+                    "min": 0,
+                    "max": 99
+                  },
+                  {
+                    "id": "38be-33ce-c35a-b96c",
+                    "name": "Plasma pistol",
+                    "min": 0,
+                    "max": 99
+                  },
+                  {
+                    "id": "2f6f-1dd8-9d13-e471",
+                    "name": "Hand flamer",
+                    "min": 0,
+                    "max": 99
+                  },
+                  {
+                    "id": "c219-5e50-5d8d-4930",
+                    "name": "Inferno Pistol",
+                    "min": 0,
+                    "max": 99
+                  }
+                ],
+                "defaultOptionId": "807b-c7cb-b04b-4194"
+              },
+              {
+                "id": "9068-ef9c-8583-ceb2",
+                "name": "Melee Weapon",
+                "min": 1,
+                "max": 1,
+                "mode": "single",
+                "options": [
+                  {
+                    "id": "bead-7f68-bd5c-5f80",
+                    "name": "Power weapon",
+                    "min": 0,
+                    "max": 99
+                  },
+                  {
+                    "id": "c317-53c8-0d9e-c321",
+                    "name": "Power fist",
+                    "min": 0,
+                    "max": 99
+                  },
+                  {
+                    "id": "801d-80dc-3e31-0d5a",
+                    "name": "Eviscerator",
+                    "min": 0,
+                    "max": 99
+                  },
+                  {
+                    "id": "0dfe-06f1-349f-8d28",
+                    "name": "Astartes Chainsword",
+                    "min": 0,
+                    "max": 99
+                  }
+                ],
+                "defaultOptionId": "05ea-4b2e-bcbb-7c9b"
+              }
+            ]
+          }
+        ],
+        "defaultOptionId": "27ea-4039-2794-db20"
+      }
+    ]
+  },
+  "c954-8157-25fd-5f99": {
+    "groups": [
+      {
+        "id": "88d7-4674-b197-cb6c",
+        "name": "Wargear",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "9038-5d99-4e99-3ad5",
+            "name": "Magna-grapple",
+            "min": 0,
+            "max": 1
+          }
+        ],
+        "groups": [
+          {
+            "id": "e057-c5ab-9725-96f1",
+            "name": "Weapon Options",
+            "min": 1,
+            "max": 1,
+            "mode": "single",
+            "options": [
+              {
+                "id": "28d7-3dc4-b3be-bfed",
+                "name": "Heavy Frag Cannon and Furioso Fist",
+                "min": 0,
+                "max": 99,
+                "groups": [
+                  {
+                    "id": "7c19-8ddf-be7c-79c2",
+                    "name": "Underslung Weapon",
+                    "min": 1,
+                    "max": 1,
+                    "mode": "single",
+                    "options": [
+                      {
+                        "id": "c6d4-1e2-e431-dddc",
+                        "name": "Storm bolter",
+                        "min": 0,
+                        "max": 99
+                      },
+                      {
+                        "id": "a330-87be-2b4e-dc31",
+                        "name": "Heavy flamer",
+                        "min": 0,
+                        "max": 99
+                      }
+                    ],
+                    "defaultOptionId": "c6d4-1e2-e431-dddc"
+                  }
+                ]
+              },
+              {
+                "id": "d791-6eef-d06b-c1b3",
+                "name": "Blood Talons and Meltagun",
+                "min": 0,
+                "max": 99,
+                "groups": [
+                  {
+                    "id": "d9c1-a524-2dae-d8d8",
+                    "name": "Underslung Weapons",
+                    "min": 2,
+                    "max": 2,
+                    "mode": "count",
+                    "options": [],
+                    "groups": [
+                      {
+                        "id": "fa86-4631-b0dc-edfb-fixed",
+                        "name": "Storm bolter",
+                        "min": 1,
+                        "max": 1,
+                        "mode": "fixed",
+                        "fixedOptionId": "fa86-4631-b0dc-edfb",
+                        "options": [
+                          {
+                            "id": "fa86-4631-b0dc-edfb",
+                            "name": "Storm bolter",
+                            "min": 1,
+                            "max": 1
+                          }
+                        ]
+                      },
+                      {
+                        "id": "63b8-2670-2ea8-fcb3-fixed",
+                        "name": "Meltagun",
+                        "min": 1,
+                        "max": 1,
+                        "mode": "fixed",
+                        "fixedOptionId": "63b8-2670-2ea8-fcb3",
+                        "options": [
+                          {
+                            "id": "63b8-2670-2ea8-fcb3",
+                            "name": "Meltagun",
+                            "min": 1,
+                            "max": 1
+                          }
+                        ]
+                      },
+                      {
+                        "id": "d9c1-a524-2dae-d8d8-squad",
+                        "name": "Squad",
+                        "min": 0,
+                        "max": 0,
+                        "mode": "count",
+                        "options": [
+                          {
+                            "id": "ed1d-60bf-ee8e-f5e6",
+                            "name": "Heavy flamer",
+                            "min": 0,
+                            "max": 2
+                          }
+                        ],
+                        "defaultOptionId": "c6d4-1e2-e431-dddc"
+                      }
+                    ]
+                  }
+                ],
+                "equippedWith": "Blood Talons"
+              },
+              {
+                "id": "e9ce-473d-365-aa3f",
+                "name": "Twin Furioso Fists and Meltagun",
+                "min": 0,
+                "max": 99,
+                "groups": [
+                  {
+                    "id": "c91e-8c98-c270-48c9",
+                    "name": "Underslung Weapons",
+                    "min": 2,
+                    "max": 2,
+                    "mode": "count",
+                    "options": [],
+                    "groups": [
+                      {
+                        "id": "46c7-1b00-3027-c45e-fixed",
+                        "name": "Storm bolter",
+                        "min": 1,
+                        "max": 1,
+                        "mode": "fixed",
+                        "fixedOptionId": "46c7-1b00-3027-c45e",
+                        "options": [
+                          {
+                            "id": "46c7-1b00-3027-c45e",
+                            "name": "Storm bolter",
+                            "min": 1,
+                            "max": 1
+                          }
+                        ]
+                      },
+                      {
+                        "id": "9108-e325-d982-a7e9-fixed",
+                        "name": "Meltagun",
+                        "min": 1,
+                        "max": 1,
+                        "mode": "fixed",
+                        "fixedOptionId": "9108-e325-d982-a7e9",
+                        "options": [
+                          {
+                            "id": "9108-e325-d982-a7e9",
+                            "name": "Meltagun",
+                            "min": 1,
+                            "max": 1
+                          }
+                        ]
+                      },
+                      {
+                        "id": "c91e-8c98-c270-48c9-squad",
+                        "name": "Squad",
+                        "min": 0,
+                        "max": 0,
+                        "mode": "count",
+                        "options": [
+                          {
+                            "id": "6c6d-591d-bd33-fbec",
+                            "name": "Heavy flamer",
+                            "min": 0,
+                            "max": 2
+                          }
+                        ],
+                        "defaultOptionId": "c6d4-1e2-e431-dddc"
+                      }
+                    ]
+                  }
+                ],
+                "equippedWith": "Twin Furioso Fists"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "b6e0-b465-801c-24c8": {
+    "groups": [
+      {
+        "id": "9638-3047-f105-5df9",
+        "name": "Wargear",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "4696-c920-6fe4-d64b",
+            "name": "Blood Lance",
+            "min": 1,
+            "max": 1
+          },
+          {
+            "id": "e26d-6206-fd7a-2bd7",
+            "name": "Furioso Fist",
+            "min": 1,
+            "max": 1
+          },
+          {
+            "id": "80e5-4fdc-eb6f-71a9",
+            "name": "Furioso Force Halberd",
+            "min": 1,
+            "max": 1
+          }
+        ],
+        "groups": [
+          {
+            "id": "2ec1-8d44-92d3-c316",
+            "name": "Weapon Option",
+            "min": 1,
+            "max": 1,
+            "mode": "single",
+            "options": [
+              {
+                "id": "3455-4eaa-3eff-1454",
+                "name": "Storm bolter",
+                "min": 0,
+                "max": 99
+              },
+              {
+                "id": "81cf-c027-e705-ac7c",
+                "name": "Heavy Flamer",
+                "min": 0,
+                "max": 99
+              },
+              {
+                "id": "f669-1322-c0e8-9c3d",
+                "name": "Meltagun",
+                "min": 0,
+                "max": 99
+              }
+            ],
+            "defaultOptionId": "3455-4eaa-3eff-1454"
+          }
+        ]
+      }
+    ]
+  },
+  "25e4-ead-faac-2531": {
+    "groups": [
+      {
+        "id": "b36d-e83-6a91-e2b4",
+        "name": "Sanguinary Guard",
+        "min": 3,
+        "max": 6,
+        "mode": "count",
+        "options": [
+          {
+            "id": "8e33-50a5-d053-ee15",
+            "name": "Sanguinary Guard",
+            "min": 0,
+            "max": 6,
+            "groups": [
+              {
+                "id": "6ddc-8f45-ecd6-1db6",
+                "name": "Melee Weapon",
+                "min": 1,
+                "max": 1,
+                "mode": "single",
+                "options": [
+                  {
+                    "id": "8776-3451-c6e-aa6c",
+                    "name": "Encarmine Blade",
+                    "min": 0,
+                    "max": 99
+                  },
+                  {
+                    "id": "e116-2740-11c0-34ed",
+                    "name": "Encarmine Spear",
+                    "min": 0,
+                    "max": 99
+                  }
+                ],
+                "defaultOptionId": "8776-3451-c6e-aa6c"
+              },
+              {
+                "id": "7713-28f3-c9d1-4da1",
+                "name": "Ranged Weapon",
+                "min": 1,
+                "max": 1,
+                "mode": "single",
+                "options": [
+                  {
+                    "id": "f64-f4db-cee7-c077",
+                    "name": "Angelus Boltgun",
+                    "min": 0,
+                    "max": 99
+                  },
+                  {
+                    "id": "5a6-4bd-c3b2-f33f",
+                    "name": "Inferno Pistol",
+                    "min": 0,
+                    "max": 99
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "defaultOptionId": "8e33-50a5-d053-ee15"
+      }
+    ]
+  },
+  "f80-be5-d17c-db23": {
+    "groups": [
+      {
+        "id": "5822-0202-5c34-4f93",
+        "name": "Wargear",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "6962-990d-c53c-9af4",
+            "name": "Absolvor bolt pistol",
+            "min": 1,
+            "max": 1
+          },
+          {
+            "id": "1550-c228-5787-99b1",
+            "name": "Astartes Chainsword",
+            "min": 1,
+            "max": 1
+          }
+        ]
+      }
+    ]
+  },
+  "fa13-ba8a-8711-87b6": {
+    "groups": [
+      {
+        "id": "8469-1244-dd3b-f2c7",
+        "name": "Wargear",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "9302-dfb0-4440-6401",
+            "name": "Astartes Chainsword",
+            "min": 1,
+            "max": 1
+          },
+          {
+            "id": "ddc0-a842-9cb0-ed7c",
+            "name": "Bolt pistol",
+            "min": 1,
+            "max": 1
+          }
+        ]
+      }
+    ]
+  },
+  "3621-b460-722-8954": {
+    "groups": [
+      {
+        "id": "1c62-ff66-eff5-3146",
+        "name": "Wargear",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "d938-6400-16f6-6778",
+            "name": "Twin boltgun",
+            "min": 1,
+            "max": 1
+          }
+        ],
+        "groups": [
+          {
+            "id": "5886-ffe2-2460-ce0f",
+            "name": "Pistol Options",
+            "min": 1,
+            "max": 1,
+            "mode": "single",
+            "options": [
+              {
+                "id": "ed04-a23e-7ede-8e02",
+                "name": "Boltgun",
+                "min": 0,
+                "max": 99
+              },
+              {
+                "id": "d3b9-ba1b-bf08-6095",
+                "name": "Bolt pistol",
+                "min": 0,
+                "max": 99
+              },
+              {
+                "id": "5b2f-2447-6b8b-267e",
+                "name": "Hand flamer",
+                "min": 0,
+                "max": 99
+              },
+              {
+                "id": "1dd1-3026-48d0-c9ef",
+                "name": "Inferno Pistol",
+                "min": 0,
+                "max": 99
+              },
+              {
+                "id": "2508-246b-9d1e-d76e",
+                "name": "Grav-pistol",
+                "min": 0,
+                "max": 99
+              },
+              {
+                "id": "d8b2-ad39-7e64-6101",
+                "name": "Plasma pistol",
+                "min": 0,
+                "max": 99
+              },
+              {
+                "id": "28bf-0503-a358-3699",
+                "name": "Combi-weapon",
+                "min": 0,
+                "max": 99
+              },
+              {
+                "id": "ebf0-fa0f-a126-3efa",
+                "name": "Storm bolter",
+                "min": 0,
+                "max": 99
+              }
+            ]
+          },
+          {
+            "id": "293c-7cf5-8f4e-a6fc",
+            "name": "Chainsword Options",
+            "min": 1,
+            "max": 1,
+            "mode": "single",
+            "options": [
+              {
+                "id": "9050-ce09-9b21-1918",
+                "name": "Power Fist",
+                "min": 0,
+                "max": 99
+              },
+              {
+                "id": "e04a-f7e8-e2cb-e196",
+                "name": "Astartes Chainsword",
+                "min": 0,
+                "max": 99
+              },
+              {
+                "id": "b9d0-695f-9601-ee96",
+                "name": "Power weapon",
+                "min": 0,
+                "max": 99
+              },
+              {
+                "id": "4b0-e9af-197d-7fa3",
+                "name": "Thunder Hammer",
+                "min": 0,
+                "max": 99
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "829b-da42-2d62-6daf": {
+    "groups": [
+      {
+        "id": "8dbe-c69d-aba7-2285",
+        "name": "Wargear",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [],
+        "groups": [
+          {
+            "id": "f88f-efee-7bdb-3008",
+            "name": "Melee",
+            "min": 1,
+            "max": 1,
+            "mode": "single",
+            "options": [
+              {
+                "id": "8684-4762-7c7a-028e",
+                "name": "Master-crafted Chainsword",
+                "min": 0,
+                "max": 99
+              },
+              {
+                "id": "39a1-6da8-f5b3-864f",
+                "name": "Power fist",
+                "min": 0,
+                "max": 99
+              },
+              {
+                "id": "26a8-4370-64dc-be4d",
+                "name": "Relic Weapon",
+                "min": 0,
+                "max": 99
+              }
+            ],
+            "defaultOptionId": "8684-4762-7c7a-028e"
+          },
+          {
+            "id": "8a1a-5f69-8805-31b0",
+            "name": "Pistol",
+            "min": 1,
+            "max": 1,
+            "mode": "single",
+            "options": [
+              {
+                "id": "e018-7cd8-9795-65c7",
+                "name": "Heavy Bolt Pistol",
+                "min": 0,
+                "max": 99
+              },
+              {
+                "id": "65bf-a135-9120-ba15",
+                "name": "Inferno pistol",
+                "min": 0,
+                "max": 99
+              }
+            ],
+            "defaultOptionId": "e018-7cd8-9795-65c7"
+          }
+        ]
+      }
+    ]
+  },
+  "4743-6dc9-fda7-0a8c": {
+    "groups": [
+      {
+        "id": "abbf-7977-f356-a41e",
+        "name": "Wargear",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [],
+        "groups": [
+          {
+            "id": "e43a-2cb2-b4ba-684d",
+            "name": "Melee",
+            "min": 1,
+            "max": 1,
+            "mode": "single",
+            "options": [
+              {
+                "id": "d0e5-641b-1c3d-b6be",
+                "name": "Master-crafted Chainsword",
+                "min": 0,
+                "max": 99
+              },
+              {
+                "id": "9538-8a8b-1312-719d",
+                "name": "Power fist",
+                "min": 0,
+                "max": 99
+              },
+              {
+                "id": "19a8-7b47-bb46-cde7",
+                "name": "Relic Weapon",
+                "min": 0,
+                "max": 99
+              }
+            ],
+            "defaultOptionId": "8684-4762-7c7a-028e"
+          },
+          {
+            "id": "b949-afe2-a88b-65ed",
+            "name": "Pistol",
+            "min": 1,
+            "max": 1,
+            "mode": "single",
+            "options": [
+              {
+                "id": "3303-543b-9da9-2254",
+                "name": "Heavy Bolt Pistol",
+                "min": 0,
+                "max": 99
+              },
+              {
+                "id": "90e0-8579-9b11-1a78",
+                "name": "Inferno pistol",
+                "min": 0,
+                "max": 99
+              }
+            ],
+            "defaultOptionId": "e018-7cd8-9795-65c7"
+          }
+        ]
+      }
+    ]
+  },
+  "2574-a949-ae3f-58c2": {
+    "groups": [
+      {
+        "id": "89cc-2a7b-d938-ecf1",
+        "name": "Wargear",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [],
+        "groups": [
+          {
+            "id": "e456-2590-25bb-6dc2",
+            "name": "Melee",
+            "min": 1,
+            "max": 1,
+            "mode": "single",
+            "options": [
+              {
+                "id": "5fe7-0510-42bd-50d1",
+                "name": "Power fist",
+                "min": 0,
+                "max": 99
+              },
+              {
+                "id": "2748-096a-c30a-638b",
+                "name": "Relic Weapon",
+                "min": 0,
+                "max": 99
+              },
+              {
+                "id": "5609-e509-a00f-2daf",
+                "name": "Astartes Chainsword",
+                "min": 0,
+                "max": 99
+              }
+            ],
+            "defaultOptionId": "5609-e509-a00f-2daf"
+          },
+          {
+            "id": "ba8a-8301-0e1c-8ab7",
+            "name": "Pistol",
+            "min": 1,
+            "max": 1,
+            "mode": "single",
+            "options": [
+              {
+                "id": "7f25-57df-7ed0-df5c",
+                "name": "Heavy Bolt Pistol",
+                "min": 0,
+                "max": 99
+              },
+              {
+                "id": "b9d1-111a-c8fa-00a9",
+                "name": "Hand flamer",
+                "min": 0,
+                "max": 99
+              },
+              {
+                "id": "90e0-ddc7-d99a-dc9c",
+                "name": "Plasma pistol",
+                "min": 0,
+                "max": 99
+              }
+            ],
+            "defaultOptionId": "7f25-57df-7ed0-df5c"
+          }
+        ]
+      }
+    ]
+  },
+  "4aab-3ca5-0435-ed5e": {
+    "groups": [
+      {
+        "id": "2ed1-aba1-feec-a885",
+        "name": "Death Company Marines",
+        "min": 5,
+        "max": 10,
+        "mode": "count",
+        "options": [
+          {
+            "id": "e047-0de8-e48f-d8cd",
+            "name": "Death Company Marine w/Bolt Rifle",
+            "min": 0,
+            "max": 99,
+            "equippedWith": "Bolt Rifle and Bolt pistol and Close combat weapon"
+          },
+          {
+            "id": "42e3-bd36-fcbd-d40b",
+            "name": "Death Company Marine w/Eviscerator",
+            "min": 0,
+            "max": 1,
+            "equippedWith": "Eviscerator and Bolt pistol"
+          },
+          {
+            "id": "a62f-40e5-dc37-5fb8",
+            "name": "Death Company Marine w/ alternate weapons",
+            "min": 0,
+            "max": 2,
+            "groups": [
+              {
+                "id": "62ca-0c5d-078e-9da8",
+                "name": "Replace Close Combat Weapon",
+                "min": 1,
+                "max": 1,
+                "mode": "single",
+                "options": [
+                  {
+                    "id": "6899-8a73-6f36-cdf9",
+                    "name": "Close Combat Weapon",
+                    "min": 0,
+                    "max": 99
+                  },
+                  {
+                    "id": "ffb8-5ade-9772-59a7",
+                    "name": "Power Fist",
+                    "min": 0,
+                    "max": 99
+                  },
+                  {
+                    "id": "d21e-f281-5e3f-e0b2",
+                    "name": "Thunder Hammer",
+                    "min": 0,
+                    "max": 99
+                  },
+                  {
+                    "id": "6969-2b53-4bc9-6905",
+                    "name": "Power weapon",
+                    "min": 0,
+                    "max": 99
+                  },
+                  {
+                    "id": "919f-6a34-9a92-f6b3",
+                    "name": "Astartes Chainsword",
+                    "min": 0,
+                    "max": 99
+                  }
+                ],
+                "defaultOptionId": "6899-8a73-6f36-cdf9"
+              },
+              {
+                "id": "c666-ac5c-d7e9-84ff",
+                "name": "Replace Bolt Rifle",
+                "min": 1,
+                "max": 1,
+                "mode": "single",
+                "options": [
+                  {
+                    "id": "4c87-32d4-eca9-677f",
+                    "name": "Bolt Rifle",
+                    "min": 1,
+                    "max": 1
+                  },
+                  {
+                    "id": "c688-04d5-5b88-2efd",
+                    "name": "Hand flamer",
+                    "min": 0,
+                    "max": 99
+                  },
+                  {
+                    "id": "a442-5bfb-4a6e-a7db",
+                    "name": "Inferno Pistol",
+                    "min": 0,
+                    "max": 99
+                  },
+                  {
+                    "id": "7caa-84df-0e1c-cfb0",
+                    "name": "Plasma pistol",
+                    "min": 0,
+                    "max": 99
+                  },
+                  {
+                    "id": "8896-afbc-724b-a018",
+                    "name": "Astartes Chainsword",
+                    "min": 0,
+                    "max": 99
+                  }
+                ],
+                "defaultOptionId": "4c87-32d4-eca9-677f"
+              }
+            ],
+            "equippedWith": "Bolt pistol"
+          }
+        ],
+        "defaultOptionId": "e047-0de8-e48f-d8cd"
+      }
+    ]
+  },
+  "3825-ac3a-75ec-fa0d": {
+    "groups": [
+      {
+        "id": "edee-48a2-1e8a-2539",
+        "name": "Death Company Marines",
+        "min": 5,
+        "max": 10,
+        "mode": "count",
+        "options": [
+          {
+            "id": "b62d-bfee-e5d1-fcaf",
+            "name": "Death Company Marine w/Eviscerator",
+            "min": 0,
+            "max": 1,
+            "equippedWith": "Eviscerator"
+          },
+          {
+            "id": "1fcf-41cb-e457-99e3",
+            "name": "Death Company Marine",
+            "min": 2,
+            "max": 10,
+            "equippedWith": "Heavy Bolt Pistol and Astartes Chainsword"
+          },
+          {
+            "id": "ac37-ff8c-03e1-afe1",
+            "name": "Death Company Marine w/ alternate weapons",
+            "min": 0,
+            "max": 2,
+            "groups": [
+              {
+                "id": "8b60-76dc-a440-ae23",
+                "name": "Replace Pistol",
+                "min": 1,
+                "max": 1,
+                "mode": "single",
+                "options": [
+                  {
+                    "id": "a3b1-a4d1-6857-384c",
+                    "name": "Heavy Bolt Pistol",
+                    "min": 0,
+                    "max": 99
+                  },
+                  {
+                    "id": "8520-b102-fa69-aefb",
+                    "name": "Hand flamer",
+                    "min": 0,
+                    "max": 99
+                  },
+                  {
+                    "id": "2ba5-9580-1492-bdde",
+                    "name": "Inferno Pistol",
+                    "min": 0,
+                    "max": 99
+                  },
+                  {
+                    "id": "11cb-48d5-14ac-1916",
+                    "name": "Plasma pistol",
+                    "min": 0,
+                    "max": 99
+                  }
+                ],
+                "defaultOptionId": "a3b1-a4d1-6857-384c"
+              },
+              {
+                "id": "fff9-ea18-368c-d4a1",
+                "name": "Replace Chainsword",
+                "min": 1,
+                "max": 1,
+                "mode": "single",
+                "options": [
+                  {
+                    "id": "0750-7bd3-6edf-09d2",
+                    "name": "Thunder Hammer",
+                    "min": 0,
+                    "max": 99
+                  },
+                  {
+                    "id": "773e-a671-ad57-aa08",
+                    "name": "Power weapon",
+                    "min": 0,
+                    "max": 99
+                  },
+                  {
+                    "id": "8b85-90a0-8aca-7fbe",
+                    "name": "Astartes Chainsword",
+                    "min": 0,
+                    "max": 99
+                  },
+                  {
+                    "id": "9115-74d2-2830-8f27",
+                    "name": "Power fist",
+                    "min": 0,
+                    "max": 99
+                  }
+                ],
+                "defaultOptionId": "c7a8-c7ee-1248-ef35"
+              }
+            ]
+          }
+        ],
+        "defaultOptionId": "1fcf-41cb-e457-99e3"
+      }
+    ]
+  },
+  "3b6e-cc3e-c2a4-0cbd": {
+    "groups": [
+      {
+        "id": "6871-d837-3213-0889",
+        "name": "Wargear",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "174a-2bd6-c569-00d6",
+            "name": "Twin Icarus ironhail heavy stubber",
+            "min": 1,
+            "max": 1
+          }
+        ],
+        "groups": [
+          {
+            "id": "deea-3d0d-ec5c-5a96",
+            "name": "Melee Weapon Option",
+            "min": 1,
+            "max": 1,
+            "mode": "single",
+            "options": [
+              {
+                "id": "0260-6bc1-1c2e-5bd1",
+                "name": "Blood Fists & Blood Fist Bolt Rifles",
+                "min": 0,
+                "max": 99
+              },
+              {
+                "id": "3155-cb93-7616-6ee7",
+                "name": "Blood Talons",
+                "min": 0,
+                "max": 99
+              }
+            ],
+            "defaultOptionId": "fbd7-1d77-add6-15f1"
+          },
+          {
+            "id": "0594-cce0-43e8-a8cb",
+            "name": "Ranged Weapon Option",
+            "min": 1,
+            "max": 1,
+            "mode": "single",
+            "options": [
+              {
+                "id": "283d-01d2-30bd-8d3b",
+                "name": "Twin heavy bolter",
+                "min": 0,
+                "max": 99
+              },
+              {
+                "id": "d865-d29d-90d2-1db4",
+                "name": "Twin multi-melta",
+                "min": 0,
+                "max": 99
+              }
+            ],
+            "defaultOptionId": "e99e-b2c0-4c80-779b"
+          }
+        ]
+      }
+    ]
+  },
+  "bcfe-f4fb-5c44-652d": {
+    "groups": [
+      {
+        "id": "777d-46c5-4e03-bc34",
+        "name": "Death Company Marines",
+        "min": 5,
+        "max": 10,
+        "mode": "count",
+        "options": [
+          {
+            "id": "7db1-301d-38d4-2d57",
+            "name": "Death Company Marine",
+            "min": 5,
+            "max": 10,
+            "groups": [
+              {
+                "id": "705b-65de-30a3-0695",
+                "name": "Weapon Options",
+                "min": 1,
+                "max": 1,
+                "mode": "single",
+                "options": [
+                  {
+                    "id": "76db-4479-947f-6c1c",
+                    "name": "Boltgun and Close Combat Weapon",
+                    "min": 0,
+                    "max": 99,
+                    "equippedWith": "Boltgun and Close combat weapon"
+                  },
+                  {
+                    "id": "2eec-7bbe-79c2-6e9c",
+                    "name": "Melee and Pistol",
+                    "min": 0,
+                    "max": 99,
+                    "groups": [
+                      {
+                        "id": "7dbf-c7a9-1ac0-1f4d",
+                        "name": "Melee Option",
+                        "min": 1,
+                        "max": 1,
+                        "mode": "single",
+                        "options": [
+                          {
+                            "id": "ecb0-c2bf-e9c6-04ec",
+                            "name": "Astartes Chainsword",
+                            "min": 0,
+                            "max": 99
+                          },
+                          {
+                            "id": "c7f3-4233-9b58-89bf",
+                            "name": "Power fist",
+                            "min": 0,
+                            "max": 99
+                          },
+                          {
+                            "id": "b685-5d31-6822-64c5",
+                            "name": "Power weapon",
+                            "min": 0,
+                            "max": 99
+                          }
+                        ],
+                        "defaultOptionId": "36c0-711a-50e7-ddba"
+                      },
+                      {
+                        "id": "ef85-db55-0fc3-5b69",
+                        "name": "Pistol Option",
+                        "min": 1,
+                        "max": 1,
+                        "mode": "single",
+                        "options": [
+                          {
+                            "id": "b836-f673-e4e7-dc53",
+                            "name": "Bolt pistol",
+                            "min": 0,
+                            "max": 99
+                          },
+                          {
+                            "id": "c3bd-d900-be28-a917",
+                            "name": "Plasma pistol",
+                            "min": 0,
+                            "max": 99
+                          },
+                          {
+                            "id": "c8bc-a499-053e-38f5",
+                            "name": "Hand flamer",
+                            "min": 0,
+                            "max": 99
+                          },
+                          {
+                            "id": "9ca1-5366-1001-4878",
+                            "name": "Inferno Pistol",
+                            "min": 0,
+                            "max": 99
+                          }
+                        ],
+                        "defaultOptionId": "2fdf-b222-d6a8-6af4"
+                      }
+                    ]
+                  },
+                  {
+                    "id": "f984-0622-9975-b956",
+                    "name": "Thunder Hammer",
+                    "min": 0,
+                    "max": 99
+                  }
+                ],
+                "defaultOptionId": "834f-3470-9783-f5e9"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

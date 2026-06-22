@@ -1,0 +1,974 @@
+{
+  "a018-ca33-afd0-be83": {
+    "groups": [
+      {
+        "id": "7203-903a-f7c3-ede1",
+        "name": "Wargear",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "8484-4b54-f9e6-844b",
+            "name": "Hellfire breath",
+            "min": 1,
+            "max": 1
+          }
+        ],
+        "groups": [
+          {
+            "id": "7e92-60ac-7f9a-8e1c",
+            "name": "Replace great axe",
+            "min": 1,
+            "max": 1,
+            "mode": "single",
+            "options": [
+              {
+                "id": "f55d-30fe-6117-ac",
+                "name": "Great axe of Khorne",
+                "min": 0,
+                "max": 99
+              },
+              {
+                "id": "f504-1083-7663-a961",
+                "name": "Axe and flail",
+                "min": 0,
+                "max": 99
+              },
+              {
+                "id": "8a9d-93c9-8953-72b4",
+                "name": "Axe and lash",
+                "min": 0,
+                "max": 99
+              }
+            ],
+            "defaultOptionId": "f55d-30fe-6117-ac"
+          }
+        ]
+      }
+    ]
+  },
+  "ccae-b5f1-8787-4c7d": {
+    "groups": [
+      {
+        "id": "ab6e-26fe-1e04-df04",
+        "name": "Wargear",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "21e2-3822-dfcb-a9eb",
+            "name": "Blade of blood",
+            "min": 1,
+            "max": 1
+          }
+        ]
+      }
+    ]
+  },
+  "dd30-ba4c-34a4-e788": {
+    "groups": [
+      {
+        "id": "3529-3df4-6bd0-8d12",
+        "name": "Wargear",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "4a11-b99e-2e2-b95",
+            "name": "Blade of blood",
+            "min": 1,
+            "max": 1
+          },
+          {
+            "id": "689-7023-1aaa-43b9",
+            "name": "Juggernaut's bladed horn",
+            "min": 1,
+            "max": 1
+          }
+        ]
+      }
+    ]
+  },
+  "d1cc-e17a-f1a1-4349": {
+    "groups": [
+      {
+        "id": "019b-65f4-b57e-27f7",
+        "name": "Wargear",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "7f70-709e-68c5-64be",
+            "name": "Attendant's hellblades",
+            "min": 1,
+            "max": 1
+          },
+          {
+            "id": "4c53-2f25-d2c5-bb0b",
+            "name": "Blade of blood",
+            "min": 1,
+            "max": 1
+          }
+        ]
+      }
+    ]
+  },
+  "fd31-64a2-b20f-f0bc": {
+    "groups": [
+      {
+        "id": "3377-e8c9-4110-51e9",
+        "name": "4-9 Flesh Hounds",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "b53-3d5b-356b-6b0a",
+            "name": "Flesh Hound",
+            "min": 4,
+            "max": 9
+          }
+        ]
+      },
+      {
+        "id": "dc03-dbd4-5c7d-b406",
+        "name": "Gore Hound",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "7945-a359-64b8-4bda",
+            "name": "Gore Hound",
+            "min": 1,
+            "max": 1
+          }
+        ]
+      }
+    ]
+  },
+  "fd37-8a80-3da8-f262": {
+    "groups": [
+      {
+        "id": "e068-9359-58f6-c616",
+        "name": "Wargear",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "be24-e201-ab94-952a",
+            "name": "Attendant's hellblades",
+            "min": 1,
+            "max": 1
+          },
+          {
+            "id": "c245-c736-9e3-62c9",
+            "name": "Biting maw",
+            "min": 1,
+            "max": 1
+          },
+          {
+            "id": "ed00-c1a2-b9d4-5d62",
+            "name": "Skull cannon",
+            "min": 1,
+            "max": 1
+          }
+        ]
+      }
+    ]
+  },
+  "497d-e065-f5a5-5e80": {
+    "groups": [
+      {
+        "id": "cddf-9e5e-c951-8645",
+        "name": "Allegiance",
+        "min": 1,
+        "max": 1,
+        "mode": "single",
+        "options": [
+          {
+            "id": "62f2-27ca-7148-4673",
+            "name": "Khorne",
+            "min": 0,
+            "max": 99
+          },
+          {
+            "id": "9fb3-5e09-a8e3-a301",
+            "name": "Nurgle",
+            "min": 0,
+            "max": 99
+          },
+          {
+            "id": "c261-fbbf-aa1e-51b4",
+            "name": "Slaanesh",
+            "min": 0,
+            "max": 99
+          },
+          {
+            "id": "8100-d7f1-c026-be0f",
+            "name": "Tzeentch",
+            "min": 0,
+            "max": 99
+          }
+        ]
+      },
+      {
+        "id": "b153-3e35-91ec-b6de",
+        "name": "Wargear",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "62ad-595b-9abf-db",
+            "name": "Hellforged weapons",
+            "min": 1,
+            "max": 1
+          },
+          {
+            "id": "caa2-e441-2c31-454",
+            "name": "Infernal cannon",
+            "min": 1,
+            "max": 1
+          }
+        ]
+      }
+    ]
+  },
+  "5800-3978-370d-b573": {
+    "groups": [
+      {
+        "id": "40fd-86e-b5eb-562e",
+        "name": "Allegiance",
+        "min": 1,
+        "max": 1,
+        "mode": "single",
+        "options": [
+          {
+            "id": "1d50-2405-6c4b-dd70",
+            "name": "Khorne",
+            "min": 0,
+            "max": 99
+          },
+          {
+            "id": "493f-856e-7cc1-b318",
+            "name": "Nurgle",
+            "min": 0,
+            "max": 99
+          },
+          {
+            "id": "f2c-24f0-9431-2a41",
+            "name": "Slaanesh",
+            "min": 0,
+            "max": 99
+          },
+          {
+            "id": "9383-3f2f-50cd-1e7a",
+            "name": "Tzeentch",
+            "min": 0,
+            "max": 99
+          }
+        ]
+      },
+      {
+        "id": "a632-4399-0fdd-1b64",
+        "name": "Wargear",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "4dda-d9d2-153f-f294",
+            "name": "Hellforged weapons",
+            "min": 1,
+            "max": 1
+          },
+          {
+            "id": "347c-42b8-a58c-176c",
+            "name": "Infernal cannon",
+            "min": 1,
+            "max": 1
+          }
+        ]
+      }
+    ]
+  },
+  "3600-9f92-933-bf54": {
+    "groups": [
+      {
+        "id": "45ec-3fff-8a88-7a4c",
+        "name": "Wargear",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "8440-a7a8-b859-2ac3",
+            "name": "Bolt of Change",
+            "min": 1,
+            "max": 1
+          },
+          {
+            "id": "dc95-31f-eded-9d6b",
+            "name": "Staff of Tzeentch",
+            "min": 1,
+            "max": 1
+          }
+        ],
+        "groups": [
+          {
+            "id": "46e5-5f26-e3ad-921b",
+            "name": "Wargear",
+            "min": 0,
+            "max": 1,
+            "mode": "single",
+            "options": [
+              {
+                "id": "2b05-a636-23ce-28e",
+                "name": "Rod of sorcery",
+                "min": 0,
+                "max": 99
+              },
+              {
+                "id": "f552-1495-3154-1e61",
+                "name": "Baleful sword",
+                "min": 0,
+                "max": 99
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "c199-b27c-7cc2-7935": {
+    "groups": [
+      {
+        "id": "b42c-25f1-b965-a85f",
+        "name": "Wargear",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "532d-38ed-1fba-6912",
+            "name": "Screamer bites",
+            "min": 1,
+            "max": 1
+          },
+          {
+            "id": "c66b-2186-6991-f5ad",
+            "name": "Arcane Fireball",
+            "min": 1,
+            "max": 1
+          },
+          {
+            "id": "59f-986f-832b-1b5b",
+            "name": "Herald combat weapon",
+            "min": 1,
+            "max": 1
+          }
+        ]
+      }
+    ]
+  },
+  "eba5-8a7a-fc5b-d7ec": {
+    "groups": [
+      {
+        "id": "758a-e38e-8289-7cc8",
+        "name": "Wargear",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "b1eb-9166-9de8-4472",
+            "name": "Arcane Fireball",
+            "min": 1,
+            "max": 1
+          },
+          {
+            "id": "580c-ae1d-f6d5-de1",
+            "name": "Herald combat weapon",
+            "min": 1,
+            "max": 1
+          }
+        ]
+      }
+    ]
+  },
+  "8b7c-d709-90d4-298e": {
+    "groups": [
+      {
+        "id": "9de4-26e2-e5d4-4e16",
+        "name": "Wargear",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "99b8-acf0-8e3f-2a95",
+            "name": "Arcane Fireball",
+            "min": 1,
+            "max": 1
+          },
+          {
+            "id": "118e-9a65-8351-4fdc",
+            "name": "Herald combat weapon",
+            "min": 1,
+            "max": 1
+          }
+        ]
+      }
+    ]
+  },
+  "de54-5b38-8ca1-c39c": {
+    "groups": [
+      {
+        "id": "da2b-94d0-4fea-82ed",
+        "name": "Wargear",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "b334-3c4-c0e0-6cc0",
+            "name": "Flamer mouths",
+            "min": 1,
+            "max": 1
+          },
+          {
+            "id": "4490-9a41-9297-1a12",
+            "name": "Fires of Tzeentch",
+            "min": 1,
+            "max": 1
+          }
+        ]
+      }
+    ]
+  },
+  "f6eb-b62f-5baf-d96d": {
+    "groups": [
+      {
+        "id": "eceb-124f-99da-bf75",
+        "name": "Wargear",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "58d7-f285-9f6b-ca2f",
+            "name": "Flamer mouths",
+            "min": 1,
+            "max": 1
+          },
+          {
+            "id": "498a-320e-3213-22bf",
+            "name": "Screamer bites",
+            "min": 1,
+            "max": 1
+          },
+          {
+            "id": "df45-3b06-e2d9-c7b8",
+            "name": "Fires of Tzeentch",
+            "min": 1,
+            "max": 1
+          }
+        ]
+      }
+    ]
+  },
+  "d490-6c4d-e83b-b183": {
+    "groups": [
+      {
+        "id": "7aa4-b95c-7ba6-8344",
+        "name": "Wargear",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "be79-7c87-f13b-b20",
+            "name": "Putrid vomit",
+            "min": 1,
+            "max": 1
+          }
+        ],
+        "groups": [
+          {
+            "id": "769f-27bd-d67c-1520",
+            "name": "Bilesword / Bell",
+            "min": 1,
+            "max": 1,
+            "mode": "single",
+            "options": [
+              {
+                "id": "9f7c-9afa-4eee-8cca",
+                "name": "Bilesword",
+                "min": 0,
+                "max": 99
+              },
+              {
+                "id": "2b79-2650-4b79-7ad9",
+                "name": "Doomsday bell",
+                "min": 0,
+                "max": 99
+              }
+            ],
+            "defaultOptionId": "9f7c-9afa-4eee-8cca"
+          },
+          {
+            "id": "c1c3-61fc-5acf-e5f9",
+            "name": "Flail / Bileblade",
+            "min": 1,
+            "max": 1,
+            "mode": "single",
+            "options": [
+              {
+                "id": "fea6-d9bc-41b9-26f5",
+                "name": "Plague flail",
+                "min": 0,
+                "max": 99
+              },
+              {
+                "id": "7c03-9d0f-1bd7-fc65",
+                "name": "Bileblade",
+                "min": 0,
+                "max": 99
+              }
+            ],
+            "defaultOptionId": "fea6-d9bc-41b9-26f5"
+          }
+        ]
+      }
+    ]
+  },
+  "7b06-189d-b11e-c189": {
+    "groups": [
+      {
+        "id": "df54-95f9-8c40-22a8",
+        "name": "Wargear",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "2220-e447-4060-99d",
+            "name": "Foul balesword",
+            "min": 1,
+            "max": 1
+          }
+        ]
+      }
+    ]
+  },
+  "e7cd-468b-37dd-d82f": {
+    "groups": [
+      {
+        "id": "3ebb-3d9d-5e3e-36dc",
+        "name": "Wargear",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "d937-6e2e-72f0-ef21",
+            "name": "Disgusting Sneezes",
+            "min": 1,
+            "max": 1
+          },
+          {
+            "id": "5abd-1e9c-becb-2d4d",
+            "name": "Plaguesword and distended maw",
+            "min": 1,
+            "max": 1
+          }
+        ]
+      }
+    ]
+  },
+  "3da0-5db0-7531-33b6": {
+    "groups": [
+      {
+        "id": "6b9f-e57b-88f8-a1f8",
+        "name": "Wargear",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "97c1-6af9-68ad-459a",
+            "name": "Marotter",
+            "min": 1,
+            "max": 1
+          }
+        ]
+      }
+    ]
+  },
+  "a903-dd97-339d-6899": {
+    "groups": [
+      {
+        "id": "2100-9d97-56df-0588",
+        "name": "Wargear",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "7c05-e818-3a21-f029",
+            "name": "Phantasmagoria",
+            "min": 1,
+            "max": 1
+          },
+          {
+            "id": "7042-de94-8978-d9f9",
+            "name": "Snapping claws",
+            "min": 1,
+            "max": 1
+          },
+          {
+            "id": "333c-78e7-ed7c-4553",
+            "name": "Witstealer sword",
+            "min": 1,
+            "max": 1
+          }
+        ],
+        "groups": [
+          {
+            "id": "a9d3-f6d5-e4a7-d2d0",
+            "name": "Wargear",
+            "min": 0,
+            "max": 1,
+            "mode": "single",
+            "options": [
+              {
+                "id": "b8d9-92ad-63b2-bc74",
+                "name": "Living whip",
+                "min": 0,
+                "max": 99
+              },
+              {
+                "id": "1df1-a091-c2f2-eafc",
+                "name": "Ritual knife",
+                "min": 0,
+                "max": 99
+              },
+              {
+                "id": "6f63-3cb4-6395-e6e6",
+                "name": "Shining aegis",
+                "min": 0,
+                "max": 99
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "2cc5-ef65-c4b9-28c6": {
+    "groups": [
+      {
+        "id": "6641-3c0f-c744-47e4",
+        "name": "Wargear",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "6da0-93f1-60e2-e265",
+            "name": "Heartstring lyre",
+            "min": 1,
+            "max": 1
+          },
+          {
+            "id": "e89f-fad7-b3b3-9200",
+            "name": "Ravaging claws",
+            "min": 1,
+            "max": 1
+          }
+        ]
+      }
+    ]
+  },
+  "36df-8f40-8a6b-7d4c": {
+    "groups": [
+      {
+        "id": "a3b6-7730-a604-52be",
+        "name": "Wargear",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "8357-5556-7641-9dcf",
+            "name": "Coiled tentacles",
+            "min": 1,
+            "max": 1
+          },
+          {
+            "id": "dcae-96ce-cb39-7691",
+            "name": "Ravaging claws",
+            "min": 1,
+            "max": 1
+          }
+        ]
+      }
+    ]
+  },
+  "673b-111b-6dcb-352": {
+    "groups": [
+      {
+        "id": "3f31-35b1-d868-21af",
+        "name": "Wargear",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "82d3-b7cf-16f6-1cdd",
+            "name": "Lashes of torment",
+            "min": 1,
+            "max": 1
+          },
+          {
+            "id": "96fd-cab1-c43f-5c49",
+            "name": "Seeker tongues",
+            "min": 1,
+            "max": 1
+          },
+          {
+            "id": "d5d4-e425-88a4-f0ec",
+            "name": "Slashing claws",
+            "min": 1,
+            "max": 1
+          }
+        ]
+      }
+    ]
+  },
+  "dba-34e3-46f2-56e0": {
+    "groups": [
+      {
+        "id": "f3b0-0cac-eede-8a0a",
+        "name": "Wargear",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "b56a-fb2-a497-df36",
+            "name": "Ravaging claws",
+            "min": 1,
+            "max": 1
+          }
+        ]
+      }
+    ]
+  },
+  "7f62-6b3f-c4fe-b971": {
+    "groups": [
+      {
+        "id": "858c-9d5d-2e36-8d55",
+        "name": "Wargear",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "c86e-c365-62d5-f71b",
+            "name": "Lashes of torment",
+            "min": 1,
+            "max": 1
+          },
+          {
+            "id": "b383-9f6b-8c-985e",
+            "name": "Seeker tongues",
+            "min": 1,
+            "max": 1
+          },
+          {
+            "id": "b0b8-6b71-4256-38bf",
+            "name": "Slashing claws",
+            "min": 1,
+            "max": 1
+          }
+        ]
+      }
+    ]
+  },
+  "2901-92bd-2f4-736d": {
+    "groups": [
+      {
+        "id": "4be9-6dee-8603-fef7",
+        "name": "Allegiance",
+        "min": 1,
+        "max": 1,
+        "mode": "single",
+        "options": [
+          {
+            "id": "24c9-2fd3-53c7-1b04",
+            "name": "Khorne",
+            "min": 0,
+            "max": 99
+          },
+          {
+            "id": "fc29-e974-ce79-c332",
+            "name": "Nurgle",
+            "min": 0,
+            "max": 99
+          },
+          {
+            "id": "fe7b-a040-4f51-60b9",
+            "name": "Slaanesh",
+            "min": 0,
+            "max": 99
+          },
+          {
+            "id": "b24a-2023-b094-b5a3",
+            "name": "Tzeentch",
+            "min": 0,
+            "max": 99
+          }
+        ],
+        "defaultOptionId": "none"
+      },
+      {
+        "id": "84e9-3eae-adbd-8a93",
+        "name": "Wargear",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "aa95-9696-19e1-b374",
+            "name": "Churning fangs and claws",
+            "min": 1,
+            "max": 1
+          }
+        ]
+      }
+    ]
+  },
+  "da05-80d-6229-6e44": {
+    "groups": [
+      {
+        "id": "1b76-72b8-ea-5a9c",
+        "name": "Allegiance",
+        "min": 1,
+        "max": 1,
+        "mode": "single",
+        "options": [
+          {
+            "id": "d41-1d2e-95eb-356b",
+            "name": "Khorne",
+            "min": 0,
+            "max": 99
+          },
+          {
+            "id": "3fbb-6181-af4b-d407",
+            "name": "Nurgle",
+            "min": 0,
+            "max": 99
+          },
+          {
+            "id": "5343-66b4-bd34-473",
+            "name": "Slaanesh",
+            "min": 0,
+            "max": 99
+          },
+          {
+            "id": "a6ed-593d-d3c8-9412",
+            "name": "Tzeentch",
+            "min": 0,
+            "max": 99
+          }
+        ],
+        "defaultOptionId": "none"
+      },
+      {
+        "id": "855b-8d42-d9cb-ca4c",
+        "name": "Wargear",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "3fe9-d1cd-589e-bc76",
+            "name": "Jagged claws and tusked maw",
+            "min": 1,
+            "max": 1
+          }
+        ]
+      }
+    ]
+  },
+  "b48f-f9b4-b47d-d181": {
+    "groups": [
+      {
+        "id": "ab39-4eba-5069-f5af",
+        "name": "Wargear",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "68be-91b4-5397-ec5e",
+            "name": "Lashing tongue",
+            "min": 1,
+            "max": 1
+          },
+          {
+            "id": "3446-53ef-f1f3-8dfa",
+            "name": "Ravaging claws",
+            "min": 1,
+            "max": 1
+          }
+        ]
+      }
+    ]
+  },
+  "1b9e-e164-7a5a-c8b7": {
+    "groups": [
+      {
+        "id": "4d19-bc7d-8609-3f87",
+        "name": "Allegiance",
+        "min": 1,
+        "max": 1,
+        "mode": "single",
+        "options": [
+          {
+            "id": "b67d-d376-822f-bce",
+            "name": "Khorne",
+            "min": 0,
+            "max": 99
+          },
+          {
+            "id": "72c5-9c51-f62c-72da",
+            "name": "Nurgle",
+            "min": 0,
+            "max": 99
+          },
+          {
+            "id": "ea0a-ca2e-cf7b-aaf4",
+            "name": "Slaanesh",
+            "min": 0,
+            "max": 99
+          },
+          {
+            "id": "476f-6a57-8590-274d",
+            "name": "Tzeentch",
+            "min": 0,
+            "max": 99
+          }
+        ],
+        "defaultOptionId": "none"
+      }
+    ]
+  }
+}

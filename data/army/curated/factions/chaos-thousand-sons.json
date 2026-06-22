@@ -86,6 +86,25 @@
           "name": "Leader",
           "description": "This model can be attached to the following unit: ^^**Rubric Marines, Tzaangor Enlightened^^**"
         }
+      ],
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 100
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "100",
+      "mfmRole": "leader",
+      "attachTo": [
+        "Rubric Marines",
+        "Tzaangor Enlightened",
+        "Tzaangor Enlightened With Fatecaster Greatbows"
       ]
     },
     {
@@ -202,7 +221,30 @@
           "description": "This model has the Stealth ability, and while this model is leading a unit, each time a ranged attack targets that unit, if the attacking model is not within 12\", subtract 1 from the Hit roll."
         }
       ],
-      "transportCapacity": "This model has a transport capacity of 12 ^^**Thousand Sons Infantry^^** models. Each ^^**Terminator^^** model takes up the space of 2 models."
+      "transportCapacity": "This model has a transport capacity of 12 ^^**Thousand Sons Infantry^^** models. Each ^^**Terminator^^** model takes up the space of 2 models.",
+      "pricing": [
+        {
+          "range": "[1,2]",
+          "label": "Your 1st To 2nd Units Cost",
+          "costs": [
+            {
+              "models": 1,
+              "points": 220
+            }
+          ]
+        },
+        {
+          "range": "[3,)",
+          "label": "Your 3rd + Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 240
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "220"
     },
     {
       "id": "a619-beee-4bde-d049",
@@ -305,7 +347,30 @@
           "name": "Aura of Illusion",
           "description": "This model has the Stealth ability, and while this model is leading a unit, each time a ranged attack targets that unit, if the attacking model is not within 12\", subtract 1 from the Hit roll."
         }
-      ]
+      ],
+      "pricing": [
+        {
+          "range": "[1,2]",
+          "label": "Your 1st To 2nd Units Cost",
+          "costs": [
+            {
+              "models": 1,
+              "points": 130
+            }
+          ]
+        },
+        {
+          "range": "[3,)",
+          "label": "Your 3rd + Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 140
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "130"
     },
     {
       "id": "4819-dbbe-8547-4e23",
@@ -408,7 +473,30 @@
           "name": "Aura of Illusion",
           "description": "This model has the Stealth ability, and while this model is leading a unit, each time a ranged attack targets that unit, if the attacking model is not within 12\", subtract 1 from the Hit roll."
         }
-      ]
+      ],
+      "pricing": [
+        {
+          "range": "[1,2]",
+          "label": "Your 1st To 2nd Units Cost",
+          "costs": [
+            {
+              "models": 1,
+              "points": 130
+            }
+          ]
+        },
+        {
+          "range": "[3,)",
+          "label": "Your 3rd + Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 140
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "130"
     },
     {
       "id": "8d9b-b949-2557-dcc4",
@@ -514,7 +602,20 @@
           "description": "This model has the Stealth ability, and while this model is leading a unit, each time a ranged attack targets that unit, if the attacking model is not within 12\", subtract 1 from the Hit roll."
         }
       ],
-      "transportCapacity": "This model has a transport capacity of 12 ^^**Thousand Sons Infantry^^** models (excluding ^^**Terminator^^** models)."
+      "transportCapacity": "This model has a transport capacity of 12 ^^**Thousand Sons Infantry^^** models (excluding ^^**Terminator^^** models).",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 90
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "90"
     },
     {
       "id": "60de-4c77-95e1-1337",
@@ -596,7 +697,20 @@
           "name": "Aura of Illusion",
           "description": "This model has the Stealth ability, and while this model is leading a unit, each time a ranged attack targets that unit, if the attacking model is not within 12\", subtract 1 from the Hit roll."
         }
-      ]
+      ],
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 2,
+              "points": 65
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "65"
     },
     {
       "id": "3413-b8fd-e22c-da4f",
@@ -699,12 +813,35 @@
           "name": "Aura of Illusion",
           "description": "This model has the Stealth ability, and while this model is leading a unit, each time a ranged attack targets that unit, if the attacking model is not within 12\", subtract 1 from the Hit roll."
         }
-      ]
+      ],
+      "pricing": [
+        {
+          "range": "[1,2]",
+          "label": "Your 1st To 2nd Units Cost",
+          "costs": [
+            {
+              "models": 1,
+              "points": 185
+            }
+          ]
+        },
+        {
+          "range": "[3,)",
+          "label": "Your 3rd + Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 195
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "185"
     },
     {
       "id": "c3a6-8fab-45f0-2d45",
       "name": "Exalted Sorcerer",
-      "points": 80,
+      "points": 90,
       "keywords": [
         "Infantry",
         "Character",
@@ -925,12 +1062,29 @@
           "name": "Aura of Illusion",
           "description": "This model has the Stealth ability, and while this model is leading a unit, each time a ranged attack targets that unit, if the attacking model is not within 12\", subtract 1 from the Hit roll."
         }
+      ],
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 90
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "90",
+      "mfmRole": "leader",
+      "attachTo": [
+        "Rubric Marines"
       ]
     },
     {
       "id": "1724-8c9c-c385-16c6",
       "name": "Exalted Sorcerer on Disc of Tzeentch",
-      "points": 100,
+      "points": 90,
       "keywords": [
         "Infantry",
         "Character",
@@ -1154,12 +1308,31 @@
           "name": "Aura of Illusion",
           "description": "This model has the Stealth ability, and while this model is leading a unit, each time a ranged attack targets that unit, if the attacking model is not within 12\", subtract 1 from the Hit roll."
         }
+      ],
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 90
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "90",
+      "mfmRole": "leader",
+      "attachTo": [
+        "Rubric Marines",
+        "Tzaangor Enlightened",
+        "Tzaangor Enlightened With Fatecaster Greatbows"
       ]
     },
     {
       "id": "d2f1-7a0b-f7cd-9b46",
       "name": "Forgefiend",
-      "points": 130,
+      "points": 135,
       "keywords": [
         "Vehicle",
         "Walker",
@@ -1225,7 +1398,30 @@
           "name": "Aura of Illusion",
           "description": "This model has the Stealth ability, and while this model is leading a unit, each time a ranged attack targets that unit, if the attacking model is not within 12\", subtract 1 from the Hit roll."
         }
-      ]
+      ],
+      "pricing": [
+        {
+          "range": "[1,2]",
+          "label": "Your 1st To 2nd Units Cost",
+          "costs": [
+            {
+              "models": 1,
+              "points": 135
+            }
+          ]
+        },
+        {
+          "range": "[3,)",
+          "label": "Your 3rd + Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 145
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "135"
     },
     {
       "id": "5b9d-e3c1-3d55-8276",
@@ -1310,12 +1506,25 @@
           "name": "Aura of Illusion",
           "description": "This model has the Stealth ability, and while this model is leading a unit, each time a ranged attack targets that unit, if the attacking model is not within 12\", subtract 1 from the Hit roll."
         }
-      ]
+      ],
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 110
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "110"
     },
     {
       "id": "637a-d542-35aa-e95c",
       "name": "Heldrake",
-      "points": 215,
+      "points": 175,
       "keywords": [
         "Vehicle",
         "Aircraft",
@@ -1395,7 +1604,20 @@
           "name": "Aura of Illusion",
           "description": "This model has the Stealth ability, and while this model is leading a unit, each time a ranged attack targets that unit, if the attacking model is not within 12\", subtract 1 from the Hit roll."
         }
-      ]
+      ],
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 175
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "175"
     },
     {
       "id": "1693-5e00-da69-57bb",
@@ -1624,12 +1846,29 @@
           "name": "Aura of Illusion",
           "description": "This model has the Stealth ability, and while this model is leading a unit, each time a ranged attack targets that unit, if the attacking model is not within 12\", subtract 1 from the Hit roll."
         }
+      ],
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 95
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "95",
+      "mfmRole": "leader",
+      "attachTo": [
+        "Rubric Marines"
       ]
     },
     {
       "id": "91dc-9aad-0505-52a8",
       "name": "Magnus the Red",
-      "points": 435,
+      "points": 455,
       "keywords": [
         "Monster",
         "Psyker",
@@ -1725,7 +1964,20 @@
           "name": "Lord of the Planet of the Sorcerers (Psychic)",
           "description": "This model can attempt up to 2 Rituals per turn instead of one, and each time this model attempts a Ritual, add 2 to the Psychic test result."
         }
-      ]
+      ],
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 455
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "455"
     },
     {
       "id": "f2aa-19fd-335a-09b3",
@@ -1807,7 +2059,30 @@
           "name": "Aura of Illusion",
           "description": "This model has the Stealth ability, and while this model is leading a unit, each time a ranged attack targets that unit, if the attacking model is not within 12\", subtract 1 from the Hit roll."
         }
-      ]
+      ],
+      "pricing": [
+        {
+          "range": "[1,2]",
+          "label": "Your 1st To 2nd Units Cost",
+          "costs": [
+            {
+              "models": 1,
+              "points": 120
+            }
+          ]
+        },
+        {
+          "range": "[3,)",
+          "label": "Your 3rd + Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 130
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "120"
     },
     {
       "id": "094c-c618-92c1-b394",
@@ -1940,7 +2215,30 @@
           "name": "Aura of Illusion",
           "description": "This model has the Stealth ability, and while this model is leading a unit, each time a ranged attack targets that unit, if the attacking model is not within 12\", subtract 1 from the Hit roll."
         }
-      ]
+      ],
+      "pricing": [
+        {
+          "range": "[1,2]",
+          "label": "Your 1st To 2nd Units Cost",
+          "costs": [
+            {
+              "models": 1,
+              "points": 170
+            }
+          ]
+        },
+        {
+          "range": "[3,)",
+          "label": "Your 3rd + Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 190
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "170"
     },
     {
       "id": "5d3d-e13b-8b76-dad3",
@@ -2114,7 +2412,38 @@
           "name": "Aura of Illusion",
           "description": "This model has the Stealth ability, and while this model is leading a unit, each time a ranged attack targets that unit, if the attacking model is not within 12\", subtract 1 from the Hit roll."
         }
-      ]
+      ],
+      "pricing": [
+        {
+          "range": "[1,3]",
+          "label": "Your 1st To 3rd Units Cost",
+          "costs": [
+            {
+              "models": 5,
+              "points": 100
+            },
+            {
+              "models": 10,
+              "points": 190
+            }
+          ]
+        },
+        {
+          "range": "[4,)",
+          "label": "Your 4th + Unit Costs",
+          "costs": [
+            {
+              "models": 5,
+              "points": 110
+            },
+            {
+              "models": 10,
+              "points": 200
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "100/190"
     },
     {
       "id": "b1cf-c5-5121-92a4",
@@ -2246,12 +2575,43 @@
           "name": "Aura of Illusion",
           "description": "This model has the Stealth ability, and while this model is leading a unit, each time a ranged attack targets that unit, if the attacking model is not within 12\", subtract 1 from the Hit roll."
         }
-      ]
+      ],
+      "pricing": [
+        {
+          "range": "[1,2]",
+          "label": "Your 1st To 2nd Units Cost",
+          "costs": [
+            {
+              "models": 5,
+              "points": 180
+            },
+            {
+              "models": 10,
+              "points": 370
+            }
+          ]
+        },
+        {
+          "range": "[3,)",
+          "label": "Your 3rd + Unit Costs",
+          "costs": [
+            {
+              "models": 5,
+              "points": 195
+            },
+            {
+              "models": 10,
+              "points": 385
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "180/370"
     },
     {
       "id": "af1e-9a3d-785c-47f8",
       "name": "Sorcerer",
-      "points": 80,
+      "points": 85,
       "keywords": [
         "Infantry",
         "Character",
@@ -2467,12 +2827,29 @@
           "name": "Aura of Illusion",
           "description": "This model has the Stealth ability, and while this model is leading a unit, each time a ranged attack targets that unit, if the attacking model is not within 12\", subtract 1 from the Hit roll."
         }
+      ],
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 85
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "85",
+      "mfmRole": "leader",
+      "attachTo": [
+        "Rubric Marines"
       ]
     },
     {
       "id": "c6d1-e73b-9d26-5d8b",
       "name": "Sorcerer in Terminator Armour",
-      "points": 85,
+      "points": 95,
       "keywords": [
         "Infantry",
         "Character",
@@ -2669,12 +3046,39 @@
           "name": "Aura of Illusion",
           "description": "This model has the Stealth ability, and while this model is leading a unit, each time a ranged attack targets that unit, if the attacking model is not within 12\", subtract 1 from the Hit roll."
         }
+      ],
+      "pricing": [
+        {
+          "range": "[1,2]",
+          "label": "Your 1st To 2nd Units Cost",
+          "costs": [
+            {
+              "models": 1,
+              "points": 95
+            }
+          ]
+        },
+        {
+          "range": "[3,)",
+          "label": "Your 3rd + Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 105
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "95",
+      "mfmRole": "leader",
+      "attachTo": [
+        "Scarab Occult Terminators"
       ]
     },
     {
       "id": "eccd-e442-607b-3fd0",
       "name": "Daemon Prince of Tzeentch",
-      "points": 180,
+      "points": 170,
       "keywords": [
         "Monster",
         "Character",
@@ -2898,7 +3302,20 @@
           "name": "Aura of Illusion",
           "description": "This model has the Stealth ability, and while this model is leading a unit, each time a ranged attack targets that unit, if the attacking model is not within 12\", subtract 1 from the Hit roll."
         }
-      ]
+      ],
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 170
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "170"
     },
     {
       "id": "66f4-929e-1769-f277",
@@ -3124,7 +3541,30 @@
           "name": "Aura of Illusion",
           "description": "This model has the Stealth ability, and while this model is leading a unit, each time a ranged attack targets that unit, if the attacking model is not within 12\", subtract 1 from the Hit roll."
         }
-      ]
+      ],
+      "pricing": [
+        {
+          "range": "[1,1]",
+          "label": "Your 1st Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 170
+            }
+          ]
+        },
+        {
+          "range": "[2,)",
+          "label": "Your 2nd + Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 180
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "170"
     },
     {
       "id": "1703-3edd-5eb3-fcef",
@@ -3234,7 +3674,24 @@
           "name": "Aura of Illusion",
           "description": "This model has the Stealth ability, and while this model is leading a unit, each time a ranged attack targets that unit, if the attacking model is not within 12\", subtract 1 from the Hit roll."
         }
-      ]
+      ],
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 3,
+              "points": 45
+            },
+            {
+              "models": 6,
+              "points": 90
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "45/90"
     },
     {
       "id": "c251-bd54-441-4799",
@@ -3440,12 +3897,31 @@
           "name": "Aura of Illusion",
           "description": "This model has the Stealth ability, and while this model is leading a unit, each time a ranged attack targets that unit, if the attacking model is not within 12\", subtract 1 from the Hit roll."
         }
+      ],
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 60
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "60",
+      "mfmRole": "leader",
+      "attachTo": [
+        "Tzaangor Enlightened",
+        "Tzaangor Enlightened With Fatecaster Greatbows",
+        "Tzaangors"
       ]
     },
     {
       "id": "f5b9-50c8-5c60-d8ea",
       "name": "Tzaangors",
-      "points": 70,
+      "points": 75,
       "keywords": [
         "Infantry",
         "Chaos",
@@ -3542,7 +4018,24 @@
           "name": "Aura of Illusion",
           "description": "This model has the Stealth ability, and while this model is leading a unit, each time a ranged attack targets that unit, if the attacking model is not within 12\", subtract 1 from the Hit roll."
         }
-      ]
+      ],
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 10,
+              "points": 75
+            },
+            {
+              "models": 20,
+              "points": 145
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "75/145"
     },
     {
       "id": "c4ab-b52d-3ac0-5d56",
@@ -4267,7 +4760,24 @@
           "name": "Aura of Illusion",
           "description": "This model has the Stealth ability, and while this model is leading a unit, each time a ranged attack targets that unit, if the attacking model is not within 12\", subtract 1 from the Hit roll."
         }
-      ]
+      ],
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 2,
+              "points": 80
+            },
+            {
+              "models": 4,
+              "points": 160
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "80/160"
     },
     {
       "id": "8b9f-917f-37c1-99c3",
@@ -4365,7 +4875,24 @@
           "name": "Aura of Illusion",
           "description": "This model has the Stealth ability, and while this model is leading a unit, each time a ranged attack targets that unit, if the attacking model is not within 12\", subtract 1 from the Hit roll."
         }
-      ]
+      ],
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 3,
+              "points": 55
+            },
+            {
+              "models": 6,
+              "points": 110
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "55/110"
     },
     {
       "id": "8f70-9bec-9b83-216b",
@@ -4455,12 +4982,25 @@
           "name": "Damaged: 1-7 wounds remaining",
           "description": "While this model has 1-7 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
         }
-      ]
+      ],
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 295
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "295"
     },
     {
       "id": "c964-c75a-2a9d-e451",
       "name": "Lord of Change",
-      "points": 285,
+      "points": 300,
       "keywords": [
         "Monster",
         "Character",
@@ -4660,7 +5200,30 @@
           "name": "Warp-cursed Runemaster",
           "description": "While the bearer is within 6\" of one or more friendly ^^**Thousand Sons Vehicle^^** units, each time the bearer manifests a Ritual, while resolving that Ritual, add 6\" to its range."
         }
-      ]
+      ],
+      "pricing": [
+        {
+          "range": "[1,2]",
+          "label": "Your 1st To 2nd Units Cost",
+          "costs": [
+            {
+              "models": 1,
+              "points": 300
+            }
+          ]
+        },
+        {
+          "range": "[3,)",
+          "label": "Your 3rd + Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 315
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "300"
     },
     {
       "id": "694f-a205-b260-783c",
@@ -4722,7 +5285,24 @@
           "name": "Bounding Leaps",
           "description": "This unit is eligible to shoot in a turn in which it Fell Back."
         }
-      ]
+      ],
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 3,
+              "points": 65
+            },
+            {
+              "models": 6,
+              "points": 130
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "65/130"
     },
     {
       "id": "7cbe-2406-8e67-aff5",
@@ -4772,7 +5352,24 @@
           "name": "Slashing Dive",
           "description": "In your Movement phase, after this unit ends a Normal move, select one enemy unit it moved over during that move and roll one D6 for each model in this unit: for each 4+, that enemy unit suffers 1 mortal wound."
         }
-      ]
+      ],
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 3,
+              "points": 80
+            },
+            {
+              "models": 6,
+              "points": 160
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "80/160"
     },
     {
       "id": "4c73-cbd1-f052-80c3",
@@ -4892,7 +5489,20 @@
           "name": "Instrument of Chaos",
           "description": "Add 1 to Charge rolls made for the bearer's unit."
         }
-      ]
+      ],
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 10,
+              "points": 115
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "115"
     },
     {
       "id": "aec5-4419-39e7-3e63",
@@ -4985,7 +5595,20 @@
           "name": "Exploding Horrors",
           "description": "Each time this unit is selected to fight, you can select one enemy unit within Engagement Range of it, then select one or more ^^**Brimstone Horror^^** models in this unit. For each ^^**Brimstone Horror^^** model you select, roll one D6: on a 4+, that model is destroyed and that enemy unit suffers 1 mortal wound."
         }
-      ]
+      ],
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 10,
+              "points": 90
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "90"
     },
     {
       "id": "dd17-8cb8-ed8c-f6c8",
@@ -6316,7 +6939,7 @@
     {
       "id": "f158-2979-c38b-65b5",
       "name": "Defiler",
-      "points": 250,
+      "points": 290,
       "keywords": [
         "Vehicle",
         "Walker",
@@ -6403,7 +7026,30 @@
           "name": "Aura of Illusion",
           "description": "This model has the Stealth ability, and while this model is leading a unit, each time a ranged attack targets that unit, if the attacking model is not within 12\", subtract 1 from the Hit roll."
         }
-      ]
+      ],
+      "pricing": [
+        {
+          "range": "[1,1]",
+          "label": "Your 1st Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 290
+            }
+          ]
+        },
+        {
+          "range": "[2,)",
+          "label": "Your 2nd + Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 320
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "290"
     }
   ],
   "enhancements": [

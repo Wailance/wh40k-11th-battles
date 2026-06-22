@@ -1,0 +1,953 @@
+{
+  "f51d-bc51-f301-9dee": {
+    "groups": [
+      {
+        "id": "b8f6-ea25-47b9-beff",
+        "name": "Aberrant Hypermorph",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "6dfd-e638-c220-1d1",
+            "name": "Aberrant Hypermorph",
+            "min": 1,
+            "max": 1,
+            "equippedWith": "Aberrant weapons"
+          }
+        ]
+      },
+      {
+        "id": "21b8-8d0a-a6da-d0a4",
+        "name": "4-9 Aberrants",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "2b64-79c0-e6b5-53e9",
+            "name": "Aberrant",
+            "min": 4,
+            "max": 9,
+            "equippedWith": "Aberrant weapons"
+          }
+        ]
+      }
+    ]
+  },
+  "97b1-4873-9fcb-5cb8": {
+    "groups": [
+      {
+        "id": "1446-72b9-3078-4317",
+        "name": "Wargear",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "71f0-2cb-e23c-c022",
+            "name": "Power sledgehammer",
+            "min": 1,
+            "max": 1
+          }
+        ]
+      }
+    ]
+  },
+  "cf71-a12a-2730-c40b": {
+    "groups": [
+      {
+        "id": "bfdb-c720-69da-5c28",
+        "name": "1-2 Achilles Ridgerunners",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "71c2-cc66-9aac-181e",
+            "name": "Achilles Ridgerunner",
+            "min": 1,
+            "max": 2,
+            "groups": [
+              {
+                "id": "0ad0-c4f8-a31a-5d1b",
+                "name": "Wargear",
+                "min": 0,
+                "max": 99,
+                "mode": "count",
+                "options": [
+                  {
+                    "id": "75c9-67d6-fa86-7854",
+                    "name": "Armoured hull",
+                    "min": 1,
+                    "max": 1
+                  },
+                  {
+                    "id": "1d2a-dcb9-d666-68ec",
+                    "name": "Twin heavy stubber",
+                    "min": 1,
+                    "max": 1
+                  }
+                ],
+                "groups": [
+                  {
+                    "id": "a7f4-4c5-4b37-e659",
+                    "name": "Flare Launcher",
+                    "min": 1,
+                    "max": 1,
+                    "mode": "single",
+                    "options": [
+                      {
+                        "id": "b81c-a70-cf05-d8f1",
+                        "name": "Flare launcher",
+                        "min": 0,
+                        "max": 99
+                      },
+                      {
+                        "id": "b0bc-98a3-dc3b-7c1b",
+                        "name": "Spotter",
+                        "min": 0,
+                        "max": 99
+                      },
+                      {
+                        "id": "c76b-a566-ab06-bfc8",
+                        "name": "Survey augur",
+                        "min": 0,
+                        "max": 99
+                      }
+                    ],
+                    "defaultOptionId": "b81c-a70-cf05-d8f1"
+                  },
+                  {
+                    "id": "8263-4c12-faea-3210",
+                    "name": "Heavy Mining Laser",
+                    "min": 1,
+                    "max": 1,
+                    "mode": "single",
+                    "options": [
+                      {
+                        "id": "4dfd-1554-a484-439d",
+                        "name": "Achilles missile launcher",
+                        "min": 0,
+                        "max": 99
+                      },
+                      {
+                        "id": "1f1a-1975-8221-4f33",
+                        "name": "Heavy mortar",
+                        "min": 0,
+                        "max": 99
+                      },
+                      {
+                        "id": "1a72-a226-6838-a4c5",
+                        "name": "Heavy mining laser",
+                        "min": 0,
+                        "max": 99
+                      }
+                    ],
+                    "defaultOptionId": "1a72-a226-6838-a4c5"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "e367-b2cb-d22a-b17c": {
+    "groups": [
+      {
+        "id": "e486-a530-769f-f805",
+        "name": "Wargear",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "f435-efc3-2e04-3b25",
+            "name": "Cult claws",
+            "min": 1,
+            "max": 1
+          },
+          {
+            "id": "50b4-94bf-d910-99eb",
+            "name": "Autopistol",
+            "min": 1,
+            "max": 1
+          }
+        ]
+      }
+    ]
+  },
+  "3a81-2b84-bf4c-4f85": {
+    "groups": [
+      {
+        "id": "5742-90b0-3164-cb74",
+        "name": "4-8 Jackals",
+        "min": 4,
+        "max": 8,
+        "mode": "count",
+        "options": [
+          {
+            "id": "9de3-2a5c-beea-72ae",
+            "name": "Atalan Jackal w/ Grenade launcher",
+            "min": 0,
+            "max": 2,
+            "equippedWith": "Grenade launcher and Close combat weapon"
+          },
+          {
+            "id": "c981-ff67-9a33-386b",
+            "name": "Atalan Jackal",
+            "min": 1,
+            "max": 8,
+            "equippedWith": "Close combat weapon and Atalan small arms"
+          },
+          {
+            "id": "e824-edab-18c6-3347",
+            "name": "Atalan Jackal w/ Atalan power weapon",
+            "min": 0,
+            "max": 4,
+            "equippedWith": "Atalan small arms and Atalan power weapon"
+          },
+          {
+            "id": "8c22-aa37-99f0-8e69",
+            "name": "Atalan Jackal w/ Grenade launcher & power weapon",
+            "min": 0,
+            "max": 2,
+            "equippedWith": "Grenade launcher and Atalan power weapon"
+          }
+        ],
+        "defaultOptionId": "c981-ff67-9a33-386b"
+      },
+      {
+        "id": "e2f4-a292-0801-f194",
+        "name": "1-2 Atalan Wolfquads",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "de61-4088-f84c-24a5",
+            "name": "Atalan Wolfquad",
+            "min": 1,
+            "max": 1,
+            "groups": [
+              {
+                "id": "f308-2ed-9bcc-ee78",
+                "name": "Heavy Stubber",
+                "min": 1,
+                "max": 1,
+                "mode": "single",
+                "options": [
+                  {
+                    "id": "17f0-d036-dc8d-3399",
+                    "name": "Mining laser",
+                    "min": 0,
+                    "max": 99
+                  },
+                  {
+                    "id": "726f-abd3-9be7-f1d5",
+                    "name": "Atalan incinerator",
+                    "min": 0,
+                    "max": 99
+                  },
+                  {
+                    "id": "5525-eb42-8592-a13a",
+                    "name": "Heavy stubber",
+                    "min": 0,
+                    "max": 99
+                  }
+                ],
+                "defaultOptionId": "5525-eb42-8592-a13a"
+              }
+            ],
+            "equippedWith": "Close combat weapon and Atalan small arms"
+          }
+        ]
+      }
+    ]
+  },
+  "725f-8a41-dc78-52f5": {
+    "groups": [
+      {
+        "id": "a0be-2cf7-65f0-bb12",
+        "name": "Wargear",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "2302-2c37-c52e-ad0a",
+            "name": "Alchemicus familiar",
+            "min": 1,
+            "max": 1
+          },
+          {
+            "id": "63ad-c760-0faf-3d44",
+            "name": "Injector goad",
+            "min": 1,
+            "max": 1
+          },
+          {
+            "id": "224b-e9b2-f48c-a8bf",
+            "name": "Autopistol",
+            "min": 1,
+            "max": 1
+          },
+          {
+            "id": "5843-030a-52da-e05b",
+            "name": "Chemical vials",
+            "min": 1,
+            "max": 1
+          }
+        ]
+      }
+    ]
+  },
+  "5543-973a-cd2e-c941": {
+    "groups": [
+      {
+        "id": "f5b7-6913-771b-21c9",
+        "name": "Wargear",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "7134-39bc-cd96-bbb0",
+            "name": "Autopistol",
+            "min": 1,
+            "max": 1
+          },
+          {
+            "id": "56ea-1ab1-6851-5a1d",
+            "name": "Close combat weapon",
+            "min": 1,
+            "max": 1
+          }
+        ]
+      }
+    ]
+  },
+  "5ac1-3adb-212a-5e02": {
+    "groups": [
+      {
+        "id": "712c-4f8e-e5da-a60a",
+        "name": "Wargear",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "c51c-b3b4-bd8e-e6b7",
+            "name": "Drilldozer blade",
+            "min": 1,
+            "max": 1
+          },
+          {
+            "id": "9ad7-8617-271d-a4b3",
+            "name": "Heavy stubber",
+            "min": 1,
+            "max": 1
+          },
+          {
+            "id": "191d-962a-b755-78a1",
+            "name": "Demolition charge cache",
+            "min": 1,
+            "max": 1
+          }
+        ],
+        "groups": [
+          {
+            "id": "3164-29f6-53db-22a",
+            "name": "Heavy Mining Laser",
+            "min": 1,
+            "max": 1,
+            "mode": "single",
+            "options": [
+              {
+                "id": "b84a-a526-5ec7-2d1d",
+                "name": "Clearance incinerator",
+                "min": 0,
+                "max": 99
+              },
+              {
+                "id": "7cf-3e0a-5eb-900",
+                "name": "Heavy seismic cannon",
+                "min": 0,
+                "max": 99
+              },
+              {
+                "id": "41f4-7e6a-9b7c-6577",
+                "name": "Heavy mining laser",
+                "min": 0,
+                "max": 99
+              }
+            ],
+            "defaultOptionId": "41f4-7e6a-9b7c-6577"
+          }
+        ]
+      }
+    ]
+  },
+  "1d1-f0d2-b810-12fe": {
+    "groups": [
+      {
+        "id": "7d50-e19c-87d1-ab23",
+        "name": "Wargear",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "7788-d2c-400e-8de5",
+            "name": "Twin autocannon",
+            "min": 1,
+            "max": 1
+          },
+          {
+            "id": "cce7-12c5-6cd8-2b23",
+            "name": "Goliath wheels",
+            "min": 1,
+            "max": 1
+          },
+          {
+            "id": "aba-e634-175a-cb4a",
+            "name": "Demolition charge cache",
+            "min": 1,
+            "max": 1
+          },
+          {
+            "id": "3f53-1218-7890-8374",
+            "name": "Heavy stubber",
+            "min": 1,
+            "max": 1
+          }
+        ]
+      }
+    ]
+  },
+  "8a84-a8fd-977e-9118": {
+    "groups": [
+      {
+        "id": "1c8c-c281-f1d2-9734",
+        "name": "4-9 Hybrid Metamorphs",
+        "min": 4,
+        "max": 9,
+        "mode": "count",
+        "options": [
+          {
+            "id": "825-c939-2de8-337b",
+            "name": "Hybrid Metamorph w/ Autopistol",
+            "min": 0,
+            "max": 99,
+            "equippedWith": "Metamorph mutations and Autopistol"
+          },
+          {
+            "id": "b0a1-d0d8-de36-5e58",
+            "name": "Hybrid Metamorph w/ Cult Icon",
+            "min": 0,
+            "max": 99,
+            "equippedWith": "Cult icon and Metamorph mutations"
+          },
+          {
+            "id": "705e-3346-69fe-628a",
+            "name": "Hybrid Metamorph w/ Hand Flamer",
+            "min": 0,
+            "max": 99,
+            "equippedWith": "Hand flamer and Metamorph mutations"
+          }
+        ],
+        "defaultOptionId": "825-c939-2de8-337b"
+      },
+      {
+        "id": "10dd-4262-dfe9-4e58",
+        "name": "Metamorph Leader",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "f1f8-5747-2ee6-e1b3",
+            "name": "Metamorph Leader",
+            "min": 1,
+            "max": 1,
+            "groups": [
+              {
+                "id": "48e4-6ac9-4879-b5eb",
+                "name": "Wargear",
+                "min": 0,
+                "max": 99,
+                "mode": "count",
+                "options": [
+                  {
+                    "id": "e596-c885-a0c9-69e0",
+                    "name": "Leader's Bio-weapons",
+                    "min": 1,
+                    "max": 1
+                  }
+                ],
+                "groups": [
+                  {
+                    "id": "f32e-d895-aae2-e940",
+                    "name": "Autopistol",
+                    "min": 1,
+                    "max": 1,
+                    "mode": "single",
+                    "options": [
+                      {
+                        "id": "b8a2-2f65-1cf1-fe41",
+                        "name": "Autopistol",
+                        "min": 0,
+                        "max": 99
+                      },
+                      {
+                        "id": "4767-9f99-39ee-135d",
+                        "name": "Hand flamer",
+                        "min": 0,
+                        "max": 99
+                      }
+                    ],
+                    "defaultOptionId": "b8a2-2f65-1cf1-fe41"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "6426-ca59-402a-d399": {
+    "groups": [
+      {
+        "id": "c2eb-6b4f-baa8-2682",
+        "name": "Wargear",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "453d-665e-6444-3cb4",
+            "name": "Cult sniper rifle",
+            "min": 1,
+            "max": 1
+          },
+          {
+            "id": "f100-aaea-f6c5-dbae",
+            "name": "Autopistol",
+            "min": 1,
+            "max": 1
+          },
+          {
+            "id": "8e32-fb13-d100-cafe",
+            "name": "Close combat weapon",
+            "min": 1,
+            "max": 1
+          }
+        ]
+      }
+    ]
+  },
+  "5e0e-11d9-181d-3481": {
+    "groups": [
+      {
+        "id": "d88f-a775-1505-2a92",
+        "name": "Wargear",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "1e06-5ae5-de48-a087",
+            "name": "Liberator autostubs",
+            "min": 1,
+            "max": 1
+          },
+          {
+            "id": "db0-3975-f7de-8e54",
+            "name": "Close combat weapon",
+            "min": 1,
+            "max": 1
+          }
+        ]
+      }
+    ]
+  },
+  "51e8-dac1-561a-aaa9": {
+    "groups": [
+      {
+        "id": "baa4-c950-29d3-e35e",
+        "name": "Wargear",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "f714-7a9d-ed44-a83",
+            "name": "Locus blades",
+            "min": 1,
+            "max": 1
+          }
+        ]
+      }
+    ]
+  },
+  "4f4-2157-2cb5-8bb": {
+    "groups": [
+      {
+        "id": "df31-1906-987b-a355",
+        "name": "Wargear",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "a158-1392-9ef3-9d1d",
+            "name": "Force stave",
+            "min": 1,
+            "max": 1
+          },
+          {
+            "id": "4611-8cd1-2810-1e31",
+            "name": "Autopistol",
+            "min": 1,
+            "max": 1
+          }
+        ]
+      }
+    ]
+  },
+  "b5d2-8681-6bba-f05b": {
+    "groups": [
+      {
+        "id": "72c1-ad8a-b2ea-3193",
+        "name": "9-19 Neophyte Hybrids",
+        "min": 9,
+        "max": 19,
+        "mode": "count",
+        "options": [
+          {
+            "id": "8261-d629-33d4-b642",
+            "name": "Neophyte Hybrid w/ Hybrid Firearm",
+            "min": 4,
+            "max": 19,
+            "equippedWith": "Hybrid firearm and Autopistol and Close combat weapon"
+          },
+          {
+            "id": "28b1-9012-8502-dfc5",
+            "name": "Neophyte Hybrid w/ Hybrid Firearm & Cult Icon",
+            "min": 0,
+            "max": 1,
+            "equippedWith": "Hybrid firearm and Autopistol and Close combat weapon"
+          },
+          {
+            "id": "ab27-9a21-6d9c-ae53",
+            "name": "Neophyte Hybrid w/ Heavy Weapon",
+            "min": 0,
+            "max": 99,
+            "groups": [
+              {
+                "id": "5c0d-5bb7-1ded-b8e2",
+                "name": "Heavy Weapon Selection",
+                "min": 1,
+                "max": 1,
+                "mode": "single",
+                "options": [
+                  {
+                    "id": "9e21-6f04-5705-6543",
+                    "name": "Mining laser",
+                    "min": 0,
+                    "max": 99
+                  },
+                  {
+                    "id": "6398-16e6-57f8-ba3c",
+                    "name": "Seismic cannon",
+                    "min": 0,
+                    "max": 99
+                  },
+                  {
+                    "id": "b4d6-8179-468-d4c2",
+                    "name": "Heavy stubber",
+                    "min": 0,
+                    "max": 99
+                  }
+                ]
+              }
+            ],
+            "equippedWith": "Close combat weapon and Autopistol"
+          },
+          {
+            "id": "9346-d64d-f46-e19f",
+            "name": "Neophyte Hybrid w/ Special Weapon",
+            "min": 0,
+            "max": 99,
+            "groups": [
+              {
+                "id": "b755-8c54-5db9-14c4",
+                "name": "Special Weapon Selection",
+                "min": 1,
+                "max": 1,
+                "mode": "single",
+                "options": [
+                  {
+                    "id": "f642-371e-2513-c0de",
+                    "name": "Webber",
+                    "min": 0,
+                    "max": 99
+                  },
+                  {
+                    "id": "cf51-5239-d357-8f96",
+                    "name": "Flamer",
+                    "min": 0,
+                    "max": 99
+                  },
+                  {
+                    "id": "737-d22-4f20-3776",
+                    "name": "Grenade launcher",
+                    "min": 0,
+                    "max": 99
+                  }
+                ]
+              }
+            ],
+            "equippedWith": "Autopistol and Close combat weapon"
+          }
+        ],
+        "defaultOptionId": "8261-d629-33d4-b642"
+      },
+      {
+        "id": "1072-34a6-b24d-d30f",
+        "name": "Neophyte Leader",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "4306-733d-48c5-5584",
+            "name": "Neophyte Leader",
+            "min": 1,
+            "max": 1,
+            "groups": [
+              {
+                "id": "6d6e-d153-ade2-2a2e",
+                "name": "Wargear",
+                "min": 1,
+                "max": 1,
+                "mode": "single",
+                "options": [
+                  {
+                    "id": "2dd8-5325-8f3-e04e",
+                    "name": "Autopistol, hybrid firearm and close combat weapon",
+                    "min": 0,
+                    "max": 99,
+                    "equippedWith": "Hybrid firearm and Close combat weapon and Autopistol"
+                  },
+                  {
+                    "id": "40a8-15a8-d353-6862",
+                    "name": "Autopistol, anointed pistol and power weapon",
+                    "min": 0,
+                    "max": 99,
+                    "equippedWith": "Anointed pistol and Autopistol"
+                  },
+                  {
+                    "id": "2208-229b-eb3e-1d14",
+                    "name": "Autopistol, anointed pistol and chainsword",
+                    "min": 0,
+                    "max": 99,
+                    "equippedWith": "Anointed pistol and Autopistol"
+                  }
+                ],
+                "defaultOptionId": "2dd8-5325-8f3-e04e"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "55c7-90e0-419-44f9": {
+    "groups": [
+      {
+        "id": "d032-0b53-b774-8731",
+        "name": "Wargear",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "9f9d-3eca-fdd2-8a28",
+            "name": "Autopistol",
+            "min": 1,
+            "max": 1
+          },
+          {
+            "id": "8036-3b1c-d0b3-170a",
+            "name": "Close combat weapon",
+            "min": 1,
+            "max": 1
+          }
+        ]
+      }
+    ]
+  },
+  "2a91-a18e-bd08-fa66": {
+    "groups": [
+      {
+        "id": "20db-477f-cbfc-883a",
+        "name": "Wargear",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "c047-fec8-749f-de49",
+            "name": "Patriarch's claws",
+            "min": 1,
+            "max": 1
+          }
+        ]
+      }
+    ]
+  },
+  "30e9-42fa-3a6e-e8ef": {
+    "groups": [
+      {
+        "id": "2d52-8723-e4d4-b33e",
+        "name": "Wargear",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "415f-2df1-d220-cda5",
+            "name": "Toxin injector claw",
+            "min": 1,
+            "max": 1
+          },
+          {
+            "id": "0254-3d9f-d67f-0ae7",
+            "name": "Scoped needle pistol",
+            "min": 1,
+            "max": 1
+          },
+          {
+            "id": "bcd7-5dca-5bc9-d859",
+            "name": "Cult bonesword",
+            "min": 1,
+            "max": 1
+          }
+        ]
+      }
+    ]
+  },
+  "965b-496a-3a1b-22a8": {
+    "groups": [
+      {
+        "id": "0883-0db6-292f-c2dd",
+        "name": "5-10 Purestrain Genestealers",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "73e6-806f-feaa-5849",
+            "name": "Purestrain Genestealer",
+            "min": 5,
+            "max": 10,
+            "equippedWith": "Cult claws and talons"
+          }
+        ]
+      }
+    ]
+  },
+  "4565-bd65-9e8b-284d": {
+    "groups": [
+      {
+        "id": "6b1f-4c60-116f-8632",
+        "name": "Wargear",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "a61e-34d9-11c6-7766",
+            "name": "Demolition charges",
+            "min": 1,
+            "max": 1
+          },
+          {
+            "id": "e342-17a5-c1cc-b2c9",
+            "name": "Autopistol",
+            "min": 1,
+            "max": 1
+          },
+          {
+            "id": "f1da-b699-4dc5-d9fa",
+            "name": "Remote explosives",
+            "min": 1,
+            "max": 1
+          },
+          {
+            "id": "1190-38e5-8aa6-e8ed",
+            "name": "Close combat weapon",
+            "min": 1,
+            "max": 1
+          }
+        ]
+      }
+    ]
+  },
+  "3d6c-357e-3c09-813c": {
+    "groups": [
+      {
+        "id": "2501-e015-c9cf-b5c7",
+        "name": "Wargear",
+        "min": 1,
+        "max": 1,
+        "mode": "single",
+        "options": [
+          {
+            "id": "567e-ca3e-365e-4c6a",
+            "name": "Sanctus bio-dagger",
+            "min": 0,
+            "max": 99
+          },
+          {
+            "id": "7d45-4735-62d9-9c89",
+            "name": "Cult sniper rifle and close combat weapon",
+            "min": 0,
+            "max": 99,
+            "equippedWith": "Cult sniper rifle and Close combat weapon"
+          }
+        ],
+        "defaultOptionId": "567e-ca3e-365e-4c6a"
+      }
+    ]
+  },
+  "908a-9fd8-2270-8dbd": {
+    "groups": [
+      {
+        "id": "d742-1992-2bcb-4b20",
+        "name": "Wargear",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "d282-ee28-a542-c15d",
+            "name": "Psionic cascade",
+            "min": 1,
+            "max": 1
+          },
+          {
+            "id": "6bc6-e128-1815-8212",
+            "name": "Close combat weapon",
+            "min": 1,
+            "max": 1
+          }
+        ]
+      }
+    ]
+  }
+}

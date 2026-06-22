@@ -1,0 +1,577 @@
+{
+  "e85b-17c7-1ad9-8375": {
+    "groups": [
+      {
+        "id": "9946-824b-f220-11be",
+        "name": "Wargear",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "e5b0-1627-ba3b-841e",
+            "name": "Enormous claws",
+            "min": 1,
+            "max": 1
+          }
+        ]
+      }
+    ]
+  },
+  "5b1d-134a-9996-b634": {
+    "groups": [
+      {
+        "id": "8b0c-3772-861a-a7cd",
+        "name": "Quad-gun",
+        "min": 1,
+        "max": 1,
+        "mode": "single",
+        "options": [
+          {
+            "id": "870c-dae1-65e2-9cee",
+            "name": "Quad-gun",
+            "min": 0,
+            "max": 99
+          },
+          {
+            "id": "352e-36c6-3ae5-ead0",
+            "name": "Icarus lascannon",
+            "min": 0,
+            "max": 99
+          }
+        ],
+        "defaultOptionId": "870c-dae1-65e2-9cee"
+      }
+    ]
+  },
+  "5134-5fe9-e489-43c4": {
+    "groups": [
+      {
+        "id": "14be-d879-c755-3d93",
+        "name": "Weapons Array",
+        "min": 0,
+        "max": 1,
+        "mode": "single",
+        "options": [
+          {
+            "id": "866d-5d02-6bbe-81c",
+            "name": "Comms antenna",
+            "min": 0,
+            "max": 99
+          },
+          {
+            "id": "db5a-f3-5b74-3acb",
+            "name": "Icarus lascannon",
+            "min": 0,
+            "max": 99
+          },
+          {
+            "id": "3cba-8def-5bb4-bb6d",
+            "name": "Quad-gun",
+            "min": 0,
+            "max": 99
+          }
+        ]
+      }
+    ]
+  },
+  "71b0-77b9-522c-17d6": {
+    "groups": [
+      {
+        "id": "b2f0-fef3-2b51-8edc",
+        "name": "Weapons Array",
+        "min": 0,
+        "max": 1,
+        "mode": "single",
+        "options": [
+          {
+            "id": "9710-3051-3a09-af77",
+            "name": "Comms antenna",
+            "min": 0,
+            "max": 99
+          },
+          {
+            "id": "c049-f816-4822-920c",
+            "name": "Icarus lascannon",
+            "min": 0,
+            "max": 99
+          },
+          {
+            "id": "efa1-186c-7f51-6ae0",
+            "name": "Quad-gun",
+            "min": 0,
+            "max": 99
+          }
+        ]
+      },
+      {
+        "id": "9df9-6944-3f63-2226",
+        "name": "Turrets",
+        "min": 2,
+        "max": 2,
+        "mode": "count",
+        "options": [
+          {
+            "id": "d6aa-a1ef-3d1c-54",
+            "name": "Battle cannon",
+            "min": 0,
+            "max": 2
+          },
+          {
+            "id": "5f73-2391-368b-6c4a",
+            "name": "Punisher gatling cannon",
+            "min": 0,
+            "max": 2
+          },
+          {
+            "id": "4d19-a2f6-5d6e-e53f",
+            "name": "Quad lascannon",
+            "min": 0,
+            "max": 2
+          }
+        ],
+        "defaultOptionId": "4d19-a2f6-5d6e-e53f"
+      }
+    ]
+  },
+  "c4d1-c85a-a20e-6c94": {
+    "groups": [
+      {
+        "id": "5938-6c95-7f7c-b06b",
+        "name": "Heavy Bolters",
+        "min": 0,
+        "max": 4,
+        "mode": "count",
+        "options": [
+          {
+            "id": "935a-dccc-f5df-c4f4",
+            "name": "Heavy bolter",
+            "min": 0,
+            "max": 4
+          }
+        ]
+      }
+    ]
+  },
+  "e3ba-7f87-c32-229": {
+    "groups": [
+      {
+        "id": "58fa-ec3e-e1a3-4ba8",
+        "name": "Wargear",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "1ab6-25ac-947b-bf5f",
+            "name": "Destroyer pulse",
+            "min": 1,
+            "max": 1
+          },
+          {
+            "id": "3200-448d-b069-ce9b",
+            "name": "Guardian salvo launchers",
+            "min": 1,
+            "max": 1
+          },
+          {
+            "id": "7291-ec92-1fd4-75ad",
+            "name": "Manipulator limbs",
+            "min": 1,
+            "max": 1
+          }
+        ]
+      }
+    ]
+  },
+  "3b75-e314-ecd5-cd63": {
+    "groups": [
+      {
+        "id": "98fc-7c38-f820-e866",
+        "name": "Heavy Bolters",
+        "min": 0,
+        "max": 4,
+        "mode": "count",
+        "options": [
+          {
+            "id": "f352-dcc9-8686-ae27",
+            "name": "Heavy bolter",
+            "min": 0,
+            "max": 4
+          }
+        ]
+      }
+    ]
+  },
+  "f39-fc54-f95a-8395": {
+    "groups": [
+      {
+        "id": "bca0-9eff-5e78-5f16",
+        "name": "Seconday Weapon",
+        "min": 0,
+        "max": 1,
+        "mode": "single",
+        "options": [
+          {
+            "id": "2b2d-2d80-c99a-50bc",
+            "name": "Primaris air defence missiles",
+            "min": 0,
+            "max": 99
+          },
+          {
+            "id": "82f9-177b-779e-7780",
+            "name": "Primaris Icarus lascannon",
+            "min": 0,
+            "max": 99
+          },
+          {
+            "id": "663c-1233-84a9-8909",
+            "name": "Primaris Icarus quad lascannon",
+            "min": 0,
+            "max": 99
+          },
+          {
+            "id": "6f21-792e-17c6-c9dc",
+            "name": "Primaris quad-gun",
+            "min": 0,
+            "max": 99
+          },
+          {
+            "id": "2cde-a0ef-d7e0-53b3",
+            "name": "Primaris castellan launcher",
+            "min": 0,
+            "max": 99
+          },
+          {
+            "id": "e500-1c20-8d3d-e4c5",
+            "name": "Primaris vengeance launcher",
+            "min": 0,
+            "max": 99
+          },
+          {
+            "id": "6624-49e6-ab77-33a4",
+            "name": "Battle cannon",
+            "min": 0,
+            "max": 99
+          },
+          {
+            "id": "f5-b408-3074-48e9",
+            "name": "Multi-melta",
+            "min": 0,
+            "max": 99
+          },
+          {
+            "id": "16e2-abe1-a564-a8f5",
+            "name": "Twin lascannon",
+            "min": 0,
+            "max": 99
+          },
+          {
+            "id": "8cec-fe90-d8a2-be83",
+            "name": "Twin heavy bolter",
+            "min": 0,
+            "max": 99
+          },
+          {
+            "id": "7a6f-b9c4-89ce-bdd9",
+            "name": "Twin heavy flamer",
+            "min": 0,
+            "max": 99
+          }
+        ]
+      }
+    ]
+  },
+  "da76-e18f-523e-d45a": {
+    "groups": [
+      {
+        "id": "a050-08fd-451c-4f2a",
+        "name": "Spindle Drones",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "e32d-ae0a-732f-5864",
+            "name": "Spindle Drone",
+            "min": 4,
+            "max": 4
+          }
+        ]
+      }
+    ]
+  },
+  "14fe-18ed-9c25-189c": {
+    "groups": [
+      {
+        "id": "e0ba-5bb3-c836-c3aa",
+        "name": "Turret",
+        "min": 1,
+        "max": 1,
+        "mode": "single",
+        "options": [
+          {
+            "id": "8be9-d977-344a-ba5b",
+            "name": "Battle cannon",
+            "min": 0,
+            "max": 2
+          },
+          {
+            "id": "2a22-a567-eadd-b4c5",
+            "name": "Punisher gatling cannon",
+            "min": 0,
+            "max": 2
+          },
+          {
+            "id": "90e2-6517-c725-8535",
+            "name": "Quad lascannon",
+            "min": 0,
+            "max": 2
+          }
+        ],
+        "defaultOptionId": "8be9-d977-344a-ba5b"
+      }
+    ]
+  },
+  "5c81-92c5-e20b-edf1": {
+    "groups": [
+      {
+        "id": "a0e2-81d6-964c-e834",
+        "name": "Heavy Bolters",
+        "min": 0,
+        "max": 4,
+        "mode": "count",
+        "options": [
+          {
+            "id": "115e-7da-5d2d-2c4e",
+            "name": "Heavy bolter",
+            "min": 0,
+            "max": 4
+          }
+        ]
+      }
+    ]
+  },
+  "9698-2e0-15ac-1193": {
+    "groups": [
+      {
+        "id": "44b8-6fae-e8ac-c347",
+        "name": "Weapons Array",
+        "min": 0,
+        "max": 1,
+        "mode": "single",
+        "options": [
+          {
+            "id": "e8ef-45f3-f3c2-5c99",
+            "name": "Comms antenna",
+            "min": 0,
+            "max": 99
+          },
+          {
+            "id": "1999-209e-c01e-b74d",
+            "name": "Icarus lascannon",
+            "min": 0,
+            "max": 99
+          },
+          {
+            "id": "f7aa-cc26-fbca-79c2",
+            "name": "Quad-gun",
+            "min": 0,
+            "max": 99
+          }
+        ]
+      }
+    ]
+  },
+  "f6f8-8759-3282-2ab": {
+    "groups": [
+      {
+        "id": "65b8-ef30-87fb-c746",
+        "name": "Twin Heavy Bolters",
+        "min": 2,
+        "max": 2,
+        "mode": "count",
+        "options": [
+          {
+            "id": "76e0-53b6-1a88-dee4",
+            "name": "Twin heavy bolter",
+            "min": 0,
+            "max": 2
+          },
+          {
+            "id": "68c3-73a2-6636-e4f3",
+            "name": "Twin lascannon",
+            "min": 0,
+            "max": 2
+          }
+        ],
+        "defaultOptionId": "76e0-53b6-1a88-dee4"
+      },
+      {
+        "id": "8ad5-d201-b2aa-cdc6",
+        "name": "Tower Sections",
+        "min": 0,
+        "max": 2,
+        "mode": "count",
+        "options": [
+          {
+            "id": "dc-6d6f-6e75-994b",
+            "name": "Twin lascannon",
+            "min": 0,
+            "max": 2
+          },
+          {
+            "id": "8c01-8811-e567-fda8",
+            "name": "Twin heavy bolter",
+            "min": 0,
+            "max": 2
+          }
+        ]
+      }
+    ]
+  },
+  "20c8-d2-586d-623": {
+    "groups": [
+      {
+        "id": "63b4-a4b0-6cb-8f4d",
+        "name": "Main Turrets",
+        "min": 0,
+        "max": 2,
+        "mode": "count",
+        "options": [
+          {
+            "id": "9c9d-e47b-7f4-92cf",
+            "name": "Castellum battle cannon",
+            "min": 0,
+            "max": 1
+          },
+          {
+            "id": "74fa-24db-eb7d-f115",
+            "name": "Whirlwind castellan launcher",
+            "min": 0,
+            "max": 1
+          },
+          {
+            "id": "e26a-8cf8-9d1d-7917",
+            "name": "Castellum Icarus quad lascannon",
+            "min": 0,
+            "max": 1
+          },
+          {
+            "id": "864a-83b4-8ba-8e8c",
+            "name": "Multi-melta",
+            "min": 0,
+            "max": 1
+          },
+          {
+            "id": "d376-dc4b-215-941",
+            "name": "Twin lascannon",
+            "min": 0,
+            "max": 1
+          },
+          {
+            "id": "7487-e709-816d-7188",
+            "name": "Comms antenna",
+            "min": 0,
+            "max": 1
+          },
+          {
+            "id": "f37e-5b13-3834-71b5",
+            "name": "Twin heavy flamer",
+            "min": 0,
+            "max": 1
+          },
+          {
+            "id": "c93b-fcc4-aa3b-f61f",
+            "name": "Twin heavy bolter",
+            "min": 0,
+            "max": 1
+          },
+          {
+            "id": "88e2-7b4-38a2-7d99",
+            "name": "Castellum air defence missiles",
+            "min": 0,
+            "max": 1
+          },
+          {
+            "id": "9482-dff5-c004-9a94",
+            "name": "Twin assault cannon",
+            "min": 0,
+            "max": 1
+          }
+        ]
+      },
+      {
+        "id": "b2a1-cd28-8aaf-f0c",
+        "name": "Secondary Turrets",
+        "min": 0,
+        "max": 3,
+        "mode": "count",
+        "options": [
+          {
+            "id": "8b69-a121-1e49-1595",
+            "name": "Castellum air defence missiles",
+            "min": 0,
+            "max": 1
+          },
+          {
+            "id": "362c-23d2-f49e-1599",
+            "name": "Twin lascannon",
+            "min": 0,
+            "max": 1
+          },
+          {
+            "id": "53de-5129-8401-4af6",
+            "name": "Twin heavy flamer",
+            "min": 0,
+            "max": 1
+          },
+          {
+            "id": "c8ac-946d-32ef-f91a",
+            "name": "Twin heavy bolter",
+            "min": 0,
+            "max": 1
+          },
+          {
+            "id": "bce4-c726-9961-bbe7",
+            "name": "Multi-melta",
+            "min": 0,
+            "max": 1
+          },
+          {
+            "id": "25a-bbfe-8c02-b52d",
+            "name": "Twin assault cannon",
+            "min": 0,
+            "max": 1
+          }
+        ]
+      }
+    ]
+  },
+  "a5c2-3951-e727-b64a": {
+    "groups": [
+      {
+        "id": "8ba1-e792-2c9e-32d4",
+        "name": "Wargear Options",
+        "min": 1,
+        "max": 1,
+        "mode": "single",
+        "options": [
+          {
+            "id": "6062-127b-9efd-90c1",
+            "name": "Bomb Kit",
+            "min": 0,
+            "max": 99
+          },
+          {
+            "id": "f9fb-6fda-429e-91f2",
+            "name": "Cutting blade and cutting gear",
+            "min": 0,
+            "max": 99
+          }
+        ],
+        "defaultOptionId": "f9fb-6fda-429e-91f2"
+      }
+    ]
+  }
+}

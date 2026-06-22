@@ -1,0 +1,825 @@
+{
+  "5bbd-c5d3-58d7-e391": {
+    "groups": [
+      {
+        "id": "f385-ed99-7337-140a",
+        "name": "Wargear",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "f120-b686-d22f-e700",
+            "name": "Reaper chain-cleaver",
+            "min": 1,
+            "max": 1
+          },
+          {
+            "id": "b2b4-a523-8dc5-ca7c",
+            "name": "Thermal spear",
+            "min": 1,
+            "max": 1
+          }
+        ]
+      }
+    ]
+  },
+  "7314-3c4a-36ab-a594": {
+    "groups": [
+      {
+        "id": "d481-1806-2a6e-bbcb",
+        "name": "Wargear",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "d0c7-36d4-2d50-f975",
+            "name": "Armiger autocannon",
+            "min": 2,
+            "max": 2
+          },
+          {
+            "id": "cd91-d85d-6aef-dcae",
+            "name": "Armoured feet",
+            "min": 1,
+            "max": 1
+          }
+        ]
+      }
+    ]
+  },
+  "8441-8356-5e7c-69ee": {
+    "groups": [
+      {
+        "id": "f6b3-c1e3-d5db-633c",
+        "name": "Wargear",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "93c3-d64f-2d6e-ea",
+            "name": "Questoris heavy stubber",
+            "min": 1,
+            "max": 1
+          },
+          {
+            "id": "55c3-c331-7871-b89c",
+            "name": "Rapid-fire battle cannon",
+            "min": 1,
+            "max": 1
+          }
+        ]
+      }
+    ]
+  },
+  "9efd-ec72-353f-4b23": {
+    "groups": [
+      {
+        "id": "d135-a87e-794b-2bb3",
+        "name": "Wargear",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "9b08-a22c-9f1e-5afa",
+            "name": "Thermal cannon",
+            "min": 1,
+            "max": 1
+          }
+        ]
+      }
+    ]
+  },
+  "eb4-4a67-11e9-3cb8": {
+    "groups": [
+      {
+        "id": "b47c-205e-38ec-c89d",
+        "name": "Wargear",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "528-89bb-c0a5-99e7",
+            "name": "Reaper chainsword",
+            "min": 1,
+            "max": 1
+          },
+          {
+            "id": "78c6-6f21-6c74-ebc6",
+            "name": "Thunderstrike gauntlet",
+            "min": 1,
+            "max": 1
+          }
+        ]
+      }
+    ]
+  },
+  "c609-c87e-f9dd-5006": {
+    "groups": [
+      {
+        "id": "1d56-427b-7981-9723",
+        "name": "Wargear",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "5f75-3961-3d75-bc36",
+            "name": "Avenger gatling cannon",
+            "min": 1,
+            "max": 1
+          },
+          {
+            "id": "8ee9-1713-3809-32b7",
+            "name": "Heavy flamer",
+            "min": 1,
+            "max": 1
+          }
+        ]
+      }
+    ]
+  },
+  "1e27-a6de-3840-a050": {
+    "groups": [
+      {
+        "id": "8282-f19b-cc15-9fcd",
+        "name": "Wargear",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "2b0-2a2-db03-357f",
+            "name": "Avenger gatling cannon",
+            "min": 1,
+            "max": 1
+          },
+          {
+            "id": "308b-3-572e-1161",
+            "name": "Heavy flamer",
+            "min": 1,
+            "max": 1
+          },
+          {
+            "id": "4ea0-a462-d2cd-023d",
+            "name": "Titanic feet",
+            "min": 1,
+            "max": 1
+          }
+        ],
+        "groups": [
+          {
+            "id": "2cc0-66f6-9d7a-65b",
+            "name": "Thermal Cannon",
+            "min": 1,
+            "max": 1,
+            "mode": "single",
+            "options": [
+              {
+                "id": "a05e-db63-84ad-4c5e",
+                "name": "Rapid-fire battlecannon and Questoris heavy stubber",
+                "min": 0,
+                "max": 99,
+                "equippedWith": "Questoris heavy stubber and Rapid-fire battle cannon"
+              },
+              {
+                "id": "ef24-c94e-d430-2af",
+                "name": "Thermal cannon",
+                "min": 0,
+                "max": 99
+              }
+            ],
+            "defaultOptionId": "ef24-c94e-d430-2af"
+          }
+        ]
+      }
+    ]
+  },
+  "ebd9-7175-3f0c-72a9": {
+    "groups": [
+      {
+        "id": "15a7-ea20-568f-d8e9",
+        "name": "Wargear",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "e1a0-435d-be85-5e07",
+            "name": "Las-impulsor",
+            "min": 1,
+            "max": 1
+          }
+        ],
+        "groups": [
+          {
+            "id": "92b7-8ed0-4ace-508a",
+            "name": "Preceptor Multi-laser",
+            "min": 1,
+            "max": 1,
+            "mode": "single",
+            "options": [
+              {
+                "id": "8104-457c-9ad5-b1ce",
+                "name": "Preceptor multi-laser",
+                "min": 0,
+                "max": 99
+              },
+              {
+                "id": "d75a-1551-9941-5e64",
+                "name": "Questoris heavy stubber",
+                "min": 0,
+                "max": 99
+              },
+              {
+                "id": "6ee4-af24-db67-b279",
+                "name": "Meltagun",
+                "min": 0,
+                "max": 99
+              }
+            ],
+            "defaultOptionId": "8104-457c-9ad5-b1ce"
+          }
+        ]
+      }
+    ]
+  },
+  "6e36-f85-1c3b-8bf3": {
+    "groups": [
+      {
+        "id": "be21-7bd6-270a-2986",
+        "name": "Wargear",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "18d7-565e-a1b7-4040",
+            "name": "Plasma decimator",
+            "min": 1,
+            "max": 1
+          },
+          {
+            "id": "4a7e-57b0-1b1a-b226",
+            "name": "Volcano lance",
+            "min": 1,
+            "max": 1
+          },
+          {
+            "id": "3742-70f7-6207-8820",
+            "name": "Titanic feet",
+            "min": 1,
+            "max": 1
+          },
+          {
+            "id": "5e47-8699-72dc-b352",
+            "name": "Twin meltagun",
+            "min": 2,
+            "max": 2
+          }
+        ]
+      }
+    ]
+  },
+  "8fb9-50b2-adc6-161a": {
+    "groups": [
+      {
+        "id": "e16f-cf11-5348-c413",
+        "name": "Wargear",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "be5c-af2b-86d3-da18",
+            "name": "Conflagration cannon",
+            "min": 1,
+            "max": 1
+          },
+          {
+            "id": "9a45-74ba-e166-9692",
+            "name": "Thundercoil harpoon",
+            "min": 1,
+            "max": 1
+          },
+          {
+            "id": "8704-b1cd-ac55-3a8",
+            "name": "Titanic feet",
+            "min": 1,
+            "max": 1
+          },
+          {
+            "id": "a21f-6701-aa11-b2e5",
+            "name": "Twin meltagun",
+            "min": 2,
+            "max": 2
+          }
+        ]
+      }
+    ]
+  },
+  "f8d0-fdf2-2e5e-3b74": {
+    "groups": [
+      {
+        "id": "ae22-428f-72e0-c023",
+        "name": "Wargear",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "4287-98aa-9723-71c5",
+            "name": "Twin conversion beam cannon",
+            "min": 2,
+            "max": 2
+          },
+          {
+            "id": "3104-b624-a035-82f5",
+            "name": "Asterius volkite culverin",
+            "min": 2,
+            "max": 2
+          },
+          {
+            "id": "6a9c-1e8b-698b-5640",
+            "name": "Karacnos mortar battery",
+            "min": 1,
+            "max": 1
+          },
+          {
+            "id": "a1d8-0ae3-603a-8c5c",
+            "name": "Titanic feet",
+            "min": 1,
+            "max": 1
+          }
+        ]
+      }
+    ]
+  },
+  "61c9-8baf-22b4-5d84": {
+    "groups": [
+      {
+        "id": "27a6-c33d-73bf-a9c1",
+        "name": "Wargear",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "1d9a-57f1-78bd-f342",
+            "name": "Twin magna lascannon",
+            "min": 2,
+            "max": 2
+          },
+          {
+            "id": "1a95-7824-0e6f-4e13",
+            "name": "Titanic feet",
+            "min": 1,
+            "max": 1
+          }
+        ],
+        "groups": [
+          {
+            "id": "4d7f-db31-7a3a-3907",
+            "name": "Acastus Autocannons",
+            "min": 1,
+            "max": 1,
+            "mode": "single",
+            "options": [
+              {
+                "id": "5621-3b42-f51b-e40c",
+                "name": "2 Acastus autocannons",
+                "min": 0,
+                "max": 99
+              },
+              {
+                "id": "62d8-6634-9940-a56a",
+                "name": "1 Acastus autocannon and 1 lascannon",
+                "min": 0,
+                "max": 99
+              },
+              {
+                "id": "84b4-a59b-3e71-6a0f",
+                "name": "2 Lascannons",
+                "min": 0,
+                "max": 99
+              }
+            ],
+            "defaultOptionId": "5621-3b42-f51b-e40c"
+          },
+          {
+            "id": "2d57-7258-76bf-5aa0",
+            "name": "Acastus Ironstorm Missile Pod",
+            "min": 1,
+            "max": 1,
+            "mode": "single",
+            "options": [
+              {
+                "id": "845c-f07d-7d-b5f9",
+                "name": "Acastus ironstorm missile pod",
+                "min": 0,
+                "max": 99
+              },
+              {
+                "id": "f5b1-c36e-4936-862f",
+                "name": "Helios defence missiles",
+                "min": 0,
+                "max": 99
+              }
+            ],
+            "defaultOptionId": "845c-f07d-7d-b5f9"
+          }
+        ]
+      }
+    ]
+  },
+  "9ee-e289-bc6c-d943": {
+    "groups": [
+      {
+        "id": "06f6-593b-da31-c245",
+        "name": "Wargear",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "58f8-dd4e-bb8f-f357",
+            "name": "Cerastus shock lance",
+            "min": 1,
+            "max": 1
+          }
+        ]
+      }
+    ]
+  },
+  "1654-5c17-474e-2d84": {
+    "groups": [
+      {
+        "id": "7c69-3191-a6cd-991f",
+        "name": "Wargear",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "ae5a-5dc6-9a19-d40",
+            "name": "Castigator bolt cannon",
+            "min": 1,
+            "max": 1
+          },
+          {
+            "id": "c4b7-de58-e772-4156",
+            "name": "Tempest warblade",
+            "min": 1,
+            "max": 1
+          }
+        ]
+      }
+    ]
+  },
+  "11d3-167b-6dff-a4c2": {
+    "groups": [
+      {
+        "id": "677e-430a-8715-57ac",
+        "name": "Wargear",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "e2aa-5218-7371-8066",
+            "name": "Twin heavy bolter",
+            "min": 1,
+            "max": 1
+          },
+          {
+            "id": "c7a9-11d4-625d-2787",
+            "name": "Acheron flame cannon",
+            "min": 1,
+            "max": 1
+          },
+          {
+            "id": "1bbe-fc7c-926e-4181",
+            "name": "Reaper chainfist",
+            "min": 1,
+            "max": 1
+          }
+        ]
+      }
+    ]
+  },
+  "37a7-d156-1e4c-8fe1": {
+    "groups": [
+      {
+        "id": "edbf-1c79-2b7f-f834",
+        "name": "Wargear",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "73e9-498e-2d97-e18",
+            "name": "Atrapos lascutter",
+            "min": 1,
+            "max": 1
+          },
+          {
+            "id": "406-60ac-f728-9c6d",
+            "name": "Graviton singularity cannon",
+            "min": 1,
+            "max": 1
+          }
+        ]
+      }
+    ]
+  },
+  "adfa-19fc-7337-7350": {
+    "groups": [
+      {
+        "id": "d619-677b-ec45-00c0",
+        "name": "Wargear",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "6da8-51ad-1ce1-cd25",
+            "name": "Phased plasma-fusil",
+            "min": 1,
+            "max": 1
+          },
+          {
+            "id": "2708-f76a-56f1-f55e",
+            "name": "Lightning cannon",
+            "min": 1,
+            "max": 1
+          }
+        ],
+        "groups": [
+          {
+            "id": "9787-a8f1-fe3a-24cc",
+            "name": "Reaper Chainsword",
+            "min": 1,
+            "max": 1,
+            "mode": "single",
+            "options": [
+              {
+                "id": "2d0b-90-d794-14fd",
+                "name": "Hekaton siege claw and twin rad cleanser",
+                "min": 0,
+                "max": 99,
+                "equippedWith": "Hekaton siege claw and Twin rad cleanser"
+              },
+              {
+                "id": "e23f-57fa-44c2-b8a4",
+                "name": "Reaper chainsword",
+                "min": 0,
+                "max": 99
+              }
+            ],
+            "defaultOptionId": "e23f-57fa-44c2-b8a4"
+          }
+        ]
+      }
+    ]
+  },
+  "f8f3-a438-1212-93e8": {
+    "groups": [
+      {
+        "id": "356a-e3f4-1a31-8237",
+        "name": "Wargear",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "1f25-f0ec-aeea-b440",
+            "name": "Graviton crusher",
+            "min": 1,
+            "max": 1
+          },
+          {
+            "id": "b689-ef77-3687-fa10",
+            "name": "Volkite chierovile",
+            "min": 1,
+            "max": 1
+          }
+        ],
+        "groups": [
+          {
+            "id": "fa9d-d89d-a99e-e1e6",
+            "name": "Reaper Chainsword",
+            "min": 1,
+            "max": 1,
+            "mode": "single",
+            "options": [
+              {
+                "id": "67e7-c45-689b-9c8",
+                "name": "Hekaton siege claw and twin rad cleanser",
+                "min": 0,
+                "max": 99,
+                "equippedWith": "Hekaton siege claw and Twin rad cleanser"
+              },
+              {
+                "id": "15b5-39f2-c392-d599",
+                "name": "Reaper chainsword",
+                "min": 0,
+                "max": 99
+              }
+            ],
+            "defaultOptionId": "15b5-39f2-c392-d599"
+          }
+        ]
+      }
+    ]
+  },
+  "e3dd-7e90-140a-b3ab": {
+    "groups": [
+      {
+        "id": "408d-111e-6929-a352",
+        "name": "Wargear",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "583d-a2ff-3824-d186",
+            "name": "Armoured feet",
+            "min": 1,
+            "max": 1
+          }
+        ],
+        "groups": [
+          {
+            "id": "ae03-c1d6-edf4-574f",
+            "name": "Wargear",
+            "min": 2,
+            "max": 2,
+            "mode": "count",
+            "options": [
+              {
+                "id": "d21e-d3c2-dfff-ec6d",
+                "name": "Volkite veuglaire",
+                "min": 1,
+                "max": 2
+              },
+              {
+                "id": "6496-9e76-13ee-bec8",
+                "name": "Graviton pulsar",
+                "min": 1,
+                "max": 2
+              },
+              {
+                "id": "b7c9-95ee-4488-9de8",
+                "name": "Lightning lock",
+                "min": 0,
+                "max": 2
+              },
+              {
+                "id": "30be-cbba-e2ec-ceeb",
+                "name": "Conversion beam cannon",
+                "min": 0,
+                "max": 2
+              },
+              {
+                "id": "caa0-3ec6-7d48-139",
+                "name": "Siege claw and rad cleanser",
+                "min": 0,
+                "max": 2
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "f12b-ca2a-9c87-79bb": {
+    "groups": [
+      {
+        "id": "7d46-5eec-4351-3f41",
+        "name": "Wargear",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "dbc9-8e4f-edf0-f9d6",
+            "name": "Twin incendine combustor",
+            "min": 1,
+            "max": 1
+          },
+          {
+            "id": "d956-a7af-5c96-2577",
+            "name": "Conversion beam obliterator",
+            "min": 1,
+            "max": 1
+          },
+          {
+            "id": "615e-5655-130f-d14a",
+            "name": "Plasma executor",
+            "min": 1,
+            "max": 1
+          },
+          {
+            "id": "6bdb-2665-95ec-fcde",
+            "name": "Phosphor blaster",
+            "min": 1,
+            "max": 1
+          },
+          {
+            "id": "48df-2ba4-7346-8414",
+            "name": "Titanic feet",
+            "min": 1,
+            "max": 1
+          }
+        ]
+      }
+    ]
+  },
+  "10d8-d702-f556-5d3c": {
+    "groups": [
+      {
+        "id": "83e1-b1c0-cf0c-3751",
+        "name": "Wargear",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "646c-5f7f-cd1c-d5c9",
+            "name": "Questoris heavy stubber",
+            "min": 1,
+            "max": 1
+          },
+          {
+            "id": "c62a-bc9c-37fb-2b36",
+            "name": "Titanic feet",
+            "min": 1,
+            "max": 1
+          }
+        ],
+        "groups": [
+          {
+            "id": "3f2e-1b6b-0948-5173",
+            "name": "Chastiser Gatling Cannon",
+            "min": 1,
+            "max": 1,
+            "mode": "single",
+            "options": [
+              {
+                "id": "3ded-7df8-ef3e-913a",
+                "name": "Chastiser gatling cannon",
+                "min": 0,
+                "max": 99
+              },
+              {
+                "id": "0ad5-761a-ba40-0625",
+                "name": "Bellatus reaper chainsword",
+                "min": 0,
+                "max": 99
+              },
+              {
+                "id": "3c70-609a-f8c9-6d8b",
+                "name": "Thundershock spear",
+                "min": 0,
+                "max": 99
+              }
+            ],
+            "defaultOptionId": "3ded-7df8-ef3e-913a"
+          },
+          {
+            "id": "b315-bf77-9da2-51c0",
+            "name": "Frag Bombard",
+            "min": 1,
+            "max": 1,
+            "mode": "single",
+            "options": [
+              {
+                "id": "fc2d-063a-a9fa-968f",
+                "name": "Frag bombard",
+                "min": 0,
+                "max": 99
+              },
+              {
+                "id": "ff27-c795-2265-a6e1",
+                "name": "Thundershock spear",
+                "min": 0,
+                "max": 99
+              },
+              {
+                "id": "9127-31f8-2c8b-9f82",
+                "name": "Bellatus reaper chainsword",
+                "min": 0,
+                "max": 99
+              }
+            ],
+            "defaultOptionId": "fc2d-063a-a9fa-968f"
+          }
+        ]
+      }
+    ]
+  }
+}

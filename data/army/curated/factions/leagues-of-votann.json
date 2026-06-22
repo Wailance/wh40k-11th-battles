@@ -6,7 +6,7 @@
     {
       "id": "2e6e-95a1-60ad-7b1c",
       "name": "Ûthar the Destined",
-      "points": 95,
+      "points": 90,
       "keywords": [
         "Infantry",
         "Character",
@@ -72,6 +72,24 @@
           "name": "Rampart crest",
           "description": "While the bearer is leading a unit, models in that unit have a 5+ invulnerable save."
         }
+      ],
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 90
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "90",
+      "mfmRole": "leader",
+      "attachTo": [
+        "Einhyr Hearthguard",
+        "Hearthkyn Warriors"
       ]
     },
     {
@@ -185,7 +203,20 @@
           "name": "Weavefield crest",
           "description": "Models in the bearer's unit have a 5+ invulnerable save."
         }
-      ]
+      ],
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 10,
+              "points": 100
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "100"
     },
     {
       "id": "1b00-2abb-718f-def6",
@@ -337,12 +368,30 @@
           "name": "Asset Manipulator",
           "description": "At the start of the Command phase, you can spend 3YP. If you do, until the end of the turn, while an enemy unit is within 3” of the bearer, subtract 1 from the Objective Control characteristic of models in that enemy unit."
         }
+      ],
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 65
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "65",
+      "mfmRole": "leader",
+      "attachTo": [
+        "Einhyr Hearthguard",
+        "Hearthkyn Warriors"
       ]
     },
     {
       "id": "2cc6-e2bf-635f-1260",
       "name": "Einhyr Champion",
-      "points": 70,
+      "points": 65,
       "keywords": [
         "Infantry",
         "Character",
@@ -497,6 +546,23 @@
           "name": "Asset Manipulator",
           "description": "At the start of the Command phase, you can spend 3YP. If you do, until the end of the turn, while an enemy unit is within 3” of the bearer, subtract 1 from the Objective Control characteristic of models in that enemy unit."
         }
+      ],
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 65
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "65",
+      "mfmRole": "leader",
+      "attachTo": [
+        "Einhyr Hearthguard"
       ]
     },
     {
@@ -712,6 +778,23 @@
           "name": "Asset Manipulator",
           "description": "At the start of the Command phase, you can spend 3YP. If you do, until the end of the turn, while an enemy unit is within 3” of the bearer, subtract 1 from the Objective Control characteristic of models in that enemy unit."
         }
+      ],
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 3,
+              "points": 65
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "65",
+      "mfmRole": "leader",
+      "attachTo": [
+        "Hearthkyn Warriors"
       ]
     },
     {
@@ -949,12 +1032,30 @@
           "name": "Asset Manipulator",
           "description": "At the start of the Command phase, you can spend 3YP. If you do, until the end of the turn, while an enemy unit is within 3” of the bearer, subtract 1 from the Objective Control characteristic of models in that enemy unit."
         }
+      ],
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 5,
+              "points": 75
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "75",
+      "mfmRole": "leader",
+      "attachTo": [
+        "Brôkhyr Thunderkyn",
+        "Hearthkyn Warriors"
       ]
     },
     {
       "id": "09d3-6357-7888-00d9",
       "name": "Einhyr Hearthguard",
-      "points": 135,
+      "points": 130,
       "keywords": [
         "Infantry",
         "Exoarmour"
@@ -1056,7 +1157,38 @@
           "name": "Weavefield crest",
           "description": "Models in the bearer's unit have a 5+ invulnerable save."
         }
-      ]
+      ],
+      "pricing": [
+        {
+          "range": "[1,2]",
+          "label": "Your 1st To 2nd Units Cost",
+          "costs": [
+            {
+              "models": 5,
+              "points": 130
+            },
+            {
+              "models": 10,
+              "points": 270
+            }
+          ]
+        },
+        {
+          "range": "[3,)",
+          "label": "Your 3rd + Unit Costs",
+          "costs": [
+            {
+              "models": 5,
+              "points": 140
+            },
+            {
+              "models": 10,
+              "points": 280
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "130/270"
     },
     {
       "id": "415a-e6f6-d17f-d700",
@@ -1116,7 +1248,24 @@
           "name": "Subterranean Explosives",
           "description": "In your Shooting phase, after this unit has shot, select one enemy unit (excluding ^^**Monsters**^^ and ^^**Vehicles^^**) that was hit by one or more of those attacks made with a mole grenade launcher. Until the start of your next Shooting phase, that enemy unit cannot be targeted with the Fire Overwatch Stratagem."
         }
-      ]
+      ],
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 5,
+              "points": 100
+            },
+            {
+              "models": 10,
+              "points": 200
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "100/200"
     },
     {
       "id": "9086-5272-398b-bbce",
@@ -1203,12 +1352,43 @@
           "name": "Rollbar searchlight",
           "description": "Each time a model in the bearer's unit makes a ranged attack, you can ignore any or all modifiers to the Hit roll."
         }
-      ]
+      ],
+      "pricing": [
+        {
+          "range": "[1,2]",
+          "label": "Your 1st To 2nd Units Cost",
+          "costs": [
+            {
+              "models": 3,
+              "points": 80
+            },
+            {
+              "models": 6,
+              "points": 160
+            }
+          ]
+        },
+        {
+          "range": "[3,)",
+          "label": "Your 3rd + Unit Costs",
+          "costs": [
+            {
+              "models": 3,
+              "points": 90
+            },
+            {
+              "models": 6,
+              "points": 170
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "80/160"
     },
     {
       "id": "9655-8367-7467-9e6e",
       "name": "Sagitaur",
-      "points": 90,
+      "points": 85,
       "keywords": [
         "Vehicle",
         "Transport",
@@ -1258,7 +1438,20 @@
           "description": "Units can disembark from this ^^**Transport^^** after it has Advanced. Units that do so count as having made a Normal move that phase, and cannot declare a charge in the same turn, but can otherwise act normally in the remainder of the turn."
         }
       ],
-      "transportCapacity": "This model has a transport capacity of 6 ^^**Leagues of Votann Infantry**^^ models. It cannot transport ^^**Artillery**^^, ^^**Exoarmour**^^, ^^**Exoframe^^** or ^^**Ironkin Steeljack**^^ models.\n\nAt the start of the Declare Battle Formations step, you can select one ^^**Hearthkyn Warriors^^** unit from your army that has not been split. If you do, that unit is split into two units, each containing as equal a number of models as possible (when splitting a unit in this way, make a note of which models form each of the two new units). One of these units must start the battle embarked within this ^^**Transport^^**; the other can start the battle embarked within another ^^**Transport^^**, or it can be deployed as a separate unit."
+      "transportCapacity": "This model has a transport capacity of 6 ^^**Leagues of Votann Infantry**^^ models. It cannot transport ^^**Artillery**^^, ^^**Exoarmour**^^, ^^**Exoframe^^** or ^^**Ironkin Steeljack**^^ models.\n\nAt the start of the Declare Battle Formations step, you can select one ^^**Hearthkyn Warriors^^** unit from your army that has not been split. If you do, that unit is split into two units, each containing as equal a number of models as possible (when splitting a unit in this way, make a note of which models form each of the two new units). One of these units must start the battle embarked within this ^^**Transport^^**; the other can start the battle embarked within another ^^**Transport^^**, or it can be deployed as a separate unit.",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 85
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "85"
     },
     {
       "id": "ea1b-99f6-c398-06b1",
@@ -1338,12 +1531,43 @@
           "name": "Breaching Fire",
           "description": "In your Shooting phase, after this unit has shot, select one enemy unit hit by one or more of those attacks. Until the start of your next Shooting phase, that enemy unit cannot have the Benefit of Cover."
         }
-      ]
+      ],
+      "pricing": [
+        {
+          "range": "[1,2]",
+          "label": "Your 1st To 2nd Units Cost",
+          "costs": [
+            {
+              "models": 3,
+              "points": 80
+            },
+            {
+              "models": 6,
+              "points": 160
+            }
+          ]
+        },
+        {
+          "range": "[3,)",
+          "label": "Your 3rd + Unit Costs",
+          "costs": [
+            {
+              "models": 3,
+              "points": 90
+            },
+            {
+              "models": 6,
+              "points": 170
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "80/160"
     },
     {
       "id": "a110-e538-4e85-159b",
       "name": "Hekaton Land Fortress",
-      "points": 240,
+      "points": 250,
       "keywords": [
         "Vehicle",
         "Transport"
@@ -1396,7 +1620,30 @@
           "description": "While this model has 1-5 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
         }
       ],
-      "transportCapacity": "This model has a transport capacity of 14 ^^**Leagues of Votann Infantry**^^ models. Each **^^Exoarmour, Exoframe**^^ or **^^Ironkin Steeljacks**^^ model takes up the space of 2 models. It cannot transport ^**Artillery**^^ models."
+      "transportCapacity": "This model has a transport capacity of 14 ^^**Leagues of Votann Infantry**^^ models. Each **^^Exoarmour, Exoframe**^^ or **^^Ironkin Steeljacks**^^ model takes up the space of 2 models. It cannot transport ^**Artillery**^^ models.",
+      "pricing": [
+        {
+          "range": "[1,1]",
+          "label": "Your 1st Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 250
+            }
+          ]
+        },
+        {
+          "range": "[2,)",
+          "label": "Your 2nd + Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 265
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "250"
     },
     {
       "id": "5b0b-c18d-1470-44bb",
@@ -1496,7 +1743,20 @@
           "name": "Pragmatic Hunters",
           "description": "Once per turn, when an enemy unit ends a Normal, Advance or Fall Back move within 9\" of this unit, it can make a Normal move of up to D6\"."
         }
-      ]
+      ],
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 10,
+              "points": 90
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "90"
     },
     {
       "id": "b7e1-55fd-9aae-b690",
@@ -1569,7 +1829,20 @@
           "name": "Unhinged Vengeance",
           "description": "In your opponent's Shooting phase, each time an enemy unit has shot, if this model lost one or more wounds as a result of those attacks, this model can make a Vengeance move. To do so, roll one D6 and add 2 to the result: it moves a number of inches up to this result, but it must end that move as close as possible to the closest enemy unit (excluding ^^**Aircraft**^^). When doing so, it can be moved within Engagement Range of that enemy unit. This model cannot make a Vengeance move while it is Battle-shocked or within Engagement Range of one or more enemy units, and can only make one Vengeance move per phase."
         }
-      ]
+      ],
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 95
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "95"
     },
     {
       "id": "7932-6aac-cd01-3181",
@@ -1741,12 +2014,30 @@
           "name": "Asset Manipulator",
           "description": "At the start of the Command phase, you can spend 3YP. If you do, until the end of the turn, while an enemy unit is within 3” of the bearer, subtract 1 from the Objective Control characteristic of models in that enemy unit."
         }
+      ],
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 45
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "45",
+      "mfmRole": "leader",
+      "attachTo": [
+        "Ironkin Steeljacks With Heavy Volkanite Disintegrators",
+        "Ironkin Steeljacks With Melee Weapons"
       ]
     },
     {
       "id": "e5c2-d1a0-b54d-65df",
       "name": "Arkanyst Evaluator",
-      "points": 65,
+      "points": 70,
       "keywords": [
         "Character",
         "Infantry"
@@ -1936,12 +2227,25 @@
           "name": "Asset Manipulator",
           "description": "At the start of the Command phase, you can spend 3YP. If you do, until the end of the turn, while an enemy unit is within 3” of the bearer, subtract 1 from the Objective Control characteristic of models in that enemy unit."
         }
-      ]
+      ],
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 70
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "70"
     },
     {
       "id": "f788-ecf2-9b2e-bc23",
       "name": "Kapricus Defenders",
-      "points": 0,
+      "points": 65,
       "keywords": [
         "Vehicle",
         "Fly",
@@ -1995,7 +2299,24 @@
           "name": "Smoke Launcher",
           "description": "The bearer has the ^^**Smoke**^^ keyword."
         }
-      ]
+      ],
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 65
+            },
+            {
+              "models": 2,
+              "points": 130
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "65/130"
     },
     {
       "id": "cfbc-9eeb-badb-b28c",
@@ -2067,12 +2388,25 @@
           "description": "The bearer has the ^^**Smoke**^^ keyword."
         }
       ],
-      "transportCapacity": "This model has a transport capacity of 5 ^^**Hernkyn Yaegir**^^ models.\n\nAt the start of the Declare Battle Formations step, you can select one ^^**Hernkyn Yaegir^^** unit from your army that has not been split. If you do, that unit is split into two units, each containing as equal a number of models as possible (when splitting a unit in this way, make a note of which models form each of the two new units). One of these units must start the battle embarked within this ^^**Transport^^**; the other can start the battle embarked within another ^^**Transport^^**, or it can be deployed as a separate unit."
+      "transportCapacity": "This model has a transport capacity of 5 ^^**Hernkyn Yaegir**^^ models.\n\nAt the start of the Declare Battle Formations step, you can select one ^^**Hernkyn Yaegir^^** unit from your army that has not been split. If you do, that unit is split into two units, each containing as equal a number of models as possible (when splitting a unit in this way, make a note of which models form each of the two new units). One of these units must start the battle embarked within this ^^**Transport^^**; the other can start the battle embarked within another ^^**Transport^^**, or it can be deployed as a separate unit.",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 75
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "75"
     },
     {
       "id": "1e3f-209d-798f-3a42",
       "name": "Ironkin Steeljacks with Heavy Volkanite Disintegrators",
-      "points": 85,
+      "points": 80,
       "keywords": [
         "Infantry",
         "Ironkin Steeljacks"
@@ -2147,12 +2481,43 @@
           "name": "Preymark crest",
           "description": "Each time a model in the bearer's unit makes an attack that targets an enemy unit within range of one or more objective markers, on a Critical Wound, that attack has the [Precision] ability."
         }
-      ]
+      ],
+      "pricing": [
+        {
+          "range": "[1,2]",
+          "label": "Your 1st To 2nd Units Cost",
+          "costs": [
+            {
+              "models": 3,
+              "points": 80
+            },
+            {
+              "models": 6,
+              "points": 160
+            }
+          ]
+        },
+        {
+          "range": "[3,)",
+          "label": "Your 3rd + Unit Costs",
+          "costs": [
+            {
+              "models": 3,
+              "points": 90
+            },
+            {
+              "models": 6,
+              "points": 170
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "80/160"
     },
     {
       "id": "2add-0a08-fbef-8f5e",
       "name": "Ironkin Steeljacks with Melee Weapons",
-      "points": 85,
+      "points": 80,
       "keywords": [
         "Infantry",
         "Ironkin Steeljacks"
@@ -2217,7 +2582,38 @@
           "name": "Preymark crest",
           "description": "Each time a model in the bearer's unit makes an attack that targets an enemy unit within range of one or more objective markers, on a Critical Wound, that attack has the [Precision] ability."
         }
-      ]
+      ],
+      "pricing": [
+        {
+          "range": "[1,2]",
+          "label": "Your 1st To 2nd Units Cost",
+          "costs": [
+            {
+              "models": 3,
+              "points": 80
+            },
+            {
+              "models": 6,
+              "points": 160
+            }
+          ]
+        },
+        {
+          "range": "[3,)",
+          "label": "Your 3rd + Unit Costs",
+          "costs": [
+            {
+              "models": 3,
+              "points": 90
+            },
+            {
+              "models": 6,
+              "points": 170
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "80/160"
     },
     {
       "id": "595a-cfac-3b40-710d",
@@ -2303,7 +2699,20 @@
           "name": "Destabilising Quakes",
           "description": "In your Shooting phase, after this unit has shot, select one enemy unit hit by one or more of those attacks made with its tremor shells. That unit must take a Battle-shock test, subtracting 1 from the result."
         }
-      ]
+      ],
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 2,
+              "points": 110
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "110"
     },
     {
       "id": "0039-5b91-2e96-0e08",
@@ -3727,6 +4136,23 @@
           "name": "Leader",
           "description": "This model can be attached to the following units: ^^**Cthonian Beserks**^^"
         }
+      ],
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 95
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "95",
+      "mfmRole": "leader",
+      "attachTo": [
+        "Cthonian Beserks"
       ]
     }
   ],

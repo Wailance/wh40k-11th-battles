@@ -41,12 +41,25 @@
           "name": "Deployment",
           "description": "When this model is set up, it will consist of 1 platform section, up to 5 shield sections, up to 2 broken shield sections and up to 2 end sections. All sections must be connected to each other to form a continuous defence line; the 2 broken shield sections can be placed either at the end of the defence line, or in the middle of it such that both are within ½\" of each other (in this case, these 2 sections count as being connected to each other). All of the sections that have been set up are then treated as a single model for all rules purposes."
         }
-      ]
+      ],
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 145
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "145"
     },
     {
       "id": "7e34-20cf-1149-74a1",
       "name": "Armoured Sentinels",
-      "points": 0,
+      "points": 65,
       "keywords": [
         "Imperium",
         "Smoke",
@@ -179,7 +192,24 @@
           "name": "Medallion Resolute",
           "description": "While the unit is within range of an Objective marker that you control, models in this unit have a 5+ invulnerable save."
         }
-      ]
+      ],
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 65
+            },
+            {
+              "models": 2,
+              "points": 120
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "65/120"
     },
     {
       "id": "a6a1-1612-f982-31",
@@ -536,7 +566,30 @@
           "name": "Master Manoeuvrist",
           "description": "**^^Infantry Officer^^** model only. At the end of your opponent’s Fight phase, if the bearer’s unit is not within Engagement Range of one or more enemy units and every model in that unit is within 3\" of an **^^Astra Militarum Transport^^** from your army, it can embark within that **^^Transport^^**."
         }
-      ]
+      ],
+      "pricing": [
+        {
+          "range": "[1,1]",
+          "label": "Your 1st Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 450
+            }
+          ]
+        },
+        {
+          "range": "[2,)",
+          "label": "Your 2nd + Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 470
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "450"
     },
     {
       "id": "d10-48db-3241-ec72",
@@ -864,7 +917,30 @@
           "name": "Master Manoeuvrist",
           "description": "**^^Infantry Officer^^** model only. At the end of your opponent’s Fight phase, if the bearer’s unit is not within Engagement Range of one or more enemy units and every model in that unit is within 3\" of an **^^Astra Militarum Transport^^** from your army, it can embark within that **^^Transport^^**."
         }
-      ]
+      ],
+      "pricing": [
+        {
+          "range": "[1,1]",
+          "label": "Your 1st Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 420
+            }
+          ]
+        },
+        {
+          "range": "[2,)",
+          "label": "Your 2nd + Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 440
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "420"
     },
     {
       "id": "30f5-d90a-9811-d763",
@@ -1188,12 +1264,35 @@
           "name": "Master Manoeuvrist",
           "description": "**^^Infantry Officer^^** model only. At the end of your opponent’s Fight phase, if the bearer’s unit is not within Engagement Range of one or more enemy units and every model in that unit is within 3\" of an **^^Astra Militarum Transport^^** from your army, it can embark within that **^^Transport^^**."
         }
-      ]
+      ],
+      "pricing": [
+        {
+          "range": "[1,1]",
+          "label": "Your 1st Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 450
+            }
+          ]
+        },
+        {
+          "range": "[2,)",
+          "label": "Your 2nd + Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 470
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "450"
     },
     {
       "id": "bf53-4ab3-ff75-9aa0",
       "name": "Basilisk",
-      "points": 140,
+      "points": 115,
       "keywords": [
         "Imperium",
         "Artillery",
@@ -1353,7 +1452,30 @@
           "name": "Medallion Resolute",
           "description": "While the unit is within range of an Objective marker that you control, models in this unit have a 5+ invulnerable save."
         }
-      ]
+      ],
+      "pricing": [
+        {
+          "range": "[1,1]",
+          "label": "Your 1st Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 115
+            }
+          ]
+        },
+        {
+          "range": "[2,)",
+          "label": "Your 2nd + Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 135
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "115"
     },
     {
       "id": "2b49-4d03-aaf5-3532",
@@ -1620,6 +1742,24 @@
           "name": "Medallion Resolute",
           "description": "While the unit is within range of an Objective marker that you control, models in this unit have a 5+ invulnerable save."
         }
+      ],
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 55
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "55",
+      "mfmRole": "leader",
+      "attachTo": [
+        "Cadian Shock Troops",
+        "Kasrkin"
       ]
     },
     {
@@ -2072,6 +2212,23 @@
           "name": "Medallion Resolute",
           "description": "While the unit is within range of an Objective marker that you control, models in this unit have a 5+ invulnerable save."
         }
+      ],
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 5,
+              "points": 65
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "65",
+      "mfmRole": "leader",
+      "attachTo": [
+        "Cadian Shock Troops"
       ]
     },
     {
@@ -2201,7 +2358,20 @@
           "description": "While the unit is within range of an Objective marker that you control, models in this unit have a 5+ invulnerable save."
         }
       ],
-      "transportCapacity": "This model has a transport capacity of 12 **^^Astra Militarum Infantry^^** models. Each **^^Ogryn^^** model takes up the space of 3 models. It cannot transport **^^Artillery^^** models."
+      "transportCapacity": "This model has a transport capacity of 12 **^^Astra Militarum Infantry^^** models. Each **^^Ogryn^^** model takes up the space of 3 models. It cannot transport **^^Artillery^^** models.",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 85
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "85"
     },
     {
       "id": "a979-5b21-dc69-b949",
@@ -2467,12 +2637,35 @@
           "name": "Medallion Resolute",
           "description": "While the unit is within range of an Objective marker that you control, models in this unit have a 5+ invulnerable save."
         }
+      ],
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 30
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "30",
+      "mfmRole": "leader",
+      "attachTo": [
+        "Cadian Shock Troops",
+        "Catachan Jungle Fighters",
+        "Death Korps Grenadier Squad",
+        "Death Korps Of Krieg",
+        "Kasrkin",
+        "Krieg Combat Engineers",
+        "Tempestus Scions"
       ]
     },
     {
       "id": "e19f-b9b8-75d5-8520",
       "name": "Deathstrike",
-      "points": 145,
+      "points": 125,
       "keywords": [
         "Imperium",
         "Smoke",
@@ -2633,7 +2826,30 @@
           "name": "Medallion Resolute",
           "description": "While the unit is within range of an Objective marker that you control, models in this unit have a 5+ invulnerable save."
         }
-      ]
+      ],
+      "pricing": [
+        {
+          "range": "[1,1]",
+          "label": "Your 1st Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 125
+            }
+          ]
+        },
+        {
+          "range": "[2,)",
+          "label": "Your 2nd + Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 135
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "125"
     },
     {
       "id": "8342-57dd-69d3-e698",
@@ -2959,12 +3175,35 @@
           "description": "**^^Infantry Officer^^** model only. At the end of your opponent’s Fight phase, if the bearer’s unit is not within Engagement Range of one or more enemy units and every model in that unit is within 3\" of an **^^Astra Militarum Transport^^** from your army, it can embark within that **^^Transport^^**."
         }
       ],
-      "transportCapacity": "This model has a transport capacity of 26 **^^Astra Militarum Infantry^^** models. Each **^^Ogryn^^** model takes up the space of 3 models. It cannot transport **^^Artillery^^** models."
+      "transportCapacity": "This model has a transport capacity of 26 **^^Astra Militarum Infantry^^** models. Each **^^Ogryn^^** model takes up the space of 3 models. It cannot transport **^^Artillery^^** models.",
+      "pricing": [
+        {
+          "range": "[1,1]",
+          "label": "Your 1st Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 415
+            }
+          ]
+        },
+        {
+          "range": "[2,)",
+          "label": "Your 2nd + Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 435
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "415"
     },
     {
       "id": "653d-80-d715-7d55",
       "name": "Gaunt’s Ghosts",
-      "points": 100,
+      "points": 95,
       "keywords": [
         "Imperium",
         "Epic Hero",
@@ -3106,7 +3345,20 @@
           "name": "Invulnerable Save 5+",
           "description": "Ibram Gaunt has a 5+ Invulnerable Save"
         }
-      ]
+      ],
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 6,
+              "points": 95
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "95"
     },
     {
       "id": "8277-6399-5d74-760d",
@@ -3464,7 +3716,30 @@
           "name": "Master Manoeuvrist",
           "description": "**^^Infantry Officer^^** model only. At the end of your opponent’s Fight phase, if the bearer’s unit is not within Engagement Range of one or more enemy units and every model in that unit is within 3\" of an **^^Astra Militarum Transport^^** from your army, it can embark within that **^^Transport^^**."
         }
-      ]
+      ],
+      "pricing": [
+        {
+          "range": "[1,1]",
+          "label": "Your 1st Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 420
+            }
+          ]
+        },
+        {
+          "range": "[2,)",
+          "label": "Your 2nd + Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 440
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "420"
     },
     {
       "id": "c28b-c3af-38b2-8865",
@@ -3590,12 +3865,35 @@
           "name": "Medallion Resolute",
           "description": "While the unit is within range of an Objective marker that you control, models in this unit have a 5+ invulnerable save."
         }
-      ]
+      ],
+      "pricing": [
+        {
+          "range": "[1,2]",
+          "label": "Your 1st To 2nd Units Cost",
+          "costs": [
+            {
+              "models": 1,
+              "points": 125
+            }
+          ]
+        },
+        {
+          "range": "[3,)",
+          "label": "Your 3rd + Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 135
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "125"
     },
     {
       "id": "4967-19b6-1e2a-a300",
       "name": "Hydra",
-      "points": 95,
+      "points": 90,
       "keywords": [
         "Imperium",
         "Squadron",
@@ -3754,7 +4052,20 @@
           "name": "Medallion Resolute",
           "description": "While the unit is within range of an Objective marker that you control, models in this unit have a 5+ invulnerable save."
         }
-      ]
+      ],
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 90
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "90"
     },
     {
       "id": "913f-3cb6-fb80-7f6a",
@@ -3921,12 +4232,36 @@
           "name": "Supreme Commander",
           "description": "If this model is in your army, it must be your **^^Warlord^^**."
         }
+      ],
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 130
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "130",
+      "mfmRole": "leader",
+      "attachTo": [
+        "Attilan Rough Riders",
+        "Cadian Shock Troops",
+        "Catachan Jungle Fighters",
+        "Death Korps Grenadier Squad",
+        "Death Korps Of Krieg",
+        "Death Riders",
+        "Kasrkin",
+        "Krieg Combat Engineers"
       ]
     },
     {
       "id": "41be-48c9-5476-f47a",
       "name": "Manticore",
-      "points": 165,
+      "points": 150,
       "keywords": [
         "Imperium",
         "Vehicle",
@@ -4087,7 +4422,30 @@
           "name": "Medallion Resolute",
           "description": "While the unit is within range of an Objective marker that you control, models in this unit have a 5+ invulnerable save."
         }
-      ]
+      ],
+      "pricing": [
+        {
+          "range": "[1,1]",
+          "label": "Your 1st Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 150
+            }
+          ]
+        },
+        {
+          "range": "[2,)",
+          "label": "Your 2nd + Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 170
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "150"
     },
     {
       "id": "497-36ad-8ecb-f7c7",
@@ -4497,6 +4855,33 @@
           "name": "Medallion Resolute",
           "description": "While the unit is within range of an Objective marker that you control, models in this unit have a 5+ invulnerable save."
         }
+      ],
+      "pricing": [
+        {
+          "range": "[1,1]",
+          "label": "Your 1st Unit Costs",
+          "costs": [
+            {
+              "models": 5,
+              "points": 85
+            }
+          ]
+        },
+        {
+          "range": "[2,)",
+          "label": "Your 2nd + Unit Costs",
+          "costs": [
+            {
+              "models": 5,
+              "points": 95
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "85",
+      "mfmRole": "leader",
+      "attachTo": [
+        "Tempestus Scions"
       ]
     },
     {
@@ -4560,7 +4945,20 @@
           "name": "Loyal Protector",
           "description": "At the start of the Declare Battle Formations step, this model must join one **^^Command Squad^^** unit from your army (a **^^Command Squad^^** cannot have more than one **^^Loyal Protector^^** model joined to it). This model then counts as part of that **^^Command Squad^^** for the rest of the battle, and its Starting Strength is increased accordingly. If it is not possible to join this model to a **^^Command Squad^^**, it does not take part in the battle and counts as having been destroyed. \n\nWhile this model is joined to a unit, it can embark within any **^^Transport^^** that unit can embark within, and takes up the space of 3 models.\n\nThis model cannot be selected as your **^^Warlord^^**."
         }
-      ]
+      ],
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 60
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "60"
     },
     {
       "id": "a7c2-1534-93b0-c0eb",
@@ -4676,7 +5074,20 @@
           "name": "Medallion Resolute",
           "description": "While the unit is within range of an Objective marker that you control, models in this unit have a 5+ invulnerable save."
         }
-      ]
+      ],
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 40
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "40"
     },
     {
       "id": "4ad0-e988-a513-9530",
@@ -4993,6 +5404,29 @@
           "name": "Medallion Resolute",
           "description": "While the unit is within range of an Objective marker that you control, models in this unit have a 5+ invulnerable save."
         }
+      ],
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 60
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "60",
+      "mfmRole": "leader",
+      "attachTo": [
+        "Cadian Shock Troops",
+        "Catachan Jungle Fighters",
+        "Death Korps Grenadier Squad",
+        "Death Korps Of Krieg",
+        "Kasrkin",
+        "Krieg Combat Engineers",
+        "Tempestus Scions"
       ]
     },
     {
@@ -5448,6 +5882,27 @@
           "name": "Medallion Resolute",
           "description": "While the unit is within range of an Objective marker that you control, models in this unit have a 5+ invulnerable save."
         }
+      ],
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 45
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "45",
+      "mfmRole": "leader",
+      "attachTo": [
+        "Cadian Shock Troops",
+        "Catachan Jungle Fighters",
+        "Death Korps Of Krieg",
+        "Kasrkin",
+        "Krieg Combat Engineers"
       ]
     },
     {
@@ -5574,12 +6029,35 @@
           "name": "Medallion Resolute",
           "description": "While the unit is within range of an Objective marker that you control, models in this unit have a 5+ invulnerable save."
         }
-      ]
+      ],
+      "pricing": [
+        {
+          "range": "[1,1]",
+          "label": "Your 1st Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 260
+            }
+          ]
+        },
+        {
+          "range": "[2,)",
+          "label": "Your 2nd + Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 275
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "260"
     },
     {
       "id": "4424-a6ec-6d9e-a936",
       "name": "Scout Sentinels",
-      "points": 0,
+      "points": 55,
       "keywords": [
         "Imperium",
         "Vehicle",
@@ -5712,7 +6190,24 @@
           "name": "Medallion Resolute",
           "description": "While the unit is within range of an Objective marker that you control, models in this unit have a 5+ invulnerable save."
         }
-      ]
+      ],
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 55
+            },
+            {
+              "models": 2,
+              "points": 100
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "55/100"
     },
     {
       "id": "a8d5-81f9-96a0-fd12",
@@ -6089,7 +6584,30 @@
           "name": "Master Manoeuvrist",
           "description": "**^^Infantry Officer^^** model only. At the end of your opponent’s Fight phase, if the bearer’s unit is not within Engagement Range of one or more enemy units and every model in that unit is within 3\" of an **^^Astra Militarum Transport^^** from your army, it can embark within that **^^Transport^^**."
         }
-      ]
+      ],
+      "pricing": [
+        {
+          "range": "[1,1]",
+          "label": "Your 1st Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 410
+            }
+          ]
+        },
+        {
+          "range": "[2,)",
+          "label": "Your 2nd + Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 430
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "410"
     },
     {
       "id": "4d50-e535-616a-259c",
@@ -6154,7 +6672,20 @@
           "name": "One-man Army",
           "description": "Once per turn, in your opponent's Shooting phase, when an enemy unit makes a ranged attack that targets a friendly **^^Regiment^^** unit within 3\" of this model, after that enemy unit has shot, this model can shoot as if it were your Shooting phase, but it must target only that enemy unit when doing so, and can only do so if that enemy unit is an eligible target."
         }
-      ]
+      ],
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 55
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "55"
     },
     {
       "id": "892b-678c-72e6-ee58",
@@ -6491,7 +7022,30 @@
           "description": "**^^Infantry Officer^^** model only. At the end of your opponent’s Fight phase, if the bearer’s unit is not within Engagement Range of one or more enemy units and every model in that unit is within 3\" of an **^^Astra Militarum Transport^^** from your army, it can embark within that **^^Transport^^**."
         }
       ],
-      "transportCapacity": "This model has a transport capacity of 40 **^^Astra Militarum Infantry^^** models. Each **^^Ogryn^^** model takes up the space of 3 models. It cannot transport **^^Artillery^^** models."
+      "transportCapacity": "This model has a transport capacity of 40 **^^Astra Militarum Infantry^^** models. Each **^^Ogryn^^** model takes up the space of 3 models. It cannot transport **^^Artillery^^** models.",
+      "pricing": [
+        {
+          "range": "[1,1]",
+          "label": "Your 1st Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 430
+            }
+          ]
+        },
+        {
+          "range": "[2,)",
+          "label": "Your 2nd + Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 450
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "430"
     },
     {
       "id": "67bc-a760-7ed5-9952",
@@ -6801,7 +7355,30 @@
           "name": "Master Manoeuvrist",
           "description": "**^^Infantry Officer^^** model only. At the end of your opponent’s Fight phase, if the bearer’s unit is not within Engagement Range of one or more enemy units and every model in that unit is within 3\" of an **^^Astra Militarum Transport^^** from your army, it can embark within that **^^Transport^^**."
         }
-      ]
+      ],
+      "pricing": [
+        {
+          "range": "[1,1]",
+          "label": "Your 1st Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 465
+            }
+          ]
+        },
+        {
+          "range": "[2,)",
+          "label": "Your 2nd + Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 485
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "465"
     },
     {
       "id": "5430-18e-d7b0-1d54",
@@ -7093,7 +7670,30 @@
           "name": "Medallion Resolute",
           "description": "While the unit is within range of an Objective marker that you control, models in this unit have a 5+ invulnerable save."
         }
-      ]
+      ],
+      "pricing": [
+        {
+          "range": "[1,2]",
+          "label": "Your 1st To 2nd Units Cost",
+          "costs": [
+            {
+              "models": 1,
+              "points": 235
+            }
+          ]
+        },
+        {
+          "range": "[3,)",
+          "label": "Your 3rd + Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 250
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "235"
     },
     {
       "id": "11e5-d4ab-d140-ac38",
@@ -7221,12 +7821,25 @@
           "description": "While the unit is within range of an Objective marker that you control, models in this unit have a 5+ invulnerable save."
         }
       ],
-      "transportCapacity": "This model has a transport capacity of 12 **^^Astra Militarum Infantry^^** models. Each **^^Ogryn^^** model takes up the space of 3 models. It cannot transport **^^Artillery^^** models."
+      "transportCapacity": "This model has a transport capacity of 12 **^^Astra Militarum Infantry^^** models. Each **^^Ogryn^^** model takes up the space of 3 models. It cannot transport **^^Artillery^^** models.",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 75
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "75"
     },
     {
       "id": "4b67-f814-358e-f776",
       "name": "Taurox Prime",
-      "points": 90,
+      "points": 85,
       "keywords": [
         "Imperium",
         "Squadron",
@@ -7336,7 +7949,20 @@
           "description": "While the unit is within range of an Objective marker that you control, models in this unit have a 5+ invulnerable save."
         }
       ],
-      "transportCapacity": "This model has a transport capacity of 12 **^^Militarum Tempestus Infantry^^** or **^^Astra Militarum Infantry Character^^** models."
+      "transportCapacity": "This model has a transport capacity of 12 **^^Militarum Tempestus Infantry^^** or **^^Astra Militarum Infantry Character^^** models.",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 85
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "85"
     },
     {
       "id": "b6b2-9971-ec0c-349e",
@@ -7399,12 +8025,30 @@
           "name": "Leader",
           "description": "This model can be attached to the following units:\n- ^^**Cadian Shock Troops**^^\n- **^^Kasrkin^^**"
         }
+      ],
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 85
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "85",
+      "mfmRole": "leader",
+      "attachTo": [
+        "Cadian Shock Troops",
+        "Kasrkin"
       ]
     },
     {
       "id": "9665-3160-8a04-d2bc",
       "name": "Valkyrie",
-      "points": 190,
+      "points": 170,
       "keywords": [
         "Transport",
         "Vehicle",
@@ -7518,12 +8162,35 @@
           "description": "While the unit is within range of an Objective marker that you control, models in this unit have a 5+ invulnerable save."
         }
       ],
-      "transportCapacity": "This model has a transport capacity of 12 **^^Astra Militarum Infantry^^** models. Each **^^Ogryn^^** model takes up the space of 3 models. It cannot transport **^^Artillery^^** models."
+      "transportCapacity": "This model has a transport capacity of 12 **^^Astra Militarum Infantry^^** models. Each **^^Ogryn^^** model takes up the space of 3 models. It cannot transport **^^Artillery^^** models.",
+      "pricing": [
+        {
+          "range": "[1,2]",
+          "label": "Your 1st To 2nd Units Cost",
+          "costs": [
+            {
+              "models": 1,
+              "points": 170
+            }
+          ]
+        },
+        {
+          "range": "[3,)",
+          "label": "Your 3rd + Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 180
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "170"
     },
     {
       "id": "d11b-c49d-41bf-1f36",
       "name": "Wyvern",
-      "points": 110,
+      "points": 95,
       "keywords": [
         "Vehicle",
         "Imperium",
@@ -7684,7 +8351,30 @@
           "name": "Medallion Resolute",
           "description": "While the unit is within range of an Objective marker that you control, models in this unit have a 5+ invulnerable save."
         }
-      ]
+      ],
+      "pricing": [
+        {
+          "range": "[1,1]",
+          "label": "Your 1st Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 95
+            }
+          ]
+        },
+        {
+          "range": "[2,)",
+          "label": "Your 2nd + Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 115
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "95"
     },
     {
       "id": "f1a-7c78-ffdc-bf5b",
@@ -7834,7 +8524,24 @@
           "name": "Medallion Resolute",
           "description": "While the unit is within range of an Objective marker that you control, models in this unit have a 5+ invulnerable save."
         }
-      ]
+      ],
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 5,
+              "points": 60
+            },
+            {
+              "models": 10,
+              "points": 110
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "60/110"
     },
     {
       "id": "173e-ddd1-354c-583b",
@@ -7966,7 +8673,7 @@
     {
       "id": "95b4-68d6-26cf-188e",
       "name": "Cyclops Demolition Vehicle",
-      "points": 25,
+      "points": 40,
       "keywords": [
         "Vehicle",
         "Imperium"
@@ -8069,7 +8776,30 @@
           "name": "Medallion Resolute",
           "description": "While the unit is within range of an Objective marker that you control, models in this unit have a 5+ invulnerable save."
         }
-      ]
+      ],
+      "pricing": [
+        {
+          "range": "[1,2]",
+          "label": "Your 1st To 2nd Units Cost",
+          "costs": [
+            {
+              "models": 1,
+              "points": 40
+            }
+          ]
+        },
+        {
+          "range": "[3,)",
+          "label": "Your 3rd + Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 45
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "40"
     },
     {
       "id": "f706-c35a-a325-38bf",
@@ -11032,7 +11762,20 @@
           "name": "Medallion Resolute",
           "description": "While the unit is within range of an Objective marker that you control, models in this unit have a 5+ invulnerable save."
         }
-      ]
+      ],
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 130
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "130"
     },
     {
       "id": "ed3d-fa87-4f0d-d10c",
@@ -17744,7 +18487,20 @@
           "name": "Medallion Resolute",
           "description": "While the unit is within range of an Objective marker that you control, models in this unit have a 5+ invulnerable save."
         }
-      ]
+      ],
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 10,
+              "points": 100
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "100"
     },
     {
       "id": "8293-a070-2c87-de30",
@@ -17889,7 +18645,24 @@
           "name": "Medallion Resolute",
           "description": "While the unit is within range of an Objective marker that you control, models in this unit have a 5+ invulnerable save."
         }
-      ]
+      ],
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 5,
+              "points": 60
+            },
+            {
+              "models": 10,
+              "points": 100
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "60/100"
     },
     {
       "id": "fbcd-274b-0196-b4f6",
@@ -18357,12 +19130,31 @@
           "name": "Medallion Resolute",
           "description": "While the unit is within range of an Objective marker that you control, models in this unit have a 5+ invulnerable save."
         }
+      ],
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 6,
+              "points": 65
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "65",
+      "mfmRole": "leader",
+      "attachTo": [
+        "Death Korps Grenadier Squad",
+        "Death Korps Of Krieg",
+        "Krieg Combat Engineers"
       ]
     },
     {
       "id": "9033-d07c-3e1c-f6f0",
       "name": "Lord Marshal Dreir",
-      "points": 100,
+      "points": 75,
       "keywords": [
         "Mounted",
         "Epic Hero",
@@ -18431,12 +19223,29 @@
           "name": "Leader",
           "description": "This model can be attached to the following unit:\n- **^^Death Riders^^**"
         }
+      ],
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 75
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "75",
+      "mfmRole": "leader",
+      "attachTo": [
+        "Death Riders"
       ]
     },
     {
       "id": "7d22-9fb6-a7e0-c21b",
       "name": "Catachan Command Squad",
-      "points": 65,
+      "points": 60,
       "keywords": [
         "Imperium",
         "Command Squad",
@@ -18740,6 +19549,23 @@
           "name": "Medallion Resolute",
           "description": "While the unit is within range of an Objective marker that you control, models in this unit have a 5+ invulnerable save."
         }
+      ],
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 5,
+              "points": 60
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "60",
+      "mfmRole": "leader",
+      "attachTo": [
+        "Catachan Jungle Fighters"
       ]
     },
     {
@@ -19032,7 +19858,30 @@
           "name": "Medallion Resolute",
           "description": "While the unit is within range of an Objective marker that you control, models in this unit have a 5+ invulnerable save."
         }
-      ]
+      ],
+      "pricing": [
+        {
+          "range": "[1,1]",
+          "label": "Your 1st Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 290
+            }
+          ]
+        },
+        {
+          "range": "[2,)",
+          "label": "Your 2nd + Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 305
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "290"
     },
     {
       "id": "ba72-7b05-33c9-a1c0",
@@ -19294,12 +20143,35 @@
           "name": "Medallion Resolute",
           "description": "While the unit is within range of an Objective marker that you control, models in this unit have a 5+ invulnerable save."
         }
+      ],
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 35
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "35",
+      "mfmRole": "leader",
+      "attachTo": [
+        "Cadian Shock Troops",
+        "Catachan Jungle Fighters",
+        "Death Korps Grenadier Squad",
+        "Death Korps Of Krieg",
+        "Kasrkin",
+        "Krieg Combat Engineers",
+        "Tempestus Scions"
       ]
     },
     {
       "id": "1669-d311-eff9-243b",
       "name": "Krieg Heavy Weapons Squad",
-      "points": 75,
+      "points": 60,
       "keywords": [
         "Imperium",
         "Infantry",
@@ -19463,7 +20335,20 @@
           "name": "Medallion Resolute",
           "description": "While the unit is within range of an Objective marker that you control, models in this unit have a 5+ invulnerable save."
         }
-      ]
+      ],
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 4,
+              "points": 60
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "60"
     },
     {
       "id": "0595-6d6c-a783-12ab",
@@ -19590,7 +20475,20 @@
           "name": "Medallion Resolute",
           "description": "While the unit is within range of an Objective marker that you control, models in this unit have a 5+ invulnerable save."
         }
-      ]
+      ],
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 95
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "95"
     },
     {
       "id": "f4d1-cea9-f487-4501",
@@ -21410,7 +22308,7 @@
     {
       "id": "3962-1fa9-7088-aedd",
       "name": "Commissar Yarrick",
-      "points": 150,
+      "points": 130,
       "keywords": [
         "Imperium",
         "Infantry",
@@ -21502,12 +22400,35 @@
           "name": "Hero of Hades Hive",
           "description": "In your Command phase, you can select one of the abilities in the Hero of Hades Hive section. Until the start of your next Command phase, this model has that ability."
         }
+      ],
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 130
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "130",
+      "mfmRole": "leader",
+      "attachTo": [
+        "Cadian Shock Troops",
+        "Catachan Jungle Fighters",
+        "Death Korps Grenadier Squad",
+        "Death Korps Of Krieg",
+        "Kasrkin",
+        "Krieg Combat Engineers",
+        "Tempestus Scions"
       ]
     },
     {
       "id": "50b8-1f13-9807-0069",
       "name": "Commissar Graves",
-      "points": 110,
+      "points": 125,
       "keywords": [
         "Imperium",
         "Epic Hero",
@@ -21602,7 +22523,20 @@
           "name": "Aquiline Prow",
           "description": "Each time this unit ends a Charge move, you can select one enemy unit within Engagement Range of it, then roll one D6: on a 2‑3, that enemy unit suffers D3 mortal wounds; on a 4‑5, that enemy unit suffers 3 mortal wounds; on a 6, that enemy unit suffers D3+3 mortal wounds."
         }
-      ]
+      ],
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 125
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "125"
     },
     {
       "id": "d624-2be1-87a3-41ca",
@@ -21669,12 +22603,35 @@
           "name": "Using Commissar Graves",
           "description": "Your army can only include one **^^Commissar Graves^^** or **^^Commissar Graves on Foot^^** unit."
         }
+      ],
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 65
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "65",
+      "mfmRole": "leader",
+      "attachTo": [
+        "Cadian Shock Troops",
+        "Catachan Jungle Fighters",
+        "Death Korps Grenadier Squad",
+        "Death Korps Of Krieg",
+        "Kasrkin",
+        "Krieg Combat Engineers",
+        "Tempestus Scions"
       ]
     },
     {
       "id": "b566-8903-3a36-62f1",
       "name": "Hippogriff AFV",
-      "points": 0,
+      "points": 70,
       "keywords": [
         "Imperium",
         "Vehicle",
@@ -21782,12 +22739,29 @@
           "name": "Medallion Resolute",
           "description": "While the unit is within range of an Objective marker that you control, models in this unit have a 5+ invulnerable save."
         }
-      ]
+      ],
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 70
+            },
+            {
+              "models": 2,
+              "points": 140
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "70/140"
     },
     {
       "id": "c871-4769-71ed-c4b3",
       "name": "Centaur RSV",
-      "points": 85,
+      "points": 75,
       "keywords": [
         "Imperium",
         "Smoke",
@@ -21911,7 +22885,20 @@
           "description": "While the unit is within range of an Objective marker that you control, models in this unit have a 5+ invulnerable save."
         }
       ],
-      "transportCapacity": "This model has a transport capacity of 12 **^^Astra Militarum Infantry^^** models. Each **^^Ogryn^^** model takes up the space of 3 models. It cannot transport **^^Artillery^^** models."
+      "transportCapacity": "This model has a transport capacity of 12 **^^Astra Militarum Infantry^^** models. Each **^^Ogryn^^** model takes up the space of 3 models. It cannot transport **^^Artillery^^** models.",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 75
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "75"
     }
   ],
   "enhancements": []

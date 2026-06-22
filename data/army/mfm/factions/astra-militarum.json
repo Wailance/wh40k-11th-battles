@@ -1,0 +1,3348 @@
+{
+  "slug": "astra-militarum",
+  "name": "Astra Militarum",
+  "version": "1.0",
+  "firstSeen": "2026-06-17",
+  "detachments": [
+    {
+      "name": "Abhuman Auxiliaries",
+      "dp": 1,
+      "objective": "TAKE AND HOLD",
+      "enhancements": [
+        {
+          "name": "Exemplar of Duty (Upgrade)",
+          "points": 10,
+          "detachment": "Abhuman Auxiliaries"
+        },
+        {
+          "name": "Sharp Eyes (Upgrade)",
+          "points": 10,
+          "detachment": "Abhuman Auxiliaries"
+        }
+      ]
+    },
+    {
+      "name": "Armoured Infantry",
+      "dp": 2,
+      "objective": "TAKE AND HOLD",
+      "enhancements": [
+        {
+          "name": "Exemplary Officer",
+          "points": 20,
+          "detachment": "Armoured Infantry"
+        },
+        {
+          "name": "Grand Strategist",
+          "points": 25,
+          "detachment": "Armoured Infantry"
+        },
+        {
+          "name": "Master Manoeuvrist",
+          "points": 15,
+          "detachment": "Armoured Infantry"
+        },
+        {
+          "name": "Omnissian Unguents",
+          "points": 35,
+          "detachment": "Armoured Infantry"
+        }
+      ]
+    },
+    {
+      "name": "Bridgehead Strike",
+      "dp": 1,
+      "objective": "PRIORITY ASSETS",
+      "enhancements": [
+        {
+          "name": "Bombast-class Vox-array",
+          "points": 15,
+          "detachment": "Bridgehead Strike"
+        },
+        {
+          "name": "Priority Drop Beacon",
+          "points": 25,
+          "detachment": "Bridgehead Strike"
+        }
+      ]
+    },
+    {
+      "name": "Combined Arms",
+      "dp": 3,
+      "objective": "TAKE AND HOLD",
+      "enhancements": [
+        {
+          "name": "Death Mask of Ollanius",
+          "points": 10,
+          "detachment": "Combined Arms"
+        },
+        {
+          "name": "Drill Commander",
+          "points": 20,
+          "detachment": "Combined Arms"
+        },
+        {
+          "name": "Grand Strategist",
+          "points": 15,
+          "detachment": "Combined Arms"
+        },
+        {
+          "name": "Reactive Command",
+          "points": 15,
+          "detachment": "Combined Arms"
+        }
+      ]
+    },
+    {
+      "name": "Designation Force",
+      "dp": 1,
+      "objective": "RECONNAISSANCE",
+      "enhancements": [
+        {
+          "name": "Long-range Scout (Upgrade)",
+          "points": 10,
+          "detachment": "Designation Force"
+        },
+        {
+          "name": "Recon Star (Upgrade)",
+          "points": 10,
+          "detachment": "Designation Force"
+        }
+      ]
+    },
+    {
+      "name": "Grizzled Company",
+      "dp": 3,
+      "objective": "PRIORITY ASSETS",
+      "enhancements": [
+        {
+          "name": "Abhuman Detail",
+          "points": 20,
+          "detachment": "Grizzled Company"
+        },
+        {
+          "name": "Aquilan Eye",
+          "points": 20,
+          "detachment": "Grizzled Company"
+        },
+        {
+          "name": "Laud Hailer",
+          "points": 10,
+          "detachment": "Grizzled Company"
+        },
+        {
+          "name": "Spec Ops Veteran",
+          "points": 15,
+          "detachment": "Grizzled Company"
+        }
+      ]
+    },
+    {
+      "name": "Hammer Of The Emperor",
+      "dp": 2,
+      "objective": "PURGE THE FOE",
+      "enhancements": [
+        {
+          "name": "Calm Under Fire",
+          "points": 15,
+          "detachment": "Hammer Of The Emperor"
+        },
+        {
+          "name": "Indomitable Steed",
+          "points": 15,
+          "detachment": "Hammer Of The Emperor"
+        },
+        {
+          "name": "Regimental Banner",
+          "points": 20,
+          "detachment": "Hammer Of The Emperor"
+        },
+        {
+          "name": "Veteran Crew",
+          "points": 20,
+          "detachment": "Hammer Of The Emperor"
+        }
+      ]
+    },
+    {
+      "name": "Mechanised Assault",
+      "dp": 2,
+      "objective": "PURGE THE FOE",
+      "enhancements": [
+        {
+          "name": "Bold Leadership",
+          "points": 25,
+          "detachment": "Mechanised Assault"
+        },
+        {
+          "name": "Sacred Unguents",
+          "points": 10,
+          "detachment": "Mechanised Assault"
+        },
+        {
+          "name": "Smoke Grenades",
+          "points": 10,
+          "detachment": "Mechanised Assault"
+        },
+        {
+          "name": "Vanguard Honours",
+          "points": 15,
+          "detachment": "Mechanised Assault"
+        }
+      ]
+    },
+    {
+      "name": "Recon Element",
+      "dp": 3,
+      "objective": "RECONNAISSANCE",
+      "enhancements": [
+        {
+          "name": "Guerrilla Honours",
+          "points": 25,
+          "detachment": "Recon Element"
+        },
+        {
+          "name": "Scare Gas Grenades",
+          "points": 5,
+          "detachment": "Recon Element"
+        },
+        {
+          "name": "Survival Gear",
+          "points": 5,
+          "detachment": "Recon Element"
+        },
+        {
+          "name": "Tripwires",
+          "points": 20,
+          "detachment": "Recon Element"
+        }
+      ]
+    },
+    {
+      "name": "Siege Regiment",
+      "dp": 2,
+      "objective": "DISRUPTION",
+      "enhancements": [
+        {
+          "name": "Eager Advance",
+          "points": 20,
+          "detachment": "Siege Regiment"
+        },
+        {
+          "name": "Flash Grenades",
+          "points": 20,
+          "detachment": "Siege Regiment"
+        },
+        {
+          "name": "Legacy Sidearm",
+          "points": 10,
+          "detachment": "Siege Regiment"
+        },
+        {
+          "name": "Stalwart’s Honours",
+          "points": 15,
+          "detachment": "Siege Regiment"
+        }
+      ]
+    },
+    {
+      "name": "Steel Hammer",
+      "dp": 2,
+      "objective": "PURGE THE FOE",
+      "enhancements": [
+        {
+          "name": "Assault Hatches",
+          "points": 25,
+          "detachment": "Steel Hammer"
+        },
+        {
+          "name": "Battalion Commander",
+          "points": 30,
+          "detachment": "Steel Hammer"
+        },
+        {
+          "name": "Engine Speaker",
+          "points": 15,
+          "detachment": "Steel Hammer"
+        },
+        {
+          "name": "Titan Killer",
+          "points": 20,
+          "detachment": "Steel Hammer"
+        }
+      ]
+    }
+  ],
+  "units": [
+    {
+      "name": "‘iron Hand’ Straken",
+      "normalizedName": "iron hand straken",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 55
+            }
+          ]
+        }
+      ],
+      "points": 55,
+      "pointsLabel": "55",
+      "legends": true,
+      "role": "leader",
+      "attachTo": [
+        "Catachan Jungle Fighters"
+      ]
+    },
+    {
+      "name": "Aegis Defence Line",
+      "normalizedName": "aegis defence line",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 145
+            }
+          ]
+        }
+      ],
+      "points": 145,
+      "pointsLabel": "145",
+      "legends": false
+    },
+    {
+      "name": "Aquila Lander",
+      "normalizedName": "aquila lander",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 120
+            }
+          ]
+        }
+      ],
+      "points": 120,
+      "pointsLabel": "120",
+      "legends": true
+    },
+    {
+      "name": "Arkurian Stormhammer",
+      "normalizedName": "arkurian stormhammer",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 480
+            }
+          ]
+        }
+      ],
+      "points": 480,
+      "pointsLabel": "480",
+      "legends": true
+    },
+    {
+      "name": "Armageddon-Pattern Medusa",
+      "normalizedName": "armageddon pattern medusa",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 105
+            }
+          ]
+        }
+      ],
+      "points": 105,
+      "pointsLabel": "105",
+      "legends": true
+    },
+    {
+      "name": "Armoured Sentinels",
+      "normalizedName": "armoured sentinels",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 65
+            },
+            {
+              "models": 2,
+              "points": 120
+            }
+          ]
+        }
+      ],
+      "points": 65,
+      "pointsLabel": "65/120",
+      "legends": false
+    },
+    {
+      "name": "Artillery Team",
+      "normalizedName": "artillery team",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 95
+            }
+          ]
+        }
+      ],
+      "points": 95,
+      "pointsLabel": "95",
+      "legends": false
+    },
+    {
+      "name": "Arvus Lighter",
+      "normalizedName": "arvus lighter",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 95
+            }
+          ]
+        }
+      ],
+      "points": 95,
+      "pointsLabel": "95",
+      "legends": true
+    },
+    {
+      "name": "Atlas Recovery Vehicle",
+      "normalizedName": "atlas recovery vehicle",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 80
+            }
+          ]
+        }
+      ],
+      "points": 80,
+      "pointsLabel": "80",
+      "legends": true
+    },
+    {
+      "name": "Attilan Rough Riders",
+      "normalizedName": "attilan rough riders",
+      "pricing": [
+        {
+          "range": "[1,2]",
+          "label": "Your 1st To 2nd Units Cost",
+          "costs": [
+            {
+              "models": 5,
+              "points": 60
+            },
+            {
+              "models": 10,
+              "points": 120
+            }
+          ]
+        },
+        {
+          "range": "[3,)",
+          "label": "Your 3rd + Unit Costs",
+          "costs": [
+            {
+              "models": 5,
+              "points": 65
+            },
+            {
+              "models": 10,
+              "points": 125
+            }
+          ]
+        }
+      ],
+      "points": 60,
+      "pointsLabel": "60/120",
+      "legends": false
+    },
+    {
+      "name": "Avenger Strike Fighter",
+      "normalizedName": "avenger strike fighter",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 130
+            }
+          ]
+        }
+      ],
+      "points": 130,
+      "pointsLabel": "130",
+      "legends": false
+    },
+    {
+      "name": "Baneblade",
+      "normalizedName": "baneblade",
+      "pricing": [
+        {
+          "range": "[1,1]",
+          "label": "Your 1st Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 450
+            }
+          ]
+        },
+        {
+          "range": "[2,)",
+          "label": "Your 2nd + Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 470
+            }
+          ]
+        }
+      ],
+      "points": 450,
+      "pointsLabel": "450",
+      "legends": false
+    },
+    {
+      "name": "Banehammer",
+      "normalizedName": "banehammer",
+      "pricing": [
+        {
+          "range": "[1,1]",
+          "label": "Your 1st Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 420
+            }
+          ]
+        },
+        {
+          "range": "[2,)",
+          "label": "Your 2nd + Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 440
+            }
+          ]
+        }
+      ],
+      "points": 420,
+      "pointsLabel": "420",
+      "legends": false
+    },
+    {
+      "name": "Banesword",
+      "normalizedName": "banesword",
+      "pricing": [
+        {
+          "range": "[1,1]",
+          "label": "Your 1st Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 450
+            }
+          ]
+        },
+        {
+          "range": "[2,)",
+          "label": "Your 2nd + Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 470
+            }
+          ]
+        }
+      ],
+      "points": 450,
+      "pointsLabel": "450",
+      "legends": false
+    },
+    {
+      "name": "Basilisk",
+      "normalizedName": "basilisk",
+      "pricing": [
+        {
+          "range": "[1,1]",
+          "label": "Your 1st Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 115
+            }
+          ]
+        },
+        {
+          "range": "[2,)",
+          "label": "Your 2nd + Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 135
+            }
+          ]
+        }
+      ],
+      "points": 115,
+      "pointsLabel": "115",
+      "legends": false
+    },
+    {
+      "name": "Bullgryn Squad",
+      "normalizedName": "bullgryn squad",
+      "pricing": [
+        {
+          "range": "[1,1]",
+          "label": "Your 1st Unit Costs",
+          "costs": [
+            {
+              "models": 3,
+              "points": 90
+            },
+            {
+              "models": 6,
+              "points": 200
+            }
+          ]
+        },
+        {
+          "range": "[2,)",
+          "label": "Your 2nd + Unit Costs",
+          "costs": [
+            {
+              "models": 3,
+              "points": 105
+            },
+            {
+              "models": 6,
+              "points": 215
+            }
+          ]
+        }
+      ],
+      "points": 90,
+      "pointsLabel": "90/200",
+      "legends": false
+    },
+    {
+      "name": "Cadian Castellan",
+      "normalizedName": "cadian castellan",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 55
+            }
+          ]
+        }
+      ],
+      "points": 55,
+      "pointsLabel": "55",
+      "legends": false,
+      "role": "leader",
+      "attachTo": [
+        "Cadian Shock Troops",
+        "Kasrkin"
+      ]
+    },
+    {
+      "name": "Cadian Command Squad",
+      "normalizedName": "cadian command squad",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 5,
+              "points": 65
+            }
+          ]
+        }
+      ],
+      "points": 65,
+      "pointsLabel": "65",
+      "legends": false,
+      "role": "leader",
+      "attachTo": [
+        "Cadian Shock Troops"
+      ]
+    },
+    {
+      "name": "Cadian Heavy Weapons Squad",
+      "normalizedName": "cadian heavy weapons squad",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 3,
+              "points": 65
+            }
+          ]
+        }
+      ],
+      "points": 65,
+      "pointsLabel": "65",
+      "legends": false
+    },
+    {
+      "name": "Cadian Recon Squad",
+      "normalizedName": "cadian recon squad",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 10,
+              "points": 80
+            }
+          ]
+        }
+      ],
+      "points": 80,
+      "pointsLabel": "80",
+      "legends": false
+    },
+    {
+      "name": "Cadian Shock Troops",
+      "normalizedName": "cadian shock troops",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 10,
+              "points": 75
+            },
+            {
+              "models": 20,
+              "points": 145
+            }
+          ]
+        }
+      ],
+      "points": 75,
+      "pointsLabel": "75/145",
+      "legends": false
+    },
+    {
+      "name": "Carnodon",
+      "normalizedName": "carnodon",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 160
+            }
+          ]
+        }
+      ],
+      "points": 160,
+      "pointsLabel": "160",
+      "legends": true
+    },
+    {
+      "name": "Catachan Command Squad",
+      "normalizedName": "catachan command squad",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 5,
+              "points": 60
+            }
+          ]
+        }
+      ],
+      "points": 60,
+      "pointsLabel": "60",
+      "legends": false,
+      "role": "leader",
+      "attachTo": [
+        "Catachan Jungle Fighters"
+      ]
+    },
+    {
+      "name": "Catachan Heavy Weapons Squad",
+      "normalizedName": "catachan heavy weapons squad",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 3,
+              "points": 65
+            }
+          ]
+        }
+      ],
+      "points": 65,
+      "pointsLabel": "65",
+      "legends": false
+    },
+    {
+      "name": "Catachan Jungle Fighters",
+      "normalizedName": "catachan jungle fighters",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 10,
+              "points": 75
+            },
+            {
+              "models": 20,
+              "points": 145
+            }
+          ]
+        }
+      ],
+      "points": 75,
+      "pointsLabel": "75/145",
+      "legends": false
+    },
+    {
+      "name": "Centaur Light Carrier",
+      "normalizedName": "centaur light carrier",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 40
+            }
+          ]
+        }
+      ],
+      "points": 40,
+      "pointsLabel": "40",
+      "legends": true
+    },
+    {
+      "name": "Centaur Rsv",
+      "normalizedName": "centaur rsv",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 75
+            }
+          ]
+        }
+      ],
+      "points": 75,
+      "pointsLabel": "75",
+      "legends": false
+    },
+    {
+      "name": "Chimera",
+      "normalizedName": "chimera",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 85
+            }
+          ]
+        }
+      ],
+      "points": 85,
+      "pointsLabel": "85",
+      "legends": false
+    },
+    {
+      "name": "Colossus",
+      "normalizedName": "colossus",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 160
+            }
+          ]
+        }
+      ],
+      "points": 160,
+      "pointsLabel": "160",
+      "legends": true
+    },
+    {
+      "name": "Commissar",
+      "normalizedName": "commissar",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 30
+            }
+          ]
+        }
+      ],
+      "points": 30,
+      "pointsLabel": "30",
+      "legends": false,
+      "role": "leader",
+      "attachTo": [
+        "Cadian Shock Troops",
+        "Catachan Jungle Fighters",
+        "Death Korps Grenadier Squad",
+        "Death Korps Of Krieg",
+        "Kasrkin",
+        "Krieg Combat Engineers",
+        "Tempestus Scions"
+      ]
+    },
+    {
+      "name": "Commissar Graves",
+      "normalizedName": "commissar graves",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 125
+            }
+          ]
+        }
+      ],
+      "points": 125,
+      "pointsLabel": "125",
+      "legends": false
+    },
+    {
+      "name": "Commissar Graves On Foot",
+      "normalizedName": "commissar graves on foot",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 65
+            }
+          ]
+        }
+      ],
+      "points": 65,
+      "pointsLabel": "65",
+      "legends": false,
+      "role": "leader",
+      "attachTo": [
+        "Cadian Shock Troops",
+        "Catachan Jungle Fighters",
+        "Death Korps Grenadier Squad",
+        "Death Korps Of Krieg",
+        "Kasrkin",
+        "Krieg Combat Engineers",
+        "Tempestus Scions"
+      ]
+    },
+    {
+      "name": "Commissar Yarrick",
+      "normalizedName": "commissar yarrick",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 130
+            }
+          ]
+        }
+      ],
+      "points": 130,
+      "pointsLabel": "130",
+      "legends": false,
+      "role": "leader",
+      "attachTo": [
+        "Cadian Shock Troops",
+        "Catachan Jungle Fighters",
+        "Death Korps Grenadier Squad",
+        "Death Korps Of Krieg",
+        "Kasrkin",
+        "Krieg Combat Engineers",
+        "Tempestus Scions"
+      ]
+    },
+    {
+      "name": "Crassus",
+      "normalizedName": "crassus",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 180
+            }
+          ]
+        }
+      ],
+      "points": 180,
+      "pointsLabel": "180",
+      "legends": true
+    },
+    {
+      "name": "Cyclops Demolition Vehicle",
+      "normalizedName": "cyclops demolition vehicle",
+      "pricing": [
+        {
+          "range": "[1,2]",
+          "label": "Your 1st To 2nd Units Cost",
+          "costs": [
+            {
+              "models": 1,
+              "points": 40
+            }
+          ]
+        },
+        {
+          "range": "[3,)",
+          "label": "Your 3rd + Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 45
+            }
+          ]
+        }
+      ],
+      "points": 40,
+      "pointsLabel": "40",
+      "legends": false
+    },
+    {
+      "name": "Death Korps Grenadier Squad",
+      "normalizedName": "death korps grenadier squad",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 10,
+              "points": 110
+            }
+          ]
+        }
+      ],
+      "points": 110,
+      "pointsLabel": "110",
+      "legends": true
+    },
+    {
+      "name": "Death Korps Of Krieg",
+      "normalizedName": "death korps of krieg",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 10,
+              "points": 75
+            },
+            {
+              "models": 20,
+              "points": 145
+            }
+          ]
+        }
+      ],
+      "points": 75,
+      "pointsLabel": "75/145",
+      "legends": false
+    },
+    {
+      "name": "Death Rider Commissar",
+      "normalizedName": "death rider commissar",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 35
+            }
+          ]
+        }
+      ],
+      "points": 35,
+      "pointsLabel": "35",
+      "legends": true,
+      "role": "leader",
+      "attachTo": [
+        "Death Riders"
+      ]
+    },
+    {
+      "name": "Death Riders",
+      "normalizedName": "death riders",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 5,
+              "points": 60
+            },
+            {
+              "models": 10,
+              "points": 110
+            }
+          ]
+        }
+      ],
+      "points": 60,
+      "pointsLabel": "60/110",
+      "legends": false
+    },
+    {
+      "name": "Deathstrike",
+      "normalizedName": "deathstrike",
+      "pricing": [
+        {
+          "range": "[1,1]",
+          "label": "Your 1st Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 125
+            }
+          ]
+        },
+        {
+          "range": "[2,)",
+          "label": "Your 2nd + Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 135
+            }
+          ]
+        }
+      ],
+      "points": 125,
+      "pointsLabel": "125",
+      "legends": false
+    },
+    {
+      "name": "Dominus Armoured Siege Bombard",
+      "normalizedName": "dominus armoured siege bombard",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 325
+            }
+          ]
+        }
+      ],
+      "points": 325,
+      "pointsLabel": "325",
+      "legends": true
+    },
+    {
+      "name": "Doomhammer",
+      "normalizedName": "doomhammer",
+      "pricing": [
+        {
+          "range": "[1,1]",
+          "label": "Your 1st Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 415
+            }
+          ]
+        },
+        {
+          "range": "[2,)",
+          "label": "Your 2nd + Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 435
+            }
+          ]
+        }
+      ],
+      "points": 415,
+      "pointsLabel": "415",
+      "legends": false
+    },
+    {
+      "name": "Earthshaker Carriage Battery",
+      "normalizedName": "earthshaker carriage battery",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 120
+            }
+          ]
+        }
+      ],
+      "points": 120,
+      "pointsLabel": "120",
+      "legends": true
+    },
+    {
+      "name": "Earthshaker Platform",
+      "normalizedName": "earthshaker platform",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 110
+            }
+          ]
+        }
+      ],
+      "points": 110,
+      "pointsLabel": "110",
+      "legends": true
+    },
+    {
+      "name": "Elysian Drop Sentinel",
+      "normalizedName": "elysian drop sentinel",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 85
+            }
+          ]
+        }
+      ],
+      "points": 85,
+      "pointsLabel": "85",
+      "legends": true
+    },
+    {
+      "name": "Elysian Sniper Squad",
+      "normalizedName": "elysian sniper squad",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 3,
+              "points": 65
+            }
+          ]
+        }
+      ],
+      "points": 65,
+      "pointsLabel": "65",
+      "legends": true
+    },
+    {
+      "name": "Field Ordnance Battery",
+      "normalizedName": "field ordnance battery",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 2,
+              "points": 90
+            }
+          ]
+        }
+      ],
+      "points": 90,
+      "pointsLabel": "90",
+      "legends": false
+    },
+    {
+      "name": "Gaunt’S Ghosts",
+      "normalizedName": "gaunts ghosts",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 6,
+              "points": 95
+            }
+          ]
+        }
+      ],
+      "points": 95,
+      "pointsLabel": "95",
+      "legends": false
+    },
+    {
+      "name": "Gorgon Heavy Transport",
+      "normalizedName": "gorgon heavy transport",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 275
+            }
+          ]
+        }
+      ],
+      "points": 275,
+      "pointsLabel": "275",
+      "legends": true
+    },
+    {
+      "name": "Griffon Mortar Carrier",
+      "normalizedName": "griffon mortar carrier",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 115
+            }
+          ]
+        }
+      ],
+      "points": 115,
+      "pointsLabel": "115",
+      "legends": true
+    },
+    {
+      "name": "Hades Breaching Drill",
+      "normalizedName": "hades breaching drill",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 110
+            }
+          ]
+        }
+      ],
+      "points": 110,
+      "pointsLabel": "110",
+      "legends": true
+    },
+    {
+      "name": "Heavy Mortar Team",
+      "normalizedName": "heavy mortar team",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 50
+            }
+          ]
+        }
+      ],
+      "points": 50,
+      "pointsLabel": "50",
+      "legends": true
+    },
+    {
+      "name": "Heavy Quad Launcher Team",
+      "normalizedName": "heavy quad launcher team",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 50
+            }
+          ]
+        }
+      ],
+      "points": 50,
+      "pointsLabel": "50",
+      "legends": true
+    },
+    {
+      "name": "Hell'S Last",
+      "normalizedName": "hells last",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 5,
+              "points": 80
+            }
+          ]
+        }
+      ],
+      "points": 80,
+      "pointsLabel": "80",
+      "legends": true,
+      "role": "leader",
+      "attachTo": [
+        "Cadian Shock Troops"
+      ]
+    },
+    {
+      "name": "Hellhammer",
+      "normalizedName": "hellhammer",
+      "pricing": [
+        {
+          "range": "[1,1]",
+          "label": "Your 1st Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 420
+            }
+          ]
+        },
+        {
+          "range": "[2,)",
+          "label": "Your 2nd + Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 440
+            }
+          ]
+        }
+      ],
+      "points": 420,
+      "pointsLabel": "420",
+      "legends": false
+    },
+    {
+      "name": "Hellhound",
+      "normalizedName": "hellhound",
+      "pricing": [
+        {
+          "range": "[1,2]",
+          "label": "Your 1st To 2nd Units Cost",
+          "costs": [
+            {
+              "models": 1,
+              "points": 125
+            }
+          ]
+        },
+        {
+          "range": "[3,)",
+          "label": "Your 3rd + Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 135
+            }
+          ]
+        }
+      ],
+      "points": 125,
+      "pointsLabel": "125",
+      "legends": false
+    },
+    {
+      "name": "Hippogriff Afv",
+      "normalizedName": "hippogriff afv",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 70
+            },
+            {
+              "models": 2,
+              "points": 140
+            }
+          ]
+        }
+      ],
+      "points": 70,
+      "pointsLabel": "70/140",
+      "legends": false
+    },
+    {
+      "name": "Hydra",
+      "normalizedName": "hydra",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 90
+            }
+          ]
+        }
+      ],
+      "points": 90,
+      "pointsLabel": "90",
+      "legends": false
+    },
+    {
+      "name": "Hydra Platform",
+      "normalizedName": "hydra platform",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 95
+            }
+          ]
+        }
+      ],
+      "points": 95,
+      "pointsLabel": "95",
+      "legends": true
+    },
+    {
+      "name": "Kasrkin",
+      "normalizedName": "kasrkin",
+      "pricing": [
+        {
+          "range": "[1,2]",
+          "label": "Your 1st To 2nd Units Cost",
+          "costs": [
+            {
+              "models": 10,
+              "points": 115
+            }
+          ]
+        },
+        {
+          "range": "[3,)",
+          "label": "Your 3rd + Unit Costs",
+          "costs": [
+            {
+              "models": 10,
+              "points": 125
+            }
+          ]
+        }
+      ],
+      "points": 115,
+      "pointsLabel": "115",
+      "legends": false
+    },
+    {
+      "name": "Krieg Combat Engineers",
+      "normalizedName": "krieg combat engineers",
+      "pricing": [
+        {
+          "range": "[1,2]",
+          "label": "Your 1st To 2nd Units Cost",
+          "costs": [
+            {
+              "models": 5,
+              "points": 65
+            },
+            {
+              "models": 10,
+              "points": 95
+            }
+          ]
+        },
+        {
+          "range": "[3,)",
+          "label": "Your 3rd + Unit Costs",
+          "costs": [
+            {
+              "models": 5,
+              "points": 75
+            },
+            {
+              "models": 10,
+              "points": 105
+            }
+          ]
+        }
+      ],
+      "points": 65,
+      "pointsLabel": "65/95",
+      "legends": false
+    },
+    {
+      "name": "Krieg Command Squad",
+      "normalizedName": "krieg command squad",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 6,
+              "points": 65
+            }
+          ]
+        }
+      ],
+      "points": 65,
+      "pointsLabel": "65",
+      "legends": false,
+      "role": "leader",
+      "attachTo": [
+        "Death Korps Grenadier Squad",
+        "Death Korps Of Krieg",
+        "Krieg Combat Engineers"
+      ]
+    },
+    {
+      "name": "Krieg Heavy Weapons Squad",
+      "normalizedName": "krieg heavy weapons squad",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 4,
+              "points": 60
+            }
+          ]
+        }
+      ],
+      "points": 60,
+      "pointsLabel": "60",
+      "legends": false
+    },
+    {
+      "name": "Leman Russ Battle Tank",
+      "normalizedName": "leman russ battle tank",
+      "pricing": [
+        {
+          "range": "[1,2]",
+          "label": "Your 1st To 2nd Units Cost",
+          "costs": [
+            {
+              "models": 1,
+              "points": 185
+            }
+          ]
+        },
+        {
+          "range": "[3,)",
+          "label": "Your 3rd + Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 195
+            }
+          ]
+        }
+      ],
+      "points": 185,
+      "pointsLabel": "185",
+      "legends": false
+    },
+    {
+      "name": "Leman Russ Commander",
+      "normalizedName": "leman russ commander",
+      "pricing": [
+        {
+          "range": "[1,2]",
+          "label": "Your 1st To 2nd Units Cost",
+          "costs": [
+            {
+              "models": 1,
+              "points": 235
+            }
+          ]
+        },
+        {
+          "range": "[3,)",
+          "label": "Your 3rd + Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 250
+            }
+          ]
+        }
+      ],
+      "points": 235,
+      "pointsLabel": "235",
+      "legends": false
+    },
+    {
+      "name": "Leman Russ Demolisher",
+      "normalizedName": "leman russ demolisher",
+      "pricing": [
+        {
+          "range": "[1,2]",
+          "label": "Your 1st To 2nd Units Cost",
+          "costs": [
+            {
+              "models": 1,
+              "points": 190
+            }
+          ]
+        },
+        {
+          "range": "[3,)",
+          "label": "Your 3rd + Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 200
+            }
+          ]
+        }
+      ],
+      "points": 190,
+      "pointsLabel": "190",
+      "legends": false
+    },
+    {
+      "name": "Leman Russ Eradicator",
+      "normalizedName": "leman russ eradicator",
+      "pricing": [
+        {
+          "range": "[1,2]",
+          "label": "Your 1st To 2nd Units Cost",
+          "costs": [
+            {
+              "models": 1,
+              "points": 170
+            }
+          ]
+        },
+        {
+          "range": "[3,)",
+          "label": "Your 3rd + Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 180
+            }
+          ]
+        }
+      ],
+      "points": 170,
+      "pointsLabel": "170",
+      "legends": false
+    },
+    {
+      "name": "Leman Russ Executioner",
+      "normalizedName": "leman russ executioner",
+      "pricing": [
+        {
+          "range": "[1,2]",
+          "label": "Your 1st To 2nd Units Cost",
+          "costs": [
+            {
+              "models": 1,
+              "points": 170
+            }
+          ]
+        },
+        {
+          "range": "[3,)",
+          "label": "Your 3rd + Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 180
+            }
+          ]
+        }
+      ],
+      "points": 170,
+      "pointsLabel": "170",
+      "legends": false
+    },
+    {
+      "name": "Leman Russ Exterminator",
+      "normalizedName": "leman russ exterminator",
+      "pricing": [
+        {
+          "range": "[1,2]",
+          "label": "Your 1st To 2nd Units Cost",
+          "costs": [
+            {
+              "models": 1,
+              "points": 180
+            }
+          ]
+        },
+        {
+          "range": "[3,)",
+          "label": "Your 3rd + Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 190
+            }
+          ]
+        }
+      ],
+      "points": 180,
+      "pointsLabel": "180",
+      "legends": false
+    },
+    {
+      "name": "Leman Russ Punisher",
+      "normalizedName": "leman russ punisher",
+      "pricing": [
+        {
+          "range": "[1,2]",
+          "label": "Your 1st To 2nd Units Cost",
+          "costs": [
+            {
+              "models": 1,
+              "points": 150
+            }
+          ]
+        },
+        {
+          "range": "[3,)",
+          "label": "Your 3rd + Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 160
+            }
+          ]
+        }
+      ],
+      "points": 150,
+      "pointsLabel": "150",
+      "legends": false
+    },
+    {
+      "name": "Leman Russ Vanquisher",
+      "normalizedName": "leman russ vanquisher",
+      "pricing": [
+        {
+          "range": "[1,2]",
+          "label": "Your 1st To 2nd Units Cost",
+          "costs": [
+            {
+              "models": 1,
+              "points": 150
+            }
+          ]
+        },
+        {
+          "range": "[3,)",
+          "label": "Your 3rd + Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 160
+            }
+          ]
+        }
+      ],
+      "points": 150,
+      "pointsLabel": "150",
+      "legends": false
+    },
+    {
+      "name": "Lord Marshal Dreir",
+      "normalizedName": "lord marshal dreir",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 75
+            }
+          ]
+        }
+      ],
+      "points": 75,
+      "pointsLabel": "75",
+      "legends": false,
+      "role": "leader",
+      "attachTo": [
+        "Death Riders"
+      ]
+    },
+    {
+      "name": "Lord Solar Leontus",
+      "normalizedName": "lord solar leontus",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 130
+            }
+          ]
+        }
+      ],
+      "points": 130,
+      "pointsLabel": "130",
+      "legends": false,
+      "role": "leader",
+      "attachTo": [
+        "Attilan Rough Riders",
+        "Cadian Shock Troops",
+        "Catachan Jungle Fighters",
+        "Death Korps Grenadier Squad",
+        "Death Korps Of Krieg",
+        "Death Riders",
+        "Kasrkin",
+        "Krieg Combat Engineers"
+      ]
+    },
+    {
+      "name": "Macharius",
+      "normalizedName": "macharius",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 310
+            }
+          ]
+        }
+      ],
+      "points": 310,
+      "pointsLabel": "310",
+      "legends": true
+    },
+    {
+      "name": "Macharius Omega",
+      "normalizedName": "macharius omega",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 310
+            }
+          ]
+        }
+      ],
+      "points": 310,
+      "pointsLabel": "310",
+      "legends": true
+    },
+    {
+      "name": "Macharius Vanquisher",
+      "normalizedName": "macharius vanquisher",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 285
+            }
+          ]
+        }
+      ],
+      "points": 285,
+      "pointsLabel": "285",
+      "legends": true
+    },
+    {
+      "name": "Macharius Vulcan",
+      "normalizedName": "macharius vulcan",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 310
+            }
+          ]
+        }
+      ],
+      "points": 310,
+      "pointsLabel": "310",
+      "legends": true
+    },
+    {
+      "name": "Malcador",
+      "normalizedName": "malcador",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 250
+            }
+          ]
+        }
+      ],
+      "points": 250,
+      "pointsLabel": "250",
+      "legends": true
+    },
+    {
+      "name": "Malcador Annihilator",
+      "normalizedName": "malcador annihilator",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 270
+            }
+          ]
+        }
+      ],
+      "points": 270,
+      "pointsLabel": "270",
+      "legends": true
+    },
+    {
+      "name": "Malcador Defender",
+      "normalizedName": "malcador defender",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 310
+            }
+          ]
+        }
+      ],
+      "points": 310,
+      "pointsLabel": "310",
+      "legends": true
+    },
+    {
+      "name": "Malcador Infernus",
+      "normalizedName": "malcador infernus",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 235
+            }
+          ]
+        }
+      ],
+      "points": 235,
+      "pointsLabel": "235",
+      "legends": true
+    },
+    {
+      "name": "Manticore",
+      "normalizedName": "manticore",
+      "pricing": [
+        {
+          "range": "[1,1]",
+          "label": "Your 1st Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 150
+            }
+          ]
+        },
+        {
+          "range": "[2,)",
+          "label": "Your 2nd + Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 170
+            }
+          ]
+        }
+      ],
+      "points": 150,
+      "pointsLabel": "150",
+      "legends": false
+    },
+    {
+      "name": "Manticore Platform",
+      "normalizedName": "manticore platform",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 95
+            }
+          ]
+        }
+      ],
+      "points": 95,
+      "pointsLabel": "95",
+      "legends": true
+    },
+    {
+      "name": "Marauder Bomber",
+      "normalizedName": "marauder bomber",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 345
+            }
+          ]
+        }
+      ],
+      "points": 345,
+      "pointsLabel": "345",
+      "legends": true
+    },
+    {
+      "name": "Marauder Destroyer",
+      "normalizedName": "marauder destroyer",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 375
+            }
+          ]
+        }
+      ],
+      "points": 375,
+      "pointsLabel": "375",
+      "legends": true
+    },
+    {
+      "name": "Medusa Carriage Battery",
+      "normalizedName": "medusa carriage battery",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 125
+            }
+          ]
+        }
+      ],
+      "points": 125,
+      "pointsLabel": "125",
+      "legends": true
+    },
+    {
+      "name": "Militarum Tempestus Command Squad",
+      "normalizedName": "militarum tempestus command squad",
+      "pricing": [
+        {
+          "range": "[1,1]",
+          "label": "Your 1st Unit Costs",
+          "costs": [
+            {
+              "models": 5,
+              "points": 85
+            }
+          ]
+        },
+        {
+          "range": "[2,)",
+          "label": "Your 2nd + Unit Costs",
+          "costs": [
+            {
+              "models": 5,
+              "points": 95
+            }
+          ]
+        }
+      ],
+      "points": 85,
+      "pointsLabel": "85",
+      "legends": false,
+      "role": "leader",
+      "attachTo": [
+        "Tempestus Scions"
+      ]
+    },
+    {
+      "name": "Ministorum Priest",
+      "normalizedName": "ministorum priest",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 35
+            }
+          ]
+        }
+      ],
+      "points": 35,
+      "pointsLabel": "35",
+      "legends": false,
+      "role": "leader",
+      "attachTo": [
+        "Cadian Shock Troops",
+        "Catachan Jungle Fighters",
+        "Death Korps Grenadier Squad",
+        "Death Korps Of Krieg",
+        "Kasrkin",
+        "Krieg Combat Engineers",
+        "Tempestus Scions"
+      ]
+    },
+    {
+      "name": "Minotaur",
+      "normalizedName": "minotaur",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 225
+            }
+          ]
+        }
+      ],
+      "points": 225,
+      "pointsLabel": "225",
+      "legends": true
+    },
+    {
+      "name": "Mukaali Riders",
+      "normalizedName": "mukaali riders",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 3,
+              "points": 110
+            }
+          ]
+        }
+      ],
+      "points": 110,
+      "pointsLabel": "110",
+      "legends": true
+    },
+    {
+      "name": "Munitorum Servitors",
+      "normalizedName": "munitorum servitors",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 4,
+              "points": 35
+            }
+          ]
+        }
+      ],
+      "points": 35,
+      "pointsLabel": "35",
+      "legends": true
+    },
+    {
+      "name": "Nork Deddog",
+      "normalizedName": "nork deddog",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 60
+            }
+          ]
+        }
+      ],
+      "points": 60,
+      "pointsLabel": "60",
+      "legends": false
+    },
+    {
+      "name": "Ogryn Bodyguard",
+      "normalizedName": "ogryn bodyguard",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 40
+            }
+          ]
+        }
+      ],
+      "points": 40,
+      "pointsLabel": "40",
+      "legends": false
+    },
+    {
+      "name": "Ogryn Squad",
+      "normalizedName": "ogryn squad",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 3,
+              "points": 60
+            },
+            {
+              "models": 6,
+              "points": 120
+            }
+          ]
+        }
+      ],
+      "points": 60,
+      "pointsLabel": "60/120",
+      "legends": false
+    },
+    {
+      "name": "Praetor",
+      "normalizedName": "praetor",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 275
+            }
+          ]
+        }
+      ],
+      "points": 275,
+      "pointsLabel": "275",
+      "legends": true
+    },
+    {
+      "name": "Primaris Psyker",
+      "normalizedName": "primaris psyker",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 60
+            }
+          ]
+        }
+      ],
+      "points": 60,
+      "pointsLabel": "60",
+      "legends": false,
+      "role": "leader",
+      "attachTo": [
+        "Cadian Shock Troops",
+        "Catachan Jungle Fighters",
+        "Death Korps Grenadier Squad",
+        "Death Korps Of Krieg",
+        "Kasrkin",
+        "Krieg Combat Engineers",
+        "Tempestus Scions"
+      ]
+    },
+    {
+      "name": "Provisionally Prepared",
+      "normalizedName": "provisionally prepared",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 40
+            }
+          ]
+        }
+      ],
+      "points": 40,
+      "pointsLabel": "40",
+      "legends": true,
+      "role": "leader",
+      "attachTo": [
+        "Ratlings"
+      ]
+    },
+    {
+      "name": "Quartermaster Cadre Squad",
+      "normalizedName": "quartermaster cadre squad",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 5,
+              "points": 45
+            }
+          ]
+        }
+      ],
+      "points": 45,
+      "pointsLabel": "45",
+      "legends": true,
+      "role": "leader",
+      "attachTo": [
+        "Death Korps Grenadier Squad",
+        "Death Korps Of Krieg",
+        "Krieg Combat Engineers"
+      ]
+    },
+    {
+      "name": "Rapier Laser Destroyer Battery",
+      "normalizedName": "rapier laser destroyer battery",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 35
+            },
+            {
+              "models": 2,
+              "points": 70
+            },
+            {
+              "models": 3,
+              "points": 105
+            }
+          ]
+        }
+      ],
+      "points": 35,
+      "pointsLabel": "35/70/105",
+      "legends": true
+    },
+    {
+      "name": "Ratlings",
+      "normalizedName": "ratlings",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 5,
+              "points": 60
+            },
+            {
+              "models": 10,
+              "points": 100
+            }
+          ]
+        }
+      ],
+      "points": 60,
+      "pointsLabel": "60/100",
+      "legends": false
+    },
+    {
+      "name": "Regimental Attachés",
+      "normalizedName": "regimental attache s",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 3,
+              "points": 40
+            }
+          ]
+        }
+      ],
+      "points": 40,
+      "pointsLabel": "40",
+      "legends": true
+    },
+    {
+      "name": "Rein And Raus",
+      "normalizedName": "rein and raus",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 2,
+              "points": 50
+            }
+          ]
+        }
+      ],
+      "points": 50,
+      "pointsLabel": "50",
+      "legends": true
+    },
+    {
+      "name": "Rogal Dorn Battle Tank",
+      "normalizedName": "rogal dorn battle tank",
+      "pricing": [
+        {
+          "range": "[1,1]",
+          "label": "Your 1st Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 260
+            }
+          ]
+        },
+        {
+          "range": "[2,)",
+          "label": "Your 2nd + Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 275
+            }
+          ]
+        }
+      ],
+      "points": 260,
+      "pointsLabel": "260",
+      "legends": false
+    },
+    {
+      "name": "Rogal Dorn Commander",
+      "normalizedName": "rogal dorn commander",
+      "pricing": [
+        {
+          "range": "[1,1]",
+          "label": "Your 1st Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 290
+            }
+          ]
+        },
+        {
+          "range": "[2,)",
+          "label": "Your 2nd + Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 305
+            }
+          ]
+        }
+      ],
+      "points": 290,
+      "pointsLabel": "290",
+      "legends": false
+    },
+    {
+      "name": "Sabre Weapons Battery",
+      "normalizedName": "sabre weapons battery",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 45
+            },
+            {
+              "models": 2,
+              "points": 90
+            }
+          ]
+        }
+      ],
+      "points": 45,
+      "pointsLabel": "45/90",
+      "legends": true
+    },
+    {
+      "name": "Salamander Command Vehicle",
+      "normalizedName": "salamander command vehicle",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 80
+            }
+          ]
+        }
+      ],
+      "points": 80,
+      "pointsLabel": "80",
+      "legends": true
+    },
+    {
+      "name": "Salamander Scout Vehicle",
+      "normalizedName": "salamander scout vehicle",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 95
+            }
+          ]
+        }
+      ],
+      "points": 95,
+      "pointsLabel": "95",
+      "legends": true
+    },
+    {
+      "name": "Scout Sentinels",
+      "normalizedName": "scout sentinels",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 55
+            },
+            {
+              "models": 2,
+              "points": 100
+            }
+          ]
+        }
+      ],
+      "points": 55,
+      "pointsLabel": "55/100",
+      "legends": false
+    },
+    {
+      "name": "Sentinel Powerlifter",
+      "normalizedName": "sentinel powerlifter",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 55
+            }
+          ]
+        }
+      ],
+      "points": 55,
+      "pointsLabel": "55",
+      "legends": true
+    },
+    {
+      "name": "Sergeant Harker",
+      "normalizedName": "sergeant harker",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 40
+            }
+          ]
+        }
+      ],
+      "points": 40,
+      "pointsLabel": "40",
+      "legends": true,
+      "role": "leader",
+      "attachTo": [
+        "Catachan Jungle Fighters"
+      ]
+    },
+    {
+      "name": "Shadowsword",
+      "normalizedName": "shadowsword",
+      "pricing": [
+        {
+          "range": "[1,1]",
+          "label": "Your 1st Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 410
+            }
+          ]
+        },
+        {
+          "range": "[2,)",
+          "label": "Your 2nd + Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 430
+            }
+          ]
+        }
+      ],
+      "points": 410,
+      "pointsLabel": "410",
+      "legends": false
+    },
+    {
+      "name": "Sly Marbo",
+      "normalizedName": "sly marbo",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 55
+            }
+          ]
+        }
+      ],
+      "points": 55,
+      "pointsLabel": "55",
+      "legends": false
+    },
+    {
+      "name": "Storm Chimera",
+      "normalizedName": "storm chimera",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 90
+            }
+          ]
+        }
+      ],
+      "points": 90,
+      "pointsLabel": "90",
+      "legends": true
+    },
+    {
+      "name": "Stormblade",
+      "normalizedName": "stormblade",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 415
+            }
+          ]
+        }
+      ],
+      "points": 415,
+      "pointsLabel": "415",
+      "legends": true
+    },
+    {
+      "name": "Stormlord",
+      "normalizedName": "stormlord",
+      "pricing": [
+        {
+          "range": "[1,1]",
+          "label": "Your 1st Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 430
+            }
+          ]
+        },
+        {
+          "range": "[2,)",
+          "label": "Your 2nd + Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 450
+            }
+          ]
+        }
+      ],
+      "points": 430,
+      "pointsLabel": "430",
+      "legends": false
+    },
+    {
+      "name": "Stormsword",
+      "normalizedName": "stormsword",
+      "pricing": [
+        {
+          "range": "[1,1]",
+          "label": "Your 1st Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 465
+            }
+          ]
+        },
+        {
+          "range": "[2,)",
+          "label": "Your 2nd + Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 485
+            }
+          ]
+        }
+      ],
+      "points": 465,
+      "pointsLabel": "465",
+      "legends": false
+    },
+    {
+      "name": "Stygies Destroyer Tank Hunter",
+      "normalizedName": "stygies destroyer tank hunter",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 180
+            }
+          ]
+        }
+      ],
+      "points": 180,
+      "pointsLabel": "180",
+      "legends": true
+    },
+    {
+      "name": "Tarantula Battery",
+      "normalizedName": "tarantula battery",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 40
+            },
+            {
+              "models": 2,
+              "points": 80
+            },
+            {
+              "models": 3,
+              "points": 120
+            }
+          ]
+        }
+      ],
+      "points": 40,
+      "pointsLabel": "40/80/120",
+      "legends": true
+    },
+    {
+      "name": "Tauros Assault Vehicle",
+      "normalizedName": "tauros assault vehicle",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 50
+            }
+          ]
+        }
+      ],
+      "points": 50,
+      "pointsLabel": "50",
+      "legends": true
+    },
+    {
+      "name": "Tauros Venator",
+      "normalizedName": "tauros venator",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 50
+            }
+          ]
+        }
+      ],
+      "points": 50,
+      "pointsLabel": "50",
+      "legends": true
+    },
+    {
+      "name": "Taurox",
+      "normalizedName": "taurox",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 75
+            }
+          ]
+        }
+      ],
+      "points": 75,
+      "pointsLabel": "75",
+      "legends": false
+    },
+    {
+      "name": "Taurox Prime",
+      "normalizedName": "taurox prime",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 85
+            }
+          ]
+        }
+      ],
+      "points": 85,
+      "pointsLabel": "85",
+      "legends": false
+    },
+    {
+      "name": "Tech-Priest Enginseer",
+      "normalizedName": "tech priest enginseer",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 45
+            }
+          ]
+        }
+      ],
+      "points": 45,
+      "pointsLabel": "45",
+      "legends": false,
+      "role": "leader",
+      "attachTo": [
+        "Cadian Shock Troops",
+        "Catachan Jungle Fighters",
+        "Death Korps Of Krieg",
+        "Kasrkin",
+        "Krieg Combat Engineers"
+      ]
+    },
+    {
+      "name": "Tempestus Aquilons",
+      "normalizedName": "tempestus aquilons",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 10,
+              "points": 100
+            }
+          ]
+        }
+      ],
+      "points": 100,
+      "pointsLabel": "100",
+      "legends": false
+    },
+    {
+      "name": "Tempestus Scions",
+      "normalizedName": "tempestus scions",
+      "pricing": [
+        {
+          "range": "[1,2]",
+          "label": "Your 1st To 2nd Units Cost",
+          "costs": [
+            {
+              "models": 5,
+              "points": 75
+            },
+            {
+              "models": 10,
+              "points": 155
+            }
+          ]
+        },
+        {
+          "range": "[3,)",
+          "label": "Your 3rd + Unit Costs",
+          "costs": [
+            {
+              "models": 5,
+              "points": 85
+            },
+            {
+              "models": 10,
+              "points": 165
+            }
+          ]
+        }
+      ],
+      "points": 75,
+      "pointsLabel": "75/155",
+      "legends": false
+    },
+    {
+      "name": "Trojan Support Vehicle",
+      "normalizedName": "trojan support vehicle",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 80
+            }
+          ]
+        }
+      ],
+      "points": 80,
+      "pointsLabel": "80",
+      "legends": true
+    },
+    {
+      "name": "Ursula Creed",
+      "normalizedName": "ursula creed",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 85
+            }
+          ]
+        }
+      ],
+      "points": 85,
+      "pointsLabel": "85",
+      "legends": false,
+      "role": "leader",
+      "attachTo": [
+        "Cadian Shock Troops",
+        "Kasrkin"
+      ]
+    },
+    {
+      "name": "Valdor",
+      "normalizedName": "valdor",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 285
+            }
+          ]
+        }
+      ],
+      "points": 285,
+      "pointsLabel": "285",
+      "legends": true
+    },
+    {
+      "name": "Valkyrie",
+      "normalizedName": "valkyrie",
+      "pricing": [
+        {
+          "range": "[1,2]",
+          "label": "Your 1st To 2nd Units Cost",
+          "costs": [
+            {
+              "models": 1,
+              "points": 170
+            }
+          ]
+        },
+        {
+          "range": "[3,)",
+          "label": "Your 3rd + Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 180
+            }
+          ]
+        }
+      ],
+      "points": 170,
+      "pointsLabel": "170",
+      "legends": false
+    },
+    {
+      "name": "Valkyrie Sky Talon",
+      "normalizedName": "valkyrie sky talon",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 185
+            }
+          ]
+        }
+      ],
+      "points": 185,
+      "pointsLabel": "185",
+      "legends": true
+    },
+    {
+      "name": "Vendetta Gunship",
+      "normalizedName": "vendetta gunship",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 255
+            }
+          ]
+        }
+      ],
+      "points": 255,
+      "pointsLabel": "255",
+      "legends": true
+    },
+    {
+      "name": "Voss-Pattern Lightning",
+      "normalizedName": "voss pattern lightning",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 130
+            }
+          ]
+        }
+      ],
+      "points": 130,
+      "pointsLabel": "130",
+      "legends": true
+    },
+    {
+      "name": "Vulture Gunship",
+      "normalizedName": "vulture gunship",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 225
+            }
+          ]
+        }
+      ],
+      "points": 225,
+      "pointsLabel": "225",
+      "legends": true
+    },
+    {
+      "name": "Wyvern",
+      "normalizedName": "wyvern",
+      "pricing": [
+        {
+          "range": "[1,1]",
+          "label": "Your 1st Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 95
+            }
+          ]
+        },
+        {
+          "range": "[2,)",
+          "label": "Your 2nd + Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 115
+            }
+          ]
+        }
+      ],
+      "points": 95,
+      "pointsLabel": "95",
+      "legends": false
+    }
+  ]
+}

@@ -69,6 +69,25 @@
           "name": "Leader",
           "description": "This model can be attached to the following units:\n- DEATHWATCH VETERANS\n- FORTIS KILL TEAM"
         }
+      ],
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 95
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "95",
+      "mfmRole": "leader",
+      "attachTo": [
+        "Deathwatch Veterans",
+        "Decimus Kill Team",
+        "Fortis Kill Team"
       ]
     },
     {
@@ -141,6 +160,25 @@
           "name": "Leader",
           "description": "This model can be attached to the following units: \n- DEATHWATCH VETERANS\n- FORTIS KILL TEAM"
         }
+      ],
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 65
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "65",
+      "mfmRole": "leader",
+      "attachTo": [
+        "Deathwatch Veterans",
+        "Decimus Kill Team",
+        "Fortis Kill Team"
       ]
     },
     {
@@ -206,7 +244,20 @@
           "name": "Transport",
           "description": "This model has a transport capacity of 12 ADEPTUS ASTARTES INFANTRY or KILL TEAM models. Each JUMP PACK, GRAVIS or TERMINATOR model takes up the space of 2 models and each CENTURION model takes up the space of 3 models."
         }
-      ]
+      ],
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 180
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "180"
     },
     {
       "id": "4042-67ce-8d45-ed33",
@@ -407,7 +458,7 @@
     {
       "id": "390e-706b-a059-378b",
       "name": "Deathwatch Terminator Squad",
-      "points": 190,
+      "points": 180,
       "keywords": [
         "Infantry",
         "Imperium",
@@ -514,12 +565,29 @@
           "name": "Storm Shield",
           "description": "The bearer has a Wounds characteristic of 4."
         }
-      ]
+      ],
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 5,
+              "points": 180
+            },
+            {
+              "models": 10,
+              "points": 330
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "180/330"
     },
     {
       "id": "a077-e1c9-f8f0-d38",
       "name": "Fortis Kill Team",
-      "points": 180,
+      "points": 195,
       "keywords": [
         "Infantry",
         "Grenades",
@@ -588,12 +656,35 @@
           "name": "Attached Unit",
           "description": "If a CHARACTER from your army with the Leader ability can be attached to an INTERCESSOR SQUAD, it can be attached to this unit instead."
         }
-      ]
+      ],
+      "pricing": [
+        {
+          "range": "[1,2]",
+          "label": "Your 1st To 2nd Units Cost",
+          "costs": [
+            {
+              "models": 10,
+              "points": 195
+            }
+          ]
+        },
+        {
+          "range": "[3,)",
+          "label": "Your 3rd + Unit Costs",
+          "costs": [
+            {
+              "models": 10,
+              "points": 210
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "195"
     },
     {
       "id": "2544-5189-7806-30f3",
       "name": "Spectrus Kill Team",
-      "points": 180,
+      "points": 170,
       "keywords": [
         "Infantry",
         "Grenades",
@@ -684,12 +775,35 @@
           "name": "Infiltrator Comms Array",
           "description": "Each time you target the bearer’s unit with a Stratagem, roll one D6: on a 5+, you gain 1CP."
         }
-      ]
+      ],
+      "pricing": [
+        {
+          "range": "[1,2]",
+          "label": "Your 1st To 2nd Units Cost",
+          "costs": [
+            {
+              "models": 10,
+              "points": 170
+            }
+          ]
+        },
+        {
+          "range": "[3,)",
+          "label": "Your 3rd + Unit Costs",
+          "costs": [
+            {
+              "models": 10,
+              "points": 180
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "170"
     },
     {
       "id": "c679-f252-32b1-ebcc",
       "name": "Talonstrike Kill Team",
-      "points": 275,
+      "points": 265,
       "keywords": [
         "Infantry",
         "Fly",
@@ -802,7 +916,30 @@
           "name": "Attached Unit",
           "description": "If a CHARACTER unit from your army with the Leader ability can be attached to an ASSAULT INTERCESSORS WITH JUMP PACKS unit, it can be attached to this unit instead."
         }
-      ]
+      ],
+      "pricing": [
+        {
+          "range": "[1,2]",
+          "label": "Your 1st To 2nd Units Cost",
+          "costs": [
+            {
+              "models": 10,
+              "points": 265
+            }
+          ]
+        },
+        {
+          "range": "[3,)",
+          "label": "Your 3rd + Unit Costs",
+          "costs": [
+            {
+              "models": 10,
+              "points": 280
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "265"
     },
     {
       "id": "b169-ff89-b05e-3884",
@@ -1085,7 +1222,24 @@
           "name": "Astartes shield",
           "description": "The bearer has a 4+ invulnerable save."
         }
-      ]
+      ],
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 5,
+              "points": 100
+            },
+            {
+              "models": 10,
+              "points": 190
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "100/190"
     },
     {
       "id": "ab41-fdc1-8d0f-bb74",

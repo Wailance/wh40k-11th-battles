@@ -1,0 +1,736 @@
+{
+  "slug": "chaos-knights",
+  "name": "Chaos Knights",
+  "version": "1.0",
+  "firstSeen": "2026-06-17",
+  "detachments": [
+    {
+      "name": "Bastions Of Tyranny",
+      "dp": 1,
+      "objective": "DISRUPTION",
+      "enhancements": [
+        {
+          "name": "Hate-filled Dominion",
+          "points": 20,
+          "detachment": "Bastions Of Tyranny"
+        },
+        {
+          "name": "Pterrorshade Rookery",
+          "points": 20,
+          "detachment": "Bastions Of Tyranny"
+        }
+      ]
+    },
+    {
+      "name": "Helhunt Lance",
+      "dp": 2,
+      "objective": "DISRUPTION",
+      "enhancements": [
+        {
+          "name": "Aspect of the Beast",
+          "points": 30,
+          "detachment": "Helhunt Lance"
+        },
+        {
+          "name": "Hunter’s Helm",
+          "points": 15,
+          "detachment": "Helhunt Lance"
+        },
+        {
+          "name": "Octagram of Conjuration",
+          "points": 40,
+          "detachment": "Helhunt Lance"
+        },
+        {
+          "name": "Throne Tyrannicus",
+          "points": 25,
+          "detachment": "Helhunt Lance"
+        }
+      ]
+    },
+    {
+      "name": "Houndpack Lance",
+      "dp": 2,
+      "objective": "RECONNAISSANCE",
+      "enhancements": [
+        {
+          "name": "Final Howl",
+          "points": 20,
+          "detachment": "Houndpack Lance"
+        },
+        {
+          "name": "Loping Predator",
+          "points": 10,
+          "detachment": "Houndpack Lance"
+        },
+        {
+          "name": "Panoply of the Cursed Knights",
+          "points": 15,
+          "detachment": "Houndpack Lance"
+        },
+        {
+          "name": "Preyslayer’s Mantle",
+          "points": 15,
+          "detachment": "Houndpack Lance"
+        }
+      ]
+    },
+    {
+      "name": "Hunting Warpack",
+      "dp": 1,
+      "objective": "RECONNAISSANCE",
+      "enhancements": [
+        {
+          "name": "Snarling Rivalry (Upgrade)",
+          "points": 10,
+          "detachment": "Hunting Warpack"
+        },
+        {
+          "name": "Soul-spoor Auspicator (Upgrade)",
+          "points": 15,
+          "detachment": "Hunting Warpack"
+        }
+      ]
+    },
+    {
+      "name": "Iconoclast Fiefdom",
+      "dp": 1,
+      "objective": "TAKE AND HOLD",
+      "enhancements": [
+        {
+          "name": "Cruel Lashmaster (Aura)",
+          "points": 25,
+          "detachment": "Iconoclast Fiefdom"
+        },
+        {
+          "name": "Iconoclast Idol (Aura)",
+          "points": 20,
+          "detachment": "Iconoclast Fiefdom"
+        }
+      ]
+    },
+    {
+      "name": "Infernal Lance",
+      "dp": 3,
+      "objective": "PURGE THE FOE",
+      "enhancements": [
+        {
+          "name": "Bestial Aspect",
+          "points": 30,
+          "detachment": "Infernal Lance"
+        },
+        {
+          "name": "Blasphemous Engine",
+          "points": 35,
+          "detachment": "Infernal Lance"
+        },
+        {
+          "name": "Fleshmetal Fusion",
+          "points": 35,
+          "detachment": "Infernal Lance"
+        },
+        {
+          "name": "Knight Diabolus",
+          "points": 25,
+          "detachment": "Infernal Lance"
+        }
+      ]
+    },
+    {
+      "name": "Lords Of Dread",
+      "dp": 2,
+      "objective": "PRIORITY ASSETS",
+      "enhancements": [
+        {
+          "name": "Blade of Celerity",
+          "points": 35,
+          "detachment": "Lords Of Dread"
+        },
+        {
+          "name": "Blessing of the Dark Master",
+          "points": 20,
+          "detachment": "Lords Of Dread"
+        },
+        {
+          "name": "Mirror of Fates",
+          "points": 30,
+          "detachment": "Lords Of Dread"
+        },
+        {
+          "name": "Putrid Carapace",
+          "points": 30,
+          "detachment": "Lords Of Dread"
+        },
+        {
+          "name": "Throne Mechanicum of Skulls",
+          "points": 25,
+          "detachment": "Lords Of Dread"
+        },
+        {
+          "name": "Warp-borne Stalker",
+          "points": 25,
+          "detachment": "Lords Of Dread"
+        }
+      ]
+    },
+    {
+      "name": "Traitoris Lance",
+      "dp": 2,
+      "objective": "PURGE THE FOE",
+      "enhancements": [
+        {
+          "name": "Malevolent Heraldry",
+          "points": 30,
+          "detachment": "Traitoris Lance"
+        },
+        {
+          "name": "Nightmare’s Master",
+          "points": 20,
+          "detachment": "Traitoris Lance"
+        },
+        {
+          "name": "Tyrant’s Shadow",
+          "points": 25,
+          "detachment": "Traitoris Lance"
+        },
+        {
+          "name": "Veil of Medrengard",
+          "points": 35,
+          "detachment": "Traitoris Lance"
+        }
+      ]
+    }
+  ],
+  "units": [
+    {
+      "name": "Chaos Acastus Knight Asterius",
+      "normalizedName": "chaos acastus knight asterius",
+      "pricing": [
+        {
+          "range": "[1,1]",
+          "label": "Your 1st Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 785
+            }
+          ]
+        },
+        {
+          "range": "[2,)",
+          "label": "Your 2nd + Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 860
+            }
+          ]
+        }
+      ],
+      "points": 785,
+      "pointsLabel": "785",
+      "legends": false
+    },
+    {
+      "name": "Chaos Acastus Knight Porphyrion",
+      "normalizedName": "chaos acastus knight porphyrion",
+      "pricing": [
+        {
+          "range": "[1,1]",
+          "label": "Your 1st Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 725
+            }
+          ]
+        },
+        {
+          "range": "[2,)",
+          "label": "Your 2nd + Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 800
+            }
+          ]
+        }
+      ],
+      "points": 725,
+      "pointsLabel": "725",
+      "legends": false
+    },
+    {
+      "name": "Chaos Cerastus Knight Acheron",
+      "normalizedName": "chaos cerastus knight acheron",
+      "pricing": [
+        {
+          "range": "[1,1]",
+          "label": "Your 1st Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 370
+            }
+          ]
+        },
+        {
+          "range": "[2,)",
+          "label": "Your 2nd + Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 385
+            }
+          ]
+        }
+      ],
+      "points": 370,
+      "pointsLabel": "370",
+      "legends": false
+    },
+    {
+      "name": "Chaos Cerastus Knight Atrapos",
+      "normalizedName": "chaos cerastus knight atrapos",
+      "pricing": [
+        {
+          "range": "[1,1]",
+          "label": "Your 1st Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 395
+            }
+          ]
+        },
+        {
+          "range": "[2,)",
+          "label": "Your 2nd + Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 415
+            }
+          ]
+        }
+      ],
+      "points": 395,
+      "pointsLabel": "395",
+      "legends": false
+    },
+    {
+      "name": "Chaos Cerastus Knight Castigator",
+      "normalizedName": "chaos cerastus knight castigator",
+      "pricing": [
+        {
+          "range": "[1,1]",
+          "label": "Your 1st Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 370
+            }
+          ]
+        },
+        {
+          "range": "[2,)",
+          "label": "Your 2nd + Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 385
+            }
+          ]
+        }
+      ],
+      "points": 370,
+      "pointsLabel": "370",
+      "legends": false
+    },
+    {
+      "name": "Chaos Cerastus Knight Lancer",
+      "normalizedName": "chaos cerastus knight lancer",
+      "pricing": [
+        {
+          "range": "[1,1]",
+          "label": "Your 1st Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 395
+            }
+          ]
+        },
+        {
+          "range": "[2,)",
+          "label": "Your 2nd + Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 415
+            }
+          ]
+        }
+      ],
+      "points": 395,
+      "pointsLabel": "395",
+      "legends": false
+    },
+    {
+      "name": "Chaos Questoris Knight Magaera",
+      "normalizedName": "chaos questoris knight magaera",
+      "pricing": [
+        {
+          "range": "[1,1]",
+          "label": "Your 1st Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 375
+            }
+          ]
+        },
+        {
+          "range": "[2,)",
+          "label": "Your 2nd + Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 390
+            }
+          ]
+        }
+      ],
+      "points": 375,
+      "pointsLabel": "375",
+      "legends": false
+    },
+    {
+      "name": "Chaos Questoris Knight Styrix",
+      "normalizedName": "chaos questoris knight styrix",
+      "pricing": [
+        {
+          "range": "[1,1]",
+          "label": "Your 1st Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 365
+            }
+          ]
+        },
+        {
+          "range": "[2,)",
+          "label": "Your 2nd + Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 380
+            }
+          ]
+        }
+      ],
+      "points": 365,
+      "pointsLabel": "365",
+      "legends": false
+    },
+    {
+      "name": "Knight Abominant",
+      "normalizedName": "knight abominant",
+      "pricing": [
+        {
+          "range": "[1,2]",
+          "label": "Your 1st To 2nd Units Cost",
+          "costs": [
+            {
+              "models": 1,
+              "points": 355
+            }
+          ]
+        },
+        {
+          "range": "[3,)",
+          "label": "Your 3rd + Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 370
+            }
+          ]
+        }
+      ],
+      "points": 355,
+      "pointsLabel": "355",
+      "legends": false
+    },
+    {
+      "name": "Knight Desecrator",
+      "normalizedName": "knight desecrator",
+      "pricing": [
+        {
+          "range": "[1,2]",
+          "label": "Your 1st To 2nd Units Cost",
+          "costs": [
+            {
+              "models": 1,
+              "points": 355
+            }
+          ]
+        },
+        {
+          "range": "[3,)",
+          "label": "Your 3rd + Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 370
+            }
+          ]
+        }
+      ],
+      "points": 355,
+      "pointsLabel": "355",
+      "legends": false
+    },
+    {
+      "name": "Knight Despoiler",
+      "normalizedName": "knight despoiler",
+      "pricing": [
+        {
+          "range": "[1,1]",
+          "label": "Your 1st Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 380
+            }
+          ]
+        },
+        {
+          "range": "[2,)",
+          "label": "Your 2nd + Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 400
+            }
+          ]
+        }
+      ],
+      "points": 380,
+      "pointsLabel": "380",
+      "legends": false
+    },
+    {
+      "name": "Knight Rampager",
+      "normalizedName": "knight rampager",
+      "pricing": [
+        {
+          "range": "[1,2]",
+          "label": "Your 1st To 2nd Units Cost",
+          "costs": [
+            {
+              "models": 1,
+              "points": 365
+            }
+          ]
+        },
+        {
+          "range": "[3,)",
+          "label": "Your 3rd + Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 380
+            }
+          ]
+        }
+      ],
+      "points": 365,
+      "pointsLabel": "365",
+      "legends": false
+    },
+    {
+      "name": "Knight Ruinator",
+      "normalizedName": "knight ruinator",
+      "pricing": [
+        {
+          "range": "[1,2]",
+          "label": "Your 1st To 2nd Units Cost",
+          "costs": [
+            {
+              "models": 1,
+              "points": 340
+            }
+          ]
+        },
+        {
+          "range": "[3,)",
+          "label": "Your 3rd + Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 355
+            }
+          ]
+        }
+      ],
+      "points": 340,
+      "pointsLabel": "340",
+      "legends": false
+    },
+    {
+      "name": "Knight Tyrant",
+      "normalizedName": "knight tyrant",
+      "pricing": [
+        {
+          "range": "[1,1]",
+          "label": "Your 1st Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 400
+            }
+          ]
+        },
+        {
+          "range": "[2,)",
+          "label": "Your 2nd + Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 420
+            }
+          ]
+        }
+      ],
+      "points": 400,
+      "pointsLabel": "400",
+      "legends": false
+    },
+    {
+      "name": "War Dog Brigand",
+      "normalizedName": "war dog brigand",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 140
+            }
+          ]
+        }
+      ],
+      "points": 140,
+      "pointsLabel": "140",
+      "legends": false
+    },
+    {
+      "name": "War Dog Executioner",
+      "normalizedName": "war dog executioner",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 130
+            }
+          ]
+        }
+      ],
+      "points": 130,
+      "pointsLabel": "130",
+      "legends": false
+    },
+    {
+      "name": "War Dog Huntsman",
+      "normalizedName": "war dog huntsman",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 140
+            }
+          ]
+        }
+      ],
+      "points": 140,
+      "pointsLabel": "140",
+      "legends": false
+    },
+    {
+      "name": "War Dog Karnivore",
+      "normalizedName": "war dog karnivore",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 155
+            }
+          ]
+        }
+      ],
+      "points": 155,
+      "pointsLabel": "155",
+      "legends": false
+    },
+    {
+      "name": "War Dog Moirax",
+      "normalizedName": "war dog moirax",
+      "pricing": [
+        {
+          "range": "[1,2]",
+          "label": "Your 1st To 2nd Units Cost",
+          "costs": [
+            {
+              "models": 1,
+              "points": 150
+            }
+          ]
+        },
+        {
+          "range": "[3,)",
+          "label": "Your 3rd + Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 160
+            }
+          ]
+        }
+      ],
+      "points": 150,
+      "pointsLabel": "150",
+      "legends": false
+    },
+    {
+      "name": "War Dog Stalker",
+      "normalizedName": "war dog stalker",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 140
+            }
+          ]
+        }
+      ],
+      "points": 140,
+      "pointsLabel": "140",
+      "legends": false
+    }
+  ]
+}

@@ -1,0 +1,1391 @@
+{
+  "dfde-eaff-e63e-3aae": {
+    "groups": [
+      {
+        "id": "8ea1-404e-8cf3-fbc3",
+        "name": "Wargear",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "e055-be6d-68ad-83ef",
+            "name": "Armoured tracks",
+            "min": 1,
+            "max": 1
+          },
+          {
+            "id": "d70b-4812-759c-f036",
+            "name": "Soulshatter lascannon",
+            "min": 2,
+            "max": 2
+          },
+          {
+            "id": "2cfb-1343-986f-670d",
+            "name": "Havoc launcher",
+            "min": 0,
+            "max": 1
+          },
+          {
+            "id": "b35a-9bec-549c-03c0",
+            "name": "Twin inferno heavy bolter",
+            "min": 1,
+            "max": 1
+          }
+        ],
+        "groups": [
+          {
+            "id": "9d2e-6347-5b63-9e36",
+            "name": "Pintle weapon",
+            "min": 0,
+            "max": 1,
+            "mode": "single",
+            "options": [
+              {
+                "id": "4a57-c01e-abe3-73e4",
+                "name": "Inferno combi-bolter",
+                "min": 0,
+                "max": 99
+              },
+              {
+                "id": "8f06-9fcc-e637-d0e1",
+                "name": "Inferno combi-weapon",
+                "min": 0,
+                "max": 99
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "a619-beee-4bde-d049": {
+    "groups": [
+      {
+        "id": "ce0c-2f4c-0f48-c1c1",
+        "name": "Wargear",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "3514-c454-dfef-1efd",
+            "name": "Predator twin lascannon",
+            "min": 1,
+            "max": 1
+          },
+          {
+            "id": "ec17-174b-b12b-ae79",
+            "name": "Armoured tracks",
+            "min": 1,
+            "max": 1
+          },
+          {
+            "id": "32a6-87d1-264f-3814",
+            "name": "Havoc launcher",
+            "min": 0,
+            "max": 1
+          }
+        ],
+        "groups": [
+          {
+            "id": "f2d7-b453-d648-f8f8",
+            "name": "Pintle weapon",
+            "min": 0,
+            "max": 1,
+            "mode": "single",
+            "options": [
+              {
+                "id": "fc5a-1c4d-935c-a426",
+                "name": "Inferno combi-bolter",
+                "min": 0,
+                "max": 99
+              },
+              {
+                "id": "f85d-ae15-9f28-ab70",
+                "name": "Inferno combi-weapon",
+                "min": 0,
+                "max": 99
+              }
+            ]
+          },
+          {
+            "id": "61db-1c16-d7fa-792a",
+            "name": "Sponsons",
+            "min": 0,
+            "max": 1,
+            "mode": "single",
+            "options": [
+              {
+                "id": "975a-d856-a774-ff89",
+                "name": "2 inferno heavy bolters",
+                "min": 0,
+                "max": 99
+              },
+              {
+                "id": "426a-581a-0a3b-6b20",
+                "name": "2 lascannons",
+                "min": 0,
+                "max": 99
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "4819-dbbe-8547-4e23": {
+    "groups": [
+      {
+        "id": "6b9c-5274-e406-b0bb",
+        "name": "Wargear",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "b88d-bd5e-1047-9df1",
+            "name": "Predator autocannon",
+            "min": 1,
+            "max": 1
+          },
+          {
+            "id": "b11d-ef32-b4b3-7815",
+            "name": "Armoured tracks",
+            "min": 1,
+            "max": 1
+          },
+          {
+            "id": "ac53-76b8-41d9-920b",
+            "name": "Havoc launcher",
+            "min": 0,
+            "max": 1
+          }
+        ],
+        "groups": [
+          {
+            "id": "e25d-7490-615e-b60e",
+            "name": "Pintle weapon",
+            "min": 0,
+            "max": 1,
+            "mode": "single",
+            "options": [
+              {
+                "id": "2d9f-bc55-dfd4-842d",
+                "name": "Inferno combi-bolter",
+                "min": 0,
+                "max": 99
+              },
+              {
+                "id": "1c68-06ab-4525-e312",
+                "name": "Inferno combi-weapon",
+                "min": 0,
+                "max": 99
+              }
+            ]
+          },
+          {
+            "id": "fc22-1f56-ecc3-d381",
+            "name": "Sponsons",
+            "min": 0,
+            "max": 1,
+            "mode": "single",
+            "options": [
+              {
+                "id": "dc92-9f28-84b9-d3f7",
+                "name": "2 inferno heavy bolters",
+                "min": 0,
+                "max": 99
+              },
+              {
+                "id": "a39c-cc84-386a-b726",
+                "name": "2 lascannons",
+                "min": 0,
+                "max": 99
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "8d9b-b949-2557-dcc4": {
+    "groups": [
+      {
+        "id": "e057-b71f-8107-76f4",
+        "name": "Wargear",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "6fd5-c898-ad47-f1cf",
+            "name": "Armoured tracks",
+            "min": 1,
+            "max": 1
+          },
+          {
+            "id": "0624-7c56-316a-8415",
+            "name": "Havoc launcher",
+            "min": 0,
+            "max": 1
+          },
+          {
+            "id": "d9f1-1cfa-27a4-efcf",
+            "name": "Inferno combi-bolter",
+            "min": 1,
+            "max": 1
+          }
+        ],
+        "groups": [
+          {
+            "id": "2ad4-52d2-07b7-0e4e",
+            "name": "Pintle weapon",
+            "min": 0,
+            "max": 1,
+            "mode": "single",
+            "options": [
+              {
+                "id": "52f0-3e38-de3f-888a",
+                "name": "Inferno combi-bolter",
+                "min": 0,
+                "max": 99
+              },
+              {
+                "id": "47c3-93a7-bd31-9c7c",
+                "name": "Inferno combi-weapon",
+                "min": 0,
+                "max": 99
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "3413-b8fd-e22c-da4f": {
+    "groups": [
+      {
+        "id": "715b-1a67-4905-843a",
+        "name": "Wargear",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "509f-a334-b2a3-6f86",
+            "name": "Demolisher cannon",
+            "min": 1,
+            "max": 1
+          },
+          {
+            "id": "b117-c701-3e26-92ec",
+            "name": "Armoured tracks",
+            "min": 1,
+            "max": 1
+          },
+          {
+            "id": "ac50-0327-986a-426f",
+            "name": "Havoc launcher",
+            "min": 0,
+            "max": 1
+          }
+        ],
+        "groups": [
+          {
+            "id": "eeda-848d-1bf0-1a44",
+            "name": "Pintle weapon",
+            "min": 0,
+            "max": 1,
+            "mode": "single",
+            "options": [
+              {
+                "id": "bace-1084-14bb-b61c",
+                "name": "Inferno combi-bolter",
+                "min": 0,
+                "max": 99
+              },
+              {
+                "id": "4ee7-e580-b224-cadd",
+                "name": "Inferno combi-weapon",
+                "min": 0,
+                "max": 99
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "c3a6-8fab-45f0-2d45": {
+    "groups": [
+      {
+        "id": "67e3-8813-7978-2be8",
+        "name": "Wargear",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "a289-aacb-7152-e243",
+            "name": "Astral Blast",
+            "min": 1,
+            "max": 1
+          },
+          {
+            "id": "ce11-db3f-1373-27f7",
+            "name": "Prosperine khopesh",
+            "min": 0,
+            "max": 1
+          },
+          {
+            "id": "5806-4bb1-dc86-3dfe",
+            "name": "Force weapon",
+            "min": 1,
+            "max": 1
+          },
+          {
+            "id": "30b2-be5e-cb23-1297",
+            "name": "Inferno bolt pistol",
+            "min": 1,
+            "max": 1
+          }
+        ]
+      }
+    ]
+  },
+  "1724-8c9c-c385-16c6": {
+    "groups": [
+      {
+        "id": "8c40-dad8-a526-8dce",
+        "name": "Wargear",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "aac1-5b0f-4802-1628",
+            "name": "Arcane Fire",
+            "min": 1,
+            "max": 1
+          },
+          {
+            "id": "6633-5a38-bd55-b080",
+            "name": "Prosperine khopesh",
+            "min": 0,
+            "max": 1
+          },
+          {
+            "id": "70dd-66c6-168e-6e1b",
+            "name": "Force weapon",
+            "min": 1,
+            "max": 1
+          },
+          {
+            "id": "02ac-b473-eceb-cec6",
+            "name": "Inferno bolt pistol",
+            "min": 1,
+            "max": 1
+          }
+        ]
+      }
+    ]
+  },
+  "d2f1-7a0b-f7cd-9b46": {
+    "groups": [
+      {
+        "id": "32cb-3e08-ef78-83d7",
+        "name": "Wargear",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [],
+        "groups": [
+          {
+            "id": "4d3e-2b97-b454-3d7f",
+            "name": "Arm weapons",
+            "min": 1,
+            "max": 1,
+            "mode": "single",
+            "options": [
+              {
+                "id": "fec5-e124-8087-f325",
+                "name": "2 ectoplasma cannons",
+                "min": 0,
+                "max": 99
+              },
+              {
+                "id": "b823-4584-3dbb-630f",
+                "name": "2 Hades autocannons",
+                "min": 0,
+                "max": 99
+              }
+            ],
+            "defaultOptionId": "b823-4584-3dbb-630f"
+          },
+          {
+            "id": "d383-52b3-19ac-8857",
+            "name": "Head weapons",
+            "min": 1,
+            "max": 1,
+            "mode": "single",
+            "options": [
+              {
+                "id": "5e9a-394b-88b5-f214",
+                "name": "Ectoplasma cannon and claws",
+                "min": 0,
+                "max": 99,
+                "equippedWith": "Ectoplasma cannon"
+              },
+              {
+                "id": "be1b-b18d-4326-354d",
+                "name": "Forgefiend jaws",
+                "min": 0,
+                "max": 99
+              }
+            ],
+            "defaultOptionId": "be1b-b18d-4326-354d"
+          }
+        ]
+      }
+    ]
+  },
+  "5b9d-e3c1-3d55-8276": {
+    "groups": [
+      {
+        "id": "bd5b-4d8e-45f8-ff57",
+        "name": "Wargear",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "f9b2-770d-a8b2-f424",
+            "name": "Close combat weapon",
+            "min": 1,
+            "max": 1
+          }
+        ],
+        "groups": [
+          {
+            "id": "3250-368d-9b09-868c",
+            "name": "Missile launcher",
+            "min": 1,
+            "max": 1,
+            "mode": "single",
+            "options": [
+              {
+                "id": "cb0a-2c6b-6950-4488",
+                "name": "Helbrute fist with combi-bolter",
+                "min": 0,
+                "max": 99,
+                "equippedWith": "Inferno combi-bolter"
+              },
+              {
+                "id": "7293-b47f-8164-044a",
+                "name": "Helbrute fist with heavy flamer",
+                "min": 0,
+                "max": 99,
+                "equippedWith": "Heavy flamer"
+              },
+              {
+                "id": "11e3-15ae-a71f-bac2",
+                "name": "Missile launcher",
+                "min": 0,
+                "max": 99
+              },
+              {
+                "id": "d3af-1293-c37d-b7c9",
+                "name": "Helbrute hammer",
+                "min": 0,
+                "max": 99
+              },
+              {
+                "id": "691c-392e-e6fa-bfda",
+                "name": "Power scourge",
+                "min": 0,
+                "max": 99
+              }
+            ],
+            "defaultOptionId": "11e3-15ae-a71f-bac2"
+          },
+          {
+            "id": "5b29-36f3-b177-11a4",
+            "name": "Multi-melta",
+            "min": 1,
+            "max": 1,
+            "mode": "single",
+            "options": [
+              {
+                "id": "2063-7ca0-4f04-67b2",
+                "name": "Multi-melta",
+                "min": 0,
+                "max": 99
+              },
+              {
+                "id": "9d6a-5792-153d-04dc",
+                "name": "Twin autocannon",
+                "min": 0,
+                "max": 99
+              },
+              {
+                "id": "9456-47a3-cea0-758f",
+                "name": "Helbrute fist with heavy flamer",
+                "min": 0,
+                "max": 99,
+                "equippedWith": "Heavy flamer"
+              },
+              {
+                "id": "bec7-d288-9aba-14f7",
+                "name": "Helbrute fist with combi-bolter",
+                "min": 0,
+                "max": 99,
+                "equippedWith": "Inferno combi-bolter"
+              },
+              {
+                "id": "6ee6-f95d-ca4b-db5",
+                "name": "Helbrute plasma cannon",
+                "min": 0,
+                "max": 99
+              },
+              {
+                "id": "af90-a116-6d53-fe6b",
+                "name": "Twin inferno heavy bolter",
+                "min": 0,
+                "max": 99
+              },
+              {
+                "id": "3c0c-3dd9-7ee5-f57d",
+                "name": "Twin lascannon",
+                "min": 0,
+                "max": 99
+              }
+            ],
+            "defaultOptionId": "2063-7ca0-4f04-67b2"
+          }
+        ]
+      }
+    ]
+  },
+  "637a-d542-35aa-e95c": {
+    "groups": [
+      {
+        "id": "9468-6403-607a-ef47",
+        "name": "Wargear",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "3909-775d-af46-a19d",
+            "name": "Heldrake claws",
+            "min": 1,
+            "max": 1
+          }
+        ],
+        "groups": [
+          {
+            "id": "b4e7-f0ab-85d9-fe96",
+            "name": "Mouth weapon",
+            "min": 1,
+            "max": 1,
+            "mode": "single",
+            "options": [
+              {
+                "id": "7b86-6653-3e32-e675",
+                "name": "Baleflamer",
+                "min": 0,
+                "max": 99
+              },
+              {
+                "id": "d961-28f5-0f50-4cf5",
+                "name": "Hades autocannon",
+                "min": 0,
+                "max": 99
+              }
+            ],
+            "defaultOptionId": "d961-28f5-0f50-4cf5"
+          }
+        ]
+      }
+    ]
+  },
+  "1693-5e00-da69-57bb": {
+    "groups": [
+      {
+        "id": "701c-0b68-ef45-6b0f",
+        "name": "Wargear",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "80c8-2d1f-34ff-ef15",
+            "name": "Fires of the Abyss",
+            "min": 1,
+            "max": 1
+          },
+          {
+            "id": "c75f-fd3a-f664-0c44",
+            "name": "Force weapon",
+            "min": 1,
+            "max": 1
+          },
+          {
+            "id": "97cf-da20-69cb-39f1",
+            "name": "Inferno bolt pistol",
+            "min": 1,
+            "max": 1
+          }
+        ]
+      }
+    ]
+  },
+  "f2aa-19fd-335a-09b3": {
+    "groups": [
+      {
+        "id": "fb22-6552-c510-455d",
+        "name": "Wargear",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "47cf-0787-c8ff-6d7f",
+            "name": "Maulerfiend fists",
+            "min": 1,
+            "max": 1
+          }
+        ],
+        "groups": [
+          {
+            "id": "e083-530c-f89d-c263",
+            "name": "Head weapons",
+            "min": 1,
+            "max": 1,
+            "mode": "single",
+            "options": [
+              {
+                "id": "e99f-0547-cac6-7f6d",
+                "name": "2 magma cutters",
+                "min": 0,
+                "max": 99
+              },
+              {
+                "id": "eee7-3197-b7f1-257f",
+                "name": "Lasher tendrils",
+                "min": 0,
+                "max": 99
+              }
+            ],
+            "defaultOptionId": "eee7-3197-b7f1-257f"
+          }
+        ]
+      }
+    ]
+  },
+  "094c-c618-92c1-b394": {
+    "groups": [
+      {
+        "id": "9291-334c-c5ec-312a",
+        "name": "Wargear",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "9c5d-bc02-6aa5-5ea5",
+            "name": "Betentacled maw",
+            "min": 1,
+            "max": 1
+          },
+          {
+            "id": "45f1-70f8-afbb-cef6",
+            "name": "Mutalith claws",
+            "min": 1,
+            "max": 1
+          },
+          {
+            "id": "28a1-1e37-20c9-e18e",
+            "name": "Warp vortex",
+            "min": 1,
+            "max": 1
+          }
+        ]
+      }
+    ]
+  },
+  "5d3d-e13b-8b76-dad3": {
+    "groups": [
+      {
+        "id": "cf91-4bac-8211-36f8",
+        "name": "4-9 Rubric Marines",
+        "min": 4,
+        "max": 9,
+        "mode": "count",
+        "options": [
+          {
+            "id": "1901-5e60-1564-2562",
+            "name": "Rubric Marine w/ inferno boltgun",
+            "min": 0,
+            "max": 9
+          },
+          {
+            "id": "b005-ca60-ce5b-89c7",
+            "name": "Rubric Marine w/ warpflamer",
+            "min": 0,
+            "max": 9
+          },
+          {
+            "id": "3cbf-631a-2bbe-6b54",
+            "name": "Rubric Marine w/ soulreaper cannon",
+            "min": 0,
+            "max": 1
+          }
+        ],
+        "defaultOptionId": "1901-5e60-1564-2562"
+      }
+    ]
+  },
+  "b1cf-c5-5121-92a4": {
+    "groups": [
+      {
+        "id": "9fbe-3d53-a375-b987",
+        "name": "4-9 Scarab Occult Terminators",
+        "min": 4,
+        "max": 9,
+        "mode": "count",
+        "options": [
+          {
+            "id": "a7ee-9112-4e83-bc2",
+            "name": "Scarab Occult Terminator",
+            "min": 3,
+            "max": 9
+          }
+        ],
+        "defaultOptionId": "a7ee-9112-4e83-bc2",
+        "groups": [
+          {
+            "id": "b7c1-a071-542e-a06d",
+            "name": "Heavy weapons",
+            "min": 0,
+            "max": 2,
+            "mode": "count",
+            "options": [
+              {
+                "id": "6bc9-f53a-e7e6-19bc",
+                "name": "Scarab Occult Terminator w/ heavy warpflamer",
+                "min": 0,
+                "max": 2
+              },
+              {
+                "id": "f0e4-fd2b-1ba8-7234",
+                "name": "Scarab Occult Terminator w/ soulreaper cannon",
+                "min": 0,
+                "max": 2
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "af1e-9a3d-785c-47f8": {
+    "groups": [
+      {
+        "id": "f7f4-144a-57c6-eb8e",
+        "name": "Wargear",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "d022-6024-e491-6dab",
+            "name": "Pandaemonic Delusion",
+            "min": 1,
+            "max": 1
+          },
+          {
+            "id": "3270-0f2d-f9bc-cf75",
+            "name": "Prosperine khopesh",
+            "min": 0,
+            "max": 1
+          },
+          {
+            "id": "d186-45a2-c7df-2dd1",
+            "name": "Force weapon",
+            "min": 1,
+            "max": 1
+          },
+          {
+            "id": "cc11-59d3-1b6f-e31",
+            "name": "Inferno bolt pistol",
+            "min": 1,
+            "max": 1
+          }
+        ]
+      }
+    ]
+  },
+  "c6d1-e73b-9d26-5d8b": {
+    "groups": [
+      {
+        "id": "1bea-306c-8736-6c68",
+        "name": "Wargear",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "c95f-7907-e078-7e21",
+            "name": "Gaze of Hate",
+            "min": 1,
+            "max": 1
+          },
+          {
+            "id": "c91f-5744-df83-a6d6",
+            "name": "Force weapon",
+            "min": 1,
+            "max": 1
+          }
+        ],
+        "groups": [
+          {
+            "id": "9aa0-dc42-925d-d363",
+            "name": "Weapon",
+            "min": 1,
+            "max": 1,
+            "mode": "single",
+            "options": [
+              {
+                "id": "a666-c777-6011-2e07",
+                "name": "Inferno combi-bolter",
+                "min": 0,
+                "max": 99
+              },
+              {
+                "id": "d865-2701-330e-86f5",
+                "name": "Inferno combi-weapon",
+                "min": 0,
+                "max": 99
+              }
+            ],
+            "defaultOptionId": "a666-c777-6011-2e07"
+          }
+        ]
+      }
+    ]
+  },
+  "eccd-e442-607b-3fd0": {
+    "groups": [
+      {
+        "id": "52c2-6c86-e602-0a4d",
+        "name": "Wargear",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "2c13-987d-af52-f470",
+            "name": "Dark Blessing",
+            "min": 1,
+            "max": 1
+          },
+          {
+            "id": "7a23-4fb7-d853-53cd",
+            "name": "Hellforged weapons",
+            "min": 1,
+            "max": 1
+          },
+          {
+            "id": "af4c-b6f8-bbcf-301c",
+            "name": "Infernal cannon",
+            "min": 1,
+            "max": 1
+          }
+        ]
+      }
+    ]
+  },
+  "66f4-929e-1769-f277": {
+    "groups": [
+      {
+        "id": "ed85-1f50-0f71-e9a8",
+        "name": "Wargear",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "7205-f4fe-f064-0edf",
+            "name": "Dark Blessing",
+            "min": 1,
+            "max": 1
+          },
+          {
+            "id": "ca9c-de3c-61e1-31",
+            "name": "Hellforged weapons",
+            "min": 1,
+            "max": 1
+          },
+          {
+            "id": "2313-45a2-28ff-c81a",
+            "name": "Infernal cannon",
+            "min": 1,
+            "max": 1
+          }
+        ]
+      }
+    ]
+  },
+  "1703-3edd-5eb3-fcef": {
+    "groups": [
+      {
+        "id": "9e3b-1347-c0c9-c6d1",
+        "name": "2-5 Enlightened",
+        "min": 2,
+        "max": 5,
+        "mode": "count",
+        "options": [
+          {
+            "id": "996-bd56-400b-a51e",
+            "name": "Divining spear Enlightened",
+            "min": 0,
+            "max": 5
+          },
+          {
+            "id": "dea2-b1ac-8670-c1d0",
+            "name": "Pistol and chainsword Enlightened",
+            "min": 0,
+            "max": 5
+          }
+        ],
+        "defaultOptionId": "996-bd56-400b-a51e"
+      }
+    ]
+  },
+  "c251-bd54-441-4799": {
+    "groups": [
+      {
+        "id": "2285-98f5-f8cc-c8c9",
+        "name": "Wargear",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "1a98-844f-f54b-f76c",
+            "name": "Baleful Devolution",
+            "min": 1,
+            "max": 1
+          },
+          {
+            "id": "4287-4c82-30d5-bfaa",
+            "name": "Force stave",
+            "min": 1,
+            "max": 1
+          }
+        ]
+      }
+    ]
+  },
+  "f5b9-50c8-5c60-d8ea": {
+    "groups": [
+      {
+        "id": "4e4e-d54e-2597-521e",
+        "name": "9-19 Tzaangors",
+        "min": 9,
+        "max": 19,
+        "mode": "count",
+        "options": [
+          {
+            "id": "5b9-7d59-48fd-b485",
+            "name": "Tzaangor w/ Tzaangor blades",
+            "min": 0,
+            "max": 19
+          },
+          {
+            "id": "c0b0-d4f8-c617-7c2a",
+            "name": "Tzaangor w/ pistol and chainsword",
+            "min": 0,
+            "max": 19
+          }
+        ],
+        "defaultOptionId": "5b9-7d59-48fd-b485"
+      },
+      {
+        "id": "70a4-9194-b0ad-ef03",
+        "name": "Wargear",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "1e68-75a-f434-7977",
+            "name": "Brayhorn",
+            "min": 0,
+            "max": 1
+          },
+          {
+            "id": "a61b-434-6817-679a",
+            "name": "Herd banner",
+            "min": 0,
+            "max": 1
+          }
+        ]
+      }
+    ]
+  },
+  "c4ab-b52d-3ac0-5d56": {
+    "groups": [
+      {
+        "id": "d656-3a3b-1b6d-3089",
+        "name": "Wargear",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "6c57-6e9c-bba8-2f9c",
+            "name": "Armoured hull",
+            "min": 1,
+            "max": 1
+          }
+        ],
+        "groups": [
+          {
+            "id": "c52-36d-6176-e5f3",
+            "name": "Weapons",
+            "min": 1,
+            "max": 1,
+            "mode": "single",
+            "options": [
+              {
+                "id": "5458-cada-e165-8841",
+                "name": "Two twin autocannons",
+                "min": 0,
+                "max": 99
+              },
+              {
+                "id": "1458-a889-4ebd-163",
+                "name": "Two twin lascannons",
+                "min": 0,
+                "max": 99
+              }
+            ],
+            "defaultOptionId": "5458-cada-e165-8841"
+          }
+        ]
+      }
+    ]
+  },
+  "3a8-a34f-76aa-b56a": {
+    "groups": [
+      {
+        "id": "c287-45bd-b052-8372",
+        "name": "Wargear",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "912-2fb3-d0d2-8f69",
+            "name": "Armoured hull",
+            "min": 1,
+            "max": 1
+          },
+          {
+            "id": "72cf-65c6-3ff5-b58",
+            "name": "Twin lascannon",
+            "min": 1,
+            "max": 1
+          }
+        ],
+        "groups": [
+          {
+            "id": "b6c3-cfc7-193f-2537",
+            "name": "Autocannon",
+            "min": 1,
+            "max": 1,
+            "mode": "single",
+            "options": [
+              {
+                "id": "18e5-8db7-a6a4-be6a",
+                "name": "Autocannon",
+                "min": 0,
+                "max": 99
+              },
+              {
+                "id": "dfd3-cff9-3f5c-4fc9",
+                "name": "Havoc launcher",
+                "min": 0,
+                "max": 1
+              }
+            ],
+            "defaultOptionId": "18e5-8db7-a6a4-be6a"
+          }
+        ]
+      }
+    ]
+  },
+  "fe4b-b3a4-69b7-3088": {
+    "groups": [
+      {
+        "id": "132c-8448-794f-fb9b",
+        "name": "2-4 Sekhetar Robots",
+        "min": 2,
+        "max": 4,
+        "mode": "count",
+        "options": [
+          {
+            "id": "4ba8-dbf3-05f9-f868",
+            "name": "Sekhetar Robot w/ pyreflux meltagun",
+            "min": 0,
+            "max": 4,
+            "groups": [
+              {
+                "id": "bfd9-68f1-7a7a-a4f7",
+                "name": "Wargear",
+                "min": 0,
+                "max": 99,
+                "mode": "count",
+                "options": [
+                  {
+                    "id": "ce35-c6e4-d9cc-799c",
+                    "name": "Pyreflux meltagun",
+                    "min": 1,
+                    "max": 1
+                  },
+                  {
+                    "id": "2b80-f636-17fd-89fe",
+                    "name": "Close combat weapon",
+                    "min": 1,
+                    "max": 1
+                  },
+                  {
+                    "id": "4b11-a751-b94b-40c6",
+                    "name": "Heavy warpflamer",
+                    "min": 1,
+                    "max": 1
+                  },
+                  {
+                    "id": "9aee-4a26-68f2-e4a4",
+                    "name": "Hellfyre missile rack",
+                    "min": 1,
+                    "max": 1
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "d8c0-4c15-8ae1-89a0",
+            "name": "Sekhetar Robot w/ warpflame projector and claw",
+            "min": 0,
+            "max": 4,
+            "groups": [
+              {
+                "id": "17a7-f305-80ea-0505",
+                "name": "Wargear",
+                "min": 0,
+                "max": 99,
+                "mode": "count",
+                "options": [
+                  {
+                    "id": "c750-53a1-414b-eb5d",
+                    "name": "Power claw",
+                    "min": 1,
+                    "max": 1
+                  },
+                  {
+                    "id": "5ef7-0e23-839e-2404",
+                    "name": "Warpflame projector",
+                    "min": 1,
+                    "max": 1
+                  },
+                  {
+                    "id": "5651-28c5-1568-e657",
+                    "name": "Close combat weapon",
+                    "min": 1,
+                    "max": 1
+                  },
+                  {
+                    "id": "f1b1-c56e-5cae-4c13",
+                    "name": "Heavy warpflamer",
+                    "min": 1,
+                    "max": 1
+                  },
+                  {
+                    "id": "ac3e-7d12-0d4e-6fe6",
+                    "name": "Hellfyre missile rack",
+                    "min": 1,
+                    "max": 1
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "defaultOptionId": "4ba8-dbf3-05f9-f868"
+      }
+    ]
+  },
+  "c964-c75a-2a9d-e451": {
+    "groups": [
+      {
+        "id": "4037-410f-2002-8bd6",
+        "name": "Wargear",
+        "min": 0,
+        "max": 1,
+        "mode": "single",
+        "options": [
+          {
+            "id": "f698-1f0c-2933-ff77",
+            "name": "Rod of sorcery",
+            "min": 0,
+            "max": 1
+          },
+          {
+            "id": "d8af-81c8-9820-ed92",
+            "name": "Baleful sword",
+            "min": 0,
+            "max": 1
+          }
+        ]
+      }
+    ]
+  },
+  "f158-2979-c38b-65b5": {
+    "groups": [
+      {
+        "id": "c260-f7aa-690e-fd7e",
+        "name": "Wargear",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "636b-f3ef-1a09-d692",
+            "name": "Shearing claws",
+            "min": 1,
+            "max": 1
+          }
+        ],
+        "groups": [
+          {
+            "id": "c318-ba99-2ff2-3dc2",
+            "name": "Replace heavy missile launcher",
+            "min": 1,
+            "max": 1,
+            "mode": "single",
+            "options": [
+              {
+                "id": "55b3-3624-8fa7-390e",
+                "name": "Heavy missile launcher",
+                "min": 0,
+                "max": 99
+              },
+              {
+                "id": "4c8c-e513-b25e-ed23",
+                "name": "Electroscourge",
+                "min": 0,
+                "max": 99
+              },
+              {
+                "id": "1d0a-f8ca-03b1-f1e5",
+                "name": "Hades lascannon",
+                "min": 0,
+                "max": 99
+              },
+              {
+                "id": "b9fb-f8bb-f436-dd8f",
+                "name": "Heavy reaper autocannon",
+                "min": 0,
+                "max": 99
+              }
+            ],
+            "defaultOptionId": "55b3-3624-8fa7-390e"
+          },
+          {
+            "id": "81bb-658e-78ef-37ff",
+            "name": "Main cannon",
+            "min": 1,
+            "max": 1,
+            "mode": "single",
+            "options": [
+              {
+                "id": "49ea-848f-4cd2-a3dc",
+                "name": "Hades battle cannon",
+                "min": 0,
+                "max": 99
+              },
+              {
+                "id": "78be-1bfa-16ca-f674",
+                "name": "Ectoplasma destructor",
+                "min": 0,
+                "max": 99
+              }
+            ],
+            "defaultOptionId": "49ea-848f-4cd2-a3dc"
+          },
+          {
+            "id": "b7e6-a5ef-3dcd-4d13",
+            "name": "Replace heavy baleflamer",
+            "min": 1,
+            "max": 1,
+            "mode": "single",
+            "options": [
+              {
+                "id": "e052-fc58-50c7-8c26",
+                "name": "Heavy baleflamer",
+                "min": 0,
+                "max": 99
+              },
+              {
+                "id": "c34c-7e2b-9758-f473",
+                "name": "Electroscourge",
+                "min": 0,
+                "max": 99
+              },
+              {
+                "id": "66a7-6c3d-5eed-9e06",
+                "name": "Hades lascannon",
+                "min": 0,
+                "max": 99
+              },
+              {
+                "id": "5096-9f9b-0bf8-ce5f",
+                "name": "Heavy reaper autocannon",
+                "min": 0,
+                "max": 99
+              }
+            ],
+            "defaultOptionId": "e052-fc58-50c7-8c26"
+          },
+          {
+            "id": "4884-4b5b-9235-1fe9",
+            "name": "Replace excruciator cannons",
+            "min": 1,
+            "max": 1,
+            "mode": "single",
+            "options": [
+              {
+                "id": "c089-546a-0546-3537",
+                "name": "Two excruciator cannons",
+                "min": 0,
+                "max": 99
+              },
+              {
+                "id": "5a63-99ab-ac2c-d112",
+                "name": "Two pyraflux magma cutters",
+                "min": 0,
+                "max": 99
+              }
+            ],
+            "defaultOptionId": "c089-546a-0546-3537"
+          }
+        ]
+      }
+    ]
+  }
+}

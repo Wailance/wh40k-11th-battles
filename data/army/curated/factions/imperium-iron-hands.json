@@ -6,7 +6,7 @@
     {
       "id": "6c9d-4ec3-69dd-90b2",
       "name": "Iron Father Feirros",
-      "points": 95,
+      "points": 85,
       "keywords": [
         "Character",
         "Epic Hero",
@@ -86,12 +86,31 @@
           "name": "Inspiring Commander",
           "description": "If you include this model in your army, until the end of the battle, non-Character models in Heavy\nIntercessor Squad units from your army have an Objective Control characteristic of 3 while they are\nnot Battle-shocked."
         }
+      ],
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 85
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "85",
+      "mfmRole": "leader",
+      "attachTo": [
+        "Aggressor Squad",
+        "Eradicator Squad",
+        "Heavy Intercessor Squad"
       ]
     },
     {
       "id": "efbb-2823-7b70-5a7a",
       "name": "Caanok Var",
-      "points": 100,
+      "points": 90,
       "keywords": [
         "Infantry",
         "Character",
@@ -148,6 +167,25 @@
           "name": "Leader",
           "description": "This model can be attached to the following units: Terminator Assault Squad, Terminator Squad"
         }
+      ],
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 90
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "90",
+      "mfmRole": "leader",
+      "attachTo": [
+        "Relic Terminator Squad",
+        "Terminator Assault Squad",
+        "Terminator Squad"
       ]
     }
   ],

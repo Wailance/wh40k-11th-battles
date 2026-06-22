@@ -1,0 +1,1648 @@
+{
+  "slug": "tau-empire",
+  "name": "T’au Empire",
+  "version": "1.0",
+  "firstSeen": "2026-06-17",
+  "detachments": [
+    {
+      "name": "Advanced Acquisition Cadre",
+      "dp": 1,
+      "objective": "RECONNAISSANCE",
+      "enhancements": [
+        {
+          "name": "Negation Emitters (Upgrade)",
+          "points": 15,
+          "detachment": "Advanced Acquisition Cadre"
+        },
+        {
+          "name": "Unmasking Suite (Upgrade)",
+          "points": 15,
+          "detachment": "Advanced Acquisition Cadre"
+        }
+      ]
+    },
+    {
+      "name": "Auxiliary Cadre",
+      "dp": 1,
+      "objective": "DISRUPTION",
+      "enhancements": [
+        {
+          "name": "Admired Leader",
+          "points": 20,
+          "detachment": "Auxiliary Cadre"
+        },
+        {
+          "name": "Student of Kauyon",
+          "points": 20,
+          "detachment": "Auxiliary Cadre"
+        }
+      ]
+    },
+    {
+      "name": "Experimental Prototype Cadre",
+      "dp": 1,
+      "objective": "PRIORITY ASSETS",
+      "enhancements": [
+        {
+          "name": "Plasma Accelerator Rifle",
+          "points": 20,
+          "detachment": "Experimental Prototype Cadre"
+        },
+        {
+          "name": "Supernova Launcher",
+          "points": 15,
+          "detachment": "Experimental Prototype Cadre"
+        },
+        {
+          "name": "Thermoneutronic Projector",
+          "points": 15,
+          "detachment": "Experimental Prototype Cadre"
+        }
+      ]
+    },
+    {
+      "name": "Kauyon",
+      "dp": 2,
+      "objective": "PRIORITY ASSETS",
+      "enhancements": [
+        {
+          "name": "Exemplar of the Kauyon",
+          "points": 20,
+          "detachment": "Kauyon"
+        },
+        {
+          "name": "Precision of the Patient Hunter",
+          "points": 15,
+          "detachment": "Kauyon"
+        },
+        {
+          "name": "Solid-image Projection Unit",
+          "points": 20,
+          "detachment": "Kauyon"
+        },
+        {
+          "name": "Through Unity, Devastation",
+          "points": 30,
+          "detachment": "Kauyon"
+        }
+      ]
+    },
+    {
+      "name": "Kroot Hunting Pack",
+      "dp": 2,
+      "objective": "TAKE AND HOLD",
+      "enhancements": [
+        {
+          "name": "Borthrod Gland",
+          "points": 15,
+          "detachment": "Kroot Hunting Pack"
+        },
+        {
+          "name": "Kroothawk Flock",
+          "points": 10,
+          "detachment": "Kroot Hunting Pack"
+        },
+        {
+          "name": "Nomadic Hunter",
+          "points": 20,
+          "detachment": "Kroot Hunting Pack"
+        },
+        {
+          "name": "Root-carved Weapons",
+          "points": 10,
+          "detachment": "Kroot Hunting Pack"
+        }
+      ]
+    },
+    {
+      "name": "Mont’Ka",
+      "dp": 3,
+      "objective": "PURGE THE FOE",
+      "enhancements": [
+        {
+          "name": "Coordinated Exploitation",
+          "points": 30,
+          "detachment": "Mont’Ka"
+        },
+        {
+          "name": "Exemplar of the Mont’ka",
+          "points": 10,
+          "detachment": "Mont’Ka"
+        },
+        {
+          "name": "Strategic Conqueror",
+          "points": 15,
+          "detachment": "Mont’Ka"
+        },
+        {
+          "name": "Strike Swiftly",
+          "points": 35,
+          "detachment": "Mont’Ka"
+        }
+      ]
+    },
+    {
+      "name": "Retaliation Cadre",
+      "dp": 2,
+      "objective": "PURGE THE FOE",
+      "enhancements": [
+        {
+          "name": "Internal Grenade Racks",
+          "points": 20,
+          "detachment": "Retaliation Cadre"
+        },
+        {
+          "name": "Prototype Weapon System",
+          "points": 15,
+          "detachment": "Retaliation Cadre"
+        },
+        {
+          "name": "Puretide Engram Neurochip",
+          "points": 15,
+          "detachment": "Retaliation Cadre"
+        },
+        {
+          "name": "Starflare Ignition System",
+          "points": 20,
+          "detachment": "Retaliation Cadre"
+        }
+      ]
+    }
+  ],
+  "units": [
+    {
+      "name": "Aun’Shi",
+      "normalizedName": "aunshi",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 50
+            }
+          ]
+        }
+      ],
+      "points": 50,
+      "pointsLabel": "50",
+      "legends": true,
+      "role": "leader",
+      "attachTo": [
+        "Breacher Team",
+        "Kroot Carnivores",
+        "Kroot Farstalkers",
+        "Strike Team"
+      ]
+    },
+    {
+      "name": "Aun’Va",
+      "normalizedName": "aunva",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 3,
+              "points": 65
+            }
+          ]
+        }
+      ],
+      "points": 65,
+      "pointsLabel": "65",
+      "legends": true
+    },
+    {
+      "name": "Ax-1-0 Tiger Shark",
+      "normalizedName": "ax 1 0 tiger shark",
+      "pricing": [
+        {
+          "range": "[1,1]",
+          "label": "Your 1st Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 315
+            }
+          ]
+        },
+        {
+          "range": "[2,)",
+          "label": "Your 2nd + Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 375
+            }
+          ]
+        }
+      ],
+      "points": 315,
+      "pointsLabel": "315",
+      "legends": false
+    },
+    {
+      "name": "Barracuda",
+      "normalizedName": "barracuda",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 220
+            }
+          ]
+        }
+      ],
+      "points": 220,
+      "pointsLabel": "220",
+      "legends": true
+    },
+    {
+      "name": "Breacher Team",
+      "normalizedName": "breacher team",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 10,
+              "points": 90
+            }
+          ]
+        }
+      ],
+      "points": 90,
+      "pointsLabel": "90",
+      "legends": false
+    },
+    {
+      "name": "Broadside Battlesuits",
+      "normalizedName": "broadside battlesuits",
+      "pricing": [
+        {
+          "range": "[1,2]",
+          "label": "Your 1st To 2nd Units Cost",
+          "costs": [
+            {
+              "models": 1,
+              "points": 75
+            },
+            {
+              "models": 2,
+              "points": 150
+            },
+            {
+              "models": 3,
+              "points": 240
+            }
+          ]
+        },
+        {
+          "range": "[3,)",
+          "label": "Your 3rd + Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 95
+            },
+            {
+              "models": 2,
+              "points": 170
+            },
+            {
+              "models": 3,
+              "points": 260
+            }
+          ]
+        }
+      ],
+      "points": 75,
+      "pointsLabel": "75/150/240",
+      "legends": false
+    },
+    {
+      "name": "Cadre Fireblade",
+      "normalizedName": "cadre fireblade",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 50
+            }
+          ]
+        }
+      ],
+      "points": 50,
+      "pointsLabel": "50",
+      "legends": false,
+      "role": "leader",
+      "attachTo": [
+        "Breacher Team",
+        "Strike Team"
+      ]
+    },
+    {
+      "name": "Commander Farsight",
+      "normalizedName": "commander farsight",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 80
+            }
+          ]
+        }
+      ],
+      "points": 80,
+      "pointsLabel": "80",
+      "legends": false,
+      "role": "leader",
+      "attachTo": [
+        "Crisis Battlesuits",
+        "Crisis Fireknife Battlesuits",
+        "Crisis Starscythe Battlesuits",
+        "Crisis Sunforge Battlesuits"
+      ]
+    },
+    {
+      "name": "Commander In Coldstar Battlesuit",
+      "normalizedName": "commander in coldstar battlesuit",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 95
+            }
+          ]
+        }
+      ],
+      "points": 95,
+      "pointsLabel": "95",
+      "legends": false,
+      "role": "leader",
+      "attachTo": [
+        "Crisis Battlesuits",
+        "Crisis Fireknife Battlesuits",
+        "Crisis Starscythe Battlesuits",
+        "Crisis Sunforge Battlesuits"
+      ]
+    },
+    {
+      "name": "Commander In Crisis Battlesuit",
+      "normalizedName": "commander in crisis battlesuit",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 80
+            }
+          ]
+        }
+      ],
+      "points": 80,
+      "pointsLabel": "80",
+      "legends": true,
+      "role": "leader",
+      "attachTo": [
+        "Crisis Battlesuits",
+        "Crisis Fireknife Battlesuits",
+        "Crisis Starscythe Battlesuits",
+        "Crisis Sunforge Battlesuits"
+      ]
+    },
+    {
+      "name": "Commander In Enforcer Battlesuit",
+      "normalizedName": "commander in enforcer battlesuit",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 80
+            }
+          ]
+        }
+      ],
+      "points": 80,
+      "pointsLabel": "80",
+      "legends": false,
+      "role": "leader",
+      "attachTo": [
+        "Crisis Battlesuits",
+        "Crisis Fireknife Battlesuits",
+        "Crisis Starscythe Battlesuits",
+        "Crisis Sunforge Battlesuits"
+      ]
+    },
+    {
+      "name": "Commander Shadowsun",
+      "normalizedName": "commander shadowsun",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 100
+            }
+          ]
+        }
+      ],
+      "points": 100,
+      "pointsLabel": "100",
+      "legends": false
+    },
+    {
+      "name": "Crisis Battlesuits",
+      "normalizedName": "crisis battlesuits",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 3,
+              "points": 200
+            },
+            {
+              "models": 6,
+              "points": 400
+            }
+          ]
+        }
+      ],
+      "points": 200,
+      "pointsLabel": "200/400",
+      "legends": true
+    },
+    {
+      "name": "Crisis Fireknife Battlesuits",
+      "normalizedName": "crisis fireknife battlesuits",
+      "pricing": [
+        {
+          "range": "[1,2]",
+          "label": "Your 1st To 2nd Units Cost",
+          "costs": [
+            {
+              "models": 3,
+              "points": 100
+            }
+          ]
+        },
+        {
+          "range": "[3,)",
+          "label": "Your 3rd + Unit Costs",
+          "costs": [
+            {
+              "models": 3,
+              "points": 110
+            }
+          ]
+        }
+      ],
+      "points": 100,
+      "pointsLabel": "100",
+      "legends": false
+    },
+    {
+      "name": "Crisis Starscythe Battlesuits",
+      "normalizedName": "crisis starscythe battlesuits",
+      "pricing": [
+        {
+          "range": "[1,2]",
+          "label": "Your 1st To 2nd Units Cost",
+          "costs": [
+            {
+              "models": 3,
+              "points": 90
+            }
+          ]
+        },
+        {
+          "range": "[3,)",
+          "label": "Your 3rd + Unit Costs",
+          "costs": [
+            {
+              "models": 3,
+              "points": 100
+            }
+          ]
+        }
+      ],
+      "points": 90,
+      "pointsLabel": "90",
+      "legends": false
+    },
+    {
+      "name": "Crisis Sunforge Battlesuits",
+      "normalizedName": "crisis sunforge battlesuits",
+      "pricing": [
+        {
+          "range": "[1,2]",
+          "label": "Your 1st To 2nd Units Cost",
+          "costs": [
+            {
+              "models": 3,
+              "points": 125
+            }
+          ]
+        },
+        {
+          "range": "[3,)",
+          "label": "Your 3rd + Unit Costs",
+          "costs": [
+            {
+              "models": 3,
+              "points": 135
+            }
+          ]
+        }
+      ],
+      "points": 125,
+      "pointsLabel": "125",
+      "legends": false
+    },
+    {
+      "name": "Darkstrider",
+      "normalizedName": "darkstrider",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 60
+            }
+          ]
+        }
+      ],
+      "points": 60,
+      "pointsLabel": "60",
+      "legends": false,
+      "role": "leader",
+      "attachTo": [
+        "Pathfinder Team"
+      ]
+    },
+    {
+      "name": "Devilfish",
+      "normalizedName": "devilfish",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 85
+            }
+          ]
+        }
+      ],
+      "points": 85,
+      "pointsLabel": "85",
+      "legends": false
+    },
+    {
+      "name": "Drone Sentry Turret",
+      "normalizedName": "drone sentry turret",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 50
+            }
+          ]
+        }
+      ],
+      "points": 50,
+      "pointsLabel": "50",
+      "legends": true
+    },
+    {
+      "name": "Ethereal",
+      "normalizedName": "ethereal",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 50
+            }
+          ]
+        }
+      ],
+      "points": 50,
+      "pointsLabel": "50",
+      "legends": false,
+      "role": "leader",
+      "attachTo": [
+        "Breacher Team",
+        "Strike Team"
+      ]
+    },
+    {
+      "name": "Firesight Team",
+      "normalizedName": "firesight team",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 55
+            }
+          ]
+        }
+      ],
+      "points": 55,
+      "pointsLabel": "55",
+      "legends": false
+    },
+    {
+      "name": "Ghostkeel Battlesuit",
+      "normalizedName": "ghostkeel battlesuit",
+      "pricing": [
+        {
+          "range": "[1,2]",
+          "label": "Your 1st To 2nd Units Cost",
+          "costs": [
+            {
+              "models": 1,
+              "points": 150
+            }
+          ]
+        },
+        {
+          "range": "[3,)",
+          "label": "Your 3rd + Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 160
+            }
+          ]
+        }
+      ],
+      "points": 150,
+      "pointsLabel": "150",
+      "legends": false
+    },
+    {
+      "name": "Great Knarloc",
+      "normalizedName": "great knarloc",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 100
+            }
+          ]
+        }
+      ],
+      "points": 100,
+      "pointsLabel": "100",
+      "legends": true
+    },
+    {
+      "name": "Hammerhead Gunship",
+      "normalizedName": "hammerhead gunship",
+      "pricing": [
+        {
+          "range": "[1,2]",
+          "label": "Your 1st To 2nd Units Cost",
+          "costs": [
+            {
+              "models": 1,
+              "points": 140
+            }
+          ]
+        },
+        {
+          "range": "[3,)",
+          "label": "Your 3rd + Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 150
+            }
+          ]
+        }
+      ],
+      "points": 140,
+      "pointsLabel": "140",
+      "legends": false
+    },
+    {
+      "name": "Heavy Gun Drones",
+      "normalizedName": "heavy gun drones",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 2,
+              "points": 45
+            }
+          ]
+        }
+      ],
+      "points": 45,
+      "pointsLabel": "45",
+      "legends": true
+    },
+    {
+      "name": "Knarloc Riders",
+      "normalizedName": "knarloc riders",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 3,
+              "points": 110
+            }
+          ]
+        }
+      ],
+      "points": 110,
+      "pointsLabel": "110",
+      "legends": true
+    },
+    {
+      "name": "Kroot Carnivores",
+      "normalizedName": "kroot carnivores",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 10,
+              "points": 65
+            },
+            {
+              "models": 20,
+              "points": 130
+            }
+          ]
+        }
+      ],
+      "points": 65,
+      "pointsLabel": "65/130",
+      "legends": false
+    },
+    {
+      "name": "Kroot Farstalkers",
+      "normalizedName": "kroot farstalkers",
+      "pricing": [
+        {
+          "range": "[1,2]",
+          "label": "Your 1st To 2nd Units Cost",
+          "costs": [
+            {
+              "models": 12,
+              "points": 75
+            }
+          ]
+        },
+        {
+          "range": "[3,)",
+          "label": "Your 3rd + Unit Costs",
+          "costs": [
+            {
+              "models": 12,
+              "points": 85
+            }
+          ]
+        }
+      ],
+      "points": 75,
+      "pointsLabel": "75",
+      "legends": false
+    },
+    {
+      "name": "Kroot Flesh Shaper",
+      "normalizedName": "kroot flesh shaper",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 45
+            }
+          ]
+        }
+      ],
+      "points": 45,
+      "pointsLabel": "45",
+      "legends": false,
+      "role": "leader",
+      "attachTo": [
+        "Kroot Carnivores",
+        "Kroot Farstalkers"
+      ]
+    },
+    {
+      "name": "Kroot Hounds",
+      "normalizedName": "kroot hounds",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 5,
+              "points": 45
+            },
+            {
+              "models": 10,
+              "points": 65
+            }
+          ]
+        }
+      ],
+      "points": 45,
+      "pointsLabel": "45/65",
+      "legends": false
+    },
+    {
+      "name": "Kroot Lone-Spear",
+      "normalizedName": "kroot lone spear",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 80
+            }
+          ]
+        }
+      ],
+      "points": 80,
+      "pointsLabel": "80",
+      "legends": false
+    },
+    {
+      "name": "Kroot Trail Shaper",
+      "normalizedName": "kroot trail shaper",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 50
+            }
+          ]
+        }
+      ],
+      "points": 50,
+      "pointsLabel": "50",
+      "legends": false,
+      "role": "leader",
+      "attachTo": [
+        "Kroot Carnivores",
+        "Kroot Farstalkers"
+      ]
+    },
+    {
+      "name": "Kroot War Shaper",
+      "normalizedName": "kroot war shaper",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 60
+            }
+          ]
+        }
+      ],
+      "points": 60,
+      "pointsLabel": "60",
+      "legends": false,
+      "role": "leader",
+      "attachTo": [
+        "Kroot Carnivores",
+        "Kroot Farstalkers"
+      ]
+    },
+    {
+      "name": "Krootox Rampagers",
+      "normalizedName": "krootox rampagers",
+      "pricing": [
+        {
+          "range": "[1,2]",
+          "label": "Your 1st To 2nd Units Cost",
+          "costs": [
+            {
+              "models": 3,
+              "points": 85
+            },
+            {
+              "models": 6,
+              "points": 170
+            }
+          ]
+        },
+        {
+          "range": "[3,)",
+          "label": "Your 3rd + Unit Costs",
+          "costs": [
+            {
+              "models": 3,
+              "points": 95
+            },
+            {
+              "models": 6,
+              "points": 180
+            }
+          ]
+        }
+      ],
+      "points": 85,
+      "pointsLabel": "85/170",
+      "legends": false
+    },
+    {
+      "name": "Krootox Riders",
+      "normalizedName": "krootox riders",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 45
+            },
+            {
+              "models": 2,
+              "points": 60
+            },
+            {
+              "models": 3,
+              "points": 90
+            }
+          ]
+        }
+      ],
+      "points": 45,
+      "pointsLabel": "45/60/90",
+      "legends": false
+    },
+    {
+      "name": "Longstrike",
+      "normalizedName": "longstrike",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 140
+            }
+          ]
+        }
+      ],
+      "points": 140,
+      "pointsLabel": "140",
+      "legends": true
+    },
+    {
+      "name": "Manta",
+      "normalizedName": "manta",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 2100
+            }
+          ]
+        }
+      ],
+      "points": 2100,
+      "pointsLabel": "2100",
+      "legends": false
+    },
+    {
+      "name": "Orca Dropship",
+      "normalizedName": "orca dropship",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 275
+            }
+          ]
+        }
+      ],
+      "points": 275,
+      "pointsLabel": "275",
+      "legends": true
+    },
+    {
+      "name": "Pathfinder Team",
+      "normalizedName": "pathfinder team",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 10,
+              "points": 80
+            }
+          ]
+        }
+      ],
+      "points": 80,
+      "pointsLabel": "80",
+      "legends": false
+    },
+    {
+      "name": "Piranhas",
+      "normalizedName": "piranhas",
+      "pricing": [
+        {
+          "range": "[1,2]",
+          "label": "Your 1st To 2nd Units Cost",
+          "costs": [
+            {
+              "models": 1,
+              "points": 65
+            },
+            {
+              "models": 2,
+              "points": 110
+            },
+            {
+              "models": 3,
+              "points": 165
+            }
+          ]
+        },
+        {
+          "range": "[3,)",
+          "label": "Your 3rd + Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 75
+            },
+            {
+              "models": 2,
+              "points": 120
+            },
+            {
+              "models": 3,
+              "points": 175
+            }
+          ]
+        }
+      ],
+      "points": 65,
+      "pointsLabel": "65/110/165",
+      "legends": false
+    },
+    {
+      "name": "R’Varna Battlesuit",
+      "normalizedName": "rvarna battlesuit",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 200
+            }
+          ]
+        }
+      ],
+      "points": 200,
+      "pointsLabel": "200",
+      "legends": true
+    },
+    {
+      "name": "Razorshark Strike Fighter",
+      "normalizedName": "razorshark strike fighter",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 160
+            }
+          ]
+        }
+      ],
+      "points": 160,
+      "pointsLabel": "160",
+      "legends": false
+    },
+    {
+      "name": "Remora Stealth Drones",
+      "normalizedName": "remora stealth drones",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 2,
+              "points": 160
+            }
+          ]
+        }
+      ],
+      "points": 160,
+      "pointsLabel": "160",
+      "legends": true
+    },
+    {
+      "name": "Remote Sensor Tower",
+      "normalizedName": "remote sensor tower",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 50
+            }
+          ]
+        }
+      ],
+      "points": 50,
+      "pointsLabel": "50",
+      "legends": true
+    },
+    {
+      "name": "Riptide Battlesuit",
+      "normalizedName": "riptide battlesuit",
+      "pricing": [
+        {
+          "range": "[1,2]",
+          "label": "Your 1st To 2nd Units Cost",
+          "costs": [
+            {
+              "models": 1,
+              "points": 180
+            }
+          ]
+        },
+        {
+          "range": "[3,)",
+          "label": "Your 3rd + Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 210
+            }
+          ]
+        }
+      ],
+      "points": 180,
+      "pointsLabel": "180",
+      "legends": false
+    },
+    {
+      "name": "Shas’O R’Alai",
+      "normalizedName": "shaso ralai",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 80
+            }
+          ]
+        }
+      ],
+      "points": 80,
+      "pointsLabel": "80",
+      "legends": true,
+      "role": "leader",
+      "attachTo": [
+        "Xv9 Hazard Battlesuits"
+      ]
+    },
+    {
+      "name": "Sky Ray Gunship",
+      "normalizedName": "sky ray gunship",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 140
+            }
+          ]
+        }
+      ],
+      "points": 140,
+      "pointsLabel": "140",
+      "legends": false
+    },
+    {
+      "name": "Stealth Battlesuits",
+      "normalizedName": "stealth battlesuits",
+      "pricing": [
+        {
+          "range": "[1,2]",
+          "label": "Your 1st To 2nd Units Cost",
+          "costs": [
+            {
+              "models": 5,
+              "points": 100
+            }
+          ]
+        },
+        {
+          "range": "[3,)",
+          "label": "Your 3rd + Unit Costs",
+          "costs": [
+            {
+              "models": 5,
+              "points": 110
+            }
+          ]
+        }
+      ],
+      "points": 100,
+      "pointsLabel": "100",
+      "legends": false
+    },
+    {
+      "name": "Stormsurge",
+      "normalizedName": "stormsurge",
+      "pricing": [
+        {
+          "range": "[1,1]",
+          "label": "Your 1st Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 360
+            }
+          ]
+        },
+        {
+          "range": "[2,)",
+          "label": "Your 2nd + Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 385
+            }
+          ]
+        }
+      ],
+      "points": 360,
+      "pointsLabel": "360",
+      "legends": false
+    },
+    {
+      "name": "Strike Team",
+      "normalizedName": "strike team",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 10,
+              "points": 70
+            }
+          ]
+        }
+      ],
+      "points": 70,
+      "pointsLabel": "70",
+      "legends": false
+    },
+    {
+      "name": "Sun Shark Bomber",
+      "normalizedName": "sun shark bomber",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 150
+            }
+          ]
+        }
+      ],
+      "points": 150,
+      "pointsLabel": "150",
+      "legends": false
+    },
+    {
+      "name": "Ta’Unar Supremacy Armour",
+      "normalizedName": "taunar supremacy armour",
+      "pricing": [
+        {
+          "range": "[1,1]",
+          "label": "Your 1st Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 790
+            }
+          ]
+        },
+        {
+          "range": "[2,)",
+          "label": "Your 2nd + Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 890
+            }
+          ]
+        }
+      ],
+      "points": 790,
+      "pointsLabel": "790",
+      "legends": false
+    },
+    {
+      "name": "Tetras",
+      "normalizedName": "tetras",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 2,
+              "points": 80
+            },
+            {
+              "models": 4,
+              "points": 160
+            }
+          ]
+        }
+      ],
+      "points": 80,
+      "pointsLabel": "80/160",
+      "legends": true
+    },
+    {
+      "name": "The Twin Lance",
+      "normalizedName": "the twin lance",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 2,
+              "points": 205
+            }
+          ]
+        }
+      ],
+      "points": 205,
+      "pointsLabel": "205",
+      "legends": false
+    },
+    {
+      "name": "Tidewall Droneport",
+      "normalizedName": "tidewall droneport",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 85
+            }
+          ]
+        }
+      ],
+      "points": 85,
+      "pointsLabel": "85",
+      "legends": false
+    },
+    {
+      "name": "Tidewall Gunrig",
+      "normalizedName": "tidewall gunrig",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 90
+            }
+          ]
+        }
+      ],
+      "points": 90,
+      "pointsLabel": "90",
+      "legends": false
+    },
+    {
+      "name": "Tidewall Shieldline",
+      "normalizedName": "tidewall shieldline",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 85
+            },
+            {
+              "models": 1,
+              "points": 20,
+              "desc": "Tidewall Defence Platform",
+              "addon": true
+            }
+          ]
+        }
+      ],
+      "points": 85,
+      "pointsLabel": "85/20",
+      "legends": false
+    },
+    {
+      "name": "Tiger Shark",
+      "normalizedName": "tiger shark",
+      "pricing": [
+        {
+          "range": "[1,1]",
+          "label": "Your 1st Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 325
+            }
+          ]
+        },
+        {
+          "range": "[2,)",
+          "label": "Your 2nd + Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 375
+            }
+          ]
+        }
+      ],
+      "points": 325,
+      "pointsLabel": "325",
+      "legends": false
+    },
+    {
+      "name": "Tx42 Piranha",
+      "normalizedName": "tx42 piranha",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 60
+            }
+          ]
+        }
+      ],
+      "points": 60,
+      "pointsLabel": "60",
+      "legends": true
+    },
+    {
+      "name": "Vespid Stingwings",
+      "normalizedName": "vespid stingwings",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 5,
+              "points": 70
+            },
+            {
+              "models": 10,
+              "points": 115
+            }
+          ]
+        }
+      ],
+      "points": 70,
+      "pointsLabel": "70/115",
+      "legends": false
+    },
+    {
+      "name": "Xv9 Hazard Battlesuits",
+      "normalizedName": "xv9 hazard battlesuits",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 55
+            },
+            {
+              "models": 2,
+              "points": 110
+            }
+          ]
+        }
+      ],
+      "points": 55,
+      "pointsLabel": "55/110",
+      "legends": true
+    },
+    {
+      "name": "Y’Vahra Battlesuit",
+      "normalizedName": "yvahra battlesuit",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 210
+            }
+          ]
+        }
+      ],
+      "points": 210,
+      "pointsLabel": "210",
+      "legends": true
+    }
+  ]
+}

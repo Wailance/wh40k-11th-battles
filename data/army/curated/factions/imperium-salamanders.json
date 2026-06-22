@@ -6,7 +6,7 @@
     {
       "id": "98c-87ea-f51b-1475",
       "name": "Adrax Agatone",
-      "points": 85,
+      "points": 80,
       "keywords": [
         "Epic Hero",
         "Character",
@@ -68,12 +68,38 @@
           "name": "Leader",
           "description": "This model can be attached to the following units:\n\n■ Assault Intercessor Squad\n■ Bladeguard Veteran Squad\n■ Company Heroes\n■ Infernus Squad\n■ Intercessor Squad\n■ Sternguard Veteran Squad\n■ Tactical Squad"
         }
+      ],
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 80
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "80",
+      "mfmRole": "leader",
+      "attachTo": [
+        "Assault Intercessor Squad",
+        "Assault Squad",
+        "Bladeguard Veteran Squad",
+        "Command Squad",
+        "Company Heroes",
+        "Infernus Squad",
+        "Intercessor Squad",
+        "Sternguard Veteran Squad",
+        "Tactical Squad",
+        "Vanguard Veteran Squad"
       ]
     },
     {
       "id": "b351-fccc-2121-1e1e",
       "name": "Vulkan He'stan",
-      "points": 100,
+      "points": 85,
       "keywords": [
         "Epic Hero",
         "Character",
@@ -142,6 +168,29 @@
           "name": "Inspiring Commander",
           "description": "If you include this model in your army, until the end of the battle, non-Character models in Infernus Squad units from your army have an Objective Control characteristic of 2 while they are not Battle-shocked."
         }
+      ],
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 85
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "85",
+      "mfmRole": "leader",
+      "attachTo": [
+        "Assault Intercessor Squad",
+        "Assault Squad",
+        "Command Squad",
+        "Company Heroes",
+        "Infernus Squad",
+        "Tactical Squad",
+        "Vanguard Veteran Squad"
       ]
     }
   ],

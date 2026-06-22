@@ -1,0 +1,1848 @@
+{
+  "slug": "imperial-agents",
+  "name": "Imperial Agents",
+  "version": "1.0",
+  "firstSeen": "2026-06-17",
+  "detachments": [
+    {
+      "name": "Imperialis Fleet",
+      "dp": 3,
+      "objective": "DISRUPTION",
+      "enhancements": [
+        {
+          "name": "Clandestine Operation",
+          "points": 15,
+          "detachment": "Imperialis Fleet"
+        },
+        {
+          "name": "Combat Landers",
+          "points": 10,
+          "detachment": "Imperialis Fleet"
+        },
+        {
+          "name": "Digital Weapons",
+          "points": 10,
+          "detachment": "Imperialis Fleet"
+        },
+        {
+          "name": "Fleetmaster",
+          "points": 20,
+          "detachment": "Imperialis Fleet"
+        }
+      ]
+    },
+    {
+      "name": "Ordo Hereticus, Purgation Force",
+      "dp": 3,
+      "objective": "PURGE THE FOE",
+      "enhancements": [
+        {
+          "name": "Ignis Judicium",
+          "points": 10,
+          "detachment": "Ordo Hereticus, Purgation Force"
+        },
+        {
+          "name": "Liber Heresius",
+          "points": 10,
+          "detachment": "Ordo Hereticus, Purgation Force"
+        },
+        {
+          "name": "No Escape",
+          "points": 25,
+          "detachment": "Ordo Hereticus, Purgation Force"
+        },
+        {
+          "name": "Witch Hunter",
+          "points": 15,
+          "detachment": "Ordo Hereticus, Purgation Force"
+        }
+      ]
+    },
+    {
+      "name": "Ordo Malleus, Daemon Hunters",
+      "dp": 3,
+      "objective": "PRIORITY ASSETS",
+      "enhancements": [
+        {
+          "name": "Daemon Slayer",
+          "points": 10,
+          "detachment": "Ordo Malleus, Daemon Hunters"
+        },
+        {
+          "name": "Formidable Resolve",
+          "points": 5,
+          "detachment": "Ordo Malleus, Daemon Hunters"
+        },
+        {
+          "name": "Gift of the Prescient",
+          "points": 20,
+          "detachment": "Ordo Malleus, Daemon Hunters"
+        },
+        {
+          "name": "Grimoire of True Names",
+          "points": 10,
+          "detachment": "Ordo Malleus, Daemon Hunters"
+        }
+      ]
+    },
+    {
+      "name": "Ordo Xenos, Alien Hunters",
+      "dp": 3,
+      "objective": "PURGE THE FOE",
+      "enhancements": [
+        {
+          "name": "Amulet of Auto-chastisement",
+          "points": 25,
+          "detachment": "Ordo Xenos, Alien Hunters"
+        },
+        {
+          "name": "Beacon Angelis",
+          "points": 30,
+          "detachment": "Ordo Xenos, Alien Hunters"
+        },
+        {
+          "name": "Blackweave Shroud",
+          "points": 15,
+          "detachment": "Ordo Xenos, Alien Hunters"
+        },
+        {
+          "name": "Universal Anathema",
+          "points": 10,
+          "detachment": "Ordo Xenos, Alien Hunters"
+        }
+      ]
+    },
+    {
+      "name": "Veiled Blade Elimination Force",
+      "dp": 3,
+      "objective": "RECONNAISSANCE",
+      "enhancements": [
+        {
+          "name": "Decoy Targets",
+          "points": 40,
+          "detachment": "Veiled Blade Elimination Force"
+        },
+        {
+          "name": "Esoteric Explosives",
+          "points": 40,
+          "detachment": "Veiled Blade Elimination Force"
+        },
+        {
+          "name": "Introneural Biotech",
+          "points": 35,
+          "detachment": "Veiled Blade Elimination Force"
+        },
+        {
+          "name": "Micromelta Rounds",
+          "points": 45,
+          "detachment": "Veiled Blade Elimination Force"
+        }
+      ]
+    }
+  ],
+  "units": [
+    {
+      "name": "Aquila Kill Team",
+      "normalizedName": "aquila kill team",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 5,
+              "points": 100
+            },
+            {
+              "models": 10,
+              "points": 200
+            }
+          ]
+        }
+      ],
+      "points": 100,
+      "pointsLabel": "100/200",
+      "legends": false
+    },
+    {
+      "name": "Aquila Kill Team",
+      "normalizedName": "aquila kill team",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 5,
+              "points": 100
+            },
+            {
+              "models": 10,
+              "points": 200
+            }
+          ]
+        }
+      ],
+      "points": 100,
+      "pointsLabel": "100/200",
+      "legends": false
+    },
+    {
+      "name": "Callidus Assassin",
+      "normalizedName": "callidus assassin",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 100
+            }
+          ]
+        }
+      ],
+      "points": 100,
+      "pointsLabel": "100",
+      "legends": false
+    },
+    {
+      "name": "Callidus Assassin",
+      "normalizedName": "callidus assassin",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 100
+            }
+          ]
+        }
+      ],
+      "points": 100,
+      "pointsLabel": "100",
+      "legends": false
+    },
+    {
+      "name": "Corvus Blackstar",
+      "normalizedName": "corvus blackstar",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 180
+            }
+          ]
+        }
+      ],
+      "points": 180,
+      "pointsLabel": "180",
+      "legends": false
+    },
+    {
+      "name": "Corvus Blackstar",
+      "normalizedName": "corvus blackstar",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 180
+            }
+          ]
+        }
+      ],
+      "points": 180,
+      "pointsLabel": "180",
+      "legends": false
+    },
+    {
+      "name": "Culexus Assassin",
+      "normalizedName": "culexus assassin",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 85
+            }
+          ]
+        }
+      ],
+      "points": 85,
+      "pointsLabel": "85",
+      "legends": false
+    },
+    {
+      "name": "Culexus Assassin",
+      "normalizedName": "culexus assassin",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 85
+            }
+          ]
+        }
+      ],
+      "points": 85,
+      "pointsLabel": "85",
+      "legends": false
+    },
+    {
+      "name": "Daemonhost",
+      "normalizedName": "daemonhost",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 40
+            },
+            {
+              "models": 2,
+              "points": 80
+            }
+          ]
+        }
+      ],
+      "points": 40,
+      "pointsLabel": "40/80",
+      "legends": true
+    },
+    {
+      "name": "Damned Legionnaires",
+      "normalizedName": "damned legionnaires",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 5,
+              "points": 90
+            },
+            {
+              "models": 10,
+              "points": 180
+            }
+          ]
+        }
+      ],
+      "points": 90,
+      "pointsLabel": "90/180",
+      "legends": true
+    },
+    {
+      "name": "Deathwatch Kill Team",
+      "normalizedName": "deathwatch kill team",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 5,
+              "points": 100
+            },
+            {
+              "models": 10,
+              "points": 190
+            }
+          ]
+        }
+      ],
+      "points": 100,
+      "pointsLabel": "100/190",
+      "legends": false
+    },
+    {
+      "name": "Deathwatch Kill Team",
+      "normalizedName": "deathwatch kill team",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 5,
+              "points": 100
+            },
+            {
+              "models": 10,
+              "points": 200
+            }
+          ]
+        }
+      ],
+      "points": 100,
+      "pointsLabel": "100/200",
+      "legends": false
+    },
+    {
+      "name": "Deathwatch Terminator Squad",
+      "normalizedName": "deathwatch terminator squad",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 5,
+              "points": 210
+            },
+            {
+              "models": 10,
+              "points": 420
+            }
+          ]
+        }
+      ],
+      "points": 210,
+      "pointsLabel": "210/420",
+      "legends": true
+    },
+    {
+      "name": "Eversor Assassin",
+      "normalizedName": "eversor assassin",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 110
+            }
+          ]
+        }
+      ],
+      "points": 110,
+      "pointsLabel": "110",
+      "legends": false
+    },
+    {
+      "name": "Eversor Assassin",
+      "normalizedName": "eversor assassin",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 120
+            }
+          ]
+        }
+      ],
+      "points": 120,
+      "pointsLabel": "120",
+      "legends": false
+    },
+    {
+      "name": "Exaction Squad",
+      "normalizedName": "exaction squad",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 11,
+              "points": 90
+            }
+          ]
+        }
+      ],
+      "points": 90,
+      "pointsLabel": "90",
+      "legends": false
+    },
+    {
+      "name": "Exaction Squad",
+      "normalizedName": "exaction squad",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 11,
+              "points": 85
+            }
+          ]
+        }
+      ],
+      "points": 85,
+      "pointsLabel": "85",
+      "legends": false
+    },
+    {
+      "name": "Fortis Kill Team",
+      "normalizedName": "fortis kill team",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 5,
+              "points": 100
+            },
+            {
+              "models": 10,
+              "points": 200
+            }
+          ]
+        }
+      ],
+      "points": 100,
+      "pointsLabel": "100/200",
+      "legends": true
+    },
+    {
+      "name": "Grey Knights Terminator Squad",
+      "normalizedName": "grey knights terminator squad",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 5,
+              "points": 190
+            }
+          ]
+        }
+      ],
+      "points": 190,
+      "pointsLabel": "190",
+      "legends": false
+    },
+    {
+      "name": "Grey Knights Terminator Squad",
+      "normalizedName": "grey knights terminator squad",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 5,
+              "points": 210
+            }
+          ]
+        }
+      ],
+      "points": 210,
+      "pointsLabel": "210",
+      "legends": false
+    },
+    {
+      "name": "Imperial Navy Breachers",
+      "normalizedName": "imperial navy breachers",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 10,
+              "points": 90
+            }
+          ]
+        }
+      ],
+      "points": 90,
+      "pointsLabel": "90",
+      "legends": false
+    },
+    {
+      "name": "Imperial Navy Breachers",
+      "normalizedName": "imperial navy breachers",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 10,
+              "points": 90
+            }
+          ]
+        }
+      ],
+      "points": 90,
+      "pointsLabel": "90",
+      "legends": false
+    },
+    {
+      "name": "Imperial Rhino",
+      "normalizedName": "imperial rhino",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 75
+            }
+          ]
+        }
+      ],
+      "points": 75,
+      "pointsLabel": "75",
+      "legends": false
+    },
+    {
+      "name": "Imperial Rhino",
+      "normalizedName": "imperial rhino",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 75
+            }
+          ]
+        }
+      ],
+      "points": 75,
+      "pointsLabel": "75",
+      "legends": false
+    },
+    {
+      "name": "Indomitor Kill Team",
+      "normalizedName": "indomitor kill team",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 5,
+              "points": 120
+            },
+            {
+              "models": 10,
+              "points": 240
+            }
+          ]
+        }
+      ],
+      "points": 120,
+      "pointsLabel": "120/240",
+      "legends": true
+    },
+    {
+      "name": "Inquisitor",
+      "normalizedName": "inquisitor",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 55
+            }
+          ]
+        }
+      ],
+      "points": 55,
+      "pointsLabel": "55",
+      "legends": false,
+      "role": "leader",
+      "attachTo": [
+        "Aquila Kill Team",
+        "Battleline Imperium Infantry",
+        "Exaction Squad",
+        "Grey Knights Terminator Squad",
+        "Imperial Navy Breachers",
+        "Inquisitorial Agents",
+        "Sanctifiers",
+        "Sisters Of Battle Squad",
+        "Subductor Squad",
+        "Vigilant Squad"
+      ]
+    },
+    {
+      "name": "Inquisitor",
+      "normalizedName": "inquisitor",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 65
+            }
+          ]
+        }
+      ],
+      "points": 65,
+      "pointsLabel": "65",
+      "legends": false,
+      "role": "leader",
+      "attachTo": [
+        "Aquila Kill Team",
+        "Battleline Imperium Infantry",
+        "Exaction Squad",
+        "Grey Knights Terminator Squad",
+        "Imperial Navy Breachers",
+        "Inquisitorial Agents",
+        "Sanctifiers",
+        "Sisters Of Battle Squad",
+        "Subductor Squad",
+        "Vigilant Squad"
+      ]
+    },
+    {
+      "name": "Inquisitor Coteaz",
+      "normalizedName": "inquisitor coteaz",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 75
+            }
+          ]
+        }
+      ],
+      "points": 75,
+      "pointsLabel": "75",
+      "legends": false,
+      "role": "leader",
+      "attachTo": [
+        "Battleline Imperium Infantry",
+        "Exaction Squad",
+        "Grey Knights Terminator Squad",
+        "Imperial Navy Breachers",
+        "Inquisitorial Agents",
+        "Subductor Squad",
+        "Vigilant Squad"
+      ]
+    },
+    {
+      "name": "Inquisitor Coteaz",
+      "normalizedName": "inquisitor coteaz",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 95
+            }
+          ]
+        }
+      ],
+      "points": 95,
+      "pointsLabel": "95",
+      "legends": false,
+      "role": "leader",
+      "attachTo": [
+        "Battleline Imperium Infantry",
+        "Exaction Squad",
+        "Grey Knights Terminator Squad",
+        "Imperial Navy Breachers",
+        "Inquisitorial Agents",
+        "Subductor Squad",
+        "Vigilant Squad"
+      ]
+    },
+    {
+      "name": "Inquisitor Draxus",
+      "normalizedName": "inquisitor draxus",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 75
+            }
+          ]
+        }
+      ],
+      "points": 75,
+      "pointsLabel": "75",
+      "legends": false,
+      "role": "leader",
+      "attachTo": [
+        "Aquila Kill Team",
+        "Battleline Imperium Infantry",
+        "Exaction Squad",
+        "Imperial Navy Breachers",
+        "Inquisitorial Agents",
+        "Subductor Squad",
+        "Vigilant Squad"
+      ]
+    },
+    {
+      "name": "Inquisitor Draxus",
+      "normalizedName": "inquisitor draxus",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 110
+            }
+          ]
+        }
+      ],
+      "points": 110,
+      "pointsLabel": "110",
+      "legends": false,
+      "role": "leader",
+      "attachTo": [
+        "Aquila Kill Team",
+        "Battleline Imperium Infantry",
+        "Exaction Squad",
+        "Imperial Navy Breachers",
+        "Inquisitorial Agents",
+        "Subductor Squad",
+        "Vigilant Squad"
+      ]
+    },
+    {
+      "name": "Inquisitor Eisenhorn",
+      "normalizedName": "inquisitor eisenhorn",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 65
+            }
+          ]
+        }
+      ],
+      "points": 65,
+      "pointsLabel": "65",
+      "legends": true,
+      "role": "leader",
+      "attachTo": [
+        "Daemonhost",
+        "Deathwatch Kill Team",
+        "Deathwatch Terminator Squad",
+        "Exaction Squad",
+        "Fortis Kill Team",
+        "Imperial Navy Breachers",
+        "Indomitor Kill Team",
+        "Inquisitorial Agents",
+        "Proteus Kill Team",
+        "Spectrus Kill Team",
+        "Subductor Squad",
+        "Vigilant Squad"
+      ]
+    },
+    {
+      "name": "Inquisitor Greyfax",
+      "normalizedName": "inquisitor greyfax",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 65
+            }
+          ]
+        }
+      ],
+      "points": 65,
+      "pointsLabel": "65",
+      "legends": false,
+      "role": "leader",
+      "attachTo": [
+        "Battleline Imperium Infantry",
+        "Exaction Squad",
+        "Imperial Navy Breachers",
+        "Inquisitorial Agents",
+        "Sanctifiers",
+        "Sisters Of Battle Squad",
+        "Subductor Squad",
+        "Vigilant Squad"
+      ]
+    },
+    {
+      "name": "Inquisitor Greyfax",
+      "normalizedName": "inquisitor greyfax",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 65
+            }
+          ]
+        }
+      ],
+      "points": 65,
+      "pointsLabel": "65",
+      "legends": false,
+      "role": "leader",
+      "attachTo": [
+        "Battleline Imperium Infantry",
+        "Exaction Squad",
+        "Imperial Navy Breachers",
+        "Inquisitorial Agents",
+        "Sanctifiers",
+        "Sisters Of Battle Squad",
+        "Subductor Squad",
+        "Vigilant Squad"
+      ]
+    },
+    {
+      "name": "Inquisitor In Terminator Armour",
+      "normalizedName": "inquisitor in terminator armour",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 70
+            }
+          ]
+        }
+      ],
+      "points": 70,
+      "pointsLabel": "70",
+      "legends": true,
+      "role": "leader",
+      "attachTo": [
+        "Deathwatch Kill Team",
+        "Deathwatch Terminator Squad",
+        "Exaction Squad",
+        "Fortis Kill Team",
+        "Grey Knights Terminator Squad",
+        "Imperial Navy Breachers",
+        "Indomitor Kill Team",
+        "Inquisitorial Agents",
+        "Proteus Kill Team",
+        "Sisters Of Battle Squad",
+        "Spectrus Kill Team",
+        "Subductor Squad",
+        "Vigilant Squad"
+      ]
+    },
+    {
+      "name": "Inquisitor Karamazov",
+      "normalizedName": "inquisitor karamazov",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 140
+            }
+          ]
+        }
+      ],
+      "points": 140,
+      "pointsLabel": "140",
+      "legends": true
+    },
+    {
+      "name": "Inquisitor Kroyle",
+      "normalizedName": "inquisitor kroyle",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 100
+            }
+          ]
+        }
+      ],
+      "points": 100,
+      "pointsLabel": "100",
+      "legends": false
+    },
+    {
+      "name": "Inquisitor Kroyle",
+      "normalizedName": "inquisitor kroyle",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 100
+            }
+          ]
+        }
+      ],
+      "points": 100,
+      "pointsLabel": "100",
+      "legends": false
+    },
+    {
+      "name": "Inquisitor Ostromandeus",
+      "normalizedName": "inquisitor ostromandeus",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 2,
+              "points": 65
+            }
+          ]
+        }
+      ],
+      "points": 65,
+      "pointsLabel": "65",
+      "legends": true,
+      "role": "leader",
+      "attachTo": [
+        "Exaction Squad",
+        "Imperial Navy Breachers",
+        "Inquisitorial Agents",
+        "Sisters Of Battle Squad",
+        "Subductor Squad",
+        "Vigilant Squad"
+      ]
+    },
+    {
+      "name": "Inquisitorial Agents",
+      "normalizedName": "inquisitorial agents",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 6,
+              "points": 50
+            },
+            {
+              "models": 12,
+              "points": 100
+            }
+          ]
+        }
+      ],
+      "points": 50,
+      "pointsLabel": "50/100",
+      "legends": false
+    },
+    {
+      "name": "Inquisitorial Agents",
+      "normalizedName": "inquisitorial agents",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 6,
+              "points": 60
+            },
+            {
+              "models": 12,
+              "points": 120
+            }
+          ]
+        }
+      ],
+      "points": 60,
+      "pointsLabel": "60/120",
+      "legends": false
+    },
+    {
+      "name": "Inquisitorial Chimera",
+      "normalizedName": "inquisitorial chimera",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 70
+            }
+          ]
+        }
+      ],
+      "points": 70,
+      "pointsLabel": "70",
+      "legends": false
+    },
+    {
+      "name": "Inquisitorial Chimera",
+      "normalizedName": "inquisitorial chimera",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 70
+            }
+          ]
+        }
+      ],
+      "points": 70,
+      "pointsLabel": "70",
+      "legends": false
+    },
+    {
+      "name": "Janus Draik",
+      "normalizedName": "janus draik",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 40
+            }
+          ]
+        }
+      ],
+      "points": 40,
+      "pointsLabel": "40",
+      "legends": true,
+      "role": "leader",
+      "attachTo": [
+        "Imperial Navy Breachers",
+        "Voidsmen-At-Arms"
+      ]
+    },
+    {
+      "name": "Jokaero Weaponsmith",
+      "normalizedName": "jokaero weaponsmith",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 30
+            }
+          ]
+        }
+      ],
+      "points": 30,
+      "pointsLabel": "30",
+      "legends": true,
+      "role": "leader",
+      "attachTo": [
+        "Inquisitorial Agents"
+      ]
+    },
+    {
+      "name": "Kill Team Cassius",
+      "normalizedName": "kill team cassius",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 11,
+              "points": 220
+            }
+          ]
+        }
+      ],
+      "points": 220,
+      "pointsLabel": "220",
+      "legends": true
+    },
+    {
+      "name": "Ministorum Priest",
+      "normalizedName": "ministorum priest",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 40
+            }
+          ]
+        }
+      ],
+      "points": 40,
+      "pointsLabel": "40",
+      "legends": false,
+      "role": "support",
+      "attachTo": [
+        "Exaction Squad",
+        "Imperial Navy Breachers",
+        "Inquisitorial Agents",
+        "Sanctifiers",
+        "Sisters Of Battle Squad",
+        "Subductor Squad",
+        "Vigilant Squad"
+      ]
+    },
+    {
+      "name": "Ministorum Priest",
+      "normalizedName": "ministorum priest",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 40
+            }
+          ]
+        }
+      ],
+      "points": 40,
+      "pointsLabel": "40",
+      "legends": false,
+      "role": "support",
+      "attachTo": [
+        "Exaction Squad",
+        "Imperial Navy Breachers",
+        "Inquisitorial Agents",
+        "Sanctifiers",
+        "Sisters Of Battle Squad",
+        "Subductor Squad",
+        "Vigilant Squad"
+      ]
+    },
+    {
+      "name": "Navigator",
+      "normalizedName": "navigator",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 60
+            }
+          ]
+        }
+      ],
+      "points": 60,
+      "pointsLabel": "60",
+      "legends": false,
+      "role": "leader",
+      "attachTo": [
+        "Imperial Navy Breachers",
+        "Voidsmen-At-Arms"
+      ]
+    },
+    {
+      "name": "Navigator",
+      "normalizedName": "navigator",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 75
+            }
+          ]
+        }
+      ],
+      "points": 75,
+      "pointsLabel": "75",
+      "legends": false,
+      "role": "leader",
+      "attachTo": [
+        "Imperial Navy Breachers",
+        "Voidsmen-At-Arms"
+      ]
+    },
+    {
+      "name": "Neyam Shai Murad",
+      "normalizedName": "neyam shai murad",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 40
+            }
+          ]
+        }
+      ],
+      "points": 40,
+      "pointsLabel": "40",
+      "legends": true,
+      "role": "leader",
+      "attachTo": [
+        "Imperial Navy Breachers",
+        "Voidsmen-At-Arms"
+      ]
+    },
+    {
+      "name": "Proteus Kill Team",
+      "normalizedName": "proteus kill team",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 5,
+              "points": 160
+            },
+            {
+              "models": 10,
+              "points": 320
+            }
+          ]
+        }
+      ],
+      "points": 160,
+      "pointsLabel": "160/320",
+      "legends": true
+    },
+    {
+      "name": "Rogue Trader Entourage",
+      "normalizedName": "rogue trader entourage",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 4,
+              "points": 75
+            }
+          ]
+        }
+      ],
+      "points": 75,
+      "pointsLabel": "75",
+      "legends": false,
+      "role": "leader",
+      "attachTo": [
+        "Imperial Navy Breachers",
+        "Voidsmen-At-Arms"
+      ]
+    },
+    {
+      "name": "Rogue Trader Entourage",
+      "normalizedName": "rogue trader entourage",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 4,
+              "points": 105
+            }
+          ]
+        }
+      ],
+      "points": 105,
+      "pointsLabel": "105",
+      "legends": false,
+      "role": "leader",
+      "attachTo": [
+        "Imperial Navy Breachers",
+        "Voidsmen-At-Arms"
+      ]
+    },
+    {
+      "name": "Sanctifiers",
+      "normalizedName": "sanctifiers",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 9,
+              "points": 100
+            }
+          ]
+        }
+      ],
+      "points": 100,
+      "pointsLabel": "100",
+      "legends": false
+    },
+    {
+      "name": "Sanctifiers",
+      "normalizedName": "sanctifiers",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 9,
+              "points": 100
+            }
+          ]
+        }
+      ],
+      "points": 100,
+      "pointsLabel": "100",
+      "legends": false
+    },
+    {
+      "name": "Sisters Of Battle Immolator",
+      "normalizedName": "sisters of battle immolator",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 100
+            }
+          ]
+        }
+      ],
+      "points": 100,
+      "pointsLabel": "100",
+      "legends": false
+    },
+    {
+      "name": "Sisters Of Battle Immolator",
+      "normalizedName": "sisters of battle immolator",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 115
+            }
+          ]
+        }
+      ],
+      "points": 115,
+      "pointsLabel": "115",
+      "legends": false
+    },
+    {
+      "name": "Sisters Of Battle Squad",
+      "normalizedName": "sisters of battle squad",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 10,
+              "points": 100
+            }
+          ]
+        }
+      ],
+      "points": 100,
+      "pointsLabel": "100",
+      "legends": false
+    },
+    {
+      "name": "Sisters Of Battle Squad",
+      "normalizedName": "sisters of battle squad",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 10,
+              "points": 115
+            }
+          ]
+        }
+      ],
+      "points": 115,
+      "pointsLabel": "115",
+      "legends": false
+    },
+    {
+      "name": "Spectrus Kill Team",
+      "normalizedName": "spectrus kill team",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 5,
+              "points": 90
+            },
+            {
+              "models": 10,
+              "points": 180
+            }
+          ]
+        }
+      ],
+      "points": 90,
+      "pointsLabel": "90/180",
+      "legends": true
+    },
+    {
+      "name": "Subductor Squad",
+      "normalizedName": "subductor squad",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 11,
+              "points": 85
+            }
+          ]
+        }
+      ],
+      "points": 85,
+      "pointsLabel": "85",
+      "legends": false
+    },
+    {
+      "name": "Subductor Squad",
+      "normalizedName": "subductor squad",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 11,
+              "points": 100
+            }
+          ]
+        }
+      ],
+      "points": 100,
+      "pointsLabel": "100",
+      "legends": false
+    },
+    {
+      "name": "Ur-025",
+      "normalizedName": "ur 025",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 55
+            }
+          ]
+        }
+      ],
+      "points": 55,
+      "pointsLabel": "55",
+      "legends": true
+    },
+    {
+      "name": "Veteran Bike Squad",
+      "normalizedName": "veteran bike squad",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 3,
+              "points": 70
+            },
+            {
+              "models": 6,
+              "points": 140
+            }
+          ]
+        }
+      ],
+      "points": 70,
+      "pointsLabel": "70/140",
+      "legends": true
+    },
+    {
+      "name": "Vigilant Squad",
+      "normalizedName": "vigilant squad",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 11,
+              "points": 85
+            }
+          ]
+        }
+      ],
+      "points": 85,
+      "pointsLabel": "85",
+      "legends": false
+    },
+    {
+      "name": "Vigilant Squad",
+      "normalizedName": "vigilant squad",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 11,
+              "points": 85
+            }
+          ]
+        }
+      ],
+      "points": 85,
+      "pointsLabel": "85",
+      "legends": false
+    },
+    {
+      "name": "Vindicare Assassin",
+      "normalizedName": "vindicare assassin",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 110
+            }
+          ]
+        }
+      ],
+      "points": 110,
+      "pointsLabel": "110",
+      "legends": false
+    },
+    {
+      "name": "Vindicare Assassin",
+      "normalizedName": "vindicare assassin",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 125
+            }
+          ]
+        }
+      ],
+      "points": 125,
+      "pointsLabel": "125",
+      "legends": false
+    },
+    {
+      "name": "Voidsmen-At-Arms",
+      "normalizedName": "voidsmen at arms",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 6,
+              "points": 50
+            }
+          ]
+        }
+      ],
+      "points": 50,
+      "pointsLabel": "50",
+      "legends": false
+    },
+    {
+      "name": "Voidsmen-At-Arms",
+      "normalizedName": "voidsmen at arms",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 6,
+              "points": 70
+            }
+          ]
+        }
+      ],
+      "points": 70,
+      "pointsLabel": "70",
+      "legends": false
+    },
+    {
+      "name": "Watch Captain Artemis",
+      "normalizedName": "watch captain artemis",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 65
+            }
+          ]
+        }
+      ],
+      "points": 65,
+      "pointsLabel": "65",
+      "legends": false,
+      "role": "leader",
+      "attachTo": [
+        "Aquila Kill Team",
+        "Deathwatch Kill Team",
+        "Deathwatch Terminator Squad",
+        "Fortis Kill Team",
+        "Indomitor Kill Team",
+        "Proteus Kill Team",
+        "Spectrus Kill Team"
+      ]
+    },
+    {
+      "name": "Watch Captain Artemis",
+      "normalizedName": "watch captain artemis",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 65
+            }
+          ]
+        }
+      ],
+      "points": 65,
+      "pointsLabel": "65",
+      "legends": false,
+      "role": "leader",
+      "attachTo": [
+        "Aquila Kill Team",
+        "Deathwatch Kill Team",
+        "Deathwatch Terminator Squad",
+        "Fortis Kill Team",
+        "Indomitor Kill Team",
+        "Proteus Kill Team",
+        "Spectrus Kill Team"
+      ]
+    },
+    {
+      "name": "Watch Master",
+      "normalizedName": "watch master",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 95
+            }
+          ]
+        }
+      ],
+      "points": 95,
+      "pointsLabel": "95",
+      "legends": false,
+      "role": "leader",
+      "attachTo": [
+        "Aquila Kill Team",
+        "Deathwatch Kill Team",
+        "Deathwatch Terminator Squad",
+        "Fortis Kill Team",
+        "Indomitor Kill Team",
+        "Proteus Kill Team",
+        "Spectrus Kill Team"
+      ]
+    },
+    {
+      "name": "Watch Master",
+      "normalizedName": "watch master",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 105
+            }
+          ]
+        }
+      ],
+      "points": 105,
+      "pointsLabel": "105",
+      "legends": false,
+      "role": "leader",
+      "attachTo": [
+        "Aquila Kill Team",
+        "Deathwatch Kill Team",
+        "Deathwatch Terminator Squad",
+        "Fortis Kill Team",
+        "Indomitor Kill Team",
+        "Proteus Kill Team",
+        "Spectrus Kill Team"
+      ]
+    }
+  ]
+}
