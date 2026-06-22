@@ -1,0 +1,4300 @@
+{
+  "Name": "Blood Angels",
+  "Units": [
+    {
+      "Name": "BROTHER CORBULO",
+      "Faction": "Oath of Moment",
+      "UnitComposition": {
+        "ModelCompositions": [
+          {
+            "ModelName": "Brother Corbulo",
+            "Wargear": [
+              {
+                "InitalWargear": [
+                  "bolt pistol",
+                  "Heaven’s Teeth"
+                ],
+                "Options": []
+              }
+            ]
+          }
+        ],
+        "WargearDefinitions": []
+      },
+      "UnitAbilities": [
+        {
+          "Title": "Sanguinary Priest",
+          "Text": "While this model is leading a unit, models in that unit have the Feel No Pain 5+ ability."
+        },
+        {
+          "Title": "The Red Grail",
+          "Text": "While this model is leading a unit, add 1 to the Attacks characteristic of melee weapons equipped by models in that unit."
+        }
+      ],
+      "LeaderInfo": {
+        "UnitNames": [
+          "ASSAULT INTERCESSOR SQUAD",
+          "DESOLATION SQUAD",
+          "DEVASTATOR SQUAD",
+          "HELLBLASTER SQUAD",
+          "INFERNUS SQUAD",
+          "INTERCESSOR SQUAD",
+          "STERNGUARD VETERAN SQUAD",
+          "TACTICAL SQUAD"
+        ],
+        "Abilities": [
+          {
+            "AbilityId": "Sanguinary Priest"
+          },
+          {
+            "AbilityId": "The Red Grail",
+            "WeaponStatAdjustments": [
+              {
+                "Value": "1",
+                "Type": "Add",
+                "Scope": "Unit",
+                "Target": "Attacks"
+              }
+            ]
+          }
+        ]
+      },
+      "Infos": [],
+      "Keywords": [
+        "Infantry",
+        "Character",
+        "Epic Hero",
+        "Grenades",
+        "Imperium",
+        "Sanguinary Priest",
+        "Brother Corbulo"
+      ],
+      "CoreAbilities": [
+        "Leader"
+      ],
+      "FactionKeywords": [
+        "Adeptus Astartes",
+        "Blood Angels"
+      ],
+      "StatLines": [
+        {
+          "Movement": "6\"",
+          "Toughness": "4",
+          "Save": "3+",
+          "Wounds": "4",
+          "Leadership": "6+",
+          "OC": "1"
+        }
+      ],
+      "Weapons": [
+        {
+          "Name": "RANGED WEAPONS",
+          "Weapons": [
+            {
+              "Name": "Bolt pistol",
+              "Keywords": "PISTOL",
+              "Range": "12\"",
+              "Attacks": "1",
+              "ToHit": "2+",
+              "Strength": "4",
+              "AP": "0",
+              "Damage": "1"
+            }
+          ]
+        },
+        {
+          "IsMelee": true,
+          "Name": "MELEE WEAPONS",
+          "Weapons": [
+            {
+              "Name": "Heaven’s Teeth",
+              "Keywords": "SUSTAINED HITS 1",
+              "Range": "Melee",
+              "Attacks": "6",
+              "ToHit": "2+",
+              "Strength": "5",
+              "AP": "-1",
+              "Damage": "1"
+            }
+          ]
+        }
+      ],
+      "Upgrades": [],
+      "Points": [
+        {
+          "ModelCount": 1,
+          "Cost": 75
+        }
+      ]
+    },
+    {
+      "Name": "CAPTAIN TYCHO",
+      "Faction": "Oath of Moment",
+      "UnitComposition": {
+        "ModelCompositions": [
+          {
+            "ModelName": "Captain Tycho",
+            "Wargear": [
+              {
+                "InitalWargear": [
+                  "Blood Song",
+                  "bolt pistol",
+                  "Dead Man’s Hand"
+                ],
+                "Options": []
+              }
+            ]
+          }
+        ],
+        "WargearDefinitions": []
+      },
+      "UnitAbilities": [
+        {
+          "Title": "Gifted Commander",
+          "Text": "While this model is leading a unit, each time that unit is selected to shoot, select one of the following abilities to apply to ranged weapons equipped by models in that unit until the end of the phase:\n\t▪ [ASSAULT]\n\t▪ [HEAVY]\n\t▪ [RAPID FIRE 1]"
+        },
+        {
+          "Title": "Embittered",
+          "Text": "The first time an attack is allocated to this model, after the attacking unit has finished making its attacks, until the end of the battle, change the Attacks characteristic of this model’s Dead Man’s Hand to 12."
+        }
+      ],
+      "LeaderInfo": {
+        "UnitNames": [
+          "ASSAULT INTERCESSOR SQUAD",
+          "BLADEGUARD VETERAN SQUAD",
+          "COMPANY HEROES",
+          "HELLBLASTER SQUAD",
+          "INFERNUS SQUAD",
+          "INTERCESSOR SQUAD",
+          "STERNGUARD VETERAN SQUAD",
+          "TACTICAL SQUAD"
+        ],
+        "Abilities": [
+          {
+            "AbilityId": "Gifted Commander"
+          }
+        ]
+      },
+      "Infos": [
+        {
+          "Title": "TYCHO",
+          "Text": "Your Army cannot contain both Captain Tycho and Tycho the Lost."
+        },
+        {
+          "Title": "CAPTAIN TYCHO",
+          "Text": "Captain Tycho was once one of the Blood Angels’ most gifted commanders, a paragon of every ideal his Chapter held to. It was while fighting countless battles against the Orks on Armageddon that he earned fame and renown, and there that he suffered the wound that changed his life forever."
+        }
+      ],
+      "Keywords": [
+        "Infantry",
+        "Character",
+        "Epic Hero",
+        "Grenades",
+        "Imperium",
+        "Captain",
+        "Tycho"
+      ],
+      "CoreAbilities": [
+        "Leader"
+      ],
+      "FactionKeywords": [
+        "Adeptus Astartes",
+        "Blood Angels"
+      ],
+      "StatLines": [
+        {
+          "Movement": "6\"",
+          "Toughness": "4",
+          "Save": "2+",
+          "Wounds": "5",
+          "Leadership": "6+",
+          "OC": "1",
+          "InvulSave": {
+            "Save": "4+"
+          }
+        }
+      ],
+      "Weapons": [
+        {
+          "Name": "RANGED WEAPONS",
+          "Weapons": [
+            {
+              "Name": "Blood Song",
+              "Keywords": "ANTI-INFANTRY 4+, DEVASTATING WOUNDS, MELTA 2",
+              "Range": "24\"",
+              "Attacks": "2",
+              "ToHit": "2+",
+              "Strength": "4",
+              "AP": "-1",
+              "Damage": "2"
+            },
+            {
+              "Name": "Bolt pistol",
+              "Keywords": "PISTOL",
+              "Range": "12\"",
+              "Attacks": "1",
+              "ToHit": "2+",
+              "Strength": "4",
+              "AP": "0",
+              "Damage": "1"
+            }
+          ]
+        },
+        {
+          "IsMelee": true,
+          "Name": "MELEE WEAPONS",
+          "Weapons": [
+            {
+              "Name": "Dead Man’s Hand",
+              "Range": "Melee",
+              "Attacks": "6",
+              "ToHit": "2+",
+              "Strength": "4",
+              "AP": "-1",
+              "Damage": "2"
+            }
+          ]
+        }
+      ],
+      "Upgrades": [],
+      "Points": [
+        {
+          "ModelCount": 1,
+          "Cost": 75
+        }
+      ]
+    },
+    {
+      "Name": "DEATH COMPANY DREADNOUGHT WITH MAGNA-GRAPPLE",
+      "Faction": "Oath of Moment",
+      "UnitComposition": {
+        "ModelCompositions": [
+          {
+            "ModelName": "Death Company Dreadnought",
+            "Wargear": [
+              {
+                "InitalWargear": [
+                  "meltagun",
+                  "storm bolter",
+                  "twin Furioso fists"
+                ],
+                "Options": [
+                  {
+                    "Replaces": [
+                      "storm bolter"
+                    ],
+                    "Options": [
+                      "heavy flamer"
+                    ]
+                  },
+                  {
+                    "Replaces": [
+                      "meltagun"
+                    ],
+                    "Options": [
+                      "heavy flamer"
+                    ]
+                  },
+                  {
+                    "Replaces": [
+                      "twin Furioso fists"
+                    ],
+                    "Options": [
+                      "blood talons"
+                    ]
+                  },
+                  {
+                    "Options": [
+                      "smoke launchers"
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "WargearDefinitions": [
+          {
+            "Key": "smoke launchers",
+            "GrantsAbilities": [
+              "Smoke Launchers"
+            ]
+          }
+        ]
+      },
+      "UnitAbilities": [
+        {
+          "Title": "Smoke Launchers",
+          "Text": "The bearer loses the Magna-grapple ability and gains the Smoke keyword."
+        },
+        {
+          "Title": "Black Rage",
+          "Text": "Each time this model makes an attack, you can re-roll the Hit roll. While this model is not within 12\" of one or more friendly Chaplain models, it cannot be selected to Fall Back and its Objective Control characteristic is 0."
+        },
+        {
+          "Title": "Frenzied Reprisal",
+          "Text": "Each time an enemy unit targets this model, after that unit has finished making its attacks, this model can either shoot as if it were your Shooting phase or fight as if it were the Fight phase."
+        },
+        {
+          "Title": "Magna-grapple",
+          "Text": "Add 2 to Charge rolls made for this model if one or more of the targets of that charge is a Monster or Vehicle unit."
+        }
+      ],
+      "Infos": [],
+      "Keywords": [
+        "Vehicle",
+        "Walker",
+        "Imperium",
+        "Dreadnought",
+        "Death Company Dreadnought"
+      ],
+      "CoreAbilities": [
+        "Deadly Demise 1",
+        "Feel No Pain 6+"
+      ],
+      "FactionKeywords": [
+        "Adeptus Astartes",
+        "Blood Angels"
+      ],
+      "StatLines": [
+        {
+          "Movement": "8\"",
+          "Toughness": "9",
+          "Save": "2+",
+          "Wounds": "8",
+          "Leadership": "6+",
+          "OC": "3"
+        }
+      ],
+      "Weapons": [
+        {
+          "Name": "RANGED WEAPONS",
+          "Weapons": [
+            {
+              "Name": "Heavy flamer",
+              "Keywords": "IGNORES COVER, TORRENT",
+              "Range": "12\"",
+              "Attacks": "D6",
+              "ToHit": "N/A",
+              "Strength": "5",
+              "AP": "-1",
+              "Damage": "1"
+            },
+            {
+              "Name": "Meltagun",
+              "Keywords": "MELTA 2",
+              "Range": "12\"",
+              "Attacks": "1",
+              "ToHit": "3+",
+              "Strength": "9",
+              "AP": "-4",
+              "Damage": "D6"
+            },
+            {
+              "Name": "Storm bolter",
+              "Keywords": "RAPID FIRE 2",
+              "Range": "24\"",
+              "Attacks": "2",
+              "ToHit": "3+",
+              "Strength": "4",
+              "AP": "0",
+              "Damage": "1"
+            }
+          ]
+        },
+        {
+          "IsMelee": true,
+          "Name": "MELEE WEAPONS",
+          "Weapons": [
+            {
+              "Name": "Blood talons",
+              "Keywords": "TWIN-LINKED",
+              "Range": "Melee",
+              "Attacks": "7",
+              "ToHit": "3+",
+              "Strength": "8",
+              "AP": "-2",
+              "Damage": "3"
+            },
+            {
+              "Name": "Twin Furioso fists",
+              "Keywords": "TWIN-LINKED",
+              "Range": "Melee",
+              "Attacks": "5",
+              "ToHit": "3+",
+              "Strength": "12",
+              "AP": "-3",
+              "Damage": "3"
+            }
+          ]
+        }
+      ],
+      "Upgrades": [],
+      "Points": [
+        {
+          "ModelCount": 1,
+          "Cost": 145
+        }
+      ]
+    },
+    {
+      "Name": "DEATH COMPANY MARINES WITH BOLTGUNS",
+      "Faction": "Oath of Moment",
+      "UnitComposition": {
+        "ModelCompositions": [
+          {
+            "Limit": {
+              "Min": 5,
+              "Max": 10
+            },
+            "ModelName": "Death Company Marines",
+            "Wargear": [
+              {
+                "InitalWargear": [
+                  "boltgun",
+                  "close combat weapon"
+                ],
+                "Options": [
+                  {
+                    "Replaces": [
+                      "boltgun",
+                      "close combat weapon"
+                    ],
+                    "Options": [
+                      "Astartes chainsword and bolt pistol",
+                      "Astartes chainsword and hand flamer",
+                      "Astartes chainsword and inferno pistol",
+                      "Astartes chainsword and plasma pistol",
+                      "power fist and bolt pistol",
+                      "power fist and hand flamer",
+                      "power fist and inferno pistol",
+                      "power fist and plasma pistol",
+                      "power weapon and bolt pistol",
+                      "power weapon and hand flamer",
+                      "power weapon and inferno pistol",
+                      "power weapon and plasma pistol",
+                      "thunder hammer"
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "WargearDefinitions": []
+      },
+      "UnitAbilities": [
+        {
+          "Title": "Black Rage",
+          "Text": "Each time a model in this unit makes an attack, you can re-roll the Hit roll. While this unit is not within 12\" of one or more friendly Chaplain models, it cannot be selected to Fall Back and the Objective Control characteristic of models in this unit is 0."
+        },
+        {
+          "Title": "An Honourable Death in Combat",
+          "Text": "Each time a model in this unit makes an attack, that attack has the [SUSTAINED HITS 1] ability if this unit is below its Starting Strength, or the [SUSTAINED HITS 2] ability if this unit is Below Half-strength."
+        }
+      ],
+      "AttachedUnitInfo": {
+        "LeaderAttachmentRules": [
+          {
+            "LeaderKeyword": "Chaplain",
+            "LedUnitNames": [
+              "TACTICAL SQUAD"
+            ]
+          },
+          {
+            "LeaderKeyword": "Character",
+            "LedUnitNames": [
+              "DEATH COMPANY MARINES"
+            ]
+          }
+        ]
+      },
+      "Infos": [
+        {
+          "Title": "DEATH COMPANY",
+          "Text": "If a Chaplain model from your army with the Leader ability can be attached to a Tactical Squad, it can be attached to this unit instead. If a Character unit from your army with the Leader ability can be attached to a Death Company Marines unit, it can be attached to this unit instead."
+        }
+      ],
+      "Keywords": [
+        "Infantry",
+        "Grenades",
+        "Imperium",
+        "Death Company",
+        "Death Compamy Marines with Boltguns"
+      ],
+      "CoreAbilities": [
+        "Feel No Pain 6+"
+      ],
+      "FactionKeywords": [
+        "Adeptus Astartes",
+        "Blood Angels"
+      ],
+      "StatLines": [
+        {
+          "Movement": "6\"",
+          "Toughness": "4",
+          "Save": "3+",
+          "Wounds": "2",
+          "Leadership": "6+",
+          "OC": "1"
+        }
+      ],
+      "Weapons": [
+        {
+          "Name": "RANGED WEAPONS",
+          "Weapons": [
+            {
+              "Name": "Bolt pistol",
+              "Keywords": "PISTOL",
+              "Range": "12\"",
+              "Attacks": "1",
+              "ToHit": "3+",
+              "Strength": "4",
+              "AP": "0",
+              "Damage": "1"
+            },
+            {
+              "Name": "Boltgun",
+              "Range": "24\"",
+              "Attacks": "2",
+              "ToHit": "3+",
+              "Strength": "4",
+              "AP": "0",
+              "Damage": "1"
+            },
+            {
+              "Name": "Hand flamer",
+              "Keywords": "IGNORES COVER, PISTOL, TORRENT",
+              "Range": "12\"",
+              "Attacks": "D6",
+              "ToHit": "N/A",
+              "Strength": "3",
+              "AP": "0",
+              "Damage": "1"
+            },
+            {
+              "Name": "Inferno pistol",
+              "Keywords": "MELTA 2, PISTOL",
+              "Range": "6\"",
+              "Attacks": "1",
+              "ToHit": "3+",
+              "Strength": "8",
+              "AP": "-4",
+              "Damage": "D3"
+            },
+            {
+              "Name": "Plasma pistol – standard",
+              "Keywords": "PISTOL",
+              "Range": "12\"",
+              "Attacks": "1",
+              "ToHit": "3+",
+              "Strength": "7",
+              "AP": "-2",
+              "Damage": "1"
+            },
+            {
+              "Name": "Plasma pistol – supercharge",
+              "Keywords": "HAZARDOUS, PISTOL",
+              "Range": "12\"",
+              "Attacks": "1",
+              "ToHit": "3+",
+              "Strength": "8",
+              "AP": "-3",
+              "Damage": "2"
+            }
+          ]
+        },
+        {
+          "IsMelee": true,
+          "Name": "MELEE WEAPONS",
+          "Weapons": [
+            {
+              "Name": "Astartes chainsword",
+              "Range": "Melee",
+              "Attacks": "4",
+              "ToHit": "3+",
+              "Strength": "4",
+              "AP": "-1",
+              "Damage": "1"
+            },
+            {
+              "Name": "Close combat weapon",
+              "Range": "Melee",
+              "Attacks": "3",
+              "ToHit": "3+",
+              "Strength": "4",
+              "AP": "0",
+              "Damage": "1"
+            },
+            {
+              "Name": "Power fist",
+              "Range": "Melee",
+              "Attacks": "3",
+              "ToHit": "3+",
+              "Strength": "8",
+              "AP": "-2",
+              "Damage": "2"
+            },
+            {
+              "Name": "Power weapon",
+              "Range": "Melee",
+              "Attacks": "4",
+              "ToHit": "3+",
+              "Strength": "5",
+              "AP": "-2",
+              "Damage": "1"
+            },
+            {
+              "Name": "Thunder hammer",
+              "Keywords": "DEVASTATING WOUNDS",
+              "Range": "Melee",
+              "Attacks": "3",
+              "ToHit": "4+",
+              "Strength": "8",
+              "AP": "-2",
+              "Damage": "2"
+            }
+          ]
+        }
+      ],
+      "Upgrades": [],
+      "Points": [
+        {
+          "ModelCount": 5,
+          "Cost": 125
+        },
+        {
+          "ModelCount": 10,
+          "Cost": 250
+        }
+      ]
+    },
+    {
+      "Name": "DEATH COMPANY MARINES WITH BOLTGUNS AND JUMP PACKS",
+      "Faction": "Oath of Moment",
+      "UnitComposition": {
+        "ModelCompositions": [
+          {
+            "Limit": {
+              "Min": 5,
+              "Max": 10
+            },
+            "ModelName": "Death Company Marines with Jump Packs",
+            "Wargear": [
+              {
+                "InitalWargear": [
+                  "boltgun",
+                  "close combat weapon"
+                ],
+                "Options": [
+                  {
+                    "Replaces": [
+                      "boltgun",
+                      "close combat weapon"
+                    ],
+                    "Options": [
+                      "Astartes chainsword and bolt pistol",
+                      "Astartes chainsword and hand flamer",
+                      "Astartes chainsword and inferno pistol",
+                      "Astartes chainsword and plasma pistol",
+                      "power fist and bolt pistol",
+                      "power fist and hand flamer",
+                      "power fist and inferno pistol",
+                      "power fist and plasma pistol",
+                      "power weapon and bolt pistol",
+                      "power weapon and hand flamer",
+                      "power weapon and inferno pistol",
+                      "power weapon and plasma pistol",
+                      "thunder hammer"
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "WargearDefinitions": []
+      },
+      "UnitAbilities": [
+        {
+          "Title": "Black Rage",
+          "Text": "Each time a model in this unit makes an attack, you can re-roll the Hit roll. While this unit is not within 12\" of one or more friendly Chaplain models, it cannot be selected to Fall Back and the Objective Control characteristic of models in this unit is 0."
+        },
+        {
+          "Title": "Berserk Fury",
+          "Text": "You can re-roll Charge rolls made for this unit."
+        }
+      ],
+      "AttachedUnitInfo": {
+        "LeaderAttachmentRules": [
+          {
+            "LeaderKeyword": "Chaplain",
+            "LedUnitNames": [
+              "ASSAULT INTERCESSORS WITH JUMP PACKS",
+              "ASSAULT SQUAD WITH JUMP PACKS"
+            ]
+          },
+          {
+            "LeaderKeyword": "Character",
+            "LedUnitNames": [
+              "DEATH COMPANY MARINES WITH JUMP PACKS"
+            ]
+          }
+        ]
+      },
+      "Infos": [
+        {
+          "Title": "DEATH COMPANY",
+          "Text": "If a Chaplain model from your army with the Leader ability can be attached to Assault Intercessors with Jump Packs or an Assault Squad with Jump Packs, it can be attached to this unit instead. If a Character unit from your army with the Leader ability can be attached to a Death Company Marines with Jump Packs unit, it can be attached to this unit instead."
+        }
+      ],
+      "Keywords": [
+        "Infantry",
+        "Fly",
+        "Jump Pack",
+        "Grenades",
+        "Imperium",
+        "Death Company",
+        "Death Company Marines with boltguns and Jump Packs"
+      ],
+      "CoreAbilities": [
+        "Deep Strike",
+        "Feel No Pain 6+"
+      ],
+      "FactionKeywords": [
+        "Adeptus Astartes",
+        "Blood Angels"
+      ],
+      "StatLines": [
+        {
+          "Movement": "12\"",
+          "Toughness": "4",
+          "Save": "3+",
+          "Wounds": "2",
+          "Leadership": "6+",
+          "OC": "1"
+        }
+      ],
+      "Weapons": [
+        {
+          "Name": "RANGED WEAPONS",
+          "Weapons": [
+            {
+              "Name": "Bolt pistol",
+              "Keywords": "PISTOL",
+              "Range": "12\"",
+              "Attacks": "1",
+              "ToHit": "3+",
+              "Strength": "4",
+              "AP": "0",
+              "Damage": "1"
+            },
+            {
+              "Name": "Boltgun",
+              "Range": "24\"",
+              "Attacks": "2",
+              "ToHit": "3+",
+              "Strength": "4",
+              "AP": "0",
+              "Damage": "1"
+            },
+            {
+              "Name": "Hand flamer",
+              "Keywords": "IGNORES COVER, PISTOL, TORRENT",
+              "Range": "12\"",
+              "Attacks": "D6",
+              "ToHit": "N/A",
+              "Strength": "3",
+              "AP": "0",
+              "Damage": "1"
+            },
+            {
+              "Name": "Inferno pistol",
+              "Keywords": "MELTA 2, PISTOL",
+              "Range": "6\"",
+              "Attacks": "1",
+              "ToHit": "3+",
+              "Strength": "8",
+              "AP": "-4",
+              "Damage": "D3"
+            },
+            {
+              "Name": "Plasma pistol – standard",
+              "Keywords": "PISTOL",
+              "Range": "12\"",
+              "Attacks": "1",
+              "ToHit": "3+",
+              "Strength": "7",
+              "AP": "-2",
+              "Damage": "1"
+            },
+            {
+              "Name": "Plasma pistol – supercharge",
+              "Keywords": "HAZARDOUS, PISTOL",
+              "Range": "12\"",
+              "Attacks": "1",
+              "ToHit": "3+",
+              "Strength": "8",
+              "AP": "-3",
+              "Damage": "2"
+            }
+          ]
+        },
+        {
+          "IsMelee": true,
+          "Name": "MELEE WEAPONS",
+          "Weapons": [
+            {
+              "Name": "Astartes chainsword",
+              "Range": "Melee",
+              "Attacks": "4",
+              "ToHit": "3+",
+              "Strength": "4",
+              "AP": "-1",
+              "Damage": "1"
+            },
+            {
+              "Name": "Power fist",
+              "Range": "Melee",
+              "Attacks": "3",
+              "ToHit": "3+",
+              "Strength": "8",
+              "AP": "-2",
+              "Damage": "2"
+            },
+            {
+              "Name": "Power weapon",
+              "Range": "Melee",
+              "Attacks": "4",
+              "ToHit": "3+",
+              "Strength": "5",
+              "AP": "-2",
+              "Damage": "1"
+            },
+            {
+              "Name": "Thunder hammer",
+              "Keywords": "DEVASTATING WOUNDS",
+              "Range": "Melee",
+              "Attacks": "3",
+              "ToHit": "4+",
+              "Strength": "8",
+              "AP": "-2",
+              "Damage": "2"
+            },
+            {
+              "Name": "Close combat weapon",
+              "Range": "Melee",
+              "Attacks": "3",
+              "ToHit": "3+",
+              "Strength": "4",
+              "AP": "0",
+              "Damage": "1"
+            }
+          ]
+        }
+      ],
+      "Upgrades": [],
+      "Points": [
+        {
+          "ModelCount": 5,
+          "Cost": 140
+        },
+        {
+          "ModelCount": 10,
+          "Cost": 280
+        }
+      ]
+    },
+    {
+      "Name": "FURIOSO DREADNOUGHT",
+      "Faction": "Oath of Moment",
+      "UnitComposition": {
+        "ModelCompositions": [
+          {
+            "ModelName": "Furioso Dreadnought",
+            "Wargear": [
+              {
+                "InitalWargear": [
+                  "heavy frag cannon",
+                  "Furioso fist",
+                  "storm bolter"
+                ],
+                "Options": [
+                  {
+                    "Replaces": [
+                      "heavy frag cannon",
+                      "Furioso fist"
+                    ],
+                    "Options": [
+                      "Blood Talons and meltagun",
+                      "twin Furioso fist and meltagun",
+                      "Blood Talons and heavy flamer",
+                      "twin Furioso fist and heavy flamer"
+                    ]
+                  },
+                  {
+                    "Replaces": [
+                      "storm bolter"
+                    ],
+                    "Options": [
+                      "heavy flamer"
+                    ]
+                  },
+                  {
+                    "Options": [
+                      "magna-grapple"
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "WargearDefinitions": [
+          {
+            "Key": "magna-grapple",
+            "GrantsAbilities": [
+              "Magna-grapple"
+            ]
+          }
+        ]
+      },
+      "UnitAbilities": [
+        {
+          "Title": "Magna-grapple",
+          "Text": "The bearer loses the Smoke keyword, but add 2 to Charge rolls made for the bearer if one or more of the targets of that charge is a Monster or Vehicle unit."
+        },
+        {
+          "Title": "Wrathful Rampage",
+          "Text": "Each time this model is selected to fight, you can select one enemy unit within Engagement Range of it and roll one D6, adding 2 to the result if this model made a Charge move this turn on a 4-5, that enemy unit suffers D3 mortal wounds; on a 6+, that enemy unit suffers 3 mortal wounds."
+        }
+      ],
+      "Infos": [],
+      "Keywords": [
+        "Vehicle",
+        "Walker",
+        "Imperium",
+        "Dreadnought",
+        "Furioso Dreadnought"
+      ],
+      "CoreAbilities": [
+        "Deadly Demise 1"
+      ],
+      "FactionKeywords": [
+        "Adeptus Astartes",
+        "Blood Angels"
+      ],
+      "StatLines": [
+        {
+          "Movement": "8\"",
+          "Toughness": "9",
+          "Save": "2+",
+          "Wounds": "8",
+          "Leadership": "6+",
+          "OC": "3"
+        }
+      ],
+      "Weapons": [
+        {
+          "Name": "RANGED WEAPONS",
+          "Weapons": [
+            {
+              "Name": "Heavy flamer",
+              "Keywords": "IGNORES COVER, TORRENT",
+              "Range": "12\"",
+              "Attacks": "D6",
+              "ToHit": "N/A",
+              "Strength": "5",
+              "AP": "-1",
+              "Damage": "1"
+            },
+            {
+              "Name": "Heavy frag cannon",
+              "Keywords": "BLAST, RAPID FIRE D6",
+              "Range": "18\"",
+              "Attacks": "D6",
+              "ToHit": "3+",
+              "Strength": "7",
+              "AP": "-1",
+              "Damage": "2"
+            },
+            {
+              "Name": "Meltagun",
+              "Keywords": "MELTA 2",
+              "Range": "12\"",
+              "Attacks": "1",
+              "ToHit": "3+",
+              "Strength": "9",
+              "AP": "-4",
+              "Damage": "D6"
+            },
+            {
+              "Name": "Storm bolter",
+              "Keywords": "RAPID FIRE 2",
+              "Range": "24\"",
+              "Attacks": "2",
+              "ToHit": "3+",
+              "Strength": "4",
+              "AP": "0",
+              "Damage": "1"
+            }
+          ]
+        },
+        {
+          "IsMelee": true,
+          "Name": "MELEE WEAPONS",
+          "Weapons": [
+            {
+              "Name": "Blood talons",
+              "Keywords": "TWIN-LINKED",
+              "Range": "Melee",
+              "Attacks": "7",
+              "ToHit": "3+",
+              "Strength": "8",
+              "AP": "-2",
+              "Damage": "3"
+            },
+            {
+              "Name": "Furioso fist",
+              "Range": "Melee",
+              "Attacks": "5",
+              "ToHit": "3+",
+              "Strength": "12",
+              "AP": "-3",
+              "Damage": "3"
+            },
+            {
+              "Name": "Twin Furioso fists",
+              "Keywords": "TWIN-LINKED",
+              "Range": "Melee",
+              "Attacks": "5",
+              "ToHit": "3+",
+              "Strength": "12",
+              "AP": "-3",
+              "Damage": "3"
+            }
+          ]
+        }
+      ],
+      "Upgrades": [],
+      "Points": [
+        {
+          "ModelCount": 1,
+          "Cost": 150
+        }
+      ]
+    },
+    {
+      "Name": "GABRIEL SETH",
+      "Faction": "Oath of Moment",
+      "UnitComposition": {
+        "ModelCompositions": [
+          {
+            "ModelName": "Gabriel Seth",
+            "Wargear": [
+              {
+                "InitalWargear": [
+                  "bolt pistol",
+                  "Blood Reaver"
+                ],
+                "Options": []
+              }
+            ]
+          }
+        ],
+        "WargearDefinitions": []
+      },
+      "UnitAbilities": [
+        {
+          "Title": "Lord of Slaughter",
+          "Text": "While this model is leading a unit, that unit is eligible to declare a charge in a turn in which it Advanced."
+        },
+        {
+          "Title": "Whirlwind of Gore",
+          "Text": "Each time this model fights, until that fight is resolved, add 1 to the Attacks characteristic of this model’s Blood Reaver for every 5 enemy models within 6\" of this model."
+        }
+      ],
+      "LeaderInfo": {
+        "UnitNames": [
+          "ASSAULT INTERCESSOR SQUAD",
+          "BLADEGUARD VETERAN SQUAD",
+          "COMPANY HEROES",
+          "HELLBLASTER SQUAD",
+          "INFERNUS SQUAD",
+          "INTERCESSOR SQUAD",
+          "STERNGUARD VETERAN SQUAD",
+          "TACTICAL SQUAD"
+        ],
+        "Abilities": [
+          {
+            "AbilityId": "Lord of Slaughter"
+          }
+        ]
+      },
+      "Infos": [
+        {
+          "Title": "FLESH TEARERS",
+          "Text": "This model is from the Flesh Tearers Chapter, a successor of the Blood Angels. For all rules purposes, it is treated as a Blood Angels model, but cannot be included in an army that includes any other Blood Angels Epic Hero models."
+        }
+      ],
+      "Keywords": [
+        "Infantry",
+        "Character",
+        "Epic Hero",
+        "Grenades",
+        "Imperium",
+        "Chapter Master",
+        "Gabriel Seth"
+      ],
+      "CoreAbilities": [
+        "Leader"
+      ],
+      "FactionKeywords": [
+        "Adeptus Astartes",
+        "Blood Angels"
+      ],
+      "StatLines": [
+        {
+          "Movement": "6\"",
+          "Toughness": "4",
+          "Save": "3+",
+          "Wounds": "6",
+          "Leadership": "6+",
+          "OC": "1",
+          "InvulSave": {
+            "Save": "4+"
+          }
+        }
+      ],
+      "Weapons": [
+        {
+          "Name": "RANGED WEAPONS",
+          "Weapons": [
+            {
+              "Name": "Bolt pistol",
+              "Keywords": "PISTOL",
+              "Range": "12\"",
+              "Attacks": "1",
+              "ToHit": "2+",
+              "Strength": "4",
+              "AP": "0",
+              "Damage": "1"
+            }
+          ]
+        },
+        {
+          "IsMelee": true,
+          "Name": "MELEE WEAPONS",
+          "Weapons": [
+            {
+              "Name": "Blood Reaver",
+              "Keywords": "SUSTAINED HITS 1",
+              "Range": "Melee",
+              "Attacks": "6",
+              "ToHit": "2+",
+              "Strength": "8",
+              "AP": "-2",
+              "Damage": "3"
+            }
+          ]
+        }
+      ],
+      "Upgrades": [],
+      "Points": [
+        {
+          "ModelCount": 1,
+          "Cost": 90
+        }
+      ]
+    },
+    {
+      "Name": "LIBRARIAN DREADNOUGHT",
+      "Faction": "Oath of Moment",
+      "UnitComposition": {
+        "ModelCompositions": [
+          {
+            "ModelName": "Librarian Dreadnought",
+            "Wargear": [
+              {
+                "InitalWargear": [
+                  "Blood Lance",
+                  "storm bolter",
+                  "Furioso fist, Furioso force halberd"
+                ],
+                "Options": [
+                  {
+                    "Replaces": [
+                      "storm bolter"
+                    ],
+                    "Options": [
+                      "heavy flamer",
+                      "meltagun"
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "WargearDefinitions": []
+      },
+      "UnitAbilities": [
+        {
+          "Title": "Shield of Sanguinius (Aura, Psychic)",
+          "Text": "While a friendly Adeptus Astartes unit is within 6\" of this model, models in that unit have the Feel No Pain 5+ ability against mortal wounds and Psychic Attacks."
+        },
+        {
+          "Title": "Wings of Sanguinius (Psychic)",
+          "Text": "Once per turn, at the end of your Movement phase, one Psyker from your army with this ability can use it. If it does, roll one D6: on a 1, that Psyker suffers D3 mortal wounds; on a 2+, select one friendly Adeptus Astartes Infantry unit within 12\" of that Psyker and remove the selected unit from the battlefield, then set it up again anywhere on the battlefield that is more than 9\" horizontally away from all enemy models."
+        }
+      ],
+      "Infos": [],
+      "Keywords": [
+        "Vehicle",
+        "Walker",
+        "Smoke",
+        "Psyker",
+        "Imperium",
+        "Dreadnought",
+        "Librarian Dreadnought"
+      ],
+      "CoreAbilities": [
+        "Deadly Demise 1"
+      ],
+      "FactionKeywords": [
+        "Adeptus Astartes",
+        "Blood Angels"
+      ],
+      "StatLines": [
+        {
+          "Movement": "8\"",
+          "Toughness": "9",
+          "Save": "2+",
+          "Wounds": "8",
+          "Leadership": "6+",
+          "OC": "3"
+        }
+      ],
+      "Weapons": [
+        {
+          "Name": "RANGED WEAPONS",
+          "Weapons": [
+            {
+              "Name": "Blood Lance – witchfire",
+              "Keywords": "PSYCHIC, SUSTAINED HITS D3",
+              "Range": "18\"",
+              "Attacks": "1",
+              "ToHit": "3+",
+              "Strength": "10",
+              "AP": "-3",
+              "Damage": "D6"
+            },
+            {
+              "Name": "Blood Lance – focused witchfire",
+              "Keywords": "HAZARDOUS, PSYCHIC, SUSTAINED HITS D3",
+              "Range": "18\"",
+              "Attacks": "1",
+              "ToHit": "3+",
+              "Strength": "12",
+              "AP": "-3",
+              "Damage": "D6+3"
+            },
+            {
+              "Name": "Heavy flamer",
+              "Keywords": "IGNORES COVER, TORRENT",
+              "Range": "12\"",
+              "Attacks": "D6",
+              "ToHit": "N/A",
+              "Strength": "5",
+              "AP": "-1",
+              "Damage": "1"
+            },
+            {
+              "Name": "Meltagun",
+              "Keywords": "MELTA 2",
+              "Range": "12\"",
+              "Attacks": "1",
+              "ToHit": "3+",
+              "Strength": "9",
+              "AP": "-4",
+              "Damage": "D6"
+            },
+            {
+              "Name": "Storm bolter",
+              "Keywords": "RAPID FIRE 2",
+              "Range": "24\"",
+              "Attacks": "2",
+              "ToHit": "3+",
+              "Strength": "4",
+              "AP": "0",
+              "Damage": "1"
+            }
+          ]
+        },
+        {
+          "IsMelee": true,
+          "Name": "MELEE WEAPONS",
+          "Weapons": [
+            {
+              "Name": "Furioso fist",
+              "Range": "Melee",
+              "Attacks": "5",
+              "ToHit": "3+",
+              "Strength": "12",
+              "AP": "-3",
+              "Damage": "3"
+            },
+            {
+              "Name": "Furioso force halberd",
+              "Keywords": "EXTRA ATTACKS, PSYCHIC",
+              "Range": "Melee",
+              "Attacks": "1",
+              "ToHit": "2+",
+              "Strength": "9",
+              "AP": "-3",
+              "Damage": "D6+3"
+            }
+          ]
+        }
+      ],
+      "Upgrades": [],
+      "Points": [
+        {
+          "ModelCount": 1,
+          "Cost": 170
+        }
+      ]
+    },
+    {
+      "Name": "TYCHO THE LOST",
+      "Faction": "Oath of Moment",
+      "UnitComposition": {
+        "ModelCompositions": [
+          {
+            "ModelName": "Tycho the Lost",
+            "Wargear": [
+              {
+                "InitalWargear": [
+                  "Blood Song",
+                  "bolt pistol",
+                  "Dead Man’s Hand"
+                ],
+                "Options": []
+              }
+            ]
+          }
+        ],
+        "WargearDefinitions": []
+      },
+      "UnitAbilities": [
+        {
+          "Title": "Forlorn Hero",
+          "Text": "While this model is leading a unit, that unit is eligible to declare a charge in a turn in which it Advanced."
+        },
+        {
+          "Title": "Black Rage",
+          "Text": "Each time this model makes an attack, you can re-roll the Hit roll. While this model is not within 12\" of one or more friendly Chaplain models, it cannot be selected to Fall Back and its Objective Control characteristic is 0."
+        },
+        {
+          "Title": "Death Vision of Sanguinius",
+          "Text": "If this model is destroyed by a melee attack, after the attacking unit has finished making its attacks, you can roll one D6, adding 2 to the result if the attacking unit contains the enemy Warlord on a 2-3, that enemy unit suffers 3 mortal wounds; on a 4-5, that enemy unit suffers D3+3 mortal wounds; on a 6+, that enemy unit suffers D6+3 mortal wounds."
+        }
+      ],
+      "LeaderInfo": {
+        "UnitNames": [
+          "DEATH COMPANY MARINES",
+          "DEATH COMPANY MARINES WITH BOLT RIFLES",
+          "DEATH COMPANY MARINES WITH BOLTGUNS"
+        ],
+        "Abilities": [
+          {
+            "AbilityId": "Forlorn Hero"
+          }
+        ]
+      },
+      "Infos": [
+        {
+          "Title": "TYCHO",
+          "Text": "Your army cannot contain both Captain Tycho and Tycho the Lost."
+        }
+      ],
+      "Keywords": [
+        "Infantry",
+        "Character",
+        "Epic Hero",
+        "Grenades",
+        "Imperium",
+        "Captain",
+        "Tycho the Lost"
+      ],
+      "CoreAbilities": [
+        "Leader",
+        "Feel No Pain 6+"
+      ],
+      "FactionKeywords": [
+        "Adeptus Astartes",
+        "Blood Angels"
+      ],
+      "StatLines": [
+        {
+          "Movement": "6\"",
+          "Toughness": "4",
+          "Save": "2+",
+          "Wounds": "4",
+          "Leadership": "6+",
+          "OC": "1",
+          "InvulSave": {
+            "Save": "4+"
+          }
+        }
+      ],
+      "Weapons": [
+        {
+          "Name": "RANGED WEAPONS",
+          "Weapons": [
+            {
+              "Name": "Blood Song",
+              "Keywords": "ANTI-INFANTRY 4+, DEVASTATING WOUNDS, MELTA 2",
+              "Range": "24\"",
+              "Attacks": "2",
+              "ToHit": "2+",
+              "Strength": "4",
+              "AP": "-1",
+              "Damage": "2"
+            },
+            {
+              "Name": "Bolt pistol",
+              "Keywords": "PISTOL",
+              "Range": "12\"",
+              "Attacks": "1",
+              "ToHit": "2+",
+              "Strength": "4",
+              "AP": "0",
+              "Damage": "1"
+            }
+          ]
+        },
+        {
+          "IsMelee": true,
+          "Name": "MELEE WEAPONS",
+          "Weapons": [
+            {
+              "Name": "Dead Man’s Hand",
+              "Range": "Melee",
+              "Attacks": "6",
+              "ToHit": "2+",
+              "Strength": "4",
+              "AP": "-1",
+              "Damage": "2"
+            }
+          ]
+        }
+      ],
+      "Upgrades": [],
+      "Points": [
+        {
+          "ModelCount": 1,
+          "Cost": 90
+        }
+      ]
+    },
+    {
+      "Name": "SANGUINARY PRIEST WITH JUMP PACK",
+      "Faction": "Oath of Moment",
+      "UnitComposition": {
+        "ModelCompositions": [
+          {
+            "ModelName": "Sanguinary Priest",
+            "Wargear": [
+              {
+                "InitalWargear": [
+                  "bolt pistol",
+                  "Astartes chainsword"
+                ],
+                "Options": []
+              }
+            ]
+          }
+        ],
+        "WargearDefinitions": []
+      },
+      "UnitAbilities": [
+        {
+          "Title": "Sanguinary Priest",
+          "Text": "While this model is leading a unit, models in that unit have the Feel No Pain 5+ ability."
+        },
+        {
+          "Title": "Blood Chalice",
+          "Text": "While this model is leading a unit, improve the Armour Penetration characteristic of melee weapons equipped by models in that unit by 1."
+        }
+      ],
+      "LeaderInfo": {
+        "UnitNames": [
+          "ASSAULT INTERCESSORS WITH JUMP PACKS",
+          "VANGUARD VETERAN SQUAD WITH JUMP PACKS"
+        ],
+        "Description": "You can attach this model to one of the above units, even if one Captain, Chapter Master or Lieutenant model has already been attached to it. If you do, and that Bodyguard unit is destroyed, the Leader units attached to it become separate units, with their original Starting Strengths.",
+        "CanAttachAlongsideLeadersInfo": {
+          "LeaderKeywords": [
+            "Captain",
+            "Chapter Master",
+            "Lieutenant"
+          ]
+        },
+        "Abilities": [
+          {
+            "AbilityId": "Sanguinary Priest"
+          },
+          {
+            "AbilityId": "Blood Chalice",
+            "WeaponStatAdjustments": [
+              {
+                "Value": "1",
+                "Type": "Add",
+                "Scope": "Unit",
+                "Target": "AP"
+              }
+            ]
+          }
+        ]
+      },
+      "Infos": [],
+      "Keywords": [
+        "Infantry",
+        "Character",
+        "Grenades",
+        "Imperium",
+        "Fly",
+        "Jump Pack",
+        "Sanguinary Priest"
+      ],
+      "CoreAbilities": [
+        "Deep Strike",
+        "Leader"
+      ],
+      "FactionKeywords": [
+        "Adeptus Astartes",
+        "Blood Angels"
+      ],
+      "StatLines": [
+        {
+          "Movement": "12\"",
+          "Toughness": "4",
+          "Save": "3+",
+          "Wounds": "4",
+          "Leadership": "6+",
+          "OC": "1"
+        }
+      ],
+      "Weapons": [
+        {
+          "Name": "RANGED WEAPONS",
+          "Weapons": [
+            {
+              "Name": "Bolt pistol",
+              "Keywords": "PISTOL",
+              "Range": "12\"",
+              "Attacks": "1",
+              "ToHit": "2+",
+              "Strength": "4",
+              "AP": "0",
+              "Damage": "1"
+            }
+          ]
+        },
+        {
+          "IsMelee": true,
+          "Name": "MELEE WEAPONS",
+          "Weapons": [
+            {
+              "Name": "Astartes chainsword",
+              "Range": "Melee",
+              "Attacks": "5",
+              "ToHit": "2+",
+              "Strength": "4",
+              "AP": "-1",
+              "Damage": "1"
+            }
+          ]
+        }
+      ],
+      "Upgrades": [],
+      "Points": [
+        {
+          "ModelCount": 1,
+          "Cost": 100
+        }
+      ]
+    },
+    {
+      "Name": "SANGUINARY PRIEST ON BIKE",
+      "Faction": "Oath of Moment",
+      "UnitComposition": {
+        "ModelCompositions": [
+          {
+            "ModelName": "Sanguinary Priest On Bike",
+            "Wargear": [
+              {
+                "InitalWargear": [
+                  "bolt pistol",
+                  "Twin Boltgun",
+                  "astartes chainsword"
+                ],
+                "Options": [
+                  {
+                    "Replaces": [
+                      "astartes chainsword"
+                    ],
+                    "Options": [
+                      "power fist",
+                      "power weapon",
+                      "thunder hammer"
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "WargearDefinitions": []
+      },
+      "UnitAbilities": [
+        {
+          "Title": "Sanguinary Priest",
+          "Text": "While this model is leading a unit, models in that unit have the Feel No Pain 5+ ability."
+        },
+        {
+          "Title": "Blood Chalice",
+          "Text": "While this model is leading a unit, improve the Armour Penetration characteristic of melee weapons equipped by models in that unit by 1."
+        }
+      ],
+      "LeaderInfo": {
+        "UnitNames": [
+          "BIKE SQUAD",
+          "OUTRIDER SQUADCAL SQUAD"
+        ],
+        "Abilities": [
+          {
+            "AbilityId": "Sanguinary Priest"
+          },
+          {
+            "AbilityId": "Blood Chalice",
+            "WeaponStatAdjustments": [
+              {
+                "Value": "1",
+                "Type": "Add",
+                "Scope": "Unit",
+                "Target": "AP"
+              }
+            ]
+          }
+        ]
+      },
+      "Infos": [],
+      "Keywords": [
+        "Character",
+        "Mounted",
+        "Grenades",
+        "Imperium",
+        "Sanguinary Priest"
+      ],
+      "CoreAbilities": [
+        "Leader"
+      ],
+      "FactionKeywords": [
+        "Adeptus Astartes",
+        "Blood Angels"
+      ],
+      "StatLines": [
+        {
+          "Movement": "12\"",
+          "Toughness": "5",
+          "Save": "3+",
+          "Wounds": "5",
+          "Leadership": "6+",
+          "OC": "2"
+        }
+      ],
+      "Weapons": [
+        {
+          "Name": "RANGED WEAPONS",
+          "Weapons": [
+            {
+              "Name": "Bolt pistol",
+              "Keywords": "PISTOL",
+              "Range": "12\"",
+              "Attacks": "1",
+              "ToHit": "3+",
+              "Strength": "4",
+              "AP": "0",
+              "Damage": "1"
+            },
+            {
+              "Name": "Twin boltgun",
+              "Keywords": "TWIN-LINKED",
+              "Range": "24\"",
+              "Attacks": "2",
+              "ToHit": "3+",
+              "Strength": "4",
+              "AP": "0",
+              "Damage": "1"
+            }
+          ]
+        },
+        {
+          "IsMelee": true,
+          "Name": "MELEE WEAPONS",
+          "Weapons": [
+            {
+              "Name": "Astartes Chainsword",
+              "Range": "Melee",
+              "Attacks": "5",
+              "ToHit": "3+",
+              "Strength": "4",
+              "AP": "-1",
+              "Damage": "1"
+            },
+            {
+              "Name": "Power fist",
+              "Range": "Melee",
+              "Attacks": "4",
+              "ToHit": "3+",
+              "Strength": "8",
+              "AP": "-2",
+              "Damage": "2"
+            },
+            {
+              "Name": "Power weapon",
+              "Range": "Melee",
+              "Attacks": "4",
+              "ToHit": "3+",
+              "Strength": "5",
+              "AP": "-2",
+              "Damage": "1"
+            },
+            {
+              "Name": "Thunder hammer",
+              "Keywords": "DEVASTATING WOUNDS",
+              "Range": "Melee",
+              "Attacks": "3",
+              "ToHit": "4+",
+              "Strength": "8",
+              "AP": "-2",
+              "Damage": "2"
+            }
+          ]
+        }
+      ],
+      "Upgrades": [],
+      "Points": [
+        {
+          "ModelCount": 1,
+          "Cost": 135
+        }
+      ]
+    },
+    {
+      "Name": "CHAMPION OF THE CHAPTER",
+      "Faction": "Oath of Moment",
+      "Flags": 4,
+      "UnitComposition": {
+        "ModelCompositions": [
+          {
+            "ModelName": "Champion of the Chapter",
+            "Wargear": [
+              {
+                "InitalWargear": [],
+                "Options": [
+                  {
+                    "Options": [
+                      "combi-weapon",
+                      "forge bolter",
+                      "master-crafted bolt carbine",
+                      "master-crafted bolter",
+                      "master-crafted heavy bolt rifle",
+                      "storm bolter",
+                      "twin bolt rifle",
+                      "Angelus boltgun"
+                    ]
+                  },
+                  {
+                    "Options": [
+                      "absolvor bolt pistol",
+                      "bolt pistol",
+                      "boltstorm gauntlet",
+                      "grav pistol",
+                      "hand flamer",
+                      "heavy bolt pistol",
+                      "inferno pistol",
+                      "neo-volkite pistol",
+                      "plasma pistol"
+                    ]
+                  },
+                  {
+                    "Options": [
+                      "absolvor bolt pistol",
+                      "bolt pistol",
+                      "boltstorm gauntlet",
+                      "grav pistol",
+                      "hand flamer",
+                      "heavy bolt pistol",
+                      "inferno pistol",
+                      "neo-volkite pistol",
+                      "plasma pistol"
+                    ]
+                  },
+                  {
+                    "Options": [
+                      "close-combat weapon",
+                      "crozius arcanum",
+                      "master-crafted chainsword",
+                      "master-crafted power weapon",
+                      "omnissian power axe",
+                      "power fist",
+                      "servo-arm",
+                      "thunder hammer",
+                      "twin lightning claws",
+                      "encarmine blade",
+                      "encarmine spear",
+                      "eviscerator"
+                    ]
+                  },
+                  {
+                    "Options": [
+                      "close-combat weapon",
+                      "crozius arcanum",
+                      "master-crafted chainsword",
+                      "master-crafted power weapon",
+                      "omnissian power axe",
+                      "power fist",
+                      "servo-arm",
+                      "thunder hammer",
+                      "twin lightning claws",
+                      "encarmine blade",
+                      "encarmine spear",
+                      "eviscerator"
+                    ]
+                  },
+                  {
+                    "Options": [
+                      "Conversion Field",
+                      "Heavy Jump Pack and Mk X Gravis Armour",
+                      "Jump Pack",
+                      "Mk X Gravis Armour",
+                      "Mk X Phobos Armour",
+                      "Raider-pattern Bike",
+                      "Terminator Armour",
+                      "Death Companion",
+                      "Death Companion with Jump Pack",
+                      "Hero of the Golden Host"
+                    ]
+                  },
+                  {
+                    "Options": [
+                      "Adamantine Will",
+                      "Astartes Banner",
+                      "Blessing of the Omnissiah",
+                      "Litany of Hate",
+                      "Narthecium",
+                      "Rites of Battle",
+                      "Tactical Precision",
+                      "Blood Chalice",
+                      "Forlorn Hero"
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "WargearDefinitions": [
+          {
+            "Key": "Conversion Field",
+            "GrantsAbilities": [
+              "Conversion Field"
+            ],
+            "StatAdjustments": [
+              {
+                "Target": "InvulSave",
+                "Value": "4+"
+              }
+            ]
+          },
+          {
+            "Key": "Heavy Jump Pack and Mk X Gravis Armour",
+            "GrantsAbilities": [
+              "Heavy Jump Pack and Mk X Gravis Armour"
+            ],
+            "StatAdjustments": [
+              {
+                "Value": "10\""
+              },
+              {
+                "Target": "Toughness",
+                "Value": "6"
+              },
+              {
+                "Target": "Wounds",
+                "Value": "5"
+              }
+            ],
+            "DatasheetAdjustments": [
+              {
+                "Target": "Keywords",
+                "Type": "Add",
+                "Values": [
+                  "Jump Pack",
+                  "Fly",
+                  "Gravis"
+                ]
+              },
+              {
+                "Target": "Keywords",
+                "Type": "Subtract",
+                "Values": [
+                  "Tacticus"
+                ]
+              },
+              {
+                "Target": "CoreAbilities",
+                "Type": "Add",
+                "Values": [
+                  "Deep Strike"
+                ]
+              },
+              {
+                "Target": "LedUnitNames",
+                "Values": [
+                  "INCEPTOR SQUAD"
+                ]
+              }
+            ]
+          },
+          {
+            "Key": "Jump Pack",
+            "GrantsAbilities": [
+              "Jump Pack"
+            ],
+            "StatAdjustments": [
+              {
+                "Value": "12\""
+              }
+            ],
+            "DatasheetAdjustments": [
+              {
+                "Target": "Keywords",
+                "Type": "Add",
+                "Values": [
+                  "Fly",
+                  "Jump Pack"
+                ]
+              },
+              {
+                "Target": "CoreAbilities",
+                "Type": "Add",
+                "Values": [
+                  "Deep Strike"
+                ]
+              },
+              {
+                "Target": "LedUnitNames",
+                "Values": [
+                  "ASSAULT INTERCESSORS WITH JUMP PACKS",
+                  "VANGUARD VETERAN SQUAD WITH JUMP PACKS"
+                ]
+              }
+            ]
+          },
+          {
+            "Key": "Mk X Gravis Armour",
+            "GrantsAbilities": [
+              "Mk X Gravis Armour"
+            ],
+            "StatAdjustments": [
+              {
+                "Value": "5\""
+              },
+              {
+                "Target": "Toughness",
+                "Value": "6"
+              },
+              {
+                "Target": "Wounds",
+                "Value": "5"
+              }
+            ],
+            "DatasheetAdjustments": [
+              {
+                "Target": "Keywords",
+                "Type": "Add",
+                "Values": [
+                  "Gravis"
+                ]
+              },
+              {
+                "Target": "Keywords",
+                "Type": "Subtract",
+                "Values": [
+                  "Tacticus"
+                ]
+              },
+              {
+                "Target": "LedUnitNames",
+                "Values": [
+                  "GRAVIS (EXCLUDING FLY)"
+                ]
+              }
+            ]
+          },
+          {
+            "Key": "Mk X Phobos Armour",
+            "GrantsAbilities": [
+              "Mk X Phobos Armour"
+            ],
+            "DatasheetAdjustments": [
+              {
+                "Target": "Keywords",
+                "Type": "Add",
+                "Values": [
+                  "Phobos"
+                ]
+              },
+              {
+                "Target": "Keywords",
+                "Type": "Subtract",
+                "Values": [
+                  "Tacticus"
+                ]
+              },
+              {
+                "Target": "CoreAbilities",
+                "Type": "Add",
+                "Values": [
+                  "Infiltrators",
+                  "Stealth"
+                ]
+              },
+              {
+                "Target": "LedUnitNames",
+                "Values": [
+                  "ELIMINATOR SQUAD",
+                  "INCURSOR SQUAD",
+                  "INFILTRATOR SQUAD",
+                  "REIVER SQUAD",
+                  "SCOUT SQUAD"
+                ]
+              }
+            ]
+          },
+          {
+            "Key": "Raider-pattern Bike",
+            "GrantsAbilities": [
+              "Raider-pattern Bike"
+            ],
+            "GrantsWeapons": [
+              "Twin bolt rifle"
+            ],
+            "StatAdjustments": [
+              {
+                "Value": "12\""
+              },
+              {
+                "Target": "Toughness",
+                "Value": "5"
+              },
+              {
+                "Target": "Wounds",
+                "Value": "5"
+              }
+            ],
+            "DatasheetAdjustments": [
+              {
+                "Target": "Keywords",
+                "Type": "Add",
+                "Values": [
+                  "Mounted"
+                ]
+              },
+              {
+                "Target": "Keywords",
+                "Type": "Subtract",
+                "Values": [
+                  "Tacticus",
+                  "Infantry"
+                ]
+              },
+              {
+                "Target": "LedUnitNames",
+                "Values": [
+                  "OUTRIDER SQUAD"
+                ]
+              }
+            ]
+          },
+          {
+            "Key": "Terminator Armour",
+            "GrantsAbilities": [
+              "Terminator Armour"
+            ],
+            "StatAdjustments": [
+              {
+                "Value": "5\""
+              },
+              {
+                "Target": "Toughness",
+                "Value": "5"
+              },
+              {
+                "Target": "Save",
+                "Value": "2+"
+              },
+              {
+                "Target": "Wounds",
+                "Value": "5"
+              },
+              {
+                "Target": "InvulSave",
+                "Value": "4+"
+              }
+            ],
+            "DatasheetAdjustments": [
+              {
+                "Target": "Keywords",
+                "Type": "Add",
+                "Values": [
+                  "Terminator"
+                ]
+              },
+              {
+                "Target": "Keywords",
+                "Type": "Subtract",
+                "Values": [
+                  "Tacticus"
+                ]
+              },
+              {
+                "Target": "CoreAbilities",
+                "Type": "Add",
+                "Values": [
+                  "Deep Strike"
+                ]
+              },
+              {
+                "Target": "LedUnitNames",
+                "Values": [
+                  "TERMINATOR ASSAULT SQUAD",
+                  "TERMINATOR SQUAD"
+                ]
+              }
+            ]
+          },
+          {
+            "Key": "Adamantine Will",
+            "GrantsAbilities": [
+              "Adamantine Will"
+            ]
+          },
+          {
+            "Key": "Astartes Banner",
+            "GrantsAbilities": [
+              "Astartes Banner"
+            ],
+            "StatAdjustments": [
+              {
+                "Target": "OC",
+                "Type": "Add",
+                "Scope": "Unit",
+                "Value": "1"
+              }
+            ]
+          },
+          {
+            "Key": "Blessing of the Omnissiah",
+            "GrantsAbilities": [
+              "Blessing of the Omnissiah"
+            ]
+          },
+          {
+            "Key": "Litany of Hate",
+            "GrantsAbilities": [
+              "Litany of Hate"
+            ]
+          },
+          {
+            "Key": "Narthecium",
+            "GrantsAbilities": [
+              "Narthecium"
+            ]
+          },
+          {
+            "Key": "Rites of Battle",
+            "GrantsAbilities": [
+              "Rites of Battle"
+            ]
+          },
+          {
+            "Key": "Tactical Precision",
+            "GrantsAbilities": [
+              "Tactical Precision"
+            ]
+          },
+          {
+            "Key": "Death Companion",
+            "GrantsAbilities": [
+              "Death Companion"
+            ],
+            "DatasheetAdjustments": [
+              {
+                "Target": "Keywords",
+                "Type": "Add",
+                "Values": [
+                  "Death Company"
+                ]
+              },
+              {
+                "Target": "CoreAbilities",
+                "Type": "Add",
+                "Values": [
+                  "Feel No Pain 6+"
+                ]
+              },
+              {
+                "Target": "LedUnitNames",
+                "Values": [
+                  "DEATH COMPANY MARINES",
+                  "DEATH COMPANY MARINES WITH BOLT RIFLES"
+                ]
+              }
+            ]
+          },
+          {
+            "Key": "Death Companion with Jump Pack",
+            "GrantsAbilities": [
+              "Death Companion with Jump Pack"
+            ],
+            "StatAdjustments": [
+              {
+                "Value": "12\""
+              }
+            ],
+            "DatasheetAdjustments": [
+              {
+                "Target": "Keywords",
+                "Type": "Add",
+                "Values": [
+                  "Death Company",
+                  "Fly",
+                  "Jump Pack"
+                ]
+              },
+              {
+                "Target": "CoreAbilities",
+                "Type": "Add",
+                "Values": [
+                  "Deep Strike",
+                  "Feel No Pain 6+"
+                ]
+              },
+              {
+                "Target": "LedUnitNames",
+                "Values": [
+                  "DEATH COMPANY MARINES WITH JUMP PACKS"
+                ]
+              }
+            ]
+          },
+          {
+            "Key": "Hero of the Golden Host",
+            "GrantsAbilities": [
+              "Hero of the Golden Host"
+            ],
+            "StatAdjustments": [
+              {
+                "Value": "12\""
+              }
+            ],
+            "DatasheetAdjustments": [
+              {
+                "Target": "Keywords",
+                "Type": "Add",
+                "Values": [
+                  "Fly",
+                  "Jump Pack"
+                ]
+              },
+              {
+                "Target": "CoreAbilities",
+                "Type": "Add",
+                "Values": [
+                  "Deep Strike"
+                ]
+              },
+              {
+                "Target": "LedUnitNames",
+                "Values": [
+                  "SANGUINARY GUARD"
+                ]
+              }
+            ]
+          },
+          {
+            "Key": "Blood Chalice",
+            "GrantsAbilities": [
+              "Blood Chalice"
+            ]
+          },
+          {
+            "Key": "Forlorn Hero",
+            "GrantsAbilities": [
+              "Forlorn Hero"
+            ]
+          }
+        ]
+      },
+      "UnitAbilities": [
+        {
+          "Title": "Exemplar Warrior",
+          "Text": "Once per turn, when this model’s unit is selected to shoot or fight, it can use this ability. If it does, until the end of the phase, each time this model makes an attack, you can re-roll the Wound roll."
+        },
+        {
+          "Title": "Conversion Field",
+          "Text": "This model has a 4+ invulnerable save."
+        },
+        {
+          "Title": "Heavy Jump Pack and Mk X Gravis Armour",
+          "Text": "Change this model’s Move characteristic to 10\", its Toughness characteristic to 6 and its Wounds characteristic to 5. Remove the Tacticus keyword, add the Jump Pack, Fly and Gravis keywords, it gains the Deep Strike ability and replace the list of units this model can be attached to: Inceptor Squad."
+        },
+        {
+          "Title": "Jump Pack",
+          "Text": "Change this model’s Move characteristic to 12\", add the Fly and Jump Pack keywords, it gains the Deep Strike ability and replace the list of units this model can be attached to: Assault Intercessors with Jump Packs, Vanguard Veteran Squad with Jump Packs."
+        },
+        {
+          "Title": "Mk X Gravis Armour",
+          "Text": "Change this model’s Move characteristic to 5\", its Toughness characteristic to 6 and its Wounds characteristic to 5. Remove the Tacticus keyword, add the Gravis keyword and replace the list of units this model can be attached to: Gravis (excluding Fly)."
+        },
+        {
+          "Title": "Mk X Phobos Armour",
+          "Text": "This model gains the Infiltrators and Stealth abilities, remove the Tacticus keyword, add the Phobos keyword, and replace the list of units this model can be attached to: Eliminator Squad, Incursor Squad, Infiltrator Squad, Reiver Squad, Scout Squad."
+        },
+        {
+          "Title": "Raider-pattern Bike",
+          "Text": "Change this model’s Move characteristic to 12\", its Toughness characteristic to 5, and its Wounds characteristic to 5. Remove the Infantry and Tacticus keywords, add the Mounted keyword, it is equipped with 1 twin bolt rifle in addition to the weapons you choose in the next step, and replace the list of units this model can be attached to: Outrider Squad."
+        },
+        {
+          "Title": "Terminator Armour",
+          "Text": "Change this model’s Move characteristic to 5\", its Toughness characteristic to 5, its Save characteristic to 2+, and its Wounds characteristic to 5. Remove the Tacticus keyword, add the Terminator keyword, it has a 4+ invulnerable save, it gains the Deep Strike ability, and replace the list of units this model can be attached to: Terminator Assault Squad, Terminator Squad."
+        },
+        {
+          "Title": "Adamantine Will",
+          "Text": "While this model is leading a unit, models in that unit have the Feel No Pain 4+ ability against Psychic Attacks."
+        },
+        {
+          "Title": "Astartes Banner",
+          "Text": "Add 1 to the Objective Control characteristic of models in this unit."
+        },
+        {
+          "Title": "Blessing of the Omnissiah",
+          "Text": "In your Command phase, you can select one friendly Adeptus Astartes Vehicle model within 3\" of this model. That model regains up to D3 lost wounds and, until the start of your next Command phase, each time that Vehicle model makes an attack, add 1 to the Hit roll. Each model can only be selected for this ability once per turn."
+        },
+        {
+          "Title": "Litany of Hate",
+          "Text": "Each time a model in this unit makes a melee attack, add 1 to the Wound roll."
+        },
+        {
+          "Title": "Narthecium",
+          "Text": "While this model is leading a unit, in your Command phase, you can return 1 destroyed model (excluding Character models) to that unit."
+        },
+        {
+          "Title": "Rites of Battle",
+          "Text": "Once per battle round, one unit from your army with this ability can be targeted with a Stratagem for 0CP, even if another unit from your army has already been targeted with that Stratagem this phase."
+        },
+        {
+          "Title": "Tactical Precision",
+          "Text": "Weapons equipped by models in this unit have the [LETHAL HITS] ability."
+        },
+        {
+          "Title": "Death Companion",
+          "Text": "This model gains the Feel No Pain 6+ ability, and unless its unit is within 12\" of one or more friendly Chaplain models, it cannot be selected to Fall Back and its Objective Control characteristic is 0. Add the Death Company keyword, and change the list of units this model can be attached to: Death Company Marines, Death Company Marines with Bolt Rifles."
+        },
+        {
+          "Title": "Death Companion with Jump Pack",
+          "Text": "Change this model’s Move characteristic to 12\", it gains the Deep Strike and Feel No Pain 6+ abilities, and unless its unit is within 12\" of one or more friendly Chaplain models, it cannot be selected to Fall Back and its Objective Control characteristic is 0. Add the Death Company, Fly and Jump Pack keywords, and change the list of units this model can be attached to: Death Company Marines with Jump Packs."
+        },
+        {
+          "Title": "Hero of the Golden Host",
+          "Text": "Change this model’s Move characteristic to 12\" and it gains the Deep Strike ability. Add the Fly and Jump Pack keywords, and change the list of units this model can be attached to: Sanguinary Guard."
+        },
+        {
+          "Title": "Blood Chalice",
+          "Text": "While this model is leading a unit, improve the Armour Penetration characteristic of melee weapons equipped by models in that unit by 1."
+        },
+        {
+          "Title": "Forlorn Hero",
+          "Text": "While this model is leading a unit, unless that unit starts the battle embarked within a Transport, models in that unit have the Scouts 6\" ability."
+        }
+      ],
+      "LeaderInfo": {
+        "UnitNames": [
+          "INTERCESSOR SQUAD",
+          "INFERNUS SQUAD",
+          "ASSAULT INTERCESSOR SQUAD",
+          "BLADEGUARD VETERAN SQUAD",
+          "STERNGUARD VETERAN SQUAD",
+          "HELLBLASTER SQUAD",
+          "DESOLATION SQUAD",
+          "COMPANY HEROES",
+          "TACTICAL SQUAD"
+        ],
+        "Abilities": [
+          {
+            "AbilityId": "Adamantine Will"
+          },
+          {
+            "AbilityId": "Narthecium"
+          },
+          {
+            "AbilityId": "Blood Chalice",
+            "WeaponStatAdjustments": [
+              {
+                "Value": "1",
+                "Type": "Add",
+                "Scope": "Unit",
+                "Target": "AP"
+              }
+            ]
+          },
+          {
+            "AbilityId": "Forlorn Hero"
+          }
+        ]
+      },
+      "Infos": [],
+      "Keywords": [
+        "Infantry",
+        "Character",
+        "Grenades",
+        "Imperium",
+        "Tacticus",
+        "Champion of the Chapter"
+      ],
+      "CoreAbilities": [
+        "Crucible",
+        "Leader"
+      ],
+      "FactionKeywords": [
+        "Adeptus Astartes",
+        "Blood Angels"
+      ],
+      "StatLines": [
+        {
+          "Movement": "6\"",
+          "Toughness": "4",
+          "Save": "3+",
+          "Wounds": "4",
+          "Leadership": "6+",
+          "OC": "1"
+        }
+      ],
+      "Weapons": [
+        {
+          "Name": "RANGED WEAPONS",
+          "Weapons": [
+            {
+              "Name": "Combi-weapon",
+              "Keywords": "ANTI-INFANTRY 4+, DEVASTATING WOUNDS, RAPID FIRE 1",
+              "Range": "24\"",
+              "Attacks": "1",
+              "ToHit": "3+",
+              "Strength": "4",
+              "AP": "0",
+              "Damage": "1"
+            },
+            {
+              "Name": "Forge bolter",
+              "Range": "24\"",
+              "Attacks": "3",
+              "ToHit": "2+",
+              "Strength": "5",
+              "AP": "-1",
+              "Damage": "2"
+            },
+            {
+              "Name": "Master-crafted bolt carbine",
+              "Keywords": "PRECISION",
+              "Range": "24\"",
+              "Attacks": "1",
+              "ToHit": "2+",
+              "Strength": "4",
+              "AP": "-2",
+              "Damage": "2"
+            },
+            {
+              "Name": "Master-crafted bolter",
+              "Range": "24\"",
+              "Attacks": "2",
+              "ToHit": "2+",
+              "Strength": "4",
+              "AP": "-1",
+              "Damage": "2"
+            },
+            {
+              "Name": "Master-crafted heavy bolt rifle",
+              "Range": "30\"",
+              "Attacks": "2",
+              "ToHit": "2+",
+              "Strength": "5",
+              "AP": "-1",
+              "Damage": "3"
+            },
+            {
+              "Name": "Storm bolter",
+              "Keywords": "RAPID FIRE 2",
+              "Range": "24\"",
+              "Attacks": "2",
+              "ToHit": "2+",
+              "Strength": "4",
+              "AP": "0",
+              "Damage": "1"
+            },
+            {
+              "Name": "Twin bolt rifle",
+              "Keywords": "TWIN-LINKED",
+              "Range": "24\"",
+              "Attacks": "2",
+              "ToHit": "3+",
+              "Strength": "4",
+              "AP": "-1",
+              "Damage": "1"
+            },
+            {
+              "Name": "Angelus boltgun",
+              "Keywords": "PISTOL",
+              "Range": "12\"",
+              "Attacks": "2",
+              "ToHit": "3+",
+              "Strength": "4",
+              "AP": "0",
+              "Damage": "1"
+            },
+            {
+              "Name": "Absolvor bolt pistol",
+              "Keywords": "PISTOL",
+              "Range": "18\"",
+              "Attacks": "1",
+              "ToHit": "3+",
+              "Strength": "5",
+              "AP": "-1",
+              "Damage": "2"
+            },
+            {
+              "Name": "Bolt pistol",
+              "Keywords": "PISTOL",
+              "Range": "12\"",
+              "Attacks": "1",
+              "ToHit": "2+",
+              "Strength": "4",
+              "AP": "0",
+              "Damage": "1"
+            },
+            {
+              "Name": "Boltstorm gauntlet",
+              "Keywords": "PISTOL",
+              "Range": "12\"",
+              "Attacks": "3",
+              "ToHit": "2+",
+              "Strength": "4",
+              "AP": "-1",
+              "Damage": "1"
+            },
+            {
+              "Name": "Grav pistol",
+              "Keywords": "ANTI-VEHICLE 2+, PISTOL",
+              "Range": "12\"",
+              "Attacks": "1",
+              "ToHit": "2+",
+              "Strength": "4",
+              "AP": "-1",
+              "Damage": "1"
+            },
+            {
+              "Name": "Hand flamer",
+              "Keywords": "IGNORES COVER, PISTOL, TORRENT",
+              "Range": "12\"",
+              "Attacks": "D6",
+              "ToHit": "N/A",
+              "Strength": "3",
+              "AP": "0",
+              "Damage": "1"
+            },
+            {
+              "Name": "Heavy bolt pistol",
+              "Keywords": "PISTOL",
+              "Range": "18\"",
+              "Attacks": "1",
+              "ToHit": "2+",
+              "Strength": "4",
+              "AP": "-1",
+              "Damage": "1"
+            },
+            {
+              "Name": "Inferno pistol",
+              "Keywords": "MELTA 2, PISTOL",
+              "Range": "6\"",
+              "Attacks": "1",
+              "ToHit": "3+",
+              "Strength": "8",
+              "AP": "-4",
+              "Damage": "D3"
+            },
+            {
+              "Name": "Neo-volkite pistol",
+              "Keywords": "DEVASTATING WOUNDS, PISTOL",
+              "Range": "12\"",
+              "Attacks": "1",
+              "ToHit": "2+",
+              "Strength": "5",
+              "AP": "0",
+              "Damage": "2"
+            },
+            {
+              "Name": "Plasma pistol – standard",
+              "Keywords": "PISTOL",
+              "Range": "12\"",
+              "Attacks": "1",
+              "ToHit": "2+",
+              "Strength": "7",
+              "AP": "-2",
+              "Damage": "1"
+            },
+            {
+              "Name": "Plasma pistol – supercharge",
+              "Keywords": "HAZARDOUS, PISTOL",
+              "Range": "12\"",
+              "Attacks": "1",
+              "ToHit": "2+",
+              "Strength": "8",
+              "AP": "-3",
+              "Damage": "2"
+            }
+          ]
+        },
+        {
+          "IsMelee": true,
+          "Name": "MELEE WEAPONS",
+          "Weapons": [
+            {
+              "Name": "Close-combat weapon",
+              "Range": "Melee",
+              "Attacks": "6",
+              "ToHit": "2+",
+              "Strength": "4",
+              "AP": "0",
+              "Damage": "1"
+            },
+            {
+              "Name": "Crozius arcanum",
+              "Range": "Melee",
+              "Attacks": "5",
+              "ToHit": "2+",
+              "Strength": "6",
+              "AP": "-1",
+              "Damage": "2"
+            },
+            {
+              "Name": "Master-crafted chainsword",
+              "Keywords": "SUSTAINED HITS 1",
+              "Range": "Melee",
+              "Attacks": "7",
+              "ToHit": "2+",
+              "Strength": "4",
+              "AP": "-1",
+              "Damage": "2"
+            },
+            {
+              "Name": "Master-crafted power weapon",
+              "Range": "Melee",
+              "Attacks": "6",
+              "ToHit": "2+",
+              "Strength": "5",
+              "AP": "-2",
+              "Damage": "2"
+            },
+            {
+              "Name": "Omnissian power axe",
+              "Range": "Melee",
+              "Attacks": "4",
+              "ToHit": "3+",
+              "Strength": "6",
+              "AP": "-2",
+              "Damage": "2"
+            },
+            {
+              "Name": "Power fist",
+              "Range": "Melee",
+              "Attacks": "5",
+              "ToHit": "2+",
+              "Strength": "8",
+              "AP": "-2",
+              "Damage": "2"
+            },
+            {
+              "Name": "Servo-arm",
+              "Keywords": "EXTRA ATTACKS",
+              "Range": "Melee",
+              "Attacks": "1",
+              "ToHit": "3+",
+              "Strength": "8",
+              "AP": "-2",
+              "Damage": "3"
+            },
+            {
+              "Name": "Thunder hammer",
+              "Keywords": "DEVASTATING WOUNDS",
+              "Range": "Melee",
+              "Attacks": "5",
+              "ToHit": "2+",
+              "Strength": "8",
+              "AP": "-2",
+              "Damage": "2"
+            },
+            {
+              "Name": "Twin lightning claws",
+              "Keywords": "TWIN-LINKED",
+              "Range": "Melee",
+              "Attacks": "6",
+              "ToHit": "2+",
+              "Strength": "5",
+              "AP": "-2",
+              "Damage": "1"
+            },
+            {
+              "Name": "Encarmine blade",
+              "Range": "Melee",
+              "Attacks": "5",
+              "ToHit": "2+",
+              "Strength": "6",
+              "AP": "-3",
+              "Damage": "2"
+            },
+            {
+              "Name": "Encarmine spear",
+              "Keywords": "LANCE",
+              "Range": "Melee",
+              "Attacks": "4",
+              "ToHit": "2+",
+              "Strength": "6",
+              "AP": "-2",
+              "Damage": "2"
+            },
+            {
+              "Name": "Eviscerator",
+              "Keywords": "SUSTAINED HITS 1",
+              "Range": "Melee",
+              "Attacks": "5",
+              "ToHit": "2+",
+              "Strength": "7",
+              "AP": "-2",
+              "Damage": "2"
+            }
+          ]
+        }
+      ],
+      "Upgrades": [],
+      "Points": [
+        {
+          "ModelCount": 1,
+          "Cost": 70
+        }
+      ]
+    },
+    {
+      "Name": "LIBRARIUS ADEPT",
+      "Faction": "Oath of Moment",
+      "Flags": 4,
+      "UnitComposition": {
+        "ModelCompositions": [
+          {
+            "ModelName": "Librarius Adept",
+            "Wargear": [
+              {
+                "InitalWargear": [],
+                "Options": [
+                  {
+                    "Options": [
+                      "combi-weapon",
+                      "forge bolter",
+                      "master-crafted bolt carbine",
+                      "master-crafted bolter",
+                      "master-crafted heavy bolt rifle",
+                      "smite",
+                      "storm bolter",
+                      "twin bolt rifle",
+                      "Angelus boltgun"
+                    ]
+                  },
+                  {
+                    "Options": [
+                      "absolvor bolt pistol",
+                      "bolt pistol",
+                      "boltstorm gauntlet",
+                      "grav pistol",
+                      "hand flamer",
+                      "heavy bolt pistol",
+                      "inferno pistol",
+                      "neo-volkite pistol",
+                      "plasma pistol"
+                    ]
+                  },
+                  {
+                    "Options": [
+                      "absolvor bolt pistol",
+                      "bolt pistol",
+                      "boltstorm gauntlet",
+                      "grav pistol",
+                      "hand flamer",
+                      "heavy bolt pistol",
+                      "inferno pistol",
+                      "neo-volkite pistol",
+                      "plasma pistol"
+                    ]
+                  },
+                  {
+                    "Options": [
+                      "close-combat weapon",
+                      "crozius arcanum",
+                      "force weapon",
+                      "master-crafted chainsword",
+                      "master-crafted power weapon",
+                      "omnissian power axe",
+                      "power fist",
+                      "servo-arm",
+                      "thunder hammer",
+                      "twin lightning claws",
+                      "encarmine blade",
+                      "encarmine spear",
+                      "eviscerator"
+                    ]
+                  },
+                  {
+                    "Options": [
+                      "close-combat weapon",
+                      "crozius arcanum",
+                      "force weapon",
+                      "master-crafted chainsword",
+                      "master-crafted power weapon",
+                      "omnissian power axe",
+                      "power fist",
+                      "servo-arm",
+                      "thunder hammer",
+                      "twin lightning claws",
+                      "encarmine blade",
+                      "encarmine spear",
+                      "eviscerator"
+                    ]
+                  },
+                  {
+                    "Options": [
+                      "Conversion Field",
+                      "Heavy Jump Pack and Mk X Gravis Armour",
+                      "Jump Pack",
+                      "Mk X Gravis Armour",
+                      "Mk X Phobos Armour",
+                      "Raider-pattern Bike",
+                      "Terminator Armour",
+                      "Death Companion",
+                      "Death Companion with Jump Pack"
+                    ]
+                  },
+                  {
+                    "Options": [
+                      "Adamantine Will",
+                      "Astartes Banner",
+                      "Blessing of the Omnissiah",
+                      "Litany of Hate",
+                      "Narthecium",
+                      "Rites of Battle",
+                      "Tactical Precision",
+                      "Forlorn Hero"
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "WargearDefinitions": [
+          {
+            "Key": "Conversion Field",
+            "GrantsAbilities": [
+              "Conversion Field"
+            ],
+            "StatAdjustments": [
+              {
+                "Target": "InvulSave",
+                "Value": "4+"
+              }
+            ]
+          },
+          {
+            "Key": "Heavy Jump Pack and Mk X Gravis Armour",
+            "GrantsAbilities": [
+              "Heavy Jump Pack and Mk X Gravis Armour"
+            ],
+            "StatAdjustments": [
+              {
+                "Value": "10\""
+              },
+              {
+                "Target": "Toughness",
+                "Value": "6"
+              },
+              {
+                "Target": "Wounds",
+                "Value": "5"
+              }
+            ],
+            "DatasheetAdjustments": [
+              {
+                "Target": "Keywords",
+                "Type": "Add",
+                "Values": [
+                  "Jump Pack",
+                  "Fly",
+                  "Gravis"
+                ]
+              },
+              {
+                "Target": "Keywords",
+                "Type": "Subtract",
+                "Values": [
+                  "Tacticus"
+                ]
+              },
+              {
+                "Target": "CoreAbilities",
+                "Type": "Add",
+                "Values": [
+                  "Deep Strike"
+                ]
+              },
+              {
+                "Target": "LedUnitNames",
+                "Values": [
+                  "INCEPTOR SQUAD"
+                ]
+              }
+            ]
+          },
+          {
+            "Key": "Jump Pack",
+            "GrantsAbilities": [
+              "Jump Pack"
+            ],
+            "StatAdjustments": [
+              {
+                "Value": "12\""
+              }
+            ],
+            "DatasheetAdjustments": [
+              {
+                "Target": "Keywords",
+                "Type": "Add",
+                "Values": [
+                  "Fly",
+                  "Jump Pack"
+                ]
+              },
+              {
+                "Target": "CoreAbilities",
+                "Type": "Add",
+                "Values": [
+                  "Deep Strike"
+                ]
+              },
+              {
+                "Target": "LedUnitNames",
+                "Values": [
+                  "ASSAULT INTERCESSORS WITH JUMP PACKS",
+                  "VANGUARD VETERAN SQUAD WITH JUMP PACKS"
+                ]
+              }
+            ]
+          },
+          {
+            "Key": "Mk X Gravis Armour",
+            "GrantsAbilities": [
+              "Mk X Gravis Armour"
+            ],
+            "StatAdjustments": [
+              {
+                "Value": "5\""
+              },
+              {
+                "Target": "Toughness",
+                "Value": "6"
+              },
+              {
+                "Target": "Wounds",
+                "Value": "5"
+              }
+            ],
+            "DatasheetAdjustments": [
+              {
+                "Target": "Keywords",
+                "Type": "Add",
+                "Values": [
+                  "Gravis"
+                ]
+              },
+              {
+                "Target": "Keywords",
+                "Type": "Subtract",
+                "Values": [
+                  "Tacticus"
+                ]
+              },
+              {
+                "Target": "LedUnitNames",
+                "Values": [
+                  "GRAVIS (EXCLUDING FLY)"
+                ]
+              }
+            ]
+          },
+          {
+            "Key": "Mk X Phobos Armour",
+            "GrantsAbilities": [
+              "Mk X Phobos Armour"
+            ],
+            "DatasheetAdjustments": [
+              {
+                "Target": "Keywords",
+                "Type": "Add",
+                "Values": [
+                  "Phobos"
+                ]
+              },
+              {
+                "Target": "Keywords",
+                "Type": "Subtract",
+                "Values": [
+                  "Tacticus"
+                ]
+              },
+              {
+                "Target": "CoreAbilities",
+                "Type": "Add",
+                "Values": [
+                  "Infiltrators",
+                  "Stealth"
+                ]
+              },
+              {
+                "Target": "LedUnitNames",
+                "Values": [
+                  "ELIMINATOR SQUAD",
+                  "INCURSOR SQUAD",
+                  "INFILTRATOR SQUAD",
+                  "REIVER SQUAD",
+                  "SCOUT SQUAD"
+                ]
+              }
+            ]
+          },
+          {
+            "Key": "Raider-pattern Bike",
+            "GrantsAbilities": [
+              "Raider-pattern Bike"
+            ],
+            "GrantsWeapons": [
+              "Twin bolt rifle"
+            ],
+            "StatAdjustments": [
+              {
+                "Value": "12\""
+              },
+              {
+                "Target": "Toughness",
+                "Value": "5"
+              },
+              {
+                "Target": "Wounds",
+                "Value": "5"
+              }
+            ],
+            "DatasheetAdjustments": [
+              {
+                "Target": "Keywords",
+                "Type": "Add",
+                "Values": [
+                  "Mounted"
+                ]
+              },
+              {
+                "Target": "Keywords",
+                "Type": "Subtract",
+                "Values": [
+                  "Tacticus",
+                  "Infantry"
+                ]
+              },
+              {
+                "Target": "LedUnitNames",
+                "Values": [
+                  "OUTRIDER SQUAD"
+                ]
+              }
+            ]
+          },
+          {
+            "Key": "Terminator Armour",
+            "GrantsAbilities": [
+              "Terminator Armour"
+            ],
+            "StatAdjustments": [
+              {
+                "Value": "5\""
+              },
+              {
+                "Target": "Toughness",
+                "Value": "5"
+              },
+              {
+                "Target": "Save",
+                "Value": "2+"
+              },
+              {
+                "Target": "Wounds",
+                "Value": "5"
+              },
+              {
+                "Target": "InvulSave",
+                "Value": "4+"
+              }
+            ],
+            "DatasheetAdjustments": [
+              {
+                "Target": "Keywords",
+                "Type": "Add",
+                "Values": [
+                  "Terminator"
+                ]
+              },
+              {
+                "Target": "Keywords",
+                "Type": "Subtract",
+                "Values": [
+                  "Tacticus"
+                ]
+              },
+              {
+                "Target": "CoreAbilities",
+                "Type": "Add",
+                "Values": [
+                  "Deep Strike"
+                ]
+              },
+              {
+                "Target": "LedUnitNames",
+                "Values": [
+                  "TERMINATOR ASSAULT SQUAD",
+                  "TERMINATOR SQUAD"
+                ]
+              }
+            ]
+          },
+          {
+            "Key": "Adamantine Will",
+            "GrantsAbilities": [
+              "Adamantine Will"
+            ]
+          },
+          {
+            "Key": "Astartes Banner",
+            "GrantsAbilities": [
+              "Astartes Banner"
+            ],
+            "StatAdjustments": [
+              {
+                "Target": "OC",
+                "Type": "Add",
+                "Scope": "Unit",
+                "Value": "1"
+              }
+            ]
+          },
+          {
+            "Key": "Blessing of the Omnissiah",
+            "GrantsAbilities": [
+              "Blessing of the Omnissiah"
+            ]
+          },
+          {
+            "Key": "Litany of Hate",
+            "GrantsAbilities": [
+              "Litany of Hate"
+            ]
+          },
+          {
+            "Key": "Narthecium",
+            "GrantsAbilities": [
+              "Narthecium"
+            ]
+          },
+          {
+            "Key": "Rites of Battle",
+            "GrantsAbilities": [
+              "Rites of Battle"
+            ]
+          },
+          {
+            "Key": "Tactical Precision",
+            "GrantsAbilities": [
+              "Tactical Precision"
+            ]
+          },
+          {
+            "Key": "Death Companion",
+            "GrantsAbilities": [
+              "Death Companion"
+            ],
+            "DatasheetAdjustments": [
+              {
+                "Target": "Keywords",
+                "Type": "Add",
+                "Values": [
+                  "Death Company"
+                ]
+              },
+              {
+                "Target": "CoreAbilities",
+                "Type": "Add",
+                "Values": [
+                  "Feel No Pain 6+"
+                ]
+              },
+              {
+                "Target": "LedUnitNames",
+                "Values": [
+                  "DEATH COMPANY MARINES",
+                  "DEATH COMPANY MARINES WITH BOLT RIFLES"
+                ]
+              }
+            ]
+          },
+          {
+            "Key": "Death Companion with Jump Pack",
+            "GrantsAbilities": [
+              "Death Companion with Jump Pack"
+            ],
+            "StatAdjustments": [
+              {
+                "Value": "12\""
+              }
+            ],
+            "DatasheetAdjustments": [
+              {
+                "Target": "Keywords",
+                "Type": "Add",
+                "Values": [
+                  "Death Company",
+                  "Fly",
+                  "Jump Pack"
+                ]
+              },
+              {
+                "Target": "CoreAbilities",
+                "Type": "Add",
+                "Values": [
+                  "Deep Strike",
+                  "Feel No Pain 6+"
+                ]
+              },
+              {
+                "Target": "LedUnitNames",
+                "Values": [
+                  "DEATH COMPANY MARINES WITH JUMP PACKS"
+                ]
+              }
+            ]
+          },
+          {
+            "Key": "Forlorn Hero",
+            "GrantsAbilities": [
+              "Forlorn Hero"
+            ]
+          }
+        ]
+      },
+      "UnitAbilities": [
+        {
+          "Title": "Veil of Time (Psychic)",
+          "Text": "Weapons equipped by models in this unit have the [SUSTAINED HITS 1] ability."
+        },
+        {
+          "Title": "Conversion Field",
+          "Text": "This model has a 4+ invulnerable save."
+        },
+        {
+          "Title": "Heavy Jump Pack and Mk X Gravis Armour",
+          "Text": "Change this model’s Move characteristic to 10\", its Toughness characteristic to 6 and its Wounds characteristic to 5. Remove the Tacticus keyword, add the Jump Pack, Fly and Gravis keywords, it gains the Deep Strike ability and replace the list of units this model can be attached to: Inceptor Squad."
+        },
+        {
+          "Title": "Jump Pack",
+          "Text": "Change this model’s Move characteristic to 12\", add the Fly and Jump Pack keywords, it gains the Deep Strike ability and replace the list of units this model can be attached to: Assault Intercessors with Jump Packs, Vanguard Veteran Squad with Jump Packs."
+        },
+        {
+          "Title": "Mk X Gravis Armour",
+          "Text": "Change this model’s Move characteristic to 5\", its Toughness characteristic to 6 and its Wounds characteristic to 5. Remove the Tacticus keyword, add the Gravis keyword and replace the list of units this model can be attached to: Gravis (excluding Fly)."
+        },
+        {
+          "Title": "Mk X Phobos Armour",
+          "Text": "This model gains the Infiltrators and Stealth abilities, remove the Tacticus keyword, add the Phobos keyword, and replace the list of units this model can be attached to: Eliminator Squad, Incursor Squad, Infiltrator Squad, Reiver Squad, Scout Squad."
+        },
+        {
+          "Title": "Raider-pattern Bike",
+          "Text": "Change this model’s Move characteristic to 12\", its Toughness characteristic to 5, and its Wounds characteristic to 5. Remove the Infantry and Tacticus keywords, add the Mounted keyword, it is equipped with 1 twin bolt rifle in addition to the weapons you choose in the next step, and replace the list of units this model can be attached to: Outrider Squad."
+        },
+        {
+          "Title": "Terminator Armour",
+          "Text": "Change this model’s Move characteristic to 5\", its Toughness characteristic to 5, its Save characteristic to 2+, and its Wounds characteristic to 5. Remove the Tacticus keyword, add the Terminator keyword, it has a 4+ invulnerable save, it gains the Deep Strike ability, and replace the list of units this model can be attached to: Terminator Assault Squad, Terminator Squad."
+        },
+        {
+          "Title": "Adamantine Will",
+          "Text": "While this model is leading a unit, models in that unit have the Feel No Pain 4+ ability against Psychic Attacks."
+        },
+        {
+          "Title": "Astartes Banner",
+          "Text": "Add 1 to the Objective Control characteristic of models in this unit."
+        },
+        {
+          "Title": "Blessing of the Omnissiah",
+          "Text": "In your Command phase, you can select one friendly Adeptus Astartes Vehicle model within 3\" of this model. That model regains up to D3 lost wounds and, until the start of your next Command phase, each time that Vehicle model makes an attack, add 1 to the Hit roll. Each model can only be selected for this ability once per turn."
+        },
+        {
+          "Title": "Litany of Hate",
+          "Text": "Each time a model in this unit makes a melee attack, add 1 to the Wound roll."
+        },
+        {
+          "Title": "Narthecium",
+          "Text": "While this model is leading a unit, in your Command phase, you can return 1 destroyed model (excluding Character models) to that unit."
+        },
+        {
+          "Title": "Rites of Battle",
+          "Text": "Once per battle round, one unit from your army with this ability can be targeted with a Stratagem for 0CP, even if another unit from your army has already been targeted with that Stratagem this phase."
+        },
+        {
+          "Title": "Tactical Precision",
+          "Text": "Weapons equipped by models in this unit have the [LETHAL HITS] ability."
+        },
+        {
+          "Title": "Death Companion",
+          "Text": "This model gains the Feel No Pain 6+ ability, and unless its unit is within 12\" of one or more friendly Chaplain models, it cannot be selected to Fall Back and its Objective Control characteristic is 0. Add the Death Company keyword, and change the list of units this model can be attached to: Death Company Marines, Death Company Marines with Bolt Rifles."
+        },
+        {
+          "Title": "Death Companion with Jump Pack",
+          "Text": "Change this model’s Move characteristic to 12\", it gains the Deep Strike and Feel No Pain 6+ abilities, and unless its unit is within 12\" of one or more friendly Chaplain models, it cannot be selected to Fall Back and its Objective Control characteristic is 0. Add the Death Company, Fly and Jump Pack keywords, and change the list of units this model can be attached to: Death Company Marines with Jump Packs."
+        },
+        {
+          "Title": "Forlorn Hero",
+          "Text": "While this model is leading a unit, unless that unit starts the battle embarked within a Transport, models in that unit have the Scouts 6\" ability."
+        }
+      ],
+      "LeaderInfo": {
+        "UnitNames": [
+          "INTERCESSOR SQUAD",
+          "INFERNUS SQUAD",
+          "ASSAULT INTERCESSOR SQUAD",
+          "BLADEGUARD VETERAN SQUAD",
+          "STERNGUARD VETERAN SQUAD",
+          "HELLBLASTER SQUAD",
+          "DESOLATION SQUAD",
+          "COMPANY HEROES",
+          "TACTICAL SQUAD"
+        ],
+        "Abilities": [
+          {
+            "AbilityId": "Adamantine Will"
+          },
+          {
+            "AbilityId": "Narthecium"
+          },
+          {
+            "AbilityId": "Forlorn Hero"
+          }
+        ]
+      },
+      "Infos": [],
+      "Keywords": [
+        "Infantry",
+        "Character",
+        "Grenades",
+        "Psyker",
+        "Imperium",
+        "Tacticus",
+        "Librarius Adept"
+      ],
+      "CoreAbilities": [
+        "Crucible",
+        "Leader"
+      ],
+      "FactionKeywords": [
+        "Adeptus Astartes",
+        "Blood Angels"
+      ],
+      "StatLines": [
+        {
+          "Movement": "6\"",
+          "Toughness": "4",
+          "Save": "3+",
+          "Wounds": "3",
+          "Leadership": "6+",
+          "OC": "1"
+        }
+      ],
+      "Weapons": [
+        {
+          "Name": "RANGED WEAPONS",
+          "Weapons": [
+            {
+              "Name": "Combi-weapon",
+              "Keywords": "ANTI-INFANTRY 4+, DEVASTATING WOUNDS, RAPID FIRE 1",
+              "Range": "24\"",
+              "Attacks": "1",
+              "ToHit": "3+",
+              "Strength": "4",
+              "AP": "0",
+              "Damage": "1"
+            },
+            {
+              "Name": "Forge bolter",
+              "Range": "24\"",
+              "Attacks": "3",
+              "ToHit": "2+",
+              "Strength": "5",
+              "AP": "-1",
+              "Damage": "2"
+            },
+            {
+              "Name": "Master-crafted bolt carbine",
+              "Keywords": "PRECISION",
+              "Range": "24\"",
+              "Attacks": "1",
+              "ToHit": "2+",
+              "Strength": "4",
+              "AP": "-2",
+              "Damage": "2"
+            },
+            {
+              "Name": "Master-crafted bolter",
+              "Range": "24\"",
+              "Attacks": "2",
+              "ToHit": "2+",
+              "Strength": "4",
+              "AP": "-1",
+              "Damage": "2"
+            },
+            {
+              "Name": "Master-crafted heavy bolt rifle",
+              "Range": "30\"",
+              "Attacks": "2",
+              "ToHit": "2+",
+              "Strength": "5",
+              "AP": "-1",
+              "Damage": "3"
+            },
+            {
+              "Name": "Smite – witchfire",
+              "Keywords": "PSYCHIC",
+              "Range": "24\"",
+              "Attacks": "D6",
+              "ToHit": "3+",
+              "Strength": "5",
+              "AP": "-1",
+              "Damage": "D3"
+            },
+            {
+              "Name": "Smite – focused witchfire",
+              "Keywords": "DEVASTATING WOUNDS, HAZARDOUS, PSYCHIC",
+              "Range": "24\"",
+              "Attacks": "D6",
+              "ToHit": "3+",
+              "Strength": "6",
+              "AP": "-2",
+              "Damage": "D3"
+            },
+            {
+              "Name": "Storm bolter",
+              "Keywords": "RAPID FIRE 2",
+              "Range": "24\"",
+              "Attacks": "2",
+              "ToHit": "2+",
+              "Strength": "4",
+              "AP": "0",
+              "Damage": "1"
+            },
+            {
+              "Name": "Twin bolt rifle",
+              "Keywords": "TWIN-LINKED",
+              "Range": "24\"",
+              "Attacks": "2",
+              "ToHit": "3+",
+              "Strength": "4",
+              "AP": "-1",
+              "Damage": "1"
+            },
+            {
+              "Name": "Angelus boltgun",
+              "Keywords": "PISTOL",
+              "Range": "12\"",
+              "Attacks": "2",
+              "ToHit": "3+",
+              "Strength": "4",
+              "AP": "0",
+              "Damage": "1"
+            },
+            {
+              "Name": "Absolvor bolt pistol",
+              "Keywords": "PISTOL",
+              "Range": "18\"",
+              "Attacks": "1",
+              "ToHit": "3+",
+              "Strength": "5",
+              "AP": "-1",
+              "Damage": "2"
+            },
+            {
+              "Name": "Bolt pistol",
+              "Keywords": "PISTOL",
+              "Range": "12\"",
+              "Attacks": "1",
+              "ToHit": "2+",
+              "Strength": "4",
+              "AP": "0",
+              "Damage": "1"
+            },
+            {
+              "Name": "Boltstorm gauntlet",
+              "Keywords": "PISTOL",
+              "Range": "12\"",
+              "Attacks": "3",
+              "ToHit": "2+",
+              "Strength": "4",
+              "AP": "-1",
+              "Damage": "1"
+            },
+            {
+              "Name": "Grav pistol",
+              "Keywords": "ANTI-VEHICLE 2+, PISTOL",
+              "Range": "12\"",
+              "Attacks": "1",
+              "ToHit": "2+",
+              "Strength": "4",
+              "AP": "-1",
+              "Damage": "1"
+            },
+            {
+              "Name": "Hand flamer",
+              "Keywords": "IGNORES COVER, PISTOL, TORRENT",
+              "Range": "12\"",
+              "Attacks": "D6",
+              "ToHit": "N/A",
+              "Strength": "3",
+              "AP": "0",
+              "Damage": "1"
+            },
+            {
+              "Name": "Heavy bolt pistol",
+              "Keywords": "PISTOL",
+              "Range": "18\"",
+              "Attacks": "1",
+              "ToHit": "2+",
+              "Strength": "4",
+              "AP": "-1",
+              "Damage": "1"
+            },
+            {
+              "Name": "Inferno pistol",
+              "Keywords": "MELTA 2, PISTOL",
+              "Range": "6\"",
+              "Attacks": "1",
+              "ToHit": "3+",
+              "Strength": "8",
+              "AP": "-4",
+              "Damage": "D3"
+            },
+            {
+              "Name": "Neo-volkite pistol",
+              "Keywords": "DEVASTATING WOUNDS, PISTOL",
+              "Range": "12\"",
+              "Attacks": "1",
+              "ToHit": "2+",
+              "Strength": "5",
+              "AP": "0",
+              "Damage": "2"
+            },
+            {
+              "Name": "Plasma pistol – standard",
+              "Keywords": "PISTOL",
+              "Range": "12\"",
+              "Attacks": "1",
+              "ToHit": "2+",
+              "Strength": "7",
+              "AP": "-2",
+              "Damage": "1"
+            },
+            {
+              "Name": "Plasma pistol – supercharge",
+              "Keywords": "HAZARDOUS, PISTOL",
+              "Range": "12\"",
+              "Attacks": "1",
+              "ToHit": "2+",
+              "Strength": "8",
+              "AP": "-3",
+              "Damage": "2"
+            }
+          ]
+        },
+        {
+          "IsMelee": true,
+          "Name": "MELEE WEAPONS",
+          "Weapons": [
+            {
+              "Name": "Close-combat weapon",
+              "Range": "Melee",
+              "Attacks": "6",
+              "ToHit": "2+",
+              "Strength": "4",
+              "AP": "0",
+              "Damage": "1"
+            },
+            {
+              "Name": "Crozius arcanum",
+              "Range": "Melee",
+              "Attacks": "5",
+              "ToHit": "2+",
+              "Strength": "6",
+              "AP": "-1",
+              "Damage": "2"
+            },
+            {
+              "Name": "Force weapon",
+              "Keywords": "PSYCHIC",
+              "Range": "Melee",
+              "Attacks": "4",
+              "ToHit": "3+",
+              "Strength": "6",
+              "AP": "-1",
+              "Damage": "D3"
+            },
+            {
+              "Name": "Master-crafted chainsword",
+              "Keywords": "SUSTAINED HITS 1",
+              "Range": "Melee",
+              "Attacks": "7",
+              "ToHit": "2+",
+              "Strength": "4",
+              "AP": "-1",
+              "Damage": "2"
+            },
+            {
+              "Name": "Master-crafted power weapon",
+              "Range": "Melee",
+              "Attacks": "6",
+              "ToHit": "2+",
+              "Strength": "5",
+              "AP": "-2",
+              "Damage": "2"
+            },
+            {
+              "Name": "Omnissian power axe",
+              "Range": "Melee",
+              "Attacks": "4",
+              "ToHit": "3+",
+              "Strength": "6",
+              "AP": "-2",
+              "Damage": "2"
+            },
+            {
+              "Name": "Power fist",
+              "Range": "Melee",
+              "Attacks": "5",
+              "ToHit": "2+",
+              "Strength": "8",
+              "AP": "-2",
+              "Damage": "2"
+            },
+            {
+              "Name": "Servo-arm",
+              "Keywords": "EXTRA ATTACKS",
+              "Range": "Melee",
+              "Attacks": "1",
+              "ToHit": "3+",
+              "Strength": "8",
+              "AP": "-2",
+              "Damage": "3"
+            },
+            {
+              "Name": "Thunder hammer",
+              "Keywords": "DEVASTATING WOUNDS",
+              "Range": "Melee",
+              "Attacks": "5",
+              "ToHit": "2+",
+              "Strength": "8",
+              "AP": "-2",
+              "Damage": "2"
+            },
+            {
+              "Name": "Twin lightning claws",
+              "Keywords": "TWIN-LINKED",
+              "Range": "Melee",
+              "Attacks": "6",
+              "ToHit": "2+",
+              "Strength": "5",
+              "AP": "-2",
+              "Damage": "1"
+            },
+            {
+              "Name": "Encarmine blade",
+              "Range": "Melee",
+              "Attacks": "5",
+              "ToHit": "2+",
+              "Strength": "6",
+              "AP": "-3",
+              "Damage": "2"
+            },
+            {
+              "Name": "Encarmine spear",
+              "Keywords": "LANCE",
+              "Range": "Melee",
+              "Attacks": "4",
+              "ToHit": "2+",
+              "Strength": "6",
+              "AP": "-2",
+              "Damage": "2"
+            },
+            {
+              "Name": "Eviscerator",
+              "Keywords": "SUSTAINED HITS 1",
+              "Range": "Melee",
+              "Attacks": "5",
+              "ToHit": "2+",
+              "Strength": "7",
+              "AP": "-2",
+              "Damage": "2"
+            }
+          ]
+        }
+      ],
+      "Upgrades": [],
+      "Points": [
+        {
+          "ModelCount": 1,
+          "Cost": 70
+        }
+      ]
+    },
+    {
+      "Name": "VENERABLE BATTLE-BROTHER",
+      "Faction": "Oath of Moment",
+      "Flags": 4,
+      "UnitComposition": {
+        "ModelCompositions": [
+          {
+            "ModelName": "Venerable Battle-Brother",
+            "Wargear": [
+              {
+                "InitalWargear": [
+                  "Redemptor fist"
+                ],
+                "Options": [
+                  {
+                    "Options": [
+                      "Brutalis talons",
+                      "Brutalis bolt rifles and Brutalis fists",
+                      "Ballistus missile launcher, Ballistus lascannon and armoured feet",
+                      "Heavy flamer, Ballistus lascannon and Redemptor fist",
+                      "Onslaught gatling cannon, Ballistus lascannon and Redemptor fist",
+                      "Ballistus missile launcher, Heavy onslaught gatling cannon and armoured feet",
+                      "Heavy flamer, Heavy onslaught gatling cannon and Redemptor fist",
+                      "Onslaught gatling cannon, Heavy onslaught gatling cannon and Redemptor fist",
+                      "Ballistus missile launcher, Macro plasma incinerator and armoured feet",
+                      "Heavy flamer, Macro plasma incinerator and Redemptor fist",
+                      "Onslaught gatling cannon, Macro plasma incinerator and Redemptor fist"
+                    ]
+                  },
+                  {
+                    "Options": [
+                      "Twin fragstorm grenade launcher and Icarus rocket pod",
+                      "Twin heavy bolter and twin Icarus ironhail heavy stubber",
+                      "Twin multi-melta and twin Icarus ironhail heavy stubber",
+                      "Twin storm bolter and Icarus rocket pod"
+                    ]
+                  },
+                  {
+                    "Options": [
+                      "Conversion Field",
+                      "Venerable Death Companion",
+                      "Venerable Librarian"
+                    ]
+                  },
+                  {
+                    "Options": [
+                      "Adamantine Will",
+                      "Astartes Banner",
+                      "Litany of Hate",
+                      "Narthecium",
+                      "Rites of Battle",
+                      "Tactical Precision"
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "WargearDefinitions": [
+          {
+            "Key": "Conversion Field",
+            "GrantsAbilities": [
+              "Conversion Field"
+            ],
+            "StatAdjustments": [
+              {
+                "Target": "InvulSave",
+                "Value": "4+"
+              }
+            ]
+          },
+          {
+            "Key": "Adamantine Will",
+            "TagName": "Adamantine Will",
+            "GrantsAbilities": [
+              "Adamantine Will"
+            ]
+          },
+          {
+            "Key": "Astartes Banner",
+            "TagName": "Astartes Banner",
+            "GrantsAbilities": [
+              "Astartes Banner"
+            ],
+            "StatAdjustments": [
+              {
+                "Target": "OC",
+                "Type": "Add",
+                "Scope": "Unit",
+                "Value": "1"
+              }
+            ]
+          },
+          {
+            "Key": "Litany of Hate",
+            "TagName": "Litany of Hate",
+            "GrantsAbilities": [
+              "Litany of Hate"
+            ]
+          },
+          {
+            "Key": "Narthecium",
+            "TagName": "Narthecium",
+            "GrantsAbilities": [
+              "Narthecium"
+            ]
+          },
+          {
+            "Key": "Rites of Battle",
+            "TagName": "Rites of Battle",
+            "GrantsAbilities": [
+              "Rites of Battle"
+            ]
+          },
+          {
+            "Key": "Tactical Precision",
+            "TagName": "Tactical Precision",
+            "GrantsAbilities": [
+              "Tactical Precision"
+            ]
+          },
+          {
+            "Key": "Ballistus missile launcher, Ballistus lascannon and armoured feet",
+            "TagName": "Ballistus lascannon"
+          },
+          {
+            "Key": "Heavy flamer, Ballistus lascannon and Redemptor fist",
+            "TagName": "Ballistus lascannon"
+          },
+          {
+            "Key": "Onslaught gatling cannon, Ballistus lascannon and Redemptor fist",
+            "TagName": "Ballistus lascannon"
+          },
+          {
+            "Key": "Ballistus missile launcher, Heavy onslaught gatling cannon and armoured feet",
+            "TagName": "Heavy onslaught gatling cannon"
+          },
+          {
+            "Key": "Heavy flamer, Heavy onslaught gatling cannon and Redemptor fist",
+            "TagName": "Heavy onslaught gatling cannon"
+          },
+          {
+            "Key": "Onslaught gatling cannon, Heavy onslaught gatling cannon and Redemptor fist",
+            "TagName": "Heavy onslaught gatling cannon"
+          },
+          {
+            "Key": "Ballistus missile launcher, Macro plasma incinerator and armoured feet",
+            "TagName": "Macro plasma incinerator"
+          },
+          {
+            "Key": "Heavy flamer, Macro plasma incinerator and Redemptor fist",
+            "TagName": "Macro plasma incinerator"
+          },
+          {
+            "Key": "Onslaught gatling cannon, Macro plasma incinerator and Redemptor fist",
+            "TagName": "Macro plasma incinerator"
+          },
+          {
+            "Key": "Venerable Death Companion",
+            "GrantsAbilities": [
+              "Venerable Death Companion"
+            ],
+            "DatasheetAdjustments": [
+              {
+                "Target": "Keywords",
+                "Type": "Add",
+                "Values": [
+                  "Death Company"
+                ]
+              },
+              {
+                "Target": "CoreAbilities",
+                "Type": "Add",
+                "Values": [
+                  "Feel No Pain 6+"
+                ]
+              }
+            ]
+          },
+          {
+            "Key": "Venerable Librarian",
+            "GrantsAbilities": [
+              "Venerable Librarian"
+            ],
+            "GrantsWeapons": [
+              "Smite"
+            ],
+            "DatasheetAdjustments": [
+              {
+                "Target": "Keywords",
+                "Type": "Add",
+                "Values": [
+                  "Psyker"
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "UnitAbilities": [
+        {
+          "Title": "Wisdom of the Ancients (Aura)",
+          "Text": "While a friendly Adeptus Astartes Infantry unit is within 6\" of this model, each time a model in that unit makes an attack, re-roll a Hit roll of 1."
+        },
+        {
+          "Title": "Conversion Field",
+          "Text": "This model has a 4+ invulnerable save."
+        },
+        {
+          "Title": "Adamantine Will",
+          "Text": "While this model is leading a unit, models in that unit have the Feel No Pain 4+ ability against Psychic Attacks."
+        },
+        {
+          "Title": "Astartes Banner",
+          "Text": "Add 1 to the Objective Control characteristic of models in this unit."
+        },
+        {
+          "Title": "Blessing of the Omnissiah",
+          "Text": "In your Command phase, you can select one friendly Adeptus Astartes Vehicle model within 3\" of this model. That model regains up to D3 lost wounds and, until the start of your next Command phase, each time that Vehicle model makes an attack, add 1 to the Hit roll. Each model can only be selected for this ability once per turn."
+        },
+        {
+          "Title": "Litany of Hate",
+          "Text": "Each time a model in this unit makes a melee attack, add 1 to the Wound roll."
+        },
+        {
+          "Title": "Narthecium",
+          "Text": "While this model is leading a unit, in your Command phase, you can return 1 destroyed model (excluding Character models) to that unit."
+        },
+        {
+          "Title": "Rites of Battle",
+          "Text": "Once per battle round, one unit from your army with this ability can be targeted with a Stratagem for 0CP, even if another unit from your army has already been targeted with that Stratagem this phase."
+        },
+        {
+          "Title": "Tactical Precision",
+          "Text": "Weapons equipped by models in this unit have the [LETHAL HITS] ability."
+        },
+        {
+          "Title": "Venerable Death Companion",
+          "Text": "This model gains the Feel No Pain 6+ ability, and unless it is within 12\" of one or more friendly Chaplain models, it cannot be selected to Fall Back and its Objective Control characteristic is 0. Add the Death Company keyword."
+        },
+        {
+          "Title": "Venerable Librarian",
+          "Text": "Add the Psyker keyword, and you can choose one additional ranged weapon for your model to be equipped with, which must be a Psychic weapon."
+        }
+      ],
+      "Infos": [],
+      "Keywords": [
+        "Vehicle",
+        "Walker",
+        "Character",
+        "Imperium",
+        "Dreadnought",
+        "Venerable Battle-Brother"
+      ],
+      "CoreAbilities": [
+        "Crucible",
+        "Deadly Demise D3"
+      ],
+      "FactionKeywords": [
+        "Adeptus Astartes",
+        "Blood Angels"
+      ],
+      "StatLines": [
+        {
+          "Movement": "8\"",
+          "Toughness": "10",
+          "Save": "2+",
+          "Wounds": "12",
+          "Leadership": "6+",
+          "OC": "4"
+        }
+      ],
+      "Weapons": [
+        {
+          "Name": "RANGED WEAPONS",
+          "Weapons": [
+            {
+              "Name": "Ballistus lascannon",
+              "Range": "48\"",
+              "Attacks": "2",
+              "ToHit": "2+",
+              "Strength": "12",
+              "AP": "-3",
+              "Damage": "D6+1"
+            },
+            {
+              "Name": "Ballistus missile launcher – frag",
+              "Keywords": "BLAST",
+              "Range": "48\"",
+              "Attacks": "2D6",
+              "ToHit": "2+",
+              "Strength": "5",
+              "AP": "0",
+              "Damage": "1"
+            },
+            {
+              "Name": "Ballistus missile launcher – krak",
+              "Range": "48\"",
+              "Attacks": "2",
+              "ToHit": "2+",
+              "Strength": "10",
+              "AP": "-2",
+              "Damage": "D6"
+            },
+            {
+              "Name": "Brutalis bolt rifles",
+              "Keywords": "TWIN-LINKED",
+              "Range": "24\"",
+              "Attacks": "4",
+              "ToHit": "2+",
+              "Strength": "4",
+              "AP": "-1",
+              "Damage": "1"
+            },
+            {
+              "Name": "Heavy flamer",
+              "Keywords": "IGNORES COVER",
+              "Range": "12\"",
+              "Attacks": "D6",
+              "ToHit": "N/A",
+              "Strength": "5",
+              "AP": "-1",
+              "Damage": "1"
+            },
+            {
+              "Name": "Heavy onslaught gatling cannon",
+              "Keywords": "DEVASTATING WOUNDS",
+              "Range": "24\"",
+              "Attacks": "12",
+              "ToHit": "2+",
+              "Strength": "6",
+              "AP": "0",
+              "Damage": "1"
+            },
+            {
+              "Name": "Icarus rocket pod",
+              "Keywords": "ANTI-FLY 2+",
+              "Range": "24\"",
+              "Attacks": "D3",
+              "ToHit": "2+",
+              "Strength": "8",
+              "AP": "-1",
+              "Damage": "2"
+            },
+            {
+              "Name": "Macro plasma incinerator – standard",
+              "Keywords": "BLAST",
+              "Range": "36\"",
+              "Attacks": "D6+1",
+              "ToHit": "2+",
+              "Strength": "8",
+              "AP": "-3",
+              "Damage": "2"
+            },
+            {
+              "Name": "Macro plasma incinerator – supercharge",
+              "Keywords": "BLAST, HAZARDOUS",
+              "Range": "36\"",
+              "Attacks": "D6+1",
+              "ToHit": "2+",
+              "Strength": "9",
+              "AP": "-4",
+              "Damage": "3"
+            },
+            {
+              "Name": "Onslaught gatling cannon",
+              "Keywords": "DEVASTATING WOUNDS",
+              "Range": "24\"",
+              "Attacks": "8",
+              "ToHit": "2+",
+              "Strength": "5",
+              "AP": "0",
+              "Damage": "1"
+            },
+            {
+              "Name": "Twin fragstorm grenade launcher",
+              "Keywords": "BLAST, TWIN-LINKED",
+              "Range": "18\"",
+              "Attacks": "D6",
+              "ToHit": "2+",
+              "Strength": "4",
+              "AP": "0",
+              "Damage": "1"
+            },
+            {
+              "Name": "Twin heavy bolter",
+              "Keywords": "SUSTAINED HITS 1, TWIN-LINKED",
+              "Range": "36\"",
+              "Attacks": "3",
+              "ToHit": "2+",
+              "Strength": "5",
+              "AP": "-1",
+              "Damage": "2"
+            },
+            {
+              "Name": "Twin Icarus ironhail heavy stubber",
+              "Keywords": "ANTI-FLY 4+, RAPID FIRE 3, TWIN-LINKED",
+              "Range": "36\"",
+              "Attacks": "3",
+              "ToHit": "2+",
+              "Strength": "4",
+              "AP": "0",
+              "Damage": "1"
+            },
+            {
+              "Name": "Twin multi-melta",
+              "Keywords": "MELTA 2, TWIN-LINKED",
+              "Range": "18\"",
+              "Attacks": "2",
+              "ToHit": "2+",
+              "Strength": "9",
+              "AP": "-4",
+              "Damage": "D6"
+            },
+            {
+              "Name": "Twin storm bolter",
+              "Keywords": "RAPID FIRE 2, TWIN-LINKED",
+              "Range": "24\"",
+              "Attacks": "2",
+              "ToHit": "2+",
+              "Strength": "4",
+              "AP": "0",
+              "Damage": "1"
+            },
+            {
+              "Name": "Smite – focused witchfire",
+              "Keywords": "DEVASTATING WOUNDS, HAZARDOUS, PSYCHIC",
+              "Range": "24\"",
+              "Attacks": "D6",
+              "ToHit": "3+",
+              "Strength": "6",
+              "AP": "-2",
+              "Damage": "D3"
+            }
+          ]
+        },
+        {
+          "IsMelee": true,
+          "Name": "MELEE WEAPONS",
+          "Weapons": [
+            {
+              "Name": "Armoured feet",
+              "Range": "Melee",
+              "Attacks": "4",
+              "ToHit": "2+",
+              "Strength": "7",
+              "AP": "0",
+              "Damage": "1"
+            },
+            {
+              "Name": "Brutalis fists",
+              "Keywords": "TWIN-LINKED",
+              "Range": "Melee",
+              "Attacks": "6",
+              "ToHit": "2+",
+              "Strength": "12",
+              "AP": "-2",
+              "Damage": "3"
+            },
+            {
+              "Name": "Brutalis talons – strike",
+              "Keywords": "TWIN-LINKED",
+              "Range": "Melee",
+              "Attacks": "6",
+              "ToHit": "2+",
+              "Strength": "12",
+              "AP": "-2",
+              "Damage": "3"
+            },
+            {
+              "Name": "Brutalis talons – sweep",
+              "Keywords": "TWIN-LINKED",
+              "Range": "Melee",
+              "Attacks": "10",
+              "ToHit": "2+",
+              "Strength": "7",
+              "AP": "-2",
+              "Damage": "1"
+            },
+            {
+              "Name": "Redemptor fist",
+              "Range": "Melee",
+              "Attacks": "5",
+              "ToHit": "2+",
+              "Strength": "12",
+              "AP": "-2",
+              "Damage": "3"
+            }
+          ]
+        }
+      ],
+      "Upgrades": [],
+      "Points": [
+        {
+          "ModelCount": 1,
+          "Cost": 160
+        }
+      ]
+    }
+  ],
+  "Dettachments": [],
+  "ArmyRules": []
+}

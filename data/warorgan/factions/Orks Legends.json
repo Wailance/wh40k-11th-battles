@@ -1,0 +1,6053 @@
+{
+  "Name": "Orks",
+  "Units": [
+    {
+      "Name": "KANNONWAGON",
+      "Faction": "Waaagh!",
+      "UnitComposition": {
+        "ModelCompositions": [
+          {
+            "ModelName": "Kannonwagon",
+            "Wargear": [
+              {
+                "InitalWargear": [
+                  "supa-kannon",
+                  "spiked ram"
+                ],
+                "Options": [
+                  {
+                    "Options": [
+                      "big shoota"
+                    ]
+                  },
+                  {
+                    "Options": [
+                      "big shoota"
+                    ]
+                  },
+                  {
+                    "Options": [
+                      "big shoota"
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "WargearDefinitions": []
+      },
+      "UnitAbilities": [
+        {
+          "Title": "Big Booms",
+          "Text": "In your Shooting phase, just after selecting a target for this model’s supa-kannon, roll one D6 for the target unit and every other unit within 3\" of that unit: on a 5+, the unit being rolled for is struck by a concussive wave. After this model has finished making its attacks against that target unit this phase, each unit struck by a concussive wave this phase suffers D3 mortal wounds."
+        }
+      ],
+      "Infos": [
+        {
+          "Title": "DAMAGED: 1-5 WOUNDS REMAINING",
+          "Text": "While this model has 1-5 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
+        },
+        {
+          "Title": "TRANSPORT",
+          "Text": "This model has a transport capacity of 6 Orks Infantry models. Each Mega Armour or Jump Pack model takes up the space of 2 models. This model cannot transport Ghazghkull Thraka models."
+        }
+      ],
+      "Keywords": [
+        "Vehicle",
+        "Transport",
+        "Kannonwagon"
+      ],
+      "CoreAbilities": [
+        "Deadly Demise D6",
+        "Firing Deck 6"
+      ],
+      "FactionKeywords": [
+        "Orks"
+      ],
+      "StatLines": [
+        {
+          "Movement": "12\"",
+          "Toughness": "10",
+          "Save": "4+",
+          "Wounds": "16",
+          "Leadership": "7+",
+          "OC": "4",
+          "InvulSave": {
+            "Save": "6+"
+          }
+        }
+      ],
+      "Weapons": [
+        {
+          "Name": "RANGED WEAPONS",
+          "Weapons": [
+            {
+              "Name": "Big shoota",
+              "Keywords": "RAPID FIRE 2",
+              "Range": "36\"",
+              "Attacks": "3",
+              "ToHit": "5+",
+              "Strength": "5",
+              "AP": "0",
+              "Damage": "1"
+            },
+            {
+              "Name": "Supa-kannon – frag",
+              "Keywords": "BLAST",
+              "Range": "36\"",
+              "Attacks": "D6+3",
+              "ToHit": "5+",
+              "Strength": "5",
+              "AP": "0",
+              "Damage": "1"
+            },
+            {
+              "Name": "Supa-kannon – shell",
+              "Range": "36\"",
+              "Attacks": "1",
+              "ToHit": "5+",
+              "Strength": "9",
+              "AP": "-2",
+              "Damage": "D3+3"
+            }
+          ]
+        },
+        {
+          "IsMelee": true,
+          "Name": "MELEE WEAPONS",
+          "Weapons": [
+            {
+              "Name": "Spiked ram",
+              "Range": "Melee",
+              "Attacks": "3",
+              "ToHit": "4+",
+              "Strength": "8",
+              "AP": "0",
+              "Damage": "1"
+            }
+          ]
+        }
+      ],
+      "Upgrades": [],
+      "Points": [
+        {
+          "ModelCount": 1,
+          "Cost": 115
+        }
+      ]
+    },
+    {
+      "Name": "DA RED GOBBO",
+      "Faction": "Waaagh!",
+      "UnitComposition": {
+        "ModelCompositions": [
+          {
+            "ModelName": "Da Red Gobbo",
+            "Wargear": [
+              {
+                "InitalWargear": [
+                  "kustom grot blasta",
+                  "Icon of da Revolushun"
+                ],
+                "Options": []
+              }
+            ]
+          }
+        ],
+        "WargearDefinitions": []
+      },
+      "UnitAbilities": [
+        {
+          "Title": "Da Revolushun!",
+          "Text": "While this model is leading a unit, each time a model in that unit makes an attack, add 1 to the Hit roll. Has Yoo Been a Good Little Grot This Year?: Once per battle, in your Shooting phase, you can target this model’s unit with the Grenade Stratagem for 0CP, and can do so even if you have already targeted a different unit with that Stratagem this phase."
+        }
+      ],
+      "LeaderInfo": {
+        "UnitNames": [
+          "GRETCHIN"
+        ],
+        "Abilities": [
+          {
+            "AbilityId": "Da Revolushun!"
+          }
+        ]
+      },
+      "Infos": [],
+      "Keywords": [
+        "Infantry",
+        "Character",
+        "Grenades",
+        "Epic Hero",
+        "Grots",
+        "Da Red Gobbo"
+      ],
+      "CoreAbilities": [
+        "Leader"
+      ],
+      "FactionKeywords": [
+        "Orks"
+      ],
+      "StatLines": [
+        {
+          "Movement": "6\"",
+          "Toughness": "2",
+          "Save": "5+",
+          "Wounds": "3",
+          "Leadership": "7+",
+          "OC": "1"
+        }
+      ],
+      "Weapons": [
+        {
+          "Name": "RANGED WEAPONS",
+          "Weapons": [
+            {
+              "Name": "Kustom grot blasta",
+              "Keywords": "DEVASTATING WOUNDS, PISTOL",
+              "Range": "12\"",
+              "Attacks": "D3",
+              "ToHit": "4+",
+              "Strength": "4",
+              "AP": "0",
+              "Damage": "1"
+            }
+          ]
+        },
+        {
+          "IsMelee": true,
+          "Name": "MELEE WEAPONS",
+          "Weapons": [
+            {
+              "Name": "Icon of da Revolushun",
+              "Keywords": "DEVASTATING WOUNDS",
+              "Range": "Melee",
+              "Attacks": "3",
+              "ToHit": "4+",
+              "Strength": "3",
+              "AP": "0",
+              "Damage": "1"
+            }
+          ]
+        }
+      ],
+      "Upgrades": [],
+      "Points": [
+        {
+          "ModelCount": 1,
+          "Cost": 40
+        }
+      ]
+    },
+    {
+      "Name": "PAINBOY ON WARBIKE",
+      "Faction": "Waaagh!",
+      "UnitComposition": {
+        "ModelCompositions": [
+          {
+            "ModelName": "Painboy on Warbike",
+            "Wargear": [
+              {
+                "InitalWargear": [
+                  "twin dakkagun",
+                  "power klaw",
+                  "'urty syringe"
+                ],
+                "Options": [
+                  {
+                    "Replaces": [
+                      "power klaw"
+                    ],
+                    "Options": [
+                      "killsaw"
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "WargearDefinitions": []
+      },
+      "UnitAbilities": [
+        {
+          "Title": "Dok’s Toolz",
+          "Text": "While this model is leading a unit, models in that unit have the Feel No Pain 5+ ability."
+        },
+        {
+          "Title": "Hold Still and Say ‘Aargh!’",
+          "Text": "Each time an attack made by this model with its ’urty syringe scores a Critical Wound against a unit (excluding Vehicle units), that unit suffers D6 mortal wounds."
+        }
+      ],
+      "LeaderInfo": {
+        "UnitNames": [
+          "NOBZ ON WARBIKES",
+          "SKORCHAS",
+          "WARBIKERS",
+          "WARBUGGIES"
+        ],
+        "Abilities": [
+          {
+            "AbilityId": "Dok’s Toolz"
+          }
+        ]
+      },
+      "Infos": [],
+      "Keywords": [
+        "Mounted",
+        "Speed Freeks",
+        "Character",
+        "Painboy on Warbike"
+      ],
+      "CoreAbilities": [
+        "Leader"
+      ],
+      "FactionKeywords": [
+        "Orks"
+      ],
+      "StatLines": [
+        {
+          "Movement": "12\"",
+          "Toughness": "6",
+          "Save": "4+",
+          "Wounds": "4",
+          "Leadership": "7+",
+          "OC": "2",
+          "InvulSave": {
+            "Save": "6+"
+          }
+        }
+      ],
+      "Weapons": [
+        {
+          "Name": "RANGED WEAPONS",
+          "Weapons": [
+            {
+              "Name": "Twin dakkagun",
+              "Keywords": "ASSAULT, RAPID FIRE 2, TWIN-LINKED",
+              "Range": "18\"",
+              "Attacks": "3",
+              "ToHit": "5+",
+              "Strength": "5",
+              "AP": "0",
+              "Damage": "1"
+            }
+          ]
+        },
+        {
+          "IsMelee": true,
+          "Name": "MELEE WEAPONS",
+          "Weapons": [
+            {
+              "Name": "Killsaw",
+              "Range": "Melee",
+              "Attacks": "2",
+              "ToHit": "4+",
+              "Strength": "12",
+              "AP": "-3",
+              "Damage": "2"
+            },
+            {
+              "Name": "Power klaw",
+              "Range": "Melee",
+              "Attacks": "3",
+              "ToHit": "4+",
+              "Strength": "9",
+              "AP": "-2",
+              "Damage": "2"
+            },
+            {
+              "Name": "'Urty syringe",
+              "Keywords": "ANTI-INFANTRY 4+, EXTRA ATTACKS, PRECISION",
+              "Range": "Melee",
+              "Attacks": "1",
+              "ToHit": "3+",
+              "Strength": "2",
+              "AP": "0",
+              "Damage": "1"
+            }
+          ]
+        }
+      ],
+      "Upgrades": [],
+      "Points": [
+        {
+          "ModelCount": 1,
+          "Cost": 85
+        }
+      ]
+    },
+    {
+      "Name": "WARTRAKKS",
+      "Faction": "Waaagh!",
+      "UnitComposition": {
+        "ModelCompositions": [
+          {
+            "Limit": {
+              "Min": 1,
+              "Max": 2
+            },
+            "ModelName": "Wartrakks",
+            "Wargear": [
+              {
+                "InitalWargear": [
+                  "twin big shoota",
+                  "spiked wheel"
+                ],
+                "Options": [
+                  {
+                    "Replaces": [
+                      "twin big shoota"
+                    ],
+                    "Options": [
+                      "rack of rokkits"
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "WargearDefinitions": []
+      },
+      "UnitAbilities": [
+        {
+          "Title": "Drive-by Dakka",
+          "Text": "Each time a model in this unit makes a ranged attack that targets a unit within 9\", improve the Armour Penetration characteristic of that attack by 1."
+        }
+      ],
+      "AttachedUnitInfo": {
+        "LeaderAttachmentRules": [
+          {
+            "LeaderKeyword": "Character",
+            "LedUnitNames": [
+              "WARBIKERS"
+            ]
+          }
+        ]
+      },
+      "Infos": [
+        {
+          "Title": "SPEED FREEKS",
+          "Text": "If a model from your army with the Leader ability can be attached to a Warbikers unit, it can be attached to this unit instead."
+        }
+      ],
+      "Keywords": [
+        "Mounted",
+        "Speed Freeks",
+        "Wartrakks"
+      ],
+      "CoreAbilities": [],
+      "FactionKeywords": [
+        "Orks"
+      ],
+      "StatLines": [
+        {
+          "Movement": "12\"",
+          "Toughness": "6",
+          "Save": "4+",
+          "Wounds": "6",
+          "Leadership": "7+",
+          "OC": "2",
+          "InvulSave": {
+            "Save": "6+"
+          }
+        }
+      ],
+      "Weapons": [
+        {
+          "Name": "RANGED WEAPONS",
+          "Weapons": [
+            {
+              "Name": "Rack of rokkits",
+              "Keywords": "BLAST",
+              "Range": "24\"",
+              "Attacks": "D3+1",
+              "ToHit": "5+",
+              "Strength": "9",
+              "AP": "-2",
+              "Damage": "3"
+            },
+            {
+              "Name": "Twin big shoota",
+              "Keywords": "RAPID FIRE 2, TWIN-LINKED",
+              "Range": "36\"",
+              "Attacks": "3",
+              "ToHit": "5+",
+              "Strength": "5",
+              "AP": "0",
+              "Damage": "1"
+            }
+          ]
+        },
+        {
+          "IsMelee": true,
+          "Name": "MELEE WEAPONS",
+          "Weapons": [
+            {
+              "Name": "Spiked wheel",
+              "Range": "Melee",
+              "Attacks": "2",
+              "ToHit": "4+",
+              "Strength": "6",
+              "AP": "0",
+              "Damage": "1"
+            }
+          ]
+        }
+      ],
+      "Upgrades": [],
+      "Points": [
+        {
+          "ModelCount": 1,
+          "Cost": 50
+        },
+        {
+          "ModelCount": 2,
+          "Cost": 100
+        }
+      ]
+    },
+    {
+      "Name": "SKORCHAS",
+      "Faction": "Waaagh!",
+      "UnitComposition": {
+        "ModelCompositions": [
+          {
+            "Limit": {
+              "Min": 1,
+              "Max": 2
+            },
+            "ModelName": "Skorchas",
+            "Wargear": [
+              {
+                "InitalWargear": [
+                  "skorcha",
+                  "spiked wheel"
+                ],
+                "Options": []
+              }
+            ]
+          }
+        ],
+        "WargearDefinitions": []
+      },
+      "UnitAbilities": [
+        {
+          "Title": "Pyromaniaks",
+          "Text": "Each time a model in this unit makes a ranged attack with a Torrent weapon that targets an enemy unit within 6\", re-roll a Wound roll of 1. If the target of that attack is also within range of an objective marker, you can re-roll the Wound roll instead."
+        }
+      ],
+      "AttachedUnitInfo": {
+        "LeaderAttachmentRules": [
+          {
+            "LeaderKeyword": "Character",
+            "LedUnitNames": [
+              "WARBIKERS"
+            ]
+          }
+        ]
+      },
+      "Infos": [
+        {
+          "Title": "SPEED FREEKS",
+          "Text": "If a model from your army with the Leader ability can be attached to a Warbikers unit, it can be attached to this unit instead."
+        }
+      ],
+      "Keywords": [
+        "Mounted",
+        "Speed Freeks",
+        "Skorchas"
+      ],
+      "CoreAbilities": [],
+      "FactionKeywords": [
+        "Orks"
+      ],
+      "StatLines": [
+        {
+          "Movement": "12\"",
+          "Toughness": "6",
+          "Save": "4+",
+          "Wounds": "6",
+          "Leadership": "7+",
+          "OC": "2",
+          "InvulSave": {
+            "Save": "6+"
+          }
+        }
+      ],
+      "Weapons": [
+        {
+          "Name": "RANGED WEAPONS",
+          "Weapons": [
+            {
+              "Name": "Skorcha",
+              "Keywords": "IGNORES COVER, TORRENT",
+              "Range": "12\"",
+              "Attacks": "D6",
+              "ToHit": "N/A",
+              "Strength": "5",
+              "AP": "-1",
+              "Damage": "1"
+            }
+          ]
+        },
+        {
+          "IsMelee": true,
+          "Name": "MELEE WEAPONS",
+          "Weapons": [
+            {
+              "Name": "Spiked wheel",
+              "Range": "Melee",
+              "Attacks": "2",
+              "ToHit": "4+",
+              "Strength": "6",
+              "AP": "0",
+              "Damage": "1"
+            }
+          ]
+        }
+      ],
+      "Upgrades": [],
+      "Points": [
+        {
+          "ModelCount": 1,
+          "Cost": 45
+        },
+        {
+          "ModelCount": 2,
+          "Cost": 90
+        }
+      ]
+    },
+    {
+      "Name": "WARBUGGIES",
+      "Faction": "Waaagh!",
+      "UnitComposition": {
+        "ModelCompositions": [
+          {
+            "Limit": {
+              "Min": 1,
+              "Max": 2
+            },
+            "ModelName": "Warbuggies",
+            "Wargear": [
+              {
+                "InitalWargear": [
+                  "twin big shoota",
+                  "spiked wheels"
+                ],
+                "Options": [
+                  {
+                    "Replaces": [
+                      "twin big shoota"
+                    ],
+                    "Options": [
+                      "rack of rokkits"
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "WargearDefinitions": []
+      },
+      "UnitAbilities": [
+        {
+          "Title": "Outflank",
+          "Text": "When this unit arrives from Strategic Reserves, it can be set up within your opponent’s deployment zone (all other restrictions still apply)."
+        }
+      ],
+      "AttachedUnitInfo": {
+        "LeaderAttachmentRules": [
+          {
+            "LeaderKeyword": "Character",
+            "LedUnitNames": [
+              "WARBIKERS"
+            ]
+          }
+        ]
+      },
+      "Infos": [
+        {
+          "Title": "SPEED FREEKS",
+          "Text": "If a model from your army with the Leader ability can be attached to a Warbikers unit, it can be attached to this unit instead."
+        }
+      ],
+      "Keywords": [
+        "Mounted",
+        "Speed Freeks",
+        "Warbuggies"
+      ],
+      "CoreAbilities": [],
+      "FactionKeywords": [
+        "Orks"
+      ],
+      "StatLines": [
+        {
+          "Movement": "12\"",
+          "Toughness": "6",
+          "Save": "4+",
+          "Wounds": "6",
+          "Leadership": "7+",
+          "OC": "2",
+          "InvulSave": {
+            "Save": "6+"
+          }
+        }
+      ],
+      "Weapons": [
+        {
+          "Name": "RANGED WEAPONS",
+          "Weapons": [
+            {
+              "Name": "Rack of rokkits",
+              "Keywords": "BLAST",
+              "Range": "24\"",
+              "Attacks": "D3+1",
+              "ToHit": "5+",
+              "Strength": "9",
+              "AP": "-2",
+              "Damage": "3"
+            },
+            {
+              "Name": "Twin big shoota",
+              "Keywords": "RAPID FIRE 2, TWIN-LINKED",
+              "Range": "36\"",
+              "Attacks": "3",
+              "ToHit": "5+",
+              "Strength": "5",
+              "AP": "0",
+              "Damage": "1"
+            }
+          ]
+        },
+        {
+          "IsMelee": true,
+          "Name": "MELEE WEAPONS",
+          "Weapons": [
+            {
+              "Name": "Spiked wheels",
+              "Range": "Melee",
+              "Attacks": "3",
+              "ToHit": "4+",
+              "Strength": "6",
+              "AP": "0",
+              "Damage": "1"
+            }
+          ]
+        }
+      ],
+      "Upgrades": [],
+      "Points": [
+        {
+          "ModelCount": 1,
+          "Cost": 40
+        },
+        {
+          "ModelCount": 2,
+          "Cost": 80
+        }
+      ]
+    },
+    {
+      "Name": "BIG GUNZ",
+      "Faction": "Waaagh!",
+      "UnitComposition": {
+        "ModelCompositions": [
+          {
+            "Limit": {
+              "Min": 1,
+              "Max": 2
+            },
+            "ModelName": "Big Gunz",
+            "Wargear": [
+              {
+                "InitalWargear": [
+                  "kannon",
+                  "close combat weapons"
+                ],
+                "Options": [
+                  {
+                    "Replaces": [
+                      "kannon"
+                    ],
+                    "Options": [
+                      "lobba",
+                      "zzap gun"
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "WargearDefinitions": []
+      },
+      "UnitAbilities": [
+        {
+          "Title": "Splat!",
+          "Text": "Each time a model in this unit makes a ranged attack that targets a unit containing 10 or more models, re-roll a Hit roll of 1."
+        }
+      ],
+      "Infos": [],
+      "Keywords": [
+        "Vehicle",
+        "Artillery",
+        "Grots",
+        "Big Gunz"
+      ],
+      "CoreAbilities": [],
+      "FactionKeywords": [
+        "Orks"
+      ],
+      "StatLines": [
+        {
+          "Movement": "3\"",
+          "Toughness": "4",
+          "Save": "5+",
+          "Wounds": "3",
+          "Leadership": "8+",
+          "OC": "1",
+          "InvulSave": {
+            "Save": "6+"
+          }
+        }
+      ],
+      "Weapons": [
+        {
+          "Name": "RANGED WEAPONS",
+          "Weapons": [
+            {
+              "Name": "Kannon – frag",
+              "Keywords": "BLAST, HEAVY",
+              "Range": "36\"",
+              "Attacks": "D6",
+              "ToHit": "6+",
+              "Strength": "5",
+              "AP": "0",
+              "Damage": "1"
+            },
+            {
+              "Name": "Kannon – shell",
+              "Keywords": "HEAVY",
+              "Range": "36\"",
+              "Attacks": "1",
+              "ToHit": "6+",
+              "Strength": "9",
+              "AP": "-2",
+              "Damage": "D6"
+            },
+            {
+              "Name": "Lobba",
+              "Keywords": "BLAST, HEAVY, INDIRECT FIRE",
+              "Range": "48\"",
+              "Attacks": "D6",
+              "ToHit": "6+",
+              "Strength": "5",
+              "AP": "0",
+              "Damage": "1"
+            },
+            {
+              "Name": "Zzap gun",
+              "Keywords": "DEVASTATING WOUNDS, HEAVY",
+              "Range": "36\"",
+              "Attacks": "1",
+              "ToHit": "6+",
+              "Strength": "2D6",
+              "AP": "-3",
+              "Damage": "3"
+            }
+          ]
+        },
+        {
+          "IsMelee": true,
+          "Name": "MELEE WEAPONS",
+          "Weapons": [
+            {
+              "Name": "Close combat weapons",
+              "Range": "Melee",
+              "Attacks": "2",
+              "ToHit": "3+",
+              "Strength": "4",
+              "AP": "0",
+              "Damage": "1"
+            }
+          ]
+        }
+      ],
+      "Upgrades": [],
+      "Points": [
+        {
+          "ModelCount": 1,
+          "Cost": 20
+        },
+        {
+          "ModelCount": 2,
+          "Cost": 40
+        }
+      ]
+    },
+    {
+      "Name": "DEFFKOPTAS WITH BIG SHOOTAS",
+      "Faction": "Waaagh!",
+      "UnitComposition": {
+        "ModelCompositions": [
+          {
+            "Limit": {
+              "Min": 3,
+              "Max": 3
+            },
+            "ModelName": "Deffkoptas with Big Shootas",
+            "Wargear": [
+              {
+                "InitalWargear": [
+                  "slugga",
+                  "twin big shoota",
+                  "spinnin' blades"
+                ],
+                "Options": [
+                  {
+                    "Replaces": [
+                      "twin big shoota"
+                    ],
+                    "Options": [
+                      "kopta rokkits",
+                      "kustom mega-blasta"
+                    ]
+                  },
+                  {
+                    "Options": [
+                      "killsaw"
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "WargearDefinitions": []
+      },
+      "UnitAbilities": [
+        {
+          "Title": "Deff from Above",
+          "Text": "Each time this unit ends a Normal move, you can select one enemy unit it moved over during that move and roll one D6 for each model in this unit: for each 4+, that enemy unit suffers 1 mortal wound."
+        }
+      ],
+      "Infos": [],
+      "Keywords": [
+        "Vehicle",
+        "Fly",
+        "Grenades",
+        "Deffkoptas with Big Shootas"
+      ],
+      "CoreAbilities": [
+        "Deep Strike"
+      ],
+      "FactionKeywords": [
+        "Orks"
+      ],
+      "StatLines": [
+        {
+          "Movement": "12\"",
+          "Toughness": "6",
+          "Save": "4+",
+          "Wounds": "4",
+          "Leadership": "7+",
+          "OC": "2",
+          "InvulSave": {
+            "Save": "6+"
+          }
+        }
+      ],
+      "Weapons": [
+        {
+          "Name": "RANGED WEAPONS",
+          "Weapons": [
+            {
+              "Name": "Kopta rokkits",
+              "Keywords": "BLAST, TWIN-LINKED",
+              "Range": "24\"",
+              "Attacks": "D3",
+              "ToHit": "5+",
+              "Strength": "9",
+              "AP": "-2",
+              "Damage": "3"
+            },
+            {
+              "Name": "Kustom mega-blasta",
+              "Keywords": "HAZARDOUS",
+              "Range": "24\"",
+              "Attacks": "3",
+              "ToHit": "5+",
+              "Strength": "9",
+              "AP": "-2",
+              "Damage": "D6"
+            },
+            {
+              "Name": "Slugga",
+              "Keywords": "PISTOL",
+              "Range": "12\"",
+              "Attacks": "1",
+              "ToHit": "5+",
+              "Strength": "4",
+              "AP": "0",
+              "Damage": "1"
+            },
+            {
+              "Name": "Twin big shoota",
+              "Keywords": "RAPID FIRE 2, TWIN-LINKED",
+              "Range": "36\"",
+              "Attacks": "3",
+              "ToHit": "5+",
+              "Strength": "5",
+              "AP": "0",
+              "Damage": "1"
+            }
+          ]
+        },
+        {
+          "IsMelee": true,
+          "Name": "MELEE WEAPONS",
+          "Weapons": [
+            {
+              "Name": "Killsaw",
+              "Range": "Melee",
+              "Attacks": "3",
+              "ToHit": "4+",
+              "Strength": "12",
+              "AP": "-3",
+              "Damage": "2"
+            },
+            {
+              "Name": "Spinnin' blades",
+              "Range": "Melee",
+              "Attacks": "6",
+              "ToHit": "3+",
+              "Strength": "5",
+              "AP": "0",
+              "Damage": "1"
+            }
+          ]
+        }
+      ],
+      "Upgrades": [],
+      "Points": [
+        {
+          "ModelCount": 3,
+          "Cost": 130
+        }
+      ]
+    },
+    {
+      "Name": "KILL KRUSHA",
+      "Faction": "Waaagh!",
+      "UnitComposition": {
+        "ModelCompositions": [
+          {
+            "ModelName": "Kill Krusha",
+            "Wargear": [
+              {
+                "InitalWargear": [
+                  "krusha kannon",
+                  "tracks & wheels"
+                ],
+                "Options": [
+                  {
+                    "Options": [
+                      "twin big shoota",
+                      "2 rokkit launchas",
+                      "skorcha"
+                    ]
+                  },
+                  {
+                    "Options": [
+                      "twin big shoota",
+                      "2 rokkit launchas",
+                      "skorcha"
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "WargearDefinitions": []
+      },
+      "UnitAbilities": [
+        {
+          "Title": "Da Biggest Booms",
+          "Text": "In your Shooting phase, just after selecting a target for this model’s krusha kannon, the target unit and every other enemy Infantry unit within 3\" of that unit must take a Battle-shock test."
+        }
+      ],
+      "Infos": [
+        {
+          "Title": "DAMAGED: 1-7 WOUNDS REMAINING",
+          "Text": "While this model has 1-7 wounds remaining, subtract 4 from its Objective Control characteristic and each time this model makes an attack, subtract 1 from the Hit roll."
+        },
+        {
+          "Title": "TRANSPORT",
+          "Text": "This model has a transport capacity of 12 Orks Infantry models. Each Mega Armour or Jump Pack model takes up the space of 2 models. This model cannot transport Ghazghkull Thraka models."
+        }
+      ],
+      "Keywords": [
+        "Vehicle",
+        "Titanic",
+        "Transport",
+        "Kill Krusha"
+      ],
+      "CoreAbilities": [
+        "Deadly Demise D6+2",
+        "Firing Deck 12"
+      ],
+      "FactionKeywords": [
+        "Orks"
+      ],
+      "StatLines": [
+        {
+          "Movement": "10\"",
+          "Toughness": "12",
+          "Save": "3+",
+          "Wounds": "22",
+          "Leadership": "7+",
+          "OC": "8",
+          "InvulSave": {
+            "Save": "6+"
+          }
+        }
+      ],
+      "Weapons": [
+        {
+          "Name": "RANGED WEAPONS",
+          "Weapons": [
+            {
+              "Name": "Krusha kannon – blast burna",
+              "Keywords": "BLAST",
+              "Range": "48\"",
+              "Attacks": "3D6",
+              "ToHit": "5+",
+              "Strength": "6",
+              "AP": "-1",
+              "Damage": "1"
+            },
+            {
+              "Name": "Krusha kannon – tankhamma shell",
+              "Keywords": "HEAVY",
+              "Range": "60\"",
+              "Attacks": "1",
+              "ToHit": "5+",
+              "Strength": "16",
+              "AP": "-3",
+              "Damage": "6"
+            },
+            {
+              "Name": "Rokkit launcha",
+              "Keywords": "BLAST",
+              "Range": "24\"",
+              "Attacks": "D3",
+              "ToHit": "5+",
+              "Strength": "9",
+              "AP": "-2",
+              "Damage": "3"
+            },
+            {
+              "Name": "Skorcha",
+              "Keywords": "IGNORES COVER, TORRENT",
+              "Range": "12\"",
+              "Attacks": "D6",
+              "ToHit": "N/A",
+              "Strength": "5",
+              "AP": "-1",
+              "Damage": "1"
+            },
+            {
+              "Name": "Twin big shoota",
+              "Keywords": "RAPID FIRE 2, TWIN-LINKED",
+              "Range": "36\"",
+              "Attacks": "3",
+              "ToHit": "5+",
+              "Strength": "5",
+              "AP": "0",
+              "Damage": "1"
+            }
+          ]
+        },
+        {
+          "IsMelee": true,
+          "Name": "MELEE WEAPONS",
+          "Weapons": [
+            {
+              "Name": "Tracks & wheels",
+              "Range": "Melee",
+              "Attacks": "6",
+              "ToHit": "4+",
+              "Strength": "8",
+              "AP": "-1",
+              "Damage": "1"
+            }
+          ]
+        }
+      ],
+      "Upgrades": [],
+      "Points": [
+        {
+          "ModelCount": 1,
+          "Cost": 230
+        }
+      ]
+    },
+    {
+      "Name": "DEFF ROLLA BATTLE FORTRESS",
+      "Faction": "Waaagh!",
+      "UnitComposition": {
+        "ModelCompositions": [
+          {
+            "ModelName": "Deff Rolla Battle Fortress",
+            "Wargear": [
+              {
+                "InitalWargear": [
+                  "kannon",
+                  "twin big shoota",
+                  "twin big shoota",
+                  "zzap gun",
+                  "zzap gun",
+                  "deff rolla"
+                ],
+                "Options": [
+                  {
+                    "Replaces": [
+                      "zzap gun"
+                    ],
+                    "Options": [
+                      "lobba",
+                      "kannon"
+                    ]
+                  },
+                  {
+                    "Replaces": [
+                      "zzap gun"
+                    ],
+                    "Options": [
+                      "lobba",
+                      "kannon"
+                    ]
+                  },
+                  {
+                    "Replaces": [
+                      "kannon"
+                    ],
+                    "Options": [
+                      "lobba",
+                      "zzap gun"
+                    ]
+                  },
+                  {
+                    "Replaces": [
+                      "twin big shoota"
+                    ],
+                    "Options": [
+                      "skorcha",
+                      "rokkit launcha"
+                    ]
+                  },
+                  {
+                    "Replaces": [
+                      "twin big shoota"
+                    ],
+                    "Options": [
+                      "skorcha",
+                      "rokkit launcha"
+                    ]
+                  },
+                  {
+                    "Options": [
+                      "big shoota",
+                      "2 big shootas",
+                      "3 big shootas",
+                      "4 big shootas",
+                      "5 big shootas"
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "WargearDefinitions": []
+      },
+      "UnitAbilities": [
+        {
+          "Title": "Rolling Fortress",
+          "Text": "Each time a ranged attack is allocated to an Orks model from your army, if that model is not fully visible to every model in the attacking unit because of this Deff Rolla Battle Fortress model, that model has the Benefit of Cover against that attack."
+        }
+      ],
+      "Infos": [
+        {
+          "Title": "DAMAGED: 1-7 WOUNDS REMAINING",
+          "Text": "While this model has 1-7 wounds remaining, subtract 4 from its Objective Control characteristic and each time this model makes an attack, subtract 1 from the Hit roll."
+        },
+        {
+          "Title": "TRANSPORT",
+          "Text": "This model has a transport capacity of 22 Orks Infantry models. Each Mega Armour or Jump Pack model takes up the space of 2 models. The Ghazghkull Thraka model takes up the space of 18 models."
+        }
+      ],
+      "Keywords": [
+        "Vehicle",
+        "Titanic",
+        "Transport",
+        "Deff Rolla Battle Fortress"
+      ],
+      "CoreAbilities": [
+        "Deadly Demise D6+2",
+        "Firing Deck 22"
+      ],
+      "FactionKeywords": [
+        "Orks"
+      ],
+      "StatLines": [
+        {
+          "Movement": "10\"",
+          "Toughness": "12",
+          "Save": "3+",
+          "Wounds": "22",
+          "Leadership": "7+",
+          "OC": "8",
+          "InvulSave": {
+            "Save": "6+"
+          }
+        }
+      ],
+      "Weapons": [
+        {
+          "Name": "RANGED WEAPONS",
+          "Weapons": [
+            {
+              "Name": "Big shoota",
+              "Keywords": "RAPID FIRE 2",
+              "Range": "36\"",
+              "Attacks": "3",
+              "ToHit": "5+",
+              "Strength": "5",
+              "AP": "0",
+              "Damage": "1"
+            },
+            {
+              "Name": "Kannon – frag",
+              "Keywords": "BLAST",
+              "Range": "36\"",
+              "Attacks": "D6",
+              "ToHit": "5+",
+              "Strength": "5",
+              "AP": "0",
+              "Damage": "1"
+            },
+            {
+              "Name": "Kannon – shell",
+              "Range": "36\"",
+              "Attacks": "1",
+              "ToHit": "5+",
+              "Strength": "9",
+              "AP": "-2",
+              "Damage": "D6"
+            },
+            {
+              "Name": "Lobba",
+              "Keywords": "BLAST, INDIRECT FIRE",
+              "Range": "48\"",
+              "Attacks": "D6",
+              "ToHit": "5+",
+              "Strength": "5",
+              "AP": "0",
+              "Damage": "1"
+            },
+            {
+              "Name": "Rokkit launcha",
+              "Keywords": "BLAST",
+              "Range": "24\"",
+              "Attacks": "D3",
+              "ToHit": "5+",
+              "Strength": "9",
+              "AP": "-2",
+              "Damage": "3"
+            },
+            {
+              "Name": "Skorcha",
+              "Keywords": "IGNORES COVER, TORRENT",
+              "Range": "12\"",
+              "Attacks": "D6",
+              "ToHit": "N/A",
+              "Strength": "5",
+              "AP": "-1",
+              "Damage": "1"
+            },
+            {
+              "Name": "Twin big shoota",
+              "Keywords": "RAPID FIRE 2, TWIN-LINKED",
+              "Range": "36\"",
+              "Attacks": "3",
+              "ToHit": "5+",
+              "Strength": "5",
+              "AP": "0",
+              "Damage": "1"
+            },
+            {
+              "Name": "Zzap gun",
+              "Keywords": "DEVASTATING WOUNDS",
+              "Range": "36\"",
+              "Attacks": "1",
+              "ToHit": "5+",
+              "Strength": "2D6",
+              "AP": "-3",
+              "Damage": "3"
+            }
+          ]
+        },
+        {
+          "IsMelee": true,
+          "Name": "MELEE WEAPONS",
+          "Weapons": [
+            {
+              "Name": "Deff rolla",
+              "Range": "Melee",
+              "Attacks": "6",
+              "ToHit": "3+",
+              "Strength": "9",
+              "AP": "-1",
+              "Damage": "2"
+            }
+          ]
+        }
+      ],
+      "Upgrades": [],
+      "Points": [
+        {
+          "ModelCount": 1,
+          "Cost": 250
+        }
+      ]
+    },
+    {
+      "Name": "CHINORK WARKOPTA",
+      "Faction": "Waaagh!",
+      "UnitComposition": {
+        "ModelCompositions": [
+          {
+            "ModelName": "Chinork Warkopta",
+            "Wargear": [
+              {
+                "InitalWargear": [
+                  "big shoota",
+                  "2 deffguns",
+                  "armoured hull"
+                ],
+                "Options": [
+                  {
+                    "Replaces": [
+                      "big shoota"
+                    ],
+                    "Options": [
+                      "kustom mega-blasta",
+                      "rokkit launcha",
+                      "skorcha"
+                    ]
+                  },
+                  {
+                    "Replaces": [
+                      "2 deffguns"
+                    ],
+                    "Options": [
+                      "2 rattler kannons"
+                    ]
+                  },
+                  {
+                    "Options": [
+                      "big bomms"
+                    ]
+                  },
+                  {
+                    "Options": [
+                      "big bomms"
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "WargearDefinitions": [
+          {
+            "Key": "big bomms",
+            "GrantsAbilities": [
+              "Big Bomms"
+            ]
+          }
+        ]
+      },
+      "UnitAbilities": [
+        {
+          "Title": "Big Bomms",
+          "Text": "Once per battle, after the bearer ends a Normal move, you can select one enemy unit it moved across during that move and roll six D6: for each 4+, that unit suffers 1 mortal wound."
+        },
+        {
+          "Title": "Aerial Deployment",
+          "Text": "If this model starts the game in Strategic Reserves, it can be set up in the Reinforcements step of your first, second or third Movement phase, regardless of any mission rules."
+        }
+      ],
+      "Infos": [
+        {
+          "Title": "TRANSPORT",
+          "Text": "This model has a transport capacity of 12 Orks Infantry models. This model cannot transport Ghazghkull Thraka, Mega Armour or Jump Pack models."
+        }
+      ],
+      "Keywords": [
+        "Vehicle",
+        "Fly",
+        "Transport",
+        "Speed Freeks",
+        "Chinork Warkopta"
+      ],
+      "CoreAbilities": [
+        "Deadly Demise D3",
+        "Deep Strike",
+        "Firing Deck 12"
+      ],
+      "FactionKeywords": [
+        "Orks"
+      ],
+      "StatLines": [
+        {
+          "Movement": "14\"",
+          "Toughness": "8",
+          "Save": "4+",
+          "Wounds": "10",
+          "Leadership": "7+",
+          "OC": "2",
+          "InvulSave": {
+            "Save": "6+"
+          }
+        }
+      ],
+      "Weapons": [
+        {
+          "Name": "RANGED WEAPONS",
+          "Weapons": [
+            {
+              "Name": "Big shoota",
+              "Keywords": "RAPID FIRE 2",
+              "Range": "36\"",
+              "Attacks": "3",
+              "ToHit": "5+",
+              "Strength": "5",
+              "AP": "0",
+              "Damage": "1"
+            },
+            {
+              "Name": "Deffgun",
+              "Keywords": "RAPID FIRE 1",
+              "Range": "48\"",
+              "Attacks": "2",
+              "ToHit": "5+",
+              "Strength": "8",
+              "AP": "-1",
+              "Damage": "2"
+            },
+            {
+              "Name": "Kustom mega-blasta",
+              "Keywords": "HAZARDOUS",
+              "Range": "24\"",
+              "Attacks": "3",
+              "ToHit": "5+",
+              "Strength": "9",
+              "AP": "-2",
+              "Damage": "D6"
+            },
+            {
+              "Name": "Rattler kannon",
+              "Range": "24\"",
+              "Attacks": "6",
+              "ToHit": "5+",
+              "Strength": "6",
+              "AP": "-1",
+              "Damage": "1"
+            },
+            {
+              "Name": "Rokkit launcha",
+              "Keywords": "BLAST",
+              "Range": "24\"",
+              "Attacks": "D3",
+              "ToHit": "5+",
+              "Strength": "9",
+              "AP": "-2",
+              "Damage": "3"
+            },
+            {
+              "Name": "Skorcha",
+              "Keywords": "IGNORES COVER, TORRENT",
+              "Range": "12\"",
+              "Attacks": "D6",
+              "ToHit": "N/A",
+              "Strength": "5",
+              "AP": "-1",
+              "Damage": "1"
+            }
+          ]
+        },
+        {
+          "IsMelee": true,
+          "Name": "MELEE WEAPONS",
+          "Weapons": [
+            {
+              "Name": "Armoured hull",
+              "Range": "Melee",
+              "Attacks": "3",
+              "ToHit": "4+",
+              "Strength": "6",
+              "AP": "0",
+              "Damage": "1"
+            }
+          ]
+        }
+      ],
+      "Upgrades": [],
+      "Points": [
+        {
+          "ModelCount": 1,
+          "Cost": 105
+        }
+      ]
+    },
+    {
+      "Name": "FIGHTA-BOMMER",
+      "Faction": "Waaagh!",
+      "UnitComposition": {
+        "ModelCompositions": [
+          {
+            "ModelName": "Fighta-Bommer",
+            "Wargear": [
+              {
+                "InitalWargear": [
+                  "3 twin big shootas",
+                  "armoured hull"
+                ],
+                "Options": [
+                  {
+                    "Options": [
+                      "2 Grot-guided bomms",
+                      "2 wing missiles",
+                      "Small bomms"
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "WargearDefinitions": [
+          {
+            "Key": "Small bomms",
+            "GrantsAbilities": [
+              "Small Bomms"
+            ]
+          }
+        ]
+      },
+      "UnitAbilities": [
+        {
+          "Title": "Small Bomms",
+          "Text": "Each time the bearer ends a Normal move, you can select one enemy unit it moved across during that move and roll three D6: for each 4+, that unit suffers 1 mortal wound."
+        },
+        {
+          "Title": "Strafing Run",
+          "Text": "Each time this model makes a ranged attack that targets a unit that cannot Fly, add 1 to the Hit roll."
+        }
+      ],
+      "Infos": [
+        {
+          "Title": "DAMAGED: 1-4 WOUNDS REMAINING",
+          "Text": "While this model has 1-4 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
+        }
+      ],
+      "Keywords": [
+        "Vehicle",
+        "Fly",
+        "Aircraft",
+        "Speed Freeks",
+        "Fighta-Bommer"
+      ],
+      "CoreAbilities": [
+        "Deadly Demise D3"
+      ],
+      "FactionKeywords": [
+        "Orks"
+      ],
+      "StatLines": [
+        {
+          "Movement": "20+\"",
+          "Toughness": "9",
+          "Save": "3+",
+          "Wounds": "12",
+          "Leadership": "7+",
+          "OC": "0",
+          "InvulSave": {
+            "Save": "6+"
+          }
+        }
+      ],
+      "Weapons": [
+        {
+          "Name": "RANGED WEAPONS",
+          "Weapons": [
+            {
+              "Name": "Grot-guided bomm",
+              "Keywords": "BLAST, ONE SHOT, INDIRECT FIRE",
+              "Range": "72\"",
+              "Attacks": "D6",
+              "ToHit": "4+",
+              "Strength": "8",
+              "AP": "-2",
+              "Damage": "2"
+            },
+            {
+              "Name": "Twin big shoota",
+              "Keywords": "RAPID FIRE 2, TWIN-LINKED",
+              "Range": "36\"",
+              "Attacks": "3",
+              "ToHit": "5+",
+              "Strength": "5",
+              "AP": "0",
+              "Damage": "1"
+            },
+            {
+              "Name": "Wing missiles",
+              "Range": "24\"",
+              "Attacks": "1",
+              "ToHit": "5+",
+              "Strength": "9",
+              "AP": "-2",
+              "Damage": "3"
+            }
+          ]
+        },
+        {
+          "IsMelee": true,
+          "Name": "MELEE WEAPONS",
+          "Weapons": [
+            {
+              "Name": "Armoured hull",
+              "Range": "Melee",
+              "Attacks": "3",
+              "ToHit": "4+",
+              "Strength": "6",
+              "AP": "0",
+              "Damage": "1"
+            }
+          ]
+        }
+      ],
+      "Upgrades": [],
+      "Points": [
+        {
+          "ModelCount": 1,
+          "Cost": 100
+        }
+      ]
+    },
+    {
+      "Name": "ATTACK FIGHTA",
+      "Faction": "Waaagh!",
+      "UnitComposition": {
+        "ModelCompositions": [
+          {
+            "ModelName": "Attack Fighta",
+            "Wargear": [
+              {
+                "InitalWargear": [
+                  "2 twin big shootas",
+                  "small bomms",
+                  "armoured hull"
+                ],
+                "Options": [
+                  {
+                    "Options": [
+                      "wing missiles"
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "WargearDefinitions": [
+          {
+            "Key": "small bomms",
+            "GrantsAbilities": [
+              "Small Bomms"
+            ]
+          }
+        ]
+      },
+      "UnitAbilities": [
+        {
+          "Title": "Small Bomms",
+          "Text": "Each time the bearer ends a Normal move, you can select one enemy unit it moved across during that move and roll three D6: for each 4+, that unit suffers 1 mortal wound."
+        },
+        {
+          "Title": "Interceptor",
+          "Text": "Each time this model makes a ranged attack that targets a unit that can Fly, add 1 to the Hit roll."
+        }
+      ],
+      "Infos": [],
+      "Keywords": [
+        "Vehicle",
+        "Fly",
+        "Aircraft",
+        "Speed Freeks",
+        "Attack Fighta"
+      ],
+      "CoreAbilities": [
+        "Deadly Demise D3"
+      ],
+      "FactionKeywords": [
+        "Orks"
+      ],
+      "StatLines": [
+        {
+          "Movement": "20+\"",
+          "Toughness": "9",
+          "Save": "3+",
+          "Wounds": "10",
+          "Leadership": "7+",
+          "OC": "0",
+          "InvulSave": {
+            "Save": "6+"
+          }
+        }
+      ],
+      "Weapons": [
+        {
+          "Name": "RANGED WEAPONS",
+          "Weapons": [
+            {
+              "Name": "Twin big shoota",
+              "Keywords": "RAPID FIRE 2, TWIN-LINKED",
+              "Range": "36\"",
+              "Attacks": "3",
+              "ToHit": "5+",
+              "Strength": "5",
+              "AP": "0",
+              "Damage": "1"
+            },
+            {
+              "Name": "Wing missiles",
+              "Range": "24\"",
+              "Attacks": "1",
+              "ToHit": "5+",
+              "Strength": "9",
+              "AP": "-2",
+              "Damage": "3"
+            }
+          ]
+        },
+        {
+          "IsMelee": true,
+          "Name": "MELEE WEAPONS",
+          "Weapons": [
+            {
+              "Name": "Armoured hull",
+              "Range": "Melee",
+              "Attacks": "3",
+              "ToHit": "4+",
+              "Strength": "6",
+              "AP": "0",
+              "Damage": "1"
+            }
+          ]
+        }
+      ],
+      "Upgrades": [],
+      "Points": [
+        {
+          "ModelCount": 1,
+          "Cost": 100
+        }
+      ]
+    },
+    {
+      "Name": "LIFTA WAGON",
+      "Faction": "Waaagh!",
+      "UnitComposition": {
+        "ModelCompositions": [
+          {
+            "ModelName": "Lifta Wagon",
+            "Wargear": [
+              {
+                "InitalWargear": [
+                  "lifta-droppa",
+                  "tracks & wheels"
+                ],
+                "Options": [
+                  {
+                    "Replaces": [
+                      "tracks & wheels"
+                    ],
+                    "Options": [
+                      "deff rolla"
+                    ]
+                  },
+                  {
+                    "Options": [
+                      "grabbin' klaw"
+                    ]
+                  },
+                  {
+                    "Options": [
+                      "wreckin' ball"
+                    ]
+                  },
+                  {
+                    "Options": [
+                      "big shoota",
+                      "2 big shootas",
+                      "big shoota and rokkit launcha",
+                      "rokkit launcha",
+                      "2 rokkit launchas"
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "WargearDefinitions": []
+      },
+      "UnitAbilities": [
+        {
+          "Title": "Da Bigger Dey Are, da Better Dey Drop",
+          "Text": "Each time an attack made with this model’s lifta-droppa destroys an enemy model that has the Deadly Demise ability, that model’s Deadly Demise ability inflicts mortal wounds on a D6 roll of 3+ instead of on a 6."
+        }
+      ],
+      "Infos": [
+        {
+          "Title": "DAMAGED: 1-5 WOUNDS REMAINING",
+          "Text": "While this model has 1-5 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
+        }
+      ],
+      "Keywords": [
+        "Vehicle",
+        "Lifta Wagon"
+      ],
+      "CoreAbilities": [
+        "Deadly Demise D6"
+      ],
+      "FactionKeywords": [
+        "Orks"
+      ],
+      "StatLines": [
+        {
+          "Movement": "10\"",
+          "Toughness": "10",
+          "Save": "3+",
+          "Wounds": "16",
+          "Leadership": "7+",
+          "OC": "5",
+          "InvulSave": {
+            "Save": "6+"
+          }
+        }
+      ],
+      "Weapons": [
+        {
+          "Name": "RANGED WEAPONS",
+          "Weapons": [
+            {
+              "Name": "Big shoota",
+              "Keywords": "RAPID FIRE 2",
+              "Range": "36\"",
+              "Attacks": "3",
+              "ToHit": "5+",
+              "Strength": "5",
+              "AP": "0",
+              "Damage": "1"
+            },
+            {
+              "Name": "Lifta-droppa",
+              "Keywords": "ANTI-VEHICLE 3+",
+              "Range": "36\"",
+              "Attacks": "4",
+              "ToHit": "5+",
+              "Strength": "6",
+              "AP": "-3",
+              "Damage": "D6+1"
+            },
+            {
+              "Name": "Rokkit launcha",
+              "Keywords": "BLAST",
+              "Range": "24\"",
+              "Attacks": "D3",
+              "ToHit": "5+",
+              "Strength": "9",
+              "AP": "-2",
+              "Damage": "3"
+            }
+          ]
+        },
+        {
+          "IsMelee": true,
+          "Name": "MELEE WEAPONS",
+          "Weapons": [
+            {
+              "Name": "Deff rolla",
+              "Range": "Melee",
+              "Attacks": "6",
+              "ToHit": "3+",
+              "Strength": "9",
+              "AP": "-1",
+              "Damage": "2"
+            },
+            {
+              "Name": "Grabbin' klaw",
+              "Keywords": "EXTRA ATTACKS",
+              "Range": "Melee",
+              "Attacks": "2",
+              "ToHit": "3+",
+              "Strength": "8",
+              "AP": "-2",
+              "Damage": "2"
+            },
+            {
+              "Name": "Tracks & wheels",
+              "Range": "Melee",
+              "Attacks": "6",
+              "ToHit": "4+",
+              "Strength": "8",
+              "AP": "0",
+              "Damage": "1"
+            },
+            {
+              "Name": "Wreckin' ball",
+              "Keywords": "EXTRA ATTACKS",
+              "Range": "Melee",
+              "Attacks": "1",
+              "ToHit": "4+",
+              "Strength": "10",
+              "AP": "0",
+              "Damage": "D6"
+            }
+          ]
+        }
+      ],
+      "Upgrades": [],
+      "Points": [
+        {
+          "ModelCount": 1,
+          "Cost": 135
+        }
+      ]
+    },
+    {
+      "Name": "GROT BOMM LAUNCHA",
+      "Faction": "Waaagh!",
+      "UnitComposition": {
+        "ModelCompositions": [
+          {
+            "ModelName": "Grot Bomm Launcha",
+            "Wargear": [
+              {
+                "InitalWargear": [
+                  "Grot-guided bomms",
+                  "spiked wheel"
+                ],
+                "Options": []
+              }
+            ]
+          }
+        ],
+        "WargearDefinitions": []
+      },
+      "UnitAbilities": [
+        {
+          "Title": "Furious Barrage",
+          "Text": "Each time this model makes a ranged attack that targets an enemy unit that contains five or more models, you can re-roll the Hit roll."
+        }
+      ],
+      "Infos": [],
+      "Keywords": [
+        "Mounted",
+        "Speed Freeks",
+        "Grots",
+        "Grot Bomm Launcha"
+      ],
+      "CoreAbilities": [],
+      "FactionKeywords": [
+        "Orks"
+      ],
+      "StatLines": [
+        {
+          "Movement": "12\"",
+          "Toughness": "6",
+          "Save": "4+",
+          "Wounds": "6",
+          "Leadership": "7+",
+          "OC": "2",
+          "InvulSave": {
+            "Save": "6+"
+          }
+        }
+      ],
+      "Weapons": [
+        {
+          "Name": "RANGED WEAPONS",
+          "Weapons": [
+            {
+              "Name": "Grot-guided bomms",
+              "Keywords": "BLAST, ONE SHOT, INDIRECT FIRE",
+              "Range": "72\"",
+              "Attacks": "D6",
+              "ToHit": "4+",
+              "Strength": "8",
+              "AP": "-2",
+              "Damage": "2"
+            }
+          ]
+        },
+        {
+          "IsMelee": true,
+          "Name": "MELEE WEAPONS",
+          "Weapons": [
+            {
+              "Name": "Spiked wheel",
+              "Range": "Melee",
+              "Attacks": "2",
+              "ToHit": "4+",
+              "Strength": "6",
+              "AP": "0",
+              "Damage": "1"
+            }
+          ]
+        }
+      ],
+      "Upgrades": [],
+      "Points": [
+        {
+          "ModelCount": 1,
+          "Cost": 50
+        }
+      ]
+    },
+    {
+      "Name": "BIG MEK ON WARBIKE",
+      "Faction": "Waaagh!",
+      "UnitComposition": {
+        "ModelCompositions": [
+          {
+            "ModelName": "Big Mek on Warbike",
+            "Wargear": [
+              {
+                "InitalWargear": [
+                  "slugga",
+                  "twin dakkagun",
+                  "choppa",
+                  "close combat weapon"
+                ],
+                "Options": [
+                  {
+                    "Replaces": [
+                      "slugga"
+                    ],
+                    "Options": [
+                      "shokk attack gun",
+                      "kustom force field",
+                      "kombi-weapon",
+                      "kustom mega-blasta",
+                      "kustom mega-slugga",
+                      "rokkit launcha",
+                      "big choppa",
+                      "power klaw"
+                    ]
+                  },
+                  {
+                    "Replaces": [
+                      "choppa"
+                    ],
+                    "Options": [
+                      "kombi-weapon",
+                      "kustom mega-blasta",
+                      "kustom mega-slugga",
+                      "rokkit launcha",
+                      "big choppa",
+                      "killsaw",
+                      "power klaw"
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "WargearDefinitions": [
+          {
+            "Key": "kustom force field",
+            "GrantsAbilities": [
+              "Kustom Force Field"
+            ]
+          }
+        ]
+      },
+      "UnitAbilities": [
+        {
+          "Title": "Kustom Force Field",
+          "Text": "While the bearer is leading a unit, models in that unit have a 4+ invulnerable save against ranged attacks."
+        },
+        {
+          "Title": "More Dakka",
+          "Text": "While this model is leading a unit, each time a model in that unit makes a ranged attack, re-roll a Hit roll of 1."
+        },
+        {
+          "Title": "Mekaniak",
+          "Text": "At the end of your Movement phase, you can select one friendly Orks Vehicle model within 3\" of this model. That Vehicle model regains up to D3 lost wounds, and, until the start of your next Movement phase, each time that Vehicle model makes an attack, add 1 to the Hit roll. Each model can only be selected for this ability once per turn."
+        }
+      ],
+      "LeaderInfo": {
+        "UnitNames": [
+          "NOBZ ON WARBIKES",
+          "SKORCHAS",
+          "WARBIKERS",
+          "WARBUGGIES"
+        ],
+        "Abilities": [
+          {
+            "AbilityId": "Kustom Force Field",
+            "StatAdjustments": [
+              {
+                "Target": "InvulSave",
+                "Scope": "Unit",
+                "Value": "4+",
+                "Info": "Against ranged attacks only"
+              }
+            ]
+          },
+          {
+            "AbilityId": "More Dakka"
+          }
+        ]
+      },
+      "Infos": [],
+      "Keywords": [
+        "Mounted",
+        "Speed Freeks",
+        "Character",
+        "Grenades",
+        "Big Mek",
+        "Big Mek on Warbike"
+      ],
+      "CoreAbilities": [
+        "Leader"
+      ],
+      "FactionKeywords": [
+        "Orks"
+      ],
+      "StatLines": [
+        {
+          "Movement": "12\"",
+          "Toughness": "6",
+          "Save": "4+",
+          "Wounds": "6",
+          "Leadership": "7+",
+          "OC": "2",
+          "InvulSave": {
+            "Save": "6+"
+          }
+        }
+      ],
+      "Weapons": [
+        {
+          "Name": "RANGED WEAPONS",
+          "Weapons": [
+            {
+              "Name": "Kombi-weapon",
+              "Keywords": "ANTI-INFANTRY 4+, DEVASTATING WOUNDS, RAPID FIRE 1",
+              "Range": "24\"",
+              "Attacks": "1",
+              "ToHit": "5+",
+              "Strength": "4",
+              "AP": "0",
+              "Damage": "1"
+            },
+            {
+              "Name": "Kustom mega-blasta",
+              "Keywords": "HAZARDOUS",
+              "Range": "24\"",
+              "Attacks": "3",
+              "ToHit": "5+",
+              "Strength": "9",
+              "AP": "-2",
+              "Damage": "D6"
+            },
+            {
+              "Name": "Kustom mega-slugga",
+              "Keywords": "BLAST, HAZARDOUS",
+              "Range": "12\"",
+              "Attacks": "D3",
+              "ToHit": "5+",
+              "Strength": "8",
+              "AP": "-2",
+              "Damage": "D6"
+            },
+            {
+              "Name": "Rokkit launcha",
+              "Keywords": "BLAST",
+              "Range": "24\"",
+              "Attacks": "D3",
+              "ToHit": "5+",
+              "Strength": "9",
+              "AP": "-2",
+              "Damage": "3"
+            },
+            {
+              "Name": "Shokk attack gun",
+              "Keywords": "BLAST, HEAVY",
+              "Range": "60\"",
+              "Attacks": "D6+1",
+              "ToHit": "5+",
+              "Strength": "9",
+              "AP": "-4",
+              "Damage": "D6"
+            },
+            {
+              "Name": "Slugga",
+              "Keywords": "PISTOL",
+              "Range": "12\"",
+              "Attacks": "1",
+              "ToHit": "5+",
+              "Strength": "4",
+              "AP": "0",
+              "Damage": "1"
+            },
+            {
+              "Name": "Twin dakkagun",
+              "Keywords": "ASSAULT, RAPID FIRE 2, TWIN-LINKED",
+              "Range": "18\"",
+              "Attacks": "3",
+              "ToHit": "5+",
+              "Strength": "5",
+              "AP": "0",
+              "Damage": "1"
+            }
+          ]
+        },
+        {
+          "IsMelee": true,
+          "Name": "MELEE WEAPONS",
+          "Weapons": [
+            {
+              "Name": "Big choppa",
+              "Range": "Melee",
+              "Attacks": "4",
+              "ToHit": "3+",
+              "Strength": "7",
+              "AP": "-1",
+              "Damage": "2"
+            },
+            {
+              "Name": "Choppa",
+              "Range": "Melee",
+              "Attacks": "4",
+              "ToHit": "3+",
+              "Strength": "5",
+              "AP": "-1",
+              "Damage": "1"
+            },
+            {
+              "Name": "Close combat weapon",
+              "Range": "Melee",
+              "Attacks": "4",
+              "ToHit": "3+",
+              "Strength": "5",
+              "AP": "0",
+              "Damage": "1"
+            },
+            {
+              "Name": "Killsaw",
+              "Range": "Melee",
+              "Attacks": "3",
+              "ToHit": "4+",
+              "Strength": "12",
+              "AP": "-3",
+              "Damage": "2"
+            },
+            {
+              "Name": "Power klaw",
+              "Range": "Melee",
+              "Attacks": "4",
+              "ToHit": "4+",
+              "Strength": "9",
+              "AP": "-2",
+              "Damage": "2"
+            }
+          ]
+        }
+      ],
+      "Upgrades": [],
+      "Points": [
+        {
+          "ModelCount": 1,
+          "Cost": 105
+        }
+      ]
+    },
+    {
+      "Name": "BOSS ZAGSTRUK",
+      "Faction": "Waaagh!",
+      "UnitComposition": {
+        "ModelCompositions": [
+          {
+            "ModelName": "Boss Zagstruk",
+            "Wargear": [
+              {
+                "InitalWargear": [
+                  "Da Vulcha's Klaws & choppa",
+                  "slugga"
+                ],
+                "Options": []
+              }
+            ]
+          }
+        ],
+        "WargearDefinitions": []
+      },
+      "UnitAbilities": [
+        {
+          "Title": "Drill Boss",
+          "Text": "While this model is leading a unit, each time a model in that unit makes a melee attack, add 1 to the Hit roll."
+        },
+        {
+          "Title": "Plummeting Descent",
+          "Text": "You can re-roll Charge rolls made for this model’s unit in a turn in which it was set up on the battlefield from Reserves."
+        }
+      ],
+      "LeaderInfo": {
+        "UnitNames": [
+          "STORMBOYZ"
+        ],
+        "Abilities": [
+          {
+            "AbilityId": "Drill Boss"
+          }
+        ]
+      },
+      "Infos": [],
+      "Keywords": [
+        "Infantry",
+        "Jump Pack",
+        "Fly",
+        "Character",
+        "Epic Hero",
+        "Boss Zagstruk"
+      ],
+      "CoreAbilities": [
+        "Deep Strike",
+        "Feel No Pain 6+",
+        "Leader"
+      ],
+      "FactionKeywords": [
+        "Orks"
+      ],
+      "StatLines": [
+        {
+          "Movement": "12\"",
+          "Toughness": "5",
+          "Save": "4+",
+          "Wounds": "6",
+          "Leadership": "6+",
+          "OC": "1",
+          "InvulSave": {
+            "Save": "5+"
+          }
+        }
+      ],
+      "Weapons": [
+        {
+          "Name": "RANGED WEAPONS",
+          "Weapons": [
+            {
+              "Name": "Slugga",
+              "Keywords": "PISTOL",
+              "Range": "12\"",
+              "Attacks": "1",
+              "ToHit": "5+",
+              "Strength": "4",
+              "AP": "0",
+              "Damage": "1"
+            }
+          ]
+        },
+        {
+          "IsMelee": true,
+          "Name": "MELEE WEAPONS",
+          "Weapons": [
+            {
+              "Name": "Da Vulcha's Klaws & choppa",
+              "Range": "Melee",
+              "Attacks": "6",
+              "ToHit": "2+",
+              "Strength": "8",
+              "AP": "-2",
+              "Damage": "2"
+            }
+          ]
+        }
+      ],
+      "Upgrades": [],
+      "Points": [
+        {
+          "ModelCount": 1,
+          "Cost": 90
+        }
+      ]
+    },
+    {
+      "Name": "MAD DOK GROTSNIK",
+      "Faction": "Waaagh!",
+      "UnitComposition": {
+        "ModelCompositions": [
+          {
+            "ModelName": "Mad Dok Grotsnik",
+            "Wargear": [
+              {
+                "InitalWargear": [
+                  "slugga",
+                  "power klaw",
+                  "’urty syringe"
+                ],
+                "Options": []
+              }
+            ]
+          }
+        ],
+        "WargearDefinitions": []
+      },
+      "UnitAbilities": [
+        {
+          "Title": "Mad Dok",
+          "Text": "While this model is leading a unit, models in that unit have the Feel No Pain 5+ ability."
+        },
+        {
+          "Title": "One Scalpel Short of a Medpack",
+          "Text": "While this model is leading a unit, that unit is eligible to declare a charge in a turn in which it Fell Back."
+        }
+      ],
+      "LeaderInfo": {
+        "UnitNames": [
+          "BOYZ",
+          "BURNA BOYZ",
+          "LOOTAS",
+          "NOBZ",
+          "TANKBUSTAS"
+        ],
+        "Abilities": [
+          {
+            "AbilityId": "Mad Dok"
+          },
+          {
+            "AbilityId": "One Scalpel Short of a Medpack"
+          }
+        ]
+      },
+      "Infos": [],
+      "Keywords": [
+        "Infantry",
+        "Character",
+        "Epic Hero",
+        "Painboy",
+        "Mad Dok Grotsnik"
+      ],
+      "CoreAbilities": [
+        "Feel No Pain 5+",
+        "Leader"
+      ],
+      "FactionKeywords": [
+        "Orks"
+      ],
+      "StatLines": [
+        {
+          "Movement": "6\"",
+          "Toughness": "5",
+          "Save": "5+",
+          "Wounds": "4",
+          "Leadership": "7+",
+          "OC": "1",
+          "InvulSave": {
+            "Save": "5+"
+          }
+        }
+      ],
+      "Weapons": [
+        {
+          "Name": "RANGED WEAPONS",
+          "Weapons": [
+            {
+              "Name": "Slugga",
+              "Keywords": "PISTOL",
+              "Range": "12\"",
+              "Attacks": "1",
+              "ToHit": "5+",
+              "Strength": "4",
+              "AP": "0",
+              "Damage": "1"
+            }
+          ]
+        },
+        {
+          "IsMelee": true,
+          "Name": "MELEE WEAPONS",
+          "Weapons": [
+            {
+              "Name": "Power klaw",
+              "Keywords": "SUSTAINED HITS 1",
+              "Range": "Melee",
+              "Attacks": "4",
+              "ToHit": "3+",
+              "Strength": "9",
+              "AP": "-2",
+              "Damage": "2"
+            },
+            {
+              "Name": "’Urty syringe",
+              "Keywords": "ANTI-INFANTRY 4+, EXTRA ATTACKS, PRECISION",
+              "Range": "Melee",
+              "Attacks": "1",
+              "ToHit": "3+",
+              "Strength": "2",
+              "AP": "0",
+              "Damage": "1"
+            }
+          ]
+        }
+      ],
+      "Upgrades": [],
+      "Points": [
+        {
+          "ModelCount": 1,
+          "Cost": 65
+        }
+      ]
+    },
+    {
+      "Name": "NOB WITH WAAAGH! BANNER",
+      "Faction": "Waaagh!",
+      "UnitComposition": {
+        "ModelCompositions": [
+          {
+            "ModelName": "Nob with Waaagh! Banner",
+            "Wargear": [
+              {
+                "InitalWargear": [
+                  "kustom shoota",
+                  "Waaagh! banner"
+                ],
+                "Options": []
+              }
+            ]
+          }
+        ],
+        "WargearDefinitions": []
+      },
+      "UnitAbilities": [
+        {
+          "Title": "Plant the Waaagh! Banner",
+          "Text": "Once per battle, at the start of the battle round, this model can use this ability. If it does, until the start of the next battle round, this model’s unit gains the benefits of the Waaagh! ability as if you had called a Waaagh! this battle round."
+        },
+        {
+          "Title": "Da Boss Iz Watchin’",
+          "Text": "While this model is gaining the benefits of the Waaagh! ability, it has a 4+ invulnerable save and an Objective Control characteristic of 5."
+        }
+      ],
+      "LeaderInfo": {
+        "UnitNames": [
+          "BOYZ",
+          "NOBZ"
+        ]
+      },
+      "Infos": [],
+      "Keywords": [
+        "Infantry",
+        "Character",
+        "Nob with Waaagh! Banner"
+      ],
+      "CoreAbilities": [
+        "Leader"
+      ],
+      "FactionKeywords": [
+        "Orks"
+      ],
+      "StatLines": [
+        {
+          "Movement": "6\"",
+          "Toughness": "5",
+          "Save": "4+",
+          "Wounds": "3",
+          "Leadership": "7+",
+          "OC": "1"
+        }
+      ],
+      "Weapons": [
+        {
+          "Name": "RANGED WEAPONS",
+          "Weapons": [
+            {
+              "Name": "Kustom shoota",
+              "Keywords": "RAPID FIRE 2",
+              "Range": "18\"",
+              "Attacks": "4",
+              "ToHit": "5+",
+              "Strength": "4",
+              "AP": "0",
+              "Damage": "1"
+            }
+          ]
+        },
+        {
+          "IsMelee": true,
+          "Name": "MELEE WEAPONS",
+          "Weapons": [
+            {
+              "Name": "Waaagh! banner",
+              "Range": "Melee",
+              "Attacks": "3",
+              "ToHit": "3+",
+              "Strength": "8",
+              "AP": "-2",
+              "Damage": "2"
+            }
+          ]
+        }
+      ],
+      "Upgrades": [],
+      "Points": [
+        {
+          "ModelCount": 1,
+          "Cost": 70
+        }
+      ]
+    },
+    {
+      "Name": "MEKBOY WORKSHOP",
+      "Faction": "Waaagh!",
+      "UnitComposition": {
+        "ModelCompositions": [
+          {
+            "ModelName": "Mekboy Workshop",
+            "Wargear": []
+          }
+        ],
+        "WargearDefinitions": []
+      },
+      "UnitAbilities": [
+        {
+          "Title": "Ramshackle Cover",
+          "Text": "Each time a ranged attack is allocated to a model, if that model is not fully visible to every model in the attacking unit because of this Fortification, that model has the Benefit of Cover against that attack."
+        },
+        {
+          "Title": "Workshop",
+          "Text": "When this Fortification is set up, all parts of it must be set up within 1” of another part. At the end of your Movement phase, each friendly Orks Vehicle model within 12” of this Fortification can regain up to D3 lost wounds (roll separately for each model). Each model can only be affected by this ability once per turn."
+        },
+        {
+          "Title": "Fortification",
+          "Text": "While an enemy unit is only within Engagement Range of one or more Fortifications from your army:\n\t▪ That unit can still be selected as the target of ranged attacks, but each time such an attack is made, unless it is made with a Pistol, subtract 1 from the Hit roll. \n\t▪ Models in that unit do not need to take Desperate Escape tests due to Falling Back while Battle-shocked, except for those that will move over enemy models when doing so."
+        }
+      ],
+      "Infos": [],
+      "Keywords": [
+        "Fortification",
+        "Vehicle",
+        "Mekboy Workshop"
+      ],
+      "CoreAbilities": [
+        "Deadly Demise 1"
+      ],
+      "FactionKeywords": [
+        "Orks"
+      ],
+      "StatLines": [
+        {
+          "Movement": "-",
+          "Toughness": "9",
+          "Save": "4+",
+          "Wounds": "10",
+          "Leadership": "7+",
+          "OC": "0"
+        }
+      ],
+      "Weapons": [],
+      "Upgrades": [],
+      "Points": [
+        {
+          "ModelCount": 1,
+          "Cost": 80
+        }
+      ]
+    },
+    {
+      "Name": "BIG MEK WITH KUSTOM FORCE FIELD",
+      "Faction": "Waaagh!",
+      "UnitComposition": {
+        "ModelCompositions": [
+          {
+            "ModelName": "Big Mek with Kustom Force Field",
+            "Wargear": [
+              {
+                "InitalWargear": [
+                  "slugga",
+                  "choppa"
+                ],
+                "Options": [
+                  {
+                    "Options": [
+                      "grot helper"
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "WargearDefinitions": [
+          {
+            "Key": "grot helper",
+            "GrantsAbilities": [
+              "Grot Helper"
+            ]
+          }
+        ]
+      },
+      "UnitAbilities": [
+        {
+          "Title": "Grot Helper",
+          "Text": "Once per battle, the bearer can overcharge its kustom force field one additional time."
+        },
+        {
+          "Title": "Designer’s Note",
+          "Text": "Place a Grot Helper token next to the bearer, removing it once this ability has been used."
+        },
+        {
+          "Title": "More Dakka",
+          "Text": "While this model is leading a unit, each time a model in that unit makes a ranged attack, re-roll a Hit roll of 1."
+        },
+        {
+          "Title": "Kustom Force Field",
+          "Text": "While this model is leading a unit, models in that unit have a 5+ invulnerable save against ranged attacks. Once per battle, at the start of any phase, this model can overcharge its kustom force field. If it does, until the end of the phase, this invulnerable save is improved to 4+."
+        }
+      ],
+      "LeaderInfo": {
+        "UnitNames": [
+          "BOYZ",
+          "BURNA BOYZ",
+          "LOOTAS",
+          "NOBZ",
+          "TANKBUSTAS"
+        ],
+        "Abilities": [
+          {
+            "AbilityId": "More Dakka"
+          },
+          {
+            "AbilityId": "Kustom Force Field",
+            "StatAdjustments": [
+              {
+                "Target": "InvulSave",
+                "Scope": "Unit",
+                "Value": "5+",
+                "Info": "Against ranged attacks only"
+              }
+            ]
+          }
+        ]
+      },
+      "Infos": [],
+      "Keywords": [
+        "Infantry",
+        "Character",
+        "Grenades",
+        "Mek",
+        "Big Mek",
+        "Big Mek with Kustom Force Field"
+      ],
+      "CoreAbilities": [
+        "Leader"
+      ],
+      "FactionKeywords": [
+        "Orks"
+      ],
+      "StatLines": [
+        {
+          "Movement": "6\"",
+          "Toughness": "5",
+          "Save": "4+",
+          "Wounds": "4",
+          "Leadership": "7+",
+          "OC": "1"
+        }
+      ],
+      "Weapons": [
+        {
+          "Name": "RANGED WEAPONS",
+          "Weapons": [
+            {
+              "Name": "Slugga",
+              "Keywords": "PISTOL",
+              "Range": "12\"",
+              "Attacks": "1",
+              "ToHit": "5+",
+              "Strength": "4",
+              "AP": "0",
+              "Damage": "1"
+            }
+          ]
+        },
+        {
+          "IsMelee": true,
+          "Name": "MELEE WEAPONS",
+          "Weapons": [
+            {
+              "Name": "Choppa",
+              "Range": "Melee",
+              "Attacks": "4",
+              "ToHit": "3+",
+              "Strength": "5",
+              "AP": "-1",
+              "Damage": "1"
+            }
+          ]
+        }
+      ],
+      "Upgrades": [],
+      "Points": [
+        {
+          "ModelCount": 1,
+          "Cost": 55
+        }
+      ]
+    },
+    {
+      "Name": "KAPTIN BADRUKK",
+      "Faction": "Waaagh!",
+      "UnitComposition": {
+        "ModelCompositions": [
+          {
+            "ModelName": "Kaptin Badrukk",
+            "Wargear": [
+              {
+                "InitalWargear": [
+                  "slugga",
+                  "choppa",
+                  "Da Rippa"
+                ],
+                "Options": []
+              }
+            ]
+          }
+        ],
+        "WargearDefinitions": []
+      },
+      "UnitAbilities": [
+        {
+          "Title": "Flashiest Gitz",
+          "Text": "While this model is leading a unit, each time a model in that unit makes a ranged attack, you can re-roll the Hit roll."
+        },
+        {
+          "Title": "Ded Glowy Ammo (Aura)",
+          "Text": "While an enemy Infantry unit is within 6\" of this model, subtract 1 from the Toughness characteristic of models in that unit."
+        }
+      ],
+      "LeaderInfo": {
+        "UnitNames": [
+          "FLASH GITZ"
+        ],
+        "Abilities": [
+          {
+            "AbilityId": "Flashiest Gitz"
+          }
+        ]
+      },
+      "Infos": [],
+      "Keywords": [
+        "Infantry",
+        "Character",
+        "Epic Hero",
+        "Kaptin Badrukk"
+      ],
+      "CoreAbilities": [
+        "Leader"
+      ],
+      "FactionKeywords": [
+        "Orks"
+      ],
+      "StatLines": [
+        {
+          "Movement": "6\"",
+          "Toughness": "5",
+          "Save": "3+",
+          "Wounds": "6",
+          "Leadership": "7+",
+          "OC": "1",
+          "InvulSave": {
+            "Save": "4+"
+          }
+        }
+      ],
+      "Weapons": [
+        {
+          "Name": "RANGED WEAPONS",
+          "Weapons": [
+            {
+              "Name": "Da Rippa – standard",
+              "Keywords": "HEAVY, SUSTAINED HITS 1",
+              "Range": "24\"",
+              "Attacks": "3",
+              "ToHit": "5+",
+              "Strength": "7",
+              "AP": "-2",
+              "Damage": "2"
+            },
+            {
+              "Name": "Da Rippa – supercharge",
+              "Keywords": "HAZARDOUS, HEAVY, SUSTAINED HITS 1",
+              "Range": "24\"",
+              "Attacks": "3",
+              "ToHit": "5+",
+              "Strength": "8",
+              "AP": "-3",
+              "Damage": "3"
+            },
+            {
+              "Name": "Slugga",
+              "Keywords": "PISTOL",
+              "Range": "12\"",
+              "Attacks": "1",
+              "ToHit": "4+",
+              "Strength": "4",
+              "AP": "0",
+              "Damage": "1"
+            }
+          ]
+        },
+        {
+          "IsMelee": true,
+          "Name": "MELEE WEAPONS",
+          "Weapons": [
+            {
+              "Name": "Choppa",
+              "Range": "Melee",
+              "Attacks": "6",
+              "ToHit": "2+",
+              "Strength": "5",
+              "AP": "-1",
+              "Damage": "1"
+            }
+          ]
+        }
+      ],
+      "Upgrades": [],
+      "Points": [
+        {
+          "ModelCount": 1,
+          "Cost": 80
+        }
+      ]
+    },
+    {
+      "Name": "GROT TANKS",
+      "Faction": "Waaagh!",
+      "UnitComposition": {
+        "ModelCompositions": [
+          {
+            "Limit": {
+              "Min": 4,
+              "Max": 8
+            },
+            "ModelName": "Grot Tanks",
+            "Wargear": [
+              {
+                "InitalWargear": [
+                  "Grot tank shoota",
+                  "ramshackle hull"
+                ],
+                "Options": [
+                  {
+                    "Replaces": [
+                      "Grot tank shoota"
+                    ],
+                    "Options": [
+                      "grotzooka",
+                      "kustom mega-blasta",
+                      "rokkit launcha",
+                      "skorcha"
+                    ]
+                  },
+                  {
+                    "Max": 1,
+                    "PerXModels": 4,
+                    "Options": [
+                      "Grot tank shoota",
+                      "grotzooka",
+                      "kustom mega-blasta",
+                      "rokkit launcha",
+                      "skorcha"
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "WargearDefinitions": []
+      },
+      "UnitAbilities": [
+        {
+          "Title": "Scatter!",
+          "Text": "Once per turn, when an enemy unit ends a Normal, Advance or Fall Back move within 9\" of this unit, if this unit is not within Engagement Range of one or more enemy units, it can make a Normal move of up to 6\"."
+        }
+      ],
+      "Infos": [],
+      "Keywords": [
+        "Vehicle",
+        "Grots",
+        "Grot Tanks"
+      ],
+      "CoreAbilities": [
+        "Deadly Demise 1"
+      ],
+      "FactionKeywords": [
+        "Orks"
+      ],
+      "StatLines": [
+        {
+          "Movement": "10\"",
+          "Toughness": "6",
+          "Save": "3+",
+          "Wounds": "5",
+          "Leadership": "8+",
+          "OC": "2"
+        }
+      ],
+      "Weapons": [
+        {
+          "Name": "RANGED WEAPONS",
+          "Weapons": [
+            {
+              "Name": "Grot tank shoota",
+              "Keywords": "DEVASTATING WOUNDS, RAPID FIRE 2",
+              "Range": "36\"",
+              "Attacks": "3",
+              "ToHit": "4+",
+              "Strength": "5",
+              "AP": "0",
+              "Damage": "1"
+            },
+            {
+              "Name": "Grotzooka",
+              "Keywords": "BLAST, IGNORES COVER",
+              "Range": "18\"",
+              "Attacks": "D3+3",
+              "ToHit": "4+",
+              "Strength": "6",
+              "AP": "-1",
+              "Damage": "1"
+            },
+            {
+              "Name": "Kustom mega-blasta",
+              "Keywords": "HAZARDOUS",
+              "Range": "24\"",
+              "Attacks": "2",
+              "ToHit": "4+",
+              "Strength": "9",
+              "AP": "-2",
+              "Damage": "D6"
+            },
+            {
+              "Name": "Rokkit launcha",
+              "Keywords": "BLAST",
+              "Range": "24\"",
+              "Attacks": "D3",
+              "ToHit": "4+",
+              "Strength": "9",
+              "AP": "-2",
+              "Damage": "3"
+            },
+            {
+              "Name": "Skorcha",
+              "Keywords": "IGNORES COVER, TORRENT",
+              "Range": "12\"",
+              "Attacks": "D6",
+              "ToHit": "N/A",
+              "Strength": "5",
+              "AP": "-1",
+              "Damage": "1"
+            }
+          ]
+        },
+        {
+          "IsMelee": true,
+          "Name": "MELEE WEAPONS",
+          "Weapons": [
+            {
+              "Name": "Ramshackle hull",
+              "Range": "Melee",
+              "Attacks": "3",
+              "ToHit": "5+",
+              "Strength": "6",
+              "AP": "0",
+              "Damage": "1"
+            }
+          ]
+        }
+      ],
+      "Upgrades": [],
+      "Points": [
+        {
+          "ModelCount": 4,
+          "Cost": 155
+        },
+        {
+          "ModelCount": 8,
+          "Cost": 310
+        }
+      ]
+    },
+    {
+      "Name": "GROT MEGA-TANK",
+      "Faction": "Waaagh!",
+      "UnitComposition": {
+        "ModelCompositions": [
+          {
+            "ModelName": "Grot Mega-Tank",
+            "Wargear": [
+              {
+                "InitalWargear": [
+                  "Mega-tank weapons",
+                  "twin big shoota",
+                  "twin grotzooka",
+                  "armoured hull"
+                ],
+                "Options": [
+                  {
+                    "Replaces": [
+                      "twin big shoota"
+                    ],
+                    "Options": [
+                      "twin grotzooka",
+                      "twin kustom mega-blasta",
+                      "twin rokkit launcha",
+                      "twin skorcha"
+                    ]
+                  },
+                  {
+                    "Replaces": [
+                      "twin grotzooka"
+                    ],
+                    "Options": [
+                      "twin big shoota",
+                      "twin kustom mega-blasta",
+                      "twin rokkit launcha",
+                      "twin skorcha"
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "WargearDefinitions": []
+      },
+      "UnitAbilities": [
+        {
+          "Title": "Bizarrely Resilient",
+          "Text": "Each time an attack targets this model, worsen the Armour Penetration characteristic of that attack by 1."
+        }
+      ],
+      "Infos": [
+        {
+          "Title": "DAMAGED: 1-4 WOUNDS REMAINING",
+          "Text": "While this model has 1-4 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
+        }
+      ],
+      "Keywords": [
+        "Vehicle",
+        "Grots",
+        "Grot Mega-Tank"
+      ],
+      "CoreAbilities": [
+        "Deadly Demise D3"
+      ],
+      "FactionKeywords": [
+        "Orks"
+      ],
+      "StatLines": [
+        {
+          "Movement": "8\"",
+          "Toughness": "9",
+          "Save": "3+",
+          "Wounds": "12",
+          "Leadership": "8+",
+          "OC": "4"
+        }
+      ],
+      "Weapons": [
+        {
+          "Name": "RANGED WEAPONS",
+          "Weapons": [
+            {
+              "Name": "Mega-tank weapons",
+              "Keywords": "RAPID FIRE 10",
+              "Range": "18\"",
+              "Attacks": "10",
+              "ToHit": "4+",
+              "Strength": "5",
+              "AP": "0",
+              "Damage": "1"
+            },
+            {
+              "Name": "Twin big shoota",
+              "Keywords": "RAPID FIRE 2, TWIN-LINKED",
+              "Range": "18\"",
+              "Attacks": "3",
+              "ToHit": "4+",
+              "Strength": "5",
+              "AP": "0",
+              "Damage": "1"
+            },
+            {
+              "Name": "Twin grotzooka",
+              "Keywords": "BLAST, IGNORES COVER, TWIN-LINKED",
+              "Range": "18\"",
+              "Attacks": "D3+3",
+              "ToHit": "4+",
+              "Strength": "6",
+              "AP": "-1",
+              "Damage": "1"
+            },
+            {
+              "Name": "Twin kustom mega-blasta",
+              "Keywords": "HAZARDOUS, TWIN-LINKED",
+              "Range": "24\"",
+              "Attacks": "2",
+              "ToHit": "4+",
+              "Strength": "9",
+              "AP": "-2",
+              "Damage": "D6"
+            },
+            {
+              "Name": "Twin rokkit launcha",
+              "Keywords": "BLAST, TWIN-LINKED",
+              "Range": "24\"",
+              "Attacks": "D3",
+              "ToHit": "4+",
+              "Strength": "9",
+              "AP": "-2",
+              "Damage": "3"
+            },
+            {
+              "Name": "Twin skorcha",
+              "Keywords": "IGNORES COVER, TORRENT, TWIN-LINKED",
+              "Range": "12\"",
+              "Attacks": "D6",
+              "ToHit": "N/A",
+              "Strength": "5",
+              "AP": "-1",
+              "Damage": "1"
+            }
+          ]
+        },
+        {
+          "IsMelee": true,
+          "Name": "MELEE WEAPONS",
+          "Weapons": [
+            {
+              "Name": "Armoured hull",
+              "Range": "Melee",
+              "Attacks": "6",
+              "ToHit": "4+",
+              "Strength": "4",
+              "AP": "0",
+              "Damage": "1"
+            }
+          ]
+        }
+      ],
+      "Upgrades": [],
+      "Points": [
+        {
+          "ModelCount": 1,
+          "Cost": 110
+        }
+      ]
+    },
+    {
+      "Name": "SQUIGGOTH",
+      "Faction": "Waaagh!",
+      "UnitComposition": {
+        "ModelCompositions": [
+          {
+            "ModelName": "Squiggoth",
+            "Wargear": [
+              {
+                "InitalWargear": [
+                  "gorin’ horns"
+                ],
+                "Options": [
+                  {
+                    "Options": [
+                      "kannon"
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "WargearDefinitions": []
+      },
+      "UnitAbilities": [
+        {
+          "Title": "Trample",
+          "Text": "Each time this model is selected to fight, you can select one enemy unit within Engagement Range of it and roll one D6, adding 2 to the result if this model made a Charge move this turn on a 4-5, that enemy unit suffers D3 mortal wounds; on a 6+, that enemy unit suffers 3 mortal wounds."
+        }
+      ],
+      "Infos": [
+        {
+          "Title": "DAMAGED: 1-6 WOUNDS REMAINING",
+          "Text": "While this model has 1-6 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
+        },
+        {
+          "Title": "TRANSPORT",
+          "Text": "This model has a transport capacity of 10 Orks Infantry models. If this model is equipped with a kannon, it has a transport capacity of 6 Orks Infantry models. It cannot transport Mega Armour, Jump Pack or Ghazghkull Thraka models."
+        }
+      ],
+      "Keywords": [
+        "Monster",
+        "Transport",
+        "Squiggoth"
+      ],
+      "CoreAbilities": [
+        "Deadly Demise D6",
+        "Firing Deck 10"
+      ],
+      "FactionKeywords": [
+        "Orks"
+      ],
+      "StatLines": [
+        {
+          "Movement": "10\"",
+          "Toughness": "10",
+          "Save": "3+",
+          "Wounds": "18",
+          "Leadership": "7+",
+          "OC": "5"
+        }
+      ],
+      "Weapons": [
+        {
+          "Name": "RANGED WEAPONS",
+          "Weapons": [
+            {
+              "Name": "Kannon – frag",
+              "Keywords": "BLAST",
+              "Range": "36\"",
+              "Attacks": "D6",
+              "ToHit": "5+",
+              "Strength": "5",
+              "AP": "0",
+              "Damage": "1"
+            },
+            {
+              "Name": "Kannon – shell",
+              "Range": "36\"",
+              "Attacks": "1",
+              "ToHit": "5+",
+              "Strength": "9",
+              "AP": "-2",
+              "Damage": "D6"
+            }
+          ]
+        },
+        {
+          "IsMelee": true,
+          "Name": "MELEE WEAPONS",
+          "Weapons": [
+            {
+              "Name": "Gorin’ horns – strike",
+              "Range": "Melee",
+              "Attacks": "4",
+              "ToHit": "3+",
+              "Strength": "12",
+              "AP": "-2",
+              "Damage": "D6"
+            },
+            {
+              "Name": "Gorin’ horns – sweep",
+              "Range": "Melee",
+              "Attacks": "8",
+              "ToHit": "3+",
+              "Strength": "9",
+              "AP": "-1",
+              "Damage": "2"
+            }
+          ]
+        }
+      ],
+      "Upgrades": [],
+      "Points": [
+        {
+          "ModelCount": 1,
+          "Cost": 150
+        }
+      ]
+    },
+    {
+      "Name": "KILL TANK",
+      "Faction": "Waaagh!",
+      "UnitComposition": {
+        "ModelCompositions": [
+          {
+            "ModelName": "Kill Tank",
+            "Wargear": [
+              {
+                "InitalWargear": [
+                  "bursta kannon",
+                  "skorcha",
+                  "twin big shoota",
+                  "reinforced ram"
+                ],
+                "Options": [
+                  {
+                    "Replaces": [
+                      "bursta kannon"
+                    ],
+                    "Options": [
+                      "giga shoota"
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "WargearDefinitions": []
+      },
+      "UnitAbilities": [
+        {
+          "Title": "Wall of Dakka",
+          "Text": "Each time this model makes a ranged attack that targets a unit within half range, add 1 to the Hit roll."
+        }
+      ],
+      "Infos": [
+        {
+          "Title": "DAMAGED: 1-8 WOUNDS REMAINING",
+          "Text": "While this model has 1-8 wounds remaining, subtract 5 from its Objective Control characteristic and each time this model makes an attack, subtract 1 from the Hit roll."
+        },
+        {
+          "Title": "TRANSPORT",
+          "Text": "This model has a transport capacity of 12 Orks Infantry models. Each Mega Armour or Jump Pack model takes up the space of 2 models. It cannot transport Ghazghkull Thraka models."
+        }
+      ],
+      "Keywords": [
+        "Vehicle",
+        "Titanic",
+        "Transport",
+        "Kill Tank"
+      ],
+      "CoreAbilities": [
+        "Deadly Demise D6+2"
+      ],
+      "FactionKeywords": [
+        "Orks"
+      ],
+      "StatLines": [
+        {
+          "Movement": "12\"",
+          "Toughness": "12",
+          "Save": "3+",
+          "Wounds": "24",
+          "Leadership": "6+",
+          "OC": "10"
+        }
+      ],
+      "Weapons": [
+        {
+          "Name": "RANGED WEAPONS",
+          "Weapons": [
+            {
+              "Name": "Bursta kannon",
+              "Keywords": "BLAST",
+              "Range": "36\"",
+              "Attacks": "3D6",
+              "ToHit": "5+",
+              "Strength": "14",
+              "AP": "-2",
+              "Damage": "3"
+            },
+            {
+              "Name": "Giga shoota",
+              "Keywords": "SUSTAINED HITS 1",
+              "Range": "48\"",
+              "Attacks": "30",
+              "ToHit": "5+",
+              "Strength": "6",
+              "AP": "-1",
+              "Damage": "1"
+            },
+            {
+              "Name": "Skorcha",
+              "Keywords": "IGNORES COVER, TORRENT",
+              "Range": "12\"",
+              "Attacks": "D6",
+              "ToHit": "N/A",
+              "Strength": "5",
+              "AP": "-1",
+              "Damage": "1"
+            },
+            {
+              "Name": "Twin big shoota",
+              "Keywords": "RAPID FIRE 2, TWIN-LINKED",
+              "Range": "36\"",
+              "Attacks": "3",
+              "ToHit": "5+",
+              "Strength": "5",
+              "AP": "0",
+              "Damage": "1"
+            }
+          ]
+        },
+        {
+          "IsMelee": true,
+          "Name": "MELEE WEAPONS",
+          "Weapons": [
+            {
+              "Name": "Reinforced ram",
+              "Range": "Melee",
+              "Attacks": "8",
+              "ToHit": "4+",
+              "Strength": "9",
+              "AP": "-1",
+              "Damage": "2"
+            }
+          ]
+        }
+      ],
+      "Upgrades": [],
+      "Points": [
+        {
+          "ModelCount": 1,
+          "Cost": 295
+        }
+      ]
+    },
+    {
+      "Name": "MEGA DREAD",
+      "Faction": "Waaagh!",
+      "UnitComposition": {
+        "ModelCompositions": [
+          {
+            "ModelName": "Mega Dread",
+            "Wargear": [
+              {
+                "InitalWargear": [
+                  "2 boombits",
+                  "killkannon",
+                  "dread rippa klaw",
+                  "stompy feet"
+                ],
+                "Options": [
+                  {
+                    "Replaces": [
+                      "killkannon"
+                    ],
+                    "Options": [
+                      "dread killsaw",
+                      "dread rippa klaw"
+                    ]
+                  },
+                  {
+                    "Replaces": [
+                      "dread rippa klaw"
+                    ],
+                    "Options": [
+                      "dread killsaw",
+                      "killkannon"
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "WargearDefinitions": []
+      },
+      "UnitAbilities": [
+        {
+          "Title": "Mega Carnage",
+          "Text": "Each time this model is selected to fight, you can select one enemy unit within Engagement Range of it and roll one D6, adding 2 to the result if this model made a Charge"
+        },
+        {
+          "Title": "move this turn",
+          "Text": "on a 4-5, that enemy unit suffers D3 mortal wounds; on a 6+, that enemy unit suffers 3 mortal wounds."
+        },
+        {
+          "Title": "Dead Rippy",
+          "Text": "If this model is equipped with 2 dread killsaws, those weapons have the [TWIN-LINKED] ability. If this model is equipped with 2 dread rippa klaws, those weapons have the [TWIN-LINKED] ability."
+        }
+      ],
+      "Infos": [
+        {
+          "Title": "DAMAGED: 1-5 WOUNDS REMAINING",
+          "Text": "While this model has 1-5 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
+        }
+      ],
+      "Keywords": [
+        "Vehicle",
+        "Walker",
+        "Mega Dread"
+      ],
+      "CoreAbilities": [
+        "Deadly Demise D6"
+      ],
+      "FactionKeywords": [
+        "Orks"
+      ],
+      "StatLines": [
+        {
+          "Movement": "8\"",
+          "Toughness": "10",
+          "Save": "2+",
+          "Wounds": "16",
+          "Leadership": "7+",
+          "OC": "5",
+          "InvulSave": {
+            "Save": "6+"
+          }
+        }
+      ],
+      "Weapons": [
+        {
+          "Name": "RANGED WEAPONS",
+          "Weapons": [
+            {
+              "Name": "Boombits",
+              "Keywords": "TORRENT",
+              "Range": "12\"",
+              "Attacks": "D6",
+              "ToHit": "N/A",
+              "Strength": "5",
+              "AP": "0",
+              "Damage": "1"
+            },
+            {
+              "Name": "Killkannon",
+              "Range": "24\"",
+              "Attacks": "D6+3",
+              "ToHit": "5+",
+              "Strength": "9",
+              "AP": "-2",
+              "Damage": "2"
+            }
+          ]
+        },
+        {
+          "IsMelee": true,
+          "Name": "MELEE WEAPONS",
+          "Weapons": [
+            {
+              "Name": "Dread killsaw",
+              "Range": "Melee",
+              "Attacks": "4",
+              "ToHit": "3+",
+              "Strength": "14",
+              "AP": "-3",
+              "Damage": "4"
+            },
+            {
+              "Name": "Dread rippa klaw",
+              "Range": "Melee",
+              "Attacks": "6",
+              "ToHit": "3+",
+              "Strength": "12",
+              "AP": "-2",
+              "Damage": "3"
+            },
+            {
+              "Name": "Stompy feet",
+              "Range": "Melee",
+              "Attacks": "4",
+              "ToHit": "3+",
+              "Strength": "7",
+              "AP": "0",
+              "Damage": "1"
+            }
+          ]
+        }
+      ],
+      "Upgrades": [],
+      "Points": [
+        {
+          "ModelCount": 1,
+          "Cost": 225
+        }
+      ]
+    },
+    {
+      "Name": "MEKA-DREAD",
+      "Faction": "Waaagh!",
+      "UnitComposition": {
+        "ModelCompositions": [
+          {
+            "ModelName": "Meka-Dread",
+            "Wargear": [
+              {
+                "InitalWargear": [
+                  "killkannon",
+                  "dread rippa klaw",
+                  "stompy feet"
+                ],
+                "Options": [
+                  {
+                    "Replaces": [
+                      "killkannon"
+                    ],
+                    "Options": [
+                      "dread killsaw",
+                      "dread rippa klaw"
+                    ]
+                  },
+                  {
+                    "Replaces": [
+                      "dread rippa klaw"
+                    ],
+                    "Options": [
+                      "dread killsaw",
+                      "killkannon"
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "WargearDefinitions": []
+      },
+      "UnitAbilities": [
+        {
+          "Title": "Mekaniak",
+          "Text": "At the end of your Movement phase, you can select one friendly Orks Vehicle model within 3\" of this model. That Vehicle model regains up to D3 lost wounds, and, until the start of your next Movement phase, each time that Vehicle model makes an attack, add 1 to the Hit roll. Each model can only be selected for this ability once per turn."
+        },
+        {
+          "Title": "Dead Rippy",
+          "Text": "If this model is equipped with 2 dread killsaws, those weapons have the [TWIN-LINKED] ability. If this model is equipped with 2 dread rippa klaws, those weapons have the [TWIN-LINKED] ability."
+        }
+      ],
+      "Infos": [
+        {
+          "Title": "DAMAGED: 1-5 WOUNDS REMAINING",
+          "Text": "While this model has 1-5 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
+        }
+      ],
+      "Keywords": [
+        "Vehicle",
+        "Walker",
+        "Meka-Dread"
+      ],
+      "CoreAbilities": [
+        "Deadly Demise D6"
+      ],
+      "FactionKeywords": [
+        "Orks"
+      ],
+      "StatLines": [
+        {
+          "Movement": "8\"",
+          "Toughness": "10",
+          "Save": "2+",
+          "Wounds": "16",
+          "Leadership": "7+",
+          "OC": "5",
+          "InvulSave": {
+            "Save": "6+"
+          }
+        }
+      ],
+      "Weapons": [
+        {
+          "Name": "RANGED WEAPONS",
+          "Weapons": [
+            {
+              "Name": "Killkannon",
+              "Range": "24\"",
+              "Attacks": "D6+3",
+              "ToHit": "5+",
+              "Strength": "9",
+              "AP": "-2",
+              "Damage": "2"
+            }
+          ]
+        },
+        {
+          "IsMelee": true,
+          "Name": "MELEE WEAPONS",
+          "Weapons": [
+            {
+              "Name": "Dread killsaw",
+              "Range": "Melee",
+              "Attacks": "4",
+              "ToHit": "3+",
+              "Strength": "14",
+              "AP": "-3",
+              "Damage": "4"
+            },
+            {
+              "Name": "Dread rippa klaw",
+              "Range": "Melee",
+              "Attacks": "6",
+              "ToHit": "3+",
+              "Strength": "12",
+              "AP": "-2",
+              "Damage": "3"
+            },
+            {
+              "Name": "Stompy feet",
+              "Range": "Melee",
+              "Attacks": "4",
+              "ToHit": "3+",
+              "Strength": "7",
+              "AP": "0",
+              "Damage": "1"
+            }
+          ]
+        }
+      ],
+      "Upgrades": [],
+      "Points": [
+        {
+          "ModelCount": 1,
+          "Cost": 210
+        }
+      ]
+    },
+    {
+      "Name": "BIG TRAKK",
+      "Faction": "Waaagh!",
+      "UnitComposition": {
+        "ModelCompositions": [
+          {
+            "ModelName": "Big Trakk",
+            "Wargear": [
+              {
+                "InitalWargear": [
+                  "2 big shootas",
+                  "armoured hull"
+                ],
+                "Options": [
+                  {
+                    "Options": [
+                      "kannon",
+                      "supa-kannon"
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "WargearDefinitions": []
+      },
+      "UnitAbilities": [
+        {
+          "Title": "Spiked Ram",
+          "Text": "Each time this model ends a Charge move, select one enemy unit within Engagement Range of it and roll one D6: on a 2-5, that enemy unit suffers D3 mortal wounds; on a 6, that enemy unit suffers 3 mortal wounds."
+        }
+      ],
+      "Infos": [
+        {
+          "Title": "DAMAGED: 1-4 WOUNDS REMAINING",
+          "Text": "While this model has 1-4 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
+        },
+        {
+          "Title": "TRANSPORT",
+          "Text": "This model has a transport capacity of 12 Orks Infantry models. Each Mega Armour or Jump Pack model takes up the space of 2 models. This model cannot transport Ghazghkull Thraka models."
+        }
+      ],
+      "Keywords": [
+        "Vehicle",
+        "Transport",
+        "Big Trakk"
+      ],
+      "CoreAbilities": [
+        "Deadly Demise D3",
+        "Firing Deck 12"
+      ],
+      "FactionKeywords": [
+        "Orks"
+      ],
+      "StatLines": [
+        {
+          "Movement": "12\"",
+          "Toughness": "9",
+          "Save": "4+",
+          "Wounds": "12",
+          "Leadership": "7+",
+          "OC": "3",
+          "InvulSave": {
+            "Save": "6+"
+          }
+        }
+      ],
+      "Weapons": [
+        {
+          "Name": "RANGED WEAPONS",
+          "Weapons": [
+            {
+              "Name": "Big shoota",
+              "Keywords": "RAPID FIRE 2",
+              "Range": "36\"",
+              "Attacks": "3",
+              "ToHit": "5+",
+              "Strength": "5",
+              "AP": "0",
+              "Damage": "1"
+            },
+            {
+              "Name": "Kannon – frag",
+              "Keywords": "BLAST",
+              "Range": "36\"",
+              "Attacks": "D6",
+              "ToHit": "5+",
+              "Strength": "5",
+              "AP": "0",
+              "Damage": "1"
+            },
+            {
+              "Name": "Kannon – shell",
+              "Range": "36\"",
+              "Attacks": "1",
+              "ToHit": "5+",
+              "Strength": "9",
+              "AP": "-2",
+              "Damage": "D6"
+            },
+            {
+              "Name": "Supa-kannon – frag",
+              "Keywords": "BLAST",
+              "Range": "36\"",
+              "Attacks": "D6+3",
+              "ToHit": "5+",
+              "Strength": "5",
+              "AP": "0",
+              "Damage": "1"
+            },
+            {
+              "Name": "Supa-kannon – shell",
+              "Range": "36\"",
+              "Attacks": "1",
+              "ToHit": "5+",
+              "Strength": "9",
+              "AP": "-2",
+              "Damage": "D3+3"
+            }
+          ]
+        },
+        {
+          "IsMelee": true,
+          "Name": "MELEE WEAPONS",
+          "Weapons": [
+            {
+              "Name": "Armoured hull",
+              "Range": "Melee",
+              "Attacks": "3",
+              "ToHit": "4+",
+              "Strength": "6",
+              "AP": "0",
+              "Damage": "1"
+            }
+          ]
+        }
+      ],
+      "Upgrades": [],
+      "Points": [
+        {
+          "ModelCount": 1,
+          "Cost": 90
+        }
+      ]
+    },
+    {
+      "Name": "WARBOSS ON WARBIKE",
+      "Faction": "Waaagh!",
+      "UnitComposition": {
+        "ModelCompositions": [
+          {
+            "ModelName": "Warboss on Warbike",
+            "Wargear": [
+              {
+                "InitalWargear": [
+                  "twin dakkagun",
+                  "killsaw"
+                ],
+                "Options": [
+                  {
+                    "Replaces": [
+                      "killsaw"
+                    ],
+                    "Options": [
+                      "big choppa",
+                      "power klaw"
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "WargearDefinitions": []
+      },
+      "UnitAbilities": [
+        {
+          "Title": "Speedboss",
+          "Text": "While this model is leading a unit, each time a model in that unit makes a melee attack, add 1 to the Hit roll."
+        },
+        {
+          "Title": "High-octane Fuel",
+          "Text": "Each time this model’s unit Advances, do not make an Advance roll for it. Instead, until the end of the phase, add 6\" to the Move characteristic of models in this model’s unit."
+        }
+      ],
+      "LeaderInfo": {
+        "UnitNames": [
+          "NOBZ ON WARBIKES",
+          "SKORCHAS",
+          "WARBIKERS",
+          "WARBUGGIES"
+        ],
+        "Abilities": [
+          {
+            "AbilityId": "Speedboss"
+          }
+        ]
+      },
+      "Infos": [],
+      "Keywords": [
+        "Mounted",
+        "Character",
+        "Speed Freeks",
+        "Grenades",
+        "Warboss"
+      ],
+      "CoreAbilities": [
+        "Leader"
+      ],
+      "FactionKeywords": [
+        "Orks"
+      ],
+      "StatLines": [
+        {
+          "Movement": "12\"",
+          "Toughness": "6",
+          "Save": "4+",
+          "Wounds": "7",
+          "Leadership": "6+",
+          "OC": "2",
+          "InvulSave": {
+            "Save": "5+"
+          }
+        }
+      ],
+      "Weapons": [
+        {
+          "Name": "RANGED WEAPONS",
+          "Weapons": [
+            {
+              "Name": "Twin dakkagun",
+              "Keywords": "ASSAULT, RAPID FIRE 2, TWIN-LINKED",
+              "Range": "18\"",
+              "Attacks": "3",
+              "ToHit": "5+",
+              "Strength": "5",
+              "AP": "0",
+              "Damage": "1"
+            }
+          ]
+        },
+        {
+          "IsMelee": true,
+          "Name": "MELEE WEAPONS",
+          "Weapons": [
+            {
+              "Name": "Big choppa",
+              "Range": "Melee",
+              "Attacks": "5",
+              "ToHit": "2+",
+              "Strength": "8",
+              "AP": "-1",
+              "Damage": "2"
+            },
+            {
+              "Name": "Killsaw",
+              "Range": "Melee",
+              "Attacks": "3",
+              "ToHit": "4+",
+              "Strength": "12",
+              "AP": "-3",
+              "Damage": "2"
+            },
+            {
+              "Name": "Power klaw",
+              "Range": "Melee",
+              "Attacks": "4",
+              "ToHit": "3+",
+              "Strength": "10",
+              "AP": "-2",
+              "Damage": "2"
+            }
+          ]
+        }
+      ],
+      "Upgrades": [],
+      "Points": [
+        {
+          "ModelCount": 1,
+          "Cost": 75
+        }
+      ]
+    },
+    {
+      "Name": "NOBZ ON WARBIKES",
+      "Faction": "Waaagh! Drive-by Krumpin': Each time this unit Consolidates, each model in this unit can move up to 6\" instead of up to 3\".",
+      "UnitComposition": {
+        "ModelCompositions": [
+          {
+            "Limit": {
+              "Min": 3,
+              "Max": 3
+            },
+            "ModelName": "Nobz on Warbikes",
+            "Wargear": [
+              {
+                "InitalWargear": [
+                  "twin dakkagun",
+                  "choppa",
+                  "close combat weapon"
+                ],
+                "Options": [
+                  {
+                    "Options": [
+                      "slugga"
+                    ]
+                  },
+                  {
+                    "Replaces": [
+                      "choppa"
+                    ],
+                    "Options": [
+                      "big choppa",
+                      "killsaw",
+                      "power klaw",
+                      "power stabba",
+                      "slugga"
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "WargearDefinitions": []
+      },
+      "UnitAbilities": [],
+      "AttachedUnitInfo": {
+        "LeaderAttachmentRules": [
+          {
+            "LeaderKeyword": "Character",
+            "LedUnitNames": [
+              "WARBIKERS"
+            ]
+          }
+        ]
+      },
+      "Infos": [
+        {
+          "Title": "SPEED FREEKS MOB",
+          "Text": "If a model from your army with the Leader ability can be attached to a Warbikers unit, it can be attached to this unit instead."
+        }
+      ],
+      "Keywords": [
+        "Mounted",
+        "Speed Freeks",
+        "Grenades",
+        "Nobz on Warbikes"
+      ],
+      "CoreAbilities": [],
+      "FactionKeywords": [
+        "Orks"
+      ],
+      "StatLines": [
+        {
+          "Movement": "12\"",
+          "Toughness": "6",
+          "Save": "4+",
+          "Wounds": "4",
+          "Leadership": "7+",
+          "OC": "2",
+          "InvulSave": {
+            "Save": "6+"
+          }
+        }
+      ],
+      "Weapons": [
+        {
+          "Name": "RANGED WEAPONS",
+          "Weapons": [
+            {
+              "Name": "Slugga",
+              "Keywords": "PISTOL",
+              "Range": "12\"",
+              "Attacks": "1",
+              "ToHit": "5+",
+              "Strength": "4",
+              "AP": "0",
+              "Damage": "1"
+            },
+            {
+              "Name": "Twin dakkagun",
+              "Keywords": "ASSAULT, RAPID FIRE 2, TWIN-LINKED",
+              "Range": "18\"",
+              "Attacks": "3",
+              "ToHit": "5+",
+              "Strength": "5",
+              "AP": "0",
+              "Damage": "1"
+            }
+          ]
+        },
+        {
+          "IsMelee": true,
+          "Name": "MELEE WEAPONS",
+          "Weapons": [
+            {
+              "Name": "Big choppa",
+              "Range": "Melee",
+              "Attacks": "3",
+              "ToHit": "3+",
+              "Strength": "7",
+              "AP": "-1",
+              "Damage": "2"
+            },
+            {
+              "Name": "Choppa",
+              "Range": "Melee",
+              "Attacks": "3",
+              "ToHit": "3+",
+              "Strength": "5",
+              "AP": "-1",
+              "Damage": "1"
+            },
+            {
+              "Name": "Close combat weapon",
+              "Range": "Melee",
+              "Attacks": "3",
+              "ToHit": "3+",
+              "Strength": "5",
+              "AP": "0",
+              "Damage": "1"
+            },
+            {
+              "Name": "Killsaw",
+              "Range": "Melee",
+              "Attacks": "2",
+              "ToHit": "4+",
+              "Strength": "12",
+              "AP": "-3",
+              "Damage": "2"
+            },
+            {
+              "Name": "Power klaw",
+              "Range": "Melee",
+              "Attacks": "3",
+              "ToHit": "4+",
+              "Strength": "9",
+              "AP": "-2",
+              "Damage": "2"
+            },
+            {
+              "Name": "Power stabba",
+              "Keywords": "LANCE",
+              "Range": "Melee",
+              "Attacks": "3",
+              "ToHit": "4+",
+              "Strength": "8",
+              "AP": "-1",
+              "Damage": "2"
+            }
+          ]
+        }
+      ],
+      "Upgrades": [],
+      "Points": [
+        {
+          "ModelCount": 3,
+          "Cost": 125
+        }
+      ]
+    },
+    {
+      "Name": "UFTHAK BLACKHAWK",
+      "Faction": "Waaagh!",
+      "UnitComposition": {
+        "ModelCompositions": [
+          {
+            "ModelName": "Ufthak Blackhawk - Epic Hero",
+            "Wargear": [
+              {
+                "InitalWargear": [
+                  "shokk rifle",
+                  "snazzhammer",
+                  "Princess’ jaws"
+                ],
+                "Options": []
+              }
+            ]
+          }
+        ],
+        "WargearDefinitions": []
+      },
+      "UnitAbilities": [
+        {
+          "Title": "Tellyporta Tech",
+          "Text": "While this model is leading a unit, models in that unit have the Deep Strike ability."
+        },
+        {
+          "Title": "Gargantsmasha",
+          "Text": "Each time this model makes an attack that targets a Titanic unit, you can re-roll the Hit roll and you can re-roll the Wound roll."
+        }
+      ],
+      "LeaderInfo": {
+        "UnitNames": [
+          "BOYZ",
+          "NOBZ"
+        ],
+        "Abilities": [
+          {
+            "AbilityId": "Tellyporta Tech"
+          }
+        ]
+      },
+      "Infos": [],
+      "Keywords": [
+        "Infantry",
+        "Character",
+        "Grenades",
+        "Epic Hero",
+        "Warboss",
+        "Ufthak Blackhawk"
+      ],
+      "CoreAbilities": [
+        "Leader"
+      ],
+      "FactionKeywords": [
+        "Orks"
+      ],
+      "StatLines": [
+        {
+          "Movement": "6\"",
+          "Toughness": "5",
+          "Save": "4+",
+          "Wounds": "6",
+          "Leadership": "6+",
+          "OC": "1",
+          "InvulSave": {
+            "Save": "5+"
+          }
+        }
+      ],
+      "Weapons": [
+        {
+          "Name": "RANGED WEAPONS",
+          "Weapons": [
+            {
+              "Name": "Shokk rifle",
+              "Keywords": "DEVASTATING WOUNDS, HAZARDOUS, PRECISION",
+              "Range": "24\"",
+              "Attacks": "1",
+              "ToHit": "4+",
+              "Strength": "8",
+              "AP": "-2",
+              "Damage": "D6+1"
+            }
+          ]
+        },
+        {
+          "IsMelee": true,
+          "Name": "MELEE WEAPONS",
+          "Weapons": [
+            {
+              "Name": "Princess’ jaws",
+              "Keywords": "EXTRA ATTACKS",
+              "Range": "Melee",
+              "Attacks": "2",
+              "ToHit": "4+",
+              "Strength": "4",
+              "AP": "0",
+              "Damage": "1"
+            },
+            {
+              "Name": "Snazzhammer",
+              "Keywords": "DEVASTATING WOUNDS",
+              "Range": "Melee",
+              "Attacks": "4",
+              "ToHit": "3+",
+              "Strength": "10",
+              "AP": "-2",
+              "Damage": "2"
+            }
+          ]
+        }
+      ],
+      "Upgrades": [],
+      "Points": [
+        {
+          "ModelCount": 1,
+          "Cost": 70
+        }
+      ]
+    },
+    {
+      "Name": "HORDEBOSS",
+      "Faction": "Waaagh!",
+      "Flags": 4,
+      "UnitComposition": {
+        "ModelCompositions": [
+          {
+            "ModelName": "Hordeboss",
+            "Wargear": [
+              {
+                "InitalWargear": [],
+                "Options": [
+                  {
+                    "Options": [
+                      "big shoota",
+                      "burna",
+                      "kombi weapon",
+                      "kustom mega-blasta",
+                      "kustom mega-slugga",
+                      "kustom shoota",
+                      "rokkit launcha",
+                      "saddlegit weapons",
+                      "shokk attack gun",
+                      "shoota",
+                      "snazzgun",
+                      "traktor blasta"
+                    ]
+                  },
+                  {
+                    "Options": [
+                      "grot blasta",
+                      "rokkit pistol",
+                      "slugga"
+                    ]
+                  },
+                  {
+                    "Options": [
+                      "grot blasta",
+                      "rokkit pistol",
+                      "slugga"
+                    ]
+                  },
+                  {
+                    "Options": [
+                      "attack squig",
+                      "beast snagga klaw",
+                      "beastchoppa",
+                      "big choppa",
+                      "choppa",
+                      "close-combat weapon",
+                      "cuttin' flames",
+                      "drilla",
+                      "killsaw",
+                      "knucklebustas",
+                      "power klaw",
+                      "power snappa",
+                      "smash hammer",
+                      "tankhammer",
+                      "'uge choppa",
+                      "'urty syringe"
+                    ]
+                  },
+                  {
+                    "Options": [
+                      "attack squig",
+                      "beast snagga klaw",
+                      "beastchoppa",
+                      "big choppa",
+                      "choppa",
+                      "close-combat weapon",
+                      "cuttin' flames",
+                      "drilla",
+                      "killsaw",
+                      "knucklebustas",
+                      "power klaw",
+                      "power snappa",
+                      "smash hammer",
+                      "tankhammer",
+                      "'uge choppa",
+                      "'urty syringe"
+                    ]
+                  },
+                  {
+                    "Options": [
+                      "Rokkit Pack",
+                      "Smasha Squig",
+                      "Top-tier Gubbinz",
+                      "Warbike"
+                    ]
+                  },
+                  {
+                    "Options": [
+                      "Dok's Toolz",
+                      "Kustom Force Field",
+                      "Might Is Right",
+                      "Thunderous Dakkastorm"
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "WargearDefinitions": [
+          {
+            "Key": "Rokkit Pack",
+            "GrantsAbilities": [
+              "Rokkit Pack"
+            ],
+            "StatAdjustments": [
+              {
+                "Value": "12\""
+              }
+            ],
+            "DatasheetAdjustments": [
+              {
+                "Target": "Keywords",
+                "Type": "Add",
+                "Values": [
+                  "Jump Pack",
+                  "Fly"
+                ]
+              },
+              {
+                "Target": "CoreAbilities",
+                "Type": "Add",
+                "Values": [
+                  "Deep Strike"
+                ]
+              },
+              {
+                "Target": "LedUnitNames",
+                "Values": [
+                  "STORMBOYZ"
+                ]
+              }
+            ]
+          },
+          {
+            "Key": "Smasha Squig",
+            "GrantsAbilities": [
+              "Smasha Squig"
+            ],
+            "GrantsWeapons": [
+              "Squig jaws"
+            ],
+            "StatAdjustments": [
+              {
+                "Value": "10\""
+              },
+              {
+                "Target": "Toughness",
+                "Value": "7"
+              },
+              {
+                "Target": "Save",
+                "Value": "4+"
+              },
+              {
+                "Target": "Wounds",
+                "Value": "6"
+              }
+            ],
+            "DatasheetAdjustments": [
+              {
+                "Target": "Keywords",
+                "Type": "Add",
+                "Values": [
+                  "Mounted",
+                  "Beast Snagga"
+                ]
+              },
+              {
+                "Target": "Keywords",
+                "Type": "Subtract",
+                "Values": [
+                  "Infantry"
+                ]
+              },
+              {
+                "Target": "LedUnitNames",
+                "Values": [
+                  "SQUIGHOG BOYZ"
+                ]
+              }
+            ]
+          },
+          {
+            "Key": "Top-tier Gubbinz",
+            "GrantsAbilities": [
+              "Top-tier Gubbinz"
+            ],
+            "DatasheetAdjustments": [
+              {
+                "Target": "Keywords",
+                "Type": "Add",
+                "Values": [
+                  "Mek"
+                ]
+              },
+              {
+                "Target": "LedUnitNames",
+                "Values": [
+                  "BURNA BOYZ",
+                  "FLASH GITZ",
+                  "KOMMANDOS",
+                  "LOOTAS",
+                  "MEK GUNZ",
+                  "TANKBUSTAS"
+                ]
+              }
+            ]
+          },
+          {
+            "Key": "Warbike",
+            "GrantsAbilities": [
+              "Warbike"
+            ],
+            "GrantsWeapons": [
+              "Twin dakkagun"
+            ],
+            "StatAdjustments": [
+              {
+                "Value": "12\""
+              },
+              {
+                "Target": "Toughness",
+                "Value": "6"
+              },
+              {
+                "Target": "Save",
+                "Value": "4+"
+              },
+              {
+                "Target": "Wounds",
+                "Value": "6"
+              }
+            ],
+            "DatasheetAdjustments": [
+              {
+                "Target": "Keywords",
+                "Type": "Add",
+                "Values": [
+                  "Mounted"
+                ]
+              },
+              {
+                "Target": "Keywords",
+                "Type": "Subtract",
+                "Values": [
+                  "Infantry"
+                ]
+              },
+              {
+                "Target": "LedUnitNames",
+                "Values": [
+                  "WARBIKERS"
+                ]
+              }
+            ]
+          },
+          {
+            "Key": "Dok's Toolz",
+            "GrantsAbilities": [
+              "Dok's Toolz"
+            ]
+          },
+          {
+            "Key": "Kustom Force Field",
+            "GrantsAbilities": [
+              "Kustom Force Field"
+            ]
+          },
+          {
+            "Key": "Might Is Right",
+            "GrantsAbilities": [
+              "Might Is Right"
+            ]
+          },
+          {
+            "Key": "Thunderous Dakkastorm",
+            "GrantsAbilities": [
+              "Thunderous Dakkastorm"
+            ]
+          }
+        ]
+      },
+      "UnitAbilities": [
+        {
+          "Title": "More Lads, More Swagger",
+          "Text": "Improve this model’s Leadership characteristic by 1 for every 5 models in this unit."
+        },
+        {
+          "Title": "Rokkit Pack",
+          "Text": "Change this model’s Move characteristic to 12\", add the Jump Pack and Fly keywords, and it gains the Deep Strike ability. Replace the list of units this model can be attached to: Stormboyz."
+        },
+        {
+          "Title": "Smasha Squig",
+          "Text": "Change this model’s Move characteristic to 10\", its Toughness characteristic to 7, its Save characteristic to 4+, its Wounds characteristic to 6, and it is equipped with 1 squig jaws in addition to the weapons you choose in Step 4. Remove the Infantry keyword, add the Mounted and Beast Snagga keywords, and replace the list of units this model can be attached to: Squighog Boyz."
+        },
+        {
+          "Title": "Top-tier Gubbinz",
+          "Text": "Add the Mek keyword. Replace the list of units this model can be attached to: Burna Boyz, Flash Gitz, Kommandos, Lootas, Mek Gunz, Tankbustas."
+        },
+        {
+          "Title": "Warbike",
+          "Text": "Change this model’s Move characteristic to 12\", its Toughness and Wounds characteristics to 6, its Save characteristic to 4+, and it is equipped with 1 twin dakkagun in addition to the weapons you choose in Step 4. Remove the Infantry keyword, add the Mounted keyword, and replace the list of units this model can be attached to: Warbikers."
+        },
+        {
+          "Title": "Dok's Toolz",
+          "Text": "(While this model is leading a unit, models in that unit have the Feel No Pain 5+ ability."
+        },
+        {
+          "Title": "Kustom Force Field",
+          "Text": "While the bearer is leading a unit, models in that unit have a 4+ invulnerable save against ranged attacks."
+        },
+        {
+          "Title": "Might Is Right",
+          "Text": "While this model is leading a unit, each time a model in that unit makes a melee attack, add 1 to the Hit roll."
+        },
+        {
+          "Title": "Thunderous Dakkastorm",
+          "Text": "In your Shooting phase, after this model has shot, select one enemy unit hit by one or more of those attacks; that unit must take a Battle-shock test."
+        }
+      ],
+      "LeaderInfo": {
+        "UnitNames": [
+          "BOYZ",
+          "NOBZ"
+        ],
+        "Abilities": [
+          {
+            "AbilityId": "Dok's Toolz"
+          },
+          {
+            "AbilityId": "Kustom Force Field",
+            "StatAdjustments": [
+              {
+                "Target": "InvulSave",
+                "Scope": "Unit",
+                "Value": "4+",
+                "Info": "Against ranged attacks only"
+              }
+            ]
+          },
+          {
+            "AbilityId": "Might Is Right"
+          }
+        ]
+      },
+      "Infos": [],
+      "Keywords": [
+        "Infantry",
+        "Character",
+        "Grenades",
+        "Hordeboss"
+      ],
+      "CoreAbilities": [
+        "Crucible",
+        "Leader"
+      ],
+      "FactionKeywords": [
+        "Orks"
+      ],
+      "StatLines": [
+        {
+          "Movement": "6\"",
+          "Toughness": "5",
+          "Save": "4+",
+          "Wounds": "5",
+          "Leadership": "7+",
+          "OC": "1"
+        }
+      ],
+      "Weapons": [
+        {
+          "Name": "RANGED WEAPONS",
+          "Weapons": [
+            {
+              "Name": "Big shoota",
+              "Keywords": "RAPID FIRE 2",
+              "Range": "36\"",
+              "Attacks": "3",
+              "ToHit": "5+",
+              "Strength": "5",
+              "AP": "0",
+              "Damage": "1"
+            },
+            {
+              "Name": "Burna",
+              "Keywords": "IGNORES COVER, TORRENT",
+              "Range": "12\"",
+              "Attacks": "D6",
+              "ToHit": "N/A",
+              "Strength": "4",
+              "AP": "0",
+              "Damage": "1"
+            },
+            {
+              "Name": "Kombi weapon",
+              "Keywords": "ANTI-INFANTRY 4+, DEVASTATING WOUNDS, RAPID FIRE 1",
+              "Range": "24\"",
+              "Attacks": "1",
+              "ToHit": "5+",
+              "Strength": "4",
+              "AP": "0",
+              "Damage": "1"
+            },
+            {
+              "Name": "Kustom mega-blasta",
+              "Keywords": "HAZARDOUS",
+              "Range": "24\"",
+              "Attacks": "3",
+              "ToHit": "5+",
+              "Strength": "9",
+              "AP": "-2",
+              "Damage": "D6"
+            },
+            {
+              "Name": "Kustom mega-slugga",
+              "Keywords": "BLAST, HAZARDOUS",
+              "Range": "12\"",
+              "Attacks": "D3",
+              "ToHit": "5+",
+              "Strength": "8",
+              "AP": "-2",
+              "Damage": "D6"
+            },
+            {
+              "Name": "Kustom shoota",
+              "Keywords": "RAPID FIRE 2",
+              "Range": "18\"",
+              "Attacks": "4",
+              "ToHit": "5+",
+              "Strength": "4",
+              "AP": "0",
+              "Damage": "1"
+            },
+            {
+              "Name": "Rokkit launcha",
+              "Keywords": "BLAST",
+              "Range": "24\"",
+              "Attacks": "D3",
+              "ToHit": "5+",
+              "Strength": "9",
+              "AP": "-2",
+              "Damage": "3"
+            },
+            {
+              "Name": "Saddlegit weapons",
+              "Keywords": "ASSAULT",
+              "Range": "9\"",
+              "Attacks": "1",
+              "ToHit": "4+",
+              "Strength": "3",
+              "AP": "0",
+              "Damage": "1"
+            },
+            {
+              "Name": "Shokk attack gun",
+              "Keywords": "BLAST, HEAVY",
+              "Range": "60\"",
+              "Attacks": "D6+1",
+              "ToHit": "5+",
+              "Strength": "9",
+              "AP": "-4",
+              "Damage": "D6"
+            },
+            {
+              "Name": "Shoota",
+              "Keywords": "RAPID FIRE 1",
+              "Range": "18\"",
+              "Attacks": "2",
+              "ToHit": "5+",
+              "Strength": "4",
+              "AP": "0",
+              "Damage": "1"
+            },
+            {
+              "Name": "Snazzgun",
+              "Keywords": "HEAVY, SUSTAINED HITS 1",
+              "Range": "24\"",
+              "Attacks": "3",
+              "ToHit": "5+",
+              "Strength": "6",
+              "AP": "-1",
+              "Damage": "2"
+            },
+            {
+              "Name": "Traktor blasta",
+              "Keywords": "ANTI-FLY 3+, DEVASTATING WOUNDS",
+              "Range": "36\"",
+              "Attacks": "1",
+              "ToHit": "5+",
+              "Strength": "10",
+              "AP": "-2",
+              "Damage": "D6+1"
+            },
+            {
+              "Name": "Twin dakkagun",
+              "Keywords": "ASSAULT, RAPID FIRE 2, TWIN-LINKED",
+              "Range": "18\"",
+              "Attacks": "3",
+              "ToHit": "5+",
+              "Strength": "5",
+              "AP": "0",
+              "Damage": "1"
+            },
+            {
+              "Name": "Grot blasta",
+              "Keywords": "PISTOL",
+              "Range": "12\"",
+              "Attacks": "1",
+              "ToHit": "4+",
+              "Strength": "3",
+              "AP": "0",
+              "Damage": "1"
+            },
+            {
+              "Name": "Rokkit pistol",
+              "Keywords": "PISTOL",
+              "Range": "12\"",
+              "Attacks": "1",
+              "ToHit": "5+",
+              "Strength": "9",
+              "AP": "-2",
+              "Damage": "3"
+            },
+            {
+              "Name": "Slugga",
+              "Keywords": "PISTOL",
+              "Range": "12\"",
+              "Attacks": "1",
+              "ToHit": "5+",
+              "Strength": "4",
+              "AP": "0",
+              "Damage": "1"
+            }
+          ]
+        },
+        {
+          "IsMelee": true,
+          "Name": "MELEE WEAPONS",
+          "Weapons": [
+            {
+              "Name": "Attack squig",
+              "Keywords": "EXTRA ATTACKS",
+              "Range": "Melee",
+              "Attacks": "2",
+              "ToHit": "4+",
+              "Strength": "4",
+              "AP": "0",
+              "Damage": "1"
+            },
+            {
+              "Name": "Beast Snagga klaw",
+              "Keywords": "ANTI-MONSTER 4+, ANTI-VEHICLE 4+",
+              "Range": "Melee",
+              "Attacks": "4",
+              "ToHit": "3+",
+              "Strength": "9",
+              "AP": "-2",
+              "Damage": "2"
+            },
+            {
+              "Name": "Beastchoppa",
+              "Keywords": "ANTI-MONSTER 4+, ANTI-VEHICLE 4+",
+              "Range": "Melee",
+              "Attacks": "6",
+              "ToHit": "2+",
+              "Strength": "6",
+              "AP": "-1",
+              "Damage": "2"
+            },
+            {
+              "Name": "Big choppa",
+              "Range": "Melee",
+              "Attacks": "5",
+              "ToHit": "2+",
+              "Strength": "7",
+              "AP": "-1",
+              "Damage": "2"
+            },
+            {
+              "Name": "Choppa",
+              "Range": "Melee",
+              "Attacks": "5",
+              "ToHit": "3+",
+              "Strength": "4",
+              "AP": "-1",
+              "Damage": "1"
+            },
+            {
+              "Name": "Close-combat weapon",
+              "Range": "Melee",
+              "Attacks": "4",
+              "ToHit": "3+",
+              "Strength": "4",
+              "AP": "0",
+              "Damage": "1"
+            },
+            {
+              "Name": "Cuttin' flames",
+              "Range": "Melee",
+              "Attacks": "3",
+              "ToHit": "3+",
+              "Strength": "4",
+              "AP": "-2",
+              "Damage": "1"
+            },
+            {
+              "Name": "Drilla",
+              "Range": "Melee",
+              "Attacks": "2",
+              "ToHit": "3+",
+              "Strength": "12",
+              "AP": "-3",
+              "Damage": "3"
+            },
+            {
+              "Name": "Killsaw",
+              "Range": "Melee",
+              "Attacks": "3",
+              "ToHit": "3+",
+              "Strength": "12",
+              "AP": "-3",
+              "Damage": "2"
+            },
+            {
+              "Name": "Knucklebustas",
+              "Keywords": "ANTI-MONSTER 4+, ANTI-VEHICLE 4+, TWIN-LINKED",
+              "Range": "Melee",
+              "Attacks": "5",
+              "ToHit": "2+",
+              "Strength": "5",
+              "AP": "-1",
+              "Damage": "1"
+            },
+            {
+              "Name": "Power klaw",
+              "Range": "Melee",
+              "Attacks": "4",
+              "ToHit": "3+",
+              "Strength": "9",
+              "AP": "-2",
+              "Damage": "2"
+            },
+            {
+              "Name": "Power snappa",
+              "Range": "Melee",
+              "Attacks": "5",
+              "ToHit": "2+",
+              "Strength": "7",
+              "AP": "-1",
+              "Damage": "2"
+            },
+            {
+              "Name": "Smash hammer",
+              "Keywords": "ANTI-MONSTER 4+, ANTI-VEHICLE 4+",
+              "Range": "Melee",
+              "Attacks": "3",
+              "ToHit": "3+",
+              "Strength": "6",
+              "AP": "-2",
+              "Damage": "3"
+            },
+            {
+              "Name": "Squig jaws",
+              "Keywords": "EXTRA ATTACKS",
+              "Range": "Melee",
+              "Attacks": "3",
+              "ToHit": "4+",
+              "Strength": "6",
+              "AP": "-1",
+              "Damage": "1"
+            },
+            {
+              "Name": "Tankhammer",
+              "Keywords": "ANTI-MONSTER 4+, ANTI-VEHICLE 4+, DEVASTATING WOUNDS, HAZARDOUS",
+              "Range": "Melee",
+              "Attacks": "3",
+              "ToHit": "3+",
+              "Strength": "6",
+              "AP": "-2",
+              "Damage": "2"
+            },
+            {
+              "Name": "'Uge choppa",
+              "Range": "Melee",
+              "Attacks": "4",
+              "ToHit": "2+",
+              "Strength": "12",
+              "AP": "-2",
+              "Damage": "2"
+            },
+            {
+              "Name": "'Urty syringe",
+              "Keywords": "ANTI-INFANTRY 4+, EXTRA ATTACKS, PRECISION",
+              "Range": "Melee",
+              "Attacks": "1",
+              "ToHit": "3+",
+              "Strength": "2",
+              "AP": "0",
+              "Damage": "1"
+            }
+          ]
+        }
+      ],
+      "Upgrades": [],
+      "Points": [
+        {
+          "ModelCount": 1,
+          "Cost": 75
+        }
+      ]
+    },
+    {
+      "Name": "WARPHEAD",
+      "Faction": "Waaagh!",
+      "Flags": 4,
+      "UnitComposition": {
+        "ModelCompositions": [
+          {
+            "ModelName": "Warphead",
+            "Wargear": [
+              {
+                "InitalWargear": [],
+                "Options": [
+                  {
+                    "Options": [
+                      "big shoota",
+                      "burna",
+                      "eadbanger",
+                      "eyez of mork",
+                      "kombi weapon",
+                      "kustom mega-blasta",
+                      "kustom mega-slugga",
+                      "kustom shoota",
+                      "rokkit launcha",
+                      "saddlegit weapons",
+                      "shokk attack gun",
+                      "shoota",
+                      "snazzgun",
+                      "traktor blasta"
+                    ]
+                  },
+                  {
+                    "Options": [
+                      "grot blasta",
+                      "rokkit pistol",
+                      "slugga"
+                    ]
+                  },
+                  {
+                    "Options": [
+                      "grot blasta",
+                      "rokkit pistol",
+                      "slugga"
+                    ]
+                  },
+                  {
+                    "Options": [
+                      "attack squig",
+                      "beast snagga klaw",
+                      "beastchoppa",
+                      "big choppa",
+                      "choppa",
+                      "close-combat weapon",
+                      "cuttin' flames",
+                      "drilla",
+                      "killsaw",
+                      "knucklebustas",
+                      "power klaw",
+                      "power snappa",
+                      "smash hammer",
+                      "tankhammer",
+                      "'uge choppa",
+                      "'urty syringe",
+                      "weirdboy staff"
+                    ]
+                  },
+                  {
+                    "Options": [
+                      "attack squig",
+                      "beast snagga klaw",
+                      "beastchoppa",
+                      "big choppa",
+                      "choppa",
+                      "close-combat weapon",
+                      "cuttin' flames",
+                      "drilla",
+                      "killsaw",
+                      "knucklebustas",
+                      "power klaw",
+                      "power snappa",
+                      "smash hammer",
+                      "tankhammer",
+                      "'uge choppa",
+                      "'urty syringe",
+                      "weirdboy staff"
+                    ]
+                  },
+                  {
+                    "Options": [
+                      "Smasha Squig",
+                      "Warbike"
+                    ]
+                  },
+                  {
+                    "Options": [
+                      "Roar of Mork",
+                      "Thunderous Dakkastorm"
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "WargearDefinitions": [
+          {
+            "Key": "Smasha Squig",
+            "GrantsAbilities": [
+              "Smasha Squig"
+            ],
+            "GrantsWeapons": [
+              "Squig jaws"
+            ],
+            "StatAdjustments": [
+              {
+                "Value": "10\""
+              },
+              {
+                "Target": "Toughness",
+                "Value": "7"
+              },
+              {
+                "Target": "Save",
+                "Value": "4+"
+              },
+              {
+                "Target": "Wounds",
+                "Value": "6"
+              }
+            ],
+            "DatasheetAdjustments": [
+              {
+                "Target": "Keywords",
+                "Type": "Add",
+                "Values": [
+                  "Mounted",
+                  "Beast Snagga"
+                ]
+              },
+              {
+                "Target": "Keywords",
+                "Type": "Subtract",
+                "Values": [
+                  "Infantry"
+                ]
+              },
+              {
+                "Target": "LedUnitNames",
+                "Values": [
+                  "SQUIGHOG BOYZ"
+                ]
+              }
+            ]
+          },
+          {
+            "Key": "Warbike",
+            "GrantsAbilities": [
+              "Warbike"
+            ],
+            "GrantsWeapons": [
+              "Twin dakkagun"
+            ],
+            "StatAdjustments": [
+              {
+                "Value": "12\""
+              },
+              {
+                "Target": "Toughness",
+                "Value": "6"
+              },
+              {
+                "Target": "Save",
+                "Value": "4+"
+              },
+              {
+                "Target": "Wounds",
+                "Value": "6"
+              }
+            ],
+            "DatasheetAdjustments": [
+              {
+                "Target": "Keywords",
+                "Type": "Add",
+                "Values": [
+                  "Mounted"
+                ]
+              },
+              {
+                "Target": "Keywords",
+                "Type": "Subtract",
+                "Values": [
+                  "Infantry"
+                ]
+              },
+              {
+                "Target": "LedUnitNames",
+                "Values": [
+                  "WARBIKERS"
+                ]
+              }
+            ]
+          },
+          {
+            "Key": "Roar of Mork",
+            "GrantsAbilities": [
+              "Roar of Mork"
+            ]
+          },
+          {
+            "Key": "Thunderous Dakkastorm",
+            "GrantsAbilities": [
+              "Thunderous Dakkastorm"
+            ]
+          }
+        ]
+      },
+      "UnitAbilities": [
+        {
+          "Title": "Channellin' da Waaagh!",
+          "Text": "Each time this model attacks with a Psychic weapon: until the end of the phase, improve the Attacks, Strength and Damage characteristics of that weapon by 1 for every 5 models in this unit. While this unit contains 10 or more models, those weapons have the [HAZARDOUS] ability."
+        },
+        {
+          "Title": "Smasha Squig",
+          "Text": "Change this model’s Move characteristic to 10\", its Toughness characteristic to 7, its Save characteristic to 4+, its Wounds characteristic to 6, and it is equipped with 1 squig jaws in addition to the weapons you choose in Step 4. Remove the Infantry keyword, add the Mounted and Beast Snagga keywords, and replace the list of units this model can be attached to: Squighog Boyz."
+        },
+        {
+          "Title": "Warbike",
+          "Text": "Change this model’s Move characteristic to 12\", its Toughness and Wounds characteristics to 6, its Save characteristic to 4+, and it is equipped with 1 twin dakkagun in addition to the weapons you choose in Step 4. Remove the Infantry keyword, add the Mounted keyword, and replace the list of units this model can be attached to: Warbikers."
+        },
+        {
+          "Title": "Roar of Mork (Psychic)",
+          "Text": "In your opponent’s Command phase, you can select one enemy unit within 18\" of and visible to this Psyker and roll one D6: on a 1, this unit suffers D3 mortal wounds; on a 2+, until the start of your opponent’s next Command phase, that enemy unit is confrazzled. While a unit is confrazzled, each time a Battle-shock or Leadership test is taken for it, subtract 2 from that test."
+        },
+        {
+          "Title": "Thunderous Dakkastorm",
+          "Text": "In your Shooting phase, after this model has shot, select one enemy unit hit by one or more of those attacks; that unit must take a Battle-shock test."
+        }
+      ],
+      "LeaderInfo": {
+        "UnitNames": [
+          "BOYZ",
+          "NOBZ",
+          "GRETCHIN"
+        ]
+      },
+      "Infos": [],
+      "Keywords": [
+        "Infantry",
+        "Character",
+        "Psyker",
+        "Warphead"
+      ],
+      "CoreAbilities": [
+        "Crucible",
+        "Deadly Demise D3",
+        "Leader"
+      ],
+      "FactionKeywords": [
+        "Orks"
+      ],
+      "StatLines": [
+        {
+          "Movement": "6\"",
+          "Toughness": "5",
+          "Save": "5+",
+          "Wounds": "4",
+          "Leadership": "7+",
+          "OC": "1"
+        }
+      ],
+      "Weapons": [
+        {
+          "Name": "RANGED WEAPONS",
+          "Weapons": [
+            {
+              "Name": "Big shoota",
+              "Keywords": "RAPID FIRE 2",
+              "Range": "36\"",
+              "Attacks": "3",
+              "ToHit": "5+",
+              "Strength": "5",
+              "AP": "0",
+              "Damage": "1"
+            },
+            {
+              "Name": "Burna",
+              "Keywords": "IGNORES COVER, TORRENT",
+              "Range": "12\"",
+              "Attacks": "D6",
+              "ToHit": "N/A",
+              "Strength": "4",
+              "AP": "0",
+              "Damage": "1"
+            },
+            {
+              "Name": "Eadbanger",
+              "Keywords": "PRECISION, PSYCHIC",
+              "Range": "24\"",
+              "Attacks": "1",
+              "ToHit": "4+",
+              "Strength": "6",
+              "AP": "-3",
+              "Damage": "2"
+            },
+            {
+              "Name": "Eyez of Mork",
+              "Keywords": "PSYCHIC",
+              "Range": "18\"",
+              "Attacks": "D6",
+              "ToHit": "5+",
+              "Strength": "8",
+              "AP": "-3",
+              "Damage": "2"
+            },
+            {
+              "Name": "Kombi weapon",
+              "Keywords": "ANTI-INFANTRY 4+, DEVASTATING WOUNDS, RAPID FIRE 1",
+              "Range": "24\"",
+              "Attacks": "1",
+              "ToHit": "5+",
+              "Strength": "4",
+              "AP": "0",
+              "Damage": "1"
+            },
+            {
+              "Name": "Kustom mega-blasta",
+              "Keywords": "HAZARDOUS",
+              "Range": "24\"",
+              "Attacks": "3",
+              "ToHit": "5+",
+              "Strength": "9",
+              "AP": "-2",
+              "Damage": "D6"
+            },
+            {
+              "Name": "Kustom mega-slugga",
+              "Keywords": "BLAST, HAZARDOUS",
+              "Range": "12\"",
+              "Attacks": "D3",
+              "ToHit": "5+",
+              "Strength": "8",
+              "AP": "-2",
+              "Damage": "D6"
+            },
+            {
+              "Name": "Kustom shoota",
+              "Keywords": "RAPID FIRE 2",
+              "Range": "18\"",
+              "Attacks": "4",
+              "ToHit": "5+",
+              "Strength": "4",
+              "AP": "0",
+              "Damage": "1"
+            },
+            {
+              "Name": "Rokkit launcha",
+              "Keywords": "BLAST",
+              "Range": "24\"",
+              "Attacks": "D3",
+              "ToHit": "5+",
+              "Strength": "9",
+              "AP": "-2",
+              "Damage": "3"
+            },
+            {
+              "Name": "Saddlegit weapons",
+              "Keywords": "ASSAULT",
+              "Range": "9\"",
+              "Attacks": "1",
+              "ToHit": "4+",
+              "Strength": "3",
+              "AP": "0",
+              "Damage": "1"
+            },
+            {
+              "Name": "Shokk attack gun",
+              "Keywords": "BLAST, HEAVY",
+              "Range": "60\"",
+              "Attacks": "D6+1",
+              "ToHit": "5+",
+              "Strength": "9",
+              "AP": "-4",
+              "Damage": "D6"
+            },
+            {
+              "Name": "Shoota",
+              "Keywords": "RAPID FIRE 1",
+              "Range": "18\"",
+              "Attacks": "2",
+              "ToHit": "5+",
+              "Strength": "4",
+              "AP": "0",
+              "Damage": "1"
+            },
+            {
+              "Name": "Snazzgun",
+              "Keywords": "HEAVY, SUSTAINED HITS 1",
+              "Range": "24\"",
+              "Attacks": "3",
+              "ToHit": "5+",
+              "Strength": "6",
+              "AP": "-1",
+              "Damage": "2"
+            },
+            {
+              "Name": "Traktor blasta",
+              "Keywords": "ANTI-FLY 3+, DEVASTATING WOUNDS",
+              "Range": "36\"",
+              "Attacks": "1",
+              "ToHit": "5+",
+              "Strength": "10",
+              "AP": "-2",
+              "Damage": "D6+1"
+            },
+            {
+              "Name": "Twin dakkagun",
+              "Keywords": "ASSAULT, RAPID FIRE 2, TWIN-LINKED",
+              "Range": "18\"",
+              "Attacks": "3",
+              "ToHit": "5+",
+              "Strength": "5",
+              "AP": "0",
+              "Damage": "1"
+            },
+            {
+              "Name": "Grot blasta",
+              "Keywords": "PISTOL",
+              "Range": "12\"",
+              "Attacks": "1",
+              "ToHit": "4+",
+              "Strength": "3",
+              "AP": "0",
+              "Damage": "1"
+            },
+            {
+              "Name": "Rokkit pistol",
+              "Keywords": "PISTOL",
+              "Range": "12\"",
+              "Attacks": "1",
+              "ToHit": "5+",
+              "Strength": "9",
+              "AP": "-2",
+              "Damage": "3"
+            },
+            {
+              "Name": "Slugga",
+              "Keywords": "PISTOL",
+              "Range": "12\"",
+              "Attacks": "1",
+              "ToHit": "5+",
+              "Strength": "4",
+              "AP": "0",
+              "Damage": "1"
+            }
+          ]
+        },
+        {
+          "IsMelee": true,
+          "Name": "MELEE WEAPONS",
+          "Weapons": [
+            {
+              "Name": "Attack squig",
+              "Keywords": "EXTRA ATTACKS",
+              "Range": "Melee",
+              "Attacks": "2",
+              "ToHit": "4+",
+              "Strength": "4",
+              "AP": "0",
+              "Damage": "1"
+            },
+            {
+              "Name": "Beast Snagga klaw",
+              "Keywords": "ANTI-MONSTER 4+, ANTI-VEHICLE 4+",
+              "Range": "Melee",
+              "Attacks": "4",
+              "ToHit": "3+",
+              "Strength": "9",
+              "AP": "-2",
+              "Damage": "2"
+            },
+            {
+              "Name": "Beastchoppa",
+              "Keywords": "ANTI-MONSTER 4+, ANTI-VEHICLE 4+",
+              "Range": "Melee",
+              "Attacks": "6",
+              "ToHit": "2+",
+              "Strength": "6",
+              "AP": "-1",
+              "Damage": "2"
+            },
+            {
+              "Name": "Big choppa",
+              "Range": "Melee",
+              "Attacks": "5",
+              "ToHit": "2+",
+              "Strength": "7",
+              "AP": "-1",
+              "Damage": "2"
+            },
+            {
+              "Name": "Choppa",
+              "Range": "Melee",
+              "Attacks": "5",
+              "ToHit": "3+",
+              "Strength": "4",
+              "AP": "-1",
+              "Damage": "1"
+            },
+            {
+              "Name": "Close-combat weapon",
+              "Range": "Melee",
+              "Attacks": "4",
+              "ToHit": "3+",
+              "Strength": "4",
+              "AP": "0",
+              "Damage": "1"
+            },
+            {
+              "Name": "Cuttin' flames",
+              "Range": "Melee",
+              "Attacks": "3",
+              "ToHit": "3+",
+              "Strength": "4",
+              "AP": "-2",
+              "Damage": "1"
+            },
+            {
+              "Name": "Drilla",
+              "Range": "Melee",
+              "Attacks": "2",
+              "ToHit": "3+",
+              "Strength": "12",
+              "AP": "-3",
+              "Damage": "3"
+            },
+            {
+              "Name": "Killsaw",
+              "Range": "Melee",
+              "Attacks": "3",
+              "ToHit": "3+",
+              "Strength": "12",
+              "AP": "-3",
+              "Damage": "2"
+            },
+            {
+              "Name": "Knucklebustas",
+              "Keywords": "ANTI-MONSTER 4+, ANTI-VEHICLE 4+, TWIN-LINKED",
+              "Range": "Melee",
+              "Attacks": "5",
+              "ToHit": "2+",
+              "Strength": "5",
+              "AP": "-1",
+              "Damage": "1"
+            },
+            {
+              "Name": "Power klaw",
+              "Range": "Melee",
+              "Attacks": "4",
+              "ToHit": "3+",
+              "Strength": "9",
+              "AP": "-2",
+              "Damage": "2"
+            },
+            {
+              "Name": "Power snappa",
+              "Range": "Melee",
+              "Attacks": "5",
+              "ToHit": "2+",
+              "Strength": "7",
+              "AP": "-1",
+              "Damage": "2"
+            },
+            {
+              "Name": "Smash hammer",
+              "Keywords": "ANTI-MONSTER 4+, ANTI-VEHICLE 4+",
+              "Range": "Melee",
+              "Attacks": "3",
+              "ToHit": "3+",
+              "Strength": "6",
+              "AP": "-2",
+              "Damage": "3"
+            },
+            {
+              "Name": "Squig jaws",
+              "Keywords": "EXTRA ATTACKS",
+              "Range": "Melee",
+              "Attacks": "3",
+              "ToHit": "4+",
+              "Strength": "6",
+              "AP": "-1",
+              "Damage": "1"
+            },
+            {
+              "Name": "Tankhammer",
+              "Keywords": "ANTI-MONSTER 4+, ANTI-VEHICLE 4+, DEVASTATING WOUNDS, HAZARDOUS",
+              "Range": "Melee",
+              "Attacks": "3",
+              "ToHit": "3+",
+              "Strength": "6",
+              "AP": "-2",
+              "Damage": "2"
+            },
+            {
+              "Name": "'Uge choppa",
+              "Range": "Melee",
+              "Attacks": "4",
+              "ToHit": "2+",
+              "Strength": "12",
+              "AP": "-2",
+              "Damage": "2"
+            },
+            {
+              "Name": "'Urty syringe",
+              "Keywords": "ANTI-INFANTRY 4+, EXTRA ATTACKS, PRECISION",
+              "Range": "Melee",
+              "Attacks": "1",
+              "ToHit": "3+",
+              "Strength": "2",
+              "AP": "0",
+              "Damage": "1"
+            },
+            {
+              "Name": "Weirdboy staff",
+              "Keywords": "PSYCHIC",
+              "Range": "Melee",
+              "Attacks": "3",
+              "ToHit": "3+",
+              "Strength": "8",
+              "AP": "-1",
+              "Damage": "2"
+            }
+          ]
+        }
+      ],
+      "Upgrades": [],
+      "Points": [
+        {
+          "ModelCount": 1,
+          "Cost": 65
+        }
+      ]
+    },
+    {
+      "Name": "UPSTART GRETCHIN",
+      "Faction": "Waaagh!",
+      "Flags": 4,
+      "UnitComposition": {
+        "ModelCompositions": [
+          {
+            "ModelName": "Upstart Gretchin",
+            "Wargear": [
+              {
+                "InitalWargear": [],
+                "Options": [
+                  {
+                    "Options": [
+                      "grot blasta"
+                    ]
+                  },
+                  {
+                    "Options": [
+                      "grot blasta"
+                    ]
+                  },
+                  {
+                    "Options": [
+                      "attack squig"
+                    ]
+                  },
+                  {
+                    "Options": [
+                      "close-combat weapon"
+                    ]
+                  },
+                  {
+                    "Options": [
+                      "Dok's Toolz",
+                      "Malicious Opportunist",
+                      "Thunderous Dakkastorm"
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "WargearDefinitions": [
+          {
+            "Key": "Dok's Toolz",
+            "GrantsAbilities": [
+              "Dok's Toolz"
+            ]
+          },
+          {
+            "Key": "Malicious Opportunist",
+            "GrantsAbilities": [
+              "Malicious Opportunist"
+            ]
+          },
+          {
+            "Key": "Thunderous Dakkastorm",
+            "GrantsAbilities": [
+              "Thunderous Dakkastorm"
+            ]
+          }
+        ]
+      },
+      "UnitAbilities": [
+        {
+          "Title": "Skulkin' Grot",
+          "Text": "While this model is leading a unit, models in that unit have the Infiltrators and Stealth abilities."
+        },
+        {
+          "Title": "Dok's Toolz",
+          "Text": "While this model is leading a unit, models in that unit have the Feel No Pain 5+ ability."
+        },
+        {
+          "Title": "Malicious Opportunist",
+          "Text": "While this model is leading a unit, each time a model in that unit makes an attack, add 1 to the Hit roll and add 1 to the Wound roll."
+        },
+        {
+          "Title": "Thunderous Dakkastorm",
+          "Text": "In your Shooting phase, after this model has shot, select one enemy unit hit by one or more of those attacks; that unit must take a Battle-shock test."
+        }
+      ],
+      "LeaderInfo": {
+        "UnitNames": [
+          "GRETCHIN"
+        ],
+        "Abilities": [
+          {
+            "AbilityId": "Skulkin' Grot"
+          },
+          {
+            "AbilityId": "Dok's Toolz"
+          },
+          {
+            "AbilityId": "Malicious Opportunist"
+          }
+        ]
+      },
+      "Infos": [],
+      "Keywords": [
+        "Infantry",
+        "Character",
+        "Grenades",
+        "Grots",
+        "Upstart Gretchin"
+      ],
+      "CoreAbilities": [
+        "Crucible",
+        "Leader"
+      ],
+      "FactionKeywords": [
+        "Orks"
+      ],
+      "StatLines": [
+        {
+          "Movement": "6\"",
+          "Toughness": "2",
+          "Save": "7+",
+          "Wounds": "3",
+          "Leadership": "8+",
+          "OC": "2"
+        }
+      ],
+      "Weapons": [
+        {
+          "Name": "RANGED WEAPONS",
+          "Weapons": [
+            {
+              "Name": "Grot blasta",
+              "Keywords": "PISTOL",
+              "Range": "12\"",
+              "Attacks": "1",
+              "ToHit": "4+",
+              "Strength": "3",
+              "AP": "0",
+              "Damage": "1"
+            }
+          ]
+        },
+        {
+          "IsMelee": true,
+          "Name": "MELEE WEAPONS",
+          "Weapons": [
+            {
+              "Name": "Attack squig",
+              "Keywords": "EXTRA ATTACKS",
+              "Range": "Melee",
+              "Attacks": "2",
+              "ToHit": "4+",
+              "Strength": "4",
+              "AP": "0",
+              "Damage": "1"
+            },
+            {
+              "Name": "Close-combat weapon",
+              "Range": "Melee",
+              "Attacks": "4",
+              "ToHit": "3+",
+              "Strength": "4",
+              "AP": "0",
+              "Damage": "1"
+            }
+          ]
+        }
+      ],
+      "Upgrades": [],
+      "Points": [
+        {
+          "ModelCount": 1,
+          "Cost": 40
+        }
+      ]
+    }
+  ],
+  "Dettachments": [],
+  "ArmyRules": []
+}

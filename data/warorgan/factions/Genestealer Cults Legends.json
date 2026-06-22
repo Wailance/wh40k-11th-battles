@@ -1,0 +1,1917 @@
+{
+  "Name": "Genestealer Cults",
+  "Units": [
+    {
+      "Name": "TECTONIC FRAGDRILL",
+      "UnitComposition": {
+        "ModelCompositions": [
+          {
+            "ModelName": "Tectonic Fragdrill",
+            "Wargear": [
+              {
+                "InitalWargear": [
+                  "fragdrill"
+                ],
+                "Options": []
+              }
+            ]
+          }
+        ],
+        "WargearDefinitions": []
+      },
+      "UnitAbilities": [
+        {
+          "Title": "Tectonic Fragdrill",
+          "Text": "Friendly Genestealer Cult Infantry models can be set up or end any type of move on top of the floor sections of this Fortification."
+        },
+        {
+          "Title": "Underground Egress",
+          "Text": "Each time one of your Cult Ambush markers is removed as the result of an enemy unit ending any kind of move within 9\" of it, you can instead move that marker so that it is wholly within 9\" of this Fortification and more than 9\" horizontally away from all enemy units (if this is not possible, that marker is removed as normal)."
+        },
+        {
+          "Title": "Manufactorum Cover",
+          "Text": "Each time a ranged attack is allocated to a model, if that model is not fully visible to every model in the attacking unit because of this Fortification, that model has the Benefit of Cover against that attack."
+        },
+        {
+          "Title": "Fortification",
+          "Text": "While an enemy unit is only within Engagement Range of one or more Fortifications from your army:\n\t▪ That unit can still be selected as the target of ranged attacks, but each time such an attack is made, unless it is made with a Pistol, subtract 1 from the Hit roll. \n\t▪ Models in that unit do not need to take Desperate Escape tests due to Falling Back while Battle-shocked, except for those that will move over enemy models when doing so."
+        }
+      ],
+      "Infos": [],
+      "Keywords": [
+        "Fortification",
+        "Vehicle",
+        "Tectonic Fragdrill"
+      ],
+      "CoreAbilities": [
+        "Deadly Demise D3"
+      ],
+      "FactionKeywords": [
+        "Genestealer Cults"
+      ],
+      "StatLines": [
+        {
+          "Movement": "-",
+          "Toughness": "11",
+          "Save": "3+",
+          "Wounds": "14",
+          "Leadership": "7+",
+          "OC": "0"
+        }
+      ],
+      "Weapons": [
+        {
+          "IsMelee": true,
+          "Name": "MELEE WEAPONS",
+          "Weapons": [
+            {
+              "Name": "Fragdrill",
+              "Range": "Melee",
+              "Attacks": "6",
+              "ToHit": "6+",
+              "Strength": "12",
+              "AP": "-2",
+              "Damage": "D6"
+            }
+          ]
+        }
+      ],
+      "Upgrades": [],
+      "Points": [
+        {
+          "ModelCount": 1,
+          "Cost": 125
+        }
+      ]
+    },
+    {
+      "Name": "CULT INSURRECTIONIST",
+      "Faction": "Cult Ambush",
+      "Flags": 4,
+      "UnitComposition": {
+        "ModelCompositions": [
+          {
+            "ModelName": "Cult Insurrectionist",
+            "Wargear": [
+              {
+                "InitalWargear": [],
+                "Options": [
+                  {
+                    "Options": [
+                      "chemical vials",
+                      "cult sniper rifle",
+                      "demolition charges",
+                      "flamer",
+                      "grenade launcher",
+                      "heavy stubber",
+                      "hybrid firearm",
+                      "mining laser",
+                      "remote explosives",
+                      "seismic cannon",
+                      "webber"
+                    ]
+                  },
+                  {
+                    "Options": [
+                      "anointed pistol",
+                      "autopistol",
+                      "hand flamer",
+                      "liberator autostub",
+                      "scoped needle pistol"
+                    ]
+                  },
+                  {
+                    "Options": [
+                      "anointed pistol",
+                      "autopistol",
+                      "hand flamer",
+                      "liberator autostub",
+                      "scoped needle pistol"
+                    ]
+                  },
+                  {
+                    "Options": [
+                      "anointed pistol",
+                      "autopistol",
+                      "hand flamer",
+                      "liberator autostub",
+                      "scoped needle pistol"
+                    ]
+                  },
+                  {
+                    "Options": [
+                      "bio-dagger",
+                      "close-combat weapon",
+                      "cult bonesword",
+                      "cult claws & talons",
+                      "heavy mining tool",
+                      "injector goad",
+                      "metamorph mutations",
+                      "power weapon",
+                      "toxin injector claw"
+                    ]
+                  },
+                  {
+                    "Options": [
+                      "bio-dagger",
+                      "close-combat weapon",
+                      "cult bonesword",
+                      "cult claws & talons",
+                      "heavy mining tool",
+                      "injector goad",
+                      "metamorph mutations",
+                      "power weapon"
+                    ]
+                  },
+                  {
+                    "Options": [
+                      "bio-dagger",
+                      "close-combat weapon",
+                      "cult bonesword",
+                      "cult claws & talons",
+                      "heavy mining tool",
+                      "injector goad",
+                      "metamorph mutations",
+                      "power weapon"
+                    ]
+                  },
+                  {
+                    "Options": [
+                      "Dirtcycle",
+                      "Shepherd of the Blessed"
+                    ]
+                  },
+                  {
+                    "Options": [
+                      "Blessed Venom",
+                      "Elusive",
+                      "Insidious Evasion",
+                      "Psychic Spoor",
+                      "Shadow Killer",
+                      "Spiritual Leader",
+                      "Twisted Science",
+                      "Voice of New Truths"
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "WargearDefinitions": [
+          {
+            "Key": "Dirtcycle",
+            "GrantsAbilities": [
+              "Dirtcycle"
+            ],
+            "StatAdjustments": [
+              {
+                "Value": "12\""
+              },
+              {
+                "Target": "Toughness",
+                "Value": "4"
+              }
+            ],
+            "DatasheetAdjustments": [
+              {
+                "Target": "Keywords",
+                "Type": "Add",
+                "Values": [
+                  "Mounted"
+                ]
+              },
+              {
+                "Target": "Keywords",
+                "Type": "Subtract",
+                "Values": [
+                  "Infantry"
+                ]
+              },
+              {
+                "Target": "CoreAbilities",
+                "Type": "Add",
+                "Values": [
+                  "Scouts 9\"",
+                  "Stealth"
+                ]
+              },
+              {
+                "Target": "LedUnitNames",
+                "Values": [
+                  "ATALAN JACKALS"
+                ]
+              }
+            ]
+          },
+          {
+            "Key": "Shepherd of the Blessed",
+            "GrantsAbilities": [
+              "Shepherd of the Blessed"
+            ],
+            "DatasheetAdjustments": [
+              {
+                "Target": "LedUnitNames",
+                "Values": [
+                  "ABERRANTS"
+                ]
+              }
+            ]
+          },
+          {
+            "Key": "Blessed Venom",
+            "GrantsAbilities": [
+              "Blessed Venom"
+            ]
+          },
+          {
+            "Key": "Elusive",
+            "GrantsAbilities": [
+              "Elusive"
+            ]
+          },
+          {
+            "Key": "Insidious Evasion",
+            "GrantsAbilities": [
+              "Insidious Evasion"
+            ]
+          },
+          {
+            "Key": "Psychic Spoor",
+            "GrantsAbilities": [
+              "Psychic Spoor"
+            ]
+          },
+          {
+            "Key": "Shadow Killer",
+            "GrantsAbilities": [
+              "Shadow Killer"
+            ]
+          },
+          {
+            "Key": "Spiritual Leader",
+            "GrantsAbilities": [
+              "Spiritual Leader"
+            ]
+          },
+          {
+            "Key": "Twisted Science",
+            "GrantsAbilities": [
+              "Twisted Science"
+            ]
+          },
+          {
+            "Key": "Voice of New Truths",
+            "GrantsAbilities": [
+              "Voice of New Truths"
+            ]
+          }
+        ]
+      },
+      "UnitAbilities": [
+        {
+          "Title": "Cult Demagogue",
+          "Text": "While this model is leading a unit, each time a model in that unit makes an attack, you can re-roll the Hit roll."
+        },
+        {
+          "Title": "Blessed Venom",
+          "Text": "Melee weapons equipped by models in this unit have the [ANTI-INFANTRY 3+] ability."
+        },
+        {
+          "Title": "Elusive",
+          "Text": "Once per turn, when an enemy unit ends a Normal, Advance or Fall Back move within 9\" of this model, if this model is not part of an Attached unit and if this model is not within Engagement Range of one or more enemy units, it can make a Normal move of up to 6\"."
+        },
+        {
+          "Title": "Insidious Evasion",
+          "Text": "At the end of your opponent’s Fight phase, if this unit is not within Engagement Range of any enemy units, once per battle, you may remove this unit from the battlefield and place it into Strategic Reserves."
+        },
+        {
+          "Title": "Psychic Spoor",
+          "Text": "At the start of the first battle round, select one enemy unit to be this model’s prey. Each time this model makes an attack that targets its prey, you can re-roll the Hit roll and you can re-roll the Wound roll."
+        },
+        {
+          "Title": "Shadow Killer",
+          "Text": "If this model is not part of an Attached unit and if this model is equipped with no ranged weapons (excluding pistols), enemy units cannot use the Fire Overwatch Stratagem to shoot at this model."
+        },
+        {
+          "Title": "Spiritual Leader",
+          "Text": "Once per battle, at the start of any phase, you can select one friendly Genestealer Cults unit that is Battle-shocked and within 12\" of this model. That unit is no longer Battle-shocked."
+        },
+        {
+          "Title": "Twisted Science",
+          "Text": "While this model is leading a unit, melee weapons equipped by models in that unit have the [LETHAL HITS] ability."
+        },
+        {
+          "Title": "Voice of New Truths",
+          "Text": "In your Command phase, one model from your army with this ability can use it. If it does, select one enemy unit within 18\" of it; that enemy unit must take a Battle-shock test."
+        }
+      ],
+      "LeaderInfo": {
+        "UnitNames": [
+          "ACOLYTE HYBRIDS WITH HAND FLAMERS",
+          "ACOLYTE HYBRIDS WITH AUTOPISTOLS",
+          "HYBRID METAMORPHS",
+          "NEOPHYTE HYBRIDS"
+        ],
+        "Abilities": [
+          {
+            "AbilityId": "Cult Demagogue"
+          },
+          {
+            "AbilityId": "Twisted Science",
+            "WeaponStatAdjustments": [
+              {
+                "Value": "LETHAL HITS",
+                "Type": "Add",
+                "Scope": "Unit",
+                "Target": "Keywords"
+              }
+            ]
+          }
+        ]
+      },
+      "Infos": [],
+      "Keywords": [
+        "Infantry",
+        "Character",
+        "Great Devourer",
+        "Cult Insurrectionist"
+      ],
+      "CoreAbilities": [
+        "Crucible",
+        "Deep Strike",
+        "Leader"
+      ],
+      "FactionKeywords": [
+        "Genestealer Cults"
+      ],
+      "StatLines": [
+        {
+          "Movement": "6\"",
+          "Toughness": "3",
+          "Save": "5+",
+          "Wounds": "4",
+          "Leadership": "6+",
+          "OC": "1",
+          "InvulSave": {
+            "Save": "5+"
+          }
+        }
+      ],
+      "Weapons": [
+        {
+          "Name": "RANGED WEAPONS",
+          "Weapons": [
+            {
+              "Name": "Chemical vials",
+              "Keywords": "ANTI-INFANTRY 2+",
+              "Range": "6\"",
+              "Attacks": "1",
+              "ToHit": "3+",
+              "Strength": "1",
+              "AP": "-1",
+              "Damage": "2"
+            },
+            {
+              "Name": "Cult sniper rifle",
+              "Keywords": "ANTI-PSYKER 2+, HEAVY, PRECISION",
+              "Range": "36\"",
+              "Attacks": "1",
+              "ToHit": "3+",
+              "Strength": "7",
+              "AP": "-2",
+              "Damage": "3"
+            },
+            {
+              "Name": "Demolition charges",
+              "Keywords": "ASSAULT, BLAST, ONE SHOT",
+              "Range": "6\"",
+              "Attacks": "D6",
+              "ToHit": "3+",
+              "Strength": "9",
+              "AP": "-2",
+              "Damage": "2"
+            },
+            {
+              "Name": "Flamer",
+              "Keywords": "IGNORES COVER, TORRENT",
+              "Range": "12\"",
+              "Attacks": "D6",
+              "ToHit": "N/A",
+              "Strength": "4",
+              "AP": "0",
+              "Damage": "1"
+            },
+            {
+              "Name": "Grenade launcher – frag",
+              "Keywords": "BLAST",
+              "Range": "24\"",
+              "Attacks": "D3",
+              "ToHit": "3+",
+              "Strength": "4",
+              "AP": "0",
+              "Damage": "1"
+            },
+            {
+              "Name": "Grenade launcher – krak",
+              "Range": "24\"",
+              "Attacks": "1",
+              "ToHit": "3+",
+              "Strength": "9",
+              "AP": "-2",
+              "Damage": "D3"
+            },
+            {
+              "Name": "Heavy stubber",
+              "Keywords": "RAPID FIRE 3",
+              "Range": "36\"",
+              "Attacks": "3",
+              "ToHit": "3+",
+              "Strength": "4",
+              "AP": "0",
+              "Damage": "1"
+            },
+            {
+              "Name": "Hybrid firearm",
+              "Keywords": "RAPID FIRE 1",
+              "Range": "24\"",
+              "Attacks": "1",
+              "ToHit": "3+",
+              "Strength": "3",
+              "AP": "0",
+              "Damage": "1"
+            },
+            {
+              "Name": "Mining laser",
+              "Keywords": "HEAVY",
+              "Range": "24\"",
+              "Attacks": "1",
+              "ToHit": "4+",
+              "Strength": "10",
+              "AP": "-3",
+              "Damage": "D6+1"
+            },
+            {
+              "Name": "Remote explosives",
+              "Keywords": "BLAST, INDIRECT FIRE",
+              "Range": "24\"",
+              "Attacks": "D6+3",
+              "ToHit": "3+",
+              "Strength": "5",
+              "AP": "0",
+              "Damage": "1"
+            },
+            {
+              "Name": "Seismic cannon",
+              "Keywords": "HEAVY, RAPID FIRE 2",
+              "Range": "24\"",
+              "Attacks": "2",
+              "ToHit": "4+",
+              "Strength": "6",
+              "AP": "-1",
+              "Damage": "D3"
+            },
+            {
+              "Name": "Webber",
+              "Keywords": "DEVASTATING WOUNDS, TORRENT",
+              "Range": "12\"",
+              "Attacks": "D6",
+              "ToHit": "N/A",
+              "Strength": "2",
+              "AP": "0",
+              "Damage": "1"
+            },
+            {
+              "Name": "Anointed pistol",
+              "Keywords": "PISTOL",
+              "Range": "12\"",
+              "Attacks": "1",
+              "ToHit": "2+",
+              "Strength": "4",
+              "AP": "0",
+              "Damage": "1"
+            },
+            {
+              "Name": "Autopistol",
+              "Keywords": "PISTOL",
+              "Range": "12\"",
+              "Attacks": "1",
+              "ToHit": "2+",
+              "Strength": "3",
+              "AP": "0",
+              "Damage": "1"
+            },
+            {
+              "Name": "Hand flamer",
+              "Keywords": "IGNORES COVER, PISTOL, TORRENT",
+              "Range": "12\"",
+              "Attacks": "D6",
+              "ToHit": "N/A",
+              "Strength": "3",
+              "AP": "0",
+              "Damage": "1"
+            },
+            {
+              "Name": "Liberator autostub",
+              "Keywords": "DEVASTATING WOUNDS, PISTOL",
+              "Range": "12\"",
+              "Attacks": "2",
+              "ToHit": "2+",
+              "Strength": "6",
+              "AP": "-2",
+              "Damage": "1"
+            },
+            {
+              "Name": "Scoped needle pistol",
+              "Keywords": "ANTI-INFANTRY 2+, IGNORES COVER, PISTOL",
+              "Range": "18\"",
+              "Attacks": "1",
+              "ToHit": "2+",
+              "Strength": "1",
+              "AP": "0",
+              "Damage": "D3"
+            }
+          ]
+        },
+        {
+          "IsMelee": true,
+          "Name": "MELEE WEAPONS",
+          "Weapons": [
+            {
+              "Name": "Bio-dagger",
+              "Keywords": "ANTI-INFANTRY 3+, PRECISION",
+              "Range": "Melee",
+              "Attacks": "6",
+              "ToHit": "2+",
+              "Strength": "3",
+              "AP": "-2",
+              "Damage": "2"
+            },
+            {
+              "Name": "Close-combat weapon",
+              "Range": "Melee",
+              "Attacks": "4",
+              "ToHit": "3+",
+              "Strength": "3",
+              "AP": "0",
+              "Damage": "1"
+            },
+            {
+              "Name": "Cult bonesword",
+              "Range": "Melee",
+              "Attacks": "5",
+              "ToHit": "2+",
+              "Strength": "5",
+              "AP": "-2",
+              "Damage": "1"
+            },
+            {
+              "Name": "cult claws & talons",
+              "Range": "Melee",
+              "Attacks": "4",
+              "ToHit": "2+",
+              "Strength": "4",
+              "AP": "-2",
+              "Damage": "1"
+            },
+            {
+              "Name": "Heavy mining tool",
+              "Keywords": "ANTI-VEHICLE 4+",
+              "Range": "Melee",
+              "Attacks": "3",
+              "ToHit": "3+",
+              "Strength": "5",
+              "AP": "-2",
+              "Damage": "3"
+            },
+            {
+              "Name": "Injector goad",
+              "Keywords": "ANTI-INFANTRY 2+",
+              "Range": "Melee",
+              "Attacks": "1",
+              "ToHit": "3+",
+              "Strength": "2",
+              "AP": "0",
+              "Damage": "D3"
+            },
+            {
+              "Name": "Metamorph mutations – strike",
+              "Range": "Melee",
+              "Attacks": "3",
+              "ToHit": "2+",
+              "Strength": "5",
+              "AP": "-1",
+              "Damage": "2"
+            },
+            {
+              "Name": "Metamorph mutations – sweep",
+              "Range": "Melee",
+              "Attacks": "5",
+              "ToHit": "2+",
+              "Strength": "4",
+              "AP": "-1",
+              "Damage": "1"
+            },
+            {
+              "Name": "Power weapon",
+              "Range": "Melee",
+              "Attacks": "4",
+              "ToHit": "2+",
+              "Strength": "4",
+              "AP": "-2",
+              "Damage": "1"
+            },
+            {
+              "Name": "Toxin injector claw",
+              "Keywords": "ANTI-INFANTRY 2+, EXTRA ATTACKS",
+              "Range": "Melee",
+              "Attacks": "2",
+              "ToHit": "2+",
+              "Strength": "2",
+              "AP": "0",
+              "Damage": "D3"
+            }
+          ]
+        }
+      ],
+      "Upgrades": [],
+      "Points": [
+        {
+          "ModelCount": 1,
+          "Cost": 80
+        }
+      ]
+    },
+    {
+      "Name": "CULT GUERRILLA",
+      "Faction": "Cult Ambush",
+      "Flags": 4,
+      "UnitComposition": {
+        "ModelCompositions": [
+          {
+            "ModelName": "Cult Guerrilla",
+            "Wargear": [
+              {
+                "InitalWargear": [],
+                "Options": [
+                  {
+                    "Options": [
+                      "chemical vials",
+                      "cult sniper rifle",
+                      "demolition charges",
+                      "flamer",
+                      "grenade launcher",
+                      "heavy stubber",
+                      "hybrid firearm",
+                      "mining laser",
+                      "remote explosives",
+                      "seismic cannon",
+                      "webber"
+                    ]
+                  },
+                  {
+                    "Options": [
+                      "anointed pistol",
+                      "autopistol",
+                      "hand flamer",
+                      "liberator autostub",
+                      "scoped needle pistol"
+                    ]
+                  },
+                  {
+                    "Options": [
+                      "anointed pistol",
+                      "autopistol",
+                      "hand flamer",
+                      "liberator autostub",
+                      "scoped needle pistol"
+                    ]
+                  },
+                  {
+                    "Options": [
+                      "anointed pistol",
+                      "autopistol",
+                      "hand flamer",
+                      "liberator autostub",
+                      "scoped needle pistol"
+                    ]
+                  },
+                  {
+                    "Options": [
+                      "bio-dagger",
+                      "close-combat weapon",
+                      "cult bonesword",
+                      "cult claws & talons",
+                      "heavy mining tool",
+                      "injector goad",
+                      "metamorph mutations",
+                      "power weapon",
+                      "toxin injector claw"
+                    ]
+                  },
+                  {
+                    "Options": [
+                      "bio-dagger",
+                      "close-combat weapon",
+                      "cult bonesword",
+                      "cult claws & talons",
+                      "heavy mining tool",
+                      "injector goad",
+                      "metamorph mutations",
+                      "power weapon"
+                    ]
+                  },
+                  {
+                    "Options": [
+                      "bio-dagger",
+                      "close-combat weapon",
+                      "cult bonesword",
+                      "cult claws & talons",
+                      "heavy mining tool",
+                      "injector goad",
+                      "metamorph mutations",
+                      "power weapon"
+                    ]
+                  },
+                  {
+                    "Options": [
+                      "Dirtcycle",
+                      "Shepherd of the Blessed"
+                    ]
+                  },
+                  {
+                    "Options": [
+                      "Blessed Venom",
+                      "Elusive",
+                      "Insidious Evasion",
+                      "Psychic Spoor",
+                      "Shadow Killer",
+                      "Spiritual Leader",
+                      "Twisted Science",
+                      "Voice of New Truths"
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "WargearDefinitions": [
+          {
+            "Key": "Dirtcycle",
+            "GrantsAbilities": [
+              "Dirtcycle"
+            ],
+            "StatAdjustments": [
+              {
+                "Value": "12\""
+              },
+              {
+                "Target": "Toughness",
+                "Value": "4"
+              }
+            ],
+            "DatasheetAdjustments": [
+              {
+                "Target": "Keywords",
+                "Type": "Add",
+                "Values": [
+                  "Mounted"
+                ]
+              },
+              {
+                "Target": "Keywords",
+                "Type": "Subtract",
+                "Values": [
+                  "Infantry"
+                ]
+              },
+              {
+                "Target": "CoreAbilities",
+                "Type": "Add",
+                "Values": [
+                  "Scouts 9\"",
+                  "Stealth"
+                ]
+              },
+              {
+                "Target": "LedUnitNames",
+                "Values": [
+                  "ATALAN JACKALS"
+                ]
+              }
+            ]
+          },
+          {
+            "Key": "Shepherd of the Blessed",
+            "GrantsAbilities": [
+              "Shepherd of the Blessed"
+            ],
+            "DatasheetAdjustments": [
+              {
+                "Target": "LedUnitNames",
+                "Values": [
+                  "ABERRANTS"
+                ]
+              }
+            ]
+          },
+          {
+            "Key": "Blessed Venom",
+            "GrantsAbilities": [
+              "Blessed Venom"
+            ]
+          },
+          {
+            "Key": "Elusive",
+            "GrantsAbilities": [
+              "Elusive"
+            ]
+          },
+          {
+            "Key": "Insidious Evasion",
+            "GrantsAbilities": [
+              "Insidious Evasion"
+            ]
+          },
+          {
+            "Key": "Psychic Spoor",
+            "GrantsAbilities": [
+              "Psychic Spoor"
+            ]
+          },
+          {
+            "Key": "Shadow Killer",
+            "GrantsAbilities": [
+              "Shadow Killer"
+            ]
+          },
+          {
+            "Key": "Spiritual Leader",
+            "GrantsAbilities": [
+              "Spiritual Leader"
+            ]
+          },
+          {
+            "Key": "Twisted Science",
+            "GrantsAbilities": [
+              "Twisted Science"
+            ]
+          },
+          {
+            "Key": "Voice of New Truths",
+            "GrantsAbilities": [
+              "Voice of New Truths"
+            ]
+          }
+        ]
+      },
+      "UnitAbilities": [
+        {
+          "Title": "Battlefield Analysis",
+          "Text": "Once per battle round, one model from your army with this ability can use it when its unit is targeted with a Stratagem. If it does, reduce the CP cost of that use of that Stratagem by 1CP."
+        },
+        {
+          "Title": "Blessed Venom",
+          "Text": "Melee weapons equipped by models in this unit have the [ANTI-INFANTRY 3+] ability."
+        },
+        {
+          "Title": "Elusive",
+          "Text": "Once per turn, when an enemy unit ends a Normal, Advance or Fall Back move within 9\" of this model, if this model is not part of an Attached unit and if this model is not within Engagement Range of one or more enemy units, it can make a Normal move of up to 6\"."
+        },
+        {
+          "Title": "Insidious Evasion",
+          "Text": "At the end of your opponent’s Fight phase, if this unit is not within Engagement Range of any enemy units, once per battle, you may remove this unit from the battlefield and place it into Strategic Reserves."
+        },
+        {
+          "Title": "Psychic Spoor",
+          "Text": "At the start of the first battle round, select one enemy unit to be this model’s prey. Each time this model makes an attack that targets its prey, you can re-roll the Hit roll and you can re-roll the Wound roll."
+        },
+        {
+          "Title": "Shadow Killer",
+          "Text": "If this model is not part of an Attached unit and if this model is equipped with no ranged weapons (excluding pistols), enemy units cannot use the Fire Overwatch Stratagem to shoot at this model."
+        },
+        {
+          "Title": "Spiritual Leader",
+          "Text": "Once per battle, at the start of any phase, you can select one friendly Genestealer Cults unit that is Battle-shocked and within 12\" of this model. That unit is no longer Battle-shocked."
+        },
+        {
+          "Title": "Twisted Science",
+          "Text": "While this model is leading a unit, melee weapons equipped by models in that unit have the [LETHAL HITS] ability."
+        },
+        {
+          "Title": "Voice of New Truths",
+          "Text": "In your Command phase, one model from your army with this ability can use it. If it does, select one enemy unit within 18\" of it; that enemy unit must take a Battle-shock test."
+        }
+      ],
+      "LeaderInfo": {
+        "UnitNames": [
+          "ACOLYTE HYBRIDS WITH HAND FLAMERS",
+          "ACOLYTE HYBRIDS WITH AUTOPISTOLS",
+          "HYBRID METAMORPHS",
+          "NEOPHYTE HYBRIDS"
+        ],
+        "Abilities": [
+          {
+            "AbilityId": "Twisted Science",
+            "WeaponStatAdjustments": [
+              {
+                "Value": "LETHAL HITS",
+                "Type": "Add",
+                "Scope": "Unit",
+                "Target": "Keywords"
+              }
+            ]
+          }
+        ]
+      },
+      "Infos": [],
+      "Keywords": [
+        "Infantry",
+        "Character",
+        "Grenades",
+        "Great Devourer",
+        "Cult Guerrilla"
+      ],
+      "CoreAbilities": [
+        "Crucible",
+        "Deep Strike",
+        "Infiltrators",
+        "Leader",
+        "Lone Operative",
+        "Stealth"
+      ],
+      "FactionKeywords": [
+        "Genestealer Cults"
+      ],
+      "StatLines": [
+        {
+          "Movement": "6\"",
+          "Toughness": "3",
+          "Save": "5+",
+          "Wounds": "3",
+          "Leadership": "7+",
+          "OC": "1",
+          "InvulSave": {
+            "Save": "5+"
+          }
+        }
+      ],
+      "Weapons": [
+        {
+          "Name": "RANGED WEAPONS",
+          "Weapons": [
+            {
+              "Name": "Chemical vials",
+              "Keywords": "ANTI-INFANTRY 2+",
+              "Range": "6\"",
+              "Attacks": "1",
+              "ToHit": "3+",
+              "Strength": "1",
+              "AP": "-1",
+              "Damage": "2"
+            },
+            {
+              "Name": "Cult sniper rifle",
+              "Keywords": "ANTI-PSYKER 2+, HEAVY, PRECISION",
+              "Range": "36\"",
+              "Attacks": "1",
+              "ToHit": "3+",
+              "Strength": "7",
+              "AP": "-2",
+              "Damage": "3"
+            },
+            {
+              "Name": "Demolition charges",
+              "Keywords": "ASSAULT, BLAST, ONE SHOT",
+              "Range": "6\"",
+              "Attacks": "D6",
+              "ToHit": "3+",
+              "Strength": "9",
+              "AP": "-2",
+              "Damage": "2"
+            },
+            {
+              "Name": "Flamer",
+              "Keywords": "IGNORES COVER, TORRENT",
+              "Range": "12\"",
+              "Attacks": "D6",
+              "ToHit": "N/A",
+              "Strength": "4",
+              "AP": "0",
+              "Damage": "1"
+            },
+            {
+              "Name": "Grenade launcher – frag",
+              "Keywords": "BLAST",
+              "Range": "24\"",
+              "Attacks": "D3",
+              "ToHit": "3+",
+              "Strength": "4",
+              "AP": "0",
+              "Damage": "1"
+            },
+            {
+              "Name": "Grenade launcher – krak",
+              "Range": "24\"",
+              "Attacks": "1",
+              "ToHit": "3+",
+              "Strength": "9",
+              "AP": "-2",
+              "Damage": "D3"
+            },
+            {
+              "Name": "Heavy stubber",
+              "Keywords": "RAPID FIRE 3",
+              "Range": "36\"",
+              "Attacks": "3",
+              "ToHit": "3+",
+              "Strength": "4",
+              "AP": "0",
+              "Damage": "1"
+            },
+            {
+              "Name": "Hybrid firearm",
+              "Keywords": "RAPID FIRE 1",
+              "Range": "24\"",
+              "Attacks": "1",
+              "ToHit": "3+",
+              "Strength": "3",
+              "AP": "0",
+              "Damage": "1"
+            },
+            {
+              "Name": "Mining laser",
+              "Keywords": "HEAVY",
+              "Range": "24\"",
+              "Attacks": "1",
+              "ToHit": "4+",
+              "Strength": "10",
+              "AP": "-3",
+              "Damage": "D6+1"
+            },
+            {
+              "Name": "Remote explosives",
+              "Keywords": "BLAST, INDIRECT FIRE",
+              "Range": "24\"",
+              "Attacks": "D6+3",
+              "ToHit": "3+",
+              "Strength": "5",
+              "AP": "0",
+              "Damage": "1"
+            },
+            {
+              "Name": "Seismic cannon",
+              "Keywords": "HEAVY, RAPID FIRE 2",
+              "Range": "24\"",
+              "Attacks": "2",
+              "ToHit": "4+",
+              "Strength": "6",
+              "AP": "-1",
+              "Damage": "D3"
+            },
+            {
+              "Name": "Webber",
+              "Keywords": "DEVASTATING WOUNDS, TORRENT",
+              "Range": "12\"",
+              "Attacks": "D6",
+              "ToHit": "N/A",
+              "Strength": "2",
+              "AP": "0",
+              "Damage": "1"
+            },
+            {
+              "Name": "Anointed pistol",
+              "Keywords": "PISTOL",
+              "Range": "12\"",
+              "Attacks": "1",
+              "ToHit": "2+",
+              "Strength": "4",
+              "AP": "0",
+              "Damage": "1"
+            },
+            {
+              "Name": "Autopistol",
+              "Keywords": "PISTOL",
+              "Range": "12\"",
+              "Attacks": "1",
+              "ToHit": "2+",
+              "Strength": "3",
+              "AP": "0",
+              "Damage": "1"
+            },
+            {
+              "Name": "Hand flamer",
+              "Keywords": "IGNORES COVER, PISTOL, TORRENT",
+              "Range": "12\"",
+              "Attacks": "D6",
+              "ToHit": "N/A",
+              "Strength": "3",
+              "AP": "0",
+              "Damage": "1"
+            },
+            {
+              "Name": "Liberator autostub",
+              "Keywords": "DEVASTATING WOUNDS, PISTOL",
+              "Range": "12\"",
+              "Attacks": "2",
+              "ToHit": "2+",
+              "Strength": "6",
+              "AP": "-2",
+              "Damage": "1"
+            },
+            {
+              "Name": "Scoped needle pistol",
+              "Keywords": "ANTI-INFANTRY 2+, IGNORES COVER, PISTOL",
+              "Range": "18\"",
+              "Attacks": "1",
+              "ToHit": "2+",
+              "Strength": "1",
+              "AP": "0",
+              "Damage": "D3"
+            }
+          ]
+        },
+        {
+          "IsMelee": true,
+          "Name": "MELEE WEAPONS",
+          "Weapons": [
+            {
+              "Name": "Bio-dagger",
+              "Keywords": "ANTI-INFANTRY 3+, PRECISION",
+              "Range": "Melee",
+              "Attacks": "6",
+              "ToHit": "2+",
+              "Strength": "3",
+              "AP": "-2",
+              "Damage": "2"
+            },
+            {
+              "Name": "Close-combat weapon",
+              "Range": "Melee",
+              "Attacks": "4",
+              "ToHit": "3+",
+              "Strength": "3",
+              "AP": "0",
+              "Damage": "1"
+            },
+            {
+              "Name": "Cult bonesword",
+              "Range": "Melee",
+              "Attacks": "5",
+              "ToHit": "2+",
+              "Strength": "5",
+              "AP": "-2",
+              "Damage": "1"
+            },
+            {
+              "Name": "cult claws & talons",
+              "Range": "Melee",
+              "Attacks": "4",
+              "ToHit": "2+",
+              "Strength": "4",
+              "AP": "-2",
+              "Damage": "1"
+            },
+            {
+              "Name": "Heavy mining tool",
+              "Keywords": "ANTI-VEHICLE 4+",
+              "Range": "Melee",
+              "Attacks": "3",
+              "ToHit": "3+",
+              "Strength": "5",
+              "AP": "-2",
+              "Damage": "3"
+            },
+            {
+              "Name": "Injector goad",
+              "Keywords": "ANTI-INFANTRY 2+",
+              "Range": "Melee",
+              "Attacks": "1",
+              "ToHit": "3+",
+              "Strength": "2",
+              "AP": "0",
+              "Damage": "D3"
+            },
+            {
+              "Name": "Metamorph mutations – strike",
+              "Range": "Melee",
+              "Attacks": "3",
+              "ToHit": "2+",
+              "Strength": "5",
+              "AP": "-1",
+              "Damage": "2"
+            },
+            {
+              "Name": "Metamorph mutations – sweep",
+              "Range": "Melee",
+              "Attacks": "5",
+              "ToHit": "2+",
+              "Strength": "4",
+              "AP": "-1",
+              "Damage": "1"
+            },
+            {
+              "Name": "Power weapon",
+              "Range": "Melee",
+              "Attacks": "4",
+              "ToHit": "2+",
+              "Strength": "4",
+              "AP": "-2",
+              "Damage": "1"
+            },
+            {
+              "Name": "Toxin injector claw",
+              "Keywords": "ANTI-INFANTRY 2+, EXTRA ATTACKS",
+              "Range": "Melee",
+              "Attacks": "2",
+              "ToHit": "2+",
+              "Strength": "2",
+              "AP": "0",
+              "Damage": "D3"
+            }
+          ]
+        }
+      ],
+      "Upgrades": [],
+      "Points": [
+        {
+          "ModelCount": 1,
+          "Cost": 60
+        }
+      ]
+    },
+    {
+      "Name": "VOICE OF THE PATRIARCH",
+      "Faction": "Cult Ambush",
+      "Flags": 4,
+      "UnitComposition": {
+        "ModelCompositions": [
+          {
+            "ModelName": "Voice of the Patriarch",
+            "Wargear": [
+              {
+                "InitalWargear": [],
+                "Options": [
+                  {
+                    "Options": [
+                      "chemical vials",
+                      "cult sniper rifle",
+                      "demolition charges",
+                      "flamer",
+                      "grenade launcher",
+                      "heavy stubber",
+                      "hybrid firearm",
+                      "mining laser",
+                      "remote explosives",
+                      "seismic cannon",
+                      "webber",
+                      "psionic cascade"
+                    ]
+                  },
+                  {
+                    "Options": [
+                      "anointed pistol",
+                      "autopistol",
+                      "hand flamer",
+                      "liberator autostub",
+                      "scoped needle pistol"
+                    ]
+                  },
+                  {
+                    "Options": [
+                      "anointed pistol",
+                      "autopistol",
+                      "hand flamer",
+                      "liberator autostub",
+                      "scoped needle pistol"
+                    ]
+                  },
+                  {
+                    "Options": [
+                      "anointed pistol",
+                      "autopistol",
+                      "hand flamer",
+                      "liberator autostub",
+                      "scoped needle pistol"
+                    ]
+                  },
+                  {
+                    "Options": [
+                      "bio-dagger",
+                      "close-combat weapon",
+                      "cult bonesword",
+                      "cult claws & talons",
+                      "heavy mining tool",
+                      "injector goad",
+                      "metamorph mutations",
+                      "power weapon",
+                      "toxin injector claw",
+                      "force stave"
+                    ]
+                  },
+                  {
+                    "Options": [
+                      "bio-dagger",
+                      "close-combat weapon",
+                      "cult bonesword",
+                      "cult claws & talons",
+                      "heavy mining tool",
+                      "injector goad",
+                      "metamorph mutations",
+                      "power weapon",
+                      "force stave"
+                    ]
+                  },
+                  {
+                    "Options": [
+                      "bio-dagger",
+                      "close-combat weapon",
+                      "cult bonesword",
+                      "cult claws & talons",
+                      "heavy mining tool",
+                      "injector goad",
+                      "metamorph mutations",
+                      "power weapon",
+                      "force stave"
+                    ]
+                  },
+                  {
+                    "Options": [
+                      "Dirtcycle",
+                      "Shepherd of the Blessed"
+                    ]
+                  },
+                  {
+                    "Options": [
+                      "Blessed Venom",
+                      "Elusive",
+                      "Insidious Evasion",
+                      "Psychic Spoor",
+                      "Shadow Killer",
+                      "Spiritual Leader",
+                      "Twisted Science",
+                      "Voice of New Truths"
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "WargearDefinitions": [
+          {
+            "Key": "Dirtcycle",
+            "GrantsAbilities": [
+              "Dirtcycle"
+            ],
+            "StatAdjustments": [
+              {
+                "Value": "12\""
+              },
+              {
+                "Target": "Toughness",
+                "Value": "4"
+              }
+            ],
+            "DatasheetAdjustments": [
+              {
+                "Target": "Keywords",
+                "Type": "Add",
+                "Values": [
+                  "Mounted"
+                ]
+              },
+              {
+                "Target": "Keywords",
+                "Type": "Subtract",
+                "Values": [
+                  "Infantry"
+                ]
+              },
+              {
+                "Target": "CoreAbilities",
+                "Type": "Add",
+                "Values": [
+                  "Scouts 9\"",
+                  "Stealth"
+                ]
+              },
+              {
+                "Target": "LedUnitNames",
+                "Values": [
+                  "ATALAN JACKALS"
+                ]
+              }
+            ]
+          },
+          {
+            "Key": "Shepherd of the Blessed",
+            "GrantsAbilities": [
+              "Shepherd of the Blessed"
+            ],
+            "DatasheetAdjustments": [
+              {
+                "Target": "LedUnitNames",
+                "Values": [
+                  "ABERRANTS"
+                ]
+              }
+            ]
+          },
+          {
+            "Key": "Blessed Venom",
+            "GrantsAbilities": [
+              "Blessed Venom"
+            ]
+          },
+          {
+            "Key": "Elusive",
+            "GrantsAbilities": [
+              "Elusive"
+            ]
+          },
+          {
+            "Key": "Insidious Evasion",
+            "GrantsAbilities": [
+              "Insidious Evasion"
+            ]
+          },
+          {
+            "Key": "Psychic Spoor",
+            "GrantsAbilities": [
+              "Psychic Spoor"
+            ]
+          },
+          {
+            "Key": "Shadow Killer",
+            "GrantsAbilities": [
+              "Shadow Killer"
+            ]
+          },
+          {
+            "Key": "Spiritual Leader",
+            "GrantsAbilities": [
+              "Spiritual Leader"
+            ]
+          },
+          {
+            "Key": "Twisted Science",
+            "GrantsAbilities": [
+              "Twisted Science"
+            ]
+          },
+          {
+            "Key": "Voice of New Truths",
+            "GrantsAbilities": [
+              "Voice of New Truths"
+            ]
+          }
+        ]
+      },
+      "UnitAbilities": [
+        {
+          "Title": "Biohorror Disruption (Psychic)",
+          "Text": "Ranged weapons equipped by models in this unit have the [LETHAL HITS] ability."
+        },
+        {
+          "Title": "Blessed Venom",
+          "Text": "Melee weapons equipped by models in this unit have the [ANTI-INFANTRY 3+] ability."
+        },
+        {
+          "Title": "Elusive",
+          "Text": "Once per turn, when an enemy unit ends a Normal, Advance or Fall Back move within 9\" of this model, if this model is not part of an Attached unit and if this model is not within Engagement Range of one or more enemy units, it can make a Normal move of up to 6\"."
+        },
+        {
+          "Title": "Insidious Evasion",
+          "Text": "At the end of your opponent’s Fight phase, if this unit is not within Engagement Range of any enemy units, once per battle, you may remove this unit from the battlefield and place it into Strategic Reserves."
+        },
+        {
+          "Title": "Psychic Spoor",
+          "Text": "At the start of the first battle round, select one enemy unit to be this model’s prey. Each time this model makes an attack that targets its prey, you can re-roll the Hit roll and you can re-roll the Wound roll."
+        },
+        {
+          "Title": "Shadow Killer",
+          "Text": "If this model is not part of an Attached unit and if this model is equipped with no ranged weapons (excluding pistols), enemy units cannot use the Fire Overwatch Stratagem to shoot at this model."
+        },
+        {
+          "Title": "Spiritual Leader",
+          "Text": "Once per battle, at the start of any phase, you can select one friendly Genestealer Cults unit that is Battle-shocked and within 12\" of this model. That unit is no longer Battle-shocked."
+        },
+        {
+          "Title": "Twisted Science",
+          "Text": "While this model is leading a unit, melee weapons equipped by models in that unit have the [LETHAL HITS] ability."
+        },
+        {
+          "Title": "Voice of New Truths",
+          "Text": "In your Command phase, one model from your army with this ability can use it. If it does, select one enemy unit within 18\" of it; that enemy unit must take a Battle-shock test."
+        }
+      ],
+      "LeaderInfo": {
+        "UnitNames": [
+          "ACOLYTE HYBRIDS WITH HAND FLAMERS",
+          "ACOLYTE HYBRIDS WITH AUTOPISTOLS",
+          "HYBRID METAMORPHS",
+          "NEOPHYTE HYBRIDS"
+        ],
+        "Abilities": [
+          {
+            "AbilityId": "Twisted Science",
+            "WeaponStatAdjustments": [
+              {
+                "Value": "LETHAL HITS",
+                "Type": "Add",
+                "Scope": "Unit",
+                "Target": "Keywords"
+              }
+            ]
+          }
+        ]
+      },
+      "Infos": [],
+      "Keywords": [
+        "Infantry",
+        "Character",
+        "Psyker",
+        "Great Devourer",
+        "Voice of the Patriarch"
+      ],
+      "CoreAbilities": [
+        "Crucible",
+        "Deep Strike",
+        "Leader"
+      ],
+      "FactionKeywords": [
+        "Genestealer Cults"
+      ],
+      "StatLines": [
+        {
+          "Movement": "6\"",
+          "Toughness": "3",
+          "Save": "5+",
+          "Wounds": "4",
+          "Leadership": "6+",
+          "OC": "2",
+          "InvulSave": {
+            "Save": "5+"
+          }
+        }
+      ],
+      "Weapons": [
+        {
+          "Name": "RANGED WEAPONS",
+          "Weapons": [
+            {
+              "Name": "Chemical vials",
+              "Keywords": "ANTI-INFANTRY 2+",
+              "Range": "6\"",
+              "Attacks": "1",
+              "ToHit": "3+",
+              "Strength": "1",
+              "AP": "-1",
+              "Damage": "2"
+            },
+            {
+              "Name": "Cult sniper rifle",
+              "Keywords": "ANTI-PSYKER 2+, HEAVY, PRECISION",
+              "Range": "36\"",
+              "Attacks": "1",
+              "ToHit": "3+",
+              "Strength": "7",
+              "AP": "-2",
+              "Damage": "3"
+            },
+            {
+              "Name": "Demolition charges",
+              "Keywords": "ASSAULT, BLAST, ONE SHOT",
+              "Range": "6\"",
+              "Attacks": "D6",
+              "ToHit": "3+",
+              "Strength": "9",
+              "AP": "-2",
+              "Damage": "2"
+            },
+            {
+              "Name": "Flamer",
+              "Keywords": "IGNORES COVER, TORRENT",
+              "Range": "12\"",
+              "Attacks": "D6",
+              "ToHit": "N/A",
+              "Strength": "4",
+              "AP": "0",
+              "Damage": "1"
+            },
+            {
+              "Name": "Grenade launcher – frag",
+              "Keywords": "BLAST",
+              "Range": "24\"",
+              "Attacks": "D3",
+              "ToHit": "3+",
+              "Strength": "4",
+              "AP": "0",
+              "Damage": "1"
+            },
+            {
+              "Name": "Grenade launcher – krak",
+              "Range": "24\"",
+              "Attacks": "1",
+              "ToHit": "3+",
+              "Strength": "9",
+              "AP": "-2",
+              "Damage": "D3"
+            },
+            {
+              "Name": "Heavy stubber",
+              "Keywords": "RAPID FIRE 3",
+              "Range": "36\"",
+              "Attacks": "3",
+              "ToHit": "3+",
+              "Strength": "4",
+              "AP": "0",
+              "Damage": "1"
+            },
+            {
+              "Name": "Hybrid firearm",
+              "Keywords": "RAPID FIRE 1",
+              "Range": "24\"",
+              "Attacks": "1",
+              "ToHit": "3+",
+              "Strength": "3",
+              "AP": "0",
+              "Damage": "1"
+            },
+            {
+              "Name": "Mining laser",
+              "Keywords": "HEAVY",
+              "Range": "24\"",
+              "Attacks": "1",
+              "ToHit": "4+",
+              "Strength": "10",
+              "AP": "-3",
+              "Damage": "D6+1"
+            },
+            {
+              "Name": "Remote explosives",
+              "Keywords": "BLAST, INDIRECT FIRE",
+              "Range": "24\"",
+              "Attacks": "D6+3",
+              "ToHit": "3+",
+              "Strength": "5",
+              "AP": "0",
+              "Damage": "1"
+            },
+            {
+              "Name": "Seismic cannon",
+              "Keywords": "HEAVY, RAPID FIRE 2",
+              "Range": "24\"",
+              "Attacks": "2",
+              "ToHit": "4+",
+              "Strength": "6",
+              "AP": "-1",
+              "Damage": "D3"
+            },
+            {
+              "Name": "Webber",
+              "Keywords": "DEVASTATING WOUNDS, TORRENT",
+              "Range": "12\"",
+              "Attacks": "D6",
+              "ToHit": "N/A",
+              "Strength": "2",
+              "AP": "0",
+              "Damage": "1"
+            },
+            {
+              "Name": "Anointed pistol",
+              "Keywords": "PISTOL",
+              "Range": "12\"",
+              "Attacks": "1",
+              "ToHit": "2+",
+              "Strength": "4",
+              "AP": "0",
+              "Damage": "1"
+            },
+            {
+              "Name": "Autopistol",
+              "Keywords": "PISTOL",
+              "Range": "12\"",
+              "Attacks": "1",
+              "ToHit": "2+",
+              "Strength": "3",
+              "AP": "0",
+              "Damage": "1"
+            },
+            {
+              "Name": "Hand flamer",
+              "Keywords": "IGNORES COVER, PISTOL, TORRENT",
+              "Range": "12\"",
+              "Attacks": "D6",
+              "ToHit": "N/A",
+              "Strength": "3",
+              "AP": "0",
+              "Damage": "1"
+            },
+            {
+              "Name": "Liberator autostub",
+              "Keywords": "DEVASTATING WOUNDS, PISTOL",
+              "Range": "12\"",
+              "Attacks": "2",
+              "ToHit": "2+",
+              "Strength": "6",
+              "AP": "-2",
+              "Damage": "1"
+            },
+            {
+              "Name": "Scoped needle pistol",
+              "Keywords": "ANTI-INFANTRY 2+, IGNORES COVER, PISTOL",
+              "Range": "18\"",
+              "Attacks": "1",
+              "ToHit": "2+",
+              "Strength": "1",
+              "AP": "0",
+              "Damage": "D3"
+            },
+            {
+              "Name": "Psionic Cascade – witchfire",
+              "Keywords": "IGNORES COVER, PSYCHIC",
+              "Range": "18\"",
+              "Attacks": "1",
+              "ToHit": "3+",
+              "Strength": "12",
+              "AP": "-3",
+              "Damage": "D6+1"
+            },
+            {
+              "Name": "Psionic Cascade – focused witchfire",
+              "Keywords": "HAZARDOUS, IGNORES COVER, PSYCHIC",
+              "Range": "18\"",
+              "Attacks": "2",
+              "ToHit": "3+",
+              "Strength": "12",
+              "AP": "-3",
+              "Damage": "D6+1"
+            }
+          ]
+        },
+        {
+          "IsMelee": true,
+          "Name": "MELEE WEAPONS",
+          "Weapons": [
+            {
+              "Name": "Bio-dagger",
+              "Keywords": "ANTI-INFANTRY 3+, PRECISION",
+              "Range": "Melee",
+              "Attacks": "6",
+              "ToHit": "2+",
+              "Strength": "3",
+              "AP": "-2",
+              "Damage": "2"
+            },
+            {
+              "Name": "Close-combat weapon",
+              "Range": "Melee",
+              "Attacks": "4",
+              "ToHit": "3+",
+              "Strength": "3",
+              "AP": "0",
+              "Damage": "1"
+            },
+            {
+              "Name": "Cult bonesword",
+              "Range": "Melee",
+              "Attacks": "5",
+              "ToHit": "2+",
+              "Strength": "5",
+              "AP": "-2",
+              "Damage": "1"
+            },
+            {
+              "Name": "cult claws & talons",
+              "Range": "Melee",
+              "Attacks": "4",
+              "ToHit": "2+",
+              "Strength": "4",
+              "AP": "-2",
+              "Damage": "1"
+            },
+            {
+              "Name": "Heavy mining tool",
+              "Keywords": "ANTI-VEHICLE 4+",
+              "Range": "Melee",
+              "Attacks": "3",
+              "ToHit": "3+",
+              "Strength": "5",
+              "AP": "-2",
+              "Damage": "3"
+            },
+            {
+              "Name": "Injector goad",
+              "Keywords": "ANTI-INFANTRY 2+",
+              "Range": "Melee",
+              "Attacks": "1",
+              "ToHit": "3+",
+              "Strength": "2",
+              "AP": "0",
+              "Damage": "D3"
+            },
+            {
+              "Name": "Metamorph mutations – strike",
+              "Range": "Melee",
+              "Attacks": "3",
+              "ToHit": "2+",
+              "Strength": "5",
+              "AP": "-1",
+              "Damage": "2"
+            },
+            {
+              "Name": "Metamorph mutations – sweep",
+              "Range": "Melee",
+              "Attacks": "5",
+              "ToHit": "2+",
+              "Strength": "4",
+              "AP": "-1",
+              "Damage": "1"
+            },
+            {
+              "Name": "Power weapon",
+              "Range": "Melee",
+              "Attacks": "4",
+              "ToHit": "2+",
+              "Strength": "4",
+              "AP": "-2",
+              "Damage": "1"
+            },
+            {
+              "Name": "Toxin injector claw",
+              "Keywords": "ANTI-INFANTRY 2+, EXTRA ATTACKS",
+              "Range": "Melee",
+              "Attacks": "2",
+              "ToHit": "2+",
+              "Strength": "2",
+              "AP": "0",
+              "Damage": "D3"
+            },
+            {
+              "Name": "Force stave",
+              "Keywords": "PSYCHIC",
+              "Range": "Melee",
+              "Attacks": "3",
+              "ToHit": "3+",
+              "Strength": "5",
+              "AP": "-1",
+              "Damage": "D3"
+            }
+          ]
+        }
+      ],
+      "Upgrades": [],
+      "Points": [
+        {
+          "ModelCount": 1,
+          "Cost": 70
+        }
+      ]
+    }
+  ],
+  "Dettachments": [],
+  "ArmyRules": []
+}

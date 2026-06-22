@@ -1,0 +1,1950 @@
+{
+  "Name": "Adepta Sororitas",
+  "Units": [
+    {
+      "Name": "REPRESSOR",
+      "Faction": "Acts of Faith",
+      "UnitComposition": {
+        "ModelCompositions": [
+          {
+            "ModelName": "Repressor",
+            "Wargear": [
+              {
+                "InitalWargear": [
+                  "Repressor twin heavy flamer",
+                  "storm bolter",
+                  "dozer ram"
+                ],
+                "Options": [
+                  {
+                    "Options": [
+                      "hunter-killer missile"
+                    ]
+                  },
+                  {
+                    "Options": [
+                      "heavy flamer",
+                      "storm bolter"
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "WargearDefinitions": []
+      },
+      "UnitAbilities": [
+        {
+          "Title": "Emergency Combat Embarkation",
+          "Text": "Once per turn, in your opponent’s Charge phase, after an enemy unit has selected targets for its charge but before it makes a Charge move, you can select one Adepta Sororitas unit from your army that was selected as a target of that charge. Provided that unit is not within Engagement Range of any enemy units and every model in that unit is within 3\" of this Transport, it can embark within this Transport."
+        }
+      ],
+      "Infos": [
+        {
+          "Title": "DAMAGED: 1-4 WOUNDS REMAINING",
+          "Text": "While this model has 1-4 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
+        },
+        {
+          "Title": "TRANSPORT",
+          "Text": "This model has a transport capacity of 12 Adepta Sororitas Infantry models. It cannot transport Jump Pack models or the Triumph of Saint Katherine."
+        }
+      ],
+      "Keywords": [
+        "Vehicle",
+        "Smoke",
+        "Transport",
+        "Dedicated Transport",
+        "Imperium",
+        "Repressor"
+      ],
+      "CoreAbilities": [
+        "Deadly Demise D3",
+        "Firing Deck 6"
+      ],
+      "FactionKeywords": [
+        "Adepta Sororitas"
+      ],
+      "StatLines": [
+        {
+          "Movement": "12\"",
+          "Toughness": "10",
+          "Save": "3+",
+          "Wounds": "12",
+          "Leadership": "7+",
+          "OC": "2",
+          "InvulSave": {
+            "Save": "6+"
+          }
+        }
+      ],
+      "Weapons": [
+        {
+          "Name": "RANGED WEAPONS",
+          "Weapons": [
+            {
+              "Name": "Heavy flamer",
+              "Keywords": "IGNORES COVER, TORRENT",
+              "Range": "12\"",
+              "Attacks": "D6",
+              "ToHit": "N/A",
+              "Strength": "6",
+              "AP": "-1",
+              "Damage": "1"
+            },
+            {
+              "Name": "Hunter-killer missile",
+              "Keywords": "ONE SHOT",
+              "Range": "48\"",
+              "Attacks": "1",
+              "ToHit": "2+",
+              "Strength": "14",
+              "AP": "-3",
+              "Damage": "D6"
+            },
+            {
+              "Name": "Repressor twin heavy flamer",
+              "Keywords": "IGNORES COVER, TORRENT, TWIN-LINKED",
+              "Range": "12\"",
+              "Attacks": "D6",
+              "ToHit": "N/A",
+              "Strength": "6",
+              "AP": "-1",
+              "Damage": "1"
+            },
+            {
+              "Name": "Storm bolter",
+              "Keywords": "RAPID FIRE 2",
+              "Range": "24\"",
+              "Attacks": "2",
+              "ToHit": "3+",
+              "Strength": "4",
+              "AP": "0",
+              "Damage": "1"
+            }
+          ]
+        },
+        {
+          "IsMelee": true,
+          "Name": "MELEE WEAPONS",
+          "Weapons": [
+            {
+              "Name": "Dozer ram",
+              "Range": "Melee",
+              "Attacks": "3",
+              "ToHit": "4+",
+              "Strength": "7",
+              "AP": "0",
+              "Damage": "1"
+            }
+          ]
+        }
+      ],
+      "Upgrades": [],
+      "Points": [
+        {
+          "ModelCount": 1,
+          "Cost": 130
+        }
+      ]
+    },
+    {
+      "Name": "BATTLE SANCTUM",
+      "Faction": "Acts of Faith",
+      "UnitComposition": {
+        "ModelCompositions": [
+          {
+            "ModelName": "Battle Sanctum",
+            "Wargear": [
+              {
+                "InitalWargear": [],
+                "Options": []
+              }
+            ]
+          }
+        ],
+        "WargearDefinitions": []
+      },
+      "UnitAbilities": [
+        {
+          "Title": "Consecrated Ground",
+          "Text": "When this Fortification is set up, all parts of it must be set up within 1\" of another part. Friendly Adepta Sororitas Infantry models can be set up or end any type of move on top of the floor sections of this Fortification. While an Adepta Sororitas unit from your army is within 1\" of this Fortification, that unit can perform one additional Act of Faith per phase."
+        },
+        {
+          "Title": "Holy Cover",
+          "Text": "Each time a ranged attack is allocated to a model, if that model is not fully visible to every model in the attacking unit because of this Fortification, that model has the Benefit of Cover against that attack."
+        }
+      ],
+      "Infos": [
+        {
+          "Title": "FORTIFICATION",
+          "Text": "While an enemy unit is only within Engagement Range of one or more Fortifications from your army:\n\t▪ That unit can still be selected as the target of ranged attacks, but each time such an attack is made,\nunless it is made with a Pistol, subtract 1 from the Hit roll.\n\t▪ Models in that unit do not need to take Desperate Escape tests due to Falling Back while Battleshocked, except for those that will move over enemy models when doing so."
+        }
+      ],
+      "Keywords": [
+        "Imperium",
+        "Fortification",
+        "Towering",
+        "Battle Sanctum"
+      ],
+      "CoreAbilities": [
+        "Deadly Demise D6"
+      ],
+      "FactionKeywords": [
+        "Adepta Sororitas"
+      ],
+      "StatLines": [
+        {
+          "Movement": "-",
+          "Toughness": "11",
+          "Save": "3+",
+          "Wounds": "20",
+          "Leadership": "7+",
+          "OC": "0"
+        }
+      ],
+      "Weapons": [],
+      "Upgrades": [],
+      "Points": [
+        {
+          "ModelCount": 1,
+          "Cost": 170
+        }
+      ]
+    },
+    {
+      "Name": "CRUSADERS",
+      "Faction": "Acts of Faith",
+      "UnitComposition": {
+        "ModelCompositions": [
+          {
+            "Limit": {
+              "Min": 2,
+              "Max": 4
+            },
+            "ModelName": "Crusaders",
+            "Wargear": [
+              {
+                "InitalWargear": [
+                  "power weapon"
+                ],
+                "Options": []
+              }
+            ]
+          }
+        ],
+        "WargearDefinitions": []
+      },
+      "UnitAbilities": [
+        {
+          "Title": "Spiritual Fortitude",
+          "Text": "Models in this unit have the Feel No Pain 4+ ability against Psychic Attacks and mortal wounds."
+        }
+      ],
+      "AttachedUnitInfo": {
+        "LeaderAttachmentRules": [
+          {
+            "LeaderKeyword": "Character",
+            "LedUnitNames": [
+              "BATTLE SISTERS SQUAD"
+            ]
+          }
+        ]
+      },
+      "Infos": [
+        {
+          "Title": "ATTACHED UNIT",
+          "Text": "If a model from your army with the Leader ability can be attached to a Battle Sisters Squad, it can be attached to this unit instead."
+        }
+      ],
+      "Keywords": [
+        "Infantry",
+        "Imperium",
+        "Crusaders"
+      ],
+      "CoreAbilities": [],
+      "FactionKeywords": [
+        "Adepta Sororitas"
+      ],
+      "StatLines": [
+        {
+          "Movement": "6\"",
+          "Toughness": "3",
+          "Save": "3+",
+          "Wounds": "2",
+          "Leadership": "7+",
+          "OC": "1",
+          "InvulSave": {
+            "Save": "4+"
+          }
+        }
+      ],
+      "Weapons": [
+        {
+          "IsMelee": true,
+          "Name": "MELEE WEAPONS",
+          "Weapons": [
+            {
+              "Name": "Power weapon",
+              "Range": "Melee",
+              "Attacks": "3",
+              "ToHit": "3+",
+              "Strength": "4",
+              "AP": "-2",
+              "Damage": "2"
+            }
+          ]
+        }
+      ],
+      "Upgrades": [],
+      "Points": [
+        {
+          "ModelCount": 2,
+          "Cost": 40
+        },
+        {
+          "ModelCount": 4,
+          "Cost": 80
+        }
+      ]
+    },
+    {
+      "Name": "DEATH CULT ASSASSINS",
+      "Faction": "Acts of Faith",
+      "UnitComposition": {
+        "ModelCompositions": [
+          {
+            "Limit": {
+              "Min": 2,
+              "Max": 4
+            },
+            "ModelName": "Death Cult Assassins",
+            "Wargear": [
+              {
+                "InitalWargear": [
+                  "Death Cult power blades"
+                ],
+                "Options": []
+              }
+            ]
+          }
+        ],
+        "WargearDefinitions": [
+          {
+            "Key": "Death Cult power blades",
+            "GrantsAbilities": [
+              "Death Cult"
+            ]
+          }
+        ]
+      },
+      "UnitAbilities": [
+        {
+          "Title": "Death Cult",
+          "Text": "Each time a model in this unit makes an attack that targets a Character unit, you can re-roll the Wound roll."
+        }
+      ],
+      "Infos": [],
+      "Keywords": [
+        "Infantry",
+        "Imperium",
+        "Death Cult Assassins"
+      ],
+      "CoreAbilities": [
+        "Fights First",
+        "Infiltrators",
+        "Lone Operative"
+      ],
+      "FactionKeywords": [
+        "Adepta Sororitas"
+      ],
+      "StatLines": [
+        {
+          "Movement": "7\"",
+          "Toughness": "3",
+          "Save": "5+",
+          "Wounds": "2",
+          "Leadership": "7+",
+          "OC": "1",
+          "InvulSave": {
+            "Save": "5+"
+          }
+        }
+      ],
+      "Weapons": [
+        {
+          "IsMelee": true,
+          "Name": "MELEE WEAPONS",
+          "Weapons": [
+            {
+              "Name": "Death Cult power blades",
+              "Keywords": "PRECISION",
+              "Range": "Melee",
+              "Attacks": "4",
+              "ToHit": "2+",
+              "Strength": "4",
+              "AP": "-2",
+              "Damage": "1"
+            }
+          ]
+        }
+      ],
+      "Upgrades": [],
+      "Points": [
+        {
+          "ModelCount": 2,
+          "Cost": 55
+        },
+        {
+          "ModelCount": 4,
+          "Cost": 110
+        }
+      ]
+    },
+    {
+      "Name": "CELESTIAN SACRESANT AVELINE",
+      "Faction": "Acts of Faith",
+      "UnitComposition": {
+        "ModelCompositions": [
+          {
+            "ModelName": "Celestian Sacresant Avelin",
+            "Wargear": [
+              {
+                "InitalWargear": [
+                  "Ministorum hand flamer",
+                  "The Thorn of the White Rose"
+                ],
+                "Options": []
+              }
+            ]
+          }
+        ],
+        "WargearDefinitions": []
+      },
+      "UnitAbilities": [
+        {
+          "Title": "Instrument of the Emperor’s Wrath",
+          "Text": "Once per battle, at the start of the Fight phase, this model can use this ability. If it does, until the end of the phase, add 3 to the Attacks characteristic of melee weapons equipped by this model and those weapons have the [DEVASTATING WOUNDS] ability."
+        },
+        {
+          "Title": "Daemonbreaker",
+          "Text": "Each time this model makes an attack that targets a Daemon unit, you can re-roll the Hit roll and you can re-roll the Wound roll."
+        }
+      ],
+      "Infos": [],
+      "Keywords": [
+        "Infantry",
+        "Character",
+        "Imperium",
+        "Grenades",
+        "Epic Hero",
+        "Celestian Sacresant Aveline"
+      ],
+      "CoreAbilities": [
+        "Feel No Pain 6+",
+        "Lone Operative"
+      ],
+      "FactionKeywords": [
+        "Adepta Sororitas"
+      ],
+      "StatLines": [
+        {
+          "Movement": "6\"",
+          "Toughness": "3",
+          "Save": "3+",
+          "Wounds": "4",
+          "Leadership": "7+",
+          "OC": "1",
+          "InvulSave": {
+            "Save": "4+"
+          }
+        }
+      ],
+      "Weapons": [
+        {
+          "Name": "RANGED WEAPONS",
+          "Weapons": [
+            {
+              "Name": "Ministorum hand flamer",
+              "Keywords": "IGNORES COVER, PISTOL, TORRENT",
+              "Range": "12\"",
+              "Attacks": "D6",
+              "ToHit": "N/A",
+              "Strength": "4",
+              "AP": "0",
+              "Damage": "1"
+            }
+          ]
+        },
+        {
+          "IsMelee": true,
+          "Name": "MELEE WEAPONS",
+          "Weapons": [
+            {
+              "Name": "The Thorn of the White Rose",
+              "Range": "Melee",
+              "Attacks": "4",
+              "ToHit": "3+",
+              "Strength": "5",
+              "AP": "-2",
+              "Damage": "2"
+            }
+          ]
+        }
+      ],
+      "Upgrades": [],
+      "Points": [
+        {
+          "ModelCount": 1,
+          "Cost": 45
+        }
+      ]
+    },
+    {
+      "Name": "MILITANT COMMANDER",
+      "Faction": "Acts of Faith",
+      "Flags": 4,
+      "UnitComposition": {
+        "ModelCompositions": [
+          {
+            "ModelName": "Militant Commander",
+            "Wargear": [
+              {
+                "InitalWargear": [],
+                "Options": [
+                  {
+                    "Options": [
+                      "Artificer-crafted storm bolter",
+                      "Autogun",
+                      "Bolter",
+                      "Brazier of holy fire",
+                      "Combi-weapon",
+                      "Condemnor boltgun",
+                      "Meltagun",
+                      "Ministorum flamer"
+                    ]
+                  },
+                  {
+                    "Options": [
+                      "Autopistol",
+                      "Bolt pistol",
+                      "Inferno pistol",
+                      "Ministorum hand flamer",
+                      "Plasma pistol"
+                    ]
+                  },
+                  {
+                    "Options": [
+                      "Autopistol",
+                      "Bolt pistol",
+                      "Inferno pistol",
+                      "Ministorum hand flamer",
+                      "Plasma pistol"
+                    ]
+                  },
+                  {
+                    "Options": [
+                      "Blessed blade",
+                      "Blessed polearm",
+                      "Close-combat weapon",
+                      "Hallowed chainsword",
+                      "Hallowed mace",
+                      "Holy eviscerator",
+                      "Neural whips",
+                      "Power weapon"
+                    ]
+                  },
+                  {
+                    "Options": [
+                      "Blessed blade",
+                      "Blessed polearm",
+                      "Close-combat weapon",
+                      "Hallowed chainsword",
+                      "Hallowed mace",
+                      "Holy eviscerator",
+                      "Neural whips",
+                      "Power weapon"
+                    ]
+                  },
+                  {
+                    "Options": [
+                      "Absolver of Sin",
+                      "Cherub",
+                      "Jump Pack"
+                    ]
+                  },
+                  {
+                    "Options": [
+                      "Divine Authority",
+                      "Fury of the Righteous",
+                      "Laud Hailer",
+                      "Shield of the Righteous",
+                      "Unflinching Determination"
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "WargearDefinitions": [
+          {
+            "Key": "Absolver of Sin",
+            "GrantsAbilities": [
+              "Absolver of Sin"
+            ],
+            "DatasheetAdjustments": [
+              {
+                "Target": "LedUnitNames",
+                "Values": [
+                  "REPENTIA SQUAD"
+                ]
+              }
+            ]
+          },
+          {
+            "Key": "Cherub",
+            "GrantsAbilities": [
+              "Cherub"
+            ]
+          },
+          {
+            "Key": "Jump Pack",
+            "GrantsAbilities": [
+              "Jump Pack"
+            ],
+            "StatAdjustments": [
+              {
+                "Value": "12\""
+              }
+            ],
+            "DatasheetAdjustments": [
+              {
+                "Target": "Keywords",
+                "Type": "Add",
+                "Values": [
+                  "Fly",
+                  "Jump Pack"
+                ]
+              },
+              {
+                "Target": "CoreAbilities",
+                "Type": "Add",
+                "Values": [
+                  "Deep Strike"
+                ]
+              },
+              {
+                "Target": "LedUnitNames",
+                "Values": [
+                  "SERAPHIM SQUAD",
+                  "ZEPHYRIM SQUAD"
+                ]
+              }
+            ]
+          },
+          {
+            "Key": "Divine Authority",
+            "GrantsAbilities": [
+              "Divine Authority"
+            ]
+          },
+          {
+            "Key": "Fury of the Righteous",
+            "GrantsAbilities": [
+              "Fury of the Righteous"
+            ]
+          },
+          {
+            "Key": "Laud Hailer",
+            "GrantsAbilities": [
+              "Laud Hailer"
+            ]
+          },
+          {
+            "Key": "Shield of the Righteous",
+            "GrantsAbilities": [
+              "Shield of the Righteous"
+            ],
+            "StatAdjustments": [
+              {
+                "Target": "InvulSave",
+                "Scope": "Unit",
+                "Value": "4+"
+              }
+            ]
+          },
+          {
+            "Key": "Unflinching Determination",
+            "GrantsAbilities": [
+              "Unflinching Determination"
+            ]
+          }
+        ]
+      },
+      "UnitAbilities": [
+        {
+          "Title": "Sacred Command",
+          "Text": "Once per battle round, one unit from your army with this ability can be targeted with a Stratagem for 0CP, even if another unit from your army has already been targeted with that Stratagem this phase."
+        },
+        {
+          "Title": "Absolver of Sin",
+          "Text": "Replace the list of units this model can be attached to: Repentia Squad."
+        },
+        {
+          "Title": "Cherub",
+          "Text": "Once per battle, after this model’s unit has performed an Act of Faith, you gain 1 Miracle dice.\nDesigner’s Note: Place a Cherub token next to the unit once this ability has been used."
+        },
+        {
+          "Title": "Jump Pack",
+          "Text": "Change this model’s Move characteristic to 12\", and it gains the Deep Strike ability. Add the Fly and Jump Pack keywords, and replace the list of units this model can be attached to: Seraphim Squad, Zephyrim Squad."
+        },
+        {
+          "Title": "Divine Authority",
+          "Text": "Each time a model in this unit makes an attack, re-roll a Hit roll of 1."
+        },
+        {
+          "Title": "Fury of the Righteous",
+          "Text": "While this model is leading a unit, weapons equipped by models in that unit have the [LETHAL HITS] ability."
+        },
+        {
+          "Title": "Laud Hailer",
+          "Text": "Once per battle, at the start of any phase, you can select one friendly Adepta Sororitas unit that is Battle-shocked and within 12\" of this model. That unit is no longer Battle-shocked."
+        },
+        {
+          "Title": "Shield of the Righteous",
+          "Text": "Models in this unit have an invulnerable save of 4+."
+        },
+        {
+          "Title": "Unflinching Determination",
+          "Text": "While this model is leading a unit, add 1 to the Objective Control characteristic of models in that unit."
+        }
+      ],
+      "LeaderInfo": {
+        "UnitNames": [
+          "BATTLE SISTERS SQUAD",
+          "CELESTIAN SACRESANTS",
+          "DOMINION SQUAD",
+          "RETRIBUTOR SQUAD",
+          "SISTERS NOVITIATE SQUAD"
+        ],
+        "Abilities": [
+          {
+            "AbilityId": "Fury of the Righteous",
+            "WeaponStatAdjustments": [
+              {
+                "Value": "LETHAL HITS",
+                "Type": "Add",
+                "Scope": "Unit",
+                "Target": "Keywords",
+                "WeaponScope": "All"
+              }
+            ]
+          },
+          {
+            "AbilityId": "Unflinching Determination",
+            "StatAdjustments": [
+              {
+                "Target": "OC",
+                "Type": "Add",
+                "Scope": "Unit",
+                "Value": "1"
+              }
+            ]
+          }
+        ]
+      },
+      "Infos": [],
+      "Keywords": [
+        "Infantry",
+        "Character",
+        "Grenades",
+        "Imperium",
+        "Canoness",
+        "Militant Commander"
+      ],
+      "CoreAbilities": [
+        "Crucible",
+        "Leader"
+      ],
+      "FactionKeywords": [
+        "Adepta Sororitas"
+      ],
+      "StatLines": [
+        {
+          "Movement": "6\"",
+          "Toughness": "3",
+          "Save": "3+",
+          "Wounds": "4",
+          "Leadership": "7+",
+          "OC": "1",
+          "InvulSave": {
+            "Save": "4+"
+          }
+        }
+      ],
+      "Weapons": [
+        {
+          "Name": "RANGED WEAPONS",
+          "Weapons": [
+            {
+              "Name": "Artificer-crafted storm bolter",
+              "Keywords": "RAPID FIRE 2",
+              "Range": "24\"",
+              "Attacks": "2",
+              "ToHit": "2+",
+              "Strength": "4",
+              "AP": "0",
+              "Damage": "2"
+            },
+            {
+              "Name": "Autogun",
+              "Keywords": "RAPID FIRE 1",
+              "Range": "24\"",
+              "Attacks": "1",
+              "ToHit": "2+",
+              "Strength": "3",
+              "AP": "0",
+              "Damage": "1"
+            },
+            {
+              "Name": "Bolter",
+              "Keywords": "RAPID FIRE 1",
+              "Range": "24\"",
+              "Attacks": "2",
+              "ToHit": "2+",
+              "Strength": "4",
+              "AP": "0",
+              "Damage": "1"
+            },
+            {
+              "Name": "Brazier of holy fire",
+              "Keywords": "IGNORES COVER, ONE SHOT, TORRENT",
+              "Range": "12\"",
+              "Attacks": "D6",
+              "ToHit": "N/A",
+              "Strength": "6",
+              "AP": "-1",
+              "Damage": "2"
+            },
+            {
+              "Name": "Combi-weapon",
+              "Keywords": "ANTI-INFANTRY 4+, DEVASTATING WOUNDS, RAPID FIRE 1",
+              "Range": "24\"",
+              "Attacks": "1",
+              "ToHit": "2+",
+              "Strength": "4",
+              "AP": "0",
+              "Damage": "1"
+            },
+            {
+              "Name": "Condemnor boltgun",
+              "Keywords": "ANTI-PSYKER 2+, DEVASTATING WOUNDS, RAPID FIRE 1",
+              "Range": "24\"",
+              "Attacks": "1",
+              "ToHit": "2+",
+              "Strength": "4",
+              "AP": "0",
+              "Damage": "1"
+            },
+            {
+              "Name": "Meltagun",
+              "Keywords": "MELTA 2",
+              "Range": "12\"",
+              "Attacks": "1",
+              "ToHit": "2+",
+              "Strength": "9",
+              "AP": "-4",
+              "Damage": "D6"
+            },
+            {
+              "Name": "Ministorum flamer",
+              "Keywords": "IGNORES COVER, TORRENT",
+              "Range": "12\"",
+              "Attacks": "D6",
+              "ToHit": "N/A",
+              "Strength": "5",
+              "AP": "0",
+              "Damage": "1"
+            },
+            {
+              "Name": "Autopistol",
+              "Keywords": "PISTOL",
+              "Range": "12\"",
+              "Attacks": "1",
+              "ToHit": "2+",
+              "Strength": "3",
+              "AP": "0",
+              "Damage": "1"
+            },
+            {
+              "Name": "Bolt pistol",
+              "Keywords": "PISTOL",
+              "Range": "12\"",
+              "Attacks": "1",
+              "ToHit": "2+",
+              "Strength": "4",
+              "AP": "0",
+              "Damage": "1"
+            },
+            {
+              "Name": "Inferno pistol",
+              "Keywords": "MELTA 2, PISTOL",
+              "Range": "6\"",
+              "Attacks": "1",
+              "ToHit": "2+",
+              "Strength": "8",
+              "AP": "-4",
+              "Damage": "D3"
+            },
+            {
+              "Name": "Ministorum hand flamer",
+              "Keywords": "IGNORES COVER, PISTOL, TORRENT",
+              "Range": "12\"",
+              "Attacks": "D6",
+              "ToHit": "N/A",
+              "Strength": "4",
+              "AP": "0",
+              "Damage": "1"
+            },
+            {
+              "Name": "Plasma pistol – standard",
+              "Keywords": "PISTOL",
+              "Range": "12\"",
+              "Attacks": "1",
+              "ToHit": "2+",
+              "Strength": "7",
+              "AP": "-2",
+              "Damage": "1"
+            },
+            {
+              "Name": "Plasma pistol – overcharge",
+              "Keywords": "HAZARDOUS, PISTOL",
+              "Range": "12\"",
+              "Attacks": "1",
+              "ToHit": "2+",
+              "Strength": "8",
+              "AP": "-3",
+              "Damage": "2"
+            }
+          ]
+        },
+        {
+          "IsMelee": true,
+          "Name": "MELEE WEAPONS",
+          "Weapons": [
+            {
+              "Name": "Blessed blade",
+              "Keywords": "LETHAL HITS",
+              "Range": "Melee",
+              "Attacks": "4",
+              "ToHit": "2+",
+              "Strength": "6",
+              "AP": "-2",
+              "Damage": "2"
+            },
+            {
+              "Name": "Blessed polearm",
+              "Range": "Melee",
+              "Attacks": "5",
+              "ToHit": "2+",
+              "Strength": "5",
+              "AP": "-2",
+              "Damage": "2"
+            },
+            {
+              "Name": "Close-combat weapon",
+              "Range": "Melee",
+              "Attacks": "5",
+              "ToHit": "2+",
+              "Strength": "3",
+              "AP": "0",
+              "Damage": "1"
+            },
+            {
+              "Name": "Hallowed chainsword",
+              "Range": "Melee",
+              "Attacks": "5",
+              "ToHit": "2+",
+              "Strength": "3",
+              "AP": "-1",
+              "Damage": "1"
+            },
+            {
+              "Name": "Hallowed mace",
+              "Keywords": "LETHAL HITS",
+              "Range": "Melee",
+              "Attacks": "5",
+              "ToHit": "2+",
+              "Strength": "4",
+              "AP": "-1",
+              "Damage": "2"
+            },
+            {
+              "Name": "Holy eviscerator",
+              "Keywords": "SUSTAINED HITS 1",
+              "Range": "Melee",
+              "Attacks": "3",
+              "ToHit": "2+",
+              "Strength": "6",
+              "AP": "-2",
+              "Damage": "2"
+            },
+            {
+              "Name": "Neural whips",
+              "Keywords": "ANTI-INFANTRY 4+",
+              "Range": "Melee",
+              "Attacks": "6",
+              "ToHit": "2+",
+              "Strength": "3",
+              "AP": "-1",
+              "Damage": "1"
+            },
+            {
+              "Name": "Power weapon",
+              "Range": "Melee",
+              "Attacks": "4",
+              "ToHit": "2+",
+              "Strength": "4",
+              "AP": "-2",
+              "Damage": "2"
+            }
+          ]
+        }
+      ],
+      "Upgrades": [],
+      "Points": [
+        {
+          "ModelCount": 1,
+          "Cost": 75
+        }
+      ]
+    },
+    {
+      "Name": "INSPIRING DEVOTEE",
+      "Faction": "Acts of Faith",
+      "Flags": 4,
+      "UnitComposition": {
+        "ModelCompositions": [
+          {
+            "ModelName": "Inspiring Devotee",
+            "Wargear": [
+              {
+                "InitalWargear": [],
+                "Options": [
+                  {
+                    "Options": [
+                      "Artificer-crafted storm bolter",
+                      "Autogun",
+                      "Bolter",
+                      "Brazier of holy fire",
+                      "Combi-weapon",
+                      "Condemnor boltgun",
+                      "Meltagun",
+                      "Ministorum flamer",
+                      "Multi-melta"
+                    ]
+                  },
+                  {
+                    "Options": [
+                      "Autopistol",
+                      "Bolt pistol",
+                      "Inferno pistol",
+                      "Ministorum hand flamer",
+                      "Plasma pistol"
+                    ]
+                  },
+                  {
+                    "Options": [
+                      "Autopistol",
+                      "Bolt pistol",
+                      "Inferno pistol",
+                      "Ministorum hand flamer",
+                      "Plasma pistol"
+                    ]
+                  },
+                  {
+                    "Options": [
+                      "Blessed blade",
+                      "Blessed polearm",
+                      "Close-combat weapon",
+                      "Hallowed chainsword",
+                      "Hallowed mace",
+                      "Holy eviscerator",
+                      "Neural whips",
+                      "Power weapon"
+                    ]
+                  },
+                  {
+                    "Options": [
+                      "Blessed blade",
+                      "Blessed polearm",
+                      "Close-combat weapon",
+                      "Hallowed chainsword",
+                      "Hallowed mace",
+                      "Holy eviscerator",
+                      "Neural whips",
+                      "Power weapon"
+                    ]
+                  },
+                  {
+                    "Options": [
+                      "Absolver of Sin",
+                      "Cherub",
+                      "Jump Pack"
+                    ]
+                  },
+                  {
+                    "Options": [
+                      "Divine Authority",
+                      "Fury of the Righteous",
+                      "Laud Hailer",
+                      "Shield of the Righteous",
+                      "Unflinching Determination"
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "WargearDefinitions": [
+          {
+            "Key": "Absolver of Sin",
+            "GrantsAbilities": [
+              "Absolver of Sin"
+            ],
+            "DatasheetAdjustments": [
+              {
+                "Target": "LedUnitNames",
+                "Values": [
+                  "REPENTIA SQUAD"
+                ]
+              }
+            ]
+          },
+          {
+            "Key": "Cherub",
+            "GrantsAbilities": [
+              "Cherub"
+            ]
+          },
+          {
+            "Key": "Jump Pack",
+            "GrantsAbilities": [
+              "Jump Pack"
+            ],
+            "StatAdjustments": [
+              {
+                "Value": "12\""
+              }
+            ],
+            "DatasheetAdjustments": [
+              {
+                "Target": "Keywords",
+                "Type": "Add",
+                "Values": [
+                  "Fly",
+                  "Jump Pack"
+                ]
+              },
+              {
+                "Target": "CoreAbilities",
+                "Type": "Add",
+                "Values": [
+                  "Deep Strike"
+                ]
+              },
+              {
+                "Target": "LedUnitNames",
+                "Values": [
+                  "SERAPHIM SQUAD",
+                  "ZEPHYRIM SQUAD"
+                ]
+              }
+            ]
+          },
+          {
+            "Key": "Divine Authority",
+            "GrantsAbilities": [
+              "Divine Authority"
+            ]
+          },
+          {
+            "Key": "Fury of the Righteous",
+            "GrantsAbilities": [
+              "Fury of the Righteous"
+            ]
+          },
+          {
+            "Key": "Laud Hailer",
+            "GrantsAbilities": [
+              "Laud Hailer"
+            ]
+          },
+          {
+            "Key": "Shield of the Righteous",
+            "GrantsAbilities": [
+              "Shield of the Righteous"
+            ],
+            "StatAdjustments": [
+              {
+                "Target": "InvulSave",
+                "Scope": "Unit",
+                "Value": "4+"
+              }
+            ]
+          },
+          {
+            "Key": "Unflinching Determination",
+            "GrantsAbilities": [
+              "Unflinching Determination"
+            ]
+          }
+        ]
+      },
+      "UnitAbilities": [
+        {
+          "Title": "Sacred Devotions",
+          "Text": "Each time this unit performs an Act of Faith, the value of one of the Miracle dice used in that Act of Faith is first changed to a 4."
+        },
+        {
+          "Title": "Absolver of Sin",
+          "Text": "Replace the list of units this model can be attached to: Repentia Squad."
+        },
+        {
+          "Title": "Cherub",
+          "Text": "Once per battle, after this model’s unit has performed an Act of Faith, you gain 1 Miracle dice.\nDesigner’s Note: Place a Cherub token next to the unit once this ability has been used."
+        },
+        {
+          "Title": "Jump Pack",
+          "Text": "Change this model’s Move characteristic to 12\", and it gains the Deep Strike ability. Add the Fly and Jump Pack keywords, and replace the list of units this model can be attached to: Seraphim Squad, Zephyrim Squad."
+        },
+        {
+          "Title": "Divine Authority",
+          "Text": "Each time a model in this unit makes an attack, re-roll a Hit roll of 1."
+        },
+        {
+          "Title": "Fury of the Righteous",
+          "Text": "While this model is leading a unit, weapons equipped by models in that unit have the [LETHAL HITS] ability."
+        },
+        {
+          "Title": "Laud Hailer",
+          "Text": "Once per battle, at the start of any phase, you can select one friendly Adepta Sororitas unit that is Battle-shocked and within 12\" of this model. That unit is no longer Battle-shocked."
+        },
+        {
+          "Title": "Shield of the Righteous",
+          "Text": "Models in this unit have an invulnerable save of 4+."
+        },
+        {
+          "Title": "Unflinching Determination",
+          "Text": "While this model is leading a unit, add 1 to the Objective Control characteristic of models in that unit."
+        }
+      ],
+      "LeaderInfo": {
+        "UnitNames": [
+          "BATTLE SISTERS SQUAD",
+          "CELESTIAN SACRESANTS",
+          "DOMINION SQUAD",
+          "RETRIBUTOR SQUAD",
+          "SISTERS NOVITIATE SQUAD"
+        ],
+        "Abilities": [
+          {
+            "AbilityId": "Fury of the Righteous",
+            "WeaponStatAdjustments": [
+              {
+                "Value": "LETHAL HITS",
+                "Type": "Add",
+                "Scope": "Unit",
+                "Target": "Keywords",
+                "WeaponScope": "All"
+              }
+            ]
+          },
+          {
+            "AbilityId": "Unflinching Determination",
+            "StatAdjustments": [
+              {
+                "Target": "OC",
+                "Type": "Add",
+                "Scope": "Unit",
+                "Value": "1"
+              }
+            ]
+          }
+        ]
+      },
+      "Infos": [],
+      "Keywords": [
+        "Infantry",
+        "Character",
+        "Grenades",
+        "Imperium",
+        "Inspiring Devotee"
+      ],
+      "CoreAbilities": [
+        "Crucible",
+        "Leader"
+      ],
+      "FactionKeywords": [
+        "Adepta Sororitas"
+      ],
+      "StatLines": [
+        {
+          "Movement": "6\"",
+          "Toughness": "3",
+          "Save": "3+",
+          "Wounds": "3",
+          "Leadership": "6+",
+          "OC": "1",
+          "InvulSave": {
+            "Save": "6+"
+          }
+        }
+      ],
+      "Weapons": [
+        {
+          "Name": "RANGED WEAPONS",
+          "Weapons": [
+            {
+              "Name": "Artificer-crafted storm bolter",
+              "Keywords": "RAPID FIRE 4",
+              "Range": "24\"",
+              "Attacks": "2",
+              "ToHit": "2+",
+              "Strength": "4",
+              "AP": "0",
+              "Damage": "2"
+            },
+            {
+              "Name": "Autogun",
+              "Range": "24\"",
+              "Attacks": "1",
+              "ToHit": "2+",
+              "Strength": "3",
+              "AP": "0",
+              "Damage": "1"
+            },
+            {
+              "Name": "Bolter",
+              "Keywords": "RAPID FIRE 1",
+              "Range": "24\"",
+              "Attacks": "2",
+              "ToHit": "2+",
+              "Strength": "4",
+              "AP": "0",
+              "Damage": "1"
+            },
+            {
+              "Name": "Brazier of holy fire",
+              "Keywords": "IGNORES COVER, ONE SHOT, TORRENT",
+              "Range": "12\"",
+              "Attacks": "D6",
+              "ToHit": "N/A",
+              "Strength": "6",
+              "AP": "-1",
+              "Damage": "2"
+            },
+            {
+              "Name": "Combi-weapon",
+              "Keywords": "ANTI-INFANTRY 4+, DEVASTATING WOUNDS, RAPID FIRE 1",
+              "Range": "24\"",
+              "Attacks": "1",
+              "ToHit": "2+",
+              "Strength": "4",
+              "AP": "0",
+              "Damage": "1"
+            },
+            {
+              "Name": "Condemnor boltgun",
+              "Keywords": "ANTI-PSYKER 2+, DEVASTATING WOUNDS, RAPID FIRE 1",
+              "Range": "24\"",
+              "Attacks": "1",
+              "ToHit": "2+",
+              "Strength": "4",
+              "AP": "0",
+              "Damage": "1"
+            },
+            {
+              "Name": "Meltagun",
+              "Keywords": "MELTA 2",
+              "Range": "12\"",
+              "Attacks": "1",
+              "ToHit": "2+",
+              "Strength": "9",
+              "AP": "-4",
+              "Damage": "D6"
+            },
+            {
+              "Name": "Ministorum flamer",
+              "Keywords": "IGNORES COVER, TORRENT",
+              "Range": "12\"",
+              "Attacks": "D6",
+              "ToHit": "N/A",
+              "Strength": "5",
+              "AP": "0",
+              "Damage": "1"
+            },
+            {
+              "Name": "Multi-melta",
+              "Keywords": "MELTA 2",
+              "Range": "24\"",
+              "Attacks": "2",
+              "ToHit": "3+",
+              "Strength": "9",
+              "AP": "-4",
+              "Damage": "D6"
+            },
+            {
+              "Name": "Autopistol",
+              "Keywords": "PISTOL",
+              "Range": "12\"",
+              "Attacks": "1",
+              "ToHit": "2+",
+              "Strength": "3",
+              "AP": "0",
+              "Damage": "1"
+            },
+            {
+              "Name": "Bolt pistol",
+              "Keywords": "PISTOL",
+              "Range": "12\"",
+              "Attacks": "1",
+              "ToHit": "2+",
+              "Strength": "4",
+              "AP": "0",
+              "Damage": "1"
+            },
+            {
+              "Name": "Inferno pistol",
+              "Keywords": "MELTA 2, PISTOL",
+              "Range": "6\"",
+              "Attacks": "1",
+              "ToHit": "2+",
+              "Strength": "8",
+              "AP": "-4",
+              "Damage": "D3"
+            },
+            {
+              "Name": "Ministorum hand flamer",
+              "Keywords": "IGNORES COVER, PISTOL, TORRENT",
+              "Range": "12\"",
+              "Attacks": "D6",
+              "ToHit": "N/A",
+              "Strength": "4",
+              "AP": "0",
+              "Damage": "1"
+            },
+            {
+              "Name": "Plasma pistol – standard",
+              "Keywords": "PISTOL",
+              "Range": "12\"",
+              "Attacks": "1",
+              "ToHit": "2+",
+              "Strength": "7",
+              "AP": "-2",
+              "Damage": "1"
+            },
+            {
+              "Name": "Plasma pistol – overcharge",
+              "Keywords": "HAZARDOUS, PISTOL",
+              "Range": "12\"",
+              "Attacks": "1",
+              "ToHit": "2+",
+              "Strength": "8",
+              "AP": "-3",
+              "Damage": "2"
+            }
+          ]
+        },
+        {
+          "IsMelee": true,
+          "Name": "MELEE WEAPONS",
+          "Weapons": [
+            {
+              "Name": "Blessed blade",
+              "Keywords": "LETHAL HITS",
+              "Range": "Melee",
+              "Attacks": "4",
+              "ToHit": "2+",
+              "Strength": "6",
+              "AP": "-2",
+              "Damage": "2"
+            },
+            {
+              "Name": "Blessed polearm",
+              "Range": "Melee",
+              "Attacks": "5",
+              "ToHit": "2+",
+              "Strength": "5",
+              "AP": "-2",
+              "Damage": "2"
+            },
+            {
+              "Name": "Close-combat weapon",
+              "Range": "Melee",
+              "Attacks": "5",
+              "ToHit": "2+",
+              "Strength": "3",
+              "AP": "0",
+              "Damage": "1"
+            },
+            {
+              "Name": "Hallowed chainsword",
+              "Range": "Melee",
+              "Attacks": "5",
+              "ToHit": "2+",
+              "Strength": "3",
+              "AP": "-1",
+              "Damage": "1"
+            },
+            {
+              "Name": "Hallowed mace",
+              "Keywords": "LETHAL HITS",
+              "Range": "Melee",
+              "Attacks": "5",
+              "ToHit": "2+",
+              "Strength": "4",
+              "AP": "-1",
+              "Damage": "2"
+            },
+            {
+              "Name": "Holy eviscerator",
+              "Keywords": "SUSTAINED HITS 1",
+              "Range": "Melee",
+              "Attacks": "3",
+              "ToHit": "2+",
+              "Strength": "6",
+              "AP": "-2",
+              "Damage": "2"
+            },
+            {
+              "Name": "Neural whips",
+              "Keywords": "ANTI-INFANTRY 4+",
+              "Range": "Melee",
+              "Attacks": "6",
+              "ToHit": "2+",
+              "Strength": "3",
+              "AP": "-1",
+              "Damage": "1"
+            },
+            {
+              "Name": "Power weapon",
+              "Range": "Melee",
+              "Attacks": "4",
+              "ToHit": "2+",
+              "Strength": "4",
+              "AP": "-2",
+              "Damage": "2"
+            }
+          ]
+        }
+      ],
+      "Upgrades": [],
+      "Points": [
+        {
+          "ModelCount": 1,
+          "Cost": 50
+        }
+      ]
+    },
+    {
+      "Name": "RELIQUANT KNIGHT",
+      "Faction": "Acts of Faith",
+      "Flags": 4,
+      "UnitComposition": {
+        "ModelCompositions": [
+          {
+            "ModelName": "Reliquant Knight",
+            "Wargear": [
+              {
+                "InitalWargear": [],
+                "Options": [
+                  {
+                    "Options": [
+                      "Heavy bolter",
+                      "Ministorum heavy flamer",
+                      "Multi-melta",
+                      "Paragon grenade launchers",
+                      "Paragon storm bolters"
+                    ]
+                  },
+                  {
+                    "Options": [
+                      "Heavy bolter",
+                      "Paragon grenade launchers",
+                      "Paragon storm bolters"
+                    ]
+                  },
+                  {
+                    "Options": [
+                      "Blessed blade",
+                      "Blessed polearm",
+                      "Close-combat weapon",
+                      "Hallowed chainsword",
+                      "Hallowed mace",
+                      "Holy eviscerator",
+                      "Neural whips",
+                      "Paragon war blade",
+                      "Paragon war mace",
+                      "Power weapon"
+                    ]
+                  },
+                  {
+                    "Options": [
+                      "Blessed blade",
+                      "Blessed polearm",
+                      "Close-combat weapon",
+                      "Hallowed chainsword",
+                      "Hallowed mace",
+                      "Holy eviscerator",
+                      "Neural whips",
+                      "Paragon war blade",
+                      "Paragon war mace",
+                      "Power weapon"
+                    ]
+                  },
+                  {
+                    "Options": [
+                      "Absolver of Sin",
+                      "Cherub"
+                    ]
+                  },
+                  {
+                    "Options": [
+                      "Divine Authority",
+                      "Fury of the Righteous",
+                      "Laud Hailer",
+                      "Shield of the Righteous",
+                      "Unflinching Determination"
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "WargearDefinitions": [
+          {
+            "Key": "Absolver of Sin",
+            "GrantsAbilities": [
+              "Absolver of Sin"
+            ],
+            "DatasheetAdjustments": [
+              {
+                "Target": "LedUnitNames",
+                "Values": [
+                  "MORTIFIERS"
+                ]
+              }
+            ]
+          },
+          {
+            "Key": "Cherub",
+            "GrantsAbilities": [
+              "Cherub"
+            ]
+          },
+          {
+            "Key": "Divine Authority",
+            "GrantsAbilities": [
+              "Divine Authority"
+            ]
+          },
+          {
+            "Key": "Fury of the Righteous",
+            "GrantsAbilities": [
+              "Fury of the Righteous"
+            ]
+          },
+          {
+            "Key": "Laud Hailer",
+            "GrantsAbilities": [
+              "Laud Hailer"
+            ]
+          },
+          {
+            "Key": "Shield of the Righteous",
+            "GrantsAbilities": [
+              "Shield of the Righteous"
+            ],
+            "StatAdjustments": [
+              {
+                "Target": "InvulSave",
+                "Scope": "Unit",
+                "Value": "4+"
+              }
+            ]
+          },
+          {
+            "Key": "Unflinching Determination",
+            "GrantsAbilities": [
+              "Unflinching Determination"
+            ]
+          }
+        ]
+      },
+      "UnitAbilities": [
+        {
+          "Title": "Adamant Wrath",
+          "Text": "You can re-roll Advance and Charge rolls made for this unit."
+        },
+        {
+          "Title": "Absolver of Sin",
+          "Text": "Replace the list of units this model can be attached to: Mortifiers."
+        },
+        {
+          "Title": "Cherub",
+          "Text": "Once per battle, after this model’s unit has performed an Act of Faith, you gain 1 Miracle dice.\nDesigner’s Note: Place a Cherub token next to the unit once this ability has been used."
+        },
+        {
+          "Title": "Divine Authority",
+          "Text": "Each time a model in this unit makes an attack, re-roll a Hit roll of 1."
+        },
+        {
+          "Title": "Fury of the Righteous",
+          "Text": "While this model is leading a unit, weapons equipped by models in that unit have the [LETHAL HITS] ability."
+        },
+        {
+          "Title": "Laud Hailer",
+          "Text": "Once per battle, at the start of any phase, you can select one friendly Adepta Sororitas unit that is Battle-shocked and within 12\" of this model. That unit is no longer Battle-shocked."
+        },
+        {
+          "Title": "Shield of the Righteous",
+          "Text": "Models in this unit have an invulnerable save of 4+."
+        },
+        {
+          "Title": "Unflinching Determination",
+          "Text": "While this model is leading a unit, add 1 to the Objective Control characteristic of models in that unit."
+        }
+      ],
+      "LeaderInfo": {
+        "UnitNames": [
+          "PARAGON WARSUITS"
+        ],
+        "Abilities": [
+          {
+            "AbilityId": "Fury of the Righteous",
+            "WeaponStatAdjustments": [
+              {
+                "Value": "LETHAL HITS",
+                "Type": "Add",
+                "Scope": "Unit",
+                "Target": "Keywords",
+                "WeaponScope": "All"
+              }
+            ]
+          },
+          {
+            "AbilityId": "Unflinching Determination",
+            "StatAdjustments": [
+              {
+                "Target": "OC",
+                "Type": "Add",
+                "Scope": "Unit",
+                "Value": "1"
+              }
+            ]
+          }
+        ]
+      },
+      "Infos": [],
+      "Keywords": [
+        "Vehicle",
+        "Walker",
+        "Character",
+        "Grenades",
+        "Imperium",
+        "Paragon Warsuit",
+        "Reliquant Knight"
+      ],
+      "CoreAbilities": [
+        "Crucible",
+        "Leader"
+      ],
+      "FactionKeywords": [
+        "Adepta Sororitas"
+      ],
+      "StatLines": [
+        {
+          "Movement": "8\"",
+          "Toughness": "7",
+          "Save": "2+",
+          "Wounds": "4",
+          "Leadership": "7+",
+          "OC": "2",
+          "InvulSave": {
+            "Save": "4+"
+          }
+        }
+      ],
+      "Weapons": [
+        {
+          "Name": "RANGED WEAPONS",
+          "Weapons": [
+            {
+              "Name": "Heavy bolter",
+              "Keywords": "SUSTAINED HITS 1",
+              "Range": "36\"",
+              "Attacks": "3",
+              "ToHit": "3+",
+              "Strength": "5",
+              "AP": "-1",
+              "Damage": "2"
+            },
+            {
+              "Name": "Ministorum heavy flamer",
+              "Keywords": "IGNORES COVER, TORRENT",
+              "Range": "12\"",
+              "Attacks": "D6",
+              "ToHit": "N/A",
+              "Strength": "6",
+              "AP": "-1",
+              "Damage": "1"
+            },
+            {
+              "Name": "Multi-melta",
+              "Keywords": "MELTA 2",
+              "Range": "24\"",
+              "Attacks": "2",
+              "ToHit": "3+",
+              "Strength": "9",
+              "AP": "-4",
+              "Damage": "D6"
+            },
+            {
+              "Name": "Paragon grenade launchers",
+              "Keywords": "TWIN-LINKED",
+              "Range": "24\"",
+              "Attacks": "1",
+              "ToHit": "2+",
+              "Strength": "9",
+              "AP": "-2",
+              "Damage": "D3"
+            },
+            {
+              "Name": "Paragon storm bolters",
+              "Keywords": "RAPID FIRE 2, TWIN-LINKED",
+              "Range": "24\"",
+              "Attacks": "2",
+              "ToHit": "2+",
+              "Strength": "4",
+              "AP": "0",
+              "Damage": "1"
+            }
+          ]
+        },
+        {
+          "IsMelee": true,
+          "Name": "MELEE WEAPONS",
+          "Weapons": [
+            {
+              "Name": "Blessed blade",
+              "Keywords": "LETHAL HITS",
+              "Range": "Melee",
+              "Attacks": "4",
+              "ToHit": "2+",
+              "Strength": "6",
+              "AP": "-2",
+              "Damage": "2"
+            },
+            {
+              "Name": "Blessed polearm",
+              "Range": "Melee",
+              "Attacks": "5",
+              "ToHit": "2+",
+              "Strength": "5",
+              "AP": "-2",
+              "Damage": "2"
+            },
+            {
+              "Name": "Close-combat weapon",
+              "Range": "Melee",
+              "Attacks": "5",
+              "ToHit": "2+",
+              "Strength": "3",
+              "AP": "0",
+              "Damage": "1"
+            },
+            {
+              "Name": "Hallowed chainsword",
+              "Range": "Melee",
+              "Attacks": "5",
+              "ToHit": "2+",
+              "Strength": "3",
+              "AP": "-1",
+              "Damage": "1"
+            },
+            {
+              "Name": "Hallowed mace",
+              "Keywords": "LETHAL HITS",
+              "Range": "Melee",
+              "Attacks": "5",
+              "ToHit": "2+",
+              "Strength": "4",
+              "AP": "-1",
+              "Damage": "2"
+            },
+            {
+              "Name": "Holy eviscerator",
+              "Keywords": "SUSTAINED HITS 1",
+              "Range": "Melee",
+              "Attacks": "3",
+              "ToHit": "2+",
+              "Strength": "6",
+              "AP": "-2",
+              "Damage": "2"
+            },
+            {
+              "Name": "Neural whips",
+              "Keywords": "ANTI-INFANTRY 4+",
+              "Range": "Melee",
+              "Attacks": "6",
+              "ToHit": "2+",
+              "Strength": "3",
+              "AP": "-1",
+              "Damage": "1"
+            },
+            {
+              "Name": "Paragon war blade",
+              "Range": "Melee",
+              "Attacks": "5",
+              "ToHit": "2+",
+              "Strength": "8",
+              "AP": "-2",
+              "Damage": "2"
+            },
+            {
+              "Name": "Paragon war mace",
+              "Range": "Melee",
+              "Attacks": "4",
+              "ToHit": "2+",
+              "Strength": "12",
+              "AP": "-1",
+              "Damage": "3"
+            },
+            {
+              "Name": "Power weapon",
+              "Range": "Melee",
+              "Attacks": "4",
+              "ToHit": "2+",
+              "Strength": "4",
+              "AP": "-2",
+              "Damage": "2"
+            }
+          ]
+        }
+      ],
+      "Upgrades": [],
+      "Points": [
+        {
+          "ModelCount": 1,
+          "Cost": 100
+        }
+      ]
+    }
+  ],
+  "Dettachments": [],
+  "ArmyRules": []
+}

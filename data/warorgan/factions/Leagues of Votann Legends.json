@@ -1,0 +1,1669 @@
+{
+  "Name": "Leagues of Votann",
+  "Units": [
+    {
+      "Name": "KINHOST COMMANDER",
+      "Faction": "Prioritised Efficiency",
+      "Flags": 4,
+      "UnitComposition": {
+        "ModelCompositions": [
+          {
+            "ModelName": "Kinhost Commander",
+            "Wargear": [
+              {
+                "InitalWargear": [],
+                "Options": [
+                  {
+                    "Options": [
+                      "autoch-pattern bolter",
+                      "autoch-pattern bolt revolver",
+                      "bolt cannon",
+                      "bolt shotgun",
+                      "EtaCarn plasma gun",
+                      "graviton blast cannon",
+                      "graviton rifle",
+                      "ion blaster",
+                      "magna-coil autocannon",
+                      "SP conversion beamer",
+                      "volkanite disintegrator"
+                    ]
+                  },
+                  {
+                    "Options": [
+                      "autoch-pattern bolt pistol",
+                      "autoch-pattern bolter",
+                      "Theyn's pistol"
+                    ]
+                  },
+                  {
+                    "Options": [
+                      "autoch-pattern bolt pistol",
+                      "autoch-pattern bolter",
+                      "Theyn's pistol"
+                    ]
+                  },
+                  {
+                    "Options": [
+                      "close-combat weapon",
+                      "concussion gauntlet",
+                      "concussion maul",
+                      "darkstar axe",
+                      "forgewrought plasma axe",
+                      "graviton hammer",
+                      "heavy plasma axe",
+                      "mass gauntlet",
+                      "mass hammer",
+                      "plasma blade gauntlet",
+                      "plasma knife",
+                      "plasma sword",
+                      "Theyn's melee weapon"
+                    ]
+                  },
+                  {
+                    "Options": [
+                      "close-combat weapon",
+                      "concussion gauntlet",
+                      "concussion maul",
+                      "darkstar axe",
+                      "forgewrought plasma axe",
+                      "graviton hammer",
+                      "heavy plasma axe",
+                      "mass gauntlet",
+                      "mass hammer",
+                      "plasma blade gauntlet",
+                      "plasma knife",
+                      "plasma sword",
+                      "Theyn's melee weapon"
+                    ]
+                  },
+                  {
+                    "Options": [
+                      "Cthonian Augmentations",
+                      "Exoarmour",
+                      "Exoframe",
+                      "Magna-coil Bike",
+                      "Yaegir"
+                    ]
+                  },
+                  {
+                    "Options": [
+                      "Exemplar of the Einhyr",
+                      "Forgewrought Expertise",
+                      "Kindred Hero",
+                      "Rampart Crest",
+                      "Teleport Crest"
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "WargearDefinitions": [
+          {
+            "Key": "Cthonian Augmentations",
+            "GrantsAbilities": [
+              "Cthonian Augmentations"
+            ],
+            "StatAdjustments": [
+              {
+                "Value": "6\""
+              },
+              {
+                "Target": "Toughness",
+                "Value": "6"
+              },
+              {
+                "Target": "Save",
+                "Value": "5+"
+              }
+            ],
+            "DatasheetAdjustments": [
+              {
+                "Target": "CoreAbilities",
+                "Type": "Add",
+                "Values": [
+                  "Feel No Pain 4+"
+                ]
+              },
+              {
+                "Target": "LedUnitNames",
+                "Values": [
+                  "CTHONIAN BESERKS"
+                ]
+              }
+            ]
+          },
+          {
+            "Key": "Exoarmour",
+            "GrantsAbilities": [
+              "Exoarmour"
+            ],
+            "GrantsWeapons": [
+              "Exoarmour grenade launcher"
+            ],
+            "StatAdjustments": [
+              {
+                "Target": "Save",
+                "Value": "2+"
+              }
+            ],
+            "DatasheetAdjustments": [
+              {
+                "Target": "Keywords",
+                "Type": "Add",
+                "Values": [
+                  "Exoarmour"
+                ]
+              },
+              {
+                "Target": "LedUnitNames",
+                "Values": [
+                  "EINHYR HEARTHGUARD"
+                ]
+              }
+            ]
+          },
+          {
+            "Key": "Exoframe",
+            "GrantsAbilities": [
+              "Exoframe"
+            ],
+            "StatAdjustments": [
+              {
+                "Target": "Toughness",
+                "Value": "6"
+              }
+            ],
+            "DatasheetAdjustments": [
+              {
+                "Target": "Keywords",
+                "Type": "Add",
+                "Values": [
+                  "Exoframe"
+                ]
+              },
+              {
+                "Target": "LedUnitNames",
+                "Values": [
+                  "BRÔKHYR THUNDERKYN"
+                ]
+              }
+            ]
+          },
+          {
+            "Key": "Magna-coil Bike",
+            "GrantsAbilities": [
+              "Magna-coil Bike"
+            ],
+            "GrantsWeapons": [
+              "Magna-coil autocannon"
+            ],
+            "StatAdjustments": [
+              {
+                "Value": "12\""
+              },
+              {
+                "Target": "Toughness",
+                "Value": "6"
+              }
+            ],
+            "DatasheetAdjustments": [
+              {
+                "Target": "Keywords",
+                "Type": "Add",
+                "Values": [
+                  "Mounted",
+                  "Fly"
+                ]
+              },
+              {
+                "Target": "Keywords",
+                "Type": "Subtract",
+                "Values": [
+                  "Infantry"
+                ]
+              },
+              {
+                "Target": "CoreAbilities",
+                "Type": "Add",
+                "Values": [
+                  "Scouts 9\""
+                ]
+              },
+              {
+                "Target": "LedUnitNames",
+                "Values": [
+                  "HERNKYN PIONEERS"
+                ]
+              }
+            ]
+          },
+          {
+            "Key": "Yaegir",
+            "GrantsAbilities": [
+              "Yaegir"
+            ],
+            "StatAdjustments": [
+              {
+                "Value": "6\""
+              },
+              {
+                "Target": "Save",
+                "Value": "5+"
+              }
+            ],
+            "DatasheetAdjustments": [
+              {
+                "Target": "CoreAbilities",
+                "Type": "Add",
+                "Values": [
+                  "Infiltrators"
+                ]
+              },
+              {
+                "Target": "LedUnitNames",
+                "Values": [
+                  "HERNKYN YAEGIRS"
+                ]
+              }
+            ]
+          },
+          {
+            "Key": "Exemplar of the Einhyr",
+            "GrantsAbilities": [
+              "Exemplar of the Einhyr"
+            ]
+          },
+          {
+            "Key": "Forgewrought Expertise",
+            "GrantsAbilities": [
+              "Forgewrought Expertise"
+            ]
+          },
+          {
+            "Key": "Kindred Hero",
+            "GrantsAbilities": [
+              "Kindred Hero"
+            ]
+          },
+          {
+            "Key": "Rampart Crest",
+            "GrantsAbilities": [
+              "Rampart Crest"
+            ]
+          },
+          {
+            "Key": "Teleport Crest",
+            "GrantsAbilities": [
+              "Teleport Crest"
+            ]
+          }
+        ]
+      },
+      "UnitAbilities": [
+        {
+          "Title": "Seized Opportunity",
+          "Text": "Once per phase, one model from your army with this ability can use it when its unit destroys an enemy unit. If it does, you gain 1YP."
+        },
+        {
+          "Title": "Cthonian Augmentations",
+          "Text": "Change this model’s Move characteristic to 6\", its Toughness characteristic to 6, its Save characteristic to 5+, and it gains the Feel No Pain 4+ ability. Replace the list of units this model can be attached to: Cthonian Beserks."
+        },
+        {
+          "Title": "Exoarmour",
+          "Text": "Change this model’s Save characteristic to 2+, add the Exoarmour keyword, it is equipped with 1 exoarmour grenade launcher in addition to the weapons you choose in Step 4, and replace the list of units this model can be attached to: Einhyr Hearthguard."
+        },
+        {
+          "Title": "Exoframe",
+          "Text": "Change this model’s Toughness characteristic to 6, and add the Exoframe keyword. Replace the list of units this model can be attached to: Brôkhyr Thunderkyn."
+        },
+        {
+          "Title": "Magna-coil Bike",
+          "Text": "Change this model’s Move characteristic to 12\", its Toughness characteristic to 6, and it gains the Scouts 9\" ability. Remove the Infantry keyword, add the Mounted and Fly keywords, it is equipped with 1 magna-coil autocannon in addition to the weapons you choose in Step 4, and replace the list of units this model can be attached to: Hernkyn Pioneers."
+        },
+        {
+          "Title": "Yaegir",
+          "Text": "Change this model’s Move characteristic to 6\", its Save characteristic to 5+, and it gains the Infiltrators ability. Replace the list of units this model can be attached to: Hernkyn Yaegirs."
+        },
+        {
+          "Title": "Exemplar of the Einhyr",
+          "Text": "While this model is leading a unit, add 1 to Advance and Charge rolls made for that unit."
+        },
+        {
+          "Title": "Forgewrought Expertise",
+          "Text": "At the end of your Movement phase, this unit can repair one friendly Leagues of Votann Vehicle, Exoframe or Ironkin Steeljacks unit within 3\" of it. One model in that unit regains up to D3 lost wounds. Each unit can only be repaired once per turn."
+        },
+        {
+          "Title": "Kindred Hero",
+          "Text": "While this model is leading a unit, weapons equipped by models in that unit have the [LETHAL HITS] ability."
+        },
+        {
+          "Title": "Rampart Crest",
+          "Text": "While the bearer is leading a unit, models in that unit have a 5+ invulnerable save."
+        },
+        {
+          "Title": "Teleport Crest",
+          "Text": "While the bearer is leading a unit, models in that unit have the Deep Strike ability."
+        }
+      ],
+      "LeaderInfo": {
+        "UnitNames": [
+          "EINHYR HEARTHGUARD",
+          "HEARTHKYN WARRIORS"
+        ],
+        "Abilities": [
+          {
+            "AbilityId": "Exemplar of the Einhyr"
+          },
+          {
+            "AbilityId": "Kindred Hero",
+            "WeaponStatAdjustments": [
+              {
+                "Value": "LETHAL HITS",
+                "Type": "Add",
+                "Scope": "Unit",
+                "Target": "Keywords",
+                "WeaponScope": "All"
+              }
+            ]
+          },
+          {
+            "AbilityId": "Rampart Crest",
+            "StatAdjustments": [
+              {
+                "Target": "InvulSave",
+                "Scope": "Unit",
+                "Value": "5+"
+              }
+            ]
+          },
+          {
+            "AbilityId": "Teleport Crest"
+          }
+        ]
+      },
+      "Infos": [
+        {
+          "Title": "WEAPON NOTES",
+          "Text": "Conversion: Each time an attack made with this weapon targets an enemy unit that is not within 12\", an unmodified Hit roll of 4+ scores a Critical Hit."
+        }
+      ],
+      "Keywords": [
+        "Infantry",
+        "Character",
+        "Kinhost Commander"
+      ],
+      "CoreAbilities": [
+        "Crucible",
+        "Leader"
+      ],
+      "FactionKeywords": [
+        "Leagues of Votann"
+      ],
+      "StatLines": [
+        {
+          "Movement": "5\"",
+          "Toughness": "5",
+          "Save": "3+",
+          "Wounds": "4",
+          "Leadership": "7+",
+          "OC": "1",
+          "InvulSave": {
+            "Save": "4+"
+          }
+        }
+      ],
+      "Weapons": [
+        {
+          "Name": "RANGED WEAPONS",
+          "Weapons": [
+            {
+              "Name": "Autoch-pattern bolter",
+              "Range": "24\"",
+              "Attacks": "2",
+              "ToHit": "3+",
+              "Strength": "4",
+              "AP": "0",
+              "Damage": "1"
+            },
+            {
+              "Name": "Autoch-pattern bolt revolver",
+              "Range": "24\"",
+              "Attacks": "4",
+              "ToHit": "2+",
+              "Strength": "4",
+              "AP": "0",
+              "Damage": "1"
+            },
+            {
+              "Name": "Bolt cannon",
+              "Keywords": "SUSTAINED HITS 2",
+              "Range": "36\"",
+              "Attacks": "3",
+              "ToHit": "3+",
+              "Strength": "6",
+              "AP": "-1",
+              "Damage": "2"
+            },
+            {
+              "Name": "Bolt shotgun",
+              "Keywords": "ASSAULT",
+              "Range": "18\"",
+              "Attacks": "2",
+              "ToHit": "3+",
+              "Strength": "5",
+              "AP": "0",
+              "Damage": "1"
+            },
+            {
+              "Name": "EtaCarn plasma gun",
+              "Keywords": "RAPID FIRE 1",
+              "Range": "24\"",
+              "Attacks": "1",
+              "ToHit": "2+",
+              "Strength": "7",
+              "AP": "-3",
+              "Damage": "2"
+            },
+            {
+              "Name": "Exoarmour grenade launcher",
+              "Keywords": "BLAST",
+              "Range": "24\"",
+              "Attacks": "D3",
+              "ToHit": "2+",
+              "Strength": "3",
+              "AP": "0",
+              "Damage": "1"
+            },
+            {
+              "Name": "Graviton blast cannon",
+              "Keywords": "ANTI-MONSTER 3+, ANTI-VEHICLE 3+",
+              "Range": "24\"",
+              "Attacks": "3",
+              "ToHit": "3+",
+              "Strength": "5",
+              "AP": "-2",
+              "Damage": "3"
+            },
+            {
+              "Name": "Graviton rifle",
+              "Keywords": "ANTI-MONSTER 3+, ANTI-VEHICLE 3+",
+              "Range": "18\"",
+              "Attacks": "3",
+              "ToHit": "3+",
+              "Strength": "5",
+              "AP": "-1",
+              "Damage": "3"
+            },
+            {
+              "Name": "Ion blaster",
+              "Range": "18\"",
+              "Attacks": "1",
+              "ToHit": "2+",
+              "Strength": "5",
+              "AP": "-2",
+              "Damage": "1"
+            },
+            {
+              "Name": "Magna-coil autocannon",
+              "Range": "24\"",
+              "Attacks": "3",
+              "ToHit": "3+",
+              "Strength": "7",
+              "AP": "-1",
+              "Damage": "2"
+            },
+            {
+              "Name": "SP conversion beamer",
+              "Keywords": "CONVERSION, LETHAL HITS",
+              "Range": "24\"",
+              "Attacks": "2",
+              "ToHit": "3+",
+              "Strength": "7",
+              "AP": "-2",
+              "Damage": "3"
+            },
+            {
+              "Name": "Volkanite disintegrator",
+              "Keywords": "DEVASTATING WOUNDS",
+              "Range": "24\"",
+              "Attacks": "3",
+              "ToHit": "2+",
+              "Strength": "5",
+              "AP": "0",
+              "Damage": "1"
+            },
+            {
+              "Name": "Autoch-pattern bolt pistol",
+              "Keywords": "PISTOL",
+              "Range": "12\"",
+              "Attacks": "1",
+              "ToHit": "2+",
+              "Strength": "4",
+              "AP": "0",
+              "Damage": "1"
+            },
+            {
+              "Name": "Autoch-pattern bolter",
+              "Keywords": "PISTOL",
+              "Range": "24\"",
+              "Attacks": "2",
+              "ToHit": "3+",
+              "Strength": "4",
+              "AP": "0",
+              "Damage": "1"
+            },
+            {
+              "Name": "Theyn's pistol",
+              "Keywords": "PISTOL",
+              "Range": "12\"",
+              "Attacks": "1",
+              "ToHit": "2+",
+              "Strength": "8",
+              "AP": "-2",
+              "Damage": "1"
+            }
+          ]
+        },
+        {
+          "IsMelee": true,
+          "Name": "MELEE WEAPONS",
+          "Weapons": [
+            {
+              "Name": "Close-combat weapon",
+              "Range": "Melee",
+              "Attacks": "2",
+              "ToHit": "3+",
+              "Strength": "4",
+              "AP": "0",
+              "Damage": "1"
+            },
+            {
+              "Name": "Concussion gauntlet",
+              "Keywords": "LETHAL HITS",
+              "Range": "Melee",
+              "Attacks": "3",
+              "ToHit": "3+",
+              "Strength": "8",
+              "AP": "-2",
+              "Damage": "2"
+            },
+            {
+              "Name": "Concussion maul",
+              "Keywords": "ANTI-MONSTER 3+, ANTI-VEHICLE 3+",
+              "Range": "Melee",
+              "Attacks": "3",
+              "ToHit": "3+",
+              "Strength": "5",
+              "AP": "-2",
+              "Damage": "3"
+            },
+            {
+              "Name": "Darkstar axe",
+              "Range": "Melee",
+              "Attacks": "6",
+              "ToHit": "2+",
+              "Strength": "6",
+              "AP": "-3",
+              "Damage": "2"
+            },
+            {
+              "Name": "Forgewrought plasma axe",
+              "Range": "Melee",
+              "Attacks": "4",
+              "ToHit": "2+",
+              "Strength": "5",
+              "AP": "-2",
+              "Damage": "2"
+            },
+            {
+              "Name": "Graviton hammer",
+              "Keywords": "ANTI-MONSTER 3+, ANTI-VEHICLE 3+",
+              "Range": "Melee",
+              "Attacks": "3",
+              "ToHit": "3+",
+              "Strength": "9",
+              "AP": "-1",
+              "Damage": "3"
+            },
+            {
+              "Name": "Heavy plasma axe",
+              "Range": "Melee",
+              "Attacks": "3",
+              "ToHit": "3+",
+              "Strength": "7",
+              "AP": "-2",
+              "Damage": "3"
+            },
+            {
+              "Name": "Mass gauntlet",
+              "Range": "Melee",
+              "Attacks": "3",
+              "ToHit": "3+",
+              "Strength": "8",
+              "AP": "-3",
+              "Damage": "3"
+            },
+            {
+              "Name": "Mass hammer",
+              "Range": "Melee",
+              "Attacks": "3",
+              "ToHit": "3+",
+              "Strength": "12",
+              "AP": "-3",
+              "Damage": "D6+1"
+            },
+            {
+              "Name": "Plasma blade gauntlet",
+              "Range": "Melee",
+              "Attacks": "3",
+              "ToHit": "2+",
+              "Strength": "6",
+              "AP": "-2",
+              "Damage": "1"
+            },
+            {
+              "Name": "Plasma knife",
+              "Range": "Melee",
+              "Attacks": "3",
+              "ToHit": "2+",
+              "Strength": "4",
+              "AP": "-2",
+              "Damage": "1"
+            },
+            {
+              "Name": "Plasma sword",
+              "Keywords": "SUSTAINED HITS 1",
+              "Range": "Melee",
+              "Attacks": "6",
+              "ToHit": "3+",
+              "Strength": "6",
+              "AP": "-2",
+              "Damage": "1"
+            },
+            {
+              "Name": "Theyn's melee weapon",
+              "Range": "Melee",
+              "Attacks": "3",
+              "ToHit": "3+",
+              "Strength": "5",
+              "AP": "-2",
+              "Damage": "1"
+            }
+          ]
+        }
+      ],
+      "Upgrades": [],
+      "Points": [
+        {
+          "ModelCount": 1,
+          "Cost": 65
+        }
+      ]
+    },
+    {
+      "Name": "LIVING ANCESTOR",
+      "Faction": "Prioritised Efficiency",
+      "Flags": 4,
+      "UnitComposition": {
+        "ModelCompositions": [
+          {
+            "ModelName": "Living Ancestor",
+            "Wargear": [
+              {
+                "InitalWargear": [],
+                "Options": [
+                  {
+                    "Options": [
+                      "Ancestral Wrath",
+                      "autoch-pattern bolter",
+                      "autoch-pattern bolt revolver",
+                      "bolt shotgun",
+                      "graviton blast cannon",
+                      "graviton rifle",
+                      "ion blaster",
+                      "magna-coil autocannon",
+                      "volkanite disintegrator"
+                    ]
+                  },
+                  {
+                    "Options": [
+                      "autoch-pattern bolt pistol",
+                      "autoch-pattern bolter",
+                      "bolt revolver",
+                      "Theyn's pistol"
+                    ]
+                  },
+                  {
+                    "Options": [
+                      "autoch-pattern bolt pistol",
+                      "autoch-pattern bolter",
+                      "bolt revolver",
+                      "Theyn's pistol"
+                    ]
+                  },
+                  {
+                    "Options": [
+                      "Ancestral ward stave",
+                      "close-combat weapon",
+                      "concussion maul",
+                      "forgewrought plasma axe",
+                      "graviton hammer",
+                      "heavy plasma axe",
+                      "mass gauntlet",
+                      "plasma knife",
+                      "Theyn's melee weapon"
+                    ]
+                  },
+                  {
+                    "Options": [
+                      "Ancestral ward stave",
+                      "close-combat weapon",
+                      "concussion maul",
+                      "forgewrought plasma axe",
+                      "graviton hammer",
+                      "heavy plasma axe",
+                      "mass gauntlet",
+                      "plasma knife",
+                      "Theyn's melee weapon"
+                    ]
+                  },
+                  {
+                    "Options": [
+                      "Magna-coil Bike",
+                      "Yaegir"
+                    ]
+                  },
+                  {
+                    "Options": [
+                      "Barrier Tech Repulsion",
+                      "Exemplar of the Einhyr",
+                      "Forgewrought Expertise",
+                      "Kindred Hero",
+                      "Rampart Crest",
+                      "Teleport Crest"
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "WargearDefinitions": [
+          {
+            "Key": "Magna-coil Bike",
+            "GrantsAbilities": [
+              "Magna-coil Bike"
+            ],
+            "GrantsWeapons": [
+              "Magna-coil autocannon"
+            ],
+            "StatAdjustments": [
+              {
+                "Value": "12\""
+              },
+              {
+                "Target": "Toughness",
+                "Value": "6"
+              }
+            ],
+            "DatasheetAdjustments": [
+              {
+                "Target": "Keywords",
+                "Type": "Add",
+                "Values": [
+                  "Mounted",
+                  "Fly"
+                ]
+              },
+              {
+                "Target": "Keywords",
+                "Type": "Subtract",
+                "Values": [
+                  "Infantry"
+                ]
+              },
+              {
+                "Target": "CoreAbilities",
+                "Type": "Add",
+                "Values": [
+                  "Scouts 9\""
+                ]
+              },
+              {
+                "Target": "LedUnitNames",
+                "Values": [
+                  "HERNKYN PIONEERS"
+                ]
+              }
+            ]
+          },
+          {
+            "Key": "Yaegir",
+            "GrantsAbilities": [
+              "Yaegir"
+            ],
+            "StatAdjustments": [
+              {
+                "Value": "6\""
+              },
+              {
+                "Target": "Save",
+                "Value": "5+"
+              }
+            ],
+            "DatasheetAdjustments": [
+              {
+                "Target": "CoreAbilities",
+                "Type": "Add",
+                "Values": [
+                  "Infiltrators"
+                ]
+              },
+              {
+                "Target": "LedUnitNames",
+                "Values": [
+                  "HERNKYN YAEGIRS"
+                ]
+              }
+            ]
+          },
+          {
+            "Key": "Barrier Tech Repulsion",
+            "GrantsAbilities": [
+              "Barrier Tech Repulsion"
+            ]
+          },
+          {
+            "Key": "Exemplar of the Einhyr",
+            "GrantsAbilities": [
+              "Exemplar of the Einhyr"
+            ]
+          },
+          {
+            "Key": "Forgewrought Expertise",
+            "GrantsAbilities": [
+              "Forgewrought Expertise"
+            ]
+          },
+          {
+            "Key": "Kindred Hero",
+            "GrantsAbilities": [
+              "Kindred Hero"
+            ]
+          },
+          {
+            "Key": "Rampart Crest",
+            "GrantsAbilities": [
+              "Rampart Crest"
+            ]
+          },
+          {
+            "Key": "Teleport Crest",
+            "GrantsAbilities": [
+              "Teleport Crest"
+            ]
+          }
+        ]
+      },
+      "UnitAbilities": [
+        {
+          "Title": "Grimnyr's Regard",
+          "Text": "Once per battle, at the start of any phase, you can select one friendly Leagues of Votann unit that is Battle-shocked and within 12\" of this model. That unit is no longer Battle-shocked."
+        },
+        {
+          "Title": "Magna-coil Bike",
+          "Text": "Change this model’s Move characteristic to 12\", its Toughness characteristic to 6, and it gains the Scouts 9\" ability. Remove the Infantry keyword, add the Mounted and Fly keywords, it is equipped with 1 magna-coil autocannon in addition to the weapons you choose in Step 4, and replace the list of units this model can be attached to: Hernkyn Pioneers."
+        },
+        {
+          "Title": "Yaegir",
+          "Text": "Change this model’s Move characteristic to 6\", its Save characteristic to 5+, and it gains the Infiltrators ability. Replace the list of units this model can be attached to: Hernkyn Yaegirs."
+        },
+        {
+          "Title": "Barrier Tech Repulsion (Psychic)",
+          "Text": "Each time a ranged attack targets this unit, subtract 1 from the Hit roll."
+        },
+        {
+          "Title": "Exemplar of the Einhyr",
+          "Text": "While this model is leading a unit, add 1 to Advance and Charge rolls made for that unit."
+        },
+        {
+          "Title": "Forgewrought Expertise",
+          "Text": "At the end of your Movement phase, this unit can repair one friendly Leagues of Votann Vehicle, Exoframe or Ironkin Steeljacks unit within 3\" of it. One model in that unit regains up to D3 lost wounds. Each unit can only be repaired once per turn."
+        },
+        {
+          "Title": "Kindred Hero",
+          "Text": "While this model is leading a unit, weapons equipped by models in that unit have the [LETHAL HITS] ability."
+        },
+        {
+          "Title": "Rampart Crest",
+          "Text": "While the bearer is leading a unit, models in that unit have a 5+ invulnerable save."
+        },
+        {
+          "Title": "Teleport Crest",
+          "Text": "While the bearer is leading a unit, models in that unit have the Deep Strike ability."
+        }
+      ],
+      "LeaderInfo": {
+        "UnitNames": [
+          "HEARTHKYN WARRIORS"
+        ],
+        "Abilities": [
+          {
+            "AbilityId": "Exemplar of the Einhyr"
+          },
+          {
+            "AbilityId": "Kindred Hero",
+            "WeaponStatAdjustments": [
+              {
+                "Value": "LETHAL HITS",
+                "Type": "Add",
+                "Scope": "Unit",
+                "Target": "Keywords",
+                "WeaponScope": "All"
+              }
+            ]
+          },
+          {
+            "AbilityId": "Rampart Crest",
+            "StatAdjustments": [
+              {
+                "Target": "InvulSave",
+                "Scope": "Unit",
+                "Value": "5+"
+              }
+            ]
+          },
+          {
+            "AbilityId": "Teleport Crest"
+          }
+        ]
+      },
+      "Infos": [],
+      "Keywords": [
+        "Infantry",
+        "Character",
+        "Psyker",
+        "Living Ancestor"
+      ],
+      "CoreAbilities": [
+        "Crucible",
+        "Leader"
+      ],
+      "FactionKeywords": [
+        "Leagues of Votann"
+      ],
+      "StatLines": [
+        {
+          "Movement": "5\"",
+          "Toughness": "5",
+          "Save": "4+",
+          "Wounds": "4",
+          "Leadership": "6+",
+          "OC": "1",
+          "InvulSave": {
+            "Save": "4+"
+          }
+        }
+      ],
+      "Weapons": [
+        {
+          "Name": "RANGED WEAPONS",
+          "Weapons": [
+            {
+              "Name": "Ancestral Wrath – witchfire",
+              "Keywords": "PSYCHIC",
+              "Range": "24\"",
+              "Attacks": "3",
+              "ToHit": "3+",
+              "Strength": "6",
+              "AP": "-2",
+              "Damage": "D3"
+            },
+            {
+              "Name": "Ancestral Wrath – focused witchfire",
+              "Keywords": "HAZARDOUS, PSYCHIC",
+              "Range": "24\"",
+              "Attacks": "6",
+              "ToHit": "3+",
+              "Strength": "6",
+              "AP": "-2",
+              "Damage": "D3"
+            },
+            {
+              "Name": "Autoch-pattern bolter",
+              "Range": "24\"",
+              "Attacks": "2",
+              "ToHit": "3+",
+              "Strength": "4",
+              "AP": "0",
+              "Damage": "1"
+            },
+            {
+              "Name": "Autoch-pattern bolt revolver",
+              "Range": "24\"",
+              "Attacks": "4",
+              "ToHit": "2+",
+              "Strength": "4",
+              "AP": "0",
+              "Damage": "1"
+            },
+            {
+              "Name": "Bolt shotgun",
+              "Keywords": "ASSAULT",
+              "Range": "18\"",
+              "Attacks": "2",
+              "ToHit": "3+",
+              "Strength": "5",
+              "AP": "0",
+              "Damage": "1"
+            },
+            {
+              "Name": "Graviton blast cannon",
+              "Keywords": "ANTI-MONSTER 3+, ANTI-VEHICLE 3+",
+              "Range": "24\"",
+              "Attacks": "3",
+              "ToHit": "3+",
+              "Strength": "5",
+              "AP": "-2",
+              "Damage": "3"
+            },
+            {
+              "Name": "Graviton rifle",
+              "Keywords": "ANTI-MONSTER 3+, ANTI-VEHICLE 3+",
+              "Range": "18\"",
+              "Attacks": "3",
+              "ToHit": "3+",
+              "Strength": "5",
+              "AP": "-1",
+              "Damage": "3"
+            },
+            {
+              "Name": "Ion blaster",
+              "Range": "18\"",
+              "Attacks": "1",
+              "ToHit": "2+",
+              "Strength": "5",
+              "AP": "-2",
+              "Damage": "1"
+            },
+            {
+              "Name": "Magna-coil autocannon",
+              "Range": "24\"",
+              "Attacks": "3",
+              "ToHit": "3+",
+              "Strength": "7",
+              "AP": "-1",
+              "Damage": "2"
+            },
+            {
+              "Name": "Volkanite disintegrator",
+              "Keywords": "DEVASTATING WOUNDS",
+              "Range": "24\"",
+              "Attacks": "3",
+              "ToHit": "2+",
+              "Strength": "5",
+              "AP": "0",
+              "Damage": "1"
+            },
+            {
+              "Name": "Autoch-pattern bolt pistol",
+              "Keywords": "PISTOL",
+              "Range": "12\"",
+              "Attacks": "1",
+              "ToHit": "2+",
+              "Strength": "4",
+              "AP": "0",
+              "Damage": "1"
+            },
+            {
+              "Name": "Autoch-pattern bolter",
+              "Keywords": "PISTOL",
+              "Range": "24\"",
+              "Attacks": "2",
+              "ToHit": "3+",
+              "Strength": "4",
+              "AP": "0",
+              "Damage": "1"
+            },
+            {
+              "Name": "Bolt revolver",
+              "Keywords": "PISTOL",
+              "Range": "12\"",
+              "Attacks": "1",
+              "ToHit": "2+",
+              "Strength": "5",
+              "AP": "0",
+              "Damage": "1"
+            },
+            {
+              "Name": "Theyn's pistol",
+              "Keywords": "PISTOL",
+              "Range": "12\"",
+              "Attacks": "1",
+              "ToHit": "2+",
+              "Strength": "8",
+              "AP": "-2",
+              "Damage": "1"
+            }
+          ]
+        },
+        {
+          "IsMelee": true,
+          "Name": "MELEE WEAPONS",
+          "Weapons": [
+            {
+              "Name": "Ancestral ward stave",
+              "Keywords": "PSYCHIC",
+              "Range": "Melee",
+              "Attacks": "2",
+              "ToHit": "3+",
+              "Strength": "7",
+              "AP": "-1",
+              "Damage": "D3"
+            },
+            {
+              "Name": "Close-combat weapon",
+              "Range": "Melee",
+              "Attacks": "2",
+              "ToHit": "3+",
+              "Strength": "4",
+              "AP": "0",
+              "Damage": "1"
+            },
+            {
+              "Name": "Concussion maul",
+              "Keywords": "ANTI-MONSTER 3+, ANTI-VEHICLE 3+",
+              "Range": "Melee",
+              "Attacks": "3",
+              "ToHit": "3+",
+              "Strength": "5",
+              "AP": "-2",
+              "Damage": "3"
+            },
+            {
+              "Name": "Forgewrought plasma axe",
+              "Range": "Melee",
+              "Attacks": "4",
+              "ToHit": "2+",
+              "Strength": "5",
+              "AP": "-2",
+              "Damage": "2"
+            },
+            {
+              "Name": "Graviton hammer",
+              "Keywords": "ANTI-MONSTER 3+, ANTI-VEHICLE 3+",
+              "Range": "Melee",
+              "Attacks": "3",
+              "ToHit": "3+",
+              "Strength": "9",
+              "AP": "-1",
+              "Damage": "3"
+            },
+            {
+              "Name": "Heavy plasma axe",
+              "Range": "Melee",
+              "Attacks": "3",
+              "ToHit": "3+",
+              "Strength": "7",
+              "AP": "-2",
+              "Damage": "3"
+            },
+            {
+              "Name": "Mass gauntlet",
+              "Range": "Melee",
+              "Attacks": "3",
+              "ToHit": "3+",
+              "Strength": "8",
+              "AP": "-3",
+              "Damage": "3"
+            },
+            {
+              "Name": "Plasma knife",
+              "Range": "Melee",
+              "Attacks": "3",
+              "ToHit": "2+",
+              "Strength": "4",
+              "AP": "-2",
+              "Damage": "1"
+            },
+            {
+              "Name": "Theyn's melee weapon",
+              "Range": "Melee",
+              "Attacks": "3",
+              "ToHit": "3+",
+              "Strength": "5",
+              "AP": "-2",
+              "Damage": "1"
+            }
+          ]
+        }
+      ],
+      "Upgrades": [],
+      "Points": [
+        {
+          "ModelCount": 1,
+          "Cost": 70
+        }
+      ]
+    },
+    {
+      "Name": "STEELJACK ELDER",
+      "Faction": "Prioritised Efficiency",
+      "Flags": 4,
+      "UnitComposition": {
+        "ModelCompositions": [
+          {
+            "ModelName": "Steeljack Elder",
+            "Wargear": [
+              {
+                "InitalWargear": [],
+                "Options": [
+                  {
+                    "Options": [
+                      "autoch-pattern bolter",
+                      "autoch-pattern bolt revolver",
+                      "bolt shotgun",
+                      "graviton rifle",
+                      "heavy volkanite disintegrator",
+                      "ion blaster",
+                      "volkanite disintegrator"
+                    ]
+                  },
+                  {
+                    "Options": [
+                      "autoch-pattern bolt pistol",
+                      "autoch-pattern bolter",
+                      "bolt revolver",
+                      "Theyn's pistol"
+                    ]
+                  },
+                  {
+                    "Options": [
+                      "autoch-pattern bolt pistol",
+                      "autoch-pattern bolter",
+                      "bolt revolver",
+                      "Theyn's pistol"
+                    ]
+                  },
+                  {
+                    "Options": [
+                      "close-combat weapon",
+                      "concussion gauntlet",
+                      "concussion maul",
+                      "forgewrought plasma axe",
+                      "graviton hammer",
+                      "heavy plasma axe",
+                      "mass gauntlet",
+                      "plasma knife",
+                      "Theyn's melee weapon"
+                    ]
+                  },
+                  {
+                    "Options": [
+                      "close-combat weapon",
+                      "concussion gauntlet",
+                      "concussion maul",
+                      "forgewrought plasma axe",
+                      "graviton hammer",
+                      "heavy plasma axe",
+                      "mass gauntlet",
+                      "plasma knife",
+                      "Theyn's melee weapon"
+                    ]
+                  },
+                  {
+                    "Options": [
+                      "Exemplar of the Einhyr",
+                      "Forgewrought Expertise",
+                      "Kindred Hero",
+                      "Rampart Crest",
+                      "Teleport Crest"
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "WargearDefinitions": [
+          {
+            "Key": "Exemplar of the Einhyr",
+            "GrantsAbilities": [
+              "Exemplar of the Einhyr"
+            ]
+          },
+          {
+            "Key": "Forgewrought Expertise",
+            "GrantsAbilities": [
+              "Forgewrought Expertise"
+            ]
+          },
+          {
+            "Key": "Kindred Hero",
+            "GrantsAbilities": [
+              "Kindred Hero"
+            ]
+          },
+          {
+            "Key": "Rampart Crest",
+            "GrantsAbilities": [
+              "Rampart Crest"
+            ]
+          },
+          {
+            "Key": "Teleport Crest",
+            "GrantsAbilities": [
+              "Teleport Crest"
+            ]
+          }
+        ]
+      },
+      "UnitAbilities": [
+        {
+          "Title": "Forgewrought Skill",
+          "Text": "Each time this model makes an attack, you can re-roll the Hit roll."
+        },
+        {
+          "Title": "Exemplar of the Einhyr",
+          "Text": "While this model is leading a unit, add 1 to Advance and Charge rolls made for that unit."
+        },
+        {
+          "Title": "Forgewrought Expertise",
+          "Text": "At the end of your Movement phase, this unit can repair one friendly Leagues of Votann Vehicle, Exoframe or Ironkin Steeljacks unit within 3\" of it. One model in that unit regains up to D3 lost wounds. Each unit can only be repaired once per turn."
+        },
+        {
+          "Title": "Kindred Hero",
+          "Text": "While this model is leading a unit, weapons equipped by models in that unit have the [LETHAL HITS] ability."
+        },
+        {
+          "Title": "Rampart Crest",
+          "Text": "While the bearer is leading a unit, models in that unit have a 5+ invulnerable save."
+        },
+        {
+          "Title": "Teleport Crest",
+          "Text": "While the bearer is leading a unit, models in that unit have the Deep Strike ability."
+        }
+      ],
+      "LeaderInfo": {
+        "UnitNames": [
+          "IRONKIN STEELJACKS WITH HEAVY VOLKANITE DISINTEGRATORS",
+          "IRONKIN STEELJACKS WITH MELEE WEAPONS"
+        ],
+        "Abilities": [
+          {
+            "AbilityId": "Exemplar of the Einhyr"
+          },
+          {
+            "AbilityId": "Kindred Hero",
+            "WeaponStatAdjustments": [
+              {
+                "Value": "LETHAL HITS",
+                "Type": "Add",
+                "Scope": "Unit",
+                "Target": "Keywords",
+                "WeaponScope": "All"
+              }
+            ]
+          },
+          {
+            "AbilityId": "Rampart Crest",
+            "StatAdjustments": [
+              {
+                "Target": "InvulSave",
+                "Scope": "Unit",
+                "Value": "5+"
+              }
+            ]
+          },
+          {
+            "AbilityId": "Teleport Crest"
+          }
+        ]
+      },
+      "Infos": [
+        {
+          "Title": "WEAPON NOTES",
+          "Text": "Conversion: Each time an attack made with this weapon targets an enemy unit that is not within 12\", an unmodified Hit roll of 4+ scores a Critical Hit."
+        }
+      ],
+      "Keywords": [
+        "Infantry",
+        "Character",
+        "Ironkin Steeljack",
+        "Steeljack Elder"
+      ],
+      "CoreAbilities": [
+        "Crucible",
+        "Leader"
+      ],
+      "FactionKeywords": [
+        "Leagues of Votann"
+      ],
+      "StatLines": [
+        {
+          "Movement": "5\"",
+          "Toughness": "6",
+          "Save": "2+",
+          "Wounds": "5",
+          "Leadership": "7+",
+          "OC": "1"
+        }
+      ],
+      "Weapons": [
+        {
+          "Name": "RANGED WEAPONS",
+          "Weapons": [
+            {
+              "Name": "Autoch-pattern bolter",
+              "Range": "24\"",
+              "Attacks": "2",
+              "ToHit": "3+",
+              "Strength": "4",
+              "AP": "0",
+              "Damage": "1"
+            },
+            {
+              "Name": "Autoch-pattern bolt revolver",
+              "Range": "24\"",
+              "Attacks": "4",
+              "ToHit": "2+",
+              "Strength": "4",
+              "AP": "0",
+              "Damage": "1"
+            },
+            {
+              "Name": "Bolt revolver",
+              "Keywords": "PISTOL",
+              "Range": "12\"",
+              "Attacks": "1",
+              "ToHit": "2+",
+              "Strength": "5",
+              "AP": "0",
+              "Damage": "1"
+            },
+            {
+              "Name": "Bolt shotgun",
+              "Keywords": "ASSAULT",
+              "Range": "18\"",
+              "Attacks": "2",
+              "ToHit": "3+",
+              "Strength": "5",
+              "AP": "0",
+              "Damage": "1"
+            },
+            {
+              "Name": "Graviton rifle",
+              "Keywords": "ANTI-MONSTER 3+, ANTI-VEHICLE 3+",
+              "Range": "18\"",
+              "Attacks": "3",
+              "ToHit": "3+",
+              "Strength": "5",
+              "AP": "-1",
+              "Damage": "3"
+            },
+            {
+              "Name": "Heavy volkanite disintegrator",
+              "Keywords": "DEVASTATING WOUNDS",
+              "Range": "24\"",
+              "Attacks": "6",
+              "ToHit": "3+",
+              "Strength": "6",
+              "AP": "-1",
+              "Damage": "1"
+            },
+            {
+              "Name": "Ion blaster",
+              "Range": "18\"",
+              "Attacks": "1",
+              "ToHit": "2+",
+              "Strength": "5",
+              "AP": "-2",
+              "Damage": "1"
+            },
+            {
+              "Name": "Volkanite disintegrator",
+              "Keywords": "DEVASTATING WOUNDS",
+              "Range": "24\"",
+              "Attacks": "3",
+              "ToHit": "2+",
+              "Strength": "5",
+              "AP": "0",
+              "Damage": "1"
+            },
+            {
+              "Name": "Autoch-pattern bolt pistol",
+              "Keywords": "PISTOL",
+              "Range": "12\"",
+              "Attacks": "1",
+              "ToHit": "2+",
+              "Strength": "4",
+              "AP": "0",
+              "Damage": "1"
+            },
+            {
+              "Name": "Autoch-pattern bolter",
+              "Keywords": "PISTOL",
+              "Range": "24\"",
+              "Attacks": "2",
+              "ToHit": "3+",
+              "Strength": "4",
+              "AP": "0",
+              "Damage": "1"
+            },
+            {
+              "Name": "Theyn's pistol",
+              "Keywords": "PISTOL",
+              "Range": "12\"",
+              "Attacks": "1",
+              "ToHit": "2+",
+              "Strength": "8",
+              "AP": "-2",
+              "Damage": "1"
+            }
+          ]
+        },
+        {
+          "IsMelee": true,
+          "Name": "MELEE WEAPONS",
+          "Weapons": [
+            {
+              "Name": "Close-combat weapon",
+              "Range": "Melee",
+              "Attacks": "2",
+              "ToHit": "3+",
+              "Strength": "4",
+              "AP": "0",
+              "Damage": "1"
+            },
+            {
+              "Name": "Concussion gauntlet",
+              "Keywords": "LETHAL HITS",
+              "Range": "Melee",
+              "Attacks": "3",
+              "ToHit": "3+",
+              "Strength": "8",
+              "AP": "-2",
+              "Damage": "2"
+            },
+            {
+              "Name": "Concussion maul",
+              "Keywords": "ANTI-MONSTER 3+, ANTI-VEHICLE 3+",
+              "Range": "Melee",
+              "Attacks": "3",
+              "ToHit": "3+",
+              "Strength": "5",
+              "AP": "-2",
+              "Damage": "3"
+            },
+            {
+              "Name": "Forgewrought plasma axe",
+              "Range": "Melee",
+              "Attacks": "4",
+              "ToHit": "2+",
+              "Strength": "5",
+              "AP": "-2",
+              "Damage": "2"
+            },
+            {
+              "Name": "Graviton hammer",
+              "Keywords": "ANTI-MONSTER 3+, ANTI-VEHICLE 3+",
+              "Range": "Melee",
+              "Attacks": "3",
+              "ToHit": "3+",
+              "Strength": "9",
+              "AP": "-1",
+              "Damage": "3"
+            },
+            {
+              "Name": "Heavy plasma axe",
+              "Range": "Melee",
+              "Attacks": "3",
+              "ToHit": "3+",
+              "Strength": "7",
+              "AP": "-2",
+              "Damage": "3"
+            },
+            {
+              "Name": "Mass gauntlet",
+              "Range": "Melee",
+              "Attacks": "3",
+              "ToHit": "3+",
+              "Strength": "8",
+              "AP": "-3",
+              "Damage": "3"
+            },
+            {
+              "Name": "Plasma knife",
+              "Range": "Melee",
+              "Attacks": "3",
+              "ToHit": "2+",
+              "Strength": "4",
+              "AP": "-2",
+              "Damage": "1"
+            },
+            {
+              "Name": "Theyn's melee weapon",
+              "Range": "Melee",
+              "Attacks": "3",
+              "ToHit": "3+",
+              "Strength": "5",
+              "AP": "-2",
+              "Damage": "1"
+            }
+          ]
+        }
+      ],
+      "Upgrades": [],
+      "Points": [
+        {
+          "ModelCount": 1,
+          "Cost": 80
+        }
+      ]
+    }
+  ],
+  "Dettachments": [],
+  "ArmyRules": []
+}

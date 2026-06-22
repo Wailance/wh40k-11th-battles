@@ -1,0 +1,5321 @@
+{
+  "Name": "Aeldari",
+  "Units": [
+    {
+      "Name": "WEBWAY GATE",
+      "UnitComposition": {
+        "ModelCompositions": [
+          {
+            "Limit": {
+              "Min": 2,
+              "Max": 2
+            },
+            "ModelName": "Wraithbone Arches",
+            "Wargear": []
+          }
+        ],
+        "WargearDefinitions": []
+      },
+      "UnitAbilities": [
+        {
+          "Title": "Arcane Cover",
+          "Text": "Each time a ranged attack is allocated to a model, if that model is not fully visible to every model in the attacking unit because of this Fortification, that model has the Benefit of Cover against that attack."
+        },
+        {
+          "Title": "Webway Strike",
+          "Text": "Each time a friendly Aeldari unit arrives from Strategic Reserves, you can choose to set it up anywhere on the battlefield that is wholly within 6\" of this Fortification. If you do, that Aeldari unit can be set up within 9\" of enemy models, and can be set up within Engagement Range of enemy models. If an Aeldari unit is set up within Engagement Range of any enemy models in this way, it counts as having made a Charge move this turn and is eligible to fight this turn."
+        },
+        {
+          "Title": "Fortification",
+          "Text": "While an enemy unit is only within Engagement Range of one or more"
+        },
+        {
+          "Title": "Fortifications from your army",
+          "Text": "\t▪ That unit can still be selected as the target of ranged attacks, but each time such an attack is made, unless it is made with a Pistol, subtract 1 from the Hit roll. \n\t▪ Models in that unit do not need to take Desperate Escape tests due to Falling Back while Battle-shocked, except for those that will move over enemy models when doing so."
+        }
+      ],
+      "Infos": [
+        {
+          "Title": "DEPLOYMENT",
+          "Text": "Both Wraithbone Arches of this Fortification must be set up with their upper points no more than 1\" apart and with both statues facing in fully opposite directions so that an arch is formed, as shown on the right. Both arches are then treated as a single model for all rules purposes."
+        }
+      ],
+      "Keywords": [
+        "Fortification",
+        "Aeldari",
+        "Webway Gate",
+        "Frame"
+      ],
+      "CoreAbilities": [
+        "Deadly Demise D3"
+      ],
+      "FactionKeywords": [
+        "Asuryani"
+      ],
+      "StatLines": [
+        {
+          "Movement": "-",
+          "Toughness": "12",
+          "Save": "3+",
+          "Wounds": "14",
+          "Leadership": "6+",
+          "OC": "0"
+        }
+      ],
+      "Weapons": [],
+      "Upgrades": [],
+      "Points": [
+        {
+          "ModelCount": 2,
+          "Cost": 105
+        }
+      ]
+    },
+    {
+      "Name": "KARANDRAS",
+      "Faction": "Battle Focus",
+      "UnitComposition": {
+        "ModelCompositions": [
+          {
+            "ModelName": "Karandras",
+            "Wargear": [
+              {
+                "InitalWargear": [
+                  "Arhra’s Bane",
+                  "Isirmathil",
+                  "the Scorpion’s Bite"
+                ],
+                "Options": []
+              }
+            ]
+          }
+        ],
+        "WargearDefinitions": [
+          {
+            "Key": "the Scorpion’s Bite",
+            "GrantsAbilities": [
+              "The Scorpion’s Bite"
+            ]
+          }
+        ]
+      },
+      "UnitAbilities": [
+        {
+          "Title": "The Scorpion’s Bite",
+          "Text": "Melee weapons equipped by the bearer have the [DEVASTATING WOUNDS] ability when targeting units without the Titanic keyword."
+        },
+        {
+          "Title": "Shadow Hunter",
+          "Text": "While this model is leading a unit, each time a model in that unit makes an attack, add 1 to the Hit roll."
+        },
+        {
+          "Title": "Sustained Assault",
+          "Text": "Each time this model makes a melee attack, if it made a Charge move this turn, a successful unmodified Hit roll of 4+ scores a Critical Hit."
+        }
+      ],
+      "LeaderInfo": {
+        "UnitNames": [
+          "STRIKING SCORPIONS"
+        ],
+        "Abilities": [
+          {
+            "AbilityId": "Shadow Hunter"
+          }
+        ]
+      },
+      "Infos": [],
+      "Keywords": [
+        "Infantry",
+        "Character",
+        "Epic Hero",
+        "Phoenix Lord",
+        "Aeldari",
+        "Karandras"
+      ],
+      "CoreAbilities": [
+        "Infiltrators",
+        "Leader"
+      ],
+      "FactionKeywords": [
+        "Asuryani"
+      ],
+      "StatLines": [
+        {
+          "Movement": "7\"",
+          "Toughness": "3",
+          "Save": "2+",
+          "Wounds": "5",
+          "Leadership": "6+",
+          "OC": "1",
+          "InvulSave": {
+            "Save": "4+"
+          }
+        }
+      ],
+      "Weapons": [
+        {
+          "Name": "RANGED WEAPONS",
+          "Weapons": [
+            {
+              "Name": "Arhra’s Bane",
+              "Keywords": "ASSAULT, PISTOL",
+              "Range": "12\"",
+              "Attacks": "2",
+              "ToHit": "2+",
+              "Strength": "5",
+              "AP": "-1",
+              "Damage": "2"
+            }
+          ]
+        },
+        {
+          "IsMelee": true,
+          "Name": "MELEE WEAPONS",
+          "Weapons": [
+            {
+              "Name": "Arhra’s Bane",
+              "Keywords": "SUSTAINED HITS 1",
+              "Range": "Melee",
+              "Attacks": "5",
+              "ToHit": "2+",
+              "Strength": "8",
+              "AP": "-3",
+              "Damage": "2"
+            },
+            {
+              "Name": "Isirmathil",
+              "Keywords": "SUSTAINED HITS 1",
+              "Range": "Melee",
+              "Attacks": "8",
+              "ToHit": "2+",
+              "Strength": "6",
+              "AP": "-1",
+              "Damage": "1"
+            }
+          ]
+        }
+      ],
+      "Upgrades": [],
+      "Points": [
+        {
+          "ModelCount": 1,
+          "Cost": 90
+        }
+      ]
+    },
+    {
+      "Name": "ILLIC NIGHTSPEAR",
+      "Faction": "Battle Focus",
+      "UnitComposition": {
+        "ModelCompositions": [
+          {
+            "ModelName": "Illic Nightspear",
+            "Wargear": [
+              {
+                "InitalWargear": [
+                  "Voidbringer",
+                  "shuriken pistol",
+                  "Aeldari power sword"
+                ],
+                "Options": []
+              }
+            ]
+          }
+        ],
+        "WargearDefinitions": []
+      },
+      "UnitAbilities": [
+        {
+          "Title": "Bringer of the True Death",
+          "Text": "While this model is leading a unit, each time a model in that unit makes an attack, you can re-roll the Wound roll."
+        },
+        {
+          "Title": "Hunter Unseen",
+          "Text": "This model’s unit can only be selected as the target of a ranged attack if the attacking model is within 12\"."
+        }
+      ],
+      "LeaderInfo": {
+        "UnitNames": [
+          "RANGERS"
+        ],
+        "Abilities": [
+          {
+            "AbilityId": "Bringer of the True Death"
+          }
+        ]
+      },
+      "Infos": [],
+      "Keywords": [
+        "Infantry",
+        "Character",
+        "Epic Hero",
+        "Aeldari",
+        "Illic Nightspear"
+      ],
+      "CoreAbilities": [
+        "Infiltrators",
+        "Leader",
+        "Stealth"
+      ],
+      "FactionKeywords": [
+        "Asuryani"
+      ],
+      "StatLines": [
+        {
+          "Movement": "7\"",
+          "Toughness": "3",
+          "Save": "5+",
+          "Wounds": "3",
+          "Leadership": "6+",
+          "OC": "1",
+          "InvulSave": {
+            "Save": "5+",
+            "Description": "Against ranged attacks only"
+          }
+        }
+      ],
+      "Weapons": [
+        {
+          "Name": "RANGED WEAPONS",
+          "Weapons": [
+            {
+              "Name": "Shuriken pistol",
+              "Keywords": "ASSAULT, PISTOL",
+              "Range": "12\"",
+              "Attacks": "1",
+              "ToHit": "2+",
+              "Strength": "4",
+              "AP": "-1",
+              "Damage": "1"
+            },
+            {
+              "Name": "Voidbringer",
+              "Keywords": "DEVASTATING WOUNDS, HEAVY, PRECISION",
+              "Range": "48\"",
+              "Attacks": "1",
+              "ToHit": "2+",
+              "Strength": "6",
+              "AP": "-3",
+              "Damage": "3"
+            }
+          ]
+        },
+        {
+          "IsMelee": true,
+          "Name": "MELEE WEAPONS",
+          "Weapons": [
+            {
+              "Name": "Aeldari power sword",
+              "Range": "Melee",
+              "Attacks": "4",
+              "ToHit": "2+",
+              "Strength": "4",
+              "AP": "-2",
+              "Damage": "1"
+            }
+          ]
+        }
+      ],
+      "Upgrades": [],
+      "Points": [
+        {
+          "ModelCount": 1,
+          "Cost": 70
+        }
+      ]
+    },
+    {
+      "Name": "AUTARCH SKYRUNNER",
+      "Faction": "Battle Focus",
+      "UnitComposition": {
+        "ModelCompositions": [
+          {
+            "ModelName": "Autarch Skyrunner",
+            "Wargear": [
+              {
+                "InitalWargear": [
+                  "close combat weapon",
+                  "laser lance",
+                  "twin shuriken catapult"
+                ],
+                "Options": [
+                  {
+                    "Replaces": [
+                      "laser lance"
+                    ],
+                    "Options": [
+                      "Dragon fusion gun",
+                      "Banshee blade"
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "WargearDefinitions": []
+      },
+      "UnitAbilities": [
+        {
+          "Title": "Path of Command",
+          "Text": "Once per battle round, one model from your army with this ability can use it when its unit is targeted with a Stratagem. If it does, reduce the CP cost of that usage of that Stratagem by 1CP."
+        },
+        {
+          "Title": "Ride the Wind",
+          "Text": "While this model is leading a unit, each time that unit Advances, do not make an Advance roll for it. Instead, until the end of the phase, add 6\" to the Move characteristic of models in that unit."
+        }
+      ],
+      "LeaderInfo": {
+        "UnitNames": [
+          "CORSAIR CLOUD DANCER BAND",
+          "WINDRIDERS"
+        ],
+        "Abilities": [
+          {
+            "AbilityId": "Ride the Wind"
+          }
+        ]
+      },
+      "Infos": [],
+      "Keywords": [
+        "Mounted",
+        "Character",
+        "Fly",
+        "Aeldari",
+        "Autarch",
+        "Autarch Skyrunner"
+      ],
+      "CoreAbilities": [
+        "Leader"
+      ],
+      "FactionKeywords": [
+        "Asuryani"
+      ],
+      "StatLines": [
+        {
+          "Movement": "14\"",
+          "Toughness": "4",
+          "Save": "3+",
+          "Wounds": "5",
+          "Leadership": "6+",
+          "OC": "2",
+          "InvulSave": {
+            "Save": "4+"
+          }
+        }
+      ],
+      "Weapons": [
+        {
+          "Name": "RANGED WEAPONS",
+          "Weapons": [
+            {
+              "Name": "Dragon fusion gun",
+              "Keywords": "ASSAULT, MELTA 3",
+              "Range": "12\"",
+              "Attacks": "1",
+              "ToHit": "2+",
+              "Strength": "9",
+              "AP": "-4",
+              "Damage": "D6"
+            },
+            {
+              "Name": "Laser lance",
+              "Keywords": "ASSAULT",
+              "Range": "6\"",
+              "Attacks": "1",
+              "ToHit": "2+",
+              "Strength": "6",
+              "AP": "-3",
+              "Damage": "2"
+            },
+            {
+              "Name": "Twin shuriken catapult",
+              "Keywords": "ASSAULT, TWIN-LINKED",
+              "Range": "18\"",
+              "Attacks": "2",
+              "ToHit": "2+",
+              "Strength": "4",
+              "AP": "-1",
+              "Damage": "1"
+            }
+          ]
+        },
+        {
+          "IsMelee": true,
+          "Name": "MELEE WEAPONS",
+          "Weapons": [
+            {
+              "Name": "Banshee blade",
+              "Range": "Melee",
+              "Attacks": "5",
+              "ToHit": "2+",
+              "Strength": "4",
+              "AP": "-3",
+              "Damage": "1"
+            },
+            {
+              "Name": "Close combat weapon",
+              "Range": "Melee",
+              "Attacks": "3",
+              "ToHit": "2+",
+              "Strength": "3",
+              "AP": "0",
+              "Damage": "1"
+            },
+            {
+              "Name": "Laser lance",
+              "Keywords": "LANCE",
+              "Range": "Melee",
+              "Attacks": "4",
+              "ToHit": "2+",
+              "Strength": "4",
+              "AP": "-3",
+              "Damage": "2"
+            }
+          ]
+        }
+      ],
+      "Upgrades": [],
+      "Points": [
+        {
+          "ModelCount": 1,
+          "Cost": 90
+        }
+      ]
+    },
+    {
+      "Name": "PHOENIX",
+      "Faction": "Battle Focus",
+      "UnitComposition": {
+        "ModelCompositions": [
+          {
+            "ModelName": "Phoenix",
+            "Wargear": [
+              {
+                "InitalWargear": [
+                  "Phoenix missile array",
+                  "Phoenix pulse laser",
+                  "twin shuriken cannon",
+                  "wraithbone hull"
+                ],
+                "Options": []
+              }
+            ]
+          }
+        ],
+        "WargearDefinitions": []
+      },
+      "UnitAbilities": [
+        {
+          "Title": "Strafing Run",
+          "Text": "Each time this model makes a ranged attack that targets a unit that cannot Fly, add 1 to the Hit roll."
+        }
+      ],
+      "Infos": [
+        {
+          "Title": "DAMAGED: 1-5 WOUNDS REMAINING",
+          "Text": "While this model has 1-5 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
+        }
+      ],
+      "Keywords": [
+        "Vehicle",
+        "Fly",
+        "Aircraft",
+        "Aeldari",
+        "Phoenix",
+        "Frame"
+      ],
+      "CoreAbilities": [
+        "Deadly Demise D6"
+      ],
+      "FactionKeywords": [
+        "Asuryani"
+      ],
+      "StatLines": [
+        {
+          "Movement": "-",
+          "Toughness": "9",
+          "Save": "3+",
+          "Wounds": "16",
+          "Leadership": "6+",
+          "OC": "-"
+        }
+      ],
+      "Weapons": [
+        {
+          "Name": "RANGED WEAPONS",
+          "Weapons": [
+            {
+              "Name": "Phoenix missile array",
+              "Keywords": "BLAST",
+              "Range": "48\"",
+              "Attacks": "D6",
+              "ToHit": "3+",
+              "Strength": "6",
+              "AP": "-1",
+              "Damage": "2"
+            },
+            {
+              "Name": "Phoenix pulse laser",
+              "Range": "48\"",
+              "Attacks": "4",
+              "ToHit": "3+",
+              "Strength": "10",
+              "AP": "-2",
+              "Damage": "D6"
+            },
+            {
+              "Name": "Twin shuriken cannon",
+              "Keywords": "SUSTAINED HITS 1, TWIN-LINKED",
+              "Range": "24\"",
+              "Attacks": "3",
+              "ToHit": "3+",
+              "Strength": "6",
+              "AP": "-1",
+              "Damage": "2"
+            }
+          ]
+        },
+        {
+          "IsMelee": true,
+          "Name": "MELEE WEAPONS",
+          "Weapons": [
+            {
+              "Name": "Wraithbone hull",
+              "Range": "Melee",
+              "Attacks": "3",
+              "ToHit": "4+",
+              "Strength": "6",
+              "AP": "0",
+              "Damage": "1"
+            }
+          ]
+        }
+      ],
+      "Upgrades": [],
+      "Points": [
+        {
+          "ModelCount": 1,
+          "Cost": 175
+        }
+      ]
+    },
+    {
+      "Name": "VAMPIRE RAIDER",
+      "Faction": "Battle Focus",
+      "UnitComposition": {
+        "ModelCompositions": [
+          {
+            "ModelName": "Vampire Raider",
+            "Wargear": [
+              {
+                "InitalWargear": [
+                  "scatter laser",
+                  "2 twin pulse lasers",
+                  "wraithbone hull"
+                ],
+                "Options": []
+              }
+            ]
+          }
+        ],
+        "WargearDefinitions": []
+      },
+      "UnitAbilities": [
+        {
+          "Title": "Into the Foe",
+          "Text": "If a unit disembarks from this Transport before it moves, until the end of the turn, that unit is eligible to charge in a turn in which it Advanced."
+        }
+      ],
+      "Infos": [
+        {
+          "Title": "DAMAGED: 1-10 WOUNDS REMAINING",
+          "Text": "While this model has 1-10 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
+        },
+        {
+          "Title": "TRANSPORT",
+          "Text": "This model has a transport capacity of 30 Aeldari Infantry models. Each Wraith Construct model takes the space of 2 models. It cannot transport Jump Pack models or Ynnari models (excluding Yvraine and The Visarch)."
+        }
+      ],
+      "Keywords": [
+        "Vehicle",
+        "Fly",
+        "Aircraft",
+        "Titanic",
+        "Transport",
+        "Aeldari",
+        "Vampire Raider",
+        "Frame"
+      ],
+      "CoreAbilities": [
+        "Deadly Demise D6+2",
+        "Hover"
+      ],
+      "FactionKeywords": [
+        "Asuryani"
+      ],
+      "StatLines": [
+        {
+          "Movement": "20+\"",
+          "Toughness": "12",
+          "Save": "3+",
+          "Wounds": "30",
+          "Leadership": "6+",
+          "OC": "0",
+          "InvulSave": {
+            "Save": "4+",
+            "Description": "Against ranged attacks only"
+          }
+        }
+      ],
+      "Weapons": [
+        {
+          "Name": "RANGED WEAPONS",
+          "Weapons": [
+            {
+              "Name": "Scatter laser",
+              "Range": "36\"",
+              "Attacks": "6",
+              "ToHit": "3+",
+              "Strength": "5",
+              "AP": "0",
+              "Damage": "1"
+            },
+            {
+              "Name": "Twin pulse laser",
+              "Keywords": "TWIN-LINKED",
+              "Range": "48\"",
+              "Attacks": "3",
+              "ToHit": "3+",
+              "Strength": "9",
+              "AP": "-2",
+              "Damage": "D6"
+            }
+          ]
+        },
+        {
+          "IsMelee": true,
+          "Name": "MELEE WEAPONS",
+          "Weapons": [
+            {
+              "Name": "Wraithbone hull",
+              "Range": "Melee",
+              "Attacks": "6",
+              "ToHit": "4+",
+              "Strength": "6",
+              "AP": "0",
+              "Damage": "1"
+            }
+          ]
+        }
+      ],
+      "Upgrades": [],
+      "Points": [
+        {
+          "ModelCount": 1,
+          "Cost": 430
+        }
+      ]
+    },
+    {
+      "Name": "CORSAIR CLOUD DANCER BAND",
+      "UnitComposition": {
+        "ModelCompositions": [
+          {
+            "Limit": {
+              "Max": 1
+            },
+            "ModelName": "Cloud Dancer Felarch",
+            "Wargear": [
+              {
+                "InitalWargear": [
+                  "brace of pistols",
+                  "twin shuriken catapult",
+                  "close combat weapon"
+                ],
+                "Options": [
+                  {
+                    "Replaces": [
+                      "twin shuriken catapult"
+                    ],
+                    "Options": [
+                      "dark lance",
+                      "dissonance cannon",
+                      "scatter laser",
+                      "shuriken cannon",
+                      "splinter cannon"
+                    ]
+                  },
+                  {
+                    "Options": [
+                      "dissonance pistol",
+                      "void sabre"
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "Limit": {
+              "Min": 3,
+              "Max": 6
+            },
+            "ModelName": "Corsair Cloud Dancers",
+            "Wargear": [
+              {
+                "InitalWargear": [
+                  "brace of pistols",
+                  "twin shuriken catapult",
+                  "close combat weapon"
+                ],
+                "Options": [
+                  {
+                    "Replaces": [
+                      "twin shuriken catapult"
+                    ],
+                    "Options": [
+                      "dark lance",
+                      "dissonance cannon",
+                      "scatter laser",
+                      "shuriken cannon",
+                      "splinter cannon"
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "WargearDefinitions": []
+      },
+      "UnitAbilities": [
+        {
+          "Title": "Reckless Abandon",
+          "Text": "You can target this unit with the Heroic Intervention Stratagem for 0CP, and can do so even if you have already used that Stratagem on a different unit this phase."
+        }
+      ],
+      "Infos": [],
+      "Keywords": [
+        "Mounted",
+        "Grenades",
+        "Anhrathe",
+        "Aeldari",
+        "Corsair Cloud Dancer Band"
+      ],
+      "CoreAbilities": [
+        "Scouts 7\""
+      ],
+      "FactionKeywords": [
+        "Asuryani"
+      ],
+      "StatLines": [
+        {
+          "Movement": "14\"",
+          "Toughness": "4",
+          "Save": "3+",
+          "Wounds": "2",
+          "Leadership": "6+",
+          "OC": "2"
+        }
+      ],
+      "Weapons": [
+        {
+          "Name": "RANGED WEAPONS",
+          "Weapons": [
+            {
+              "Name": "Brace of pistols",
+              "Keywords": "ASSAULT, PISTOL",
+              "Range": "12\"",
+              "Attacks": "2",
+              "ToHit": "3+",
+              "Strength": "3",
+              "AP": "0",
+              "Damage": "1"
+            },
+            {
+              "Name": "Dark lance",
+              "Range": "36\"",
+              "Attacks": "1",
+              "ToHit": "3+",
+              "Strength": "12",
+              "AP": "-3",
+              "Damage": "D6+2"
+            },
+            {
+              "Name": "Dissonance cannon",
+              "Keywords": "DEVASTATING WOUNDS",
+              "Range": "24\"",
+              "Attacks": "3",
+              "ToHit": "3+",
+              "Strength": "6",
+              "AP": "-1",
+              "Damage": "2"
+            },
+            {
+              "Name": "Dissonance pistol",
+              "Keywords": "DEVASTATING WOUNDS, PISTOL",
+              "Range": "12\"",
+              "Attacks": "1",
+              "ToHit": "3+",
+              "Strength": "6",
+              "AP": "-1",
+              "Damage": "1"
+            },
+            {
+              "Name": "Scatter laser",
+              "Range": "36\"",
+              "Attacks": "6",
+              "ToHit": "3+",
+              "Strength": "5",
+              "AP": "0",
+              "Damage": "1"
+            },
+            {
+              "Name": "Shuriken cannon",
+              "Keywords": "SUSTAINED HITS 1",
+              "Range": "24\"",
+              "Attacks": "3",
+              "ToHit": "3+",
+              "Strength": "6",
+              "AP": "-1",
+              "Damage": "2"
+            },
+            {
+              "Name": "Splinter cannon",
+              "Keywords": "ANTI-INFANTRY 3+, SUSTAINED HITS 1",
+              "Range": "36\"",
+              "Attacks": "3",
+              "ToHit": "3+",
+              "Strength": "3",
+              "AP": "-1",
+              "Damage": "2"
+            },
+            {
+              "Name": "Twin shuriken catapult",
+              "Keywords": "ASSAULT, TWIN-LINKED",
+              "Range": "18\"",
+              "Attacks": "2",
+              "ToHit": "3+",
+              "Strength": "4",
+              "AP": "-1",
+              "Damage": "1"
+            }
+          ]
+        },
+        {
+          "IsMelee": true,
+          "Name": "MELEE WEAPONS",
+          "Weapons": [
+            {
+              "Name": "Close combat weapon",
+              "Range": "Melee",
+              "Attacks": "2",
+              "ToHit": "3+",
+              "Strength": "3",
+              "AP": "0",
+              "Damage": "1"
+            },
+            {
+              "Name": "Void sabre",
+              "Range": "Melee",
+              "Attacks": "3",
+              "ToHit": "3+",
+              "Strength": "4",
+              "AP": "-2",
+              "Damage": "1"
+            }
+          ]
+        }
+      ],
+      "Upgrades": [],
+      "Points": [
+        {
+          "ModelCount": 3,
+          "Cost": 125
+        },
+        {
+          "ModelCount": 4,
+          "Cost": 150
+        },
+        {
+          "ModelCount": 6,
+          "Cost": 210
+        },
+        {
+          "ModelCount": 7,
+          "Cost": 245
+        }
+      ]
+    },
+    {
+      "Name": "VAMPIRE HUNTER",
+      "Faction": "Battle Focus",
+      "UnitComposition": {
+        "ModelCompositions": [
+          {
+            "ModelName": "Vampire Hunter",
+            "Wargear": [
+              {
+                "InitalWargear": [
+                  "scatter laser",
+                  "2 twin pulse lasers",
+                  "twin Vampire pulsar",
+                  "wraithbone hull"
+                ],
+                "Options": []
+              }
+            ]
+          }
+        ],
+        "WargearDefinitions": []
+      },
+      "UnitAbilities": [
+        {
+          "Title": "Titan Hunter",
+          "Text": "Each time a ranged attack made by this model is allocated to a Monster or Vehicle model, re-roll a Damage roll of 1."
+        }
+      ],
+      "Infos": [
+        {
+          "Title": "DAMAGED: 1-10 WOUNDS REMAINING",
+          "Text": "While this model has 1-10 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
+        }
+      ],
+      "Keywords": [
+        "Vehicle",
+        "Fly",
+        "Aircraft",
+        "Titanic",
+        "Aeldari",
+        "Vampire Hunter",
+        "Frame"
+      ],
+      "CoreAbilities": [
+        "Deadly Demise D6+2",
+        "Hover"
+      ],
+      "FactionKeywords": [
+        "Asuryani"
+      ],
+      "StatLines": [
+        {
+          "Movement": "-",
+          "Toughness": "12",
+          "Save": "3+",
+          "Wounds": "30",
+          "Leadership": "6+",
+          "OC": "-",
+          "InvulSave": {
+            "Save": "4+",
+            "Description": "Against ranged attacks only"
+          }
+        }
+      ],
+      "Weapons": [
+        {
+          "Name": "RANGED WEAPONS",
+          "Weapons": [
+            {
+              "Name": "Scatter laser",
+              "Range": "36\"",
+              "Attacks": "6",
+              "ToHit": "3+",
+              "Strength": "5",
+              "AP": "0",
+              "Damage": "1"
+            },
+            {
+              "Name": "Twin pulse laser",
+              "Keywords": "TWIN-LINKED",
+              "Range": "48\"",
+              "Attacks": "3",
+              "ToHit": "3+",
+              "Strength": "9",
+              "AP": "-2",
+              "Damage": "D6"
+            },
+            {
+              "Name": "Twin Vampire pulsar",
+              "Keywords": "TWIN-LINKED",
+              "Range": "60\"",
+              "Attacks": "3",
+              "ToHit": "3+",
+              "Strength": "12",
+              "AP": "-3",
+              "Damage": "4"
+            }
+          ]
+        },
+        {
+          "IsMelee": true,
+          "Name": "MELEE WEAPONS",
+          "Weapons": [
+            {
+              "Name": "Wraithbone hull",
+              "Range": "Melee",
+              "Attacks": "6",
+              "ToHit": "4+",
+              "Strength": "6",
+              "AP": "0",
+              "Damage": "1"
+            }
+          ]
+        }
+      ],
+      "Upgrades": [],
+      "Points": [
+        {
+          "ModelCount": 1,
+          "Cost": 460
+        }
+      ]
+    },
+    {
+      "Name": "BONESINGER",
+      "Faction": "Battle Focus",
+      "UnitComposition": {
+        "ModelCompositions": [
+          {
+            "ModelName": "Bonesinger",
+            "Wargear": [
+              {
+                "InitalWargear": [
+                  "psytronome shaper"
+                ],
+                "Options": []
+              }
+            ]
+          }
+        ],
+        "WargearDefinitions": [
+          {
+            "Key": "psytronome shaper",
+            "GrantsAbilities": [
+              "Psytronome Shaper"
+            ]
+          }
+        ]
+      },
+      "UnitAbilities": [
+        {
+          "Title": "Way of the Shaper (Psychic)",
+          "Text": "While this model is leading a unit, Wraith Construct models in that unit have the Feel No Pain 6+ ability."
+        },
+        {
+          "Title": "Bonesinger",
+          "Text": "While this model is within 3\" of one or more friendly Wraith Construct or Asuryani Vehicle units, unless it is leading a unit, this model has the Lone Operative ability."
+        },
+        {
+          "Title": "Psytronome Shaper",
+          "Text": "In your Command phase, you can select one friendly Wraith Construct or Asuryani Vehicle model within 3\" of this model. That Wraith Construct or Asuryani Vehicle model regains up to D3 lost wounds."
+        }
+      ],
+      "LeaderInfo": {
+        "UnitNames": [
+          "WRAITHBLADES",
+          "WRAITHGUARD",
+          "WRAITHLORD"
+        ],
+        "Abilities": [
+          {
+            "AbilityId": "Way of the Shaper (Psychic)"
+          },
+          {
+            "AbilityId": "Bonesinger"
+          }
+        ]
+      },
+      "Infos": [],
+      "Keywords": [
+        "Character",
+        "infantry",
+        "Psyker",
+        "Aeldari",
+        "Bonesinger"
+      ],
+      "CoreAbilities": [
+        "Leader"
+      ],
+      "FactionKeywords": [
+        "Asuryani"
+      ],
+      "StatLines": [
+        {
+          "Movement": "7\"",
+          "Toughness": "3",
+          "Save": "6+",
+          "Wounds": "3",
+          "Leadership": "6+",
+          "OC": "1",
+          "InvulSave": {
+            "Save": "4+"
+          }
+        }
+      ],
+      "Weapons": [
+        {
+          "IsMelee": true,
+          "Name": "MELEE WEAPONS",
+          "Weapons": [
+            {
+              "Name": "Psytronome shaper",
+              "Keywords": "PSYCHIC",
+              "Range": "Melee",
+              "Attacks": "2",
+              "ToHit": "2+",
+              "Strength": "3",
+              "AP": "0",
+              "Damage": "D3"
+            }
+          ]
+        }
+      ],
+      "Upgrades": [],
+      "Points": [
+        {
+          "ModelCount": 1,
+          "Cost": 45
+        }
+      ]
+    },
+    {
+      "Name": "WASP ASSAULT WALKERS",
+      "Faction": "Battle Focus",
+      "UnitComposition": {
+        "ModelCompositions": [
+          {
+            "ModelName": "Wasp Assault Walker",
+            "Wargear": [
+              {
+                "InitalWargear": [
+                  "scatter laser",
+                  "shuriken cannon",
+                  "Wasp feet"
+                ],
+                "Options": [
+                  {
+                    "Replaces": [
+                      "scatter laser"
+                    ],
+                    "Options": [
+                      "Aeldari missile launcher",
+                      "bright lance",
+                      "shuriken cannon",
+                      "starcannon"
+                    ]
+                  },
+                  {
+                    "Replaces": [
+                      "shuriken cannon"
+                    ],
+                    "Options": [
+                      "Aeldari missile launcher",
+                      "bright lance",
+                      "scatter laser",
+                      "starcannon"
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "WargearDefinitions": []
+      },
+      "UnitAbilities": [
+        {
+          "Title": "Cloudbreakers",
+          "Text": "Each time this model Advances, do not make an Advance roll for it. Instead, until the end of the phase, add 6\" to the Move characteristic of this model."
+        }
+      ],
+      "Infos": [],
+      "Keywords": [
+        "Vehicle",
+        "Walker",
+        "Fly",
+        "Aeldari",
+        "Wasp Assault Walker"
+      ],
+      "CoreAbilities": [
+        "Deep Strike"
+      ],
+      "FactionKeywords": [
+        "Asuryani"
+      ],
+      "StatLines": [
+        {
+          "Movement": "10\"",
+          "Toughness": "7",
+          "Save": "3+",
+          "Wounds": "6",
+          "Leadership": "6+",
+          "OC": "2",
+          "InvulSave": {
+            "Save": "4+"
+          }
+        }
+      ],
+      "Weapons": [
+        {
+          "Name": "RANGED WEAPONS",
+          "Weapons": [
+            {
+              "Name": "Aeldari missile launcher – starshot",
+              "Range": "48\"",
+              "Attacks": "1",
+              "ToHit": "3+",
+              "Strength": "10",
+              "AP": "-2",
+              "Damage": "D6"
+            },
+            {
+              "Name": "Aeldari missile launcher – sunburst",
+              "Keywords": "BLAST",
+              "Range": "48\"",
+              "Attacks": "D6",
+              "ToHit": "3+",
+              "Strength": "4",
+              "AP": "-1",
+              "Damage": "1"
+            },
+            {
+              "Name": "Bright lance",
+              "Range": "36\"",
+              "Attacks": "1",
+              "ToHit": "3+",
+              "Strength": "12",
+              "AP": "-3",
+              "Damage": "D6+2"
+            },
+            {
+              "Name": "Scatter laser",
+              "Range": "36\"",
+              "Attacks": "6",
+              "ToHit": "3+",
+              "Strength": "5",
+              "AP": "0",
+              "Damage": "1"
+            },
+            {
+              "Name": "Shuriken cannon",
+              "Keywords": "SUSTAINED HITS 1",
+              "Range": "24\"",
+              "Attacks": "3",
+              "ToHit": "3+",
+              "Strength": "6",
+              "AP": "-1",
+              "Damage": "2"
+            },
+            {
+              "Name": "Starcannon",
+              "Range": "36\"",
+              "Attacks": "2",
+              "ToHit": "3+",
+              "Strength": "8",
+              "AP": "-3",
+              "Damage": "2"
+            }
+          ]
+        },
+        {
+          "IsMelee": true,
+          "Name": "MELEE WEAPONS",
+          "Weapons": [
+            {
+              "Name": "Wasp feet",
+              "Range": "Melee",
+              "Attacks": "3",
+              "ToHit": "3+",
+              "Strength": "5",
+              "AP": "0",
+              "Damage": "1"
+            }
+          ]
+        }
+      ],
+      "Upgrades": [],
+      "Points": [
+        {
+          "ModelCount": 1,
+          "Cost": 95
+        }
+      ]
+    },
+    {
+      "Name": "CORSAIR SKYREAVER BAND",
+      "UnitComposition": {
+        "ModelCompositions": [
+          {
+            "Limit": {
+              "Max": 1
+            },
+            "ModelName": "Corsair Skyreaver Felarch",
+            "Wargear": [
+              {
+                "InitalWargear": [
+                  "brace of pistols",
+                  "Corsair firearm",
+                  "close combat weapon"
+                ],
+                "Options": [
+                  {
+                    "Replaces": [
+                      "Corsair firearm"
+                    ],
+                    "Options": [
+                      "shardcarbine",
+                      "shuriken catapult",
+                      "spar-glaive"
+                    ]
+                  },
+                  {
+                    "Options": [
+                      "dissonance pistol",
+                      "void sabre"
+                    ]
+                  },
+                  {
+                    "Max": 1,
+                    "PerXModels": 5,
+                    "Replaces": [
+                      "Corsair firearm"
+                    ],
+                    "Options": [
+                      "Aeldari missile launcher",
+                      "blaster",
+                      "dark lance",
+                      "flamer",
+                      "fusion gun",
+                      "shredder",
+                      "shuriken cannon",
+                      "splinter cannon"
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "Limit": {
+              "Min": 5,
+              "Max": 10
+            },
+            "ModelName": "Corsair Skyreavers",
+            "Wargear": [
+              {
+                "InitalWargear": [
+                  "brace of pistols",
+                  "Corsair firearm",
+                  "close combat weapon"
+                ],
+                "Options": [
+                  {
+                    "Replaces": [
+                      "Corsair firearm"
+                    ],
+                    "Options": [
+                      "shardcarbine",
+                      "shuriken catapult",
+                      "spar-glaive"
+                    ]
+                  },
+                  {
+                    "Max": 1,
+                    "PerXModels": 5,
+                    "Replaces": [
+                      "Corsair firearm"
+                    ],
+                    "Options": [
+                      "Aeldari missile launcher",
+                      "blaster",
+                      "dark lance",
+                      "flamer",
+                      "fusion gun",
+                      "shredder",
+                      "shuriken cannon",
+                      "splinter cannon"
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "WargearDefinitions": []
+      },
+      "UnitAbilities": [
+        {
+          "Title": "Skyleap",
+          "Text": "At the end of your opponent’s turn, if this unit is not within Engagement Range of one or more enemy units, you can remove this unit from the battlefield and place it into Strategic Reserves."
+        }
+      ],
+      "Infos": [],
+      "Keywords": [
+        "Infantry",
+        "Grenades",
+        "Anhrathe",
+        "Fly",
+        "Jump Pack",
+        "Aeldari",
+        "Corsair Skyreaver Band"
+      ],
+      "CoreAbilities": [
+        "Deep Strike"
+      ],
+      "FactionKeywords": [
+        "Asuryani"
+      ],
+      "StatLines": [
+        {
+          "Movement": "14\"",
+          "Toughness": "3",
+          "Save": "5+",
+          "Wounds": "3",
+          "Leadership": "6+",
+          "OC": "1"
+        }
+      ],
+      "Weapons": [
+        {
+          "Name": "RANGED WEAPONS",
+          "Weapons": [
+            {
+              "Name": "Brace of pistols",
+              "Keywords": "ASSAULT, PISTOL",
+              "Range": "12\"",
+              "Attacks": "2",
+              "ToHit": "3+",
+              "Strength": "3",
+              "AP": "0",
+              "Damage": "1"
+            },
+            {
+              "Name": "Corsair firearm",
+              "Keywords": "ASSAULT, LETHAL HITS",
+              "Range": "24\"",
+              "Attacks": "4",
+              "ToHit": "3+",
+              "Strength": "4",
+              "AP": "0",
+              "Damage": "1"
+            },
+            {
+              "Name": "Dark lance",
+              "Keywords": "HEAVY",
+              "Range": "36\"",
+              "Attacks": "1",
+              "ToHit": "4+",
+              "Strength": "12",
+              "AP": "-3",
+              "Damage": "D6+2"
+            },
+            {
+              "Name": "Dissonance pistol",
+              "Keywords": "DEVASTATING WOUNDS, PISTOL",
+              "Range": "12\"",
+              "Attacks": "1",
+              "ToHit": "3+",
+              "Strength": "6",
+              "AP": "-1",
+              "Damage": "1"
+            },
+            {
+              "Name": "Flamer",
+              "Keywords": "ASSAULT, IGNORES COVER, TORRENT",
+              "Range": "12\"",
+              "Attacks": "D6",
+              "ToHit": "N/A",
+              "Strength": "4",
+              "AP": "0",
+              "Damage": "1"
+            },
+            {
+              "Name": "Fusion gun",
+              "Keywords": "ASSAULT, MELTA 2",
+              "Range": "12\"",
+              "Attacks": "1",
+              "ToHit": "3+",
+              "Strength": "8",
+              "AP": "-4",
+              "Damage": "D6+1"
+            },
+            {
+              "Name": "Shardcarbine",
+              "Keywords": "ANTI-INFANTRY 3+, ASSAULT",
+              "Range": "18\"",
+              "Attacks": "3",
+              "ToHit": "3+",
+              "Strength": "2",
+              "AP": "0",
+              "Damage": "1"
+            },
+            {
+              "Name": "Shuriken cannon",
+              "Keywords": "SUSTAINED HITS 1",
+              "Range": "24\"",
+              "Attacks": "3",
+              "ToHit": "3+",
+              "Strength": "6",
+              "AP": "-1",
+              "Damage": "2"
+            },
+            {
+              "Name": "Shuriken catapult",
+              "Keywords": "ASSAULT",
+              "Range": "18\"",
+              "Attacks": "2",
+              "ToHit": "3+",
+              "Strength": "4",
+              "AP": "-1",
+              "Damage": "1"
+            },
+            {
+              "Name": "Splinter cannon",
+              "Keywords": "ANTI-INFANTRY 3+, HEAVY, SUSTAINED HITS 1",
+              "Range": "36\"",
+              "Attacks": "3",
+              "ToHit": "4+",
+              "Strength": "3",
+              "AP": "-1",
+              "Damage": "2"
+            },
+            {
+              "Name": "Aeldari missile launcher – starshot",
+              "Range": "48\"",
+              "Attacks": "1",
+              "ToHit": "3+",
+              "Strength": "10",
+              "AP": "-2",
+              "Damage": "D6"
+            },
+            {
+              "Name": "Aeldari missile launcher – sunburst",
+              "Keywords": "BLAST",
+              "Range": "48\"",
+              "Attacks": "D6",
+              "ToHit": "3+",
+              "Strength": "4",
+              "AP": "-1",
+              "Damage": "1"
+            },
+            {
+              "Name": "Blaster",
+              "Keywords": "ASSAULT",
+              "Range": "18\"",
+              "Attacks": "1",
+              "ToHit": "3+",
+              "Strength": "8",
+              "AP": "-4",
+              "Damage": "D6+1"
+            },
+            {
+              "Name": "Shredder",
+              "Keywords": "ASSAULT, TORRENT",
+              "Range": "18\"",
+              "Attacks": "D6",
+              "ToHit": "N/A",
+              "Strength": "6",
+              "AP": "0",
+              "Damage": "1"
+            }
+          ]
+        },
+        {
+          "IsMelee": true,
+          "Name": "MELEE WEAPONS",
+          "Weapons": [
+            {
+              "Name": "Close combat weapon",
+              "Range": "Melee",
+              "Attacks": "2",
+              "ToHit": "3+",
+              "Strength": "3",
+              "AP": "0",
+              "Damage": "1"
+            },
+            {
+              "Name": "Spar-glaive",
+              "Range": "Melee",
+              "Attacks": "4",
+              "ToHit": "3+",
+              "Strength": "3",
+              "AP": "0",
+              "Damage": "1"
+            },
+            {
+              "Name": "Void sabre",
+              "Range": "Melee",
+              "Attacks": "3",
+              "ToHit": "3+",
+              "Strength": "4",
+              "AP": "-2",
+              "Damage": "1"
+            }
+          ]
+        }
+      ],
+      "Upgrades": [],
+      "Points": [
+        {
+          "ModelCount": 5,
+          "Cost": 125
+        },
+        {
+          "ModelCount": 6,
+          "Cost": 150
+        },
+        {
+          "ModelCount": 10,
+          "Cost": 250
+        },
+        {
+          "ModelCount": 11,
+          "Cost": 275
+        }
+      ]
+    },
+    {
+      "Name": "FIRESTORM",
+      "Faction": "Battle Focus",
+      "UnitComposition": {
+        "ModelCompositions": [
+          {
+            "ModelName": "Firestorm",
+            "Wargear": [
+              {
+                "InitalWargear": [
+                  "Firestorm scatter laser",
+                  "twin shuriken catapult",
+                  "wraithbone hull"
+                ],
+                "Options": [
+                  {
+                    "Replaces": [
+                      "twin shuriken catapult"
+                    ],
+                    "Options": [
+                      "shuriken cannon"
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "WargearDefinitions": []
+      },
+      "UnitAbilities": [
+        {
+          "Title": "Skyfire",
+          "Text": "Each time you target this model with the Fire Overwatch Stratagem just after an enemy unit that can Fly starts or ends a Normal, Advance or Fall Back move, when resolving that Stratagem, in addition to shooting that enemy unit, you can select up to 3 other enemy units within 24\" of this model that can Fly; this model can also shoot at each of those units with its Firestorm scatter laser (provided each one is an eligible target), but when doing so, an unmodified Hit roll of 6 is required to score a hit."
+        }
+      ],
+      "Infos": [
+        {
+          "Title": "DAMAGED: 1-4 WOUNDS REMAINING",
+          "Text": "1-4 WOUNDS REMAINING While this model has 1-4 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
+        },
+        {
+          "Title": "TRANSPORT",
+          "Text": "This model has a transport capacity of 6 Aeldari Infantry models. Each Wraith Construct model takes the space of 2 models. It cannot transport Jump Pack models or Ynnari models (excluding Yvraine and The Visarch)."
+        }
+      ],
+      "Keywords": [
+        "Vehicle",
+        "Fly",
+        "Aeldari",
+        "Firestorm",
+        "Frame"
+      ],
+      "CoreAbilities": [
+        "Deadly Demise D3"
+      ],
+      "FactionKeywords": [
+        "Aeldari"
+      ],
+      "StatLines": [
+        {
+          "Movement": "14\"",
+          "Toughness": "9",
+          "Save": "3+",
+          "Wounds": "12",
+          "Leadership": "6+",
+          "OC": "3"
+        }
+      ],
+      "Weapons": [
+        {
+          "Name": "RANGED WEAPONS",
+          "Weapons": [
+            {
+              "Name": "Firestorm scatter laser",
+              "Keywords": "ANTI-FLY 2+",
+              "Range": "36\"",
+              "Attacks": "16",
+              "ToHit": "3+",
+              "Strength": "5",
+              "AP": "0",
+              "Damage": "1"
+            },
+            {
+              "Name": "Shuriken cannon",
+              "Keywords": "SUSTAINED HITS 1",
+              "Range": "24\"",
+              "Attacks": "3",
+              "ToHit": "3+",
+              "Strength": "6",
+              "AP": "-1",
+              "Damage": "2"
+            },
+            {
+              "Name": "Twin shuriken catapult",
+              "Keywords": "ASSAULT, TWIN-LINKED",
+              "Range": "18\"",
+              "Attacks": "2",
+              "ToHit": "3+",
+              "Strength": "4",
+              "AP": "-1",
+              "Damage": "1"
+            }
+          ]
+        },
+        {
+          "IsMelee": true,
+          "Name": "MELEE WEAPONS",
+          "Weapons": [
+            {
+              "Name": "Wraithbone hull",
+              "Range": "Melee",
+              "Attacks": "3",
+              "ToHit": "4+",
+              "Strength": "6",
+              "AP": "0",
+              "Damage": "1"
+            }
+          ]
+        }
+      ],
+      "Upgrades": [],
+      "Points": [
+        {
+          "ModelCount": 1,
+          "Cost": 115
+        }
+      ]
+    },
+    {
+      "Name": "AMALLYN SHADOWGUIDE",
+      "Faction": "Battle Focus",
+      "UnitComposition": {
+        "ModelCompositions": [
+          {
+            "ModelName": "Amallyn Shadowguide",
+            "Wargear": [
+              {
+                "InitalWargear": [
+                  "ranger long rifle",
+                  "power blade"
+                ],
+                "Options": []
+              }
+            ]
+          }
+        ],
+        "WargearDefinitions": []
+      },
+      "UnitAbilities": [
+        {
+          "Title": "The Path Least Travelled",
+          "Text": "If your army includes this model, after both players have deployed their armies and determined who has the first turn, you can select one Rangers or Shroud Runners unit from your army and redeploy that unit. When doing so, that unit can be placed into Strategic Reserves, regardless of how many units are already in Strategic Reserves."
+        },
+        {
+          "Title": "Path of the Outcast",
+          "Text": "Once per turn, when an enemy unit ends a Normal, Advance or Fall Back move within 9\" of this model, if this model is not within Engagement Range of one or more enemy units, it can make a Normal move of up to D6\"."
+        }
+      ],
+      "Infos": [],
+      "Keywords": [
+        "Infantry",
+        "Character",
+        "Grenades",
+        "Epic Hero",
+        "Aeldari",
+        "Amallyn Shadowguide"
+      ],
+      "CoreAbilities": [
+        "Infiltrators",
+        "Lone Operative",
+        "Stealth"
+      ],
+      "FactionKeywords": [
+        "Asuryani"
+      ],
+      "StatLines": [
+        {
+          "Movement": "7\"",
+          "Toughness": "3",
+          "Save": "5+",
+          "Wounds": "3",
+          "Leadership": "6+",
+          "OC": "1",
+          "InvulSave": {
+            "Save": "4+"
+          }
+        }
+      ],
+      "Weapons": [
+        {
+          "Name": "RANGED WEAPONS",
+          "Weapons": [
+            {
+              "Name": "Ranger long rifle",
+              "Keywords": "HEAVY, PRECISION",
+              "Range": "36\"",
+              "Attacks": "1",
+              "ToHit": "3+",
+              "Strength": "4",
+              "AP": "-1",
+              "Damage": "2"
+            }
+          ]
+        },
+        {
+          "IsMelee": true,
+          "Name": "MELEE WEAPONS",
+          "Weapons": [
+            {
+              "Name": "Power blade",
+              "Range": "Melee",
+              "Attacks": "4",
+              "ToHit": "3+",
+              "Strength": "4",
+              "AP": "-2",
+              "Damage": "1"
+            }
+          ]
+        }
+      ],
+      "Upgrades": [],
+      "Points": [
+        {
+          "ModelCount": 1,
+          "Cost": 75
+        }
+      ]
+    },
+    {
+      "Name": "CORSAIR REAVER BAND",
+      "UnitComposition": {
+        "ModelCompositions": [
+          {
+            "Limit": {
+              "Max": 1
+            },
+            "ModelName": "Corsair Reaver Felarch",
+            "Wargear": [
+              {
+                "InitalWargear": [
+                  "brace of pistols",
+                  "Corsair firearm",
+                  "close combat weapon"
+                ],
+                "Options": [
+                  {
+                    "Replaces": [
+                      "Corsair firearm"
+                    ],
+                    "Options": [
+                      "spar-glaive"
+                    ]
+                  },
+                  {
+                    "Options": [
+                      "dissonance pistol",
+                      "void sabre"
+                    ]
+                  },
+                  {
+                    "Max": 1,
+                    "PerXModels": 5,
+                    "Replaces": [
+                      "Corsair firearm"
+                    ],
+                    "Options": [
+                      "Aeldari missile launcher",
+                      "blaster",
+                      "dark lance",
+                      "flamer",
+                      "fusion gun",
+                      "shredder",
+                      "shuriken cannon",
+                      "splinter cannon"
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "Limit": {
+              "Min": 5,
+              "Max": 10
+            },
+            "ModelName": "Corsair Reavers",
+            "Wargear": [
+              {
+                "InitalWargear": [
+                  "brace of pistols",
+                  "Corsair firearm",
+                  "close combat weapon"
+                ],
+                "Options": [
+                  {
+                    "Replaces": [
+                      "Corsair firearm"
+                    ],
+                    "Options": [
+                      "spar-glaive"
+                    ]
+                  },
+                  {
+                    "Max": 1,
+                    "PerXModels": 5,
+                    "Replaces": [
+                      "Corsair firearm"
+                    ],
+                    "Options": [
+                      "Aeldari missile launcher",
+                      "blaster",
+                      "dark lance",
+                      "flamer",
+                      "fusion gun",
+                      "shredder",
+                      "shuriken cannon",
+                      "splinter cannon"
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "WargearDefinitions": []
+      },
+      "UnitAbilities": [
+        {
+          "Title": "Reaver Band",
+          "Text": "Once per turn, when an enemy unit ends a Normal, Advance or Fall Back move within 9\" of this unit, if this unit is not within Engagement Range of one or more enemy units, it can make a Normal move of up to D6\"."
+        }
+      ],
+      "AttachedUnitInfo": {
+        "LeaderAttachmentRules": [
+          {
+            "LeaderKeyword": "Character",
+            "LedUnitNames": [
+              "CORSAIR VOIDREAVERS"
+            ]
+          }
+        ]
+      },
+      "Infos": [
+        {
+          "Title": "CORSAIRS",
+          "Text": "If a model from your army with the Leader ability can be attached to a Corsair Voidreavers unit, it can be attached to this unit instead."
+        }
+      ],
+      "Keywords": [
+        "Infantry",
+        "Grenades",
+        "Anhrathe",
+        "Aeldari",
+        "Corsair Reaver Band"
+      ],
+      "CoreAbilities": [],
+      "FactionKeywords": [
+        "Asuryani"
+      ],
+      "StatLines": [
+        {
+          "Movement": "7\"",
+          "Toughness": "3",
+          "Save": "5+",
+          "Wounds": "3",
+          "Leadership": "6+",
+          "OC": "2"
+        }
+      ],
+      "Weapons": [
+        {
+          "Name": "RANGED WEAPONS",
+          "Weapons": [
+            {
+              "Name": "Blaster",
+              "Keywords": "ASSAULT",
+              "Range": "18\"",
+              "Attacks": "1",
+              "ToHit": "3+",
+              "Strength": "8",
+              "AP": "-4",
+              "Damage": "D6+1"
+            },
+            {
+              "Name": "Brace of pistols",
+              "Keywords": "ASSAULT, PISTOL",
+              "Range": "12\"",
+              "Attacks": "2",
+              "ToHit": "3+",
+              "Strength": "3",
+              "AP": "0",
+              "Damage": "1"
+            },
+            {
+              "Name": "Corsair firearm",
+              "Keywords": "ASSAULT, LETHAL HITS",
+              "Range": "24\"",
+              "Attacks": "4",
+              "ToHit": "3+",
+              "Strength": "4",
+              "AP": "0",
+              "Damage": "1"
+            },
+            {
+              "Name": "Dark lance",
+              "Keywords": "HEAVY",
+              "Range": "36\"",
+              "Attacks": "1",
+              "ToHit": "4+",
+              "Strength": "12",
+              "AP": "-3",
+              "Damage": "D6+2"
+            },
+            {
+              "Name": "Dissonance pistol",
+              "Keywords": "DEVASTATING WOUNDS, PISTOL",
+              "Range": "12\"",
+              "Attacks": "1",
+              "ToHit": "3+",
+              "Strength": "6",
+              "AP": "-1",
+              "Damage": "1"
+            },
+            {
+              "Name": "Flamer",
+              "Keywords": "ASSAULT, IGNORES COVER, TORRENT",
+              "Range": "12\"",
+              "Attacks": "D6",
+              "ToHit": "N/A",
+              "Strength": "4",
+              "AP": "0",
+              "Damage": "1"
+            },
+            {
+              "Name": "Fusion gun",
+              "Keywords": "ASSAULT, MELTA 2",
+              "Range": "12\"",
+              "Attacks": "1",
+              "ToHit": "3+",
+              "Strength": "8",
+              "AP": "-4",
+              "Damage": "D6+1"
+            },
+            {
+              "Name": "Shredder",
+              "Keywords": "ASSAULT, TORRENT",
+              "Range": "18\"",
+              "Attacks": "D6",
+              "ToHit": "N/A",
+              "Strength": "6",
+              "AP": "0",
+              "Damage": "1"
+            },
+            {
+              "Name": "Shuriken cannon",
+              "Keywords": "SUSTAINED HITS 1",
+              "Range": "24\"",
+              "Attacks": "3",
+              "ToHit": "3+",
+              "Strength": "6",
+              "AP": "-1",
+              "Damage": "2"
+            },
+            {
+              "Name": "Splinter cannon",
+              "Keywords": "ANTI-INFANTRY 3+, SUSTAINED HITS 1",
+              "Range": "36\"",
+              "Attacks": "3",
+              "ToHit": "3+",
+              "Strength": "3",
+              "AP": "-1",
+              "Damage": "2"
+            },
+            {
+              "Name": "Aeldari missile launcher – starshot",
+              "Range": "48\"",
+              "Attacks": "1",
+              "ToHit": "3+",
+              "Strength": "10",
+              "AP": "-2",
+              "Damage": "D6"
+            },
+            {
+              "Name": "Aeldari missile launcher – sunburst",
+              "Keywords": "BLAST",
+              "Range": "48\"",
+              "Attacks": "D6",
+              "ToHit": "3+",
+              "Strength": "4",
+              "AP": "-1",
+              "Damage": "1"
+            }
+          ]
+        },
+        {
+          "IsMelee": true,
+          "Name": "MELEE WEAPONS",
+          "Weapons": [
+            {
+              "Name": "Close combat weapon",
+              "Range": "Melee",
+              "Attacks": "2",
+              "ToHit": "3+",
+              "Strength": "3",
+              "AP": "0",
+              "Damage": "1"
+            },
+            {
+              "Name": "Spar-glaive",
+              "Range": "Melee",
+              "Attacks": "4",
+              "ToHit": "3+",
+              "Strength": "3",
+              "AP": "0",
+              "Damage": "1"
+            },
+            {
+              "Name": "Void sabre",
+              "Range": "Melee",
+              "Attacks": "3",
+              "ToHit": "3+",
+              "Strength": "4",
+              "AP": "-2",
+              "Damage": "1"
+            }
+          ]
+        }
+      ],
+      "Upgrades": [],
+      "Points": [
+        {
+          "ModelCount": 5,
+          "Cost": 125
+        },
+        {
+          "ModelCount": 6,
+          "Cost": 150
+        },
+        {
+          "ModelCount": 10,
+          "Cost": 250
+        },
+        {
+          "ModelCount": 11,
+          "Cost": 275
+        }
+      ]
+    },
+    {
+      "Name": "COBRA",
+      "Faction": "Battle Focus",
+      "UnitComposition": {
+        "ModelCompositions": [
+          {
+            "ModelName": "Cobra",
+            "Wargear": [
+              {
+                "InitalWargear": [
+                  "D-impaler",
+                  "shuriken cannon",
+                  "wraithbone hull"
+                ],
+                "Options": [
+                  {
+                    "Replaces": [
+                      "shuriken cannon"
+                    ],
+                    "Options": [
+                      "Aeldari missile launcher",
+                      "bright lance",
+                      "scatter laser",
+                      "starcannon"
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "WargearDefinitions": []
+      },
+      "UnitAbilities": [
+        {
+          "Title": "D-rift",
+          "Text": "In your Shooting phase, just after selecting a target for this model’s D-impaler, roll one D6 for the target unit and every other unit within 3\" of that unit: on a 5+, the unit being rolled for is struck by a D-rift. After this model has finished making its attacks against that target unit this phase, each unit struck by a D-rift this phase suffers D3 mortal wounds."
+        }
+      ],
+      "Infos": [
+        {
+          "Title": "DAMAGED: 1-8 WOUNDS REMAINING",
+          "Text": "1-8 WOUNDS REMAINING While this model has 1-8 wounds remaining, subtract 4 from its Objective Control characteristic and each time this model makes an attack, subtract 1 from the Hit roll."
+        }
+      ],
+      "Keywords": [
+        "Vehicle",
+        "Titanic",
+        "Fly",
+        "Aeldari",
+        "Cobra",
+        "Frame"
+      ],
+      "CoreAbilities": [
+        "Deadly Demise D6+2"
+      ],
+      "FactionKeywords": [
+        "Asuryani"
+      ],
+      "StatLines": [
+        {
+          "Movement": "14\"",
+          "Toughness": "11",
+          "Save": "2+",
+          "Wounds": "24",
+          "Leadership": "6+",
+          "OC": "8",
+          "InvulSave": {
+            "Save": "5+"
+          }
+        }
+      ],
+      "Weapons": [
+        {
+          "Name": "RANGED WEAPONS",
+          "Weapons": [
+            {
+              "Name": "Aeldari missile launcher – starshot",
+              "Range": "48\"",
+              "Attacks": "1",
+              "ToHit": "3+",
+              "Strength": "10",
+              "AP": "-2",
+              "Damage": "D6"
+            },
+            {
+              "Name": "Aeldari missile launcher – sunburst",
+              "Keywords": "BLAST",
+              "Range": "48\"",
+              "Attacks": "D6",
+              "ToHit": "3+",
+              "Strength": "4",
+              "AP": "-1",
+              "Damage": "1"
+            },
+            {
+              "Name": "Bright lance",
+              "Range": "36\"",
+              "Attacks": "1",
+              "ToHit": "3+",
+              "Strength": "12",
+              "AP": "-3",
+              "Damage": "D6+2"
+            },
+            {
+              "Name": "D-impaler",
+              "Keywords": "BLAST, DEVASTATING WOUNDS",
+              "Range": "36\"",
+              "Attacks": "D6+3",
+              "ToHit": "3+",
+              "Strength": "16",
+              "AP": "-4",
+              "Damage": "4"
+            },
+            {
+              "Name": "Scatter laser",
+              "Range": "36\"",
+              "Attacks": "6",
+              "ToHit": "3+",
+              "Strength": "5",
+              "AP": "0",
+              "Damage": "1"
+            },
+            {
+              "Name": "Shuriken cannon",
+              "Keywords": "SUSTAINED HITS 1",
+              "Range": "24\"",
+              "Attacks": "3",
+              "ToHit": "3+",
+              "Strength": "6",
+              "AP": "-1",
+              "Damage": "2"
+            },
+            {
+              "Name": "Starcannon",
+              "Range": "36\"",
+              "Attacks": "2",
+              "ToHit": "3+",
+              "Strength": "8",
+              "AP": "-3",
+              "Damage": "2"
+            }
+          ]
+        },
+        {
+          "IsMelee": true,
+          "Name": "MELEE WEAPONS",
+          "Weapons": [
+            {
+              "Name": "Wraithbone hull",
+              "Range": "Melee",
+              "Attacks": "6",
+              "ToHit": "4+",
+              "Strength": "6",
+              "AP": "0",
+              "Damage": "1"
+            }
+          ]
+        }
+      ],
+      "Upgrades": [],
+      "Points": [
+        {
+          "ModelCount": 1,
+          "Cost": 415
+        }
+      ]
+    },
+    {
+      "Name": "HORNET",
+      "Faction": "Battle Focus",
+      "UnitComposition": {
+        "ModelCompositions": [
+          {
+            "ModelName": "Hornet",
+            "Wargear": [
+              {
+                "InitalWargear": [
+                  "Hornet pulse laser",
+                  "Hornet pulse laser",
+                  "wraithbone hull"
+                ],
+                "Options": [
+                  {
+                    "Replaces": [
+                      "Hornet pulse laser"
+                    ],
+                    "Options": [
+                      "Aeldari missile launcher",
+                      "Bright lance",
+                      "Scatter laser",
+                      "Shuriken cannon",
+                      "Starcannon"
+                    ]
+                  },
+                  {
+                    "Replaces": [
+                      "Hornet pulse laser"
+                    ],
+                    "Options": [
+                      "Aeldari missile launcher",
+                      "Bright lance",
+                      "Scatter laser",
+                      "Shuriken cannon",
+                      "Starcannon"
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "WargearDefinitions": []
+      },
+      "UnitAbilities": [
+        {
+          "Title": "Lightning Assault",
+          "Text": "Each time this model ends a Normal move, you can select one enemy unit (excluding Monster and Vehicle units) that it moved over during that move, then roll six D6: for each 4+, that enemy unit suffers 1 mortal wound."
+        }
+      ],
+      "Infos": [],
+      "Keywords": [
+        "Vehicle",
+        "Fly",
+        "Aeldari",
+        "Hornet",
+        "Frame"
+      ],
+      "CoreAbilities": [
+        "Deadly Demise 1"
+      ],
+      "FactionKeywords": [
+        "Asuryani"
+      ],
+      "StatLines": [
+        {
+          "Movement": "14\"",
+          "Toughness": "7",
+          "Save": "3+",
+          "Wounds": "8",
+          "Leadership": "6+",
+          "OC": "2"
+        }
+      ],
+      "Weapons": [
+        {
+          "Name": "RANGED WEAPONS",
+          "Weapons": [
+            {
+              "Name": "Aeldari missile launcher – starshot",
+              "Range": "48\"",
+              "Attacks": "1",
+              "ToHit": "3+",
+              "Strength": "10",
+              "AP": "-2",
+              "Damage": "D6"
+            },
+            {
+              "Name": "Aeldari missile launcher – sunburst",
+              "Keywords": "BLAST",
+              "Range": "48\"",
+              "Attacks": "D6",
+              "ToHit": "3+",
+              "Strength": "4",
+              "AP": "-1",
+              "Damage": "1"
+            },
+            {
+              "Name": "Bright lance",
+              "Range": "36\"",
+              "Attacks": "1",
+              "ToHit": "3+",
+              "Strength": "12",
+              "AP": "-3",
+              "Damage": "D6+2"
+            },
+            {
+              "Name": "Hornet pulse laser",
+              "Range": "36\"",
+              "Attacks": "2",
+              "ToHit": "3+",
+              "Strength": "9",
+              "AP": "-2",
+              "Damage": "D3"
+            },
+            {
+              "Name": "Scatter laser",
+              "Range": "36\"",
+              "Attacks": "6",
+              "ToHit": "3+",
+              "Strength": "5",
+              "AP": "0",
+              "Damage": "1"
+            },
+            {
+              "Name": "Shuriken cannon",
+              "Keywords": "SUSTAINED HITS 1",
+              "Range": "24\"",
+              "Attacks": "3",
+              "ToHit": "3+",
+              "Strength": "6",
+              "AP": "-1",
+              "Damage": "2"
+            },
+            {
+              "Name": "Starcannon",
+              "Range": "36\"",
+              "Attacks": "2",
+              "ToHit": "3+",
+              "Strength": "8",
+              "AP": "-3",
+              "Damage": "2"
+            }
+          ]
+        },
+        {
+          "IsMelee": true,
+          "Name": "MELEE WEAPONS",
+          "Weapons": [
+            {
+              "Name": "Wraithbone hull",
+              "Range": "Melee",
+              "Attacks": "3",
+              "ToHit": "4+",
+              "Strength": "6",
+              "AP": "0",
+              "Damage": "1"
+            }
+          ]
+        }
+      ],
+      "Upgrades": [],
+      "Points": [
+        {
+          "ModelCount": 1,
+          "Cost": 100
+        }
+      ]
+    },
+    {
+      "Name": "LYNX",
+      "Faction": "Battle Focus",
+      "UnitComposition": {
+        "ModelCompositions": [
+          {
+            "ModelName": "Lynx",
+            "Wargear": [
+              {
+                "InitalWargear": [
+                  "Lynx pulsar",
+                  "shuriken cannon",
+                  "wraithbone hull"
+                ],
+                "Options": [
+                  {
+                    "Replaces": [
+                      "shuriken cannon"
+                    ],
+                    "Options": [
+                      "Aeldari missile launcher",
+                      "Bright lance",
+                      "Scatter laser",
+                      "Starcannon"
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "WargearDefinitions": []
+      },
+      "UnitAbilities": [
+        {
+          "Title": "Speed of Vaul",
+          "Text": "Each time this model Advances, do not make an Advance roll for it. Instead, until the end of the phase, add 9\" to the Move characteristic of this model."
+        }
+      ],
+      "Infos": [
+        {
+          "Title": "DAMAGED: 1-5 WOUNDS REMAINING",
+          "Text": "While this model has 1-5 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
+        }
+      ],
+      "Keywords": [
+        "Vehicle",
+        "Fly",
+        "Aeldari",
+        "Lynx",
+        "Frame"
+      ],
+      "CoreAbilities": [
+        "Deadly Demise D6"
+      ],
+      "FactionKeywords": [
+        "Asuryani"
+      ],
+      "StatLines": [
+        {
+          "Movement": "14\"",
+          "Toughness": "9",
+          "Save": "3+",
+          "Wounds": "16",
+          "Leadership": "6+",
+          "OC": "4",
+          "InvulSave": {
+            "Save": "5+"
+          }
+        }
+      ],
+      "Weapons": [
+        {
+          "Name": "RANGED WEAPONS",
+          "Weapons": [
+            {
+              "Name": "Aeldari missile launcher – starshot",
+              "Range": "48\"",
+              "Attacks": "1",
+              "ToHit": "3+",
+              "Strength": "10",
+              "AP": "-2",
+              "Damage": "D6"
+            },
+            {
+              "Name": "Aeldari missile launcher – sunburst",
+              "Keywords": "BLAST",
+              "Range": "48\"",
+              "Attacks": "D6",
+              "ToHit": "3+",
+              "Strength": "4",
+              "AP": "-1",
+              "Damage": "1"
+            },
+            {
+              "Name": "Bright lance",
+              "Range": "36\"",
+              "Attacks": "1",
+              "ToHit": "3+",
+              "Strength": "12",
+              "AP": "-3",
+              "Damage": "D6+2"
+            },
+            {
+              "Name": "Lynx pulsar",
+              "Keywords": "ASSAULT",
+              "Range": "48\"",
+              "Attacks": "4",
+              "ToHit": "3+",
+              "Strength": "16",
+              "AP": "-3",
+              "Damage": "D6"
+            },
+            {
+              "Name": "Scatter laser",
+              "Range": "36\"",
+              "Attacks": "6",
+              "ToHit": "3+",
+              "Strength": "5",
+              "AP": "0",
+              "Damage": "1"
+            },
+            {
+              "Name": "Shuriken cannon",
+              "Keywords": "SUSTAINED HITS 1",
+              "Range": "24\"",
+              "Attacks": "3",
+              "ToHit": "3+",
+              "Strength": "6",
+              "AP": "-1",
+              "Damage": "2"
+            },
+            {
+              "Name": "Starcannon",
+              "Range": "36\"",
+              "Attacks": "2",
+              "ToHit": "3+",
+              "Strength": "8",
+              "AP": "-3",
+              "Damage": "2"
+            }
+          ]
+        },
+        {
+          "IsMelee": true,
+          "Name": "MELEE WEAPONS",
+          "Weapons": [
+            {
+              "Name": "Wraithbone hull",
+              "Range": "Melee",
+              "Attacks": "3",
+              "ToHit": "4+",
+              "Strength": "6",
+              "AP": "0",
+              "Damage": "1"
+            }
+          ]
+        }
+      ],
+      "Upgrades": [],
+      "Points": [
+        {
+          "ModelCount": 1,
+          "Cost": 180
+        }
+      ]
+    },
+    {
+      "Name": "NIGHTWING",
+      "Faction": "Battle Focus",
+      "UnitComposition": {
+        "ModelCompositions": [
+          {
+            "ModelName": "Nightwing",
+            "Wargear": [
+              {
+                "InitalWargear": [
+                  "twin bright lance",
+                  "twin shuriken cannon",
+                  "wraithbone hull"
+                ],
+                "Options": []
+              }
+            ]
+          }
+        ],
+        "WargearDefinitions": []
+      },
+      "UnitAbilities": [
+        {
+          "Title": "Interceptor",
+          "Text": "Each time this model makes a ranged attack that targets a unit that can Fly, add 1 to the Hit roll."
+        }
+      ],
+      "Infos": [
+        {
+          "Title": "DAMAGED: 1-4 WOUNDS REMAINING",
+          "Text": "While this model has 1-4 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
+        }
+      ],
+      "Keywords": [
+        "Vehicle",
+        "Aircaft",
+        "Fly",
+        "Aeldari",
+        "Nightwing",
+        "Frame"
+      ],
+      "CoreAbilities": [
+        "Hover"
+      ],
+      "FactionKeywords": [
+        "Asuryani"
+      ],
+      "StatLines": [
+        {
+          "Movement": "-",
+          "Toughness": "8",
+          "Save": "3+",
+          "Wounds": "12",
+          "Leadership": "6+",
+          "OC": "-",
+          "InvulSave": {
+            "Save": "5+"
+          }
+        }
+      ],
+      "Weapons": [
+        {
+          "Name": "RANGED WEAPONS",
+          "Weapons": [
+            {
+              "Name": "Twin bright lance",
+              "Keywords": "TWIN-LINKED",
+              "Range": "36\"",
+              "Attacks": "1",
+              "ToHit": "3+",
+              "Strength": "12",
+              "AP": "-3",
+              "Damage": "D6+2"
+            },
+            {
+              "Name": "Twin shuriken cannon",
+              "Keywords": "SUSTAINED HITS 1, TWIN-LINKED",
+              "Range": "24\"",
+              "Attacks": "3",
+              "ToHit": "3+",
+              "Strength": "6",
+              "AP": "-1",
+              "Damage": "2"
+            }
+          ]
+        },
+        {
+          "IsMelee": true,
+          "Name": "MELEE WEAPONS",
+          "Weapons": [
+            {
+              "Name": "Wraithbone hull",
+              "Range": "Melee",
+              "Attacks": "3",
+              "ToHit": "4+",
+              "Strength": "6",
+              "AP": "0",
+              "Damage": "1"
+            }
+          ]
+        }
+      ],
+      "Upgrades": [],
+      "Points": [
+        {
+          "ModelCount": 1,
+          "Cost": 150
+        }
+      ]
+    },
+    {
+      "Name": "SCORPION",
+      "Faction": "Battle Focus",
+      "UnitComposition": {
+        "ModelCompositions": [
+          {
+            "ModelName": "Scorpion",
+            "Wargear": [
+              {
+                "InitalWargear": [
+                  "shuriken cannon",
+                  "twin Scorpion pulsar",
+                  "wraithbone hull"
+                ],
+                "Options": [
+                  {
+                    "Replaces": [
+                      "shuriken cannon"
+                    ],
+                    "Options": [
+                      "Aeldari missile launcher",
+                      "bright lance",
+                      "scatter laser",
+                      "starcannon"
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "WargearDefinitions": []
+      },
+      "UnitAbilities": [
+        {
+          "Title": "Lanced Obliteration",
+          "Text": "Each time an attack made with this model’s twin Scorpion pulsar destroys an enemy model that has the Deadly Demise ability, that model’s Deadly Demise ability inflicts mortal wounds on a D6 roll of 4+ instead of on a 6."
+        }
+      ],
+      "Infos": [
+        {
+          "Title": "DAMAGED: 1-8 WOUNDS REMAINING",
+          "Text": "While this model has 1-8 wounds remaining, subtract 4 from its Objective Control characteristic and each time this model makes an attack, subtract 1 from the Hit roll."
+        }
+      ],
+      "Keywords": [
+        "Vehicle",
+        "Titanic",
+        "Fly",
+        "Aeldari",
+        "Scorpion",
+        "Frame"
+      ],
+      "CoreAbilities": [
+        "Deadly Demise D6+2"
+      ],
+      "FactionKeywords": [
+        "Asuryani"
+      ],
+      "StatLines": [
+        {
+          "Movement": "14\"",
+          "Toughness": "11",
+          "Save": "2+",
+          "Wounds": "24",
+          "Leadership": "6+",
+          "OC": "8",
+          "InvulSave": {
+            "Save": "5+"
+          }
+        }
+      ],
+      "Weapons": [
+        {
+          "Name": "RANGED WEAPONS",
+          "Weapons": [
+            {
+              "Name": "Aeldari missile launcher – starshot",
+              "Range": "48\"",
+              "Attacks": "1",
+              "ToHit": "3+",
+              "Strength": "10",
+              "AP": "-2",
+              "Damage": "D6"
+            },
+            {
+              "Name": "Aeldari missile launcher – sunburst",
+              "Keywords": "BLAST",
+              "Range": "48\"",
+              "Attacks": "D6",
+              "ToHit": "3+",
+              "Strength": "4",
+              "AP": "-1",
+              "Damage": "1"
+            },
+            {
+              "Name": "Bright lance",
+              "Range": "36\"",
+              "Attacks": "1",
+              "ToHit": "3+",
+              "Strength": "12",
+              "AP": "-3",
+              "Damage": "D6+2"
+            },
+            {
+              "Name": "Scatter laser",
+              "Range": "36\"",
+              "Attacks": "6",
+              "ToHit": "3+",
+              "Strength": "5",
+              "AP": "0",
+              "Damage": "1"
+            },
+            {
+              "Name": "Shuriken cannon",
+              "Keywords": "SUSTAINED HITS 1",
+              "Range": "24\"",
+              "Attacks": "3",
+              "ToHit": "3+",
+              "Strength": "6",
+              "AP": "-1",
+              "Damage": "2"
+            },
+            {
+              "Name": "Starcannon",
+              "Range": "36\"",
+              "Attacks": "2",
+              "ToHit": "3+",
+              "Strength": "8",
+              "AP": "-3",
+              "Damage": "2"
+            },
+            {
+              "Name": "Twin Scorpion pulsar",
+              "Keywords": "TWIN-LINKED",
+              "Range": "60\"",
+              "Attacks": "6",
+              "ToHit": "3+",
+              "Strength": "18",
+              "AP": "-3",
+              "Damage": "5"
+            }
+          ]
+        },
+        {
+          "IsMelee": true,
+          "Name": "MELEE WEAPONS",
+          "Weapons": [
+            {
+              "Name": "Wraithbone hull",
+              "Range": "Melee",
+              "Attacks": "6",
+              "ToHit": "4+",
+              "Strength": "6",
+              "AP": "0",
+              "Damage": "1"
+            }
+          ]
+        }
+      ],
+      "Upgrades": [],
+      "Points": [
+        {
+          "ModelCount": 1,
+          "Cost": 410
+        }
+      ]
+    },
+    {
+      "Name": "SKATHACH WRAITHKNIGHT",
+      "Faction": "Battle Focus",
+      "UnitComposition": {
+        "ModelCompositions": [
+          {
+            "ModelName": "Skathach Wraithknight",
+            "Wargear": [
+              {
+                "InitalWargear": [
+                  "inferno lance",
+                  "titanic feet",
+                  "scattershield"
+                ],
+                "Options": [
+                  {
+                    "Replaces": [
+                      "inferno lance"
+                    ],
+                    "Options": [
+                      "deathshroud cannon"
+                    ]
+                  },
+                  {
+                    "Replaces": [
+                      "scattershield"
+                    ],
+                    "Options": [
+                      "inferno lance",
+                      "deathshroud cannon"
+                    ]
+                  },
+                  {
+                    "Options": [
+                      "scatter laser",
+                      "shuriken cannon",
+                      "starcannon"
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "WargearDefinitions": [
+          {
+            "Key": "scattershield",
+            "GrantsAbilities": [
+              "Scattershield"
+            ],
+            "StatAdjustments": [
+              {
+                "Target": "InvulSave",
+                "Value": "4+",
+                "Info": "Scattershield only"
+              }
+            ]
+          }
+        ]
+      },
+      "UnitAbilities": [
+        {
+          "Title": "Agile",
+          "Text": "Each time this model makes a Normal, Advance or Fall Back move, it can move over other models (excluding Titanic models) and terrain features that are 4\" or less in height as if they were not there."
+        },
+        {
+          "Title": "Webway Shunt Generator",
+          "Text": "Once per battle, at the end of your opponent’s turn, if this model is not within Engagement Range of one or more enemy units, you can remove this model from the battlefield and place it into Strategic Reserves."
+        },
+        {
+          "Title": "Scattershield",
+          "Text": "The bearer has a 4+ invulnerable save."
+        }
+      ],
+      "Infos": [
+        {
+          "Title": "DAMAGED: 1-6 WOUNDS REMAINING",
+          "Text": "While this model has 1-6 wounds remaining, subtract 5 from this model’s Objective Control characteristic and each time this model makes an attack, subtract 1 from the Hit roll."
+        }
+      ],
+      "Keywords": [
+        "Monster",
+        "Titanic",
+        "Towering",
+        "Walker",
+        "Wraith Construct",
+        "Aeldari",
+        "Skathach Wraithknight"
+      ],
+      "CoreAbilities": [
+        "Deadly Demise D6",
+        "Deep Strike"
+      ],
+      "FactionKeywords": [
+        "Asuryani"
+      ],
+      "StatLines": [
+        {
+          "Movement": "10\"",
+          "Toughness": "12",
+          "Save": "2+",
+          "Wounds": "18",
+          "Leadership": "6+",
+          "OC": "10"
+        }
+      ],
+      "Weapons": [
+        {
+          "Name": "RANGED WEAPONS",
+          "Weapons": [
+            {
+              "Name": "Deathshroud cannon – dispersed",
+              "Keywords": "BLAST, DEVASTATING WOUNDS",
+              "Range": "12\"",
+              "Attacks": "3D6",
+              "ToHit": "3+",
+              "Strength": "6",
+              "AP": "-1",
+              "Damage": "1"
+            },
+            {
+              "Name": "Deathshroud cannon – focused",
+              "Keywords": "BLAST, DEVASTATING WOUNDS",
+              "Range": "48\"",
+              "Attacks": "D6",
+              "ToHit": "3+",
+              "Strength": "10",
+              "AP": "-3",
+              "Damage": "2"
+            },
+            {
+              "Name": "Inferno lance",
+              "Keywords": "MELTA 2",
+              "Range": "24\"",
+              "Attacks": "4",
+              "ToHit": "3+",
+              "Strength": "12",
+              "AP": "-4",
+              "Damage": "D6"
+            },
+            {
+              "Name": "Scatter laser",
+              "Range": "36\"",
+              "Attacks": "6",
+              "ToHit": "3+",
+              "Strength": "5",
+              "AP": "0",
+              "Damage": "1"
+            },
+            {
+              "Name": "Shuriken cannon",
+              "Keywords": "SUSTAINED HITS 1",
+              "Range": "24\"",
+              "Attacks": "3",
+              "ToHit": "3+",
+              "Strength": "6",
+              "AP": "-1",
+              "Damage": "2"
+            },
+            {
+              "Name": "Starcannon",
+              "Range": "36\"",
+              "Attacks": "2",
+              "ToHit": "3+",
+              "Strength": "8",
+              "AP": "-3",
+              "Damage": "2"
+            }
+          ]
+        },
+        {
+          "IsMelee": true,
+          "Name": "MELEE WEAPONS",
+          "Weapons": [
+            {
+              "Name": "Titanic feet",
+              "Range": "Melee",
+              "Attacks": "5",
+              "ToHit": "3+",
+              "Strength": "8",
+              "AP": "-1",
+              "Damage": "2"
+            }
+          ]
+        }
+      ],
+      "Upgrades": [],
+      "Points": [
+        {
+          "ModelCount": 1,
+          "Cost": 490
+        }
+      ]
+    },
+    {
+      "Name": "SHADOW SPECTRES",
+      "Faction": "Battle Focus",
+      "UnitComposition": {
+        "ModelCompositions": [
+          {
+            "Limit": {
+              "Max": 1
+            },
+            "ModelName": "Shadow Spectre Exarch",
+            "StatlineRef": "SHADOW SPECTRE EXARCH",
+            "Wargear": [
+              {
+                "InitalWargear": [
+                  "prism rifle",
+                  "close combat weapon"
+                ],
+                "Options": []
+              }
+            ]
+          },
+          {
+            "Limit": {
+              "Min": 5,
+              "Max": 10
+            },
+            "ModelName": "Shadow Spectres",
+            "StatlineRef": "SHADOW SPECTRE",
+            "Wargear": [
+              {
+                "InitalWargear": [
+                  "prism rifle",
+                  "close combat weapon"
+                ],
+                "Options": []
+              }
+            ]
+          }
+        ],
+        "WargearDefinitions": []
+      },
+      "UnitAbilities": [
+        {
+          "Title": "Shade of Twilight",
+          "Text": "In your Shooting phase, after this unit has shot, if it is not within Engagement Range of one or more enemy units, it can make a Normal move of up to D6\". If it does, until the end of the turn, this unit is not eligible to declare a charge."
+        }
+      ],
+      "Infos": [],
+      "Keywords": [
+        "Infantry",
+        "Jump Pack",
+        "Fly",
+        "Aeldari",
+        "Shadow Spectres"
+      ],
+      "CoreAbilities": [
+        "Deep Strike",
+        "Stealth"
+      ],
+      "FactionKeywords": [
+        "Asuryani"
+      ],
+      "StatLines": [
+        {
+          "StatName": "SHADOW SPECTRE",
+          "Movement": "12\"",
+          "Toughness": "3",
+          "Save": "3+",
+          "Wounds": "1",
+          "Leadership": "6+",
+          "OC": "1",
+          "InvulSave": {
+            "Save": "5+"
+          }
+        },
+        {
+          "StatName": "SHADOW SPECTRE EXARCH",
+          "Movement": "12\"",
+          "Toughness": "3",
+          "Save": "3+",
+          "Wounds": "2",
+          "Leadership": "6+",
+          "OC": "1",
+          "InvulSave": {
+            "Save": "5+"
+          }
+        }
+      ],
+      "Weapons": [
+        {
+          "Name": "RANGED WEAPONS",
+          "Weapons": [
+            {
+              "Name": "Prism rifle – dispersed",
+              "Keywords": "BLAST",
+              "Range": "18\"",
+              "Attacks": "D6",
+              "ToHit": "3+",
+              "Strength": "4",
+              "AP": "-1",
+              "Damage": "1"
+            },
+            {
+              "Name": "Prism rifle – focused",
+              "Range": "24\"",
+              "Attacks": "1",
+              "ToHit": "3+",
+              "Strength": "6",
+              "AP": "-2",
+              "Damage": "3"
+            }
+          ]
+        },
+        {
+          "IsMelee": true,
+          "Name": "MELEE WEAPONS",
+          "Weapons": [
+            {
+              "Name": "Close combat weapon",
+              "Range": "Melee",
+              "Attacks": "2",
+              "ToHit": "3+",
+              "Strength": "3",
+              "AP": "0",
+              "Damage": "1"
+            }
+          ]
+        }
+      ],
+      "Upgrades": [],
+      "Points": [
+        {
+          "ModelCount": 1,
+          "Cost": 30
+        },
+        {
+          "ModelCount": 5,
+          "Cost": 115
+        },
+        {
+          "ModelCount": 10,
+          "Cost": 230
+        }
+      ]
+    },
+    {
+      "Name": "IRILLYTH",
+      "Faction": "Battle Focus",
+      "UnitComposition": {
+        "ModelCompositions": [
+          {
+            "ModelName": "Irillyth",
+            "Wargear": [
+              {
+                "InitalWargear": [
+                  "Spear of Starlight"
+                ],
+                "Options": []
+              }
+            ]
+          }
+        ],
+        "WargearDefinitions": []
+      },
+      "UnitAbilities": [
+        {
+          "Title": "Reaper of Souls",
+          "Text": "While this model is leading a unit, each time a model in that unit makes an attack, add 1 to the Hit roll."
+        },
+        {
+          "Title": "Shadow of Death (Aura)",
+          "Text": "While an enemy unit is within 6\" of this model, each time that unit takes a Battle-shock or Leadership test, subtract 1 from that test."
+        }
+      ],
+      "LeaderInfo": {
+        "UnitNames": [
+          "SHADOW SPECTRES"
+        ],
+        "Abilities": [
+          {
+            "AbilityId": "Reaper of Souls"
+          }
+        ]
+      },
+      "Infos": [],
+      "Keywords": [
+        "Infantry",
+        "Character",
+        "Epic Hero",
+        "Fly",
+        "Jump Pack",
+        "Phoenix Lord",
+        "Aeldari",
+        "Irillyth"
+      ],
+      "CoreAbilities": [
+        "Leader",
+        "Deep Strike",
+        "Stealth"
+      ],
+      "FactionKeywords": [
+        "Asuryani"
+      ],
+      "StatLines": [
+        {
+          "Movement": "12\"",
+          "Toughness": "3",
+          "Save": "2+",
+          "Wounds": "5",
+          "Leadership": "6+",
+          "OC": "1",
+          "InvulSave": {
+            "Save": "4+"
+          }
+        }
+      ],
+      "Weapons": [
+        {
+          "Name": "RANGED WEAPONS",
+          "Weapons": [
+            {
+              "Name": "Spear of Starlight",
+              "Range": "24\"",
+              "Attacks": "3",
+              "ToHit": "3+",
+              "Strength": "8",
+              "AP": "-2",
+              "Damage": "4"
+            }
+          ]
+        },
+        {
+          "IsMelee": true,
+          "Name": "MELEE WEAPONS",
+          "Weapons": [
+            {
+              "Name": "Spear of Starlight",
+              "Range": "Melee",
+              "Attacks": "4",
+              "ToHit": "3+",
+              "Strength": "5",
+              "AP": "-2",
+              "Damage": "1"
+            }
+          ]
+        }
+      ],
+      "Upgrades": [],
+      "Points": [
+        {
+          "ModelCount": 1,
+          "Cost": 105
+        }
+      ]
+    },
+    {
+      "Name": "WARP HUNTER",
+      "Faction": "Battle Focus",
+      "UnitComposition": {
+        "ModelCompositions": [
+          {
+            "ModelName": "Warp Hunter",
+            "Wargear": [
+              {
+                "InitalWargear": [
+                  "D-flail",
+                  "twin shuriken catapult",
+                  "wraithbone hull"
+                ],
+                "Options": [
+                  {
+                    "Replaces": [
+                      "twin shuriken catapult"
+                    ],
+                    "Options": [
+                      "shuriken cannon"
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "WargearDefinitions": []
+      },
+      "UnitAbilities": [
+        {
+          "Title": "Devastating Assault",
+          "Text": "In your Shooting phase, after this model has shot, select one enemy unit hit by one or more of those attacks. That enemy unit must take a Battle-shock test."
+        }
+      ],
+      "Infos": [
+        {
+          "Title": "DAMAGED: 1-4 WOUNDS REMAINING",
+          "Text": "While this model has 1-4 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
+        }
+      ],
+      "Keywords": [
+        "Vehicle",
+        "Fly",
+        "Aeldari",
+        "Warp Hunter",
+        "Frame"
+      ],
+      "CoreAbilities": [
+        "Deadly Demise D3"
+      ],
+      "FactionKeywords": [
+        "Asuryani"
+      ],
+      "StatLines": [
+        {
+          "Movement": "14\"",
+          "Toughness": "9",
+          "Save": "3+",
+          "Wounds": "12",
+          "Leadership": "6+",
+          "OC": "3"
+        }
+      ],
+      "Weapons": [
+        {
+          "Name": "RANGED WEAPONS",
+          "Weapons": [
+            {
+              "Name": "D-flail – blast",
+              "Keywords": "BLAST, DEVASTATING WOUNDS",
+              "Range": "24\"",
+              "Attacks": "D3",
+              "ToHit": "3+",
+              "Strength": "12",
+              "AP": "-4",
+              "Damage": "3"
+            },
+            {
+              "Name": "D-flail – rift",
+              "Keywords": "DEVASTATING WOUNDS, TORRENT",
+              "Range": "12\"",
+              "Attacks": "D3",
+              "ToHit": "N/A",
+              "Strength": "12",
+              "AP": "-4",
+              "Damage": "3"
+            },
+            {
+              "Name": "Shuriken cannon",
+              "Keywords": "SUSTAINED HITS 1",
+              "Range": "24\"",
+              "Attacks": "3",
+              "ToHit": "3+",
+              "Strength": "6",
+              "AP": "-1",
+              "Damage": "2"
+            },
+            {
+              "Name": "Twin shuriken catapult",
+              "Keywords": "ASSAULT, TWIN-LINKED",
+              "Range": "18\"",
+              "Attacks": "2",
+              "ToHit": "3+",
+              "Strength": "4",
+              "AP": "-1",
+              "Damage": "1"
+            }
+          ]
+        },
+        {
+          "IsMelee": true,
+          "Name": "MELEE WEAPONS",
+          "Weapons": [
+            {
+              "Name": "Wraithbone hull",
+              "Range": "Melee",
+              "Attacks": "3",
+              "ToHit": "4+",
+              "Strength": "6",
+              "AP": "0",
+              "Damage": "1"
+            }
+          ]
+        }
+      ],
+      "Upgrades": [],
+      "Points": [
+        {
+          "ModelCount": 1,
+          "Cost": 145
+        }
+      ]
+    },
+    {
+      "Name": "WRAITHSEER",
+      "Faction": "Battle Focus",
+      "UnitComposition": {
+        "ModelCompositions": [
+          {
+            "ModelName": "Wraithseer",
+            "Wargear": [
+              {
+                "InitalWargear": [
+                  "destructor",
+                  "ghostspear"
+                ],
+                "Options": [
+                  {
+                    "Options": [
+                      "Aeldari missile launcher",
+                      "bright lance",
+                      "scatter laser",
+                      "shuriken cannon",
+                      "starcannon",
+                      "Wraithseer D-cannon"
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "WargearDefinitions": []
+      },
+      "UnitAbilities": [
+        {
+          "Title": "Horrify (Psychic)",
+          "Text": "In your Shooting phase, after this model has shot, select one enemy unit hit by one or more of those attacks. That enemy unit must take a Battle-shock test."
+        }
+      ],
+      "Infos": [],
+      "Keywords": [
+        "Monster",
+        "Psyker",
+        "Walker",
+        "Wraith Construct",
+        "Aeldari",
+        "Wraithseer"
+      ],
+      "CoreAbilities": [
+        "Deadly Demise 1"
+      ],
+      "FactionKeywords": [
+        "Asuryani"
+      ],
+      "StatLines": [
+        {
+          "Movement": "8\"",
+          "Toughness": "11",
+          "Save": "2+",
+          "Wounds": "10",
+          "Leadership": "6+",
+          "OC": "3",
+          "InvulSave": {
+            "Save": "5+"
+          }
+        }
+      ],
+      "Weapons": [
+        {
+          "Name": "RANGED WEAPONS",
+          "Weapons": [
+            {
+              "Name": "Aeldari missile launcher – starshot",
+              "Range": "48\"",
+              "Attacks": "1",
+              "ToHit": "4+",
+              "Strength": "10",
+              "AP": "-2",
+              "Damage": "D6"
+            },
+            {
+              "Name": "Aeldari missile launcher – sunburst",
+              "Keywords": "BLAST",
+              "Range": "48\"",
+              "Attacks": "D6",
+              "ToHit": "4+",
+              "Strength": "4",
+              "AP": "-1",
+              "Damage": "1"
+            },
+            {
+              "Name": "Bright lance",
+              "Range": "36\"",
+              "Attacks": "1",
+              "ToHit": "4+",
+              "Strength": "12",
+              "AP": "-3",
+              "Damage": "D6+2"
+            },
+            {
+              "Name": "Destructor",
+              "Keywords": "PSYCHIC, TORRENT",
+              "Range": "12\"",
+              "Attacks": "D6",
+              "ToHit": "N/A",
+              "Strength": "5",
+              "AP": "-1",
+              "Damage": "1"
+            },
+            {
+              "Name": "Scatter laser",
+              "Range": "36\"",
+              "Attacks": "6",
+              "ToHit": "4+",
+              "Strength": "5",
+              "AP": "0",
+              "Damage": "1"
+            },
+            {
+              "Name": "Shuriken cannon",
+              "Keywords": "SUSTAINED HITS 1",
+              "Range": "24\"",
+              "Attacks": "3",
+              "ToHit": "4+",
+              "Strength": "6",
+              "AP": "-1",
+              "Damage": "2"
+            },
+            {
+              "Name": "Starcannon",
+              "Range": "36\"",
+              "Attacks": "2",
+              "ToHit": "4+",
+              "Strength": "8",
+              "AP": "-3",
+              "Damage": "2"
+            },
+            {
+              "Name": "Wraithseer D-cannon",
+              "Keywords": "DEVASTATING WOUNDS",
+              "Range": "24\"",
+              "Attacks": "1",
+              "ToHit": "4+",
+              "Strength": "14",
+              "AP": "-4",
+              "Damage": "D6"
+            }
+          ]
+        },
+        {
+          "IsMelee": true,
+          "Name": "MELEE WEAPONS",
+          "Weapons": [
+            {
+              "Name": "Ghostspear – strike",
+              "Keywords": "ANTI-INFANTRY 2+, PRECISION, PSYCHIC",
+              "Range": "Melee",
+              "Attacks": "4",
+              "ToHit": "4+",
+              "Strength": "10",
+              "AP": "-2",
+              "Damage": "3"
+            },
+            {
+              "Name": "Ghostspear – sweep",
+              "Keywords": "ANTI-INFANTRY 2+, PSYCHIC",
+              "Range": "Melee",
+              "Attacks": "12",
+              "ToHit": "4+",
+              "Strength": "7",
+              "AP": "-1",
+              "Damage": "1"
+            }
+          ]
+        }
+      ],
+      "Upgrades": [],
+      "Points": [
+        {
+          "ModelCount": 1,
+          "Cost": 160
+        }
+      ]
+    },
+    {
+      "Name": "CRAFTWORLD WARLEADER",
+      "Faction": "Battle Focus",
+      "Flags": 4,
+      "UnitComposition": {
+        "ModelCompositions": [
+          {
+            "ModelName": "Craftworld Warleader",
+            "Wargear": [
+              {
+                "InitalWargear": [],
+                "Options": [
+                  {
+                    "Options": [
+                      "destructor",
+                      "death spinner",
+                      "dragon fusion gun",
+                      "eldritch storm",
+                      "long rifle",
+                      "missile launcher",
+                      "reaper launcher",
+                      "scatter laser",
+                      "shuriken cannon",
+                      "singing spear"
+                    ]
+                  },
+                  {
+                    "Options": [
+                      "dragon fusion pistol",
+                      "shuriken pistol"
+                    ]
+                  },
+                  {
+                    "Options": [
+                      "dragon fusion pistol",
+                      "shuriken pistol"
+                    ]
+                  },
+                  {
+                    "Options": [
+                      "banshee blade",
+                      "close-combat weapon",
+                      "paragon sabre",
+                      "scorpion chainsword",
+                      "singing spear",
+                      "star glaive",
+                      "witch staff",
+                      "witchblade"
+                    ]
+                  },
+                  {
+                    "Options": [
+                      "banshee blade",
+                      "close-combat weapon",
+                      "paragon sabre",
+                      "scorpion chainsword",
+                      "singing spear",
+                      "star glaive",
+                      "witch staff",
+                      "witchblade"
+                    ]
+                  },
+                  {
+                    "Options": [
+                      "Cameleoline Cloak",
+                      "Corsair Raider",
+                      "Heavy Aspect Armour",
+                      "Path of the Witch",
+                      "Wayleaper’s Heavy Aspect Armour"
+                    ]
+                  },
+                  {
+                    "Options": [
+                      "Doomseer",
+                      "Outcast",
+                      "Superlative Strategist",
+                      "Warden of Fate"
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "WargearDefinitions": [
+          {
+            "Key": "Cameleoline Cloak",
+            "GrantsAbilities": [
+              "Cameleoline Cloak"
+            ],
+            "DatasheetAdjustments": [
+              {
+                "Target": "CoreAbilities",
+                "Type": "Add",
+                "Values": [
+                  "Infiltrators",
+                  "Stealth"
+                ]
+              },
+              {
+                "Target": "LedUnitNames",
+                "Values": [
+                  "RANGERS"
+                ]
+              }
+            ]
+          },
+          {
+            "Key": "Corsair Raider",
+            "GrantsAbilities": [
+              "Corsair Raider"
+            ],
+            "DatasheetAdjustments": [
+              {
+                "Target": "Keywords",
+                "Type": "Add",
+                "Values": [
+                  "Anhrathe"
+                ]
+              },
+              {
+                "Target": "CoreAbilities",
+                "Type": "Add",
+                "Values": [
+                  "Scouts 7\""
+                ]
+              },
+              {
+                "Target": "LedUnitNames",
+                "Values": [
+                  "CORSAIR VOIDREAVERS",
+                  "CORSAIR VOIDSCARRED"
+                ]
+              }
+            ]
+          },
+          {
+            "Key": "Heavy Aspect Armour",
+            "GrantsAbilities": [
+              "Heavy Aspect Armour"
+            ],
+            "StatAdjustments": [
+              {
+                "Target": "Save",
+                "Value": "3+"
+              }
+            ],
+            "DatasheetAdjustments": [
+              {
+                "Target": "LedUnitNames",
+                "Values": [
+                  "GUARDIAN DEFENDERS",
+                  "STORM GUARDIANS",
+                  "WARLOCK CONCLAVE",
+                  "DARK REAPERS",
+                  "DIRE AVENGERS",
+                  "FIRE DRAGONS",
+                  "HOWLING BANSHEES",
+                  "STRIKING SCORPIONS"
+                ]
+              }
+            ]
+          },
+          {
+            "Key": "Path of the Witch",
+            "GrantsAbilities": [
+              "Path of the Witch"
+            ],
+            "DatasheetAdjustments": [
+              {
+                "Target": "Keywords",
+                "Type": "Add",
+                "Values": [
+                  "Psyker"
+                ]
+              }
+            ]
+          },
+          {
+            "Key": "Wayleaper’s Heavy Aspect Armour",
+            "GrantsAbilities": [
+              "Wayleaper’s Heavy Aspect Armour"
+            ],
+            "StatAdjustments": [
+              {
+                "Value": "14\""
+              },
+              {
+                "Target": "Save",
+                "Value": "3+"
+              }
+            ],
+            "DatasheetAdjustments": [
+              {
+                "Target": "Keywords",
+                "Type": "Add",
+                "Values": [
+                  "Fly",
+                  "Jump Pack"
+                ]
+              },
+              {
+                "Target": "CoreAbilities",
+                "Type": "Add",
+                "Values": [
+                  "Deep Strike"
+                ]
+              },
+              {
+                "Target": "LedUnitNames",
+                "Values": [
+                  "SWOOPING HAWKS",
+                  "WARP SPIDERS"
+                ]
+              }
+            ]
+          },
+          {
+            "Key": "Doomseer",
+            "GrantsAbilities": [
+              "Doomseer"
+            ]
+          },
+          {
+            "Key": "Outcast",
+            "GrantsAbilities": [
+              "Outcast"
+            ],
+            "DatasheetAdjustments": [
+              {
+                "Target": "CoreAbilities",
+                "Type": "Add",
+                "Values": [
+                  "Lone Operative"
+                ]
+              }
+            ]
+          },
+          {
+            "Key": "Superlative Strategist",
+            "GrantsAbilities": [
+              "Superlative Strategist"
+            ]
+          },
+          {
+            "Key": "Warden of Fate",
+            "GrantsAbilities": [
+              "Warden of Fate"
+            ]
+          }
+        ]
+      },
+      "UnitAbilities": [
+        {
+          "Title": "Guided by Fate",
+          "Text": "Each time this model makes an attack, you can re-roll the Hit roll and you can re-roll the Wound roll."
+        },
+        {
+          "Title": "Cameleoline Cloak",
+          "Text": "This model gains the Infiltrators and Stealth abilities, and replace the list of units this model can be attached to: Rangers."
+        },
+        {
+          "Title": "Corsair Raider",
+          "Text": "This model gains the Scouts 7\" ability, add the Anhrathe keyword, and replace the list of units this model can be attached to: Corsair Voidreavers, Corsair Voidscarred."
+        },
+        {
+          "Title": "Heavy Aspect Armour",
+          "Text": "Change this model’s Save characteristic to 3+. Add the following units to the list of units this model can be attached to: Dark Reapers, Dire Avengers, Fire Dragons, Howling Banshees, Striking Scorpions."
+        },
+        {
+          "Title": "Path of the Witch",
+          "Text": "The model gains the Psyker keyword."
+        },
+        {
+          "Title": "Wayleaper’s Heavy Aspect Armour",
+          "Text": "Change this model’s Move characteristic to 14\", its Save characteristic to 3+, it gains the Deep Strike ability, and add the Fly and Jump Pack keywords. Replace the list of units this model can be attached to: Swooping Hawks, Warp Spiders."
+        },
+        {
+          "Title": "Doomseer",
+          "Text": "Each time a model in this unit makes an attack, add 1 to the Hit roll."
+        },
+        {
+          "Title": "Outcast",
+          "Text": "This model has the Lone Operative ability."
+        },
+        {
+          "Title": "Superlative Strategist",
+          "Text": "You can re-roll Advance rolls made for this model’s unit, and you can re-roll any rolls made for that unit while it is performing an Agile Manoeuvre."
+        },
+        {
+          "Title": "Warden of Fate",
+          "Text": "Each time a ranged attack targets this unit, models in that unit have the Benefit of Cover."
+        }
+      ],
+      "LeaderInfo": {
+        "UnitNames": [
+          "GUARDIAN DEFENDERS",
+          "STORM GUARDIANS",
+          "WARLOCK CONCLAVE"
+        ]
+      },
+      "Infos": [],
+      "Keywords": [
+        "Infantry",
+        "Character",
+        "Aeldari",
+        "Craftworld Warleader"
+      ],
+      "CoreAbilities": [
+        "Crucible",
+        "Leader"
+      ],
+      "FactionKeywords": [
+        "Asuryani"
+      ],
+      "StatLines": [
+        {
+          "Movement": "7\"",
+          "Toughness": "3",
+          "Save": "6+",
+          "Wounds": "4",
+          "Leadership": "6+",
+          "OC": "1"
+        }
+      ],
+      "Weapons": [
+        {
+          "Name": "RANGED WEAPONS",
+          "Weapons": [
+            {
+              "Name": "Destructor",
+              "Keywords": "PSYCHIC, TORRENT",
+              "Range": "12\"",
+              "Attacks": "D6",
+              "ToHit": "N/A",
+              "Strength": "5",
+              "AP": "-1",
+              "Damage": "1"
+            },
+            {
+              "Name": "Death spinner",
+              "Keywords": "IGNORES COVER, TORRENT",
+              "Range": "12\"",
+              "Attacks": "D6",
+              "ToHit": "N/A",
+              "Strength": "4",
+              "AP": "-1",
+              "Damage": "1"
+            },
+            {
+              "Name": "Dragon fusion gun",
+              "Keywords": "ASSAULT, MELTA 3",
+              "Range": "12\"",
+              "Attacks": "1",
+              "ToHit": "2+",
+              "Strength": "9",
+              "AP": "-4",
+              "Damage": "D6"
+            },
+            {
+              "Name": "Eldritch Storm",
+              "Keywords": "BLAST, PSYCHIC",
+              "Range": "24\"",
+              "Attacks": "D6",
+              "ToHit": "3+",
+              "Strength": "6",
+              "AP": "-2",
+              "Damage": "D3"
+            },
+            {
+              "Name": "Long rifle",
+              "Keywords": "HEAVY, PRECISION",
+              "Range": "36\"",
+              "Attacks": "1",
+              "ToHit": "2+",
+              "Strength": "4",
+              "AP": "-1",
+              "Damage": "2"
+            },
+            {
+              "Name": "Missile launcher – starshot",
+              "Range": "48\"",
+              "Attacks": "1",
+              "ToHit": "2+",
+              "Strength": "10",
+              "AP": "-2",
+              "Damage": "D6"
+            },
+            {
+              "Name": "Missile launcher – sunburst",
+              "Keywords": "BLAST",
+              "Range": "48\"",
+              "Attacks": "D6",
+              "ToHit": "2+",
+              "Strength": "4",
+              "AP": "-1",
+              "Damage": "1"
+            },
+            {
+              "Name": "Reaper launcher – starshot",
+              "Keywords": "HEAVY, IGNORES COVER",
+              "Range": "48\"",
+              "Attacks": "1",
+              "ToHit": "3+",
+              "Strength": "10",
+              "AP": "-2",
+              "Damage": "3"
+            },
+            {
+              "Name": "Reaper launcher – starswarm",
+              "Keywords": "HEAVY, IGNORES COVER",
+              "Range": "48\"",
+              "Attacks": "2",
+              "ToHit": "3+",
+              "Strength": "4",
+              "AP": "-2",
+              "Damage": "1"
+            },
+            {
+              "Name": "Scatter laser",
+              "Keywords": "ASSAULT, SUSTAINED HITS 1",
+              "Range": "36\"",
+              "Attacks": "4",
+              "ToHit": "2+",
+              "Strength": "5",
+              "AP": "0",
+              "Damage": "1"
+            },
+            {
+              "Name": "Shuriken cannon",
+              "Keywords": "ASSAULT, LETHAL HITS",
+              "Range": "24\"",
+              "Attacks": "3",
+              "ToHit": "3+",
+              "Strength": "6",
+              "AP": "-1",
+              "Damage": "2"
+            },
+            {
+              "Name": "Singing spear",
+              "Keywords": "ASSAULT, PSYCHIC",
+              "Range": "12\"",
+              "Attacks": "1",
+              "ToHit": "2+",
+              "Strength": "9",
+              "AP": "0",
+              "Damage": "3"
+            },
+            {
+              "Name": "Dragon fusion pistol",
+              "Keywords": "ASSAULT, MELTA 3, PISTOL",
+              "Range": "6\"",
+              "Attacks": "1",
+              "ToHit": "2+",
+              "Strength": "9",
+              "AP": "-4",
+              "Damage": "D6"
+            },
+            {
+              "Name": "Shuriken pistol",
+              "Keywords": "ASSAULT, PISTOL",
+              "Range": "12\"",
+              "Attacks": "1",
+              "ToHit": "2+",
+              "Strength": "4",
+              "AP": "-1",
+              "Damage": "1"
+            }
+          ]
+        },
+        {
+          "IsMelee": true,
+          "Name": "MELEE WEAPONS",
+          "Weapons": [
+            {
+              "Name": "Banshee blade",
+              "Keywords": "ANTI-INFANTRY 3+",
+              "Range": "Melee",
+              "Attacks": "5",
+              "ToHit": "2+",
+              "Strength": "4",
+              "AP": "-2",
+              "Damage": "2"
+            },
+            {
+              "Name": "Close-combat weapon",
+              "Range": "Melee",
+              "Attacks": "3",
+              "ToHit": "3+",
+              "Strength": "3",
+              "AP": "0",
+              "Damage": "1"
+            },
+            {
+              "Name": "Paragon sabre",
+              "Range": "Melee",
+              "Attacks": "6",
+              "ToHit": "3+",
+              "Strength": "5",
+              "AP": "-2",
+              "Damage": "2"
+            },
+            {
+              "Name": "Scorpion chainsword",
+              "Keywords": "SUSTAINED HITS 1",
+              "Range": "Melee",
+              "Attacks": "7",
+              "ToHit": "2+",
+              "Strength": "4",
+              "AP": "-1",
+              "Damage": "1"
+            },
+            {
+              "Name": "Singing spear",
+              "Keywords": "PSYCHIC",
+              "Range": "Melee",
+              "Attacks": "2",
+              "ToHit": "2+",
+              "Strength": "3",
+              "AP": "0",
+              "Damage": "3"
+            },
+            {
+              "Name": "Star glaive",
+              "Range": "Melee",
+              "Attacks": "4",
+              "ToHit": "2+",
+              "Strength": "6",
+              "AP": "-3",
+              "Damage": "3"
+            },
+            {
+              "Name": "Witch staff",
+              "Keywords": "ANTI-INFANTRY 2+, PSYCHIC",
+              "Range": "Melee",
+              "Attacks": "2",
+              "ToHit": "2+",
+              "Strength": "3",
+              "AP": "0",
+              "Damage": "D3"
+            },
+            {
+              "Name": "Witchblade",
+              "Keywords": "ANTI-INFANTRY 2+, PSYCHIC",
+              "Range": "Melee",
+              "Attacks": "2",
+              "ToHit": "2+",
+              "Strength": "3",
+              "AP": "0",
+              "Damage": "2"
+            }
+          ]
+        }
+      ],
+      "Upgrades": [],
+      "Points": [
+        {
+          "ModelCount": 1,
+          "Cost": 75
+        }
+      ]
+    },
+    {
+      "Name": "SKYRUNNER",
+      "Faction": "Battle Focus",
+      "Flags": 4,
+      "UnitComposition": {
+        "ModelCompositions": [
+          {
+            "ModelName": "Skyrunner",
+            "Wargear": [
+              {
+                "InitalWargear": [],
+                "Options": [
+                  {
+                    "Options": [
+                      "destructor",
+                      "death spinner",
+                      "dragon fusion gun",
+                      "eldritch storm",
+                      "long rifle",
+                      "missile launcher",
+                      "reaper launcher",
+                      "scatter laser",
+                      "shuriken cannon",
+                      "singing spear",
+                      "star lance",
+                      "twin shuriken catapult"
+                    ]
+                  },
+                  {
+                    "Options": [
+                      "dragon fusion pistol",
+                      "shuriken pistol"
+                    ]
+                  },
+                  {
+                    "Options": [
+                      "dragon fusion pistol",
+                      "shuriken pistol"
+                    ]
+                  },
+                  {
+                    "Options": [
+                      "banshee blade",
+                      "close-combat weapon",
+                      "paragon sabre",
+                      "scorpion chainsword",
+                      "singing spear",
+                      "star glaive",
+                      "star lance",
+                      "witch staff",
+                      "witchblade"
+                    ]
+                  },
+                  {
+                    "Options": [
+                      "banshee blade",
+                      "close-combat weapon",
+                      "paragon sabre",
+                      "scorpion chainsword",
+                      "singing spear",
+                      "star glaive",
+                      "star lance",
+                      "witch staff",
+                      "witchblade"
+                    ]
+                  },
+                  {
+                    "Options": [
+                      "Path of the Witch",
+                      "Skyrunner’s Heavy Aspect Armour"
+                    ]
+                  },
+                  {
+                    "Options": [
+                      "Doomseer",
+                      "Outcast",
+                      "Superlative Strategist",
+                      "Warden of Fate"
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "WargearDefinitions": [
+          {
+            "Key": "Path of the Witch",
+            "GrantsAbilities": [
+              "Path of the Witch"
+            ],
+            "DatasheetAdjustments": [
+              {
+                "Target": "Keywords",
+                "Type": "Add",
+                "Values": [
+                  "Psyker"
+                ]
+              }
+            ]
+          },
+          {
+            "Key": "Skyrunner’s Heavy Aspect Armour",
+            "GrantsAbilities": [
+              "Skyrunner’s Heavy Aspect Armour"
+            ],
+            "StatAdjustments": [
+              {
+                "Target": "Save",
+                "Value": "3+"
+              }
+            ],
+            "DatasheetAdjustments": [
+              {
+                "Target": "LedUnitNames",
+                "Values": [
+                  "WINDRIDERS",
+                  "SHINING SPEARS"
+                ]
+              }
+            ]
+          },
+          {
+            "Key": "Doomseer",
+            "GrantsAbilities": [
+              "Doomseer"
+            ]
+          },
+          {
+            "Key": "Outcast",
+            "GrantsAbilities": [
+              "Outcast"
+            ],
+            "DatasheetAdjustments": [
+              {
+                "Target": "CoreAbilities",
+                "Type": "Add",
+                "Values": [
+                  "Lone Operative"
+                ]
+              }
+            ]
+          },
+          {
+            "Key": "Superlative Strategist",
+            "GrantsAbilities": [
+              "Superlative Strategist"
+            ]
+          },
+          {
+            "Key": "Warden of Fate",
+            "GrantsAbilities": [
+              "Warden of Fate"
+            ]
+          }
+        ]
+      },
+      "UnitAbilities": [
+        {
+          "Title": "Winds of War",
+          "Text": "This model’s unit is eligible to declare a charge in a turn in which it advanced."
+        },
+        {
+          "Title": "Path of the Witch",
+          "Text": "The model gains the Psyker keyword."
+        },
+        {
+          "Title": "Skyrunner’s Heavy Aspect Armour",
+          "Text": "Change this model’s Save characteristic to 3+. Add the following unit to the list of units this model can be attached to: Shining Spears."
+        },
+        {
+          "Title": "Doomseer",
+          "Text": "Each time a model in this unit makes an attack, add 1 to the Hit roll."
+        },
+        {
+          "Title": "Outcast",
+          "Text": "This model has the Lone Operative ability."
+        },
+        {
+          "Title": "Superlative Strategist",
+          "Text": "You can re-roll Advance rolls made for this model’s unit, and you can re-roll any rolls made for that unit while it is performing an Agile Manoeuvre."
+        },
+        {
+          "Title": "Warden of Fate",
+          "Text": "Each time a ranged attack targets this unit, models in that unit have the Benefit of Cover."
+        }
+      ],
+      "LeaderInfo": {
+        "UnitNames": [
+          "WINDRIDERS"
+        ]
+      },
+      "Infos": [],
+      "Keywords": [
+        "Mounted",
+        "Character",
+        "Aeldari",
+        "Fly",
+        "Skyrunner"
+      ],
+      "CoreAbilities": [
+        "Crucible",
+        "Leader"
+      ],
+      "FactionKeywords": [
+        "Asuryani"
+      ],
+      "StatLines": [
+        {
+          "Movement": "14\"",
+          "Toughness": "4",
+          "Save": "6+",
+          "Wounds": "5",
+          "Leadership": "6+",
+          "OC": "2"
+        }
+      ],
+      "Weapons": [
+        {
+          "Name": "RANGED WEAPONS",
+          "Weapons": [
+            {
+              "Name": "Destructor",
+              "Keywords": "PSYCHIC, TORRENT",
+              "Range": "12\"",
+              "Attacks": "D6",
+              "ToHit": "N/A",
+              "Strength": "5",
+              "AP": "-1",
+              "Damage": "1"
+            },
+            {
+              "Name": "Death spinner",
+              "Keywords": "IGNORES COVER, TORRENT",
+              "Range": "12\"",
+              "Attacks": "D6",
+              "ToHit": "N/A",
+              "Strength": "4",
+              "AP": "-1",
+              "Damage": "1"
+            },
+            {
+              "Name": "Dragon fusion gun",
+              "Keywords": "ASSAULT, MELTA 3",
+              "Range": "12\"",
+              "Attacks": "1",
+              "ToHit": "2+",
+              "Strength": "9",
+              "AP": "-4",
+              "Damage": "D6"
+            },
+            {
+              "Name": "Eldritch Storm",
+              "Keywords": "BLAST, PSYCHIC",
+              "Range": "24\"",
+              "Attacks": "D6",
+              "ToHit": "3+",
+              "Strength": "6",
+              "AP": "-2",
+              "Damage": "D3"
+            },
+            {
+              "Name": "Long rifle",
+              "Keywords": "HEAVY, PRECISION",
+              "Range": "36\"",
+              "Attacks": "1",
+              "ToHit": "2+",
+              "Strength": "4",
+              "AP": "-1",
+              "Damage": "2"
+            },
+            {
+              "Name": "Missile launcher – starshot",
+              "Range": "48\"",
+              "Attacks": "1",
+              "ToHit": "2+",
+              "Strength": "10",
+              "AP": "-2",
+              "Damage": "D6"
+            },
+            {
+              "Name": "Missile launcher – sunburst",
+              "Keywords": "BLAST",
+              "Range": "48\"",
+              "Attacks": "D6",
+              "ToHit": "2+",
+              "Strength": "4",
+              "AP": "-1",
+              "Damage": "1"
+            },
+            {
+              "Name": "Reaper launcher – starshot",
+              "Keywords": "HEAVY, IGNORES COVER",
+              "Range": "48\"",
+              "Attacks": "1",
+              "ToHit": "3+",
+              "Strength": "10",
+              "AP": "-2",
+              "Damage": "3"
+            },
+            {
+              "Name": "Reaper launcher – starswarm",
+              "Keywords": "HEAVY, IGNORES COVER",
+              "Range": "48\"",
+              "Attacks": "2",
+              "ToHit": "3+",
+              "Strength": "4",
+              "AP": "-2",
+              "Damage": "1"
+            },
+            {
+              "Name": "Scatter laser",
+              "Keywords": "ASSAULT, SUSTAINED HITS 1",
+              "Range": "36\"",
+              "Attacks": "4",
+              "ToHit": "2+",
+              "Strength": "5",
+              "AP": "0",
+              "Damage": "1"
+            },
+            {
+              "Name": "Shuriken cannon",
+              "Keywords": "ASSAULT, LETHAL HITS",
+              "Range": "24\"",
+              "Attacks": "3",
+              "ToHit": "3+",
+              "Strength": "6",
+              "AP": "-1",
+              "Damage": "2"
+            },
+            {
+              "Name": "Singing spear",
+              "Keywords": "ASSAULT, PSYCHIC",
+              "Range": "12\"",
+              "Attacks": "1",
+              "ToHit": "2+",
+              "Strength": "9",
+              "AP": "0",
+              "Damage": "3"
+            },
+            {
+              "Name": "Star lance",
+              "Keywords": "ASSAULT",
+              "Range": "6\"",
+              "Attacks": "1",
+              "ToHit": "2+",
+              "Strength": "9",
+              "AP": "-3",
+              "Damage": "3"
+            },
+            {
+              "Name": "Twin shuriken catapult",
+              "Keywords": "ASSAULT, TWIN-LINKED",
+              "Range": "18\"",
+              "Attacks": "2",
+              "ToHit": "3+",
+              "Strength": "4",
+              "AP": "-1",
+              "Damage": "1"
+            },
+            {
+              "Name": "Dragon fusion pistol",
+              "Keywords": "ASSAULT, MELTA 3, PISTOL",
+              "Range": "6\"",
+              "Attacks": "1",
+              "ToHit": "2+",
+              "Strength": "9",
+              "AP": "-4",
+              "Damage": "D6"
+            },
+            {
+              "Name": "Shuriken pistol",
+              "Keywords": "ASSAULT, PISTOL",
+              "Range": "12\"",
+              "Attacks": "1",
+              "ToHit": "2+",
+              "Strength": "4",
+              "AP": "-1",
+              "Damage": "1"
+            }
+          ]
+        },
+        {
+          "IsMelee": true,
+          "Name": "MELEE WEAPONS",
+          "Weapons": [
+            {
+              "Name": "Banshee blade",
+              "Keywords": "ANTI-INFANTRY 3+",
+              "Range": "Melee",
+              "Attacks": "5",
+              "ToHit": "2+",
+              "Strength": "4",
+              "AP": "-2",
+              "Damage": "2"
+            },
+            {
+              "Name": "Close-combat weapon",
+              "Range": "Melee",
+              "Attacks": "3",
+              "ToHit": "3+",
+              "Strength": "3",
+              "AP": "0",
+              "Damage": "1"
+            },
+            {
+              "Name": "Paragon sabre",
+              "Range": "Melee",
+              "Attacks": "6",
+              "ToHit": "3+",
+              "Strength": "5",
+              "AP": "-2",
+              "Damage": "2"
+            },
+            {
+              "Name": "Scorpion chainsword",
+              "Keywords": "SUSTAINED HITS 1",
+              "Range": "Melee",
+              "Attacks": "7",
+              "ToHit": "2+",
+              "Strength": "4",
+              "AP": "-1",
+              "Damage": "1"
+            },
+            {
+              "Name": "Singing spear",
+              "Keywords": "PSYCHIC",
+              "Range": "Melee",
+              "Attacks": "2",
+              "ToHit": "2+",
+              "Strength": "3",
+              "AP": "0",
+              "Damage": "3"
+            },
+            {
+              "Name": "Star glaive",
+              "Range": "Melee",
+              "Attacks": "4",
+              "ToHit": "2+",
+              "Strength": "6",
+              "AP": "-3",
+              "Damage": "3"
+            },
+            {
+              "Name": "Star lance",
+              "Keywords": "ANTI-MONSTER 3+, ANTI-VEHICLE 3+, LANCE",
+              "Range": "Melee",
+              "Attacks": "4",
+              "ToHit": "2+",
+              "Strength": "5",
+              "AP": "-3",
+              "Damage": "3"
+            },
+            {
+              "Name": "Witch staff",
+              "Keywords": "ANTI-INFANTRY 2+, PSYCHIC",
+              "Range": "Melee",
+              "Attacks": "2",
+              "ToHit": "2+",
+              "Strength": "3",
+              "AP": "0",
+              "Damage": "D3"
+            },
+            {
+              "Name": "Witchblade",
+              "Keywords": "ANTI-INFANTRY 2+, PSYCHIC",
+              "Range": "Melee",
+              "Attacks": "2",
+              "ToHit": "2+",
+              "Strength": "3",
+              "AP": "0",
+              "Damage": "2"
+            }
+          ]
+        }
+      ],
+      "Upgrades": [],
+      "Points": [
+        {
+          "ModelCount": 1,
+          "Cost": 80
+        }
+      ]
+    },
+    {
+      "Name": "GHOST WARRIOR",
+      "Faction": "Battle Focus",
+      "Flags": 4,
+      "UnitComposition": {
+        "ModelCompositions": [
+          {
+            "ModelName": "Ghost Warrior",
+            "Wargear": [
+              {
+                "InitalWargear": [],
+                "Options": [
+                  {
+                    "Options": [
+                      "bright lance",
+                      "destructor",
+                      "death spinner",
+                      "dragon fusion gun",
+                      "eldritch storm",
+                      "flamer",
+                      "long rifle",
+                      "missile launcher",
+                      "reaper launcher",
+                      "scatter laser",
+                      "shuriken cannon",
+                      "shuriken catapult",
+                      "singing spear",
+                      "starcannon"
+                    ]
+                  },
+                  {
+                    "Options": [
+                      "bright lance",
+                      "destructor",
+                      "death spinner",
+                      "dragon fusion gun",
+                      "eldritch storm",
+                      "flamer",
+                      "long rifle",
+                      "missile launcher",
+                      "reaper launcher",
+                      "scatter laser",
+                      "shuriken cannon",
+                      "shuriken catapult",
+                      "singing spear",
+                      "starcannon"
+                    ]
+                  },
+                  {
+                    "Options": [
+                      "bright lance",
+                      "destructor",
+                      "death spinner",
+                      "dragon fusion gun",
+                      "eldritch storm",
+                      "flamer",
+                      "long rifle",
+                      "missile launcher",
+                      "reaper launcher",
+                      "scatter laser",
+                      "shuriken cannon",
+                      "shuriken catapult",
+                      "singing spear",
+                      "starcannon"
+                    ]
+                  },
+                  {
+                    "Options": [
+                      "bright lance",
+                      "destructor",
+                      "death spinner",
+                      "dragon fusion gun",
+                      "eldritch storm",
+                      "flamer",
+                      "long rifle",
+                      "missile launcher",
+                      "reaper launcher",
+                      "scatter laser",
+                      "shuriken cannon",
+                      "shuriken catapult",
+                      "singing spear",
+                      "starcannon"
+                    ]
+                  },
+                  {
+                    "Options": [
+                      "banshee blade",
+                      "close-combat weapon",
+                      "ghostglaive",
+                      "paragon sabre",
+                      "scorpion chainsword",
+                      "singing spear",
+                      "star glaive",
+                      "witch staff",
+                      "witchblade",
+                      "wraithbone fists"
+                    ]
+                  },
+                  {
+                    "Options": [
+                      "banshee blade",
+                      "close-combat weapon",
+                      "ghostglaive",
+                      "paragon sabre",
+                      "scorpion chainsword",
+                      "singing spear",
+                      "star glaive",
+                      "witch staff",
+                      "witchblade",
+                      "wraithbone fists"
+                    ]
+                  },
+                  {
+                    "Options": [
+                      "Path of the Witch"
+                    ]
+                  },
+                  {
+                    "Options": [
+                      "Doomseer",
+                      "Superlative Strategist",
+                      "Warden of Fate"
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "WargearDefinitions": [
+          {
+            "Key": "Path of the Witch",
+            "GrantsAbilities": [
+              "Path of the Witch"
+            ],
+            "DatasheetAdjustments": [
+              {
+                "Target": "Keywords",
+                "Type": "Add",
+                "Values": [
+                  "Psyker"
+                ]
+              }
+            ]
+          },
+          {
+            "Key": "Doomseer",
+            "GrantsAbilities": [
+              "Doomseer"
+            ]
+          },
+          {
+            "Key": "Superlative Strategist",
+            "GrantsAbilities": [
+              "Superlative Strategist"
+            ]
+          },
+          {
+            "Key": "Warden of Fate",
+            "GrantsAbilities": [
+              "Warden of Fate"
+            ]
+          }
+        ]
+      },
+      "UnitAbilities": [
+        {
+          "Title": "Awakened Spirit",
+          "Text": "Each time this model makes an attack, re-roll a Hit roll of 1 and re-roll a Wound roll of 1."
+        },
+        {
+          "Title": "Path of the Witch",
+          "Text": "The model gains the Psyker keyword."
+        },
+        {
+          "Title": "Doomseer",
+          "Text": "Each time a model in this unit makes an attack, add 1 to the Hit roll."
+        },
+        {
+          "Title": "Superlative Strategist",
+          "Text": "You can re-roll Advance rolls made for this model’s unit, and you can re-roll any rolls made for that unit while it is performing an Agile Manoeuvre."
+        },
+        {
+          "Title": "Warden of Fate",
+          "Text": "Each time a ranged attack targets this unit, models in that unit have the Benefit of Cover."
+        }
+      ],
+      "Infos": [],
+      "Keywords": [
+        "Monster",
+        "Character",
+        "Aeldari",
+        "Walker",
+        "Wraith Construct",
+        "Ghost Warrior"
+      ],
+      "CoreAbilities": [
+        "Crucible",
+        "Deadly Demise 1"
+      ],
+      "FactionKeywords": [
+        "Asuryani"
+      ],
+      "StatLines": [
+        {
+          "Movement": "8\"",
+          "Toughness": "10",
+          "Save": "2+",
+          "Wounds": "10",
+          "Leadership": "6+",
+          "OC": "3"
+        }
+      ],
+      "Weapons": [
+        {
+          "Name": "RANGED WEAPONS",
+          "Weapons": [
+            {
+              "Name": "Bright lance",
+              "Range": "36\"",
+              "Attacks": "1",
+              "ToHit": "2+",
+              "Strength": "12",
+              "AP": "-3",
+              "Damage": "D6+2"
+            },
+            {
+              "Name": "Destructor",
+              "Keywords": "PSYCHIC, TORRENT",
+              "Range": "12\"",
+              "Attacks": "D6",
+              "ToHit": "N/A",
+              "Strength": "5",
+              "AP": "-1",
+              "Damage": "1"
+            },
+            {
+              "Name": "Death spinner",
+              "Keywords": "IGNORES COVER, TORRENT",
+              "Range": "12\"",
+              "Attacks": "D6",
+              "ToHit": "N/A",
+              "Strength": "4",
+              "AP": "-1",
+              "Damage": "1"
+            },
+            {
+              "Name": "Dragon fusion gun",
+              "Keywords": "ASSAULT, MELTA 3",
+              "Range": "12\"",
+              "Attacks": "1",
+              "ToHit": "2+",
+              "Strength": "9",
+              "AP": "-4",
+              "Damage": "D6"
+            },
+            {
+              "Name": "Eldritch Storm",
+              "Keywords": "BLAST, PSYCHIC",
+              "Range": "24\"",
+              "Attacks": "D6",
+              "ToHit": "3+",
+              "Strength": "6",
+              "AP": "-2",
+              "Damage": "D3"
+            },
+            {
+              "Name": "Flamer",
+              "Keywords": "ASSAULT, IGNORES COVER, TORRENT",
+              "Range": "12\"",
+              "Attacks": "D6",
+              "ToHit": "N/A",
+              "Strength": "4",
+              "AP": "0",
+              "Damage": "1"
+            },
+            {
+              "Name": "Long rifle",
+              "Keywords": "HEAVY, PRECISION",
+              "Range": "36\"",
+              "Attacks": "1",
+              "ToHit": "2+",
+              "Strength": "4",
+              "AP": "-1",
+              "Damage": "2"
+            },
+            {
+              "Name": "Missile launcher – starshot",
+              "Range": "48\"",
+              "Attacks": "1",
+              "ToHit": "2+",
+              "Strength": "10",
+              "AP": "-2",
+              "Damage": "D6"
+            },
+            {
+              "Name": "Missile launcher – sunburst",
+              "Keywords": "BLAST",
+              "Range": "48\"",
+              "Attacks": "D6",
+              "ToHit": "2+",
+              "Strength": "4",
+              "AP": "-1",
+              "Damage": "1"
+            },
+            {
+              "Name": "Reaper launcher – starshot",
+              "Keywords": "HEAVY, IGNORES COVER",
+              "Range": "48\"",
+              "Attacks": "1",
+              "ToHit": "3+",
+              "Strength": "10",
+              "AP": "-2",
+              "Damage": "3"
+            },
+            {
+              "Name": "Reaper launcher – starswarm",
+              "Keywords": "HEAVY, IGNORES COVER",
+              "Range": "48\"",
+              "Attacks": "2",
+              "ToHit": "3+",
+              "Strength": "4",
+              "AP": "-2",
+              "Damage": "1"
+            },
+            {
+              "Name": "Scatter laser",
+              "Keywords": "ASSAULT, SUSTAINED HITS 1",
+              "Range": "36\"",
+              "Attacks": "4",
+              "ToHit": "2+",
+              "Strength": "5",
+              "AP": "0",
+              "Damage": "1"
+            },
+            {
+              "Name": "Shuriken cannon",
+              "Keywords": "ASSAULT, LETHAL HITS",
+              "Range": "24\"",
+              "Attacks": "3",
+              "ToHit": "3+",
+              "Strength": "6",
+              "AP": "-1",
+              "Damage": "2"
+            },
+            {
+              "Name": "Shuriken catapult",
+              "Keywords": "ASSAULT",
+              "Range": "18\"",
+              "Attacks": "2",
+              "ToHit": "4+",
+              "Strength": "4",
+              "AP": "-1",
+              "Damage": "1"
+            },
+            {
+              "Name": "Singing spear",
+              "Keywords": "ASSAULT, PSYCHIC",
+              "Range": "12\"",
+              "Attacks": "1",
+              "ToHit": "2+",
+              "Strength": "9",
+              "AP": "0",
+              "Damage": "3"
+            },
+            {
+              "Name": "Starcannon",
+              "Range": "36\"",
+              "Attacks": "2",
+              "ToHit": "2+",
+              "Strength": "8",
+              "AP": "-3",
+              "Damage": "2"
+            }
+          ]
+        },
+        {
+          "IsMelee": true,
+          "Name": "MELEE WEAPONS",
+          "Weapons": [
+            {
+              "Name": "Banshee blade",
+              "Keywords": "ANTI-INFANTRY 3+",
+              "Range": "Melee",
+              "Attacks": "5",
+              "ToHit": "2+",
+              "Strength": "4",
+              "AP": "-2",
+              "Damage": "2"
+            },
+            {
+              "Name": "Close-combat weapon",
+              "Range": "Melee",
+              "Attacks": "3",
+              "ToHit": "3+",
+              "Strength": "3",
+              "AP": "0",
+              "Damage": "1"
+            },
+            {
+              "Name": "Ghostglaive – strike",
+              "Range": "Melee",
+              "Attacks": "4",
+              "ToHit": "4+",
+              "Strength": "10",
+              "AP": "-3",
+              "Damage": "D6+1"
+            },
+            {
+              "Name": "Ghostglaive – sweep",
+              "Range": "Melee",
+              "Attacks": "8",
+              "ToHit": "4+",
+              "Strength": "7",
+              "AP": "-2",
+              "Damage": "2"
+            },
+            {
+              "Name": "Paragon sabre",
+              "Range": "Melee",
+              "Attacks": "6",
+              "ToHit": "3+",
+              "Strength": "5",
+              "AP": "-2",
+              "Damage": "2"
+            },
+            {
+              "Name": "Scorpion chainsword",
+              "Keywords": "SUSTAINED HITS 1",
+              "Range": "Melee",
+              "Attacks": "7",
+              "ToHit": "2+",
+              "Strength": "4",
+              "AP": "-1",
+              "Damage": "1"
+            },
+            {
+              "Name": "Singing spear",
+              "Keywords": "PSYCHIC",
+              "Range": "Melee",
+              "Attacks": "2",
+              "ToHit": "2+",
+              "Strength": "3",
+              "AP": "0",
+              "Damage": "3"
+            },
+            {
+              "Name": "Star glaive",
+              "Range": "Melee",
+              "Attacks": "4",
+              "ToHit": "2+",
+              "Strength": "6",
+              "AP": "-3",
+              "Damage": "3"
+            },
+            {
+              "Name": "Witch staff",
+              "Keywords": "ANTI-INFANTRY 2+, PSYCHIC",
+              "Range": "Melee",
+              "Attacks": "2",
+              "ToHit": "2+",
+              "Strength": "3",
+              "AP": "0",
+              "Damage": "D3"
+            },
+            {
+              "Name": "Witchblade",
+              "Keywords": "ANTI-INFANTRY 2+, PSYCHIC",
+              "Range": "Melee",
+              "Attacks": "2",
+              "ToHit": "2+",
+              "Strength": "3",
+              "AP": "0",
+              "Damage": "2"
+            },
+            {
+              "Name": "Wraithbone fists",
+              "Range": "Melee",
+              "Attacks": "4",
+              "ToHit": "4+",
+              "Strength": "7",
+              "AP": "-2",
+              "Damage": "2"
+            }
+          ]
+        }
+      ],
+      "Upgrades": [],
+      "Points": [
+        {
+          "ModelCount": 1,
+          "Cost": 160
+        }
+      ]
+    }
+  ],
+  "Dettachments": [],
+  "ArmyRules": []
+}

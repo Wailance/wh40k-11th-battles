@@ -1,0 +1,2717 @@
+{
+  "Name": "Necrons",
+  "Units": [
+    {
+      "Name": "GAUSS PYLON",
+      "Faction": "Reanimation Protocols",
+      "UnitComposition": {
+        "ModelCompositions": [
+          {
+            "ModelName": "Gauss Pylon",
+            "Wargear": [
+              {
+                "InitalWargear": [
+                  "gauss annihilator",
+                  "tesla arc"
+                ],
+                "Options": []
+              }
+            ]
+          }
+        ],
+        "WargearDefinitions": []
+      },
+      "UnitAbilities": [
+        {
+          "Title": "Phase Shift Generator (Aura)",
+          "Text": "While a friendly Necrons unit is within 3\" of this Fortification, models in that unit have a 5+ invulnerable save against ranged attacks."
+        },
+        {
+          "Title": "Phase-shifted Cover",
+          "Text": "Each time a ranged attack is allocated to a model, if that model is not fully visible to every model in the attacking unit because of this Fortification, that model has the Benefit of Cover against that attack."
+        },
+        {
+          "Title": "Fortification",
+          "Text": "While an enemy unit is only within Engagement Range of one or more Fortifications from your army:\n\t▪ That unit can still be selected as the target of ranged attacks, but each time such an attack is made, unless it is made with a Pistol, subtract 1 from the Hit roll. \n\t▪ Models in that unit do not need to take Desperate Escape tests due to Falling Back while Battle-shocked, except for those that will move over enemy models when doing so."
+        }
+      ],
+      "Infos": [
+        {
+          "Title": "DAMAGED: 1-7 WOUNDS REMAINING",
+          "Text": "While this model has 1-7 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
+        }
+      ],
+      "Keywords": [
+        "Fortification",
+        "Vehicle",
+        "Towering",
+        "Titanic",
+        "Gauss Pylon",
+        "Frame"
+      ],
+      "CoreAbilities": [
+        "Deadly Demise D6+2"
+      ],
+      "FactionKeywords": [
+        "Necrons"
+      ],
+      "StatLines": [
+        {
+          "Movement": "-",
+          "Toughness": "12",
+          "Save": "3+",
+          "Wounds": "22",
+          "Leadership": "7+",
+          "OC": "0",
+          "InvulSave": {
+            "Save": "5+"
+          }
+        }
+      ],
+      "Weapons": [
+        {
+          "Name": "RANGED WEAPONS",
+          "Weapons": [
+            {
+              "Name": "Gauss annihilator",
+              "Keywords": "ANTI-FLY 2+, LETHAL HITS",
+              "Range": "120\"",
+              "Attacks": "1",
+              "ToHit": "4+",
+              "Strength": "16",
+              "AP": "-4",
+              "Damage": "D6+6"
+            },
+            {
+              "Name": "Tesla arc",
+              "Keywords": "SUSTAINED HITS 2",
+              "Range": "6\"",
+              "Attacks": "6",
+              "ToHit": "4+",
+              "Strength": "4",
+              "AP": "0",
+              "Damage": "1"
+            }
+          ]
+        }
+      ],
+      "Upgrades": [],
+      "Points": [
+        {
+          "ModelCount": 1,
+          "Cost": 210
+        }
+      ]
+    },
+    {
+      "Name": "SENTRY PYLON",
+      "Faction": "Reanimation Protocols",
+      "UnitComposition": {
+        "ModelCompositions": [
+          {
+            "ModelName": "Sentry Pylon",
+            "Wargear": [
+              {
+                "InitalWargear": [
+                  "gauss exterminator"
+                ],
+                "Options": [
+                  {
+                    "Replaces": [
+                      "gauss exterminator"
+                    ],
+                    "Options": [
+                      "focused death ray",
+                      "heat cannon"
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "WargearDefinitions": []
+      },
+      "UnitAbilities": [
+        {
+          "Title": "Teleportation Matrix",
+          "Text": "Once per battle, at the end of your opponent’s turn, if this Fortification is not within Engagement Range of one or more enemy units, you can remove it from the battlefield. In the Reinforcements step of your next Movement phase, set it up anywhere on the battlefield that is more than 9\" horizontally away from all enemy models. If the battle ends and this Fortification is not on the battlefield, it is destroyed."
+        },
+        {
+          "Title": "Phase-shifted Cover",
+          "Text": "Each time a ranged attack is allocated to a model, if that model is not fully visible to every model in the attacking unit because of this Fortification, that model has the Benefit of Cover against that attack."
+        },
+        {
+          "Title": "Fortification",
+          "Text": "While an enemy unit is only within Engagement Range of one or more Fortifications from your army:\n\t▪ That unit can still be selected as the target of ranged attacks, but each time such an attack is made, unless it is made with a Pistol, subtract 1 from the Hit roll. \n\t▪ Models in that unit do not need to take Desperate Escape tests due to Falling Back while Battle-shocked, except for those that will move over enemy models when doing so."
+        }
+      ],
+      "Infos": [],
+      "Keywords": [
+        "Fortification",
+        "Vehicle",
+        "Sentry Pylon",
+        "Frame"
+      ],
+      "CoreAbilities": [
+        "Deadly Demise D3"
+      ],
+      "FactionKeywords": [
+        "Necrons"
+      ],
+      "StatLines": [
+        {
+          "Movement": "-",
+          "Toughness": "8",
+          "Save": "3+",
+          "Wounds": "10",
+          "Leadership": "7+",
+          "OC": "0"
+        }
+      ],
+      "Weapons": [
+        {
+          "Name": "RANGED WEAPONS",
+          "Weapons": [
+            {
+              "Name": "Focused death ray",
+              "Keywords": "SUSTAINED HITS 2",
+              "Range": "36\"",
+              "Attacks": "6",
+              "ToHit": "4+",
+              "Strength": "8",
+              "AP": "-2",
+              "Damage": "2"
+            },
+            {
+              "Name": "Gauss exterminator",
+              "Keywords": "LETHAL HITS",
+              "Range": "48\"",
+              "Attacks": "1",
+              "ToHit": "4+",
+              "Strength": "14",
+              "AP": "-3",
+              "Damage": "6"
+            },
+            {
+              "Name": "Heat cannon",
+              "Keywords": "MELTA 4",
+              "Range": "36\"",
+              "Attacks": "2",
+              "ToHit": "4+",
+              "Strength": "9",
+              "AP": "-4",
+              "Damage": "D6"
+            }
+          ]
+        }
+      ],
+      "Upgrades": [],
+      "Points": [
+        {
+          "ModelCount": 1,
+          "Cost": 120
+        }
+      ]
+    },
+    {
+      "Name": "NIGHT SHROUD",
+      "Faction": "Reanimation Protocols",
+      "UnitComposition": {
+        "ModelCompositions": [
+          {
+            "ModelName": "Night Shroud",
+            "Wargear": [
+              {
+                "InitalWargear": [
+                  "twin tesla destructor",
+                  "armoured bulk"
+                ],
+                "Options": []
+              }
+            ]
+          }
+        ],
+        "WargearDefinitions": []
+      },
+      "UnitAbilities": [
+        {
+          "Title": "Death Sphere Bombardment",
+          "Text": "Each time this model ends a Normal move, you can select one enemy unit it moved over during that move and roll six D6: for each 3+, that unit suffers 1 mortal wound."
+        }
+      ],
+      "Infos": [
+        {
+          "Title": "DAMAGED: 1-5 WOUNDS REMAINING",
+          "Text": "While this model has 1-5 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
+        }
+      ],
+      "Keywords": [
+        "Vehicle",
+        "Aircraft",
+        "Fly",
+        "Night Shroud",
+        "Frame"
+      ],
+      "CoreAbilities": [
+        "Deadly Demise D3"
+      ],
+      "FactionKeywords": [
+        "Necrons"
+      ],
+      "StatLines": [
+        {
+          "Movement": "-",
+          "Toughness": "9",
+          "Save": "3+",
+          "Wounds": "14",
+          "Leadership": "7+",
+          "OC": "-"
+        }
+      ],
+      "Weapons": [
+        {
+          "Name": "RANGED WEAPONS",
+          "Weapons": [
+            {
+              "Name": "Twin tesla destructor",
+              "Keywords": "SUSTAINED HITS 2, TWIN-LINKED",
+              "Range": "36\"",
+              "Attacks": "6",
+              "ToHit": "3+",
+              "Strength": "8",
+              "AP": "0",
+              "Damage": "2"
+            }
+          ]
+        },
+        {
+          "IsMelee": true,
+          "Name": "MELEE WEAPONS",
+          "Weapons": [
+            {
+              "Name": "Armoured bulk",
+              "Range": "Melee",
+              "Attacks": "3",
+              "ToHit": "4+",
+              "Strength": "6",
+              "AP": "0",
+              "Damage": "1"
+            }
+          ]
+        }
+      ],
+      "Upgrades": [],
+      "Points": [
+        {
+          "ModelCount": 1,
+          "Cost": 140
+        }
+      ]
+    },
+    {
+      "Name": "ANRAKYR THE TRAVELLER",
+      "Faction": "Reanimation Protocols",
+      "UnitComposition": {
+        "ModelCompositions": [
+          {
+            "ModelName": "Anrakyr the Traveller",
+            "Wargear": [
+              {
+                "InitalWargear": [
+                  "tachyon arrow",
+                  "warscythe"
+                ],
+                "Options": []
+              }
+            ]
+          }
+        ],
+        "WargearDefinitions": []
+      },
+      "UnitAbilities": [
+        {
+          "Title": "Lord of the Pyrrhian Eternals",
+          "Text": "While this model is leading a unit, each time a model in that unit makes an attack, add 1 to the Wound roll."
+        },
+        {
+          "Title": "Mind in the Machine",
+          "Text": "At the start of your opponent’s Shooting phase, select one enemy Vehicle unit within 12\" of and visible to this model. That unit must take a Leadership test. If that test is passed, until the end of the phase, each time a model in that unit makes an attack, subtract 1 from the Hit roll; if that test is failed, that unit is not eligible to shoot this phase."
+        }
+      ],
+      "LeaderInfo": {
+        "UnitNames": [
+          "IMMORTALS"
+        ],
+        "Abilities": [
+          {
+            "AbilityId": "Lord of the Pyrrhian Eternals"
+          }
+        ]
+      },
+      "Infos": [],
+      "Keywords": [
+        "Infantry",
+        "Character",
+        "Epic Hero",
+        "Noble",
+        "Anrakyr the Traveller"
+      ],
+      "CoreAbilities": [
+        "Leader"
+      ],
+      "FactionKeywords": [
+        "Necrons"
+      ],
+      "StatLines": [
+        {
+          "Movement": "5\"",
+          "Toughness": "5",
+          "Save": "2+",
+          "Wounds": "6",
+          "Leadership": "6+",
+          "OC": "1",
+          "InvulSave": {
+            "Save": "4+"
+          }
+        }
+      ],
+      "Weapons": [
+        {
+          "Name": "RANGED WEAPONS",
+          "Weapons": [
+            {
+              "Name": "Tachyon arrow",
+              "Keywords": "ONE SHOT",
+              "Range": "72\"",
+              "Attacks": "1",
+              "ToHit": "2+",
+              "Strength": "16",
+              "AP": "-5",
+              "Damage": "D6+2"
+            }
+          ]
+        },
+        {
+          "IsMelee": true,
+          "Name": "MELEE WEAPONS",
+          "Weapons": [
+            {
+              "Name": "Warscythe",
+              "Keywords": "DEVASTATING WOUNDS",
+              "Range": "Melee",
+              "Attacks": "4",
+              "ToHit": "2+",
+              "Strength": "8",
+              "AP": "-3",
+              "Damage": "2"
+            }
+          ]
+        }
+      ],
+      "Upgrades": [],
+      "Points": [
+        {
+          "ModelCount": 1,
+          "Cost": 95
+        }
+      ]
+    },
+    {
+      "Name": "VARGARD OBYRON",
+      "Faction": "Reanimation Protocols",
+      "UnitComposition": {
+        "ModelCompositions": [
+          {
+            "ModelName": "Vargard Obyron",
+            "Wargear": [
+              {
+                "InitalWargear": [
+                  "warscythe"
+                ],
+                "Options": []
+              }
+            ]
+          }
+        ],
+        "WargearDefinitions": []
+      },
+      "UnitAbilities": [
+        {
+          "Title": "Ghostwalk Mantle",
+          "Text": "While this model is leading a unit, models in that unit have the Fights First ability."
+        },
+        {
+          "Title": "The Vargard’s Duty",
+          "Text": "While this model is in the same unit as Nemesor Zahndrekh, Character models in that unit have the Feel No Pain 4+ ability."
+        }
+      ],
+      "LeaderInfo": {
+        "UnitNames": [
+          "IMMORTALS",
+          "LYCHGUARD",
+          "NECRON WARRIORS"
+        ],
+        "Description": "This model can be attached to a unit even if Nemesor Zahndrekh has already been attached to it. If it is, and that Bodyguard unit is destroyed, the Leader units attached to it become separate units, with their original Starting Strengths.",
+        "CanAttachAlongsideLeadersInfo": {
+          "LeaderKeywords": [
+            "Nemesor Zahndrekh"
+          ]
+        },
+        "Abilities": [
+          {
+            "AbilityId": "Ghostwalk Mantle",
+            "DatasheetAdjustments": [
+              {
+                "Target": "CoreAbilities",
+                "Type": "Add",
+                "Scope": "AttachedUnit",
+                "Values": [
+                  "Fights First"
+                ]
+              }
+            ]
+          },
+          {
+            "AbilityId": "The Vargard’s Duty",
+            "RequiredUnitKeywords": [
+              "Character"
+            ],
+            "DatasheetAdjustments": [
+              {
+                "Target": "CoreAbilities",
+                "Type": "Add",
+                "Scope": "LeaderUnitsOnly",
+                "Values": [
+                  "Feel No Pain 4+"
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "Infos": [],
+      "Keywords": [
+        "Infantry",
+        "Character",
+        "Epic Hero",
+        "Vargard Obyron"
+      ],
+      "CoreAbilities": [
+        "Leader"
+      ],
+      "FactionKeywords": [
+        "Necrons"
+      ],
+      "StatLines": [
+        {
+          "Movement": "5\"",
+          "Toughness": "5",
+          "Save": "2+",
+          "Wounds": "5",
+          "Leadership": "6+",
+          "OC": "1"
+        }
+      ],
+      "Weapons": [
+        {
+          "IsMelee": true,
+          "Name": "MELEE WEAPONS",
+          "Weapons": [
+            {
+              "Name": "Warscythe",
+              "Keywords": "DEVASTATING WOUNDS, PRECISION",
+              "Range": "Melee",
+              "Attacks": "4",
+              "ToHit": "2+",
+              "Strength": "8",
+              "AP": "-3",
+              "Damage": "2"
+            }
+          ]
+        }
+      ],
+      "Upgrades": [],
+      "Points": [
+        {
+          "ModelCount": 1,
+          "Cost": 85
+        }
+      ]
+    },
+    {
+      "Name": "NEMESOR ZAHNDREKH",
+      "Faction": "Reanimation Protocols",
+      "UnitComposition": {
+        "ModelCompositions": [
+          {
+            "ModelName": "Nemesor Zahndrekh",
+            "Wargear": [
+              {
+                "InitalWargear": [
+                  "staff of light"
+                ],
+                "Options": []
+              }
+            ]
+          }
+        ],
+        "WargearDefinitions": []
+      },
+      "UnitAbilities": [
+        {
+          "Title": "Transient Madness",
+          "Text": "While this model is leading a unit, at the start of your Command phase, roll one D6: until the start of your next Command phase, weapons equipped by models in that unit gain the ability below that corresponds with that roll:\n\t▪ 1-2: [SUSTAINED HITS 1] \n\t▪ 3-4: [LETHAL HITS] \n\t▪ 5-6: [DEVASTATING WOUNDS]"
+        },
+        {
+          "Title": "Lord of Deceit (Aura)",
+          "Text": "Each time your opponent targets a unit from their army with a Stratagem, if that unit is within 12\" of this model, increase the cost of that use of that Stratagem by 1CP."
+        }
+      ],
+      "LeaderInfo": {
+        "UnitNames": [
+          "IMMORTALS",
+          "LYCHGUARD",
+          "NECRON WARRIORS"
+        ],
+        "Abilities": [
+          {
+            "AbilityId": "Transient Madness"
+          }
+        ]
+      },
+      "Infos": [],
+      "Keywords": [
+        "Infantry",
+        "Character",
+        "Epic Hero",
+        "Noble",
+        "Nemesor Zahndrekh"
+      ],
+      "CoreAbilities": [
+        "Leader"
+      ],
+      "FactionKeywords": [
+        "Necrons"
+      ],
+      "StatLines": [
+        {
+          "Movement": "5\"",
+          "Toughness": "5",
+          "Save": "2+",
+          "Wounds": "6",
+          "Leadership": "7+",
+          "OC": "1",
+          "InvulSave": {
+            "Save": "4+"
+          }
+        }
+      ],
+      "Weapons": [
+        {
+          "Name": "RANGED WEAPONS",
+          "Weapons": [
+            {
+              "Name": "Staff of light",
+              "Range": "18\"",
+              "Attacks": "3",
+              "ToHit": "3+",
+              "Strength": "5",
+              "AP": "-2",
+              "Damage": "1"
+            }
+          ]
+        },
+        {
+          "IsMelee": true,
+          "Name": "MELEE WEAPONS",
+          "Weapons": [
+            {
+              "Name": "Staff of light",
+              "Range": "Melee",
+              "Attacks": "4",
+              "ToHit": "3+",
+              "Strength": "5",
+              "AP": "-2",
+              "Damage": "1"
+            }
+          ]
+        }
+      ],
+      "Upgrades": [],
+      "Points": [
+        {
+          "ModelCount": 1,
+          "Cost": 85
+        }
+      ]
+    },
+    {
+      "Name": "LORD",
+      "Faction": "Reanimation Protocols",
+      "UnitComposition": {
+        "ModelCompositions": [
+          {
+            "ModelName": "Lord",
+            "Wargear": [
+              {
+                "InitalWargear": [
+                  "staff of light"
+                ],
+                "Options": [
+                  {
+                    "Replaces": [
+                      "staff of light"
+                    ],
+                    "Options": [
+                      "Lord’s blade"
+                    ]
+                  },
+                  {
+                    "Options": [
+                      "resurrection orb"
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "WargearDefinitions": [
+          {
+            "Key": "resurrection orb",
+            "GrantsAbilities": [
+              "Resurrection Orb"
+            ]
+          }
+        ]
+      },
+      "UnitAbilities": [
+        {
+          "Title": "Resurrection Orb",
+          "Text": "Once per battle, while the bearer is leading a unit, at the end of any phase, it can resurrect that unit if it is on the battlefield. When you do, that unit's Reanimation Protocols are activated, reanimating D6 wounds rather than D3 when doing so. You cannot resurrect more than one unit per turn."
+        },
+        {
+          "Title": "Relentless March",
+          "Text": "While this model is leading a unit, add 1\" to the Move characteristic of models in that unit."
+        },
+        {
+          "Title": "The Lord’s Will",
+          "Text": "While this model is leading a unit, you can target that unit with Stratagems even when it is Battle-shocked."
+        }
+      ],
+      "LeaderInfo": {
+        "UnitNames": [
+          "IMMORTALS",
+          "LYCHGUARD",
+          "NECRON WARRIORS"
+        ],
+        "Abilities": [
+          {
+            "AbilityId": "Resurrection Orb"
+          },
+          {
+            "AbilityId": "Relentless March",
+            "StatAdjustments": [
+              {
+                "Type": "Add",
+                "Scope": "Unit",
+                "Value": "1\""
+              }
+            ]
+          },
+          {
+            "AbilityId": "The Lord’s Will"
+          }
+        ]
+      },
+      "Infos": [],
+      "Keywords": [
+        "Infantry",
+        "Character",
+        "Noble",
+        "Lord"
+      ],
+      "CoreAbilities": [
+        "Leader"
+      ],
+      "FactionKeywords": [
+        "Necrons"
+      ],
+      "StatLines": [
+        {
+          "Movement": "5\"",
+          "Toughness": "5",
+          "Save": "3+",
+          "Wounds": "4",
+          "Leadership": "6+",
+          "OC": "1"
+        }
+      ],
+      "Weapons": [
+        {
+          "Name": "RANGED WEAPONS",
+          "Weapons": [
+            {
+              "Name": "Staff of light",
+              "Range": "18\"",
+              "Attacks": "3",
+              "ToHit": "3+",
+              "Strength": "5",
+              "AP": "-2",
+              "Damage": "1"
+            }
+          ]
+        },
+        {
+          "IsMelee": true,
+          "Name": "MELEE WEAPONS",
+          "Weapons": [
+            {
+              "Name": "Staff of light",
+              "Range": "Melee",
+              "Attacks": "3",
+              "ToHit": "3+",
+              "Strength": "5",
+              "AP": "-2",
+              "Damage": "1"
+            },
+            {
+              "Name": "Lord’s blade",
+              "Keywords": "DEVASTATING WOUNDS",
+              "Range": "Melee",
+              "Attacks": "3",
+              "ToHit": "3+",
+              "Strength": "8",
+              "AP": "-3",
+              "Damage": "2"
+            }
+          ]
+        }
+      ],
+      "Upgrades": [],
+      "Points": [
+        {
+          "ModelCount": 1,
+          "Cost": 65
+        }
+      ]
+    },
+    {
+      "Name": "CANOPTEK TOMB STALKER",
+      "Faction": "Reanimation Protocols",
+      "UnitComposition": {
+        "ModelCompositions": [
+          {
+            "ModelName": "Canoptek Tomb Stalker",
+            "Wargear": [
+              {
+                "InitalWargear": [
+                  "gauss slicers",
+                  "Tomb Stalker claws",
+                  "gloom prism"
+                ],
+                "Options": []
+              }
+            ]
+          }
+        ],
+        "WargearDefinitions": []
+      },
+      "UnitAbilities": [
+        {
+          "Title": "Gloom Prism (Aura)",
+          "Text": "While a friendly Necrons unit is within 6\" of the bearer, models in that unit have the Feel No Pain 4+ ability against Psychic Attacks."
+        },
+        {
+          "Title": "Snaking Ambush",
+          "Text": "You can target this unit with the Heroic Intervention Stratagem for 0CP, and can do so even if you have already used that Stratagem on a different unit this phase."
+        }
+      ],
+      "Infos": [],
+      "Keywords": [
+        "Monster",
+        "Canoptek",
+        "Tomb Stalker"
+      ],
+      "CoreAbilities": [
+        "Deep Strike"
+      ],
+      "FactionKeywords": [
+        "Necrons"
+      ],
+      "StatLines": [
+        {
+          "Movement": "10\"",
+          "Toughness": "9",
+          "Save": "3+",
+          "Wounds": "9",
+          "Leadership": "8+",
+          "OC": "3",
+          "InvulSave": {
+            "Save": "4+"
+          }
+        }
+      ],
+      "Weapons": [
+        {
+          "Name": "RANGED WEAPONS",
+          "Weapons": [
+            {
+              "Name": "Gauss slicers",
+              "Keywords": "LETHAL HITS",
+              "Range": "24\"",
+              "Attacks": "8",
+              "ToHit": "4+",
+              "Strength": "5",
+              "AP": "-1",
+              "Damage": "1"
+            }
+          ]
+        },
+        {
+          "IsMelee": true,
+          "Name": "MELEE WEAPONS",
+          "Weapons": [
+            {
+              "Name": "Tomb Stalker claws",
+              "Keywords": "SUSTAINED HITS 1",
+              "Range": "Melee",
+              "Attacks": "6",
+              "ToHit": "4+",
+              "Strength": "6",
+              "AP": "-1",
+              "Damage": "2"
+            }
+          ]
+        }
+      ],
+      "Upgrades": [],
+      "Points": [
+        {
+          "ModelCount": 1,
+          "Cost": 130
+        }
+      ]
+    },
+    {
+      "Name": "CANOPTEK TOMB SENTINEL",
+      "Faction": "Reanimation Protocols",
+      "UnitComposition": {
+        "ModelCompositions": [
+          {
+            "ModelName": "Canoptek Tomb Sentinel",
+            "Wargear": [
+              {
+                "InitalWargear": [
+                  "exile cannon",
+                  "Tomb Sentinel claws",
+                  "gloom prism"
+                ],
+                "Options": []
+              }
+            ]
+          }
+        ],
+        "WargearDefinitions": []
+      },
+      "UnitAbilities": [
+        {
+          "Title": "Gloom Prism (Aura)",
+          "Text": "While a friendly Necrons unit is within 6\" of the bearer, models in that unit have the Feel No Pain 4+ ability against Psychic Attacks."
+        },
+        {
+          "Title": "Aggressor Guardian",
+          "Text": "Each time an attack targets this model, if this model is within range of an objective marker, worsen the Armour Penetration characteristic of that attack by 1. In addition, each time this model makes an attack that targets a unit within range of an objective marker, improve the Armour Penetration characteristic of that attack by 1."
+        }
+      ],
+      "Infos": [],
+      "Keywords": [
+        "Monster",
+        "Canoptek",
+        "Tomb Sentinel"
+      ],
+      "CoreAbilities": [
+        "Deep Strike"
+      ],
+      "FactionKeywords": [
+        "Necrons"
+      ],
+      "StatLines": [
+        {
+          "Movement": "10\"",
+          "Toughness": "9",
+          "Save": "3+",
+          "Wounds": "9",
+          "Leadership": "8+",
+          "OC": "3",
+          "InvulSave": {
+            "Save": "4+"
+          }
+        }
+      ],
+      "Weapons": [
+        {
+          "Name": "RANGED WEAPONS",
+          "Weapons": [
+            {
+              "Name": "Exile cannon",
+              "Keywords": "BLAST",
+              "Range": "18\"",
+              "Attacks": "D6+1",
+              "ToHit": "4+",
+              "Strength": "10",
+              "AP": "-2",
+              "Damage": "2"
+            }
+          ]
+        },
+        {
+          "IsMelee": true,
+          "Name": "MELEE WEAPONS",
+          "Weapons": [
+            {
+              "Name": "Tomb Sentinel claws",
+              "Range": "Melee",
+              "Attacks": "6",
+              "ToHit": "4+",
+              "Strength": "6",
+              "AP": "0",
+              "Damage": "1"
+            }
+          ]
+        }
+      ],
+      "Upgrades": [],
+      "Points": [
+        {
+          "ModelCount": 1,
+          "Cost": 115
+        }
+      ]
+    },
+    {
+      "Name": "CANOPTEK ACANTHRITES",
+      "Faction": "Reanimation Protocols",
+      "UnitComposition": {
+        "ModelCompositions": [
+          {
+            "Limit": {
+              "Min": 3,
+              "Max": 6
+            },
+            "ModelName": "Canoptek Acanthrites",
+            "Wargear": [
+              {
+                "InitalWargear": [
+                  "cutting beam",
+                  "voidblade"
+                ],
+                "Options": []
+              }
+            ]
+          }
+        ],
+        "WargearDefinitions": []
+      },
+      "UnitAbilities": [
+        {
+          "Title": "Damaged Armour",
+          "Text": "In your Shooting phase, after this unit has shot, select one enemy unit hit by one or more of those attacks. Until the end of the phase, each time a friendly Necrons model makes an attack that targets that unit, on a Critical Wound, improve the Armour Penetration characteristic of that attack by 1."
+        }
+      ],
+      "Infos": [],
+      "Keywords": [
+        "Beasts",
+        "Fly",
+        "Canoptek",
+        "Acanthrites"
+      ],
+      "CoreAbilities": [
+        "Infiltrators"
+      ],
+      "FactionKeywords": [
+        "Necrons"
+      ],
+      "StatLines": [
+        {
+          "Movement": "12\"",
+          "Toughness": "5",
+          "Save": "3+",
+          "Wounds": "2",
+          "Leadership": "8+",
+          "OC": "2"
+        }
+      ],
+      "Weapons": [
+        {
+          "Name": "RANGED WEAPONS",
+          "Weapons": [
+            {
+              "Name": "Cutting beam",
+              "Keywords": "MELTA 2",
+              "Range": "12\"",
+              "Attacks": "1",
+              "ToHit": "4+",
+              "Strength": "9",
+              "AP": "-4",
+              "Damage": "D6"
+            }
+          ]
+        },
+        {
+          "IsMelee": true,
+          "Name": "MELEE WEAPONS",
+          "Weapons": [
+            {
+              "Name": "Voidblade",
+              "Range": "Melee",
+              "Attacks": "3",
+              "ToHit": "4+",
+              "Strength": "5",
+              "AP": "-2",
+              "Damage": "1"
+            }
+          ]
+        }
+      ],
+      "Upgrades": [],
+      "Points": [
+        {
+          "ModelCount": 3,
+          "Cost": 85
+        },
+        {
+          "ModelCount": 6,
+          "Cost": 170
+        }
+      ]
+    },
+    {
+      "Name": "TESSERACT ARK",
+      "Faction": "Reanimation Protocols",
+      "UnitComposition": {
+        "ModelCompositions": [
+          {
+            "ModelName": "Tesseract Ark",
+            "Wargear": [
+              {
+                "InitalWargear": [
+                  "tesseract singularity chamber",
+                  "2 tesla cannons",
+                  "armoured bulk"
+                ],
+                "Options": [
+                  {
+                    "Replaces": [
+                      "2 tesla cannons"
+                    ],
+                    "Options": [
+                      "2 gauss cannons",
+                      "2 particle beamers"
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "WargearDefinitions": []
+      },
+      "UnitAbilities": [
+        {
+          "Title": "Gravitational Field",
+          "Text": "Each time an enemy unit selects this model as the target of a charge, subtract 2 from the Charge roll (this is not cumulative with any other reductions to that Charge roll)."
+        }
+      ],
+      "Infos": [],
+      "Keywords": [
+        "Vehicle",
+        "Fly",
+        "Tesseract Ark"
+      ],
+      "CoreAbilities": [
+        "Deadly Demise 1"
+      ],
+      "FactionKeywords": [
+        "Necrons"
+      ],
+      "StatLines": [
+        {
+          "Movement": "9\"",
+          "Toughness": "9",
+          "Save": "3+",
+          "Wounds": "10",
+          "Leadership": "6+",
+          "OC": "3",
+          "InvulSave": {
+            "Save": "4+"
+          }
+        }
+      ],
+      "Weapons": [
+        {
+          "Name": "RANGED WEAPONS",
+          "Weapons": [
+            {
+              "Name": "Gauss cannon",
+              "Keywords": "LETHAL HITS",
+              "Range": "24\"",
+              "Attacks": "3",
+              "ToHit": "3+",
+              "Strength": "5",
+              "AP": "-2",
+              "Damage": "2"
+            },
+            {
+              "Name": "Particle beamer",
+              "Keywords": "BLAST, DEVASTATING WOUNDS",
+              "Range": "18\"",
+              "Attacks": "D6",
+              "ToHit": "3+",
+              "Strength": "6",
+              "AP": "0",
+              "Damage": "1"
+            },
+            {
+              "Name": "Tesla cannon",
+              "Keywords": "SUSTAINED HITS 2",
+              "Range": "24\"",
+              "Attacks": "4",
+              "ToHit": "3+",
+              "Strength": "6",
+              "AP": "0",
+              "Damage": "1"
+            },
+            {
+              "Name": "Tesseract singularity chamber – particle hurricane",
+              "Keywords": "IGNORES COVER, TORRENT",
+              "Range": "12\"",
+              "Attacks": "D6+3",
+              "ToHit": "N/A",
+              "Strength": "6",
+              "AP": "-1",
+              "Damage": "2"
+            },
+            {
+              "Name": "Tesseract singularity chamber – seismic lash",
+              "Keywords": "BLAST",
+              "Range": "36\"",
+              "Attacks": "D3",
+              "ToHit": "3+",
+              "Strength": "9",
+              "AP": "-3",
+              "Damage": "D6+1"
+            }
+          ]
+        },
+        {
+          "IsMelee": true,
+          "Name": "MELEE WEAPONS",
+          "Weapons": [
+            {
+              "Name": "Armoured bulk",
+              "Range": "Melee",
+              "Attacks": "3",
+              "ToHit": "4+",
+              "Strength": "6",
+              "AP": "0",
+              "Damage": "1"
+            }
+          ]
+        }
+      ],
+      "Upgrades": [],
+      "Points": [
+        {
+          "ModelCount": 1,
+          "Cost": 130
+        }
+      ]
+    },
+    {
+      "Name": "DYNASTIC CONQUEROR",
+      "Faction": "Reanimation Protocols",
+      "Flags": 4,
+      "UnitComposition": {
+        "ModelCompositions": [
+          {
+            "ModelName": "Dynastic Conqueror",
+            "Wargear": [
+              {
+                "InitalWargear": [],
+                "Options": [
+                  {
+                    "Options": [
+                      "enmitic annihilator",
+                      "enmitic exterminator",
+                      "gauss cannon",
+                      "gauss destructor",
+                      "particle caster",
+                      "relic gauss blaster",
+                      "rod of covenant",
+                      "staff of light",
+                      "tachyon arrow"
+                    ]
+                  },
+                  {
+                    "Options": [
+                      "close-combat weapon",
+                      "flayer claws",
+                      "flensing claw",
+                      "hyperphase harvester",
+                      "hyperphase sword",
+                      "lord's blade",
+                      "ophydian hyperphase weapons",
+                      "rod of covenant",
+                      "skorpekh hyperphase weapons",
+                      "staff of light",
+                      "voidblade",
+                      "voidscythe",
+                      "warscythe"
+                    ]
+                  },
+                  {
+                    "Options": [
+                      "close-combat weapon",
+                      "flayer claws",
+                      "flensing claw",
+                      "hyperphase harvester",
+                      "hyperphase sword",
+                      "lord's blade",
+                      "ophydian hyperphase weapons",
+                      "rod of covenant",
+                      "skorpekh hyperphase weapons",
+                      "staff of light",
+                      "voidblade",
+                      "voidscythe",
+                      "warscythe"
+                    ]
+                  },
+                  {
+                    "Options": [
+                      "Dimensional Oublette",
+                      "Flayer Curse",
+                      "Gravity Displacement Pack",
+                      "Ophydian Lord",
+                      "Superior Living Metal"
+                    ]
+                  },
+                  {
+                    "Options": [
+                      "Adaptive Strategy",
+                      "Engrammatic Logic",
+                      "My Will Be Done",
+                      "United in Destruction"
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "WargearDefinitions": [
+          {
+            "Key": "Dimensional Oublette",
+            "GrantsAbilities": [
+              "Dimensional Oublette"
+            ],
+            "DatasheetAdjustments": [
+              {
+                "Target": "CoreAbilities",
+                "Type": "Add",
+                "Values": [
+                  "Deep Strike"
+                ]
+              },
+              {
+                "Target": "LedUnitNames",
+                "Values": [
+                  "DEATHMARKS"
+                ]
+              }
+            ]
+          },
+          {
+            "Key": "Flayer Curse",
+            "GrantsAbilities": [
+              "Flayer Curse"
+            ],
+            "DatasheetAdjustments": [
+              {
+                "Target": "CoreAbilities",
+                "Type": "Add",
+                "Values": [
+                  "Infiltrators",
+                  "Stealth"
+                ]
+              },
+              {
+                "Target": "LedUnitNames",
+                "Values": [
+                  "FLAYED ONES"
+                ]
+              }
+            ]
+          },
+          {
+            "Key": "Gravity Displacement Pack",
+            "GrantsAbilities": [
+              "Gravity Displacement Pack"
+            ],
+            "StatAdjustments": [
+              {
+                "Value": "10\""
+              }
+            ],
+            "DatasheetAdjustments": [
+              {
+                "Target": "Keywords",
+                "Type": "Add",
+                "Values": [
+                  "Fly"
+                ]
+              },
+              {
+                "Target": "CoreAbilities",
+                "Type": "Add",
+                "Values": [
+                  "Deep Strike"
+                ]
+              },
+              {
+                "Target": "LedUnitNames",
+                "Values": [
+                  "TRIARCH PRAETORIANS"
+                ]
+              }
+            ]
+          },
+          {
+            "Key": "Ophydian Lord",
+            "GrantsAbilities": [
+              "Ophydian Lord"
+            ],
+            "StatAdjustments": [
+              {
+                "Value": "10\""
+              }
+            ],
+            "DatasheetAdjustments": [
+              {
+                "Target": "Keywords",
+                "Type": "Add",
+                "Values": [
+                  "Destroyer Cult"
+                ]
+              },
+              {
+                "Target": "CoreAbilities",
+                "Type": "Add",
+                "Values": [
+                  "Deep Strike"
+                ]
+              },
+              {
+                "Target": "LedUnitNames",
+                "Values": [
+                  "OPHYDIAN DESTROYERS"
+                ]
+              }
+            ]
+          },
+          {
+            "Key": "Superior Living Metal",
+            "GrantsAbilities": [
+              "Superior Living Metal"
+            ],
+            "StatAdjustments": [
+              {
+                "Target": "Save",
+                "Value": "2+"
+              }
+            ]
+          },
+          {
+            "Key": "Adaptive Strategy",
+            "GrantsAbilities": [
+              "Adaptive Strategy"
+            ]
+          },
+          {
+            "Key": "Engrammatic Logic",
+            "GrantsAbilities": [
+              "Engrammatic Logic"
+            ]
+          },
+          {
+            "Key": "My Will Be Done",
+            "GrantsAbilities": [
+              "My Will Be Done"
+            ]
+          },
+          {
+            "Key": "United in Destruction",
+            "GrantsAbilities": [
+              "United in Destruction"
+            ]
+          }
+        ]
+      },
+      "UnitAbilities": [
+        {
+          "Title": "Implacable Resilience",
+          "Text": "Each time an attack is allocated to this model, subtract 1 from the Damage characteristic of that attack."
+        },
+        {
+          "Title": "Dimensional Oublette",
+          "Text": "This model gains the Deep Strike ability. Replace the list of units this model can be attached to: Deathmarks."
+        },
+        {
+          "Title": "Flayer Curse",
+          "Text": "This model gains the Infiltrators and Stealth abilities, and cannot be equipped with ranged weapons. Replace the list of units this model can be attached to: Flayed Ones."
+        },
+        {
+          "Title": "Gravity Displacement Pack",
+          "Text": "Change this model’s Move characteristic to 10\", add the Fly keyword, and it gains the Deep Strike ability. Replace the list of units this model can be attached to: Triarch Praetorians."
+        },
+        {
+          "Title": "Ophydian Lord",
+          "Text": "Change this model’s Move characteristic to 10\", add the Destroyer Cult keyword, and it gains the Deep Strike ability. Replace the list of units this model can be attached to: Ophydian Destroyers."
+        },
+        {
+          "Title": "Superior Living Metal",
+          "Text": "Change this model’s Save characteristic to 2+."
+        },
+        {
+          "Title": "Adaptive Strategy",
+          "Text": "This model’s unit is eligible to shoot and declare a charge in a turn in which it Fell Back."
+        },
+        {
+          "Title": "Engrammatic Logic",
+          "Text": "Once per battle, at the start of any phase, you can select one friendly Necrons unit that is Battle-shocked and within 12\" of this model. That unit is no longer Battle-shocked."
+        },
+        {
+          "Title": "My Will Be Done",
+          "Text": "Once per battle round, one unit from your army with this ability can be targeted with a Stratagem for 0CP, even if you have already targeted a different unit with that Stratagem this phase."
+        },
+        {
+          "Title": "United in Destruction",
+          "Text": "While this model is leading a unit, melee weapons equipped by models in that unit have the [LETHAL HITS] ability."
+        }
+      ],
+      "LeaderInfo": {
+        "UnitNames": [
+          "IMMORTALS",
+          "LYCHGUARD",
+          "NECRON WARRIORS"
+        ],
+        "Abilities": [
+          {
+            "AbilityId": "United in Destruction",
+            "WeaponStatAdjustments": [
+              {
+                "Value": "LETHAL HITS",
+                "Type": "Add",
+                "Scope": "Unit",
+                "Target": "Keywords"
+              }
+            ]
+          }
+        ]
+      },
+      "Infos": [],
+      "Keywords": [
+        "Infantry",
+        "Character",
+        "Noble",
+        "Dynastic Conqueror"
+      ],
+      "CoreAbilities": [
+        "Crucible",
+        "Leader"
+      ],
+      "FactionKeywords": [
+        "Necrons"
+      ],
+      "StatLines": [
+        {
+          "Movement": "5\"",
+          "Toughness": "5",
+          "Save": "3+",
+          "Wounds": "6",
+          "Leadership": "6+",
+          "OC": "1",
+          "InvulSave": {
+            "Save": "4+"
+          }
+        }
+      ],
+      "Weapons": [
+        {
+          "Name": "RANGED WEAPONS",
+          "Weapons": [
+            {
+              "Name": "Enmitic annihilator",
+              "Keywords": "RAPID FIRE 2",
+              "Range": "18\"",
+              "Attacks": "2",
+              "ToHit": "2+",
+              "Strength": "6",
+              "AP": "-1",
+              "Damage": "1"
+            },
+            {
+              "Name": "Enmitic exterminator",
+              "Keywords": "HEAVY, RAPID FIRE 6, SUSTAINED HITS 1",
+              "Range": "36\"",
+              "Attacks": "6",
+              "ToHit": "2+",
+              "Strength": "6",
+              "AP": "-1",
+              "Damage": "1"
+            },
+            {
+              "Name": "Gauss cannon",
+              "Keywords": "LETHAL HITS",
+              "Range": "24\"",
+              "Attacks": "3",
+              "ToHit": "2+",
+              "Strength": "5",
+              "AP": "-2",
+              "Damage": "2"
+            },
+            {
+              "Name": "Gauss destructor",
+              "Keywords": "HEAVY, LETHAL HITS",
+              "Range": "48\"",
+              "Attacks": "1",
+              "ToHit": "2+",
+              "Strength": "14",
+              "AP": "-4",
+              "Damage": "6"
+            },
+            {
+              "Name": "Particle caster",
+              "Keywords": "DEVASTATING WOUNDS, PISTOL",
+              "Range": "12\"",
+              "Attacks": "3",
+              "ToHit": "2+",
+              "Strength": "5",
+              "AP": "0",
+              "Damage": "1"
+            },
+            {
+              "Name": "Relic gauss blaster",
+              "Keywords": "LETHAL HITS, RAPID FIRE 2",
+              "Range": "24\"",
+              "Attacks": "2",
+              "ToHit": "2+",
+              "Strength": "5",
+              "AP": "-1",
+              "Damage": "2"
+            },
+            {
+              "Name": "Rod of covenant",
+              "Range": "12\"",
+              "Attacks": "1",
+              "ToHit": "2+",
+              "Strength": "5",
+              "AP": "-2",
+              "Damage": "2"
+            },
+            {
+              "Name": "Staff of light",
+              "Range": "18\"",
+              "Attacks": "3",
+              "ToHit": "2+",
+              "Strength": "5",
+              "AP": "-2",
+              "Damage": "1"
+            },
+            {
+              "Name": "Tachyon arrow",
+              "Keywords": "ONE SHOT",
+              "Range": "72\"",
+              "Attacks": "1",
+              "ToHit": "2+",
+              "Strength": "16",
+              "AP": "-5",
+              "Damage": "D6+2"
+            }
+          ]
+        },
+        {
+          "IsMelee": true,
+          "Name": "MELEE WEAPONS",
+          "Weapons": [
+            {
+              "Name": "Close-combat weapon",
+              "Range": "Melee",
+              "Attacks": "4",
+              "ToHit": "3+",
+              "Strength": "5",
+              "AP": "0",
+              "Damage": "1"
+            },
+            {
+              "Name": "Flayer claws",
+              "Keywords": "SUSTAINED HITS 1, TWIN-LINKED",
+              "Range": "Melee",
+              "Attacks": "4",
+              "ToHit": "3+",
+              "Strength": "4",
+              "AP": "-1",
+              "Damage": "1"
+            },
+            {
+              "Name": "Flensing claw",
+              "Range": "Melee",
+              "Attacks": "8",
+              "ToHit": "2+",
+              "Strength": "6",
+              "AP": "-1",
+              "Damage": "1"
+            },
+            {
+              "Name": "Hyperphase harvester",
+              "Range": "Melee",
+              "Attacks": "4",
+              "ToHit": "2+",
+              "Strength": "10",
+              "AP": "-3",
+              "Damage": "3"
+            },
+            {
+              "Name": "Hyperphase sword",
+              "Range": "Melee",
+              "Attacks": "3",
+              "ToHit": "3+",
+              "Strength": "6",
+              "AP": "-2",
+              "Damage": "1"
+            },
+            {
+              "Name": "Lord's blade",
+              "Keywords": "DEVASTATING WOUNDS",
+              "Range": "Melee",
+              "Attacks": "4",
+              "ToHit": "2+",
+              "Strength": "8",
+              "AP": "-3",
+              "Damage": "2"
+            },
+            {
+              "Name": "Ophydian hyperphase weapons",
+              "Range": "Melee",
+              "Attacks": "5",
+              "ToHit": "3+",
+              "Strength": "4",
+              "AP": "-2",
+              "Damage": "2"
+            },
+            {
+              "Name": "Rod of covenant",
+              "Range": "Melee",
+              "Attacks": "3",
+              "ToHit": "3+",
+              "Strength": "5",
+              "AP": "-2",
+              "Damage": "2"
+            },
+            {
+              "Name": "Skorpekh hyperphase weapons",
+              "Range": "Melee",
+              "Attacks": "4",
+              "ToHit": "3+",
+              "Strength": "7",
+              "AP": "-2",
+              "Damage": "2"
+            },
+            {
+              "Name": "Staff of light",
+              "Range": "Melee",
+              "Attacks": "4",
+              "ToHit": "2+",
+              "Strength": "5",
+              "AP": "-2",
+              "Damage": "1"
+            },
+            {
+              "Name": "Voidblade",
+              "Range": "Melee",
+              "Attacks": "4",
+              "ToHit": "3+",
+              "Strength": "5",
+              "AP": "-2",
+              "Damage": "1"
+            },
+            {
+              "Name": "Voidscythe",
+              "Keywords": "DEVASTATING WOUNDS",
+              "Range": "Melee",
+              "Attacks": "3",
+              "ToHit": "3+",
+              "Strength": "12",
+              "AP": "-3",
+              "Damage": "3"
+            },
+            {
+              "Name": "Warscythe",
+              "Keywords": "DEVASTATING WOUNDS",
+              "Range": "Melee",
+              "Attacks": "2",
+              "ToHit": "3+",
+              "Strength": "8",
+              "AP": "-3",
+              "Damage": "2"
+            }
+          ]
+        }
+      ],
+      "Upgrades": [],
+      "Points": [
+        {
+          "ModelCount": 1,
+          "Cost": 85
+        }
+      ]
+    },
+    {
+      "Name": "HYPERSCIENTIST",
+      "Faction": "Reanimation Protocols",
+      "Flags": 4,
+      "UnitComposition": {
+        "ModelCompositions": [
+          {
+            "ModelName": "Hyperscientist",
+            "Wargear": [
+              {
+                "InitalWargear": [],
+                "Options": [
+                  {
+                    "Options": [
+                      "abyssal lance",
+                      "chronomancer's stave",
+                      "particle caster",
+                      "plasmic lance",
+                      "relic gauss blaster",
+                      "rod of covenant",
+                      "staff of light",
+                      "tachyon arrow"
+                    ]
+                  },
+                  {
+                    "Options": [
+                      "abyssal lance",
+                      "chronomancer's stave",
+                      "close-combat weapon",
+                      "flayer claws",
+                      "hyperphase sword",
+                      "lord's blade",
+                      "plasmic lance",
+                      "rod of covenant",
+                      "staff of light",
+                      "voidblade",
+                      "voidscythe",
+                      "warscythe"
+                    ]
+                  },
+                  {
+                    "Options": [
+                      "abyssal lance",
+                      "chronomancer's stave",
+                      "close-combat weapon",
+                      "flayer claws",
+                      "hyperphase sword",
+                      "lord's blade",
+                      "plasmic lance",
+                      "rod of covenant",
+                      "staff of light",
+                      "voidblade",
+                      "voidscythe",
+                      "warscythe"
+                    ]
+                  },
+                  {
+                    "Options": [
+                      "Dimensional Oublette",
+                      "Gravity Displacement Pack"
+                    ]
+                  },
+                  {
+                    "Options": [
+                      "Adaptive Strategy",
+                      "Engrammatic Logic",
+                      "Harbinger of Despair",
+                      "Harbinger of Destruction",
+                      "Living Lightning",
+                      "Timesplinter Mantle",
+                      "United in Destruction"
+                    ]
+                  },
+                  {
+                    "Options": [
+                      "Harbinger of Despair",
+                      "Harbinger of Destruction",
+                      "Living Lightning",
+                      "Timesplinter Mantle"
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "WargearDefinitions": [
+          {
+            "Key": "Dimensional Oublette",
+            "GrantsAbilities": [
+              "Dimensional Oublette"
+            ],
+            "DatasheetAdjustments": [
+              {
+                "Target": "CoreAbilities",
+                "Type": "Add",
+                "Values": [
+                  "Deep Strike"
+                ]
+              },
+              {
+                "Target": "LedUnitNames",
+                "Values": [
+                  "DEATHMARKS"
+                ]
+              }
+            ]
+          },
+          {
+            "Key": "Gravity Displacement Pack",
+            "GrantsAbilities": [
+              "Gravity Displacement Pack"
+            ],
+            "StatAdjustments": [
+              {
+                "Value": "10\""
+              }
+            ],
+            "DatasheetAdjustments": [
+              {
+                "Target": "Keywords",
+                "Type": "Add",
+                "Values": [
+                  "Fly"
+                ]
+              },
+              {
+                "Target": "CoreAbilities",
+                "Type": "Add",
+                "Values": [
+                  "Deep Strike"
+                ]
+              },
+              {
+                "Target": "LedUnitNames",
+                "Values": [
+                  "TRIARCH PRAETORIANS"
+                ]
+              }
+            ]
+          },
+          {
+            "Key": "Adaptive Strategy",
+            "GrantsAbilities": [
+              "Adaptive Strategy"
+            ]
+          },
+          {
+            "Key": "Engrammatic Logic",
+            "GrantsAbilities": [
+              "Engrammatic Logic"
+            ]
+          },
+          {
+            "Key": "Harbinger of Despair",
+            "GrantsAbilities": [
+              "Harbinger of Despair"
+            ]
+          },
+          {
+            "Key": "Harbinger of Destruction",
+            "GrantsAbilities": [
+              "Harbinger of Destruction"
+            ]
+          },
+          {
+            "Key": "Living Lightning",
+            "GrantsAbilities": [
+              "Living Lightning"
+            ]
+          },
+          {
+            "Key": "Timesplinter Mantle",
+            "GrantsAbilities": [
+              "Timesplinter Mantle"
+            ]
+          },
+          {
+            "Key": "United in Destruction",
+            "GrantsAbilities": [
+              "United in Destruction"
+            ]
+          }
+        ]
+      },
+      "UnitAbilities": [
+        {
+          "Title": "Dimensional Oublette",
+          "Text": "This model gains the Deep Strike ability. Replace the list of units this model can be attached to: Deathmarks."
+        },
+        {
+          "Title": "Hyperscientific Acumen",
+          "Text": "When choosing abilities in Step 3, you can choose two Cryptek abilities instead of choosing one ability."
+        },
+        {
+          "Title": "Gravity Displacement Pack",
+          "Text": "Change this model’s Move characteristic to 10\", add the Fly keyword, and it gains the Deep Strike ability. Replace the list of units this model can be attached to: Triarch Praetorians."
+        },
+        {
+          "Title": "Adaptive Strategy",
+          "Text": "This model’s unit is eligible to shoot and declare a charge in a turn in which it Fell Back."
+        },
+        {
+          "Title": "Engrammatic Logic",
+          "Text": "Once per battle, at the start of any phase, you can select one friendly Necrons unit that is Battle-shocked and within 12\" of this model. That unit is no longer Battle-shocked."
+        },
+        {
+          "Title": "Harbinger of Despair",
+          "Text": "Once per battle round, at the start of a phase during your turn, you can select one enemy unit within 18\" of this model. That unit must take a Battle-shock test, subtracting 1 from the test when it does so."
+        },
+        {
+          "Title": "Harbinger of Destruction",
+          "Text": "Each time a model in this unit makes a ranged attack, an unmodified Hit roll of 5+ scores a Critical Hit."
+        },
+        {
+          "Title": "Living Lightning",
+          "Text": "In your Shooting phase, select one enemy unit within 18\" of and visible to this model and roll four D6: for each 4+, that enemy unit suffers 1 mortal wound."
+        },
+        {
+          "Title": "Timesplinter Mantle",
+          "Text": "While this model is leading a unit, each time an attack targets that unit, subtract 1 from the Hit roll."
+        },
+        {
+          "Title": "United in Destruction",
+          "Text": "While this model is leading a unit, melee weapons equipped by models in that unit have the [LETHAL HITS] ability."
+        }
+      ],
+      "LeaderInfo": {
+        "UnitNames": [
+          "IMMORTALS",
+          "NECRON WARRIORS"
+        ],
+        "Abilities": [
+          {
+            "AbilityId": "Timesplinter Mantle"
+          },
+          {
+            "AbilityId": "United in Destruction",
+            "WeaponStatAdjustments": [
+              {
+                "Value": "LETHAL HITS",
+                "Type": "Add",
+                "Scope": "Unit",
+                "Target": "Keywords"
+              }
+            ]
+          }
+        ]
+      },
+      "Infos": [],
+      "Keywords": [
+        "Infantry",
+        "Character",
+        "Cryptek",
+        "Hyperscientist"
+      ],
+      "CoreAbilities": [
+        "Crucible",
+        "Leader"
+      ],
+      "FactionKeywords": [
+        "Necrons"
+      ],
+      "StatLines": [
+        {
+          "Movement": "5\"",
+          "Toughness": "4",
+          "Save": "4+",
+          "Wounds": "4",
+          "Leadership": "6+",
+          "OC": "1"
+        }
+      ],
+      "Weapons": [
+        {
+          "Name": "RANGED WEAPONS",
+          "Weapons": [
+            {
+              "Name": "Abyssal lance",
+              "Range": "18\"",
+              "Attacks": "1",
+              "ToHit": "4+",
+              "Strength": "6",
+              "AP": "-3",
+              "Damage": "3"
+            },
+            {
+              "Name": "Chronomancer's stave",
+              "Keywords": "BLAST",
+              "Range": "18\"",
+              "Attacks": "D6",
+              "ToHit": "4+",
+              "Strength": "5",
+              "AP": "-1",
+              "Damage": "1"
+            },
+            {
+              "Name": "Particle caster",
+              "Keywords": "DEVASTATING WOUNDS, PISTOL",
+              "Range": "12\"",
+              "Attacks": "3",
+              "ToHit": "2+",
+              "Strength": "5",
+              "AP": "0",
+              "Damage": "1"
+            },
+            {
+              "Name": "Plasmic lance",
+              "Range": "18\"",
+              "Attacks": "3",
+              "ToHit": "4+",
+              "Strength": "7",
+              "AP": "-3",
+              "Damage": "2"
+            },
+            {
+              "Name": "Relic gauss blaster",
+              "Keywords": "LETHAL HITS, RAPID FIRE 2",
+              "Range": "24\"",
+              "Attacks": "2",
+              "ToHit": "2+",
+              "Strength": "5",
+              "AP": "-1",
+              "Damage": "2"
+            },
+            {
+              "Name": "Rod of covenant",
+              "Range": "12\"",
+              "Attacks": "1",
+              "ToHit": "2+",
+              "Strength": "5",
+              "AP": "-2",
+              "Damage": "2"
+            },
+            {
+              "Name": "Staff of light",
+              "Range": "18\"",
+              "Attacks": "3",
+              "ToHit": "2+",
+              "Strength": "5",
+              "AP": "-2",
+              "Damage": "1"
+            },
+            {
+              "Name": "Tachyon arrow",
+              "Keywords": "ONE SHOT",
+              "Range": "72\"",
+              "Attacks": "1",
+              "ToHit": "2+",
+              "Strength": "16",
+              "AP": "-5",
+              "Damage": "D6+2"
+            }
+          ]
+        },
+        {
+          "IsMelee": true,
+          "Name": "MELEE WEAPONS",
+          "Weapons": [
+            {
+              "Name": "Abyssal lance",
+              "Range": "Melee",
+              "Attacks": "1",
+              "ToHit": "4+",
+              "Strength": "6",
+              "AP": "-3",
+              "Damage": "3"
+            },
+            {
+              "Name": "Chronomancer's stave",
+              "Range": "Melee",
+              "Attacks": "3",
+              "ToHit": "4+",
+              "Strength": "5",
+              "AP": "-1",
+              "Damage": "1"
+            },
+            {
+              "Name": "Close-combat weapon",
+              "Range": "Melee",
+              "Attacks": "4",
+              "ToHit": "3+",
+              "Strength": "5",
+              "AP": "0",
+              "Damage": "1"
+            },
+            {
+              "Name": "Flayer claws",
+              "Keywords": "SUSTAINED HITS 1, TWIN-LINKED",
+              "Range": "Melee",
+              "Attacks": "4",
+              "ToHit": "3+",
+              "Strength": "4",
+              "AP": "-1",
+              "Damage": "1"
+            },
+            {
+              "Name": "Hyperphase sword",
+              "Range": "Melee",
+              "Attacks": "3",
+              "ToHit": "3+",
+              "Strength": "6",
+              "AP": "-2",
+              "Damage": "1"
+            },
+            {
+              "Name": "Lord's blade",
+              "Keywords": "DEVASTATING WOUNDS",
+              "Range": "Melee",
+              "Attacks": "4",
+              "ToHit": "2+",
+              "Strength": "8",
+              "AP": "-3",
+              "Damage": "2"
+            },
+            {
+              "Name": "Plasmic lance",
+              "Range": "Melee",
+              "Attacks": "2",
+              "ToHit": "4+",
+              "Strength": "7",
+              "AP": "-3",
+              "Damage": "2"
+            },
+            {
+              "Name": "Rod of covenant",
+              "Range": "Melee",
+              "Attacks": "3",
+              "ToHit": "3+",
+              "Strength": "5",
+              "AP": "-2",
+              "Damage": "2"
+            },
+            {
+              "Name": "Staff of light",
+              "Range": "Melee",
+              "Attacks": "4",
+              "ToHit": "2+",
+              "Strength": "5",
+              "AP": "-2",
+              "Damage": "1"
+            },
+            {
+              "Name": "Voidblade",
+              "Range": "Melee",
+              "Attacks": "4",
+              "ToHit": "3+",
+              "Strength": "5",
+              "AP": "-2",
+              "Damage": "1"
+            },
+            {
+              "Name": "Voidscythe",
+              "Keywords": "DEVASTATING WOUNDS",
+              "Range": "Melee",
+              "Attacks": "3",
+              "ToHit": "3+",
+              "Strength": "12",
+              "AP": "-3",
+              "Damage": "3"
+            },
+            {
+              "Name": "Warscythe",
+              "Keywords": "DEVASTATING WOUNDS",
+              "Range": "Melee",
+              "Attacks": "2",
+              "ToHit": "3+",
+              "Strength": "8",
+              "AP": "-3",
+              "Damage": "2"
+            }
+          ]
+        }
+      ],
+      "Upgrades": [],
+      "Points": [
+        {
+          "ModelCount": 1,
+          "Cost": 85
+        }
+      ]
+    },
+    {
+      "Name": "TRIARCHAL OVERSEER",
+      "Faction": "Reanimation Protocols",
+      "Flags": 4,
+      "UnitComposition": {
+        "ModelCompositions": [
+          {
+            "ModelName": "Triarchal Overseer",
+            "Wargear": [
+              {
+                "InitalWargear": [],
+                "Options": [
+                  {
+                    "Options": [
+                      "heat ray",
+                      "heavy gauss cannon array",
+                      "particle caster",
+                      "particle shredder",
+                      "relic gauss blaster",
+                      "rod of covenant",
+                      "staff of light",
+                      "tachyon arrow"
+                    ]
+                  },
+                  {
+                    "Options": [
+                      "close-combat weapon",
+                      "flayer claws",
+                      "hyperphase sword",
+                      "lord's blade",
+                      "rod of covenant",
+                      "staff of light",
+                      "stalker's forelimbs",
+                      "voidblade",
+                      "voidscythe",
+                      "warscythe"
+                    ]
+                  },
+                  {
+                    "Options": [
+                      "close-combat weapon",
+                      "flayer claws",
+                      "hyperphase sword",
+                      "lord's blade",
+                      "rod of covenant",
+                      "staff of light",
+                      "stalker's forelimbs",
+                      "voidblade",
+                      "voidscythe",
+                      "warscythe"
+                    ]
+                  },
+                  {
+                    "Options": [
+                      "Adaptive Strategy",
+                      "Engrammatic Logic",
+                      "My Will Be Done",
+                      "United in Destruction"
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "WargearDefinitions": [
+          {
+            "Key": "Adaptive Strategy",
+            "GrantsAbilities": [
+              "Adaptive Strategy"
+            ]
+          },
+          {
+            "Key": "Engrammatic Logic",
+            "GrantsAbilities": [
+              "Engrammatic Logic"
+            ]
+          },
+          {
+            "Key": "My Will Be Done",
+            "GrantsAbilities": [
+              "My Will Be Done"
+            ]
+          },
+          {
+            "Key": "United in Destruction",
+            "GrantsAbilities": [
+              "United in Destruction"
+            ]
+          }
+        ]
+      },
+      "UnitAbilities": [
+        {
+          "Title": "Targeting Relay",
+          "Text": "In your Shooting phase, after this model has shot, select one enemy unit hit by one or more of those attacks. Until the end of the phase, that unit cannot have the Benefit of Cover."
+        },
+        {
+          "Title": "Adaptive Strategy",
+          "Text": "This model’s unit is eligible to shoot and declare a charge in a turn in which it Fell Back."
+        },
+        {
+          "Title": "Engrammatic Logic",
+          "Text": "Once per battle, at the start of any phase, you can select one friendly Necrons unit that is Battle-shocked and within 12\" of this model. That unit is no longer Battle-shocked."
+        },
+        {
+          "Title": "My Will Be Done",
+          "Text": "Once per battle round, one unit from your army with this ability can be targeted with a Stratagem for 0CP, even if you have already targeted a different unit with that Stratagem this phase."
+        },
+        {
+          "Title": "United in Destruction",
+          "Text": "While this model is leading a unit, melee weapons equipped by models in that unit have the [LETHAL HITS] ability."
+        }
+      ],
+      "Infos": [],
+      "Keywords": [
+        "Vehicle",
+        "Walker",
+        "Character",
+        "Triarch Stalker",
+        "Triarchal Overseer"
+      ],
+      "CoreAbilities": [
+        "Crucible",
+        "Deadly Demise D3",
+        "Scouts 8\""
+      ],
+      "FactionKeywords": [
+        "Necrons"
+      ],
+      "StatLines": [
+        {
+          "Movement": "8\"",
+          "Toughness": "8",
+          "Save": "3+",
+          "Wounds": "12",
+          "Leadership": "7+",
+          "OC": "4",
+          "InvulSave": {
+            "Save": "4+"
+          }
+        }
+      ],
+      "Weapons": [
+        {
+          "Name": "RANGED WEAPONS",
+          "Weapons": [
+            {
+              "Name": "Heat ray – dispersed",
+              "Keywords": "IGNORES COVER, TORRENT",
+              "Range": "12\"",
+              "Attacks": "2D6",
+              "ToHit": "N/A",
+              "Strength": "5",
+              "AP": "-1",
+              "Damage": "1"
+            },
+            {
+              "Name": "Heat ray – focused",
+              "Keywords": "MELTA 4",
+              "Range": "18\"",
+              "Attacks": "2",
+              "ToHit": "2+",
+              "Strength": "9",
+              "AP": "-4",
+              "Damage": "D6"
+            },
+            {
+              "Name": "Heavy gauss cannon array",
+              "Keywords": "LETHAL HITS",
+              "Range": "24\"",
+              "Attacks": "6",
+              "ToHit": "2+",
+              "Strength": "8",
+              "AP": "-2",
+              "Damage": "2"
+            },
+            {
+              "Name": "Particle caster",
+              "Keywords": "DEVASTATING WOUNDS, PISTOL",
+              "Range": "12\"",
+              "Attacks": "3",
+              "ToHit": "2+",
+              "Strength": "5",
+              "AP": "0",
+              "Damage": "1"
+            },
+            {
+              "Name": "Particle shredder",
+              "Keywords": "BLAST, DEVASTATING WOUNDS",
+              "Range": "18\"",
+              "Attacks": "D6+6",
+              "ToHit": "2+",
+              "Strength": "7",
+              "AP": "0",
+              "Damage": "1"
+            },
+            {
+              "Name": "Relic gauss blaster",
+              "Keywords": "LETHAL HITS, RAPID FIRE 2",
+              "Range": "24\"",
+              "Attacks": "2",
+              "ToHit": "2+",
+              "Strength": "5",
+              "AP": "-1",
+              "Damage": "2"
+            },
+            {
+              "Name": "Rod of covenant",
+              "Range": "12\"",
+              "Attacks": "1",
+              "ToHit": "2+",
+              "Strength": "5",
+              "AP": "-2",
+              "Damage": "2"
+            },
+            {
+              "Name": "Staff of light",
+              "Range": "18\"",
+              "Attacks": "3",
+              "ToHit": "2+",
+              "Strength": "5",
+              "AP": "-2",
+              "Damage": "1"
+            },
+            {
+              "Name": "Tachyon arrow",
+              "Keywords": "ONE SHOT",
+              "Range": "72\"",
+              "Attacks": "1",
+              "ToHit": "2+",
+              "Strength": "16",
+              "AP": "-5",
+              "Damage": "D6+2"
+            }
+          ]
+        },
+        {
+          "IsMelee": true,
+          "Name": "MELEE WEAPONS",
+          "Weapons": [
+            {
+              "Name": "Close-combat weapon",
+              "Range": "Melee",
+              "Attacks": "4",
+              "ToHit": "3+",
+              "Strength": "5",
+              "AP": "0",
+              "Damage": "1"
+            },
+            {
+              "Name": "Flayer claws",
+              "Keywords": "SUSTAINED HITS 1, TWIN-LINKED",
+              "Range": "Melee",
+              "Attacks": "4",
+              "ToHit": "3+",
+              "Strength": "4",
+              "AP": "-1",
+              "Damage": "1"
+            },
+            {
+              "Name": "Hyperphase sword",
+              "Range": "Melee",
+              "Attacks": "3",
+              "ToHit": "3+",
+              "Strength": "6",
+              "AP": "-2",
+              "Damage": "1"
+            },
+            {
+              "Name": "Lord's blade",
+              "Keywords": "DEVASTATING WOUNDS",
+              "Range": "Melee",
+              "Attacks": "4",
+              "ToHit": "2+",
+              "Strength": "8",
+              "AP": "-3",
+              "Damage": "2"
+            },
+            {
+              "Name": "Rod of covenant",
+              "Range": "Melee",
+              "Attacks": "3",
+              "ToHit": "3+",
+              "Strength": "5",
+              "AP": "-2",
+              "Damage": "2"
+            },
+            {
+              "Name": "Staff of light",
+              "Range": "Melee",
+              "Attacks": "4",
+              "ToHit": "2+",
+              "Strength": "5",
+              "AP": "-2",
+              "Damage": "1"
+            },
+            {
+              "Name": "Stalker's forelimbs",
+              "Range": "Melee",
+              "Attacks": "4",
+              "ToHit": "3+",
+              "Strength": "7",
+              "AP": "-1",
+              "Damage": "3"
+            },
+            {
+              "Name": "Voidblade",
+              "Range": "Melee",
+              "Attacks": "4",
+              "ToHit": "3+",
+              "Strength": "5",
+              "AP": "-2",
+              "Damage": "1"
+            },
+            {
+              "Name": "Voidscythe",
+              "Keywords": "DEVASTATING WOUNDS",
+              "Range": "Melee",
+              "Attacks": "3",
+              "ToHit": "3+",
+              "Strength": "12",
+              "AP": "-3",
+              "Damage": "3"
+            },
+            {
+              "Name": "Warscythe",
+              "Keywords": "DEVASTATING WOUNDS",
+              "Range": "Melee",
+              "Attacks": "2",
+              "ToHit": "3+",
+              "Strength": "8",
+              "AP": "-3",
+              "Damage": "2"
+            }
+          ]
+        }
+      ],
+      "Upgrades": [],
+      "Points": [
+        {
+          "ModelCount": 1,
+          "Cost": 120
+        }
+      ]
+    },
+    {
+      "Name": "TOMB CITADEL WALLS",
+      "Faction": "Reanimation Protocols",
+      "UnitComposition": {
+        "ModelCompositions": [
+          {
+            "ModelName": "Tomb Citadel",
+            "Wargear": [
+              {
+                "InitalWargear": [],
+                "Options": [
+                  {
+                    "Options": [
+                      "1 gauss exterminator and 1 twin tesla destructor",
+                      "2 gauss exterminators",
+                      "2 twin tesla destructors"
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "WargearDefinitions": []
+      },
+      "UnitAbilities": [
+        {
+          "Title": "Ziggurat Dock",
+          "Text": "One friendly Monolith, Obelisk, Tesseract Vault or Sentry Pylon model can start the battle on top of this Fortification’s ziggurat platform. While such a model is on this platform, that model's ranged weapons have the [HEAVY] ability. Any friendly model can be set up or end any type of move on the ramps or platform sections of this Fortification."
+        },
+        {
+          "Title": "Phased Cover",
+          "Text": "Each time a ranged attack is allocated to a model, if that model is not fully visible to every model in the attacking unit because of this Fortification, that model has the Benefit of Cover against that attack."
+        },
+        {
+          "Title": "Fortification",
+          "Text": "While an enemy unit is only within Engagement Range of one or more Fortifications from your army:\n\t▪ That unit can still be selected as the target of ranged attacks, but each time such an attack is made, unless it is made with a Pistol, subtract 1 from the Hit roll.\n\t▪ Models in that unit do not need to take Desperate Escape tests due to Falling Back while Battle-shocked, except for those that will move over enemy models when doing so."
+        }
+      ],
+      "Infos": [
+        {
+          "Title": "DAMAGED: 1-15 WOUNDS REMAINING",
+          "Text": "While this model has 1-15 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
+        }
+      ],
+      "Keywords": [
+        "Fortification",
+        "Titanic",
+        "Vehicle",
+        "Frame",
+        "Tomb Citadel"
+      ],
+      "CoreAbilities": [
+        "Deadly Demise 3D6"
+      ],
+      "FactionKeywords": [
+        "Necrons"
+      ],
+      "StatLines": [
+        {
+          "Movement": "-",
+          "Toughness": "13",
+          "Save": "2+",
+          "Wounds": "50",
+          "Leadership": "7+",
+          "OC": "0",
+          "InvulSave": {
+            "Save": "5+"
+          }
+        }
+      ],
+      "Weapons": [
+        {
+          "Name": "RANGED WEAPONS",
+          "Weapons": [
+            {
+              "Name": "Gauss exterminator",
+              "Keywords": "LETHAL HITS",
+              "Range": "48\"",
+              "Attacks": "1",
+              "ToHit": "4+",
+              "Strength": "14",
+              "AP": "-3",
+              "Damage": "6"
+            },
+            {
+              "Name": "Twin tesla destructor",
+              "Keywords": "SUSTAINED HITS 2, TWIN-LINKED",
+              "Range": "36\"",
+              "Attacks": "6",
+              "ToHit": "3+",
+              "Strength": "8",
+              "AP": "0",
+              "Damage": "2"
+            }
+          ]
+        }
+      ],
+      "Upgrades": [],
+      "Points": [
+        {
+          "ModelCount": 1,
+          "Cost": 180
+        }
+      ]
+    }
+  ],
+  "Dettachments": [],
+  "ArmyRules": []
+}
