@@ -6,6 +6,7 @@ import { SupportFooter } from './SupportFooter'
 function useFullscreenShell() {
   const { pathname } = useLocation()
   if (pathname === '/game') return 'game'
+  if (pathname === '/lists') return 'lists'
   if (pathname === '/lists/new') return 'builder'
   if (pathname.startsWith('/lists/') && pathname !== '/lists/meta') return 'builder'
   return null
@@ -20,22 +21,24 @@ export function Layout() {
     <div className="app-root flex h-[100dvh] max-h-[100dvh] flex-col overflow-hidden">
       <div className="app-bg" aria-hidden />
       <main
-        className={`page-shell relative mx-auto flex w-full max-w-lg min-h-0 flex-1 flex-col ${
-          shell ? 'page-shell-compact' : ''
-        } ${shell === 'game' ? 'px-2' : 'px-4'}`}
+        className={`page-shell relative mx-auto flex w-full min-h-0 flex-1 flex-col ${
+          shell === 'builder' || shell === 'lists' ? 'page-shell-builder max-w-4xl' : 'max-w-lg'
+        } ${shell ? 'page-shell-compact' : ''} ${shell === 'game' ? 'px-2' : 'px-4'}`}
       >
-        {shell !== 'builder' && <ActiveGameBanner />}
+        {shell !== 'builder' && shell !== 'lists' && <ActiveGameBanner />}
         <div
           key={shell ? 'shell' : pathname}
           className={`flex min-h-0 flex-1 flex-col ${
-            shell ? 'overflow-hidden' : 'overflow-y-auto overscroll-contain [-webkit-overflow-scrolling:touch]'
+            shell === 'builder'
+              ? 'overflow-hidden'
+              : 'overflow-y-auto overscroll-contain [-webkit-overflow-scrolling:touch]'
           } ${shell ? '' : 'motion-page'}`}
         >
           <Outlet />
+          {isHome && <SupportFooter />}
         </div>
-        {isHome && <SupportFooter />}
       </main>
-      <BottomNav compact={Boolean(shell)} />
+      <BottomNav compact={Boolean(shell)} hidden={shell === 'builder' || shell === 'lists'} />
     </div>
   )
 }

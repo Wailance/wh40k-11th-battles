@@ -43,7 +43,8 @@ function NavLabel({ label }: { label: string }) {
   return <span className="text-micro font-display uppercase tracking-wider">{label}</span>
 }
 
-export function BottomNav({ compact = false }: { compact?: boolean }) {
+export function BottomNav({ compact = false, hidden = false }: { compact?: boolean; hidden?: boolean }) {
+  if (hidden) return null
   const links = navLinks()
   return (
     <nav className="safe-bottom fixed bottom-0 left-0 right-0 z-50 border-t border-white/[0.08] bg-void/90 backdrop-blur-xl">

@@ -1,13 +1,25 @@
-import { useRef, useState } from 'react'
+import { useEffect, useMemo, useRef, useState } from 'react'
 import { Link } from 'react-router-dom'
-import { ArmyDataBanner } from '../components/ArmyDataBanner'
-import { ArmyBuilderWipBanner } from '../components/ArmyBuilderWipBanner'
 import { copy } from '../lib/copy'
 import { deleteRoster, importRoster, loadRosters } from '../lib/roster-storage'
+import { loadWarOrganMeta } from '../lib/warorgan-theme'
 
 export function ListsPage() {
   const [rosters, setRosters] = useState(() => loadRosters())
+  const [query, setQuery] = useState('')
+  const [datasetLabel, setDatasetLabel] = useState('Warhammer 40k 11th')
+  const [versionLabel, setVersionLabel] = useState('')
   const fileRef = useRef<HTMLInputElement>(null)
+
+  useEffect(() => {
+    void loadWarOrganMeta().then((meta) => {
+      if (meta.Id) setDatasetLabel(meta.Id)
+      if (meta.Version) {
+        const date = meta.PublishDate ? new Date(meta.PublishDate).toLocaleDateString() : ''
+        setVersionLabel(date ? `${meta.Version} (${date})` : meta.Version)
+      }
+    })
+  }, [])
 
   function refresh() {
     setRosters(loadRosters())
@@ -26,59 +38,87 @@ export function ListsPage() {
     reader.readAsText(file)
   }
 
+  const filtered = useMemo(() => {
+    const q = query.trim().toLowerCase()
+    if (!q) return rosters
+    return rosters.filter(
+      (r) => r.name.toLowerCase().includes(q) || r.army.toLowerCase().includes(q),
+    )
+  }, [rosters, query])
+
   return (
-    <div className="motion-stagger space-y-4">
-      <div>
-        <h1 className="app-page-title">{copy.armyLists.title}</h1>
-        <p className="mt-1 text-body text-muted">{copy.armyLists.subtitle}</p>
+    <div className="wo-home motion-stagger min-h-full">
+      <header className="wo-home-header">
+        <div>
+          <h1 className="wo-home-title">{copy.armyLists.title}</h1>
+          <p className="wo-home-meta">DATASET: {datasetLabel}</p>
+          {versionLabel && <p className="wo-home-meta">VERSION: {versionLabel}</p>}
+        </div>
+      </header>
+
+      <div className="wo-home-actions">
+        <div className="wo-home-tile-wrap">
+          <Link to="/lists/new" className="wo-home-tile" aria-label={copy.armyLists.newList}>
+            <span className="wo-home-tile-icon" aria-hidden>
+              +
+            </span>
+          </Link>
+          <button
+            type="button"
+            className="wo-home-tile-menu"
+            aria-label={copy.armyLists.import}
+            onClick={() => fileRef.current?.click()}
+          >
+            ···
+          </button>
+        </div>
+        <label className="wo-home-tile wo-home-tile--search">
+          <span className="wo-home-tile-icon" aria-hidden>
+            ⌕
+          </span>
+          <input
+            value={query}
+            onChange={(e) => setQuery(e.target.value)}
+            placeholder={copy.armyLists.searchLists}
+            className="wo-home-search-input"
+          />
+        </label>
       </div>
 
-      <ArmyBuilderWipBanner />
-      <ArmyDataBanner />
+      <input
+        ref={fileRef}
+        type="file"
+        accept="application/json,.json"
+        className="hidden"
+        onChange={(e) => {
+          const f = e.target.files?.[0]
+          if (f) handleImport(f)
+          e.target.value = ''
+        }}
+      />
 
-      <div className="flex flex-wrap gap-2">
-        <Link to="/lists/new" className="app-btn-muted px-4 py-2.5 text-body">
-          {copy.armyLists.newList}
-          <span className="app-btn-badge">{copy.armyLists.wipBadge}</span>
-        </Link>
-        <Link to="/lists/meta" className="app-btn-muted px-4 py-2.5 text-body">
+      <div className="wo-home-links">
+        <Link to="/lists/meta" className="text-caption text-muted hover:text-bone">
           {copy.tournamentLists.button}
         </Link>
-        <button
-          type="button"
-          className="app-btn-ghost px-4 py-2.5 text-body"
-          onClick={() => fileRef.current?.click()}
-        >
-          {copy.armyLists.import}
-        </button>
-        <input
-          ref={fileRef}
-          type="file"
-          accept="application/json,.json"
-          className="hidden"
-          onChange={(e) => {
-            const f = e.target.files?.[0]
-            if (f) handleImport(f)
-            e.target.value = ''
-          }}
-        />
       </div>
 
-      {rosters.length === 0 ? (
-        <p className="app-panel p-6 text-center text-body text-muted">{copy.armyLists.empty}</p>
+      {filtered.length === 0 ? (
+        <p className="wo-home-empty">{query ? copy.common.noResults : copy.armyLists.empty}</p>
       ) : (
-        <ul className="space-y-2">
-          {rosters.map((r) => (
-            <li key={r.id} className="app-panel flex items-center gap-3 p-4">
-              <Link to={`/lists/${r.id}`} className="min-w-0 flex-1">
-                <p className="truncate font-medium text-bone">{r.name}</p>
-                <p className="mt-0.5 text-caption text-muted">
-                  {r.army} · {r.pointsTotal}/{r.battleSize} pts · {r.units.length} units
+        <ul className="wo-home-grid">
+          {filtered.map((r) => (
+            <li key={r.id}>
+              <Link to={`/lists/${r.id}`} className="wo-home-list-card">
+                <p className="wo-home-list-name">{r.name}</p>
+                <p className="wo-home-list-meta">
+                  {r.army} · {r.pointsTotal}/{r.battleSize} pts
                 </p>
+                <p className="wo-home-list-meta">{r.units.length} units</p>
               </Link>
               <button
                 type="button"
-                className="text-caption text-status-danger"
+                className="wo-home-list-delete"
                 onClick={() => {
                   if (confirm(copy.armyLists.deleteConfirm)) {
                     deleteRoster(r.id)
@@ -92,18 +132,6 @@ export function ListsPage() {
           ))}
         </ul>
       )}
-
-      <p className="text-center text-caption text-muted">
-        {copy.armyLists.externalBuilder}{' '}
-        <a
-          href="https://warorgan.com/"
-          target="_blank"
-          rel="noreferrer"
-          className="text-accent underline-offset-2 hover:underline"
-        >
-          War Organ
-        </a>
-      </p>
     </div>
   )
 }

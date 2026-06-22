@@ -1,0 +1,891 @@
+{
+  "Name": "Adeptus Custodes",
+  "Units": [
+    {
+      "Name": "GUARDIAN OF THE THRONE",
+      "Faction": "Martial Ka'tah",
+      "Flags": 4,
+      "UnitComposition": {
+        "ModelCompositions": [
+          {
+            "ModelName": "Guardian of the Throne",
+            "Wargear": [
+              {
+                "InitalWargear": [],
+                "Options": [
+                  {
+                    "Options": [
+                      "castellan axe",
+                      "guardian spear",
+                      "pyrithe spear"
+                    ]
+                  },
+                  {
+                    "Options": [
+                      "sentinel blade"
+                    ]
+                  },
+                  {
+                    "Options": [
+                      "sentinel blade"
+                    ]
+                  },
+                  {
+                    "Options": [
+                      "castellan axe",
+                      "guardian spear",
+                      "misericordia",
+                      "pyrithe spear",
+                      "sentinel blade",
+                      "vaultswords"
+                    ]
+                  },
+                  {
+                    "Options": [
+                      "castellan axe",
+                      "guardian spear",
+                      "misericordia",
+                      "pyrithe spear",
+                      "sentinel blade",
+                      "vaultswords"
+                    ]
+                  },
+                  {
+                    "Options": [
+                      "Alarus Terminator Armour",
+                      "Praesidium Shield"
+                    ]
+                  },
+                  {
+                    "Options": [
+                      "Singular Expertise",
+                      "Swift Onslaught"
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "WargearDefinitions": [
+          {
+            "Key": "Alarus Terminator Armour",
+            "GrantsAbilities": [
+              "Alarus Terminator Armour"
+            ],
+            "GrantsWeapons": [
+              "Balistus grenade launcher"
+            ],
+            "StatAdjustments": [
+              {
+                "Target": "Toughness",
+                "Value": "7"
+              },
+              {
+                "Target": "Wounds",
+                "Value": "7"
+              }
+            ],
+            "DatasheetAdjustments": [
+              {
+                "Target": "Keywords",
+                "Type": "Add",
+                "Values": [
+                  "Terminator"
+                ]
+              },
+              {
+                "Target": "LedUnitNames",
+                "Values": [
+                  "ALLARUS CUSTODIANS"
+                ]
+              }
+            ]
+          },
+          {
+            "Key": "Praesidium Shield",
+            "GrantsAbilities": [
+              "Praesidium Shield"
+            ],
+            "StatAdjustments": [
+              {
+                "Target": "Wounds",
+                "Type": "Add",
+                "Value": "1"
+              }
+            ]
+          },
+          {
+            "Key": "Singular Expertise",
+            "GrantsAbilities": [
+              "Singular Expertise"
+            ]
+          },
+          {
+            "Key": "Swift Onslaught",
+            "GrantsAbilities": [
+              "Swift Onslaught"
+            ]
+          }
+        ]
+      },
+      "UnitAbilities": [
+        {
+          "Title": "Ka'tah Master",
+          "Text": "Once per phase, you can re-roll one Hit roll or one Wound roll for an attack made by this model."
+        },
+        {
+          "Title": "Alarus Terminator Armour",
+          "Text": "Change this model’s Toughness and Wounds characteristic to 7, and add the Terminator keyword. It is equipped with 1 Balistus grenade launcher in addition to the weapons you choose in Step 4, and replace the list of units this model can be attached to: Allarus Custodians."
+        },
+        {
+          "Title": "Praesidium Shield",
+          "Text": "Add 1 to this model’s Wounds characteristic."
+        },
+        {
+          "Title": "Singular Expertise",
+          "Text": "While this model is not leading a unit, each time this model makes a melee attack, you can re-roll the Hit roll and you can re-roll the Wound roll."
+        },
+        {
+          "Title": "Swift Onslaught",
+          "Text": "While this model is leading a unit, you can re-roll Charge rolls made for that unit."
+        }
+      ],
+      "LeaderInfo": {
+        "UnitNames": [
+          "CUSTODIAN GUARD",
+          "CUSTODIAN WARDENS"
+        ],
+        "Abilities": [
+          {
+            "AbilityId": "Singular Expertise"
+          },
+          {
+            "AbilityId": "Swift Onslaught"
+          }
+        ]
+      },
+      "Infos": [],
+      "Keywords": [
+        "Infantry",
+        "Character",
+        "Imperium",
+        "Guardian of the Throne"
+      ],
+      "CoreAbilities": [
+        "Crucible",
+        "Deep Strike",
+        "Leader"
+      ],
+      "FactionKeywords": [
+        "Adeptus Custodes"
+      ],
+      "StatLines": [
+        {
+          "Movement": "6\"",
+          "Toughness": "6",
+          "Save": "2+",
+          "Wounds": "6",
+          "Leadership": "6+",
+          "OC": "2",
+          "InvulSave": {
+            "Save": "4+"
+          }
+        }
+      ],
+      "Weapons": [
+        {
+          "Name": "RANGED WEAPONS",
+          "Weapons": [
+            {
+              "Name": "Balistus grenade launcher",
+              "Keywords": "BLAST",
+              "Range": "18\"",
+              "Attacks": "D6",
+              "ToHit": "2+",
+              "Strength": "4",
+              "AP": "-1",
+              "Damage": "1"
+            },
+            {
+              "Name": "Castellan axe",
+              "Keywords": "ASSAULT",
+              "Range": "24\"",
+              "Attacks": "2",
+              "ToHit": "2+",
+              "Strength": "4",
+              "AP": "-1",
+              "Damage": "2"
+            },
+            {
+              "Name": "Guardian spear",
+              "Keywords": "ASSAULT",
+              "Range": "24\"",
+              "Attacks": "2",
+              "ToHit": "2+",
+              "Strength": "4",
+              "AP": "-1",
+              "Damage": "2"
+            },
+            {
+              "Name": "Pyrithe spear",
+              "Keywords": "MELTA 2",
+              "Range": "12\"",
+              "Attacks": "1",
+              "ToHit": "2+",
+              "Strength": "9",
+              "AP": "-4",
+              "Damage": "D6"
+            },
+            {
+              "Name": "Sentinel blade",
+              "Keywords": "ASSAULT, PISTOL",
+              "Range": "12\"",
+              "Attacks": "2",
+              "ToHit": "2+",
+              "Strength": "4",
+              "AP": "-1",
+              "Damage": "2"
+            }
+          ]
+        },
+        {
+          "IsMelee": true,
+          "Name": "MELEE WEAPONS",
+          "Weapons": [
+            {
+              "Name": "Castellan axe",
+              "Range": "Melee",
+              "Attacks": "6",
+              "ToHit": "2+",
+              "Strength": "9",
+              "AP": "-1",
+              "Damage": "3"
+            },
+            {
+              "Name": "Guardian spear",
+              "Range": "Melee",
+              "Attacks": "7",
+              "ToHit": "2+",
+              "Strength": "7",
+              "AP": "-2",
+              "Damage": "2"
+            },
+            {
+              "Name": "Misericordia",
+              "Keywords": "EXTRA ATTACKS",
+              "Range": "Melee",
+              "Attacks": "2",
+              "ToHit": "2+",
+              "Strength": "5",
+              "AP": "-2",
+              "Damage": "1"
+            },
+            {
+              "Name": "Pyrithe spear",
+              "Range": "Melee",
+              "Attacks": "7",
+              "ToHit": "2+",
+              "Strength": "7",
+              "AP": "-2",
+              "Damage": "2"
+            },
+            {
+              "Name": "Sentinel blade",
+              "Range": "Melee",
+              "Attacks": "7",
+              "ToHit": "2+",
+              "Strength": "6",
+              "AP": "-2",
+              "Damage": "1"
+            },
+            {
+              "Name": "Vaultswords – Behemor",
+              "Keywords": "PRECISION",
+              "Range": "Melee",
+              "Attacks": "6",
+              "ToHit": "2+",
+              "Strength": "7",
+              "AP": "-2",
+              "Damage": "2"
+            },
+            {
+              "Name": "Vaultswords – Hurricanis",
+              "Keywords": "SUSTAINED HITS 1",
+              "Range": "Melee",
+              "Attacks": "9",
+              "ToHit": "2+",
+              "Strength": "5",
+              "AP": "-1",
+              "Damage": "1"
+            },
+            {
+              "Name": "Vaultswords – Victus",
+              "Keywords": "DEVASTATING WOUNDS",
+              "Range": "Melee",
+              "Attacks": "5",
+              "ToHit": "2+",
+              "Strength": "6",
+              "AP": "-3",
+              "Damage": "3"
+            }
+          ]
+        }
+      ],
+      "Upgrades": [],
+      "Points": [
+        {
+          "ModelCount": 1,
+          "Cost": 130
+        }
+      ]
+    },
+    {
+      "Name": "NULL MAIDEN",
+      "Flags": 4,
+      "UnitComposition": {
+        "ModelCompositions": [
+          {
+            "ModelName": "Null Maiden",
+            "Wargear": [
+              {
+                "InitalWargear": [],
+                "Options": [
+                  {
+                    "Options": [
+                      "Witchseeker flamer",
+                      "master-crafted boltgun"
+                    ]
+                  },
+                  {
+                    "Options": [
+                      "close-combat weapon",
+                      "executioner greatblade"
+                    ]
+                  },
+                  {
+                    "Options": [
+                      "close-combat weapon",
+                      "executioner greatblade"
+                    ]
+                  },
+                  {
+                    "Options": [
+                      "Praesidium Shield"
+                    ]
+                  },
+                  {
+                    "Options": [
+                      "Abyssal Void",
+                      "Singular Expertise",
+                      "Swift Onslaught"
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "WargearDefinitions": [
+          {
+            "Key": "Praesidium Shield",
+            "GrantsAbilities": [
+              "Praesidium Shield"
+            ],
+            "StatAdjustments": [
+              {
+                "Target": "Wounds",
+                "Type": "Add",
+                "Value": "1"
+              }
+            ]
+          },
+          {
+            "Key": "Abyssal Void",
+            "GrantsAbilities": [
+              "Abyssal Void"
+            ],
+            "DatasheetAdjustments": [
+              {
+                "Target": "CoreAbilities",
+                "Type": "Add",
+                "Values": [
+                  "Lone Operative"
+                ]
+              }
+            ]
+          },
+          {
+            "Key": "Singular Expertise",
+            "GrantsAbilities": [
+              "Singular Expertise"
+            ]
+          },
+          {
+            "Key": "Swift Onslaught",
+            "GrantsAbilities": [
+              "Swift Onslaught"
+            ]
+          }
+        ]
+      },
+      "UnitAbilities": [
+        {
+          "Title": "Daughter of the Abyss",
+          "Text": "This model has the Feel No Pain 3+ ability against Psychic Attacks and mortal wounds."
+        },
+        {
+          "Title": "Praesidium Shield",
+          "Text": "Add 1 to this model’s Wounds characteristic."
+        },
+        {
+          "Title": "Abyssal Void",
+          "Text": "(Null Maiden only): Models in this unit have the Lone Operative ability."
+        },
+        {
+          "Title": "Singular Expertise",
+          "Text": "While this model is not leading a unit, each time this model makes a melee attack, you can re-roll the Hit roll and you can re-roll the Wound roll."
+        },
+        {
+          "Title": "Swift Onslaught",
+          "Text": "While this model is leading a unit, you can re-roll Charge rolls made for that unit."
+        }
+      ],
+      "LeaderInfo": {
+        "UnitNames": [
+          "PROSECUTORS",
+          "VIGILATORS",
+          "WITCHSEEKERS"
+        ],
+        "Abilities": [
+          {
+            "AbilityId": "Singular Expertise"
+          },
+          {
+            "AbilityId": "Swift Onslaught"
+          }
+        ]
+      },
+      "Infos": [],
+      "Keywords": [
+        "Infantry",
+        "Character",
+        "Imperium",
+        "Anathema Psykana",
+        "Null Maiden"
+      ],
+      "CoreAbilities": [
+        "Crucible",
+        "Leader",
+        "Scouts 6\""
+      ],
+      "FactionKeywords": [
+        "Adeptus Custodes"
+      ],
+      "StatLines": [
+        {
+          "Movement": "6\"",
+          "Toughness": "3",
+          "Save": "3+",
+          "Wounds": "4",
+          "Leadership": "6+",
+          "OC": "1",
+          "InvulSave": {
+            "Save": "5+"
+          }
+        }
+      ],
+      "Weapons": [
+        {
+          "Name": "RANGED WEAPONS",
+          "Weapons": [
+            {
+              "Name": "Witchseeker flamer",
+              "Keywords": "IGNORES COVER, TORRENT",
+              "Range": "12\"",
+              "Attacks": "D6",
+              "ToHit": "N/A",
+              "Strength": "4",
+              "AP": "0",
+              "Damage": "1"
+            },
+            {
+              "Name": "Master-crafted boltgun",
+              "Keywords": "RAPID FIRE 1",
+              "Range": "24\"",
+              "Attacks": "1",
+              "ToHit": "2+",
+              "Strength": "4",
+              "AP": "0",
+              "Damage": "2"
+            }
+          ]
+        },
+        {
+          "IsMelee": true,
+          "Name": "MELEE WEAPONS",
+          "Weapons": [
+            {
+              "Name": "Close-combat weapon",
+              "Range": "Melee",
+              "Attacks": "4",
+              "ToHit": "2+",
+              "Strength": "3",
+              "AP": "0",
+              "Damage": "1"
+            },
+            {
+              "Name": "Executioner greatblade",
+              "Keywords": "ANTI-PSYKER 5+, DEVASTATING WOUNDS",
+              "Range": "Melee",
+              "Attacks": "3",
+              "ToHit": "2+",
+              "Strength": "5",
+              "AP": "-2",
+              "Damage": "2"
+            }
+          ]
+        }
+      ],
+      "Upgrades": [],
+      "Points": [
+        {
+          "ModelCount": 1,
+          "Cost": 65
+        }
+      ]
+    },
+    {
+      "Name": "KATAPHRAKTOI EXEMPLAR",
+      "Faction": "Martial Ka'tah",
+      "Flags": 4,
+      "UnitComposition": {
+        "ModelCompositions": [
+          {
+            "ModelName": "Kataphraktoi Exemplar",
+            "Wargear": [
+              {
+                "InitalWargear": [],
+                "Options": [
+                  {
+                    "Options": [
+                      "castellan axe",
+                      "guardian spear",
+                      "pyrithe spear",
+                      "salvo launcher",
+                      "Vertus hurricane bolter"
+                    ]
+                  },
+                  {
+                    "Options": [
+                      "castellan axe",
+                      "guardian spear",
+                      "pyrithe spear"
+                    ]
+                  },
+                  {
+                    "Options": [
+                      "sentinel blade"
+                    ]
+                  },
+                  {
+                    "Options": [
+                      "sentinel blade"
+                    ]
+                  },
+                  {
+                    "Options": [
+                      "castellan axe",
+                      "guardian spear",
+                      "interceptor lance",
+                      "misericordia",
+                      "pyrithe spear",
+                      "sentinel blade",
+                      "vaultswords"
+                    ]
+                  },
+                  {
+                    "Options": [
+                      "castellan axe",
+                      "guardian spear",
+                      "interceptor lance",
+                      "misericordia",
+                      "pyrithe spear",
+                      "sentinel blade",
+                      "vaultswords"
+                    ]
+                  },
+                  {
+                    "Options": [
+                      "Praesidium Shield"
+                    ]
+                  },
+                  {
+                    "Options": [
+                      "Singular Expertise",
+                      "Swift Onslaught"
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "WargearDefinitions": [
+          {
+            "Key": "Praesidium Shield",
+            "GrantsAbilities": [
+              "Praesidium Shield"
+            ],
+            "StatAdjustments": [
+              {
+                "Target": "Wounds",
+                "Type": "Add",
+                "Value": "1"
+              }
+            ]
+          },
+          {
+            "Key": "Singular Expertise",
+            "GrantsAbilities": [
+              "Singular Expertise"
+            ]
+          },
+          {
+            "Key": "Swift Onslaught",
+            "GrantsAbilities": [
+              "Swift Onslaught"
+            ]
+          }
+        ]
+      },
+      "UnitAbilities": [
+        {
+          "Title": "Fiend Slayer",
+          "Text": "Each time this model makes an attack that targets a Monster or Vehicle unit, you can re-roll the Wound roll."
+        },
+        {
+          "Title": "Praesidium Shield",
+          "Text": "Add 1 to this model’s Wounds characteristic."
+        },
+        {
+          "Title": "Singular Expertise",
+          "Text": "While this model is not leading a unit, each time this model makes a melee attack, you can re-roll the Hit roll and you can re-roll the Wound roll."
+        },
+        {
+          "Title": "Swift Onslaught",
+          "Text": "While this model is leading a unit, you can re-roll Charge rolls made for that unit."
+        }
+      ],
+      "LeaderInfo": {
+        "UnitNames": [
+          "VERTUS PRAETORS"
+        ],
+        "Abilities": [
+          {
+            "AbilityId": "Singular Expertise"
+          },
+          {
+            "AbilityId": "Swift Onslaught"
+          }
+        ]
+      },
+      "Infos": [],
+      "Keywords": [
+        "Mounted",
+        "Character",
+        "Fly",
+        "Imperium",
+        "Dawneagle Jetbike",
+        "Kataphraktoi Exemplar"
+      ],
+      "CoreAbilities": [
+        "Crucible",
+        "Leader"
+      ],
+      "FactionKeywords": [
+        "Adeptus Custodes"
+      ],
+      "StatLines": [
+        {
+          "Movement": "12\"",
+          "Toughness": "7",
+          "Save": "2+",
+          "Wounds": "8",
+          "Leadership": "6+",
+          "OC": "2",
+          "InvulSave": {
+            "Save": "4+"
+          }
+        }
+      ],
+      "Weapons": [
+        {
+          "Name": "RANGED WEAPONS",
+          "Weapons": [
+            {
+              "Name": "Castellan axe",
+              "Keywords": "ASSAULT",
+              "Range": "24\"",
+              "Attacks": "2",
+              "ToHit": "2+",
+              "Strength": "4",
+              "AP": "-1",
+              "Damage": "2"
+            },
+            {
+              "Name": "Guardian spear",
+              "Keywords": "ASSAULT",
+              "Range": "24\"",
+              "Attacks": "2",
+              "ToHit": "2+",
+              "Strength": "4",
+              "AP": "-1",
+              "Damage": "2"
+            },
+            {
+              "Name": "Pyrithe spear",
+              "Keywords": "MELTA 2",
+              "Range": "12\"",
+              "Attacks": "1",
+              "ToHit": "2+",
+              "Strength": "9",
+              "AP": "-4",
+              "Damage": "D6"
+            },
+            {
+              "Name": "Salvo launcher",
+              "Range": "24\"",
+              "Attacks": "1",
+              "ToHit": "2+",
+              "Strength": "9",
+              "AP": "-2",
+              "Damage": "3"
+            },
+            {
+              "Name": "Vertus hurricane bolter",
+              "Keywords": "RAPID FIRE 3, TWIN-LINKED",
+              "Range": "18\"",
+              "Attacks": "3",
+              "ToHit": "2+",
+              "Strength": "4",
+              "AP": "0",
+              "Damage": "1"
+            },
+            {
+              "Name": "Sentinel blade",
+              "Keywords": "ASSAULT, PISTOL",
+              "Range": "12\"",
+              "Attacks": "2",
+              "ToHit": "2+",
+              "Strength": "4",
+              "AP": "-1",
+              "Damage": "2"
+            }
+          ]
+        },
+        {
+          "IsMelee": true,
+          "Name": "MELEE WEAPONS",
+          "Weapons": [
+            {
+              "Name": "Castellan axe",
+              "Range": "Melee",
+              "Attacks": "6",
+              "ToHit": "2+",
+              "Strength": "9",
+              "AP": "-1",
+              "Damage": "3"
+            },
+            {
+              "Name": "Guardian spear",
+              "Range": "Melee",
+              "Attacks": "7",
+              "ToHit": "2+",
+              "Strength": "7",
+              "AP": "-2",
+              "Damage": "2"
+            },
+            {
+              "Name": "Interceptor lance",
+              "Keywords": "LANCE",
+              "Range": "Melee",
+              "Attacks": "6",
+              "ToHit": "2+",
+              "Strength": "7",
+              "AP": "-2",
+              "Damage": "2"
+            },
+            {
+              "Name": "Misericordia",
+              "Keywords": "EXTRA ATTACKS",
+              "Range": "Melee",
+              "Attacks": "2",
+              "ToHit": "2+",
+              "Strength": "5",
+              "AP": "-2",
+              "Damage": "1"
+            },
+            {
+              "Name": "Pyrithe spear",
+              "Range": "Melee",
+              "Attacks": "7",
+              "ToHit": "2+",
+              "Strength": "7",
+              "AP": "-2",
+              "Damage": "2"
+            },
+            {
+              "Name": "Sentinel blade",
+              "Range": "Melee",
+              "Attacks": "7",
+              "ToHit": "2+",
+              "Strength": "6",
+              "AP": "-2",
+              "Damage": "1"
+            },
+            {
+              "Name": "Vaultswords – Behemor",
+              "Keywords": "PRECISION",
+              "Range": "Melee",
+              "Attacks": "6",
+              "ToHit": "2+",
+              "Strength": "7",
+              "AP": "-2",
+              "Damage": "2"
+            },
+            {
+              "Name": "Vaultswords – Hurricanis",
+              "Keywords": "SUSTAINED HITS 1",
+              "Range": "Melee",
+              "Attacks": "9",
+              "ToHit": "2+",
+              "Strength": "5",
+              "AP": "-1",
+              "Damage": "1"
+            },
+            {
+              "Name": "Vaultswords – Victus",
+              "Keywords": "DEVASTATING WOUNDS",
+              "Range": "Melee",
+              "Attacks": "5",
+              "ToHit": "2+",
+              "Strength": "6",
+              "AP": "-3",
+              "Damage": "3"
+            }
+          ]
+        }
+      ],
+      "Upgrades": [],
+      "Points": [
+        {
+          "ModelCount": 1,
+          "Cost": 150
+        }
+      ]
+    }
+  ],
+  "Dettachments": [],
+  "ArmyRules": []
+}

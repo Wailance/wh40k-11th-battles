@@ -19,24 +19,33 @@ function FactionRow({
   faction,
   allegiance,
   selected,
+  loading,
+  disabled,
   onSelect,
 }: {
   faction: BuilderFaction
   allegiance: Allegiance
   selected: boolean
+  loading?: boolean
+  disabled?: boolean
   onSelect: () => void
 }) {
   return (
     <button
       type="button"
       onClick={onSelect}
-      className={`flex w-full items-center gap-3 rounded-xl border p-3.5 text-left sm:p-4 ${
+      disabled={disabled}
+      className={`flex w-full items-center gap-3 rounded-xl border p-3.5 text-left sm:p-4 disabled:opacity-50 ${
         selected ? 'border-crimson/35 bg-crimson-soft' : 'border-white/8'
       }`}
     >
       <FactionIcon army={faction.name} allegiance={allegiance} className="h-8 w-8" />
       <span className="min-w-0 flex-1 font-medium text-bone">{faction.name}</span>
-      <span className="shrink-0 text-caption text-muted">{faction.detachmentCount} det.</span>
+      {loading ? (
+        <span className="motion-loading h-5 w-5 shrink-0 rounded-full border-2 border-accent/20 border-t-crimson-bright" />
+      ) : (
+        <span className="shrink-0 text-caption text-muted">{faction.detachmentCount} det.</span>
+      )}
     </button>
   )
 }
@@ -52,6 +61,8 @@ export function ListSetupWizard({
   onStep,
   onPersist,
   onComplete,
+  loadingFaction,
+  factionError,
 }: {
   step: SetupStep
   allegiance: Allegiance | null
@@ -63,6 +74,8 @@ export function ListSetupWizard({
   onStep: (s: SetupStep) => void
   onPersist: (r: ArmyRoster) => void
   onComplete: () => void
+  loadingFaction?: string | null
+  factionError?: string | null
 }) {
   const stepIndex = STEPS.indexOf(step)
   const factions = allegiance ? builderFactionsForAllegiance(allegiance) : []
@@ -128,10 +141,17 @@ export function ListSetupWizard({
             <button
               type="button"
               onClick={() => onStep('allegiance')}
-              className="text-caption text-muted hover:text-bone"
+              disabled={!!loadingFaction}
+              className="text-caption text-muted hover:text-bone disabled:opacity-50"
             >
               ← {copy.armyLists.changeAllegiance}
             </button>
+
+            {factionError && (
+              <p className="rounded-lg border border-crimson/30 bg-crimson-soft px-3 py-2 text-caption text-crimson-bright">
+                {factionError}
+              </p>
+            )}
 
             {allegiance === 'space-marines' ? (
               <>
@@ -146,6 +166,8 @@ export function ListSetupWizard({
                         faction={faction}
                         allegiance={allegiance}
                         selected={roster?.army === faction.name}
+                        loading={loadingFaction === faction.name}
+                        disabled={!!loadingFaction}
                         onSelect={() => onFaction(faction.name)}
                       />
                     ))}
@@ -162,6 +184,8 @@ export function ListSetupWizard({
                         faction={faction}
                         allegiance={allegiance}
                         selected={roster?.army === faction.name}
+                        loading={loadingFaction === faction.name}
+                        disabled={!!loadingFaction}
                         onSelect={() => onFaction(faction.name)}
                       />
                     ))}
@@ -176,6 +200,8 @@ export function ListSetupWizard({
                     faction={faction}
                     allegiance={allegiance}
                     selected={roster?.army === faction.name}
+                    loading={loadingFaction === faction.name}
+                    disabled={!!loadingFaction}
                     onSelect={() => onFaction(faction.name)}
                   />
                 ))}
@@ -189,7 +215,8 @@ export function ListSetupWizard({
             <button
               type="button"
               onClick={() => onStep('faction')}
-              className="mb-3 text-caption text-muted hover:text-bone"
+              disabled={!!loadingFaction}
+              className="mb-3 text-caption text-muted hover:text-bone disabled:opacity-50"
             >
               ← {copy.armyLists.changeFaction}
             </button>
@@ -210,7 +237,7 @@ export function ListSetupWizard({
         <footer className="shrink-0 border-t border-white/[0.08] px-2 py-2">
           <button
             type="button"
-            disabled={!roster?.detachments.length}
+            disabled={!roster?.detachments.length || !!loadingFaction || !armyEntry}
             onClick={onComplete}
             className="app-btn flex w-full py-3.5 text-body disabled:opacity-40"
           >

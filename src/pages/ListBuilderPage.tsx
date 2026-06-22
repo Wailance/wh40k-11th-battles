@@ -1,7 +1,6 @@
-import { useEffect, useMemo, useRef, useState, type ReactNode } from 'react'
-import { Link, useNavigate, useParams } from 'react-router-dom'
+import { useEffect, useMemo, useRef, useState, type CSSProperties, type ReactNode } from 'react'
+import { useNavigate, useParams } from 'react-router-dom'
 import { DetachmentSheet } from '../components/DetachmentSheet'
-import { AppSegment, AppSegmentButton } from '../components/AppSegment'
 import { ListSetupWizard, type SetupStep } from '../components/ListSetupWizard'
 import { RosterUnitEditSheet } from '../components/RosterUnitEditSheet'
 import { UnitDetailSheet } from '../components/UnitDetailSheet'
@@ -16,6 +15,30 @@ import {
 } from '../lib/faction-loader'
 import { loadFactionLoadouts } from '../lib/loadout-loader'
 import { unitHasEditableLoadout } from '../lib/loadout-engine'
+import { WoBuilderMenu } from '../components/WoBuilderMenu'
+import { WoBuilderTabs, WoPaneTabs } from '../components/WoBuilderTabs'
+import { WoUnitInfoPanel } from '../components/WoUnitInfoPanel'
+import { WarOrganUnitEditSheet } from '../components/WarOrganUnitEditSheet'
+import { useMinWidth } from '../hooks/useMediaQuery'
+import {
+  factionPalette,
+  loadWarOrganMeta,
+  woThemeStyle,
+  type WoFactionPalette,
+} from '../lib/warorgan-theme'
+import {
+  getWarOrganUnitDef,
+  loadWarOrganBuilderBundle,
+} from '../lib/warorgan-loader'
+import type { WarOrganBuilderBundle } from '../types/warorgan'
+import { validateWarOrganRoster } from '../lib/warorgan-validation'
+import {
+  convertWoArmyListToRoster,
+  exportWoArmyList,
+  exportWoListText,
+  parseImportedListJson,
+} from '../lib/warorgan-import-export'
+import { parseWoLineMeta, setWarlordOnLine } from '../lib/warorgan-roster'
 import {
   addUnit,
   canAddUnit,
@@ -40,6 +63,7 @@ import type { ArmyRoster } from '../types/roster'
 import type { FactionLoadouts } from '../types/loadout'
 
 type BuilderTab = 'units' | 'enhancements'
+type UnitsPane = 'catalog' | 'army'
 
 function bucketLabel(bucket: UnitBucketId): string {
   const map: Record<UnitBucketId, string> = {
@@ -64,7 +88,8 @@ export function ListBuilderPage() {
   const [enhancements, setEnhancements] = useState<Enhancement[]>([])
   const [armyEntry, setArmyEntry] = useState<Army | undefined>()
   const [loading, setLoading] = useState(!isNewRoute)
-  const [catalogLoading, setCatalogLoading] = useState(false)
+  const [loadingFaction, setLoadingFaction] = useState<string | null>(null)
+  const [factionError, setFactionError] = useState<string | null>(null)
   const [setupComplete, setSetupComplete] = useState(false)
   const [setupStep, setSetupStep] = useState<SetupStep>('allegiance')
   const [allegiance, setAllegiance] = useState<Allegiance | null>(null)
@@ -74,8 +99,14 @@ export function ListBuilderPage() {
   const [editEntry, setEditEntry] = useState<RosterLineEntry | null>(null)
   const [rosterViewUnit, setRosterViewUnit] = useState<CuratedUnit | null>(null)
   const [loadouts, setLoadouts] = useState<FactionLoadouts>({})
+  const [woBundle, setWoBundle] = useState<WarOrganBuilderBundle | null>(null)
   const [builderTab, setBuilderTab] = useState<BuilderTab>('units')
+  const [unitsPane, setUnitsPane] = useState<UnitsPane>('catalog')
+  const [previewUnit, setPreviewUnit] = useState<CuratedUnit | null>(null)
+  const [woPalette, setWoPalette] = useState<WoFactionPalette | null>(null)
   const [detachmentSheetOpen, setDetachmentSheetOpen] = useState(false)
+  const [issuesOpen, setIssuesOpen] = useState(false)
+  const isDesktopBuilder = useMinWidth(1024)
 
   useEffect(() => {
     if (isNewRoute) return
@@ -90,12 +121,19 @@ export function ListBuilderPage() {
       }
       try {
         const data = await loadFactionCatalog(existing.army)
-        const loadoutData = await loadFactionLoadouts(existing.army)
+        const bundle = await loadWarOrganBuilderBundle(existing.army)
         if (cancelled) return
         setCatalog(data.units)
         setEnhancements(data.enhancements)
-        setLoadouts(loadoutData)
-        setRoster(refreshRoster(existing, data.units))
+        setWoBundle(bundle)
+        if (!data.warOrgan) {
+          const loadoutData = await loadFactionLoadouts(existing.army)
+          if (!cancelled) setLoadouts(loadoutData)
+        } else {
+          setLoadouts({})
+        }
+        if (cancelled) return
+        setRoster(refreshRoster(existing, data.units, bundle?.unitDefs, data.enhancements))
         const army = findArmyForBuilder(existing.army)
         if (army) setAllegiance(allegianceOf(army))
         const entry = await loadArmyEntryForBuilder(existing.army, army)
@@ -117,6 +155,17 @@ export function ListBuilderPage() {
       cancelled = true
     }
   }, [id, isNewRoute, navigate])
+
+  useEffect(() => {
+    let cancelled = false
+    void loadWarOrganMeta().then((meta) => {
+      if (cancelled || !roster) return
+      setWoPalette(factionPalette(meta, roster.army))
+    })
+    return () => {
+      cancelled = true
+    }
+  }, [roster?.army])
 
   const hasLegendsUnits = useMemo(() => catalog.some(isLegendsUnit), [catalog])
 
@@ -150,10 +199,11 @@ export function ListBuilderPage() {
     return m
   }, [roster, catalog])
 
-  const issues = useMemo(
-    () => (roster ? validateRoster(roster, catalog) : []),
-    [roster, catalog],
-  )
+  const issues = useMemo(() => {
+    if (!roster) return []
+    if (woBundle) return validateWarOrganRoster(roster, catalog, woBundle)
+    return validateRoster(roster, catalog)
+  }, [roster, catalog, woBundle])
 
   const dpUsed = roster?.detachments.reduce((s, d) => s + d.dp, 0) ?? 0
   const rosterCountById = useMemo(() => {
@@ -171,7 +221,7 @@ export function ListBuilderPage() {
   )
 
   function persist(next: ArmyRoster) {
-    const updated = refreshRoster(next, catalog)
+    const updated = refreshRoster(next, catalog, woBundle?.unitDefs, enhancements)
     setRoster(updated)
     saveRoster(updated)
   }
@@ -179,11 +229,13 @@ export function ListBuilderPage() {
   function handleAllegiance(a: Allegiance) {
     if (allegiance !== a) setRoster(null)
     setAllegiance(a)
+    setFactionError(null)
     setSetupStep('faction')
   }
 
   async function handleFaction(armyName: string) {
-    setCatalogLoading(true)
+    setFactionError(null)
+    setLoadingFaction(armyName)
     try {
       let r: ArmyRoster
       if (roster && roster.army === armyName) {
@@ -202,21 +254,38 @@ export function ListBuilderPage() {
         r = createEmptyRoster(armyName)
       }
 
+      setArmyEntry(undefined)
+      setRoster(r)
+      setSetupStep('detachment')
+
       const data = await loadFactionCatalog(armyName)
-      const loadoutData = await loadFactionLoadouts(armyName)
+      const bundle = await loadWarOrganBuilderBundle(armyName)
+      const refreshed = refreshRoster(r, data.units, bundle?.unitDefs, data.enhancements)
+      const entry = await loadArmyEntryForBuilder(armyName, findArmyForBuilder(armyName))
+
       setCatalog(data.units)
       setEnhancements(data.enhancements)
-      setLoadouts(loadoutData)
-      const entry = await loadArmyEntryForBuilder(armyName, findArmyForBuilder(armyName))
+      setWoBundle(bundle)
+      if (!data.warOrgan) {
+        const loadoutData = await loadFactionLoadouts(armyName)
+        setLoadouts(loadoutData)
+      } else {
+        setLoadouts({})
+      }
       setArmyEntry(entry)
-      persist(refreshRoster(r, data.units))
-      setSetupStep('detachment')
-      if (isNewRoute) navigate(`/lists/${r.id}`, { replace: true })
+      setRoster(refreshed)
+      saveRoster(refreshed)
     } catch {
-      alert(copy.armyLists.loadError)
+      setFactionError(copy.armyLists.loadError)
+      setSetupStep('faction')
     } finally {
-      setCatalogLoading(false)
+      setLoadingFaction(null)
     }
+  }
+
+  function finishSetup() {
+    setSetupComplete(true)
+    if (roster && isNewRoute) navigate(`/lists/${roster.id}`, { replace: true })
   }
 
   function exportJson() {
@@ -230,6 +299,41 @@ export function ListBuilderPage() {
     URL.revokeObjectURL(url)
   }
 
+  function exportWoJson() {
+    if (!roster || !woBundle) return
+    const blob = new Blob([JSON.stringify(exportWoArmyList(roster, woBundle, catalog), null, 2)], {
+      type: 'application/json',
+    })
+    const url = URL.createObjectURL(blob)
+    const a = document.createElement('a')
+    a.href = url
+    a.download = `${roster.name.replace(/\s+/g, '-').toLowerCase()}-army-list.json`
+    a.click()
+    URL.revokeObjectURL(url)
+  }
+
+  function importFromClipboard() {
+    void navigator.clipboard.readText().then((text) => {
+      const parsed = parseImportedListJson(text)
+      if (!parsed || !roster) {
+        alert(copy.armyLists.importError)
+        return
+      }
+      if ('units' in parsed && parsed.army === roster.army) {
+        persist(parsed)
+        return
+      }
+      if (woBundle && 'Units' in parsed) {
+        const converted = convertWoArmyListToRoster(parsed, woBundle, roster)
+        if (converted) {
+          persist(refreshRoster(converted, catalog, woBundle.unitDefs, enhancements))
+          return
+        }
+      }
+      alert(copy.armyLists.importError)
+    })
+  }
+
   function handleDelete() {
     if (!roster || isNewRoute) return
     if (!window.confirm(copy.armyLists.deleteConfirm)) return
@@ -237,7 +341,19 @@ export function ListBuilderPage() {
     navigate('/lists')
   }
 
-  if (loading && !setupComplete) return <PageLoading label={copy.armyLists.loading} />
+  if (loading && !setupComplete) {
+    return (
+      <PageLoading
+        label={isNewRoute ? copy.armyLists.loading : copy.armyLists.loadingDetachments}
+      />
+    )
+  }
+
+  if (!setupComplete && loadingFaction) {
+    return (
+      <PageLoading label={`${copy.armyLists.loadingDetachments} — ${loadingFaction}`} />
+    )
+  }
 
   if (!setupComplete) {
     return (
@@ -248,17 +364,14 @@ export function ListBuilderPage() {
           roster={roster}
           armyEntry={armyEntry}
           dpUsed={dpUsed}
+          loadingFaction={loadingFaction}
+          factionError={factionError}
           onAllegiance={handleAllegiance}
           onFaction={(army) => void handleFaction(army)}
           onStep={setSetupStep}
           onPersist={persist}
-          onComplete={() => setSetupComplete(true)}
+          onComplete={finishSetup}
         />
-        {catalogLoading && (
-          <div className="fixed inset-0 z-50 flex items-center justify-center bg-black/50">
-            <p className="text-body text-muted">{copy.armyLists.loading}</p>
-          </div>
-        )}
       </>
     )
   }
@@ -266,11 +379,16 @@ export function ListBuilderPage() {
   if (!roster) return <PageLoading label={copy.armyLists.loading} />
 
   const limit = BATTLE_SIZE_LIMITS[roster.battleSize]
-  const pct = Math.min(100, Math.round((roster.pointsTotal / limit) * 100))
   const overLimit = roster.pointsTotal > limit
   const rosterUnitCount = roster.units.length
 
   function handleEditLine(entry: RosterLineEntry) {
+    const woUnit = woBundle ? getWarOrganUnitDef(woBundle, entry.catalog.id) : undefined
+    if (woUnit) {
+      setRosterViewUnit(null)
+      setEditEntry(entry)
+      return
+    }
     const loadout = loadouts[entry.catalog.id] ?? null
     if (unitHasEditableLoadout(entry.catalog, loadout)) {
       setRosterViewUnit(null)
@@ -290,27 +408,60 @@ export function ListBuilderPage() {
   const sheetUnit = detailUnit ?? rosterViewUnit
 
   return (
-    <div className="bf-viewport bf-builder -mx-2">
-      <header className="bf-header shrink-0 px-2 py-2">
+    <div
+      className="bf-viewport bf-builder wo-builder -mx-2"
+      style={woThemeStyle(woPalette) as CSSProperties}
+    >
+      <header className="wo-builder-header shrink-0 px-2 py-2">
         <div className="flex items-center gap-2">
-          <Link to="/lists" className="text-caption text-muted hover:text-accent">
-            ← {copy.armyLists.back}
-          </Link>
+          <WoBuilderMenu
+            showLegends={showLegends}
+            hasLegendsUnits={hasLegendsUnits}
+            onToggleLegends={() => setShowLegends((v) => !v)}
+            onOpenDetachments={() => setDetachmentSheetOpen(true)}
+            onOpenStratagems={() => setDetachmentSheetOpen(true)}
+            onExportJson={exportJson}
+            onExportWoJson={woBundle ? exportWoJson : undefined}
+            onImportWo={woBundle ? importFromClipboard : undefined}
+            onCopyText={() =>
+              void navigator.clipboard.writeText(
+                woBundle
+                  ? exportWoListText(roster, woBundle, catalog)
+                  : rosterSummaryText(roster, catalog),
+              )
+            }
+            onDelete={!isNewRoute ? handleDelete : undefined}
+          />
           <div className="min-w-0 flex-1">
             <input
               value={roster.name}
               onChange={(e) => persist({ ...roster, name: e.target.value })}
-              className="w-full truncate bg-transparent font-display text-title tracking-wide text-accent outline-none"
+              className="wo-builder-name w-full truncate bg-transparent outline-none"
             />
             <p className="truncate text-micro uppercase tracking-widest text-muted">{roster.army}</p>
           </div>
-          <PointsRing total={roster.pointsTotal} limit={limit} pct={pct} over={overLimit} />
+          <div className="wo-builder-points shrink-0 text-right">
+            {issues.length > 0 && (
+              <button
+                type="button"
+                className={`wo-validation-btn${issues.some((i) => i.level === 'error') ? ' is-error' : ''}`}
+                aria-expanded={issuesOpen}
+                onClick={() => setIssuesOpen((o) => !o)}
+              >
+                {issues.length}
+              </button>
+            )}
+            <p className={`wo-builder-points-total tabular-nums ${overLimit ? 'is-over' : ''}`}>
+              {roster.pointsTotal.toLocaleString()}
+            </p>
+            <p className="wo-builder-points-limit tabular-nums">/ {limit.toLocaleString()}</p>
+          </div>
         </div>
 
         <button
           type="button"
           onClick={() => setDetachmentSheetOpen(true)}
-          className="mt-2 flex w-full items-center justify-between gap-2 rounded-lg border border-white/10 bg-black/30 px-2 py-1.5 text-left"
+          className="wo-builder-detachment mt-2 flex w-full items-center justify-between gap-2 text-left"
         >
           <div className="min-w-0">
             <p className="text-micro uppercase tracking-widest text-muted">
@@ -322,119 +473,178 @@ export function ListBuilderPage() {
                 : copy.armyLists.noDetachment}
             </p>
           </div>
-          <span className="shrink-0 text-micro font-semibold uppercase tracking-wide text-crimson-bright">
+          <span className="shrink-0 text-micro font-semibold uppercase tracking-wide text-[var(--wo-accent)]">
             {copy.armyLists.changeDetachment}
           </span>
         </button>
 
-        <AppSegment className="mt-2">
-          <AppSegmentButton active={builderTab === 'units'} onClick={() => setBuilderTab('units')}>
-            {copy.armyLists.tabUnits}
-          </AppSegmentButton>
-          <AppSegmentButton
-            active={builderTab === 'enhancements'}
-            onClick={() => setBuilderTab('enhancements')}
-          >
-            {copy.armyLists.tabEnhancements}
-          </AppSegmentButton>
-        </AppSegment>
+        <WoBuilderTabs
+          active={builderTab}
+          onUnits={() => setBuilderTab('units')}
+          onEnhancements={() => setBuilderTab('enhancements')}
+        />
       </header>
 
-      {issues.length > 0 && (
-        <ul className="shrink-0 space-y-0.5 px-2 pt-1">
+      {issuesOpen && issues.length > 0 && (
+        <div className="wo-issues-panel shrink-0 px-2 pb-1">
           {issues.map((issue) => (
-            <li
+            <p
               key={issue.message}
-              className={`rounded-lg px-3 py-1.5 text-caption ${
-                issue.level === 'error'
-                  ? 'bg-crimson-soft text-status-danger'
-                  : 'bg-warning/10 text-warning'
-              }`}
+              className={issue.level === 'error' ? 'wo-issues-item is-error' : 'wo-issues-item'}
             >
               {issue.message}
-            </li>
+            </p>
           ))}
-        </ul>
+        </div>
       )}
 
       {builderTab === 'units' && (
-        <div className="bf-split min-h-0 flex-1 overflow-hidden">
-          <CatalogPanel
-            groups={catalogGroups}
-            query={query}
-            showLegends={showLegends}
-            hasLegendsUnits={hasLegendsUnits}
-            rosterCountById={rosterCountById}
-            onQuery={setQuery}
-            onShowLegends={setShowLegends}
-            onOpen={(u) => {
-              setRosterViewUnit(null)
-              setEditEntry(null)
-              setDetailUnit(u)
-            }}
-            onQuickAdd={(u) => persist(addUnit(roster, u))}
-          />
-          <RosterPanel
-            roster={roster}
-            groups={rosterGroups}
-            unitCount={rosterUnitCount}
-            bucketPoints={rosterPointsByBucket}
-            onRemoveLine={(lineId) => persist(removeRosterLine(roster, lineId))}
-            onDuplicateLine={(entry) => {
-              if (canAddUnit(roster, entry.catalog)) persist(addUnit(roster, entry.catalog))
-            }}
-            onEditLine={handleEditLine}
-          />
-        </div>
+        <>
+          <div className="shrink-0 px-2 lg:hidden">
+            <WoPaneTabs
+              active={unitsPane}
+              onCatalog={() => setUnitsPane('catalog')}
+              onArmy={() => setUnitsPane('army')}
+              armyCount={rosterUnitCount}
+            />
+          </div>
+          <div
+            className={`bf-split min-h-0 flex-1 overflow-hidden bf-split--pane-${unitsPane}${isDesktopBuilder ? ' bf-split--wo-desktop' : ''}`}
+          >
+            <CatalogPanel
+              groups={catalogGroups}
+              query={query}
+              selectedUnitId={previewUnit?.id}
+              rosterCountById={rosterCountById}
+              onQuery={setQuery}
+              onOpen={(u) => {
+                setRosterViewUnit(null)
+                setEditEntry(null)
+                setPreviewUnit(u)
+                if (!isDesktopBuilder) setDetailUnit(u)
+              }}
+              onQuickAdd={(u) => {
+                const woUnit = woBundle ? getWarOrganUnitDef(woBundle, u.id) : undefined
+                persist(addUnit(roster, u, 1, woUnit))
+                setUnitsPane('army')
+              }}
+            />
+            {isDesktopBuilder && (
+              <div className="bf-split-panel bf-split-panel--info">
+                <WoUnitInfoPanel
+                unit={previewUnit}
+                roster={roster}
+                rosterCount={previewUnit ? (rosterCountById.get(previewUnit.id) ?? 0) : 0}
+                enhancementNames={enhancementNames}
+                onAdd={() => {
+                  if (!previewUnit) return
+                  const woUnit = woBundle ? getWarOrganUnitDef(woBundle, previewUnit.id) : undefined
+                  if (canAddUnit(roster, previewUnit)) {
+                    persist(addUnit(roster, previewUnit, 1, woUnit))
+                  }
+                }}
+                />
+              </div>
+            )}
+            <RosterPanel
+              roster={roster}
+              groups={rosterGroups}
+              unitCount={rosterUnitCount}
+              bucketPoints={rosterPointsByBucket}
+              pointsTotal={roster.pointsTotal}
+              onRemoveLine={(lineId) => persist(removeRosterLine(roster, lineId))}
+              onDuplicateLine={(entry) => {
+                if (canAddUnit(roster, entry.catalog)) {
+                  const woUnit = woBundle ? getWarOrganUnitDef(woBundle, entry.catalog.id) : undefined
+                  persist(addUnit(roster, entry.catalog, 1, woUnit))
+                }
+              }}
+              onEditLine={handleEditLine}
+            />
+          </div>
+        </>
       )}
 
       {builderTab === 'enhancements' && (
-        <div className="bf-scroll px-2 py-2">
-          <EnhancementsPanel roster={roster} enhancements={visibleEnhancements} onPersist={persist} />
+        <div className="bf-scroll wo-enhancements-scroll px-2 py-2">
+          {woBundle ? (
+            <WoEnhancementsPanel roster={roster} enhancements={visibleEnhancements} />
+          ) : (
+            <EnhancementsPanel roster={roster} enhancements={visibleEnhancements} onPersist={persist} />
+          )}
         </div>
       )}
 
-      <footer className="shrink-0 border-t border-white/8 bg-void/95 px-2 py-1.5">
-        <div className="flex flex-wrap gap-1.5">
-          <button type="button" onClick={exportJson} className="app-btn-ghost px-3 py-2 text-caption">
-            {copy.armyLists.exportJson}
-          </button>
-          <button
-            type="button"
-            onClick={() => void navigator.clipboard.writeText(rosterSummaryText(roster, catalog))}
-            className="app-btn-ghost px-3 py-2 text-caption"
-          >
-            {copy.armyLists.exportText}
-          </button>
-          {!isNewRoute && (
-            <button type="button" onClick={handleDelete} className="app-btn-ghost app-btn-ghost-danger px-3 py-2 text-caption">
-              Delete
-            </button>
-          )}
-        </div>
-      </footer>
+      <WarOrganUnitEditSheet
+        line={editEntry?.line ?? null}
+        unit={editEntry?.catalog ?? null}
+        woUnit={
+          editEntry && woBundle ? getWarOrganUnitDef(woBundle, editEntry.catalog.id) ?? null : null
+        }
+        rosterUnits={roster.units}
+        enhancements={enhancements}
+        detachmentNames={roster.detachments.map((d) => d.name)}
+        open={Boolean(
+          editEntry && woBundle && getWarOrganUnitDef(woBundle, editEntry.catalog.id),
+        )}
+        instanceIndex={
+          editEntry
+            ? roster.units.filter((u) => u.unitId === editEntry.catalog.id).findIndex(
+                (u) => u.lineId === editEntry.line.lineId,
+              ) + 1
+            : 1
+        }
+        enhancementNames={enhancementNames}
+        onClose={() => setEditEntry(null)}
+        onSave={(patch) => {
+          if (!editEntry?.line.lineId) return
+          let units = roster.units.map((line) =>
+            line.lineId === editEntry.line.lineId ? { ...line, ...patch } : line,
+          )
+          if (patch.clearOtherWarlord) {
+            units = setWarlordOnLine(units, editEntry.line.lineId!, true)
+          }
+          persist(refreshRoster({ ...roster, units }, catalog, woBundle?.unitDefs, enhancements))
+        }}
+      />
 
       <RosterUnitEditSheet
         line={editEntry?.line ?? null}
         unit={editEntry?.catalog ?? null}
         loadout={editEntry ? (loadouts[editEntry.catalog.id] ?? null) : null}
-        open={Boolean(editEntry)}
+        open={Boolean(
+          editEntry &&
+            (!woBundle || !getWarOrganUnitDef(woBundle, editEntry.catalog.id)) &&
+            unitHasEditableLoadout(editEntry.catalog, loadouts[editEntry.catalog.id] ?? null),
+        )}
         enhancementNames={enhancementNames}
         onClose={() => setEditEntry(null)}
         onSave={(patch) => {
           if (!editEntry?.line.lineId) return
-          persist(updateRosterLine(roster, editEntry.line.lineId, patch, catalog))
+          persist(
+            updateRosterLine(
+              roster,
+              editEntry.line.lineId,
+              patch,
+              catalog,
+              woBundle?.unitDefs,
+              enhancements,
+            ),
+          )
         }}
       />
 
       <UnitDetailSheet
-        unit={sheetUnit}
-        open={Boolean(sheetUnit)}
+        unit={isDesktopBuilder ? detailUnit : sheetUnit}
+        open={Boolean(isDesktopBuilder ? detailUnit : sheetUnit)}
         enhancementNames={enhancementNames}
         onClose={closeUnitSheets}
         showAdd={Boolean(detailUnit)}
         onAdd={() => {
-          if (detailUnit && canAddUnit(roster, detailUnit)) persist(addUnit(roster, detailUnit))
+          if (detailUnit && canAddUnit(roster, detailUnit)) {
+            const woUnit = woBundle ? getWarOrganUnitDef(woBundle, detailUnit.id) : undefined
+            persist(addUnit(roster, detailUnit, 1, woUnit))
+          }
         }}
         addDisabled={detailUnit ? !canAddUnit(roster, detailUnit) : false}
         inRoster={detailUnit ? rosterCountById.get(detailUnit.id) : undefined}
@@ -444,50 +654,12 @@ export function ListBuilderPage() {
       <DetachmentSheet
         roster={roster}
         armyEntry={armyEntry}
+        woBundle={woBundle}
         dpUsed={dpUsed}
         open={detachmentSheetOpen}
         onClose={() => setDetachmentSheetOpen(false)}
         onPersist={persist}
       />
-    </div>
-  )
-}
-
-function PointsRing({
-  total,
-  limit,
-  pct,
-  over,
-}: {
-  total: number
-  limit: number
-  pct: number
-  over: boolean
-}) {
-  const r = 30
-  const c = 2 * Math.PI * r
-  const dash = (pct / 100) * c
-  return (
-    <div className="bf-points-ring bf-points-ring-sm shrink-0 text-center">
-      <svg width="56" height="56" viewBox="0 0 72 72" aria-hidden>
-        <circle cx="36" cy="36" r={r} fill="none" stroke="rgba(255,255,255,0.08)" strokeWidth="6" />
-        <circle
-          cx="36"
-          cy="36"
-          r={r}
-          fill="none"
-          stroke={over ? 'var(--color-crimson-bright)' : 'var(--color-gw-gold)'}
-          strokeWidth="6"
-          strokeDasharray={`${dash} ${c}`}
-          strokeLinecap="round"
-        />
-      </svg>
-      <div className="absolute inset-0 flex flex-col items-center justify-center">
-        <span className={`font-display text-body tabular-nums ${over ? 'text-status-danger' : 'text-bone'}`}>
-          {total}
-        </span>
-        <span className="text-micro text-muted">/{limit}</span>
-      </div>
     </div>
   )
 }
@@ -580,44 +752,33 @@ function UnitBucketAccordion<T>({
 function CatalogPanel({
   groups,
   query,
-  showLegends,
-  hasLegendsUnits,
+  selectedUnitId,
   rosterCountById,
   onQuery,
-  onShowLegends,
   onOpen,
   onQuickAdd,
 }: {
   groups: { bucket: UnitBucketId; units: CuratedUnit[] }[]
   query: string
-  showLegends: boolean
-  hasLegendsUnits: boolean
+  selectedUnitId?: string
   rosterCountById: Map<string, number>
   onQuery: (q: string) => void
-  onShowLegends: (show: boolean) => void
   onOpen: (u: CuratedUnit) => void
   onQuickAdd: (u: CuratedUnit) => void
 }) {
   return (
-    <div className="bf-split-panel">
-      <p className="bf-panel-head">{copy.armyLists.panelCatalog}</p>
-      <div className="space-y-2 px-2 pb-2 pt-2">
+    <div className="bf-split-panel bf-split-panel--catalog">
+      <div className="bf-panel-head-row">
+        <p className="bf-panel-head">{copy.armyLists.panelCatalog}</p>
+        <p className="bf-panel-sub">{copy.armyLists.catalogStep}</p>
+      </div>
+      <div className="bf-catalog-search px-2 pb-2 pt-2">
         <input
           value={query}
           onChange={(e) => onQuery(e.target.value)}
           placeholder={copy.armyLists.searchUnits}
-          className="w-full rounded-lg border border-white/10 bg-black/40 px-3 py-2 text-caption"
+          className="bf-catalog-search-input"
         />
-        {hasLegendsUnits && (
-          <label className="flex items-center gap-2 text-caption text-muted">
-            <input
-              type="checkbox"
-              checked={showLegends}
-              onChange={(e) => onShowLegends(e.target.checked)}
-            />
-            {copy.armyLists.showLegends}
-          </label>
-        )}
       </div>
 
       {groups.length === 0 ? (
@@ -630,25 +791,33 @@ function CatalogPanel({
           renderItem={(u) => {
             const inArmy = rosterCountById.get(u.id) ?? 0
             const atMax = inArmy >= maxCopiesForUnit(u)
+            const pts = displayUnitPoints(u)
             return (
-              <div className="bf-unit-row">
+              <div className={`bf-catalog-card${selectedUnitId === u.id ? ' is-selected' : ''}`}>
                 <button
                   type="button"
-                  className="min-w-0 flex-1 text-left"
+                  className="bf-catalog-card-body"
                   onClick={() => onOpen(u)}
                 >
-                  <p className="truncate text-caption font-medium leading-tight text-bone">{u.name}</p>
-                  <p className="text-micro tabular-nums text-accent-dim">{displayUnitPoints(u)}</p>
+                  <p className="bf-catalog-card-name">{u.name}</p>
+                  {inArmy > 0 && (
+                    <p className="bf-catalog-card-meta">
+                      {copy.armyLists.unitInArmy(inArmy, maxCopiesForUnit(u))}
+                    </p>
+                  )}
                 </button>
-                <button
-                  type="button"
-                  className="bf-add-fab"
-                  aria-label={copy.armyLists.addUnit}
-                  disabled={atMax}
-                  onClick={() => onQuickAdd(u)}
-                >
-                  +
-                </button>
+                <div className="bf-catalog-card-actions">
+                  <span className="bf-catalog-card-pts tabular-nums">{pts}</span>
+                  <button
+                    type="button"
+                    className="bf-catalog-add"
+                    aria-label={copy.armyLists.addUnit}
+                    disabled={atMax}
+                    onClick={() => onQuickAdd(u)}
+                  >
+                    +
+                  </button>
+                </div>
               </div>
             )
           }}
@@ -660,12 +829,14 @@ function CatalogPanel({
 
 function RosterUnitRow({
   line,
+  rosterUnits,
   canDuplicate,
   onEdit,
   onRemove,
   onDuplicate,
 }: {
   line: RosterLineEntry['line']
+  rosterUnits: RosterLineEntry['line'][]
   canDuplicate: boolean
   onEdit: () => void
   onRemove: () => void
@@ -687,24 +858,41 @@ function RosterUnitRow({
 
   const loadoutSummary =
     typeof line.options?.loadoutSummary === 'string' ? line.options.loadoutSummary : ''
+  const meta = parseWoLineMeta(line.options)
+  const attachTarget = meta.attachedToLineId
+    ? rosterUnits.find((u) => u.lineId === meta.attachedToLineId)?.name
+    : undefined
+  const subParts = [
+    loadoutSummary,
+    meta.warlord ? copy.armyLists.warlord : '',
+    meta.enhancementId,
+    meta.upgradeName,
+    attachTarget ? `→ ${attachTarget}` : '',
+  ].filter(Boolean)
 
   return (
-    <div className="bf-unit-row">
+    <div className="bf-roster-card">
       <button
         type="button"
-        className="bf-roster-line-btn"
+        className="bf-roster-card-body"
         aria-label={copy.armyLists.viewUnit}
         onClick={onEdit}
       >
-        <p className="truncate text-caption font-medium text-bone">{line.name}</p>
-        {loadoutSummary ? (
-          <p className="truncate text-micro text-muted">
-            {loadoutSummary} · {line.points} pts
-          </p>
-        ) : (
-          <p className="text-micro tabular-nums text-accent-dim">{line.points} pts</p>
-        )}
+        <p className="bf-roster-card-name">
+          {meta.warlord && (
+            <span className="bf-warlord-crown" aria-label={copy.armyLists.warlord} title={copy.armyLists.warlord}>
+              <svg viewBox="0 0 16 12" aria-hidden>
+                <path fill="currentColor" d="M1 10h14v2H1v-2zm1.2-8 2.3 4.2L8 2.4l3.5 3.8L13.8 2 16 10H0L2.2 2z" />
+              </svg>
+            </span>
+          )}
+          <span className="truncate">{line.name}</span>
+        </p>
+        {subParts.length > 0 ? (
+          <p className="bf-roster-card-meta truncate">{subParts.join(' · ')}</p>
+        ) : null}
       </button>
+      <span className="bf-roster-card-pts tabular-nums">{line.points}</span>
       {line.lineId && (
         <div className="relative shrink-0" ref={menuRef}>
           <button
@@ -759,6 +947,7 @@ function RosterPanel({
   groups,
   unitCount,
   bucketPoints,
+  pointsTotal,
   onRemoveLine,
   onDuplicateLine,
   onEditLine,
@@ -767,17 +956,27 @@ function RosterPanel({
   groups: ReturnType<typeof groupRosterLinesByBucket>
   unitCount: number
   bucketPoints: Map<UnitBucketId, number>
+  pointsTotal: number
   onRemoveLine: (lineId: string) => void
   onDuplicateLine: (entry: RosterLineEntry) => void
   onEditLine: (entry: RosterLineEntry) => void
 }) {
   return (
-    <div className="bf-split-panel bg-black/20">
-      <p className="bf-panel-head">
-        {copy.armyLists.panelRoster} ({unitCount})
-      </p>
+    <div className="bf-split-panel bf-split-panel--roster">
+      <div className="bf-panel-head-row">
+        <div className="min-w-0">
+          <p className="bf-panel-head">
+            {copy.armyLists.panelRoster}
+            {unitCount > 0 && <span className="bf-panel-head-count"> ({unitCount})</span>}
+          </p>
+          <p className="bf-roster-head-meta truncate">{roster.name}</p>
+        </div>
+        <p className="bf-roster-head-pts tabular-nums">
+          {pointsTotal.toLocaleString()} <span>pts</span>
+        </p>
+      </div>
       {roster.units.length === 0 ? (
-        <p className="px-3 py-6 text-center text-caption text-muted">{copy.armyLists.emptyList}</p>
+        <p className="px-3 py-8 text-center text-caption text-muted">{copy.armyLists.emptyList}</p>
       ) : (
         <UnitBucketAccordion
           groups={groups.map((g) => ({ bucket: g.bucket, items: g.lines }))}
@@ -787,6 +986,7 @@ function RosterPanel({
           renderItem={(entry) => (
             <RosterUnitRow
               line={entry.line}
+              rosterUnits={roster.units}
               canDuplicate={canAddUnit(roster, entry.catalog)}
               onEdit={() => onEditLine(entry)}
               onRemove={() => entry.line.lineId && onRemoveLine(entry.line.lineId)}
@@ -794,6 +994,56 @@ function RosterPanel({
             />
           )}
         />
+      )}
+    </div>
+  )
+}
+
+function WoEnhancementsPanel({
+  roster,
+  enhancements,
+}: {
+  roster: ArmyRoster
+  enhancements: { name: string; points: number; description: string }[]
+}) {
+  const assigned = roster.units
+    .map((line) => {
+      const meta = parseWoLineMeta(line.options)
+      if (!meta.enhancementId) return null
+      const enh = enhancements.find((e) => e.name === meta.enhancementId)
+      return { line, enh }
+    })
+    .filter(Boolean) as { line: (typeof roster.units)[0]; enh: (typeof enhancements)[0] }[]
+
+  return (
+    <div className="space-y-3">
+      <p className="text-caption text-muted">{copy.armyLists.enhancementsPerUnit}</p>
+      {assigned.length === 0 ? (
+        <p className="text-body text-muted">{copy.armyLists.noEnhancements}</p>
+      ) : (
+        assigned.map(({ line, enh }) => (
+          <div key={line.lineId} className="wo-enh-card">
+            <p className="text-body font-medium text-bone">
+              {enh.name} <span className="text-muted">on {line.name}</span>
+            </p>
+            <p className="text-caption tabular-nums text-accent-dim">{enh.points} pts</p>
+            <p className="mt-1 line-clamp-3 text-caption text-muted">{enh.description}</p>
+          </div>
+        ))
+      )}
+      {enhancements.length > 0 && assigned.length < enhancements.length && (
+        <details className="wo-enh-card">
+          <summary className="cursor-pointer text-caption text-muted">
+            All detachment enhancements ({enhancements.length})
+          </summary>
+          <ul className="mt-2 space-y-2">
+            {enhancements.map((e) => (
+              <li key={e.name} className="text-micro text-muted">
+                <span className="text-bone">{e.name}</span> — {e.points} pts
+              </li>
+            ))}
+          </ul>
+        </details>
       )}
     </div>
   )
@@ -820,9 +1070,7 @@ function EnhancementsPanel({
               key={e.name}
               type="button"
               onClick={() => onPersist(toggleEnhancement(roster, e.name, e.points))}
-              className={`w-full rounded-xl border p-3 text-left ${
-                on ? 'border-crimson/35 bg-crimson-soft ring-1 ring-crimson/20' : 'border-white/8'
-              }`}
+              className={`wo-enh-card w-full text-left${on ? ' is-active' : ''}`}
             >
               <div className="flex justify-between">
                 <p className="text-body font-medium text-bone">{e.name}</p>

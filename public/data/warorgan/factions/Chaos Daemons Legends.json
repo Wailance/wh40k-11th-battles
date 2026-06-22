@@ -1,0 +1,4332 @@
+{
+  "Name": "Chaos Daemons",
+  "Units": [
+    {
+      "Name": "GIANT CHAOS SPAWN",
+      "Faction": "The Shadow of Chaos",
+      "UnitComposition": {
+        "ModelCompositions": [
+          {
+            "ModelName": "Giant Chaos Spawn",
+            "Wargear": [
+              {
+                "InitalWargear": [
+                  "churning fangs & claws"
+                ],
+                "Options": []
+              }
+            ]
+          }
+        ],
+        "WargearDefinitions": []
+      },
+      "UnitAbilities": [
+        {
+          "Title": "Regenerating Monstrosity",
+          "Text": "At the start of each player’s Command phase, this model regains up to D3 lost wounds."
+        }
+      ],
+      "Infos": [
+        {
+          "Title": "DAEMONIC ALLEGIANCE",
+          "Text": "When you select this model to include in your army, you must select one of the following keywords for it to gain:\n\t▪ Khorne\n\t▪ Tzeentch\n\t▪ Nurgle\n\t▪ Slaanesh\nThe keyword you select will also affect some of this model’s characteristics (see the Daemonic Allegiance section)."
+        }
+      ],
+      "SpecialAbility": {
+        "Name": "DAEMONIC ALLEGIANCE",
+        "Sections": [
+          {
+            "Title": "Creature of Khorne:",
+            "Text": "If this model has the Khorne keyword, add 2 to the Strength characteristic of this model's melee weapons."
+          },
+          {
+            "Title": "Creature of Tzeentch:",
+            "Text": "If this model has the Tzeentch keyword, this model has a 4+ invulnerable save."
+          },
+          {
+            "Title": "Creature of Nurgle:",
+            "Text": "If this model has the Nurgle keyword, add 1 to this model's Toughness characteristic."
+          },
+          {
+            "Title": "Creature of Slaanesh:",
+            "Text": "If this model has the Slaanesh keyword, add 2\" to this model's Move characteristic."
+          }
+        ]
+      },
+      "Keywords": [
+        "Monster",
+        "Chaos",
+        "Giant Chaos Spawn"
+      ],
+      "CoreAbilities": [
+        "Deep Strike",
+        "Feel No Pain 5+"
+      ],
+      "FactionKeywords": [
+        "Legiones Daemonica"
+      ],
+      "StatLines": [
+        {
+          "Movement": "10\"",
+          "Toughness": "8",
+          "Save": "4+",
+          "Wounds": "10",
+          "Leadership": "7+",
+          "OC": "3",
+          "InvulSave": {
+            "Save": "5+"
+          }
+        }
+      ],
+      "Weapons": [
+        {
+          "IsMelee": true,
+          "Name": "MELEE WEAPONS",
+          "Weapons": [
+            {
+              "Name": "Churning fangs & claws",
+              "Range": "Melee",
+              "Attacks": "D6+6",
+              "ToHit": "3+",
+              "Strength": "10",
+              "AP": "-1",
+              "Damage": "2"
+            }
+          ]
+        }
+      ],
+      "Upgrades": [],
+      "Points": [
+        {
+          "ModelCount": 1,
+          "Cost": 130
+        }
+      ]
+    },
+    {
+      "Name": "SPINED CHAOS BEAST",
+      "Faction": "The Shadow of Chaos",
+      "UnitComposition": {
+        "ModelCompositions": [
+          {
+            "ModelName": "Spined Chaos Beast",
+            "Wargear": [
+              {
+                "InitalWargear": [
+                  "jagged claws & tusked maw"
+                ],
+                "Options": [
+                  {
+                    "Options": [
+                      "khorne",
+                      "tzeentch",
+                      "nurgle",
+                      "slaanesh"
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "WargearDefinitions": [
+          {
+            "Key": "khorne",
+            "DatasheetAdjustments": [
+              {
+                "Target": "Keywords",
+                "Type": "Add",
+                "Values": [
+                  "Khorne"
+                ]
+              }
+            ]
+          },
+          {
+            "Key": "tzeentch",
+            "DatasheetAdjustments": [
+              {
+                "Target": "Keywords",
+                "Type": "Add",
+                "Values": [
+                  "Tzeentch"
+                ]
+              }
+            ]
+          },
+          {
+            "Key": "nurgle",
+            "DatasheetAdjustments": [
+              {
+                "Target": "Keywords",
+                "Type": "Add",
+                "Values": [
+                  "Nurgle"
+                ]
+              }
+            ]
+          },
+          {
+            "Key": "slaanesh",
+            "DatasheetAdjustments": [
+              {
+                "Target": "Keywords",
+                "Type": "Add",
+                "Values": [
+                  "Slaanesh"
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "UnitAbilities": [
+        {
+          "Title": "Warp Spines",
+          "Text": "Each time this model ends a Charge move, select one enemy unit within Engagement Range of it and roll one D6: on a 2-3, that enemy unit suffers D3 mortal wounds; on a 4-5, that enemy unit suffers 3 mortal wounds; on a 6, that enemy unit suffers D3+3 mortal wounds."
+        }
+      ],
+      "Infos": [
+        {
+          "Title": "DAMAGED: 1-4 WOUNDS REMAINING",
+          "Text": "While this model has 1-4 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
+        },
+        {
+          "Title": "DAEMONIC ALLEGIANCE",
+          "Text": "When you select this model to include in your army, you must select one of the following keywords for it to gain:\n\t▪ Khorne\n\t▪ Tzeentch\n\t▪ Nurgle\n\t▪ Slaanesh\nThe keyword you select will also affect some of this model’s characteristics (see the Daemonic Allegiance section)."
+        }
+      ],
+      "SpecialAbility": {
+        "Name": "DAEMONIC ALLEGIANCE",
+        "Sections": [
+          {
+            "Title": "Creature of Khorne:",
+            "Text": "If this model has the Khorne keyword, add 2 to the Strength characteristic of this model's melee weapons."
+          },
+          {
+            "Title": "Creature of Tzeentch:",
+            "Text": "If this model has the Tzeentch keyword, this model has a 4+ invulnerable save."
+          },
+          {
+            "Title": "Creature of Nurgle:",
+            "Text": "If this model has the Nurgle keyword, add 1 to this model's Toughness characteristic."
+          },
+          {
+            "Title": "Creature of Slaanesh:",
+            "Text": "If this model has the Slaanesh keyword, add 2\" to this model's Move characteristic."
+          }
+        ]
+      },
+      "Keywords": [
+        "Monster",
+        "Chaos",
+        "Spined Chaos Beast"
+      ],
+      "CoreAbilities": [
+        "Deep Strike"
+      ],
+      "FactionKeywords": [
+        "Legiones Daemonica"
+      ],
+      "StatLines": [
+        {
+          "Movement": "10\"",
+          "Toughness": "10",
+          "Save": "4+",
+          "Wounds": "12",
+          "Leadership": "7+",
+          "OC": "4",
+          "InvulSave": {
+            "Save": "5+"
+          }
+        }
+      ],
+      "Weapons": [
+        {
+          "IsMelee": true,
+          "Name": "MELEE WEAPONS",
+          "Weapons": [
+            {
+              "Name": "Jagged claws & tusked maw",
+              "Range": "Melee",
+              "Attacks": "6",
+              "ToHit": "3+",
+              "Strength": "12",
+              "AP": "-2",
+              "Damage": "3"
+            }
+          ]
+        }
+      ],
+      "Upgrades": [],
+      "Points": [
+        {
+          "ModelCount": 1,
+          "Cost": 145
+        }
+      ]
+    },
+    {
+      "Name": "POX RIDERS",
+      "Faction": "The Shadow of Chaos",
+      "UnitComposition": {
+        "ModelCompositions": [
+          {
+            "Limit": {
+              "Min": 3,
+              "Max": 3
+            },
+            "ModelName": "Pox Riders",
+            "Wargear": [
+              {
+                "InitalWargear": [
+                  "grasping tongue",
+                  "Pox Rider plaguesword",
+                  "yawning maw"
+                ],
+                "Options": [
+                  {
+                    "Max": 1,
+                    "Options": [
+                      "instrument of Chaos"
+                    ]
+                  },
+                  {
+                    "Max": 1,
+                    "Options": [
+                      "daemonic icon"
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "WargearDefinitions": [
+          {
+            "Key": "daemonic icon",
+            "GrantsAbilities": [
+              "Daemonic Icon"
+            ],
+            "StatAdjustments": [
+              {
+                "Target": "Leadership",
+                "Scope": "Unit",
+                "Value": "6+"
+              }
+            ]
+          },
+          {
+            "Key": "instrument of Chaos",
+            "GrantsAbilities": [
+              "Instrument of Chaos"
+            ]
+          }
+        ]
+      },
+      "UnitAbilities": [
+        {
+          "Title": "Daemonic Icon",
+          "Text": "Models in the bearer’s unit have a Leadership characteristic of 6+."
+        },
+        {
+          "Title": "Instrument of Chaos",
+          "Text": "Add 1 to Charge rolls made for the bearer’s unit."
+        },
+        {
+          "Title": "Bounding Assault",
+          "Text": "Each time this unit ends a Charge move, until the end of the turn, Pox Rider plagueswords equipped by models in this unit have the [LANCE] ability."
+        }
+      ],
+      "Infos": [],
+      "Keywords": [
+        "Mounted",
+        "Chaos",
+        "Daemon",
+        "Nurgle",
+        "Pox Riders"
+      ],
+      "CoreAbilities": [
+        "Deep Strike"
+      ],
+      "FactionKeywords": [
+        "Legiones Daemonica"
+      ],
+      "StatLines": [
+        {
+          "Movement": "7\"",
+          "Toughness": "8",
+          "Save": "6+",
+          "Wounds": "5",
+          "Leadership": "7+",
+          "OC": "2",
+          "InvulSave": {
+            "Save": "5+"
+          }
+        }
+      ],
+      "Weapons": [
+        {
+          "Name": "RANGED WEAPONS",
+          "Weapons": [
+            {
+              "Name": "Grasping tongue",
+              "Keywords": "LETHAL HITS",
+              "Range": "9\"",
+              "Attacks": "D3",
+              "ToHit": "4+",
+              "Strength": "5",
+              "AP": "0",
+              "Damage": "1"
+            }
+          ]
+        },
+        {
+          "IsMelee": true,
+          "Name": "MELEE WEAPONS",
+          "Weapons": [
+            {
+              "Name": "Pox Rider plaguesword",
+              "Keywords": "EXTRA ATTACKS, LETHAL HITS",
+              "Range": "Melee",
+              "Attacks": "2",
+              "ToHit": "3+",
+              "Strength": "4",
+              "AP": "-1",
+              "Damage": "1"
+            },
+            {
+              "Name": "Yawning maw",
+              "Keywords": "LETHAL HITS",
+              "Range": "Melee",
+              "Attacks": "3",
+              "ToHit": "3+",
+              "Strength": "6",
+              "AP": "-1",
+              "Damage": "2"
+            }
+          ]
+        }
+      ],
+      "Upgrades": [],
+      "Points": [
+        {
+          "ModelCount": 3,
+          "Cost": 160
+        }
+      ]
+    },
+    {
+      "Name": "PLAGUE TOADS",
+      "Faction": "The Shadow of Chaos",
+      "UnitComposition": {
+        "ModelCompositions": [
+          {
+            "Limit": {
+              "Min": 3,
+              "Max": 3
+            },
+            "ModelName": "Plague Toads",
+            "Wargear": [
+              {
+                "InitalWargear": [
+                  "grasping tongue",
+                  "yawning maw"
+                ],
+                "Options": []
+              }
+            ]
+          }
+        ],
+        "WargearDefinitions": []
+      },
+      "UnitAbilities": [
+        {
+          "Title": "Pouncing Leap",
+          "Text": "You can target this unit with the Heroic Intervention stratagem, regardless of any other uses of that stratagem this phase. If you do:\n▪ That use is -1 CP.\n▪ That use does not prevent any uses of that stratagem on other units this phase."
+        }
+      ],
+      "Infos": [],
+      "Keywords": [
+        "Beast",
+        "Chaos",
+        "Daemon",
+        "Nurgle",
+        "Plague Toads"
+      ],
+      "CoreAbilities": [
+        "Deep Strike"
+      ],
+      "FactionKeywords": [
+        "Legiones Daemonica"
+      ],
+      "StatLines": [
+        {
+          "Movement": "7\"",
+          "Toughness": "8",
+          "Save": "6+",
+          "Wounds": "4",
+          "Leadership": "7+",
+          "OC": "2",
+          "InvulSave": {
+            "Save": "5+"
+          }
+        }
+      ],
+      "Weapons": [
+        {
+          "Name": "RANGED WEAPONS",
+          "Weapons": [
+            {
+              "Name": "Grasping tongue",
+              "Keywords": "LETHAL HITS",
+              "Range": "9\"",
+              "Attacks": "D3",
+              "ToHit": "4+",
+              "Strength": "5",
+              "AP": "0",
+              "Damage": "1"
+            }
+          ]
+        },
+        {
+          "IsMelee": true,
+          "Name": "MELEE WEAPONS",
+          "Weapons": [
+            {
+              "Name": "Yawning maw",
+              "Keywords": "LETHAL HITS",
+              "Range": "Melee",
+              "Attacks": "3",
+              "ToHit": "3+",
+              "Strength": "6",
+              "AP": "-1",
+              "Damage": "2"
+            }
+          ]
+        }
+      ],
+      "Upgrades": [],
+      "Points": [
+        {
+          "ModelCount": 3,
+          "Cost": 120
+        }
+      ]
+    },
+    {
+      "Name": "AN’GGRATH THE UNBOUND",
+      "Faction": "The Shadow of Chaos",
+      "UnitComposition": {
+        "ModelCompositions": [
+          {
+            "ModelName": "An’ggrath the Unbound",
+            "Wargear": [
+              {
+                "InitalWargear": [
+                  "bloodlash",
+                  "axe of Khorne"
+                ],
+                "Options": []
+              }
+            ]
+          }
+        ],
+        "WargearDefinitions": []
+      },
+      "UnitAbilities": [
+        {
+          "Title": "Emissary of the Blood God (Aura)",
+          "Text": "While a friendly Khorne Legiones Daemonica unit is within 6\" of this model, you can re-roll Battle-shock tests taken for that unit."
+        },
+        {
+          "Title": "Relentless Carnage",
+          "Text": "At the end of the Fight phase, you can select one enemy unit within Engagement Range of this model and roll eight D6: for each 4+, that enemy unit suffers 1 mortal wound."
+        }
+      ],
+      "Infos": [
+        {
+          "Title": "DAMAGED: 1-8 WOUNDS REMAINING",
+          "Text": "While this model has 1-8 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
+        }
+      ],
+      "Keywords": [
+        "Monster",
+        "Character",
+        "Epic Hero",
+        "Titanic",
+        "Towering",
+        "Chaos",
+        "Daemon",
+        "Khorne",
+        "An'ggrath the Unbound"
+      ],
+      "CoreAbilities": [
+        "Deadly Demise D6+2",
+        "Deep Strike"
+      ],
+      "FactionKeywords": [
+        "Legiones Daemonica"
+      ],
+      "StatLines": [
+        {
+          "Movement": "12\"",
+          "Toughness": "11",
+          "Save": "4+",
+          "Wounds": "24",
+          "Leadership": "6+",
+          "OC": "6",
+          "InvulSave": {
+            "Save": "4+"
+          }
+        }
+      ],
+      "Weapons": [
+        {
+          "Name": "RANGED WEAPONS",
+          "Weapons": [
+            {
+              "Name": "Bloodlash",
+              "Range": "12\"",
+              "Attacks": "9",
+              "ToHit": "2+",
+              "Strength": "8",
+              "AP": "0",
+              "Damage": "2"
+            }
+          ]
+        },
+        {
+          "IsMelee": true,
+          "Name": "MELEE WEAPONS",
+          "Weapons": [
+            {
+              "Name": "Axe of Khorne – strike",
+              "Range": "Melee",
+              "Attacks": "8",
+              "ToHit": "2+",
+              "Strength": "16",
+              "AP": "-4",
+              "Damage": "D6+2"
+            },
+            {
+              "Name": "Axe of Khorne – sweep",
+              "Range": "Melee",
+              "Attacks": "16",
+              "ToHit": "2+",
+              "Strength": "10",
+              "AP": "-2",
+              "Damage": "2"
+            }
+          ]
+        }
+      ],
+      "Upgrades": [],
+      "Points": [
+        {
+          "ModelCount": 1,
+          "Cost": 415
+        }
+      ]
+    },
+    {
+      "Name": "AETAOS’RAU’KERES",
+      "Faction": "The Shadow of Chaos",
+      "UnitComposition": {
+        "ModelCompositions": [
+          {
+            "ModelName": "Aetaos’rau’keres",
+            "Wargear": [
+              {
+                "InitalWargear": [
+                  "Bolt of Tzeentch",
+                  "staff of cataclysm",
+                  "warpfire talons"
+                ],
+                "Options": []
+              }
+            ]
+          }
+        ],
+        "WargearDefinitions": []
+      },
+      "UnitAbilities": [
+        {
+          "Title": "Emissary of the Great Mutator (Aura)",
+          "Text": "While a friendly Tzeentch Legiones Daemonica unit is within 6\" of this model, you can re-roll Battle-shock tests taken for that unit."
+        },
+        {
+          "Title": "Master of Magicks (Psychic)",
+          "Text": "In your Shooting phase, select one of the following abilities [IGNORES COVER]; [LETHAL HITS]; [SUSTAINED HITS D3]. Until the end of the phase, this model’s ranged weapon has that ability."
+        }
+      ],
+      "Infos": [
+        {
+          "Title": "DAMAGED: 1-8 WOUNDS REMAINING",
+          "Text": "While this model has 1-8 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
+        }
+      ],
+      "Keywords": [
+        "Monster",
+        "Character",
+        "Epic Hero",
+        "Titanic",
+        "Towering",
+        "Fly",
+        "Psyker",
+        "Chaos",
+        "Daemon",
+        "Tzeentch",
+        "Aetaos'rau'keres"
+      ],
+      "CoreAbilities": [
+        "Deadly Demise D6",
+        "Deep Strike"
+      ],
+      "FactionKeywords": [
+        "Legiones Daemonica"
+      ],
+      "StatLines": [
+        {
+          "Movement": "12\"",
+          "Toughness": "10",
+          "Save": "6+",
+          "Wounds": "24",
+          "Leadership": "6+",
+          "OC": "6",
+          "InvulSave": {
+            "Save": "4+"
+          }
+        }
+      ],
+      "Weapons": [
+        {
+          "Name": "RANGED WEAPONS",
+          "Weapons": [
+            {
+              "Name": "Bolt of Tzeentch – focused witchfire",
+              "Keywords": "HAZARDOUS, PSYCHIC",
+              "Range": "24\"",
+              "Attacks": "9",
+              "ToHit": "2+",
+              "Strength": "10",
+              "AP": "-2",
+              "Damage": "D3"
+            },
+            {
+              "Name": "Bolt of Tzeentch – witchfire",
+              "Keywords": "PSYCHIC",
+              "Range": "24\"",
+              "Attacks": "9",
+              "ToHit": "2+",
+              "Strength": "10",
+              "AP": "-1",
+              "Damage": "1"
+            }
+          ]
+        },
+        {
+          "IsMelee": true,
+          "Name": "MELEE WEAPONS",
+          "Weapons": [
+            {
+              "Name": "Staff of cataclysm",
+              "Keywords": "PSYCHIC",
+              "Range": "Melee",
+              "Attacks": "6",
+              "ToHit": "3+",
+              "Strength": "8",
+              "AP": "-2",
+              "Damage": "3"
+            },
+            {
+              "Name": "Warpfire talons",
+              "Keywords": "PSYCHIC",
+              "Range": "Melee",
+              "Attacks": "12",
+              "ToHit": "3+",
+              "Strength": "4",
+              "AP": "-1",
+              "Damage": "1"
+            }
+          ]
+        }
+      ],
+      "Upgrades": [],
+      "Points": [
+        {
+          "ModelCount": 1,
+          "Cost": 315
+        }
+      ]
+    },
+    {
+      "Name": "SCABEIATHRAX THE BLOATED",
+      "Faction": "The Shadow of Chaos",
+      "UnitComposition": {
+        "ModelCompositions": [
+          {
+            "ModelName": "Scabeiathrax the Bloated",
+            "Wargear": [
+              {
+                "InitalWargear": [
+                  "putrid vomit",
+                  "blade of decay"
+                ],
+                "Options": []
+              }
+            ]
+          }
+        ],
+        "WargearDefinitions": []
+      },
+      "UnitAbilities": [
+        {
+          "Title": "Emissary of the Plague God (Aura)",
+          "Text": "While a friendly Nurgle Legiones Daemonica unit is within 6\" of this model, you can re-roll Battle-shock tests taken for that unit."
+        },
+        {
+          "Title": "Nurgle’s Rot (Psychic)",
+          "Text": "At the end of your Movement phase, you can select one enemy unit within 12\" of this model. Until the start of your next Movement phase, subtract 1 from the Toughness characteristic of models in that unit."
+        }
+      ],
+      "Infos": [
+        {
+          "Title": "DAMAGED: 1-7 WOUNDS REMAINING",
+          "Text": "While this model has 1-7 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
+        }
+      ],
+      "Keywords": [
+        "Monster",
+        "Character",
+        "Epic Hero",
+        "Psyker",
+        "Chaos",
+        "Daemon",
+        "Nurgle",
+        "Scabeiathrax the Bloated"
+      ],
+      "CoreAbilities": [
+        "Deadly Demise D6",
+        "Deep Strike",
+        "Feel No Pain 6+"
+      ],
+      "FactionKeywords": [
+        "Legiones Daemonica"
+      ],
+      "StatLines": [
+        {
+          "Movement": "7\"",
+          "Toughness": "12",
+          "Save": "5+",
+          "Wounds": "22",
+          "Leadership": "6+",
+          "OC": "5",
+          "InvulSave": {
+            "Save": "4+"
+          }
+        }
+      ],
+      "Weapons": [
+        {
+          "Name": "RANGED WEAPONS",
+          "Weapons": [
+            {
+              "Name": "Putrid vomit",
+              "Keywords": "IGNORES COVER, TORRENT",
+              "Range": "6\"",
+              "Attacks": "D6+3",
+              "ToHit": "N/A",
+              "Strength": "5",
+              "AP": "-2",
+              "Damage": "1"
+            }
+          ]
+        },
+        {
+          "IsMelee": true,
+          "Name": "MELEE WEAPONS",
+          "Weapons": [
+            {
+              "Name": "Blade of decay – Strike",
+              "Keywords": "LETHAL HITS",
+              "Range": "Melee",
+              "Attacks": "7",
+              "ToHit": "2+",
+              "Strength": "9",
+              "AP": "-2",
+              "Damage": "D6"
+            },
+            {
+              "Name": "Blade of decay – Sweep",
+              "Keywords": "LETHAL HITS",
+              "Range": "Melee",
+              "Attacks": "14",
+              "ToHit": "2+",
+              "Strength": "7",
+              "AP": "-1",
+              "Damage": "1"
+            }
+          ]
+        }
+      ],
+      "Upgrades": [],
+      "Points": [
+        {
+          "ModelCount": 1,
+          "Cost": 275
+        }
+      ]
+    },
+    {
+      "Name": "ZARAKYNEL",
+      "Faction": "The Shadow of Chaos",
+      "UnitComposition": {
+        "ModelCompositions": [
+          {
+            "ModelName": "Zarakynel",
+            "Wargear": [
+              {
+                "InitalWargear": [
+                  "Phantasmagoria",
+                  "snapping claws",
+                  "souleater blade"
+                ],
+                "Options": []
+              }
+            ]
+          }
+        ],
+        "WargearDefinitions": []
+      },
+      "UnitAbilities": [
+        {
+          "Title": "Emissary of the Prince of Excess (Aura)",
+          "Text": "While a friendly Slaanesh Legiones Daemonica unit is within 6\" of this model, you can re-roll Battle-shock tests taken for that unit."
+        },
+        {
+          "Title": "Mesmerising Form",
+          "Text": "Each time an attack targets this model, subtract 1 from the Hit roll."
+        }
+      ],
+      "Infos": [
+        {
+          "Title": "DAMAGED: 1-7 WOUNDS REMAINING",
+          "Text": "While this model has 1-7 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
+        }
+      ],
+      "Keywords": [
+        "Monster",
+        "Character",
+        "Epic Hero",
+        "Psyker",
+        "Chaos",
+        "Daemon",
+        "Slaanesh",
+        "Zarakynel"
+      ],
+      "CoreAbilities": [
+        "Deadly Demise D6",
+        "Deep Strike"
+      ],
+      "FactionKeywords": [
+        "Legiones Daemonica"
+      ],
+      "StatLines": [
+        {
+          "Movement": "14\"",
+          "Toughness": "10",
+          "Save": "5+",
+          "Wounds": "20",
+          "Leadership": "6+",
+          "OC": "5",
+          "InvulSave": {
+            "Save": "4+"
+          }
+        }
+      ],
+      "Weapons": [
+        {
+          "Name": "RANGED WEAPONS",
+          "Weapons": [
+            {
+              "Name": "Phantasmagoria – focused witchfire",
+              "Keywords": "DEVASTATING WOUNDS, HAZARDOUS, PSYCHIC",
+              "Range": "18\"",
+              "Attacks": "9",
+              "ToHit": "2+",
+              "Strength": "6",
+              "AP": "-2",
+              "Damage": "1"
+            },
+            {
+              "Name": "Phantasmagoria – witchfire",
+              "Keywords": "DEVASTATING WOUNDS, PSYCHIC",
+              "Range": "18\"",
+              "Attacks": "6",
+              "ToHit": "2+",
+              "Strength": "6",
+              "AP": "-2",
+              "Damage": "1"
+            }
+          ]
+        },
+        {
+          "IsMelee": true,
+          "Name": "MELEE WEAPONS",
+          "Weapons": [
+            {
+              "Name": "Snapping claws",
+              "Keywords": "DEVASTATING WOUNDS, EXTRA ATTACKS",
+              "Range": "Melee",
+              "Attacks": "4",
+              "ToHit": "2+",
+              "Strength": "6",
+              "AP": "-2",
+              "Damage": "3"
+            },
+            {
+              "Name": "Souleater blade",
+              "Range": "Melee",
+              "Attacks": "6",
+              "ToHit": "2+",
+              "Strength": "9",
+              "AP": "-2",
+              "Damage": "3"
+            }
+          ]
+        }
+      ],
+      "Upgrades": [],
+      "Points": [
+        {
+          "ModelCount": 1,
+          "Cost": 320
+        }
+      ]
+    },
+    {
+      "Name": "HERALD OF SLAANESH ON STEED OF SLAANESH",
+      "Faction": "The Shadow of Chaos",
+      "UnitComposition": {
+        "ModelCompositions": [
+          {
+            "ModelName": "Herald of Slaanesh on Steed of Slaanesh",
+            "Wargear": [
+              {
+                "InitalWargear": [
+                  "lashing tongue",
+                  "ravaging claws"
+                ],
+                "Options": []
+              }
+            ]
+          }
+        ],
+        "WargearDefinitions": []
+      },
+      "UnitAbilities": [
+        {
+          "Title": "Lethal Caress",
+          "Text": "While this model is leading a unit, improve the Armour Penetration characteristic of melee weapons equipped by models in that unit by 1."
+        },
+        {
+          "Title": "Symphony of Pain (Psychic)",
+          "Text": "At the end of your Movement phase, you can select one enemy unit that is Battle-shocked and within 12\" of this model. Until the end of the turn, each time a Slaanesh Legiones Daemonica model from your army makes an attack that targets that enemy unit, you can re-roll the Hit roll and you can re-roll the Wound roll."
+        }
+      ],
+      "LeaderInfo": {
+        "UnitNames": [
+          "SEEKERS"
+        ],
+        "Abilities": [
+          {
+            "AbilityId": "Lethal Caress",
+            "WeaponStatAdjustments": [
+              {
+                "Value": "1",
+                "Type": "Add",
+                "Scope": "Unit",
+                "Target": "AP"
+              }
+            ]
+          }
+        ]
+      },
+      "Infos": [],
+      "Keywords": [
+        "Mounted",
+        "Character",
+        "Psyker",
+        "Chaos",
+        "Daemon",
+        "Slaanesh",
+        "Herald of Slaanesh"
+      ],
+      "CoreAbilities": [
+        "Deep Strike",
+        "Leader",
+        "Scouts 9\""
+      ],
+      "FactionKeywords": [
+        "Legiones Daemonica"
+      ],
+      "StatLines": [
+        {
+          "Movement": "14\"",
+          "Toughness": "4",
+          "Save": "7+",
+          "Wounds": "4",
+          "Leadership": "7+",
+          "OC": "2",
+          "InvulSave": {
+            "Save": "5+"
+          }
+        }
+      ],
+      "Weapons": [
+        {
+          "IsMelee": true,
+          "Name": "MELEE WEAPONS",
+          "Weapons": [
+            {
+              "Name": "Lashing tongue",
+              "Keywords": "EXTRA ATTACKS, LETHAL HITS",
+              "Range": "Melee",
+              "Attacks": "2",
+              "ToHit": "4+",
+              "Strength": "4",
+              "AP": "0",
+              "Damage": "1"
+            },
+            {
+              "Name": "Ravaging claws",
+              "Keywords": "DEVASTATING WOUNDS",
+              "Range": "Melee",
+              "Attacks": "6",
+              "ToHit": "2+",
+              "Strength": "4",
+              "AP": "-1",
+              "Damage": "1"
+            }
+          ]
+        }
+      ],
+      "Upgrades": [],
+      "Points": [
+        {
+          "ModelCount": 1,
+          "Cost": 70
+        }
+      ]
+    },
+    {
+      "Name": "FURIES",
+      "Faction": "The Shadow of Chaos",
+      "UnitComposition": {
+        "ModelCompositions": [
+          {
+            "Limit": {
+              "Min": 5,
+              "Max": 10
+            },
+            "ModelName": "Furies",
+            "Wargear": [
+              {
+                "InitalWargear": [
+                  "daemonic claws"
+                ],
+                "Options": []
+              }
+            ]
+          }
+        ],
+        "WargearDefinitions": []
+      },
+      "UnitAbilities": [
+        {
+          "Title": "Prey on the Weak",
+          "Text": "Each time this model makes an attack that targets an enemy unit that is Battle-shocked, add 1 to the Wound roll."
+        }
+      ],
+      "Infos": [
+        {
+          "Title": "DAEMONIC ALLEGIANCE",
+          "Text": "When you select this model to include in your army, you must select one of the following keywords for it to gain:\n\t▪ Khorne\n\t▪ Tzeentch\n\t▪ Nurgle\n\t▪ Slaanesh"
+        }
+      ],
+      "Keywords": [
+        "Infantry",
+        "Chaos",
+        "Daemon",
+        "Fly",
+        "Furies"
+      ],
+      "CoreAbilities": [
+        "Deep Strike"
+      ],
+      "FactionKeywords": [
+        "Legiones Daemonica"
+      ],
+      "StatLines": [
+        {
+          "Movement": "12\"",
+          "Toughness": "3",
+          "Save": "7+",
+          "Wounds": "1",
+          "Leadership": "8+",
+          "OC": "1",
+          "InvulSave": {
+            "Save": "5+"
+          }
+        }
+      ],
+      "Weapons": [
+        {
+          "IsMelee": true,
+          "Name": "MELEE WEAPONS",
+          "Weapons": [
+            {
+              "Name": "Daemonic claws",
+              "Range": "Melee",
+              "Attacks": "2",
+              "ToHit": "4+",
+              "Strength": "4",
+              "AP": "0",
+              "Damage": "1"
+            }
+          ]
+        }
+      ],
+      "Upgrades": [],
+      "Points": [
+        {
+          "ModelCount": 5,
+          "Cost": 40
+        },
+        {
+          "ModelCount": 10,
+          "Cost": 80
+        }
+      ]
+    },
+    {
+      "Name": "TORMENTBRINGER ON EXALTED SEEKER CHARIOT",
+      "Faction": "The Shadow of Chaos",
+      "UnitComposition": {
+        "ModelCompositions": [
+          {
+            "ModelName": "Tormentbringer on Exalted Seeker Chariot",
+            "Wargear": [
+              {
+                "InitalWargear": [
+                  "lashes of torment",
+                  "Exalted Seeker tongues",
+                  "ravaging claws"
+                ],
+                "Options": []
+              }
+            ]
+          }
+        ],
+        "WargearDefinitions": []
+      },
+      "UnitAbilities": [
+        {
+          "Title": "Tormentbringer (Aura)",
+          "Text": "While a friendly Slaanesh Legiones Daemonica unit is within 6\" of this model, melee weapons in that unit have the [SUSTAINED HITS 1] ability."
+        },
+        {
+          "Title": "Hysterical Frenzy (Psychic)",
+          "Text": "Once per Fight phase, just after an enemy unit selects a Slaanesh Legiones Daemonica unit from your army as a target, one friendly Psyker that is within 6\" of that Slaanesh unit and has this ability can use it. If it does, until the end of the phase, each time a model in that Slaanesh unit is destroyed, roll one D6: on a 4+, do not remove it from play. That model can fight after the attacking model’s unit has finished making its attacks, and is then removed from play."
+        }
+      ],
+      "Infos": [],
+      "Keywords": [
+        "Mounted",
+        "Character",
+        "Psyker",
+        "Chaos",
+        "Daemon",
+        "Slaanesh",
+        "Tormentbringer on Exalted Seeker Chariot"
+      ],
+      "CoreAbilities": [
+        "Deep Strike"
+      ],
+      "FactionKeywords": [
+        "Legiones Daemonica"
+      ],
+      "StatLines": [
+        {
+          "Movement": "14\"",
+          "Toughness": "6",
+          "Save": "5+",
+          "Wounds": "12",
+          "Leadership": "7+",
+          "OC": "3",
+          "InvulSave": {
+            "Save": "4+"
+          }
+        }
+      ],
+      "Weapons": [
+        {
+          "Name": "RANGED WEAPONS",
+          "Weapons": [
+            {
+              "Name": "Lashes of torment",
+              "Keywords": "ANTI-INFANTRY 3+, ASSAULT, PISTOL",
+              "Range": "6\"",
+              "Attacks": "6",
+              "ToHit": "3+",
+              "Strength": "4",
+              "AP": "0",
+              "Damage": "1"
+            }
+          ]
+        },
+        {
+          "IsMelee": true,
+          "Name": "MELEE WEAPONS",
+          "Weapons": [
+            {
+              "Name": "Exalted Seeker tongues",
+              "Keywords": "EXTRA ATTACKS, LETHAL HITS",
+              "Range": "Melee",
+              "Attacks": "8",
+              "ToHit": "4+",
+              "Strength": "4",
+              "AP": "0",
+              "Damage": "1"
+            },
+            {
+              "Name": "Ravaging claws",
+              "Keywords": "DEVASTATING WOUNDS",
+              "Range": "Melee",
+              "Attacks": "15",
+              "ToHit": "3+",
+              "Strength": "4",
+              "AP": "-1",
+              "Damage": "1"
+            }
+          ]
+        }
+      ],
+      "Upgrades": [],
+      "Points": [
+        {
+          "ModelCount": 1,
+          "Cost": 140
+        }
+      ]
+    },
+    {
+      "Name": "SEEKER CHARIOT",
+      "Faction": "The Shadow of Chaos",
+      "UnitComposition": {
+        "ModelCompositions": [
+          {
+            "Limit": {
+              "Min": 1,
+              "Max": 2
+            },
+            "ModelName": "Seeker Chariots",
+            "Wargear": [
+              {
+                "InitalWargear": [
+                  "lashes of torment",
+                  "Seeker tongues",
+                  "slashing claws"
+                ],
+                "Options": []
+              }
+            ]
+          }
+        ],
+        "WargearDefinitions": []
+      },
+      "UnitAbilities": [
+        {
+          "Title": "Scythed Impact",
+          "Text": "Each time this unit makes a Charge move, until the end of the phase, melee weapons equipped by models in this unit have the [ANTI-INFANTRY 4+] ability."
+        }
+      ],
+      "Infos": [],
+      "Keywords": [
+        "Mounted",
+        "Chaos",
+        "Daemon",
+        "Slaanesh",
+        "Seeker Chariot"
+      ],
+      "CoreAbilities": [
+        "Deep Strike"
+      ],
+      "FactionKeywords": [
+        "Legiones Daemonica"
+      ],
+      "StatLines": [
+        {
+          "Movement": "14\"",
+          "Toughness": "6",
+          "Save": "5+",
+          "Wounds": "7",
+          "Leadership": "7+",
+          "OC": "3",
+          "InvulSave": {
+            "Save": "4+"
+          }
+        }
+      ],
+      "Weapons": [
+        {
+          "Name": "RANGED WEAPONS",
+          "Weapons": [
+            {
+              "Name": "Lashes of torment",
+              "Keywords": "ANTI-INFANTRY 3+, ASSAULT, PISTOL",
+              "Range": "6\"",
+              "Attacks": "6",
+              "ToHit": "3+",
+              "Strength": "4",
+              "AP": "0",
+              "Damage": "1"
+            }
+          ]
+        },
+        {
+          "IsMelee": true,
+          "Name": "MELEE WEAPONS",
+          "Weapons": [
+            {
+              "Name": "Seeker tongues",
+              "Keywords": "EXTRA ATTACKS, LETHAL HITS",
+              "Range": "Melee",
+              "Attacks": "4",
+              "ToHit": "4+",
+              "Strength": "4",
+              "AP": "0",
+              "Damage": "1"
+            },
+            {
+              "Name": "Slashing claws",
+              "Keywords": "DEVASTATING WOUNDS",
+              "Range": "Melee",
+              "Attacks": "9",
+              "ToHit": "3+",
+              "Strength": "4",
+              "AP": "-1",
+              "Damage": "1"
+            }
+          ]
+        }
+      ],
+      "Upgrades": [],
+      "Points": [
+        {
+          "ModelCount": 1,
+          "Cost": 65
+        },
+        {
+          "ModelCount": 2,
+          "Cost": 130
+        }
+      ]
+    },
+    {
+      "Name": "EXALTED SEEKER CHARIOT",
+      "Faction": "The Shadow of Chaos",
+      "UnitComposition": {
+        "ModelCompositions": [
+          {
+            "ModelName": "Exalted Seeker Chariot",
+            "Wargear": [
+              {
+                "InitalWargear": [
+                  "lashes of torment",
+                  "Exalted Seeker tongues",
+                  "slashing claws"
+                ],
+                "Options": []
+              }
+            ]
+          }
+        ],
+        "WargearDefinitions": []
+      },
+      "UnitAbilities": [
+        {
+          "Title": "Infernal Engines of Torment",
+          "Text": "In the Fight phase, after this model has finished making its attacks, if one or more enemy units were destroyed as a result of those attacks, every enemy unit within 6\" of this model must take a Battleshock test."
+        }
+      ],
+      "Infos": [],
+      "Keywords": [
+        "Mounted",
+        "Chaos",
+        "Daemon",
+        "Slaanesh",
+        "Exalted Seeker Chariot"
+      ],
+      "CoreAbilities": [
+        "Deep Strike"
+      ],
+      "FactionKeywords": [
+        "Legiones Daemonica"
+      ],
+      "StatLines": [
+        {
+          "Movement": "14\"",
+          "Toughness": "6",
+          "Save": "5+",
+          "Wounds": "12",
+          "Leadership": "7+",
+          "OC": "5",
+          "InvulSave": {
+            "Save": "4+"
+          }
+        }
+      ],
+      "Weapons": [
+        {
+          "Name": "RANGED WEAPONS",
+          "Weapons": [
+            {
+              "Name": "Lashes of torment",
+              "Keywords": "ANTI-INFANTRY 3+, ASSAULT, PISTOL",
+              "Range": "6\"",
+              "Attacks": "6",
+              "ToHit": "3+",
+              "Strength": "4",
+              "AP": "0",
+              "Damage": "1"
+            }
+          ]
+        },
+        {
+          "IsMelee": true,
+          "Name": "MELEE WEAPONS",
+          "Weapons": [
+            {
+              "Name": "Exalted Seeker tongues",
+              "Keywords": "EXTRA ATTACKS, LETHAL HITS",
+              "Range": "Melee",
+              "Attacks": "8",
+              "ToHit": "4+",
+              "Strength": "4",
+              "AP": "0",
+              "Damage": "1"
+            },
+            {
+              "Name": "Slashing claws",
+              "Keywords": "DEVASTATING WOUNDS",
+              "Range": "Melee",
+              "Attacks": "14",
+              "ToHit": "3+",
+              "Strength": "4",
+              "AP": "-1",
+              "Damage": "1"
+            }
+          ]
+        }
+      ],
+      "Upgrades": [],
+      "Points": [
+        {
+          "ModelCount": 1,
+          "Cost": 115
+        }
+      ]
+    },
+    {
+      "Name": "KHORNE DAEMONIC HERALD",
+      "Faction": "Shadow of Chaos",
+      "Flags": 4,
+      "UnitComposition": {
+        "ModelCompositions": [
+          {
+            "ModelName": "Daemonic Herald",
+            "Wargear": [
+              {
+                "InitalWargear": [],
+                "Options": [
+                  {
+                    "Options": [
+                      "Collar of Khorne",
+                      "Juggernaut of Khorne"
+                    ]
+                  },
+                  {
+                    "Options": [
+                      "Bloodmarked",
+                      "Rage-fuelled Strength",
+                      "Restless Prey-seeker"
+                    ]
+                  },
+                  {
+                    "Options": [
+                      "blade of blood"
+                    ]
+                  },
+                  {
+                    "Options": [
+                      "blade of blood"
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "WargearDefinitions": [
+          {
+            "Key": "Collar of Khorne",
+            "GrantsAbilities": [
+              "Collar of Khorne"
+            ]
+          },
+          {
+            "Key": "Juggernaut of Khorne",
+            "GrantsAbilities": [
+              "Juggernaut of Khorne"
+            ],
+            "GrantsWeapons": [
+              "Juggernaut's bladed horn"
+            ],
+            "StatAdjustments": [
+              {
+                "Value": "10\""
+              },
+              {
+                "Target": "Toughness",
+                "Value": "7"
+              },
+              {
+                "Target": "Save",
+                "Value": "3+"
+              }
+            ],
+            "DatasheetAdjustments": [
+              {
+                "Target": "Keywords",
+                "Type": "Add",
+                "Values": [
+                  "Mounted"
+                ]
+              },
+              {
+                "Target": "Keywords",
+                "Type": "Subtract",
+                "Values": [
+                  "Infantry"
+                ]
+              },
+              {
+                "Target": "LedUnitNames",
+                "Values": [
+                  "BLOODCRUSHERS"
+                ]
+              }
+            ]
+          },
+          {
+            "Key": "Bloodmarked",
+            "GrantsAbilities": [
+              "Bloodmarked"
+            ]
+          },
+          {
+            "Key": "Rage-fuelled Strength",
+            "GrantsAbilities": [
+              "Rage-fuelled Strength"
+            ]
+          },
+          {
+            "Key": "Restless Prey-seeker",
+            "GrantsAbilities": [
+              "Restless Prey-seeker"
+            ]
+          }
+        ]
+      },
+      "UnitAbilities": [
+        {
+          "Title": "Daemonic Locus",
+          "Text": "While this model is leading a unit, in your Command phase, you can return 1 destroyed Bodyguard model, or D3 destroyed models with the Battleline keyword, to that unit."
+        },
+        {
+          "Title": "Daemon of Blood",
+          "Text": "Improve this model’s Move characteristic by 2\", and its Toughness and Wounds characteristics by 1. If this model is a Daemonic Charioteer, change this model’s Save characteristic to 3+. Add the Khorne keyword, add the Blood Legions Faction keyword, and it gains the Pact of Blood Faction ability."
+        },
+        {
+          "Title": "Collar of Khorne",
+          "Text": "This model has the Feel No Pain 3+ ability against Psychic Attacks."
+        },
+        {
+          "Title": "Juggernaut of Khorne",
+          "Text": "Improve this model’s Move characteristic by 2\", its Toughness characteristic by 3, change its Save characteristic to 3+, it is equipped with 1 Juggernaut’s bladed horn in addition to the weapons you choose in Step 4, change its Infantry keyword to Mounted, and replace the list of units this model can be attached to: Bloodcrushers."
+        },
+        {
+          "Title": "Bloodmarked",
+          "Text": "At the start of the Fight phase, select one enemy unit within 18\" and visible to this model. Until the end of the phase, each time a friendly Khorne unit makes an attack that targets that unit, improve the Strength, Armour Penetration and Damage characteristics of that attack by 1."
+        },
+        {
+          "Title": "Rage-fuelled Strength",
+          "Text": "Each time a model in this unit makes an attack, add 1 to the Wound roll."
+        },
+        {
+          "Title": "Restless Prey-seeker",
+          "Text": "You can re-roll Advance and Charge rolls made for this unit."
+        }
+      ],
+      "LeaderInfo": {
+        "UnitNames": [
+          "BLOODLETTERS"
+        ],
+        "Abilities": [
+          {
+            "AbilityId": "Daemonic Locus"
+          }
+        ]
+      },
+      "Infos": [],
+      "Keywords": [
+        "Infantry",
+        "Character",
+        "Chaos",
+        "Daemon",
+        "Summoned",
+        "Khorne",
+        "Daemonic Herald"
+      ],
+      "CoreAbilities": [
+        "Crucible",
+        "Deep Strike",
+        "Leader"
+      ],
+      "FactionKeywords": [
+        "Legiones Daemonica",
+        "Blood Legions"
+      ],
+      "StatLines": [
+        {
+          "Movement": "8\"",
+          "Toughness": "4",
+          "Save": "7+",
+          "Wounds": "4",
+          "Leadership": "7+",
+          "OC": "1"
+        }
+      ],
+      "Weapons": [
+        {
+          "IsMelee": true,
+          "Name": "MELEE WEAPONS",
+          "Weapons": [
+            {
+              "Name": "Blade of blood",
+              "Range": "Melee",
+              "Attacks": "5",
+              "ToHit": "2+",
+              "Strength": "6",
+              "AP": "-2",
+              "Damage": "3"
+            },
+            {
+              "Name": "Juggernaut's bladed horn",
+              "Keywords": "EXTRA ATTACKS, LANCE",
+              "Range": "Melee",
+              "Attacks": "4",
+              "ToHit": "4+",
+              "Strength": "6",
+              "AP": "-1",
+              "Damage": "1"
+            }
+          ]
+        }
+      ],
+      "Upgrades": [],
+      "Points": [
+        {
+          "ModelCount": 1,
+          "Cost": 75
+        }
+      ]
+    },
+    {
+      "Name": "KHORNE DAEMONIC CHARIOTEER",
+      "Faction": "Shadow of Chaos",
+      "Flags": 4,
+      "UnitComposition": {
+        "ModelCompositions": [
+          {
+            "ModelName": "Daemonic Charioteer",
+            "Wargear": [
+              {
+                "InitalWargear": [],
+                "Options": [
+                  {
+                    "Options": [
+                      "Collar of Khorne"
+                    ]
+                  },
+                  {
+                    "Options": [
+                      "Bloodmarked",
+                      "Restless Prey-seeker"
+                    ]
+                  },
+                  {
+                    "Options": [
+                      "attendants' hellblades",
+                      "blade of blood",
+                      "juggernaut's bladed horn"
+                    ]
+                  },
+                  {
+                    "Options": [
+                      "attendants' hellblades",
+                      "blade of blood",
+                      "juggernaut's bladed horn"
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "WargearDefinitions": [
+          {
+            "Key": "Collar of Khorne",
+            "GrantsAbilities": [
+              "Collar of Khorne"
+            ]
+          },
+          {
+            "Key": "Bloodmarked",
+            "GrantsAbilities": [
+              "Bloodmarked"
+            ]
+          },
+          {
+            "Key": "Restless Prey-seeker",
+            "GrantsAbilities": [
+              "Restless Prey-seeker"
+            ]
+          }
+        ]
+      },
+      "UnitAbilities": [
+        {
+          "Title": "Malefic Impact",
+          "Text": "Melee weapons equipped by models in this unit have [LANCE]."
+        },
+        {
+          "Title": "Daemon of Blood",
+          "Text": "Improve this model’s Move characteristic by 2\", and its Toughness and Wounds characteristics by 1. If this model is a Daemonic Charioteer, change this model’s Save characteristic to 3+. Add the Khorne keyword, add the Blood Legions Faction keyword, and it gains the Pact of Blood Faction ability."
+        },
+        {
+          "Title": "Collar of Khorne",
+          "Text": "This model has the Feel No Pain 3+ ability against Psychic Attacks."
+        },
+        {
+          "Title": "Bloodmarked",
+          "Text": "At the start of the Fight phase, select one enemy unit within 18\" and visible to this model. Until the end of the phase, each time a friendly Khorne unit makes an attack that targets that unit, improve the Strength, Armour Penetration and Damage characteristics of that attack by 1."
+        },
+        {
+          "Title": "Restless Prey-seeker",
+          "Text": "You can re-roll Advance and Charge rolls made for this unit."
+        }
+      ],
+      "LeaderInfo": {
+        "UnitNames": [
+          "MOUNTED DAEMON UNITS WHICH SHARE THE KHORNE KEYWORD WITH THIS MODEL"
+        ]
+      },
+      "Infos": [],
+      "Keywords": [
+        "Mounted",
+        "Character",
+        "Chaos",
+        "Daemon",
+        "Khorne",
+        "Daemonic Charioteer"
+      ],
+      "CoreAbilities": [
+        "Crucible",
+        "Deep Strike",
+        "Leader"
+      ],
+      "FactionKeywords": [
+        "Legiones Daemonica",
+        "Blood Legions"
+      ],
+      "StatLines": [
+        {
+          "Movement": "8\"",
+          "Toughness": "8",
+          "Save": "3+",
+          "Wounds": "9",
+          "Leadership": "7+",
+          "OC": "3"
+        }
+      ],
+      "Weapons": [
+        {
+          "IsMelee": true,
+          "Name": "MELEE WEAPONS",
+          "Weapons": [
+            {
+              "Name": "Attendants' hellblades",
+              "Keywords": "EXTRA ATTACKS",
+              "Range": "Melee",
+              "Attacks": "4",
+              "ToHit": "3+",
+              "Strength": "5",
+              "AP": "-2",
+              "Damage": "2"
+            },
+            {
+              "Name": "Blade of blood",
+              "Range": "Melee",
+              "Attacks": "5",
+              "ToHit": "2+",
+              "Strength": "6",
+              "AP": "-2",
+              "Damage": "3"
+            },
+            {
+              "Name": "Juggernaut's bladed horn",
+              "Keywords": "EXTRA ATTACKS, LANCE",
+              "Range": "Melee",
+              "Attacks": "4",
+              "ToHit": "4+",
+              "Strength": "6",
+              "AP": "-1",
+              "Damage": "1"
+            }
+          ]
+        }
+      ],
+      "Upgrades": [],
+      "Points": [
+        {
+          "ModelCount": 1,
+          "Cost": 135
+        }
+      ]
+    },
+    {
+      "Name": "KHORNE IMMORTAL CHAMPION",
+      "Faction": "Shadow of Chaos",
+      "Flags": 4,
+      "UnitComposition": {
+        "ModelCompositions": [
+          {
+            "ModelName": "Immortal Champion",
+            "Wargear": [
+              {
+                "InitalWargear": [],
+                "Options": [
+                  {
+                    "Options": [
+                      "Collar of Khorne",
+                      "Daemonic Wings"
+                    ]
+                  },
+                  {
+                    "Options": [
+                      "Bloodmarked",
+                      "Restless Prey-seeker"
+                    ]
+                  },
+                  {
+                    "Options": [
+                      "infernal cannon"
+                    ]
+                  },
+                  {
+                    "Options": [
+                      "blade of blood",
+                      "hellforged weapons"
+                    ]
+                  },
+                  {
+                    "Options": [
+                      "blade of blood",
+                      "hellforged weapons"
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "WargearDefinitions": [
+          {
+            "Key": "Collar of Khorne",
+            "GrantsAbilities": [
+              "Collar of Khorne"
+            ]
+          },
+          {
+            "Key": "Daemonic Wings",
+            "GrantsAbilities": [
+              "Daemonic Wings"
+            ],
+            "StatAdjustments": [
+              {
+                "Value": "14\""
+              }
+            ],
+            "DatasheetAdjustments": [
+              {
+                "Target": "Keywords",
+                "Type": "Add",
+                "Values": [
+                  "Fly"
+                ]
+              }
+            ]
+          },
+          {
+            "Key": "Bloodmarked",
+            "GrantsAbilities": [
+              "Bloodmarked"
+            ]
+          },
+          {
+            "Key": "Restless Prey-seeker",
+            "GrantsAbilities": [
+              "Restless Prey-seeker"
+            ]
+          }
+        ]
+      },
+      "UnitAbilities": [
+        {
+          "Title": "Infernal Attendants",
+          "Text": "While this model is within 3\" of one or more friendly Daemon Infantry units, this model has the Lone Operative ability."
+        },
+        {
+          "Title": "Font of Unreality",
+          "Text": "Each time an attack is allocated to a friendly Daemon unit within 3\" of this model, subtract 1 from the Hit roll."
+        },
+        {
+          "Title": "Daemon of Blood",
+          "Text": "Improve this model’s Move characteristic by 2\", and its Toughness and Wounds characteristics by 1. If this model is a Daemonic Charioteer, change this model’s Save characteristic to 3+. Add the Khorne keyword, add the Blood Legions Faction keyword, and it gains the Pact of Blood Faction ability."
+        },
+        {
+          "Title": "Collar of Khorne",
+          "Text": "This model has the Feel No Pain 3+ ability against Psychic Attacks."
+        },
+        {
+          "Title": "Daemonic Wings",
+          "Text": "Add 4\" to this model’s Move characteristic and it has the Fly keyword."
+        },
+        {
+          "Title": "Bloodmarked",
+          "Text": "At the start of the Fight phase, select one enemy unit within 18\" and visible to this model. Until the end of the phase, each time a friendly Khorne unit makes an attack that targets that unit, improve the Strength, Armour Penetration and Damage characteristics of that attack by 1."
+        },
+        {
+          "Title": "Restless Prey-seeker",
+          "Text": "You can re-roll Advance and Charge rolls made for this unit."
+        }
+      ],
+      "Infos": [],
+      "Keywords": [
+        "Monster",
+        "Character",
+        "Chaos",
+        "Daemon",
+        "Khorne",
+        "Immortal Champion"
+      ],
+      "CoreAbilities": [
+        "Crucible",
+        "Deadly Demise D3",
+        "Deep Strike"
+      ],
+      "FactionKeywords": [
+        "Legiones Daemonica",
+        "Blood Legions"
+      ],
+      "StatLines": [
+        {
+          "Movement": "10\"",
+          "Toughness": "11",
+          "Save": "2+",
+          "Wounds": "11",
+          "Leadership": "6+",
+          "OC": "3"
+        }
+      ],
+      "Weapons": [
+        {
+          "Name": "RANGED WEAPONS",
+          "Weapons": [
+            {
+              "Name": "Infernal cannon",
+              "Keywords": "RAPID FIRE 3",
+              "Range": "24\"",
+              "Attacks": "3",
+              "ToHit": "3+",
+              "Strength": "5",
+              "AP": "-1",
+              "Damage": "2"
+            }
+          ]
+        },
+        {
+          "IsMelee": true,
+          "Name": "MELEE WEAPONS",
+          "Weapons": [
+            {
+              "Name": "Blade of blood",
+              "Range": "Melee",
+              "Attacks": "5",
+              "ToHit": "2+",
+              "Strength": "6",
+              "AP": "-2",
+              "Damage": "3"
+            },
+            {
+              "Name": "Hellforged weapons – strike",
+              "Range": "Melee",
+              "Attacks": "8",
+              "ToHit": "2+",
+              "Strength": "8",
+              "AP": "-2",
+              "Damage": "3"
+            },
+            {
+              "Name": "Hellforged weapons – sweep",
+              "Range": "Melee",
+              "Attacks": "16",
+              "ToHit": "2+",
+              "Strength": "8",
+              "AP": "-1",
+              "Damage": "1"
+            }
+          ]
+        }
+      ],
+      "Upgrades": [],
+      "Points": [
+        {
+          "ModelCount": 1,
+          "Cost": 195
+        }
+      ]
+    },
+    {
+      "Name": "NURGLE DAEMONIC HERALD",
+      "Faction": "Shadow of Chaos",
+      "Flags": 4,
+      "UnitComposition": {
+        "ModelCompositions": [
+          {
+            "ModelName": "Daemonic Herald",
+            "Wargear": [
+              {
+                "InitalWargear": [],
+                "Options": [
+                  {
+                    "Options": [
+                      "Giggling Bilemite",
+                      "Rot Fly"
+                    ]
+                  },
+                  {
+                    "Options": [
+                      "Jolly Gutpipes",
+                      "Keep Counting!",
+                      "Meet Your Quota!"
+                    ]
+                  },
+                  {
+                    "Options": [
+                      "death's heads",
+                      "disgusting sneezes"
+                    ]
+                  },
+                  {
+                    "Options": [
+                      "diseased claws & teeth",
+                      "foul balesword",
+                      "foul mouthparts",
+                      "tiny balesword",
+                      "tiny corrupted staff"
+                    ]
+                  },
+                  {
+                    "Options": [
+                      "diseased claws & teeth",
+                      "foul balesword",
+                      "foul mouthparts",
+                      "tiny balesword",
+                      "tiny corrupted staff"
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "WargearDefinitions": [
+          {
+            "Key": "Giggling Bilemite",
+            "GrantsAbilities": [
+              "Giggling Bilemite"
+            ],
+            "DatasheetAdjustments": [
+              {
+                "Target": "Keywords",
+                "Type": "Add",
+                "Values": [
+                  "Swarm"
+                ]
+              },
+              {
+                "Target": "Keywords",
+                "Type": "Subtract",
+                "Values": [
+                  "Infantry"
+                ]
+              },
+              {
+                "Target": "LedUnitNames",
+                "Values": [
+                  "NURGLINGS"
+                ]
+              }
+            ]
+          },
+          {
+            "Key": "Rot Fly",
+            "GrantsAbilities": [
+              "Rot Fly"
+            ],
+            "StatAdjustments": [
+              {
+                "Value": "10\""
+              },
+              {
+                "Target": "Toughness",
+                "Value": "8"
+              }
+            ],
+            "DatasheetAdjustments": [
+              {
+                "Target": "Keywords",
+                "Type": "Add",
+                "Values": [
+                  "Mounted",
+                  "Fly"
+                ]
+              },
+              {
+                "Target": "Keywords",
+                "Type": "Subtract",
+                "Values": [
+                  "Infantry"
+                ]
+              },
+              {
+                "Target": "LedUnitNames",
+                "Values": [
+                  "PLAGUE DRONES"
+                ]
+              }
+            ]
+          },
+          {
+            "Key": "Jolly Gutpipes",
+            "GrantsAbilities": [
+              "Jolly Gutpipes"
+            ]
+          },
+          {
+            "Key": "Keep Counting!",
+            "GrantsAbilities": [
+              "Keep Counting!"
+            ]
+          },
+          {
+            "Key": "Meet Your Quota!",
+            "GrantsAbilities": [
+              "Meet Your Quota!"
+            ],
+            "StatAdjustments": [
+              {
+                "Target": "OC",
+                "Type": "Add",
+                "Scope": "Unit",
+                "Value": "1"
+              }
+            ]
+          }
+        ]
+      },
+      "UnitAbilities": [
+        {
+          "Title": "Daemonic Locus",
+          "Text": "While this model is leading a unit, in your Command phase, you can return 1 destroyed Bodyguard model, or D3 destroyed models with the Battleline keyword, to that unit."
+        },
+        {
+          "Title": "Daemon of Plague",
+          "Text": "Improve this model’s Toughness and Wounds characteristics by 2. Add the Nurgle and Psyker keywords, add the Plague Legions Faction keyword, and it gains the Pact of Decay Faction ability."
+        },
+        {
+          "Title": "Giggling Bilemite",
+          "Text": "Replace this model’s Infantry keyword with the Swarm keyword, and replace the list of units this model can be attached to: Nurglings."
+        },
+        {
+          "Title": "Rot Fly",
+          "Text": "Improve this model’s Move characteristic by 4\", its Toughness characteristic by 3, replace its Infantry keyword with the Mounted and Fly keywords, and replace the list of units this model can be attached to: Plague Drones."
+        },
+        {
+          "Title": "Jolly Gutpipes",
+          "Text": "While this model is leading a unit, add 1 to the Move characteristic of models in that unit and you can re-roll Advance rolls made for it."
+        },
+        {
+          "Title": "Keep Counting!",
+          "Text": "Melee weapons equipped by models in this unit have the [SUSTAINED HITS 1] ability."
+        },
+        {
+          "Title": "Meet Your Quota!",
+          "Text": "While this model’s unit is not Battle-shocked, add 1 to the Objective Control characteristic of models in that unit."
+        }
+      ],
+      "LeaderInfo": {
+        "UnitNames": [
+          "PLAGUEBEARERS"
+        ],
+        "Abilities": [
+          {
+            "AbilityId": "Daemonic Locus"
+          },
+          {
+            "AbilityId": "Jolly Gutpipes",
+            "StatAdjustments": [
+              {
+                "Type": "Add",
+                "Scope": "Unit",
+                "Value": "1"
+              }
+            ]
+          }
+        ]
+      },
+      "Infos": [],
+      "Keywords": [
+        "Infantry",
+        "Character",
+        "Chaos",
+        "Daemon",
+        "Summoned",
+        "Psyker",
+        "Nurgle",
+        "Daemonic Herald"
+      ],
+      "CoreAbilities": [
+        "Crucible",
+        "Deep Strike",
+        "Leader"
+      ],
+      "FactionKeywords": [
+        "Legiones Daemonica",
+        "Plague Legions"
+      ],
+      "StatLines": [
+        {
+          "Movement": "6\"",
+          "Toughness": "5",
+          "Save": "7+",
+          "Wounds": "5",
+          "Leadership": "7+",
+          "OC": "1"
+        }
+      ],
+      "Weapons": [
+        {
+          "Name": "RANGED WEAPONS",
+          "Weapons": [
+            {
+              "Name": "Death's heads",
+              "Keywords": "BLAST, LETHAL HITS",
+              "Range": "12\"",
+              "Attacks": "D3",
+              "ToHit": "4+",
+              "Strength": "4",
+              "AP": "0",
+              "Damage": "1"
+            },
+            {
+              "Name": "Disgusting sneezes",
+              "Keywords": "PISTOL, TORRENT",
+              "Range": "6\"",
+              "Attacks": "D6",
+              "ToHit": "N/A",
+              "Strength": "3",
+              "AP": "0",
+              "Damage": "1"
+            }
+          ]
+        },
+        {
+          "IsMelee": true,
+          "Name": "MELEE WEAPONS",
+          "Weapons": [
+            {
+              "Name": "diseased claws & teeth",
+              "Keywords": "LETHAL HITS",
+              "Range": "Melee",
+              "Attacks": "3",
+              "ToHit": "4+",
+              "Strength": "2",
+              "AP": "0",
+              "Damage": "1"
+            },
+            {
+              "Name": "Foul balesword",
+              "Keywords": "LETHAL HITS",
+              "Range": "Melee",
+              "Attacks": "4",
+              "ToHit": "3+",
+              "Strength": "5",
+              "AP": "-2",
+              "Damage": "2"
+            },
+            {
+              "Name": "Foul mouthparts",
+              "Keywords": "EXTRA ATTACKS, LETHAL HITS",
+              "Range": "Melee",
+              "Attacks": "2",
+              "ToHit": "4+",
+              "Strength": "5",
+              "AP": "-1",
+              "Damage": "2"
+            },
+            {
+              "Name": "Tiny balesword",
+              "Keywords": "LETHAL HITS",
+              "Range": "Melee",
+              "Attacks": "3",
+              "ToHit": "4+",
+              "Strength": "2",
+              "AP": "-2",
+              "Damage": "2"
+            },
+            {
+              "Name": "Tiny corrupted staff",
+              "Keywords": "LETHAL HITS",
+              "Range": "Melee",
+              "Attacks": "3",
+              "ToHit": "4+",
+              "Strength": "4",
+              "AP": "-1",
+              "Damage": "1"
+            }
+          ]
+        }
+      ],
+      "Upgrades": [],
+      "Points": [
+        {
+          "ModelCount": 1,
+          "Cost": 70
+        }
+      ]
+    },
+    {
+      "Name": "NURGLE DAEMONIC CHARIOTEER",
+      "Faction": "Shadow of Chaos",
+      "Flags": 4,
+      "UnitComposition": {
+        "ModelCompositions": [
+          {
+            "ModelName": "Daemonic Charioteer",
+            "Wargear": [
+              {
+                "InitalWargear": [],
+                "Options": [
+                  {
+                    "Options": [
+                      "Jolly Gutpipes",
+                      "Keep Counting!",
+                      "Meet Your Quota!"
+                    ]
+                  },
+                  {
+                    "Options": [
+                      "death's heads",
+                      "disgusting sneezes"
+                    ]
+                  },
+                  {
+                    "Options": [
+                      "acidic maw",
+                      "diseased claws & teeth",
+                      "foul balesword",
+                      "foul mouthparts",
+                      "tiny balesword",
+                      "tiny corrupted staff"
+                    ]
+                  },
+                  {
+                    "Options": [
+                      "acidic maw",
+                      "diseased claws & teeth",
+                      "foul balesword",
+                      "foul mouthparts",
+                      "tiny balesword",
+                      "tiny corrupted staff"
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "WargearDefinitions": [
+          {
+            "Key": "Jolly Gutpipes",
+            "GrantsAbilities": [
+              "Jolly Gutpipes"
+            ]
+          },
+          {
+            "Key": "Keep Counting!",
+            "GrantsAbilities": [
+              "Keep Counting!"
+            ]
+          },
+          {
+            "Key": "Meet Your Quota!",
+            "GrantsAbilities": [
+              "Meet Your Quota!"
+            ],
+            "StatAdjustments": [
+              {
+                "Target": "OC",
+                "Type": "Add",
+                "Scope": "Unit",
+                "Value": "1"
+              }
+            ]
+          }
+        ]
+      },
+      "UnitAbilities": [
+        {
+          "Title": "Malefic Impact",
+          "Text": "Melee weapons equipped by models in this unit have [LANCE]."
+        },
+        {
+          "Title": "Daemon of Plague",
+          "Text": "Improve this model’s Toughness and Wounds characteristics by 2. Add the Nurgle and Psyker keywords, add the Plague Legions Faction keyword, and it gains the Pact of Decay Faction ability."
+        },
+        {
+          "Title": "Jolly Gutpipes",
+          "Text": "While this model is leading a unit, add 1 to the Move characteristic of models in that unit and you can re-roll Advance rolls made for it."
+        },
+        {
+          "Title": "Keep Counting!",
+          "Text": "Melee weapons equipped by models in this unit have the [SUSTAINED HITS 1] ability."
+        },
+        {
+          "Title": "Meet Your Quota!",
+          "Text": "While this model’s unit is not Battle-shocked, add 1 to the Objective Control characteristic of models in that unit."
+        }
+      ],
+      "LeaderInfo": {
+        "UnitNames": [
+          "MOUNTED DAEMON UNITS WHICH SHARE THE NURGLE KEYWORD WITH THIS MODEL"
+        ],
+        "Abilities": [
+          {
+            "AbilityId": "Jolly Gutpipes",
+            "StatAdjustments": [
+              {
+                "Type": "Add",
+                "Scope": "Unit",
+                "Value": "1"
+              }
+            ]
+          }
+        ]
+      },
+      "Infos": [],
+      "Keywords": [
+        "Mounted",
+        "Character",
+        "Chaos",
+        "Daemon",
+        "Psyker",
+        "Nurgle",
+        "Daemonic Charioteer"
+      ],
+      "CoreAbilities": [
+        "Crucible",
+        "Deep Strike",
+        "Leader"
+      ],
+      "FactionKeywords": [
+        "Legiones Daemonica",
+        "Plague Legions"
+      ],
+      "StatLines": [
+        {
+          "Movement": "6\"",
+          "Toughness": "9",
+          "Save": "6+",
+          "Wounds": "10",
+          "Leadership": "7+",
+          "OC": "3"
+        }
+      ],
+      "Weapons": [
+        {
+          "Name": "RANGED WEAPONS",
+          "Weapons": [
+            {
+              "Name": "Death's heads",
+              "Keywords": "BLAST, LETHAL HITS",
+              "Range": "12\"",
+              "Attacks": "D3",
+              "ToHit": "4+",
+              "Strength": "4",
+              "AP": "0",
+              "Damage": "1"
+            },
+            {
+              "Name": "Disgusting sneezes",
+              "Keywords": "PISTOL, TORRENT",
+              "Range": "6\"",
+              "Attacks": "D6",
+              "ToHit": "N/A",
+              "Strength": "3",
+              "AP": "0",
+              "Damage": "1"
+            }
+          ]
+        },
+        {
+          "IsMelee": true,
+          "Name": "MELEE WEAPONS",
+          "Weapons": [
+            {
+              "Name": "Acidic maw",
+              "Keywords": "DEVASTATING WOUNDS, EXTRA ATTACKS",
+              "Range": "Melee",
+              "Attacks": "2",
+              "ToHit": "4+",
+              "Strength": "7",
+              "AP": "-4",
+              "Damage": "3"
+            },
+            {
+              "Name": "diseased claws & teeth",
+              "Keywords": "LETHAL HITS",
+              "Range": "Melee",
+              "Attacks": "3",
+              "ToHit": "4+",
+              "Strength": "2",
+              "AP": "0",
+              "Damage": "1"
+            },
+            {
+              "Name": "Foul balesword",
+              "Keywords": "LETHAL HITS",
+              "Range": "Melee",
+              "Attacks": "4",
+              "ToHit": "3+",
+              "Strength": "5",
+              "AP": "-2",
+              "Damage": "2"
+            },
+            {
+              "Name": "Foul mouthparts",
+              "Keywords": "EXTRA ATTACKS, LETHAL HITS",
+              "Range": "Melee",
+              "Attacks": "2",
+              "ToHit": "4+",
+              "Strength": "5",
+              "AP": "-1",
+              "Damage": "2"
+            },
+            {
+              "Name": "Tiny balesword",
+              "Keywords": "LETHAL HITS",
+              "Range": "Melee",
+              "Attacks": "3",
+              "ToHit": "4+",
+              "Strength": "2",
+              "AP": "-2",
+              "Damage": "2"
+            },
+            {
+              "Name": "Tiny corrupted staff",
+              "Keywords": "LETHAL HITS",
+              "Range": "Melee",
+              "Attacks": "3",
+              "ToHit": "4+",
+              "Strength": "4",
+              "AP": "-1",
+              "Damage": "1"
+            }
+          ]
+        }
+      ],
+      "Upgrades": [],
+      "Points": [
+        {
+          "ModelCount": 1,
+          "Cost": 130
+        }
+      ]
+    },
+    {
+      "Name": "NURGLE IMMORTAL CHAMPION",
+      "Faction": "Shadow of Chaos",
+      "Flags": 4,
+      "UnitComposition": {
+        "ModelCompositions": [
+          {
+            "ModelName": "Immortal Champion",
+            "Wargear": [
+              {
+                "InitalWargear": [],
+                "Options": [
+                  {
+                    "Options": [
+                      "Daemonic Wings"
+                    ]
+                  },
+                  {
+                    "Options": [
+                      "Keep Counting!",
+                      "Meet Your Quota!"
+                    ]
+                  },
+                  {
+                    "Options": [
+                      "death's heads",
+                      "disgusting sneezes",
+                      "infernal cannon"
+                    ]
+                  },
+                  {
+                    "Options": [
+                      "diseased claws & teeth",
+                      "foul balesword",
+                      "hellforged weapons",
+                      "tiny balesword",
+                      "tiny corrupted staff"
+                    ]
+                  },
+                  {
+                    "Options": [
+                      "diseased claws & teeth",
+                      "foul balesword",
+                      "hellforged weapons",
+                      "tiny balesword",
+                      "tiny corrupted staff"
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "WargearDefinitions": [
+          {
+            "Key": "Daemonic Wings",
+            "GrantsAbilities": [
+              "Daemonic Wings"
+            ],
+            "StatAdjustments": [
+              {
+                "Value": "12\""
+              }
+            ],
+            "DatasheetAdjustments": [
+              {
+                "Target": "Keywords",
+                "Type": "Add",
+                "Values": [
+                  "Fly"
+                ]
+              }
+            ]
+          },
+          {
+            "Key": "Keep Counting!",
+            "GrantsAbilities": [
+              "Keep Counting!"
+            ]
+          },
+          {
+            "Key": "Meet Your Quota!",
+            "GrantsAbilities": [
+              "Meet Your Quota!"
+            ],
+            "StatAdjustments": [
+              {
+                "Target": "OC",
+                "Type": "Add",
+                "Scope": "Unit",
+                "Value": "1"
+              }
+            ]
+          }
+        ]
+      },
+      "UnitAbilities": [
+        {
+          "Title": "Infernal Attendants",
+          "Text": "While this model is within 3\" of one or more friendly Daemon Infantry units, this model has the Lone Operative ability."
+        },
+        {
+          "Title": "Font of Unreality",
+          "Text": "Each time an attack is allocated to a friendly Daemon unit within 3\" of this model, subtract 1 from the Hit roll."
+        },
+        {
+          "Title": "Daemon of Plague",
+          "Text": "Improve this model’s Toughness and Wounds characteristics by 2. Add the Nurgle and Psyker keywords, add the Plague Legions Faction keyword, and it gains the Pact of Decay Faction ability."
+        },
+        {
+          "Title": "Daemonic Wings",
+          "Text": "Add 4\" to this model’s Move characteristic and it has the Fly keyword."
+        },
+        {
+          "Title": "Keep Counting!",
+          "Text": "Melee weapons equipped by models in this unit have the [SUSTAINED HITS 1] ability."
+        },
+        {
+          "Title": "Meet Your Quota!",
+          "Text": "While this model’s unit is not Battle-shocked, add 1 to the Objective Control characteristic of models in that unit."
+        }
+      ],
+      "Infos": [],
+      "Keywords": [
+        "Monster",
+        "Character",
+        "Chaos",
+        "Daemon",
+        "Psyker",
+        "Nurgle",
+        "Immortal Champion"
+      ],
+      "CoreAbilities": [
+        "Crucible",
+        "Deadly Demise D3",
+        "Deep Strike"
+      ],
+      "FactionKeywords": [
+        "Legiones Daemonica",
+        "Plague Legions"
+      ],
+      "StatLines": [
+        {
+          "Movement": "8\"",
+          "Toughness": "12",
+          "Save": "2+",
+          "Wounds": "12",
+          "Leadership": "6+",
+          "OC": "3"
+        }
+      ],
+      "Weapons": [
+        {
+          "Name": "RANGED WEAPONS",
+          "Weapons": [
+            {
+              "Name": "Death's heads",
+              "Keywords": "BLAST, LETHAL HITS",
+              "Range": "12\"",
+              "Attacks": "D3",
+              "ToHit": "4+",
+              "Strength": "4",
+              "AP": "0",
+              "Damage": "1"
+            },
+            {
+              "Name": "Disgusting sneezes",
+              "Keywords": "PISTOL, TORRENT",
+              "Range": "6\"",
+              "Attacks": "D6",
+              "ToHit": "N/A",
+              "Strength": "3",
+              "AP": "0",
+              "Damage": "1"
+            },
+            {
+              "Name": "Infernal cannon",
+              "Keywords": "LETHAL HITS",
+              "Range": "24\"",
+              "Attacks": "3",
+              "ToHit": "2+",
+              "Strength": "5",
+              "AP": "-1",
+              "Damage": "2"
+            }
+          ]
+        },
+        {
+          "IsMelee": true,
+          "Name": "MELEE WEAPONS",
+          "Weapons": [
+            {
+              "Name": "diseased claws & teeth",
+              "Keywords": "LETHAL HITS",
+              "Range": "Melee",
+              "Attacks": "3",
+              "ToHit": "4+",
+              "Strength": "2",
+              "AP": "0",
+              "Damage": "1"
+            },
+            {
+              "Name": "Foul balesword",
+              "Keywords": "LETHAL HITS",
+              "Range": "Melee",
+              "Attacks": "4",
+              "ToHit": "3+",
+              "Strength": "5",
+              "AP": "-2",
+              "Damage": "2"
+            },
+            {
+              "Name": "Hellforged weapons – strike",
+              "Keywords": "LETHAL HITS",
+              "Range": "Melee",
+              "Attacks": "7",
+              "ToHit": "2+",
+              "Strength": "8",
+              "AP": "-2",
+              "Damage": "3"
+            },
+            {
+              "Name": "Hellforged weapons – sweep",
+              "Keywords": "LETHAL HITS",
+              "Range": "Melee",
+              "Attacks": "14",
+              "ToHit": "2+",
+              "Strength": "6",
+              "AP": "-1",
+              "Damage": "1"
+            },
+            {
+              "Name": "Tiny balesword",
+              "Keywords": "LETHAL HITS",
+              "Range": "Melee",
+              "Attacks": "3",
+              "ToHit": "4+",
+              "Strength": "2",
+              "AP": "-2",
+              "Damage": "2"
+            },
+            {
+              "Name": "Tiny corrupted staff",
+              "Keywords": "LETHAL HITS",
+              "Range": "Melee",
+              "Attacks": "3",
+              "ToHit": "4+",
+              "Strength": "4",
+              "AP": "-1",
+              "Damage": "1"
+            }
+          ]
+        }
+      ],
+      "Upgrades": [],
+      "Points": [
+        {
+          "ModelCount": 1,
+          "Cost": 190
+        }
+      ]
+    },
+    {
+      "Name": "SLAANESH DAEMONIC HERALD",
+      "Faction": "Shadow of Chaos",
+      "Flags": 4,
+      "UnitComposition": {
+        "ModelCompositions": [
+          {
+            "ModelName": "Daemonic Herald",
+            "Wargear": [
+              {
+                "InitalWargear": [],
+                "Options": [
+                  {
+                    "Options": [
+                      "Perfumed Fog",
+                      "Steed of Slaanesh"
+                    ]
+                  },
+                  {
+                    "Options": [
+                      "Discordant Disruption (Aura)",
+                      "Sadistic Savagery",
+                      "Swallow Energy"
+                    ]
+                  },
+                  {
+                    "Options": [
+                      "lashes of torment"
+                    ]
+                  },
+                  {
+                    "Options": [
+                      "lashing tongue",
+                      "ravaging claws"
+                    ]
+                  },
+                  {
+                    "Options": [
+                      "lashing tongue",
+                      "ravaging claws"
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "WargearDefinitions": [
+          {
+            "Key": "Perfumed Fog",
+            "GrantsAbilities": [
+              "Perfumed Fog"
+            ],
+            "DatasheetAdjustments": [
+              {
+                "Target": "Keywords",
+                "Type": "Add",
+                "Values": [
+                  "Smoke"
+                ]
+              }
+            ]
+          },
+          {
+            "Key": "Steed of Slaanesh",
+            "GrantsAbilities": [
+              "Steed of Slaanesh"
+            ],
+            "StatAdjustments": [
+              {
+                "Value": "14\""
+              },
+              {
+                "Target": "Toughness",
+                "Value": "4"
+              },
+              {
+                "Target": "Wounds",
+                "Value": "5"
+              }
+            ],
+            "DatasheetAdjustments": [
+              {
+                "Target": "Keywords",
+                "Type": "Add",
+                "Values": [
+                  "Mounted"
+                ]
+              },
+              {
+                "Target": "Keywords",
+                "Type": "Subtract",
+                "Values": [
+                  "Infantry"
+                ]
+              },
+              {
+                "Target": "CoreAbilities",
+                "Type": "Add",
+                "Values": [
+                  "Scouts 9\""
+                ]
+              },
+              {
+                "Target": "LedUnitNames",
+                "Values": [
+                  "SEEKERS"
+                ]
+              }
+            ]
+          },
+          {
+            "Key": "Discordant Disruption (Aura)",
+            "GrantsAbilities": [
+              "Discordant Disruption (Aura)"
+            ]
+          },
+          {
+            "Key": "Sadistic Savagery",
+            "GrantsAbilities": [
+              "Sadistic Savagery"
+            ]
+          },
+          {
+            "Key": "Swallow Energy",
+            "GrantsAbilities": [
+              "Swallow Energy"
+            ]
+          }
+        ]
+      },
+      "UnitAbilities": [
+        {
+          "Title": "Daemonic Locus",
+          "Text": "While this model is leading a unit, in your Command phase, you can return 1 destroyed Bodyguard model, or D3 destroyed models with the Battleline keyword, to that unit."
+        },
+        {
+          "Title": "Daemon of Excess",
+          "Text": "Improve this model’s Move characteristic by 3\". Add the Slaanesh and Psyker keywords, add the Legions of Excess Faction keyword, and it gains the Pact of Excess Faction ability."
+        },
+        {
+          "Title": "Perfumed Fog",
+          "Text": "This unit has the Smoke keyword."
+        },
+        {
+          "Title": "Steed of Slaanesh",
+          "Text": "Improve this model’s Move characteristic by 5\", its Toughness characteristic by 1 and its Wounds characteristic by 2, add the Scouts 9\" ability, change its Infantry keyword to Mounted, and replace the list of units this model can be attached to: Seekers."
+        },
+        {
+          "Title": "Discordant Disruption (Aura)",
+          "Text": "While an enemy Psyker unit is within 12\" of this model, Psychic weapons equipped by models in that unit have the [HAZARDOUS] ability."
+        },
+        {
+          "Title": "Sadistic Savagery",
+          "Text": "Melee weapons equipped by models in this unit have the [SUSTAINED HITS 1] ability."
+        },
+        {
+          "Title": "Swallow Energy",
+          "Text": "Models in this unit have the Feel No Pain 4+ ability against mortal wounds and Psychic Attacks."
+        }
+      ],
+      "LeaderInfo": {
+        "UnitNames": [
+          "DAEMONETTES"
+        ],
+        "Abilities": [
+          {
+            "AbilityId": "Daemonic Locus"
+          }
+        ]
+      },
+      "Infos": [],
+      "Keywords": [
+        "Infantry",
+        "Character",
+        "Chaos",
+        "Daemon",
+        "Summoned",
+        "Psyker",
+        "Slaanesh",
+        "Daemonic Herald"
+      ],
+      "CoreAbilities": [
+        "Crucible",
+        "Deep Strike",
+        "Leader"
+      ],
+      "FactionKeywords": [
+        "Legiones Daemonica",
+        "Legions of Excess"
+      ],
+      "StatLines": [
+        {
+          "Movement": "9\"",
+          "Toughness": "3",
+          "Save": "7+",
+          "Wounds": "3",
+          "Leadership": "7+",
+          "OC": "1"
+        }
+      ],
+      "Weapons": [
+        {
+          "Name": "RANGED WEAPONS",
+          "Weapons": [
+            {
+              "Name": "Lashes of torment",
+              "Keywords": "ANTI-INFANTRY 3+, ASSAULT, PISTOL",
+              "Range": "6\"",
+              "Attacks": "6",
+              "ToHit": "3+",
+              "Strength": "4",
+              "AP": "0",
+              "Damage": "1"
+            }
+          ]
+        },
+        {
+          "IsMelee": true,
+          "Name": "MELEE WEAPONS",
+          "Weapons": [
+            {
+              "Name": "Lashing tongue",
+              "Keywords": "EXTRA ATTACKS, LETHAL HITS",
+              "Range": "Melee",
+              "Attacks": "2",
+              "ToHit": "4+",
+              "Strength": "4",
+              "AP": "0",
+              "Damage": "1"
+            },
+            {
+              "Name": "Ravaging claws",
+              "Keywords": "DEVASTATING WOUNDS",
+              "Range": "Melee",
+              "Attacks": "6",
+              "ToHit": "2+",
+              "Strength": "4",
+              "AP": "-1",
+              "Damage": "1"
+            }
+          ]
+        }
+      ],
+      "Upgrades": [],
+      "Points": [
+        {
+          "ModelCount": 1,
+          "Cost": 60
+        }
+      ]
+    },
+    {
+      "Name": "SLAANESH DAEMONIC CHARIOTEER",
+      "Faction": "Shadow of Chaos",
+      "Flags": 4,
+      "UnitComposition": {
+        "ModelCompositions": [
+          {
+            "ModelName": "Daemonic Charioteer",
+            "Wargear": [
+              {
+                "InitalWargear": [],
+                "Options": [
+                  {
+                    "Options": [
+                      "Perfumed Fog"
+                    ]
+                  },
+                  {
+                    "Options": [
+                      "Discordant Disruption (Aura)",
+                      "Sadistic Savagery",
+                      "Swallow Energy"
+                    ]
+                  },
+                  {
+                    "Options": [
+                      "lashes of torment"
+                    ]
+                  },
+                  {
+                    "Options": [
+                      "bladed axle",
+                      "lashing tongue",
+                      "ravaging claws",
+                      "seeker tongues"
+                    ]
+                  },
+                  {
+                    "Options": [
+                      "bladed axle",
+                      "lashing tongue",
+                      "ravaging claws",
+                      "seeker tongues"
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "WargearDefinitions": [
+          {
+            "Key": "Perfumed Fog",
+            "GrantsAbilities": [
+              "Perfumed Fog"
+            ],
+            "DatasheetAdjustments": [
+              {
+                "Target": "Keywords",
+                "Type": "Add",
+                "Values": [
+                  "Smoke"
+                ]
+              }
+            ]
+          },
+          {
+            "Key": "Discordant Disruption (Aura)",
+            "GrantsAbilities": [
+              "Discordant Disruption (Aura)"
+            ]
+          },
+          {
+            "Key": "Sadistic Savagery",
+            "GrantsAbilities": [
+              "Sadistic Savagery"
+            ]
+          },
+          {
+            "Key": "Swallow Energy",
+            "GrantsAbilities": [
+              "Swallow Energy"
+            ]
+          }
+        ]
+      },
+      "UnitAbilities": [
+        {
+          "Title": "Malefic Impact",
+          "Text": "Melee weapons equipped by models in this unit have [LANCE]."
+        },
+        {
+          "Title": "Daemon of Excess",
+          "Text": "Improve this model’s Move characteristic by 3\". Add the Slaanesh and Psyker keywords, add the Legions of Excess Faction keyword, and it gains the Pact of Excess Faction ability."
+        },
+        {
+          "Title": "Perfumed Fog",
+          "Text": "This unit has the Smoke keyword."
+        },
+        {
+          "Title": "Discordant Disruption (Aura)",
+          "Text": "While an enemy Psyker unit is within 12\" of this model, Psychic weapons equipped by models in that unit have the [HAZARDOUS] ability."
+        },
+        {
+          "Title": "Sadistic Savagery",
+          "Text": "Melee weapons equipped by models in this unit have the [SUSTAINED HITS 1] ability."
+        },
+        {
+          "Title": "Swallow Energy",
+          "Text": "Models in this unit have the Feel No Pain 4+ ability against mortal wounds and Psychic Attacks."
+        }
+      ],
+      "LeaderInfo": {
+        "UnitNames": [
+          "MOUNTED DAEMON UNITS WHICH SHARE THE SLAANESH KEYWORD WITH THIS MODEL"
+        ]
+      },
+      "Infos": [],
+      "Keywords": [
+        "Mounted",
+        "Character",
+        "Chaos",
+        "Daemon",
+        "Psyker",
+        "Slaanesh",
+        "Daemonic Charioteer"
+      ],
+      "CoreAbilities": [
+        "Crucible",
+        "Deep Strike",
+        "Leader"
+      ],
+      "FactionKeywords": [
+        "Legiones Daemonica",
+        "Legions of Excess"
+      ],
+      "StatLines": [
+        {
+          "Movement": "9\"",
+          "Toughness": "7",
+          "Save": "6+",
+          "Wounds": "8",
+          "Leadership": "7+",
+          "OC": "3"
+        }
+      ],
+      "Weapons": [
+        {
+          "Name": "RANGED WEAPONS",
+          "Weapons": [
+            {
+              "Name": "Lashes of torment",
+              "Keywords": "ANTI-INFANTRY 3+, ASSAULT, PISTOL",
+              "Range": "6\"",
+              "Attacks": "6",
+              "ToHit": "3+",
+              "Strength": "4",
+              "AP": "0",
+              "Damage": "1"
+            }
+          ]
+        },
+        {
+          "IsMelee": true,
+          "Name": "MELEE WEAPONS",
+          "Weapons": [
+            {
+              "Name": "Bladed axle",
+              "Keywords": "EXTRA ATTACKS",
+              "Range": "Melee",
+              "Attacks": "6",
+              "ToHit": "3+",
+              "Strength": "6",
+              "AP": "-1",
+              "Damage": "2"
+            },
+            {
+              "Name": "Lashing tongue",
+              "Keywords": "EXTRA ATTACKS, LETHAL HITS",
+              "Range": "Melee",
+              "Attacks": "2",
+              "ToHit": "4+",
+              "Strength": "4",
+              "AP": "0",
+              "Damage": "1"
+            },
+            {
+              "Name": "Ravaging claws",
+              "Keywords": "DEVASTATING WOUNDS",
+              "Range": "Melee",
+              "Attacks": "6",
+              "ToHit": "2+",
+              "Strength": "4",
+              "AP": "-1",
+              "Damage": "1"
+            },
+            {
+              "Name": "Seeker tongues",
+              "Keywords": "EXTRA ATTACKS, LETHAL HITS",
+              "Range": "Melee",
+              "Attacks": "4",
+              "ToHit": "4+",
+              "Strength": "4",
+              "AP": "0",
+              "Damage": "1"
+            }
+          ]
+        }
+      ],
+      "Upgrades": [],
+      "Points": [
+        {
+          "ModelCount": 1,
+          "Cost": 120
+        }
+      ]
+    },
+    {
+      "Name": "SLAANESH IMMORTAL CHAMPION",
+      "Faction": "Shadow of Chaos",
+      "Flags": 4,
+      "UnitComposition": {
+        "ModelCompositions": [
+          {
+            "ModelName": "Immortal Champion",
+            "Wargear": [
+              {
+                "InitalWargear": [],
+                "Options": [
+                  {
+                    "Options": [
+                      "Perfumed Fog",
+                      "Daemonic Wings"
+                    ]
+                  },
+                  {
+                    "Options": [
+                      "Discordant Disruption (Aura)",
+                      "Sadistic Savagery",
+                      "Swallow Energy"
+                    ]
+                  },
+                  {
+                    "Options": [
+                      "infernal cannon",
+                      "lashes of torment"
+                    ]
+                  },
+                  {
+                    "Options": [
+                      "hellforged weapons",
+                      "ravaging claws"
+                    ]
+                  },
+                  {
+                    "Options": [
+                      "hellforged weapons",
+                      "ravaging claws"
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "WargearDefinitions": [
+          {
+            "Key": "Perfumed Fog",
+            "GrantsAbilities": [
+              "Perfumed Fog"
+            ],
+            "DatasheetAdjustments": [
+              {
+                "Target": "Keywords",
+                "Type": "Add",
+                "Values": [
+                  "Smoke"
+                ]
+              }
+            ]
+          },
+          {
+            "Key": "Daemonic Wings",
+            "GrantsAbilities": [
+              "Daemonic Wings"
+            ],
+            "StatAdjustments": [
+              {
+                "Value": "15\""
+              }
+            ],
+            "DatasheetAdjustments": [
+              {
+                "Target": "Keywords",
+                "Type": "Add",
+                "Values": [
+                  "Fly"
+                ]
+              }
+            ]
+          },
+          {
+            "Key": "Discordant Disruption (Aura)",
+            "GrantsAbilities": [
+              "Discordant Disruption (Aura)"
+            ]
+          },
+          {
+            "Key": "Sadistic Savagery",
+            "GrantsAbilities": [
+              "Sadistic Savagery"
+            ]
+          },
+          {
+            "Key": "Swallow Energy",
+            "GrantsAbilities": [
+              "Swallow Energy"
+            ]
+          }
+        ]
+      },
+      "UnitAbilities": [
+        {
+          "Title": "Infernal Attendants",
+          "Text": "While this model is within 3\" of one or more friendly Daemon Infantry units, this model has the Lone Operative ability."
+        },
+        {
+          "Title": "Font of Unreality",
+          "Text": "Each time an attack is allocated to a friendly Daemon unit within 3\" of this model, subtract 1 from the Hit roll."
+        },
+        {
+          "Title": "Daemon of Excess",
+          "Text": "Improve this model’s Move characteristic by 3\". Add the Slaanesh and Psyker keywords, add the Legions of Excess Faction keyword, and it gains the Pact of Excess Faction ability."
+        },
+        {
+          "Title": "Perfumed Fog",
+          "Text": "This unit has the Smoke keyword."
+        },
+        {
+          "Title": "Daemonic Wings",
+          "Text": "Add 4\" to this model’s Move characteristic and it has the Fly keyword."
+        },
+        {
+          "Title": "Discordant Disruption (Aura)",
+          "Text": "While an enemy Psyker unit is within 12\" of this model, Psychic weapons equipped by models in that unit have the [HAZARDOUS] ability."
+        },
+        {
+          "Title": "Sadistic Savagery",
+          "Text": "Melee weapons equipped by models in this unit have the [SUSTAINED HITS 1] ability."
+        },
+        {
+          "Title": "Swallow Energy",
+          "Text": "Models in this unit have the Feel No Pain 4+ ability against mortal wounds and Psychic Attacks."
+        }
+      ],
+      "Infos": [],
+      "Keywords": [
+        "Monster",
+        "Character",
+        "Chaos",
+        "Daemon",
+        "Psyker",
+        "Slaanesh",
+        "Immortal Champion"
+      ],
+      "CoreAbilities": [
+        "Crucible",
+        "Deadly Demise D3",
+        "Deep Strike"
+      ],
+      "FactionKeywords": [
+        "Legiones Daemonica",
+        "Legions of Excess"
+      ],
+      "StatLines": [
+        {
+          "Movement": "11\"",
+          "Toughness": "10",
+          "Save": "2+",
+          "Wounds": "10",
+          "Leadership": "6+",
+          "OC": "3"
+        }
+      ],
+      "Weapons": [
+        {
+          "Name": "RANGED WEAPONS",
+          "Weapons": [
+            {
+              "Name": "Infernal cannon",
+              "Keywords": "PRECISION",
+              "Range": "24\"",
+              "Attacks": "3",
+              "ToHit": "2+",
+              "Strength": "5",
+              "AP": "-1",
+              "Damage": "2"
+            },
+            {
+              "Name": "Lashes of torment",
+              "Keywords": "ANTI-INFANTRY 3+, ASSAULT, PISTOL",
+              "Range": "6\"",
+              "Attacks": "6",
+              "ToHit": "3+",
+              "Strength": "4",
+              "AP": "0",
+              "Damage": "1"
+            }
+          ]
+        },
+        {
+          "IsMelee": true,
+          "Name": "MELEE WEAPONS",
+          "Weapons": [
+            {
+              "Name": "Hellforged weapons – strike",
+              "Keywords": "PRECISION",
+              "Range": "Melee",
+              "Attacks": "6",
+              "ToHit": "2+",
+              "Strength": "8",
+              "AP": "-2",
+              "Damage": "3"
+            },
+            {
+              "Name": "Hellforged weapons – sweep",
+              "Range": "Melee",
+              "Attacks": "14",
+              "ToHit": "2+",
+              "Strength": "6",
+              "AP": "0",
+              "Damage": "1"
+            },
+            {
+              "Name": "Ravaging claws",
+              "Keywords": "DEVASTATING WOUNDS",
+              "Range": "Melee",
+              "Attacks": "6",
+              "ToHit": "2+",
+              "Strength": "4",
+              "AP": "-1",
+              "Damage": "1"
+            }
+          ]
+        }
+      ],
+      "Upgrades": [],
+      "Points": [
+        {
+          "ModelCount": 1,
+          "Cost": 180
+        }
+      ]
+    },
+    {
+      "Name": "TZEENTCH DAEMONIC HERALD",
+      "Faction": "Shadow of Chaos",
+      "Flags": 4,
+      "UnitComposition": {
+        "ModelCompositions": [
+          {
+            "ModelName": "Daemonic Herald",
+            "Wargear": [
+              {
+                "InitalWargear": [],
+                "Options": [
+                  {
+                    "Options": [
+                      "Disc of Tzeentch",
+                      "Eldritch Flames"
+                    ]
+                  },
+                  {
+                    "Options": [
+                      "Blazing Warpfire",
+                      "Malefic Deceit",
+                      "Rider of the Immaterial Winds"
+                    ]
+                  },
+                  {
+                    "Options": [
+                      "arcane fireball"
+                    ]
+                  },
+                  {
+                    "Options": [
+                      "close-combat weapon"
+                    ]
+                  },
+                  {
+                    "Options": [
+                      "close-combat weapon"
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "WargearDefinitions": [
+          {
+            "Key": "Disc of Tzeentch",
+            "GrantsAbilities": [
+              "Disc of Tzeentch"
+            ],
+            "StatAdjustments": [
+              {
+                "Value": "12\""
+              }
+            ],
+            "DatasheetAdjustments": [
+              {
+                "Target": "Keywords",
+                "Type": "Add",
+                "Values": [
+                  "Mounted",
+                  "Fly"
+                ]
+              },
+              {
+                "Target": "Keywords",
+                "Type": "Subtract",
+                "Values": [
+                  "Infantry"
+                ]
+              },
+              {
+                "Target": "LedUnitNames",
+                "Values": [
+                  "SCREAMERS"
+                ]
+              }
+            ]
+          },
+          {
+            "Key": "Eldritch Flames",
+            "GrantsAbilities": [
+              "Eldritch Flames"
+            ]
+          },
+          {
+            "Key": "Blazing Warpfire",
+            "GrantsAbilities": [
+              "Blazing Warpfire"
+            ]
+          },
+          {
+            "Key": "Malefic Deceit",
+            "GrantsAbilities": [
+              "Malefic Deceit"
+            ]
+          },
+          {
+            "Key": "Rider of the Immaterial Winds",
+            "GrantsAbilities": [
+              "Rider of the Immaterial Winds"
+            ]
+          }
+        ]
+      },
+      "UnitAbilities": [
+        {
+          "Title": "Daemonic Locus",
+          "Text": "While this model is leading a unit, in your Command phase, you can return 1 destroyed Bodyguard model, or D3 destroyed models with the Battleline keyword, to that unit."
+        },
+        {
+          "Title": "Daemon of Change",
+          "Text": "This model has a 4+ invulnerable save. If this model is a Daemonic Charioteer, add 6\" to this model’s Move characteristic, and it has the Fly keyword. Add the Tzeentch and Psyker keywords, add the Scintillating Legions Faction keyword, and it gains the Pact of Sorcery Faction ability."
+        },
+        {
+          "Title": "Disc of Tzeentch",
+          "Text": "Improve this model’s Move characteristic by 6\", change its Infantry keyword to Mounted, add the Fly keyword, and replace the list of units this model can be attached to: Screamers."
+        },
+        {
+          "Title": "Eldritch Flames",
+          "Text": "In your Shooting phase, after this model has shot, select one enemy unit that was hit by one or more of those attacks. Until the end of the phase, that unit cannot have the Benefit of Cover."
+        },
+        {
+          "Title": "Blazing Warpfire",
+          "Text": "Ranged weapons equipped by models in this unit have the [ASSAULT] ability."
+        },
+        {
+          "Title": "Malefic Deceit",
+          "Text": "Each time an attack is made against this unit, subtract 1 from the Hit roll."
+        },
+        {
+          "Title": "Rider of the Immaterial Winds",
+          "Text": "Once per battle, at the end of your opponent’s turn, if this model’s unit is not within Engagement Range of one or more enemy units, you can remove that unit from the battlefield and place it into Strategic Reserves."
+        }
+      ],
+      "LeaderInfo": {
+        "UnitNames": [
+          "BLUE HORRORS",
+          "FLAMERS",
+          "PINK HORRORS"
+        ],
+        "Abilities": [
+          {
+            "AbilityId": "Daemonic Locus"
+          }
+        ]
+      },
+      "Infos": [],
+      "Keywords": [
+        "Infantry",
+        "Character",
+        "Chaos",
+        "Daemon",
+        "Summoned",
+        "Psyker",
+        "Tzeentch",
+        "Daemonic Herald"
+      ],
+      "CoreAbilities": [
+        "Crucible",
+        "Deep Strike",
+        "Leader"
+      ],
+      "FactionKeywords": [
+        "Legiones Daemonica",
+        "Scintillating Legions"
+      ],
+      "StatLines": [
+        {
+          "Movement": "6\"",
+          "Toughness": "3",
+          "Save": "7+",
+          "Wounds": "3",
+          "Leadership": "7+",
+          "OC": "1",
+          "InvulSave": {
+            "Save": "4+"
+          }
+        }
+      ],
+      "Weapons": [
+        {
+          "Name": "RANGED WEAPONS",
+          "Weapons": [
+            {
+              "Name": "Arcane Fireball – witchfire",
+              "Keywords": "PSYCHIC",
+              "Range": "18\"",
+              "Attacks": "3",
+              "ToHit": "3+",
+              "Strength": "5",
+              "AP": "-1",
+              "Damage": "D3"
+            },
+            {
+              "Name": "Arcane Fireball – focused witchfire",
+              "Keywords": "DEVASTATING WOUNDS, HAZARDOUS, PSYCHIC",
+              "Range": "18\"",
+              "Attacks": "3",
+              "ToHit": "3+",
+              "Strength": "6",
+              "AP": "-2",
+              "Damage": "D3"
+            }
+          ]
+        },
+        {
+          "IsMelee": true,
+          "Name": "MELEE WEAPONS",
+          "Weapons": [
+            {
+              "Name": "Close-combat weapon",
+              "Keywords": "PSYCHIC",
+              "Range": "Melee",
+              "Attacks": "3",
+              "ToHit": "4+",
+              "Strength": "4",
+              "AP": "-1",
+              "Damage": "1"
+            }
+          ]
+        }
+      ],
+      "Upgrades": [],
+      "Points": [
+        {
+          "ModelCount": 1,
+          "Cost": 60
+        }
+      ]
+    },
+    {
+      "Name": "TZEENTCH DAEMONIC CHARIOTEER",
+      "Faction": "Shadow of Chaos",
+      "Flags": 4,
+      "UnitComposition": {
+        "ModelCompositions": [
+          {
+            "ModelName": "Daemonic Charioteer",
+            "Wargear": [
+              {
+                "InitalWargear": [],
+                "Options": [
+                  {
+                    "Options": [
+                      "Eldritch Flames"
+                    ]
+                  },
+                  {
+                    "Options": [
+                      "Blazing Warpfire",
+                      "Malefic Deceit",
+                      "Rider of the Immaterial Winds"
+                    ]
+                  },
+                  {
+                    "Options": [
+                      "arcane fireball"
+                    ]
+                  },
+                  {
+                    "Options": [
+                      "close-combat weapon",
+                      "screamer bites"
+                    ]
+                  },
+                  {
+                    "Options": [
+                      "close-combat weapon",
+                      "screamer bites"
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "WargearDefinitions": [
+          {
+            "Key": "Eldritch Flames",
+            "GrantsAbilities": [
+              "Eldritch Flames"
+            ]
+          },
+          {
+            "Key": "Blazing Warpfire",
+            "GrantsAbilities": [
+              "Blazing Warpfire"
+            ]
+          },
+          {
+            "Key": "Malefic Deceit",
+            "GrantsAbilities": [
+              "Malefic Deceit"
+            ]
+          },
+          {
+            "Key": "Rider of the Immaterial Winds",
+            "GrantsAbilities": [
+              "Rider of the Immaterial Winds"
+            ]
+          }
+        ]
+      },
+      "UnitAbilities": [
+        {
+          "Title": "Malefic Impact",
+          "Text": "Melee weapons equipped by models in this unit have [LANCE]."
+        },
+        {
+          "Title": "Daemon of Change",
+          "Text": "This model has a 4+ invulnerable save. If this model is a Daemonic Charioteer, add 6\" to this model’s Move characteristic, and it has the Fly keyword. Add the Tzeentch and Psyker keywords, add the Scintillating Legions Faction keyword, and it gains the Pact of Sorcery Faction ability."
+        },
+        {
+          "Title": "Eldritch Flames",
+          "Text": "In your Shooting phase, after this model has shot, select one enemy unit that was hit by one or more of those attacks. Until the end of the phase, that unit cannot have the Benefit of Cover."
+        },
+        {
+          "Title": "Blazing Warpfire",
+          "Text": "Ranged weapons equipped by models in this unit have the [ASSAULT] ability."
+        },
+        {
+          "Title": "Malefic Deceit",
+          "Text": "Each time an attack is made against this unit, subtract 1 from the Hit roll."
+        },
+        {
+          "Title": "Rider of the Immaterial Winds",
+          "Text": "Once per battle, at the end of your opponent’s turn, if this model’s unit is not within Engagement Range of one or more enemy units, you can remove that unit from the battlefield and place it into Strategic Reserves."
+        }
+      ],
+      "LeaderInfo": {
+        "UnitNames": [
+          "MOUNTED DAEMON UNITS WHICH SHARE THE TZEENTCH KEYWORD WITH THIS MODEL"
+        ]
+      },
+      "Infos": [],
+      "Keywords": [
+        "Mounted",
+        "Character",
+        "Chaos",
+        "Daemon",
+        "Psyker",
+        "Tzeentch",
+        "Daemonic Charioteer"
+      ],
+      "CoreAbilities": [
+        "Crucible",
+        "Deep Strike",
+        "Leader"
+      ],
+      "FactionKeywords": [
+        "Legiones Daemonica",
+        "Scintillating Legions"
+      ],
+      "StatLines": [
+        {
+          "Movement": "12\"",
+          "Toughness": "7",
+          "Save": "6+",
+          "Wounds": "8",
+          "Leadership": "7+",
+          "OC": "3",
+          "InvulSave": {
+            "Save": "4+"
+          }
+        }
+      ],
+      "Weapons": [
+        {
+          "Name": "RANGED WEAPONS",
+          "Weapons": [
+            {
+              "Name": "Arcane Fireball – witchfire",
+              "Keywords": "PSYCHIC",
+              "Range": "18\"",
+              "Attacks": "3",
+              "ToHit": "3+",
+              "Strength": "5",
+              "AP": "-1",
+              "Damage": "D3"
+            },
+            {
+              "Name": "Arcane Fireball – focused witchfire",
+              "Keywords": "DEVASTATING WOUNDS, HAZARDOUS, PSYCHIC",
+              "Range": "18\"",
+              "Attacks": "3",
+              "ToHit": "3+",
+              "Strength": "6",
+              "AP": "-2",
+              "Damage": "D3"
+            }
+          ]
+        },
+        {
+          "IsMelee": true,
+          "Name": "MELEE WEAPONS",
+          "Weapons": [
+            {
+              "Name": "Close-combat weapon",
+              "Keywords": "PSYCHIC",
+              "Range": "Melee",
+              "Attacks": "3",
+              "ToHit": "4+",
+              "Strength": "4",
+              "AP": "-1",
+              "Damage": "1"
+            },
+            {
+              "Name": "Screamer bites",
+              "Keywords": "EXTRA ATTACKS",
+              "Range": "Melee",
+              "Attacks": "6",
+              "ToHit": "4+",
+              "Strength": "6",
+              "AP": "-2",
+              "Damage": "2"
+            }
+          ]
+        }
+      ],
+      "Upgrades": [],
+      "Points": [
+        {
+          "ModelCount": 1,
+          "Cost": 120
+        }
+      ]
+    },
+    {
+      "Name": "TZEENTCH IMMORTAL CHAMPION",
+      "Faction": "Shadow of Chaos",
+      "Flags": 4,
+      "UnitComposition": {
+        "ModelCompositions": [
+          {
+            "ModelName": "Immortal Champion",
+            "Wargear": [
+              {
+                "InitalWargear": [],
+                "Options": [
+                  {
+                    "Options": [
+                      "Eldritch Flames",
+                      "Daemonic Wings"
+                    ]
+                  },
+                  {
+                    "Options": [
+                      "Blazing Warpfire",
+                      "Malefic Deceit",
+                      "Rider of the Immaterial Winds"
+                    ]
+                  },
+                  {
+                    "Options": [
+                      "arcane fireball",
+                      "infernal cannon"
+                    ]
+                  },
+                  {
+                    "Options": [
+                      "close-combat weapon",
+                      "hellforged weapons"
+                    ]
+                  },
+                  {
+                    "Options": [
+                      "close-combat weapon",
+                      "hellforged weapons"
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "WargearDefinitions": [
+          {
+            "Key": "Eldritch Flames",
+            "GrantsAbilities": [
+              "Eldritch Flames"
+            ]
+          },
+          {
+            "Key": "Daemonic Wings",
+            "GrantsAbilities": [
+              "Daemonic Wings"
+            ],
+            "StatAdjustments": [
+              {
+                "Value": "12\""
+              }
+            ],
+            "DatasheetAdjustments": [
+              {
+                "Target": "Keywords",
+                "Type": "Add",
+                "Values": [
+                  "Fly"
+                ]
+              }
+            ]
+          },
+          {
+            "Key": "Blazing Warpfire",
+            "GrantsAbilities": [
+              "Blazing Warpfire"
+            ]
+          },
+          {
+            "Key": "Malefic Deceit",
+            "GrantsAbilities": [
+              "Malefic Deceit"
+            ]
+          },
+          {
+            "Key": "Rider of the Immaterial Winds",
+            "GrantsAbilities": [
+              "Rider of the Immaterial Winds"
+            ]
+          }
+        ]
+      },
+      "UnitAbilities": [
+        {
+          "Title": "Infernal Attendants",
+          "Text": "While this model is within 3\" of one or more friendly Daemon Infantry units, this model has the Lone Operative ability."
+        },
+        {
+          "Title": "Font of Unreality",
+          "Text": "Each time an attack is allocated to a friendly Daemon unit within 3\" of this model, subtract 1 from the Hit roll."
+        },
+        {
+          "Title": "Daemon of Change",
+          "Text": "This model has a 4+ invulnerable save. If this model is a Daemonic Charioteer, add 6\" to this model’s Move characteristic, and it has the Fly keyword. Add the Tzeentch and Psyker keywords, add the Scintillating Legions Faction keyword, and it gains the Pact of Sorcery Faction ability."
+        },
+        {
+          "Title": "Eldritch Flames",
+          "Text": "In your Shooting phase, after this model has shot, select one enemy unit that was hit by one or more of those attacks. Until the end of the phase, that unit cannot have the Benefit of Cover."
+        },
+        {
+          "Title": "Daemonic Wings",
+          "Text": "Add 4\" to this model’s Move characteristic and it has the Fly keyword."
+        },
+        {
+          "Title": "Blazing Warpfire",
+          "Text": "Ranged weapons equipped by models in this unit have the [ASSAULT] ability."
+        },
+        {
+          "Title": "Malefic Deceit",
+          "Text": "Each time an attack is made against this unit, subtract 1 from the Hit roll."
+        },
+        {
+          "Title": "Rider of the Immaterial Winds",
+          "Text": "Once per battle, at the end of your opponent’s turn, if this model’s unit is not within Engagement Range of one or more enemy units, you can remove that unit from the battlefield and place it into Strategic Reserves."
+        }
+      ],
+      "Infos": [],
+      "Keywords": [
+        "Monster",
+        "Character",
+        "Chaos",
+        "Daemon",
+        "Psyker",
+        "Tzeentch",
+        "Immortal Champion"
+      ],
+      "CoreAbilities": [
+        "Crucible",
+        "Deadly Demise D3",
+        "Deep Strike"
+      ],
+      "FactionKeywords": [
+        "Legiones Daemonica",
+        "Scintillating Legions"
+      ],
+      "StatLines": [
+        {
+          "Movement": "8\"",
+          "Toughness": "10",
+          "Save": "2+",
+          "Wounds": "10",
+          "Leadership": "6+",
+          "OC": "3",
+          "InvulSave": {
+            "Save": "4+"
+          }
+        }
+      ],
+      "Weapons": [
+        {
+          "Name": "RANGED WEAPONS",
+          "Weapons": [
+            {
+              "Name": "Arcane Fireball – witchfire",
+              "Keywords": "PSYCHIC",
+              "Range": "18\"",
+              "Attacks": "3",
+              "ToHit": "3+",
+              "Strength": "5",
+              "AP": "-1",
+              "Damage": "D3"
+            },
+            {
+              "Name": "Arcane Fireball – focused witchfire",
+              "Keywords": "DEVASTATING WOUNDS, HAZARDOUS, PSYCHIC",
+              "Range": "18\"",
+              "Attacks": "3",
+              "ToHit": "3+",
+              "Strength": "6",
+              "AP": "-2",
+              "Damage": "D3"
+            },
+            {
+              "Name": "Infernal cannon",
+              "Range": "24\"",
+              "Attacks": "3",
+              "ToHit": "2+",
+              "Strength": "5",
+              "AP": "-2",
+              "Damage": "2"
+            }
+          ]
+        },
+        {
+          "IsMelee": true,
+          "Name": "MELEE WEAPONS",
+          "Weapons": [
+            {
+              "Name": "Close-combat weapon",
+              "Keywords": "PSYCHIC",
+              "Range": "Melee",
+              "Attacks": "3",
+              "ToHit": "4+",
+              "Strength": "4",
+              "AP": "-1",
+              "Damage": "1"
+            },
+            {
+              "Name": "Hellforged weapons – strike",
+              "Keywords": "DEVASTATING WOUNDS, PSYCHIC",
+              "Range": "Melee",
+              "Attacks": "6",
+              "ToHit": "2+",
+              "Strength": "8",
+              "AP": "-2",
+              "Damage": "3"
+            },
+            {
+              "Name": "Hellforged weapons – sweep",
+              "Keywords": "DEVASTATING WOUNDS, PSYCHIC",
+              "Range": "Melee",
+              "Attacks": "12",
+              "ToHit": "2+",
+              "Strength": "6",
+              "AP": "-1",
+              "Damage": "1"
+            }
+          ]
+        }
+      ],
+      "Upgrades": [],
+      "Points": [
+        {
+          "ModelCount": 1,
+          "Cost": 180
+        }
+      ]
+    }
+  ],
+  "Dettachments": [],
+  "ArmyRules": []
+}

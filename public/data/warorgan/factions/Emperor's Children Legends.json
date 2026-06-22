@@ -1,0 +1,1690 @@
+{
+  "Name": "Emperor's Children",
+  "Units": [
+    {
+      "Name": "EXCRUCIATOR",
+      "Faction": "Thrill Seekers",
+      "Flags": 4,
+      "UnitComposition": {
+        "ModelCompositions": [
+          {
+            "ModelName": "Excruciator",
+            "Wargear": [
+              {
+                "InitalWargear": [],
+                "Options": [
+                  {
+                    "Options": [
+                      "agonising energies",
+                      "blastmaster",
+                      "boltgun",
+                      "combi-bolter",
+                      "combi-weapon",
+                      "heavy flamer",
+                      "meltagun",
+                      "plasma gun",
+                      "reaper autocannon",
+                      "sonic blaster"
+                    ]
+                  },
+                  {
+                    "Options": [
+                      "bolt pistol",
+                      "plasma pistol",
+                      "screamer pistol"
+                    ]
+                  },
+                  {
+                    "Options": [
+                      "bolt pistol",
+                      "plasma pistol",
+                      "screamer pistol"
+                    ]
+                  },
+                  {
+                    "Options": [
+                      "blissblade",
+                      "chainfist",
+                      "close-combat weapon",
+                      "duelling sabre",
+                      "force weapon",
+                      "master-crafted power sword",
+                      "paired accursed weapons",
+                      "phoenix power spear",
+                      "power fist",
+                      "power weapon",
+                      "rapture lash"
+                    ]
+                  },
+                  {
+                    "Options": [
+                      "blissblade",
+                      "chainfist",
+                      "close-combat weapon",
+                      "force weapon",
+                      "duelling sabre",
+                      "master-crafted power sword",
+                      "paired accursed weapons",
+                      "phoenix power spear",
+                      "power fist",
+                      "power weapon",
+                      "rapture lash"
+                    ]
+                  },
+                  {
+                    "Options": [
+                      "Perfect Poise",
+                      "Terminator Armour"
+                    ]
+                  },
+                  {
+                    "Options": [
+                      "Doom Siren",
+                      "Feverish Butchery",
+                      "Obsessive Annunciation",
+                      "Perfectionists",
+                      "Sickening Stimulation"
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "WargearDefinitions": [
+          {
+            "Key": "Perfect Poise",
+            "GrantsAbilities": [
+              "Perfect Poise"
+            ],
+            "DatasheetAdjustments": [
+              {
+                "Target": "CoreAbilities",
+                "Type": "Add",
+                "Values": [
+                  "Infiltrators",
+                  "Scouts 6\""
+                ]
+              }
+            ]
+          },
+          {
+            "Key": "Terminator Armour",
+            "GrantsAbilities": [
+              "Terminator Armour"
+            ],
+            "StatAdjustments": [
+              {
+                "Value": "5\""
+              },
+              {
+                "Target": "Toughness",
+                "Value": "5"
+              },
+              {
+                "Target": "Save",
+                "Value": "2+"
+              },
+              {
+                "Target": "Wounds",
+                "Value": "5"
+              },
+              {
+                "Target": "InvulSave",
+                "Value": "4+"
+              }
+            ],
+            "DatasheetAdjustments": [
+              {
+                "Target": "Keywords",
+                "Type": "Add",
+                "Values": [
+                  "Terminator"
+                ]
+              },
+              {
+                "Target": "CoreAbilities",
+                "Type": "Add",
+                "Values": [
+                  "Deep Strike"
+                ]
+              },
+              {
+                "Target": "LedUnitNames",
+                "Values": [
+                  "EMPEROR'S CHILDREN TERMINATOR SQUAD"
+                ]
+              }
+            ]
+          },
+          {
+            "Key": "Doom Siren",
+            "GrantsAbilities": [
+              "Doom Siren"
+            ]
+          },
+          {
+            "Key": "Feverish Butchery",
+            "GrantsAbilities": [
+              "Feverish Butchery"
+            ]
+          },
+          {
+            "Key": "Obsessive Annunciation",
+            "GrantsAbilities": [
+              "Obsessive Annunciation"
+            ]
+          },
+          {
+            "Key": "Perfectionists",
+            "GrantsAbilities": [
+              "Perfectionists"
+            ]
+          },
+          {
+            "Key": "Sickening Stimulation",
+            "GrantsAbilities": [
+              "Sickening Stimulation"
+            ]
+          }
+        ]
+      },
+      "UnitAbilities": [
+        {
+          "Title": "Warped Imprecation (Psychic)",
+          "Text": "In your Shooting phase, after this model has shot, if an enemy unit was hit by one or more of those attacks, until the end of the turn, add 1 to Charge rolls made for this unit."
+        },
+        {
+          "Title": "Perfect Poise",
+          "Text": "This model has the Scouts 6\" ability."
+        },
+        {
+          "Title": "Terminator Armour",
+          "Text": "Change this model’s Move characteristic to 5\", its Toughness characteristic to 5, its Save characteristic to 2+, its Wounds characteristic to 5, and it has a 4+ invulnerable save. Add the Terminator keyword, it gains the Deep Strike ability, and replace the list of units this model can be attached to: Emperor's Children Terminator Squad."
+        },
+        {
+          "Title": "Doom Siren",
+          "Text": "In your Shooting phase, after this model’s unit has shot, select one enemy Infantry unit hit by one or more of those attacks and roll three D6: for each 4+, that enemy unit suffers 1 mortal wound. If an enemy unit suffers one or more mortal wounds as a result of this ability, it must take a Battle-shock test."
+        },
+        {
+          "Title": "Feverish Butchery",
+          "Text": "Each time a model in this unit makes a melee attack, add 1 to the Wound roll."
+        },
+        {
+          "Title": "Obsessive Annunciation",
+          "Text": "While this model is leading a unit, ranged weapons equipped by models in that unit have the [SUSTAINED HITS 1] ability."
+        },
+        {
+          "Title": "Perfectionists",
+          "Text": "While this model is leading a unit, weapons equipped by models in that unit have the [LETHAL HITS] ability."
+        },
+        {
+          "Title": "Sickening Stimulation",
+          "Text": "While this model is leading a unit, in your Command phase, you can return 1 destroyed model (excluding Character models) to that unit."
+        }
+      ],
+      "LeaderInfo": {
+        "UnitNames": [
+          "INFRACTORS",
+          "NOISE MARINES",
+          "TORMENTORS"
+        ],
+        "Abilities": [
+          {
+            "AbilityId": "Obsessive Annunciation",
+            "WeaponStatAdjustments": [
+              {
+                "Value": "SUSTAINED HITS 1",
+                "Type": "Add",
+                "Scope": "Unit",
+                "Target": "Keywords",
+                "WeaponScope": "Ranged"
+              }
+            ]
+          },
+          {
+            "AbilityId": "Perfectionists",
+            "WeaponStatAdjustments": [
+              {
+                "Value": "LETHAL HITS",
+                "Type": "Add",
+                "Scope": "Unit",
+                "Target": "Keywords",
+                "WeaponScope": "All"
+              }
+            ]
+          },
+          {
+            "AbilityId": "Sickening Stimulation"
+          }
+        ]
+      },
+      "Infos": [],
+      "Keywords": [
+        "Infantry",
+        "Character",
+        "Psyker",
+        "Grenades",
+        "Chaos",
+        "Slaanesh",
+        "Excruciator"
+      ],
+      "CoreAbilities": [
+        "Crucible",
+        "Leader"
+      ],
+      "FactionKeywords": [
+        "Emperor's Children"
+      ],
+      "StatLines": [
+        {
+          "Movement": "7\"",
+          "Toughness": "4",
+          "Save": "3+",
+          "Wounds": "4",
+          "Leadership": "6+",
+          "OC": "1"
+        }
+      ],
+      "Weapons": [
+        {
+          "Name": "RANGED WEAPONS",
+          "Weapons": [
+            {
+              "Name": "Agonising Energies – witchfire",
+              "Keywords": "PSYCHIC",
+              "Range": "18\"",
+              "Attacks": "D6",
+              "ToHit": "3+",
+              "Strength": "5",
+              "AP": "-1",
+              "Damage": "D3"
+            },
+            {
+              "Name": "Agonising Energies – focused witchfire",
+              "Keywords": "DEVASTATING WOUNDS, HAZARDOUS, PSYCHIC",
+              "Range": "18\"",
+              "Attacks": "D6",
+              "ToHit": "3+",
+              "Strength": "6",
+              "AP": "-2",
+              "Damage": "D3"
+            },
+            {
+              "Name": "Blastmaster – single frequency",
+              "Keywords": "IGNORES COVER",
+              "Range": "18\"",
+              "Attacks": "3",
+              "ToHit": "2+",
+              "Strength": "10",
+              "AP": "-2",
+              "Damage": "3"
+            },
+            {
+              "Name": "Blastmaster – varied frequency",
+              "Keywords": "IGNORES COVER",
+              "Range": "18\"",
+              "Attacks": "6",
+              "ToHit": "2+",
+              "Strength": "6",
+              "AP": "-2",
+              "Damage": "1"
+            },
+            {
+              "Name": "Boltgun",
+              "Keywords": "PRECISION",
+              "Range": "24\"",
+              "Attacks": "2",
+              "ToHit": "2+",
+              "Strength": "4",
+              "AP": "0",
+              "Damage": "1"
+            },
+            {
+              "Name": "Combi-bolter",
+              "Keywords": "RAPID FIRE 2",
+              "Range": "24\"",
+              "Attacks": "2",
+              "ToHit": "2+",
+              "Strength": "4",
+              "AP": "0",
+              "Damage": "1"
+            },
+            {
+              "Name": "Combi-weapon",
+              "Keywords": "ANTI-INFANTRY 4+, DEVASTATING WOUNDS, RAPID FIRE 1",
+              "Range": "24\"",
+              "Attacks": "1",
+              "ToHit": "3+",
+              "Strength": "4",
+              "AP": "0",
+              "Damage": "1"
+            },
+            {
+              "Name": "Heavy flamer",
+              "Keywords": "IGNORES COVER, TORRENT",
+              "Range": "12\"",
+              "Attacks": "D6",
+              "ToHit": "N/A",
+              "Strength": "5",
+              "AP": "-1",
+              "Damage": "1"
+            },
+            {
+              "Name": "Meltagun",
+              "Keywords": "MELTA 2, PRECISION",
+              "Range": "12\"",
+              "Attacks": "1",
+              "ToHit": "2+",
+              "Strength": "8",
+              "AP": "-3",
+              "Damage": "2"
+            },
+            {
+              "Name": "Plasma gun – standard",
+              "Keywords": "PRECISION, RAPID FIRE 1",
+              "Range": "24\"",
+              "Attacks": "1",
+              "ToHit": "2+",
+              "Strength": "7",
+              "AP": "-2",
+              "Damage": "1"
+            },
+            {
+              "Name": "Plasma gun – supercharge",
+              "Keywords": "HAZARDOUS, PRECISION, RAPID FIRE 1",
+              "Range": "24\"",
+              "Attacks": "1",
+              "ToHit": "2+",
+              "Strength": "8",
+              "AP": "-3",
+              "Damage": "2"
+            },
+            {
+              "Name": "Reaper autocannon",
+              "Keywords": "DEVASTATING WOUNDS, SUSTAINED HITS 1",
+              "Range": "36\"",
+              "Attacks": "4",
+              "ToHit": "2+",
+              "Strength": "7",
+              "AP": "-1",
+              "Damage": "1"
+            },
+            {
+              "Name": "Sonic blaster",
+              "Keywords": "IGNORES COVER",
+              "Range": "18\"",
+              "Attacks": "3",
+              "ToHit": "2+",
+              "Strength": "5",
+              "AP": "-1",
+              "Damage": "2"
+            },
+            {
+              "Name": "Bolt pistol",
+              "Keywords": "PISTOL",
+              "Range": "12\"",
+              "Attacks": "1",
+              "ToHit": "2+",
+              "Strength": "4",
+              "AP": "0",
+              "Damage": "1"
+            },
+            {
+              "Name": "Plasma pistol – standard",
+              "Keywords": "PISTOL",
+              "Range": "12\"",
+              "Attacks": "1",
+              "ToHit": "2+",
+              "Strength": "7",
+              "AP": "-2",
+              "Damage": "1"
+            },
+            {
+              "Name": "Plasma pistol – supercharge",
+              "Keywords": "HAZARDOUS, PISTOL",
+              "Range": "12\"",
+              "Attacks": "1",
+              "ToHit": "2+",
+              "Strength": "8",
+              "AP": "-3",
+              "Damage": "2"
+            },
+            {
+              "Name": "Screamer pistol",
+              "Keywords": "IGNORES COVER, PISTOL",
+              "Range": "12\"",
+              "Attacks": "3",
+              "ToHit": "2+",
+              "Strength": "5",
+              "AP": "-1",
+              "Damage": "2"
+            }
+          ]
+        },
+        {
+          "IsMelee": true,
+          "Name": "MELEE WEAPONS",
+          "Weapons": [
+            {
+              "Name": "Blissblade",
+              "Range": "Melee",
+              "Attacks": "4",
+              "ToHit": "2+",
+              "Strength": "6",
+              "AP": "-3",
+              "Damage": "2"
+            },
+            {
+              "Name": "Chainfist",
+              "Keywords": "ANTI-VEHICLE 3+",
+              "Range": "Melee",
+              "Attacks": "5",
+              "ToHit": "3+",
+              "Strength": "8",
+              "AP": "-2",
+              "Damage": "2"
+            },
+            {
+              "Name": "Close-combat weapon",
+              "Range": "Melee",
+              "Attacks": "6",
+              "ToHit": "2+",
+              "Strength": "4",
+              "AP": "0",
+              "Damage": "1"
+            },
+            {
+              "Name": "Duelling sabre",
+              "Keywords": "PRECISION",
+              "Range": "Melee",
+              "Attacks": "5",
+              "ToHit": "3+",
+              "Strength": "4",
+              "AP": "-1",
+              "Damage": "1"
+            },
+            {
+              "Name": "Force weapon",
+              "Keywords": "PSYCHIC",
+              "Range": "Melee",
+              "Attacks": "4",
+              "ToHit": "3+",
+              "Strength": "6",
+              "AP": "-2",
+              "Damage": "D3"
+            },
+            {
+              "Name": "Master-crafted power sword",
+              "Keywords": "PRECISION",
+              "Range": "Melee",
+              "Attacks": "5",
+              "ToHit": "2+",
+              "Strength": "5",
+              "AP": "-2",
+              "Damage": "2"
+            },
+            {
+              "Name": "Paired accursed weapons",
+              "Keywords": "TWIN-LINKED",
+              "Range": "Melee",
+              "Attacks": "6",
+              "ToHit": "2+",
+              "Strength": "5",
+              "AP": "-2",
+              "Damage": "1"
+            },
+            {
+              "Name": "Phoenix power spear",
+              "Keywords": "LANCE",
+              "Range": "Melee",
+              "Attacks": "5",
+              "ToHit": "2+",
+              "Strength": "7",
+              "AP": "-2",
+              "Damage": "2"
+            },
+            {
+              "Name": "Power fist",
+              "Range": "Melee",
+              "Attacks": "5",
+              "ToHit": "2+",
+              "Strength": "8",
+              "AP": "-2",
+              "Damage": "2"
+            },
+            {
+              "Name": "Power weapon",
+              "Range": "Melee",
+              "Attacks": "6",
+              "ToHit": "2+",
+              "Strength": "5",
+              "AP": "-2",
+              "Damage": "1"
+            },
+            {
+              "Name": "Rapture lash",
+              "Keywords": "EXTRA ATTACKS",
+              "Range": "Melee",
+              "Attacks": "4",
+              "ToHit": "2+",
+              "Strength": "4",
+              "AP": "-1",
+              "Damage": "1"
+            }
+          ]
+        }
+      ],
+      "Upgrades": [],
+      "Points": [
+        {
+          "ModelCount": 1,
+          "Cost": 60
+        }
+      ]
+    },
+    {
+      "Name": "CHAMPION OF EXCESS",
+      "Faction": "Thrill Seekers",
+      "Flags": 4,
+      "UnitComposition": {
+        "ModelCompositions": [
+          {
+            "ModelName": "Champion of Excess",
+            "Wargear": [
+              {
+                "InitalWargear": [],
+                "Options": [
+                  {
+                    "Options": [
+                      "blastmaster",
+                      "boltgun",
+                      "combi-bolter",
+                      "combi-weapon",
+                      "heavy flamer",
+                      "meltagun",
+                      "plasma gun",
+                      "reaper autocannon",
+                      "sonic blaster"
+                    ]
+                  },
+                  {
+                    "Options": [
+                      "bolt pistol",
+                      "plasma pistol",
+                      "screamer pistol"
+                    ]
+                  },
+                  {
+                    "Options": [
+                      "bolt pistol",
+                      "plasma pistol",
+                      "screamer pistol"
+                    ]
+                  },
+                  {
+                    "Options": [
+                      "blissblade",
+                      "chainfist",
+                      "close-combat weapon",
+                      "duelling sabre",
+                      "master-crafted power sword",
+                      "paired accursed weapons",
+                      "phoenix power spear",
+                      "power fist",
+                      "power weapon",
+                      "rapture lash"
+                    ]
+                  },
+                  {
+                    "Options": [
+                      "blissblade",
+                      "chainfist",
+                      "close-combat weapon",
+                      "duelling sabre",
+                      "master-crafted power sword",
+                      "paired accursed weapons",
+                      "phoenix power spear",
+                      "power fist",
+                      "power weapon",
+                      "rapture lash"
+                    ]
+                  },
+                  {
+                    "Options": [
+                      "Perfect Poise",
+                      "Terminator Armour"
+                    ]
+                  },
+                  {
+                    "Options": [
+                      "Doom Siren",
+                      "Feverish Butchery",
+                      "Obsessive Annunciation",
+                      "Perfectionists",
+                      "Sickening Stimulation"
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "WargearDefinitions": [
+          {
+            "Key": "Perfect Poise",
+            "GrantsAbilities": [
+              "Perfect Poise"
+            ],
+            "DatasheetAdjustments": [
+              {
+                "Target": "CoreAbilities",
+                "Type": "Add",
+                "Values": [
+                  "Infiltrators",
+                  "Scouts 6\""
+                ]
+              }
+            ]
+          },
+          {
+            "Key": "Terminator Armour",
+            "GrantsAbilities": [
+              "Terminator Armour"
+            ],
+            "StatAdjustments": [
+              {
+                "Value": "5\""
+              },
+              {
+                "Target": "Toughness",
+                "Value": "5"
+              },
+              {
+                "Target": "Save",
+                "Value": "2+"
+              },
+              {
+                "Target": "Wounds",
+                "Value": "5"
+              },
+              {
+                "Target": "InvulSave",
+                "Value": "4+"
+              }
+            ],
+            "DatasheetAdjustments": [
+              {
+                "Target": "Keywords",
+                "Type": "Add",
+                "Values": [
+                  "Terminator"
+                ]
+              },
+              {
+                "Target": "CoreAbilities",
+                "Type": "Add",
+                "Values": [
+                  "Deep Strike"
+                ]
+              },
+              {
+                "Target": "LedUnitNames",
+                "Values": [
+                  "EMPEROR'S CHILDREN TERMINATOR SQUAD"
+                ]
+              }
+            ]
+          },
+          {
+            "Key": "Doom Siren",
+            "GrantsAbilities": [
+              "Doom Siren"
+            ]
+          },
+          {
+            "Key": "Feverish Butchery",
+            "GrantsAbilities": [
+              "Feverish Butchery"
+            ]
+          },
+          {
+            "Key": "Obsessive Annunciation",
+            "GrantsAbilities": [
+              "Obsessive Annunciation"
+            ]
+          },
+          {
+            "Key": "Perfectionists",
+            "GrantsAbilities": [
+              "Perfectionists"
+            ]
+          },
+          {
+            "Key": "Sickening Stimulation",
+            "GrantsAbilities": [
+              "Sickening Stimulation"
+            ]
+          }
+        ]
+      },
+      "UnitAbilities": [
+        {
+          "Title": "Euphoric Strikes",
+          "Text": "Once per battle, at the start of the Fight phase, this model can use this ability. If it does, until the end of the phase, add 3 to the Attacks characteristic of melee weapons equipped by this model and improve the Armour Penetration characteristic of those weapons by 1."
+        },
+        {
+          "Title": "Perfect Poise",
+          "Text": "This model has the Scouts 6\" ability."
+        },
+        {
+          "Title": "Terminator Armour",
+          "Text": "Change this model’s Move characteristic to 5\", its Toughness characteristic to 5, its Save characteristic to 2+, its Wounds characteristic to 5, and it has a 4+ invulnerable save. Add the Terminator keyword, it gains the Deep Strike ability, and replace the list of units this model can be attached to: Emperor's Children Terminator Squad."
+        },
+        {
+          "Title": "Doom Siren",
+          "Text": "In your Shooting phase, after this model’s unit has shot, select one enemy Infantry unit hit by one or more of those attacks and roll three D6: for each 4+, that enemy unit suffers 1 mortal wound. If an enemy unit suffers one or more mortal wounds as a result of this ability, it must take a Battle-shock test."
+        },
+        {
+          "Title": "Feverish Butchery",
+          "Text": "Each time a model in this unit makes a melee attack, add 1 to the Wound roll."
+        },
+        {
+          "Title": "Obsessive Annunciation",
+          "Text": "While this model is leading a unit, ranged weapons equipped by models in that unit have the [SUSTAINED HITS 1] ability."
+        },
+        {
+          "Title": "Perfectionists",
+          "Text": "While this model is leading a unit, weapons equipped by models in that unit have the [LETHAL HITS] ability."
+        },
+        {
+          "Title": "Sickening Stimulation",
+          "Text": "While this model is leading a unit, in your Command phase, you can return 1 destroyed model (excluding Character models) to that unit."
+        }
+      ],
+      "LeaderInfo": {
+        "UnitNames": [
+          "INFRACTORS",
+          "TORMENTORS",
+          "NOISE MARINES"
+        ],
+        "Abilities": [
+          {
+            "AbilityId": "Obsessive Annunciation",
+            "WeaponStatAdjustments": [
+              {
+                "Value": "SUSTAINED HITS 1",
+                "Type": "Add",
+                "Scope": "Unit",
+                "Target": "Keywords",
+                "WeaponScope": "Ranged"
+              }
+            ]
+          },
+          {
+            "AbilityId": "Perfectionists",
+            "WeaponStatAdjustments": [
+              {
+                "Value": "LETHAL HITS",
+                "Type": "Add",
+                "Scope": "Unit",
+                "Target": "Keywords",
+                "WeaponScope": "All"
+              }
+            ]
+          },
+          {
+            "AbilityId": "Sickening Stimulation"
+          }
+        ]
+      },
+      "Infos": [],
+      "Keywords": [
+        "Infantry",
+        "Character",
+        "Grenades",
+        "Chaos",
+        "Slaanesh",
+        "Champion of Excess"
+      ],
+      "CoreAbilities": [
+        "Crucible",
+        "Leader"
+      ],
+      "FactionKeywords": [
+        "Emperor's Children"
+      ],
+      "StatLines": [
+        {
+          "Movement": "7\"",
+          "Toughness": "4",
+          "Save": "3+",
+          "Wounds": "5",
+          "Leadership": "6+",
+          "OC": "1",
+          "InvulSave": {
+            "Save": "4+"
+          }
+        }
+      ],
+      "Weapons": [
+        {
+          "Name": "RANGED WEAPONS",
+          "Weapons": [
+            {
+              "Name": "Blastmaster – single frequency",
+              "Keywords": "IGNORES COVER",
+              "Range": "18\"",
+              "Attacks": "3",
+              "ToHit": "2+",
+              "Strength": "10",
+              "AP": "-2",
+              "Damage": "3"
+            },
+            {
+              "Name": "Blastmaster – varied frequency",
+              "Keywords": "IGNORES COVER",
+              "Range": "18\"",
+              "Attacks": "6",
+              "ToHit": "2+",
+              "Strength": "6",
+              "AP": "-2",
+              "Damage": "1"
+            },
+            {
+              "Name": "Boltgun",
+              "Keywords": "PRECISION",
+              "Range": "24\"",
+              "Attacks": "2",
+              "ToHit": "2+",
+              "Strength": "4",
+              "AP": "0",
+              "Damage": "1"
+            },
+            {
+              "Name": "Combi-bolter",
+              "Keywords": "RAPID FIRE 2",
+              "Range": "24\"",
+              "Attacks": "2",
+              "ToHit": "2+",
+              "Strength": "4",
+              "AP": "0",
+              "Damage": "1"
+            },
+            {
+              "Name": "Combi-weapon",
+              "Keywords": "ANTI-INFANTRY 4+, DEVASTATING WOUNDS, RAPID FIRE 1",
+              "Range": "24\"",
+              "Attacks": "1",
+              "ToHit": "3+",
+              "Strength": "4",
+              "AP": "0",
+              "Damage": "1"
+            },
+            {
+              "Name": "Heavy flamer",
+              "Keywords": "IGNORES COVER, TORRENT",
+              "Range": "12\"",
+              "Attacks": "D6",
+              "ToHit": "N/A",
+              "Strength": "5",
+              "AP": "-1",
+              "Damage": "1"
+            },
+            {
+              "Name": "Meltagun",
+              "Keywords": "MELTA 2, PRECISION",
+              "Range": "12\"",
+              "Attacks": "1",
+              "ToHit": "2+",
+              "Strength": "8",
+              "AP": "-3",
+              "Damage": "2"
+            },
+            {
+              "Name": "Plasma gun – standard",
+              "Keywords": "PRECISION, RAPID FIRE 1",
+              "Range": "24\"",
+              "Attacks": "1",
+              "ToHit": "2+",
+              "Strength": "7",
+              "AP": "-2",
+              "Damage": "1"
+            },
+            {
+              "Name": "Plasma gun – supercharge",
+              "Keywords": "HAZARDOUS, PRECISION, RAPID FIRE 1",
+              "Range": "24\"",
+              "Attacks": "1",
+              "ToHit": "2+",
+              "Strength": "8",
+              "AP": "-3",
+              "Damage": "2"
+            },
+            {
+              "Name": "Reaper autocannon",
+              "Keywords": "DEVASTATING WOUNDS, SUSTAINED HITS 1",
+              "Range": "36\"",
+              "Attacks": "4",
+              "ToHit": "2+",
+              "Strength": "7",
+              "AP": "-1",
+              "Damage": "1"
+            },
+            {
+              "Name": "Sonic blaster",
+              "Keywords": "IGNORES COVER",
+              "Range": "18\"",
+              "Attacks": "3",
+              "ToHit": "2+",
+              "Strength": "5",
+              "AP": "-1",
+              "Damage": "2"
+            },
+            {
+              "Name": "Bolt pistol",
+              "Keywords": "PISTOL",
+              "Range": "12\"",
+              "Attacks": "1",
+              "ToHit": "2+",
+              "Strength": "4",
+              "AP": "0",
+              "Damage": "1"
+            },
+            {
+              "Name": "Plasma pistol – standard",
+              "Keywords": "PISTOL",
+              "Range": "12\"",
+              "Attacks": "1",
+              "ToHit": "2+",
+              "Strength": "7",
+              "AP": "-2",
+              "Damage": "1"
+            },
+            {
+              "Name": "Plasma pistol – supercharge",
+              "Keywords": "HAZARDOUS, PISTOL",
+              "Range": "12\"",
+              "Attacks": "1",
+              "ToHit": "2+",
+              "Strength": "8",
+              "AP": "-3",
+              "Damage": "2"
+            },
+            {
+              "Name": "Screamer pistol",
+              "Keywords": "IGNORES COVER, PISTOL",
+              "Range": "12\"",
+              "Attacks": "3",
+              "ToHit": "2+",
+              "Strength": "5",
+              "AP": "-1",
+              "Damage": "2"
+            }
+          ]
+        },
+        {
+          "IsMelee": true,
+          "Name": "MELEE WEAPONS",
+          "Weapons": [
+            {
+              "Name": "Blissblade",
+              "Range": "Melee",
+              "Attacks": "4",
+              "ToHit": "2+",
+              "Strength": "6",
+              "AP": "-3",
+              "Damage": "2"
+            },
+            {
+              "Name": "Chainfist",
+              "Keywords": "ANTI-VEHICLE 3+",
+              "Range": "Melee",
+              "Attacks": "5",
+              "ToHit": "3+",
+              "Strength": "8",
+              "AP": "-2",
+              "Damage": "2"
+            },
+            {
+              "Name": "Close-combat weapon",
+              "Range": "Melee",
+              "Attacks": "6",
+              "ToHit": "2+",
+              "Strength": "4",
+              "AP": "0",
+              "Damage": "1"
+            },
+            {
+              "Name": "Duelling sabre",
+              "Keywords": "PRECISION",
+              "Range": "Melee",
+              "Attacks": "5",
+              "ToHit": "3+",
+              "Strength": "4",
+              "AP": "-1",
+              "Damage": "1"
+            },
+            {
+              "Name": "Master-crafted power sword",
+              "Keywords": "PRECISION",
+              "Range": "Melee",
+              "Attacks": "5",
+              "ToHit": "2+",
+              "Strength": "5",
+              "AP": "-2",
+              "Damage": "2"
+            },
+            {
+              "Name": "Paired accursed weapons",
+              "Keywords": "TWIN-LINKED",
+              "Range": "Melee",
+              "Attacks": "6",
+              "ToHit": "2+",
+              "Strength": "5",
+              "AP": "-2",
+              "Damage": "1"
+            },
+            {
+              "Name": "Phoenix power spear",
+              "Keywords": "LANCE",
+              "Range": "Melee",
+              "Attacks": "5",
+              "ToHit": "2+",
+              "Strength": "7",
+              "AP": "-2",
+              "Damage": "2"
+            },
+            {
+              "Name": "Power fist",
+              "Range": "Melee",
+              "Attacks": "5",
+              "ToHit": "2+",
+              "Strength": "8",
+              "AP": "-2",
+              "Damage": "2"
+            },
+            {
+              "Name": "Power weapon",
+              "Range": "Melee",
+              "Attacks": "6",
+              "ToHit": "2+",
+              "Strength": "5",
+              "AP": "-2",
+              "Damage": "1"
+            },
+            {
+              "Name": "Rapture lash",
+              "Keywords": "EXTRA ATTACKS",
+              "Range": "Melee",
+              "Attacks": "4",
+              "ToHit": "2+",
+              "Strength": "4",
+              "AP": "-1",
+              "Damage": "1"
+            }
+          ]
+        }
+      ],
+      "Upgrades": [],
+      "Points": [
+        {
+          "ModelCount": 1,
+          "Cost": 80
+        }
+      ]
+    },
+    {
+      "Name": "FLAWLESS CHAMPION",
+      "Faction": "Thrill Seekers",
+      "Flags": 4,
+      "UnitComposition": {
+        "ModelCompositions": [
+          {
+            "ModelName": "Flawless Champion",
+            "Wargear": [
+              {
+                "InitalWargear": [],
+                "Options": [
+                  {
+                    "Options": [
+                      "blastmaster",
+                      "boltgun",
+                      "combi-bolter",
+                      "combi-weapon",
+                      "heavy flamer",
+                      "meltagun",
+                      "plasma gun",
+                      "reaper autocannon",
+                      "sonic blaster"
+                    ]
+                  },
+                  {
+                    "Options": [
+                      "bolt pistol",
+                      "plasma pistol",
+                      "screamer pistol"
+                    ]
+                  },
+                  {
+                    "Options": [
+                      "bolt pistol",
+                      "plasma pistol",
+                      "screamer pistol"
+                    ]
+                  },
+                  {
+                    "Options": [
+                      "blissblade",
+                      "chainfist",
+                      "close-combat weapon",
+                      "duelling sabre",
+                      "master-crafted power sword",
+                      "paired accursed weapons",
+                      "phoenix power spear",
+                      "power fist",
+                      "power weapon",
+                      "rapture lash"
+                    ]
+                  },
+                  {
+                    "Options": [
+                      "blissblade",
+                      "chainfist",
+                      "close-combat weapon",
+                      "duelling sabre",
+                      "master-crafted power sword",
+                      "paired accursed weapons",
+                      "phoenix power spear",
+                      "power fist",
+                      "power weapon",
+                      "rapture lash"
+                    ]
+                  },
+                  {
+                    "Options": [
+                      "Perfect Poise",
+                      "Terminator Armour"
+                    ]
+                  },
+                  {
+                    "Options": [
+                      "Doom Siren",
+                      "Feverish Butchery",
+                      "Obsessive Annunciation",
+                      "Perfectionists",
+                      "Sickening Stimulation"
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "WargearDefinitions": [
+          {
+            "Key": "Perfect Poise",
+            "GrantsAbilities": [
+              "Perfect Poise"
+            ],
+            "DatasheetAdjustments": [
+              {
+                "Target": "CoreAbilities",
+                "Type": "Add",
+                "Values": [
+                  "Infiltrators",
+                  "Scouts 6\""
+                ]
+              }
+            ]
+          },
+          {
+            "Key": "Terminator Armour",
+            "GrantsAbilities": [
+              "Terminator Armour"
+            ],
+            "StatAdjustments": [
+              {
+                "Value": "5\""
+              },
+              {
+                "Target": "Toughness",
+                "Value": "5"
+              },
+              {
+                "Target": "Save",
+                "Value": "2+"
+              },
+              {
+                "Target": "Wounds",
+                "Value": "5"
+              },
+              {
+                "Target": "InvulSave",
+                "Value": "4+"
+              }
+            ],
+            "DatasheetAdjustments": [
+              {
+                "Target": "Keywords",
+                "Type": "Add",
+                "Values": [
+                  "Terminator"
+                ]
+              },
+              {
+                "Target": "CoreAbilities",
+                "Type": "Add",
+                "Values": [
+                  "Deep Strike"
+                ]
+              },
+              {
+                "Target": "LedUnitNames",
+                "Values": [
+                  "EMPEROR'S CHILDREN TERMINATOR SQUAD"
+                ]
+              }
+            ]
+          },
+          {
+            "Key": "Doom Siren",
+            "GrantsAbilities": [
+              "Doom Siren"
+            ]
+          },
+          {
+            "Key": "Feverish Butchery",
+            "GrantsAbilities": [
+              "Feverish Butchery"
+            ]
+          },
+          {
+            "Key": "Obsessive Annunciation",
+            "GrantsAbilities": [
+              "Obsessive Annunciation"
+            ]
+          },
+          {
+            "Key": "Perfectionists",
+            "GrantsAbilities": [
+              "Perfectionists"
+            ]
+          },
+          {
+            "Key": "Sickening Stimulation",
+            "GrantsAbilities": [
+              "Sickening Stimulation"
+            ]
+          }
+        ]
+      },
+      "UnitAbilities": [
+        {
+          "Title": "Obsessive Huntsman",
+          "Text": "Melee weapons equipped by this model have the [PRECISION] ability."
+        },
+        {
+          "Title": "Perfect Poise",
+          "Text": "This model has the Scouts 6\" ability."
+        },
+        {
+          "Title": "Terminator Armour",
+          "Text": "Change this model’s Move characteristic to 5\", its Toughness characteristic to 5, its Save characteristic to 2+, its Wounds characteristic to 5, and it has a 4+ invulnerable save. Add the Terminator keyword, it gains the Deep Strike ability, and replace the list of units this model can be attached to: Emperor's Children Terminator Squad."
+        },
+        {
+          "Title": "Doom Siren",
+          "Text": "In your Shooting phase, after this model’s unit has shot, select one enemy Infantry unit hit by one or more of those attacks and roll three D6: for each 4+, that enemy unit suffers 1 mortal wound. If an enemy unit suffers one or more mortal wounds as a result of this ability, it must take a Battle-shock test."
+        },
+        {
+          "Title": "Feverish Butchery",
+          "Text": "Each time a model in this unit makes a melee attack, add 1 to the Wound roll."
+        },
+        {
+          "Title": "Obsessive Annunciation",
+          "Text": "While this model is leading a unit, ranged weapons equipped by models in that unit have the [SUSTAINED HITS 1] ability."
+        },
+        {
+          "Title": "Perfectionists",
+          "Text": "While this model is leading a unit, weapons equipped by models in that unit have the [LETHAL HITS] ability."
+        },
+        {
+          "Title": "Sickening Stimulation",
+          "Text": "While this model is leading a unit, in your Command phase, you can return 1 destroyed model (excluding Character models) to that unit."
+        }
+      ],
+      "LeaderInfo": {
+        "UnitNames": [
+          "FLAWLESS BLADES"
+        ],
+        "Abilities": [
+          {
+            "AbilityId": "Obsessive Annunciation",
+            "WeaponStatAdjustments": [
+              {
+                "Value": "SUSTAINED HITS 1",
+                "Type": "Add",
+                "Scope": "Unit",
+                "Target": "Keywords",
+                "WeaponScope": "Ranged"
+              }
+            ]
+          },
+          {
+            "AbilityId": "Perfectionists",
+            "WeaponStatAdjustments": [
+              {
+                "Value": "LETHAL HITS",
+                "Type": "Add",
+                "Scope": "Unit",
+                "Target": "Keywords",
+                "WeaponScope": "All"
+              }
+            ]
+          },
+          {
+            "AbilityId": "Sickening Stimulation"
+          }
+        ]
+      },
+      "Infos": [],
+      "Keywords": [
+        "Infantry",
+        "Character",
+        "Grenades",
+        "Chaos",
+        "Slaanesh",
+        "Flawless Champion"
+      ],
+      "CoreAbilities": [
+        "Crucible",
+        "Leader",
+        "Lone Operative"
+      ],
+      "FactionKeywords": [
+        "Emperor's Children"
+      ],
+      "StatLines": [
+        {
+          "Movement": "8\"",
+          "Toughness": "5",
+          "Save": "3+",
+          "Wounds": "5",
+          "Leadership": "6+",
+          "OC": "1",
+          "InvulSave": {
+            "Save": "5+"
+          }
+        }
+      ],
+      "Weapons": [
+        {
+          "Name": "RANGED WEAPONS",
+          "Weapons": [
+            {
+              "Name": "Blastmaster – single frequency",
+              "Keywords": "IGNORES COVER",
+              "Range": "18\"",
+              "Attacks": "3",
+              "ToHit": "2+",
+              "Strength": "10",
+              "AP": "-2",
+              "Damage": "3"
+            },
+            {
+              "Name": "Blastmaster – varied frequency",
+              "Keywords": "IGNORES COVER",
+              "Range": "18\"",
+              "Attacks": "6",
+              "ToHit": "2+",
+              "Strength": "6",
+              "AP": "-2",
+              "Damage": "1"
+            },
+            {
+              "Name": "Boltgun",
+              "Keywords": "PRECISION",
+              "Range": "24\"",
+              "Attacks": "2",
+              "ToHit": "2+",
+              "Strength": "4",
+              "AP": "0",
+              "Damage": "1"
+            },
+            {
+              "Name": "Combi-bolter",
+              "Keywords": "RAPID FIRE 2",
+              "Range": "24\"",
+              "Attacks": "2",
+              "ToHit": "2+",
+              "Strength": "4",
+              "AP": "0",
+              "Damage": "1"
+            },
+            {
+              "Name": "Combi-weapon",
+              "Keywords": "ANTI-INFANTRY 4+, DEVASTATING WOUNDS, RAPID FIRE 1",
+              "Range": "24\"",
+              "Attacks": "1",
+              "ToHit": "3+",
+              "Strength": "4",
+              "AP": "0",
+              "Damage": "1"
+            },
+            {
+              "Name": "Heavy flamer",
+              "Keywords": "IGNORES COVER, TORRENT",
+              "Range": "12\"",
+              "Attacks": "D6",
+              "ToHit": "N/A",
+              "Strength": "5",
+              "AP": "-1",
+              "Damage": "1"
+            },
+            {
+              "Name": "Meltagun",
+              "Keywords": "MELTA 2, PRECISION",
+              "Range": "12\"",
+              "Attacks": "1",
+              "ToHit": "2+",
+              "Strength": "8",
+              "AP": "-3",
+              "Damage": "2"
+            },
+            {
+              "Name": "Plasma gun – standard",
+              "Keywords": "PRECISION, RAPID FIRE 1",
+              "Range": "24\"",
+              "Attacks": "1",
+              "ToHit": "2+",
+              "Strength": "7",
+              "AP": "-2",
+              "Damage": "1"
+            },
+            {
+              "Name": "Plasma gun – supercharge",
+              "Keywords": "HAZARDOUS, PRECISION, RAPID FIRE 1",
+              "Range": "24\"",
+              "Attacks": "1",
+              "ToHit": "2+",
+              "Strength": "8",
+              "AP": "-3",
+              "Damage": "2"
+            },
+            {
+              "Name": "Reaper autocannon",
+              "Keywords": "DEVASTATING WOUNDS, SUSTAINED HITS 1",
+              "Range": "36\"",
+              "Attacks": "4",
+              "ToHit": "2+",
+              "Strength": "7",
+              "AP": "-1",
+              "Damage": "1"
+            },
+            {
+              "Name": "Sonic blaster",
+              "Keywords": "IGNORES COVER",
+              "Range": "18\"",
+              "Attacks": "3",
+              "ToHit": "2+",
+              "Strength": "5",
+              "AP": "-1",
+              "Damage": "2"
+            },
+            {
+              "Name": "Bolt pistol",
+              "Keywords": "PISTOL",
+              "Range": "12\"",
+              "Attacks": "1",
+              "ToHit": "2+",
+              "Strength": "4",
+              "AP": "0",
+              "Damage": "1"
+            },
+            {
+              "Name": "Plasma pistol – standard",
+              "Keywords": "PISTOL",
+              "Range": "12\"",
+              "Attacks": "1",
+              "ToHit": "2+",
+              "Strength": "7",
+              "AP": "-2",
+              "Damage": "1"
+            },
+            {
+              "Name": "Plasma pistol – supercharge",
+              "Keywords": "HAZARDOUS, PISTOL",
+              "Range": "12\"",
+              "Attacks": "1",
+              "ToHit": "2+",
+              "Strength": "8",
+              "AP": "-3",
+              "Damage": "2"
+            },
+            {
+              "Name": "Screamer pistol",
+              "Keywords": "IGNORES COVER, PISTOL",
+              "Range": "12\"",
+              "Attacks": "3",
+              "ToHit": "2+",
+              "Strength": "5",
+              "AP": "-1",
+              "Damage": "2"
+            }
+          ]
+        },
+        {
+          "IsMelee": true,
+          "Name": "MELEE WEAPONS",
+          "Weapons": [
+            {
+              "Name": "Blissblade",
+              "Range": "Melee",
+              "Attacks": "4",
+              "ToHit": "2+",
+              "Strength": "6",
+              "AP": "-3",
+              "Damage": "2"
+            },
+            {
+              "Name": "Chainfist",
+              "Keywords": "ANTI-VEHICLE 3+",
+              "Range": "Melee",
+              "Attacks": "5",
+              "ToHit": "3+",
+              "Strength": "8",
+              "AP": "-2",
+              "Damage": "2"
+            },
+            {
+              "Name": "Close-combat weapon",
+              "Range": "Melee",
+              "Attacks": "6",
+              "ToHit": "2+",
+              "Strength": "4",
+              "AP": "0",
+              "Damage": "1"
+            },
+            {
+              "Name": "Duelling sabre",
+              "Keywords": "PRECISION",
+              "Range": "Melee",
+              "Attacks": "5",
+              "ToHit": "3+",
+              "Strength": "4",
+              "AP": "-1",
+              "Damage": "1"
+            },
+            {
+              "Name": "Master-crafted power sword",
+              "Keywords": "PRECISION",
+              "Range": "Melee",
+              "Attacks": "5",
+              "ToHit": "2+",
+              "Strength": "5",
+              "AP": "-2",
+              "Damage": "2"
+            },
+            {
+              "Name": "Paired accursed weapons",
+              "Keywords": "TWIN-LINKED",
+              "Range": "Melee",
+              "Attacks": "6",
+              "ToHit": "2+",
+              "Strength": "5",
+              "AP": "-2",
+              "Damage": "1"
+            },
+            {
+              "Name": "Phoenix power spear",
+              "Keywords": "LANCE",
+              "Range": "Melee",
+              "Attacks": "5",
+              "ToHit": "2+",
+              "Strength": "7",
+              "AP": "-2",
+              "Damage": "2"
+            },
+            {
+              "Name": "Power fist",
+              "Range": "Melee",
+              "Attacks": "5",
+              "ToHit": "2+",
+              "Strength": "8",
+              "AP": "-2",
+              "Damage": "2"
+            },
+            {
+              "Name": "Power weapon",
+              "Range": "Melee",
+              "Attacks": "6",
+              "ToHit": "2+",
+              "Strength": "5",
+              "AP": "-2",
+              "Damage": "1"
+            },
+            {
+              "Name": "Rapture lash",
+              "Keywords": "EXTRA ATTACKS",
+              "Range": "Melee",
+              "Attacks": "4",
+              "ToHit": "2+",
+              "Strength": "4",
+              "AP": "-1",
+              "Damage": "1"
+            }
+          ]
+        }
+      ],
+      "Upgrades": [],
+      "Points": [
+        {
+          "ModelCount": 1,
+          "Cost": 100
+        }
+      ]
+    }
+  ],
+  "Dettachments": [],
+  "ArmyRules": []
+}

@@ -1,0 +1,4474 @@
+{
+  "Name": "Tau Empire",
+  "Units": [
+    {
+      "Name": "ORCA DROPSHIP",
+      "Faction": "For the Greater Good",
+      "UnitComposition": {
+        "ModelCompositions": [
+          {
+            "ModelName": "Orca Dropship",
+            "Wargear": [
+              {
+                "InitalWargear": [
+                  "2 long-barrelled burst cannons",
+                  "missile pod",
+                  "armoured hull"
+                ],
+                "Options": []
+              }
+            ]
+          }
+        ],
+        "WargearDefinitions": []
+      },
+      "UnitAbilities": [
+        {
+          "Title": "Jet Pack Insertion",
+          "Text": "At the end of your opponent’s Movement phase, one or more units embarked within this Transport can disembark from it, provided every model in each of those disembarking units has the Deep Strike ability."
+        }
+      ],
+      "Infos": [
+        {
+          "Title": "DAMAGED: 1-9 WOUNDS REMAINING",
+          "Text": "While this model has 1-9 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
+        },
+        {
+          "Title": "TRANSPORT",
+          "Text": "This model has a transport capacity of 48 T’au Empire Infantry models. This model can also transport up to 6 Battlesuit models (these models take up the space of a number of models equal to their Wounds characteristic, e.g. a Battlesuit with a Wounds characteristic of 8 would take up the space of 8 models). This model cannot transport Kroot or Vespid Stingwings models."
+        }
+      ],
+      "Keywords": [
+        "Vehicle",
+        "Aircraft",
+        "Fly",
+        "Titanic",
+        "Transport",
+        "Orca Dropship",
+        "Frame"
+      ],
+      "CoreAbilities": [
+        "Deadly Demise D6+2",
+        "Hover"
+      ],
+      "FactionKeywords": [
+        "Tau Empire"
+      ],
+      "StatLines": [
+        {
+          "Movement": "-",
+          "Toughness": "12",
+          "Save": "3+",
+          "Wounds": "28",
+          "Leadership": "7+",
+          "OC": "-"
+        }
+      ],
+      "Weapons": [
+        {
+          "Name": "RANGED WEAPONS",
+          "Weapons": [
+            {
+              "Name": "Long-barrelled burst cannon",
+              "Range": "36\"",
+              "Attacks": "4",
+              "ToHit": "4+",
+              "Strength": "5",
+              "AP": "0",
+              "Damage": "1"
+            },
+            {
+              "Name": "Missile pod",
+              "Range": "30\"",
+              "Attacks": "2",
+              "ToHit": "4+",
+              "Strength": "7",
+              "AP": "-1",
+              "Damage": "2"
+            }
+          ]
+        },
+        {
+          "IsMelee": true,
+          "Name": "MELEE WEAPONS",
+          "Weapons": [
+            {
+              "Name": "Armoured hull",
+              "Range": "Melee",
+              "Attacks": "3",
+              "ToHit": "5+",
+              "Strength": "8",
+              "AP": "0",
+              "Damage": "1"
+            }
+          ]
+        }
+      ],
+      "Upgrades": [],
+      "Points": [
+        {
+          "ModelCount": 1,
+          "Cost": 275
+        }
+      ]
+    },
+    {
+      "Name": "HEAVY GUN DRONES",
+      "UnitComposition": {
+        "ModelCompositions": [
+          {
+            "Limit": {
+              "Min": 2,
+              "Max": 2
+            },
+            "ModelName": "Heavy Gun Drones",
+            "Wargear": [
+              {
+                "InitalWargear": [
+                  "burst cannon",
+                  "markerlight",
+                  "close combat weapon"
+                ],
+                "Options": [
+                  {
+                    "Replaces": [
+                      "burst cannon",
+                      "markerlight"
+                    ],
+                    "Options": [
+                      "twin burst cannon"
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "WargearDefinitions": [
+          {
+            "Key": "markerlight",
+            "GrantsAbilities": [
+              "Markerlight"
+            ]
+          }
+        ]
+      },
+      "UnitAbilities": [
+        {
+          "Title": "Markerlight",
+          "Text": "The bearer has the Markerlight keyword."
+        },
+        {
+          "Title": "Drone Escort",
+          "Text": "Once per turn, in your opponent’s Shooting phase, when a friendly T'au Empire unit within 6\" of this unit is selected as the target of an attack, one unit from your army with this ability can use it. If it does, after that enemy unit has finished making its attacks, the unit using this ability can shoot as if it were your Shooting phase, but when resolving those attacks it can only target that enemy unit (and only if it is an eligible target)."
+        }
+      ],
+      "Infos": [],
+      "Keywords": [
+        "Vehicle",
+        "Fly",
+        "Heavy Gun Drones"
+      ],
+      "CoreAbilities": [],
+      "FactionKeywords": [
+        "Tau Empire"
+      ],
+      "StatLines": [
+        {
+          "Movement": "8\"",
+          "Toughness": "5",
+          "Save": "4+",
+          "Wounds": "2",
+          "Leadership": "8+",
+          "OC": "0"
+        }
+      ],
+      "Weapons": [
+        {
+          "Name": "RANGED WEAPONS",
+          "Weapons": [
+            {
+              "Name": "Burst cannon",
+              "Range": "18\"",
+              "Attacks": "4",
+              "ToHit": "4+",
+              "Strength": "5",
+              "AP": "0",
+              "Damage": "1"
+            },
+            {
+              "Name": "Twin burst cannon",
+              "Keywords": "TWIN-LINKED",
+              "Range": "18\"",
+              "Attacks": "4",
+              "ToHit": "5+",
+              "Strength": "5",
+              "AP": "0",
+              "Damage": "1"
+            }
+          ]
+        },
+        {
+          "IsMelee": true,
+          "Name": "MELEE WEAPONS",
+          "Weapons": [
+            {
+              "Name": "Close combat weapon",
+              "Range": "Melee",
+              "Attacks": "1",
+              "ToHit": "6+",
+              "Strength": "3",
+              "AP": "0",
+              "Damage": "1"
+            }
+          ]
+        }
+      ],
+      "Upgrades": [],
+      "Points": [
+        {
+          "ModelCount": 2,
+          "Cost": 45
+        }
+      ]
+    },
+    {
+      "Name": "GREAT KNARLOC",
+      "UnitComposition": {
+        "ModelCompositions": [
+          {
+            "ModelName": "Great Knarloc",
+            "Wargear": [
+              {
+                "InitalWargear": [
+                  "Great Knarloc beak & talons"
+                ],
+                "Options": [
+                  {
+                    "Options": [
+                      "Kroot bolt thrower and Kroot rifle",
+                      "twin Kroot gun",
+                      "baggage harness"
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "WargearDefinitions": []
+      },
+      "UnitAbilities": [
+        {
+          "Title": "Baggage Harness (Aura)",
+          "Text": "While a friendly Kroot unit is within 3\" of the bearer, ranged weapons equipped by models in that unit have the [SUSTAINED HITS 1] ability."
+        },
+        {
+          "Title": "Loping Stride",
+          "Text": "Each time this model Advances, do not make an Advance roll for it. Instead, until the end of the phase, add 6\" to the Move characteristic of this model."
+        }
+      ],
+      "Infos": [],
+      "Keywords": [
+        "Monster",
+        "Kroot",
+        "Great Knarloc",
+        "Frame"
+      ],
+      "CoreAbilities": [
+        "Scouts 7\""
+      ],
+      "FactionKeywords": [
+        "Tau Empire"
+      ],
+      "StatLines": [
+        {
+          "Movement": "9\"",
+          "Toughness": "8",
+          "Save": "4+",
+          "Wounds": "10",
+          "Leadership": "7+",
+          "OC": "3"
+        }
+      ],
+      "Weapons": [
+        {
+          "Name": "RANGED WEAPONS",
+          "Weapons": [
+            {
+              "Name": "Kroot bolt thrower",
+              "Keywords": "HOOKED",
+              "Range": "12\"",
+              "Attacks": "1",
+              "ToHit": "4+",
+              "Strength": "12",
+              "AP": "-2",
+              "Damage": "3"
+            },
+            {
+              "Name": "Kroot rifle",
+              "Keywords": "RAPID FIRE 1",
+              "Range": "24\"",
+              "Attacks": "1",
+              "ToHit": "4+",
+              "Strength": "4",
+              "AP": "0",
+              "Damage": "1"
+            },
+            {
+              "Name": "Twin Kroot gun",
+              "Keywords": "TWIN-LINKED",
+              "Range": "36\"",
+              "Attacks": "2",
+              "ToHit": "4+",
+              "Strength": "7",
+              "AP": "0",
+              "Damage": "2"
+            }
+          ]
+        },
+        {
+          "IsMelee": true,
+          "Name": "MELEE WEAPONS",
+          "Weapons": [
+            {
+              "Name": "Great Knarloc beak & talons",
+              "Keywords": "EXTRA ATTACKS",
+              "Range": "Melee",
+              "Attacks": "4",
+              "ToHit": "3+",
+              "Strength": "7",
+              "AP": "-1",
+              "Damage": "3"
+            },
+            {
+              "Name": "Kroot rifle",
+              "Range": "Melee",
+              "Attacks": "2",
+              "ToHit": "3+",
+              "Strength": "4",
+              "AP": "0",
+              "Damage": "1"
+            }
+          ]
+        }
+      ],
+      "Upgrades": [],
+      "Points": [
+        {
+          "ModelCount": 1,
+          "Cost": 100
+        }
+      ]
+    },
+    {
+      "Name": "TX42 PIRANHA",
+      "Faction": "For the Greater Good",
+      "UnitComposition": {
+        "ModelCompositions": [
+          {
+            "ModelName": "TX42 Piranha",
+            "Wargear": [
+              {
+                "InitalWargear": [
+                  "2 plasma rifles",
+                  "armoured hull"
+                ],
+                "Options": [
+                  {
+                    "Replaces": [
+                      "2 plasma rifles"
+                    ],
+                    "Options": [
+                      "2 fusion blasters",
+                      "2 missile pods",
+                      "2 rail rifles"
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "WargearDefinitions": []
+      },
+      "UnitAbilities": [
+        {
+          "Title": "Outflank",
+          "Text": "When this unit arrives from Strategic Reserves, it can be set up within your opponent’s deployment zone (all other restrictions still apply)."
+        }
+      ],
+      "Infos": [],
+      "Keywords": [
+        "Vehicle",
+        "Fly",
+        "TX42 Piranha",
+        "Frame"
+      ],
+      "CoreAbilities": [
+        "Deadly Demise 1",
+        "Scouts 9\""
+      ],
+      "FactionKeywords": [
+        "Tau Empire"
+      ],
+      "StatLines": [
+        {
+          "Movement": "14\"",
+          "Toughness": "7",
+          "Save": "4+",
+          "Wounds": "7",
+          "Leadership": "7+",
+          "OC": "2"
+        }
+      ],
+      "Weapons": [
+        {
+          "Name": "RANGED WEAPONS",
+          "Weapons": [
+            {
+              "Name": "Fusion blaster",
+              "Keywords": "MELTA 2",
+              "Range": "12\"",
+              "Attacks": "1",
+              "ToHit": "4+",
+              "Strength": "9",
+              "AP": "-4",
+              "Damage": "D6"
+            },
+            {
+              "Name": "Missile pod",
+              "Range": "30\"",
+              "Attacks": "2",
+              "ToHit": "4+",
+              "Strength": "7",
+              "AP": "-1",
+              "Damage": "2"
+            },
+            {
+              "Name": "Plasma rifle",
+              "Range": "24\"",
+              "Attacks": "1",
+              "ToHit": "4+",
+              "Strength": "8",
+              "AP": "-3",
+              "Damage": "3"
+            },
+            {
+              "Name": "Rail rifle",
+              "Keywords": "DEVASTATING WOUNDS",
+              "Range": "30\"",
+              "Attacks": "1",
+              "ToHit": "4+",
+              "Strength": "10",
+              "AP": "-4",
+              "Damage": "3"
+            }
+          ]
+        },
+        {
+          "IsMelee": true,
+          "Name": "MELEE WEAPONS",
+          "Weapons": [
+            {
+              "Name": "Armoured hull",
+              "Range": "Melee",
+              "Attacks": "2",
+              "ToHit": "5+",
+              "Strength": "4",
+              "AP": "0",
+              "Damage": "1"
+            }
+          ]
+        }
+      ],
+      "Upgrades": [],
+      "Points": [
+        {
+          "ModelCount": 1,
+          "Cost": 60
+        }
+      ]
+    },
+    {
+      "Name": "KNARLOC RIDERS",
+      "UnitComposition": {
+        "ModelCompositions": [
+          {
+            "Limit": {
+              "Min": 3,
+              "Max": 3
+            },
+            "ModelName": "Knarloc Riders",
+            "Wargear": [
+              {
+                "InitalWargear": [
+                  "Kroot rifle",
+                  "Knarloc beak & talons"
+                ],
+                "Options": []
+              }
+            ]
+          }
+        ],
+        "WargearDefinitions": []
+      },
+      "UnitAbilities": [
+        {
+          "Title": "Thunderous Pounce",
+          "Text": "Each time this unit ends a Charge move, until the end of the turn, Knarloc beak and talons equipped by models in this unit have the [LANCE] ability."
+        }
+      ],
+      "Infos": [],
+      "Keywords": [
+        "Mounted",
+        "Kroot",
+        "Knarloc Riders"
+      ],
+      "CoreAbilities": [
+        "Scouts 7\"",
+        "Stealth"
+      ],
+      "FactionKeywords": [
+        "Tau Empire"
+      ],
+      "StatLines": [
+        {
+          "Movement": "7\"",
+          "Toughness": "5",
+          "Save": "5+",
+          "Wounds": "4",
+          "Leadership": "7+",
+          "OC": "2"
+        }
+      ],
+      "Weapons": [
+        {
+          "Name": "RANGED WEAPONS",
+          "Weapons": [
+            {
+              "Name": "Kroot rifle",
+              "Keywords": "RAPID FIRE 1",
+              "Range": "24\"",
+              "Attacks": "1",
+              "ToHit": "4+",
+              "Strength": "4",
+              "AP": "0",
+              "Damage": "1"
+            }
+          ]
+        },
+        {
+          "IsMelee": true,
+          "Name": "MELEE WEAPONS",
+          "Weapons": [
+            {
+              "Name": "Knarloc beak & talons",
+              "Keywords": "EXTRA ATTACKS",
+              "Range": "Melee",
+              "Attacks": "4",
+              "ToHit": "3+",
+              "Strength": "6",
+              "AP": "-1",
+              "Damage": "1"
+            },
+            {
+              "Name": "Kroot rifle",
+              "Range": "Melee",
+              "Attacks": "2",
+              "ToHit": "3+",
+              "Strength": "4",
+              "AP": "0",
+              "Damage": "1"
+            }
+          ]
+        }
+      ],
+      "Upgrades": [],
+      "Points": [
+        {
+          "ModelCount": 3,
+          "Cost": 110
+        }
+      ]
+    },
+    {
+      "Name": "SHAS'O R'ALAI",
+      "Faction": "For the Greater Good",
+      "UnitComposition": {
+        "ModelCompositions": [
+          {
+            "ModelName": "Shas'o R'alai",
+            "Wargear": [
+              {
+                "InitalWargear": [
+                  "experimental pulse submunitions rifle",
+                  "battlesuit fists",
+                  "blacklight marker drones"
+                ],
+                "Options": []
+              }
+            ]
+          }
+        ],
+        "WargearDefinitions": [
+          {
+            "Key": "blacklight marker drones",
+            "GrantsAbilities": [
+              "Blacklight Marker Drones"
+            ]
+          }
+        ]
+      },
+      "UnitAbilities": [
+        {
+          "Title": "Blacklight Marker Drones",
+          "Text": "Twice per battle, when this unit is an Observer unit, until the end of the phase, each time a ranged attack is made by a model in their Guided unit that targets their Spotted unit, re-roll a Wound roll of 1."
+        },
+        {
+          "Title": "Designer’s Note",
+          "Text": "Place two Blacklight Marker Drone tokens next to this model, removing one each time this ability has been used."
+        },
+        {
+          "Title": "Eclipse Field Generator",
+          "Text": "While this model is leading a unit, models in that unit have a 5+ invulnerable save."
+        },
+        {
+          "Title": "Assassin",
+          "Text": "Each time this model makes an attack that targets a Character unit, you can re-roll the Hit roll."
+        }
+      ],
+      "LeaderInfo": {
+        "UnitNames": [
+          "XV9 HAZARD BATTLESUITS"
+        ],
+        "Abilities": [
+          {
+            "AbilityId": "Eclipse Field Generator",
+            "StatAdjustments": [
+              {
+                "Target": "InvulSave",
+                "Scope": "Unit",
+                "Value": "5+"
+              }
+            ]
+          }
+        ]
+      },
+      "Infos": [],
+      "Keywords": [
+        "Vehicle",
+        "Walker",
+        "Fly",
+        "Character",
+        "Markerlight",
+        "Epic Hero",
+        "Battlesuit",
+        "Shas'o R'alai"
+      ],
+      "CoreAbilities": [
+        "Deep Strike",
+        "Leader"
+      ],
+      "FactionKeywords": [
+        "Tau Empire"
+      ],
+      "StatLines": [
+        {
+          "Movement": "8\"",
+          "Toughness": "6",
+          "Save": "3+",
+          "Wounds": "6",
+          "Leadership": "7+",
+          "OC": "2",
+          "InvulSave": {
+            "Save": "4+"
+          }
+        }
+      ],
+      "Weapons": [
+        {
+          "Name": "RANGED WEAPONS",
+          "Weapons": [
+            {
+              "Name": "Experimental pulse submunitions rifle – EMP",
+              "Keywords": "ANTI-VEHICLE 3+, DEVASTATING WOUNDS",
+              "Range": "24\"",
+              "Attacks": "1",
+              "ToHit": "3+",
+              "Strength": "1",
+              "AP": "0",
+              "Damage": "3"
+            },
+            {
+              "Name": "Experimental pulse submunitions rifle – ionic cluster-beam shell",
+              "Keywords": "BLAST",
+              "Range": "24\"",
+              "Attacks": "D6",
+              "ToHit": "3+",
+              "Strength": "6",
+              "AP": "-1",
+              "Damage": "1"
+            }
+          ]
+        },
+        {
+          "IsMelee": true,
+          "Name": "MELEE WEAPONS",
+          "Weapons": [
+            {
+              "Name": "Battlesuit fists",
+              "Range": "Melee",
+              "Attacks": "3",
+              "ToHit": "4+",
+              "Strength": "5",
+              "AP": "0",
+              "Damage": "1"
+            }
+          ]
+        }
+      ],
+      "Upgrades": [],
+      "Points": [
+        {
+          "ModelCount": 1,
+          "Cost": 80
+        }
+      ]
+    },
+    {
+      "Name": "XV9 HAZARD BATTLESUITS",
+      "Faction": "For the Greater Good",
+      "UnitComposition": {
+        "ModelCompositions": [
+          {
+            "Limit": {
+              "Min": 1,
+              "Max": 2
+            },
+            "ModelName": "XV9 Hazard Battlesuits",
+            "Wargear": [
+              {
+                "InitalWargear": [
+                  "fusion cascade",
+                  "twin hazard burst cannon",
+                  "battlesuit fists"
+                ],
+                "Options": [
+                  {
+                    "Replaces": [
+                      "fusion cascade"
+                    ],
+                    "Options": [
+                      "phased ion gun",
+                      "twin hazard burst cannon"
+                    ]
+                  },
+                  {
+                    "Replaces": [
+                      "twin hazard burst cannon"
+                    ],
+                    "Options": [
+                      "fusion cascade",
+                      "phased ion gun"
+                    ]
+                  },
+                  {
+                    "Options": [
+                      "battlesuit support system",
+                      "shield generator",
+                      "weapon support system"
+                    ]
+                  },
+                  {
+                    "Options": [
+                      "gun drone twin pulse carbine",
+                      "marker drone",
+                      "shield drone"
+                    ]
+                  },
+                  {
+                    "Options": [
+                      "gun drone twin pulse carbine",
+                      "marker drone",
+                      "shield drone"
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "WargearDefinitions": [
+          {
+            "Key": "battlesuit support system",
+            "GrantsAbilities": [
+              "Battlesuit Support System"
+            ]
+          },
+          {
+            "Key": "shield generator",
+            "GrantsAbilities": [
+              "Shield Generator"
+            ],
+            "StatAdjustments": [
+              {
+                "Target": "InvulSave",
+                "Value": "4+",
+                "Info": "Shield Generator only"
+              }
+            ]
+          },
+          {
+            "Key": "weapon support system",
+            "GrantsAbilities": [
+              "Weapon Support System"
+            ]
+          },
+          {
+            "Key": "marker drone",
+            "GrantsAbilities": [
+              "Marker Drone"
+            ]
+          },
+          {
+            "Key": "shield drone",
+            "GrantsAbilities": [
+              "Shield Drone"
+            ],
+            "StatAdjustments": [
+              {
+                "Target": "Wounds",
+                "Type": "Add",
+                "Value": "1"
+              }
+            ]
+          }
+        ]
+      },
+      "UnitAbilities": [
+        {
+          "Title": "Battlesuit Support System",
+          "Text": "The bearer’s unit is eligible to shoot in a turn in which it Fell Back, but when doing so only models equipped with this wargear can make ranged attacks."
+        },
+        {
+          "Title": "Shield Generator",
+          "Text": "The bearer has a 4+ invulnerable save."
+        },
+        {
+          "Title": "Weapon Support System",
+          "Text": "Each time the bearer makes a ranged attack, you can ignore any or all modifiers to the Hit roll."
+        },
+        {
+          "Title": "Photon Casters",
+          "Text": "In your Shooting phase, after this unit has shot, if an enemy Infantry unit was hit by one or more of those attacks, until the end of your opponent’s next turn, that enemy unit is stunned. While a unit is stunned, subtract 2 from that unit’s Move characteristic, and subtract 2 from Advance and Charge rolls made for that unit."
+        },
+        {
+          "Title": "Marker Drone",
+          "Text": "The bearer’s unit has the Markerlight keyword and can act as an Observer unit for another unit even if it Advanced this turn."
+        },
+        {
+          "Title": "Shield Drone",
+          "Text": "Add 1 to the bearer’s Wounds characteristic"
+        }
+      ],
+      "Infos": [],
+      "Keywords": [
+        "Vehicle",
+        "Walker",
+        "Fly",
+        "Battlesuit",
+        "XV9 Hazard"
+      ],
+      "CoreAbilities": [
+        "Deep Strike"
+      ],
+      "FactionKeywords": [
+        "Tau Empire"
+      ],
+      "StatLines": [
+        {
+          "Movement": "8\"",
+          "Toughness": "6",
+          "Save": "3+",
+          "Wounds": "4",
+          "Leadership": "7+",
+          "OC": "2"
+        }
+      ],
+      "Weapons": [
+        {
+          "Name": "RANGED WEAPONS",
+          "Weapons": [
+            {
+              "Name": "Fusion cascade",
+              "Keywords": "MELTA 4",
+              "Range": "12\"",
+              "Attacks": "1",
+              "ToHit": "4+",
+              "Strength": "9",
+              "AP": "-4",
+              "Damage": "D6"
+            },
+            {
+              "Name": "Phased ion gun",
+              "Range": "30\"",
+              "Attacks": "4",
+              "ToHit": "4+",
+              "Strength": "6",
+              "AP": "-1",
+              "Damage": "1"
+            },
+            {
+              "Name": "Twin hazard burst cannon",
+              "Keywords": "TWIN-LINKED",
+              "Range": "24\"",
+              "Attacks": "4",
+              "ToHit": "4+",
+              "Strength": "5",
+              "AP": "0",
+              "Damage": "1"
+            },
+            {
+              "Name": "Gun drone twin pulse carbine",
+              "Keywords": "ASSAULT, TWIN-LINKED",
+              "Range": "20\"",
+              "Attacks": "2",
+              "ToHit": "5+",
+              "Strength": "5",
+              "AP": "0",
+              "Damage": "1"
+            }
+          ]
+        },
+        {
+          "IsMelee": true,
+          "Name": "MELEE WEAPONS",
+          "Weapons": [
+            {
+              "Name": "Battlesuit fists",
+              "Range": "Melee",
+              "Attacks": "3",
+              "ToHit": "5+",
+              "Strength": "5",
+              "AP": "0",
+              "Damage": "1"
+            }
+          ]
+        }
+      ],
+      "Upgrades": [],
+      "Points": [
+        {
+          "ModelCount": 1,
+          "Cost": 55
+        },
+        {
+          "ModelCount": 2,
+          "Cost": 110
+        }
+      ]
+    },
+    {
+      "Name": "REMOTE SENSOR TOWER",
+      "UnitComposition": {
+        "ModelCompositions": [
+          {
+            "ModelName": "Remote Sensor Tower",
+            "Wargear": [
+              {
+                "InitalWargear": [],
+                "Options": []
+              }
+            ]
+          }
+        ],
+        "WargearDefinitions": []
+      },
+      "UnitAbilities": [
+        {
+          "Title": "Orbital Comms Array (Aura)",
+          "Text": "While a friendly T'au Empire unit is within 6\" of this Fortification, each time you target that unit with a Stratagem, roll one D6: on a 5+, you gain 1CP."
+        },
+        {
+          "Title": "Reinforced Cover",
+          "Text": "Each time a ranged attack is allocated to a model, if that model is not fully visible to every model in the attacking unit because of this Fortification, that model has the Benefit of Cover against that attack."
+        },
+        {
+          "Title": "Fortification",
+          "Text": "While an enemy unit is only within Engagement Range of one or more Fortifications from your army:\n\t▪ That unit can still be selected as the target of ranged attacks, but each time such an attack is made, unless it is made with a Pistol, subtract 1 from the Hit roll. \n\t▪ Models in that unit do not need to take Desperate Escape tests due to Falling Back while Battle-shocked, except for those that will move over enemy models when doing so."
+        }
+      ],
+      "Infos": [],
+      "Keywords": [
+        "Fortification",
+        "Remote Sensor Tower",
+        "Frame"
+      ],
+      "CoreAbilities": [],
+      "FactionKeywords": [
+        "Tau Empire"
+      ],
+      "StatLines": [
+        {
+          "Movement": "-",
+          "Toughness": "8",
+          "Save": "4+",
+          "Wounds": "4",
+          "Leadership": "8+",
+          "OC": "0"
+        }
+      ],
+      "Weapons": [],
+      "Upgrades": [],
+      "Points": [
+        {
+          "ModelCount": 1,
+          "Cost": 50
+        }
+      ]
+    },
+    {
+      "Name": "DRONE SENTRY TURRET",
+      "UnitComposition": {
+        "ModelCompositions": [
+          {
+            "ModelName": "Drone Sentry Turret",
+            "Wargear": [
+              {
+                "InitalWargear": [
+                  "twin plasma rifle"
+                ],
+                "Options": [
+                  {
+                    "Replaces": [
+                      "twin plasma rifle"
+                    ],
+                    "Options": [
+                      "twin burst cannon",
+                      "twin fusion blaster",
+                      "twin missile pod"
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "WargearDefinitions": []
+      },
+      "UnitAbilities": [
+        {
+          "Title": "Sentinel Protocols",
+          "Text": "Each time you select this Fortification for the Fire Overwatch Stratagem, hits are scored on unmodified Hit rolls of 5+ when resolving that Stratagem."
+        },
+        {
+          "Title": "Reinforced Cover",
+          "Text": "Each time a ranged attack is allocated to a model, if that model is not fully visible to every model in the attacking unit because of this Fortification, that model has the Benefit of Cover against that attack."
+        },
+        {
+          "Title": "Fortification",
+          "Text": "While an enemy unit is only within Engagement Range of one or more Fortifications from your army:\n\t▪ That unit can still be selected as the target of ranged attacks, but each time such an attack is made, unless it is made with a Pistol, subtract 1 from the Hit roll. \n\t▪ Models in that unit do not need to take Desperate Escape tests due to Falling Back while Battle-shocked, except for those that will move over enemy models when doing so."
+        }
+      ],
+      "Infos": [],
+      "Keywords": [
+        "Fortification",
+        "Vehicle",
+        "Drone Sentry Turret",
+        "Frame"
+      ],
+      "CoreAbilities": [],
+      "FactionKeywords": [
+        "Tau Empire"
+      ],
+      "StatLines": [
+        {
+          "Movement": "-",
+          "Toughness": "8",
+          "Save": "4+",
+          "Wounds": "4",
+          "Leadership": "8+",
+          "OC": "0"
+        }
+      ],
+      "Weapons": [
+        {
+          "Name": "RANGED WEAPONS",
+          "Weapons": [
+            {
+              "Name": "Twin burst cannon",
+              "Keywords": "TWIN-LINKED",
+              "Range": "18\"",
+              "Attacks": "4",
+              "ToHit": "5+",
+              "Strength": "5",
+              "AP": "0",
+              "Damage": "1"
+            },
+            {
+              "Name": "Twin fusion blaster",
+              "Keywords": "MELTA 2, TWIN-LINKED",
+              "Range": "12\"",
+              "Attacks": "1",
+              "ToHit": "5+",
+              "Strength": "9",
+              "AP": "-4",
+              "Damage": "D6"
+            },
+            {
+              "Name": "Twin missile pod",
+              "Keywords": "TWIN-LINKED",
+              "Range": "30\"",
+              "Attacks": "2",
+              "ToHit": "5+",
+              "Strength": "7",
+              "AP": "-1",
+              "Damage": "2"
+            },
+            {
+              "Name": "Twin plasma rifle",
+              "Keywords": "TWIN-LINKED",
+              "Range": "24\"",
+              "Attacks": "1",
+              "ToHit": "5+",
+              "Strength": "8",
+              "AP": "-3",
+              "Damage": "3"
+            }
+          ]
+        }
+      ],
+      "Upgrades": [],
+      "Points": [
+        {
+          "ModelCount": 1,
+          "Cost": 50
+        }
+      ]
+    },
+    {
+      "Name": "COMMANDER IN CRISIS BATTLESUIT",
+      "Faction": "For the Greater Good",
+      "UnitComposition": {
+        "ModelCompositions": [
+          {
+            "ModelName": "Commander in Crisis Battlesuit",
+            "Wargear": [
+              {
+                "InitalWargear": [
+                  "burst cannon",
+                  "battlesuit fists"
+                ],
+                "Options": [
+                  {
+                    "Options": [
+                      "shield generator"
+                    ]
+                  },
+                  {
+                    "Options": [
+                      "weapon support system"
+                    ]
+                  },
+                  {
+                    "Options": [
+                      "battlesuit support system"
+                    ]
+                  },
+                  {
+                    "Options": [
+                      "airbursting fragmentation projector"
+                    ]
+                  },
+                  {
+                    "Options": [
+                      "cyclic ion blaster"
+                    ]
+                  },
+                  {
+                    "Replaces": [
+                      "burst cannon"
+                    ],
+                    "Options": [
+                      "fusion blaster",
+                      "missile pod",
+                      "plasma rifle",
+                      "T’au flamer"
+                    ]
+                  },
+                  {
+                    "Options": [
+                      "burst cannon",
+                      "fusion blaster",
+                      "missile pod",
+                      "plasma rifle",
+                      "T’au flamer"
+                    ]
+                  },
+                  {
+                    "Options": [
+                      "burst cannon",
+                      "fusion blaster",
+                      "missile pod",
+                      "plasma rifle",
+                      "T’au flamer"
+                    ]
+                  },
+                  {
+                    "Options": [
+                      "burst cannon",
+                      "fusion blaster",
+                      "missile pod",
+                      "plasma rifle",
+                      "T’au flamer"
+                    ]
+                  },
+                  {
+                    "Options": [
+                      "gun drone twin pulse carbine",
+                      "marker drone",
+                      "shield drone"
+                    ]
+                  },
+                  {
+                    "Options": [
+                      "gun drone twin pulse carbine",
+                      "marker drone",
+                      "shield drone"
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "WargearDefinitions": [
+          {
+            "Key": "battlesuit support system",
+            "GrantsAbilities": [
+              "Battlesuit Support System"
+            ]
+          },
+          {
+            "Key": "shield generator",
+            "GrantsAbilities": [
+              "Shield Generator"
+            ],
+            "StatAdjustments": [
+              {
+                "Target": "InvulSave",
+                "Value": "4+",
+                "Info": "Shield Generator only"
+              }
+            ]
+          },
+          {
+            "Key": "weapon support system",
+            "GrantsAbilities": [
+              "Weapon Support System"
+            ]
+          },
+          {
+            "Key": "marker drone",
+            "GrantsAbilities": [
+              "Marker Drone"
+            ]
+          },
+          {
+            "Key": "shield drone",
+            "GrantsAbilities": [
+              "Shield Drone"
+            ],
+            "StatAdjustments": [
+              {
+                "Target": "Wounds",
+                "Type": "Add",
+                "Value": "1"
+              }
+            ]
+          }
+        ]
+      },
+      "UnitAbilities": [
+        {
+          "Title": "Battlesuit Support System",
+          "Text": "The bearer’s unit is eligible to shoot in a turn in which it Fell Back, but when doing so only models equipped with this wargear can make ranged attacks."
+        },
+        {
+          "Title": "Shield Generator",
+          "Text": "The bearer has a 4+ invulnerable save."
+        },
+        {
+          "Title": "Weapon Support System",
+          "Text": "Each time the bearer makes a ranged attack, you can ignore any or all modifiers to the Hit roll."
+        },
+        {
+          "Title": "Crisis Commander",
+          "Text": "While this model is leading a unit, each time a model in that unit makes a ranged attack, re-roll a Hit roll of 1."
+        },
+        {
+          "Title": "Marker Drone",
+          "Text": "The bearer’s unit has the Markerlight keyword and can act as an Observer unit for another unit even if it Advanced this turn."
+        },
+        {
+          "Title": "Shield Drone",
+          "Text": "Add 1 to the bearer’s Wounds characteristic"
+        }
+      ],
+      "LeaderInfo": {
+        "UnitNames": [
+          "CRISIS BATTLESUITS",
+          "CRISIS FIREKNIFE BATTLESUITS",
+          "CRISIS STARSCYTHE BATTLESUITS",
+          "CRISIS SUNFORGE BATTLESUITS"
+        ],
+        "Abilities": [
+          {
+            "AbilityId": "Crisis Commander"
+          }
+        ]
+      },
+      "Infos": [],
+      "Keywords": [
+        "Vehicle",
+        "Walker",
+        "Fly",
+        "Character",
+        "Battlesuit",
+        "Commander in Crisis Battlesuit"
+      ],
+      "CoreAbilities": [
+        "Deep Strike",
+        "Leader"
+      ],
+      "FactionKeywords": [
+        "Tau Empire"
+      ],
+      "StatLines": [
+        {
+          "Movement": "10\"",
+          "Toughness": "5",
+          "Save": "3+",
+          "Wounds": "5",
+          "Leadership": "7+",
+          "OC": "2"
+        }
+      ],
+      "Weapons": [
+        {
+          "Name": "RANGED WEAPONS",
+          "Weapons": [
+            {
+              "Name": "Airbursting fragmentation projector",
+              "Keywords": "BLAST, INDIRECT FIRE",
+              "Range": "24\"",
+              "Attacks": "D6",
+              "ToHit": "3+",
+              "Strength": "3",
+              "AP": "0",
+              "Damage": "1"
+            },
+            {
+              "Name": "Burst cannon",
+              "Range": "18\"",
+              "Attacks": "4",
+              "ToHit": "3+",
+              "Strength": "5",
+              "AP": "0",
+              "Damage": "1"
+            },
+            {
+              "Name": "Cyclic ion blaster – standard",
+              "Range": "18\"",
+              "Attacks": "3",
+              "ToHit": "3+",
+              "Strength": "7",
+              "AP": "-1",
+              "Damage": "1"
+            },
+            {
+              "Name": "Cyclic ion blaster – overcharge",
+              "Keywords": "HAZARDOUS",
+              "Range": "18\"",
+              "Attacks": "3",
+              "ToHit": "3+",
+              "Strength": "8",
+              "AP": "-2",
+              "Damage": "2"
+            },
+            {
+              "Name": "Fusion blaster",
+              "Keywords": "MELTA 2",
+              "Range": "12\"",
+              "Attacks": "1",
+              "ToHit": "3+",
+              "Strength": "9",
+              "AP": "-4",
+              "Damage": "D6"
+            },
+            {
+              "Name": "Missile pod",
+              "Range": "30\"",
+              "Attacks": "2",
+              "ToHit": "3+",
+              "Strength": "7",
+              "AP": "-1",
+              "Damage": "2"
+            },
+            {
+              "Name": "Plasma rifle",
+              "Range": "24\"",
+              "Attacks": "1",
+              "ToHit": "3+",
+              "Strength": "8",
+              "AP": "-3",
+              "Damage": "3"
+            },
+            {
+              "Name": "T’au flamer",
+              "Keywords": "IGNORES COVER, TORRENT",
+              "Range": "12\"",
+              "Attacks": "D6",
+              "ToHit": "N/A",
+              "Strength": "4",
+              "AP": "0",
+              "Damage": "1"
+            },
+            {
+              "Name": "Gun drone twin pulse carbine",
+              "Keywords": "ASSAULT, TWIN-LINKED",
+              "Range": "20\"",
+              "Attacks": "2",
+              "ToHit": "5+",
+              "Strength": "5",
+              "AP": "0",
+              "Damage": "1"
+            }
+          ]
+        },
+        {
+          "IsMelee": true,
+          "Name": "MELEE WEAPONS",
+          "Weapons": [
+            {
+              "Name": "Battlesuit fists",
+              "Range": "Melee",
+              "Attacks": "3",
+              "ToHit": "4+",
+              "Strength": "5",
+              "AP": "0",
+              "Damage": "1"
+            }
+          ]
+        }
+      ],
+      "Upgrades": [],
+      "Points": [
+        {
+          "ModelCount": 1,
+          "Cost": 80
+        }
+      ]
+    },
+    {
+      "Name": "AUN'VA",
+      "UnitComposition": {
+        "ModelCompositions": [
+          {
+            "ModelName": "Aun’Va",
+            "StatlineRef": "AUN’VA",
+            "Wargear": [
+              {
+                "InitalWargear": [
+                  "close combat weapon"
+                ],
+                "Options": []
+              }
+            ]
+          },
+          {
+            "Limit": {
+              "Min": 2,
+              "Max": 2
+            },
+            "ModelName": "Ethereal Guards",
+            "StatlineRef": "ETHEREAL GUARD",
+            "Wargear": [
+              {
+                "InitalWargear": [
+                  "supreme honour blade"
+                ],
+                "Options": []
+              }
+            ]
+          }
+        ],
+        "WargearDefinitions": []
+      },
+      "UnitAbilities": [
+        {
+          "Title": "Duality Shield",
+          "Text": "Once per battle, each time an attack targets this unit, it can use this ability. If it does, until the end of the phase, models in this unit have a 2+ invulnerable save."
+        },
+        {
+          "Title": "Paradox of Duality",
+          "Text": "Each time an attack targets this unit, subtract 1 from the Hit roll and subtract 1 from the Wound roll."
+        },
+        {
+          "Title": "Supreme Loyalty (Aura)",
+          "Text": "While a friendly T’au Empire unit is within 6\" of this unit, each time that unit takes a Battle-shock or Leadership test, add 1 to that test. 4+ INVULNERABLE SAVE"
+        }
+      ],
+      "Infos": [],
+      "Keywords": [
+        "All Models: Infantry",
+        "| AUN’VA: Character",
+        "Epic Hero",
+        "Ethereal",
+        "Aun’Va"
+      ],
+      "CoreAbilities": [
+        "Lone Operative"
+      ],
+      "FactionKeywords": [
+        "Tau Empire"
+      ],
+      "StatLines": [
+        {
+          "StatName": "AUN’VA",
+          "Movement": "6\"",
+          "Toughness": "3",
+          "Save": "5+",
+          "Wounds": "5",
+          "Leadership": "7+",
+          "OC": "1"
+        },
+        {
+          "StatName": "ETHEREAL GUARD",
+          "Movement": "6\"",
+          "Toughness": "3",
+          "Save": "5+",
+          "Wounds": "2",
+          "Leadership": "7+",
+          "OC": "1"
+        }
+      ],
+      "Weapons": [
+        {
+          "IsMelee": true,
+          "Name": "MELEE WEAPONS",
+          "Weapons": [
+            {
+              "Name": "Close combat weapon",
+              "Range": "Melee",
+              "Attacks": "1",
+              "ToHit": "6+",
+              "Strength": "2",
+              "AP": "0",
+              "Damage": "1"
+            },
+            {
+              "Name": "Supreme honour blade",
+              "Range": "Melee",
+              "Attacks": "3",
+              "ToHit": "3+",
+              "Strength": "5",
+              "AP": "0",
+              "Damage": "1"
+            }
+          ]
+        }
+      ],
+      "Upgrades": [],
+      "Points": [
+        {
+          "ModelCount": 3,
+          "Cost": 65
+        }
+      ]
+    },
+    {
+      "Name": "AUN'SHI",
+      "UnitComposition": {
+        "ModelCompositions": [
+          {
+            "ModelName": "Aun’Shi",
+            "Wargear": [
+              {
+                "InitalWargear": [
+                  "Fidelity"
+                ],
+                "Options": []
+              }
+            ]
+          }
+        ],
+        "WargearDefinitions": []
+      },
+      "UnitAbilities": [
+        {
+          "Title": "Inspirational Defiance",
+          "Text": "While this model is leading a unit, add 1 to the Objective Control characteristic of models in that unit."
+        },
+        {
+          "Title": "Martial Warrior",
+          "Text": "Each time this model is selected to fight, select one of the following abilities to be active while resolving those attacks:\n\t▪ Direct Grace: Fidelity has the [PRECISION] ability. \n\t▪ Forceful Strike: Fidelity has the [DEVASTATING WOUNDS] ability. \n\t▪ Whirling Stance: Fidelity has the [SUSTAINED HITS 2] ability instead of [SUSTAINED HITS 1]."
+        }
+      ],
+      "LeaderInfo": {
+        "UnitNames": [
+          "BREACHER TEAM",
+          "KROOT CARNIVORES",
+          "KROOT FARSTALKERS",
+          "STRIKE TEAM"
+        ],
+        "Abilities": [
+          {
+            "AbilityId": "Inspirational Defiance",
+            "StatAdjustments": [
+              {
+                "Target": "OC",
+                "Type": "Add",
+                "Scope": "Unit",
+                "Value": "1"
+              }
+            ]
+          }
+        ]
+      },
+      "Infos": [],
+      "Keywords": [
+        "Infantry",
+        "Character",
+        "Epic Hero",
+        "Ethereal",
+        "Aun’Shi"
+      ],
+      "CoreAbilities": [
+        "Leader"
+      ],
+      "FactionKeywords": [
+        "Tau Empire"
+      ],
+      "StatLines": [
+        {
+          "Movement": "6\"",
+          "Toughness": "3",
+          "Save": "6+",
+          "Wounds": "3",
+          "Leadership": "7+",
+          "OC": "1",
+          "InvulSave": {
+            "Save": "5+"
+          }
+        }
+      ],
+      "Weapons": [
+        {
+          "IsMelee": true,
+          "Name": "MELEE WEAPONS",
+          "Weapons": [
+            {
+              "Name": "Fidelity",
+              "Keywords": "SUSTAINED HITS 1",
+              "Range": "Melee",
+              "Attacks": "6",
+              "ToHit": "3+",
+              "Strength": "5",
+              "AP": "-1",
+              "Damage": "2"
+            }
+          ]
+        }
+      ],
+      "Upgrades": [],
+      "Points": [
+        {
+          "ModelCount": 1,
+          "Cost": 50
+        }
+      ]
+    },
+    {
+      "Name": "LONGSTRIKE",
+      "Faction": "For the Greater Good",
+      "UnitComposition": {
+        "ModelCompositions": [
+          {
+            "ModelName": "Longstrike",
+            "Wargear": [
+              {
+                "InitalWargear": [
+                  "2 twin pulse carbines",
+                  "railgun",
+                  "armoured hull"
+                ],
+                "Options": [
+                  {
+                    "Replaces": [
+                      "railgun"
+                    ],
+                    "Options": [
+                      "ion cannon"
+                    ]
+                  },
+                  {
+                    "Replaces": [
+                      "2 twin pulse carbines"
+                    ],
+                    "Options": [
+                      "2 accelerator burst cannons",
+                      "2 smart missile systems"
+                    ]
+                  },
+                  {
+                    "Options": [
+                      "seeker missile"
+                    ]
+                  },
+                  {
+                    "Options": [
+                      "seeker missile"
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "WargearDefinitions": []
+      },
+      "UnitAbilities": [
+        {
+          "Title": "Armour Hunter",
+          "Text": "Each time this model makes an attack that targets a Monster or Vehicle, add 1 to the Hit roll."
+        },
+        {
+          "Title": "Targeting Array",
+          "Text": "Each time this model is selected to shoot, you can re-roll one Hit roll or you can re-roll one Wound roll when resolving its attacks. XV02 Pilot Battlesuit: In your Command phase, you can select one friendly Hammerhead Gunship unit within 12\". Until the start of your next Command phase, ranged weapons equipped by models in that unit have the [LETHAL HITS] ability."
+        }
+      ],
+      "Infos": [
+        {
+          "Title": "DAMAGED: 1-5 WOUNDS REMAINING",
+          "Text": "While this model has 1-5 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
+        }
+      ],
+      "Keywords": [
+        "Vehicle",
+        "Fly",
+        "Character",
+        "Epic Hero",
+        "Longstrike",
+        "Frame"
+      ],
+      "CoreAbilities": [
+        "Deadly Demise D3"
+      ],
+      "FactionKeywords": [
+        "Tau Empire"
+      ],
+      "StatLines": [
+        {
+          "Movement": "10\"",
+          "Toughness": "10",
+          "Save": "3+",
+          "Wounds": "14",
+          "Leadership": "7+",
+          "OC": "3"
+        }
+      ],
+      "Weapons": [
+        {
+          "Name": "RANGED WEAPONS",
+          "Weapons": [
+            {
+              "Name": "Accelerator burst cannon",
+              "Range": "18\"",
+              "Attacks": "4",
+              "ToHit": "4+",
+              "Strength": "6",
+              "AP": "-1",
+              "Damage": "1"
+            },
+            {
+              "Name": "Ion cannon – standard",
+              "Keywords": "BLAST",
+              "Range": "60\"",
+              "Attacks": "D6+3",
+              "ToHit": "3+",
+              "Strength": "7",
+              "AP": "-1",
+              "Damage": "2"
+            },
+            {
+              "Name": "Ion cannon – overcharge",
+              "Keywords": "BLAST, HAZARDOUS",
+              "Range": "60\"",
+              "Attacks": "D6+3",
+              "ToHit": "3+",
+              "Strength": "8",
+              "AP": "-2",
+              "Damage": "3"
+            },
+            {
+              "Name": "Railgun",
+              "Keywords": "DEVASTATING WOUNDS, HEAVY",
+              "Range": "72\"",
+              "Attacks": "1",
+              "ToHit": "3+",
+              "Strength": "20",
+              "AP": "-5",
+              "Damage": "D6+6"
+            },
+            {
+              "Name": "Seeker missile",
+              "Keywords": "ONE SHOT",
+              "Range": "48\"",
+              "Attacks": "1",
+              "ToHit": "4+",
+              "Strength": "14",
+              "AP": "-3",
+              "Damage": "D6+1"
+            },
+            {
+              "Name": "Twin pulse carbine",
+              "Keywords": "ASSAULT, TWIN-LINKED",
+              "Range": "20\"",
+              "Attacks": "2",
+              "ToHit": "4+",
+              "Strength": "5",
+              "AP": "0",
+              "Damage": "1"
+            },
+            {
+              "Name": "Smart missile system",
+              "Keywords": "INDIRECT FIRE",
+              "Range": "30\"",
+              "Attacks": "3",
+              "ToHit": "4+",
+              "Strength": "5",
+              "AP": "0",
+              "Damage": "1"
+            }
+          ]
+        },
+        {
+          "IsMelee": true,
+          "Name": "MELEE WEAPONS",
+          "Weapons": [
+            {
+              "Name": "Armoured hull",
+              "Range": "Melee",
+              "Attacks": "3",
+              "ToHit": "5+",
+              "Strength": "6",
+              "AP": "0",
+              "Damage": "1"
+            }
+          ]
+        }
+      ],
+      "Upgrades": [],
+      "Points": [
+        {
+          "ModelCount": 1,
+          "Cost": 140
+        }
+      ]
+    },
+    {
+      "Name": "CRISIS BATTLESUITS",
+      "Faction": "For the Greater Good",
+      "UnitComposition": {
+        "ModelCompositions": [
+          {
+            "ModelName": "Crisis Shas’vre",
+            "Wargear": [
+              {
+                "InitalWargear": [
+                  "burst cannon",
+                  "battlesuit fists"
+                ],
+                "Options": [
+                  {
+                    "Options": [
+                      "shield generator"
+                    ]
+                  },
+                  {
+                    "Options": [
+                      "weapon support system"
+                    ]
+                  },
+                  {
+                    "Options": [
+                      "battlesuit support system"
+                    ]
+                  },
+                  {
+                    "Options": [
+                      "airbursting fragmentation projector"
+                    ]
+                  },
+                  {
+                    "Options": [
+                      "cyclic ion blaster"
+                    ]
+                  },
+                  {
+                    "Replaces": [
+                      "burst cannon"
+                    ],
+                    "Options": [
+                      "fusion blaster",
+                      "missile pod",
+                      "plasma rifle",
+                      "T’au flamer"
+                    ]
+                  },
+                  {
+                    "Options": [
+                      "burst cannon",
+                      "fusion blaster",
+                      "missile pod",
+                      "plasma rifle",
+                      "T’au flamer"
+                    ]
+                  },
+                  {
+                    "Options": [
+                      "burst cannon",
+                      "fusion blaster",
+                      "missile pod",
+                      "plasma rifle",
+                      "T’au flamer"
+                    ]
+                  },
+                  {
+                    "Options": [
+                      "burst cannon",
+                      "fusion blaster",
+                      "missile pod",
+                      "plasma rifle",
+                      "T’au flamer"
+                    ]
+                  },
+                  {
+                    "Options": [
+                      "gun drone twin pulse carbine",
+                      "marker drone",
+                      "shield drone"
+                    ]
+                  },
+                  {
+                    "Options": [
+                      "gun drone twin pulse carbine",
+                      "marker drone",
+                      "shield drone"
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "Limit": {
+              "Min": 2,
+              "Max": 5
+            },
+            "ModelName": "Crisis Shas’ui",
+            "Wargear": [
+              {
+                "InitalWargear": [
+                  "burst cannon",
+                  "battlesuit fists"
+                ],
+                "Options": [
+                  {
+                    "Options": [
+                      "shield generator"
+                    ]
+                  },
+                  {
+                    "Options": [
+                      "weapon support system"
+                    ]
+                  },
+                  {
+                    "Options": [
+                      "battlesuit support system"
+                    ]
+                  },
+                  {
+                    "Options": [
+                      "airbursting fragmentation projector"
+                    ]
+                  },
+                  {
+                    "Options": [
+                      "cyclic ion blaster"
+                    ]
+                  },
+                  {
+                    "Replaces": [
+                      "burst cannon"
+                    ],
+                    "Options": [
+                      "fusion blaster",
+                      "missile pod",
+                      "plasma rifle",
+                      "T’au flamer"
+                    ]
+                  },
+                  {
+                    "Options": [
+                      "burst cannon",
+                      "fusion blaster",
+                      "missile pod",
+                      "plasma rifle",
+                      "T’au flamer"
+                    ]
+                  },
+                  {
+                    "Options": [
+                      "burst cannon",
+                      "fusion blaster",
+                      "missile pod",
+                      "plasma rifle",
+                      "T’au flamer"
+                    ]
+                  },
+                  {
+                    "Options": [
+                      "burst cannon",
+                      "fusion blaster",
+                      "missile pod",
+                      "plasma rifle",
+                      "T’au flamer"
+                    ]
+                  },
+                  {
+                    "Options": [
+                      "gun drone twin pulse carbine",
+                      "marker drone",
+                      "shield drone"
+                    ]
+                  },
+                  {
+                    "Options": [
+                      "gun drone twin pulse carbine",
+                      "marker drone",
+                      "shield drone"
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "WargearDefinitions": [
+          {
+            "Key": "battlesuit support system",
+            "GrantsAbilities": [
+              "Battlesuit Support System"
+            ]
+          },
+          {
+            "Key": "shield generator",
+            "GrantsAbilities": [
+              "Shield Generator"
+            ],
+            "StatAdjustments": [
+              {
+                "Target": "InvulSave",
+                "Value": "4+",
+                "Info": "Shield Generator only"
+              }
+            ]
+          },
+          {
+            "Key": "weapon support system",
+            "GrantsAbilities": [
+              "Weapon Support System"
+            ]
+          },
+          {
+            "Key": "marker drone",
+            "GrantsAbilities": [
+              "Marker Drone"
+            ]
+          },
+          {
+            "Key": "shield drone",
+            "GrantsAbilities": [
+              "Shield Drone"
+            ],
+            "StatAdjustments": [
+              {
+                "Target": "Wounds",
+                "Type": "Add",
+                "Value": "1"
+              }
+            ]
+          }
+        ]
+      },
+      "UnitAbilities": [
+        {
+          "Title": "Battlesuit Support System",
+          "Text": "The bearer’s unit is eligible to shoot in a turn in which it Fell Back, but when doing so only models equipped with this wargear can make ranged attacks."
+        },
+        {
+          "Title": "Shield Generator",
+          "Text": "The bearer has a 4+ invulnerable save."
+        },
+        {
+          "Title": "Weapon Support System",
+          "Text": "Each time the bearer makes a ranged attack, you can ignore any or all modifiers to the Hit roll."
+        },
+        {
+          "Title": "Turbo-jets",
+          "Text": "Each time this unit Advances, do not make an Advance roll for it. Instead, until the end of the phase, add 6\" to the Move characteristic of models in this unit."
+        },
+        {
+          "Title": "Marker Drone",
+          "Text": "The bearer’s unit has the Markerlight keyword and can act as an Observer unit for another unit even if it Advanced this turn."
+        },
+        {
+          "Title": "Shield Drone",
+          "Text": "Add 1 to the bearer’s Wounds characteristic"
+        }
+      ],
+      "AttachedUnitInfo": {
+        "LeaderAttachmentRules": [
+          {
+            "LeaderKeyword": "Character",
+            "LedUnitNames": [
+              "CRISIS FIREKNIFE BATTLESUITS"
+            ]
+          }
+        ]
+      },
+      "Infos": [
+        {
+          "Title": "CRISIS BODYGUARD",
+          "Text": "If a Character unit from your army with the Leader ability can be attached to a Crisis Fireknife Battlesuit unit, it can be attached to this unit instead."
+        }
+      ],
+      "Keywords": [
+        "Vehicle",
+        "Walker",
+        "Fly",
+        "Battlesuit",
+        "Crisis"
+      ],
+      "CoreAbilities": [
+        "Deep Strike"
+      ],
+      "FactionKeywords": [
+        "Tau Empire"
+      ],
+      "StatLines": [
+        {
+          "Movement": "10\"",
+          "Toughness": "5",
+          "Save": "3+",
+          "Wounds": "4",
+          "Leadership": "7+",
+          "OC": "2"
+        }
+      ],
+      "Weapons": [
+        {
+          "Name": "RANGED WEAPONS",
+          "Weapons": [
+            {
+              "Name": "Airbursting fragmentation projector",
+              "Keywords": "BLAST, INDIRECT FIRE",
+              "Range": "24\"",
+              "Attacks": "D6",
+              "ToHit": "4+",
+              "Strength": "3",
+              "AP": "0",
+              "Damage": "1"
+            },
+            {
+              "Name": "Burst cannon",
+              "Range": "18\"",
+              "Attacks": "4",
+              "ToHit": "4+",
+              "Strength": "5",
+              "AP": "0",
+              "Damage": "1"
+            },
+            {
+              "Name": "Cyclic ion blaster – standard",
+              "Range": "18\"",
+              "Attacks": "3",
+              "ToHit": "4+",
+              "Strength": "7",
+              "AP": "-1",
+              "Damage": "1"
+            },
+            {
+              "Name": "Cyclic ion blaster – overcharge",
+              "Keywords": "HAZARDOUS",
+              "Range": "18\"",
+              "Attacks": "3",
+              "ToHit": "4+",
+              "Strength": "8",
+              "AP": "-2",
+              "Damage": "2"
+            },
+            {
+              "Name": "Fusion blaster",
+              "Keywords": "MELTA 2",
+              "Range": "12\"",
+              "Attacks": "1",
+              "ToHit": "4+",
+              "Strength": "9",
+              "AP": "-4",
+              "Damage": "D6"
+            },
+            {
+              "Name": "Missile pod",
+              "Range": "30\"",
+              "Attacks": "2",
+              "ToHit": "4+",
+              "Strength": "7",
+              "AP": "-1",
+              "Damage": "2"
+            },
+            {
+              "Name": "Plasma rifle",
+              "Range": "24\"",
+              "Attacks": "1",
+              "ToHit": "4+",
+              "Strength": "8",
+              "AP": "-3",
+              "Damage": "3"
+            },
+            {
+              "Name": "T’au flamer",
+              "Keywords": "IGNORES COVER, TORRENT",
+              "Range": "12\"",
+              "Attacks": "D6",
+              "ToHit": "N/A",
+              "Strength": "4",
+              "AP": "0",
+              "Damage": "1"
+            },
+            {
+              "Name": "Gun drone twin pulse carbine",
+              "Keywords": "ASSAULT, TWIN-LINKED",
+              "Range": "20\"",
+              "Attacks": "2",
+              "ToHit": "5+",
+              "Strength": "5",
+              "AP": "0",
+              "Damage": "1"
+            }
+          ]
+        },
+        {
+          "IsMelee": true,
+          "Name": "MELEE WEAPONS",
+          "Weapons": [
+            {
+              "Name": "Battlesuit fists",
+              "Range": "Melee",
+              "Attacks": "3",
+              "ToHit": "5+",
+              "Strength": "5",
+              "AP": "0",
+              "Damage": "1"
+            }
+          ]
+        }
+      ],
+      "Upgrades": [],
+      "Points": [
+        {
+          "ModelCount": 3,
+          "Cost": 200
+        },
+        {
+          "ModelCount": 6,
+          "Cost": 400
+        }
+      ]
+    },
+    {
+      "Name": "R'VARNA BATTLESUIT",
+      "Faction": "For the Greater Good",
+      "UnitComposition": {
+        "ModelCompositions": [
+          {
+            "ModelName": "R’varna Battlesuit",
+            "Wargear": [
+              {
+                "InitalWargear": [
+                  "2 pulse submunitions cannons",
+                  "battlesuit fists"
+                ],
+                "Options": [
+                  {
+                    "Options": [
+                      "missile drone missile pod"
+                    ]
+                  },
+                  {
+                    "Options": [
+                      "missile drone missile pod"
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "WargearDefinitions": []
+      },
+      "UnitAbilities": [
+        {
+          "Title": "Battlesuit Support System",
+          "Text": "This model is eligible to shoot in a turn in which it Fell Back."
+        },
+        {
+          "Title": "Nova Shielding",
+          "Text": "Once per battle, when this model is selected as the target of a ranged attack, it can use this ability. If it does, until the end of the phase, each time an attack targets this model, if the Strength characteristic of that attack is greater than the Toughness characteristic of this model, subtract 1 from the Wound roll."
+        },
+        {
+          "Title": "Weapon Support System",
+          "Text": "Each time this model makes a ranged attack, you can ignore any or all modifiers to the Hit roll."
+        }
+      ],
+      "Infos": [
+        {
+          "Title": "DAMAGED: 1-5 WOUNDS REMAINING",
+          "Text": "While this model has 1-5 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
+        }
+      ],
+      "Keywords": [
+        "Vehicle",
+        "Walker",
+        "Fly",
+        "Battlesuit",
+        "R’varna"
+      ],
+      "CoreAbilities": [
+        "Deadly Demise D6"
+      ],
+      "FactionKeywords": [
+        "Tau Empire"
+      ],
+      "StatLines": [
+        {
+          "Movement": "8\"",
+          "Toughness": "10",
+          "Save": "2+",
+          "Wounds": "15",
+          "Leadership": "7+",
+          "OC": "4",
+          "InvulSave": {
+            "Save": "5+"
+          }
+        }
+      ],
+      "Weapons": [
+        {
+          "Name": "RANGED WEAPONS",
+          "Weapons": [
+            {
+              "Name": "Pulse submunitions cannon",
+              "Keywords": "BLAST",
+              "Range": "60\"",
+              "Attacks": "D6+2",
+              "ToHit": "4+",
+              "Strength": "8",
+              "AP": "-1",
+              "Damage": "2"
+            },
+            {
+              "Name": "Missile drone missile pod",
+              "Range": "30\"",
+              "Attacks": "2",
+              "ToHit": "5+",
+              "Strength": "7",
+              "AP": "-1",
+              "Damage": "2"
+            }
+          ]
+        },
+        {
+          "IsMelee": true,
+          "Name": "MELEE WEAPONS",
+          "Weapons": [
+            {
+              "Name": "Battlesuit fists",
+              "Range": "Melee",
+              "Attacks": "6",
+              "ToHit": "5+",
+              "Strength": "6",
+              "AP": "0",
+              "Damage": "2"
+            }
+          ]
+        }
+      ],
+      "Upgrades": [],
+      "Points": [
+        {
+          "ModelCount": 1,
+          "Cost": 200
+        }
+      ]
+    },
+    {
+      "Name": "Y'VAHRA BATTLESUIT",
+      "Faction": "For the Greater Good",
+      "UnitComposition": {
+        "ModelCompositions": [
+          {
+            "ModelName": "Y’vahra Battlesuit",
+            "Wargear": [
+              {
+                "InitalWargear": [
+                  "flechette pod",
+                  "ionic discharge cannon",
+                  "phased plasma-flamer",
+                  "battlesuit fists"
+                ],
+                "Options": [
+                  {
+                    "Options": [
+                      "missile drone missile pod"
+                    ]
+                  },
+                  {
+                    "Options": [
+                      "missile drone missile pod"
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "WargearDefinitions": []
+      },
+      "UnitAbilities": [
+        {
+          "Title": "Battlesuit Support System",
+          "Text": "This model is eligible to shoot in a turn in which it Fell Back."
+        },
+        {
+          "Title": "Nova Burst",
+          "Text": "Once per battle, before this model makes a Normal, Advance or Fall Back move, it can use this ability. If it does, until the end of the phase, it has a Move characteristic of 18\"."
+        },
+        {
+          "Title": "Weapon Support System",
+          "Text": "Each time this model makes a ranged attack, you can ignore any or all modifiers to the Hit roll."
+        }
+      ],
+      "Infos": [
+        {
+          "Title": "DAMAGED: 1-5 WOUNDS REMAINING",
+          "Text": "While this model has 1-5 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
+        }
+      ],
+      "Keywords": [
+        "Vehicle",
+        "Walker",
+        "Fly",
+        "Battlesuit",
+        "Y’vahra"
+      ],
+      "CoreAbilities": [
+        "Deadly Demise D6"
+      ],
+      "FactionKeywords": [
+        "Tau Empire"
+      ],
+      "StatLines": [
+        {
+          "Movement": "10\"",
+          "Toughness": "9",
+          "Save": "2+",
+          "Wounds": "15",
+          "Leadership": "7+",
+          "OC": "4",
+          "InvulSave": {
+            "Save": "5+"
+          }
+        }
+      ],
+      "Weapons": [
+        {
+          "Name": "RANGED WEAPONS",
+          "Weapons": [
+            {
+              "Name": "Flechette pod",
+              "Range": "12\"",
+              "Attacks": "5",
+              "ToHit": "4+",
+              "Strength": "3",
+              "AP": "0",
+              "Damage": "1"
+            },
+            {
+              "Name": "Ionic discharge cannon – standard",
+              "Keywords": "BLAST",
+              "Range": "18\"",
+              "Attacks": "D6+1",
+              "ToHit": "4+",
+              "Strength": "7",
+              "AP": "-1",
+              "Damage": "2"
+            },
+            {
+              "Name": "Ionic discharge cannon – overcharge",
+              "Keywords": "BLAST, HAZARDOUS",
+              "Range": "18\"",
+              "Attacks": "D6+1",
+              "ToHit": "4+",
+              "Strength": "8",
+              "AP": "-2",
+              "Damage": "3"
+            },
+            {
+              "Name": "Phased plasma-flamer",
+              "Keywords": "IGNORES COVER, TORRENT",
+              "Range": "12\"",
+              "Attacks": "10",
+              "ToHit": "N/A",
+              "Strength": "6",
+              "AP": "-1",
+              "Damage": "1"
+            },
+            {
+              "Name": "Missile drone missile pod",
+              "Range": "30\"",
+              "Attacks": "2",
+              "ToHit": "5+",
+              "Strength": "7",
+              "AP": "-1",
+              "Damage": "2"
+            }
+          ]
+        },
+        {
+          "IsMelee": true,
+          "Name": "MELEE WEAPONS",
+          "Weapons": [
+            {
+              "Name": "Battlesuit fists",
+              "Range": "Melee",
+              "Attacks": "6",
+              "ToHit": "5+",
+              "Strength": "6",
+              "AP": "0",
+              "Damage": "2"
+            }
+          ]
+        }
+      ],
+      "Upgrades": [],
+      "Points": [
+        {
+          "ModelCount": 1,
+          "Cost": 210
+        }
+      ]
+    },
+    {
+      "Name": "TETRAS",
+      "Faction": "For the Greater Good",
+      "UnitComposition": {
+        "ModelCompositions": [
+          {
+            "Limit": {
+              "Min": 2,
+              "Max": 4
+            },
+            "ModelName": "Tetras",
+            "Wargear": [
+              {
+                "InitalWargear": [
+                  "2 pulse rifles",
+                  "close combat weapons"
+                ],
+                "Options": []
+              }
+            ]
+          }
+        ],
+        "WargearDefinitions": []
+      },
+      "UnitAbilities": [
+        {
+          "Title": "High-intensity Markerlights",
+          "Text": "Each time this unit is an Observer unit, until the end of the phase, each time a model in its Guided unit makes an attack that targets their Spotted unit, you can re-roll the Hit roll."
+        }
+      ],
+      "Infos": [],
+      "Keywords": [
+        "Vehicle",
+        "Fly",
+        "Markerlight",
+        "Tetras"
+      ],
+      "CoreAbilities": [
+        "Deadly Demise 1",
+        "Infiltrators"
+      ],
+      "FactionKeywords": [
+        "Tau Empire"
+      ],
+      "StatLines": [
+        {
+          "Movement": "14\"",
+          "Toughness": "7",
+          "Save": "4+",
+          "Wounds": "7",
+          "Leadership": "7+",
+          "OC": "2"
+        }
+      ],
+      "Weapons": [
+        {
+          "Name": "RANGED WEAPONS",
+          "Weapons": [
+            {
+              "Name": "Pulse rifle",
+              "Keywords": "RAPID FIRE 1",
+              "Range": "30\"",
+              "Attacks": "1",
+              "ToHit": "4+",
+              "Strength": "5",
+              "AP": "0",
+              "Damage": "1"
+            }
+          ]
+        },
+        {
+          "IsMelee": true,
+          "Name": "MELEE WEAPONS",
+          "Weapons": [
+            {
+              "Name": "Close combat weapons",
+              "Range": "Melee",
+              "Attacks": "2",
+              "ToHit": "5+",
+              "Strength": "3",
+              "AP": "0",
+              "Damage": "1"
+            }
+          ]
+        }
+      ],
+      "Upgrades": [],
+      "Points": [
+        {
+          "ModelCount": 2,
+          "Cost": 80
+        },
+        {
+          "ModelCount": 4,
+          "Cost": 160
+        }
+      ]
+    },
+    {
+      "Name": "REMORA STEALTH DRONES",
+      "Faction": "For the Greater Good",
+      "UnitComposition": {
+        "ModelCompositions": [
+          {
+            "Limit": {
+              "Min": 2,
+              "Max": 2
+            },
+            "ModelName": "Remora Stealth Drones",
+            "Wargear": [
+              {
+                "InitalWargear": [
+                  "twin long-barrelled burst cannons",
+                  "2 Remora seeker missiles",
+                  "close combat weapon"
+                ],
+                "Options": []
+              }
+            ]
+          }
+        ],
+        "WargearDefinitions": []
+      },
+      "UnitAbilities": [
+        {
+          "Title": "Aerial Disengagement",
+          "Text": "Once per turn, when an enemy unit ends a Normal, Advance or Fall Back move within 9\" of this unit, if this unit is not within Engagement Range of one or more enemy units, it can make a Normal move of up to 6\"."
+        }
+      ],
+      "Infos": [],
+      "Keywords": [
+        "Vehicle",
+        "Fly",
+        "Markerlight",
+        "Remora Stealth Drones"
+      ],
+      "CoreAbilities": [
+        "Infiltrators",
+        "Stealth"
+      ],
+      "FactionKeywords": [
+        "Tau Empire"
+      ],
+      "StatLines": [
+        {
+          "Movement": "16\"",
+          "Toughness": "6",
+          "Save": "3+",
+          "Wounds": "5",
+          "Leadership": "7+",
+          "OC": "0"
+        }
+      ],
+      "Weapons": [
+        {
+          "Name": "RANGED WEAPONS",
+          "Weapons": [
+            {
+              "Name": "Remora seeker missile",
+              "Keywords": "ONE SHOT",
+              "Range": "48\"",
+              "Attacks": "1",
+              "ToHit": "4+",
+              "Strength": "14",
+              "AP": "-3",
+              "Damage": "D6+1"
+            },
+            {
+              "Name": "Twin long-barrelled burst cannon",
+              "Keywords": "TWIN-LINKED",
+              "Range": "24\"",
+              "Attacks": "4",
+              "ToHit": "4+",
+              "Strength": "6",
+              "AP": "-1",
+              "Damage": "1"
+            }
+          ]
+        },
+        {
+          "IsMelee": true,
+          "Name": "MELEE WEAPONS",
+          "Weapons": [
+            {
+              "Name": "Close combat weapon",
+              "Range": "Melee",
+              "Attacks": "1",
+              "ToHit": "5+",
+              "Strength": "4",
+              "AP": "0",
+              "Damage": "1"
+            }
+          ]
+        }
+      ],
+      "Upgrades": [],
+      "Points": [
+        {
+          "ModelCount": 2,
+          "Cost": 160
+        }
+      ]
+    },
+    {
+      "Name": "BARRACUDA",
+      "Faction": "For the Greater Good",
+      "UnitComposition": {
+        "ModelCompositions": [
+          {
+            "ModelName": "Barracuda",
+            "Wargear": [
+              {
+                "InitalWargear": [
+                  "2 long-barrelled burst cannons",
+                  "swiftstrike burst cannon",
+                  "2 missile pods",
+                  "armoured hull"
+                ],
+                "Options": [
+                  {
+                    "Replaces": [
+                      "2 long-barrelled burst cannons"
+                    ],
+                    "Options": [
+                      "2 cyclic ion blasters"
+                    ]
+                  },
+                  {
+                    "Replaces": [
+                      "swiftstrike burst cannon"
+                    ],
+                    "Options": [
+                      "ion cannon",
+                      "swiftstrike railgun"
+                    ]
+                  },
+                  {
+                    "Options": [
+                      "seeker missile",
+                      "2 seeker missiles",
+                      "3 seeker missiles",
+                      "4 seeker missiles"
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "WargearDefinitions": []
+      },
+      "UnitAbilities": [
+        {
+          "Title": "Agile Dogfighter",
+          "Text": "Each time an attack targets this model, subtract 1 from the Hit roll."
+        }
+      ],
+      "Infos": [
+        {
+          "Title": "DAMAGED: 1-5 WOUNDS REMAINING",
+          "Text": "While this model has 1-5 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
+        }
+      ],
+      "Keywords": [
+        "Vehicle",
+        "Aircraft",
+        "Fly",
+        "Barracuda",
+        "Frame"
+      ],
+      "CoreAbilities": [
+        "Deadly Demise D3"
+      ],
+      "FactionKeywords": [
+        "Tau Empire"
+      ],
+      "StatLines": [
+        {
+          "Movement": "-",
+          "Toughness": "10",
+          "Save": "3+",
+          "Wounds": "14",
+          "Leadership": "7+",
+          "OC": "-",
+          "InvulSave": {
+            "Save": "5+"
+          }
+        }
+      ],
+      "Weapons": [
+        {
+          "Name": "RANGED WEAPONS",
+          "Weapons": [
+            {
+              "Name": "Cyclic ion blaster – standard",
+              "Range": "18\"",
+              "Attacks": "3",
+              "ToHit": "4+",
+              "Strength": "7",
+              "AP": "-1",
+              "Damage": "1"
+            },
+            {
+              "Name": "Cyclic ion blaster – overcharge",
+              "Keywords": "HAZARDOUS",
+              "Range": "18\"",
+              "Attacks": "3",
+              "ToHit": "4+",
+              "Strength": "8",
+              "AP": "-2",
+              "Damage": "2"
+            },
+            {
+              "Name": "Ion cannon – standard",
+              "Keywords": "BLAST",
+              "Range": "60\"",
+              "Attacks": "D6+3",
+              "ToHit": "4+",
+              "Strength": "7",
+              "AP": "-1",
+              "Damage": "2"
+            },
+            {
+              "Name": "Ion cannon – overcharge",
+              "Keywords": "BLAST, HAZARDOUS",
+              "Range": "60\"",
+              "Attacks": "D6+3",
+              "ToHit": "4+",
+              "Strength": "8",
+              "AP": "-2",
+              "Damage": "3"
+            },
+            {
+              "Name": "Long-barrelled burst cannon",
+              "Range": "24\"",
+              "Attacks": "8",
+              "ToHit": "4+",
+              "Strength": "6",
+              "AP": "0",
+              "Damage": "1"
+            },
+            {
+              "Name": "Missile pod",
+              "Range": "30\"",
+              "Attacks": "2",
+              "ToHit": "4+",
+              "Strength": "7",
+              "AP": "-1",
+              "Damage": "2"
+            },
+            {
+              "Name": "Seeker missile",
+              "Keywords": "ONE SHOT",
+              "Range": "48\"",
+              "Attacks": "1",
+              "ToHit": "4+",
+              "Strength": "14",
+              "AP": "-3",
+              "Damage": "D6+1"
+            },
+            {
+              "Name": "Swiftstrike burst cannon",
+              "Range": "36\"",
+              "Attacks": "16",
+              "ToHit": "4+",
+              "Strength": "6",
+              "AP": "-1",
+              "Damage": "1"
+            },
+            {
+              "Name": "Swiftstrike railgun",
+              "Keywords": "DEVASTATING WOUNDS",
+              "Range": "72\"",
+              "Attacks": "1",
+              "ToHit": "4+",
+              "Strength": "20",
+              "AP": "-5",
+              "Damage": "D6+6"
+            }
+          ]
+        },
+        {
+          "IsMelee": true,
+          "Name": "MELEE WEAPONS",
+          "Weapons": [
+            {
+              "Name": "Armoured hull",
+              "Range": "Melee",
+              "Attacks": "3",
+              "ToHit": "5+",
+              "Strength": "6",
+              "AP": "0",
+              "Damage": "1"
+            }
+          ]
+        }
+      ],
+      "Upgrades": [],
+      "Points": [
+        {
+          "ModelCount": 1,
+          "Cost": 220
+        }
+      ]
+    },
+    {
+      "Name": "SHAS'NEL",
+      "Faction": "For the Greater Good",
+      "Flags": 4,
+      "UnitComposition": {
+        "ModelCompositions": [
+          {
+            "ModelName": "Shas'nel",
+            "Wargear": [
+              {
+                "InitalWargear": [],
+                "Options": [
+                  {
+                    "Options": [
+                      "fireblade pulse rifle",
+                      "ion rifle",
+                      "pulse blaster",
+                      "pulse carbine",
+                      "rail rifle",
+                      "semi-automatic grenade launcher"
+                    ]
+                  },
+                  {
+                    "Options": [
+                      "kroot pistol",
+                      "pulse pistol"
+                    ]
+                  },
+                  {
+                    "Options": [
+                      "kroot pistol",
+                      "pulse pistol"
+                    ]
+                  },
+                  {
+                    "Options": [
+                      "close-combat weapon"
+                    ]
+                  },
+                  {
+                    "Options": [
+                      "close-combat weapon"
+                    ]
+                  },
+                  {
+                    "Options": [
+                      "Veteran Scout"
+                    ]
+                  },
+                  {
+                    "Options": [
+                      "Cunning Ambush",
+                      "Fire Discipline",
+                      "Warrior Bond"
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "WargearDefinitions": [
+          {
+            "Key": "Veteran Scout",
+            "GrantsAbilities": [
+              "Veteran Scout"
+            ],
+            "StatAdjustments": [
+              {
+                "Value": "7\""
+              }
+            ],
+            "DatasheetAdjustments": [
+              {
+                "Target": "CoreAbilities",
+                "Type": "Add",
+                "Values": [
+                  "Scouts 7\""
+                ]
+              },
+              {
+                "Target": "LedUnitNames",
+                "Values": [
+                  "PATHFINDER TEAM"
+                ]
+              }
+            ]
+          },
+          {
+            "Key": "Cunning Ambush",
+            "GrantsAbilities": [
+              "Cunning Ambush"
+            ]
+          },
+          {
+            "Key": "Fire Discipline",
+            "GrantsAbilities": [
+              "Fire Discipline"
+            ]
+          },
+          {
+            "Key": "Warrior Bond",
+            "GrantsAbilities": [
+              "Warrior Bond"
+            ]
+          }
+        ]
+      },
+      "UnitAbilities": [
+        {
+          "Title": "Volley Fire",
+          "Text": "While this model is leading a unit, add 1 to the Attacks characteristic of ranged weapons equipped by models in that unit."
+        },
+        {
+          "Title": "Veteran Scout",
+          "Text": "Change this model’s Move characteristic to 7\", it gains the Scouts 7\" ability, and replace the list of units this model can be attached to: Pathfinder Team."
+        },
+        {
+          "Title": "Cunning Ambush",
+          "Text": "After both players have deployed their armies, you can redeploy this model’s unit and one other friendly T'au Empire unit. When doing so, any of those units can be placed into Strategic Reserves, regardless of how many units are already in Strategic Reserves."
+        },
+        {
+          "Title": "Fire Discipline",
+          "Text": "Each time this unit makes a ranged attack, re-roll a Hit roll of 1."
+        },
+        {
+          "Title": "Warrior Bond",
+          "Text": "Once per battle, at the start of any phase, you can select one friendly T'au Empire unit that is Battle-shocked and within 12\" of this model. That unit is no longer Battle-shocked."
+        }
+      ],
+      "LeaderInfo": {
+        "UnitNames": [
+          "BREACHER TEAM",
+          "STRIKE TEAM"
+        ],
+        "Abilities": [
+          {
+            "AbilityId": "Volley Fire",
+            "WeaponStatAdjustments": [
+              {
+                "Value": "1",
+                "Type": "Add",
+                "Scope": "Unit",
+                "Target": "Attacks",
+                "WeaponScope": "Ranged"
+              }
+            ]
+          }
+        ]
+      },
+      "Infos": [],
+      "Keywords": [
+        "Infantry",
+        "Character",
+        "Grenades",
+        "Shas'nel"
+      ],
+      "CoreAbilities": [
+        "Crucible",
+        "Leader"
+      ],
+      "FactionKeywords": [
+        "Tau Empire"
+      ],
+      "StatLines": [
+        {
+          "Movement": "6\"",
+          "Toughness": "3",
+          "Save": "4+",
+          "Wounds": "3",
+          "Leadership": "7+",
+          "OC": "1"
+        }
+      ],
+      "Weapons": [
+        {
+          "Name": "RANGED WEAPONS",
+          "Weapons": [
+            {
+              "Name": "Fireblade pulse rifle",
+              "Keywords": "RAPID FIRE 1",
+              "Range": "30\"",
+              "Attacks": "1",
+              "ToHit": "3+",
+              "Strength": "5",
+              "AP": "0",
+              "Damage": "2"
+            },
+            {
+              "Name": "Ion rifle – standard",
+              "Keywords": "HEAVY",
+              "Range": "30\"",
+              "Attacks": "3",
+              "ToHit": "4+",
+              "Strength": "7",
+              "AP": "-1",
+              "Damage": "1"
+            },
+            {
+              "Name": "Ion rifle – overcharge",
+              "Keywords": "HAZARDOUS, HEAVY",
+              "Range": "30\"",
+              "Attacks": "3",
+              "ToHit": "4+",
+              "Strength": "8",
+              "AP": "-2",
+              "Damage": "2"
+            },
+            {
+              "Name": "Pulse blaster",
+              "Keywords": "ASSAULT",
+              "Range": "10\"",
+              "Attacks": "2",
+              "ToHit": "3+",
+              "Strength": "6",
+              "AP": "-1",
+              "Damage": "1"
+            },
+            {
+              "Name": "Pulse carbine",
+              "Range": "20\"",
+              "Attacks": "2",
+              "ToHit": "3+",
+              "Strength": "5",
+              "AP": "0",
+              "Damage": "1"
+            },
+            {
+              "Name": "Rail rifle",
+              "Keywords": "DEVASTATING WOUNDS, HEAVY",
+              "Range": "30\"",
+              "Attacks": "1",
+              "ToHit": "4+",
+              "Strength": "10",
+              "AP": "-4",
+              "Damage": "3"
+            },
+            {
+              "Name": "Semi-automatic grenade launcher – EMP",
+              "Keywords": "ANTI-VEHICLE 4+, DEVASTATING WOUNDS",
+              "Range": "18\"",
+              "Attacks": "1",
+              "ToHit": "3+",
+              "Strength": "3",
+              "AP": "0",
+              "Damage": "1"
+            },
+            {
+              "Name": "Semi-automatic grenade launcher – fusion",
+              "Range": "18\"",
+              "Attacks": "1",
+              "ToHit": "3+",
+              "Strength": "6",
+              "AP": "-1",
+              "Damage": "3"
+            },
+            {
+              "Name": "Kroot pistol",
+              "Keywords": "PISTOL",
+              "Range": "12\"",
+              "Attacks": "1",
+              "ToHit": "4+",
+              "Strength": "4",
+              "AP": "0",
+              "Damage": "1"
+            },
+            {
+              "Name": "Pulse pistol",
+              "Keywords": "PISTOL",
+              "Range": "12\"",
+              "Attacks": "1",
+              "ToHit": "3+",
+              "Strength": "5",
+              "AP": "0",
+              "Damage": "1"
+            }
+          ]
+        },
+        {
+          "IsMelee": true,
+          "Name": "MELEE WEAPONS",
+          "Weapons": [
+            {
+              "Name": "Close-combat weapon",
+              "Range": "Melee",
+              "Attacks": "3",
+              "ToHit": "4+",
+              "Strength": "3",
+              "AP": "0",
+              "Damage": "1"
+            }
+          ]
+        }
+      ],
+      "Upgrades": [],
+      "Points": [
+        {
+          "ModelCount": 1,
+          "Cost": 50
+        }
+      ]
+    },
+    {
+      "Name": "BATTLESUIT VETERAN",
+      "Faction": "For the Greater Good",
+      "Flags": 4,
+      "UnitComposition": {
+        "ModelCompositions": [
+          {
+            "ModelName": "Battlesuit Veteran",
+            "Wargear": [
+              {
+                "InitalWargear": [],
+                "Options": [
+                  {
+                    "Options": [
+                      "burst cannon",
+                      "fireblade pulse rifle",
+                      "fusion blaster",
+                      "ion rifle",
+                      "pulse blaster",
+                      "pulse carbine",
+                      "rail rifle",
+                      "semi-automatic grenade launcher"
+                    ]
+                  },
+                  {
+                    "Options": [
+                      "close-combat weapon"
+                    ]
+                  },
+                  {
+                    "Options": [
+                      "close-combat weapon"
+                    ]
+                  },
+                  {
+                    "Options": [
+                      "Cunning Ambush",
+                      "Fire Discipline",
+                      "Warrior Bond"
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "WargearDefinitions": [
+          {
+            "Key": "Cunning Ambush",
+            "GrantsAbilities": [
+              "Cunning Ambush"
+            ]
+          },
+          {
+            "Key": "Fire Discipline",
+            "GrantsAbilities": [
+              "Fire Discipline"
+            ]
+          },
+          {
+            "Key": "Warrior Bond",
+            "GrantsAbilities": [
+              "Warrior Bond"
+            ]
+          }
+        ]
+      },
+      "UnitAbilities": [
+        {
+          "Title": "Strategic Redeployment",
+          "Text": "The bearer’s unit is eligible to shoot in a turn in which it Fell Back."
+        },
+        {
+          "Title": "Broadside Battlesuit",
+          "Text": "Change this model’s Move characteristic to 5\", its Toughness characteristic to 6, its Save characteristic to 2+, and its Wounds characteristic to 10. Remove the Infantry keyword, add the Vehicle and Walker keywords, and remove the Infiltrators and Stealth abilities. It can be equipped with up to three ranged weapons, and replace the list of units this model can be attached to: Broadside Battlesuits."
+        },
+        {
+          "Title": "Cunning Ambush",
+          "Text": "After both players have deployed their armies, you can redeploy this model’s unit and one other friendly T'au Empire unit. When doing so, any of those units can be placed into Strategic Reserves, regardless of how many units are already in Strategic Reserves."
+        },
+        {
+          "Title": "Fire Discipline",
+          "Text": "Each time this unit makes a ranged attack, re-roll a Hit roll of 1."
+        },
+        {
+          "Title": "Warrior Bond",
+          "Text": "Once per battle, at the start of any phase, you can select one friendly T'au Empire unit that is Battle-shocked and within 12\" of this model. That unit is no longer Battle-shocked."
+        }
+      ],
+      "LeaderInfo": {
+        "UnitNames": [
+          "STEALTH BATTLESUITS"
+        ]
+      },
+      "Infos": [],
+      "Keywords": [
+        "Infantry",
+        "Character",
+        "Fly",
+        "Battlesuit",
+        "Battlesuit Veteran"
+      ],
+      "CoreAbilities": [
+        "Crucible",
+        "Infiltrators",
+        "Leader",
+        "Stealth"
+      ],
+      "FactionKeywords": [
+        "Tau Empire"
+      ],
+      "StatLines": [
+        {
+          "Movement": "8\"",
+          "Toughness": "4",
+          "Save": "3+",
+          "Wounds": "4",
+          "Leadership": "7+",
+          "OC": "1",
+          "InvulSave": {
+            "Save": "4+"
+          }
+        }
+      ],
+      "Weapons": [
+        {
+          "Name": "RANGED WEAPONS",
+          "Weapons": [
+            {
+              "Name": "Burst cannon",
+              "Range": "18\"",
+              "Attacks": "4",
+              "ToHit": "3+",
+              "Strength": "5",
+              "AP": "0",
+              "Damage": "1"
+            },
+            {
+              "Name": "Fireblade pulse rifle",
+              "Keywords": "RAPID FIRE 1",
+              "Range": "30\"",
+              "Attacks": "1",
+              "ToHit": "3+",
+              "Strength": "5",
+              "AP": "0",
+              "Damage": "2"
+            },
+            {
+              "Name": "Fusion blaster",
+              "Keywords": "MELTA 2",
+              "Range": "12\"",
+              "Attacks": "1",
+              "ToHit": "3+",
+              "Strength": "9",
+              "AP": "-4",
+              "Damage": "D6"
+            },
+            {
+              "Name": "Ion rifle – standard",
+              "Keywords": "HEAVY",
+              "Range": "30\"",
+              "Attacks": "3",
+              "ToHit": "4+",
+              "Strength": "7",
+              "AP": "-1",
+              "Damage": "1"
+            },
+            {
+              "Name": "Ion rifle – overcharge",
+              "Keywords": "HAZARDOUS, HEAVY",
+              "Range": "30\"",
+              "Attacks": "3",
+              "ToHit": "4+",
+              "Strength": "8",
+              "AP": "-2",
+              "Damage": "2"
+            },
+            {
+              "Name": "Pulse blaster",
+              "Keywords": "ASSAULT",
+              "Range": "10\"",
+              "Attacks": "2",
+              "ToHit": "3+",
+              "Strength": "6",
+              "AP": "-1",
+              "Damage": "1"
+            },
+            {
+              "Name": "Pulse carbine",
+              "Range": "20\"",
+              "Attacks": "2",
+              "ToHit": "3+",
+              "Strength": "5",
+              "AP": "0",
+              "Damage": "1"
+            },
+            {
+              "Name": "Rail rifle",
+              "Keywords": "DEVASTATING WOUNDS, HEAVY",
+              "Range": "30\"",
+              "Attacks": "1",
+              "ToHit": "4+",
+              "Strength": "10",
+              "AP": "-4",
+              "Damage": "3"
+            },
+            {
+              "Name": "Semi-automatic grenade launcher – EMP",
+              "Keywords": "ANTI-VEHICLE 4+, DEVASTATING WOUNDS",
+              "Range": "18\"",
+              "Attacks": "1",
+              "ToHit": "3+",
+              "Strength": "3",
+              "AP": "0",
+              "Damage": "1"
+            },
+            {
+              "Name": "Semi-automatic grenade launcher – fusion",
+              "Range": "18\"",
+              "Attacks": "1",
+              "ToHit": "3+",
+              "Strength": "6",
+              "AP": "-1",
+              "Damage": "3"
+            }
+          ]
+        },
+        {
+          "IsMelee": true,
+          "Name": "MELEE WEAPONS",
+          "Weapons": [
+            {
+              "Name": "Close-combat weapon",
+              "Range": "Melee",
+              "Attacks": "3",
+              "ToHit": "4+",
+              "Strength": "3",
+              "AP": "0",
+              "Damage": "1"
+            }
+          ]
+        }
+      ],
+      "Upgrades": [],
+      "Points": [
+        {
+          "ModelCount": 1,
+          "Cost": 60
+        }
+      ]
+    },
+    {
+      "Name": "KINBAND CHAMPION",
+      "Faction": "For the Greater Good",
+      "Flags": 4,
+      "UnitComposition": {
+        "ModelCompositions": [
+          {
+            "ModelName": "Kinband Champion",
+            "Wargear": [
+              {
+                "InitalWargear": [],
+                "Options": [
+                  {
+                    "Options": [
+                      "blast javelin",
+                      "dart-bow & tri-blade",
+                      "dvorgite skinner",
+                      "fireblade pulse rifle",
+                      "ion rifle",
+                      "kroot carbine",
+                      "kroot long gun",
+                      "kroot rifle",
+                      "kroot scattergun",
+                      "londaxi triblast",
+                      "pulse blaster",
+                      "pulse carbine",
+                      "rail rifle",
+                      "semi-automatic grenade launcher",
+                      "tanglebomb launcher"
+                    ]
+                  },
+                  {
+                    "Options": [
+                      "kroot pistol",
+                      "kroot pistol & hunting javelins",
+                      "pulse pistol"
+                    ]
+                  },
+                  {
+                    "Options": [
+                      "kroot pistol",
+                      "kroot pistol & hunting javelins",
+                      "pulse pistol"
+                    ]
+                  },
+                  {
+                    "Options": [
+                      "bladestave & prey-hook",
+                      "close-combat weapon",
+                      "hunting blades",
+                      "shaper's blade",
+                      "twin ritualistic blades"
+                    ]
+                  },
+                  {
+                    "Options": [
+                      "bladestave & prey-hook",
+                      "close-combat weapon",
+                      "hunting blades",
+                      "shaper's blade",
+                      "twin ritualistic blades"
+                    ]
+                  },
+                  {
+                    "Options": [
+                      "Kalamandra",
+                      "Krootox"
+                    ]
+                  },
+                  {
+                    "Options": [
+                      "Cunning Ambush",
+                      "Fire and Fade",
+                      "Fire Discipline",
+                      "Ritual Butchery",
+                      "Warrior Bond"
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "WargearDefinitions": [
+          {
+            "Key": "Kalamandra",
+            "GrantsAbilities": [
+              "Kalamandra"
+            ],
+            "GrantsWeapons": [
+              "Kalamandra's bite"
+            ],
+            "StatAdjustments": [
+              {
+                "Value": "12\""
+              },
+              {
+                "Target": "Toughness",
+                "Value": "5"
+              },
+              {
+                "Target": "Save",
+                "Value": "5+"
+              },
+              {
+                "Target": "Wounds",
+                "Value": "6"
+              }
+            ],
+            "DatasheetAdjustments": [
+              {
+                "Target": "Keywords",
+                "Type": "Add",
+                "Values": [
+                  "Mounted"
+                ]
+              },
+              {
+                "Target": "Keywords",
+                "Type": "Subtract",
+                "Values": [
+                  "Infantry"
+                ]
+              },
+              {
+                "Target": "CoreAbilities",
+                "Type": "Add",
+                "Values": [
+                  "Lone Operative"
+                ]
+              }
+            ]
+          },
+          {
+            "Key": "Krootox",
+            "GrantsAbilities": [
+              "Krootox"
+            ],
+            "GrantsWeapons": [
+              "Rampager fists"
+            ],
+            "StatAdjustments": [
+              {
+                "Target": "Toughness",
+                "Value": "6"
+              },
+              {
+                "Target": "Save",
+                "Value": "5+"
+              },
+              {
+                "Target": "Wounds",
+                "Value": "7"
+              }
+            ],
+            "DatasheetAdjustments": [
+              {
+                "Target": "Keywords",
+                "Type": "Add",
+                "Values": [
+                  "Mounted"
+                ]
+              },
+              {
+                "Target": "Keywords",
+                "Type": "Subtract",
+                "Values": [
+                  "Infantry"
+                ]
+              },
+              {
+                "Target": "LedUnitNames",
+                "Values": [
+                  "KROOTOX RAMPAGERS",
+                  "KROOTOX RIDERS"
+                ]
+              }
+            ]
+          },
+          {
+            "Key": "Cunning Ambush",
+            "GrantsAbilities": [
+              "Cunning Ambush"
+            ]
+          },
+          {
+            "Key": "Fire and Fade",
+            "GrantsAbilities": [
+              "Fire and Fade"
+            ]
+          },
+          {
+            "Key": "Fire Discipline",
+            "GrantsAbilities": [
+              "Fire Discipline"
+            ]
+          },
+          {
+            "Key": "Ritual Butchery",
+            "GrantsAbilities": [
+              "Ritual Butchery"
+            ]
+          },
+          {
+            "Key": "Warrior Bond",
+            "GrantsAbilities": [
+              "Warrior Bond"
+            ]
+          }
+        ]
+      },
+      "UnitAbilities": [
+        {
+          "Title": "War Leader",
+          "Text": "Once per battle round, one unit from your army with this ability can be targeted with a Stratagem for 0CP, even if another unit from your army has already been targeted with that Stratagem this phase."
+        },
+        {
+          "Title": "Kalamandra",
+          "Text": "Change this model’s Move characteristic to 12\", its Toughness characteristic to 5, its Save characteristic to 5+, its Wounds characteristic to 6, and it is equipped with 1 kalamandra’s bite in addition to the weapons you choose in Step 4. Remove the Infantry keyword, add the Mounted keyword and it gains the Lone Operative ability."
+        },
+        {
+          "Title": "Krootox",
+          "Text": "Change this model’s Toughness characteristic to 6, its Save characteristic to 5+ and its Wounds characteristic to 7, and it is equipped with 1 Rampager fists in addition to the weapons you choose in Step 4. Remove the Infantry keyword, add the Mounted keyword, and replace the list of units this model can be attached to: Krootox Rampagers, Krootox Riders."
+        },
+        {
+          "Title": "Cunning Ambush",
+          "Text": "After both players have deployed their armies, you can redeploy this model’s unit and one other friendly T'au Empire unit. When doing so, any of those units can be placed into Strategic Reserves, regardless of how many units are already in Strategic Reserves."
+        },
+        {
+          "Title": "Fire and Fade",
+          "Text": "In your Shooting phase, after this unit has shot, if it is not within Engagement Range of one or more enemy units, it can make a Normal move of up to 6\". If it does, until the end of the turn, this unit is not eligible to declare a charge."
+        },
+        {
+          "Title": "Fire Discipline",
+          "Text": "Each time this unit makes a ranged attack, re-roll a Hit roll of 1."
+        },
+        {
+          "Title": "Ritual Butchery",
+          "Text": "While this model is leading a unit, melee weapons equipped by models in that unit have the [SUSTAINED HITS 1] ability."
+        },
+        {
+          "Title": "Warrior Bond",
+          "Text": "Once per battle, at the start of any phase, you can select one friendly T'au Empire unit that is Battle-shocked and within 12\" of this model. That unit is no longer Battle-shocked."
+        }
+      ],
+      "LeaderInfo": {
+        "UnitNames": [
+          "KROOT CARNIVORES",
+          "KROOT FARSTALKERS"
+        ],
+        "Abilities": [
+          {
+            "AbilityId": "Ritual Butchery",
+            "WeaponStatAdjustments": [
+              {
+                "Value": "SUSTAINED HITS 1",
+                "Type": "Add",
+                "Scope": "Unit",
+                "Target": "Keywords"
+              }
+            ]
+          }
+        ]
+      },
+      "Infos": [],
+      "Keywords": [
+        "Infantry",
+        "Character",
+        "Kroot",
+        "Kinband Champion"
+      ],
+      "CoreAbilities": [
+        "Crucible",
+        "Infiltrators",
+        "Leader",
+        "Scouts 7\"",
+        "Stealth"
+      ],
+      "FactionKeywords": [
+        "Tau Empire"
+      ],
+      "StatLines": [
+        {
+          "Movement": "7\"",
+          "Toughness": "3",
+          "Save": "6+",
+          "Wounds": "3",
+          "Leadership": "7+",
+          "OC": "1"
+        }
+      ],
+      "Weapons": [
+        {
+          "Name": "RANGED WEAPONS",
+          "Weapons": [
+            {
+              "Name": "Blast javelin",
+              "Keywords": "ASSAULT, BLAST",
+              "Range": "18\"",
+              "Attacks": "D6",
+              "ToHit": "4+",
+              "Strength": "10",
+              "AP": "-2",
+              "Damage": "2"
+            },
+            {
+              "Name": "dart-bow & tri-blade",
+              "Keywords": "ANTI-INFANTRY 3+, ASSAULT, HEAVY",
+              "Range": "24\"",
+              "Attacks": "D3+1",
+              "ToHit": "4+",
+              "Strength": "4",
+              "AP": "0",
+              "Damage": "2"
+            },
+            {
+              "Name": "Dvorgite skinner",
+              "Keywords": "IGNORES COVER, TORRENT",
+              "Range": "12\"",
+              "Attacks": "D6",
+              "ToHit": "N/A",
+              "Strength": "4",
+              "AP": "-1",
+              "Damage": "1"
+            },
+            {
+              "Name": "Fireblade pulse rifle",
+              "Keywords": "RAPID FIRE 1",
+              "Range": "30\"",
+              "Attacks": "1",
+              "ToHit": "3+",
+              "Strength": "5",
+              "AP": "0",
+              "Damage": "2"
+            },
+            {
+              "Name": "Ion rifle – standard",
+              "Keywords": "HEAVY",
+              "Range": "30\"",
+              "Attacks": "3",
+              "ToHit": "4+",
+              "Strength": "7",
+              "AP": "-1",
+              "Damage": "1"
+            },
+            {
+              "Name": "Ion rifle – overcharge",
+              "Keywords": "HAZARDOUS, HEAVY",
+              "Range": "30\"",
+              "Attacks": "3",
+              "ToHit": "4+",
+              "Strength": "8",
+              "AP": "-2",
+              "Damage": "2"
+            },
+            {
+              "Name": "Kroot carbine",
+              "Range": "18\"",
+              "Attacks": "1",
+              "ToHit": "4+",
+              "Strength": "4",
+              "AP": "0",
+              "Damage": "2"
+            },
+            {
+              "Name": "Kroot long gun",
+              "Keywords": "HEAVY, PRECISION",
+              "Range": "36\"",
+              "Attacks": "1",
+              "ToHit": "3+",
+              "Strength": "6",
+              "AP": "-2",
+              "Damage": "3"
+            },
+            {
+              "Name": "Kroot rifle",
+              "Keywords": "RAPID FIRE 1",
+              "Range": "24\"",
+              "Attacks": "1",
+              "ToHit": "4+",
+              "Strength": "4",
+              "AP": "0",
+              "Damage": "1"
+            },
+            {
+              "Name": "Kroot scattergun",
+              "Keywords": "ASSAULT",
+              "Range": "12\"",
+              "Attacks": "2",
+              "ToHit": "4+",
+              "Strength": "4",
+              "AP": "0",
+              "Damage": "1"
+            },
+            {
+              "Name": "Londaxi triblast",
+              "Keywords": "ANTI-VEHICLE 4+, DEVASTATING WOUNDS, HEAVY",
+              "Range": "18\"",
+              "Attacks": "3",
+              "ToHit": "5+",
+              "Strength": "7",
+              "AP": "-1",
+              "Damage": "1"
+            },
+            {
+              "Name": "Pulse blaster",
+              "Keywords": "ASSAULT",
+              "Range": "10\"",
+              "Attacks": "2",
+              "ToHit": "3+",
+              "Strength": "6",
+              "AP": "-1",
+              "Damage": "1"
+            },
+            {
+              "Name": "Pulse carbine",
+              "Range": "20\"",
+              "Attacks": "2",
+              "ToHit": "3+",
+              "Strength": "5",
+              "AP": "0",
+              "Damage": "1"
+            },
+            {
+              "Name": "Rail rifle",
+              "Keywords": "DEVASTATING WOUNDS, HEAVY",
+              "Range": "30\"",
+              "Attacks": "1",
+              "ToHit": "4+",
+              "Strength": "10",
+              "AP": "-4",
+              "Damage": "3"
+            },
+            {
+              "Name": "Semi-automatic grenade launcher – EMP",
+              "Keywords": "ANTI-VEHICLE 4+, DEVASTATING WOUNDS",
+              "Range": "18\"",
+              "Attacks": "1",
+              "ToHit": "3+",
+              "Strength": "3",
+              "AP": "0",
+              "Damage": "1"
+            },
+            {
+              "Name": "Semi-automatic grenade launcher – fusion",
+              "Range": "18\"",
+              "Attacks": "1",
+              "ToHit": "3+",
+              "Strength": "6",
+              "AP": "-1",
+              "Damage": "3"
+            },
+            {
+              "Name": "Tanglebomb launcher",
+              "Keywords": "BLAST",
+              "Range": "24\"",
+              "Attacks": "D3",
+              "ToHit": "4+",
+              "Strength": "5",
+              "AP": "0",
+              "Damage": "1"
+            },
+            {
+              "Name": "Kroot pistol",
+              "Keywords": "PISTOL",
+              "Range": "12\"",
+              "Attacks": "1",
+              "ToHit": "4+",
+              "Strength": "4",
+              "AP": "0",
+              "Damage": "1"
+            },
+            {
+              "Name": "kroot pistol & hunting javelins",
+              "Keywords": "ASSAULT, PISTOL",
+              "Range": "12\"",
+              "Attacks": "2",
+              "ToHit": "4+",
+              "Strength": "4",
+              "AP": "0",
+              "Damage": "1"
+            },
+            {
+              "Name": "Pulse pistol",
+              "Keywords": "PISTOL",
+              "Range": "12\"",
+              "Attacks": "1",
+              "ToHit": "3+",
+              "Strength": "5",
+              "AP": "0",
+              "Damage": "1"
+            }
+          ]
+        },
+        {
+          "IsMelee": true,
+          "Name": "MELEE WEAPONS",
+          "Weapons": [
+            {
+              "Name": "bladestave & prey-hook",
+              "Keywords": "LETHAL HITS",
+              "Range": "Melee",
+              "Attacks": "4",
+              "ToHit": "2+",
+              "Strength": "5",
+              "AP": "-1",
+              "Damage": "2"
+            },
+            {
+              "Name": "Close-combat weapon",
+              "Range": "Melee",
+              "Attacks": "3",
+              "ToHit": "4+",
+              "Strength": "3",
+              "AP": "0",
+              "Damage": "1"
+            },
+            {
+              "Name": "Hunting blades",
+              "Keywords": "LANCE",
+              "Range": "Melee",
+              "Attacks": "3",
+              "ToHit": "3+",
+              "Strength": "4",
+              "AP": "-1",
+              "Damage": "1"
+            },
+            {
+              "Name": "Kalamandra's bite",
+              "Keywords": "EXTRA ATTACKS",
+              "Range": "Melee",
+              "Attacks": "4",
+              "ToHit": "4+",
+              "Strength": "5",
+              "AP": "-1",
+              "Damage": "1"
+            },
+            {
+              "Name": "Rampager fists",
+              "Keywords": "EXTRA ATTACKS, SUSTAINED HITS 1",
+              "Range": "Melee",
+              "Attacks": "4",
+              "ToHit": "3+",
+              "Strength": "6",
+              "AP": "-1",
+              "Damage": "2"
+            },
+            {
+              "Name": "Shaper's blade",
+              "Range": "Melee",
+              "Attacks": "4",
+              "ToHit": "2+",
+              "Strength": "5",
+              "AP": "0",
+              "Damage": "1"
+            },
+            {
+              "Name": "Twin ritualistic blades",
+              "Keywords": "TWIN-LINKED",
+              "Range": "Melee",
+              "Attacks": "4",
+              "ToHit": "2+",
+              "Strength": "5",
+              "AP": "-1",
+              "Damage": "1"
+            }
+          ]
+        }
+      ],
+      "Upgrades": [],
+      "Points": [
+        {
+          "ModelCount": 1,
+          "Cost": 55
+        }
+      ]
+    },
+    {
+      "Name": "BATTLESUIT VETERAN WITH BROADSIDE BATTLESUIT",
+      "Faction": "For the Greater Good",
+      "Flags": 4,
+      "UnitComposition": {
+        "ModelCompositions": [
+          {
+            "ModelName": "Battlesuit Veteran",
+            "Wargear": [
+              {
+                "InitalWargear": [],
+                "Options": [
+                  {
+                    "Options": [
+                      "burst cannon",
+                      "fireblade pulse rifle",
+                      "fusion blaster",
+                      "heavy rail rifle",
+                      "high-yield missile pods",
+                      "ion rifle",
+                      "pulse blaster",
+                      "pulse carbine",
+                      "rail rifle",
+                      "seeker missile",
+                      "semi-automatic grenade launcher",
+                      "twin plasma rifle",
+                      "twin smart missile system"
+                    ]
+                  },
+                  {
+                    "Options": [
+                      "burst cannon",
+                      "fireblade pulse rifle",
+                      "fusion blaster",
+                      "heavy rail rifle",
+                      "high-yield missile pods",
+                      "ion rifle",
+                      "pulse blaster",
+                      "pulse carbine",
+                      "rail rifle",
+                      "seeker missile",
+                      "semi-automatic grenade launcher",
+                      "twin plasma rifle",
+                      "twin smart missile system"
+                    ]
+                  },
+                  {
+                    "Options": [
+                      "burst cannon",
+                      "fireblade pulse rifle",
+                      "fusion blaster",
+                      "heavy rail rifle",
+                      "high-yield missile pods",
+                      "ion rifle",
+                      "pulse blaster",
+                      "pulse carbine",
+                      "rail rifle",
+                      "seeker missile",
+                      "semi-automatic grenade launcher",
+                      "twin plasma rifle",
+                      "twin smart missile system"
+                    ]
+                  },
+                  {
+                    "Options": [
+                      "close-combat weapon",
+                      "crushing bulk"
+                    ]
+                  },
+                  {
+                    "Options": [
+                      "close-combat weapon",
+                      "crushing bulk"
+                    ]
+                  },
+                  {
+                    "Options": [
+                      "Cunning Ambush",
+                      "Fire Discipline",
+                      "Warrior Bond"
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "WargearDefinitions": [
+          {
+            "Key": "Cunning Ambush",
+            "GrantsAbilities": [
+              "Cunning Ambush"
+            ]
+          },
+          {
+            "Key": "Fire Discipline",
+            "GrantsAbilities": [
+              "Fire Discipline"
+            ]
+          },
+          {
+            "Key": "Warrior Bond",
+            "GrantsAbilities": [
+              "Warrior Bond"
+            ]
+          }
+        ]
+      },
+      "UnitAbilities": [
+        {
+          "Title": "Strategic Redeployment",
+          "Text": "The bearer’s unit is eligible to shoot in a turn in which it Fell Back."
+        },
+        {
+          "Title": "Broadside Battlesuit",
+          "Text": "Change this model’s Move characteristic to 5\", its Toughness characteristic to 6, its Save characteristic to 2+, and its Wounds characteristic to 10. Remove the Infantry keyword, add the Vehicle and Walker keywords, and remove the Infiltrators and Stealth abilities. It can be equipped with up to three ranged weapons, and replace the list of units this model can be attached to: Broadside Battlesuits."
+        },
+        {
+          "Title": "Cunning Ambush",
+          "Text": "After both players have deployed their armies, you can redeploy this model’s unit and one other friendly T'au Empire unit. When doing so, any of those units can be placed into Strategic Reserves, regardless of how many units are already in Strategic Reserves."
+        },
+        {
+          "Title": "Fire Discipline",
+          "Text": "Each time this unit makes a ranged attack, re-roll a Hit roll of 1."
+        },
+        {
+          "Title": "Warrior Bond",
+          "Text": "Once per battle, at the start of any phase, you can select one friendly T'au Empire unit that is Battle-shocked and within 12\" of this model. That unit is no longer Battle-shocked."
+        }
+      ],
+      "LeaderInfo": {
+        "UnitNames": [
+          "BROADSIDE BATTLESUITS"
+        ]
+      },
+      "Infos": [],
+      "Keywords": [
+        "Character",
+        "Fly",
+        "Battlesuit",
+        "Vehicle",
+        "Walker",
+        "Battlesuit Veteran"
+      ],
+      "CoreAbilities": [
+        "Crucible",
+        "Leader"
+      ],
+      "FactionKeywords": [
+        "Tau Empire"
+      ],
+      "StatLines": [
+        {
+          "Movement": "5\"",
+          "Toughness": "6",
+          "Save": "2+",
+          "Wounds": "10",
+          "Leadership": "7+",
+          "OC": "1",
+          "InvulSave": {
+            "Save": "4+"
+          }
+        }
+      ],
+      "Weapons": [
+        {
+          "Name": "RANGED WEAPONS",
+          "Weapons": [
+            {
+              "Name": "Burst cannon",
+              "Range": "18\"",
+              "Attacks": "4",
+              "ToHit": "3+",
+              "Strength": "5",
+              "AP": "0",
+              "Damage": "1"
+            },
+            {
+              "Name": "Fireblade pulse rifle",
+              "Keywords": "RAPID FIRE 1",
+              "Range": "30\"",
+              "Attacks": "1",
+              "ToHit": "3+",
+              "Strength": "5",
+              "AP": "0",
+              "Damage": "2"
+            },
+            {
+              "Name": "Fusion blaster",
+              "Keywords": "MELTA 2",
+              "Range": "12\"",
+              "Attacks": "1",
+              "ToHit": "3+",
+              "Strength": "9",
+              "AP": "-4",
+              "Damage": "D6"
+            },
+            {
+              "Name": "Heavy rail rifle",
+              "Keywords": "DEVASTATING WOUNDS, HEAVY",
+              "Range": "60\"",
+              "Attacks": "2",
+              "ToHit": "3+",
+              "Strength": "12",
+              "AP": "-4",
+              "Damage": "D6+1"
+            },
+            {
+              "Name": "High-yield missile pods",
+              "Keywords": "TWIN-LINKED",
+              "Range": "30\"",
+              "Attacks": "6",
+              "ToHit": "3+",
+              "Strength": "7",
+              "AP": "-1",
+              "Damage": "2"
+            },
+            {
+              "Name": "Ion rifle – standard",
+              "Keywords": "HEAVY",
+              "Range": "30\"",
+              "Attacks": "3",
+              "ToHit": "4+",
+              "Strength": "7",
+              "AP": "-1",
+              "Damage": "1"
+            },
+            {
+              "Name": "Ion rifle – overcharge",
+              "Keywords": "HAZARDOUS, HEAVY",
+              "Range": "30\"",
+              "Attacks": "3",
+              "ToHit": "4+",
+              "Strength": "8",
+              "AP": "-2",
+              "Damage": "2"
+            },
+            {
+              "Name": "Pulse blaster",
+              "Keywords": "ASSAULT",
+              "Range": "10\"",
+              "Attacks": "2",
+              "ToHit": "3+",
+              "Strength": "6",
+              "AP": "-1",
+              "Damage": "1"
+            },
+            {
+              "Name": "Pulse carbine",
+              "Range": "20\"",
+              "Attacks": "2",
+              "ToHit": "3+",
+              "Strength": "5",
+              "AP": "0",
+              "Damage": "1"
+            },
+            {
+              "Name": "Rail rifle",
+              "Keywords": "DEVASTATING WOUNDS, HEAVY",
+              "Range": "30\"",
+              "Attacks": "1",
+              "ToHit": "4+",
+              "Strength": "10",
+              "AP": "-4",
+              "Damage": "3"
+            },
+            {
+              "Name": "Seeker missile",
+              "Keywords": "ONE SHOT",
+              "Range": "48\"",
+              "Attacks": "1",
+              "ToHit": "3+",
+              "Strength": "14",
+              "AP": "-3",
+              "Damage": "D6+1"
+            },
+            {
+              "Name": "Semi-automatic grenade launcher – EMP",
+              "Keywords": "ANTI-VEHICLE 4+, DEVASTATING WOUNDS",
+              "Range": "18\"",
+              "Attacks": "1",
+              "ToHit": "3+",
+              "Strength": "3",
+              "AP": "0",
+              "Damage": "1"
+            },
+            {
+              "Name": "Semi-automatic grenade launcher – fusion",
+              "Range": "18\"",
+              "Attacks": "1",
+              "ToHit": "3+",
+              "Strength": "6",
+              "AP": "-1",
+              "Damage": "3"
+            },
+            {
+              "Name": "Twin plasma rifle",
+              "Keywords": "TWIN-LINKED",
+              "Range": "18\"",
+              "Attacks": "1",
+              "ToHit": "3+",
+              "Strength": "8",
+              "AP": "-3",
+              "Damage": "3"
+            },
+            {
+              "Name": "Twin smart missile system",
+              "Keywords": "INDIRECT FIRE, TWIN-LINKED",
+              "Range": "30\"",
+              "Attacks": "4",
+              "ToHit": "3+",
+              "Strength": "5",
+              "AP": "0",
+              "Damage": "1"
+            }
+          ]
+        },
+        {
+          "IsMelee": true,
+          "Name": "MELEE WEAPONS",
+          "Weapons": [
+            {
+              "Name": "Close-combat weapon",
+              "Range": "Melee",
+              "Attacks": "3",
+              "ToHit": "4+",
+              "Strength": "3",
+              "AP": "0",
+              "Damage": "1"
+            },
+            {
+              "Name": "Crushing bulk",
+              "Range": "Melee",
+              "Attacks": "3",
+              "ToHit": "4+",
+              "Strength": "6",
+              "AP": "0",
+              "Damage": "1"
+            }
+          ]
+        }
+      ],
+      "Upgrades": [],
+      "Points": [
+        {
+          "ModelCount": 1,
+          "Cost": 130
+        }
+      ]
+    }
+  ],
+  "Dettachments": [],
+  "ArmyRules": []
+}

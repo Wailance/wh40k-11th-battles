@@ -36,6 +36,8 @@ export function HomePage() {
         )}
       </div>
 
+      <ArmyBuilderCta to="/lists/new" />
+
       <TournamentListsCta to="/lists/meta" />
 
       <ConfirmDialog
@@ -120,6 +122,48 @@ function Stat({ label, value, color }: { label: string; value: number; color?: s
       </p>
       <p className="text-micro uppercase tracking-wide text-muted">{label}</p>
     </div>
+  )
+}
+
+function ArmyBuilderCta({ to }: { to: string }) {
+  return (
+    <Link to={to} className="home-builder-cta motion-card">
+      <span className="home-builder-cta-icon" aria-hidden>
+        <svg viewBox="0 0 24 24" fill="none" className="h-5 w-5">
+          <path
+            d="M4 7.5h16M4 12h10M4 16.5h7"
+            stroke="currentColor"
+            strokeWidth="1.5"
+            strokeLinecap="round"
+          />
+          <path
+            d="M15.5 14.5 20 10l-2-2-4.5 4.5"
+            stroke="currentColor"
+            strokeWidth="1.5"
+            strokeLinecap="round"
+            strokeLinejoin="round"
+          />
+          <rect
+            x="3"
+            y="4"
+            width="18"
+            height="16"
+            rx="2"
+            stroke="currentColor"
+            strokeWidth="1.5"
+          />
+        </svg>
+      </span>
+      <span className="home-builder-cta-body">
+        <span className="home-builder-cta-kicker">{copy.home.armyListsKicker}</span>
+        <span className="home-builder-cta-title-row">
+          <span className="home-builder-cta-title">{copy.home.armyListsTitle}</span>
+          <span className="home-builder-cta-badge">{copy.home.armyListsBadge}</span>
+        </span>
+        <span className="home-builder-cta-desc">{copy.home.armyListsDesc}</span>
+      </span>
+      <span className="home-builder-cta-chevron" aria-hidden />
+    </Link>
   )
 }
 

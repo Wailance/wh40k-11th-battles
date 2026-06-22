@@ -1,0 +1,2622 @@
+{
+  "Name": "Adeptus Mechanicus",
+  "Units": [
+    {
+      "Name": "X-101",
+      "Faction": "Doctrina Imperatives",
+      "UnitComposition": {
+        "ModelCompositions": [
+          {
+            "ModelName": "X-101",
+            "Wargear": [
+              {
+                "InitalWargear": [
+                  "grav-gun",
+                  "hydraulic claw"
+                ],
+                "Options": []
+              }
+            ]
+          }
+        ],
+        "WargearDefinitions": []
+      },
+      "UnitAbilities": [
+        {
+          "Title": "Mindlock",
+          "Text": "While a Tech-Priest model is leading this model’s unit, improve the Ballistic Skill and Weapon Skill characteristics of this model’s weapons by 1."
+        },
+        {
+          "Title": "Bound Creation",
+          "Text": "While a Tech-Priest model is leading this model’s unit, that Tech-Priest model has the Feel No Pain 5+ ability."
+        }
+      ],
+      "LeaderInfo": {
+        "UnitNames": [
+          "CORPUSCARII ELECTRO-PRIESTS",
+          "FULGURITE ELECTRO-PRIESTS",
+          "KATAPHRON BREACHERS",
+          "KATAPHRON DESTROYERS",
+          "SERVITOR BATTLECLADE",
+          "SKITARII RANGERS",
+          "SKITARII VANGUARD"
+        ],
+        "LeaderType": "Servitor Bodyguard",
+        "Description": "At the start of the Declare Battle Formations step, this model can join one other unit from your army that is being led by a Tech-Priest Infantry model. If it does, until the end of the battle, this model counts as being part of that Bodyguard unit, and that Bodyguard unit’s Starting Strength is increased accordingly.",
+        "RequiredLeaderKeywords": [
+          "Tech-Priest",
+          "Infantry"
+        ]
+      },
+      "Infos": [],
+      "Keywords": [
+        "Infantry",
+        "Imperium",
+        "Character",
+        "Epic Hero",
+        "Cult Mechanicus",
+        "X-101"
+      ],
+      "CoreAbilities": [],
+      "FactionKeywords": [
+        "Adeptus Mechanicus"
+      ],
+      "StatLines": [
+        {
+          "Movement": "6\"",
+          "Toughness": "3",
+          "Save": "4+",
+          "Wounds": "3",
+          "Leadership": "8+",
+          "OC": "0"
+        }
+      ],
+      "Weapons": [
+        {
+          "Name": "RANGED WEAPONS",
+          "Weapons": [
+            {
+              "Name": "Grav-gun",
+              "Keywords": "ANTI-VEHICLE 4+",
+              "Range": "18\"",
+              "Attacks": "2",
+              "ToHit": "3+",
+              "Strength": "5",
+              "AP": "-1",
+              "Damage": "2"
+            }
+          ]
+        },
+        {
+          "IsMelee": true,
+          "Name": "MELEE WEAPONS",
+          "Weapons": [
+            {
+              "Name": "Hydraulic claw",
+              "Range": "Melee",
+              "Attacks": "2",
+              "ToHit": "4+",
+              "Strength": "8",
+              "AP": "-2",
+              "Damage": "3"
+            }
+          ]
+        }
+      ],
+      "Upgrades": [],
+      "Points": [
+        {
+          "ModelCount": 1,
+          "Cost": 40
+        }
+      ]
+    },
+    {
+      "Name": "SERVITORS",
+      "Faction": "Doctrina Imperatives",
+      "UnitComposition": {
+        "ModelCompositions": [
+          {
+            "Limit": {
+              "Min": 4,
+              "Max": 4
+            },
+            "ModelName": "Servitors",
+            "Wargear": [
+              {
+                "InitalWargear": [
+                  "Servitor’s servo-arm"
+                ],
+                "Options": [
+                  {
+                    "Max": 2,
+                    "Replaces": [
+                      "Servitor’s servo-arm"
+                    ],
+                    "Options": [
+                      "heavy bolter and Servitor’s tools",
+                      "multi-melta and Servitor’s tools",
+                      "plasma cannon and Servitor’s tools"
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "WargearDefinitions": []
+      },
+      "UnitAbilities": [
+        {
+          "Title": "Mindlock",
+          "Text": "While a Tech-Priest model is leading this unit, improve the Ballistic Skill and Weapon Skill characteristics of ranged and melee weapons equipped by Servitor models in this unit by 1."
+        }
+      ],
+      "LeaderInfo": {
+        "UnitNames": [
+          "CORPUSCARII ELECTRO-PRIESTS",
+          "FULGURITE ELECTRO-PRIESTS",
+          "KATAPHRON BREACHERS",
+          "KATAPHRON DESTROYERS",
+          "SERVITOR BATTLECLADE",
+          "SKITARII RANGERS",
+          "SKITARII VANGUARD"
+        ],
+        "LeaderType": "Servitors",
+        "Description": "At the start of the Declare Battle Formations step, this unit can join one other unit from your army that is being led by a Tech-Priest Enginseer model (a unit cannot have more than one Servitors unit joined to it). If it does, until the end of the battle, every model in this unit counts as being part of that Bodyguard unit, and that Bodyguard unit’s Starting Strength is increased accordingly.",
+        "RequiredLeaderKeywords": [
+          "Enginseer"
+        ],
+        "Abilities": [
+          {
+            "AbilityId": "Mindlock"
+          }
+        ]
+      },
+      "Infos": [],
+      "Keywords": [
+        "Infantry",
+        "Imperium",
+        "Cult Mechanicus",
+        "Servitors"
+      ],
+      "CoreAbilities": [],
+      "FactionKeywords": [
+        "Adeptus Mechanicus"
+      ],
+      "StatLines": [
+        {
+          "Movement": "6\"",
+          "Toughness": "3",
+          "Save": "4+",
+          "Wounds": "1",
+          "Leadership": "8+",
+          "OC": "0",
+          "InvulSave": {
+            "Save": "6+"
+          }
+        }
+      ],
+      "Weapons": [
+        {
+          "Name": "RANGED WEAPONS",
+          "Weapons": [
+            {
+              "Name": "Heavy bolter",
+              "Keywords": "HEAVY, SUSTAINED HITS 1",
+              "Range": "36\"",
+              "Attacks": "3",
+              "ToHit": "6+",
+              "Strength": "5",
+              "AP": "-1",
+              "Damage": "2"
+            },
+            {
+              "Name": "Multi-melta",
+              "Keywords": "HEAVY, MELTA 2",
+              "Range": "18\"",
+              "Attacks": "2",
+              "ToHit": "6+",
+              "Strength": "9",
+              "AP": "-4",
+              "Damage": "D6"
+            },
+            {
+              "Name": "Plasma cannon – standard",
+              "Keywords": "HEAVY, BLAST",
+              "Range": "36\"",
+              "Attacks": "D3",
+              "ToHit": "6+",
+              "Strength": "7",
+              "AP": "-2",
+              "Damage": "1"
+            },
+            {
+              "Name": "Plasma cannon – supercharge",
+              "Keywords": "HEAVY, BLAST, HAZARDOUS",
+              "Range": "36\"",
+              "Attacks": "D3",
+              "ToHit": "6+",
+              "Strength": "8",
+              "AP": "-3",
+              "Damage": "2"
+            }
+          ]
+        },
+        {
+          "IsMelee": true,
+          "Name": "MELEE WEAPONS",
+          "Weapons": [
+            {
+              "Name": "Servitor’s servo-arm",
+              "Range": "Melee",
+              "Attacks": "1",
+              "ToHit": "5+",
+              "Strength": "8",
+              "AP": "-2",
+              "Damage": "3"
+            },
+            {
+              "Name": "Servitor’s tools",
+              "Range": "Melee",
+              "Attacks": "1",
+              "ToHit": "5+",
+              "Strength": "3",
+              "AP": "0",
+              "Damage": "1"
+            }
+          ]
+        }
+      ],
+      "Upgrades": [],
+      "Points": [
+        {
+          "ModelCount": 4,
+          "Cost": 50
+        }
+      ]
+    },
+    {
+      "Name": "SECUTARII HOPLITES",
+      "Faction": "Doctrina Imperatives",
+      "UnitComposition": {
+        "ModelCompositions": [
+          {
+            "ModelName": "Hoplite Alpha",
+            "Wargear": [
+              {
+                "InitalWargear": [
+                  "arc lance"
+                ],
+                "Options": [
+                  {
+                    "Replaces": [
+                      "arc lance"
+                    ],
+                    "Options": [
+                      "archeotech pistol"
+                    ]
+                  },
+                  {
+                    "Options": [
+                      "Alpha close combat weapon"
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "Limit": {
+              "Min": 4,
+              "Max": 9
+            },
+            "ModelName": "Secutarii Hoplites",
+            "Wargear": [
+              {
+                "InitalWargear": [
+                  "arc lance"
+                ],
+                "Options": [
+                  {
+                    "Max": 1,
+                    "Options": [
+                      "enhanced data-tether",
+                      "omnispex"
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "WargearDefinitions": [
+          {
+            "Key": "enhanced data-tether",
+            "GrantsAbilities": [
+              "Enhanced data-tether"
+            ]
+          },
+          {
+            "Key": "omnispex",
+            "GrantsAbilities": [
+              "Omnispex"
+            ],
+            "WeaponAdjustments": [
+              {
+                "Value": "IGNORES COVER",
+                "Type": "Add",
+                "Target": "Keywords",
+                "WeaponScope": "Ranged"
+              }
+            ]
+          }
+        ]
+      },
+      "UnitAbilities": [
+        {
+          "Title": "Enhanced data-tether",
+          "Text": "Each time you select the bearer’s unit as the target of a Stratagem, roll one D6: on a 5+, you gain 1CP"
+        },
+        {
+          "Title": "Omnispex",
+          "Text": "Ranged weapons equipped by models in the bearer’s unit have the [IGNORES COVER] ability."
+        },
+        {
+          "Title": "Titan Guard",
+          "Text": "You can target this unit with the Heroic Intervention Stratagem for 0CP, and can do so even if you have already targeted a different unit with that Stratagem this phase. When doing so, if there are one or more friendly Adeptus Titanicus units on the battlefield, you can re-roll the subsequent charge roll."
+        }
+      ],
+      "AttachedUnitInfo": {
+        "LeaderAttachmentRules": [
+          {
+            "LeaderKeyword": "Character",
+            "LedUnitNames": [
+              "SKITARII VANGUARD"
+            ]
+          }
+        ]
+      },
+      "Infos": [
+        {
+          "Title": "SECUTARII",
+          "Text": "If a model from your army with the Leader ability can be attached to a Skitarii Vanguard unit, it can be attached to this unit instead."
+        }
+      ],
+      "Keywords": [
+        "Infantry",
+        "Imperium",
+        "Skitarii",
+        "Secutarii Hoplites"
+      ],
+      "CoreAbilities": [],
+      "FactionKeywords": [
+        "Adeptus Mechanicus"
+      ],
+      "StatLines": [
+        {
+          "Movement": "6\"",
+          "Toughness": "3",
+          "Save": "5+",
+          "Wounds": "1",
+          "Leadership": "7+",
+          "OC": "1",
+          "InvulSave": {
+            "Save": "4+"
+          }
+        }
+      ],
+      "Weapons": [
+        {
+          "Name": "RANGED WEAPONS",
+          "Weapons": [
+            {
+              "Name": "Arc lance",
+              "Keywords": "DEVASTATING WOUNDS, ANTI-VEHICLE 4+",
+              "Range": "12\"",
+              "Attacks": "1",
+              "ToHit": "4+",
+              "Strength": "5",
+              "AP": "-1",
+              "Damage": "1"
+            },
+            {
+              "Name": "Archeotech pistol",
+              "Keywords": "PISTOL, DEVASTATING WOUNDS",
+              "Range": "12\"",
+              "Attacks": "1",
+              "ToHit": "4+",
+              "Strength": "6",
+              "AP": "-1",
+              "Damage": "1"
+            }
+          ]
+        },
+        {
+          "IsMelee": true,
+          "Name": "MELEE WEAPONS",
+          "Weapons": [
+            {
+              "Name": "Alpha close combat weapon",
+              "Range": "Melee",
+              "Attacks": "3",
+              "ToHit": "4+",
+              "Strength": "5",
+              "AP": "-1",
+              "Damage": "1"
+            },
+            {
+              "Name": "Arc lance",
+              "Keywords": "LANCE, DEVASTATING WOUNDS, ANTI-VEHICLE 4+",
+              "Range": "Melee",
+              "Attacks": "2",
+              "ToHit": "4+",
+              "Strength": "5",
+              "AP": "-1",
+              "Damage": "1"
+            }
+          ]
+        }
+      ],
+      "Upgrades": [],
+      "Points": [
+        {
+          "ModelCount": 5,
+          "Cost": 65
+        },
+        {
+          "ModelCount": 10,
+          "Cost": 130
+        }
+      ]
+    },
+    {
+      "Name": "SECUTARII PELTASTS",
+      "Faction": "Doctrina Imperatives",
+      "UnitComposition": {
+        "ModelCompositions": [
+          {
+            "ModelName": "Peltast Alpha",
+            "Wargear": [
+              {
+                "InitalWargear": [
+                  "galvanic caster",
+                  "close combat weapon"
+                ],
+                "Options": [
+                  {
+                    "Replaces": [
+                      "galvanic caster"
+                    ],
+                    "Options": [
+                      "archeotech pistol"
+                    ]
+                  },
+                  {
+                    "Options": [
+                      "Alpha close combat weapon"
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "Limit": {
+              "Min": 4,
+              "Max": 9
+            },
+            "ModelName": "Secutarii Peltasts",
+            "Wargear": [
+              {
+                "InitalWargear": [
+                  "galvanic caster",
+                  "close combat weapon"
+                ],
+                "Options": [
+                  {
+                    "Max": 1,
+                    "Options": [
+                      "enhanced data-tether",
+                      "omnispex"
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "WargearDefinitions": [
+          {
+            "Key": "enhanced data-tether",
+            "GrantsAbilities": [
+              "Enhanced data-tether"
+            ]
+          },
+          {
+            "Key": "omnispex",
+            "GrantsAbilities": [
+              "Omnispex"
+            ],
+            "WeaponAdjustments": [
+              {
+                "Value": "IGNORES COVER",
+                "Type": "Add",
+                "Target": "Keywords",
+                "WeaponScope": "Ranged"
+              }
+            ]
+          }
+        ]
+      },
+      "UnitAbilities": [
+        {
+          "Title": "Enhanced data-tether",
+          "Text": "Each time you select the bearer’s unit as the target of a Stratagem, roll one D6: on a 5+, you gain 1CP"
+        },
+        {
+          "Title": "Omnispex",
+          "Text": "Ranged weapons equipped by models in the bearer’s unit have the [IGNORES COVER] ability."
+        },
+        {
+          "Title": "Blind Barrage",
+          "Text": "In your Shooting phase, after this unit has shot, select one enemy Infantry unit hit by one or more of those attacks. Until the start of your next turn, while this unit is on the battlefield, that enemy unit is blinded. While a unit is blinded, each time a model in that unit makes an attack, subtract 1 from the Hit roll."
+        }
+      ],
+      "AttachedUnitInfo": {
+        "LeaderAttachmentRules": [
+          {
+            "LeaderKeyword": "Character",
+            "LedUnitNames": [
+              "SKITARII VANGUARD"
+            ]
+          }
+        ]
+      },
+      "Infos": [
+        {
+          "Title": "SECUTARII",
+          "Text": "If a model from your army with the Leader ability can be attached to a Skitarii Vanguard unit, it can be attached to this unit instead."
+        }
+      ],
+      "Keywords": [
+        "Infantry",
+        "Imperium",
+        "Skitarii",
+        "Secutarii Peltasts"
+      ],
+      "CoreAbilities": [],
+      "FactionKeywords": [
+        "Adeptus Mechanicus"
+      ],
+      "StatLines": [
+        {
+          "Movement": "6\"",
+          "Toughness": "3",
+          "Save": "5+",
+          "Wounds": "1",
+          "Leadership": "7+",
+          "OC": "1",
+          "InvulSave": {
+            "Save": "6+"
+          }
+        }
+      ],
+      "Weapons": [
+        {
+          "Name": "RANGED WEAPONS",
+          "Weapons": [
+            {
+              "Name": "Archeotech pistol",
+              "Keywords": "PISTOL, DEVASTATING WOUNDS",
+              "Range": "12\"",
+              "Attacks": "1",
+              "ToHit": "4+",
+              "Strength": "6",
+              "AP": "-1",
+              "Damage": "1"
+            },
+            {
+              "Name": "Galvanic caster – flechette",
+              "Keywords": "ASSAULT",
+              "Range": "18\"",
+              "Attacks": "5",
+              "ToHit": "4+",
+              "Strength": "4",
+              "AP": "0",
+              "Damage": "1"
+            },
+            {
+              "Name": "Galvanic caster – hammershot",
+              "Keywords": "HEAVY",
+              "Range": "24\"",
+              "Attacks": "2",
+              "ToHit": "4+",
+              "Strength": "5",
+              "AP": "-1",
+              "Damage": "1"
+            }
+          ]
+        },
+        {
+          "IsMelee": true,
+          "Name": "MELEE WEAPONS",
+          "Weapons": [
+            {
+              "Name": "Alpha close combat weapon",
+              "Range": "Melee",
+              "Attacks": "2",
+              "ToHit": "4+",
+              "Strength": "5",
+              "AP": "-1",
+              "Damage": "1"
+            },
+            {
+              "Name": "Close combat weapon",
+              "Range": "Melee",
+              "Attacks": "1",
+              "ToHit": "4+",
+              "Strength": "3",
+              "AP": "0",
+              "Damage": "1"
+            }
+          ]
+        }
+      ],
+      "Upgrades": [],
+      "Points": [
+        {
+          "ModelCount": 5,
+          "Cost": 50
+        },
+        {
+          "ModelCount": 10,
+          "Cost": 100
+        }
+      ]
+    },
+    {
+      "Name": "TERRAX-PATTERN TERMITE",
+      "Faction": "Doctrina Imperatives",
+      "UnitComposition": {
+        "ModelCompositions": [
+          {
+            "ModelName": "Terrax-pattern Termite",
+            "Wargear": [
+              {
+                "InitalWargear": [
+                  "Terrax melta cutter",
+                  "2 combi-bolters",
+                  "Termite drill"
+                ],
+                "Options": [
+                  {
+                    "Replaces": [
+                      "2 combi-bolters"
+                    ],
+                    "Options": [
+                      "2 heavy flamers",
+                      "2 twin volkite chargers"
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "WargearDefinitions": []
+      },
+      "UnitAbilities": [
+        {
+          "Title": "Termite Assault",
+          "Text": "This model must start the battle in Reserves, but neither it nor any units embarked within it are counted towards any limits placed on the maximum number of Reserves units you can start the battle with. This model can be set up in the Reinforcements step of your first, second or third Movement phase, regardless of any mission rules. Any units embarked within this model can disembark after it has been set up on the battlefield, and if they do they must be set up more than 9\" away from all enemy models."
+        }
+      ],
+      "Infos": [
+        {
+          "Title": "DAMAGED: 1-5 WOUNDS REMAINING",
+          "Text": "While this model has 1-5 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
+        },
+        {
+          "Title": "TRANSPORT",
+          "Text": "This model has a transport capacity of 12 Adeptus\nMechanicus Infantry models. It cannot transport Jump Pack or Kataphron models."
+        }
+      ],
+      "Keywords": [
+        "Vehicle",
+        "Imperium",
+        "Transport",
+        "Dedicated Transport",
+        "Terrax-pattern Termite"
+      ],
+      "CoreAbilities": [
+        "Deadly Demise D3",
+        "Deep Strike"
+      ],
+      "FactionKeywords": [
+        "Adeptus Mechanicus"
+      ],
+      "StatLines": [
+        {
+          "Movement": "8\"",
+          "Toughness": "10",
+          "Save": "3+",
+          "Wounds": "14",
+          "Leadership": "6+",
+          "OC": "2"
+        }
+      ],
+      "Weapons": [
+        {
+          "Name": "RANGED WEAPONS",
+          "Weapons": [
+            {
+              "Name": "Combi-bolter",
+              "Keywords": "RAPID FIRE 2",
+              "Range": "24\"",
+              "Attacks": "2",
+              "ToHit": "4+",
+              "Strength": "4",
+              "AP": "0",
+              "Damage": "1"
+            },
+            {
+              "Name": "Heavy flamer",
+              "Keywords": "IGNORES COVER, TORRENT",
+              "Range": "12\"",
+              "Attacks": "D6",
+              "ToHit": "N/A",
+              "Strength": "5",
+              "AP": "-1",
+              "Damage": "1"
+            },
+            {
+              "Name": "Terrax melta cutter",
+              "Keywords": "MELTA 2",
+              "Range": "12\"",
+              "Attacks": "5",
+              "ToHit": "4+",
+              "Strength": "9",
+              "AP": "-4",
+              "Damage": "D6"
+            },
+            {
+              "Name": "Twin volkite charger",
+              "Keywords": "TWIN-LINKED, DEVASTATING WOUNDS",
+              "Range": "18\"",
+              "Attacks": "2",
+              "ToHit": "4+",
+              "Strength": "5",
+              "AP": "0",
+              "Damage": "2"
+            }
+          ]
+        },
+        {
+          "IsMelee": true,
+          "Name": "MELEE WEAPONS",
+          "Weapons": [
+            {
+              "Name": "Termite drill",
+              "Keywords": "ANTI-VEHICLE 3+",
+              "Range": "Melee",
+              "Attacks": "6",
+              "ToHit": "4+",
+              "Strength": "14",
+              "AP": "-2",
+              "Damage": "D3+3"
+            }
+          ]
+        }
+      ],
+      "Upgrades": [],
+      "Points": [
+        {
+          "ModelCount": 1,
+          "Cost": 200
+        }
+      ]
+    },
+    {
+      "Name": "MAGOS",
+      "Faction": "Doctrina Imperatives",
+      "Flags": 4,
+      "UnitComposition": {
+        "ModelCompositions": [
+          {
+            "ModelName": "Magos",
+            "Wargear": [
+              {
+                "InitalWargear": [],
+                "Options": [
+                  {
+                    "Options": [
+                      "arc rifle",
+                      "eradication ray",
+                      "flechette carbine",
+                      "galvanic carbine",
+                      "galvanic rifle",
+                      "magnarail lance",
+                      "phosphor torch",
+                      "plasma caliver",
+                      "radium carbine",
+                      "radium jezzail",
+                      "transonic cannon",
+                      "transuranic arquebus",
+                      "volkite blaster"
+                    ]
+                  },
+                  {
+                    "Options": [
+                      "flechette blaster",
+                      "macrostubber",
+                      "mechanicus pistol",
+                      "phosphor serpenta",
+                      "stubcarbine"
+                    ]
+                  },
+                  {
+                    "Options": [
+                      "flechette blaster",
+                      "macrostubber",
+                      "mechanicus pistol",
+                      "phosphor serpenta",
+                      "stubcarbine"
+                    ]
+                  },
+                  {
+                    "Options": [
+                      "arc maul",
+                      "close-combat weapon",
+                      "control stave",
+                      "omnisian axe",
+                      "power fist",
+                      "power weapon",
+                      "servo-arc claw",
+                      "servo-arm",
+                      "taser goad",
+                      "transonic blades"
+                    ]
+                  },
+                  {
+                    "Options": [
+                      "arc maul",
+                      "close-combat weapon",
+                      "control stave",
+                      "omnisian axe",
+                      "power fist",
+                      "power weapon",
+                      "servo-arc claw",
+                      "servo-arm",
+                      "taser goad",
+                      "transonic blades"
+                    ]
+                  },
+                  {
+                    "Options": [
+                      "Cybercanid Mount",
+                      "Cybenetica Overseer",
+                      "Flight Pack",
+                      "Silk Limbs"
+                    ]
+                  },
+                  {
+                    "Options": [
+                      "Control Edict",
+                      "Galvanic Field",
+                      "Omnissiah's Blessing",
+                      "Seekers of Divine Arcana"
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "WargearDefinitions": [
+          {
+            "Key": "Cybercanid Mount",
+            "GrantsAbilities": [
+              "Cybercanid Mount"
+            ],
+            "StatAdjustments": [
+              {
+                "Value": "12\""
+              }
+            ],
+            "DatasheetAdjustments": [
+              {
+                "Target": "Keywords",
+                "Type": "Add",
+                "Values": [
+                  "Mounted"
+                ]
+              },
+              {
+                "Target": "Keywords",
+                "Type": "Subtract",
+                "Values": [
+                  "Infantry"
+                ]
+              },
+              {
+                "Target": "CoreAbilities",
+                "Type": "Add",
+                "Values": [
+                  "Scouts 9\""
+                ]
+              },
+              {
+                "Target": "LedUnitNames",
+                "Values": [
+                  "SERBERYS RAIDERS",
+                  "SERBERYS SULPHURHOUNDS"
+                ]
+              }
+            ]
+          },
+          {
+            "Key": "Cybenetica Overseer",
+            "GrantsAbilities": [
+              "Cybenetica Overseer"
+            ]
+          },
+          {
+            "Key": "Flight Pack",
+            "GrantsAbilities": [
+              "Flight Pack"
+            ],
+            "StatAdjustments": [
+              {
+                "Value": "12\""
+              }
+            ],
+            "DatasheetAdjustments": [
+              {
+                "Target": "Keywords",
+                "Type": "Add",
+                "Values": [
+                  "Fly",
+                  "Jump Pack"
+                ]
+              },
+              {
+                "Target": "CoreAbilities",
+                "Type": "Add",
+                "Values": [
+                  "Deep Strike"
+                ]
+              },
+              {
+                "Target": "LedUnitNames",
+                "Values": [
+                  "PTERAXII SKYSTALKERS",
+                  "PTERAXII STERYLIZORS"
+                ]
+              }
+            ]
+          },
+          {
+            "Key": "Silk Limbs",
+            "GrantsAbilities": [
+              "Silk Limbs"
+            ],
+            "StatAdjustments": [
+              {
+                "Value": "8\""
+              }
+            ],
+            "DatasheetAdjustments": [
+              {
+                "Target": "CoreAbilities",
+                "Type": "Add",
+                "Values": [
+                  "Infiltrators",
+                  "Stealth"
+                ]
+              },
+              {
+                "Target": "LedUnitNames",
+                "Values": [
+                  "SICARIAN INFILTRATORS",
+                  "SICARIAN RUSTSTALKERS"
+                ]
+              }
+            ]
+          },
+          {
+            "Key": "Control Edict",
+            "GrantsAbilities": [
+              "Control Edict"
+            ]
+          },
+          {
+            "Key": "Galvanic Field",
+            "GrantsAbilities": [
+              "Galvanic Field"
+            ]
+          },
+          {
+            "Key": "Omnissiah's Blessing",
+            "GrantsAbilities": [
+              "Omnissiah's Blessing"
+            ]
+          },
+          {
+            "Key": "Seekers of Divine Arcana",
+            "GrantsAbilities": [
+              "Seekers of Divine Arcana"
+            ]
+          }
+        ]
+      },
+      "UnitAbilities": [
+        {
+          "Title": "Technoarcane Zealotry",
+          "Text": "While this model’s unit is within range of one or more objective markers, improve this model’s Leadership characteristic by 1."
+        },
+        {
+          "Title": "Cybercanid Mount",
+          "Text": "Change this model’s Move characteristic to 12\", and it gains the Scouts 9\" ability. Remove the Infantry keyword, add the Mounted keyword, and replace the list of units this model can be attached to: Serberys Raiders, Serberys Sulphurhounds."
+        },
+        {
+          "Title": "Cybenetica Overseer",
+          "Text": "Replace the list of units this model can be attached to: Kastelan Robots.\n\nYou can attach this model to a Kastelan Robots unit, even if one or more Cybernetica Datasmith models have already been attached to it. In such cases, if that Bodyguard unit is destroyed, the Leader units attached to it become separate units with their original Starting Strengths. While attached to a Kastelan Robots unit, this model loses the Infantry keyword and models in that unit have the Doctrina Imperatives Faction ability."
+        },
+        {
+          "Title": "Flight Pack",
+          "Text": "Change this model’s Move characteristic to 12\", and it gains the Deep Strike ability. Add the Fly and Jump Pack keywords, and replace the list of units this model can be attached to: Pteraxii Skystalkers, Pteraxii Sterylizors."
+        },
+        {
+          "Title": "Silk Limbs",
+          "Text": "Change this model’s Move characteristic to 8\", and it gains the Infiltrators and Stealth abilities. Replace the list of units this model can be attached to: Sicarian Infiltrators, Sicarian Ruststalkers."
+        },
+        {
+          "Title": "Control Edict",
+          "Text": "While this model is leading a unit, each time a model in that unit makes an attack, you can re-roll the Hit roll."
+        },
+        {
+          "Title": "Galvanic Field",
+          "Text": "While this model is leading a unit, weapons equipped by models in that unit have the [LETHAL HITS] ability."
+        },
+        {
+          "Title": "Omnissiah's Blessing",
+          "Text": "In your Command phase, select one friendly Adeptus Mechanicus model within 3\" of this model. That model regains up to D3 lost wounds and, if it is a Vehicle model, until the start of your next Command phase, that model has the Feel No Pain 5+ ability. Each model can only be selected for this ability once per Command phase."
+        },
+        {
+          "Title": "Seekers of Divine Arcana",
+          "Text": "While this model is leading a unit, add 1 to the Objective Control characteristic of models in that unit."
+        }
+      ],
+      "LeaderInfo": {
+        "UnitNames": [
+          "ELECTRO-PRIESTS",
+          "KATAPHRONS",
+          "SKITARII RANGERS",
+          "SKITARII VANGUARD"
+        ],
+        "Abilities": [
+          {
+            "AbilityId": "Control Edict"
+          },
+          {
+            "AbilityId": "Galvanic Field",
+            "WeaponStatAdjustments": [
+              {
+                "Value": "LETHAL HITS",
+                "Type": "Add",
+                "Scope": "Unit",
+                "Target": "Keywords",
+                "WeaponScope": "All"
+              }
+            ]
+          },
+          {
+            "AbilityId": "Seekers of Divine Arcana",
+            "StatAdjustments": [
+              {
+                "Target": "OC",
+                "Type": "Add",
+                "Scope": "Unit",
+                "Value": "1"
+              }
+            ]
+          }
+        ]
+      },
+      "Infos": [],
+      "Keywords": [
+        "Infantry",
+        "Character",
+        "Imperium",
+        "Cult Mechanicus",
+        "Tech-Priest",
+        "Magos"
+      ],
+      "CoreAbilities": [
+        "Crucible",
+        "Leader"
+      ],
+      "FactionKeywords": [
+        "Adeptus Mechanicus"
+      ],
+      "StatLines": [
+        {
+          "Movement": "6\"",
+          "Toughness": "4",
+          "Save": "2+",
+          "Wounds": "4",
+          "Leadership": "7+",
+          "OC": "1",
+          "InvulSave": {
+            "Save": "5+"
+          }
+        }
+      ],
+      "Weapons": [
+        {
+          "Name": "RANGED WEAPONS",
+          "Weapons": [
+            {
+              "Name": "Arc rifle",
+              "Keywords": "ANTI-VEHICLE 4+, DEVASTATING WOUNDS, RAPID FIRE 1",
+              "Range": "30\"",
+              "Attacks": "1",
+              "ToHit": "3+",
+              "Strength": "8",
+              "AP": "-1",
+              "Damage": "D3"
+            },
+            {
+              "Name": "Eradication ray – dissipated",
+              "Range": "24\"",
+              "Attacks": "D3",
+              "ToHit": "3+",
+              "Strength": "6",
+              "AP": "-1",
+              "Damage": "1"
+            },
+            {
+              "Name": "Eradication ray – focused",
+              "Range": "12\"",
+              "Attacks": "D3",
+              "ToHit": "3+",
+              "Strength": "6",
+              "AP": "-2",
+              "Damage": "2"
+            },
+            {
+              "Name": "Flechette carbine",
+              "Range": "18\"",
+              "Attacks": "6",
+              "ToHit": "3+",
+              "Strength": "3",
+              "AP": "0",
+              "Damage": "1"
+            },
+            {
+              "Name": "Galvanic carbine",
+              "Keywords": "DEVASTATING WOUNDS",
+              "Range": "18\"",
+              "Attacks": "3",
+              "ToHit": "3+",
+              "Strength": "4",
+              "AP": "0",
+              "Damage": "1"
+            },
+            {
+              "Name": "Galvanic rifle",
+              "Range": "30\"",
+              "Attacks": "2",
+              "ToHit": "3+",
+              "Strength": "4",
+              "AP": "0",
+              "Damage": "1"
+            },
+            {
+              "Name": "Magnarail lance",
+              "Keywords": "HEAVY",
+              "Range": "36\"",
+              "Attacks": "1",
+              "ToHit": "3+",
+              "Strength": "7",
+              "AP": "-2",
+              "Damage": "3"
+            },
+            {
+              "Name": "Phosphor torch",
+              "Keywords": "IGNORES COVER, TORRENT",
+              "Range": "12\"",
+              "Attacks": "D6",
+              "ToHit": "N/A",
+              "Strength": "4",
+              "AP": "0",
+              "Damage": "1"
+            },
+            {
+              "Name": "Plasma caliver – standard",
+              "Range": "30\"",
+              "Attacks": "2",
+              "ToHit": "3+",
+              "Strength": "7",
+              "AP": "-2",
+              "Damage": "1"
+            },
+            {
+              "Name": "Plasma caliver – supercharge",
+              "Keywords": "HAZARDOUS",
+              "Range": "30\"",
+              "Attacks": "2",
+              "ToHit": "3+",
+              "Strength": "8",
+              "AP": "-3",
+              "Damage": "2"
+            },
+            {
+              "Name": "Radium carbine",
+              "Keywords": "ANTI-INFANTRY 4+",
+              "Range": "18\"",
+              "Attacks": "3",
+              "ToHit": "3+",
+              "Strength": "3",
+              "AP": "0",
+              "Damage": "1"
+            },
+            {
+              "Name": "Radium jezzail",
+              "Keywords": "ANTI-INFANTRY 3+, HEAVY, PRECISION",
+              "Range": "36\"",
+              "Attacks": "1",
+              "ToHit": "3+",
+              "Strength": "5",
+              "AP": "-2",
+              "Damage": "3"
+            },
+            {
+              "Name": "Transonic cannon",
+              "Keywords": "DEVASTATING WOUNDS, TORRENT",
+              "Range": "12\"",
+              "Attacks": "D6",
+              "ToHit": "N/A",
+              "Strength": "4",
+              "AP": "0",
+              "Damage": "2"
+            },
+            {
+              "Name": "Transuranic arquebus",
+              "Keywords": "ANTI-MONSTER 4+, ANTI-VEHICLE 4+, HEAVY, PRECISION",
+              "Range": "36\"",
+              "Attacks": "1",
+              "ToHit": "3+",
+              "Strength": "7",
+              "AP": "-2",
+              "Damage": "D3"
+            },
+            {
+              "Name": "Volkite blaster",
+              "Keywords": "DEVASTATING WOUNDS",
+              "Range": "24\"",
+              "Attacks": "3",
+              "ToHit": "3+",
+              "Strength": "5",
+              "AP": "0",
+              "Damage": "2"
+            },
+            {
+              "Name": "Flechette blaster",
+              "Keywords": "PISTOL",
+              "Range": "12\"",
+              "Attacks": "5",
+              "ToHit": "3+",
+              "Strength": "3",
+              "AP": "0",
+              "Damage": "1"
+            },
+            {
+              "Name": "Macrostubber",
+              "Keywords": "PISTOL",
+              "Range": "12\"",
+              "Attacks": "5",
+              "ToHit": "3+",
+              "Strength": "4",
+              "AP": "0",
+              "Damage": "1"
+            },
+            {
+              "Name": "Mechanicus pistol",
+              "Keywords": "DEVASTATING WOUNDS, PISTOL",
+              "Range": "12\"",
+              "Attacks": "1",
+              "ToHit": "3+",
+              "Strength": "6",
+              "AP": "-1",
+              "Damage": "1"
+            },
+            {
+              "Name": "Phosphor serpenta",
+              "Keywords": "IGNORES COVER, PISTOL",
+              "Range": "18\"",
+              "Attacks": "1",
+              "ToHit": "3+",
+              "Strength": "5",
+              "AP": "-1",
+              "Damage": "2"
+            },
+            {
+              "Name": "Stubcarbine",
+              "Keywords": "PISTOL",
+              "Range": "12\"",
+              "Attacks": "3",
+              "ToHit": "3+",
+              "Strength": "4",
+              "AP": "0",
+              "Damage": "1"
+            }
+          ]
+        },
+        {
+          "IsMelee": true,
+          "Name": "MELEE WEAPONS",
+          "Weapons": [
+            {
+              "Name": "Arc maul",
+              "Keywords": "ANTI-VEHICLE 4+, DEVASTATING WOUNDS",
+              "Range": "Melee",
+              "Attacks": "4",
+              "ToHit": "3+",
+              "Strength": "5",
+              "AP": "-1",
+              "Damage": "1"
+            },
+            {
+              "Name": "Close-combat weapon",
+              "Range": "Melee",
+              "Attacks": "4",
+              "ToHit": "3+",
+              "Strength": "3",
+              "AP": "0",
+              "Damage": "1"
+            },
+            {
+              "Name": "Control stave",
+              "Range": "Melee",
+              "Attacks": "4",
+              "ToHit": "3+",
+              "Strength": "6",
+              "AP": "-1",
+              "Damage": "1"
+            },
+            {
+              "Name": "Omnisian axe",
+              "Range": "Melee",
+              "Attacks": "4",
+              "ToHit": "3+",
+              "Strength": "6",
+              "AP": "-2",
+              "Damage": "2"
+            },
+            {
+              "Name": "Power fist",
+              "Range": "Melee",
+              "Attacks": "3",
+              "ToHit": "3+",
+              "Strength": "8",
+              "AP": "-2",
+              "Damage": "2"
+            },
+            {
+              "Name": "Power weapon",
+              "Range": "Melee",
+              "Attacks": "4",
+              "ToHit": "3+",
+              "Strength": "4",
+              "AP": "-2",
+              "Damage": "1"
+            },
+            {
+              "Name": "Servo-arc claw",
+              "Keywords": "ANTI-VEHICLE 4+, DEVASTATING WOUNDS",
+              "Range": "Melee",
+              "Attacks": "3",
+              "ToHit": "3+",
+              "Strength": "8",
+              "AP": "-2",
+              "Damage": "2"
+            },
+            {
+              "Name": "Servo-arm",
+              "Keywords": "EXTRA ATTACKS",
+              "Range": "Melee",
+              "Attacks": "1",
+              "ToHit": "3+",
+              "Strength": "6",
+              "AP": "-2",
+              "Damage": "2"
+            },
+            {
+              "Name": "Taser goad",
+              "Keywords": "SUSTAINED HITS 2",
+              "Range": "Melee",
+              "Attacks": "3",
+              "ToHit": "3+",
+              "Strength": "6",
+              "AP": "0",
+              "Damage": "1"
+            },
+            {
+              "Name": "Transonic blades",
+              "Keywords": "DEVASTATING WOUNDS, PRECISION",
+              "Range": "Melee",
+              "Attacks": "5",
+              "ToHit": "3+",
+              "Strength": "5",
+              "AP": "-1",
+              "Damage": "1"
+            }
+          ]
+        }
+      ],
+      "Upgrades": [],
+      "Points": [
+        {
+          "ModelCount": 1,
+          "Cost": 70
+        }
+      ]
+    },
+    {
+      "Name": "COHORT COMMANDER",
+      "Faction": "Doctrina Imperatives",
+      "Flags": 4,
+      "UnitComposition": {
+        "ModelCompositions": [
+          {
+            "ModelName": "Cohort Commander",
+            "Wargear": [
+              {
+                "InitalWargear": [],
+                "Options": [
+                  {
+                    "Options": [
+                      "arc rifle",
+                      "eradication ray",
+                      "flechette carbine",
+                      "galvanic carbine",
+                      "galvanic rifle",
+                      "magnarail lance",
+                      "phosphor torch",
+                      "plasma caliver",
+                      "radium carbine",
+                      "radium jezzail",
+                      "transonic cannon",
+                      "transuranic arquebus",
+                      "volkite blaster"
+                    ]
+                  },
+                  {
+                    "Options": [
+                      "flechette blaster",
+                      "macrostubber",
+                      "mechanicus pistol",
+                      "phosphor serpenta",
+                      "stubcarbine"
+                    ]
+                  },
+                  {
+                    "Options": [
+                      "flechette blaster",
+                      "macrostubber",
+                      "mechanicus pistol",
+                      "phosphor serpenta",
+                      "stubcarbine"
+                    ]
+                  },
+                  {
+                    "Options": [
+                      "arc maul",
+                      "close-combat weapon",
+                      "control stave",
+                      "omnisian axe",
+                      "power fist",
+                      "power weapon",
+                      "servo-arc claw",
+                      "servo-arm",
+                      "taser goad",
+                      "transonic blades"
+                    ]
+                  },
+                  {
+                    "Options": [
+                      "arc maul",
+                      "close-combat weapon",
+                      "control stave",
+                      "omnisian axe",
+                      "power fist",
+                      "power weapon",
+                      "servo-arc claw",
+                      "servo-arm",
+                      "taser goad",
+                      "transonic blades"
+                    ]
+                  },
+                  {
+                    "Options": [
+                      "Cybercanid Mount",
+                      "Cybenetica Overseer",
+                      "Flight Pack",
+                      "Silk Limbs"
+                    ]
+                  },
+                  {
+                    "Options": [
+                      "Control Edict",
+                      "Galvanic Field",
+                      "Omnissiah's Blessing",
+                      "Seekers of Divine Arcana"
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "WargearDefinitions": [
+          {
+            "Key": "Cybercanid Mount",
+            "GrantsAbilities": [
+              "Cybercanid Mount"
+            ],
+            "StatAdjustments": [
+              {
+                "Value": "12\""
+              }
+            ],
+            "DatasheetAdjustments": [
+              {
+                "Target": "Keywords",
+                "Type": "Add",
+                "Values": [
+                  "Mounted"
+                ]
+              },
+              {
+                "Target": "Keywords",
+                "Type": "Subtract",
+                "Values": [
+                  "Infantry"
+                ]
+              },
+              {
+                "Target": "CoreAbilities",
+                "Type": "Add",
+                "Values": [
+                  "Scouts 9\""
+                ]
+              },
+              {
+                "Target": "LedUnitNames",
+                "Values": [
+                  "SERBERYS RAIDERS",
+                  "SERBERYS SULPHURHOUNDS"
+                ]
+              }
+            ]
+          },
+          {
+            "Key": "Cybenetica Overseer",
+            "GrantsAbilities": [
+              "Cybenetica Overseer"
+            ]
+          },
+          {
+            "Key": "Flight Pack",
+            "GrantsAbilities": [
+              "Flight Pack"
+            ],
+            "StatAdjustments": [
+              {
+                "Value": "12\""
+              }
+            ],
+            "DatasheetAdjustments": [
+              {
+                "Target": "Keywords",
+                "Type": "Add",
+                "Values": [
+                  "Fly",
+                  "Jump Pack"
+                ]
+              },
+              {
+                "Target": "CoreAbilities",
+                "Type": "Add",
+                "Values": [
+                  "Deep Strike"
+                ]
+              },
+              {
+                "Target": "LedUnitNames",
+                "Values": [
+                  "PTERAXII SKYSTALKERS",
+                  "PTERAXII STERYLIZORS"
+                ]
+              }
+            ]
+          },
+          {
+            "Key": "Silk Limbs",
+            "GrantsAbilities": [
+              "Silk Limbs"
+            ],
+            "StatAdjustments": [
+              {
+                "Value": "8\""
+              }
+            ],
+            "DatasheetAdjustments": [
+              {
+                "Target": "CoreAbilities",
+                "Type": "Add",
+                "Values": [
+                  "Infiltrators",
+                  "Stealth"
+                ]
+              },
+              {
+                "Target": "LedUnitNames",
+                "Values": [
+                  "SICARIAN INFILTRATORS",
+                  "SICARIAN RUSTSTALKERS"
+                ]
+              }
+            ]
+          },
+          {
+            "Key": "Control Edict",
+            "GrantsAbilities": [
+              "Control Edict"
+            ]
+          },
+          {
+            "Key": "Galvanic Field",
+            "GrantsAbilities": [
+              "Galvanic Field"
+            ]
+          },
+          {
+            "Key": "Omnissiah's Blessing",
+            "GrantsAbilities": [
+              "Omnissiah's Blessing"
+            ]
+          },
+          {
+            "Key": "Seekers of Divine Arcana",
+            "GrantsAbilities": [
+              "Seekers of Divine Arcana"
+            ]
+          }
+        ]
+      },
+      "UnitAbilities": [
+        {
+          "Title": "Prioritisation Protocol",
+          "Text": "Melee weapons equipped by this model have [PRECISION]."
+        },
+        {
+          "Title": "Cybercanid Mount",
+          "Text": "Change this model’s Move characteristic to 12\", and it gains the Scouts 9\" ability. Remove the Infantry keyword, add the Mounted keyword, and replace the list of units this model can be attached to: Serberys Raiders, Serberys Sulphurhounds."
+        },
+        {
+          "Title": "Cybenetica Overseer",
+          "Text": "Replace the list of units this model can be attached to: Kastelan Robots.\n\nYou can attach this model to a Kastelan Robots unit, even if one or more Cybernetica Datasmith models have already been attached to it. In such cases, if that Bodyguard unit is destroyed, the Leader units attached to it become separate units with their original Starting Strengths. While attached to a Kastelan Robots unit, this model loses the Infantry keyword and models in that unit have the Doctrina Imperatives Faction ability."
+        },
+        {
+          "Title": "Flight Pack",
+          "Text": "Change this model’s Move characteristic to 12\", and it gains the Deep Strike ability. Add the Fly and Jump Pack keywords, and replace the list of units this model can be attached to: Pteraxii Skystalkers, Pteraxii Sterylizors."
+        },
+        {
+          "Title": "Silk Limbs",
+          "Text": "Change this model’s Move characteristic to 8\", and it gains the Infiltrators and Stealth abilities. Replace the list of units this model can be attached to: Sicarian Infiltrators, Sicarian Ruststalkers."
+        },
+        {
+          "Title": "Control Edict",
+          "Text": "While this model is leading a unit, each time a model in that unit makes an attack, you can re-roll the Hit roll."
+        },
+        {
+          "Title": "Galvanic Field",
+          "Text": "While this model is leading a unit, weapons equipped by models in that unit have the [LETHAL HITS] ability."
+        },
+        {
+          "Title": "Omnissiah's Blessing",
+          "Text": "In your Command phase, select one friendly Adeptus Mechanicus model within 3\" of this model. That model regains up to D3 lost wounds and, if it is a Vehicle model, until the start of your next Command phase, that model has the Feel No Pain 5+ ability. Each model can only be selected for this ability once per Command phase."
+        },
+        {
+          "Title": "Seekers of Divine Arcana",
+          "Text": "While this model is leading a unit, add 1 to the Objective Control characteristic of models in that unit."
+        }
+      ],
+      "LeaderInfo": {
+        "UnitNames": [
+          "SKITARII RANGERS",
+          "SKITARII VANGUARD"
+        ],
+        "Abilities": [
+          {
+            "AbilityId": "Control Edict"
+          },
+          {
+            "AbilityId": "Galvanic Field",
+            "WeaponStatAdjustments": [
+              {
+                "Value": "LETHAL HITS",
+                "Type": "Add",
+                "Scope": "Unit",
+                "Target": "Keywords",
+                "WeaponScope": "All"
+              }
+            ]
+          },
+          {
+            "AbilityId": "Seekers of Divine Arcana",
+            "StatAdjustments": [
+              {
+                "Target": "OC",
+                "Type": "Add",
+                "Scope": "Unit",
+                "Value": "1"
+              }
+            ]
+          }
+        ]
+      },
+      "Infos": [],
+      "Keywords": [
+        "Infantry",
+        "Character",
+        "Imperium",
+        "Skitarii",
+        "Marshal",
+        "Cohort Commander"
+      ],
+      "CoreAbilities": [
+        "Crucible",
+        "Leader"
+      ],
+      "FactionKeywords": [
+        "Adeptus Mechanicus"
+      ],
+      "StatLines": [
+        {
+          "Movement": "6\"",
+          "Toughness": "3",
+          "Save": "4+",
+          "Wounds": "3",
+          "Leadership": "6+",
+          "OC": "1",
+          "InvulSave": {
+            "Save": "5+"
+          }
+        }
+      ],
+      "Weapons": [
+        {
+          "Name": "RANGED WEAPONS",
+          "Weapons": [
+            {
+              "Name": "Arc rifle",
+              "Keywords": "ANTI-VEHICLE 4+, DEVASTATING WOUNDS, RAPID FIRE 1",
+              "Range": "30\"",
+              "Attacks": "1",
+              "ToHit": "3+",
+              "Strength": "8",
+              "AP": "-1",
+              "Damage": "D3"
+            },
+            {
+              "Name": "Eradication ray – dissipated",
+              "Range": "24\"",
+              "Attacks": "D3",
+              "ToHit": "3+",
+              "Strength": "6",
+              "AP": "-1",
+              "Damage": "1"
+            },
+            {
+              "Name": "Eradication ray – focused",
+              "Range": "12\"",
+              "Attacks": "D3",
+              "ToHit": "3+",
+              "Strength": "6",
+              "AP": "-2",
+              "Damage": "2"
+            },
+            {
+              "Name": "Flechette carbine",
+              "Range": "18\"",
+              "Attacks": "6",
+              "ToHit": "3+",
+              "Strength": "3",
+              "AP": "0",
+              "Damage": "1"
+            },
+            {
+              "Name": "Galvanic carbine",
+              "Keywords": "DEVASTATING WOUNDS",
+              "Range": "18\"",
+              "Attacks": "3",
+              "ToHit": "3+",
+              "Strength": "4",
+              "AP": "0",
+              "Damage": "1"
+            },
+            {
+              "Name": "Galvanic rifle",
+              "Range": "30\"",
+              "Attacks": "2",
+              "ToHit": "3+",
+              "Strength": "4",
+              "AP": "0",
+              "Damage": "1"
+            },
+            {
+              "Name": "Magnarail lance",
+              "Keywords": "HEAVY",
+              "Range": "36\"",
+              "Attacks": "1",
+              "ToHit": "3+",
+              "Strength": "7",
+              "AP": "-2",
+              "Damage": "3"
+            },
+            {
+              "Name": "Phosphor torch",
+              "Keywords": "IGNORES COVER, TORRENT",
+              "Range": "12\"",
+              "Attacks": "D6",
+              "ToHit": "N/A",
+              "Strength": "4",
+              "AP": "0",
+              "Damage": "1"
+            },
+            {
+              "Name": "Plasma caliver – standard",
+              "Range": "30\"",
+              "Attacks": "2",
+              "ToHit": "3+",
+              "Strength": "7",
+              "AP": "-2",
+              "Damage": "1"
+            },
+            {
+              "Name": "Plasma caliver – supercharge",
+              "Keywords": "HAZARDOUS",
+              "Range": "30\"",
+              "Attacks": "2",
+              "ToHit": "3+",
+              "Strength": "8",
+              "AP": "-3",
+              "Damage": "2"
+            },
+            {
+              "Name": "Radium carbine",
+              "Keywords": "ANTI-INFANTRY 4+",
+              "Range": "18\"",
+              "Attacks": "3",
+              "ToHit": "3+",
+              "Strength": "3",
+              "AP": "0",
+              "Damage": "1"
+            },
+            {
+              "Name": "Radium jezzail",
+              "Keywords": "ANTI-INFANTRY 3+, HEAVY, PRECISION",
+              "Range": "36\"",
+              "Attacks": "1",
+              "ToHit": "3+",
+              "Strength": "5",
+              "AP": "-2",
+              "Damage": "3"
+            },
+            {
+              "Name": "Transonic cannon",
+              "Keywords": "DEVASTATING WOUNDS, TORRENT",
+              "Range": "12\"",
+              "Attacks": "D6",
+              "ToHit": "N/A",
+              "Strength": "4",
+              "AP": "0",
+              "Damage": "2"
+            },
+            {
+              "Name": "Transuranic arquebus",
+              "Keywords": "ANTI-MONSTER 4+, ANTI-VEHICLE 4+, HEAVY, PRECISION",
+              "Range": "36\"",
+              "Attacks": "1",
+              "ToHit": "3+",
+              "Strength": "7",
+              "AP": "-2",
+              "Damage": "D3"
+            },
+            {
+              "Name": "Volkite blaster",
+              "Keywords": "DEVASTATING WOUNDS",
+              "Range": "24\"",
+              "Attacks": "3",
+              "ToHit": "3+",
+              "Strength": "5",
+              "AP": "0",
+              "Damage": "2"
+            },
+            {
+              "Name": "Flechette blaster",
+              "Keywords": "PISTOL",
+              "Range": "12\"",
+              "Attacks": "5",
+              "ToHit": "3+",
+              "Strength": "3",
+              "AP": "0",
+              "Damage": "1"
+            },
+            {
+              "Name": "Macrostubber",
+              "Keywords": "PISTOL",
+              "Range": "12\"",
+              "Attacks": "5",
+              "ToHit": "3+",
+              "Strength": "4",
+              "AP": "0",
+              "Damage": "1"
+            },
+            {
+              "Name": "Mechanicus pistol",
+              "Keywords": "DEVASTATING WOUNDS, PISTOL",
+              "Range": "12\"",
+              "Attacks": "1",
+              "ToHit": "3+",
+              "Strength": "6",
+              "AP": "-1",
+              "Damage": "1"
+            },
+            {
+              "Name": "Phosphor serpenta",
+              "Keywords": "IGNORES COVER, PISTOL",
+              "Range": "18\"",
+              "Attacks": "1",
+              "ToHit": "3+",
+              "Strength": "5",
+              "AP": "-1",
+              "Damage": "2"
+            },
+            {
+              "Name": "Stubcarbine",
+              "Keywords": "PISTOL",
+              "Range": "12\"",
+              "Attacks": "3",
+              "ToHit": "3+",
+              "Strength": "4",
+              "AP": "0",
+              "Damage": "1"
+            }
+          ]
+        },
+        {
+          "IsMelee": true,
+          "Name": "MELEE WEAPONS",
+          "Weapons": [
+            {
+              "Name": "Arc maul",
+              "Keywords": "ANTI-VEHICLE 4+, DEVASTATING WOUNDS",
+              "Range": "Melee",
+              "Attacks": "4",
+              "ToHit": "3+",
+              "Strength": "5",
+              "AP": "-1",
+              "Damage": "1"
+            },
+            {
+              "Name": "Close-combat weapon",
+              "Range": "Melee",
+              "Attacks": "4",
+              "ToHit": "3+",
+              "Strength": "3",
+              "AP": "0",
+              "Damage": "1"
+            },
+            {
+              "Name": "Control stave",
+              "Range": "Melee",
+              "Attacks": "4",
+              "ToHit": "3+",
+              "Strength": "6",
+              "AP": "-1",
+              "Damage": "1"
+            },
+            {
+              "Name": "Omnisian axe",
+              "Range": "Melee",
+              "Attacks": "4",
+              "ToHit": "3+",
+              "Strength": "6",
+              "AP": "-2",
+              "Damage": "2"
+            },
+            {
+              "Name": "Power fist",
+              "Range": "Melee",
+              "Attacks": "3",
+              "ToHit": "3+",
+              "Strength": "8",
+              "AP": "-2",
+              "Damage": "2"
+            },
+            {
+              "Name": "Power weapon",
+              "Range": "Melee",
+              "Attacks": "4",
+              "ToHit": "3+",
+              "Strength": "4",
+              "AP": "-2",
+              "Damage": "1"
+            },
+            {
+              "Name": "Servo-arc claw",
+              "Keywords": "ANTI-VEHICLE 4+, DEVASTATING WOUNDS",
+              "Range": "Melee",
+              "Attacks": "3",
+              "ToHit": "3+",
+              "Strength": "8",
+              "AP": "-2",
+              "Damage": "2"
+            },
+            {
+              "Name": "Servo-arm",
+              "Keywords": "EXTRA ATTACKS",
+              "Range": "Melee",
+              "Attacks": "1",
+              "ToHit": "3+",
+              "Strength": "6",
+              "AP": "-2",
+              "Damage": "2"
+            },
+            {
+              "Name": "Taser goad",
+              "Keywords": "SUSTAINED HITS 2",
+              "Range": "Melee",
+              "Attacks": "3",
+              "ToHit": "3+",
+              "Strength": "6",
+              "AP": "0",
+              "Damage": "1"
+            },
+            {
+              "Name": "Transonic blades",
+              "Keywords": "DEVASTATING WOUNDS, PRECISION",
+              "Range": "Melee",
+              "Attacks": "5",
+              "ToHit": "3+",
+              "Strength": "5",
+              "AP": "-1",
+              "Damage": "1"
+            }
+          ]
+        }
+      ],
+      "Upgrades": [],
+      "Points": [
+        {
+          "ModelCount": 1,
+          "Cost": 45
+        }
+      ]
+    },
+    {
+      "Name": "IRONSTRIDER ALPHA",
+      "Faction": "Doctrina Imperatives",
+      "Flags": 4,
+      "UnitComposition": {
+        "ModelCompositions": [
+          {
+            "ModelName": "Ironstrider Alpha",
+            "Wargear": [
+              {
+                "InitalWargear": [],
+                "Options": [
+                  {
+                    "Options": [
+                      "arc rifle",
+                      "eradication ray",
+                      "flechette carbine",
+                      "galvanic carbine",
+                      "galvanic rifle",
+                      "magnarail lance",
+                      "phosphor blast carbine",
+                      "phosphor torch",
+                      "plasma caliver",
+                      "radium carbine",
+                      "radium jezzail",
+                      "transonic cannon",
+                      "transuranic arquebus",
+                      "twin cognis autocannon",
+                      "twin cognis lascannon",
+                      "volkite blaster"
+                    ]
+                  },
+                  {
+                    "Options": [
+                      "arc rifle",
+                      "eradication ray",
+                      "flechette carbine",
+                      "galvanic carbine",
+                      "galvanic rifle",
+                      "magnarail lance",
+                      "phosphor torch",
+                      "plasma caliver",
+                      "radium carbine",
+                      "radium jezzail",
+                      "transonic cannon",
+                      "transuranic arquebus",
+                      "volkite blaster"
+                    ]
+                  },
+                  {
+                    "Options": [
+                      "arc maul",
+                      "close-combat weapon",
+                      "ironstrider feet",
+                      "omnisian axe",
+                      "power fist",
+                      "power weapon",
+                      "servo-arc claw",
+                      "servo-arm",
+                      "taser goad",
+                      "taser lance",
+                      "transonic blades"
+                    ]
+                  },
+                  {
+                    "Options": [
+                      "arc maul",
+                      "close-combat weapon",
+                      "omnisian axe",
+                      "power fist",
+                      "power weapon",
+                      "servo-arc claw",
+                      "servo-arm",
+                      "taser goad",
+                      "transonic blades"
+                    ]
+                  },
+                  {
+                    "Options": [
+                      "Control Edict",
+                      "Galvanic Field",
+                      "Omnissiah's Blessing",
+                      "Seekers of Divine Arcana"
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "WargearDefinitions": [
+          {
+            "Key": "Control Edict",
+            "GrantsAbilities": [
+              "Control Edict"
+            ]
+          },
+          {
+            "Key": "Galvanic Field",
+            "GrantsAbilities": [
+              "Galvanic Field"
+            ]
+          },
+          {
+            "Key": "Omnissiah's Blessing",
+            "GrantsAbilities": [
+              "Omnissiah's Blessing"
+            ]
+          },
+          {
+            "Key": "Seekers of Divine Arcana",
+            "GrantsAbilities": [
+              "Seekers of Divine Arcana"
+            ]
+          }
+        ]
+      },
+      "UnitAbilities": [
+        {
+          "Title": "Vector of the Omnissiah's Wrath",
+          "Text": "Ranged weapons equipped by this model have [IGNORES COVER]."
+        },
+        {
+          "Title": "Control Edict",
+          "Text": "While this model is leading a unit, each time a model in that unit makes an attack, you can re-roll the Hit roll."
+        },
+        {
+          "Title": "Galvanic Field",
+          "Text": "While this model is leading a unit, weapons equipped by models in that unit have the [LETHAL HITS] ability."
+        },
+        {
+          "Title": "Omnissiah's Blessing",
+          "Text": "In your Command phase, select one friendly Adeptus Mechanicus model within 3\" of this model. That model regains up to D3 lost wounds and, if it is a Vehicle model, until the start of your next Command phase, that model has the Feel No Pain 5+ ability. Each model can only be selected for this ability once per Command phase."
+        },
+        {
+          "Title": "Seekers of Divine Arcana",
+          "Text": "While this model is leading a unit, add 1 to the Objective Control characteristic of models in that unit."
+        }
+      ],
+      "LeaderInfo": {
+        "UnitNames": [
+          "IRONSTRIDER BALLISTARII",
+          "SYDONIAN DRAGOONS WITH TASER LANCES",
+          "SYDONIAN DRAGOONS WITH RADIUM JEZZAILS"
+        ],
+        "Abilities": [
+          {
+            "AbilityId": "Control Edict"
+          },
+          {
+            "AbilityId": "Galvanic Field",
+            "WeaponStatAdjustments": [
+              {
+                "Value": "LETHAL HITS",
+                "Type": "Add",
+                "Scope": "Unit",
+                "Target": "Keywords",
+                "WeaponScope": "All"
+              }
+            ]
+          },
+          {
+            "AbilityId": "Seekers of Divine Arcana",
+            "StatAdjustments": [
+              {
+                "Target": "OC",
+                "Type": "Add",
+                "Scope": "Unit",
+                "Value": "1"
+              }
+            ]
+          }
+        ]
+      },
+      "Infos": [],
+      "Keywords": [
+        "Vehicle",
+        "Walker",
+        "Smoke",
+        "Character",
+        "Imperium",
+        "Skitarii",
+        "Ironstrider Alpha"
+      ],
+      "CoreAbilities": [
+        "Crucible",
+        "Deadly Demise 1",
+        "Leader",
+        "Stealth"
+      ],
+      "FactionKeywords": [
+        "Adeptus Mechanicus"
+      ],
+      "StatLines": [
+        {
+          "Movement": "10\"",
+          "Toughness": "7",
+          "Save": "3+",
+          "Wounds": "7",
+          "Leadership": "7+",
+          "OC": "2",
+          "InvulSave": {
+            "Save": "5+"
+          }
+        }
+      ],
+      "Weapons": [
+        {
+          "Name": "RANGED WEAPONS",
+          "Weapons": [
+            {
+              "Name": "Arc rifle",
+              "Keywords": "ANTI-VEHICLE 4+, DEVASTATING WOUNDS, RAPID FIRE 1",
+              "Range": "30\"",
+              "Attacks": "1",
+              "ToHit": "3+",
+              "Strength": "8",
+              "AP": "-1",
+              "Damage": "D3"
+            },
+            {
+              "Name": "Eradication ray – dissipated",
+              "Range": "24\"",
+              "Attacks": "D3",
+              "ToHit": "3+",
+              "Strength": "6",
+              "AP": "-1",
+              "Damage": "1"
+            },
+            {
+              "Name": "Eradication ray – focused",
+              "Range": "12\"",
+              "Attacks": "D3",
+              "ToHit": "3+",
+              "Strength": "6",
+              "AP": "-2",
+              "Damage": "2"
+            },
+            {
+              "Name": "Flechette carbine",
+              "Range": "18\"",
+              "Attacks": "6",
+              "ToHit": "3+",
+              "Strength": "3",
+              "AP": "0",
+              "Damage": "1"
+            },
+            {
+              "Name": "Galvanic carbine",
+              "Keywords": "DEVASTATING WOUNDS",
+              "Range": "18\"",
+              "Attacks": "3",
+              "ToHit": "3+",
+              "Strength": "4",
+              "AP": "0",
+              "Damage": "1"
+            },
+            {
+              "Name": "Galvanic rifle",
+              "Range": "30\"",
+              "Attacks": "2",
+              "ToHit": "3+",
+              "Strength": "4",
+              "AP": "0",
+              "Damage": "1"
+            },
+            {
+              "Name": "Magnarail lance",
+              "Keywords": "HEAVY",
+              "Range": "36\"",
+              "Attacks": "1",
+              "ToHit": "3+",
+              "Strength": "7",
+              "AP": "-2",
+              "Damage": "3"
+            },
+            {
+              "Name": "Phosphor blast carbine",
+              "Keywords": "BLAST, IGNORES COVER",
+              "Range": "18\"",
+              "Attacks": "D6",
+              "ToHit": "3+",
+              "Strength": "6",
+              "AP": "0",
+              "Damage": "1"
+            },
+            {
+              "Name": "Phosphor torch",
+              "Keywords": "IGNORES COVER, TORRENT",
+              "Range": "12\"",
+              "Attacks": "D6",
+              "ToHit": "N/A",
+              "Strength": "4",
+              "AP": "0",
+              "Damage": "1"
+            },
+            {
+              "Name": "Plasma caliver – standard",
+              "Range": "30\"",
+              "Attacks": "2",
+              "ToHit": "3+",
+              "Strength": "7",
+              "AP": "-2",
+              "Damage": "1"
+            },
+            {
+              "Name": "Plasma caliver – supercharge",
+              "Keywords": "HAZARDOUS",
+              "Range": "30\"",
+              "Attacks": "2",
+              "ToHit": "3+",
+              "Strength": "8",
+              "AP": "-3",
+              "Damage": "2"
+            },
+            {
+              "Name": "Radium carbine",
+              "Keywords": "ANTI-INFANTRY 4+",
+              "Range": "18\"",
+              "Attacks": "3",
+              "ToHit": "3+",
+              "Strength": "3",
+              "AP": "0",
+              "Damage": "1"
+            },
+            {
+              "Name": "Radium jezzail",
+              "Keywords": "ANTI-INFANTRY 3+, HEAVY, PRECISION",
+              "Range": "36\"",
+              "Attacks": "1",
+              "ToHit": "3+",
+              "Strength": "5",
+              "AP": "-2",
+              "Damage": "3"
+            },
+            {
+              "Name": "Transonic cannon",
+              "Keywords": "DEVASTATING WOUNDS, TORRENT",
+              "Range": "12\"",
+              "Attacks": "D6",
+              "ToHit": "N/A",
+              "Strength": "4",
+              "AP": "0",
+              "Damage": "2"
+            },
+            {
+              "Name": "Transuranic arquebus",
+              "Keywords": "ANTI-MONSTER 4+, ANTI-VEHICLE 4+, HEAVY, PRECISION",
+              "Range": "36\"",
+              "Attacks": "1",
+              "ToHit": "3+",
+              "Strength": "7",
+              "AP": "-2",
+              "Damage": "D3"
+            },
+            {
+              "Name": "Twin cognis autocannon",
+              "Keywords": "SUSTAINED HITS 1",
+              "Range": "48\"",
+              "Attacks": "4",
+              "ToHit": "3+",
+              "Strength": "9",
+              "AP": "-1",
+              "Damage": "3"
+            },
+            {
+              "Name": "Twin cognis lascannon",
+              "Keywords": "SUSTAINED HITS 1",
+              "Range": "48\"",
+              "Attacks": "2",
+              "ToHit": "3+",
+              "Strength": "12",
+              "AP": "-3",
+              "Damage": "D6+1"
+            },
+            {
+              "Name": "Volkite blaster",
+              "Keywords": "DEVASTATING WOUNDS",
+              "Range": "24\"",
+              "Attacks": "3",
+              "ToHit": "3+",
+              "Strength": "5",
+              "AP": "0",
+              "Damage": "2"
+            }
+          ]
+        },
+        {
+          "IsMelee": true,
+          "Name": "MELEE WEAPONS",
+          "Weapons": [
+            {
+              "Name": "Arc maul",
+              "Keywords": "ANTI-VEHICLE 4+, DEVASTATING WOUNDS",
+              "Range": "Melee",
+              "Attacks": "4",
+              "ToHit": "3+",
+              "Strength": "5",
+              "AP": "-1",
+              "Damage": "1"
+            },
+            {
+              "Name": "Close-combat weapon",
+              "Range": "Melee",
+              "Attacks": "4",
+              "ToHit": "3+",
+              "Strength": "3",
+              "AP": "0",
+              "Damage": "1"
+            },
+            {
+              "Name": "Ironstrider feet",
+              "Range": "Melee",
+              "Attacks": "3",
+              "ToHit": "3+",
+              "Strength": "5",
+              "AP": "0",
+              "Damage": "1"
+            },
+            {
+              "Name": "Omnisian axe",
+              "Range": "Melee",
+              "Attacks": "4",
+              "ToHit": "3+",
+              "Strength": "6",
+              "AP": "-2",
+              "Damage": "2"
+            },
+            {
+              "Name": "Power fist",
+              "Range": "Melee",
+              "Attacks": "3",
+              "ToHit": "3+",
+              "Strength": "8",
+              "AP": "-2",
+              "Damage": "2"
+            },
+            {
+              "Name": "Power weapon",
+              "Range": "Melee",
+              "Attacks": "4",
+              "ToHit": "3+",
+              "Strength": "4",
+              "AP": "-2",
+              "Damage": "1"
+            },
+            {
+              "Name": "Servo-arc claw",
+              "Keywords": "ANTI-VEHICLE 4+, DEVASTATING WOUNDS",
+              "Range": "Melee",
+              "Attacks": "3",
+              "ToHit": "3+",
+              "Strength": "8",
+              "AP": "-2",
+              "Damage": "2"
+            },
+            {
+              "Name": "Servo-arm",
+              "Keywords": "EXTRA ATTACKS",
+              "Range": "Melee",
+              "Attacks": "1",
+              "ToHit": "3+",
+              "Strength": "6",
+              "AP": "-2",
+              "Damage": "2"
+            },
+            {
+              "Name": "Taser goad",
+              "Keywords": "SUSTAINED HITS 2",
+              "Range": "Melee",
+              "Attacks": "3",
+              "ToHit": "3+",
+              "Strength": "6",
+              "AP": "0",
+              "Damage": "1"
+            },
+            {
+              "Name": "Taser lance",
+              "Keywords": "ANTI-WALKER 2+, LANCE, SUSTAINED HITS 2",
+              "Range": "Melee",
+              "Attacks": "4",
+              "ToHit": "3+",
+              "Strength": "7",
+              "AP": "-2",
+              "Damage": "2"
+            },
+            {
+              "Name": "Transonic blades",
+              "Keywords": "DEVASTATING WOUNDS, PRECISION",
+              "Range": "Melee",
+              "Attacks": "5",
+              "ToHit": "3+",
+              "Strength": "5",
+              "AP": "-1",
+              "Damage": "1"
+            }
+          ]
+        }
+      ],
+      "Upgrades": [],
+      "Points": [
+        {
+          "ModelCount": 1,
+          "Cost": 80
+        }
+      ]
+    }
+  ],
+  "Dettachments": [],
+  "ArmyRules": []
+}

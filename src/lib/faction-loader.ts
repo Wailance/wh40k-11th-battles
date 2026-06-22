@@ -18,6 +18,7 @@ import type {
 } from '../types/faction-data'
 import type { Army, Detachment, ForceDisposition } from '../types/game'
 import { publicUrl } from './public-url'
+import { loadWarOrganBuilderBundle } from './warorgan-loader'
 
 const factionMap = factionMapData as FactionMapData
 const cache = new Map<string, CuratedFaction>()
@@ -79,6 +80,15 @@ export async function loadArmyBuilderMeta(army: string): Promise<{
 }
 
 export async function loadArmyEntryForBuilder(army: string, fallback: Army | undefined): Promise<Army | undefined> {
+  const wo = await loadWarOrganBuilderBundle(army)
+  if (wo && wo.detachments.length > 0) {
+    return {
+      army,
+      category: fallback?.category ?? 'imperium',
+      factionPackUrl: fallback?.factionPackUrl ?? '',
+      detachments: wo.detachments,
+    }
+  }
   const meta = await loadArmyBuilderMeta(army)
   if (!meta || meta.detachments.length === 0) return fallback
   return {
@@ -157,7 +167,18 @@ export async function loadFactionCatalog(army: string): Promise<{
   units: CuratedUnit[]
   enhancements: CuratedFaction['enhancements']
   catalogueNames: string[]
+  warOrgan?: boolean
 }> {
+  const wo = await loadWarOrganBuilderBundle(army)
+  if (wo) {
+    return {
+      units: wo.units,
+      enhancements: wo.enhancements,
+      catalogueNames: [wo.factionFile.replace(/\.json$/i, '')],
+      warOrgan: true,
+    }
+  }
+
   const mapping = getFactionMapping(army)
   if (!mapping) throw new Error(`No faction map for ${army}`)
 

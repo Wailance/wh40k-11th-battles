@@ -1,8 +1,23 @@
-import type { CuratedUnit, UnitCostBracket, UnitPricingTier } from '../types/faction-data'
+import type { CuratedUnit, Enhancement, UnitCostBracket, UnitPricingTier } from '../types/faction-data'
 import type { ArmyRoster, BattleSize, RosterEnhancement, RosterUnit } from '../types/roster'
 import type { SelectedDetachment } from '../types/game'
+import type { WoUnit } from '../types/warorgan'
 import { getArmyDataEdition } from './faction-loader'
 import { maxCopiesForUnit } from './unit-buckets'
+import {
+  defaultWarOrganComposition,
+  parseWarOrganState,
+  summarizeWarOrganComposition,
+  totalModelCount,
+  WO_ROSTER_KEY,
+} from './warorgan-composition'
+import { warOrganLinePoints } from './warorgan-points'
+import { enhancementByName } from './warorgan-enhancements'
+import {
+  clearLeaderAttachmentsTo,
+  parseWoLineMeta,
+  upgradeCost,
+} from './warorgan-roster'
 
 export const BATTLE_SIZE_LIMITS: Record<BattleSize, number> = {
   1000: 1000,
@@ -66,11 +81,13 @@ export function modelCountChoices(unit: CuratedUnit): number[] {
 export function updateRosterLine(
   roster: ArmyRoster,
   lineId: string,
-  patch: Partial<Pick<RosterUnit, 'models' | 'options'>>,
+  patch: Partial<Pick<RosterUnit, 'models' | 'options' | 'points'>>,
   catalogUnits: CuratedUnit[] = [],
+  woUnits?: Map<string, WoUnit>,
+  enhancements: Enhancement[] = [],
 ): ArmyRoster {
   const units = roster.units.map((line) => (line.lineId === lineId ? { ...line, ...patch } : line))
-  return refreshRoster({ ...roster, units }, catalogUnits)
+  return refreshRoster({ ...roster, units }, catalogUnits, woUnits, enhancements)
 }
 
 
@@ -82,11 +99,16 @@ export function calcPointsTotal(
   units: RosterUnit[],
   enhancements: RosterEnhancement[] = [],
   catalogUnits: CuratedUnit[] = [],
+  woUnits?: Map<string, WoUnit>,
+  catalogEnhancements: Enhancement[] = [],
 ): number {
   let unitPts = 0
 
   if (catalogUnits.length > 0) {
-    unitPts = priceRosterLines(units, catalogUnits).reduce((s, u) => s + u.points, 0)
+    unitPts = priceRosterLines(units, catalogUnits, woUnits, catalogEnhancements).reduce(
+      (s, u) => s + u.points,
+      0,
+    )
   } else {
     for (const ru of units) {
       unitPts += ru.points * Math.max(1, ru.count)
@@ -116,16 +138,35 @@ function expandRosterUnits(units: RosterUnit[]): RosterUnit[] {
   return expanded
 }
 
-export function priceRosterLines(units: RosterUnit[], catalogUnits: CuratedUnit[]): RosterUnit[] {
+export function priceRosterLines(
+  units: RosterUnit[],
+  catalogUnits: CuratedUnit[],
+  woUnits?: Map<string, WoUnit>,
+  catalogEnhancements: Enhancement[] = [],
+): RosterUnit[] {
   const catalogById = new Map(catalogUnits.map((u) => [u.id, u]))
   const instanceIndex = new Map<string, number>()
 
   return expandRosterUnits(units).map((ru) => {
     const cu = catalogById.get(ru.unitId)
+    const wo = woUnits?.get(ru.unitId)
     const idx = (instanceIndex.get(ru.unitId) ?? 0) + 1
     instanceIndex.set(ru.unitId, idx)
-    const models = ru.models ?? (cu ? defaultUnitModels(cu) : 1)
-    const points = cu ? unitLinePoints(cu, idx, models) : ru.points
+    const woState = parseWarOrganState(ru.options)
+    const models = woState
+      ? totalModelCount(woState)
+      : (ru.models ?? (cu ? defaultUnitModels(cu) : 1))
+    let points = cu ? unitLinePoints(cu, idx, models) : ru.points
+    if (cu && wo && woState) {
+      points = warOrganLinePoints(cu, wo, idx, woState)
+    }
+    const meta = parseWoLineMeta(ru.options)
+    if (wo && meta.upgradeName) {
+      points += upgradeCost(wo.Upgrades, meta.upgradeName)
+    }
+    if (meta.enhancementId) {
+      points += enhancementByName(catalogEnhancements, meta.enhancementId)?.points ?? 0
+    }
     return { ...ru, count: 1, models, points }
   })
 }
@@ -155,22 +196,44 @@ export function canAddUnit(roster: ArmyRoster, unit: CuratedUnit, count = 1): bo
   return rosterUnitCount(roster, unit.id) + count <= maxCopiesForUnit(unit)
 }
 
-export function addUnit(roster: ArmyRoster, unit: CuratedUnit, count = 1): ArmyRoster {
+export function addUnit(
+  roster: ArmyRoster,
+  unit: CuratedUnit,
+  count = 1,
+  woUnit?: WoUnit,
+): ArmyRoster {
   if (!canAddUnit(roster, unit, count)) return roster
-  const models = defaultUnitModels(unit)
   const lines: RosterUnit[] = []
   const existingOfType = roster.units.filter((u) => u.unitId === unit.id).length
 
   for (let i = 0; i < count; i++) {
     const instanceIdx = existingOfType + i + 1
-    lines.push({
-      lineId: crypto.randomUUID(),
-      unitId: unit.id,
-      name: unit.name,
-      points: unitLinePoints(unit, instanceIdx, models),
-      count: 1,
-      models,
-    })
+    if (woUnit?.UnitComposition?.ModelCompositions.length) {
+      const woState = defaultWarOrganComposition(woUnit)
+      const models = totalModelCount(woState)
+      lines.push({
+        lineId: crypto.randomUUID(),
+        unitId: unit.id,
+        name: unit.name,
+        points: warOrganLinePoints(unit, woUnit, instanceIdx, woState),
+        count: 1,
+        models,
+        options: {
+          loadoutSummary: summarizeWarOrganComposition(woUnit, woState),
+          [WO_ROSTER_KEY]: woState,
+        },
+      })
+    } else {
+      const models = defaultUnitModels(unit)
+      lines.push({
+        lineId: crypto.randomUUID(),
+        unitId: unit.id,
+        name: unit.name,
+        points: unitLinePoints(unit, instanceIdx, models),
+        count: 1,
+        models,
+      })
+    }
   }
 
   return refreshRoster({ ...roster, units: [...roster.units, ...lines] })
@@ -178,7 +241,8 @@ export function addUnit(roster: ArmyRoster, unit: CuratedUnit, count = 1): ArmyR
 
 export function removeRosterLine(roster: ArmyRoster, lineId: string): ArmyRoster {
   const removed = roster.units.find((u) => u.lineId === lineId)
-  const units = roster.units.filter((u) => u.lineId !== lineId)
+  let units = roster.units.filter((u) => u.lineId !== lineId)
+  units = clearLeaderAttachmentsTo(units, lineId)
   const enhancements =
     removed != null
       ? roster.enhancements.filter((e) => e.assignedUnitId !== removed.unitId)
@@ -251,13 +315,26 @@ export function toggleEnhancement(
   })
 }
 
-export function refreshRoster(roster: ArmyRoster, catalogUnits: CuratedUnit[] = []): ArmyRoster {
+export function refreshRoster(
+  roster: ArmyRoster,
+  catalogUnits: CuratedUnit[] = [],
+  woUnits?: Map<string, WoUnit>,
+  catalogEnhancements: Enhancement[] = [],
+): ArmyRoster {
   const units =
-    catalogUnits.length > 0 ? priceRosterLines(roster.units, catalogUnits) : expandRosterUnits(roster.units)
+    catalogUnits.length > 0
+      ? priceRosterLines(roster.units, catalogUnits, woUnits, catalogEnhancements)
+      : expandRosterUnits(roster.units)
   const next = { ...roster, units }
   return {
     ...next,
-    pointsTotal: calcPointsTotal(units, roster.enhancements, catalogUnits),
+    pointsTotal: calcPointsTotal(
+      units,
+      roster.enhancements,
+      catalogUnits,
+      woUnits,
+      catalogEnhancements,
+    ),
     updatedAt: new Date().toISOString(),
   }
 }

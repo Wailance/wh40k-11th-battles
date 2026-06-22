@@ -1,0 +1,2061 @@
+{
+  "Name": "Tyranids",
+  "Units": [
+    {
+      "Name": "DIMACHAERON",
+      "Faction": "Synapse",
+      "UnitComposition": {
+        "ModelCompositions": [
+          {
+            "ModelName": "Dimachaeron",
+            "Wargear": [
+              {
+                "InitalWargear": [
+                  "massive scything sickle-talons"
+                ],
+                "Options": []
+              }
+            ]
+          }
+        ],
+        "WargearDefinitions": []
+      },
+      "UnitAbilities": [
+        {
+          "Title": "Digestion Spine",
+          "Text": "Each time this model fights, after it has resolved its attacks, if one or more enemy models (excluding Vehicle models) were destroyed as the result of those attacks, this model regains up to D3 wounds."
+        }
+      ],
+      "Infos": [
+        {
+          "Title": "DAMAGED: 1-5 WOUNDS REMAINING",
+          "Text": "While this model has 1-5 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
+        }
+      ],
+      "Keywords": [
+        "Monster",
+        "Great Devourer",
+        "Dimachaeron",
+        "Frame"
+      ],
+      "CoreAbilities": [
+        "Deadly Demise D6"
+      ],
+      "FactionKeywords": [
+        "Tyranids"
+      ],
+      "StatLines": [
+        {
+          "Movement": "12\"",
+          "Toughness": "10",
+          "Save": "3+",
+          "Wounds": "16",
+          "Leadership": "7+",
+          "OC": "5",
+          "InvulSave": {
+            "Save": "5+"
+          }
+        }
+      ],
+      "Weapons": [
+        {
+          "IsMelee": true,
+          "Name": "MELEE WEAPONS",
+          "Weapons": [
+            {
+              "Name": "Massive scything sickle-talons",
+              "Keywords": "TWIN-LINKED",
+              "Range": "Melee",
+              "Attacks": "10",
+              "ToHit": "3+",
+              "Strength": "9",
+              "AP": "-2",
+              "Damage": "3"
+            }
+          ]
+        }
+      ],
+      "Upgrades": [],
+      "Points": [
+        {
+          "ModelCount": 1,
+          "Cost": 200
+        }
+      ]
+    },
+    {
+      "Name": "SKY-SLASHER SWARMS",
+      "Faction": "Synapse",
+      "UnitComposition": {
+        "ModelCompositions": [
+          {
+            "Limit": {
+              "Min": 3,
+              "Max": 3
+            },
+            "ModelName": "Sky-slasher Swarms",
+            "Wargear": [
+              {
+                "InitalWargear": [
+                  "claws & teeth"
+                ],
+                "Options": [
+                  {
+                    "Options": [
+                      "spinemaws"
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "WargearDefinitions": []
+      },
+      "UnitAbilities": [
+        {
+          "Title": "Chitinous Horrors",
+          "Text": "While an enemy unit is within Engagement Range of one or more units with this ability, halve the Objective Control characteristic of models in that enemy unit."
+        }
+      ],
+      "Infos": [],
+      "Keywords": [
+        "Swarm",
+        "Great Devourer",
+        "Fly",
+        "Sky-slasher Swarms"
+      ],
+      "CoreAbilities": [
+        "Deep Strike"
+      ],
+      "FactionKeywords": [
+        "Tyranids"
+      ],
+      "StatLines": [
+        {
+          "Movement": "12\"",
+          "Toughness": "2",
+          "Save": "6+",
+          "Wounds": "4",
+          "Leadership": "8+",
+          "OC": "0"
+        }
+      ],
+      "Weapons": [
+        {
+          "Name": "RANGED WEAPONS",
+          "Weapons": [
+            {
+              "Name": "Spinemaws",
+              "Keywords": "PISTOL",
+              "Range": "6\"",
+              "Attacks": "4",
+              "ToHit": "5+",
+              "Strength": "3",
+              "AP": "0",
+              "Damage": "1"
+            }
+          ]
+        },
+        {
+          "IsMelee": true,
+          "Name": "MELEE WEAPONS",
+          "Weapons": [
+            {
+              "Name": "Claws & teeth",
+              "Keywords": "SUSTAINED HITS 1",
+              "Range": "Melee",
+              "Attacks": "6",
+              "ToHit": "5+",
+              "Strength": "2",
+              "AP": "0",
+              "Damage": "1"
+            }
+          ]
+        }
+      ],
+      "Upgrades": [],
+      "Points": [
+        {
+          "ModelCount": 3,
+          "Cost": 60
+        }
+      ]
+    },
+    {
+      "Name": "MALANTHROPE",
+      "Faction": "Shadow in the Warp, Synapse",
+      "UnitComposition": {
+        "ModelCompositions": [
+          {
+            "ModelName": "Malanthrope",
+            "Wargear": [
+              {
+                "InitalWargear": [
+                  "grasping tail"
+                ],
+                "Options": []
+              }
+            ]
+          }
+        ],
+        "WargearDefinitions": []
+      },
+      "UnitAbilities": [
+        {
+          "Title": "Enhanced Toxic Miasma",
+          "Text": "While this model is leading a unit, the range of that unit's Foul Spores Aura ability is increased to 9\"."
+        },
+        {
+          "Title": "Prey Adaptation",
+          "Text": "Each time this model's unit is selected to fight, select one of the following abilities to apply to all melee weapons equipped by models in that unit until the end of the phase:\n\t▪ [SUSTAINED HITS 1] \n\t▪ [LANCE] \n\t▪ [LETHAL HITS]"
+        }
+      ],
+      "LeaderInfo": {
+        "UnitNames": [
+          "VENOMTHROPES"
+        ],
+        "Abilities": [
+          {
+            "AbilityId": "Enhanced Toxic Miasma"
+          }
+        ]
+      },
+      "Infos": [],
+      "Keywords": [
+        "Infantry",
+        "Character",
+        "Fly",
+        "Great Devourer",
+        "Synapse",
+        "Malanthrope"
+      ],
+      "CoreAbilities": [
+        "Leader",
+        "Stealth"
+      ],
+      "FactionKeywords": [
+        "Tyranids"
+      ],
+      "StatLines": [
+        {
+          "Movement": "6\"",
+          "Toughness": "5",
+          "Save": "4+",
+          "Wounds": "10",
+          "Leadership": "7+",
+          "OC": "3"
+        }
+      ],
+      "Weapons": [
+        {
+          "IsMelee": true,
+          "Name": "MELEE WEAPONS",
+          "Weapons": [
+            {
+              "Name": "Grasping tail",
+              "Range": "Melee",
+              "Attacks": "4",
+              "ToHit": "4+",
+              "Strength": "5",
+              "AP": "0",
+              "Damage": "2"
+            }
+          ]
+        }
+      ],
+      "Upgrades": [],
+      "Points": [
+        {
+          "ModelCount": 1,
+          "Cost": 75
+        }
+      ]
+    },
+    {
+      "Name": "BARBED HIERODULE",
+      "Faction": "Synapse",
+      "UnitComposition": {
+        "ModelCompositions": [
+          {
+            "ModelName": "Barbed Hierodule",
+            "Wargear": [
+              {
+                "InitalWargear": [
+                  "2 bio-cannons",
+                  "Hierodule scything talons"
+                ],
+                "Options": []
+              }
+            ]
+          }
+        ],
+        "WargearDefinitions": []
+      },
+      "UnitAbilities": [
+        {
+          "Title": "Overgrown Barbs",
+          "Text": "In your Shooting phase, after this model has shot, select one enemy unit (excluding Titanic units) that was hit by one or more of those attacks. Until the start of your next turn, while this model is on the battlefield, that enemy unit is suppressed. While a unit is suppressed, each time a model in that unit makes an attack, subtract 1 from the Hit roll."
+        }
+      ],
+      "Infos": [
+        {
+          "Title": "DAMAGED: 1-6 WOUNDS REMAINING",
+          "Text": "While this model has 1-6 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
+        }
+      ],
+      "Keywords": [
+        "Monster",
+        "Great Devourer",
+        "Barbed Hierodule",
+        "Frame"
+      ],
+      "CoreAbilities": [
+        "Deadly Demise D6"
+      ],
+      "FactionKeywords": [
+        "Tyranids"
+      ],
+      "StatLines": [
+        {
+          "Movement": "8\"",
+          "Toughness": "12",
+          "Save": "2+",
+          "Wounds": "18",
+          "Leadership": "8+",
+          "OC": "5"
+        }
+      ],
+      "Weapons": [
+        {
+          "Name": "RANGED WEAPONS",
+          "Weapons": [
+            {
+              "Name": "Bio-cannon",
+              "Keywords": "BLAST",
+              "Range": "48\"",
+              "Attacks": "D6+3",
+              "ToHit": "3+",
+              "Strength": "9",
+              "AP": "-2",
+              "Damage": "2"
+            }
+          ]
+        },
+        {
+          "IsMelee": true,
+          "Name": "MELEE WEAPONS",
+          "Weapons": [
+            {
+              "Name": "Hierodule scything talons",
+              "Range": "Melee",
+              "Attacks": "8",
+              "ToHit": "3+",
+              "Strength": "14",
+              "AP": "-2",
+              "Damage": "D3+3"
+            }
+          ]
+        }
+      ],
+      "Upgrades": [],
+      "Points": [
+        {
+          "ModelCount": 1,
+          "Cost": 340
+        }
+      ]
+    },
+    {
+      "Name": "SCYTHED HIERODULE",
+      "Faction": "Synapse",
+      "UnitComposition": {
+        "ModelCompositions": [
+          {
+            "ModelName": "Scythed Hierodule",
+            "Wargear": [
+              {
+                "InitalWargear": [
+                  "bio-acid spray",
+                  "Hierodule scything talons"
+                ],
+                "Options": []
+              }
+            ]
+          }
+        ],
+        "WargearDefinitions": []
+      },
+      "UnitAbilities": [
+        {
+          "Title": "Irresistible Force",
+          "Text": "This model is eligible to declare a charge in a turn in which it Fell Back."
+        }
+      ],
+      "Infos": [
+        {
+          "Title": "DAMAGED: 1-6 WOUNDS REMAINING",
+          "Text": "While this model has 1-6 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
+        }
+      ],
+      "Keywords": [
+        "Monster",
+        "Great Devourer",
+        "Scythed Hierodule",
+        "Frame"
+      ],
+      "CoreAbilities": [
+        "Deadly Demise D6"
+      ],
+      "FactionKeywords": [
+        "Tyranids"
+      ],
+      "StatLines": [
+        {
+          "Movement": "12\"",
+          "Toughness": "12",
+          "Save": "2+",
+          "Wounds": "18",
+          "Leadership": "8+",
+          "OC": "5"
+        }
+      ],
+      "Weapons": [
+        {
+          "Name": "RANGED WEAPONS",
+          "Weapons": [
+            {
+              "Name": "Bio-acid spray",
+              "Keywords": "TORRENT",
+              "Range": "18\"",
+              "Attacks": "3D6",
+              "ToHit": "N/A",
+              "Strength": "6",
+              "AP": "-2",
+              "Damage": "1"
+            }
+          ]
+        },
+        {
+          "IsMelee": true,
+          "Name": "MELEE WEAPONS",
+          "Weapons": [
+            {
+              "Name": "Hierodule scything talons",
+              "Range": "Melee",
+              "Attacks": "10",
+              "ToHit": "3+",
+              "Strength": "14",
+              "AP": "-2",
+              "Damage": "D3+3"
+            }
+          ]
+        }
+      ],
+      "Upgrades": [],
+      "Points": [
+        {
+          "ModelCount": 1,
+          "Cost": 330
+        }
+      ]
+    },
+    {
+      "Name": "NODE ORGANISM",
+      "Faction": "Shadow in the Warp, Synapse",
+      "Flags": 4,
+      "UnitComposition": {
+        "ModelCompositions": [
+          {
+            "ModelName": "Node Organism",
+            "Wargear": [
+              {
+                "InitalWargear": [],
+                "Options": [
+                  {
+                    "Options": [
+                      "barbed strangler",
+                      "bio-electric pulse",
+                      "deathspitter",
+                      "devourer",
+                      "psychic overload",
+                      "psychic scream",
+                      "spinefists",
+                      "thoracic bio-weapon",
+                      "venom cannon"
+                    ]
+                  },
+                  {
+                    "Options": [
+                      "piercing claws & talons",
+                      "ravener claws & talons",
+                      "warrior-beast weapons"
+                    ]
+                  },
+                  {
+                    "Options": [
+                      "piercing claws & talons",
+                      "ravener claws & talons",
+                      "warrior-beast weapons"
+                    ]
+                  },
+                  {
+                    "Options": [
+                      "Burrowing Claws",
+                      "Floating Horror",
+                      "Leader-beast",
+                      "Vanguard-beast",
+                      "Winged Biomorph"
+                    ]
+                  },
+                  {
+                    "Options": [
+                      "Fear of the Unseen",
+                      "Feeder Tendrils",
+                      "Hyperstimulation",
+                      "Psychic Terror",
+                      "Synaptic Senses"
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "WargearDefinitions": [
+          {
+            "Key": "Burrowing Claws",
+            "GrantsAbilities": [
+              "Burrowing Claws"
+            ],
+            "StatAdjustments": [
+              {
+                "Value": "10\""
+              }
+            ],
+            "DatasheetAdjustments": [
+              {
+                "Target": "Keywords",
+                "Type": "Add",
+                "Values": [
+                  "Vanguard Invader"
+                ]
+              },
+              {
+                "Target": "CoreAbilities",
+                "Type": "Add",
+                "Values": [
+                  "Deep Strike"
+                ]
+              },
+              {
+                "Target": "LedUnitNames",
+                "Values": [
+                  "RAVENERS"
+                ]
+              }
+            ]
+          },
+          {
+            "Key": "Floating Horror",
+            "GrantsAbilities": [
+              "Floating Horror"
+            ],
+            "DatasheetAdjustments": [
+              {
+                "Target": "Keywords",
+                "Type": "Add",
+                "Values": [
+                  "Fly"
+                ]
+              },
+              {
+                "Target": "LedUnitNames",
+                "Values": [
+                  "VENOMTHROPES",
+                  "ZOANTHROPES"
+                ]
+              }
+            ]
+          },
+          {
+            "Key": "Leader-beast",
+            "GrantsAbilities": [
+              "Leader-beast"
+            ],
+            "StatAdjustments": [
+              {
+                "Target": "InvulSave",
+                "Value": "4+"
+              }
+            ],
+            "DatasheetAdjustments": [
+              {
+                "Target": "Keywords",
+                "Type": "Add",
+                "Values": [
+                  "Psyker",
+                  "Synapse"
+                ]
+              },
+              {
+                "Target": "LedUnitNames",
+                "Values": [
+                  "TYRANID WARRIORS WITH MELEE BIO-WEAPONS",
+                  "TYRANID WARRIORS WITH RANGED BIO-WEAPONS",
+                  "NEUROGAUNTS"
+                ]
+              }
+            ]
+          },
+          {
+            "Key": "Vanguard-beast",
+            "GrantsAbilities": [
+              "Vanguard-beast"
+            ],
+            "StatAdjustments": [
+              {
+                "Value": "8\""
+              }
+            ],
+            "DatasheetAdjustments": [
+              {
+                "Target": "Keywords",
+                "Type": "Add",
+                "Values": [
+                  "Vanguard Invader"
+                ]
+              },
+              {
+                "Target": "CoreAbilities",
+                "Type": "Add",
+                "Values": [
+                  "Fights First",
+                  "Infiltrators",
+                  "Lone Operative",
+                  "Stealth"
+                ]
+              },
+              {
+                "Target": "LedUnitNames",
+                "Values": [
+                  "HORMAGAUNTS",
+                  "VON RYAN’S LEAPERS"
+                ]
+              }
+            ]
+          },
+          {
+            "Key": "Winged Biomorph",
+            "GrantsAbilities": [
+              "Winged Biomorph"
+            ],
+            "StatAdjustments": [
+              {
+                "Value": "12\""
+              }
+            ],
+            "DatasheetAdjustments": [
+              {
+                "Target": "Keywords",
+                "Type": "Add",
+                "Values": [
+                  "Fly",
+                  "Vanguard Invader"
+                ]
+              },
+              {
+                "Target": "CoreAbilities",
+                "Type": "Add",
+                "Values": [
+                  "Deep Strike"
+                ]
+              },
+              {
+                "Target": "LedUnitNames",
+                "Values": [
+                  "GARGOYLES"
+                ]
+              }
+            ]
+          },
+          {
+            "Key": "Fear of the Unseen",
+            "GrantsAbilities": [
+              "Fear of the Unseen"
+            ]
+          },
+          {
+            "Key": "Feeder Tendrils",
+            "GrantsAbilities": [
+              "Feeder Tendrils"
+            ]
+          },
+          {
+            "Key": "Hyperstimulation",
+            "GrantsAbilities": [
+              "Hyperstimulation"
+            ]
+          },
+          {
+            "Key": "Psychic Terror",
+            "GrantsAbilities": [
+              "Psychic Terror"
+            ]
+          },
+          {
+            "Key": "Synaptic Senses",
+            "GrantsAbilities": [
+              "Synaptic Senses"
+            ]
+          }
+        ]
+      },
+      "UnitAbilities": [
+        {
+          "Title": "Alpha Warrior",
+          "Text": "While this model is leading a unit, weapons equipped by models in that unit have the [SUSTAINED HITS 1] ability."
+        },
+        {
+          "Title": "Burrowing Claws",
+          "Text": "Change this model’s Move characteristic to 10\", add the Vanguard Invader keyword, and it gains the Deep Strike ability. If it is an Infantry model, replace the list of units this model can be attached to: Raveners."
+        },
+        {
+          "Title": "Floating Horror",
+          "Text": "Add the Fly keyword, and replace the list of units this model can be attached to: Venomthropes, Zoanthropes."
+        },
+        {
+          "Title": "Leader-beast",
+          "Text": "This model has a 4+ invulnerable save, add the Psyker and Synapse keywords, and it gains the Shadow in the Warp ability. If it is an Infantry model, add the following unit to the list of units this model can be attached to: Neurogaunts."
+        },
+        {
+          "Title": "Vanguard-beast",
+          "Text": "Change this model’s Move characteristic to 8\", add the Vanguard Invader keyword, and it gains the Fights First, Infiltrators, Lone Operative and Stealth abilities. Replace the list of units this model can be attached to: Hormagaunts, Von Ryan’s Leapers."
+        },
+        {
+          "Title": "Winged Biomorph",
+          "Text": "Change this model’s Move characteristic to 12\", add the Fly and Vanguard Invader keywords, and it gains the Deep Strike ability. If it is an Infantry model, replace the list of units this model can be attached to: Gargoyles."
+        },
+        {
+          "Title": "Fear of the Unseen (Aura)",
+          "Text": "While an enemy unit is within 6\" of this model, worsen the Leadership characteristic of models in that unit by 1. In addition, in the Battle-shock step of your opponent’s Command phase, if such an enemy unit is below its Starting Strength, it must take a Battle-shock test."
+        },
+        {
+          "Title": "Feeder Tendrils",
+          "Text": "Each time a melee attack made by a model in this unit destroys an enemy Character model, you gain 1CP."
+        },
+        {
+          "Title": "Hyperstimulation",
+          "Text": "You can re-roll Advance and Charge rolls made for this unit."
+        },
+        {
+          "Title": "Psychic Terror (Psychic)",
+          "Text": "If one or more models from your army with this ability are on the battlefield when you unleash the Shadow in the Warp, subtract 1 from the Battle-shock test each enemy unit on the battlefield must take as a result."
+        },
+        {
+          "Title": "Synaptic Senses (Psychic)",
+          "Text": "Ranged weapons equipped by models in this unit have the [LETHAL HITS] ability."
+        }
+      ],
+      "LeaderInfo": {
+        "UnitNames": [
+          "TYRANID WARRIORS WITH MELEE BIO-WEAPONS",
+          "TYRANID WARRIORS WITH RANGED BIO-WEAPONS"
+        ],
+        "Abilities": [
+          {
+            "AbilityId": "Alpha Warrior",
+            "WeaponStatAdjustments": [
+              {
+                "Value": "SUSTAINED HITS 1",
+                "Type": "Add",
+                "Scope": "Unit",
+                "Target": "Keywords",
+                "WeaponScope": "All"
+              }
+            ]
+          }
+        ]
+      },
+      "Infos": [],
+      "Keywords": [
+        "Infantry",
+        "Character",
+        "Great Devourer",
+        "Synapse",
+        "Node Organism"
+      ],
+      "CoreAbilities": [
+        "Crucible",
+        "Leader"
+      ],
+      "FactionKeywords": [
+        "Tyranids"
+      ],
+      "StatLines": [
+        {
+          "Movement": "6\"",
+          "Toughness": "5",
+          "Save": "4+",
+          "Wounds": "6",
+          "Leadership": "7+",
+          "OC": "1"
+        }
+      ],
+      "Weapons": [
+        {
+          "Name": "RANGED WEAPONS",
+          "Weapons": [
+            {
+              "Name": "Barbed strangler",
+              "Keywords": "BLAST",
+              "Range": "36\"",
+              "Attacks": "D6+1",
+              "ToHit": "3+",
+              "Strength": "6",
+              "AP": "-1",
+              "Damage": "1"
+            },
+            {
+              "Name": "Bio-electric pulse",
+              "Keywords": "SUSTAINED HITS 2",
+              "Range": "12\"",
+              "Attacks": "6",
+              "ToHit": "3+",
+              "Strength": "5",
+              "AP": "0",
+              "Damage": "1"
+            },
+            {
+              "Name": "Deathspitter",
+              "Range": "24\"",
+              "Attacks": "3",
+              "ToHit": "3+",
+              "Strength": "5",
+              "AP": "-1",
+              "Damage": "1"
+            },
+            {
+              "Name": "Devourer",
+              "Range": "18\"",
+              "Attacks": "5",
+              "ToHit": "3+",
+              "Strength": "4",
+              "AP": "0",
+              "Damage": "1"
+            },
+            {
+              "Name": "Psychic Overload",
+              "Keywords": "BLAST, PSYCHIC",
+              "Range": "18\"",
+              "Attacks": "D6+3",
+              "ToHit": "3+",
+              "Strength": "10",
+              "AP": "-2",
+              "Damage": "3"
+            },
+            {
+              "Name": "Psychic Scream",
+              "Keywords": "IGNORES COVER, PSYCHIC, TORRENT",
+              "Range": "18\"",
+              "Attacks": "2D6",
+              "ToHit": "N/A",
+              "Strength": "5",
+              "AP": "-1",
+              "Damage": "2"
+            },
+            {
+              "Name": "Spinefists",
+              "Keywords": "ASSAULT, PISTOL, TWIN-LINKED",
+              "Range": "12\"",
+              "Attacks": "2",
+              "ToHit": "3+",
+              "Strength": "4",
+              "AP": "0",
+              "Damage": "1"
+            },
+            {
+              "Name": "Thoracic bio-weapon",
+              "Keywords": "ASSAULT",
+              "Range": "12\"",
+              "Attacks": "3",
+              "ToHit": "3+",
+              "Strength": "4",
+              "AP": "0",
+              "Damage": "1"
+            },
+            {
+              "Name": "Venom cannon",
+              "Keywords": "BLAST",
+              "Range": "36\"",
+              "Attacks": "D3",
+              "ToHit": "3+",
+              "Strength": "9",
+              "AP": "-2",
+              "Damage": "2"
+            }
+          ]
+        },
+        {
+          "IsMelee": true,
+          "Name": "MELEE WEAPONS",
+          "Weapons": [
+            {
+              "Name": "piercing claws & talons",
+              "Keywords": "PRECISION",
+              "Range": "Melee",
+              "Attacks": "6",
+              "ToHit": "2+",
+              "Strength": "7",
+              "AP": "-2",
+              "Damage": "2"
+            },
+            {
+              "Name": "ravener claws & talons",
+              "Keywords": "TWIN-LINKED",
+              "Range": "Melee",
+              "Attacks": "7",
+              "ToHit": "2+",
+              "Strength": "5",
+              "AP": "-1",
+              "Damage": "1"
+            },
+            {
+              "Name": "Warrior-beast weapons",
+              "Range": "Melee",
+              "Attacks": "6",
+              "ToHit": "2+",
+              "Strength": "5",
+              "AP": "-1",
+              "Damage": "1"
+            }
+          ]
+        }
+      ],
+      "Upgrades": [],
+      "Points": [
+        {
+          "ModelCount": 1,
+          "Cost": 80
+        }
+      ]
+    },
+    {
+      "Name": "PRIME ORGANISM",
+      "Faction": "Synapse",
+      "Flags": 4,
+      "UnitComposition": {
+        "ModelCompositions": [
+          {
+            "ModelName": "Prime Organism",
+            "Wargear": [
+              {
+                "InitalWargear": [],
+                "Options": [
+                  {
+                    "Options": [
+                      "barbed strangler",
+                      "bio-electric pulse",
+                      "bio-plasma",
+                      "deathspitter",
+                      "deathspitters with slimer maggots",
+                      "devourer",
+                      "devourers with brainleech worms",
+                      "heavy venom cannon",
+                      "psychic overload",
+                      "psychic scream",
+                      "spine banks",
+                      "spinefists",
+                      "stranglethorn cannon",
+                      "thoracic bio-weapon",
+                      "venom cannon"
+                    ]
+                  },
+                  {
+                    "Options": [
+                      "barbed strangler",
+                      "bio-electric pulse",
+                      "bio-plasma",
+                      "deathspitter",
+                      "deathspitters with slimer maggots",
+                      "devourer",
+                      "devourers with brainleech worms",
+                      "heavy venom cannon",
+                      "psychic overload",
+                      "psychic scream",
+                      "spine banks",
+                      "spinefists",
+                      "stranglethorn cannon",
+                      "thoracic bio-weapon",
+                      "venom cannon"
+                    ]
+                  },
+                  {
+                    "Options": [
+                      "crushing claws",
+                      "monstrous bonesword & lash whip",
+                      "monstrous scything talons",
+                      "piercing claws & talons",
+                      "ravener claws & talons",
+                      "scything talons",
+                      "tyrant-beast weapons",
+                      "warrior-beast weapons"
+                    ]
+                  },
+                  {
+                    "Options": [
+                      "crushing claws",
+                      "monstrous bonesword & lash whip",
+                      "monstrous scything talons",
+                      "piercing claws & talons",
+                      "ravener claws & talons",
+                      "scything talons",
+                      "tyrant-beast weapons",
+                      "warrior-beast weapons"
+                    ]
+                  },
+                  {
+                    "Options": [
+                      "Burrowing Claws",
+                      "Leader-beast",
+                      "Winged Biomorph"
+                    ]
+                  },
+                  {
+                    "Options": [
+                      "Fear of the Unseen",
+                      "Feeder Tendrils",
+                      "Hyperstimulation",
+                      "Psychic Terror",
+                      "Synaptic Senses"
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "WargearDefinitions": [
+          {
+            "Key": "Burrowing Claws",
+            "GrantsAbilities": [
+              "Burrowing Claws"
+            ],
+            "StatAdjustments": [
+              {
+                "Value": "10\""
+              }
+            ],
+            "DatasheetAdjustments": [
+              {
+                "Target": "Keywords",
+                "Type": "Add",
+                "Values": [
+                  "Vanguard Invader"
+                ]
+              },
+              {
+                "Target": "CoreAbilities",
+                "Type": "Add",
+                "Values": [
+                  "Deep Strike"
+                ]
+              }
+            ]
+          },
+          {
+            "Key": "Leader-beast",
+            "GrantsAbilities": [
+              "Leader-beast"
+            ],
+            "StatAdjustments": [
+              {
+                "Target": "InvulSave",
+                "Value": "4+"
+              }
+            ],
+            "DatasheetAdjustments": [
+              {
+                "Target": "Keywords",
+                "Type": "Add",
+                "Values": [
+                  "Psyker",
+                  "Synapse"
+                ]
+              }
+            ]
+          },
+          {
+            "Key": "Winged Biomorph",
+            "GrantsAbilities": [
+              "Winged Biomorph"
+            ],
+            "StatAdjustments": [
+              {
+                "Value": "12\""
+              }
+            ],
+            "DatasheetAdjustments": [
+              {
+                "Target": "Keywords",
+                "Type": "Add",
+                "Values": [
+                  "Fly",
+                  "Vanguard Invader"
+                ]
+              },
+              {
+                "Target": "CoreAbilities",
+                "Type": "Add",
+                "Values": [
+                  "Deep Strike"
+                ]
+              }
+            ]
+          },
+          {
+            "Key": "Fear of the Unseen",
+            "GrantsAbilities": [
+              "Fear of the Unseen"
+            ]
+          },
+          {
+            "Key": "Feeder Tendrils",
+            "GrantsAbilities": [
+              "Feeder Tendrils"
+            ]
+          },
+          {
+            "Key": "Hyperstimulation",
+            "GrantsAbilities": [
+              "Hyperstimulation"
+            ]
+          },
+          {
+            "Key": "Psychic Terror",
+            "GrantsAbilities": [
+              "Psychic Terror"
+            ]
+          },
+          {
+            "Key": "Synaptic Senses",
+            "GrantsAbilities": [
+              "Synaptic Senses"
+            ]
+          }
+        ]
+      },
+      "UnitAbilities": [
+        {
+          "Title": "Monstrous Rampage",
+          "Text": "This unit is eligible to shoot and declare a charge in a turn in which it Advanced."
+        },
+        {
+          "Title": "Burrowing Claws",
+          "Text": "Change this model’s Move characteristic to 10\", add the Vanguard Invader keyword, and it gains the Deep Strike ability. If it is an Infantry model, replace the list of units this model can be attached to: Raveners."
+        },
+        {
+          "Title": "Leader-beast",
+          "Text": "This model has a 4+ invulnerable save, add the Psyker and Synapse keywords, and it gains the Shadow in the Warp ability. If it is an Infantry model, add the following unit to the list of units this model can be attached to: Neurogaunts."
+        },
+        {
+          "Title": "Winged Biomorph",
+          "Text": "Change this model’s Move characteristic to 12\", add the Fly and Vanguard Invader keywords, and it gains the Deep Strike ability. If it is an Infantry model, replace the list of units this model can be attached to: Gargoyles."
+        },
+        {
+          "Title": "Fear of the Unseen (Aura)",
+          "Text": "While an enemy unit is within 6\" of this model, worsen the Leadership characteristic of models in that unit by 1. In addition, in the Battle-shock step of your opponent’s Command phase, if such an enemy unit is below its Starting Strength, it must take a Battle-shock test."
+        },
+        {
+          "Title": "Feeder Tendrils",
+          "Text": "Each time a melee attack made by a model in this unit destroys an enemy Character model, you gain 1CP."
+        },
+        {
+          "Title": "Hyperstimulation",
+          "Text": "You can re-roll Advance and Charge rolls made for this unit."
+        },
+        {
+          "Title": "Psychic Terror (Psychic)",
+          "Text": "If one or more models from your army with this ability are on the battlefield when you unleash the Shadow in the Warp, subtract 1 from the Battle-shock test each enemy unit on the battlefield must take as a result."
+        },
+        {
+          "Title": "Synaptic Senses (Psychic)",
+          "Text": "Ranged weapons equipped by models in this unit have the [LETHAL HITS] ability."
+        }
+      ],
+      "LeaderInfo": {
+        "UnitNames": [
+          "CARNIFEXES",
+          "TYRANT GUARD"
+        ]
+      },
+      "Infos": [],
+      "Keywords": [
+        "Monster",
+        "Character",
+        "Great Devourer",
+        "Prime Organism"
+      ],
+      "CoreAbilities": [
+        "Crucible",
+        "Deadly Demise D3",
+        "Leader"
+      ],
+      "FactionKeywords": [
+        "Tyranids"
+      ],
+      "StatLines": [
+        {
+          "Movement": "8\"",
+          "Toughness": "9",
+          "Save": "2+",
+          "Wounds": "9",
+          "Leadership": "7+",
+          "OC": "3"
+        }
+      ],
+      "Weapons": [
+        {
+          "Name": "RANGED WEAPONS",
+          "Weapons": [
+            {
+              "Name": "Barbed strangler",
+              "Keywords": "BLAST",
+              "Range": "36\"",
+              "Attacks": "D6+1",
+              "ToHit": "3+",
+              "Strength": "6",
+              "AP": "-1",
+              "Damage": "1"
+            },
+            {
+              "Name": "Bio-electric pulse",
+              "Keywords": "SUSTAINED HITS 2",
+              "Range": "12\"",
+              "Attacks": "6",
+              "ToHit": "3+",
+              "Strength": "5",
+              "AP": "0",
+              "Damage": "1"
+            },
+            {
+              "Name": "Bio-plasma",
+              "Keywords": "ASSAULT, BLAST",
+              "Range": "12\"",
+              "Attacks": "D3",
+              "ToHit": "3+",
+              "Strength": "7",
+              "AP": "-2",
+              "Damage": "1"
+            },
+            {
+              "Name": "Deathspitter",
+              "Range": "24\"",
+              "Attacks": "3",
+              "ToHit": "3+",
+              "Strength": "5",
+              "AP": "-1",
+              "Damage": "1"
+            },
+            {
+              "Name": "Deathspitters with slimer maggots",
+              "Range": "24\"",
+              "Attacks": "6",
+              "ToHit": "3+",
+              "Strength": "7",
+              "AP": "-2",
+              "Damage": "1"
+            },
+            {
+              "Name": "Devourer",
+              "Range": "18\"",
+              "Attacks": "5",
+              "ToHit": "3+",
+              "Strength": "4",
+              "AP": "0",
+              "Damage": "1"
+            },
+            {
+              "Name": "Devourers with brainleech worms",
+              "Range": "18\"",
+              "Attacks": "12",
+              "ToHit": "3+",
+              "Strength": "6",
+              "AP": "0",
+              "Damage": "1"
+            },
+            {
+              "Name": "Heavy venom cannon",
+              "Keywords": "BLAST",
+              "Range": "36\"",
+              "Attacks": "D3",
+              "ToHit": "3+",
+              "Strength": "9",
+              "AP": "-2",
+              "Damage": "3"
+            },
+            {
+              "Name": "Psychic Overload",
+              "Keywords": "BLAST, PSYCHIC",
+              "Range": "18\"",
+              "Attacks": "D6+3",
+              "ToHit": "3+",
+              "Strength": "10",
+              "AP": "-2",
+              "Damage": "3"
+            },
+            {
+              "Name": "Psychic Scream",
+              "Keywords": "IGNORES COVER, PSYCHIC, TORRENT",
+              "Range": "18\"",
+              "Attacks": "2D6",
+              "ToHit": "N/A",
+              "Strength": "5",
+              "AP": "-1",
+              "Damage": "2"
+            },
+            {
+              "Name": "Spine banks",
+              "Keywords": "ASSAULT",
+              "Range": "6\"",
+              "Attacks": "5",
+              "ToHit": "3+",
+              "Strength": "5",
+              "AP": "0",
+              "Damage": "1"
+            },
+            {
+              "Name": "Spinefists",
+              "Keywords": "ASSAULT, PISTOL, TWIN-LINKED",
+              "Range": "12\"",
+              "Attacks": "2",
+              "ToHit": "3+",
+              "Strength": "4",
+              "AP": "0",
+              "Damage": "1"
+            },
+            {
+              "Name": "Stranglethorn cannon",
+              "Keywords": "BLAST",
+              "Range": "36\"",
+              "Attacks": "D6+1",
+              "ToHit": "3+",
+              "Strength": "7",
+              "AP": "-1",
+              "Damage": "2"
+            },
+            {
+              "Name": "Thoracic bio-weapon",
+              "Keywords": "ASSAULT",
+              "Range": "12\"",
+              "Attacks": "3",
+              "ToHit": "3+",
+              "Strength": "4",
+              "AP": "0",
+              "Damage": "1"
+            },
+            {
+              "Name": "Venom cannon",
+              "Keywords": "BLAST",
+              "Range": "36\"",
+              "Attacks": "D3",
+              "ToHit": "3+",
+              "Strength": "9",
+              "AP": "-2",
+              "Damage": "2"
+            }
+          ]
+        },
+        {
+          "IsMelee": true,
+          "Name": "MELEE WEAPONS",
+          "Weapons": [
+            {
+              "Name": "Crushing claws",
+              "Range": "Melee",
+              "Attacks": "5",
+              "ToHit": "2+",
+              "Strength": "12",
+              "AP": "-3",
+              "Damage": "D6+1"
+            },
+            {
+              "Name": "monstrous bonesword & lash whip",
+              "Keywords": "TWIN-LINKED",
+              "Range": "Melee",
+              "Attacks": "6",
+              "ToHit": "2+",
+              "Strength": "9",
+              "AP": "-2",
+              "Damage": "3"
+            },
+            {
+              "Name": "Monstrous scything talons",
+              "Keywords": "EXTRA ATTACKS",
+              "Range": "Melee",
+              "Attacks": "4",
+              "ToHit": "2+",
+              "Strength": "7",
+              "AP": "-2",
+              "Damage": "2"
+            },
+            {
+              "Name": "piercing claws & talons",
+              "Keywords": "PRECISION",
+              "Range": "Melee",
+              "Attacks": "6",
+              "ToHit": "2+",
+              "Strength": "7",
+              "AP": "-2",
+              "Damage": "2"
+            },
+            {
+              "Name": "ravener claws & talons",
+              "Keywords": "TWIN-LINKED",
+              "Range": "Melee",
+              "Attacks": "7",
+              "ToHit": "2+",
+              "Strength": "5",
+              "AP": "-1",
+              "Damage": "1"
+            },
+            {
+              "Name": "Scything talons",
+              "Range": "Melee",
+              "Attacks": "6",
+              "ToHit": "2+",
+              "Strength": "9",
+              "AP": "-2",
+              "Damage": "3"
+            },
+            {
+              "Name": "Tyrant-beast weapons",
+              "Range": "Melee",
+              "Attacks": "5",
+              "ToHit": "2+",
+              "Strength": "7",
+              "AP": "-2",
+              "Damage": "2"
+            },
+            {
+              "Name": "Warrior-beast weapons",
+              "Range": "Melee",
+              "Attacks": "6",
+              "ToHit": "2+",
+              "Strength": "5",
+              "AP": "-1",
+              "Damage": "1"
+            }
+          ]
+        }
+      ],
+      "Upgrades": [],
+      "Points": [
+        {
+          "ModelCount": 1,
+          "Cost": 135
+        }
+      ]
+    },
+    {
+      "Name": "MACRO ORGANISM",
+      "Faction": "Synapse",
+      "Flags": 4,
+      "UnitComposition": {
+        "ModelCompositions": [
+          {
+            "ModelName": "Macro Organism",
+            "Wargear": [
+              {
+                "InitalWargear": [],
+                "Options": [
+                  {
+                    "Options": [
+                      "acid spray",
+                      "barbed strangler",
+                      "bio-electric pulse",
+                      "bio-plasma",
+                      "bio-plasmic cannon",
+                      "deathspitter",
+                      "deathspitters with slimer maggots",
+                      "devourer",
+                      "devourers with brainleech worms",
+                      "fleshbore hive",
+                      "heavy venom cannon",
+                      "psychic overload",
+                      "psychic scream",
+                      "psychoclastic torrent",
+                      "rupture cannon",
+                      "spine banks",
+                      "spinefists",
+                      "stinger salvoes",
+                      "stranglethorn cannon",
+                      "thoracic bio-weapon",
+                      "venom cannon"
+                    ]
+                  },
+                  {
+                    "Options": [
+                      "crushing claws",
+                      "massive scything talons",
+                      "monster-beast weapons",
+                      "monstrous bonesword & lash whip",
+                      "monstrous scything talons",
+                      "piercing claws & talons",
+                      "ravener claws & talons",
+                      "ravenous maw",
+                      "scything talons",
+                      "tyrant-beast weapons",
+                      "warrior-beast weapons"
+                    ]
+                  },
+                  {
+                    "Options": [
+                      "crushing claws",
+                      "massive scything talons",
+                      "monster-beast weapons",
+                      "monstrous bonesword & lash whip",
+                      "monstrous scything talons",
+                      "piercing claws & talons",
+                      "ravener claws & talons",
+                      "ravenous maw",
+                      "scything talons",
+                      "tyrant-beast weapons",
+                      "warrior-beast weapons"
+                    ]
+                  },
+                  {
+                    "Options": [
+                      "Armoured Shell",
+                      "Burrowing Claws",
+                      "Leader-beast"
+                    ]
+                  },
+                  {
+                    "Options": [
+                      "Fear of the Unseen",
+                      "Feeder Tendrils",
+                      "Hyperstimulation",
+                      "Psychic Terror",
+                      "Synaptic Senses"
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "WargearDefinitions": [
+          {
+            "Key": "Armoured Shell",
+            "GrantsAbilities": [
+              "Armoured Shell"
+            ],
+            "StatAdjustments": [
+              {
+                "Target": "Save",
+                "Value": "2+"
+              }
+            ],
+            "DatasheetAdjustments": [
+              {
+                "Target": "CoreAbilities",
+                "Type": "Add",
+                "Values": [
+                  "Deadly Demise D6"
+                ]
+              },
+              {
+                "Target": "CoreAbilities",
+                "Type": "Subtract",
+                "Values": [
+                  "Deadly Demise D3"
+                ]
+              }
+            ]
+          },
+          {
+            "Key": "Burrowing Claws",
+            "GrantsAbilities": [
+              "Burrowing Claws"
+            ],
+            "StatAdjustments": [
+              {
+                "Value": "10\""
+              }
+            ],
+            "DatasheetAdjustments": [
+              {
+                "Target": "Keywords",
+                "Type": "Add",
+                "Values": [
+                  "Vanguard Invader"
+                ]
+              },
+              {
+                "Target": "CoreAbilities",
+                "Type": "Add",
+                "Values": [
+                  "Deep Strike"
+                ]
+              }
+            ]
+          },
+          {
+            "Key": "Leader-beast",
+            "GrantsAbilities": [
+              "Leader-beast"
+            ],
+            "StatAdjustments": [
+              {
+                "Target": "InvulSave",
+                "Value": "4+"
+              }
+            ],
+            "DatasheetAdjustments": [
+              {
+                "Target": "Keywords",
+                "Type": "Add",
+                "Values": [
+                  "Psyker",
+                  "Synapse"
+                ]
+              }
+            ]
+          },
+          {
+            "Key": "Fear of the Unseen",
+            "GrantsAbilities": [
+              "Fear of the Unseen"
+            ]
+          },
+          {
+            "Key": "Feeder Tendrils",
+            "GrantsAbilities": [
+              "Feeder Tendrils"
+            ]
+          },
+          {
+            "Key": "Hyperstimulation",
+            "GrantsAbilities": [
+              "Hyperstimulation"
+            ]
+          },
+          {
+            "Key": "Psychic Terror",
+            "GrantsAbilities": [
+              "Psychic Terror"
+            ]
+          },
+          {
+            "Key": "Synaptic Senses",
+            "GrantsAbilities": [
+              "Synaptic Senses"
+            ]
+          }
+        ]
+      },
+      "UnitAbilities": [
+        {
+          "Title": "Unstoppable Monstrosity",
+          "Text": "At the start of each player’s Command phase, this model regains up to D3 lost wounds."
+        },
+        {
+          "Title": "Armoured Shell",
+          "Text": "Change this model’s Save characteristic to 2+, and change its Deadly Demise D3 ability to Deadly Demise D6."
+        },
+        {
+          "Title": "Burrowing Claws",
+          "Text": "Change this model’s Move characteristic to 10\", add the Vanguard Invader keyword, and it gains the Deep Strike ability. If it is an Infantry model, replace the list of units this model can be attached to: Raveners."
+        },
+        {
+          "Title": "Leader-beast",
+          "Text": "This model has a 4+ invulnerable save, add the Psyker and Synapse keywords, and it gains the Shadow in the Warp ability. If it is an Infantry model, add the following unit to the list of units this model can be attached to: Neurogaunts."
+        },
+        {
+          "Title": "Fear of the Unseen (Aura)",
+          "Text": "While an enemy unit is within 6\" of this model, worsen the Leadership characteristic of models in that unit by 1. In addition, in the Battle-shock step of your opponent’s Command phase, if such an enemy unit is below its Starting Strength, it must take a Battle-shock test."
+        },
+        {
+          "Title": "Feeder Tendrils",
+          "Text": "Each time a melee attack made by a model in this unit destroys an enemy Character model, you gain 1CP."
+        },
+        {
+          "Title": "Hyperstimulation",
+          "Text": "You can re-roll Advance and Charge rolls made for this unit."
+        },
+        {
+          "Title": "Psychic Terror (Psychic)",
+          "Text": "If one or more models from your army with this ability are on the battlefield when you unleash the Shadow in the Warp, subtract 1 from the Battle-shock test each enemy unit on the battlefield must take as a result."
+        },
+        {
+          "Title": "Synaptic Senses (Psychic)",
+          "Text": "Ranged weapons equipped by models in this unit have the [LETHAL HITS] ability."
+        }
+      ],
+      "Infos": [],
+      "Keywords": [
+        "Monster",
+        "Character",
+        "Great Devourer",
+        "Macro Organism"
+      ],
+      "CoreAbilities": [
+        "Crucible",
+        "Deadly Demise D3"
+      ],
+      "FactionKeywords": [
+        "Tyranids"
+      ],
+      "StatLines": [
+        {
+          "Movement": "8\"",
+          "Toughness": "10",
+          "Save": "3+",
+          "Wounds": "14",
+          "Leadership": "8+",
+          "OC": "4"
+        }
+      ],
+      "Weapons": [
+        {
+          "Name": "RANGED WEAPONS",
+          "Weapons": [
+            {
+              "Name": "Acid spray",
+              "Keywords": "TORRENT",
+              "Range": "18\"",
+              "Attacks": "D6+6",
+              "ToHit": "N/A",
+              "Strength": "6",
+              "AP": "-2",
+              "Damage": "2"
+            },
+            {
+              "Name": "Barbed strangler",
+              "Keywords": "BLAST",
+              "Range": "36\"",
+              "Attacks": "D6+1",
+              "ToHit": "3+",
+              "Strength": "6",
+              "AP": "-1",
+              "Damage": "1"
+            },
+            {
+              "Name": "Bio-electric pulse",
+              "Keywords": "SUSTAINED HITS 2",
+              "Range": "12\"",
+              "Attacks": "6",
+              "ToHit": "3+",
+              "Strength": "5",
+              "AP": "0",
+              "Damage": "1"
+            },
+            {
+              "Name": "Bio-plasma",
+              "Keywords": "ASSAULT, BLAST",
+              "Range": "12\"",
+              "Attacks": "D3",
+              "ToHit": "3+",
+              "Strength": "7",
+              "AP": "-2",
+              "Damage": "1"
+            },
+            {
+              "Name": "Bio-plasmic cannon",
+              "Keywords": "BLAST, HEAVY",
+              "Range": "36\"",
+              "Attacks": "D6+3",
+              "ToHit": "3+",
+              "Strength": "8",
+              "AP": "-3",
+              "Damage": "3"
+            },
+            {
+              "Name": "Deathspitter",
+              "Range": "24\"",
+              "Attacks": "3",
+              "ToHit": "3+",
+              "Strength": "5",
+              "AP": "-1",
+              "Damage": "1"
+            },
+            {
+              "Name": "Deathspitters with slimer maggots",
+              "Range": "24\"",
+              "Attacks": "6",
+              "ToHit": "3+",
+              "Strength": "7",
+              "AP": "-2",
+              "Damage": "1"
+            },
+            {
+              "Name": "Devourer",
+              "Range": "18\"",
+              "Attacks": "5",
+              "ToHit": "3+",
+              "Strength": "4",
+              "AP": "0",
+              "Damage": "1"
+            },
+            {
+              "Name": "Devourers with brainleech worms",
+              "Range": "18\"",
+              "Attacks": "12",
+              "ToHit": "3+",
+              "Strength": "6",
+              "AP": "0",
+              "Damage": "1"
+            },
+            {
+              "Name": "Fleshbore hive",
+              "Keywords": "HEAVY, SUSTAINED HITS 1, TWIN-LINKED",
+              "Range": "24\"",
+              "Attacks": "20",
+              "ToHit": "3+",
+              "Strength": "5",
+              "AP": "0",
+              "Damage": "1"
+            },
+            {
+              "Name": "Heavy venom cannon",
+              "Keywords": "BLAST",
+              "Range": "36\"",
+              "Attacks": "D3",
+              "ToHit": "3+",
+              "Strength": "9",
+              "AP": "-2",
+              "Damage": "3"
+            },
+            {
+              "Name": "Psychic Overload",
+              "Keywords": "BLAST, PSYCHIC",
+              "Range": "18\"",
+              "Attacks": "D6+3",
+              "ToHit": "3+",
+              "Strength": "10",
+              "AP": "-2",
+              "Damage": "3"
+            },
+            {
+              "Name": "Psychic Scream",
+              "Keywords": "IGNORES COVER, PSYCHIC, TORRENT",
+              "Range": "18\"",
+              "Attacks": "2D6",
+              "ToHit": "N/A",
+              "Strength": "5",
+              "AP": "-1",
+              "Damage": "2"
+            },
+            {
+              "Name": "Psychoclastic torrent",
+              "Keywords": "IGNORES COVER, TORRENT",
+              "Range": "12\"",
+              "Attacks": "D6",
+              "ToHit": "N/A",
+              "Strength": "6",
+              "AP": "-1",
+              "Damage": "1"
+            },
+            {
+              "Name": "Rupture cannon",
+              "Keywords": "HEAVY",
+              "Range": "48\"",
+              "Attacks": "2",
+              "ToHit": "3+",
+              "Strength": "18",
+              "AP": "-4",
+              "Damage": "2D6"
+            },
+            {
+              "Name": "Spine banks",
+              "Keywords": "ASSAULT",
+              "Range": "6\"",
+              "Attacks": "5",
+              "ToHit": "3+",
+              "Strength": "5",
+              "AP": "0",
+              "Damage": "1"
+            },
+            {
+              "Name": "Spinefists",
+              "Keywords": "ASSAULT, PISTOL, TWIN-LINKED",
+              "Range": "12\"",
+              "Attacks": "2",
+              "ToHit": "3+",
+              "Strength": "4",
+              "AP": "0",
+              "Damage": "1"
+            },
+            {
+              "Name": "Stinger salvoes",
+              "Range": "24\"",
+              "Attacks": "8",
+              "ToHit": "3+",
+              "Strength": "5",
+              "AP": "0",
+              "Damage": "1"
+            },
+            {
+              "Name": "Stranglethorn cannon",
+              "Keywords": "BLAST",
+              "Range": "36\"",
+              "Attacks": "D6+1",
+              "ToHit": "3+",
+              "Strength": "7",
+              "AP": "-1",
+              "Damage": "2"
+            },
+            {
+              "Name": "Thoracic bio-weapon",
+              "Keywords": "ASSAULT",
+              "Range": "12\"",
+              "Attacks": "3",
+              "ToHit": "3+",
+              "Strength": "4",
+              "AP": "0",
+              "Damage": "1"
+            },
+            {
+              "Name": "Venom cannon",
+              "Keywords": "BLAST",
+              "Range": "36\"",
+              "Attacks": "D3",
+              "ToHit": "3+",
+              "Strength": "9",
+              "AP": "-2",
+              "Damage": "2"
+            }
+          ]
+        },
+        {
+          "IsMelee": true,
+          "Name": "MELEE WEAPONS",
+          "Weapons": [
+            {
+              "Name": "Crushing claws",
+              "Range": "Melee",
+              "Attacks": "5",
+              "ToHit": "2+",
+              "Strength": "12",
+              "AP": "-3",
+              "Damage": "D6+1"
+            },
+            {
+              "Name": "Massive scything talons – strike",
+              "Range": "Melee",
+              "Attacks": "5",
+              "ToHit": "3+",
+              "Strength": "9",
+              "AP": "-2",
+              "Damage": "D6"
+            },
+            {
+              "Name": "Massive scything talons – sweep",
+              "Range": "Melee",
+              "Attacks": "10",
+              "ToHit": "3+",
+              "Strength": "7",
+              "AP": "-1",
+              "Damage": "2"
+            },
+            {
+              "Name": "Monster-beast weapons",
+              "Range": "Melee",
+              "Attacks": "12",
+              "ToHit": "3+",
+              "Strength": "9",
+              "AP": "-2",
+              "Damage": "3"
+            },
+            {
+              "Name": "monstrous bonesword & lash whip",
+              "Keywords": "TWIN-LINKED",
+              "Range": "Melee",
+              "Attacks": "6",
+              "ToHit": "2+",
+              "Strength": "9",
+              "AP": "-2",
+              "Damage": "3"
+            },
+            {
+              "Name": "Monstrous scything talons",
+              "Keywords": "EXTRA ATTACKS",
+              "Range": "Melee",
+              "Attacks": "4",
+              "ToHit": "2+",
+              "Strength": "7",
+              "AP": "-2",
+              "Damage": "2"
+            },
+            {
+              "Name": "piercing claws & talons",
+              "Keywords": "PRECISION",
+              "Range": "Melee",
+              "Attacks": "6",
+              "ToHit": "2+",
+              "Strength": "7",
+              "AP": "-2",
+              "Damage": "2"
+            },
+            {
+              "Name": "ravener claws & talons",
+              "Keywords": "TWIN-LINKED",
+              "Range": "Melee",
+              "Attacks": "7",
+              "ToHit": "2+",
+              "Strength": "5",
+              "AP": "-1",
+              "Damage": "1"
+            },
+            {
+              "Name": "Ravenous maw",
+              "Range": "Melee",
+              "Attacks": "14",
+              "ToHit": "3+",
+              "Strength": "7",
+              "AP": "-1",
+              "Damage": "2"
+            },
+            {
+              "Name": "Scything talons",
+              "Range": "Melee",
+              "Attacks": "6",
+              "ToHit": "2+",
+              "Strength": "9",
+              "AP": "-2",
+              "Damage": "3"
+            },
+            {
+              "Name": "Tyrant-beast weapons",
+              "Range": "Melee",
+              "Attacks": "5",
+              "ToHit": "2+",
+              "Strength": "7",
+              "AP": "-2",
+              "Damage": "2"
+            },
+            {
+              "Name": "Warrior-beast weapons",
+              "Range": "Melee",
+              "Attacks": "6",
+              "ToHit": "2+",
+              "Strength": "5",
+              "AP": "-1",
+              "Damage": "1"
+            }
+          ]
+        }
+      ],
+      "Upgrades": [],
+      "Points": [
+        {
+          "ModelCount": 1,
+          "Cost": 150
+        }
+      ]
+    }
+  ],
+  "Dettachments": [],
+  "ArmyRules": []
+}

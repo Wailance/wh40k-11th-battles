@@ -1,0 +1,2293 @@
+{
+  "Name": "Grey Knights",
+  "Units": [
+    {
+      "Name": "GREY KNIGHTS DREADNOUGHT",
+      "UnitComposition": {
+        "ModelCompositions": [
+          {
+            "ModelName": "Grey Knights Dreadnought",
+            "Wargear": [
+              {
+                "InitalWargear": [
+                  "assault cannon",
+                  "storm bolter",
+                  "Dreadnought combat weapon"
+                ],
+                "Options": [
+                  {
+                    "Replaces": [
+                      "assault cannon",
+                      "storm bolter",
+                      "Dreadnought combat weapon"
+                    ],
+                    "Options": [
+                      "heavy psycannon, storm bolter and Nemesis doomglaive",
+                      "heavy psycannon, incinerator and Nemesis doomglaive"
+                    ]
+                  },
+                  {
+                    "Replaces": [
+                      "assault cannon"
+                    ],
+                    "Options": [
+                      "heavy plasma cannon",
+                      "multi-melta",
+                      "twin lascannon"
+                    ]
+                  },
+                  {
+                    "Replaces": [
+                      "storm bolter",
+                      "Dreadnought combat weapon"
+                    ],
+                    "Options": [
+                      "missile launcher and armoured feet",
+                      "heavy flamer and Dreadnought combat weapon"
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "WargearDefinitions": []
+      },
+      "UnitAbilities": [
+        {
+          "Title": "Wisdom of the Ancients (Aura)",
+          "Text": "While a friendly Grey Knights Infantry unit is within 6\" of this model, each time a model in that unit makes an attack, re-roll a Hit roll of 1 and re-roll a Wound roll of 1."
+        }
+      ],
+      "Infos": [],
+      "Keywords": [
+        "Vehicle",
+        "Walker",
+        "Psyker",
+        "Smoke",
+        "Imperium",
+        "Dreadnought"
+      ],
+      "CoreAbilities": [
+        "Deadly Demise 1"
+      ],
+      "FactionKeywords": [
+        "Grey Knights"
+      ],
+      "StatLines": [
+        {
+          "Movement": "6\"",
+          "Toughness": "9",
+          "Save": "2+",
+          "Wounds": "8",
+          "Leadership": "6+",
+          "OC": "3"
+        }
+      ],
+      "Weapons": [
+        {
+          "Name": "RANGED WEAPONS",
+          "Weapons": [
+            {
+              "Name": "Assault cannon",
+              "Keywords": "DEVASTATING WOUNDS",
+              "Range": "24\"",
+              "Attacks": "6",
+              "ToHit": "3+",
+              "Strength": "6",
+              "AP": "0",
+              "Damage": "1"
+            },
+            {
+              "Name": "Heavy flamer",
+              "Keywords": "IGNORES COVER, TORRENT",
+              "Range": "12\"",
+              "Attacks": "D6",
+              "ToHit": "N/A",
+              "Strength": "5",
+              "AP": "-1",
+              "Damage": "1"
+            },
+            {
+              "Name": "Heavy plasma cannon – standard",
+              "Keywords": "BLAST",
+              "Range": "36\"",
+              "Attacks": "D3",
+              "ToHit": "3+",
+              "Strength": "7",
+              "AP": "-2",
+              "Damage": "2"
+            },
+            {
+              "Name": "Heavy plasma cannon – supercharge",
+              "Keywords": "BLAST, HAZARDOUS",
+              "Range": "36\"",
+              "Attacks": "D3",
+              "ToHit": "3+",
+              "Strength": "8",
+              "AP": "-3",
+              "Damage": "3"
+            },
+            {
+              "Name": "Heavy psycannon",
+              "Keywords": "PSYCHIC",
+              "Range": "24\"",
+              "Attacks": "6",
+              "ToHit": "3+",
+              "Strength": "10",
+              "AP": "-1",
+              "Damage": "3"
+            },
+            {
+              "Name": "Incinerator",
+              "Keywords": "IGNORES COVER, TORRENT",
+              "Range": "12\"",
+              "Attacks": "D6",
+              "ToHit": "N/A",
+              "Strength": "6",
+              "AP": "-1",
+              "Damage": "1"
+            },
+            {
+              "Name": "Missile launcher – frag",
+              "Keywords": "BLAST",
+              "Range": "48\"",
+              "Attacks": "D6",
+              "ToHit": "3+",
+              "Strength": "4",
+              "AP": "0",
+              "Damage": "1"
+            },
+            {
+              "Name": "Missile launcher – krak",
+              "Range": "48\"",
+              "Attacks": "1",
+              "ToHit": "3+",
+              "Strength": "9",
+              "AP": "-2",
+              "Damage": "D6"
+            },
+            {
+              "Name": "Multi-melta",
+              "Keywords": "MELTA 2",
+              "Range": "18\"",
+              "Attacks": "2",
+              "ToHit": "3+",
+              "Strength": "9",
+              "AP": "-4",
+              "Damage": "D6"
+            },
+            {
+              "Name": "Storm bolter",
+              "Keywords": "RAPID FIRE 2",
+              "Range": "24\"",
+              "Attacks": "2",
+              "ToHit": "3+",
+              "Strength": "4",
+              "AP": "0",
+              "Damage": "1"
+            },
+            {
+              "Name": "Twin lascannon",
+              "Keywords": "TWIN-LINKED",
+              "Range": "48\"",
+              "Attacks": "1",
+              "ToHit": "3+",
+              "Strength": "12",
+              "AP": "-3",
+              "Damage": "D6+1"
+            }
+          ]
+        },
+        {
+          "IsMelee": true,
+          "Name": "MELEE WEAPONS",
+          "Weapons": [
+            {
+              "Name": "Armoured feet",
+              "Range": "Melee",
+              "Attacks": "5",
+              "ToHit": "3+",
+              "Strength": "6",
+              "AP": "0",
+              "Damage": "1"
+            },
+            {
+              "Name": "Dreadnought combat weapon",
+              "Range": "Melee",
+              "Attacks": "5",
+              "ToHit": "3+",
+              "Strength": "12",
+              "AP": "-2",
+              "Damage": "3"
+            },
+            {
+              "Name": "Nemesis doomglaive",
+              "Keywords": "PSYCHIC",
+              "Range": "Melee",
+              "Attacks": "5",
+              "ToHit": "3+",
+              "Strength": "14",
+              "AP": "-3",
+              "Damage": "3"
+            }
+          ]
+        }
+      ],
+      "Upgrades": [],
+      "Points": [
+        {
+          "ModelCount": 1,
+          "Cost": 160
+        }
+      ]
+    },
+    {
+      "Name": "GREY KNIGHTS RELIC RAZORBACK",
+      "UnitComposition": {
+        "ModelCompositions": [
+          {
+            "ModelName": "Grey Knights Relic Razorback",
+            "Wargear": [
+              {
+                "InitalWargear": [
+                  "twin heavy bolter",
+                  "armoured tracks"
+                ],
+                "Options": [
+                  {
+                    "Replaces": [
+                      "twin heavy bolter"
+                    ],
+                    "Options": [
+                      "multi-melta",
+                      "twin assault cannon",
+                      "twin lascannon",
+                      "twin psycannon"
+                    ]
+                  },
+                  {
+                    "Options": [
+                      "hunter-killer missile"
+                    ]
+                  },
+                  {
+                    "Options": [
+                      "storm bolter"
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "WargearDefinitions": []
+      },
+      "UnitAbilities": [
+        {
+          "Title": "Fire Support",
+          "Text": "In your Shooting phase, after this model has shot, select one enemy unit it scored one or more hits against this phase. Until the end of the phase, each time a friendly model that disembarked from this Transport this turn makes an attack that targets that enemy unit, you can re-roll the Wound roll."
+        }
+      ],
+      "Infos": [
+        {
+          "Title": "TRANSPORT",
+          "Text": "This model has a transport capacity of 6 Grey Knights Infantry models. It cannot transport Terminator models."
+        }
+      ],
+      "Keywords": [
+        "Vehicle",
+        "Smoke",
+        "Transport",
+        "Dedicated Transport",
+        "Imperium",
+        "Relic Razorback"
+      ],
+      "CoreAbilities": [
+        "Deadly Demise D3"
+      ],
+      "FactionKeywords": [
+        "Grey Knights"
+      ],
+      "StatLines": [
+        {
+          "Movement": "12\"",
+          "Toughness": "9",
+          "Save": "3+",
+          "Wounds": "10",
+          "Leadership": "6+",
+          "OC": "2"
+        }
+      ],
+      "Weapons": [
+        {
+          "Name": "RANGED WEAPONS",
+          "Weapons": [
+            {
+              "Name": "Hunter-killer missile",
+              "Keywords": "ONE SHOT",
+              "Range": "48\"",
+              "Attacks": "1",
+              "ToHit": "2+",
+              "Strength": "14",
+              "AP": "-3",
+              "Damage": "D6"
+            },
+            {
+              "Name": "Multi-melta",
+              "Keywords": "MELTA 2",
+              "Range": "18\"",
+              "Attacks": "2",
+              "ToHit": "3+",
+              "Strength": "9",
+              "AP": "-4",
+              "Damage": "D6"
+            },
+            {
+              "Name": "Storm bolter",
+              "Keywords": "RAPID FIRE 2",
+              "Range": "24\"",
+              "Attacks": "2",
+              "ToHit": "3+",
+              "Strength": "4",
+              "AP": "0",
+              "Damage": "1"
+            },
+            {
+              "Name": "Twin assault cannon",
+              "Keywords": "DEVASTATING WOUNDS, TWIN-LINKED",
+              "Range": "24\"",
+              "Attacks": "6",
+              "ToHit": "3+",
+              "Strength": "6",
+              "AP": "0",
+              "Damage": "1"
+            },
+            {
+              "Name": "Twin heavy bolter",
+              "Keywords": "SUSTAINED HITS 1, TWIN-LINKED",
+              "Range": "36\"",
+              "Attacks": "3",
+              "ToHit": "3+",
+              "Strength": "5",
+              "AP": "-1",
+              "Damage": "2"
+            },
+            {
+              "Name": "Twin lascannon",
+              "Keywords": "TWIN-LINKED",
+              "Range": "48\"",
+              "Attacks": "1",
+              "ToHit": "3+",
+              "Strength": "12",
+              "AP": "-3",
+              "Damage": "D6+1"
+            },
+            {
+              "Name": "Twin psycannon",
+              "Keywords": "PSYCHIC, TWIN-LINKED",
+              "Range": "24\"",
+              "Attacks": "3",
+              "ToHit": "3+",
+              "Strength": "8",
+              "AP": "-1",
+              "Damage": "2"
+            }
+          ]
+        },
+        {
+          "IsMelee": true,
+          "Name": "MELEE WEAPONS",
+          "Weapons": [
+            {
+              "Name": "Armoured tracks",
+              "Range": "Melee",
+              "Attacks": "3",
+              "ToHit": "4+",
+              "Strength": "6",
+              "AP": "0",
+              "Damage": "1"
+            }
+          ]
+        }
+      ],
+      "Upgrades": [],
+      "Points": [
+        {
+          "ModelCount": 1,
+          "Cost": 95
+        }
+      ]
+    },
+    {
+      "Name": "KALDOR DRAIGO",
+      "Faction": "Teleport Assault",
+      "Flags": 2,
+      "UnitComposition": {
+        "ModelCompositions": [
+          {
+            "ModelName": "Kaldor Draigo",
+            "Wargear": [
+              {
+                "InitalWargear": [
+                  "Scourging",
+                  "storm bolter",
+                  "the Titansword"
+                ],
+                "Options": []
+              }
+            ]
+          }
+        ],
+        "WargearDefinitions": []
+      },
+      "UnitAbilities": [
+        {
+          "Title": "Untouchable Purity",
+          "Text": "While this model is leading a unit, models in that unit have the Feel No Pain 4+ ability against mortal wounds."
+        },
+        {
+          "Title": "One With the Warp (Psychic)",
+          "Text": "Once per battle, when this model’s unit declares a charge in the same turn it was set up as Reinforcements using the Deep Strike ability, add 3 to the Charge roll."
+        }
+      ],
+      "LeaderInfo": {
+        "UnitNames": [
+          "BROTHERHOOD TERMINATOR SQUAD",
+          "PALADIN SQUAD"
+        ],
+        "Abilities": [
+          {
+            "AbilityId": "Untouchable Purity"
+          }
+        ]
+      },
+      "Infos": [
+        {
+          "Title": "SUPREME COMMANDER",
+          "Text": "If this model is in your army, it must be your Warlord."
+        }
+      ],
+      "Keywords": [
+        "Infantry",
+        "Character",
+        "Epic Hero",
+        "Psyker",
+        "Terminator",
+        "Grenades",
+        "Imperium",
+        "Kaldor Draigo"
+      ],
+      "CoreAbilities": [
+        "Deep Strike",
+        "Leader"
+      ],
+      "FactionKeywords": [
+        "Grey Knights"
+      ],
+      "StatLines": [
+        {
+          "Movement": "5\"",
+          "Toughness": "5",
+          "Save": "2+",
+          "Wounds": "7",
+          "Leadership": "6+",
+          "OC": "1",
+          "InvulSave": {
+            "Save": "4+"
+          }
+        }
+      ],
+      "Weapons": [
+        {
+          "Name": "RANGED WEAPONS",
+          "Weapons": [
+            {
+              "Name": "Scourging",
+              "Keywords": "ANTI-DAEMON 2+, IGNORES COVER, PSYCHIC",
+              "Range": "18\"",
+              "Attacks": "3",
+              "ToHit": "2+",
+              "Strength": "6",
+              "AP": "-2",
+              "Damage": "2"
+            },
+            {
+              "Name": "Storm bolter",
+              "Keywords": "RAPID FIRE 2",
+              "Range": "24\"",
+              "Attacks": "2",
+              "ToHit": "2+",
+              "Strength": "4",
+              "AP": "0",
+              "Damage": "1"
+            }
+          ]
+        },
+        {
+          "IsMelee": true,
+          "Name": "MELEE WEAPONS",
+          "Weapons": [
+            {
+              "Name": "The Titansword",
+              "Keywords": "ANTI-DAEMON 2+, PSYCHIC",
+              "Range": "Melee",
+              "Attacks": "6",
+              "ToHit": "2+",
+              "Strength": "8",
+              "AP": "-4",
+              "Damage": "3"
+            }
+          ]
+        }
+      ],
+      "Upgrades": [],
+      "Points": [
+        {
+          "ModelCount": 1,
+          "Cost": 125
+        }
+      ]
+    },
+    {
+      "Name": "BROTHER-CAPTAIN STERN",
+      "Faction": "Teleport Assault",
+      "UnitComposition": {
+        "ModelCompositions": [
+          {
+            "ModelName": "Brother-Captain Stern",
+            "Wargear": [
+              {
+                "InitalWargear": [
+                  "storm bolter",
+                  "Nemesis force sword"
+                ],
+                "Options": []
+              }
+            ]
+          }
+        ],
+        "WargearDefinitions": []
+      },
+      "UnitAbilities": [
+        {
+          "Title": "Exemplar of the Silvered Host",
+          "Text": "While this model is leading a unit, each time a model in that unit makes a melee attack, on a Critical Wound, the target suffers 1 mortal wound in addition to any normal damage."
+        },
+        {
+          "Title": "Strands of Fate (Psychic)",
+          "Text": "The first time this model is destroyed, roll one D6 at the end of the phase. On a 2+, set this model back up on the battlefield as close as possible to where it was destroyed and not within Engagement Range of any enemy units, with its full wounds remaining."
+        }
+      ],
+      "LeaderInfo": {
+        "UnitNames": [
+          "BROTHERHOOD TERMINATOR SQUAD",
+          "PALADIN SQUAD"
+        ],
+        "Abilities": [
+          {
+            "AbilityId": "Exemplar of the Silvered Host"
+          }
+        ]
+      },
+      "Infos": [],
+      "Keywords": [
+        "Infantry",
+        "Character",
+        "Epic Hero",
+        "Psyker",
+        "Imperium",
+        "Terminator",
+        "Brother-Captain Stern"
+      ],
+      "CoreAbilities": [
+        "Deep Strike",
+        "Leader"
+      ],
+      "FactionKeywords": [
+        "Grey Knights"
+      ],
+      "StatLines": [
+        {
+          "Movement": "5\"",
+          "Toughness": "5",
+          "Save": "2+",
+          "Wounds": "6",
+          "Leadership": "6+",
+          "OC": "1",
+          "InvulSave": {
+            "Save": "4+"
+          }
+        }
+      ],
+      "Weapons": [
+        {
+          "Name": "RANGED WEAPONS",
+          "Weapons": [
+            {
+              "Name": "Storm bolter",
+              "Keywords": "RAPID FIRE 2",
+              "Range": "24\"",
+              "Attacks": "2",
+              "ToHit": "2+",
+              "Strength": "4",
+              "AP": "0",
+              "Damage": "1"
+            }
+          ]
+        },
+        {
+          "IsMelee": true,
+          "Name": "MELEE WEAPONS",
+          "Weapons": [
+            {
+              "Name": "Nemesis force sword",
+              "Keywords": "PSYCHIC",
+              "Range": "Melee",
+              "Attacks": "5",
+              "ToHit": "2+",
+              "Strength": "6",
+              "AP": "-2",
+              "Damage": "2"
+            }
+          ]
+        }
+      ],
+      "Upgrades": [],
+      "Points": [
+        {
+          "ModelCount": 1,
+          "Cost": 90
+        }
+      ]
+    },
+    {
+      "Name": "SERVITORS",
+      "UnitComposition": {
+        "ModelCompositions": [
+          {
+            "Limit": {
+              "Min": 4,
+              "Max": 4
+            },
+            "ModelName": "Servitors",
+            "Wargear": [
+              {
+                "InitalWargear": [
+                  "Servitor’s servo-arm"
+                ],
+                "Options": [
+                  {
+                    "Max": 2,
+                    "Replaces": [
+                      "Servitor’s servo-arm"
+                    ],
+                    "Options": [
+                      "heavy bolter and Servitor’s tools",
+                      "multi-melta and Servitor’s tools",
+                      "plasma cannon and Servitor’s tools"
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "WargearDefinitions": []
+      },
+      "UnitAbilities": [
+        {
+          "Title": "Mindlock",
+          "Text": "While a Brotherhood Techmarine model is leading this unit, improve the Ballistic Skill and Weapon Skill characteristics of ranged and melee weapons equipped by Servitor models in this unit by 1."
+        },
+        {
+          "Title": "Retinue",
+          "Text": "While a Brotherhood Techmarine model is leading this unit, models in this unit have the Deep Strike and Teleport Assault abilities."
+        }
+      ],
+      "LeaderInfo": {
+        "UnitNames": [
+          "STRIKE SQUAD",
+          "PURGATION SQUAD",
+          "PURIFIER SQUAD"
+        ],
+        "LeaderType": "Servitors",
+        "Description": "At the start of the Declare Battle Formations step, this unit can join one other unit from your army that is being led by a Brotherhood Techmarine (a unit cannot have more than one Servitors unit joined to it). If it does, until the end of the battle, every model in this unit counts as being part of that Bodyguard unit, and that Bodyguard unit’s Starting Strength is increased accordingly.",
+        "RequiredLeaderKeywords": [
+          "Brotherhood Techmarine"
+        ],
+        "Abilities": [
+          {
+            "AbilityId": "Mindlock"
+          },
+          {
+            "AbilityId": "Retinue"
+          }
+        ]
+      },
+      "Infos": [],
+      "Keywords": [
+        "Infantry",
+        "Imperium",
+        "Servitors"
+      ],
+      "CoreAbilities": [],
+      "FactionKeywords": [
+        "Grey Knights"
+      ],
+      "StatLines": [
+        {
+          "Movement": "6\"",
+          "Toughness": "4",
+          "Save": "4+",
+          "Wounds": "1",
+          "Leadership": "8+",
+          "OC": "0",
+          "InvulSave": {
+            "Save": "6+"
+          }
+        }
+      ],
+      "Weapons": [
+        {
+          "Name": "RANGED WEAPONS",
+          "Weapons": [
+            {
+              "Name": "Heavy bolter",
+              "Keywords": "HEAVY, SUSTAINED HITS 1",
+              "Range": "36\"",
+              "Attacks": "3",
+              "ToHit": "4+",
+              "Strength": "5",
+              "AP": "-1",
+              "Damage": "2"
+            },
+            {
+              "Name": "Multi-melta",
+              "Keywords": "HEAVY, MELTA 2",
+              "Range": "18\"",
+              "Attacks": "2",
+              "ToHit": "4+",
+              "Strength": "9",
+              "AP": "-4",
+              "Damage": "D6"
+            },
+            {
+              "Name": "Plasma cannon – standard",
+              "Keywords": "BLAST, HEAVY",
+              "Range": "36\"",
+              "Attacks": "D3",
+              "ToHit": "4+",
+              "Strength": "7",
+              "AP": "-2",
+              "Damage": "1"
+            },
+            {
+              "Name": "Plasma cannon – supercharge",
+              "Keywords": "BLAST, HAZARDOUS, HEAVY",
+              "Range": "36\"",
+              "Attacks": "D3",
+              "ToHit": "4+",
+              "Strength": "8",
+              "AP": "-3",
+              "Damage": "2"
+            }
+          ]
+        },
+        {
+          "IsMelee": true,
+          "Name": "MELEE WEAPONS",
+          "Weapons": [
+            {
+              "Name": "Servitor’s servo-arm",
+              "Range": "Melee",
+              "Attacks": "1",
+              "ToHit": "5+",
+              "Strength": "6",
+              "AP": "-2",
+              "Damage": "3"
+            },
+            {
+              "Name": "Servitor’s tools",
+              "Range": "Melee",
+              "Attacks": "1",
+              "ToHit": "5+",
+              "Strength": "3",
+              "AP": "0",
+              "Damage": "1"
+            }
+          ]
+        }
+      ],
+      "Upgrades": [],
+      "Points": [
+        {
+          "ModelCount": 4,
+          "Cost": 60
+        }
+      ]
+    },
+    {
+      "Name": "CHAMPION OF TITAN",
+      "Faction": "Gate of Infinity",
+      "Flags": 4,
+      "UnitComposition": {
+        "ModelCompositions": [
+          {
+            "ModelName": "Champion of Titan",
+            "Wargear": [
+              {
+                "InitalWargear": [],
+                "Options": [
+                  {
+                    "Options": [
+                      "combi-weapon",
+                      "forge bolter",
+                      "incinerator",
+                      "psilencer",
+                      "psycannon",
+                      "purifying flame",
+                      "storm bolter",
+                      "vortex of doom"
+                    ]
+                  },
+                  {
+                    "Options": [
+                      "grav-pistol"
+                    ]
+                  },
+                  {
+                    "Options": [
+                      "grav-pistol"
+                    ]
+                  },
+                  {
+                    "Options": [
+                      "close-combat weapon",
+                      "crozius arcanum",
+                      "nemesis force weapon",
+                      "omnissian power axe",
+                      "servo-arm"
+                    ]
+                  },
+                  {
+                    "Options": [
+                      "close-combat weapon",
+                      "crozius arcanum",
+                      "nemesis force weapon",
+                      "omnissian power axe",
+                      "servo-arm"
+                    ]
+                  },
+                  {
+                    "Options": [
+                      "Order of Purifiers",
+                      "Personal Teleporter",
+                      "Prognosticars' Foresight",
+                      "Terminator Armour"
+                    ]
+                  },
+                  {
+                    "Options": [
+                      "Blessing of the Omnissiah",
+                      "Clarion of Haste",
+                      "Eye of Judgement",
+                      "Haloed in Soulfire",
+                      "Hammerhand",
+                      "Litanies of Sanctity",
+                      "Sanctic Hood",
+                      "Warrior Strategist",
+                      "Zealous Path"
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "WargearDefinitions": [
+          {
+            "Key": "Order of Purifiers",
+            "GrantsAbilities": [
+              "Order of Purifiers"
+            ],
+            "DatasheetAdjustments": [
+              {
+                "Target": "Keywords",
+                "Type": "Add",
+                "Values": [
+                  "Purifier"
+                ]
+              },
+              {
+                "Target": "LedUnitNames",
+                "Values": [
+                  "PURGATION SQUAD",
+                  "PURIFIERS",
+                  "STRIKE SQUAD"
+                ]
+              }
+            ]
+          },
+          {
+            "Key": "Personal Teleporter",
+            "GrantsAbilities": [
+              "Personal Teleporter"
+            ],
+            "StatAdjustments": [
+              {
+                "Value": "12\""
+              }
+            ],
+            "DatasheetAdjustments": [
+              {
+                "Target": "Keywords",
+                "Type": "Add",
+                "Values": [
+                  "Fly"
+                ]
+              },
+              {
+                "Target": "LedUnitNames",
+                "Values": [
+                  "INTERCEPTOR SQUAD"
+                ]
+              }
+            ]
+          },
+          {
+            "Key": "Prognosticars' Foresight",
+            "GrantsAbilities": [
+              "Prognosticars' Foresight"
+            ],
+            "DatasheetAdjustments": [
+              {
+                "Target": "CoreAbilities",
+                "Type": "Add",
+                "Values": [
+                  "Scouts 6\""
+                ]
+              }
+            ]
+          },
+          {
+            "Key": "Terminator Armour",
+            "GrantsAbilities": [
+              "Terminator Armour"
+            ],
+            "StatAdjustments": [
+              {
+                "Value": "5\""
+              },
+              {
+                "Target": "Toughness",
+                "Value": "5"
+              },
+              {
+                "Target": "Wounds",
+                "Value": "5"
+              }
+            ],
+            "DatasheetAdjustments": [
+              {
+                "Target": "Keywords",
+                "Type": "Add",
+                "Values": [
+                  "Terminator"
+                ]
+              },
+              {
+                "Target": "LedUnitNames",
+                "Values": [
+                  "BROTHERHOOD TERMINATOR SQUAD",
+                  "PALADIN SQUAD"
+                ]
+              }
+            ]
+          },
+          {
+            "Key": "Blessing of the Omnissiah",
+            "GrantsAbilities": [
+              "Blessing of the Omnissiah"
+            ]
+          },
+          {
+            "Key": "Clarion of Haste",
+            "GrantsAbilities": [
+              "Clarion of Haste"
+            ]
+          },
+          {
+            "Key": "Eye of Judgement",
+            "GrantsAbilities": [
+              "Eye of Judgement"
+            ]
+          },
+          {
+            "Key": "Haloed in Soulfire",
+            "GrantsAbilities": [
+              "Haloed in Soulfire"
+            ]
+          },
+          {
+            "Key": "Hammerhand",
+            "GrantsAbilities": [
+              "Hammerhand"
+            ]
+          },
+          {
+            "Key": "Litanies of Sanctity",
+            "GrantsAbilities": [
+              "Litanies of Sanctity"
+            ]
+          },
+          {
+            "Key": "Sanctic Hood",
+            "GrantsAbilities": [
+              "Sanctic Hood"
+            ]
+          },
+          {
+            "Key": "Warrior Strategist",
+            "GrantsAbilities": [
+              "Warrior Strategist"
+            ]
+          },
+          {
+            "Key": "Zealous Path",
+            "GrantsAbilities": [
+              "Zealous Path"
+            ]
+          }
+        ]
+      },
+      "UnitAbilities": [
+        {
+          "Title": "Might of Titan",
+          "Text": "Once per battle, at the start of a phase, this model can use this ability. If it does, until the end of the phase, add 3 to the Attacks and Strength characteristics of melee weapons equipped by this model."
+        },
+        {
+          "Title": "Order of Purifiers",
+          "Text": "Add the Purifier keyword, and add to the list of units this model can be attached to: Purifiers."
+        },
+        {
+          "Title": "Personal Teleporter",
+          "Text": "Change this model’s Move characteristic to 12\", and add the Fly keyword. Replace the list of units this model can be attached to: Interceptor Squad."
+        },
+        {
+          "Title": "Prognosticars' Foresight",
+          "Text": "This model has the Scouts 6\" ability."
+        },
+        {
+          "Title": "Terminator Armour",
+          "Text": "Change this model’s Move characteristic to 5\", its Toughness and Wounds characteristics to 5, and add the Terminator keyword. Replace the list of units this model can be attached to: Brotherhood Terminator Squad, Paladin Squad."
+        },
+        {
+          "Title": "Blessing of the Omnissiah",
+          "Text": "In your Command phase, you can select one friendly Grey Knights Vehicle model within 3\" of this model. That model regains up to D3 lost wounds and, until the start of your next Command phase, each time that model makes an attack, add 1 to the Hit roll. Each model can only be selected for this ability once per turn."
+        },
+        {
+          "Title": "Clarion of Haste",
+          "Text": "While this model is leading a unit, that unit is eligible to declare a charge in a turn in which it Advanced."
+        },
+        {
+          "Title": "Eye of Judgement",
+          "Text": "Each time this model makes an attack, you can re-roll the Wound roll."
+        },
+        {
+          "Title": "Haloed in Soulfire",
+          "Text": "While this model is leading a unit, that unit can only be selected as the target of a ranged attack if the attacking model is within 18\"."
+        },
+        {
+          "Title": "Hammerhand",
+          "Text": "While this model is leading a unit, melee weapons equipped by models in that unit have the [LETHAL HITS] ability."
+        },
+        {
+          "Title": "Litanies of Sanctity",
+          "Text": "Once per battle, at the start of any phase, you can select one friendly Grey Knights unit that is Battle-shocked and within 12\" of this model. That unit is no longer Battle-shocked."
+        },
+        {
+          "Title": "Sanctic Hood",
+          "Text": "Models in this unit have the Feel No Pain 4+ ability against Psychic Attacks."
+        },
+        {
+          "Title": "Warrior Strategist",
+          "Text": "Once per battle round, one model from your army with this ability can use it when its unit is targeted with a Stratagem. If it does, reduce the CP cost of that use of that Stratagem by 1CP."
+        },
+        {
+          "Title": "Zealous Path",
+          "Text": "While this model is leading a unit, you can re-roll Charge rolls made for that unit."
+        }
+      ],
+      "LeaderInfo": {
+        "UnitNames": [
+          "PURGATION SQUAD",
+          "STRIKE SQUAD"
+        ],
+        "Abilities": [
+          {
+            "AbilityId": "Clarion of Haste"
+          },
+          {
+            "AbilityId": "Haloed in Soulfire"
+          },
+          {
+            "AbilityId": "Hammerhand",
+            "WeaponStatAdjustments": [
+              {
+                "Value": "LETHAL HITS",
+                "Type": "Add",
+                "Scope": "Unit",
+                "Target": "Keywords"
+              }
+            ]
+          },
+          {
+            "AbilityId": "Zealous Path"
+          }
+        ]
+      },
+      "Infos": [],
+      "Keywords": [
+        "Infantry",
+        "Character",
+        "Psyker",
+        "Grenades",
+        "Imperium",
+        "Champion of Titan"
+      ],
+      "CoreAbilities": [
+        "Crucible",
+        "Deep Strike",
+        "Leader"
+      ],
+      "FactionKeywords": [
+        "Grey Knights"
+      ],
+      "StatLines": [
+        {
+          "Movement": "6\"",
+          "Toughness": "4",
+          "Save": "2+",
+          "Wounds": "4",
+          "Leadership": "6+",
+          "OC": "1",
+          "InvulSave": {
+            "Save": "4+"
+          }
+        }
+      ],
+      "Weapons": [
+        {
+          "Name": "RANGED WEAPONS",
+          "Weapons": [
+            {
+              "Name": "Combi-weapon",
+              "Keywords": "ANTI-INFANTRY 4+, DEVASTATING WOUNDS, RAPID FIRE 1",
+              "Range": "24\"",
+              "Attacks": "1",
+              "ToHit": "3+",
+              "Strength": "4",
+              "AP": "0",
+              "Damage": "1"
+            },
+            {
+              "Name": "Forge bolter",
+              "Range": "24\"",
+              "Attacks": "3",
+              "ToHit": "2+",
+              "Strength": "5",
+              "AP": "-1",
+              "Damage": "2"
+            },
+            {
+              "Name": "Incinerator",
+              "Keywords": "IGNORES COVER, TORRENT",
+              "Range": "12\"",
+              "Attacks": "D6",
+              "ToHit": "N/A",
+              "Strength": "6",
+              "AP": "-1",
+              "Damage": "1"
+            },
+            {
+              "Name": "Psilencer",
+              "Keywords": "PRECISION, PSYCHIC, SUSTAINED HITS 1",
+              "Range": "24\"",
+              "Attacks": "6",
+              "ToHit": "2+",
+              "Strength": "5",
+              "AP": "0",
+              "Damage": "1"
+            },
+            {
+              "Name": "Psycannon",
+              "Keywords": "PSYCHIC",
+              "Range": "24\"",
+              "Attacks": "3",
+              "ToHit": "2+",
+              "Strength": "8",
+              "AP": "-1",
+              "Damage": "2"
+            },
+            {
+              "Name": "Purifying Flame",
+              "Keywords": "ANTI-INFANTRY 2+, IGNORES COVER, PSYCHIC",
+              "Range": "18\"",
+              "Attacks": "3",
+              "ToHit": "3+",
+              "Strength": "4",
+              "AP": "-2",
+              "Damage": "1"
+            },
+            {
+              "Name": "Storm bolter",
+              "Keywords": "RAPID FIRE 2",
+              "Range": "24\"",
+              "Attacks": "2",
+              "ToHit": "2+",
+              "Strength": "4",
+              "AP": "0",
+              "Damage": "1"
+            },
+            {
+              "Name": "Vortex of Doom",
+              "Keywords": "BLAST, PSYCHIC",
+              "Range": "18\"",
+              "Attacks": "D6+3",
+              "ToHit": "3+",
+              "Strength": "8",
+              "AP": "-2",
+              "Damage": "2"
+            },
+            {
+              "Name": "Grav-pistol",
+              "Keywords": "ANTI-VEHICLE 2+, PISTOL",
+              "Range": "12\"",
+              "Attacks": "1",
+              "ToHit": "2+",
+              "Strength": "4",
+              "AP": "-1",
+              "Damage": "2"
+            }
+          ]
+        },
+        {
+          "IsMelee": true,
+          "Name": "MELEE WEAPONS",
+          "Weapons": [
+            {
+              "Name": "Close-combat weapon",
+              "Range": "Melee",
+              "Attacks": "5",
+              "ToHit": "3+",
+              "Strength": "4",
+              "AP": "0",
+              "Damage": "1"
+            },
+            {
+              "Name": "Crozius arcanum",
+              "Range": "Melee",
+              "Attacks": "5",
+              "ToHit": "2+",
+              "Strength": "6",
+              "AP": "-1",
+              "Damage": "2"
+            },
+            {
+              "Name": "Nemesis force weapon",
+              "Keywords": "PSYCHIC",
+              "Range": "Melee",
+              "Attacks": "5",
+              "ToHit": "2+",
+              "Strength": "6",
+              "AP": "-2",
+              "Damage": "2"
+            },
+            {
+              "Name": "Omnissian power axe",
+              "Range": "Melee",
+              "Attacks": "4",
+              "ToHit": "3+",
+              "Strength": "6",
+              "AP": "-2",
+              "Damage": "2"
+            },
+            {
+              "Name": "Servo-arm",
+              "Keywords": "EXTRA ATTACKS",
+              "Range": "Melee",
+              "Attacks": "1",
+              "ToHit": "3+",
+              "Strength": "8",
+              "AP": "-2",
+              "Damage": "3"
+            }
+          ]
+        }
+      ],
+      "Upgrades": [],
+      "Points": [
+        {
+          "ModelCount": 1,
+          "Cost": 90
+        }
+      ]
+    },
+    {
+      "Name": "VENERABLE DAEMON SLAYER",
+      "Faction": "Gate of Infinity",
+      "Flags": 4,
+      "UnitComposition": {
+        "ModelCompositions": [
+          {
+            "ModelName": "Venerable Daemon Slayer",
+            "Wargear": [
+              {
+                "InitalWargear": [],
+                "Options": [
+                  {
+                    "Options": [
+                      "assault cannon",
+                      "combi-weapon",
+                      "forge bolter",
+                      "heavy flamer",
+                      "heavy plasma cannon",
+                      "incinerator",
+                      "psilencer",
+                      "psycannon",
+                      "purifying flame",
+                      "storm bolter",
+                      "twin lascannon",
+                      "vortex of doom"
+                    ]
+                  },
+                  {
+                    "Options": [
+                      "assault cannon",
+                      "combi-weapon",
+                      "forge bolter",
+                      "heavy flamer",
+                      "heavy plasma cannon",
+                      "incinerator",
+                      "psilencer",
+                      "psycannon",
+                      "purifying flame",
+                      "storm bolter",
+                      "twin lascannon",
+                      "vortex of doom"
+                    ]
+                  },
+                  {
+                    "Options": [
+                      "close-combat weapon",
+                      "crozius arcanum",
+                      "dreadnought combat weapon",
+                      "nemesis force weapon",
+                      "omnissian power axe",
+                      "servo-arm"
+                    ]
+                  },
+                  {
+                    "Options": [
+                      "close-combat weapon",
+                      "crozius arcanum",
+                      "dreadnought combat weapon",
+                      "nemesis force weapon",
+                      "omnissian power axe",
+                      "servo-arm"
+                    ]
+                  },
+                  {
+                    "Options": [
+                      "Prognosticars' Foresight"
+                    ]
+                  },
+                  {
+                    "Options": [
+                      "Clarion of Haste",
+                      "Eye of Judgement",
+                      "Haloed in Soulfire",
+                      "Hammerhand",
+                      "Litanies of Sanctity",
+                      "Sanctic Hood",
+                      "Warrior Strategist",
+                      "Zealous Path"
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "WargearDefinitions": [
+          {
+            "Key": "Prognosticars' Foresight",
+            "GrantsAbilities": [
+              "Prognosticars' Foresight"
+            ],
+            "DatasheetAdjustments": [
+              {
+                "Target": "CoreAbilities",
+                "Type": "Add",
+                "Values": [
+                  "Scouts 6\""
+                ]
+              }
+            ]
+          },
+          {
+            "Key": "Clarion of Haste",
+            "GrantsAbilities": [
+              "Clarion of Haste"
+            ]
+          },
+          {
+            "Key": "Eye of Judgement",
+            "GrantsAbilities": [
+              "Eye of Judgement"
+            ]
+          },
+          {
+            "Key": "Haloed in Soulfire",
+            "GrantsAbilities": [
+              "Haloed in Soulfire"
+            ]
+          },
+          {
+            "Key": "Hammerhand",
+            "GrantsAbilities": [
+              "Hammerhand"
+            ]
+          },
+          {
+            "Key": "Litanies of Sanctity",
+            "GrantsAbilities": [
+              "Litanies of Sanctity"
+            ]
+          },
+          {
+            "Key": "Sanctic Hood",
+            "GrantsAbilities": [
+              "Sanctic Hood"
+            ]
+          },
+          {
+            "Key": "Warrior Strategist",
+            "GrantsAbilities": [
+              "Warrior Strategist"
+            ]
+          },
+          {
+            "Key": "Zealous Path",
+            "GrantsAbilities": [
+              "Zealous Path"
+            ]
+          }
+        ]
+      },
+      "UnitAbilities": [
+        {
+          "Title": "Guidance of the Ancients",
+          "Text": "In your Shooting phase, after this unit has shot, select one unit hit by one or more of those attacks. Until the end of the phase, each time a Grey Knights model from your army makes an attack that targets that unit, add 1 to the Hit roll."
+        },
+        {
+          "Title": "Prognosticars' Foresight",
+          "Text": "This model has the Scouts 6\" ability."
+        },
+        {
+          "Title": "Clarion of Haste",
+          "Text": "While this model is leading a unit, that unit is eligible to declare a charge in a turn in which it Advanced."
+        },
+        {
+          "Title": "Eye of Judgement",
+          "Text": "Each time this model makes an attack, you can re-roll the Wound roll."
+        },
+        {
+          "Title": "Haloed in Soulfire",
+          "Text": "While this model is leading a unit, that unit can only be selected as the target of a ranged attack if the attacking model is within 18\"."
+        },
+        {
+          "Title": "Hammerhand",
+          "Text": "While this model is leading a unit, melee weapons equipped by models in that unit have the [LETHAL HITS] ability."
+        },
+        {
+          "Title": "Litanies of Sanctity",
+          "Text": "Once per battle, at the start of any phase, you can select one friendly Grey Knights unit that is Battle-shocked and within 12\" of this model. That unit is no longer Battle-shocked."
+        },
+        {
+          "Title": "Sanctic Hood",
+          "Text": "Models in this unit have the Feel No Pain 4+ ability against Psychic Attacks."
+        },
+        {
+          "Title": "Warrior Strategist",
+          "Text": "Once per battle round, one model from your army with this ability can use it when its unit is targeted with a Stratagem. If it does, reduce the CP cost of that use of that Stratagem by 1CP."
+        },
+        {
+          "Title": "Zealous Path",
+          "Text": "While this model is leading a unit, you can re-roll Charge rolls made for that unit."
+        }
+      ],
+      "Infos": [],
+      "Keywords": [
+        "Vehicle",
+        "Walker",
+        "Character",
+        "Psyker",
+        "Smoke",
+        "Imperium",
+        "Venerable Daemon Slayer"
+      ],
+      "CoreAbilities": [
+        "Crucible",
+        "Deadly Demise 1",
+        "Deep Strike"
+      ],
+      "FactionKeywords": [
+        "Grey Knights"
+      ],
+      "StatLines": [
+        {
+          "Movement": "8\"",
+          "Toughness": "9",
+          "Save": "2+",
+          "Wounds": "8",
+          "Leadership": "6+",
+          "OC": "3"
+        }
+      ],
+      "Weapons": [
+        {
+          "Name": "RANGED WEAPONS",
+          "Weapons": [
+            {
+              "Name": "Assault cannon",
+              "Keywords": "DEVASTATING WOUNDS",
+              "Range": "24\"",
+              "Attacks": "6",
+              "ToHit": "3+",
+              "Strength": "6",
+              "AP": "0",
+              "Damage": "1"
+            },
+            {
+              "Name": "Combi-weapon",
+              "Keywords": "ANTI-INFANTRY 4+, DEVASTATING WOUNDS, RAPID FIRE 1",
+              "Range": "24\"",
+              "Attacks": "1",
+              "ToHit": "3+",
+              "Strength": "4",
+              "AP": "0",
+              "Damage": "1"
+            },
+            {
+              "Name": "Forge bolter",
+              "Range": "24\"",
+              "Attacks": "3",
+              "ToHit": "2+",
+              "Strength": "5",
+              "AP": "-1",
+              "Damage": "2"
+            },
+            {
+              "Name": "Heavy flamer",
+              "Keywords": "TORRENT, IGNORES COVER",
+              "Range": "12\"",
+              "Attacks": "D6",
+              "ToHit": "N/A",
+              "Strength": "5",
+              "AP": "-1",
+              "Damage": "1"
+            },
+            {
+              "Name": "Heavy plasma cannon – standard",
+              "Keywords": "BLAST",
+              "Range": "36\"",
+              "Attacks": "D3",
+              "ToHit": "3+",
+              "Strength": "7",
+              "AP": "-2",
+              "Damage": "2"
+            },
+            {
+              "Name": "Heavy plasma cannon – supercharge",
+              "Keywords": "BLAST, HAZARDOUS",
+              "Range": "36\"",
+              "Attacks": "D3",
+              "ToHit": "3+",
+              "Strength": "8",
+              "AP": "-3",
+              "Damage": "2"
+            },
+            {
+              "Name": "Incinerator",
+              "Keywords": "IGNORES COVER, TORRENT",
+              "Range": "12\"",
+              "Attacks": "D6",
+              "ToHit": "N/A",
+              "Strength": "6",
+              "AP": "-1",
+              "Damage": "1"
+            },
+            {
+              "Name": "Psilencer",
+              "Keywords": "PRECISION, PSYCHIC, SUSTAINED HITS 1",
+              "Range": "24\"",
+              "Attacks": "6",
+              "ToHit": "2+",
+              "Strength": "5",
+              "AP": "0",
+              "Damage": "1"
+            },
+            {
+              "Name": "Psycannon",
+              "Keywords": "PSYCHIC",
+              "Range": "24\"",
+              "Attacks": "3",
+              "ToHit": "2+",
+              "Strength": "8",
+              "AP": "-1",
+              "Damage": "2"
+            },
+            {
+              "Name": "Purifying Flame",
+              "Keywords": "ANTI-INFANTRY 2+, IGNORES COVER, PSYCHIC",
+              "Range": "18\"",
+              "Attacks": "3",
+              "ToHit": "3+",
+              "Strength": "4",
+              "AP": "-2",
+              "Damage": "1"
+            },
+            {
+              "Name": "Storm bolter",
+              "Keywords": "RAPID FIRE 2",
+              "Range": "24\"",
+              "Attacks": "2",
+              "ToHit": "2+",
+              "Strength": "4",
+              "AP": "0",
+              "Damage": "1"
+            },
+            {
+              "Name": "Twin lascannon",
+              "Keywords": "TWIN-LINKED",
+              "Range": "48\"",
+              "Attacks": "1",
+              "ToHit": "3+",
+              "Strength": "12",
+              "AP": "-3",
+              "Damage": "D6+1"
+            },
+            {
+              "Name": "Vortex of Doom",
+              "Keywords": "BLAST, PSYCHIC",
+              "Range": "18\"",
+              "Attacks": "D6+3",
+              "ToHit": "3+",
+              "Strength": "8",
+              "AP": "-2",
+              "Damage": "2"
+            }
+          ]
+        },
+        {
+          "IsMelee": true,
+          "Name": "MELEE WEAPONS",
+          "Weapons": [
+            {
+              "Name": "Close-combat weapon",
+              "Range": "Melee",
+              "Attacks": "5",
+              "ToHit": "3+",
+              "Strength": "4",
+              "AP": "0",
+              "Damage": "1"
+            },
+            {
+              "Name": "Crozius arcanum",
+              "Range": "Melee",
+              "Attacks": "5",
+              "ToHit": "2+",
+              "Strength": "6",
+              "AP": "-1",
+              "Damage": "2"
+            },
+            {
+              "Name": "Dreadnought combat weapon",
+              "Range": "Melee",
+              "Attacks": "5",
+              "ToHit": "3+",
+              "Strength": "12",
+              "AP": "-2",
+              "Damage": "3"
+            },
+            {
+              "Name": "Nemesis force weapon",
+              "Keywords": "PSYCHIC",
+              "Range": "Melee",
+              "Attacks": "5",
+              "ToHit": "2+",
+              "Strength": "6",
+              "AP": "-2",
+              "Damage": "2"
+            },
+            {
+              "Name": "Omnissian power axe",
+              "Range": "Melee",
+              "Attacks": "4",
+              "ToHit": "3+",
+              "Strength": "6",
+              "AP": "-2",
+              "Damage": "2"
+            },
+            {
+              "Name": "Servo-arm",
+              "Keywords": "EXTRA ATTACKS",
+              "Range": "Melee",
+              "Attacks": "1",
+              "ToHit": "3+",
+              "Strength": "8",
+              "AP": "-2",
+              "Damage": "3"
+            }
+          ]
+        }
+      ],
+      "Upgrades": [],
+      "Points": [
+        {
+          "ModelCount": 1,
+          "Cost": 175
+        }
+      ]
+    },
+    {
+      "Name": "DREADKNIGHT CHAMPION",
+      "Faction": "Gate of Infinity",
+      "Flags": 4,
+      "UnitComposition": {
+        "ModelCompositions": [
+          {
+            "ModelName": "Dreadknight Champion",
+            "Wargear": [
+              {
+                "InitalWargear": [],
+                "Options": [
+                  {
+                    "Options": [
+                      "combi-weapon",
+                      "forge bolter",
+                      "fragstorm grenade launcher",
+                      "gatling psilencer",
+                      "heavy flamer",
+                      "heavy incinerator",
+                      "heavy psycannon",
+                      "incinerator",
+                      "psilencer",
+                      "psycannon",
+                      "purifying flame",
+                      "storm bolter",
+                      "sublimator",
+                      "vortex of doom"
+                    ]
+                  },
+                  {
+                    "Options": [
+                      "combi-weapon",
+                      "forge bolter",
+                      "fragstorm grenade launcher",
+                      "gatling psilencer",
+                      "heavy flamer",
+                      "heavy incinerator",
+                      "heavy psycannon",
+                      "incinerator",
+                      "psilencer",
+                      "psycannon",
+                      "purifying flame",
+                      "storm bolter",
+                      "sublimator",
+                      "vortex of doom"
+                    ]
+                  },
+                  {
+                    "Options": [
+                      "combi-weapon",
+                      "forge bolter",
+                      "fragstorm grenade launcher",
+                      "gatling psilencer",
+                      "heavy flamer",
+                      "heavy incinerator",
+                      "heavy psycannon",
+                      "incinerator",
+                      "psilencer",
+                      "psycannon",
+                      "purifying flame",
+                      "storm bolter",
+                      "sublimator",
+                      "vortex of doom"
+                    ]
+                  },
+                  {
+                    "Options": [
+                      "close-combat weapon",
+                      "crozius arcanum",
+                      "dreadfists",
+                      "nemesis daemon greathammer",
+                      "nemesis flail",
+                      "nemesis force weapon",
+                      "nemesis greatsword",
+                      "nemesis mace",
+                      "omnissian power axe",
+                      "servo-arm"
+                    ]
+                  },
+                  {
+                    "Options": [
+                      "close-combat weapon",
+                      "crozius arcanum",
+                      "dreadfists",
+                      "nemesis daemon greathammer",
+                      "nemesis flail",
+                      "nemesis force weapon",
+                      "nemesis greatsword",
+                      "nemesis mace",
+                      "omnissian power axe",
+                      "servo-arm"
+                    ]
+                  },
+                  {
+                    "Options": [
+                      "Prognosticars' Foresight"
+                    ]
+                  },
+                  {
+                    "Options": [
+                      "Clarion of Haste",
+                      "Eye of Judgement",
+                      "Haloed in Soulfire",
+                      "Hammerhand",
+                      "Litanies of Sanctity",
+                      "Sanctic Hood",
+                      "Warrior Strategist",
+                      "Zealous Path"
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "WargearDefinitions": [
+          {
+            "Key": "Prognosticars' Foresight",
+            "GrantsAbilities": [
+              "Prognosticars' Foresight"
+            ],
+            "DatasheetAdjustments": [
+              {
+                "Target": "CoreAbilities",
+                "Type": "Add",
+                "Values": [
+                  "Scouts 6\""
+                ]
+              }
+            ]
+          },
+          {
+            "Key": "Clarion of Haste",
+            "GrantsAbilities": [
+              "Clarion of Haste"
+            ]
+          },
+          {
+            "Key": "Eye of Judgement",
+            "GrantsAbilities": [
+              "Eye of Judgement"
+            ]
+          },
+          {
+            "Key": "Haloed in Soulfire",
+            "GrantsAbilities": [
+              "Haloed in Soulfire"
+            ]
+          },
+          {
+            "Key": "Hammerhand",
+            "GrantsAbilities": [
+              "Hammerhand"
+            ]
+          },
+          {
+            "Key": "Litanies of Sanctity",
+            "GrantsAbilities": [
+              "Litanies of Sanctity"
+            ]
+          },
+          {
+            "Key": "Sanctic Hood",
+            "GrantsAbilities": [
+              "Sanctic Hood"
+            ]
+          },
+          {
+            "Key": "Warrior Strategist",
+            "GrantsAbilities": [
+              "Warrior Strategist"
+            ]
+          },
+          {
+            "Key": "Zealous Path",
+            "GrantsAbilities": [
+              "Zealous Path"
+            ]
+          }
+        ]
+      },
+      "UnitAbilities": [
+        {
+          "Title": "Surge of Wrath",
+          "Text": "Each time this model makes a melee attack that targets a Monster or Vehicle unit, you can re-roll the Hit roll, you can re-roll the Wound roll and you can re-roll the Damage roll."
+        },
+        {
+          "Title": "Prognosticars' Foresight",
+          "Text": "This model has the Scouts 6\" ability."
+        },
+        {
+          "Title": "Clarion of Haste",
+          "Text": "While this model is leading a unit, that unit is eligible to declare a charge in a turn in which it Advanced."
+        },
+        {
+          "Title": "Eye of Judgement",
+          "Text": "Each time this model makes an attack, you can re-roll the Wound roll."
+        },
+        {
+          "Title": "Haloed in Soulfire",
+          "Text": "While this model is leading a unit, that unit can only be selected as the target of a ranged attack if the attacking model is within 18\"."
+        },
+        {
+          "Title": "Hammerhand",
+          "Text": "While this model is leading a unit, melee weapons equipped by models in that unit have the [LETHAL HITS] ability."
+        },
+        {
+          "Title": "Litanies of Sanctity",
+          "Text": "Once per battle, at the start of any phase, you can select one friendly Grey Knights unit that is Battle-shocked and within 12\" of this model. That unit is no longer Battle-shocked."
+        },
+        {
+          "Title": "Sanctic Hood",
+          "Text": "Models in this unit have the Feel No Pain 4+ ability against Psychic Attacks."
+        },
+        {
+          "Title": "Warrior Strategist",
+          "Text": "Once per battle round, one model from your army with this ability can use it when its unit is targeted with a Stratagem. If it does, reduce the CP cost of that use of that Stratagem by 1CP."
+        },
+        {
+          "Title": "Zealous Path",
+          "Text": "While this model is leading a unit, you can re-roll Charge rolls made for that unit."
+        }
+      ],
+      "Infos": [
+        {
+          "Title": "DAMAGED: 1-4 WOUNDS REMAINING",
+          "Text": "While Damaged, subtract 1 from Hit rolls when it makes attacks."
+        }
+      ],
+      "Keywords": [
+        "Vehicle",
+        "Walker",
+        "Character",
+        "Psyker",
+        "Imperium",
+        "Dreadknight Champion"
+      ],
+      "CoreAbilities": [
+        "Crucible",
+        "Deadly Demise D3",
+        "Deep Strike"
+      ],
+      "FactionKeywords": [
+        "Grey Knights"
+      ],
+      "StatLines": [
+        {
+          "Movement": "8\"",
+          "Toughness": "8",
+          "Save": "2+",
+          "Wounds": "13",
+          "Leadership": "6+",
+          "OC": "4",
+          "InvulSave": {
+            "Save": "4+"
+          }
+        }
+      ],
+      "Weapons": [
+        {
+          "Name": "RANGED WEAPONS",
+          "Weapons": [
+            {
+              "Name": "Combi-weapon",
+              "Keywords": "ANTI-INFANTRY 4+, DEVASTATING WOUNDS, RAPID FIRE 1",
+              "Range": "24\"",
+              "Attacks": "1",
+              "ToHit": "3+",
+              "Strength": "4",
+              "AP": "0",
+              "Damage": "1"
+            },
+            {
+              "Name": "Forge bolter",
+              "Range": "24\"",
+              "Attacks": "3",
+              "ToHit": "2+",
+              "Strength": "5",
+              "AP": "-1",
+              "Damage": "2"
+            },
+            {
+              "Name": "Fragstorm grenade launcher",
+              "Keywords": "BLAST",
+              "Range": "18\"",
+              "Attacks": "D6",
+              "ToHit": "3+",
+              "Strength": "4",
+              "AP": "0",
+              "Damage": "1"
+            },
+            {
+              "Name": "Gatling psilencer",
+              "Keywords": "PSYCHIC, SUSTAINED HITS 1",
+              "Range": "24\"",
+              "Attacks": "12",
+              "ToHit": "3+",
+              "Strength": "6",
+              "AP": "0",
+              "Damage": "1"
+            },
+            {
+              "Name": "Heavy flamer",
+              "Keywords": "TORRENT, IGNORES COVER",
+              "Range": "12\"",
+              "Attacks": "D6",
+              "ToHit": "N/A",
+              "Strength": "5",
+              "AP": "-1",
+              "Damage": "1"
+            },
+            {
+              "Name": "Heavy incinerator",
+              "Keywords": "IGNORES COVER, TORRENT",
+              "Range": "18\"",
+              "Attacks": "2D6",
+              "ToHit": "N/A",
+              "Strength": "6",
+              "AP": "-1",
+              "Damage": "1"
+            },
+            {
+              "Name": "Heavy psycannon",
+              "Keywords": "IGNORES COVER, PSYCHIC",
+              "Range": "24\"",
+              "Attacks": "6",
+              "ToHit": "3+",
+              "Strength": "10",
+              "AP": "-2",
+              "Damage": "3"
+            },
+            {
+              "Name": "Incinerator",
+              "Keywords": "IGNORES COVER, TORRENT",
+              "Range": "12\"",
+              "Attacks": "D6",
+              "ToHit": "N/A",
+              "Strength": "6",
+              "AP": "-1",
+              "Damage": "1"
+            },
+            {
+              "Name": "Psilencer",
+              "Keywords": "PRECISION, PSYCHIC, SUSTAINED HITS 1",
+              "Range": "24\"",
+              "Attacks": "6",
+              "ToHit": "2+",
+              "Strength": "5",
+              "AP": "0",
+              "Damage": "1"
+            },
+            {
+              "Name": "Psycannon",
+              "Keywords": "PSYCHIC",
+              "Range": "24\"",
+              "Attacks": "3",
+              "ToHit": "2+",
+              "Strength": "8",
+              "AP": "-1",
+              "Damage": "2"
+            },
+            {
+              "Name": "Purifying Flame",
+              "Keywords": "ANTI-INFANTRY 2+, IGNORES COVER, PSYCHIC",
+              "Range": "18\"",
+              "Attacks": "3",
+              "ToHit": "3+",
+              "Strength": "4",
+              "AP": "-2",
+              "Damage": "1"
+            },
+            {
+              "Name": "Storm bolter",
+              "Keywords": "RAPID FIRE 2",
+              "Range": "24\"",
+              "Attacks": "2",
+              "ToHit": "2+",
+              "Strength": "4",
+              "AP": "0",
+              "Damage": "1"
+            },
+            {
+              "Name": "Sublimator",
+              "Keywords": "MELTA 4, PSYCHIC, TWIN-LINKED",
+              "Range": "18\"",
+              "Attacks": "2",
+              "ToHit": "3+",
+              "Strength": "9",
+              "AP": "-4",
+              "Damage": "D6"
+            },
+            {
+              "Name": "Vortex of Doom",
+              "Keywords": "BLAST, PSYCHIC",
+              "Range": "18\"",
+              "Attacks": "D6+3",
+              "ToHit": "3+",
+              "Strength": "8",
+              "AP": "-2",
+              "Damage": "2"
+            }
+          ]
+        },
+        {
+          "IsMelee": true,
+          "Name": "MELEE WEAPONS",
+          "Weapons": [
+            {
+              "Name": "Close-combat weapon",
+              "Range": "Melee",
+              "Attacks": "5",
+              "ToHit": "3+",
+              "Strength": "4",
+              "AP": "0",
+              "Damage": "1"
+            },
+            {
+              "Name": "Crozius arcanum",
+              "Range": "Melee",
+              "Attacks": "5",
+              "ToHit": "2+",
+              "Strength": "6",
+              "AP": "-1",
+              "Damage": "2"
+            },
+            {
+              "Name": "Dreadfists",
+              "Range": "Melee",
+              "Attacks": "6",
+              "ToHit": "2+",
+              "Strength": "6",
+              "AP": "-1",
+              "Damage": "1"
+            },
+            {
+              "Name": "Nemesis daemon greathammer",
+              "Keywords": "PSYCHIC",
+              "Range": "Melee",
+              "Attacks": "5",
+              "ToHit": "3+",
+              "Strength": "14",
+              "AP": "-3",
+              "Damage": "D6+1"
+            },
+            {
+              "Name": "Nemesis flail",
+              "Keywords": "PSYCHIC",
+              "Range": "Melee",
+              "Attacks": "10",
+              "ToHit": "2+",
+              "Strength": "5",
+              "AP": "-1",
+              "Damage": "2"
+            },
+            {
+              "Name": "Nemesis force weapon",
+              "Keywords": "PSYCHIC",
+              "Range": "Melee",
+              "Attacks": "5",
+              "ToHit": "2+",
+              "Strength": "6",
+              "AP": "-2",
+              "Damage": "2"
+            },
+            {
+              "Name": "Nemesis greatsword – strike",
+              "Keywords": "PSYCHIC",
+              "Range": "Melee",
+              "Attacks": "5",
+              "ToHit": "2+",
+              "Strength": "10",
+              "AP": "-2",
+              "Damage": "D6"
+            },
+            {
+              "Name": "Nemesis greatsword – sweep",
+              "Keywords": "PSYCHIC",
+              "Range": "Melee",
+              "Attacks": "10",
+              "ToHit": "2+",
+              "Strength": "5",
+              "AP": "-1",
+              "Damage": "1"
+            },
+            {
+              "Name": "Nemesis mace",
+              "Keywords": "ANTI-CHARACTER 2+, PRECISION, PSYCHIC",
+              "Range": "Melee",
+              "Attacks": "5",
+              "ToHit": "2+",
+              "Strength": "6",
+              "AP": "-3",
+              "Damage": "3"
+            },
+            {
+              "Name": "Omnissian power axe",
+              "Range": "Melee",
+              "Attacks": "4",
+              "ToHit": "3+",
+              "Strength": "6",
+              "AP": "-2",
+              "Damage": "2"
+            },
+            {
+              "Name": "Servo-arm",
+              "Keywords": "EXTRA ATTACKS",
+              "Range": "Melee",
+              "Attacks": "1",
+              "ToHit": "3+",
+              "Strength": "8",
+              "AP": "-2",
+              "Damage": "3"
+            }
+          ]
+        }
+      ],
+      "Upgrades": [],
+      "Points": [
+        {
+          "ModelCount": 1,
+          "Cost": 210
+        }
+      ]
+    }
+  ],
+  "Dettachments": [],
+  "ArmyRules": []
+}

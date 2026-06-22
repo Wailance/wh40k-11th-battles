@@ -1,0 +1,5625 @@
+{
+  "Name": "Thousand Sons",
+  "Units": [
+    {
+      "Name": "MAGISTER",
+      "Faction": "Cabal of Sorcerers",
+      "Flags": 4,
+      "UnitComposition": {
+        "ModelCompositions": [
+          {
+            "ModelName": "Magister",
+            "Wargear": [
+              {
+                "InitalWargear": [],
+                "Options": [
+                  {
+                    "Options": [
+                      "arcane fire",
+                      "astral blast",
+                      "baleful devolution",
+                      "fatecaster greatbow",
+                      "fires of the abyss",
+                      "gaze of hate",
+                      "inferno bolgun",
+                      "inferno combi-bolter",
+                      "inferno combi-weapon",
+                      "pandaemonic delusion",
+                      "soulreaper cannon",
+                      "warpflamer",
+                      "heavy warpflamer",
+                      "hellfyre missile rack"
+                    ]
+                  },
+                  {
+                    "Options": [
+                      "autopistol",
+                      "inferno bolt pistol",
+                      "warpflame pistol"
+                    ]
+                  },
+                  {
+                    "Options": [
+                      "autopistol",
+                      "inferno bolt pistol",
+                      "warpflame pistol"
+                    ]
+                  },
+                  {
+                    "Options": [
+                      "chainsword",
+                      "close-combat weapon",
+                      "force weapon",
+                      "prosperine khopesh",
+                      "tzaangor blades"
+                    ]
+                  },
+                  {
+                    "Options": [
+                      "chainsword",
+                      "close-combat weapon",
+                      "force weapon",
+                      "prosperine khopesh",
+                      "tzaangor blades"
+                    ]
+                  },
+                  {
+                    "Options": [
+                      "Disc of Tzeentch",
+                      "Terminator Armour"
+                    ]
+                  },
+                  {
+                    "Options": [
+                      "Arcane Shield",
+                      "Binding Tendrils",
+                      "Empyric Guidance",
+                      "Malefic Will",
+                      "Marked by Fate",
+                      "Swathed in Illusion",
+                      "Twisted Sorceries"
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "WargearDefinitions": [
+          {
+            "Key": "Disc of Tzeentch",
+            "GrantsAbilities": [
+              "Disc of Tzeentch"
+            ],
+            "StatAdjustments": [
+              {
+                "Value": "10\""
+              }
+            ],
+            "DatasheetAdjustments": [
+              {
+                "Target": "Keywords",
+                "Type": "Add",
+                "Values": [
+                  "Mounted",
+                  "Fly"
+                ]
+              },
+              {
+                "Target": "LedUnitNames",
+                "Values": [
+                  "RUBRIC MARINES",
+                  "TZAANGOR ENLIGHTENED"
+                ]
+              }
+            ]
+          },
+          {
+            "Key": "Terminator Armour",
+            "GrantsAbilities": [
+              "Terminator Armour"
+            ],
+            "StatAdjustments": [
+              {
+                "Value": "5\""
+              },
+              {
+                "Target": "Toughness",
+                "Value": "5"
+              },
+              {
+                "Target": "Save",
+                "Value": "2+"
+              },
+              {
+                "Target": "Wounds",
+                "Value": "5"
+              },
+              {
+                "Target": "InvulSave",
+                "Value": "4+"
+              }
+            ],
+            "DatasheetAdjustments": [
+              {
+                "Target": "Keywords",
+                "Type": "Add",
+                "Values": [
+                  "Terminator"
+                ]
+              },
+              {
+                "Target": "CoreAbilities",
+                "Type": "Add",
+                "Values": [
+                  "Deep Strike"
+                ]
+              },
+              {
+                "Target": "LedUnitNames",
+                "Values": [
+                  "SCARAB OCCULT TERMINATORS"
+                ]
+              }
+            ]
+          },
+          {
+            "Key": "Arcane Shield",
+            "GrantsAbilities": [
+              "Arcane Shield"
+            ],
+            "StatAdjustments": [
+              {
+                "Target": "InvulSave",
+                "Scope": "Unit",
+                "Value": "4+"
+              }
+            ]
+          },
+          {
+            "Key": "Binding Tendrils",
+            "GrantsAbilities": [
+              "Binding Tendrils"
+            ]
+          },
+          {
+            "Key": "Empyric Guidance",
+            "GrantsAbilities": [
+              "Empyric Guidance"
+            ]
+          },
+          {
+            "Key": "Malefic Will",
+            "GrantsAbilities": [
+              "Malefic Will"
+            ]
+          },
+          {
+            "Key": "Marked by Fate",
+            "GrantsAbilities": [
+              "Marked by Fate"
+            ]
+          },
+          {
+            "Key": "Swathed in Illusion",
+            "GrantsAbilities": [
+              "Swathed in Illusion"
+            ]
+          },
+          {
+            "Key": "Twisted Sorceries",
+            "GrantsAbilities": [
+              "Twisted Sorceries"
+            ]
+          }
+        ]
+      },
+      "UnitAbilities": [
+        {
+          "Title": "Rebinding (Psychic)",
+          "Text": "In your Command phase, if this model is leading a unit, you can roll one D6: on a 1, that unit suffers D3 mortal wounds; on a 2+, you can return 1 destroyed Bodyguard model to that unit."
+        },
+        {
+          "Title": "Disc of Tzeentch",
+          "Text": "Change this model’s Move characteristic to 10\", and it gains the Mounted and Fly keywords. Add the following units to the list of units this model can be attached to: Tzaangor Enlightened."
+        },
+        {
+          "Title": "Terminator Armour",
+          "Text": "Change this model’s Move characteristic to 5\", its Toughness characteristic to 5, its Save characteristic to 2+, its Wounds characteristic to 5, and it has a 4+ invulnerable save. Add the Terminator keyword, it gains the Deep Strike ability, and replace the list of units this model can be attached to: Scarab Occult Terminators."
+        },
+        {
+          "Title": "Arcane Shield",
+          "Text": "While this model is leading a unit, models in that unit have a 4+ invulnerable save."
+        },
+        {
+          "Title": "Binding Tendrils",
+          "Text": "In your Shooting phase, after this model has shot, select one enemy Infantry unit hit by one or more of those attacks made with a Psychic weapon. Until the start of your next turn, that unit is ensnared. While a unit is ensnared, subtract 2\" from its Move characteristic and subtract 2 from Charge rolls made for it."
+        },
+        {
+          "Title": "Empyric Guidance",
+          "Text": "Weapons equipped by models in this unit have the [LETHAL HITS] ability."
+        },
+        {
+          "Title": "Malefic Will",
+          "Text": "Weapons equipped by models in this unit have the [SUSTAINED HITS 1] ability."
+        },
+        {
+          "Title": "Marked by Fate",
+          "Text": "In your Shooting phase, after this model’s unit has shot, select one enemy unit hit by one or more of those attacks made with a Psychic weapon. Until the end of the phase, each time a friendly Thousand Sons unit makes an attack that targets that enemy unit, add 1 to the Hit roll."
+        },
+        {
+          "Title": "Swathed in Illusion",
+          "Text": "This unit can only be selected as the target of a ranged attack if the attacking model is within 18\"."
+        },
+        {
+          "Title": "Twisted Sorceries",
+          "Text": "Once per battle, in your Shooting phase or the Fight phase, this model can use this ability. If it does, until the end of the phase, improve the Strength and Attacks characteristics of Psychic weapons equipped by this model by 3."
+        }
+      ],
+      "LeaderInfo": {
+        "UnitNames": [
+          "RUBRIC MARINES"
+        ],
+        "Abilities": [
+          {
+            "AbilityId": "Rebinding (Psychic)"
+          },
+          {
+            "AbilityId": "Arcane Shield",
+            "StatAdjustments": [
+              {
+                "Target": "InvulSave",
+                "Scope": "Unit",
+                "Value": "4+"
+              }
+            ]
+          }
+        ]
+      },
+      "Infos": [],
+      "Keywords": [
+        "Infantry",
+        "Character",
+        "Grenades",
+        "Psyker",
+        "Chaos",
+        "Tzeentch",
+        "Magister"
+      ],
+      "CoreAbilities": [
+        "Crucible",
+        "Leader"
+      ],
+      "FactionKeywords": [
+        "Thousand Sons"
+      ],
+      "StatLines": [
+        {
+          "Movement": "6\"",
+          "Toughness": "4",
+          "Save": "3+",
+          "Wounds": "4",
+          "Leadership": "6+",
+          "OC": "1",
+          "InvulSave": {
+            "Save": "5+"
+          }
+        }
+      ],
+      "Weapons": [
+        {
+          "Name": "RANGED WEAPONS",
+          "Weapons": [
+            {
+              "Name": "Arcane Fire",
+              "Keywords": "IGNORES COVER, PSYCHIC, TORRENT",
+              "Range": "18\"",
+              "Attacks": "D6",
+              "ToHit": "N/A",
+              "Strength": "5",
+              "AP": "-2",
+              "Damage": "D3"
+            },
+            {
+              "Name": "Astral Blast",
+              "Keywords": "BLAST, DEVASTATING WOUNDS, PSYCHIC",
+              "Range": "18\"",
+              "Attacks": "D6",
+              "ToHit": "2+",
+              "Strength": "6",
+              "AP": "-2",
+              "Damage": "D3"
+            },
+            {
+              "Name": "Baleful Devolution",
+              "Keywords": "BLAST, DEVASTATING WOUNDS, PSYCHIC",
+              "Range": "18\"",
+              "Attacks": "D6",
+              "ToHit": "3+",
+              "Strength": "9",
+              "AP": "0",
+              "Damage": "1"
+            },
+            {
+              "Name": "Fatecaster greatbow",
+              "Keywords": "IGNORES COVER, LETHAL HITS, PRECISION",
+              "Range": "30\"",
+              "Attacks": "2",
+              "ToHit": "3+",
+              "Strength": "5",
+              "AP": "-2",
+              "Damage": "2"
+            },
+            {
+              "Name": "Fires of the Abyss – witchfire",
+              "Keywords": "PSYCHIC, TORRENT",
+              "Range": "18\"",
+              "Attacks": "D6",
+              "ToHit": "N/A",
+              "Strength": "6",
+              "AP": "-2",
+              "Damage": "1"
+            },
+            {
+              "Name": "Fires of the Abyss – focused witchfire",
+              "Keywords": "HAZARDOUS, PSYCHIC, TORRENT",
+              "Range": "18\"",
+              "Attacks": "2D6",
+              "ToHit": "N/A",
+              "Strength": "6",
+              "AP": "-2",
+              "Damage": "1"
+            },
+            {
+              "Name": "Gaze of Hate",
+              "Keywords": "ANTI-MONSTER 4+, ANTI-VEHICLE 4+, DEVASTATING WOUNDS, PSYCHIC",
+              "Range": "18\"",
+              "Attacks": "3",
+              "ToHit": "2+",
+              "Strength": "4",
+              "AP": "-3",
+              "Damage": "2"
+            },
+            {
+              "Name": "Pandaemonic Delusion",
+              "Keywords": "PSYCHIC, SUSTAINED HITS 3",
+              "Range": "24\"",
+              "Attacks": "6",
+              "ToHit": "2+",
+              "Strength": "5",
+              "AP": "-1",
+              "Damage": "1"
+            },
+            {
+              "Name": "Inferno bolgun",
+              "Range": "24\"",
+              "Attacks": "2",
+              "ToHit": "2+",
+              "Strength": "4",
+              "AP": "-2",
+              "Damage": "1"
+            },
+            {
+              "Name": "Inferno combi-bolter",
+              "Keywords": "RAPID FIRE 2",
+              "Range": "24\"",
+              "Attacks": "2",
+              "ToHit": "2+",
+              "Strength": "4",
+              "AP": "-2",
+              "Damage": "1"
+            },
+            {
+              "Name": "Inferno combi-weapon",
+              "Keywords": "ANTI-INFANTRY 4+, DEVASTATING WOUNDS, RAPID FIRE 1",
+              "Range": "24\"",
+              "Attacks": "1",
+              "ToHit": "3+",
+              "Strength": "4",
+              "AP": "-2",
+              "Damage": "1"
+            },
+            {
+              "Name": "Soulreaper cannon",
+              "Keywords": "DEVASTATING WOUNDS",
+              "Range": "24\"",
+              "Attacks": "6",
+              "ToHit": "2+",
+              "Strength": "6",
+              "AP": "-2",
+              "Damage": "1"
+            },
+            {
+              "Name": "Warpflamer",
+              "Keywords": "IGNORES COVER, TORRENT",
+              "Range": "12\"",
+              "Attacks": "D6",
+              "ToHit": "N/A",
+              "Strength": "4",
+              "AP": "-1",
+              "Damage": "1"
+            },
+            {
+              "Name": "Heavy warpflamer",
+              "Keywords": "IGNORES COVER, TORRENT",
+              "Range": "12\"",
+              "Attacks": "D6",
+              "ToHit": "N/A",
+              "Strength": "5",
+              "AP": "-2",
+              "Damage": "1"
+            },
+            {
+              "Name": "Hellfyre missile rack",
+              "Range": "36\"",
+              "Attacks": "2",
+              "ToHit": "3+",
+              "Strength": "10",
+              "AP": "-2",
+              "Damage": "3"
+            },
+            {
+              "Name": "Autopistol",
+              "Keywords": "PISTOL",
+              "Range": "12\"",
+              "Attacks": "1",
+              "ToHit": "3+",
+              "Strength": "3",
+              "AP": "0",
+              "Damage": "1"
+            },
+            {
+              "Name": "Inferno bolt pistol",
+              "Keywords": "PISTOL",
+              "Range": "12\"",
+              "Attacks": "1",
+              "ToHit": "2+",
+              "Strength": "4",
+              "AP": "-1",
+              "Damage": "1"
+            },
+            {
+              "Name": "Warpflame pistol",
+              "Keywords": "IGNORES COVER, PISTOL, TORRENT",
+              "Range": "12\"",
+              "Attacks": "D6",
+              "ToHit": "N/A",
+              "Strength": "3",
+              "AP": "-1",
+              "Damage": "1"
+            }
+          ]
+        },
+        {
+          "IsMelee": true,
+          "Name": "MELEE WEAPONS",
+          "Weapons": [
+            {
+              "Name": "Chainsword",
+              "Keywords": "PRECISION",
+              "Range": "Melee",
+              "Attacks": "6",
+              "ToHit": "3+",
+              "Strength": "4",
+              "AP": "0",
+              "Damage": "1"
+            },
+            {
+              "Name": "Close-combat weapon",
+              "Range": "Melee",
+              "Attacks": "4",
+              "ToHit": "3+",
+              "Strength": "4",
+              "AP": "0",
+              "Damage": "1"
+            },
+            {
+              "Name": "Force weapon",
+              "Keywords": "PSYCHIC",
+              "Range": "Melee",
+              "Attacks": "5",
+              "ToHit": "2+",
+              "Strength": "6",
+              "AP": "-1",
+              "Damage": "D3"
+            },
+            {
+              "Name": "Prosperine khopesh",
+              "Range": "Melee",
+              "Attacks": "4",
+              "ToHit": "2+",
+              "Strength": "5",
+              "AP": "-2",
+              "Damage": "2"
+            },
+            {
+              "Name": "Tzaangor blades",
+              "Range": "Melee",
+              "Attacks": "4",
+              "ToHit": "3+",
+              "Strength": "5",
+              "AP": "0",
+              "Damage": "1"
+            }
+          ]
+        }
+      ],
+      "Upgrades": [],
+      "Points": [
+        {
+          "ModelCount": 1,
+          "Cost": 105
+        }
+      ]
+    },
+    {
+      "Name": "BRAYHERD CHIEFTAIN",
+      "Faction": "Cabal of Sorcerers",
+      "Flags": 4,
+      "UnitComposition": {
+        "ModelCompositions": [
+          {
+            "ModelName": "Brayherd Chieftain",
+            "Wargear": [
+              {
+                "InitalWargear": [],
+                "Options": [
+                  {
+                    "Options": [
+                      "inferno bolgun",
+                      "inferno combi-bolter",
+                      "inferno combi-weapon",
+                      "soulreaper cannon",
+                      "warpflamer"
+                    ]
+                  },
+                  {
+                    "Options": [
+                      "autopistol",
+                      "inferno bolt pistol",
+                      "warpflame pistol"
+                    ]
+                  },
+                  {
+                    "Options": [
+                      "autopistol",
+                      "inferno bolt pistol",
+                      "warpflame pistol"
+                    ]
+                  },
+                  {
+                    "Options": [
+                      "chainsword",
+                      "close-combat weapon",
+                      "divining spear",
+                      "tzaangor blades"
+                    ]
+                  },
+                  {
+                    "Options": [
+                      "chainsword",
+                      "close-combat weapon",
+                      "divining spear",
+                      "tzaangor blades"
+                    ]
+                  },
+                  {
+                    "Options": [
+                      "Disc of Tzeentch"
+                    ]
+                  },
+                  {
+                    "Options": [
+                      "Malefic Will",
+                      "Swathed in Illusion"
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "WargearDefinitions": [
+          {
+            "Key": "Disc of Tzeentch",
+            "GrantsAbilities": [
+              "Disc of Tzeentch"
+            ],
+            "StatAdjustments": [
+              {
+                "Value": "10\""
+              }
+            ],
+            "DatasheetAdjustments": [
+              {
+                "Target": "Keywords",
+                "Type": "Add",
+                "Values": [
+                  "Mounted",
+                  "Fly"
+                ]
+              },
+              {
+                "Target": "LedUnitNames",
+                "Values": [
+                  "TZAANGORS",
+                  "TZAANGOR ENLIGHTENED"
+                ]
+              }
+            ]
+          },
+          {
+            "Key": "Malefic Will",
+            "GrantsAbilities": [
+              "Malefic Will"
+            ]
+          },
+          {
+            "Key": "Swathed in Illusion",
+            "GrantsAbilities": [
+              "Swathed in Illusion"
+            ]
+          }
+        ]
+      },
+      "UnitAbilities": [
+        {
+          "Title": "Fate’s Guide",
+          "Text": "If this unit starts the game in Strategic Reserves, it can be set up in the Reinforcements Step of your first, second or third Movement phase, regardless of any mission rules. If this unit is in Strategic Reserves, for the purposes of setting up this unit on the battlefield, treat the current battle round number as being one higher than it actually is."
+        },
+        {
+          "Title": "Disc of Tzeentch",
+          "Text": "Change this model’s Move characteristic to 10\", and it gains the Mounted and Fly keywords. Add the following units to the list of units this model can be attached to: Tzaangor Enlightened."
+        },
+        {
+          "Title": "Malefic Will",
+          "Text": "Weapons equipped by models in this unit have the [SUSTAINED HITS 1] ability."
+        },
+        {
+          "Title": "Swathed in Illusion",
+          "Text": "This unit can only be selected as the target of a ranged attack if the attacking model is within 18\"."
+        }
+      ],
+      "LeaderInfo": {
+        "UnitNames": [
+          "TZAANGORS"
+        ]
+      },
+      "Infos": [],
+      "Keywords": [
+        "Infantry",
+        "Character",
+        "Chaos",
+        "Tzeentch",
+        "Mutant",
+        "Brayherd Chieftain"
+      ],
+      "CoreAbilities": [
+        "Crucible",
+        "Leader",
+        "Scouts 6\""
+      ],
+      "FactionKeywords": [
+        "Thousand Sons"
+      ],
+      "StatLines": [
+        {
+          "Movement": "6\"",
+          "Toughness": "4",
+          "Save": "5+",
+          "Wounds": "4",
+          "Leadership": "7+",
+          "OC": "1",
+          "InvulSave": {
+            "Save": "5+"
+          }
+        }
+      ],
+      "Weapons": [
+        {
+          "Name": "RANGED WEAPONS",
+          "Weapons": [
+            {
+              "Name": "Inferno bolgun",
+              "Range": "24\"",
+              "Attacks": "2",
+              "ToHit": "2+",
+              "Strength": "4",
+              "AP": "-2",
+              "Damage": "1"
+            },
+            {
+              "Name": "Inferno combi-bolter",
+              "Keywords": "RAPID FIRE 2",
+              "Range": "24\"",
+              "Attacks": "2",
+              "ToHit": "2+",
+              "Strength": "4",
+              "AP": "-2",
+              "Damage": "1"
+            },
+            {
+              "Name": "Inferno combi-weapon",
+              "Keywords": "ANTI-INFANTRY 4+, DEVASTATING WOUNDS, RAPID FIRE 1",
+              "Range": "24\"",
+              "Attacks": "1",
+              "ToHit": "3+",
+              "Strength": "4",
+              "AP": "-2",
+              "Damage": "1"
+            },
+            {
+              "Name": "Soulreaper cannon",
+              "Keywords": "DEVASTATING WOUNDS",
+              "Range": "24\"",
+              "Attacks": "6",
+              "ToHit": "2+",
+              "Strength": "6",
+              "AP": "-2",
+              "Damage": "1"
+            },
+            {
+              "Name": "Warpflamer",
+              "Keywords": "IGNORES COVER, TORRENT",
+              "Range": "12\"",
+              "Attacks": "D6",
+              "ToHit": "N/A",
+              "Strength": "4",
+              "AP": "-1",
+              "Damage": "1"
+            },
+            {
+              "Name": "Autopistol",
+              "Keywords": "PISTOL",
+              "Range": "12\"",
+              "Attacks": "1",
+              "ToHit": "3+",
+              "Strength": "3",
+              "AP": "0",
+              "Damage": "1"
+            },
+            {
+              "Name": "Inferno bolt pistol",
+              "Keywords": "PISTOL",
+              "Range": "12\"",
+              "Attacks": "1",
+              "ToHit": "2+",
+              "Strength": "4",
+              "AP": "-1",
+              "Damage": "1"
+            },
+            {
+              "Name": "Warpflame pistol",
+              "Keywords": "IGNORES COVER, PISTOL, TORRENT",
+              "Range": "12\"",
+              "Attacks": "D6",
+              "ToHit": "N/A",
+              "Strength": "3",
+              "AP": "-1",
+              "Damage": "1"
+            }
+          ]
+        },
+        {
+          "IsMelee": true,
+          "Name": "MELEE WEAPONS",
+          "Weapons": [
+            {
+              "Name": "Chainsword",
+              "Keywords": "PRECISION",
+              "Range": "Melee",
+              "Attacks": "6",
+              "ToHit": "3+",
+              "Strength": "4",
+              "AP": "0",
+              "Damage": "1"
+            },
+            {
+              "Name": "Close-combat weapon",
+              "Range": "Melee",
+              "Attacks": "4",
+              "ToHit": "3+",
+              "Strength": "4",
+              "AP": "0",
+              "Damage": "1"
+            },
+            {
+              "Name": "Divining spear",
+              "Keywords": "LANCE, PRECISION",
+              "Range": "Melee",
+              "Attacks": "3",
+              "ToHit": "3+",
+              "Strength": "5",
+              "AP": "-1",
+              "Damage": "2"
+            },
+            {
+              "Name": "Tzaangor blades",
+              "Range": "Melee",
+              "Attacks": "4",
+              "ToHit": "3+",
+              "Strength": "5",
+              "AP": "0",
+              "Damage": "1"
+            }
+          ]
+        }
+      ],
+      "Upgrades": [],
+      "Points": [
+        {
+          "ModelCount": 1,
+          "Cost": 60
+        }
+      ]
+    },
+    {
+      "Name": "BRAYHERD SHAMAN",
+      "Faction": "Cabal of Sorcerers",
+      "Flags": 4,
+      "UnitComposition": {
+        "ModelCompositions": [
+          {
+            "ModelName": "Brayherd Shaman",
+            "Wargear": [
+              {
+                "InitalWargear": [],
+                "Options": [
+                  {
+                    "Options": [
+                      "arcane fire",
+                      "astral blast",
+                      "baleful devolution",
+                      "fatecaster greatbow",
+                      "fires of the abyss",
+                      "gaze of hate",
+                      "inferno bolgun",
+                      "inferno combi-bolter",
+                      "inferno combi-weapon",
+                      "pandaemonic delusion",
+                      "soulreaper cannon",
+                      "warpflamer"
+                    ]
+                  },
+                  {
+                    "Options": [
+                      "autopistol",
+                      "inferno bolt pistol",
+                      "warpflame pistol"
+                    ]
+                  },
+                  {
+                    "Options": [
+                      "autopistol",
+                      "inferno bolt pistol",
+                      "warpflame pistol"
+                    ]
+                  },
+                  {
+                    "Options": [
+                      "chainsword",
+                      "close-combat weapon",
+                      "divining spear",
+                      "force weapon",
+                      "tzaangor blades"
+                    ]
+                  },
+                  {
+                    "Options": [
+                      "chainsword",
+                      "close-combat weapon",
+                      "divining spear",
+                      "force weapon",
+                      "tzaangor blades"
+                    ]
+                  },
+                  {
+                    "Options": [
+                      "Disc of Tzeentch"
+                    ]
+                  },
+                  {
+                    "Options": [
+                      "Arcane Shield",
+                      "Binding Tendrils",
+                      "Empyric Guidance",
+                      "Malefic Will",
+                      "Marked by Fate",
+                      "Swathed in Illusion",
+                      "Twisted Sorceries"
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "WargearDefinitions": [
+          {
+            "Key": "Disc of Tzeentch",
+            "GrantsAbilities": [
+              "Disc of Tzeentch"
+            ],
+            "StatAdjustments": [
+              {
+                "Value": "10\""
+              }
+            ],
+            "DatasheetAdjustments": [
+              {
+                "Target": "Keywords",
+                "Type": "Add",
+                "Values": [
+                  "Mounted",
+                  "Fly"
+                ]
+              },
+              {
+                "Target": "LedUnitNames",
+                "Values": [
+                  "TZAANGORS",
+                  "TZAANGOR ENLIGHTENED"
+                ]
+              }
+            ]
+          },
+          {
+            "Key": "Arcane Shield",
+            "GrantsAbilities": [
+              "Arcane Shield"
+            ],
+            "StatAdjustments": [
+              {
+                "Target": "InvulSave",
+                "Scope": "Unit",
+                "Value": "4+"
+              }
+            ]
+          },
+          {
+            "Key": "Binding Tendrils",
+            "GrantsAbilities": [
+              "Binding Tendrils"
+            ]
+          },
+          {
+            "Key": "Empyric Guidance",
+            "GrantsAbilities": [
+              "Empyric Guidance"
+            ]
+          },
+          {
+            "Key": "Malefic Will",
+            "GrantsAbilities": [
+              "Malefic Will"
+            ]
+          },
+          {
+            "Key": "Marked by Fate",
+            "GrantsAbilities": [
+              "Marked by Fate"
+            ]
+          },
+          {
+            "Key": "Swathed in Illusion",
+            "GrantsAbilities": [
+              "Swathed in Illusion"
+            ]
+          },
+          {
+            "Key": "Twisted Sorceries",
+            "GrantsAbilities": [
+              "Twisted Sorceries"
+            ]
+          }
+        ]
+      },
+      "UnitAbilities": [
+        {
+          "Title": "Bestial Prophet",
+          "Text": "While this model is leading a unit, each time a model in that unit makes an attack, add 1 to the Hit roll."
+        },
+        {
+          "Title": "Disc of Tzeentch",
+          "Text": "Change this model’s Move characteristic to 10\", and it gains the Mounted and Fly keywords. Add the following units to the list of units this model can be attached to: Tzaangor Enlightened."
+        },
+        {
+          "Title": "Arcane Shield",
+          "Text": "(+10 pts) (Psychic) (Psyker only): While this model is leading a unit, models in that unit have a 4+ invulnerable save."
+        },
+        {
+          "Title": "Binding Tendrils",
+          "Text": "(Psychic) (Psyker only): In your Shooting phase, after this model has shot, select one enemy Infantry unit hit by one or more of those attacks made with a Psychic weapon. Until the start of your next turn, that unit is ensnared. While a unit is ensnared, subtract 2\" from its Move characteristic and subtract 2 from Charge rolls made for it."
+        },
+        {
+          "Title": "Empyric Guidance",
+          "Text": "(Psychic) (Psyker only): Weapons equipped by models in this unit have the [LETHAL HITS] ability."
+        },
+        {
+          "Title": "Malefic Will",
+          "Text": "Weapons equipped by models in this unit have the [SUSTAINED HITS 1] ability."
+        },
+        {
+          "Title": "Marked by Fate",
+          "Text": "(+10 pts) (Psychic) (Psyker only): In your Shooting phase, after this model’s unit has shot, select one enemy unit hit by one or more of those attacks made with a Psychic weapon. Until the end of the phase, each time a friendly Thousand Sons unit makes an attack that targets that enemy unit, add 1 to the Hit roll."
+        },
+        {
+          "Title": "Swathed in Illusion",
+          "Text": "This unit can only be selected as the target of a ranged attack if the attacking model is within 18\"."
+        },
+        {
+          "Title": "Twisted Sorceries",
+          "Text": "(Psychic) (Psyker only): Once per battle, in your Shooting phase or the Fight phase, this model can use this ability. If it does, until the end of the phase, improve the Strength and Attacks characteristics of Psychic weapons equipped by this model by 3."
+        }
+      ],
+      "LeaderInfo": {
+        "UnitNames": [
+          "TZAANGORS"
+        ],
+        "Abilities": [
+          {
+            "AbilityId": "Bestial Prophet"
+          },
+          {
+            "AbilityId": "Arcane Shield",
+            "StatAdjustments": [
+              {
+                "Target": "InvulSave",
+                "Scope": "Unit",
+                "Value": "4+"
+              }
+            ]
+          }
+        ]
+      },
+      "Infos": [],
+      "Keywords": [
+        "Infantry",
+        "Character",
+        "Psyker",
+        "Chaos",
+        "Tzeentch",
+        "Mutant",
+        "Brayherd Shaman"
+      ],
+      "CoreAbilities": [
+        "Crucible",
+        "Leader",
+        "Scouts 6\""
+      ],
+      "FactionKeywords": [
+        "Thousand Sons"
+      ],
+      "StatLines": [
+        {
+          "Movement": "6\"",
+          "Toughness": "4",
+          "Save": "5+",
+          "Wounds": "4",
+          "Leadership": "7+",
+          "OC": "1",
+          "InvulSave": {
+            "Save": "5+"
+          }
+        }
+      ],
+      "Weapons": [
+        {
+          "Name": "RANGED WEAPONS",
+          "Weapons": [
+            {
+              "Name": "Arcane Fire",
+              "Keywords": "IGNORES COVER, PSYCHIC, TORRENT",
+              "Range": "18\"",
+              "Attacks": "D6",
+              "ToHit": "N/A",
+              "Strength": "5",
+              "AP": "-2",
+              "Damage": "D3"
+            },
+            {
+              "Name": "Astral Blast",
+              "Keywords": "BLAST, DEVASTATING WOUNDS, PSYCHIC",
+              "Range": "18\"",
+              "Attacks": "D6",
+              "ToHit": "2+",
+              "Strength": "6",
+              "AP": "-2",
+              "Damage": "D3"
+            },
+            {
+              "Name": "Baleful Devolution",
+              "Keywords": "BLAST, DEVASTATING WOUNDS, PSYCHIC",
+              "Range": "18\"",
+              "Attacks": "D6",
+              "ToHit": "3+",
+              "Strength": "9",
+              "AP": "0",
+              "Damage": "1"
+            },
+            {
+              "Name": "Fatecaster greatbow",
+              "Keywords": "IGNORES COVER, LETHAL HITS, PRECISION",
+              "Range": "30\"",
+              "Attacks": "2",
+              "ToHit": "3+",
+              "Strength": "5",
+              "AP": "-2",
+              "Damage": "2"
+            },
+            {
+              "Name": "Fires of the Abyss – witchfire",
+              "Keywords": "PSYCHIC, TORRENT",
+              "Range": "18\"",
+              "Attacks": "D6",
+              "ToHit": "N/A",
+              "Strength": "6",
+              "AP": "-2",
+              "Damage": "1"
+            },
+            {
+              "Name": "Fires of the Abyss – focused witchfire",
+              "Keywords": "HAZARDOUS, PSYCHIC, TORRENT",
+              "Range": "18\"",
+              "Attacks": "2D6",
+              "ToHit": "N/A",
+              "Strength": "6",
+              "AP": "-2",
+              "Damage": "1"
+            },
+            {
+              "Name": "Gaze of Hate",
+              "Keywords": "ANTI-MONSTER 4+, ANTI-VEHICLE 4+, DEVASTATING WOUNDS, PSYCHIC",
+              "Range": "18\"",
+              "Attacks": "3",
+              "ToHit": "2+",
+              "Strength": "4",
+              "AP": "-3",
+              "Damage": "2"
+            },
+            {
+              "Name": "Pandaemonic Delusion",
+              "Keywords": "PSYCHIC, SUSTAINED HITS 3",
+              "Range": "24\"",
+              "Attacks": "6",
+              "ToHit": "2+",
+              "Strength": "5",
+              "AP": "-1",
+              "Damage": "1"
+            },
+            {
+              "Name": "Inferno bolgun",
+              "Range": "24\"",
+              "Attacks": "2",
+              "ToHit": "2+",
+              "Strength": "4",
+              "AP": "-2",
+              "Damage": "1"
+            },
+            {
+              "Name": "Inferno combi-bolter",
+              "Keywords": "RAPID FIRE 2",
+              "Range": "24\"",
+              "Attacks": "2",
+              "ToHit": "2+",
+              "Strength": "4",
+              "AP": "-2",
+              "Damage": "1"
+            },
+            {
+              "Name": "Inferno combi-weapon",
+              "Keywords": "ANTI-INFANTRY 4+, DEVASTATING WOUNDS, RAPID FIRE 1",
+              "Range": "24\"",
+              "Attacks": "1",
+              "ToHit": "3+",
+              "Strength": "4",
+              "AP": "-2",
+              "Damage": "1"
+            },
+            {
+              "Name": "Soulreaper cannon",
+              "Keywords": "DEVASTATING WOUNDS",
+              "Range": "24\"",
+              "Attacks": "6",
+              "ToHit": "2+",
+              "Strength": "6",
+              "AP": "-2",
+              "Damage": "1"
+            },
+            {
+              "Name": "Warpflamer",
+              "Keywords": "IGNORES COVER, TORRENT",
+              "Range": "12\"",
+              "Attacks": "D6",
+              "ToHit": "N/A",
+              "Strength": "4",
+              "AP": "-1",
+              "Damage": "1"
+            },
+            {
+              "Name": "Autopistol",
+              "Keywords": "PISTOL",
+              "Range": "12\"",
+              "Attacks": "1",
+              "ToHit": "3+",
+              "Strength": "3",
+              "AP": "0",
+              "Damage": "1"
+            },
+            {
+              "Name": "Inferno bolt pistol",
+              "Keywords": "PISTOL",
+              "Range": "12\"",
+              "Attacks": "1",
+              "ToHit": "2+",
+              "Strength": "4",
+              "AP": "-1",
+              "Damage": "1"
+            },
+            {
+              "Name": "Warpflame pistol",
+              "Keywords": "IGNORES COVER, PISTOL, TORRENT",
+              "Range": "12\"",
+              "Attacks": "D6",
+              "ToHit": "N/A",
+              "Strength": "3",
+              "AP": "-1",
+              "Damage": "1"
+            }
+          ]
+        },
+        {
+          "IsMelee": true,
+          "Name": "MELEE WEAPONS",
+          "Weapons": [
+            {
+              "Name": "Chainsword",
+              "Keywords": "PRECISION",
+              "Range": "Melee",
+              "Attacks": "6",
+              "ToHit": "3+",
+              "Strength": "4",
+              "AP": "0",
+              "Damage": "1"
+            },
+            {
+              "Name": "Close-combat weapon",
+              "Range": "Melee",
+              "Attacks": "4",
+              "ToHit": "3+",
+              "Strength": "4",
+              "AP": "0",
+              "Damage": "1"
+            },
+            {
+              "Name": "Force weapon",
+              "Keywords": "PSYCHIC",
+              "Range": "Melee",
+              "Attacks": "5",
+              "ToHit": "2+",
+              "Strength": "6",
+              "AP": "-1",
+              "Damage": "D3"
+            },
+            {
+              "Name": "Divining spear",
+              "Keywords": "LANCE, PRECISION",
+              "Range": "Melee",
+              "Attacks": "3",
+              "ToHit": "3+",
+              "Strength": "5",
+              "AP": "-1",
+              "Damage": "2"
+            },
+            {
+              "Name": "Tzaangor blades",
+              "Range": "Melee",
+              "Attacks": "4",
+              "ToHit": "3+",
+              "Strength": "5",
+              "AP": "0",
+              "Damage": "1"
+            }
+          ]
+        }
+      ],
+      "Upgrades": [],
+      "Points": [
+        {
+          "ModelCount": 1,
+          "Cost": 60
+        }
+      ]
+    },
+    {
+      "Name": "KRATOS",
+      "UnitComposition": {
+        "ModelCompositions": [
+          {
+            "ModelName": "Kratos",
+            "Wargear": [
+              {
+                "InitalWargear": [
+                  "autocannon",
+                  "Kratos battle cannon",
+                  "2 heavy bolters",
+                  "2 heavy bolters",
+                  "armoured tracks"
+                ],
+                "Options": [
+                  {
+                    "Replaces": [
+                      "Kratos battle cannon"
+                    ],
+                    "Options": [
+                      "melta blast-gun",
+                      "volkite cardanelle"
+                    ]
+                  },
+                  {
+                    "Options": [
+                      "combi-weapon",
+                      "havoc launcher",
+                      "heavy bolter",
+                      "heavy flamer",
+                      "multi-melta",
+                      "twin boltgun"
+                    ]
+                  },
+                  {
+                    "Options": [
+                      "hunter-killer missile"
+                    ]
+                  },
+                  {
+                    "Replaces": [
+                      "2 heavy bolters"
+                    ],
+                    "Options": [
+                      "2 autocannons",
+                      "2 lascannons",
+                      "2 volkite calivers"
+                    ]
+                  },
+                  {
+                    "Replaces": [
+                      "2 heavy bolters"
+                    ],
+                    "Options": [
+                      "2 heavy flamers",
+                      "2 lascannons ",
+                      "2 volkite culverins"
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "WargearDefinitions": []
+      },
+      "UnitAbilities": [
+        {
+          "Title": "Line-breaker",
+          "Text": "When making ranged attacks, this model can target enemy units within Engagement Range of it with Blast weapons (provided no other friendly units are also within Engagement Range of that enemy unit). In addition, when making ranged attacks, this model does not suffer the penalty to its Hit rolls for being within Engagement Range of one or more enemy units."
+        }
+      ],
+      "Infos": [
+        {
+          "Title": "DAMAGED: 1-6 WOUNDS REMAINING",
+          "Text": "While this model has 1-6 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
+        }
+      ],
+      "Keywords": [
+        "Vehicle",
+        "Smoke",
+        "Kratos",
+        "Chaos",
+        "Tzeentch"
+      ],
+      "CoreAbilities": [
+        "Deadly Demise D6"
+      ],
+      "FactionKeywords": [
+        "Thousand Sons"
+      ],
+      "StatLines": [
+        {
+          "Movement": "10\"",
+          "Toughness": "12",
+          "Save": "2+",
+          "Wounds": "18",
+          "Leadership": "6+",
+          "OC": "6"
+        }
+      ],
+      "Weapons": [
+        {
+          "Name": "RANGED WEAPONS",
+          "Weapons": [
+            {
+              "Name": "Autocannon",
+              "Range": "48\"",
+              "Attacks": "2",
+              "ToHit": "3+",
+              "Strength": "9",
+              "AP": "-1",
+              "Damage": "3"
+            },
+            {
+              "Name": "Havoc launcher",
+              "Keywords": "BLAST",
+              "Range": "48\"",
+              "Attacks": "D6",
+              "ToHit": "3+",
+              "Strength": "5",
+              "AP": "0",
+              "Damage": "1"
+            },
+            {
+              "Name": "Hunter-killer missile",
+              "Keywords": "ONE SHOT",
+              "Range": "48\"",
+              "Attacks": "1",
+              "ToHit": "2+",
+              "Strength": "14",
+              "AP": "-3",
+              "Damage": "D6"
+            },
+            {
+              "Name": "Kratos battle cannon – AP",
+              "Keywords": "HEAVY",
+              "Range": "36\"",
+              "Attacks": "1",
+              "ToHit": "3+",
+              "Strength": "18",
+              "AP": "-4",
+              "Damage": "D6+3"
+            },
+            {
+              "Name": "Kratos battle cannon – HE",
+              "Keywords": "BLAST",
+              "Range": "36\"",
+              "Attacks": "D6+3",
+              "ToHit": "3+",
+              "Strength": "10",
+              "AP": "-1",
+              "Damage": "3"
+            },
+            {
+              "Name": "Melta blast-gun",
+              "Keywords": "MELTA 2",
+              "Range": "24\"",
+              "Attacks": "4",
+              "ToHit": "3+",
+              "Strength": "12",
+              "AP": "-4",
+              "Damage": "D6"
+            },
+            {
+              "Name": "Twin boltgun",
+              "Keywords": "TWIN-LINKED",
+              "Range": "24\"",
+              "Attacks": "2",
+              "ToHit": "3+",
+              "Strength": "4",
+              "AP": "0",
+              "Damage": "1"
+            },
+            {
+              "Name": "Volkite caliver",
+              "Keywords": "DEVASTATING WOUNDS",
+              "Range": "24\"",
+              "Attacks": "2",
+              "ToHit": "3+",
+              "Strength": "5",
+              "AP": "0",
+              "Damage": "2"
+            },
+            {
+              "Name": "Volkite cardanelle",
+              "Keywords": "DEVASTATING WOUNDS",
+              "Range": "36\"",
+              "Attacks": "9",
+              "ToHit": "3+",
+              "Strength": "9",
+              "AP": "0",
+              "Damage": "3"
+            },
+            {
+              "Name": "Volkite culverin",
+              "Keywords": "DEVASTATING WOUNDS",
+              "Range": "36\"",
+              "Attacks": "4",
+              "ToHit": "3+",
+              "Strength": "6",
+              "AP": "0",
+              "Damage": "2"
+            },
+            {
+              "Name": "Heavy bolter",
+              "Keywords": "SUSTAINED HITS 1",
+              "Range": "36\"",
+              "Attacks": "3",
+              "ToHit": "3+",
+              "Strength": "5",
+              "AP": "-1",
+              "Damage": "2"
+            },
+            {
+              "Name": "Combi-weapon",
+              "Keywords": "ANTI-INFANTRY 4+, DEVASTATING WOUNDS, RAPID FIRE 1",
+              "Range": "24\"",
+              "Attacks": "1",
+              "ToHit": "3+",
+              "Strength": "4",
+              "AP": "0",
+              "Damage": "1"
+            },
+            {
+              "Name": "Heavy flamer",
+              "Keywords": "IGNORES COVER, TORRENT",
+              "Range": "12\"",
+              "Attacks": "D6",
+              "ToHit": "N/A",
+              "Strength": "5",
+              "AP": "-1",
+              "Damage": "1"
+            },
+            {
+              "Name": "Multi-melta",
+              "Keywords": "MELTA 2",
+              "Range": "18",
+              "Attacks": "2",
+              "ToHit": "3+",
+              "Strength": "9",
+              "AP": "-4",
+              "Damage": "D6"
+            },
+            {
+              "Name": "Lascannon",
+              "Keywords": "HEAVY",
+              "Range": "48\"",
+              "Attacks": "1",
+              "ToHit": "3+",
+              "Strength": "12",
+              "AP": "-3",
+              "Damage": "D6+1"
+            }
+          ]
+        },
+        {
+          "IsMelee": true,
+          "Name": "MELEE WEAPONS",
+          "Weapons": [
+            {
+              "Name": "Armoured tracks",
+              "Range": "Melee",
+              "Attacks": "6",
+              "ToHit": "4+",
+              "Strength": "8",
+              "AP": "0",
+              "Damage": "1"
+            }
+          ]
+        }
+      ],
+      "Upgrades": [],
+      "Points": [
+        {
+          "ModelCount": 1,
+          "Cost": 240
+        }
+      ]
+    },
+    {
+      "Name": "DEREDEO DREADNOUGHT",
+      "UnitComposition": {
+        "ModelCompositions": [
+          {
+            "ModelName": "Deredeo Dreadnought",
+            "Wargear": [
+              {
+                "InitalWargear": [
+                  "anvilus autocannon battery",
+                  "twin heavy bolter",
+                  "armoured feet"
+                ],
+                "Options": [
+                  {
+                    "Replaces": [
+                      "anvilus autocannon battery"
+                    ],
+                    "Options": [
+                      "arachnus heavy lascannon battery",
+                      "hellfire plasma cannonade",
+                      "volkite falconet battery"
+                    ]
+                  },
+                  {
+                    "Replaces": [
+                      "twin heavy bolter"
+                    ],
+                    "Options": [
+                      "twin heavy flamer"
+                    ]
+                  },
+                  {
+                    "Options": [
+                      "aiolos missile launcher",
+                      "boreas air defence missiles"
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "WargearDefinitions": []
+      },
+      "UnitAbilities": [
+        {
+          "Title": "Deredeo Strike",
+          "Text": "Each time this model makes a ranged attack that targets a unit that is not Below Half-strength, you can re-roll the Hit roll."
+        }
+      ],
+      "Infos": [
+        {
+          "Title": "DAMAGED: 1-4 WOUNDS REMAINING",
+          "Text": "While this model has 1-4 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
+        }
+      ],
+      "Keywords": [
+        "Vehicle",
+        "Walker",
+        "Smoke",
+        "Dreadnought",
+        "Deredeo Dreadnought",
+        "Chaos",
+        "Tzeentch"
+      ],
+      "CoreAbilities": [
+        "Deadly Demise D3"
+      ],
+      "FactionKeywords": [
+        "Thousand Sons"
+      ],
+      "StatLines": [
+        {
+          "Movement": "6\"",
+          "Toughness": "9",
+          "Save": "2+",
+          "Wounds": "12",
+          "Leadership": "6+",
+          "OC": "3",
+          "InvulSave": {
+            "Save": "5+"
+          }
+        }
+      ],
+      "Weapons": [
+        {
+          "Name": "RANGED WEAPONS",
+          "Weapons": [
+            {
+              "Name": "Aiolos missile launcher",
+              "Keywords": "BLAST",
+              "Range": "48\"",
+              "Attacks": "D6+3",
+              "ToHit": "3+",
+              "Strength": "5",
+              "AP": "0",
+              "Damage": "1"
+            },
+            {
+              "Name": "Anvilus autocannon battery",
+              "Keywords": "TWIN-LINKED",
+              "Range": "48\"",
+              "Attacks": "4",
+              "ToHit": "3+",
+              "Strength": "9",
+              "AP": "-1",
+              "Damage": "3"
+            },
+            {
+              "Name": "Arachnus heavy lascannon battery",
+              "Range": "48\"",
+              "Attacks": "2",
+              "ToHit": "3+",
+              "Strength": "12",
+              "AP": "-3",
+              "Damage": "D6+1"
+            },
+            {
+              "Name": "Boreas air defence missiles",
+              "Keywords": "ANTI-FLY 2+",
+              "Range": "48\"",
+              "Attacks": "1",
+              "ToHit": "3+",
+              "Strength": "12",
+              "AP": "-3",
+              "Damage": "D6+1"
+            },
+            {
+              "Name": "Hellfire plasma cannonade – standard",
+              "Range": "36\"",
+              "Attacks": "6",
+              "ToHit": "3+",
+              "Strength": "7",
+              "AP": "-2",
+              "Damage": "2"
+            },
+            {
+              "Name": "Hellfire plasma cannonade – supercharge",
+              "Keywords": "HAZARDOUS",
+              "Range": "36\"",
+              "Attacks": "6",
+              "ToHit": "3+",
+              "Strength": "8",
+              "AP": "-3",
+              "Damage": "3"
+            },
+            {
+              "Name": "Twin heavy bolter",
+              "Keywords": "TWIN-LINKED, SUSTAINED HITS 1",
+              "Range": "36\"",
+              "Attacks": "3",
+              "ToHit": "3+",
+              "Strength": "5",
+              "AP": "-1",
+              "Damage": "2"
+            },
+            {
+              "Name": "Twin heavy flamer",
+              "Keywords": "IGNORES COVER, TWIN-LINKED, TORRENT",
+              "Range": "12\"",
+              "Attacks": "D6",
+              "ToHit": "N/A",
+              "Strength": "5",
+              "AP": "-1",
+              "Damage": "1"
+            },
+            {
+              "Name": "Volkite falconet battery",
+              "Keywords": "DEVASTATING WOUNDS",
+              "Range": "30\"",
+              "Attacks": "6",
+              "ToHit": "3+",
+              "Strength": "9",
+              "AP": "0",
+              "Damage": "2"
+            }
+          ]
+        },
+        {
+          "IsMelee": true,
+          "Name": "MELEE WEAPONS",
+          "Weapons": [
+            {
+              "Name": "Armoured feet",
+              "Range": "Melee",
+              "Attacks": "5",
+              "ToHit": "3+",
+              "Strength": "6",
+              "AP": "0",
+              "Damage": "1"
+            }
+          ]
+        }
+      ],
+      "Upgrades": [],
+      "Points": [
+        {
+          "ModelCount": 1,
+          "Cost": 160
+        }
+      ]
+    },
+    {
+      "Name": "RELIC CONTEMPTOR DREADNOUGHT",
+      "UnitComposition": {
+        "ModelCompositions": [
+          {
+            "ModelName": "Relic Contemptor Dreadnought",
+            "Wargear": [
+              {
+                "InitalWargear": [
+                  "heavy plasma cannon",
+                  "heavy plasma cannon",
+                  "armoured feet"
+                ],
+                "Options": [
+                  {
+                    "Options": [
+                      "cyclone missile launcher"
+                    ]
+                  },
+                  {
+                    "Replaces": [
+                      "heavy plasma cannon"
+                    ],
+                    "Options": [
+                      "conversion beam cannon",
+                      "kheres-pattern assault cannon",
+                      "multi-melta",
+                      "twin autocannon",
+                      "twin heavy bolter",
+                      "twin lascannon",
+                      "twin volkite culverin",
+                      "Dreadnought chainfist and combi-bolter",
+                      "Dreadnought combat weapon and combi-bolter",
+                      "Dreadnought chainfist and graviton blaster",
+                      "Dreadnought combat weapon and graviton blaster",
+                      "Dreadnought chainfist and heavy flamer",
+                      "Dreadnought combat weapon and heavy flamer",
+                      "Dreadnought chainfist and plasma blaster",
+                      "Dreadnought combat weapon and plasma blaster"
+                    ]
+                  },
+                  {
+                    "Replaces": [
+                      "heavy plasma cannon"
+                    ],
+                    "Options": [
+                      "conversion beam cannon",
+                      "kheres-pattern assault cannon",
+                      "multi-melta",
+                      "twin autocannon",
+                      "twin heavy bolter",
+                      "twin lascannon",
+                      "twin volkite culverin",
+                      "Dreadnought chainfist and combi-bolter",
+                      "Dreadnought combat weapon and combi-bolter",
+                      "Dreadnought chainfist and graviton blaster",
+                      "Dreadnought combat weapon and graviton blaster",
+                      "Dreadnought chainfist and heavy flamer",
+                      "Dreadnought combat weapon and heavy flamer",
+                      "Dreadnought chainfist and plasma blaster",
+                      "Dreadnought combat weapon and plasma blaster"
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "WargearDefinitions": []
+      },
+      "UnitAbilities": [
+        {
+          "Title": "Even In Death I Serve",
+          "Text": "The first time this model is destroyed, remove it from play without resolving its Deadly Demise ability. Then, at the end of the phase, roll one D6: on a 2+, set this model back up on the battlefield as close as possible to where it was destroyed and not within Engagement Range of any enemy units, with D6 wounds remaining."
+        }
+      ],
+      "Infos": [],
+      "Keywords": [
+        "Vehicle",
+        "Walker",
+        "Dreadnought",
+        "Relic Contemptor Dreadnought",
+        "Chaos",
+        "Tzeentch"
+      ],
+      "CoreAbilities": [
+        "Deadly Demise 1"
+      ],
+      "FactionKeywords": [
+        "Thousand Sons"
+      ],
+      "StatLines": [
+        {
+          "Movement": "6\"",
+          "Toughness": "9",
+          "Save": "2+",
+          "Wounds": "10",
+          "Leadership": "6+",
+          "OC": "3",
+          "InvulSave": {
+            "Save": "5+"
+          }
+        }
+      ],
+      "Weapons": [
+        {
+          "Name": "RANGED WEAPONS",
+          "Weapons": [
+            {
+              "Name": "Combi-bolter",
+              "Keywords": "RAPID FIRE 2",
+              "Range": "24\"",
+              "Attacks": "2",
+              "ToHit": "3+",
+              "Strength": "4",
+              "AP": "0",
+              "Damage": "1"
+            },
+            {
+              "Name": "Conversion beam cannon",
+              "Keywords": "SUSTAINED HITS D3, CONVERSION",
+              "Range": "24\"",
+              "Attacks": "1",
+              "ToHit": "3+",
+              "Strength": "7",
+              "AP": "-1",
+              "Damage": "3"
+            },
+            {
+              "Name": "Cyclone missile launcher – frag",
+              "Keywords": "BLAST",
+              "Range": "36\"",
+              "Attacks": "2D6",
+              "ToHit": "3+",
+              "Strength": "4",
+              "AP": "0",
+              "Damage": "1"
+            },
+            {
+              "Name": "Cyclone missile launcher – krak",
+              "Range": "36\"",
+              "Attacks": "2",
+              "ToHit": "3+",
+              "Strength": "9",
+              "AP": "-2",
+              "Damage": "D6"
+            },
+            {
+              "Name": "Graviton blaster",
+              "Keywords": "ANTI-VEHICLE 2+",
+              "Range": "18\"",
+              "Attacks": "2",
+              "ToHit": "3+",
+              "Strength": "5",
+              "AP": "-1",
+              "Damage": "1"
+            },
+            {
+              "Name": "Heavy plasma cannon – standard",
+              "Keywords": "BLAST",
+              "Range": "36\"",
+              "Attacks": "D3",
+              "ToHit": "3+",
+              "Strength": "7",
+              "AP": "-2",
+              "Damage": "2"
+            },
+            {
+              "Name": "Heavy plasma cannon – supercharge",
+              "Keywords": "BLAST, HAZARDOUS",
+              "Range": "36\"",
+              "Attacks": "D3",
+              "ToHit": "3+",
+              "Strength": "8",
+              "AP": "-3",
+              "Damage": "3"
+            },
+            {
+              "Name": "Kheres-pattern assault cannon",
+              "Keywords": "DEVASTATING WOUNDS",
+              "Range": "24\"",
+              "Attacks": "6",
+              "ToHit": "3+",
+              "Strength": "7",
+              "AP": "-1",
+              "Damage": "1"
+            },
+            {
+              "Name": "Twin volkite culverin",
+              "Keywords": "TWIN-LINKED, DEVASTATING WOUNDS",
+              "Range": "36\"",
+              "Attacks": "4",
+              "ToHit": "3+",
+              "Strength": "6",
+              "AP": "0",
+              "Damage": "2"
+            },
+            {
+              "Name": "Multi-melta",
+              "Keywords": "MELTA 2",
+              "Range": "18\"",
+              "Attacks": "2",
+              "ToHit": "3+",
+              "Strength": "9",
+              "AP": "-4",
+              "Damage": "D6"
+            },
+            {
+              "Name": "Twin autocannon",
+              "Keywords": "TWIN-LINKED",
+              "Range": "48\"",
+              "Attacks": "2",
+              "ToHit": "3+",
+              "Strength": "9",
+              "AP": "-1",
+              "Damage": "3"
+            },
+            {
+              "Name": "Twin heavy bolter",
+              "Keywords": "SUSTAINED HITS 1, TWIN-LINKED",
+              "Range": "36\"",
+              "Attacks": "3",
+              "ToHit": "3+",
+              "Strength": "5",
+              "AP": "-1",
+              "Damage": "2"
+            },
+            {
+              "Name": "Twin lascannon",
+              "Keywords": "TWIN-LINKED",
+              "Range": "48\"",
+              "Attacks": "1",
+              "ToHit": "3+",
+              "Strength": "12",
+              "AP": "-3",
+              "Damage": "D6+1"
+            },
+            {
+              "Name": "Heavy flamer",
+              "Keywords": "IGNORES COVER, TORRENT",
+              "Range": "12\"",
+              "Attacks": "D6",
+              "ToHit": "N/A",
+              "Strength": "5",
+              "AP": "-1",
+              "Damage": "1"
+            },
+            {
+              "Name": "Plasma blaster – standard",
+              "Keywords": "",
+              "Range": "18\"",
+              "Attacks": "2",
+              "ToHit": "3+",
+              "Strength": "7",
+              "AP": "-2",
+              "Damage": "1"
+            },
+            {
+              "Name": "Plasma blaster – supercharge",
+              "Keywords": "HAZARDOUS",
+              "Range": "18\"",
+              "Attacks": "2",
+              "ToHit": "3+",
+              "Strength": "8",
+              "AP": "-3",
+              "Damage": "2"
+            }
+          ]
+        },
+        {
+          "IsMelee": true,
+          "Name": "MELEE WEAPONS",
+          "Weapons": [
+            {
+              "Name": "Armoured feet",
+              "Range": "Melee",
+              "Attacks": "5",
+              "ToHit": "3+",
+              "Strength": "6",
+              "AP": "0",
+              "Damage": "1D"
+            },
+            {
+              "Name": "Dreadnought chainfist",
+              "Keywords": "ANTI-VEHICLE 3+",
+              "Range": "Melee",
+              "Attacks": "4",
+              "ToHit": "3+",
+              "Strength": "12",
+              "AP": "-2",
+              "Damage": "3D"
+            },
+            {
+              "Name": "Dreadnought combat weapon",
+              "Range": "Melee",
+              "Attacks": "5",
+              "ToHit": "3+",
+              "Strength": "12",
+              "AP": "-2",
+              "Damage": "3"
+            }
+          ]
+        }
+      ],
+      "Upgrades": [],
+      "Points": [
+        {
+          "ModelCount": 1,
+          "Cost": 140
+        }
+      ]
+    },
+    {
+      "Name": "LEVIATHAN DREADNOUGHT",
+      "UnitComposition": {
+        "ModelCompositions": [
+          {
+            "ModelName": "Leviathan Dreadnought",
+            "Wargear": [
+              {
+                "InitalWargear": [
+                  "2 heavy flamers",
+                  "grav-flux bombard",
+                  "grav-flux bombard",
+                  "armoured feet"
+                ],
+                "Options": [
+                  {
+                    "Replaces": [
+                      "2 heavy flamers"
+                    ],
+                    "Options": [
+                      "2 twin volkite calivers"
+                    ]
+                  },
+                  {
+                    "Options": [
+                      "3 hunter-killer missiles"
+                    ]
+                  },
+                  {
+                    "Replaces": [
+                      "grav-flux bombard"
+                    ],
+                    "Options": [
+                      "cyclonic melta lance",
+                      "storm cannon",
+                      "meltagun and Leviathan siege claw",
+                      "meltagun and Leviathan siege drill"
+                    ]
+                  },
+                  {
+                    "Replaces": [
+                      "grav-flux bombard"
+                    ],
+                    "Options": [
+                      "cyclonic melta lance",
+                      "storm cannon",
+                      "meltagun and Leviathan siege claw",
+                      "meltagun and Leviathan siege drill"
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "WargearDefinitions": []
+      },
+      "UnitAbilities": [
+        {
+          "Title": "Duty Eternal",
+          "Text": "Each time an attack is allocated to this model, subtract 1 from the Damage characteristic of that attack."
+        }
+      ],
+      "Infos": [
+        {
+          "Title": "DAMAGED: 1-4 WOUNDS REMAINING",
+          "Text": "While this model has 1-4 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
+        }
+      ],
+      "Keywords": [
+        "Vehicle",
+        "Walker",
+        "Smoke",
+        "Dreadnought",
+        "Leviathan Dreadnought",
+        "Chaos",
+        "Tzeentch"
+      ],
+      "CoreAbilities": [
+        "Deadly Demise D3"
+      ],
+      "FactionKeywords": [
+        "Thousand Sons"
+      ],
+      "StatLines": [
+        {
+          "Movement": "8\"",
+          "Toughness": "10",
+          "Save": "2+",
+          "Wounds": "12",
+          "Leadership": "6+",
+          "OC": "4",
+          "InvulSave": {
+            "Save": "5+"
+          }
+        }
+      ],
+      "Weapons": [
+        {
+          "Name": "RANGED WEAPONS",
+          "Weapons": [
+            {
+              "Name": "Cyclonic melta lance",
+              "Keywords": "MELTA 2",
+              "Range": "18\"",
+              "Attacks": "D6",
+              "ToHit": "3+",
+              "Strength": "9",
+              "AP": "-4",
+              "Damage": "D6"
+            },
+            {
+              "Name": "Grav-flux bombard",
+              "Keywords": "BLAST, ANTI-VEHICLE 2+",
+              "Range": "24\"",
+              "Attacks": "2D3",
+              "ToHit": "3+",
+              "Strength": "8",
+              "AP": "-1",
+              "Damage": "2"
+            },
+            {
+              "Name": "Heavy flamer",
+              "Keywords": "IGNORES COVER, TORRENT",
+              "Range": "12\"",
+              "Attacks": "D6",
+              "ToHit": "N/A",
+              "Strength": "5",
+              "AP": "-1",
+              "Damage": "1"
+            },
+            {
+              "Name": "Hunter-killer missile",
+              "Keywords": "ONE SHOT",
+              "Range": "48\"",
+              "Attacks": "1",
+              "ToHit": "2+",
+              "Strength": "14",
+              "AP": "-3",
+              "Damage": "D6"
+            },
+            {
+              "Name": "Meltagun",
+              "Keywords": "MELTA 2",
+              "Range": "12\"",
+              "Attacks": "1",
+              "ToHit": "3+",
+              "Strength": "9",
+              "AP": "-4",
+              "Damage": "D6"
+            },
+            {
+              "Name": "Storm cannon",
+              "Keywords": "TWIN-LINKED",
+              "Range": "36\"",
+              "Attacks": "4",
+              "ToHit": "3+",
+              "Strength": "9",
+              "AP": "-1",
+              "Damage": "3"
+            },
+            {
+              "Name": "Twin volkite caliver",
+              "Keywords": "TWIN-LINKED, DEVASTATING WOUNDS",
+              "Range": "24\"",
+              "Attacks": "2",
+              "ToHit": "3+",
+              "Strength": "5",
+              "AP": "0",
+              "Damage": "2"
+            }
+          ]
+        },
+        {
+          "IsMelee": true,
+          "Name": "MELEE WEAPONS",
+          "Weapons": [
+            {
+              "Name": "Armoured feet",
+              "Range": "Melee",
+              "Attacks": "5",
+              "ToHit": "3+",
+              "Strength": "6",
+              "AP": "0",
+              "Damage": "1"
+            },
+            {
+              "Name": "Leviathan siege claw",
+              "Range": "Melee",
+              "Attacks": "5",
+              "ToHit": "3+",
+              "Strength": "12",
+              "AP": "-2",
+              "Damage": "3"
+            },
+            {
+              "Name": "Leviathan siege drill",
+              "Keywords": "ANTI-VEHICLE 3+",
+              "Range": "Melee",
+              "Attacks": "4",
+              "ToHit": "3+",
+              "Strength": "12",
+              "AP": "-2",
+              "Damage": "3"
+            }
+          ]
+        }
+      ],
+      "Upgrades": [],
+      "Points": [
+        {
+          "ModelCount": 1,
+          "Cost": 160
+        }
+      ]
+    },
+    {
+      "Name": "LAND RAIDER PROTEUS",
+      "UnitComposition": {
+        "ModelCompositions": [
+          {
+            "ModelName": "Land Raider Proteus",
+            "Wargear": [
+              {
+                "InitalWargear": [
+                  "2 twin lascannons",
+                  "armoured tracks"
+                ],
+                "Options": [
+                  {
+                    "Options": [
+                      "heavy bolter",
+                      "multi-melta",
+                      "twin heavy bolter",
+                      "twin heavy flamer"
+                    ]
+                  },
+                  {
+                    "Options": [
+                      "hunter-killer missile"
+                    ]
+                  },
+                  {
+                    "Options": [
+                      "storm bolter"
+                    ]
+                  },
+                  {
+                    "Options": [
+                      "explorator augury web"
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "WargearDefinitions": [
+          {
+            "Key": "explorator augury web",
+            "GrantsAbilities": [
+              "Explorator Augury Web"
+            ]
+          }
+        ]
+      },
+      "UnitAbilities": [
+        {
+          "Title": "Explorator Augury Web",
+          "Text": "Enemy units that are set up on the battlefield as Reinforcements cannot be set up within 12\" of this bearer, but the bearer must halve its Transport Capacity."
+        },
+        {
+          "Title": "Assault Ramp",
+          "Text": "Each time a unit disembarks from this model after it has made a Normal move, that unit is still eligible to declare a charge this turn."
+        }
+      ],
+      "Infos": [
+        {
+          "Title": "DAMAGED: 1-5 WOUNDS REMAINING",
+          "Text": "While this model has 1-5 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
+        },
+        {
+          "Title": "TRANSPORT",
+          "Text": "This model has a transport capacity of 12 Adeptus Astartes Infantry models. Each Jump Pack, Wulfen, Gravis, Possessed or Terminator model takes up the space of 2 models and each Centurion or Obliterator model takes up the space of 3 models."
+        }
+      ],
+      "Keywords": [
+        "Vehicle",
+        "Transport",
+        "Smoke",
+        "Land Raider Proteus",
+        "Chaos",
+        "Tzeentch"
+      ],
+      "CoreAbilities": [
+        "Deadly Demise D6"
+      ],
+      "FactionKeywords": [
+        "Thousand Sons"
+      ],
+      "StatLines": [
+        {
+          "Movement": "12\"",
+          "Toughness": "12",
+          "Save": "2+",
+          "Wounds": "16",
+          "Leadership": "6+",
+          "OC": "5"
+        }
+      ],
+      "Weapons": [
+        {
+          "Name": "RANGED WEAPONS",
+          "Weapons": [
+            {
+              "Name": "Heavy bolter",
+              "Keywords": "SUSTAINED HITS 1",
+              "Range": "36\"",
+              "Attacks": "3",
+              "ToHit": "3+",
+              "Strength": "5",
+              "AP": "-1",
+              "Damage": "2"
+            },
+            {
+              "Name": "Hunter-killer missile",
+              "Keywords": "ONE SHOT",
+              "Range": "48\"",
+              "Attacks": "1",
+              "ToHit": "2+",
+              "Strength": "14",
+              "AP": "-3",
+              "Damage": "D6"
+            },
+            {
+              "Name": "Multi-melta",
+              "Keywords": "MELTA 2",
+              "Range": "18\"",
+              "Attacks": "2",
+              "ToHit": "3+",
+              "Strength": "9",
+              "AP": "-4",
+              "Damage": "D6"
+            },
+            {
+              "Name": "Storm bolter",
+              "Keywords": "RAPID FIRE 2",
+              "Range": "24\"",
+              "Attacks": "2",
+              "ToHit": "3+",
+              "Strength": "4",
+              "AP": "0",
+              "Damage": "1"
+            },
+            {
+              "Name": "Twin heavy bolter",
+              "Keywords": "TWIN-LINKED, SUSTAINED HITS 1",
+              "Range": "36\"",
+              "Attacks": "3",
+              "ToHit": "3+",
+              "Strength": "5",
+              "AP": "-1",
+              "Damage": "2"
+            },
+            {
+              "Name": "Twin heavy flamer",
+              "Keywords": "IGNORES COVER, TWIN-LINKED, TORRENT",
+              "Range": "12\"",
+              "Attacks": "D6",
+              "ToHit": "N/A",
+              "Strength": "5",
+              "AP": "-1",
+              "Damage": "1"
+            },
+            {
+              "Name": "Twin lascannon",
+              "Keywords": "TWIN-LINKED",
+              "Range": "48\"",
+              "Attacks": "1",
+              "ToHit": "3+",
+              "Strength": "12",
+              "AP": "-3",
+              "Damage": "D6+1"
+            }
+          ]
+        },
+        {
+          "IsMelee": true,
+          "Name": "MELEE WEAPONS",
+          "Weapons": [
+            {
+              "Name": "Armoured tracks",
+              "Range": "Melee",
+              "Attacks": "6",
+              "ToHit": "4+",
+              "Strength": "8",
+              "AP": "0",
+              "Damage": "1"
+            }
+          ]
+        }
+      ],
+      "Upgrades": [],
+      "Points": [
+        {
+          "ModelCount": 1,
+          "Cost": 220
+        }
+      ]
+    },
+    {
+      "Name": "LAND RAIDER ACHILLES",
+      "UnitComposition": {
+        "ModelCompositions": [
+          {
+            "ModelName": "Land Raider Achilles",
+            "Wargear": [
+              {
+                "InitalWargear": [
+                  "quad launcher",
+                  "2 twin volkite culverins",
+                  "armoured tracks"
+                ],
+                "Options": [
+                  {
+                    "Replaces": [
+                      "2 twin volkite culverins"
+                    ],
+                    "Options": [
+                      "2 twin multi-meltas"
+                    ]
+                  },
+                  {
+                    "Options": [
+                      "hunter-killer missile"
+                    ]
+                  },
+                  {
+                    "Options": [
+                      "storm bolter"
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "WargearDefinitions": []
+      },
+      "UnitAbilities": [
+        {
+          "Title": "Assault Ramp",
+          "Text": "Each time a unit disembarks from this model after it has made a Normal move, that unit is still eligible to declare a charge this turn."
+        }
+      ],
+      "Infos": [
+        {
+          "Title": "DAMAGED: 1-5 WOUNDS REMAINING",
+          "Text": "While this model has 1-5 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
+        },
+        {
+          "Title": "TRANSPORT",
+          "Text": "This model has a transport capacity of 12 Adeptus Astartes Infantry models. Each Jump Pack, Wulfen, Gravis, Possessed or Terminator model takes up the space of 2 models and each Centurion or Obliterator model takes up the space of 3 models."
+        }
+      ],
+      "Keywords": [
+        "Vehicle",
+        "Transport",
+        "Smoke",
+        "Land Raider Achilles",
+        "Chaos",
+        "Tzeentch"
+      ],
+      "CoreAbilities": [
+        "Deadly Demise D6"
+      ],
+      "FactionKeywords": [
+        "Thousand Sons"
+      ],
+      "StatLines": [
+        {
+          "Movement": "10\"",
+          "Toughness": "12",
+          "Save": "2+",
+          "Wounds": "16",
+          "Leadership": "6+",
+          "OC": "5",
+          "InvulSave": {
+            "Save": "4+"
+          }
+        }
+      ],
+      "Weapons": [
+        {
+          "Name": "RANGED WEAPONS",
+          "Weapons": [
+            {
+              "Name": "Hunter-killer missile",
+              "Keywords": "ONE SHOT",
+              "Range": "48\"",
+              "Attacks": "1",
+              "ToHit": "2+",
+              "Strength": "14",
+              "AP": "-3",
+              "Damage": "D6"
+            },
+            {
+              "Name": "Quad launcher – shatter shells",
+              "Range": "24\"",
+              "Attacks": "4",
+              "ToHit": "3+",
+              "Strength": "9",
+              "AP": "-2",
+              "Damage": "3"
+            },
+            {
+              "Name": "Quad launcher – thunderfire shells",
+              "Keywords": "INDIRECT FIRE, BLAST",
+              "Range": "60\"",
+              "Attacks": "D6+4",
+              "ToHit": "3+",
+              "Strength": "5",
+              "AP": "0",
+              "Damage": "1"
+            },
+            {
+              "Name": "Storm bolter",
+              "Keywords": "RAPID FIRE 2",
+              "Range": "24\"",
+              "Attacks": "2",
+              "ToHit": "3+",
+              "Strength": "4",
+              "AP": "0",
+              "Damage": "1"
+            },
+            {
+              "Name": "Twin multi-melta",
+              "Keywords": "TWIN-LINKED, MELTA 2",
+              "Range": "18\"",
+              "Attacks": "2",
+              "ToHit": "3+",
+              "Strength": "9",
+              "AP": "-4",
+              "Damage": "D6"
+            },
+            {
+              "Name": "Twin volkite culverin",
+              "Keywords": "TWIN-LINKED, DEVASTATING WOUNDS",
+              "Range": "36\"",
+              "Attacks": "4",
+              "ToHit": "3+",
+              "Strength": "6",
+              "AP": "0",
+              "Damage": "2"
+            }
+          ]
+        },
+        {
+          "IsMelee": true,
+          "Name": "MELEE WEAPONS",
+          "Weapons": [
+            {
+              "Name": "Armoured tracks",
+              "Range": "Melee",
+              "Attacks": "6",
+              "ToHit": "4+",
+              "Strength": "8",
+              "AP": "0",
+              "Damage": "1"
+            }
+          ]
+        }
+      ],
+      "Upgrades": [],
+      "Points": [
+        {
+          "ModelCount": 1,
+          "Cost": 230
+        }
+      ]
+    },
+    {
+      "Name": "SICARAN BATTLE TANK",
+      "UnitComposition": {
+        "ModelCompositions": [
+          {
+            "ModelName": "Sicaran Battle Tank",
+            "Wargear": [
+              {
+                "InitalWargear": [
+                  "heavy bolter",
+                  "Herakles-pattern autocannon",
+                  "armoured tracks"
+                ],
+                "Options": [
+                  {
+                    "Options": [
+                      "2 heavy bolters",
+                      "2 lascannons"
+                    ]
+                  },
+                  {
+                    "Options": [
+                      "hunter-killer missile"
+                    ]
+                  },
+                  {
+                    "Options": [
+                      "storm bolter"
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "WargearDefinitions": []
+      },
+      "UnitAbilities": [
+        {
+          "Title": "Armoured Spearhead",
+          "Text": "Each time this model makes an attack that targets an enemy unit, re-roll a Hit roll of 1 and, if that unit is within range of an objective marker you do not control, you can re-roll the Hit roll instead."
+        }
+      ],
+      "Infos": [
+        {
+          "Title": "DAMAGED: 1-5 WOUNDS REMAINING",
+          "Text": "While this model has 1-5 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
+        }
+      ],
+      "Keywords": [
+        "Vehicle",
+        "Smoke",
+        "Sicaran Battle Tank",
+        "Chaos",
+        "Tzeentch"
+      ],
+      "CoreAbilities": [
+        "Deadly Demise D3"
+      ],
+      "FactionKeywords": [
+        "Thousand Sons"
+      ],
+      "StatLines": [
+        {
+          "Movement": "10\"",
+          "Toughness": "11",
+          "Save": "2+",
+          "Wounds": "14",
+          "Leadership": "6+",
+          "OC": "4"
+        }
+      ],
+      "Weapons": [
+        {
+          "Name": "RANGED WEAPONS",
+          "Weapons": [
+            {
+              "Name": "Heavy bolter",
+              "Keywords": "SUSTAINED HITS 1",
+              "Range": "36\"",
+              "Attacks": "3",
+              "ToHit": "3+",
+              "Strength": "5",
+              "AP": "-1",
+              "Damage": "2"
+            },
+            {
+              "Name": "Herakles-pattern autocannon",
+              "Keywords": "RAPID FIRE 2",
+              "Range": "48\"",
+              "Attacks": "6",
+              "ToHit": "3+",
+              "Strength": "9",
+              "AP": "-1",
+              "Damage": "3"
+            },
+            {
+              "Name": "Hunter-killer missile",
+              "Keywords": "ONE SHOT",
+              "Range": "48\"",
+              "Attacks": "1",
+              "ToHit": "2+",
+              "Strength": "14",
+              "AP": "-3",
+              "Damage": "D6"
+            },
+            {
+              "Name": "Lascannon",
+              "Range": "48\"",
+              "Attacks": "1",
+              "ToHit": "3+",
+              "Strength": "12",
+              "AP": "-3",
+              "Damage": "D6+1"
+            },
+            {
+              "Name": "Storm bolter",
+              "Keywords": "RAPID FIRE 2",
+              "Range": "24\"",
+              "Attacks": "2",
+              "ToHit": "3+",
+              "Strength": "4",
+              "AP": "0",
+              "Damage": "1"
+            }
+          ]
+        },
+        {
+          "IsMelee": true,
+          "Name": "MELEE WEAPONS",
+          "Weapons": [
+            {
+              "Name": "Armoured tracks",
+              "Range": "Melee",
+              "Attacks": "6",
+              "ToHit": "4+",
+              "Strength": "8",
+              "AP": "0",
+              "Damage": "1"
+            }
+          ]
+        }
+      ],
+      "Upgrades": [],
+      "Points": [
+        {
+          "ModelCount": 1,
+          "Cost": 160
+        }
+      ]
+    },
+    {
+      "Name": "SICARAN VENATOR",
+      "UnitComposition": {
+        "ModelCompositions": [
+          {
+            "ModelName": "Sicaran Venator",
+            "Wargear": [
+              {
+                "InitalWargear": [
+                  "heavy bolter",
+                  "Venator neutron laser",
+                  "armoured tracks"
+                ],
+                "Options": [
+                  {
+                    "Options": [
+                      "2 heavy bolters",
+                      "2 lascannons"
+                    ]
+                  },
+                  {
+                    "Options": [
+                      "hunter-killer missile"
+                    ]
+                  },
+                  {
+                    "Options": [
+                      "storm bolter"
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "WargearDefinitions": []
+      },
+      "UnitAbilities": [
+        {
+          "Title": "Ferocious Assault",
+          "Text": "Each time this model makes a ranged attack that targets the closest eligible Monster or Vehicle unit, add 1 to the Hit roll."
+        }
+      ],
+      "Infos": [
+        {
+          "Title": "DAMAGED: 1-5 WOUNDS REMAINING",
+          "Text": "While this model has 1-5 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
+        }
+      ],
+      "Keywords": [
+        "Vehicle",
+        "Smoke",
+        "Sicaran Venator",
+        "Chaos",
+        "Tzeentch"
+      ],
+      "CoreAbilities": [
+        "Deadly Demise D3"
+      ],
+      "FactionKeywords": [
+        "Thousand Sons"
+      ],
+      "StatLines": [
+        {
+          "Movement": "10\"",
+          "Toughness": "11",
+          "Save": "2+",
+          "Wounds": "14",
+          "Leadership": "6+",
+          "OC": "4"
+        }
+      ],
+      "Weapons": [
+        {
+          "Name": "RANGED WEAPONS",
+          "Weapons": [
+            {
+              "Name": "Heavy bolter",
+              "Keywords": "SUSTAINED HITS 1",
+              "Range": "36\"",
+              "Attacks": "3",
+              "ToHit": "3+",
+              "Strength": "5",
+              "AP": "-1",
+              "Damage": "2"
+            },
+            {
+              "Name": "Hunter-killer missile",
+              "Keywords": "ONE SHOT",
+              "Range": "48\"",
+              "Attacks": "1",
+              "ToHit": "2+",
+              "Strength": "14",
+              "AP": "-3",
+              "Damage": "D6"
+            },
+            {
+              "Name": "Lascannon",
+              "Range": "48\"",
+              "Attacks": "1",
+              "ToHit": "3+",
+              "Strength": "12",
+              "AP": "-3",
+              "Damage": "D6+1"
+            },
+            {
+              "Name": "Storm bolter",
+              "Keywords": "RAPID FIRE 2",
+              "Range": "24\"",
+              "Attacks": "2",
+              "ToHit": "3+",
+              "Strength": "4",
+              "AP": "0",
+              "Damage": "1"
+            },
+            {
+              "Name": "Venator neutron laser",
+              "Keywords": "HEAVY",
+              "Range": "48\"",
+              "Attacks": "3",
+              "ToHit": "3+",
+              "Strength": "16",
+              "AP": "-4",
+              "Damage": "D3+3"
+            }
+          ]
+        },
+        {
+          "IsMelee": true,
+          "Name": "MELEE WEAPONS",
+          "Weapons": [
+            {
+              "Name": "Armoured tracks",
+              "Range": "Melee",
+              "Attacks": "6",
+              "ToHit": "4+",
+              "Strength": "8",
+              "AP": "0",
+              "Damage": "1"
+            }
+          ]
+        }
+      ],
+      "Upgrades": [],
+      "Points": [
+        {
+          "ModelCount": 1,
+          "Cost": 180
+        }
+      ]
+    },
+    {
+      "Name": "SICARAN PUNISHER",
+      "UnitComposition": {
+        "ModelCompositions": [
+          {
+            "ModelName": "Sicaran Punisher",
+            "Wargear": [
+              {
+                "InitalWargear": [
+                  "heavy bolter",
+                  "Punisher rotary cannon",
+                  "armoured tracks"
+                ],
+                "Options": [
+                  {
+                    "Options": [
+                      "2 heavy bolters",
+                      "2 lascannons"
+                    ]
+                  },
+                  {
+                    "Options": [
+                      "hunter-killer missile"
+                    ]
+                  },
+                  {
+                    "Options": [
+                      "storm bolter"
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "WargearDefinitions": []
+      },
+      "UnitAbilities": [
+        {
+          "Title": "Rotating Death",
+          "Text": "This model’s Punisher rotary cannon has the [SUSTAINED HITS 1] ability when targeting Infantry units."
+        }
+      ],
+      "Infos": [
+        {
+          "Title": "DAMAGED: 1-5 WOUNDS REMAINING",
+          "Text": "While this model has 1-5 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
+        }
+      ],
+      "Keywords": [
+        "Vehicle",
+        "Smoke",
+        "Sicaran Punisher",
+        "Chaos",
+        "Tzeentch"
+      ],
+      "CoreAbilities": [
+        "Deadly Demise D3"
+      ],
+      "FactionKeywords": [
+        "Thousand Sons"
+      ],
+      "StatLines": [
+        {
+          "Movement": "10\"",
+          "Toughness": "11",
+          "Save": "2+",
+          "Wounds": "14",
+          "Leadership": "6+",
+          "OC": "4"
+        }
+      ],
+      "Weapons": [
+        {
+          "Name": "RANGED WEAPONS",
+          "Weapons": [
+            {
+              "Name": "Heavy bolter",
+              "Keywords": "SUSTAINED HITS 1",
+              "Range": "36\"",
+              "Attacks": "3",
+              "ToHit": "3+",
+              "Strength": "5",
+              "AP": "-1",
+              "Damage": "2"
+            },
+            {
+              "Name": "Hunter-killer missile",
+              "Keywords": "ONE SHOT",
+              "Range": "48\"",
+              "Attacks": "1",
+              "ToHit": "2+",
+              "Strength": "14",
+              "AP": "-3",
+              "Damage": "D6"
+            },
+            {
+              "Name": "Lascannon",
+              "Range": "48\"",
+              "Attacks": "1",
+              "ToHit": "3+",
+              "Strength": "12",
+              "AP": "-3",
+              "Damage": "D6+1"
+            },
+            {
+              "Name": "Punisher rotary cannon",
+              "Keywords": "DEVASTATING WOUNDS",
+              "Range": "36\"",
+              "Attacks": "18",
+              "ToHit": "4+",
+              "Strength": "6",
+              "AP": "0",
+              "Damage": "1"
+            },
+            {
+              "Name": "Storm bolter",
+              "Keywords": "RAPID FIRE 2",
+              "Range": "24\"",
+              "Attacks": "2",
+              "ToHit": "3+",
+              "Strength": "4",
+              "AP": "0",
+              "Damage": "1"
+            }
+          ]
+        },
+        {
+          "IsMelee": true,
+          "Name": "MELEE WEAPONS",
+          "Weapons": [
+            {
+              "Name": "Armoured tracks",
+              "Range": "Melee",
+              "Attacks": "6",
+              "ToHit": "4+",
+              "Strength": "8",
+              "AP": "0",
+              "Damage": "1"
+            }
+          ]
+        }
+      ],
+      "Upgrades": [],
+      "Points": [
+        {
+          "ModelCount": 1,
+          "Cost": 160
+        }
+      ]
+    },
+    {
+      "Name": "RAPIER CARRIER",
+      "UnitComposition": {
+        "ModelCompositions": [
+          {
+            "ModelName": "Rapier Carrier",
+            "Wargear": [
+              {
+                "InitalWargear": [
+                  "boltgun",
+                  "quad heavy bolter",
+                  "close combat weapon"
+                ],
+                "Options": [
+                  {
+                    "Replaces": [
+                      "quad heavy bolter"
+                    ],
+                    "Options": [
+                      "graviton cannon",
+                      "laser destroyer",
+                      "quad launcher"
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "WargearDefinitions": []
+      },
+      "UnitAbilities": [
+        {
+          "Title": "Powerful Volley",
+          "Text": "Each time this model shoots in your Shooting phase, provided it Remained Stationary this turn, all [HEAVY] weapons equipped by models in this unit have the [LETHAL HITS] ability."
+        }
+      ],
+      "Infos": [],
+      "Keywords": [
+        "Artillery",
+        "Vehicle",
+        "Rapier Carrier",
+        "Chaos",
+        "Tzeentch"
+      ],
+      "CoreAbilities": [],
+      "FactionKeywords": [
+        "Thousand Sons"
+      ],
+      "StatLines": [
+        {
+          "Movement": "3\"",
+          "Toughness": "6",
+          "Save": "2+",
+          "Wounds": "6",
+          "Leadership": "6+",
+          "OC": "2"
+        }
+      ],
+      "Weapons": [
+        {
+          "Name": "RANGED WEAPONS",
+          "Weapons": [
+            {
+              "Name": "Boltgun",
+              "Range": "24\"",
+              "Attacks": "2",
+              "ToHit": "3+",
+              "Strength": "4",
+              "AP": "0",
+              "Damage": "1"
+            },
+            {
+              "Name": "Graviton cannon",
+              "Keywords": "BLAST, HEAVY, ANTI-VEHICLE 2+",
+              "Range": "36\"",
+              "Attacks": "D6",
+              "ToHit": "3+",
+              "Strength": "6",
+              "AP": "-2",
+              "Damage": "2"
+            },
+            {
+              "Name": "Laser destroyer",
+              "Keywords": "HEAVY",
+              "Range": "36\"",
+              "Attacks": "3",
+              "ToHit": "3+",
+              "Strength": "14",
+              "AP": "-4",
+              "Damage": "D6+1"
+            },
+            {
+              "Name": "Quad heavy bolter",
+              "Keywords": "TWIN-LINKED, HEAVY, SUSTAINED HITS 1",
+              "Range": "36\"",
+              "Attacks": "6",
+              "ToHit": "3+",
+              "Strength": "5",
+              "AP": "-1",
+              "Damage": "2"
+            },
+            {
+              "Name": "Quad launcher – shatter shells",
+              "Keywords": "HEAVY",
+              "Range": "24\"",
+              "Attacks": "4",
+              "ToHit": "3+",
+              "Strength": "9",
+              "AP": "-2",
+              "Damage": "3"
+            },
+            {
+              "Name": "Quad launcher – thunderfire shells",
+              "Keywords": "INDIRECT FIRE, BLAST, HEAVY",
+              "Range": "60\"",
+              "Attacks": "D6+4",
+              "ToHit": "3+",
+              "Strength": "5",
+              "AP": "0",
+              "Damage": "1"
+            }
+          ]
+        },
+        {
+          "IsMelee": true,
+          "Name": "MELEE WEAPONS",
+          "Weapons": [
+            {
+              "Name": "Close combat weapon",
+              "Range": "Melee",
+              "Attacks": "2",
+              "ToHit": "3+",
+              "Strength": "4",
+              "AP": "0",
+              "Damage": "1"
+            }
+          ]
+        }
+      ],
+      "Upgrades": [],
+      "Points": [
+        {
+          "ModelCount": 1,
+          "Cost": 90
+        }
+      ]
+    },
+    {
+      "Name": "WHIRLWIND SCORPIUS",
+      "UnitComposition": {
+        "ModelCompositions": [
+          {
+            "ModelName": "Whirlwind Scorpius",
+            "Wargear": [
+              {
+                "InitalWargear": [
+                  "Scorpius multi-launcher",
+                  "armoured tracks"
+                ],
+                "Options": [
+                  {
+                    "Options": [
+                      "hunter-killer missile"
+                    ]
+                  },
+                  {
+                    "Options": [
+                      "storm bolter"
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "WargearDefinitions": []
+      },
+      "UnitAbilities": [
+        {
+          "Title": "Pinning Bombardment",
+          "Text": "In your Shooting phase, after this model has shot, if one or more of those attacks made with its Scorpius multi-launcher scored a hit against an enemy Infantry unit, that unit must take a Battle-shock test."
+        }
+      ],
+      "Infos": [
+        {
+          "Title": "DAMAGED: 1-4 WOUNDS REMAINING",
+          "Text": "While this model has 1-4 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
+        }
+      ],
+      "Keywords": [
+        "Vehicle",
+        "Smoke",
+        "Whirlwind Scorpius",
+        "Chaos",
+        "Tzeentch"
+      ],
+      "CoreAbilities": [
+        "Deadly Demise D3"
+      ],
+      "FactionKeywords": [
+        "Thousand Sons"
+      ],
+      "StatLines": [
+        {
+          "Movement": "10\"",
+          "Toughness": "10",
+          "Save": "3+",
+          "Wounds": "11",
+          "Leadership": "6+",
+          "OC": "3"
+        }
+      ],
+      "Weapons": [
+        {
+          "Name": "RANGED WEAPONS",
+          "Weapons": [
+            {
+              "Name": "Hunter-killer missile",
+              "Keywords": "ONE SHOT",
+              "Range": "48\"",
+              "Attacks": "1",
+              "ToHit": "2+",
+              "Strength": "14",
+              "AP": "-3",
+              "Damage": "D6"
+            },
+            {
+              "Name": "Scorpius multi-launcher",
+              "Keywords": "INDIRECT FIRE, BLAST",
+              "Range": "48\"",
+              "Attacks": "2D3+3",
+              "ToHit": "3+",
+              "Strength": "6",
+              "AP": "-1",
+              "Damage": "2"
+            },
+            {
+              "Name": "Storm bolter",
+              "Keywords": "RAPID FIRE 2",
+              "Range": "24\"",
+              "Attacks": "2",
+              "ToHit": "3+",
+              "Strength": "4",
+              "AP": "0",
+              "Damage": "1"
+            }
+          ]
+        },
+        {
+          "IsMelee": true,
+          "Name": "MELEE WEAPONS",
+          "Weapons": [
+            {
+              "Name": "Armoured tracks",
+              "Range": "Melee",
+              "Attacks": "3",
+              "ToHit": "4+",
+              "Strength": "6",
+              "AP": "0",
+              "Damage": "1"
+            }
+          ]
+        }
+      ],
+      "Upgrades": [],
+      "Points": [
+        {
+          "ModelCount": 1,
+          "Cost": 115
+        }
+      ]
+    },
+    {
+      "Name": "TERRAX-PATTERN TERMITE",
+      "UnitComposition": {
+        "ModelCompositions": [
+          {
+            "ModelName": "Terrax-pattern Termite",
+            "Wargear": [
+              {
+                "InitalWargear": [
+                  "Terrax melta cutter",
+                  "2 combi-bolters",
+                  "Termite drill"
+                ],
+                "Options": [
+                  {
+                    "Replaces": [
+                      "2 combi-bolters"
+                    ],
+                    "Options": [
+                      "2 heavy flamers",
+                      "2 twin volkite chargers"
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "WargearDefinitions": []
+      },
+      "UnitAbilities": [
+        {
+          "Title": "Termite Assault",
+          "Text": "This model must start the battle in Reserves, but neither it nor any units embarked within it are counted towards any limits placed on the maximum number of Reserves units you can start the battle with. This model can be set up in the Reinforcements step of your first, second or third Movement phase, regardless of any mission rules. Any units embarked within this model can disembark after it has been set up on the battlefield, and if they do they must be set up more than 9\" away from all enemy models."
+        }
+      ],
+      "Infos": [
+        {
+          "Title": "DAMAGED: 1-5 WOUNDS REMAINING",
+          "Text": "While this model has 1-5 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
+        },
+        {
+          "Title": "TRANSPORT",
+          "Text": "This model has a transport capacity of 12 Adeptus Astartes Infantry models. It cannot transport Jump Pack, Wulfen, Phobos, Gravis, Centurion, Terminator, Obliterator, Possessed or Tacticus models (excluding Tacticus Character models that began the battle attached to a non-Tacticus unit)."
+        }
+      ],
+      "Keywords": [
+        "Vehicle",
+        "Transport",
+        "Dedicated Transport",
+        "Terrax-pattern Termite",
+        "Chaos",
+        "Tzeentch"
+      ],
+      "CoreAbilities": [
+        "Deadly Demise D3",
+        "Deep Strike"
+      ],
+      "FactionKeywords": [
+        "Thousand Sons"
+      ],
+      "StatLines": [
+        {
+          "Movement": "8\"",
+          "Toughness": "10",
+          "Save": "3+",
+          "Wounds": "14",
+          "Leadership": "6+",
+          "OC": "2"
+        }
+      ],
+      "Weapons": [
+        {
+          "Name": "RANGED WEAPONS",
+          "Weapons": [
+            {
+              "Name": "Combi-bolter",
+              "Keywords": "RAPID FIRE 2",
+              "Range": "24\"",
+              "Attacks": "2",
+              "ToHit": "3+",
+              "Strength": "4",
+              "AP": "0",
+              "Damage": "1"
+            },
+            {
+              "Name": "Heavy flamer",
+              "Keywords": "IGNORES COVER, TORRENT",
+              "Range": "12\"",
+              "Attacks": "D6",
+              "ToHit": "N/A",
+              "Strength": "5",
+              "AP": "-1",
+              "Damage": "1"
+            },
+            {
+              "Name": "Terrax melta cutter",
+              "Keywords": "MELTA 2",
+              "Range": "12\"",
+              "Attacks": "5",
+              "ToHit": "3+",
+              "Strength": "9",
+              "AP": "-4",
+              "Damage": "D6"
+            },
+            {
+              "Name": "Twin volkite charger",
+              "Keywords": "TWIN-LINKED, DEVASTATING WOUNDS",
+              "Range": "18\"",
+              "Attacks": "2",
+              "ToHit": "3+",
+              "Strength": "5",
+              "AP": "0",
+              "Damage": "2"
+            }
+          ]
+        },
+        {
+          "IsMelee": true,
+          "Name": "MELEE WEAPONS",
+          "Weapons": [
+            {
+              "Name": "Termite drill",
+              "Keywords": "ANTI-VEHICLE 3+",
+              "Range": "Melee",
+              "Attacks": "6",
+              "ToHit": "4+",
+              "Strength": "14",
+              "AP": "-2",
+              "Damage": "D3+3"
+            }
+          ]
+        }
+      ],
+      "Upgrades": [],
+      "Points": [
+        {
+          "ModelCount": 1,
+          "Cost": 200
+        }
+      ]
+    },
+    {
+      "Name": "XIPHON INTERCEPTOR",
+      "UnitComposition": {
+        "ModelCompositions": [
+          {
+            "ModelName": "Xiphon Interceptor",
+            "Wargear": [
+              {
+                "InitalWargear": [
+                  "2 twin lascannons",
+                  "Xiphon missile battery",
+                  "armoured hull"
+                ],
+                "Options": []
+              }
+            ]
+          }
+        ],
+        "WargearDefinitions": []
+      },
+      "UnitAbilities": [
+        {
+          "Title": "Interceptor",
+          "Text": "Each time this model makes a ranged attack that targets a unit that can Fly, add 1 to the Hit roll."
+        }
+      ],
+      "Infos": [
+        {
+          "Title": "DAMAGED: 1-4 WOUNDS REMAINING",
+          "Text": "While this model has 1-4 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
+        }
+      ],
+      "Keywords": [
+        "Vehicle",
+        "Fly",
+        "Aircraft",
+        "Xiphon Interceptor",
+        "Chaos",
+        "Tzeentch"
+      ],
+      "CoreAbilities": [
+        "Deadly Demise D3"
+      ],
+      "FactionKeywords": [
+        "Thousand Sons"
+      ],
+      "StatLines": [
+        {
+          "Movement": "20+\"",
+          "Toughness": "9",
+          "Save": "3+",
+          "Wounds": "12",
+          "Leadership": "6+",
+          "OC": "0"
+        }
+      ],
+      "Weapons": [
+        {
+          "Name": "RANGED WEAPONS",
+          "Weapons": [
+            {
+              "Name": "Twin lascannon",
+              "Keywords": "TWIN-LINKED",
+              "Range": "48\"",
+              "Attacks": "1",
+              "ToHit": "3+",
+              "Strength": "12",
+              "AP": "-3",
+              "Damage": "D6+1"
+            },
+            {
+              "Name": "Xiphon missile battery",
+              "Keywords": "ANTI-FLY 2+",
+              "Range": "60\"",
+              "Attacks": "3",
+              "ToHit": "3+",
+              "Strength": "7",
+              "AP": "-1",
+              "Damage": "3"
+            }
+          ]
+        },
+        {
+          "IsMelee": true,
+          "Name": "MELEE WEAPONS",
+          "Weapons": [
+            {
+              "Name": "Armoured hull",
+              "Range": "Melee",
+              "Attacks": "3",
+              "ToHit": "4+",
+              "Strength": "6",
+              "AP": "0",
+              "Damage": "1"
+            }
+          ]
+        }
+      ],
+      "Upgrades": [],
+      "Points": [
+        {
+          "ModelCount": 1,
+          "Cost": 115
+        }
+      ]
+    },
+    {
+      "Name": "STORM EAGLE GUNSHIP",
+      "UnitComposition": {
+        "ModelCompositions": [
+          {
+            "ModelName": "Storm Eagle Gunship",
+            "Wargear": [
+              {
+                "InitalWargear": [
+                  "twin heavy bolter",
+                  "2 twin hellstrike launchers",
+                  "vengeance launcher",
+                  "armoured hull"
+                ],
+                "Options": [
+                  {
+                    "Replaces": [
+                      "twin heavy bolter"
+                    ],
+                    "Options": [
+                      "twin multi-melta",
+                      "typhoon missile launcher"
+                    ]
+                  },
+                  {
+                    "Replaces": [
+                      "2 twin hellstrike launchers"
+                    ],
+                    "Options": [
+                      "2 twin lascannons"
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "WargearDefinitions": []
+      },
+      "UnitAbilities": [
+        {
+          "Title": "Armoured Resilience",
+          "Text": "Each time an attack is allocated to this model, subtract 1 from the Damage characteristic of that attack."
+        }
+      ],
+      "Infos": [
+        {
+          "Title": "DAMAGED: 1-6 WOUNDS REMAINING",
+          "Text": "While this model has 1-6 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll. Before selecting targets with this weapon, select one of its profiles to make attacks with."
+        },
+        {
+          "Title": "TRANSPORT",
+          "Text": "This model has a transport capacity of 22 Adeptus Astartes Infantry models and 1 Dreadnought model. Each Jump Pack, Wulfen, Gravis, Terminator or Possessed model takes up the space of 2 models and each Centurion or Obliterator model takes up the space of 3 models."
+        }
+      ],
+      "Keywords": [
+        "Vehicle",
+        "Fly",
+        "Aircraft",
+        "Transport",
+        "Storm Eagle Gunship",
+        "Chaos",
+        "Tzeentch"
+      ],
+      "CoreAbilities": [
+        "Deadly Demise D6",
+        "Hover"
+      ],
+      "FactionKeywords": [
+        "Thousand Sons"
+      ],
+      "StatLines": [
+        {
+          "Movement": "20+\"",
+          "Toughness": "10",
+          "Save": "3+",
+          "Wounds": "18",
+          "Leadership": "6+",
+          "OC": "0"
+        }
+      ],
+      "Weapons": [
+        {
+          "Name": "RANGED WEAPONS",
+          "Weapons": [
+            {
+              "Name": "Twin heavy bolter",
+              "Keywords": "TWIN-LINKED, SUSTAINED HITS 1",
+              "Range": "36\"",
+              "Attacks": "3",
+              "ToHit": "3+",
+              "Strength": "5",
+              "AP": "-1",
+              "Damage": "2"
+            },
+            {
+              "Name": "Twin hellstrike launcher",
+              "Keywords": "TWIN-LINKED, ANTI-FLY 2+",
+              "Range": "72\"",
+              "Attacks": "2",
+              "ToHit": "3+",
+              "Strength": "10",
+              "AP": "-3",
+              "Damage": "D6"
+            },
+            {
+              "Name": "Twin lascannon",
+              "Keywords": "TWIN-LINKED",
+              "Range": "48\"",
+              "Attacks": "1",
+              "ToHit": "3+",
+              "Strength": "12",
+              "AP": "-3",
+              "Damage": "D6+1"
+            },
+            {
+              "Name": "Twin multi-melta",
+              "Keywords": "TWIN-LINKED, MELTA 2",
+              "Range": "18\"",
+              "Attacks": "2",
+              "ToHit": "3+",
+              "Strength": "9",
+              "AP": "-4",
+              "Damage": "D6"
+            },
+            {
+              "Name": "Typhoon missile launcher – frag",
+              "Keywords": "BLAST",
+              "Range": "48\"",
+              "Attacks": "2D6",
+              "ToHit": "3+",
+              "Strength": "4",
+              "AP": "0",
+              "Damage": "1"
+            },
+            {
+              "Name": "Typhoon missile launcher – krak",
+              "Range": "48\"",
+              "Attacks": "2",
+              "ToHit": "3+",
+              "Strength": "9",
+              "AP": "-2",
+              "Damage": "D6"
+            },
+            {
+              "Name": "Vengeance launcher",
+              "Keywords": "BLAST",
+              "Range": "48\"",
+              "Attacks": "2D6",
+              "ToHit": "3+",
+              "Strength": "6",
+              "AP": "0",
+              "Damage": "1"
+            }
+          ]
+        },
+        {
+          "IsMelee": true,
+          "Name": "MELEE WEAPONS",
+          "Weapons": [
+            {
+              "Name": "Armoured hull",
+              "Range": "Melee",
+              "Attacks": "6",
+              "ToHit": "4+",
+              "Strength": "8",
+              "AP": "0",
+              "Damage": "1"
+            }
+          ]
+        }
+      ],
+      "Upgrades": [],
+      "Points": [
+        {
+          "ModelCount": 1,
+          "Cost": 250
+        }
+      ]
+    },
+    {
+      "Name": "FIRE RAPTOR GUNSHIP",
+      "UnitComposition": {
+        "ModelCompositions": [
+          {
+            "ModelName": "Fire Raptor Gunship",
+            "Wargear": [
+              {
+                "InitalWargear": [
+                  "twin avenger bolt cannon",
+                  "2 twin autocannons",
+                  "2 twin hellstrike launchers",
+                  "armoured hull"
+                ],
+                "Options": [
+                  {
+                    "Replaces": [
+                      "2 twin hellstrike launchers"
+                    ],
+                    "Options": [
+                      "2 twin lascannons"
+                    ]
+                  },
+                  {
+                    "Replaces": [
+                      "2 twin autocannons"
+                    ],
+                    "Options": [
+                      "2 quad heavy bolters"
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "WargearDefinitions": []
+      },
+      "UnitAbilities": [
+        {
+          "Title": "Strafing Run",
+          "Text": "Each time this model makes a ranged attack that targets a unit that cannot Fly, add 1 to the Hit roll."
+        }
+      ],
+      "Infos": [
+        {
+          "Title": "DAMAGED: 1-6 WOUNDS REMAINING",
+          "Text": "While this model has 1-6 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
+        }
+      ],
+      "Keywords": [
+        "Vehicle",
+        "Fly",
+        "Aircraft",
+        "Fire Raptor Gunship",
+        "Chaos",
+        "Tzeentch"
+      ],
+      "CoreAbilities": [
+        "Deadly Demise D6",
+        "Hover"
+      ],
+      "FactionKeywords": [
+        "Thousand Sons"
+      ],
+      "StatLines": [
+        {
+          "Movement": "20+\"",
+          "Toughness": "10",
+          "Save": "3+",
+          "Wounds": "18",
+          "Leadership": "6+",
+          "OC": "0"
+        }
+      ],
+      "Weapons": [
+        {
+          "Name": "RANGED WEAPONS",
+          "Weapons": [
+            {
+              "Name": "Quad heavy bolter",
+              "Keywords": "TWIN-LINKED, SUSTAINED HITS 1",
+              "Range": "36\"",
+              "Attacks": "6",
+              "ToHit": "3+",
+              "Strength": "5",
+              "AP": "-1",
+              "Damage": "2"
+            },
+            {
+              "Name": "Twin autocannon",
+              "Keywords": "TWIN-LINKED",
+              "Range": "48\"",
+              "Attacks": "2",
+              "ToHit": "3+",
+              "Strength": "9",
+              "AP": "-1",
+              "Damage": "3"
+            },
+            {
+              "Name": "Twin avenger bolt cannon",
+              "Keywords": "TWIN-LINKED",
+              "Range": "36\"",
+              "Attacks": "10",
+              "ToHit": "3+",
+              "Strength": "6",
+              "AP": "-1",
+              "Damage": "2"
+            },
+            {
+              "Name": "Twin hellstrike launcher",
+              "Keywords": "TWIN-LINKED, ANTI-FLY 2+",
+              "Range": "72\"",
+              "Attacks": "2",
+              "ToHit": "3+",
+              "Strength": "10",
+              "AP": "-3",
+              "Damage": "D6"
+            },
+            {
+              "Name": "Twin lascannon",
+              "Keywords": "TWIN-LINKED",
+              "Range": "48\"",
+              "Attacks": "1",
+              "ToHit": "3+",
+              "Strength": "12",
+              "AP": "-3",
+              "Damage": "D6+1"
+            }
+          ]
+        },
+        {
+          "IsMelee": true,
+          "Name": "MELEE WEAPONS",
+          "Weapons": [
+            {
+              "Name": "Armoured hull",
+              "Range": "Melee",
+              "Attacks": "6",
+              "ToHit": "4+",
+              "Strength": "8",
+              "AP": "0",
+              "Damage": "1"
+            }
+          ]
+        }
+      ],
+      "Upgrades": [],
+      "Points": [
+        {
+          "ModelCount": 1,
+          "Cost": 290
+        }
+      ]
+    },
+    {
+      "Name": "TYPHON",
+      "UnitComposition": {
+        "ModelCompositions": [
+          {
+            "ModelName": "Typhon",
+            "Wargear": [
+              {
+                "InitalWargear": [
+                  "dreadhammer siege cannon",
+                  "armoured tracks"
+                ],
+                "Options": [
+                  {
+                    "Options": [
+                      "2 heavy bolters",
+                      "2 lascannons"
+                    ]
+                  },
+                  {
+                    "Options": [
+                      "heavy bolter",
+                      "heavy flamer",
+                      "multi-melta",
+                      "storm bolter"
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "WargearDefinitions": []
+      },
+      "UnitAbilities": [
+        {
+          "Title": "Sunderer of Fortresses",
+          "Text": "Each time this model makes an attack that targets a Vehicle, improve the Strength and Damage characteristic of that attack by 1 (if that attack targets a Fortification unit, improve the Strength and Damage characteristics of that attack by 2 instead)."
+        }
+      ],
+      "Infos": [
+        {
+          "Title": "DAMAGED: 1-6 WOUNDS REMAINING",
+          "Text": "While this model has 1-6 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
+        }
+      ],
+      "Keywords": [
+        "Vehicle",
+        "Smoke",
+        "Typhon",
+        "Chaos",
+        "Tzeentch"
+      ],
+      "CoreAbilities": [
+        "Deadly Demise D6"
+      ],
+      "FactionKeywords": [
+        "Thousand Sons"
+      ],
+      "StatLines": [
+        {
+          "Movement": "10\"",
+          "Toughness": "12",
+          "Save": "2+",
+          "Wounds": "18",
+          "Leadership": "6+",
+          "OC": "6"
+        }
+      ],
+      "Weapons": [
+        {
+          "Name": "RANGED WEAPONS",
+          "Weapons": [
+            {
+              "Name": "Dreadhammer siege cannon",
+              "Keywords": "BLAST",
+              "Range": "24\"",
+              "Attacks": "D6+6",
+              "ToHit": "3+",
+              "Strength": "14",
+              "AP": "-3",
+              "Damage": "D6"
+            },
+            {
+              "Name": "Heavy bolter",
+              "Keywords": "SUSTAINED HITS 1",
+              "Range": "36\"",
+              "Attacks": "3",
+              "ToHit": "3+",
+              "Strength": "5",
+              "AP": "-1",
+              "Damage": "2"
+            },
+            {
+              "Name": "Heavy flamer",
+              "Keywords": "IGNORES COVER, TORRENT",
+              "Range": "12\"",
+              "Attacks": "D6",
+              "ToHit": "N/A",
+              "Strength": "5",
+              "AP": "-1",
+              "Damage": "1"
+            },
+            {
+              "Name": "Lascannon",
+              "Range": "48\"",
+              "Attacks": "1",
+              "ToHit": "3+",
+              "Strength": "12",
+              "AP": "-3",
+              "Damage": "D6+1"
+            },
+            {
+              "Name": "Multi-melta",
+              "Keywords": "MELTA 2",
+              "Range": "18\"",
+              "Attacks": "2",
+              "ToHit": "3+",
+              "Strength": "9",
+              "AP": "-4",
+              "Damage": "D6"
+            },
+            {
+              "Name": "Storm bolter",
+              "Keywords": "RAPID FIRE 2",
+              "Range": "24\"",
+              "Attacks": "2",
+              "ToHit": "3+",
+              "Strength": "4",
+              "AP": "0",
+              "Damage": "1"
+            }
+          ]
+        },
+        {
+          "IsMelee": true,
+          "Name": "MELEE WEAPONS",
+          "Weapons": [
+            {
+              "Name": "Armoured tracks",
+              "Range": "Melee",
+              "Attacks": "6",
+              "ToHit": "4+",
+              "Strength": "8",
+              "AP": "0",
+              "Damage": "1"
+            }
+          ]
+        }
+      ],
+      "Upgrades": [],
+      "Points": [
+        {
+          "ModelCount": 1,
+          "Cost": 320
+        }
+      ]
+    },
+    {
+      "Name": "CERBERUS",
+      "UnitComposition": {
+        "ModelCompositions": [
+          {
+            "ModelName": "Cerberus",
+            "Wargear": [
+              {
+                "InitalWargear": [
+                  "Cerberus neutron pulse array",
+                  "armoured tracks"
+                ],
+                "Options": [
+                  {
+                    "Options": [
+                      "2 heavy bolters",
+                      "2 lascannons"
+                    ]
+                  },
+                  {
+                    "Options": [
+                      "heavy bolter",
+                      "heavy flamer",
+                      "multi-melta",
+                      "storm bolter"
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "WargearDefinitions": []
+      },
+      "UnitAbilities": [
+        {
+          "Title": "Atomantic Arc-reactor",
+          "Text": "Each time this unit shoots its Cerberus neutron pulse array in your Shooting phase, provided it Remained Stationary this turn, that weapon has the [LETHAL HITS] ability."
+        }
+      ],
+      "Infos": [
+        {
+          "Title": "DAMAGED: 1-6 WOUNDS REMAINING",
+          "Text": "While this model has 1-6 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
+        }
+      ],
+      "Keywords": [
+        "Vehicle",
+        "Smoke",
+        "Cerberus",
+        "Chaos",
+        "Tzeentch"
+      ],
+      "CoreAbilities": [
+        "Deadly Demise D6"
+      ],
+      "FactionKeywords": [
+        "Thousand Sons"
+      ],
+      "StatLines": [
+        {
+          "Movement": "10\"",
+          "Toughness": "12",
+          "Save": "2+",
+          "Wounds": "18",
+          "Leadership": "6+",
+          "OC": "6"
+        }
+      ],
+      "Weapons": [
+        {
+          "Name": "RANGED WEAPONS",
+          "Weapons": [
+            {
+              "Name": "Cerberus neutron pulse array",
+              "Keywords": "TWIN-LINKED",
+              "Range": "48\"",
+              "Attacks": "3",
+              "ToHit": "3+",
+              "Strength": "16",
+              "AP": "-4",
+              "Damage": "D6+3"
+            },
+            {
+              "Name": "Heavy bolter",
+              "Keywords": "SUSTAINED HITS 1",
+              "Range": "36\"",
+              "Attacks": "3",
+              "ToHit": "3+",
+              "Strength": "5",
+              "AP": "-1",
+              "Damage": "2"
+            },
+            {
+              "Name": "Heavy flamer",
+              "Keywords": "IGNORES COVER, TORRENT",
+              "Range": "12\"",
+              "Attacks": "D6",
+              "ToHit": "N/A",
+              "Strength": "5",
+              "AP": "-1",
+              "Damage": "1"
+            },
+            {
+              "Name": "Lascannon",
+              "Range": "48\"",
+              "Attacks": "1",
+              "ToHit": "3+",
+              "Strength": "12",
+              "AP": "-3",
+              "Damage": "D6+1"
+            },
+            {
+              "Name": "Multi-melta",
+              "Keywords": "MELTA 2",
+              "Range": "18\"",
+              "Attacks": "2",
+              "ToHit": "3+",
+              "Strength": "9",
+              "AP": "-4",
+              "Damage": "D6"
+            },
+            {
+              "Name": "Storm bolter",
+              "Keywords": "RAPID FIRE 2",
+              "Range": "24\"",
+              "Attacks": "2",
+              "ToHit": "3+",
+              "Strength": "4",
+              "AP": "0",
+              "Damage": "1"
+            }
+          ]
+        },
+        {
+          "IsMelee": true,
+          "Name": "MELEE WEAPONS",
+          "Weapons": [
+            {
+              "Name": "Armoured tracks",
+              "Range": "Melee",
+              "Attacks": "6",
+              "ToHit": "4+",
+              "Strength": "8",
+              "AP": "0",
+              "Damage": "1"
+            }
+          ]
+        }
+      ],
+      "Upgrades": [],
+      "Points": [
+        {
+          "ModelCount": 1,
+          "Cost": 270
+        }
+      ]
+    },
+    {
+      "Name": "SPARTAN",
+      "UnitComposition": {
+        "ModelCompositions": [
+          {
+            "ModelName": "Spartan",
+            "Wargear": [
+              {
+                "InitalWargear": [
+                  "2 quad lascannons",
+                  "twin heavy bolter",
+                  "armoured tracks"
+                ],
+                "Options": [
+                  {
+                    "Replaces": [
+                      "2 quad lascannons"
+                    ],
+                    "Options": [
+                      "2 laser destroyers"
+                    ]
+                  },
+                  {
+                    "Replaces": [
+                      "twin heavy bolter"
+                    ],
+                    "Options": [
+                      "twin heavy flamer"
+                    ]
+                  },
+                  {
+                    "Options": [
+                      "heavy bolter",
+                      "heavy flamer",
+                      "multi-melta",
+                      "storm bolter"
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "WargearDefinitions": []
+      },
+      "UnitAbilities": [
+        {
+          "Title": "Assault Ramp",
+          "Text": "Each time a unit disembarks from this model after it has made a Normal move, that unit is still eligible to declare a charge this turn."
+        }
+      ],
+      "Infos": [
+        {
+          "Title": "DAMAGED: 1-6 WOUNDS REMAINING",
+          "Text": "While this model has 1-6 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll. Before selecting targets with this weapon, select one of its profiles to make attacks with."
+        },
+        {
+          "Title": "TRANSPORT",
+          "Text": "This model has a transport capacity of 28 Adeptus Astartes Infantry models. Each Jump Pack, Wulfen, Gravis, Possessed or Terminator model takes up the space of 2 models and each Centurion or Obliterator model takes up the space of 3 models."
+        }
+      ],
+      "Keywords": [
+        "Vehicle",
+        "Transport",
+        "Smoke",
+        "Spartan",
+        "Chaos",
+        "Tzeentch"
+      ],
+      "CoreAbilities": [
+        "Deadly Demise D6"
+      ],
+      "FactionKeywords": [
+        "Thousand Sons"
+      ],
+      "StatLines": [
+        {
+          "Movement": "10\"",
+          "Toughness": "12",
+          "Save": "2+",
+          "Wounds": "18",
+          "Leadership": "6+",
+          "OC": "6"
+        }
+      ],
+      "Weapons": [
+        {
+          "Name": "RANGED WEAPONS",
+          "Weapons": [
+            {
+              "Name": "Heavy bolter",
+              "Keywords": "SUSTAINED HITS 1",
+              "Range": "36\"",
+              "Attacks": "3",
+              "ToHit": "3+",
+              "Strength": "5",
+              "AP": "-1",
+              "Damage": "2"
+            },
+            {
+              "Name": "Heavy flamer",
+              "Keywords": "IGNORES COVER, TORRENT",
+              "Range": "12\"",
+              "Attacks": "D6",
+              "ToHit": "N/A",
+              "Strength": "5",
+              "AP": "-1",
+              "Damage": "1"
+            },
+            {
+              "Name": "Laser destroyer",
+              "Keywords": "HEAVY",
+              "Range": "36\"",
+              "Attacks": "3",
+              "ToHit": "3+",
+              "Strength": "14",
+              "AP": "-4",
+              "Damage": "D6+1"
+            },
+            {
+              "Name": "Multi-melta",
+              "Keywords": "MELTA 2",
+              "Range": "18\"",
+              "Attacks": "2",
+              "ToHit": "3+",
+              "Strength": "9",
+              "AP": "-4",
+              "Damage": "D6"
+            },
+            {
+              "Name": "Quad lascannon",
+              "Range": "48\"",
+              "Attacks": "4",
+              "ToHit": "3+",
+              "Strength": "12",
+              "AP": "-3",
+              "Damage": "D6+1"
+            },
+            {
+              "Name": "Storm bolter",
+              "Keywords": "RAPID FIRE 2",
+              "Range": "24\"",
+              "Attacks": "2",
+              "ToHit": "3+",
+              "Strength": "4",
+              "AP": "0",
+              "Damage": "1"
+            },
+            {
+              "Name": "Twin heavy bolter",
+              "Keywords": "SUSTAINED HITS 1, TWIN-LINKED",
+              "Range": "36\"",
+              "Attacks": "3",
+              "ToHit": "3+",
+              "Strength": "5",
+              "AP": "-1",
+              "Damage": "2"
+            },
+            {
+              "Name": "Twin heavy flamer",
+              "Keywords": "IGNORES COVER, TORRENT, TWIN-LINKED",
+              "Range": "12\"",
+              "Attacks": "D6",
+              "ToHit": "N/A",
+              "Strength": "5",
+              "AP": "-1",
+              "Damage": "1"
+            }
+          ]
+        },
+        {
+          "IsMelee": true,
+          "Name": "MELEE WEAPONS",
+          "Weapons": [
+            {
+              "Name": "Armoured tracks",
+              "Range": "Melee",
+              "Attacks": "6",
+              "ToHit": "4+",
+              "Strength": "8",
+              "AP": "0",
+              "Damage": "1"
+            }
+          ]
+        }
+      ],
+      "Upgrades": [],
+      "Points": [
+        {
+          "ModelCount": 1,
+          "Cost": 300
+        }
+      ]
+    },
+    {
+      "Name": "FELLBLADE",
+      "UnitComposition": {
+        "ModelCompositions": [
+          {
+            "ModelName": "Fellblade",
+            "Wargear": [
+              {
+                "InitalWargear": [
+                  "demolisher cannon",
+                  "Fellblade accelerator cannon",
+                  "2 quad lascannons",
+                  "twin heavy bolter",
+                  "armoured tracks"
+                ],
+                "Options": [
+                  {
+                    "Replaces": [
+                      "2 quad lascannons"
+                    ],
+                    "Options": [
+                      "2 laser destroyers",
+                      "2 quad heavy bolters"
+                    ]
+                  },
+                  {
+                    "Replaces": [
+                      "twin heavy bolter"
+                    ],
+                    "Options": [
+                      "twin heavy flamer"
+                    ]
+                  },
+                  {
+                    "Options": [
+                      "havoc launcher"
+                    ]
+                  },
+                  {
+                    "Options": [
+                      "heavy bolter",
+                      "heavy flamer",
+                      "multi-melta",
+                      "storm bolter",
+                      "combi-weapon"
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "WargearDefinitions": []
+      },
+      "UnitAbilities": [
+        {
+          "Title": "Rolling Fortress",
+          "Text": "Each time a ranged attack is allocated to a model from your army, if that model is not fully visible to every model in the attacking unit because of this Fellblade model, that model has the Benefit of Cover against that attack."
+        }
+      ],
+      "Infos": [
+        {
+          "Title": "DAMAGED: 1-8 WOUNDS REMAINING",
+          "Text": "While this model has 1-8 wounds remaining, subtract 4 from this model’s Objective Control characteristic and each time this model makes an attack, subtract 1 from the Hit roll."
+        }
+      ],
+      "Keywords": [
+        "Vehicle",
+        "Titanic",
+        "Smoke",
+        "Fellblade",
+        "Chaos",
+        "Tzeentch"
+      ],
+      "CoreAbilities": [
+        "Deadly Demise D6+2"
+      ],
+      "FactionKeywords": [
+        "Thousand Sons"
+      ],
+      "StatLines": [
+        {
+          "Movement": "9\"",
+          "Toughness": "13",
+          "Save": "2+",
+          "Wounds": "24",
+          "Leadership": "6+",
+          "OC": "8"
+        }
+      ],
+      "Weapons": [
+        {
+          "Name": "RANGED WEAPONS",
+          "Weapons": [
+            {
+              "Name": "Demolisher cannon",
+              "Keywords": "BLAST",
+              "Range": "24\"",
+              "Attacks": "D6+3",
+              "ToHit": "3+",
+              "Strength": "14",
+              "AP": "-3",
+              "Damage": "D6"
+            },
+            {
+              "Name": "Fellblade accelerator cannon – AP shells",
+              "Range": "72\"",
+              "Attacks": "2",
+              "ToHit": "3+",
+              "Strength": "14",
+              "AP": "-3",
+              "Damage": "6"
+            },
+            {
+              "Name": "Fellblade accelerator cannon – HE shells",
+              "Keywords": "BLAST",
+              "Range": "72\"",
+              "Attacks": "2D6",
+              "ToHit": "3+",
+              "Strength": "8",
+              "AP": "-1",
+              "Damage": "2"
+            },
+            {
+              "Name": "Heavy bolter",
+              "Keywords": "SUSTAINED HITS 1",
+              "Range": "36\"",
+              "Attacks": "3",
+              "ToHit": "3+",
+              "Strength": "5",
+              "AP": "-1",
+              "Damage": "2"
+            },
+            {
+              "Name": "Heavy flamer",
+              "Keywords": "IGNORES COVER, TORRENT",
+              "Range": "12\"",
+              "Attacks": "D6",
+              "ToHit": "N/A",
+              "Strength": "5",
+              "AP": "-1",
+              "Damage": "1"
+            },
+            {
+              "Name": "Laser destroyer",
+              "Keywords": "HEAVY",
+              "Range": "36\"",
+              "Attacks": "3",
+              "ToHit": "3+",
+              "Strength": "14",
+              "AP": "-4",
+              "Damage": "D6+1"
+            },
+            {
+              "Name": "Multi-melta",
+              "Keywords": "MELTA 2",
+              "Range": "18\"",
+              "Attacks": "2",
+              "ToHit": "3+",
+              "Strength": "9",
+              "AP": "-4",
+              "Damage": "D6"
+            },
+            {
+              "Name": "Quad lascannon",
+              "Range": "48\"",
+              "Attacks": "4",
+              "ToHit": "3+",
+              "Strength": "12",
+              "AP": "-3",
+              "Damage": "D6+1"
+            },
+            {
+              "Name": "Storm bolter",
+              "Keywords": "RAPID FIRE 2",
+              "Range": "24\"",
+              "Attacks": "2",
+              "ToHit": "3+",
+              "Strength": "4",
+              "AP": "0",
+              "Damage": "1"
+            },
+            {
+              "Name": "Twin heavy bolter",
+              "Keywords": "TWIN-LINKED, SUSTAINED HITS 1",
+              "Range": "36\"",
+              "Attacks": "3",
+              "ToHit": "3+",
+              "Strength": "5",
+              "AP": "-1",
+              "Damage": "2"
+            },
+            {
+              "Name": "Twin heavy flamer",
+              "Keywords": "IGNORES COVER, TWIN-LINKED, TORRENT",
+              "Range": "12\"",
+              "Attacks": "D6",
+              "ToHit": "N/A",
+              "Strength": "5",
+              "AP": "-1",
+              "Damage": "1"
+            },
+            {
+              "Name": "Quad heavy bolter",
+              "Keywords": "SUSTAINED HITS 1, TWIN-LINKED",
+              "Range": "36\"",
+              "Attacks": "6",
+              "ToHit": "3+",
+              "Strength": "5",
+              "AP": "-1",
+              "Damage": "2"
+            },
+            {
+              "Name": "Combi-weapon",
+              "Keywords": "ANTI-INFANTRY 3+, DEVASTATING WOUNDS, RAPID FIRE 1",
+              "Range": "24\"",
+              "Attacks": "1",
+              "ToHit": "3+",
+              "Strength": "4",
+              "AP": "0",
+              "Damage": "1"
+            },
+            {
+              "Name": "Havoc launcher",
+              "Keywords": "BLAST",
+              "Range": "48\"",
+              "Attacks": "D6",
+              "ToHit": "3+",
+              "Strength": "5",
+              "AP": "0",
+              "Damage": "1"
+            }
+          ]
+        },
+        {
+          "IsMelee": true,
+          "Name": "MELEE WEAPONS",
+          "Weapons": [
+            {
+              "Name": "Armoured tracks",
+              "Range": "Melee",
+              "Attacks": "6",
+              "ToHit": "4+",
+              "Strength": "8",
+              "AP": "0",
+              "Damage": "1"
+            }
+          ]
+        }
+      ],
+      "Upgrades": [],
+      "Points": [
+        {
+          "ModelCount": 1,
+          "Cost": 480
+        }
+      ]
+    },
+    {
+      "Name": "FALCHION",
+      "UnitComposition": {
+        "ModelCompositions": [
+          {
+            "ModelName": "Falchion",
+            "Wargear": [
+              {
+                "InitalWargear": [
+                  "2 quad lascannons",
+                  "twin heavy bolter",
+                  "twin Falchion volcano cannon",
+                  "armoured tracks"
+                ],
+                "Options": [
+                  {
+                    "Replaces": [
+                      "2 quad lascannons"
+                    ],
+                    "Options": [
+                      "2 laser destroyers"
+                    ]
+                  },
+                  {
+                    "Replaces": [
+                      "twin heavy bolter"
+                    ],
+                    "Options": [
+                      "twin heavy flamer"
+                    ]
+                  },
+                  {
+                    "Options": [
+                      "heavy bolter",
+                      "heavy flamer",
+                      "multi-melta",
+                      "storm bolter"
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "WargearDefinitions": []
+      },
+      "UnitAbilities": [
+        {
+          "Title": "Titan-killer",
+          "Text": "Each time this model makes a ranged attack with its twin Falchion volcano cannon that targets a Monster or Vehicle unit, that attack has the [DEVASTATING WOUNDS] ability."
+        }
+      ],
+      "Infos": [
+        {
+          "Title": "DAMAGED: 1-8 WOUNDS REMAINING",
+          "Text": "While this model has 1-8 wounds remaining, subtract 4 from this model’s Objective Control characteristic and each time this model makes an attack, subtract 1 from the Hit roll."
+        }
+      ],
+      "Keywords": [
+        "Vehicle",
+        "Titanic",
+        "Smoke",
+        "Falchion",
+        "Chaos",
+        "Tzeentch"
+      ],
+      "CoreAbilities": [
+        "Deadly Demise D6+2"
+      ],
+      "FactionKeywords": [
+        "Thousand Sons"
+      ],
+      "StatLines": [
+        {
+          "Movement": "9\"",
+          "Toughness": "13",
+          "Save": "2+",
+          "Wounds": "24",
+          "Leadership": "6+",
+          "OC": "8"
+        }
+      ],
+      "Weapons": [
+        {
+          "Name": "RANGED WEAPONS",
+          "Weapons": [
+            {
+              "Name": "Heavy bolter",
+              "Keywords": "SUSTAINED HITS 1",
+              "Range": "36\"",
+              "Attacks": "3",
+              "ToHit": "3+",
+              "Strength": "5",
+              "AP": "-1",
+              "Damage": "2"
+            },
+            {
+              "Name": "Heavy flamer",
+              "Keywords": "IGNORES COVER, TORRENT",
+              "Range": "12\"",
+              "Attacks": "D6",
+              "ToHit": "N/A",
+              "Strength": "5",
+              "AP": "-1",
+              "Damage": "1"
+            },
+            {
+              "Name": "Laser destroyer",
+              "Keywords": "HEAVY",
+              "Range": "36\"",
+              "Attacks": "3",
+              "ToHit": "3+",
+              "Strength": "14",
+              "AP": "-4",
+              "Damage": "D6+1"
+            },
+            {
+              "Name": "Multi-melta",
+              "Keywords": "MELTA 2",
+              "Range": "18\"",
+              "Attacks": "2",
+              "ToHit": "3+",
+              "Strength": "9",
+              "AP": "-4",
+              "Damage": "D6"
+            },
+            {
+              "Name": "Quad lascannon",
+              "Range": "48\"",
+              "Attacks": "4",
+              "ToHit": "3+",
+              "Strength": "12",
+              "AP": "-3",
+              "Damage": "D6+1"
+            },
+            {
+              "Name": "Storm bolter",
+              "Keywords": "RAPID FIRE 2",
+              "Range": "24\"",
+              "Attacks": "2",
+              "ToHit": "3+",
+              "Strength": "4",
+              "AP": "0",
+              "Damage": "1"
+            },
+            {
+              "Name": "Twin Falchion volcano cannon",
+              "Keywords": "TWIN-LINKED, BLAST",
+              "Range": "120\"",
+              "Attacks": "D3+1",
+              "ToHit": "3+",
+              "Strength": "24",
+              "AP": "-5",
+              "Damage": "12"
+            },
+            {
+              "Name": "Twin heavy bolter",
+              "Keywords": "TWIN-LINKED, SUSTAINED HITS 1",
+              "Range": "36\"",
+              "Attacks": "3",
+              "ToHit": "3+",
+              "Strength": "5",
+              "AP": "-1",
+              "Damage": "2"
+            },
+            {
+              "Name": "Twin heavy flamer",
+              "Keywords": "IGNORES COVER, TWIN-LINKED, TORRENT",
+              "Range": "12\"",
+              "Attacks": "D6",
+              "ToHit": "N/A",
+              "Strength": "5",
+              "AP": "-1",
+              "Damage": "1"
+            }
+          ]
+        },
+        {
+          "IsMelee": true,
+          "Name": "MELEE WEAPONS",
+          "Weapons": [
+            {
+              "Name": "Armoured tracks",
+              "Range": "Melee",
+              "Attacks": "6",
+              "ToHit": "4+",
+              "Strength": "8",
+              "AP": "0",
+              "Damage": "1"
+            }
+          ]
+        }
+      ],
+      "Upgrades": [],
+      "Points": [
+        {
+          "ModelCount": 1,
+          "Cost": 420
+        }
+      ]
+    },
+    {
+      "Name": "MASTODON",
+      "UnitComposition": {
+        "ModelCompositions": [
+          {
+            "ModelName": "Mastodon",
+            "Wargear": [
+              {
+                "InitalWargear": [
+                  "2 heavy flamers",
+                  "2 lascannons",
+                  "siege melta array",
+                  "skyreaper battery",
+                  "armoured tracks"
+                ],
+                "Options": [
+                  {
+                    "Replaces": [
+                      "2 heavy flamers"
+                    ],
+                    "Options": [
+                      "2 heavy bolters",
+                      "2 lascannons",
+                      "2 volkite culverins"
+                    ]
+                  },
+                  {
+                    "Replaces": [
+                      "2 lascannons"
+                    ],
+                    "Options": [
+                      "2 heavy bolters",
+                      "2 heavy flamers",
+                      "2 volkite culverins"
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "WargearDefinitions": []
+      },
+      "UnitAbilities": [
+        {
+          "Title": "Inviolable Transport",
+          "Text": "Once per battle round, when an attack is allocated to this model, you can change the Damage characteristic of that attack to 0."
+        }
+      ],
+      "Infos": [
+        {
+          "Title": "DAMAGED: 1-10 WOUNDS REMAINING",
+          "Text": "While this model has 1-10 wounds remaining, subtract 6 from this model’s Objective Control characteristic and each time this model makes an attack, subtract 1 from the Hit roll."
+        },
+        {
+          "Title": "TRANSPORT",
+          "Text": "This model has a transport capacity of 45 Adeptus Astartes Infantry models. Each Jump Pack, Wulfen, Gravis, Possessed or Terminator model takes up the space of 2 models and each Centurion or Obliterator model takes up the space of 3 models. This model can also transport up to 2 Dreadnought or Helbrute models (these models take up the space of a number of models equal to their Wounds characteristic e.g. A Dreadnought with a Wounds characteristic of 8 would take up the space of 8 models)."
+        }
+      ],
+      "Keywords": [
+        "Vehicle",
+        "Titanic",
+        "Transport",
+        "Smoke",
+        "Mastodon",
+        "Chaos",
+        "Tzeentch"
+      ],
+      "CoreAbilities": [
+        "Deadly Demise 2D6"
+      ],
+      "FactionKeywords": [
+        "Thousand Sons"
+      ],
+      "StatLines": [
+        {
+          "Movement": "9\"",
+          "Toughness": "14",
+          "Save": "2+",
+          "Wounds": "30",
+          "Leadership": "6+",
+          "OC": "12"
+        }
+      ],
+      "Weapons": [
+        {
+          "Name": "RANGED WEAPONS",
+          "Weapons": [
+            {
+              "Name": "Heavy bolter",
+              "Keywords": "SUSTAINED HITS 1",
+              "Range": "36\"",
+              "Attacks": "3",
+              "ToHit": "3+",
+              "Strength": "5",
+              "AP": "-1",
+              "Damage": "2"
+            },
+            {
+              "Name": "Heavy flamer",
+              "Keywords": "IGNORES COVER, TORRENT",
+              "Range": "12\"",
+              "Attacks": "D6",
+              "ToHit": "N/A",
+              "Strength": "5",
+              "AP": "-1",
+              "Damage": "1"
+            },
+            {
+              "Name": "Lascannon",
+              "Range": "48\"",
+              "Attacks": "1",
+              "ToHit": "3+",
+              "Strength": "12",
+              "AP": "-3",
+              "Damage": "D6+1"
+            },
+            {
+              "Name": "Siege melta array",
+              "Keywords": "MELTA 2",
+              "Range": "24\"",
+              "Attacks": "6",
+              "ToHit": "3+",
+              "Strength": "9",
+              "AP": "-4",
+              "Damage": "D6"
+            },
+            {
+              "Name": "Skyreaper battery",
+              "Keywords": "ANTI-FLY 4+",
+              "Range": "48\"",
+              "Attacks": "8",
+              "ToHit": "3+",
+              "Strength": "7",
+              "AP": "-1",
+              "Damage": "2"
+            },
+            {
+              "Name": "Volkite culverin",
+              "Keywords": "DEVASTATING WOUNDS",
+              "Range": "36\"",
+              "Attacks": "4",
+              "ToHit": "3+",
+              "Strength": "6",
+              "AP": "0",
+              "Damage": "2"
+            }
+          ]
+        },
+        {
+          "IsMelee": true,
+          "Name": "MELEE WEAPONS",
+          "Weapons": [
+            {
+              "Name": "Armoured tracks",
+              "Range": "Melee",
+              "Attacks": "6",
+              "ToHit": "4+",
+              "Strength": "8",
+              "AP": "0",
+              "Damage": "1"
+            }
+          ]
+        }
+      ],
+      "Upgrades": [],
+      "Points": [
+        {
+          "ModelCount": 1,
+          "Cost": 540
+        }
+      ]
+    },
+    {
+      "Name": "CHAOS LORD ON DISC OF TZEENTCH",
+      "UnitComposition": {
+        "ModelCompositions": [
+          {
+            "ModelName": "Chaos Lord on Disc of Tzeentch",
+            "Wargear": [
+              {
+                "InitalWargear": [
+                  "bolt pistol",
+                  "Astartes chainsword",
+                  "close combat weapon"
+                ],
+                "Options": [
+                  {
+                    "Replaces": [
+                      "bolt pistol"
+                    ],
+                    "Options": [
+                      "plasma pistol",
+                      "combi-bolter",
+                      "combi-weapon",
+                      "accursed weapon",
+                      "power fist"
+                    ]
+                  },
+                  {
+                    "Replaces": [
+                      "Astartes chainsword"
+                    ],
+                    "Options": [
+                      "bolt pistol",
+                      "plasma pistol",
+                      "accursed weapon",
+                      "power fist"
+                    ]
+                  },
+                  {
+                    "Replaces": [
+                      "bolt pistol",
+                      "Astartes chainsword"
+                    ],
+                    "Options": [
+                      "paired accursed weapons"
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "WargearDefinitions": []
+      },
+      "UnitAbilities": [
+        {
+          "Title": "Lord of Chaos",
+          "Text": "Once per battle round, one unit from your army with this ability can be targeted with a Stratagem for 0CP, even if another unit from your army has already been targeted with that Stratagem this phase."
+        },
+        {
+          "Title": "Lord of Fate",
+          "Text": "While this model is leading a unit, models in that unit have the Feel No Pain 5+ ability against mortal wounds."
+        }
+      ],
+      "LeaderInfo": {
+        "UnitNames": [
+          "CHOSEN",
+          "LEGIONARIES"
+        ],
+        "Abilities": [
+          {
+            "AbilityId": "Lord of Fate"
+          }
+        ]
+      },
+      "Infos": [],
+      "Keywords": [
+        "Infantry",
+        "Character",
+        "Grenades",
+        "Chaos",
+        "Tzeentch",
+        "Fly",
+        "Chaos Lord",
+        "Disc of Tzeentch"
+      ],
+      "CoreAbilities": [
+        "Leader"
+      ],
+      "FactionKeywords": [
+        "Thousand Sons"
+      ],
+      "StatLines": [
+        {
+          "Movement": "12\"",
+          "Toughness": "4",
+          "Save": "3+",
+          "Wounds": "6",
+          "Leadership": "6+",
+          "OC": "1",
+          "InvulSave": {
+            "Save": "4+"
+          }
+        }
+      ],
+      "Weapons": [
+        {
+          "Name": "RANGED WEAPONS",
+          "Weapons": [
+            {
+              "Name": "Bolt pistol",
+              "Keywords": "PISTOL",
+              "Range": "12\"",
+              "Attacks": "1",
+              "ToHit": "2+",
+              "Strength": "4",
+              "AP": "0",
+              "Damage": "1"
+            },
+            {
+              "Name": "Combi-bolter",
+              "Keywords": "RAPID FIRE 2",
+              "Range": "24\"",
+              "Attacks": "2",
+              "ToHit": "2+",
+              "Strength": "4",
+              "AP": "0",
+              "Damage": "1"
+            },
+            {
+              "Name": "Combi-weapon",
+              "Keywords": "ANTI-INFANTRY 4+, DEVASTATING WOUNDS, RAPID FIRE 1",
+              "Range": "24\"",
+              "Attacks": "1",
+              "ToHit": "4+",
+              "Strength": "4",
+              "AP": "0",
+              "Damage": "1"
+            },
+            {
+              "Name": "Plasma pistol – standard",
+              "Keywords": "PISTOL",
+              "Range": "12\"",
+              "Attacks": "1",
+              "ToHit": "2+",
+              "Strength": "7",
+              "AP": "-2",
+              "Damage": "1"
+            },
+            {
+              "Name": "Plasma pistol – supercharge",
+              "Keywords": "HAZARDOUS, PISTOL",
+              "Range": "12\"",
+              "Attacks": "1",
+              "ToHit": "2+",
+              "Strength": "8",
+              "AP": "-3",
+              "Damage": "2"
+            }
+          ]
+        },
+        {
+          "IsMelee": true,
+          "Name": "MELEE WEAPONS",
+          "Weapons": [
+            {
+              "Name": "Accursed weapon",
+              "Range": "Melee",
+              "Attacks": "6",
+              "ToHit": "2+",
+              "Strength": "5",
+              "AP": "-2",
+              "Damage": "1"
+            },
+            {
+              "Name": "Astartes chainsword",
+              "Range": "Melee",
+              "Attacks": "7",
+              "ToHit": "2+",
+              "Strength": "4",
+              "AP": "-1",
+              "Damage": "1"
+            },
+            {
+              "Name": "Close combat weapon",
+              "Range": "Melee",
+              "Attacks": "6",
+              "ToHit": "2+",
+              "Strength": "4",
+              "AP": "0",
+              "Damage": "1"
+            },
+            {
+              "Name": "Paired accursed weapons",
+              "Keywords": "TWIN-LINKED",
+              "Range": "Melee",
+              "Attacks": "7",
+              "ToHit": "2+",
+              "Strength": "4",
+              "AP": "-1",
+              "Damage": "1"
+            },
+            {
+              "Name": "Power fist",
+              "Range": "Melee",
+              "Attacks": "5",
+              "ToHit": "2+",
+              "Strength": "8",
+              "AP": "-2",
+              "Damage": "2"
+            }
+          ]
+        }
+      ],
+      "Upgrades": [],
+      "Points": [
+        {
+          "ModelCount": 1,
+          "Cost": 100
+        }
+      ]
+    },
+    {
+      "Name": "HELL BLADE",
+      "UnitComposition": {
+        "ModelCompositions": [
+          {
+            "ModelName": "Hell Blade",
+            "Wargear": [
+              {
+                "InitalWargear": [
+                  "2 twin autocannons",
+                  "armoured hull"
+                ],
+                "Options": [
+                  {
+                    "Replaces": [
+                      "2 twin autocannons"
+                    ],
+                    "Options": [
+                      "2 twin lascannons"
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "WargearDefinitions": []
+      },
+      "UnitAbilities": [
+        {
+          "Title": "Interceptor",
+          "Text": "Each time this model makes a ranged attack that targets a unit that can Fly, add 1 to the Hit roll."
+        }
+      ],
+      "Infos": [],
+      "Keywords": [
+        "Vehicle",
+        "Chaos",
+        "Aircraft",
+        "Fly",
+        "Hell Blade",
+        "Tzeentch"
+      ],
+      "CoreAbilities": [
+        "Deadly Demise D3"
+      ],
+      "FactionKeywords": [
+        "Thousand Sons"
+      ],
+      "StatLines": [
+        {
+          "Movement": "20+\"",
+          "Toughness": "8",
+          "Save": "3+",
+          "Wounds": "10",
+          "Leadership": "6+",
+          "OC": "0",
+          "InvulSave": {
+            "Save": "5+"
+          }
+        }
+      ],
+      "Weapons": [
+        {
+          "Name": "RANGED WEAPONS",
+          "Weapons": [
+            {
+              "Name": "Twin autocannon",
+              "Keywords": "TWIN-LINKED",
+              "Range": "48\"",
+              "Attacks": "2",
+              "ToHit": "3+",
+              "Strength": "9",
+              "AP": "-3",
+              "Damage": "3"
+            },
+            {
+              "Name": "Twin lascannon",
+              "Keywords": "TWIN-LINKED",
+              "Range": "48\"",
+              "Attacks": "1",
+              "ToHit": "3+",
+              "Strength": "12",
+              "AP": "-3",
+              "Damage": "D6+1"
+            }
+          ]
+        },
+        {
+          "IsMelee": true,
+          "Name": "MELEE WEAPONS",
+          "Weapons": [
+            {
+              "Name": "Armoured hull",
+              "Range": "Melee",
+              "Attacks": "3",
+              "ToHit": "4+",
+              "Strength": "6",
+              "AP": "0",
+              "Damage": "1"
+            }
+          ]
+        }
+      ],
+      "Upgrades": [],
+      "Points": [
+        {
+          "ModelCount": 1,
+          "Cost": 115
+        }
+      ]
+    },
+    {
+      "Name": "HELL TALON",
+      "UnitComposition": {
+        "ModelCompositions": [
+          {
+            "ModelName": "Hell Talon",
+            "Wargear": [
+              {
+                "InitalWargear": [
+                  "autocannon",
+                  "twin lascannon",
+                  "armoured hull"
+                ],
+                "Options": [
+                  {
+                    "Replaces": [
+                      "autocannon"
+                    ],
+                    "Options": [
+                      "havoc launcher"
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "WargearDefinitions": []
+      },
+      "UnitAbilities": [
+        {
+          "Title": "Bomb Rack",
+          "Text": "Each time this model ends a Normal move, you can select one enemy unit it moved across during that move and roll six D6: for each 3+, that unit suffers 1 mortal wound."
+        }
+      ],
+      "Infos": [
+        {
+          "Title": "DAMAGED: 1-5 WOUNDS REMAINING",
+          "Text": "While this model has 1-5 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
+        }
+      ],
+      "Keywords": [
+        "Vehicle",
+        "Chaos",
+        "Aircraft",
+        "Fly",
+        "Hell Talon",
+        "Tzeentch"
+      ],
+      "CoreAbilities": [
+        "Deadly Demise D3"
+      ],
+      "FactionKeywords": [
+        "Thousand Sons"
+      ],
+      "StatLines": [
+        {
+          "Movement": "20+\"",
+          "Toughness": "9",
+          "Save": "3+",
+          "Wounds": "14",
+          "Leadership": "6+",
+          "OC": "0",
+          "InvulSave": {
+            "Save": "5+"
+          }
+        }
+      ],
+      "Weapons": [
+        {
+          "Name": "RANGED WEAPONS",
+          "Weapons": [
+            {
+              "Name": "Autocannon",
+              "Range": "48\"",
+              "Attacks": "2",
+              "ToHit": "3+",
+              "Strength": "9",
+              "AP": "-1",
+              "Damage": "3"
+            },
+            {
+              "Name": "Havoc launcher",
+              "Keywords": "BLAST",
+              "Range": "48\"",
+              "Attacks": "D6",
+              "ToHit": "3+",
+              "Strength": "5",
+              "AP": "0",
+              "Damage": "1"
+            },
+            {
+              "Name": "Twin lascannon",
+              "Keywords": "TWIN-LINKED",
+              "Range": "48\"",
+              "Attacks": "1",
+              "ToHit": "3+",
+              "Strength": "12",
+              "AP": "-3",
+              "Damage": "D6+1"
+            }
+          ]
+        },
+        {
+          "IsMelee": true,
+          "Name": "MELEE WEAPONS",
+          "Weapons": [
+            {
+              "Name": "Armoured hull",
+              "Range": "Melee",
+              "Attacks": "6",
+              "ToHit": "4+",
+              "Strength": "6",
+              "AP": "0",
+              "Damage": "1"
+            }
+          ]
+        }
+      ],
+      "Upgrades": [],
+      "Points": [
+        {
+          "ModelCount": 1,
+          "Cost": 140
+        }
+      ]
+    }
+  ],
+  "Dettachments": [],
+  "ArmyRules": []
+}
