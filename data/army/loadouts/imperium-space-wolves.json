@@ -389,7 +389,15 @@
         "min": 10,
         "max": 20,
         "mode": "count",
-        "options": [],
+        "options": [
+          {
+            "id": "43b0-a03-67b2-a92a",
+            "name": "Blood Claw",
+            "min": 8,
+            "max": 19,
+            "equippedWith": "Astartes Chainsword and Bolt pistol"
+          }
+        ],
         "groups": [
           {
             "id": "b72f-1c54-3cfb-7a16-fixed",
@@ -445,23 +453,6 @@
                 "defaultOptionId": "d5c9-f229-ee18-c83f"
               }
             ]
-          },
-          {
-            "id": "d6a4-1730-7ecf-3820-squad",
-            "name": "Squad",
-            "min": 9,
-            "max": 19,
-            "mode": "count",
-            "options": [
-              {
-                "id": "43b0-a03-67b2-a92a",
-                "name": "Blood Claw",
-                "min": 8,
-                "max": 19,
-                "equippedWith": "Astartes Chainsword and Bolt pistol"
-              }
-            ],
-            "defaultOptionId": "43b0-a03-67b2-a92a"
           }
         ]
       }
@@ -475,7 +466,15 @@
         "min": 10,
         "max": 10,
         "mode": "count",
-        "options": [],
+        "options": [
+          {
+            "id": "2670-18a3-5673-68ec",
+            "name": "Grey Hunter",
+            "min": 9,
+            "max": 9,
+            "equippedWith": "Bolt pistol and Astartes Chainsword"
+          }
+        ],
         "groups": [
           {
             "id": "dc23-999b-31a3-e455-fixed",
@@ -537,23 +536,6 @@
                 "defaultOptionId": "ea8b-1a77-bcb0-c0b4"
               }
             ]
-          },
-          {
-            "id": "797e-945f-b95d-3aae-squad",
-            "name": "Squad",
-            "min": 9,
-            "max": 9,
-            "mode": "count",
-            "options": [
-              {
-                "id": "2670-18a3-5673-68ec",
-                "name": "Grey Hunter",
-                "min": 9,
-                "max": 9,
-                "equippedWith": "Bolt pistol and Astartes Chainsword"
-              }
-            ],
-            "defaultOptionId": "982a-72ab-720f-e6fe"
           }
         ]
       }
@@ -805,52 +787,42 @@
             "min": 2,
             "max": 14,
             "equippedWith": "Bolt pistol"
+          },
+          {
+            "id": "9cff-ca12-9165-253e",
+            "name": "Skyclaw w/ plasma pistol",
+            "min": 0,
+            "max": 2,
+            "equippedWith": "Plasma pistol"
+          },
+          {
+            "id": "5218-cb66-8cd2-8b71",
+            "name": "Skyclaw w/ flamer",
+            "min": 0,
+            "max": 2
+          },
+          {
+            "id": "db6a-be15-6416-1468",
+            "name": "Skyclaw w/ grav-gun",
+            "min": 0,
+            "max": 2
+          },
+          {
+            "id": "8043-e0a-f22c-7193",
+            "name": "Skyclaw w/ plasma gun",
+            "min": 0,
+            "max": 2
+          },
+          {
+            "id": "71b0-6fbc-e63d-ac85",
+            "name": "Skyclaw w/ meltagun",
+            "min": 0,
+            "max": 2,
+            "equippedWith": "Meltagun"
           }
         ],
         "defaultOptionId": "2fb9-2c2c-4bbb-e26e",
-        "groups": [
-          {
-            "id": "79a8-fcf3-738a-9d56",
-            "name": "Up to 2",
-            "min": 0,
-            "max": 2,
-            "mode": "count",
-            "options": [
-              {
-                "id": "9cff-ca12-9165-253e",
-                "name": "Skyclaw w/ plasma pistol",
-                "min": 0,
-                "max": 2,
-                "equippedWith": "Plasma pistol"
-              },
-              {
-                "id": "5218-cb66-8cd2-8b71",
-                "name": "Skyclaw w/ flamer",
-                "min": 0,
-                "max": 2
-              },
-              {
-                "id": "db6a-be15-6416-1468",
-                "name": "Skyclaw w/ grav-gun",
-                "min": 0,
-                "max": 2
-              },
-              {
-                "id": "8043-e0a-f22c-7193",
-                "name": "Skyclaw w/ plasma gun",
-                "min": 0,
-                "max": 2
-              },
-              {
-                "id": "71b0-6fbc-e63d-ac85",
-                "name": "Skyclaw w/ meltagun",
-                "min": 0,
-                "max": 2,
-                "equippedWith": "Meltagun"
-              }
-            ]
-          }
-        ]
+        "groups": []
       }
     ]
   },

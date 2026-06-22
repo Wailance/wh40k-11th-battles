@@ -25,50 +25,40 @@
             "name": "Hearthkyn Warrior w/ plasma knife",
             "min": 0,
             "max": 2
+          },
+          {
+            "id": "ad43-fc9a-f768-62b7",
+            "name": "Hearthkyn Warrior w/ HYLas rotary cannon",
+            "min": 0,
+            "max": 1
+          },
+          {
+            "id": "6ba5-67fa-c681-f302",
+            "name": "Hearthkyn Warrior w/ HYLas auto rifle",
+            "min": 0,
+            "max": 1
+          },
+          {
+            "id": "6028-01a8-a643-aea3",
+            "name": "Hearthkyn Warrior w/ L7 missile launcher",
+            "min": 0,
+            "max": 1
+          },
+          {
+            "id": "9bba-c4eb-ade6-2339",
+            "name": "Hearthkyn Warrior w/ magna-rail rifle",
+            "min": 0,
+            "max": 1
+          },
+          {
+            "id": "0fd5-2630-0aba-19cd",
+            "name": "Hearthkyn Warrior w/ EtaCarn plasma beamer",
+            "min": 0,
+            "max": 1
           }
         ],
         "defaultOptionId": "4782-445d-730e-6b69",
-        "groups": [
-          {
-            "id": "2a24-d1f1-d866-2bf5",
-            "name": "Heavy weapons",
-            "min": 0,
-            "max": 2,
-            "mode": "count",
-            "options": [
-              {
-                "id": "ad43-fc9a-f768-62b7",
-                "name": "Hearthkyn Warrior w/ HYLas rotary cannon",
-                "min": 0,
-                "max": 1
-              },
-              {
-                "id": "6ba5-67fa-c681-f302",
-                "name": "Hearthkyn Warrior w/ HYLas auto rifle",
-                "min": 0,
-                "max": 1
-              },
-              {
-                "id": "6028-01a8-a643-aea3",
-                "name": "Hearthkyn Warrior w/ L7 missile launcher",
-                "min": 0,
-                "max": 1
-              },
-              {
-                "id": "9bba-c4eb-ade6-2339",
-                "name": "Hearthkyn Warrior w/ magna-rail rifle",
-                "min": 0,
-                "max": 1
-              },
-              {
-                "id": "0fd5-2630-0aba-19cd",
-                "name": "Hearthkyn Warrior w/ EtaCarn plasma beamer",
-                "min": 0,
-                "max": 1
-              }
-            ]
-          }
-        ]
+        "groups": []
       }
     ]
   },
@@ -408,32 +398,22 @@
             "name": "Hernkyn Pioneer w/ searchlight",
             "min": 0,
             "max": 1
+          },
+          {
+            "id": "ce66-1679-9f1d-bbba",
+            "name": "Hernkyn Pioneer w/ HYLas rotary cannon",
+            "min": 0,
+            "max": 2
+          },
+          {
+            "id": "c8df-4536-bd14-5d05",
+            "name": "Hernkyn Pioneer w/ ion beamer",
+            "min": 0,
+            "max": 2
           }
         ],
         "defaultOptionId": "48b1-2aa0-4098-6661",
-        "groups": [
-          {
-            "id": "087f-002e-3cc1-7623",
-            "name": "Heavy weapons",
-            "min": 0,
-            "max": 2,
-            "mode": "count",
-            "options": [
-              {
-                "id": "ce66-1679-9f1d-bbba",
-                "name": "Hernkyn Pioneer w/ HYLas rotary cannon",
-                "min": 0,
-                "max": 2
-              },
-              {
-                "id": "c8df-4536-bd14-5d05",
-                "name": "Hernkyn Pioneer w/ ion beamer",
-                "min": 0,
-                "max": 2
-              }
-            ]
-          }
-        ]
+        "groups": []
       }
     ]
   },

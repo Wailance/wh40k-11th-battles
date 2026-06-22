@@ -119,40 +119,30 @@
             "name": "Khorne Berzerker",
             "min": 5,
             "max": 19
+          },
+          {
+            "id": "c3d0-463f-fcce-7c70",
+            "name": "Khorne Berzerker w/ eviscerator and bolt pistol",
+            "min": 0,
+            "max": 4
+          },
+          {
+            "id": "8cbb-0e54-096a-e053",
+            "name": "Khorne Berzerker w/ eviscerator and plasma pistol",
+            "min": 0,
+            "max": 4,
+            "equippedWith": "Plasma pistol"
+          },
+          {
+            "id": "8af8-2e66-6a49-95b1",
+            "name": "Khorne Berzerker w/ chainblade and plasma pistol",
+            "min": 0,
+            "max": 4,
+            "equippedWith": "Plasma pistol"
           }
         ],
         "defaultOptionId": "b568-8a23-be6f-a14d",
-        "groups": [
-          {
-            "id": "4f41-f423-56bf-73f3",
-            "name": "Berzerkers with alternate weapons",
-            "min": 0,
-            "max": 99,
-            "mode": "count",
-            "options": [
-              {
-                "id": "c3d0-463f-fcce-7c70",
-                "name": "Khorne Berzerker w/ eviscerator and bolt pistol",
-                "min": 0,
-                "max": 4
-              },
-              {
-                "id": "8cbb-0e54-096a-e053",
-                "name": "Khorne Berzerker w/ eviscerator and plasma pistol",
-                "min": 0,
-                "max": 4,
-                "equippedWith": "Plasma pistol"
-              },
-              {
-                "id": "8af8-2e66-6a49-95b1",
-                "name": "Khorne Berzerker w/ chainblade and plasma pistol",
-                "min": 0,
-                "max": 4,
-                "equippedWith": "Plasma pistol"
-              }
-            ]
-          }
-        ]
+        "groups": []
       }
     ]
   },

@@ -1120,141 +1120,131 @@
             "min": 0,
             "max": 5,
             "equippedWith": "Astartes chainsword"
-          }
-        ],
-        "defaultOptionId": "7012-8aec-f98-e883",
-        "groups": [
+          },
           {
-            "id": "efae-d485-fac2-5a6c",
-            "name": "Up to two:",
+            "id": "b4-8945-1738-4dac",
+            "name": "Biker w/ flamer",
             "min": 0,
             "max": 2,
-            "mode": "count",
-            "options": [
+            "groups": [
               {
-                "id": "b4-8945-1738-4dac",
-                "name": "Biker w/ flamer",
-                "min": 0,
-                "max": 2,
-                "groups": [
+                "id": "1efd-37a-cd81-24e7",
+                "name": "Bolt pistol or chainsword",
+                "min": 1,
+                "max": 1,
+                "mode": "single",
+                "options": [
                   {
-                    "id": "1efd-37a-cd81-24e7",
-                    "name": "Bolt pistol or chainsword",
-                    "min": 1,
-                    "max": 1,
-                    "mode": "single",
-                    "options": [
-                      {
-                        "id": "8d8b-3652-e408-a1bf",
-                        "name": "Astartes chainsword",
-                        "min": 0,
-                        "max": 99
-                      },
-                      {
-                        "id": "b4ca-3173-442d-fa71",
-                        "name": "Bolt pistol",
-                        "min": 0,
-                        "max": 1
-                      }
-                    ],
-                    "defaultOptionId": "b4ca-3173-442d-fa71"
-                  }
-                ]
-              },
-              {
-                "id": "626c-9f61-24a3-fbc0",
-                "name": "Biker w/ meltagun",
-                "min": 0,
-                "max": 2,
-                "groups": [
+                    "id": "8d8b-3652-e408-a1bf",
+                    "name": "Astartes chainsword",
+                    "min": 0,
+                    "max": 99
+                  },
                   {
-                    "id": "815a-af8b-be03-d81",
-                    "name": "Bolt pistol or chainsword",
-                    "min": 1,
-                    "max": 1,
-                    "mode": "single",
-                    "options": [
-                      {
-                        "id": "7fc2-5a6e-d974-a53e",
-                        "name": "Astartes chainsword",
-                        "min": 0,
-                        "max": 99
-                      },
-                      {
-                        "id": "cfe7-3098-c6d7-8904",
-                        "name": "Bolt pistol",
-                        "min": 0,
-                        "max": 1
-                      }
-                    ],
-                    "defaultOptionId": "cfe7-3098-c6d7-8904"
+                    "id": "b4ca-3173-442d-fa71",
+                    "name": "Bolt pistol",
+                    "min": 0,
+                    "max": 1
                   }
                 ],
-                "equippedWith": "Meltagun"
-              },
+                "defaultOptionId": "b4ca-3173-442d-fa71"
+              }
+            ]
+          },
+          {
+            "id": "626c-9f61-24a3-fbc0",
+            "name": "Biker w/ meltagun",
+            "min": 0,
+            "max": 2,
+            "groups": [
               {
-                "id": "7281-9fba-d635-602",
-                "name": "Biker w/ plasma gun",
-                "min": 0,
-                "max": 2,
-                "groups": [
+                "id": "815a-af8b-be03-d81",
+                "name": "Bolt pistol or chainsword",
+                "min": 1,
+                "max": 1,
+                "mode": "single",
+                "options": [
                   {
-                    "id": "eb21-23c9-458-12ed",
-                    "name": "Bolt pistol or chainsword",
-                    "min": 1,
-                    "max": 1,
-                    "mode": "single",
-                    "options": [
-                      {
-                        "id": "f1d9-59d-9090-fea6",
-                        "name": "Astartes chainsword",
-                        "min": 0,
-                        "max": 99
-                      },
-                      {
-                        "id": "4da2-139c-49e6-ba0d",
-                        "name": "Bolt pistol",
-                        "min": 0,
-                        "max": 1
-                      }
-                    ],
-                    "defaultOptionId": "4da2-139c-49e6-ba0d"
+                    "id": "7fc2-5a6e-d974-a53e",
+                    "name": "Astartes chainsword",
+                    "min": 0,
+                    "max": 99
+                  },
+                  {
+                    "id": "cfe7-3098-c6d7-8904",
+                    "name": "Bolt pistol",
+                    "min": 0,
+                    "max": 1
                   }
-                ]
-              },
+                ],
+                "defaultOptionId": "cfe7-3098-c6d7-8904"
+              }
+            ],
+            "equippedWith": "Meltagun"
+          },
+          {
+            "id": "7281-9fba-d635-602",
+            "name": "Biker w/ plasma gun",
+            "min": 0,
+            "max": 2,
+            "groups": [
               {
-                "id": "c10f-b066-53fa-33d8",
-                "name": "Biker w/ combi-weapon",
-                "min": 0,
-                "max": 2,
-                "groups": [
+                "id": "eb21-23c9-458-12ed",
+                "name": "Bolt pistol or chainsword",
+                "min": 1,
+                "max": 1,
+                "mode": "single",
+                "options": [
                   {
-                    "id": "fe97-358d-c703-da52",
-                    "name": "Bolt pistol or chainsword",
-                    "min": 1,
-                    "max": 1,
-                    "mode": "single",
-                    "options": [
-                      {
-                        "id": "ec0-9420-add0-5c1c",
-                        "name": "Astartes chainsword",
-                        "min": 0,
-                        "max": 99
-                      },
-                      {
-                        "id": "3e11-57ca-1378-f646",
-                        "name": "Bolt pistol",
-                        "min": 0,
-                        "max": 1
-                      }
-                    ],
-                    "defaultOptionId": "3e11-57ca-1378-f646"
+                    "id": "f1d9-59d-9090-fea6",
+                    "name": "Astartes chainsword",
+                    "min": 0,
+                    "max": 99
+                  },
+                  {
+                    "id": "4da2-139c-49e6-ba0d",
+                    "name": "Bolt pistol",
+                    "min": 0,
+                    "max": 1
                   }
-                ]
+                ],
+                "defaultOptionId": "4da2-139c-49e6-ba0d"
+              }
+            ]
+          },
+          {
+            "id": "c10f-b066-53fa-33d8",
+            "name": "Biker w/ combi-weapon",
+            "min": 0,
+            "max": 2,
+            "groups": [
+              {
+                "id": "fe97-358d-c703-da52",
+                "name": "Bolt pistol or chainsword",
+                "min": 1,
+                "max": 1,
+                "mode": "single",
+                "options": [
+                  {
+                    "id": "ec0-9420-add0-5c1c",
+                    "name": "Astartes chainsword",
+                    "min": 0,
+                    "max": 99
+                  },
+                  {
+                    "id": "3e11-57ca-1378-f646",
+                    "name": "Bolt pistol",
+                    "min": 0,
+                    "max": 1
+                  }
+                ],
+                "defaultOptionId": "3e11-57ca-1378-f646"
               }
             ]
           }
-        ]
+        ],
+        "defaultOptionId": "7012-8aec-f98-e883",
+        "groups": []
       }
     ]
   },
@@ -1291,39 +1281,29 @@
             "name": "Raptor w/ mutations",
             "min": 0,
             "max": 2
+          },
+          {
+            "id": "dcd9-54f0-e40-634c",
+            "name": "Raptor w/ meltagun",
+            "min": 0,
+            "max": 2,
+            "equippedWith": "Meltagun"
+          },
+          {
+            "id": "90e9-e59a-ce0a-eb1d",
+            "name": "Raptor w/ plasma gun",
+            "min": 0,
+            "max": 2
+          },
+          {
+            "id": "5222-cd14-f5e1-d585",
+            "name": "Raptor w/ flamer",
+            "min": 0,
+            "max": 2
           }
         ],
         "defaultOptionId": "b6c1-f5f5-550f-cb87",
-        "groups": [
-          {
-            "id": "a76b-f5f1-ddc6-2780",
-            "name": "2 selections per 5 models",
-            "min": 0,
-            "max": 4,
-            "mode": "count",
-            "options": [
-              {
-                "id": "dcd9-54f0-e40-634c",
-                "name": "Raptor w/ meltagun",
-                "min": 0,
-                "max": 2,
-                "equippedWith": "Meltagun"
-              },
-              {
-                "id": "90e9-e59a-ce0a-eb1d",
-                "name": "Raptor w/ plasma gun",
-                "min": 0,
-                "max": 2
-              },
-              {
-                "id": "5222-cd14-f5e1-d585",
-                "name": "Raptor w/ flamer",
-                "min": 0,
-                "max": 2
-              }
-            ]
-          }
-        ]
+        "groups": []
       }
     ]
   },
@@ -1458,55 +1438,45 @@
             "min": 0,
             "max": 9,
             "equippedWith": "Close combat weapon"
+          },
+          {
+            "id": "9865-ec5d-36c5-48c8",
+            "name": "Guardsman w/ flamer",
+            "min": 0,
+            "max": 1,
+            "equippedWith": "Close combat weapon"
+          },
+          {
+            "id": "f69b-87be-dedb-e059",
+            "name": "Guardsman w/ plasma gun",
+            "min": 0,
+            "max": 1,
+            "equippedWith": "Close combat weapon"
+          },
+          {
+            "id": "f462-99a-26d7-365c",
+            "name": "Guardsman w/ meltagun",
+            "min": 0,
+            "max": 1,
+            "equippedWith": "Close combat weapon"
+          },
+          {
+            "id": "bd89-37ee-f0e1-cb62",
+            "name": "Guardsman w/ Cultist sniper rifle",
+            "min": 0,
+            "max": 1,
+            "equippedWith": "Close combat weapon"
+          },
+          {
+            "id": "56fa-b048-3325-2122",
+            "name": "Guardsman w/ Cultist grenade launcher",
+            "min": 0,
+            "max": 1,
+            "equippedWith": "Close combat weapon"
           }
         ],
         "defaultOptionId": "45d2-3454-daf-c7a8",
-        "groups": [
-          {
-            "id": "a2d6-834f-612e-39bd",
-            "name": "Up to 3:",
-            "min": 0,
-            "max": 3,
-            "mode": "count",
-            "options": [
-              {
-                "id": "9865-ec5d-36c5-48c8",
-                "name": "Guardsman w/ flamer",
-                "min": 0,
-                "max": 1,
-                "equippedWith": "Close combat weapon"
-              },
-              {
-                "id": "f69b-87be-dedb-e059",
-                "name": "Guardsman w/ plasma gun",
-                "min": 0,
-                "max": 1,
-                "equippedWith": "Close combat weapon"
-              },
-              {
-                "id": "f462-99a-26d7-365c",
-                "name": "Guardsman w/ meltagun",
-                "min": 0,
-                "max": 1,
-                "equippedWith": "Close combat weapon"
-              },
-              {
-                "id": "bd89-37ee-f0e1-cb62",
-                "name": "Guardsman w/ Cultist sniper rifle",
-                "min": 0,
-                "max": 1,
-                "equippedWith": "Close combat weapon"
-              },
-              {
-                "id": "56fa-b048-3325-2122",
-                "name": "Guardsman w/ Cultist grenade launcher",
-                "min": 0,
-                "max": 1,
-                "equippedWith": "Close combat weapon"
-              }
-            ]
-          }
-        ]
+        "groups": []
       }
     ]
   },
@@ -2207,41 +2177,31 @@
             "name": "Khorne Berzerker",
             "min": 5,
             "max": 19
+          },
+          {
+            "id": "a211-0cb7-7d18-6edd",
+            "name": "Berzerker w/ chainblade and plasma pistol",
+            "min": 0,
+            "max": 4,
+            "equippedWith": "Plasma pistol"
+          },
+          {
+            "id": "da93-5739-dcb8-af05",
+            "name": "Berzerker w/ eviscerator and plasma pistol",
+            "min": 0,
+            "max": 4,
+            "equippedWith": "Plasma pistol"
+          },
+          {
+            "id": "7c08-2c1c-2086-a2ff",
+            "name": "Berzerker w/ eviscerator and bolt pistol",
+            "min": 0,
+            "max": 4,
+            "equippedWith": "Bolt pistol"
           }
         ],
         "defaultOptionId": "9cdb-1ad-6a3d-ffa",
-        "groups": [
-          {
-            "id": "aa0d-7a9c-91aa-4312",
-            "name": "Berzerkers with alternate weapons",
-            "min": 0,
-            "max": 99,
-            "mode": "count",
-            "options": [
-              {
-                "id": "a211-0cb7-7d18-6edd",
-                "name": "Berzerker w/ chainblade and plasma pistol",
-                "min": 0,
-                "max": 4,
-                "equippedWith": "Plasma pistol"
-              },
-              {
-                "id": "da93-5739-dcb8-af05",
-                "name": "Berzerker w/ eviscerator and plasma pistol",
-                "min": 0,
-                "max": 4,
-                "equippedWith": "Plasma pistol"
-              },
-              {
-                "id": "7c08-2c1c-2086-a2ff",
-                "name": "Berzerker w/ eviscerator and bolt pistol",
-                "min": 0,
-                "max": 4,
-                "equippedWith": "Bolt pistol"
-              }
-            ]
-          }
-        ]
+        "groups": []
       }
     ]
   },
@@ -2321,39 +2281,29 @@
             "name": "Plague Marine w/ icon of despair",
             "min": 0,
             "max": 1
+          },
+          {
+            "id": "3f19-d76c-10d7-6c3e",
+            "name": "Plague Marine w/ meltagun",
+            "min": 0,
+            "max": 2,
+            "equippedWith": "Meltagun"
+          },
+          {
+            "id": "6dda-97e7-d705-f256",
+            "name": "Plague Marine w/ plague belcher",
+            "min": 0,
+            "max": 2
+          },
+          {
+            "id": "da5c-c3c5-d424-d08b",
+            "name": "Plague Marine w/ plasma gun",
+            "min": 0,
+            "max": 2
           }
         ],
         "defaultOptionId": "477c-681d-afd5-2daa",
-        "groups": [
-          {
-            "id": "1b0f-7d15-1ad2-86ea",
-            "name": "Special weapons",
-            "min": 0,
-            "max": 2,
-            "mode": "count",
-            "options": [
-              {
-                "id": "3f19-d76c-10d7-6c3e",
-                "name": "Plague Marine w/ meltagun",
-                "min": 0,
-                "max": 2,
-                "equippedWith": "Meltagun"
-              },
-              {
-                "id": "6dda-97e7-d705-f256",
-                "name": "Plague Marine w/ plague belcher",
-                "min": 0,
-                "max": 2
-              },
-              {
-                "id": "da5c-c3c5-d424-d08b",
-                "name": "Plague Marine w/ plasma gun",
-                "min": 0,
-                "max": 2
-              }
-            ]
-          }
-        ]
+        "groups": []
       }
     ]
   },
@@ -3889,41 +3839,31 @@
             "min": 2,
             "max": 9,
             "equippedWith": "Boltgun and Bolt pistol"
+          },
+          {
+            "id": "1471-b7be-53dc-b29c",
+            "name": "Red Corsairs Raider w/ meltagun",
+            "min": 0,
+            "max": 2,
+            "equippedWith": "Meltagun and Bolt pistol"
+          },
+          {
+            "id": "cacb-e9fa-e320-a626",
+            "name": "Red Corsairs Raider w/ power fist",
+            "min": 0,
+            "max": 2,
+            "equippedWith": "Boltgun and Bolt pistol and Power fist"
+          },
+          {
+            "id": "01d4-d8ad-0b62-34e2",
+            "name": "Red Corsairs Raider w/ power fist and meltagun",
+            "min": 0,
+            "max": 2,
+            "equippedWith": "Meltagun and Bolt pistol and Power fist"
           }
         ],
         "defaultOptionId": "5f90-d7a1-b5b4-68c5",
-        "groups": [
-          {
-            "id": "f4c4-e077-7308-0288",
-            "name": "Raiders with alternate weapons",
-            "min": 0,
-            "max": 4,
-            "mode": "count",
-            "options": [
-              {
-                "id": "1471-b7be-53dc-b29c",
-                "name": "Red Corsairs Raider w/ meltagun",
-                "min": 0,
-                "max": 2,
-                "equippedWith": "Meltagun and Bolt pistol"
-              },
-              {
-                "id": "cacb-e9fa-e320-a626",
-                "name": "Red Corsairs Raider w/ power fist",
-                "min": 0,
-                "max": 2,
-                "equippedWith": "Boltgun and Bolt pistol and Power fist"
-              },
-              {
-                "id": "01d4-d8ad-0b62-34e2",
-                "name": "Red Corsairs Raider w/ power fist and meltagun",
-                "min": 0,
-                "max": 2,
-                "equippedWith": "Meltagun and Bolt pistol and Power fist"
-              }
-            ]
-          }
-        ]
+        "groups": []
       }
     ]
   },

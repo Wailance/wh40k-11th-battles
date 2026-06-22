@@ -118,7 +118,62 @@
         "min": 5,
         "max": 10,
         "mode": "count",
-        "options": [],
+        "options": [
+          {
+            "id": "45fa-9a7-8352-362e",
+            "name": "Deathwatch Terminator",
+            "min": 1,
+            "max": 9,
+            "groups": [
+              {
+                "id": "ead7-caae-cc7e-f148",
+                "name": "Terminator Weapons",
+                "min": 1,
+                "max": 1,
+                "mode": "single",
+                "options": [
+                  {
+                    "id": "ad9-d7f5-59b8-cd0d",
+                    "name": "Power Fist & Storm Bolter",
+                    "min": 0,
+                    "max": 1
+                  },
+                  {
+                    "id": "245b-cbdd-7915-e0",
+                    "name": "Storm Bolter & Power Weapon",
+                    "min": 0,
+                    "max": 1
+                  },
+                  {
+                    "id": "6d89-f8ad-8cac-18b4",
+                    "name": "Thunder Hammer & Storm Shield",
+                    "min": 0,
+                    "max": 1
+                  },
+                  {
+                    "id": "745c-a89b-7d0f-3065",
+                    "name": "Storm Bolter & Chainfist",
+                    "min": 0,
+                    "max": 1
+                  },
+                  {
+                    "id": "eae3-9dfa-62c9-a320",
+                    "name": "Twin Lightning Claws",
+                    "min": 0,
+                    "max": 1
+                  }
+                ],
+                "defaultOptionId": "ad9-d7f5-59b8-cd0d"
+              }
+            ]
+          },
+          {
+            "id": "259f-d98e-e052-ec64",
+            "name": "Deathwatch Terminator w/ Heavy Weapon",
+            "min": 0,
+            "max": 3
+          }
+        ],
         "groups": [
           {
             "id": "4595-7ad2-617a-c07d-fixed",
@@ -170,70 +225,6 @@
                 "defaultOptionId": "ad9-d7f5-59b8-cd0d"
               }
             ]
-          },
-          {
-            "id": "50fb-8de8-f1cf-86b3-squad",
-            "name": "Squad",
-            "min": 4,
-            "max": 9,
-            "mode": "count",
-            "options": [
-              {
-                "id": "45fa-9a7-8352-362e",
-                "name": "Deathwatch Terminator",
-                "min": 1,
-                "max": 9,
-                "groups": [
-                  {
-                    "id": "ead7-caae-cc7e-f148",
-                    "name": "Terminator Weapons",
-                    "min": 1,
-                    "max": 1,
-                    "mode": "single",
-                    "options": [
-                      {
-                        "id": "ad9-d7f5-59b8-cd0d",
-                        "name": "Power Fist & Storm Bolter",
-                        "min": 0,
-                        "max": 1
-                      },
-                      {
-                        "id": "245b-cbdd-7915-e0",
-                        "name": "Storm Bolter & Power Weapon",
-                        "min": 0,
-                        "max": 1
-                      },
-                      {
-                        "id": "6d89-f8ad-8cac-18b4",
-                        "name": "Thunder Hammer & Storm Shield",
-                        "min": 0,
-                        "max": 1
-                      },
-                      {
-                        "id": "745c-a89b-7d0f-3065",
-                        "name": "Storm Bolter & Chainfist",
-                        "min": 0,
-                        "max": 1
-                      },
-                      {
-                        "id": "eae3-9dfa-62c9-a320",
-                        "name": "Twin Lightning Claws",
-                        "min": 0,
-                        "max": 1
-                      }
-                    ],
-                    "defaultOptionId": "ad9-d7f5-59b8-cd0d"
-                  }
-                ]
-              },
-              {
-                "id": "259f-d98e-e052-ec64",
-                "name": "Deathwatch Terminator w/ Heavy Weapon",
-                "min": 0,
-                "max": 3
-              }
-            ],
-            "defaultOptionId": "45fa-9a7-8352-362e"
           }
         ]
       }
@@ -251,20 +242,35 @@
           {
             "id": "7bf3-4c74-4427-717c",
             "name": "Kill Team Intercessor",
+            "displayName": "Kill Team Intercessors",
             "min": 2,
             "max": 9,
-            "equippedWith": "Bolt pistol and Close combat weapon"
-          },
-          {
-            "id": "ed4e-ce7a-9fc6-4225",
-            "name": "Kill Team Intercessor w/ grenade launcher",
-            "min": 0,
-            "max": 2,
-            "equippedWith": "Bolt pistol and Close combat weapon and Astartes grenade launcher"
+            "equippedWith": "Bolt pistol, Close combat weapon and Deathwatch bolt rifle",
+            "groups": [
+              {
+                "id": "fortis-grenade-replace",
+                "name": "Replacement",
+                "min": 0,
+                "max": 2,
+                "mode": "count",
+                "hint": "For every 5 models in this unit, a Deathwatch bolt rifle may be replaced with one of the following.",
+                "options": [
+                  {
+                    "id": "ed4e-ce7a-9fc6-4225",
+                    "name": "Kill Team Intercessor w/ grenade launcher",
+                    "displayName": "Deathwatch bolt rifle and astartes grenade launcher",
+                    "min": 0,
+                    "max": 2,
+                    "equippedWith": "Bolt pistol and Close combat weapon and Astartes grenade launcher"
+                  }
+                ]
+              }
+            ]
           },
           {
             "id": "3c99-1b17-8b08-ce52",
             "name": "Kill Team Intercessor w/ heavy bolt pistol",
+            "displayName": "Kill Team Intercessors with heavy bolt pistols",
             "min": 0,
             "max": 4,
             "equippedWith": "Astartes Chainsword"
@@ -272,6 +278,7 @@
           {
             "id": "2061-4f19-0a98-e5ff",
             "name": "Kill Team Intercessor w/ pyreblaster",
+            "displayName": "Kill Team Intercessors with pyreblasters",
             "min": 0,
             "max": 4,
             "equippedWith": "Bolt pistol and Close combat weapon and Pyreblaster"
@@ -281,6 +288,7 @@
           {
             "id": "1309-c8b7-fa8c-86ab",
             "name": "Kill Team Intercessor w/ plasma incinerator",
+            "displayName": "Kill Team Intercessors with plasma incinerators",
             "min": 0,
             "max": 4,
             "mode": "count",
@@ -304,6 +312,7 @@
           {
             "id": "c346-db09-d839-e0b0",
             "name": "Kill Team Intercessor w/ missile launcher",
+            "displayName": "Kill Team Intercessors with superfrag rocket launchers",
             "min": 0,
             "max": 2,
             "mode": "count",
@@ -311,23 +320,64 @@
               {
                 "id": "65e5-1485-c2a9-8cc2",
                 "name": "Kill Team Intercessor w/ vengor launcher",
+                "displayName": "Kill Team Intercessors with vengor launchers",
                 "min": 0,
                 "max": 1,
-                "equippedWith": "Close combat weapon and Bolt pistol and Castellan Launcher and Vengor Launcher"
+                "equippedWith": "Close combat weapon, Bolt pistol, Castellan launcher and Vengor launcher"
               },
               {
                 "id": "ccfb-e995-308b-4b7a",
                 "name": "Kill Team Intercessor w/ superfrag missile launcher",
+                "displayName": "Kill Team Intercessors with superfrag rocket launchers",
                 "min": 0,
                 "max": 2,
-                "equippedWith": "Close combat weapon and Bolt pistol and Castellan Launcher"
-              },
-              {
-                "id": "0690-3f67-1f92-3968",
-                "name": "Kill Team Intercessor w/ superkrak missile launcher",
-                "min": 0,
-                "max": 2,
-                "equippedWith": "Close combat weapon and Bolt pistol and Castellan Launcher"
+                "equippedWith": "Bolt pistol, Castellan launcher, Close combat weapon and Superfrag rocket launcher",
+                "groups": [
+                  {
+                    "id": "c346-db09-castellan-pick",
+                    "name": "Castellan weapon",
+                    "min": 0,
+                    "max": 1,
+                    "mode": "single",
+                    "options": [
+                      {
+                        "id": "c346-superfrag-castellan",
+                        "name": "Superfrag rocket launcher",
+                        "min": 0,
+                        "max": 1
+                      },
+                      {
+                        "id": "c346-vengor-castellan",
+                        "name": "Vengor launcher",
+                        "min": 0,
+                        "max": 1
+                      }
+                    ],
+                    "defaultOptionId": "c346-superfrag-castellan"
+                  },
+                  {
+                    "id": "c346-db09-missile-pick",
+                    "name": "Missile",
+                    "min": 1,
+                    "max": 1,
+                    "mode": "single",
+                    "options": [
+                      {
+                        "id": "c346-superfrag-missile",
+                        "name": "Superfrag rocket launcher",
+                        "min": 0,
+                        "max": 1
+                      },
+                      {
+                        "id": "c346-superkrak-missile",
+                        "name": "Superkrak rocket launcher",
+                        "min": 0,
+                        "max": 1
+                      }
+                    ],
+                    "defaultOptionId": "c346-superfrag-missile"
+                  }
+                ]
               }
             ]
           }
@@ -388,63 +438,44 @@
               }
             ],
             "equippedWith": "Bolt pistol and Close combat weapon"
+          },
+          {
+            "id": "1ed9-356c-5051-e11d",
+            "name": "Kill Team Infiltrator w/ combat knife",
+            "min": 0,
+            "max": 4
+          },
+          {
+            "id": "9a84-da58-e70a-f057",
+            "name": "Kill Team Infiltrator w/ bolt carbine",
+            "min": 0,
+            "max": 4,
+            "equippedWith": "Close combat weapon"
+          },
+          {
+            "id": "b55d-e297-921b-9915",
+            "name": "Kill Team Infiltrator w/ instigator bolt carbine",
+            "min": 0,
+            "max": 1,
+            "equippedWith": "Bolt pistol and Close combat weapon"
+          },
+          {
+            "id": "e0ff-56bb-613d-802f",
+            "name": "Kill Team Infiltrator w/ las fusil",
+            "min": 0,
+            "max": 3,
+            "equippedWith": "Bolt pistol and Close combat weapon and Las fusil"
+          },
+          {
+            "id": "ca58-2c6d-1b85-bc76",
+            "name": "Kill Team Infiltrator w/ bolt sniper rifle",
+            "min": 0,
+            "max": 3,
+            "equippedWith": "Bolt pistol and Close combat weapon"
           }
         ],
         "defaultOptionId": "a39b-9d32-c3ee-a14f",
-        "groups": [
-          {
-            "id": "8cc2-90d1-c503-9e5e",
-            "name": "Kill Team Infiltrators w/ combat knives",
-            "min": 0,
-            "max": 4,
-            "mode": "count",
-            "options": [
-              {
-                "id": "1ed9-356c-5051-e11d",
-                "name": "Kill Team Infiltrator w/ combat knife",
-                "min": 0,
-                "max": 4
-              },
-              {
-                "id": "9a84-da58-e70a-f057",
-                "name": "Kill Team Infiltrator w/ bolt carbine",
-                "min": 0,
-                "max": 4,
-                "equippedWith": "Close combat weapon"
-              }
-            ]
-          },
-          {
-            "id": "284f-9201-42f6-f4f2",
-            "name": "Kill Team Infiltrators w/ bolt sniper rifles",
-            "min": 0,
-            "max": 3,
-            "mode": "count",
-            "options": [
-              {
-                "id": "b55d-e297-921b-9915",
-                "name": "Kill Team Infiltrator w/ instigator bolt carbine",
-                "min": 0,
-                "max": 1,
-                "equippedWith": "Bolt pistol and Close combat weapon"
-              },
-              {
-                "id": "e0ff-56bb-613d-802f",
-                "name": "Kill Team Infiltrator w/ las fusil",
-                "min": 0,
-                "max": 3,
-                "equippedWith": "Bolt pistol and Close combat weapon and Las fusil"
-              },
-              {
-                "id": "ca58-2c6d-1b85-bc76",
-                "name": "Kill Team Infiltrator w/ bolt sniper rifle",
-                "min": 0,
-                "max": 3,
-                "equippedWith": "Bolt pistol and Close combat weapon"
-              }
-            ]
-          }
-        ]
+        "groups": []
       }
     ]
   },
@@ -510,27 +541,141 @@
   "b169-ff89-b05e-3884": {
     "groups": [
       {
-        "id": "27aa-0757-7a11-2050",
-        "name": "Unit composition",
+        "id": "decimus-sergeant",
+        "name": "Kill Team Sergeant",
         "min": 1,
         "max": 1,
-        "mode": "single",
+        "mode": "fixed",
+        "fixedOptionId": "decimus-sergeant-model",
         "options": [
           {
-            "id": "dc49-0e3b-208b-c2ad",
-            "name": "5 models",
+            "id": "decimus-sergeant-model",
+            "name": "Kill Team Sergeant",
+            "displayName": "Kill Team Sergeant",
+            "min": 1,
+            "max": 1,
+            "equippedWith": "Plasma pistol and Power weapon",
+            "groups": [
+              {
+                "id": "decimus-sergeant-wargear",
+                "name": "Wargear",
+                "min": 1,
+                "max": 1,
+                "mode": "single",
+                "options": [
+                  {
+                    "id": "decimus-sg-default",
+                    "name": "Plasma pistol and Power weapon",
+                    "min": 0,
+                    "max": 1
+                  }
+                ],
+                "defaultOptionId": "decimus-sg-default"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "decimus-gravis",
+        "name": "Gravis Veterans",
+        "min": 1,
+        "max": 2,
+        "mode": "count",
+        "options": [
+          {
+            "id": "decimus-gravis-model",
+            "name": "Gravis Veteran",
+            "displayName": "Gravis Veteran",
+            "min": 1,
+            "max": 2,
+            "equippedWith": "Infernus heavy bolter, bolt pistol and close combat weapon",
+            "groups": [
+              {
+                "id": "decimus-gravis-replace",
+                "name": "Weapon replacement",
+                "min": 0,
+                "max": 1,
+                "mode": "single",
+                "hint": "For every 5 models in this unit, up to 1 model's infernus heavy bolter can be replaced with one of the following.",
+                "options": [
+                  {
+                    "id": "decimus-gravis-frag",
+                    "name": "Frag cannon",
+                    "min": 0,
+                    "max": 1
+                  },
+                  {
+                    "id": "decimus-gravis-hellstorm",
+                    "name": "Hellstorm bolt rifle and grenade launcher",
+                    "min": 0,
+                    "max": 1
+                  }
+                ],
+                "defaultOptionId": "decimus-gravis-frag"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "decimus-veterans",
+        "name": "Deathwatch Veterans",
+        "min": 3,
+        "max": 7,
+        "mode": "count",
+        "options": [
+          {
+            "id": "decimus-vet-stalker",
+            "name": "Deathwatch Veteran w/ stalker bolt rifle",
+            "displayName": "Deathwatch Veteran with stalker bolt rifle",
             "min": 0,
-            "max": 99,
-            "equippedWith": "Deathwatch Veteran w/ stalker bolt rifle and Deathwatch Veteran w/ heavy thunder hammer and Deathwatch Veteran w/ carbine and Gravis Veteran w/ infernus heavy bolter"
+            "max": 2,
+            "equippedWith": "Stalker bolt rifle, bolt pistol and close combat weapon"
           },
           {
-            "id": "7065-df9c-4dff-aa9a",
-            "name": "10 models",
+            "id": "decimus-vet-hammer",
+            "name": "Deathwatch Veteran w/ heavy thunder hammer",
+            "displayName": "Deathwatch Veteran with heavy thunder hammer",
             "min": 0,
-            "max": 99
+            "max": 2,
+            "equippedWith": "Bolt pistol and Heavy thunder hammer"
+          },
+          {
+            "id": "decimus-vet-carbine",
+            "name": "Deathwatch Veteran w/ marksman bolt carbine",
+            "displayName": "Deathwatch Veteran with Deathwatch marksman bolt carbine",
+            "min": 0,
+            "max": 2,
+            "equippedWith": "Deathwatch marksman bolt carbine, special-issue bolt pistol and close combat weapon",
+            "groups": [
+              {
+                "id": "decimus-carbine-replace",
+                "name": "Replacement",
+                "min": 0,
+                "max": 1,
+                "mode": "count",
+                "hint": "For every 5 models in this unit, up to 1 model's Deathwatch marksman bolt carbine can be replaced with 1 combat knife.",
+                "options": [
+                  {
+                    "id": "decimus-vet-knife",
+                    "name": "Combat knife",
+                    "min": 0,
+                    "max": 1
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "decimus-vet-xenophase",
+            "name": "Deathwatch Veteran w/ xenophase blade",
+            "displayName": "Deathwatch Veteran with xenophase blade",
+            "min": 0,
+            "max": 1,
+            "equippedWith": "Special-issue bolt pistol and Xenophase blade"
           }
-        ],
-        "defaultOptionId": "dc49-0e3b-208b-c2ad"
+        ]
       }
     ]
   },

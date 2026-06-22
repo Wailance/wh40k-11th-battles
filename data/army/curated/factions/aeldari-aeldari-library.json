@@ -567,8 +567,33 @@
         "LD": "6+",
         "OC": "1"
       },
-      "rangedWeapons": [],
-      "meleeWeapons": [],
+      "rangedWeapons": [
+        {
+          "name": "Shuriken Pistol",
+          "range": "12\"",
+          "A": "1",
+          "BS": "3+",
+          "S": "4",
+          "AP": "-1",
+          "D": "1",
+          "keywords": [
+            "Assault",
+            "Pistol"
+          ]
+        }
+      ],
+      "meleeWeapons": [
+        {
+          "name": "Star Glaive",
+          "range": "Melee",
+          "A": "4",
+          "WS": "2+",
+          "S": "6",
+          "AP": "-3",
+          "D": "3",
+          "keywords": []
+        }
+      ],
       "abilities": [
         {
           "name": "Superlative Strategist",
@@ -1023,8 +1048,33 @@
         "LD": "6+",
         "OC": "1"
       },
-      "rangedWeapons": [],
-      "meleeWeapons": [],
+      "rangedWeapons": [
+        {
+          "name": "Shuriken Pistol",
+          "range": "12\"",
+          "A": "1",
+          "BS": "3+",
+          "S": "4",
+          "AP": "-1",
+          "D": "1",
+          "keywords": [
+            "Assault",
+            "Pistol"
+          ]
+        }
+      ],
+      "meleeWeapons": [
+        {
+          "name": "Star Glaive",
+          "range": "Melee",
+          "A": "4",
+          "WS": "2+",
+          "S": "6",
+          "AP": "-3",
+          "D": "3",
+          "keywords": []
+        }
+      ],
       "abilities": [
         {
           "name": "Path of Command",
@@ -1484,7 +1534,7 @@
       ],
       "meleeWeapons": [
         {
-          "name": "➤ The Wailing Doom - Strike",
+          "name": "The Wailing Doom - Strike",
           "range": "Melee",
           "A": "6",
           "WS": "2+",
@@ -1494,7 +1544,7 @@
           "keywords": []
         },
         {
-          "name": "➤ The Wailing Doom - Sweep",
+          "name": "The Wailing Doom - Sweep",
           "range": "Melee",
           "A": "12",
           "WS": "2+",
@@ -1821,7 +1871,7 @@
       },
       "rangedWeapons": [
         {
-          "name": "➤ Reaper Launcher - Starshot",
+          "name": "Reaper Launcher - Starshot",
           "range": "48\"",
           "A": "1",
           "BS": "3+",
@@ -1833,7 +1883,7 @@
           ]
         },
         {
-          "name": "➤ Reaper Launcher - Starswarm",
+          "name": "Reaper Launcher - Starswarm",
           "range": "48\"",
           "A": "2",
           "BS": "3+",
@@ -1871,7 +1921,7 @@
           ]
         },
         {
-          "name": "➤ Missile Launcher - Starshot",
+          "name": "Missile Launcher - Starshot",
           "range": "48\"",
           "A": "1",
           "BS": "2+",
@@ -1883,7 +1933,7 @@
           ]
         },
         {
-          "name": "➤ Missile Launcher - Sunburst",
+          "name": "Missile Launcher - Sunburst",
           "range": "48\"",
           "A": "D6",
           "BS": "2+",
@@ -2851,7 +2901,7 @@
           "keywords": []
         },
         {
-          "name": "➤ Missile Launcher - Starshot",
+          "name": "Missile Launcher - Starshot",
           "range": "48\"",
           "A": "1",
           "BS": "3+",
@@ -2861,7 +2911,7 @@
           "keywords": []
         },
         {
-          "name": "➤ Missile Launcher - Sunburst",
+          "name": "Missile Launcher - Sunburst",
           "range": "48\"",
           "A": "D6",
           "BS": "3+",
@@ -4288,7 +4338,7 @@
       },
       "rangedWeapons": [
         {
-          "name": "➤ Prism Cannon - dispersed pulse",
+          "name": "Prism Cannon - dispersed pulse",
           "range": "60\"",
           "A": "2D6",
           "BS": "3+",
@@ -4300,7 +4350,7 @@
           ]
         },
         {
-          "name": "➤ Prism Cannon - focused lances",
+          "name": "Prism Cannon - focused lances",
           "range": "60\"",
           "A": "2",
           "BS": "3+",
@@ -4470,7 +4520,7 @@
       },
       "rangedWeapons": [
         {
-          "name": "➤ Searsong - Beam",
+          "name": "Searsong - Beam",
           "range": "12\"",
           "A": "3",
           "BS": "2+",
@@ -4484,7 +4534,7 @@
           ]
         },
         {
-          "name": "➤ Searsong - Lance",
+          "name": "Searsong - Lance",
           "range": "18\"",
           "A": "1",
           "BS": "2+",
@@ -4582,7 +4632,7 @@
           ]
         },
         {
-          "name": "➤ Missile Launcher - Starshot",
+          "name": "Missile Launcher - Starshot",
           "range": "48\"",
           "A": "1",
           "BS": "3+",
@@ -4592,7 +4642,7 @@
           "keywords": []
         },
         {
-          "name": "➤ Missile Launcher - Sunburst",
+          "name": "Missile Launcher - Sunburst",
           "range": "48\"",
           "A": "D6",
           "BS": "3+",
@@ -8659,7 +8709,7 @@
       "rangedWeapons": [],
       "meleeWeapons": [
         {
-          "name": "➤ Asu-var - quicksilver stance",
+          "name": "Asu-var - quicksilver stance",
           "range": "Melee",
           "A": "8",
           "WS": "2+",
@@ -8671,7 +8721,7 @@
           ]
         },
         {
-          "name": "➤ Asu-var - duellist stance",
+          "name": "Asu-var - duellist stance",
           "range": "Melee",
           "A": "6",
           "WS": "2+",
@@ -8684,7 +8734,7 @@
           ]
         },
         {
-          "name": "➤ Asu-var - mythic stance",
+          "name": "Asu-var - mythic stance",
           "range": "Melee",
           "A": "4",
           "WS": "2+",
@@ -8786,7 +8836,7 @@
       ],
       "meleeWeapons": [
         {
-          "name": "➤ Vilith-zhar - Strike",
+          "name": "Vilith-zhar - Strike",
           "range": "Melee",
           "A": "5",
           "WS": "2+",
@@ -8796,7 +8846,7 @@
           "keywords": []
         },
         {
-          "name": "➤ Vilith-zhar - Sweep",
+          "name": "Vilith-zhar - Sweep",
           "range": "Melee",
           "A": "10",
           "WS": "2+",
@@ -8861,7 +8911,21 @@
         "LD": "6+",
         "OC": "1"
       },
-      "rangedWeapons": [],
+      "rangedWeapons": [
+        {
+          "name": "Shuriken Pistol",
+          "range": "12\"",
+          "A": "1",
+          "BS": "3+",
+          "S": "4",
+          "AP": "-1",
+          "D": "1",
+          "keywords": [
+            "Assault",
+            "Pistol"
+          ]
+        }
+      ],
       "meleeWeapons": [],
       "abilities": [
         {
@@ -10802,7 +10866,7 @@
       "rangedWeapons": [],
       "meleeWeapons": [
         {
-          "name": "➤ Ghostglaive - Strike",
+          "name": "Ghostglaive - Strike",
           "range": "Melee",
           "A": "4",
           "WS": "4+",
@@ -10812,7 +10876,7 @@
           "keywords": []
         },
         {
-          "name": "➤ Ghostglaive - Sweep",
+          "name": "Ghostglaive - Sweep",
           "range": "Melee",
           "A": "8",
           "WS": "4+",
@@ -11417,8 +11481,36 @@
         "LD": "6+",
         "OC": "1"
       },
-      "rangedWeapons": [],
-      "meleeWeapons": [],
+      "rangedWeapons": [
+        {
+          "name": "Splinter pistol",
+          "range": "12\"",
+          "A": "1",
+          "BS": "3+",
+          "S": "2",
+          "AP": "0",
+          "D": "1",
+          "keywords": [
+            "Anti-Infantry 3+",
+            "Assault",
+            "Pistol"
+          ]
+        }
+      ],
+      "meleeWeapons": [
+        {
+          "name": "Huskblade",
+          "range": "Melee",
+          "A": "5",
+          "WS": "2+",
+          "S": "3",
+          "AP": "-2",
+          "D": "2",
+          "keywords": [
+            "Anti-Infantry 3+"
+          ]
+        }
+      ],
       "abilities": [
         {
           "name": "Leader",
@@ -12775,7 +12867,7 @@
       "rangedWeapons": [],
       "meleeWeapons": [
         {
-          "name": "➤ The Executioner's demiklaives - Dual Blades",
+          "name": "The Executioner's demiklaives - Dual Blades",
           "range": "Melee",
           "A": "8",
           "WS": "2+",
@@ -12787,7 +12879,7 @@
           ]
         },
         {
-          "name": "➤ The Executioner's demiklaives - Single Blade",
+          "name": "The Executioner's demiklaives - Single Blade",
           "range": "Melee",
           "A": "6",
           "WS": "2+",
@@ -13763,7 +13855,7 @@
           "keywords": []
         },
         {
-          "name": "➤ Demiklaives - Dual Blades",
+          "name": "Demiklaives - Dual Blades",
           "range": "Melee",
           "A": "6",
           "WS": "3+",
@@ -13773,7 +13865,7 @@
           "keywords": []
         },
         {
-          "name": "➤ Demiklaives - Single Blade",
+          "name": "Demiklaives - Single Blade",
           "range": "Melee",
           "A": "4",
           "WS": "3+",
@@ -14841,7 +14933,7 @@
       },
       "rangedWeapons": [
         {
-          "name": "➤ Razorwing Missiles - Monoscythe Missiles",
+          "name": "Razorwing Missiles - Monoscythe Missiles",
           "range": "48\"",
           "A": "D6",
           "BS": "3+",
@@ -14853,7 +14945,7 @@
           ]
         },
         {
-          "name": "➤ Razorwing Missiles - Neurotoxin Missiles",
+          "name": "Razorwing Missiles - Neurotoxin Missiles",
           "range": "48\"",
           "A": "D6+3",
           "BS": "3+",
@@ -14866,7 +14958,7 @@
           ]
         },
         {
-          "name": "➤ Razorwing Missiles - Shatterfield Missiles",
+          "name": "Razorwing Missiles - Shatterfield Missiles",
           "range": "48\"",
           "A": "D6",
           "BS": "3+",
@@ -16461,7 +16553,7 @@
       },
       "rangedWeapons": [
         {
-          "name": "➤ Voidraven Missiles -  Implosion Missiles",
+          "name": "Voidraven Missiles -  Implosion Missiles",
           "range": "48\"",
           "A": "D3",
           "BS": "3+",
@@ -16473,7 +16565,7 @@
           ]
         },
         {
-          "name": "➤ Voidraven Missiles - Shatterfield Missiles",
+          "name": "Voidraven Missiles - Shatterfield Missiles",
           "range": "48\"",
           "A": "D6",
           "BS": "3+",
@@ -17091,7 +17183,7 @@
           ]
         },
         {
-          "name": "➤ Aeldari missile launcher - starshot",
+          "name": "Aeldari missile launcher - starshot",
           "range": "48\"",
           "A": "1",
           "BS": "3+",
@@ -17101,7 +17193,7 @@
           "keywords": []
         },
         {
-          "name": "➤ Aeldari missile launcher - sunburst",
+          "name": "Aeldari missile launcher - sunburst",
           "range": "48\"",
           "A": "D6",
           "BS": "3+",
@@ -17314,7 +17406,7 @@
           ]
         },
         {
-          "name": "➤ Aeldari missile launcher - starshot",
+          "name": "Aeldari missile launcher - starshot",
           "range": "48\"",
           "A": "1",
           "BS": "3+",
@@ -17324,7 +17416,7 @@
           "keywords": []
         },
         {
-          "name": "➤ Aeldari missile launcher - sunburst",
+          "name": "Aeldari missile launcher - sunburst",
           "range": "48\"",
           "A": "D6",
           "BS": "3+",
@@ -17524,7 +17616,7 @@
       },
       "rangedWeapons": [
         {
-          "name": "➤ Aeldari Missile Launcher - Starshot",
+          "name": "Aeldari Missile Launcher - Starshot",
           "range": "48\"",
           "A": "1",
           "BS": "3+",
@@ -17534,7 +17626,7 @@
           "keywords": []
         },
         {
-          "name": "➤ Aeldari Missile Launcher - Sunburst",
+          "name": "Aeldari Missile Launcher - Sunburst",
           "range": "48\"",
           "A": "D6",
           "BS": "3+",
@@ -17816,7 +17908,7 @@
           ]
         },
         {
-          "name": "➤ Aeldari missile launcher - starshot",
+          "name": "Aeldari missile launcher - starshot",
           "range": "48\"",
           "A": "1",
           "BS": "3+",
@@ -17826,7 +17918,7 @@
           "keywords": []
         },
         {
-          "name": "➤ Aeldari missile launcher - sunburst",
+          "name": "Aeldari missile launcher - sunburst",
           "range": "48\"",
           "A": "D6",
           "BS": "3+",
@@ -18343,7 +18435,7 @@
       },
       "rangedWeapons": [
         {
-          "name": "➤ Prism Rifle - dispersed",
+          "name": "Prism Rifle - dispersed",
           "range": "18\"",
           "A": "D6",
           "BS": "3+",
@@ -18355,7 +18447,7 @@
           ]
         },
         {
-          "name": "➤ Prism Rifle - focused",
+          "name": "Prism Rifle - focused",
           "range": "24\"",
           "A": "1",
           "BS": "3+",
@@ -18868,7 +18960,7 @@
       },
       "rangedWeapons": [
         {
-          "name": "➤ D-Flail - blast",
+          "name": "D-Flail - blast",
           "range": "24\"",
           "A": "D3",
           "BS": "3+",
@@ -18881,7 +18973,7 @@
           ]
         },
         {
-          "name": "➤ D-Flail - rift",
+          "name": "D-Flail - rift",
           "range": "12\"",
           "A": "D3",
           "BS": "N/A",
@@ -19053,7 +19145,7 @@
       ],
       "meleeWeapons": [
         {
-          "name": "➤ Ghostspear - Strike",
+          "name": "Ghostspear - Strike",
           "range": "Melee",
           "A": "4",
           "WS": "4+",
@@ -19067,7 +19159,7 @@
           ]
         },
         {
-          "name": "➤ Ghostspear - Sweep",
+          "name": "Ghostspear - Sweep",
           "range": "Melee",
           "A": "12",
           "WS": "4+",
@@ -21095,7 +21187,7 @@
       },
       "rangedWeapons": [
         {
-          "name": "➤ Aeldari missile launcher - starshot",
+          "name": "Aeldari missile launcher - starshot",
           "range": "48\"",
           "A": "1",
           "BS": "3+",
@@ -21105,7 +21197,7 @@
           "keywords": []
         },
         {
-          "name": "➤ Aeldari missile launcher - sunburst",
+          "name": "Aeldari missile launcher - sunburst",
           "range": "48\"",
           "A": "D6",
           "BS": "3+",
@@ -21472,7 +21564,7 @@
       },
       "rangedWeapons": [
         {
-          "name": "➤ Storm vortex projector - beam",
+          "name": "Storm vortex projector - beam",
           "range": "36\"",
           "A": "3",
           "BS": "3+",
@@ -21482,7 +21574,7 @@
           "keywords": []
         },
         {
-          "name": "➤ Storm vortex projector - blast",
+          "name": "Storm vortex projector - blast",
           "range": "24\"",
           "A": "D6+3",
           "BS": "3+",
@@ -22459,7 +22551,7 @@
       },
       "rangedWeapons": [
         {
-          "name": "➤ Missile Launcher - Starshot",
+          "name": "Missile Launcher - Starshot",
           "range": "48\"",
           "A": "1",
           "BS": "3+",
@@ -22469,7 +22561,7 @@
           "keywords": []
         },
         {
-          "name": "➤ Missile Launcher - Sunburst",
+          "name": "Missile Launcher - Sunburst",
           "range": "48\"",
           "A": "D6",
           "BS": "3+",
@@ -23174,7 +23266,7 @@
       "rangedWeapons": [],
       "meleeWeapons": [
         {
-          "name": "➤ Titanic Ghostglaive - Strike",
+          "name": "Titanic Ghostglaive - Strike",
           "range": "Melee",
           "A": "5",
           "WS": "3+",
@@ -23184,7 +23276,7 @@
           "keywords": []
         },
         {
-          "name": "➤ Titanic Ghostglaive - Sweep",
+          "name": "Titanic Ghostglaive - Sweep",
           "range": "Melee",
           "A": "15",
           "WS": "3+",
@@ -23995,7 +24087,7 @@
           "keywords": []
         },
         {
-          "name": "➤ Demiklaives - Dual Blades",
+          "name": "Demiklaives - Dual Blades",
           "range": "Melee",
           "A": "6",
           "WS": "3+",
@@ -24007,7 +24099,7 @@
           ]
         },
         {
-          "name": "➤ Demiklaives - Single Blade",
+          "name": "Demiklaives - Single Blade",
           "range": "Melee",
           "A": "3",
           "WS": "3+",
@@ -26464,7 +26556,7 @@
           ]
         },
         {
-          "name": "➤ Demiklaives - Dual Blades",
+          "name": "Demiklaives - Dual Blades",
           "range": "Melee",
           "A": "6",
           "WS": "2+",
@@ -26474,7 +26566,7 @@
           "keywords": []
         },
         {
-          "name": "➤ Demiklaives - Single Blade",
+          "name": "Demiklaives - Single Blade",
           "range": "Melee",
           "A": "4",
           "WS": "2+",
@@ -26891,7 +26983,7 @@
           ]
         },
         {
-          "name": "➤ Demiklaives - Dual Blades",
+          "name": "Demiklaives - Dual Blades",
           "range": "Melee",
           "A": "6",
           "WS": "2+",
@@ -26901,7 +26993,7 @@
           "keywords": []
         },
         {
-          "name": "➤ Demiklaives - Single Blade",
+          "name": "Demiklaives - Single Blade",
           "range": "Melee",
           "A": "4",
           "WS": "2+",
@@ -27264,7 +27356,7 @@
           ]
         },
         {
-          "name": "➤ Missile Launcher - Starshot",
+          "name": "Missile Launcher - Starshot",
           "range": "48\"",
           "A": "1",
           "BS": "2+",
@@ -27274,7 +27366,7 @@
           "keywords": []
         },
         {
-          "name": "➤ Missile Launcher - Sunburst",
+          "name": "Missile Launcher - Sunburst",
           "range": "48\"",
           "A": "D6",
           "BS": "2+",
@@ -27286,7 +27378,7 @@
           ]
         },
         {
-          "name": "➤ Reaper Launcher - Starshot",
+          "name": "Reaper Launcher - Starshot",
           "range": "48\"",
           "A": "1",
           "BS": "3+",
@@ -27299,7 +27391,7 @@
           ]
         },
         {
-          "name": "➤ Reaper Launcher - Starswarm",
+          "name": "Reaper Launcher - Starswarm",
           "range": "48\"",
           "A": "2",
           "BS": "3+",
@@ -27445,7 +27537,7 @@
           "keywords": []
         },
         {
-          "name": "➤ Ghostglaive - Strike",
+          "name": "Ghostglaive - Strike",
           "range": "Melee",
           "A": "4",
           "WS": "4+",
@@ -27455,7 +27547,7 @@
           "keywords": []
         },
         {
-          "name": "➤ Ghostglaive - Sweep",
+          "name": "Ghostglaive - Sweep",
           "range": "Melee",
           "A": "8",
           "WS": "4+",
@@ -28135,7 +28227,7 @@
           ]
         },
         {
-          "name": "➤ Missile Launcher - Starshot",
+          "name": "Missile Launcher - Starshot",
           "range": "48\"",
           "A": "1",
           "BS": "2+",
@@ -28145,7 +28237,7 @@
           "keywords": []
         },
         {
-          "name": "➤ Missile Launcher - Sunburst",
+          "name": "Missile Launcher - Sunburst",
           "range": "48\"",
           "A": "D6",
           "BS": "2+",
@@ -28157,7 +28249,7 @@
           ]
         },
         {
-          "name": "➤ Reaper Launcher - Starshot",
+          "name": "Reaper Launcher - Starshot",
           "range": "48\"",
           "A": "1",
           "BS": "3+",
@@ -28170,7 +28262,7 @@
           ]
         },
         {
-          "name": "➤ Reaper Launcher - Starswarm",
+          "name": "Reaper Launcher - Starswarm",
           "range": "48\"",
           "A": "2",
           "BS": "3+",
@@ -28316,7 +28408,7 @@
           "keywords": []
         },
         {
-          "name": "➤ Ghostglaive - Strike",
+          "name": "Ghostglaive - Strike",
           "range": "Melee",
           "A": "4",
           "WS": "4+",
@@ -28326,7 +28418,7 @@
           "keywords": []
         },
         {
-          "name": "➤ Ghostglaive - Sweep",
+          "name": "Ghostglaive - Sweep",
           "range": "Melee",
           "A": "8",
           "WS": "4+",
@@ -28715,7 +28807,7 @@
           ]
         },
         {
-          "name": "➤ Missile Launcher - Starshot",
+          "name": "Missile Launcher - Starshot",
           "range": "48\"",
           "A": "1",
           "BS": "2+",
@@ -28725,7 +28817,7 @@
           "keywords": []
         },
         {
-          "name": "➤ Missile Launcher - Sunburst",
+          "name": "Missile Launcher - Sunburst",
           "range": "48\"",
           "A": "D6",
           "BS": "2+",
@@ -28737,7 +28829,7 @@
           ]
         },
         {
-          "name": "➤ Reaper Launcher - Starshot",
+          "name": "Reaper Launcher - Starshot",
           "range": "48\"",
           "A": "1",
           "BS": "3+",
@@ -28750,7 +28842,7 @@
           ]
         },
         {
-          "name": "➤ Reaper Launcher - Starswarm",
+          "name": "Reaper Launcher - Starswarm",
           "range": "48\"",
           "A": "2",
           "BS": "3+",
@@ -28896,7 +28988,7 @@
           "keywords": []
         },
         {
-          "name": "➤ Ghostglaive - Strike",
+          "name": "Ghostglaive - Strike",
           "range": "Melee",
           "A": "4",
           "WS": "4+",
@@ -28906,7 +28998,7 @@
           "keywords": []
         },
         {
-          "name": "➤ Ghostglaive - Sweep",
+          "name": "Ghostglaive - Sweep",
           "range": "Melee",
           "A": "8",
           "WS": "4+",

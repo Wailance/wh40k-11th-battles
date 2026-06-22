@@ -26,7 +26,20 @@
         "OC": "5"
       },
       "rangedWeapons": [],
-      "meleeWeapons": [],
+      "meleeWeapons": [
+        {
+          "name": "Massive scything talons",
+          "range": "Melee",
+          "A": "10",
+          "WS": "3+",
+          "S": "9",
+          "AP": "-2",
+          "D": "3",
+          "keywords": [
+            "Twin-linked"
+          ]
+        }
+      ],
       "abilities": [
         {
           "name": "Spawn Termagants",
@@ -235,7 +248,7 @@
       "rangedWeapons": [],
       "meleeWeapons": [
         {
-          "name": "➤ Old One Eye’s claws and talons - Strike",
+          "name": "Old One Eye’s claws and talons - Strike",
           "range": "Melee",
           "A": "6",
           "WS": "3+",
@@ -245,7 +258,7 @@
           "keywords": []
         },
         {
-          "name": "➤ Old One Eye’s claws and talons - Sweep",
+          "name": "Old One Eye’s claws and talons - Sweep",
           "range": "Melee",
           "A": "12",
           "WS": "3+",
@@ -771,7 +784,7 @@
       "rangedWeapons": [],
       "meleeWeapons": [
         {
-          "name": "➤ Massive scything talons - strike",
+          "name": "Massive scything talons - strike",
           "range": "Melee",
           "A": "3",
           "WS": "3+",
@@ -781,7 +794,7 @@
           "keywords": []
         },
         {
-          "name": "➤ Massive scything talons - sweep",
+          "name": "Massive scything talons - sweep",
           "range": "Melee",
           "A": "6",
           "WS": "3+",
@@ -1133,7 +1146,7 @@
       },
       "rangedWeapons": [
         {
-          "name": "➤ Warp blast - witchfire",
+          "name": "Warp blast - witchfire",
           "range": "24\"",
           "A": "D3",
           "BS": "3+",
@@ -1146,7 +1159,7 @@
           ]
         },
         {
-          "name": "➤ Warp blast - focused witchfire",
+          "name": "Warp blast - focused witchfire",
           "range": "24\"",
           "A": "1",
           "BS": "3+",
@@ -2624,7 +2637,7 @@
       },
       "rangedWeapons": [
         {
-          "name": "➤ Psychic tendril - neuroparasite",
+          "name": "Psychic tendril - neuroparasite",
           "range": "18\"",
           "A": "2",
           "BS": "2+",
@@ -2637,7 +2650,7 @@
           ]
         },
         {
-          "name": "➤ Psychic tendril - neurolance",
+          "name": "Psychic tendril - neurolance",
           "range": "18\"",
           "A": "2",
           "BS": "2+",
@@ -2650,7 +2663,7 @@
           ]
         },
         {
-          "name": "➤ Psychic tendril - neuroblast",
+          "name": "Psychic tendril - neuroblast",
           "range": "18\"",
           "A": "2D6",
           "BS": "2+",
@@ -2735,7 +2748,30 @@
         "OC": "3"
       },
       "rangedWeapons": [],
-      "meleeWeapons": [],
+      "meleeWeapons": [
+        {
+          "name": "Lash whip",
+          "range": "Melee",
+          "A": "8",
+          "WS": "2+",
+          "S": "4",
+          "AP": "-2",
+          "D": "1",
+          "keywords": [
+            "Extra Attacks"
+          ]
+        },
+        {
+          "name": "Monstrous scything talons",
+          "range": "Melee",
+          "A": "6",
+          "WS": "2+",
+          "S": "9",
+          "AP": "-2",
+          "D": "3",
+          "keywords": []
+        }
+      ],
       "abilities": [
         {
           "name": "Onslaught (Aura, Psychic)",

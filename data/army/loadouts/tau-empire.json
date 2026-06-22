@@ -996,33 +996,23 @@
             "min": 0,
             "max": 1,
             "equippedWith": "Semi-automatic grenade launcher and Pulse pistol and Close combat weapon"
-          }
-        ],
-        "groups": [
+          },
           {
-            "id": "164e-67ca-e0bb-4c42",
-            "name": "Special Weapons (0-3)",
+            "id": "bad1-a6d1-a65e-943b",
+            "name": "Pathfinders w/ ion rifle",
             "min": 0,
             "max": 3,
-            "mode": "count",
-            "options": [
-              {
-                "id": "bad1-a6d1-a65e-943b",
-                "name": "Pathfinders w/ ion rifle",
-                "min": 0,
-                "max": 3,
-                "equippedWith": "Pulse pistol and Close combat weapon"
-              },
-              {
-                "id": "68d2-39b6-1033-f3a",
-                "name": "Pathfinders w/ rail rifle",
-                "min": 0,
-                "max": 3,
-                "equippedWith": "Pulse pistol and Close combat weapon"
-              }
-            ]
+            "equippedWith": "Pulse pistol and Close combat weapon"
+          },
+          {
+            "id": "68d2-39b6-1033-f3a",
+            "name": "Pathfinders w/ rail rifle",
+            "min": 0,
+            "max": 3,
+            "equippedWith": "Pulse pistol and Close combat weapon"
           }
-        ]
+        ],
+        "groups": []
       },
       {
         "id": "f798-1e14-b4a9-c46a",

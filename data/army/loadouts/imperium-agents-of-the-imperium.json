@@ -7,7 +7,26 @@
         "min": 9,
         "max": 9,
         "mode": "count",
-        "options": [],
+        "options": [
+          {
+            "id": "2d7b-8d07-2575-7fd0",
+            "name": "Navis Armsman w/ power weapon",
+            "min": 0,
+            "max": 1
+          },
+          {
+            "id": "2cc6-4d63-c98-c04e",
+            "name": "Navis Armsman",
+            "min": 5,
+            "max": 7
+          },
+          {
+            "id": "daae-2f00-cc77-cf60",
+            "name": "Navis Armsman w/ chainfist",
+            "min": 0,
+            "max": 1
+          }
+        ],
         "groups": [
           {
             "id": "ee2d-f163-bc31-a90f-fixed",
@@ -63,34 +82,6 @@
                 "defaultOptionId": "3ac0-b913-12ed-b373"
               }
             ]
-          },
-          {
-            "id": "1962-3d66-fa86-e36f-squad",
-            "name": "Squad",
-            "min": 7,
-            "max": 7,
-            "mode": "count",
-            "options": [
-              {
-                "id": "2d7b-8d07-2575-7fd0",
-                "name": "Navis Armsman w/ power weapon",
-                "min": 0,
-                "max": 1
-              },
-              {
-                "id": "2cc6-4d63-c98-c04e",
-                "name": "Navis Armsman",
-                "min": 5,
-                "max": 7
-              },
-              {
-                "id": "daae-2f00-cc77-cf60",
-                "name": "Navis Armsman w/ chainfist",
-                "min": 0,
-                "max": 1
-              }
-            ],
-            "defaultOptionId": "2cc6-4d63-c98-c04e"
           }
         ]
       }
@@ -128,44 +119,34 @@
             "name": "Exaction Vigilant w/ shotgun",
             "min": 4,
             "max": 9
+          },
+          {
+            "id": "5763-7fb7-35d0-761",
+            "name": "Exaction Vigilant w/ grenade launcher",
+            "min": 0,
+            "max": 1
+          },
+          {
+            "id": "6f8c-21c9-dbea-b9b6",
+            "name": "Exaction Vigilant w/ executioner shotgun",
+            "min": 0,
+            "max": 1
+          },
+          {
+            "id": "75db-a547-7b64-143f",
+            "name": "Exaction Vigilant w/ heavy stubber",
+            "min": 0,
+            "max": 1
+          },
+          {
+            "id": "85c2-111a-656f-6cae",
+            "name": "Exaction Vigilant w/ webber",
+            "min": 0,
+            "max": 1
           }
         ],
         "defaultOptionId": "6f15-4f0f-1e02-1ec",
-        "groups": [
-          {
-            "id": "b215-d3fa-ba6b-3345",
-            "name": "Up to 2:",
-            "min": 0,
-            "max": 2,
-            "mode": "count",
-            "options": [
-              {
-                "id": "5763-7fb7-35d0-761",
-                "name": "Exaction Vigilant w/ grenade launcher",
-                "min": 0,
-                "max": 1
-              },
-              {
-                "id": "6f8c-21c9-dbea-b9b6",
-                "name": "Exaction Vigilant w/ executioner shotgun",
-                "min": 0,
-                "max": 1
-              },
-              {
-                "id": "75db-a547-7b64-143f",
-                "name": "Exaction Vigilant w/ heavy stubber",
-                "min": 0,
-                "max": 1
-              },
-              {
-                "id": "85c2-111a-656f-6cae",
-                "name": "Exaction Vigilant w/ webber",
-                "min": 0,
-                "max": 1
-              }
-            ]
-          }
-        ]
+        "groups": []
       }
     ]
   },
@@ -183,44 +164,34 @@
             "name": "Vigilant w/ shotgun",
             "min": 7,
             "max": 9
+          },
+          {
+            "id": "4ef2-72f5-ac3c-461b",
+            "name": "Vigilant w/ grenade launcher",
+            "min": 0,
+            "max": 1
+          },
+          {
+            "id": "d838-6a4c-d03-efb1",
+            "name": "Vigilant w/ executioner shotgun",
+            "min": 0,
+            "max": 1
+          },
+          {
+            "id": "cbe0-919d-1561-9014",
+            "name": "Vigilant w/ heavy stubber",
+            "min": 0,
+            "max": 1
+          },
+          {
+            "id": "b341-4dfb-52af-726e",
+            "name": "Vigilant w/ webber",
+            "min": 0,
+            "max": 1
           }
         ],
         "defaultOptionId": "6cb9-7ff6-5b56-b96d",
-        "groups": [
-          {
-            "id": "237a-34f3-c1df-693f",
-            "name": "Up to 2:",
-            "min": 0,
-            "max": 2,
-            "mode": "count",
-            "options": [
-              {
-                "id": "4ef2-72f5-ac3c-461b",
-                "name": "Vigilant w/ grenade launcher",
-                "min": 0,
-                "max": 1
-              },
-              {
-                "id": "d838-6a4c-d03-efb1",
-                "name": "Vigilant w/ executioner shotgun",
-                "min": 0,
-                "max": 1
-              },
-              {
-                "id": "cbe0-919d-1561-9014",
-                "name": "Vigilant w/ heavy stubber",
-                "min": 0,
-                "max": 1
-              },
-              {
-                "id": "b341-4dfb-52af-726e",
-                "name": "Vigilant w/ webber",
-                "min": 0,
-                "max": 1
-              }
-            ]
-          }
-        ]
+        "groups": []
       }
     ]
   },

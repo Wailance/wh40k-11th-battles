@@ -227,8 +227,44 @@
         "LD": "7+",
         "OC": "6"
       },
-      "rangedWeapons": [],
-      "meleeWeapons": [],
+      "rangedWeapons": [
+        {
+          "name": "Diabolus heavy stubber",
+          "range": "36\"",
+          "A": "3",
+          "BS": "2+",
+          "S": "5",
+          "AP": "0",
+          "D": "1",
+          "keywords": [
+            "Rapid Fire 3"
+          ]
+        },
+        {
+          "name": "Avenger chaincannon",
+          "range": "24\"",
+          "A": "12",
+          "BS": "3+",
+          "S": "6",
+          "AP": "-1",
+          "D": "1",
+          "keywords": []
+        }
+      ],
+      "meleeWeapons": [
+        {
+          "name": "Slaughterclaw",
+          "range": "Melee",
+          "A": "6",
+          "WS": "3+",
+          "S": "12",
+          "AP": "-3",
+          "D": "D6+2",
+          "keywords": [
+            "Sustained Hits 1"
+          ]
+        }
+      ],
       "abilities": [
         {
           "name": "Stalker",
@@ -842,7 +878,7 @@
       ],
       "meleeWeapons": [
         {
-          "name": "➤ Reaper chaintalon - strike",
+          "name": "Reaper chaintalon - strike",
           "range": "Melee",
           "A": "4",
           "WS": "3+",
@@ -852,7 +888,7 @@
           "keywords": []
         },
         {
-          "name": "➤ Reaper chaintalon - sweep",
+          "name": "Reaper chaintalon - sweep",
           "range": "Melee",
           "A": "8",
           "WS": "3+",
@@ -1487,7 +1523,7 @@
       ],
       "meleeWeapons": [
         {
-          "name": "➤ Reaper chainsword - strike",
+          "name": "Reaper chainsword - strike",
           "range": "Melee",
           "A": "6",
           "WS": "2+",
@@ -1499,7 +1535,7 @@
           ]
         },
         {
-          "name": "➤ Reaper chainsword - sweep",
+          "name": "Reaper chainsword - sweep",
           "range": "Melee",
           "A": "18",
           "WS": "2+",
@@ -1511,7 +1547,7 @@
           ]
         },
         {
-          "name": "➤ Warpstrike claw - strike",
+          "name": "Warpstrike claw - strike",
           "range": "Melee",
           "A": "6",
           "WS": "2+",
@@ -1523,7 +1559,7 @@
           ]
         },
         {
-          "name": "➤ Warpstrike claw - sweep",
+          "name": "Warpstrike claw - sweep",
           "range": "Melee",
           "A": "12",
           "WS": "2+",
@@ -2463,7 +2499,7 @@
       ],
       "meleeWeapons": [
         {
-          "name": "➤ Cerastus shock lance - strike",
+          "name": "Cerastus shock lance - strike",
           "range": "Melee",
           "A": "5",
           "WS": "2+",
@@ -2475,7 +2511,7 @@
           ]
         },
         {
-          "name": "➤ Cerastus shock lance - sweep",
+          "name": "Cerastus shock lance - sweep",
           "range": "Melee",
           "A": "10",
           "WS": "2+",
@@ -2697,7 +2733,7 @@
       ],
       "meleeWeapons": [
         {
-          "name": "➤ Tempest warblade - strike",
+          "name": "Tempest warblade - strike",
           "range": "Melee",
           "A": "4",
           "WS": "3+",
@@ -2707,7 +2743,7 @@
           "keywords": []
         },
         {
-          "name": "➤ Tempest warblade - sweep",
+          "name": "Tempest warblade - sweep",
           "range": "Melee",
           "A": "12",
           "WS": "3+",
@@ -2942,7 +2978,7 @@
       ],
       "meleeWeapons": [
         {
-          "name": "➤ Reaper chainfist - strike",
+          "name": "Reaper chainfist - strike",
           "range": "Melee",
           "A": "4",
           "WS": "3+",
@@ -2952,7 +2988,7 @@
           "keywords": []
         },
         {
-          "name": "➤ Reaper chainfist - sweep",
+          "name": "Reaper chainfist - sweep",
           "range": "Melee",
           "A": "12",
           "WS": "3+",
@@ -3160,7 +3196,7 @@
       },
       "rangedWeapons": [
         {
-          "name": "➤ Atrapos lascutter - low intensity",
+          "name": "Atrapos lascutter - low intensity",
           "range": "36\"",
           "A": "2D6",
           "BS": "3+",
@@ -3172,7 +3208,7 @@
           ]
         },
         {
-          "name": "➤ Atrapos lascutter - high intensity",
+          "name": "Atrapos lascutter - high intensity",
           "range": "24\"",
           "A": "D6",
           "BS": "3+",
@@ -3184,7 +3220,7 @@
           ]
         },
         {
-          "name": "➤ Graviton singularity cannon - contained",
+          "name": "Graviton singularity cannon - contained",
           "range": "24\"",
           "A": "D3",
           "BS": "3+",
@@ -3196,7 +3232,7 @@
           ]
         },
         {
-          "name": "➤ Graviton singularity cannon - singularity",
+          "name": "Graviton singularity cannon - singularity",
           "range": "24\"",
           "A": "D3",
           "BS": "3+",
@@ -3212,7 +3248,7 @@
       ],
       "meleeWeapons": [
         {
-          "name": "➤ Atrapos lascutter - low intensity",
+          "name": "Atrapos lascutter - low intensity",
           "range": "Melee",
           "A": "12",
           "WS": "3+",
@@ -3224,7 +3260,7 @@
           ]
         },
         {
-          "name": "➤ Atrapos lascutter - high intensity",
+          "name": "Atrapos lascutter - high intensity",
           "range": "Melee",
           "A": "6",
           "WS": "3+",
@@ -4102,7 +4138,7 @@
       ],
       "meleeWeapons": [
         {
-          "name": "➤ Fellbore - strike",
+          "name": "Fellbore - strike",
           "range": "Melee",
           "A": "4",
           "WS": "3+",
@@ -4115,7 +4151,7 @@
           ]
         },
         {
-          "name": "➤ Fellbore - sweep",
+          "name": "Fellbore - sweep",
           "range": "Melee",
           "A": "10",
           "WS": "3+",

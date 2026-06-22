@@ -185,7 +185,21 @@
         "min": 3,
         "max": 6,
         "mode": "count",
-        "options": [],
+        "options": [
+          {
+            "id": "b25b-5cf6-a398-dd27",
+            "name": "Ravenwing Black Knight",
+            "min": 2,
+            "max": 5
+          },
+          {
+            "id": "5b52-4d5d-a5cf-67c6",
+            "name": "Ravenwing Black Knight w/ Grenade Launcher",
+            "min": 0,
+            "max": 1,
+            "equippedWith": "Astartes grenade launcher"
+          }
+        ],
         "groups": [
           {
             "id": "4c15-1de7-973d-4c5-fixed",
@@ -200,28 +214,6 @@
                 "name": "Ravenwing Huntmaster",
                 "min": 1,
                 "max": 1
-              }
-            ]
-          },
-          {
-            "id": "e6a5-db4c-35be-c30-squad",
-            "name": "Squad",
-            "min": 2,
-            "max": 5,
-            "mode": "count",
-            "options": [
-              {
-                "id": "b25b-5cf6-a398-dd27",
-                "name": "Ravenwing Black Knight",
-                "min": 2,
-                "max": 5
-              },
-              {
-                "id": "5b52-4d5d-a5cf-67c6",
-                "name": "Ravenwing Black Knight w/ Grenade Launcher",
-                "min": 0,
-                "max": 1,
-                "equippedWith": "Astartes grenade launcher"
               }
             ]
           }
@@ -310,7 +302,91 @@
         "min": 5,
         "max": 10,
         "mode": "count",
-        "options": [],
+        "options": [
+          {
+            "id": "3396-82fa-d409-6b73",
+            "name": "Deathwing Terminator",
+            "min": 0,
+            "max": 9
+          },
+          {
+            "id": "c0d3-2410-24e2-ca36",
+            "name": "Deathwing Terminator w/ Chainfist",
+            "min": 0,
+            "max": 9
+          },
+          {
+            "id": "5e6d-5b97-f4b5-7cd9",
+            "name": "Deathwing Terminator w/ Heavy Weapon",
+            "min": 0,
+            "max": 1,
+            "groups": [
+              {
+                "id": "263b-cdd4-4c43-5d67",
+                "name": "Ranged Weapon",
+                "min": 1,
+                "max": 1,
+                "mode": "single",
+                "options": [
+                  {
+                    "id": "7b9-373e-2355-4be",
+                    "name": "Cyclone Missile Launcher & Storm Bolter",
+                    "min": 0,
+                    "max": 1,
+                    "equippedWith": "Cyclone missile launcher and Storm Bolter"
+                  },
+                  {
+                    "id": "c8bf-b585-9ca0-26da",
+                    "name": "Plasma cannon",
+                    "min": 0,
+                    "max": 1
+                  },
+                  {
+                    "id": "b229-fd7e-206e-e9ad",
+                    "name": "Assault cannon",
+                    "min": 0,
+                    "max": 1
+                  },
+                  {
+                    "id": "5bd3-343d-420f-32d3",
+                    "name": "Heavy Flamer",
+                    "min": 0,
+                    "max": 1
+                  },
+                  {
+                    "id": "8a70-bda3-1248-800c",
+                    "name": "Storm Bolter",
+                    "min": 0,
+                    "max": 1
+                  }
+                ],
+                "defaultOptionId": "8d41-a5bb-150b-1230"
+              },
+              {
+                "id": "fba4-75c7-84da-bcb4",
+                "name": "Melee Weapon",
+                "min": 1,
+                "max": 1,
+                "mode": "single",
+                "options": [
+                  {
+                    "id": "bef-1df5-dd8b-93fe",
+                    "name": "Power Fist",
+                    "min": 0,
+                    "max": 1
+                  },
+                  {
+                    "id": "5f78-8439-35f4-89e",
+                    "name": "Chainfist",
+                    "min": 0,
+                    "max": 1
+                  }
+                ],
+                "defaultOptionId": "bef-1df5-dd8b-93fe"
+              }
+            ]
+          }
+        ],
         "groups": [
           {
             "id": "c9d2-663-3baa-10f6-fixed",
@@ -327,99 +403,6 @@
                 "max": 1
               }
             ]
-          },
-          {
-            "id": "e082-9cb8-ce5e-826d-squad",
-            "name": "Squad",
-            "min": 4,
-            "max": 9,
-            "mode": "count",
-            "options": [
-              {
-                "id": "3396-82fa-d409-6b73",
-                "name": "Deathwing Terminator",
-                "min": 0,
-                "max": 9
-              },
-              {
-                "id": "c0d3-2410-24e2-ca36",
-                "name": "Deathwing Terminator w/ Chainfist",
-                "min": 0,
-                "max": 9
-              },
-              {
-                "id": "5e6d-5b97-f4b5-7cd9",
-                "name": "Deathwing Terminator w/ Heavy Weapon",
-                "min": 0,
-                "max": 1,
-                "groups": [
-                  {
-                    "id": "263b-cdd4-4c43-5d67",
-                    "name": "Ranged Weapon",
-                    "min": 1,
-                    "max": 1,
-                    "mode": "single",
-                    "options": [
-                      {
-                        "id": "7b9-373e-2355-4be",
-                        "name": "Cyclone Missile Launcher & Storm Bolter",
-                        "min": 0,
-                        "max": 1,
-                        "equippedWith": "Cyclone missile launcher and Storm Bolter"
-                      },
-                      {
-                        "id": "c8bf-b585-9ca0-26da",
-                        "name": "Plasma cannon",
-                        "min": 0,
-                        "max": 1
-                      },
-                      {
-                        "id": "b229-fd7e-206e-e9ad",
-                        "name": "Assault cannon",
-                        "min": 0,
-                        "max": 1
-                      },
-                      {
-                        "id": "5bd3-343d-420f-32d3",
-                        "name": "Heavy Flamer",
-                        "min": 0,
-                        "max": 1
-                      },
-                      {
-                        "id": "8a70-bda3-1248-800c",
-                        "name": "Storm Bolter",
-                        "min": 0,
-                        "max": 1
-                      }
-                    ],
-                    "defaultOptionId": "8d41-a5bb-150b-1230"
-                  },
-                  {
-                    "id": "fba4-75c7-84da-bcb4",
-                    "name": "Melee Weapon",
-                    "min": 1,
-                    "max": 1,
-                    "mode": "single",
-                    "options": [
-                      {
-                        "id": "bef-1df5-dd8b-93fe",
-                        "name": "Power Fist",
-                        "min": 0,
-                        "max": 1
-                      },
-                      {
-                        "id": "5f78-8439-35f4-89e",
-                        "name": "Chainfist",
-                        "min": 0,
-                        "max": 1
-                      }
-                    ],
-                    "defaultOptionId": "bef-1df5-dd8b-93fe"
-                  }
-                ]
-              }
-            ],
-            "defaultOptionId": "3396-82fa-d409-6b73"
           }
         ]
       }
@@ -546,7 +529,110 @@
         "min": 5,
         "max": 10,
         "mode": "count",
-        "options": [],
+        "options": [
+          {
+            "id": "3897-8ee2-1345-3319",
+            "name": "Deathwing Command Terminator",
+            "min": 0,
+            "max": 7
+          },
+          {
+            "id": "ffc1-7bdd-dcf-ed1d",
+            "name": "Deathwing Terminator w/ Chainfist",
+            "min": 0,
+            "max": 7
+          },
+          {
+            "id": "e071-2ee4-6341-a477",
+            "name": "Deathwing Terminator w/ Heavy Weapon",
+            "min": 0,
+            "max": 1,
+            "groups": [
+              {
+                "id": "aa80-402e-3076-bf8d",
+                "name": "Ranged Weapon",
+                "min": 1,
+                "max": 1,
+                "mode": "single",
+                "options": [
+                  {
+                    "id": "ea88-80d2-4da7-a69a",
+                    "name": "Cyclone Missile Launcher & Storm Bolter",
+                    "min": 0,
+                    "max": 1,
+                    "equippedWith": "Storm Bolter and Cyclone missile launcher"
+                  },
+                  {
+                    "id": "6884-01ac-86e6-30af",
+                    "name": "Assault cannon",
+                    "min": 0,
+                    "max": 1
+                  },
+                  {
+                    "id": "eb98-ef03-8833-fdd8",
+                    "name": "Heavy Flamer",
+                    "min": 0,
+                    "max": 1
+                  },
+                  {
+                    "id": "658a-7cbf-5815-9d2a",
+                    "name": "Plasma cannon",
+                    "min": 0,
+                    "max": 1
+                  },
+                  {
+                    "id": "f112-e300-a2ec-d614",
+                    "name": "Storm Bolter",
+                    "min": 0,
+                    "max": 1
+                  }
+                ],
+                "defaultOptionId": "6399-da3e-f8d0-2dd0"
+              },
+              {
+                "id": "8d7b-581-aff8-e416",
+                "name": "Melee Weapon",
+                "min": 1,
+                "max": 1,
+                "mode": "single",
+                "options": [
+                  {
+                    "id": "a0ce-6249-a8f9-8266",
+                    "name": "Power Fist",
+                    "min": 0,
+                    "max": 1
+                  },
+                  {
+                    "id": "ef63-4feb-9458-a76a",
+                    "name": "Chainfist",
+                    "min": 0,
+                    "max": 1
+                  }
+                ],
+                "defaultOptionId": "a0ce-6249-a8f9-8266"
+              }
+            ]
+          },
+          {
+            "id": "bb37-3df9-79fc-b803",
+            "name": "Deathwing Command Terminator w/ Power Weapon",
+            "min": 0,
+            "max": 1
+          },
+          {
+            "id": "aa7b-1361-4675-2db7",
+            "name": "Deathwing Command Terminator w/ Twin Claws",
+            "min": 0,
+            "max": 7,
+            "equippedWith": "Twin Lightning Claws"
+          },
+          {
+            "id": "bcaf-2b03-9b57-809d",
+            "name": "Deathwing Command Terminator w/ Hammer & Shield",
+            "min": 0,
+            "max": 7
+          }
+        ],
         "groups": [
           {
             "id": "83cb-e380-e3a7-320e-fixed",
@@ -595,118 +681,6 @@
                 "max": 1
               }
             ]
-          },
-          {
-            "id": "bfe0-e0c8-773b-e03b-squad",
-            "name": "Squad",
-            "min": 2,
-            "max": 7,
-            "mode": "count",
-            "options": [
-              {
-                "id": "3897-8ee2-1345-3319",
-                "name": "Deathwing Command Terminator",
-                "min": 0,
-                "max": 7
-              },
-              {
-                "id": "ffc1-7bdd-dcf-ed1d",
-                "name": "Deathwing Terminator w/ Chainfist",
-                "min": 0,
-                "max": 7
-              },
-              {
-                "id": "e071-2ee4-6341-a477",
-                "name": "Deathwing Terminator w/ Heavy Weapon",
-                "min": 0,
-                "max": 1,
-                "groups": [
-                  {
-                    "id": "aa80-402e-3076-bf8d",
-                    "name": "Ranged Weapon",
-                    "min": 1,
-                    "max": 1,
-                    "mode": "single",
-                    "options": [
-                      {
-                        "id": "ea88-80d2-4da7-a69a",
-                        "name": "Cyclone Missile Launcher & Storm Bolter",
-                        "min": 0,
-                        "max": 1,
-                        "equippedWith": "Storm Bolter and Cyclone missile launcher"
-                      },
-                      {
-                        "id": "6884-01ac-86e6-30af",
-                        "name": "Assault cannon",
-                        "min": 0,
-                        "max": 1
-                      },
-                      {
-                        "id": "eb98-ef03-8833-fdd8",
-                        "name": "Heavy Flamer",
-                        "min": 0,
-                        "max": 1
-                      },
-                      {
-                        "id": "658a-7cbf-5815-9d2a",
-                        "name": "Plasma cannon",
-                        "min": 0,
-                        "max": 1
-                      },
-                      {
-                        "id": "f112-e300-a2ec-d614",
-                        "name": "Storm Bolter",
-                        "min": 0,
-                        "max": 1
-                      }
-                    ],
-                    "defaultOptionId": "6399-da3e-f8d0-2dd0"
-                  },
-                  {
-                    "id": "8d7b-581-aff8-e416",
-                    "name": "Melee Weapon",
-                    "min": 1,
-                    "max": 1,
-                    "mode": "single",
-                    "options": [
-                      {
-                        "id": "a0ce-6249-a8f9-8266",
-                        "name": "Power Fist",
-                        "min": 0,
-                        "max": 1
-                      },
-                      {
-                        "id": "ef63-4feb-9458-a76a",
-                        "name": "Chainfist",
-                        "min": 0,
-                        "max": 1
-                      }
-                    ],
-                    "defaultOptionId": "a0ce-6249-a8f9-8266"
-                  }
-                ]
-              },
-              {
-                "id": "bb37-3df9-79fc-b803",
-                "name": "Deathwing Command Terminator w/ Power Weapon",
-                "min": 0,
-                "max": 1
-              },
-              {
-                "id": "aa7b-1361-4675-2db7",
-                "name": "Deathwing Command Terminator w/ Twin Claws",
-                "min": 0,
-                "max": 7,
-                "equippedWith": "Twin Lightning Claws"
-              },
-              {
-                "id": "bcaf-2b03-9b57-809d",
-                "name": "Deathwing Command Terminator w/ Hammer & Shield",
-                "min": 0,
-                "max": 7
-              }
-            ],
-            "defaultOptionId": "3897-8ee2-1345-3319"
           }
         ]
       }

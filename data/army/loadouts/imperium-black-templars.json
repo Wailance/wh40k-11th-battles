@@ -1106,7 +1106,52 @@
         "min": 5,
         "max": 10,
         "mode": "count",
-        "options": [],
+        "options": [
+          {
+            "id": "26ce-cb2b-7a9b-b2c6",
+            "name": "Sternguard Veteran w/ Bolt Rifle",
+            "min": 0,
+            "max": 9,
+            "equippedWith": "Sternguard Bolt Rifle and Close combat weapon"
+          },
+          {
+            "id": "4ea5-5b69-8543-9af3",
+            "name": "Sternguard Veteran w/ Special Weapon",
+            "min": 0,
+            "max": 1,
+            "groups": [
+              {
+                "id": "17f4-c25b-803a-6b53",
+                "name": "Weapon Option",
+                "min": 1,
+                "max": 1,
+                "mode": "single",
+                "options": [
+                  {
+                    "id": "7e09-b7fb-14d7-4217",
+                    "name": "Pyrecannon",
+                    "min": 0,
+                    "max": 99
+                  },
+                  {
+                    "id": "4b0a-8837-1c88-fb00",
+                    "name": "Sternguard Heavy Bolter",
+                    "min": 0,
+                    "max": 99
+                  }
+                ]
+              }
+            ],
+            "equippedWith": "Close combat weapon"
+          },
+          {
+            "id": "cea5-8e9b-e115-a293",
+            "name": "Sternguard Veteran w/ Combi-weapon",
+            "min": 0,
+            "max": 9,
+            "equippedWith": "Combi-weapon and Close combat weapon"
+          }
+        ],
         "groups": [
           {
             "id": "17d3-c73e-ed8b-f5b0-fixed",
@@ -1167,60 +1212,6 @@
                 ]
               }
             ]
-          },
-          {
-            "id": "a14d-5fc3-6d6f-56bd-squad",
-            "name": "Squad",
-            "min": 4,
-            "max": 9,
-            "mode": "count",
-            "options": [
-              {
-                "id": "26ce-cb2b-7a9b-b2c6",
-                "name": "Sternguard Veteran w/ Bolt Rifle",
-                "min": 0,
-                "max": 9,
-                "equippedWith": "Sternguard Bolt Rifle and Close combat weapon"
-              },
-              {
-                "id": "4ea5-5b69-8543-9af3",
-                "name": "Sternguard Veteran w/ Special Weapon",
-                "min": 0,
-                "max": 1,
-                "groups": [
-                  {
-                    "id": "17f4-c25b-803a-6b53",
-                    "name": "Weapon Option",
-                    "min": 1,
-                    "max": 1,
-                    "mode": "single",
-                    "options": [
-                      {
-                        "id": "7e09-b7fb-14d7-4217",
-                        "name": "Pyrecannon",
-                        "min": 0,
-                        "max": 99
-                      },
-                      {
-                        "id": "4b0a-8837-1c88-fb00",
-                        "name": "Sternguard Heavy Bolter",
-                        "min": 0,
-                        "max": 99
-                      }
-                    ]
-                  }
-                ],
-                "equippedWith": "Close combat weapon"
-              },
-              {
-                "id": "cea5-8e9b-e115-a293",
-                "name": "Sternguard Veteran w/ Combi-weapon",
-                "min": 0,
-                "max": 9,
-                "equippedWith": "Combi-weapon and Close combat weapon"
-              }
-            ],
-            "defaultOptionId": "5700-4122-349a-e5da"
           }
         ]
       }
@@ -1234,7 +1225,80 @@
         "min": 5,
         "max": 10,
         "mode": "count",
-        "options": [],
+        "options": [
+          {
+            "id": "6595-1cf4-cefb-3621",
+            "name": "Terminator w/ Power Fist",
+            "min": 0,
+            "max": 9,
+            "equippedWith": "Power fist and Storm bolter"
+          },
+          {
+            "id": "ce2a-a7d6-ed01-aaf3",
+            "name": "Terminator w/ Chain Fist",
+            "min": 0,
+            "max": 9,
+            "equippedWith": "Storm bolter and Chainfist"
+          },
+          {
+            "id": "21e4-5f17-9fed-f014",
+            "name": "Terminator w/ Heavy Weapon",
+            "min": 0,
+            "max": 1,
+            "groups": [
+              {
+                "id": "47f4-78ba-ddd6-dd35",
+                "name": "Ranged Weapon Option",
+                "min": 1,
+                "max": 1,
+                "mode": "single",
+                "options": [
+                  {
+                    "id": "b5e7-915a-2cf6-96e6",
+                    "name": "Cyclone Missile Launcher & Storm Bolter",
+                    "min": 0,
+                    "max": 99,
+                    "equippedWith": "Storm bolter and Cyclone missile launcher"
+                  },
+                  {
+                    "id": "cecd-d581-d818-32dd",
+                    "name": "Heavy Flamer",
+                    "min": 0,
+                    "max": 99
+                  },
+                  {
+                    "id": "05f4-c307-7613-4b6c",
+                    "name": "Assault Cannon",
+                    "min": 0,
+                    "max": 99
+                  }
+                ]
+              },
+              {
+                "id": "191c-6b37-f667-1321",
+                "name": "Melee Weapon Option",
+                "min": 1,
+                "max": 1,
+                "mode": "single",
+                "options": [
+                  {
+                    "id": "2091-913a-2894-0d9f",
+                    "name": "Power Fist",
+                    "min": 0,
+                    "max": 99
+                  },
+                  {
+                    "id": "89e7-7bff-ade0-ebf7",
+                    "name": "Chainfist",
+                    "min": 0,
+                    "max": 99
+                  }
+                ],
+                "defaultOptionId": "e5be-2982-e40f-d95c"
+              }
+            ]
+          }
+        ],
         "groups": [
           {
             "id": "7192-aac9-a0c5-8325-fixed",
@@ -1274,88 +1338,6 @@
                 "defaultOptionId": "7227-b99b-6f6e-d8ee"
               }
             ]
-          },
-          {
-            "id": "57c1-cad8-095d-71a0-squad",
-            "name": "Squad",
-            "min": 4,
-            "max": 9,
-            "mode": "count",
-            "options": [
-              {
-                "id": "6595-1cf4-cefb-3621",
-                "name": "Terminator w/ Power Fist",
-                "min": 0,
-                "max": 9,
-                "equippedWith": "Power fist and Storm bolter"
-              },
-              {
-                "id": "ce2a-a7d6-ed01-aaf3",
-                "name": "Terminator w/ Chain Fist",
-                "min": 0,
-                "max": 9,
-                "equippedWith": "Storm bolter and Chainfist"
-              },
-              {
-                "id": "21e4-5f17-9fed-f014",
-                "name": "Terminator w/ Heavy Weapon",
-                "min": 0,
-                "max": 1,
-                "groups": [
-                  {
-                    "id": "47f4-78ba-ddd6-dd35",
-                    "name": "Ranged Weapon Option",
-                    "min": 1,
-                    "max": 1,
-                    "mode": "single",
-                    "options": [
-                      {
-                        "id": "b5e7-915a-2cf6-96e6",
-                        "name": "Cyclone Missile Launcher & Storm Bolter",
-                        "min": 0,
-                        "max": 99,
-                        "equippedWith": "Storm bolter and Cyclone missile launcher"
-                      },
-                      {
-                        "id": "cecd-d581-d818-32dd",
-                        "name": "Heavy Flamer",
-                        "min": 0,
-                        "max": 99
-                      },
-                      {
-                        "id": "05f4-c307-7613-4b6c",
-                        "name": "Assault Cannon",
-                        "min": 0,
-                        "max": 99
-                      }
-                    ]
-                  },
-                  {
-                    "id": "191c-6b37-f667-1321",
-                    "name": "Melee Weapon Option",
-                    "min": 1,
-                    "max": 1,
-                    "mode": "single",
-                    "options": [
-                      {
-                        "id": "2091-913a-2894-0d9f",
-                        "name": "Power Fist",
-                        "min": 0,
-                        "max": 99
-                      },
-                      {
-                        "id": "89e7-7bff-ade0-ebf7",
-                        "name": "Chainfist",
-                        "min": 0,
-                        "max": 99
-                      }
-                    ],
-                    "defaultOptionId": "e5be-2982-e40f-d95c"
-                  }
-                ]
-              }
-            ],
-            "defaultOptionId": "2-e9c0-140-a1ef"
           }
         ]
       }

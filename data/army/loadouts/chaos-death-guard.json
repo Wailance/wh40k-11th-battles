@@ -427,39 +427,29 @@
             "name": "Plague Marine w/ icon of despair",
             "min": 0,
             "max": 1
+          },
+          {
+            "id": "05c5-63a6-c389-819e",
+            "name": "Plague Marine w/ meltagun",
+            "min": 0,
+            "max": 2
+          },
+          {
+            "id": "0ea3-f888-d4e4-d830",
+            "name": "Plague Marine w/ plasma gun",
+            "min": 0,
+            "max": 2,
+            "equippedWith": "Plasma gun"
+          },
+          {
+            "id": "f789-aed3-99e6-d1b1",
+            "name": "Plague Marine w/ plague belcher",
+            "min": 0,
+            "max": 2
           }
         ],
         "defaultOptionId": "96c2-dfc7-57e9-e28a",
-        "groups": [
-          {
-            "id": "cb44-b5c1-d177-026b",
-            "name": "Special weapons",
-            "min": 0,
-            "max": 2,
-            "mode": "count",
-            "options": [
-              {
-                "id": "05c5-63a6-c389-819e",
-                "name": "Plague Marine w/ meltagun",
-                "min": 0,
-                "max": 2
-              },
-              {
-                "id": "0ea3-f888-d4e4-d830",
-                "name": "Plague Marine w/ plasma gun",
-                "min": 0,
-                "max": 2,
-                "equippedWith": "Plasma gun"
-              },
-              {
-                "id": "f789-aed3-99e6-d1b1",
-                "name": "Plague Marine w/ plague belcher",
-                "min": 0,
-                "max": 2
-              }
-            ]
-          }
-        ]
+        "groups": []
       }
     ]
   },

@@ -26,7 +26,7 @@
       },
       "rangedWeapons": [
         {
-          "name": "➤ Plasma Pistol - Supercharge",
+          "name": "Plasma Pistol - Supercharge",
           "range": "12\"",
           "A": "1",
           "BS": "2+",
@@ -39,7 +39,7 @@
           ]
         },
         {
-          "name": "➤ Plasma Pistol - Standard",
+          "name": "Plasma Pistol - Standard",
           "range": "12\"",
           "A": "1",
           "BS": "2+",
@@ -151,7 +151,7 @@
       ],
       "meleeWeapons": [
         {
-          "name": "➤ Sword of the High Marshals - Sweep",
+          "name": "Sword of the High Marshals - Sweep",
           "range": "Melee",
           "A": "12",
           "WS": "2+",
@@ -161,7 +161,7 @@
           "keywords": []
         },
         {
-          "name": "➤ Sword of the High Marshals - Strike",
+          "name": "Sword of the High Marshals - Strike",
           "range": "Melee",
           "A": "6",
           "WS": "2+",
@@ -454,7 +454,7 @@
       "rangedWeapons": [],
       "meleeWeapons": [
         {
-          "name": "➤ Black Sword - Strike",
+          "name": "Black Sword - Strike",
           "range": "Melee",
           "A": "6",
           "WS": "2+",
@@ -467,7 +467,7 @@
           ]
         },
         {
-          "name": "➤ Black Sword - Sweep",
+          "name": "Black Sword - Sweep",
           "range": "Melee",
           "A": "10",
           "WS": "2+",
@@ -866,7 +866,20 @@
         "LD": "6+",
         "OC": "5"
       },
-      "rangedWeapons": [],
+      "rangedWeapons": [
+        {
+          "name": "Twin Las-talon",
+          "range": "36\"",
+          "A": "2",
+          "BS": "3+",
+          "S": "10",
+          "AP": "-3",
+          "D": "D6+1",
+          "keywords": [
+            "Twin-linked"
+          ]
+        }
+      ],
       "meleeWeapons": [],
       "abilities": [
         {
@@ -996,7 +1009,20 @@
         "OC": "1"
       },
       "rangedWeapons": [],
-      "meleeWeapons": [],
+      "meleeWeapons": [
+        {
+          "name": "Master-crafted Power Weapon",
+          "range": "Melee",
+          "A": "3",
+          "WS": "2+",
+          "S": "5",
+          "AP": "-2",
+          "D": "2",
+          "keywords": [
+            "Lethal Hits"
+          ]
+        }
+      ],
       "abilities": [
         {
           "name": "Leader",
@@ -1496,7 +1522,7 @@
       "rangedWeapons": [],
       "meleeWeapons": [
         {
-          "name": "➤ Black Sword - Strike",
+          "name": "Black Sword - Strike",
           "range": "Melee",
           "A": "6",
           "WS": "2+",
@@ -1509,7 +1535,7 @@
           ]
         },
         {
-          "name": "➤ Black Sword - Sweep",
+          "name": "Black Sword - Sweep",
           "range": "Melee",
           "A": "10",
           "WS": "2+",

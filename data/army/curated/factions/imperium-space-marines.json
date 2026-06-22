@@ -1906,8 +1906,32 @@
         "LD": "6+",
         "OC": "1"
       },
-      "rangedWeapons": [],
-      "meleeWeapons": [],
+      "rangedWeapons": [
+        {
+          "name": "Storm bolter",
+          "range": "24\"",
+          "A": "2",
+          "BS": "3+",
+          "S": "4",
+          "AP": "0",
+          "D": "1",
+          "keywords": [
+            "Rapid Fire 2"
+          ]
+        }
+      ],
+      "meleeWeapons": [
+        {
+          "name": "Relic Weapon",
+          "range": "Melee",
+          "A": "6",
+          "WS": "2+",
+          "S": "5",
+          "AP": "-2",
+          "D": "2",
+          "keywords": []
+        }
+      ],
       "abilities": [
         {
           "name": "Leader",
@@ -2818,7 +2842,7 @@
           ]
         },
         {
-          "name": "➤ Plasma pistol - supercharge",
+          "name": "Plasma pistol - supercharge",
           "range": "12\"",
           "A": "1",
           "BS": "3+",
@@ -2831,7 +2855,7 @@
           ]
         },
         {
-          "name": "➤ Plasma pistol - standard",
+          "name": "Plasma pistol - standard",
           "range": "12\"",
           "A": "1",
           "BS": "3+",
@@ -3784,7 +3808,7 @@
           ]
         },
         {
-          "name": "➤ Astartes grenade launcher - krak",
+          "name": "Astartes grenade launcher - krak",
           "range": "24\"",
           "A": "1",
           "BS": "3+",
@@ -3794,7 +3818,7 @@
           "keywords": []
         },
         {
-          "name": "➤ Astartes grenade launcher - frag",
+          "name": "Astartes grenade launcher - frag",
           "range": "24\"",
           "A": "D3",
           "BS": "3+",
@@ -3820,7 +3844,7 @@
           ]
         },
         {
-          "name": "➤ Plasma pistol - supercharge",
+          "name": "Plasma pistol - supercharge",
           "range": "12\"",
           "A": "1",
           "BS": "3+",
@@ -3833,7 +3857,7 @@
           ]
         },
         {
-          "name": "➤ Plasma pistol - standard",
+          "name": "Plasma pistol - standard",
           "range": "12\"",
           "A": "1",
           "BS": "3+",
@@ -4461,7 +4485,7 @@
           ]
         },
         {
-          "name": "➤ Plasma pistol - supercharge",
+          "name": "Plasma pistol - supercharge",
           "range": "12\"",
           "A": "1",
           "BS": "3+",
@@ -4474,7 +4498,7 @@
           ]
         },
         {
-          "name": "➤ Plasma pistol - standard",
+          "name": "Plasma pistol - standard",
           "range": "12\"",
           "A": "1",
           "BS": "3+",
@@ -5734,7 +5758,7 @@
           ]
         },
         {
-          "name": "➤ Plasma pistol - supercharge",
+          "name": "Plasma pistol - supercharge",
           "range": "12\"",
           "A": "1",
           "BS": "3+",
@@ -5747,7 +5771,7 @@
           ]
         },
         {
-          "name": "➤ Plasma pistol - standard",
+          "name": "Plasma pistol - standard",
           "range": "12\"",
           "A": "1",
           "BS": "3+",
@@ -5810,7 +5834,7 @@
           ]
         },
         {
-          "name": "➤ Plasma gun - standard",
+          "name": "Plasma gun - standard",
           "range": "24\"",
           "A": "1",
           "BS": "3+",
@@ -5822,7 +5846,7 @@
           ]
         },
         {
-          "name": "➤ Plasma gun - supercharge",
+          "name": "Plasma gun - supercharge",
           "range": "24\"",
           "A": "1",
           "BS": "3+",
@@ -5885,7 +5909,7 @@
           ]
         },
         {
-          "name": "➤ Missile Launcher - Frag",
+          "name": "Missile Launcher - Frag",
           "range": "48\"",
           "A": "D6",
           "BS": "4+",
@@ -5898,7 +5922,7 @@
           ]
         },
         {
-          "name": "➤ Missile Launcher - Krak",
+          "name": "Missile Launcher - Krak",
           "range": "48\"",
           "A": "1",
           "BS": "4+",
@@ -5910,7 +5934,7 @@
           ]
         },
         {
-          "name": "➤ Plasma cannon - standard",
+          "name": "Plasma cannon - standard",
           "range": "36\"",
           "A": "D3",
           "BS": "4+",
@@ -5923,7 +5947,7 @@
           ]
         },
         {
-          "name": "➤ Plasma cannon - supercharge",
+          "name": "Plasma cannon - supercharge",
           "range": "36\"",
           "A": "D3",
           "BS": "4+",
@@ -6306,7 +6330,7 @@
           ]
         },
         {
-          "name": "➤ Missile Launcher - Frag",
+          "name": "Missile Launcher - Frag",
           "range": "48\"",
           "A": "D6",
           "BS": "4+",
@@ -6319,7 +6343,7 @@
           ]
         },
         {
-          "name": "➤ Missile Launcher - Krak",
+          "name": "Missile Launcher - Krak",
           "range": "48\"",
           "A": "1",
           "BS": "4+",
@@ -6663,7 +6687,7 @@
           ]
         },
         {
-          "name": "➤ Missile Launcher - Frag",
+          "name": "Missile Launcher - Frag",
           "range": "48\"",
           "A": "D6",
           "BS": "4+",
@@ -6676,7 +6700,7 @@
           ]
         },
         {
-          "name": "➤ Missile Launcher - Krak",
+          "name": "Missile Launcher - Krak",
           "range": "48\"",
           "A": "1",
           "BS": "4+",
@@ -6955,7 +6979,7 @@
           ]
         },
         {
-          "name": "➤ Plasma pistol - supercharge",
+          "name": "Plasma pistol - supercharge",
           "range": "12\"",
           "A": "1",
           "BS": "3+",
@@ -6968,7 +6992,7 @@
           ]
         },
         {
-          "name": "➤ Plasma pistol - standard",
+          "name": "Plasma pistol - standard",
           "range": "12\"",
           "A": "1",
           "BS": "3+",
@@ -7255,7 +7279,7 @@
       },
       "rangedWeapons": [
         {
-          "name": "➤ Plasma pistol - supercharge",
+          "name": "Plasma pistol - supercharge",
           "range": "12\"",
           "A": "1",
           "BS": "3+",
@@ -7268,7 +7292,7 @@
           ]
         },
         {
-          "name": "➤ Plasma pistol - standard",
+          "name": "Plasma pistol - standard",
           "range": "12\"",
           "A": "1",
           "BS": "3+",
@@ -7613,7 +7637,7 @@
       },
       "rangedWeapons": [
         {
-          "name": "➤ Plasma pistol - supercharge",
+          "name": "Plasma pistol - supercharge",
           "range": "12\"",
           "A": "1",
           "BS": "3+",
@@ -7626,7 +7650,7 @@
           ]
         },
         {
-          "name": "➤ Plasma pistol - standard",
+          "name": "Plasma pistol - standard",
           "range": "12\"",
           "A": "1",
           "BS": "3+",
@@ -9223,7 +9247,7 @@
           ]
         },
         {
-          "name": "➤ Cyclone missile launcher - frag",
+          "name": "Cyclone missile launcher - frag",
           "range": "36\"",
           "A": "2D6",
           "BS": "3+",
@@ -9235,7 +9259,7 @@
           ]
         },
         {
-          "name": "➤ Cyclone missile launcher - krak",
+          "name": "Cyclone missile launcher - krak",
           "range": "36\"",
           "A": "2",
           "BS": "3+",
@@ -9567,7 +9591,7 @@
           ]
         },
         {
-          "name": "➤ Plasma Blaster - Standard",
+          "name": "Plasma Blaster - Standard",
           "range": "18\"",
           "A": "2",
           "BS": "3+",
@@ -9577,7 +9601,7 @@
           "keywords": []
         },
         {
-          "name": "➤ Plasma Blaster - Supercharge",
+          "name": "Plasma Blaster - Supercharge",
           "range": "18\"",
           "A": "2",
           "BS": "3+",
@@ -10825,7 +10849,33 @@
         "LD": "6+",
         "OC": "3"
       },
-      "rangedWeapons": [],
+      "rangedWeapons": [
+        {
+          "name": "Heavy Flamer",
+          "range": "12\"",
+          "A": "D6",
+          "BS": "N/A",
+          "S": "5",
+          "AP": "-1",
+          "D": "1",
+          "keywords": [
+            "Ignores Cover",
+            "Torrent"
+          ]
+        },
+        {
+          "name": "Assault Cannon",
+          "range": "24\"",
+          "A": "6",
+          "BS": "3+",
+          "S": "6",
+          "AP": "0",
+          "D": "1",
+          "keywords": [
+            "Devastating Wounds"
+          ]
+        }
+      ],
       "meleeWeapons": [],
       "abilities": [
         {
@@ -11606,7 +11656,7 @@
           "keywords": []
         },
         {
-          "name": "➤ Ballistus Missile Launcher - Frag",
+          "name": "Ballistus Missile Launcher - Frag",
           "range": "48\"",
           "A": "2D6",
           "BS": "3+",
@@ -11618,7 +11668,7 @@
           ]
         },
         {
-          "name": "➤ Ballistus Missile Launcher - Krak",
+          "name": "Ballistus Missile Launcher - Krak",
           "range": "48\"",
           "A": "2",
           "BS": "3+",
@@ -12186,7 +12236,7 @@
           ]
         },
         {
-          "name": "➤ Plasma pistol - supercharge",
+          "name": "Plasma pistol - supercharge",
           "range": "12\"",
           "A": "1",
           "BS": "3+",
@@ -12199,7 +12249,7 @@
           ]
         },
         {
-          "name": "➤ Plasma pistol - standard",
+          "name": "Plasma pistol - standard",
           "range": "12\"",
           "A": "1",
           "BS": "3+",
@@ -12251,7 +12301,7 @@
           ]
         },
         {
-          "name": "➤ Plasma gun - standard",
+          "name": "Plasma gun - standard",
           "range": "24\"",
           "A": "1",
           "BS": "3+",
@@ -12263,7 +12313,7 @@
           ]
         },
         {
-          "name": "➤ Plasma gun - supercharge",
+          "name": "Plasma gun - supercharge",
           "range": "24\"",
           "A": "1",
           "BS": "3+",
@@ -12617,7 +12667,7 @@
           ]
         },
         {
-          "name": "➤ Plasma pistol - supercharge",
+          "name": "Plasma pistol - supercharge",
           "range": "12\"",
           "A": "1",
           "BS": "3+",
@@ -12630,7 +12680,7 @@
           ]
         },
         {
-          "name": "➤ Plasma pistol - standard",
+          "name": "Plasma pistol - standard",
           "range": "12\"",
           "A": "1",
           "BS": "3+",
@@ -12682,7 +12732,7 @@
           ]
         },
         {
-          "name": "➤ Plasma gun - standard",
+          "name": "Plasma gun - standard",
           "range": "24\"",
           "A": "1",
           "BS": "3+",
@@ -12694,7 +12744,7 @@
           ]
         },
         {
-          "name": "➤ Plasma gun - supercharge",
+          "name": "Plasma gun - supercharge",
           "range": "24\"",
           "A": "1",
           "BS": "3+",
@@ -14015,7 +14065,7 @@
           ]
         },
         {
-          "name": "➤ Plasma pistol - supercharge",
+          "name": "Plasma pistol - supercharge",
           "range": "12\"",
           "A": "1",
           "BS": "3+",
@@ -14028,7 +14078,7 @@
           ]
         },
         {
-          "name": "➤ Plasma pistol - standard",
+          "name": "Plasma pistol - standard",
           "range": "12\"",
           "A": "1",
           "BS": "3+",
@@ -14077,7 +14127,7 @@
           ]
         },
         {
-          "name": "➤ Plasma gun - standard",
+          "name": "Plasma gun - standard",
           "range": "24\"",
           "A": "1",
           "BS": "3+",
@@ -14089,7 +14139,7 @@
           ]
         },
         {
-          "name": "➤ Plasma gun - supercharge",
+          "name": "Plasma gun - supercharge",
           "range": "24\"",
           "A": "1",
           "BS": "3+",
@@ -14411,7 +14461,7 @@
           ]
         },
         {
-          "name": "➤ Astartes grenade launcher - krak",
+          "name": "Astartes grenade launcher - krak",
           "range": "24\"",
           "A": "1",
           "BS": "3+",
@@ -14421,7 +14471,7 @@
           "keywords": []
         },
         {
-          "name": "➤ Astartes grenade launcher - frag",
+          "name": "Astartes grenade launcher - frag",
           "range": "24\"",
           "A": "D3",
           "BS": "3+",
@@ -14521,7 +14571,7 @@
           ]
         },
         {
-          "name": "➤ Plasma pistol - supercharge",
+          "name": "Plasma pistol - supercharge",
           "range": "12\"",
           "A": "1",
           "BS": "3+",
@@ -14534,7 +14584,7 @@
           ]
         },
         {
-          "name": "➤ Plasma pistol - standard",
+          "name": "Plasma pistol - standard",
           "range": "12\"",
           "A": "1",
           "BS": "3+",
@@ -15139,7 +15189,7 @@
           ]
         },
         {
-          "name": "➤ Plasma Exterminators - Standard",
+          "name": "Plasma Exterminators - Standard",
           "range": "18\"",
           "A": "2",
           "BS": "3+",
@@ -15153,7 +15203,7 @@
           ]
         },
         {
-          "name": "➤ Plasma Exterminators - Supercharge",
+          "name": "Plasma Exterminators - Supercharge",
           "range": "18\"",
           "A": "2",
           "BS": "3+",
@@ -16335,7 +16385,7 @@
       },
       "rangedWeapons": [
         {
-          "name": "➤ Typhoon missile launcher - frag",
+          "name": "Typhoon missile launcher - frag",
           "range": "48\"",
           "A": "2D6",
           "BS": "3+",
@@ -16347,7 +16397,7 @@
           ]
         },
         {
-          "name": "➤ Typhoon missile launcher - krak",
+          "name": "Typhoon missile launcher - krak",
           "range": "48\"",
           "A": "2",
           "BS": "3+",
@@ -17093,7 +17143,7 @@
           ]
         },
         {
-          "name": "➤ Plasma pistol - supercharge",
+          "name": "Plasma pistol - supercharge",
           "range": "12\"",
           "A": "1",
           "BS": "3+",
@@ -17106,7 +17156,7 @@
           ]
         },
         {
-          "name": "➤ Plasma pistol - standard",
+          "name": "Plasma pistol - standard",
           "range": "12\"",
           "A": "1",
           "BS": "3+",
@@ -17118,7 +17168,7 @@
           ]
         },
         {
-          "name": "➤ Plasma Incinerator - Standard",
+          "name": "Plasma Incinerator - Standard",
           "range": "24\"",
           "A": "2",
           "BS": "3+",
@@ -17131,7 +17181,7 @@
           ]
         },
         {
-          "name": "➤ Plasma Incinerator - Supercharge",
+          "name": "Plasma Incinerator - Supercharge",
           "range": "24\"",
           "A": "2",
           "BS": "3+",
@@ -18095,7 +18145,7 @@
           ]
         },
         {
-          "name": "➤ Plasma cannon - standard",
+          "name": "Plasma cannon - standard",
           "range": "36\"",
           "A": "D3",
           "BS": "4+",
@@ -18108,7 +18158,7 @@
           ]
         },
         {
-          "name": "➤ Plasma cannon - supercharge",
+          "name": "Plasma cannon - supercharge",
           "range": "36\"",
           "A": "D3",
           "BS": "4+",
@@ -18122,7 +18172,7 @@
           ]
         },
         {
-          "name": "➤ Missile Launcher - Frag",
+          "name": "Missile Launcher - Frag",
           "range": "48\"",
           "A": "D6",
           "BS": "4+",
@@ -18135,7 +18185,7 @@
           ]
         },
         {
-          "name": "➤ Missile Launcher - Krak",
+          "name": "Missile Launcher - Krak",
           "range": "48\"",
           "A": "1",
           "BS": "4+",
@@ -26112,7 +26162,7 @@
       },
       "rangedWeapons": [
         {
-          "name": "➤ Hammerfall Missile Launcher - Superfrag",
+          "name": "Hammerfall Missile Launcher - Superfrag",
           "range": "48\"",
           "A": "2d6+2",
           "BS": "4+",
@@ -26124,7 +26174,7 @@
           ]
         },
         {
-          "name": "➤ Hammerfall Missile Launcher - Superkrak",
+          "name": "Hammerfall Missile Launcher - Superkrak",
           "range": "48\"",
           "A": "2",
           "BS": "4+",
@@ -27142,7 +27192,7 @@
           ]
         },
         {
-          "name": "➤ Plasma pistol - supercharge",
+          "name": "Plasma pistol - supercharge",
           "range": "12\"",
           "A": "1",
           "BS": "3+",
@@ -27155,7 +27205,7 @@
           ]
         },
         {
-          "name": "➤ Plasma pistol - standard",
+          "name": "Plasma pistol - standard",
           "range": "12\"",
           "A": "1",
           "BS": "3+",
@@ -29935,7 +29985,7 @@
           ]
         },
         {
-          "name": "➤ Smite - Witchfire",
+          "name": "Smite - Witchfire",
           "range": "24\"",
           "A": "D6",
           "BS": "3+",
@@ -29947,7 +29997,7 @@
           ]
         },
         {
-          "name": "➤ Smite - Focused Witchfire",
+          "name": "Smite - Focused Witchfire",
           "range": "24\"",
           "A": "D6",
           "BS": "3+",
@@ -30878,7 +30928,7 @@
           ]
         },
         {
-          "name": "➤ Smite - Witchfire",
+          "name": "Smite - Witchfire",
           "range": "24\"",
           "A": "D6",
           "BS": "3+",
@@ -30890,7 +30940,7 @@
           ]
         },
         {
-          "name": "➤ Smite - Focused Witchfire",
+          "name": "Smite - Focused Witchfire",
           "range": "24\"",
           "A": "D6",
           "BS": "3+",
@@ -31800,7 +31850,7 @@
       },
       "rangedWeapons": [
         {
-          "name": "➤ Smite - Witchfire",
+          "name": "Smite - Witchfire",
           "range": "24\"",
           "A": "D6",
           "BS": "3+",
@@ -31812,7 +31862,7 @@
           ]
         },
         {
-          "name": "➤ Smite - Focused Witchfire",
+          "name": "Smite - Focused Witchfire",
           "range": "24\"",
           "A": "D6",
           "BS": "3+",
@@ -32724,7 +32774,7 @@
       },
       "rangedWeapons": [
         {
-          "name": "➤ Smite - Witchfire",
+          "name": "Smite - Witchfire",
           "range": "24\"",
           "A": "D6",
           "BS": "3+",
@@ -32736,7 +32786,7 @@
           ]
         },
         {
-          "name": "➤ Smite - Focused Witchfire",
+          "name": "Smite - Focused Witchfire",
           "range": "24\"",
           "A": "D6",
           "BS": "3+",
@@ -38186,7 +38236,7 @@
           ]
         },
         {
-          "name": "➤ Plasma cannon - standard",
+          "name": "Plasma cannon - standard",
           "range": "36\"",
           "A": "D3",
           "BS": "4+",
@@ -38199,7 +38249,7 @@
           ]
         },
         {
-          "name": "➤ Plasma cannon - supercharge",
+          "name": "Plasma cannon - supercharge",
           "range": "36\"",
           "A": "D3",
           "BS": "4+",
@@ -44882,7 +44932,7 @@
           ]
         },
         {
-          "name": "➤ Plasma pistol - supercharge",
+          "name": "Plasma pistol - supercharge",
           "range": "12\"",
           "A": "1",
           "BS": "3+",
@@ -44895,7 +44945,7 @@
           ]
         },
         {
-          "name": "➤ Plasma pistol - standard",
+          "name": "Plasma pistol - standard",
           "range": "12\"",
           "A": "1",
           "BS": "3+",
@@ -45047,7 +45097,7 @@
           ]
         },
         {
-          "name": "➤ Missile Launcher - Frag",
+          "name": "Missile Launcher - Frag",
           "range": "48\"",
           "A": "D6",
           "BS": "4+",
@@ -45060,7 +45110,7 @@
           ]
         },
         {
-          "name": "➤ Missile Launcher - Krak",
+          "name": "Missile Launcher - Krak",
           "range": "48\"",
           "A": "1",
           "BS": "4+",
@@ -45097,7 +45147,7 @@
           ]
         },
         {
-          "name": "➤ Plasma cannon - standard",
+          "name": "Plasma cannon - standard",
           "range": "36\"",
           "A": "D3",
           "BS": "4+",
@@ -45110,7 +45160,7 @@
           ]
         },
         {
-          "name": "➤ Plasma cannon - supercharge",
+          "name": "Plasma cannon - supercharge",
           "range": "36\"",
           "A": "D3",
           "BS": "4+",
@@ -45124,7 +45174,7 @@
           ]
         },
         {
-          "name": "➤ Plasma gun - standard",
+          "name": "Plasma gun - standard",
           "range": "24\"",
           "A": "1",
           "BS": "3+",
@@ -45136,7 +45186,7 @@
           ]
         },
         {
-          "name": "➤ Plasma gun - supercharge",
+          "name": "Plasma gun - supercharge",
           "range": "24\"",
           "A": "1",
           "BS": "3+",
@@ -46460,7 +46510,7 @@
           ]
         },
         {
-          "name": "➤ Plasma pistol - supercharge",
+          "name": "Plasma pistol - supercharge",
           "range": "12\"",
           "A": "1",
           "BS": "3+",
@@ -46473,7 +46523,7 @@
           ]
         },
         {
-          "name": "➤ Plasma pistol - standard",
+          "name": "Plasma pistol - standard",
           "range": "12\"",
           "A": "1",
           "BS": "3+",
@@ -47708,7 +47758,33 @@
         "LD": "6+",
         "OC": "0"
       },
-      "rangedWeapons": [],
+      "rangedWeapons": [
+        {
+          "name": "Lascannon",
+          "range": "48\"",
+          "A": "1",
+          "BS": "4+",
+          "S": "12",
+          "AP": "-3",
+          "D": "D6+1",
+          "keywords": [
+            "Heavy"
+          ]
+        },
+        {
+          "name": "Twin heavy bolter",
+          "range": "36\"",
+          "A": "3",
+          "BS": "3+",
+          "S": "5",
+          "AP": "-1",
+          "D": "2",
+          "keywords": [
+            "Sustained Hits 1",
+            "Twin-linked"
+          ]
+        }
+      ],
       "meleeWeapons": [],
       "abilities": [
         {
@@ -49022,7 +49098,7 @@
       },
       "rangedWeapons": [
         {
-          "name": "➤ Tempest Salvo Launcher - Frag",
+          "name": "Tempest Salvo Launcher - Frag",
           "range": "36\"",
           "A": "2D6",
           "BS": "3+",
@@ -49034,7 +49110,7 @@
           ]
         },
         {
-          "name": "➤ Tempest Salvo Launcher - Krak",
+          "name": "Tempest Salvo Launcher - Krak",
           "range": "36\"",
           "A": "2",
           "BS": "3+",
@@ -50230,7 +50306,7 @@
       },
       "rangedWeapons": [
         {
-          "name": "➤ Twin Plasma Gun - Standard",
+          "name": "Twin Plasma Gun - Standard",
           "range": "24\"",
           "A": "1",
           "BS": "3+",
@@ -50243,7 +50319,7 @@
           ]
         },
         {
-          "name": "➤ Twin Plasma Gun - Overcharge",
+          "name": "Twin Plasma Gun - Overcharge",
           "range": "24\"",
           "A": "1",
           "BS": "3+",
@@ -51778,7 +51854,7 @@
       },
       "rangedWeapons": [
         {
-          "name": "➤ Terminus Lascannon - Standard",
+          "name": "Terminus Lascannon - Standard",
           "range": "48\"",
           "A": "1",
           "BS": "3+",
@@ -51790,7 +51866,7 @@
           ]
         },
         {
-          "name": "➤ Terminus Lascannon - Overload",
+          "name": "Terminus Lascannon - Overload",
           "range": "48\"",
           "A": "1",
           "BS": "3+",
@@ -52446,7 +52522,7 @@
           ]
         },
         {
-          "name": "➤ Plasma pistol - supercharge",
+          "name": "Plasma pistol - supercharge",
           "range": "12\"",
           "A": "1",
           "BS": "3+",
@@ -52459,7 +52535,7 @@
           ]
         },
         {
-          "name": "➤ Plasma pistol - standard",
+          "name": "Plasma pistol - standard",
           "range": "12\"",
           "A": "1",
           "BS": "3+",
@@ -52508,7 +52584,7 @@
           ]
         },
         {
-          "name": "➤ Plasma gun - standard",
+          "name": "Plasma gun - standard",
           "range": "24\"",
           "A": "1",
           "BS": "3+",
@@ -52520,7 +52596,7 @@
           ]
         },
         {
-          "name": "➤ Plasma gun - supercharge",
+          "name": "Plasma gun - supercharge",
           "range": "24\"",
           "A": "1",
           "BS": "3+",
@@ -56392,7 +56468,7 @@
       },
       "rangedWeapons": [
         {
-          "name": "➤ Smite - Witchfire",
+          "name": "Smite - Witchfire",
           "range": "24\"",
           "A": "D6",
           "BS": "3+",
@@ -56404,7 +56480,7 @@
           ]
         },
         {
-          "name": "➤ Smite - Focused Witchfire",
+          "name": "Smite - Focused Witchfire",
           "range": "24\"",
           "A": "D6",
           "BS": "3+",
@@ -57853,7 +57929,7 @@
           ]
         },
         {
-          "name": "➤ Plasma pistol - supercharge",
+          "name": "Plasma pistol - supercharge",
           "range": "12\"",
           "A": "1",
           "BS": "3+",
@@ -57866,7 +57942,7 @@
           ]
         },
         {
-          "name": "➤ Plasma pistol - standard",
+          "name": "Plasma pistol - standard",
           "range": "12\"",
           "A": "1",
           "BS": "3+",
@@ -58671,7 +58747,7 @@
           "keywords": []
         },
         {
-          "name": "➤ Smite - Witchfire",
+          "name": "Smite - Witchfire",
           "range": "24\"",
           "A": "D6",
           "BS": "3+",
@@ -58683,7 +58759,7 @@
           ]
         },
         {
-          "name": "➤ Smite - Focused Witchfire",
+          "name": "Smite - Focused Witchfire",
           "range": "24\"",
           "A": "D6",
           "BS": "3+",
@@ -58837,7 +58913,7 @@
           ]
         },
         {
-          "name": "➤ Plasma pistol - supercharge",
+          "name": "Plasma pistol - supercharge",
           "range": "12\"",
           "A": "1",
           "BS": "2+",
@@ -58850,7 +58926,7 @@
           ]
         },
         {
-          "name": "➤ Plasma pistol - standard",
+          "name": "Plasma pistol - standard",
           "range": "12\"",
           "A": "1",
           "BS": "2+",
@@ -58936,7 +59012,7 @@
           ]
         },
         {
-          "name": "➤ Calibanite greatsword - strike",
+          "name": "Calibanite greatsword - strike",
           "range": "Melee",
           "A": "5",
           "WS": "2+",
@@ -58948,7 +59024,7 @@
           ]
         },
         {
-          "name": "➤ Calibanite greatsword - sweep",
+          "name": "Calibanite greatsword - sweep",
           "range": "Melee",
           "A": "5",
           "WS": "2+",
@@ -59584,7 +59660,7 @@
           "keywords": []
         },
         {
-          "name": "➤ Smite - Witchfire",
+          "name": "Smite - Witchfire",
           "range": "24\"",
           "A": "D6",
           "BS": "3+",
@@ -59596,7 +59672,7 @@
           ]
         },
         {
-          "name": "➤ Smite - Focused Witchfire",
+          "name": "Smite - Focused Witchfire",
           "range": "24\"",
           "A": "D6",
           "BS": "3+",
@@ -59750,7 +59826,7 @@
           ]
         },
         {
-          "name": "➤ Plasma pistol - supercharge",
+          "name": "Plasma pistol - supercharge",
           "range": "12\"",
           "A": "1",
           "BS": "2+",
@@ -59763,7 +59839,7 @@
           ]
         },
         {
-          "name": "➤ Plasma pistol - standard",
+          "name": "Plasma pistol - standard",
           "range": "12\"",
           "A": "1",
           "BS": "2+",
@@ -59849,7 +59925,7 @@
           ]
         },
         {
-          "name": "➤ Calibanite greatsword - strike",
+          "name": "Calibanite greatsword - strike",
           "range": "Melee",
           "A": "5",
           "WS": "2+",
@@ -59861,7 +59937,7 @@
           ]
         },
         {
-          "name": "➤ Calibanite greatsword - sweep",
+          "name": "Calibanite greatsword - sweep",
           "range": "Melee",
           "A": "5",
           "WS": "2+",

@@ -246,7 +246,22 @@
         "min": 5,
         "max": 10,
         "mode": "count",
-        "options": [],
+        "options": [
+          {
+            "id": "420-464f-93cb-e019",
+            "name": "Intercessor",
+            "min": 4,
+            "max": 9,
+            "equippedWith": "Close combat weapon and Bolt pistol and Bolt Rifle"
+          },
+          {
+            "id": "d735-eafd-a8de-fa80",
+            "name": "Intercessor w/ Grenade Launcher",
+            "min": 0,
+            "max": 2,
+            "equippedWith": "Close combat weapon and Bolt pistol and Bolt Rifle and Astartes grenade launcher"
+          }
+        ],
         "groups": [
           {
             "id": "8ea3-b125-7273-5ffb-fixed",
@@ -345,29 +360,6 @@
                 "defaultOptionId": "38-fca-2eb5-af1"
               }
             ]
-          },
-          {
-            "id": "e371-90b3-5640-949-squad",
-            "name": "Squad",
-            "min": 4,
-            "max": 9,
-            "mode": "count",
-            "options": [
-              {
-                "id": "420-464f-93cb-e019",
-                "name": "Intercessor",
-                "min": 4,
-                "max": 9,
-                "equippedWith": "Close combat weapon and Bolt pistol and Bolt Rifle"
-              },
-              {
-                "id": "d735-eafd-a8de-fa80",
-                "name": "Intercessor w/ Grenade Launcher",
-                "min": 0,
-                "max": 2,
-                "equippedWith": "Close combat weapon and Bolt pistol and Bolt Rifle and Astartes grenade launcher"
-              }
-            ]
           }
         ]
       }
@@ -381,7 +373,15 @@
         "min": 5,
         "max": 10,
         "mode": "count",
-        "options": [],
+        "options": [
+          {
+            "id": "6475-2510-e542-cdb5",
+            "name": "Infernus Marines",
+            "min": 4,
+            "max": 9,
+            "equippedWith": "Pyreblaster and Bolt pistol and Close combat weapon"
+          }
+        ],
         "groups": [
           {
             "id": "8fb9-1194-175f-acd6-fixed",
@@ -399,22 +399,6 @@
                 "equippedWith": "Bolt pistol and Close combat weapon and Pyreblaster"
               }
             ]
-          },
-          {
-            "id": "ef1c-98e8-be17-387c-squad",
-            "name": "Squad",
-            "min": 4,
-            "max": 9,
-            "mode": "count",
-            "options": [
-              {
-                "id": "6475-2510-e542-cdb5",
-                "name": "Infernus Marines",
-                "min": 4,
-                "max": 9,
-                "equippedWith": "Pyreblaster and Bolt pistol and Close combat weapon"
-              }
-            ]
           }
         ]
       }
@@ -428,7 +412,15 @@
         "min": 5,
         "max": 10,
         "mode": "count",
-        "options": [],
+        "options": [
+          {
+            "id": "233f-fe61-d432-c72d",
+            "name": "Assault Intercessors",
+            "min": 4,
+            "max": 9,
+            "equippedWith": "Astartes Chainsword and Heavy Bolt Pistol"
+          }
+        ],
         "groups": [
           {
             "id": "37ea-6539-b887-cd1-fixed",
@@ -502,22 +494,6 @@
                 "defaultOptionId": "5baa-9388-240b-8661"
               }
             ]
-          },
-          {
-            "id": "1e84-b3ff-decc-2f0e-squad",
-            "name": "Squad",
-            "min": 4,
-            "max": 9,
-            "mode": "count",
-            "options": [
-              {
-                "id": "233f-fe61-d432-c72d",
-                "name": "Assault Intercessors",
-                "min": 4,
-                "max": 9,
-                "equippedWith": "Astartes Chainsword and Heavy Bolt Pistol"
-              }
-            ]
           }
         ]
       }
@@ -531,7 +507,22 @@
         "min": 5,
         "max": 10,
         "mode": "count",
-        "options": [],
+        "options": [
+          {
+            "id": "deb4-6018-b8cf-1d66",
+            "name": "Heavy Intercessors",
+            "min": 3,
+            "max": 9,
+            "equippedWith": "Bolt pistol and Close combat weapon"
+          },
+          {
+            "id": "bc1-73c2-c18-8687",
+            "name": "Heavy Intercessor w/Heavy Bolter",
+            "min": 0,
+            "max": 1,
+            "equippedWith": "Heavy Bolter and Bolt pistol and Close combat weapon"
+          }
+        ],
         "groups": [
           {
             "id": "5f80-3d00-6e4d-cfaf-fixed",
@@ -549,30 +540,6 @@
                 "equippedWith": "Close combat weapon and Bolt pistol"
               }
             ]
-          },
-          {
-            "id": "a762-13b8-c395-6d30-squad",
-            "name": "Squad",
-            "min": 4,
-            "max": 9,
-            "mode": "count",
-            "options": [
-              {
-                "id": "deb4-6018-b8cf-1d66",
-                "name": "Heavy Intercessors",
-                "min": 3,
-                "max": 9,
-                "equippedWith": "Bolt pistol and Close combat weapon"
-              },
-              {
-                "id": "bc1-73c2-c18-8687",
-                "name": "Heavy Intercessor w/Heavy Bolter",
-                "min": 0,
-                "max": 1,
-                "equippedWith": "Heavy Bolter and Bolt pistol and Close combat weapon"
-              }
-            ],
-            "defaultOptionId": "deb4-6018-b8cf-1d66"
           }
         ]
       }
@@ -586,7 +553,15 @@
         "min": 5,
         "max": 10,
         "mode": "count",
-        "options": [],
+        "options": [
+          {
+            "id": "28a8-f81d-eb83-55fb",
+            "name": "Infiltrator",
+            "min": 4,
+            "max": 9,
+            "equippedWith": "Bolt pistol and Close combat weapon"
+          }
+        ],
         "groups": [
           {
             "id": "147a-9b0-6cda-7d6b-fixed",
@@ -601,22 +576,6 @@
                 "name": "Infiltrator Sergeant",
                 "min": 1,
                 "max": 1,
-                "equippedWith": "Bolt pistol and Close combat weapon"
-              }
-            ]
-          },
-          {
-            "id": "c777-20f7-8666-2944-squad",
-            "name": "Squad",
-            "min": 4,
-            "max": 9,
-            "mode": "count",
-            "options": [
-              {
-                "id": "28a8-f81d-eb83-55fb",
-                "name": "Infiltrator",
-                "min": 4,
-                "max": 9,
                 "equippedWith": "Bolt pistol and Close combat weapon"
               }
             ]
@@ -660,7 +619,135 @@
         "min": 10,
         "max": 10,
         "mode": "count",
-        "options": [],
+        "options": [
+          {
+            "id": "fc38-382c-98c1-9b3d",
+            "name": "Tactical Marine",
+            "min": 7,
+            "max": 9,
+            "equippedWith": "Bolt pistol and Close combat weapon and Boltgun"
+          },
+          {
+            "id": "4e9-6371-352c-5076",
+            "name": "Tactical Marine w/Special Weapon",
+            "min": 0,
+            "max": 1,
+            "groups": [
+              {
+                "id": "ca40-68b4-f013-8db7",
+                "name": "Weapon",
+                "min": 1,
+                "max": 1,
+                "mode": "single",
+                "options": [
+                  {
+                    "id": "4a43-7bb1-4635-a49d",
+                    "name": "Flamer",
+                    "min": 0,
+                    "max": 99
+                  },
+                  {
+                    "id": "4a97-7308-339f-71d0",
+                    "name": "Meltagun",
+                    "min": 0,
+                    "max": 99
+                  },
+                  {
+                    "id": "d8c2-2c3a-fabe-115b",
+                    "name": "Plasma gun",
+                    "min": 0,
+                    "max": 99
+                  },
+                  {
+                    "id": "6a04-6be8-fc77-f09a",
+                    "name": "Grav-gun",
+                    "min": 0,
+                    "max": 99
+                  }
+                ]
+              }
+            ],
+            "equippedWith": "Bolt pistol and Close combat weapon"
+          },
+          {
+            "id": "2e9d-b9a6-73ab-7ab3",
+            "name": "Tactical Marine w/Heavy or Special Weapon",
+            "min": 0,
+            "max": 1,
+            "groups": [
+              {
+                "id": "4805-d264-c6b8-e9fe",
+                "name": "Weapon",
+                "min": 1,
+                "max": 1,
+                "mode": "single",
+                "options": [
+                  {
+                    "id": "3f10-1687-bbb5-da3a",
+                    "name": "Flamer",
+                    "min": 0,
+                    "max": 99
+                  },
+                  {
+                    "id": "d592-f479-6a26-54cb",
+                    "name": "Meltagun",
+                    "min": 0,
+                    "max": 99
+                  },
+                  {
+                    "id": "6c80-db1e-29d9-5249",
+                    "name": "Plasma gun",
+                    "min": 0,
+                    "max": 99
+                  },
+                  {
+                    "id": "68c1-247-eb2f-10f4",
+                    "name": "Grav-gun",
+                    "min": 0,
+                    "max": 99
+                  },
+                  {
+                    "id": "e13-f5dc-2fe5-fb55",
+                    "name": "Heavy Bolter",
+                    "min": 0,
+                    "max": 99
+                  },
+                  {
+                    "id": "1cb5-de33-9da4-f537",
+                    "name": "Multi-melta",
+                    "min": 0,
+                    "max": 99
+                  },
+                  {
+                    "id": "fb7c-2547-a45-62c3",
+                    "name": "Lascannon",
+                    "min": 0,
+                    "max": 99
+                  },
+                  {
+                    "id": "c628-568a-c0ba-286d",
+                    "name": "Missile Launcher",
+                    "min": 0,
+                    "max": 99
+                  },
+                  {
+                    "id": "bf77-6df-d96e-1759",
+                    "name": "Plasma cannon",
+                    "min": 0,
+                    "max": 99
+                  },
+                  {
+                    "id": "d2cb-b906-4942-f3e3",
+                    "name": "Grav-cannon",
+                    "min": 0,
+                    "max": 99
+                  }
+                ]
+              }
+            ],
+            "equippedWith": "Bolt pistol and Close combat weapon"
+          }
+        ],
         "groups": [
           {
             "id": "a3e6-65a5-763f-4ac-fixed",
@@ -776,143 +863,6 @@
                 "defaultOptionId": "b78-35f8-147e-6ac1"
               }
             ]
-          },
-          {
-            "id": "86de-e2b-99f0-1548-squad",
-            "name": "Squad",
-            "min": 9,
-            "max": 9,
-            "mode": "count",
-            "options": [
-              {
-                "id": "fc38-382c-98c1-9b3d",
-                "name": "Tactical Marine",
-                "min": 7,
-                "max": 9,
-                "equippedWith": "Bolt pistol and Close combat weapon and Boltgun"
-              },
-              {
-                "id": "4e9-6371-352c-5076",
-                "name": "Tactical Marine w/Special Weapon",
-                "min": 0,
-                "max": 1,
-                "groups": [
-                  {
-                    "id": "ca40-68b4-f013-8db7",
-                    "name": "Weapon",
-                    "min": 1,
-                    "max": 1,
-                    "mode": "single",
-                    "options": [
-                      {
-                        "id": "4a43-7bb1-4635-a49d",
-                        "name": "Flamer",
-                        "min": 0,
-                        "max": 99
-                      },
-                      {
-                        "id": "4a97-7308-339f-71d0",
-                        "name": "Meltagun",
-                        "min": 0,
-                        "max": 99
-                      },
-                      {
-                        "id": "d8c2-2c3a-fabe-115b",
-                        "name": "Plasma gun",
-                        "min": 0,
-                        "max": 99
-                      },
-                      {
-                        "id": "6a04-6be8-fc77-f09a",
-                        "name": "Grav-gun",
-                        "min": 0,
-                        "max": 99
-                      }
-                    ]
-                  }
-                ],
-                "equippedWith": "Bolt pistol and Close combat weapon"
-              },
-              {
-                "id": "2e9d-b9a6-73ab-7ab3",
-                "name": "Tactical Marine w/Heavy or Special Weapon",
-                "min": 0,
-                "max": 1,
-                "groups": [
-                  {
-                    "id": "4805-d264-c6b8-e9fe",
-                    "name": "Weapon",
-                    "min": 1,
-                    "max": 1,
-                    "mode": "single",
-                    "options": [
-                      {
-                        "id": "3f10-1687-bbb5-da3a",
-                        "name": "Flamer",
-                        "min": 0,
-                        "max": 99
-                      },
-                      {
-                        "id": "d592-f479-6a26-54cb",
-                        "name": "Meltagun",
-                        "min": 0,
-                        "max": 99
-                      },
-                      {
-                        "id": "6c80-db1e-29d9-5249",
-                        "name": "Plasma gun",
-                        "min": 0,
-                        "max": 99
-                      },
-                      {
-                        "id": "68c1-247-eb2f-10f4",
-                        "name": "Grav-gun",
-                        "min": 0,
-                        "max": 99
-                      },
-                      {
-                        "id": "e13-f5dc-2fe5-fb55",
-                        "name": "Heavy Bolter",
-                        "min": 0,
-                        "max": 99
-                      },
-                      {
-                        "id": "1cb5-de33-9da4-f537",
-                        "name": "Multi-melta",
-                        "min": 0,
-                        "max": 99
-                      },
-                      {
-                        "id": "fb7c-2547-a45-62c3",
-                        "name": "Lascannon",
-                        "min": 0,
-                        "max": 99
-                      },
-                      {
-                        "id": "c628-568a-c0ba-286d",
-                        "name": "Missile Launcher",
-                        "min": 0,
-                        "max": 99
-                      },
-                      {
-                        "id": "bf77-6df-d96e-1759",
-                        "name": "Plasma cannon",
-                        "min": 0,
-                        "max": 99
-                      },
-                      {
-                        "id": "d2cb-b906-4942-f3e3",
-                        "name": "Grav-cannon",
-                        "min": 0,
-                        "max": 99
-                      }
-                    ]
-                  }
-                ],
-                "equippedWith": "Bolt pistol and Close combat weapon"
-              }
-            ],
-            "defaultOptionId": "fc38-382c-98c1-9b3d"
           }
         ]
       }
@@ -926,7 +876,66 @@
         "min": 5,
         "max": 10,
         "mode": "count",
-        "options": [],
+        "options": [
+          {
+            "id": "1008-b543-bfc2-4959",
+            "name": "Scouts w/ Boltgun",
+            "min": 4,
+            "max": 9,
+            "equippedWith": "Close combat weapon and Boltgun and Bolt pistol"
+          },
+          {
+            "id": "9348-3b0f-f0dc-978b",
+            "name": "Scouts w/ Astartes Shotgun",
+            "min": 0,
+            "max": 9,
+            "equippedWith": "Bolt pistol and Close combat weapon"
+          },
+          {
+            "id": "5173-cc7b-b53a-514",
+            "name": "Scouts w/ Combat Knife",
+            "min": 0,
+            "max": 9,
+            "equippedWith": "Bolt pistol and Close combat weapon"
+          },
+          {
+            "id": "9ed8-177c-3a9-f928",
+            "name": "Scout w/ Heavy Weapon",
+            "min": 0,
+            "max": 1,
+            "groups": [
+              {
+                "id": "5a67-df24-6f32-e71",
+                "name": "Weapon Option",
+                "min": 1,
+                "max": 1,
+                "mode": "single",
+                "options": [
+                  {
+                    "id": "a651-281-d9b3-296e",
+                    "name": "Heavy Bolter",
+                    "min": 0,
+                    "max": 99
+                  },
+                  {
+                    "id": "4c26-4e20-643e-3e24",
+                    "name": "Missile Launcher",
+                    "min": 0,
+                    "max": 1
+                  }
+                ]
+              }
+            ],
+            "equippedWith": "Bolt pistol and Close combat weapon"
+          },
+          {
+            "id": "428c-bf14-96d3-4692",
+            "name": "Scout w/ Scout Sniper Rifle",
+            "min": 0,
+            "max": 1,
+            "equippedWith": "Close combat weapon and Bolt pistol"
+          }
+        ],
         "groups": [
           {
             "id": "34be-35f8-9966-c99f-fixed",
@@ -972,74 +981,6 @@
                 "defaultOptionId": "3a23-5cef-c475-6b59"
               }
             ]
-          },
-          {
-            "id": "d0cd-b8dc-82e-5eb8-squad",
-            "name": "Squad",
-            "min": 4,
-            "max": 9,
-            "mode": "count",
-            "options": [
-              {
-                "id": "1008-b543-bfc2-4959",
-                "name": "Scouts w/ Boltgun",
-                "min": 4,
-                "max": 9,
-                "equippedWith": "Close combat weapon and Boltgun and Bolt pistol"
-              },
-              {
-                "id": "9348-3b0f-f0dc-978b",
-                "name": "Scouts w/ Astartes Shotgun",
-                "min": 0,
-                "max": 9,
-                "equippedWith": "Bolt pistol and Close combat weapon"
-              },
-              {
-                "id": "5173-cc7b-b53a-514",
-                "name": "Scouts w/ Combat Knife",
-                "min": 0,
-                "max": 9,
-                "equippedWith": "Bolt pistol and Close combat weapon"
-              },
-              {
-                "id": "9ed8-177c-3a9-f928",
-                "name": "Scout w/ Heavy Weapon",
-                "min": 0,
-                "max": 1,
-                "groups": [
-                  {
-                    "id": "5a67-df24-6f32-e71",
-                    "name": "Weapon Option",
-                    "min": 1,
-                    "max": 1,
-                    "mode": "single",
-                    "options": [
-                      {
-                        "id": "a651-281-d9b3-296e",
-                        "name": "Heavy Bolter",
-                        "min": 0,
-                        "max": 99
-                      },
-                      {
-                        "id": "4c26-4e20-643e-3e24",
-                        "name": "Missile Launcher",
-                        "min": 0,
-                        "max": 1
-                      }
-                    ]
-                  }
-                ],
-                "equippedWith": "Bolt pistol and Close combat weapon"
-              },
-              {
-                "id": "428c-bf14-96d3-4692",
-                "name": "Scout w/ Scout Sniper Rifle",
-                "min": 0,
-                "max": 1,
-                "equippedWith": "Close combat weapon and Bolt pistol"
-              }
-            ],
-            "defaultOptionId": "1008-b543-bfc2-4959"
           }
         ]
       }
@@ -1053,7 +994,22 @@
         "min": 5,
         "max": 10,
         "mode": "count",
-        "options": [],
+        "options": [
+          {
+            "id": "6358-c07f-f5eb-bd55",
+            "name": "Scout Snipers",
+            "min": 4,
+            "max": 9,
+            "equippedWith": "Close combat weapon and Bolt pistol"
+          },
+          {
+            "id": "3eb9-dc34-e482-be1d",
+            "name": "Scout Sniper w/ Missile Launcher",
+            "min": 0,
+            "max": 1,
+            "equippedWith": "Missile Launcher and Close combat weapon and Bolt pistol"
+          }
+        ],
         "groups": [
           {
             "id": "1bbc-9551-4d73-843e-fixed",
@@ -1071,29 +1027,6 @@
                 "equippedWith": "Close combat weapon and Bolt pistol"
               }
             ]
-          },
-          {
-            "id": "18e4-14af-e7e1-19d0-squad",
-            "name": "Squad",
-            "min": 4,
-            "max": 9,
-            "mode": "count",
-            "options": [
-              {
-                "id": "6358-c07f-f5eb-bd55",
-                "name": "Scout Snipers",
-                "min": 4,
-                "max": 9,
-                "equippedWith": "Close combat weapon and Bolt pistol"
-              },
-              {
-                "id": "3eb9-dc34-e482-be1d",
-                "name": "Scout Sniper w/ Missile Launcher",
-                "min": 0,
-                "max": 1,
-                "equippedWith": "Missile Launcher and Close combat weapon and Bolt pistol"
-              }
-            ]
           }
         ]
       }
@@ -1107,7 +1040,15 @@
         "min": 3,
         "max": 6,
         "mode": "count",
-        "options": [],
+        "options": [
+          {
+            "id": "48fe-1424-5571-d7ee",
+            "name": "Bladeguard Veterans",
+            "min": 2,
+            "max": 5,
+            "equippedWith": "Heavy Bolt Pistol and Master-crafted power weapon"
+          }
+        ],
         "groups": [
           {
             "id": "ca9e-52d-14-a439-fixed",
@@ -1145,22 +1086,6 @@
                   }
                 ],
                 "defaultOptionId": "78f-af91-f691-34c6"
-              }
-            ]
-          },
-          {
-            "id": "fa1c-b448-12fa-e1d6-squad",
-            "name": "Squad",
-            "min": 2,
-            "max": 5,
-            "mode": "count",
-            "options": [
-              {
-                "id": "48fe-1424-5571-d7ee",
-                "name": "Bladeguard Veterans",
-                "min": 2,
-                "max": 5,
-                "equippedWith": "Heavy Bolt Pistol and Master-crafted power weapon"
               }
             ]
           }
@@ -1444,7 +1369,52 @@
         "min": 5,
         "max": 10,
         "mode": "count",
-        "options": [],
+        "options": [
+          {
+            "id": "5700-4122-349a-e5da",
+            "name": "Sternguard Veteran w/ Bolt Rifle",
+            "min": 0,
+            "max": 9,
+            "equippedWith": "Sternguard Bolt Rifle and Close combat weapon"
+          },
+          {
+            "id": "afda-2132-147f-d0f1",
+            "name": "Sternguard Veteran w/ Special Weapon",
+            "min": 0,
+            "max": 1,
+            "groups": [
+              {
+                "id": "aa4b-2171-7fc3-b3a2",
+                "name": "Weapon Option",
+                "min": 1,
+                "max": 1,
+                "mode": "single",
+                "options": [
+                  {
+                    "id": "a964-77e5-8f5b-8a54",
+                    "name": "Sternguard Heavy Bolter",
+                    "min": 0,
+                    "max": 99
+                  },
+                  {
+                    "id": "93e2-aa65-5303-5ea9",
+                    "name": "Pyrecannon",
+                    "min": 0,
+                    "max": 99
+                  }
+                ]
+              }
+            ],
+            "equippedWith": "Close combat weapon"
+          },
+          {
+            "id": "e2b3-464a-a329-99ec",
+            "name": "Sternguard Veteran w/ Combi-weapon",
+            "min": 0,
+            "max": 9,
+            "equippedWith": "Combi-weapon and Close combat weapon"
+          }
+        ],
         "groups": [
           {
             "id": "97cd-6365-ce27-d73f-fixed",
@@ -1505,60 +1475,6 @@
                 ]
               }
             ]
-          },
-          {
-            "id": "edfc-d6af-480a-d5fc-squad",
-            "name": "Squad",
-            "min": 4,
-            "max": 9,
-            "mode": "count",
-            "options": [
-              {
-                "id": "5700-4122-349a-e5da",
-                "name": "Sternguard Veteran w/ Bolt Rifle",
-                "min": 0,
-                "max": 9,
-                "equippedWith": "Sternguard Bolt Rifle and Close combat weapon"
-              },
-              {
-                "id": "afda-2132-147f-d0f1",
-                "name": "Sternguard Veteran w/ Special Weapon",
-                "min": 0,
-                "max": 1,
-                "groups": [
-                  {
-                    "id": "aa4b-2171-7fc3-b3a2",
-                    "name": "Weapon Option",
-                    "min": 1,
-                    "max": 1,
-                    "mode": "single",
-                    "options": [
-                      {
-                        "id": "a964-77e5-8f5b-8a54",
-                        "name": "Sternguard Heavy Bolter",
-                        "min": 0,
-                        "max": 99
-                      },
-                      {
-                        "id": "93e2-aa65-5303-5ea9",
-                        "name": "Pyrecannon",
-                        "min": 0,
-                        "max": 99
-                      }
-                    ]
-                  }
-                ],
-                "equippedWith": "Close combat weapon"
-              },
-              {
-                "id": "e2b3-464a-a329-99ec",
-                "name": "Sternguard Veteran w/ Combi-weapon",
-                "min": 0,
-                "max": 9,
-                "equippedWith": "Combi-weapon and Close combat weapon"
-              }
-            ],
-            "defaultOptionId": "5700-4122-349a-e5da"
           }
         ]
       }
@@ -1699,7 +1615,20 @@
         "min": 5,
         "max": 10,
         "mode": "count",
-        "options": [],
+        "options": [
+          {
+            "id": "f5e2-f383-5061-9393",
+            "name": "Assault Terminator w/ Thunder Hammer & Storm Shield",
+            "min": 0,
+            "max": 9
+          },
+          {
+            "id": "c435-bd14-2d69-1c38",
+            "name": "Assault Terminator w/ Twin Lightning Claws",
+            "min": 0,
+            "max": 9
+          }
+        ],
         "groups": [
           {
             "id": "c3d5-605c-2976-9ee1-fixed",
@@ -1733,28 +1662,6 @@
                 "defaultOptionId": "96bf-3cb4-69ff-a8ce"
               }
             ]
-          },
-          {
-            "id": "f0a0-fda7-8b75-5ec1-squad",
-            "name": "Squad",
-            "min": 4,
-            "max": 9,
-            "mode": "count",
-            "options": [
-              {
-                "id": "f5e2-f383-5061-9393",
-                "name": "Assault Terminator w/ Thunder Hammer & Storm Shield",
-                "min": 0,
-                "max": 9
-              },
-              {
-                "id": "c435-bd14-2d69-1c38",
-                "name": "Assault Terminator w/ Twin Lightning Claws",
-                "min": 0,
-                "max": 9
-              }
-            ],
-            "defaultOptionId": "f5e2-f383-5061-9393"
           }
         ]
       }
@@ -1768,7 +1675,80 @@
         "min": 5,
         "max": 10,
         "mode": "count",
-        "options": [],
+        "options": [
+          {
+            "id": "2-e9c0-140-a1ef",
+            "name": "Terminator w/ Power Fist",
+            "min": 0,
+            "max": 9,
+            "equippedWith": "Power fist and Storm bolter"
+          },
+          {
+            "id": "3779-91fa-e79a-bf2a",
+            "name": "Terminator w/ Chain Fist",
+            "min": 0,
+            "max": 9,
+            "equippedWith": "Storm bolter and Chainfist"
+          },
+          {
+            "id": "b3c5-2c6-4592-ba51",
+            "name": "Terminator w/ Heavy Weapon",
+            "min": 0,
+            "max": 1,
+            "groups": [
+              {
+                "id": "a21c-8de-72a4-92",
+                "name": "Ranged Weapon Option",
+                "min": 1,
+                "max": 1,
+                "mode": "single",
+                "options": [
+                  {
+                    "id": "3bbd-5600-dd34-3e86",
+                    "name": "Cyclone Missile Launcher & Storm Bolter",
+                    "min": 0,
+                    "max": 99,
+                    "equippedWith": "Storm bolter and Cyclone missile launcher"
+                  },
+                  {
+                    "id": "94a7-8763-6a8b-67cb",
+                    "name": "Heavy Flamer",
+                    "min": 0,
+                    "max": 99
+                  },
+                  {
+                    "id": "45b8-38fd-f5e7-c9ac",
+                    "name": "Assault Cannon",
+                    "min": 0,
+                    "max": 99
+                  }
+                ]
+              },
+              {
+                "id": "7089-ff75-d1ab-f0c5",
+                "name": "Melee Weapon Option",
+                "min": 1,
+                "max": 1,
+                "mode": "single",
+                "options": [
+                  {
+                    "id": "3c30-e2f9-b246-61c1",
+                    "name": "Chainfist",
+                    "min": 0,
+                    "max": 99
+                  },
+                  {
+                    "id": "24dc-f621-033b-474a",
+                    "name": "Power fist",
+                    "min": 0,
+                    "max": 99
+                  }
+                ],
+                "defaultOptionId": "e5be-2982-e40f-d95c"
+              }
+            ]
+          }
+        ],
         "groups": [
           {
             "id": "fb66-6493-2f32-b659-fixed",
@@ -1808,88 +1788,6 @@
                 "defaultOptionId": "7227-b99b-6f6e-d8ee"
               }
             ]
-          },
-          {
-            "id": "7f44-894b-1c97-a2dc-squad",
-            "name": "Squad",
-            "min": 4,
-            "max": 9,
-            "mode": "count",
-            "options": [
-              {
-                "id": "2-e9c0-140-a1ef",
-                "name": "Terminator w/ Power Fist",
-                "min": 0,
-                "max": 9,
-                "equippedWith": "Power fist and Storm bolter"
-              },
-              {
-                "id": "3779-91fa-e79a-bf2a",
-                "name": "Terminator w/ Chain Fist",
-                "min": 0,
-                "max": 9,
-                "equippedWith": "Storm bolter and Chainfist"
-              },
-              {
-                "id": "b3c5-2c6-4592-ba51",
-                "name": "Terminator w/ Heavy Weapon",
-                "min": 0,
-                "max": 1,
-                "groups": [
-                  {
-                    "id": "a21c-8de-72a4-92",
-                    "name": "Ranged Weapon Option",
-                    "min": 1,
-                    "max": 1,
-                    "mode": "single",
-                    "options": [
-                      {
-                        "id": "3bbd-5600-dd34-3e86",
-                        "name": "Cyclone Missile Launcher & Storm Bolter",
-                        "min": 0,
-                        "max": 99,
-                        "equippedWith": "Storm bolter and Cyclone missile launcher"
-                      },
-                      {
-                        "id": "94a7-8763-6a8b-67cb",
-                        "name": "Heavy Flamer",
-                        "min": 0,
-                        "max": 99
-                      },
-                      {
-                        "id": "45b8-38fd-f5e7-c9ac",
-                        "name": "Assault Cannon",
-                        "min": 0,
-                        "max": 99
-                      }
-                    ]
-                  },
-                  {
-                    "id": "7089-ff75-d1ab-f0c5",
-                    "name": "Melee Weapon Option",
-                    "min": 1,
-                    "max": 1,
-                    "mode": "single",
-                    "options": [
-                      {
-                        "id": "3c30-e2f9-b246-61c1",
-                        "name": "Chainfist",
-                        "min": 0,
-                        "max": 99
-                      },
-                      {
-                        "id": "24dc-f621-033b-474a",
-                        "name": "Power fist",
-                        "min": 0,
-                        "max": 99
-                      }
-                    ],
-                    "defaultOptionId": "e5be-2982-e40f-d95c"
-                  }
-                ]
-              }
-            ],
-            "defaultOptionId": "2-e9c0-140-a1ef"
           }
         ]
       }
@@ -1903,7 +1801,93 @@
         "min": 5,
         "max": 10,
         "mode": "count",
-        "options": [],
+        "options": [
+          {
+            "id": "3d0b-d48a-591d-cd05",
+            "name": "Relic Terminator w/ Power Fist",
+            "min": 0,
+            "max": 99,
+            "equippedWith": "Power fist and Combi-bolter"
+          },
+          {
+            "id": "d53e-61ca-d969-3d37",
+            "name": "Relic Terminator w/ Twin Lightning Claws",
+            "min": 0,
+            "max": 99,
+            "equippedWith": "Twin lightning claws"
+          },
+          {
+            "id": "689d-7aa0-4ea8-4c64",
+            "name": "Relic Terminator w/ Power Weapon",
+            "min": 0,
+            "max": 99,
+            "equippedWith": "Combi-bolter and Power weapon"
+          },
+          {
+            "id": "ed0f-aa1e-b42a-8e24",
+            "name": "Relic Terminator w/ Chain Fist",
+            "min": 0,
+            "max": 99,
+            "equippedWith": "Combi-bolter and Chainfist"
+          },
+          {
+            "id": "709d-da50-e020-1885",
+            "name": "Relic Terminator w/ Heavy Weapon",
+            "min": 0,
+            "max": 1,
+            "groups": [
+              {
+                "id": "4e03-932d-a96a-4049",
+                "name": "Ranged Weapon Option",
+                "min": 1,
+                "max": 1,
+                "mode": "single",
+                "options": [
+                  {
+                    "id": "8306-7e81-3768-7def",
+                    "name": "Reaper Autocannon",
+                    "min": 0,
+                    "max": 99
+                  },
+                  {
+                    "id": "2bd4-404e-f556-58f7",
+                    "name": "Heavy Flamer",
+                    "min": 0,
+                    "max": 99
+                  }
+                ]
+              },
+              {
+                "id": "6d3f-6bce-8e46-d9f0",
+                "name": "Melee Weapon Option",
+                "min": 1,
+                "max": 1,
+                "mode": "single",
+                "options": [
+                  {
+                    "id": "7d2a-eb98-9b3e-676a",
+                    "name": "Power fist",
+                    "min": 0,
+                    "max": 99
+                  },
+                  {
+                    "id": "99-6b3f-77c8-b0cf",
+                    "name": "Power weapon",
+                    "min": 0,
+                    "max": 99
+                  },
+                  {
+                    "id": "66ca-9bf-5055-581c",
+                    "name": "Chainfist",
+                    "min": 0,
+                    "max": 99
+                  }
+                ],
+                "defaultOptionId": "7d2a-eb98-9b3e-676a"
+              }
+            ]
+          }
+        ],
         "groups": [
           {
             "id": "f0c0-da4a-2975-f30-fixed",
@@ -1971,101 +1955,6 @@
                 "defaultOptionId": "8ffa-d63e-201-ab45"
               }
             ]
-          },
-          {
-            "id": "e165-675e-79b2-120d-squad",
-            "name": "Squad",
-            "min": 4,
-            "max": 9,
-            "mode": "count",
-            "options": [
-              {
-                "id": "3d0b-d48a-591d-cd05",
-                "name": "Relic Terminator w/ Power Fist",
-                "min": 0,
-                "max": 99,
-                "equippedWith": "Power fist and Combi-bolter"
-              },
-              {
-                "id": "d53e-61ca-d969-3d37",
-                "name": "Relic Terminator w/ Twin Lightning Claws",
-                "min": 0,
-                "max": 99,
-                "equippedWith": "Twin lightning claws"
-              },
-              {
-                "id": "689d-7aa0-4ea8-4c64",
-                "name": "Relic Terminator w/ Power Weapon",
-                "min": 0,
-                "max": 99,
-                "equippedWith": "Combi-bolter and Power weapon"
-              },
-              {
-                "id": "ed0f-aa1e-b42a-8e24",
-                "name": "Relic Terminator w/ Chain Fist",
-                "min": 0,
-                "max": 99,
-                "equippedWith": "Combi-bolter and Chainfist"
-              },
-              {
-                "id": "709d-da50-e020-1885",
-                "name": "Relic Terminator w/ Heavy Weapon",
-                "min": 0,
-                "max": 1,
-                "groups": [
-                  {
-                    "id": "4e03-932d-a96a-4049",
-                    "name": "Ranged Weapon Option",
-                    "min": 1,
-                    "max": 1,
-                    "mode": "single",
-                    "options": [
-                      {
-                        "id": "8306-7e81-3768-7def",
-                        "name": "Reaper Autocannon",
-                        "min": 0,
-                        "max": 99
-                      },
-                      {
-                        "id": "2bd4-404e-f556-58f7",
-                        "name": "Heavy Flamer",
-                        "min": 0,
-                        "max": 99
-                      }
-                    ]
-                  },
-                  {
-                    "id": "6d3f-6bce-8e46-d9f0",
-                    "name": "Melee Weapon Option",
-                    "min": 1,
-                    "max": 1,
-                    "mode": "single",
-                    "options": [
-                      {
-                        "id": "7d2a-eb98-9b3e-676a",
-                        "name": "Power fist",
-                        "min": 0,
-                        "max": 99
-                      },
-                      {
-                        "id": "99-6b3f-77c8-b0cf",
-                        "name": "Power weapon",
-                        "min": 0,
-                        "max": 99
-                      },
-                      {
-                        "id": "66ca-9bf-5055-581c",
-                        "name": "Chainfist",
-                        "min": 0,
-                        "max": 99
-                      }
-                    ],
-                    "defaultOptionId": "7d2a-eb98-9b3e-676a"
-                  }
-                ]
-              }
-            ],
-            "defaultOptionId": "3d0b-d48a-591d-cd05"
           }
         ]
       }
@@ -2797,7 +2686,89 @@
         "min": 5,
         "max": 10,
         "mode": "count",
-        "options": [],
+        "options": [
+          {
+            "id": "50c2-3ed4-ef56-6fac",
+            "name": "Assault Marine w/ Eviscerator",
+            "min": 0,
+            "max": 1,
+            "groups": [
+              {
+                "id": "66a2-9f5c-f7b2-96a2",
+                "name": "Pistol Option",
+                "min": 1,
+                "max": 1,
+                "mode": "single",
+                "options": [
+                  {
+                    "id": "6cfc-4a4c-8040-c830",
+                    "name": "Bolt pistol",
+                    "min": 0,
+                    "max": 99
+                  },
+                  {
+                    "id": "aac6-a780-b28f-3917",
+                    "name": "Plasma pistol",
+                    "min": 0,
+                    "max": 99
+                  }
+                ],
+                "defaultOptionId": "6cfc-4a4c-8040-c830"
+              }
+            ],
+            "equippedWith": "Eviscerator"
+          },
+          {
+            "id": "1a01-caad-fc9f-6feb",
+            "name": "Assault Marine w/ Special Weapon",
+            "min": 0,
+            "max": 2,
+            "groups": [
+              {
+                "id": "1138-5c30-809d-a129",
+                "name": "Weapon Option",
+                "min": 1,
+                "max": 1,
+                "mode": "single",
+                "options": [
+                  {
+                    "id": "7970-cbbc-9166-26b8",
+                    "name": "Plasma Pistol & Astartes Chainsword",
+                    "min": 0,
+                    "max": 99,
+                    "equippedWith": "Plasma pistol and Astartes Chainsword",
+                    "hint": "For every 5 models in this unit, one Heavy bolt pistol can be replaced with one Plasma pistol."
+                  },
+                  {
+                    "id": "d4de-5f48-22f5-7eb0",
+                    "name": "Flamer",
+                    "min": 0,
+                    "max": 99
+                  },
+                  {
+                    "id": "203b-8760-8d4e-63ed",
+                    "name": "Plasma gun",
+                    "min": 0,
+                    "max": 99
+                  },
+                  {
+                    "id": "33d0-4370-9637-4b37",
+                    "name": "Meltagun",
+                    "min": 0,
+                    "max": 99
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "da46-4e78-bf9a-6eac",
+            "name": "Assault Marine",
+            "min": 0,
+            "max": 99,
+            "equippedWith": "Astartes Chainsword and Bolt pistol"
+          }
+        ],
         "groups": [
           {
             "id": "9bc3-4557-ad-ec14-fixed",
@@ -2910,97 +2881,6 @@
                 ]
               }
             ]
-          },
-          {
-            "id": "69fc-472b-e77b-fab8-squad",
-            "name": "Squad",
-            "min": 4,
-            "max": 9,
-            "mode": "count",
-            "options": [
-              {
-                "id": "50c2-3ed4-ef56-6fac",
-                "name": "Assault Marine w/ Eviscerator",
-                "min": 0,
-                "max": 1,
-                "groups": [
-                  {
-                    "id": "66a2-9f5c-f7b2-96a2",
-                    "name": "Pistol Option",
-                    "min": 1,
-                    "max": 1,
-                    "mode": "single",
-                    "options": [
-                      {
-                        "id": "6cfc-4a4c-8040-c830",
-                        "name": "Bolt pistol",
-                        "min": 0,
-                        "max": 99
-                      },
-                      {
-                        "id": "aac6-a780-b28f-3917",
-                        "name": "Plasma pistol",
-                        "min": 0,
-                        "max": 99
-                      }
-                    ],
-                    "defaultOptionId": "6cfc-4a4c-8040-c830"
-                  }
-                ],
-                "equippedWith": "Eviscerator"
-              },
-              {
-                "id": "1a01-caad-fc9f-6feb",
-                "name": "Assault Marine w/ Special Weapon",
-                "min": 0,
-                "max": 2,
-                "groups": [
-                  {
-                    "id": "1138-5c30-809d-a129",
-                    "name": "Weapon Option",
-                    "min": 1,
-                    "max": 1,
-                    "mode": "single",
-                    "options": [
-                      {
-                        "id": "7970-cbbc-9166-26b8",
-                        "name": "Plasma Pistol & Astartes Chainsword",
-                        "min": 0,
-                        "max": 99,
-                        "equippedWith": "Plasma pistol and Astartes Chainsword",
-                        "hint": "For every 5 models in this unit, one Heavy bolt pistol can be replaced with one Plasma pistol."
-                      },
-                      {
-                        "id": "d4de-5f48-22f5-7eb0",
-                        "name": "Flamer",
-                        "min": 0,
-                        "max": 99
-                      },
-                      {
-                        "id": "203b-8760-8d4e-63ed",
-                        "name": "Plasma gun",
-                        "min": 0,
-                        "max": 99
-                      },
-                      {
-                        "id": "33d0-4370-9637-4b37",
-                        "name": "Meltagun",
-                        "min": 0,
-                        "max": 99
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "id": "da46-4e78-bf9a-6eac",
-                "name": "Assault Marine",
-                "min": 0,
-                "max": 99,
-                "equippedWith": "Astartes Chainsword and Bolt pistol"
-              }
-            ],
-            "defaultOptionId": "da46-4e78-bf9a-6eac"
           }
         ]
       }
@@ -3014,7 +2894,89 @@
         "min": 5,
         "max": 10,
         "mode": "count",
-        "options": [],
+        "options": [
+          {
+            "id": "59bf-237-f76f-37d5",
+            "name": "Assault Marine with Jump Pack w/ Eviscerator",
+            "min": 0,
+            "max": 1,
+            "groups": [
+              {
+                "id": "3864-4203-a2b4-97fb",
+                "name": "Pistol Option",
+                "min": 1,
+                "max": 1,
+                "mode": "single",
+                "options": [
+                  {
+                    "id": "a96d-cee1-20f5-4400",
+                    "name": "Bolt pistol",
+                    "min": 0,
+                    "max": 99
+                  },
+                  {
+                    "id": "2f33-b8da-88b0-805",
+                    "name": "Plasma pistol",
+                    "min": 0,
+                    "max": 99
+                  }
+                ],
+                "defaultOptionId": "6cfc-4a4c-8040-c830"
+              }
+            ],
+            "equippedWith": "Eviscerator"
+          },
+          {
+            "id": "9691-5615-41a3-5e94",
+            "name": "Assault Marine with Jump Pack w/ Special Weapon",
+            "min": 0,
+            "max": 2,
+            "groups": [
+              {
+                "id": "c9e0-e20c-b73d-f0c9",
+                "name": "Weapon Option",
+                "min": 1,
+                "max": 1,
+                "mode": "single",
+                "options": [
+                  {
+                    "id": "ac53-8c82-de99-c8d1",
+                    "name": "Plasma Pistol & Astartes Chainsword",
+                    "min": 0,
+                    "max": 99,
+                    "equippedWith": "Plasma pistol and Astartes Chainsword",
+                    "hint": "For every 5 models in this unit, one Heavy bolt pistol can be replaced with one Plasma pistol."
+                  },
+                  {
+                    "id": "6ba9-ebb5-c58f-5355",
+                    "name": "Flamer",
+                    "min": 0,
+                    "max": 99
+                  },
+                  {
+                    "id": "111a-d081-2b0d-9291",
+                    "name": "Plasma gun",
+                    "min": 0,
+                    "max": 99
+                  },
+                  {
+                    "id": "1d0c-fb7a-2e38-ed99",
+                    "name": "Meltagun",
+                    "min": 0,
+                    "max": 99
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "c862-d76a-95ea-2140",
+            "name": "Assault Marine with Jump Pack",
+            "min": 0,
+            "max": 99,
+            "equippedWith": "Astartes Chainsword and Bolt pistol"
+          }
+        ],
         "groups": [
           {
             "id": "c201-cf41-47d8-7fdf-fixed",
@@ -3127,97 +3089,6 @@
                 ]
               }
             ]
-          },
-          {
-            "id": "220a-fd5c-42e7-2e65-squad",
-            "name": "Squad",
-            "min": 4,
-            "max": 9,
-            "mode": "count",
-            "options": [
-              {
-                "id": "59bf-237-f76f-37d5",
-                "name": "Assault Marine with Jump Pack w/ Eviscerator",
-                "min": 0,
-                "max": 1,
-                "groups": [
-                  {
-                    "id": "3864-4203-a2b4-97fb",
-                    "name": "Pistol Option",
-                    "min": 1,
-                    "max": 1,
-                    "mode": "single",
-                    "options": [
-                      {
-                        "id": "a96d-cee1-20f5-4400",
-                        "name": "Bolt pistol",
-                        "min": 0,
-                        "max": 99
-                      },
-                      {
-                        "id": "2f33-b8da-88b0-805",
-                        "name": "Plasma pistol",
-                        "min": 0,
-                        "max": 99
-                      }
-                    ],
-                    "defaultOptionId": "6cfc-4a4c-8040-c830"
-                  }
-                ],
-                "equippedWith": "Eviscerator"
-              },
-              {
-                "id": "9691-5615-41a3-5e94",
-                "name": "Assault Marine with Jump Pack w/ Special Weapon",
-                "min": 0,
-                "max": 2,
-                "groups": [
-                  {
-                    "id": "c9e0-e20c-b73d-f0c9",
-                    "name": "Weapon Option",
-                    "min": 1,
-                    "max": 1,
-                    "mode": "single",
-                    "options": [
-                      {
-                        "id": "ac53-8c82-de99-c8d1",
-                        "name": "Plasma Pistol & Astartes Chainsword",
-                        "min": 0,
-                        "max": 99,
-                        "equippedWith": "Plasma pistol and Astartes Chainsword",
-                        "hint": "For every 5 models in this unit, one Heavy bolt pistol can be replaced with one Plasma pistol."
-                      },
-                      {
-                        "id": "6ba9-ebb5-c58f-5355",
-                        "name": "Flamer",
-                        "min": 0,
-                        "max": 99
-                      },
-                      {
-                        "id": "111a-d081-2b0d-9291",
-                        "name": "Plasma gun",
-                        "min": 0,
-                        "max": 99
-                      },
-                      {
-                        "id": "1d0c-fb7a-2e38-ed99",
-                        "name": "Meltagun",
-                        "min": 0,
-                        "max": 99
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "id": "c862-d76a-95ea-2140",
-                "name": "Assault Marine with Jump Pack",
-                "min": 0,
-                "max": 99,
-                "equippedWith": "Astartes Chainsword and Bolt pistol"
-              }
-            ],
-            "defaultOptionId": "da46-4e78-bf9a-6eac"
           }
         ]
       }
@@ -3286,7 +3157,15 @@
         "min": 3,
         "max": 6,
         "mode": "count",
-        "options": [],
+        "options": [
+          {
+            "id": "d210-e1d4-4d3-e692",
+            "name": "Outrider",
+            "min": 2,
+            "max": 5,
+            "equippedWith": "Astartes Chainsword and Heavy Bolt Pistol and Twin bolt rifle"
+          }
+        ],
         "groups": [
           {
             "id": "c8e5-e034-e794-c00c-fixed",
@@ -3304,23 +3183,6 @@
                 "equippedWith": "Astartes Chainsword and Heavy Bolt Pistol and Twin bolt rifle"
               }
             ]
-          },
-          {
-            "id": "83c3-d5a9-bc75-339f-squad",
-            "name": "Squad",
-            "min": 2,
-            "max": 5,
-            "mode": "count",
-            "options": [
-              {
-                "id": "d210-e1d4-4d3-e692",
-                "name": "Outrider",
-                "min": 2,
-                "max": 5,
-                "equippedWith": "Astartes Chainsword and Heavy Bolt Pistol and Twin bolt rifle"
-              }
-            ],
-            "defaultOptionId": "d210-e1d4-4d3-e692"
           }
         ]
       }
@@ -3334,7 +3196,70 @@
         "min": 3,
         "max": 6,
         "mode": "count",
-        "options": [],
+        "options": [
+          {
+            "id": "48aa-6991-b817-11ac",
+            "name": "Space Marine Bikers w/ Bolt Pistol",
+            "min": 0,
+            "max": 5,
+            "equippedWith": "Bolt pistol and Twin boltgun and Close combat weapon"
+          },
+          {
+            "id": "5ac-f2fb-e9e6-d759",
+            "name": "Space Marine Bikers w/ Astartes Chainsword",
+            "min": 0,
+            "max": 5,
+            "equippedWith": "Twin boltgun and Close combat weapon and Astartes Chainsword"
+          },
+          {
+            "id": "37e7-aeb-4798-51cc",
+            "name": "Space Marine Bikers w/  Special Weapon",
+            "min": 0,
+            "max": 2,
+            "groups": [
+              {
+                "id": "c74e-c06c-e18-7753",
+                "name": "Special Weapon",
+                "min": 1,
+                "max": 1,
+                "mode": "single",
+                "options": [
+                  {
+                    "id": "bf76-42b6-7d-76be",
+                    "name": "Flamer",
+                    "min": 0,
+                    "max": 99
+                  },
+                  {
+                    "id": "f535-2a9e-4697-333e",
+                    "name": "Meltagun",
+                    "min": 0,
+                    "max": 99
+                  },
+                  {
+                    "id": "855d-58f5-1ed1-76ff",
+                    "name": "Plasma gun",
+                    "min": 0,
+                    "max": 99
+                  },
+                  {
+                    "id": "b616-79e4-5c40-6dc7",
+                    "name": "Plasma pistol",
+                    "min": 0,
+                    "max": 99
+                  },
+                  {
+                    "id": "1496-58ed-58de-e85f",
+                    "name": "Grav-gun",
+                    "min": 0,
+                    "max": 99
+                  }
+                ]
+              }
+            ],
+            "equippedWith": "Twin boltgun and Close combat weapon"
+          }
+        ],
         "groups": [
           {
             "id": "bee8-ef2e-b14e-cacc-fixed",
@@ -3428,78 +3353,6 @@
                 "defaultOptionId": "4ba2-32e0-91f-30a4"
               }
             ]
-          },
-          {
-            "id": "89e4-6018-5660-fe73-squad",
-            "name": "Squad",
-            "min": 2,
-            "max": 5,
-            "mode": "count",
-            "options": [
-              {
-                "id": "48aa-6991-b817-11ac",
-                "name": "Space Marine Bikers w/ Bolt Pistol",
-                "min": 0,
-                "max": 5,
-                "equippedWith": "Bolt pistol and Twin boltgun and Close combat weapon"
-              },
-              {
-                "id": "5ac-f2fb-e9e6-d759",
-                "name": "Space Marine Bikers w/ Astartes Chainsword",
-                "min": 0,
-                "max": 5,
-                "equippedWith": "Twin boltgun and Close combat weapon and Astartes Chainsword"
-              },
-              {
-                "id": "37e7-aeb-4798-51cc",
-                "name": "Space Marine Bikers w/  Special Weapon",
-                "min": 0,
-                "max": 2,
-                "groups": [
-                  {
-                    "id": "c74e-c06c-e18-7753",
-                    "name": "Special Weapon",
-                    "min": 1,
-                    "max": 1,
-                    "mode": "single",
-                    "options": [
-                      {
-                        "id": "bf76-42b6-7d-76be",
-                        "name": "Flamer",
-                        "min": 0,
-                        "max": 99
-                      },
-                      {
-                        "id": "f535-2a9e-4697-333e",
-                        "name": "Meltagun",
-                        "min": 0,
-                        "max": 99
-                      },
-                      {
-                        "id": "855d-58f5-1ed1-76ff",
-                        "name": "Plasma gun",
-                        "min": 0,
-                        "max": 99
-                      },
-                      {
-                        "id": "b616-79e4-5c40-6dc7",
-                        "name": "Plasma pistol",
-                        "min": 0,
-                        "max": 99
-                      },
-                      {
-                        "id": "1496-58ed-58de-e85f",
-                        "name": "Grav-gun",
-                        "min": 0,
-                        "max": 99
-                      }
-                    ]
-                  }
-                ],
-                "equippedWith": "Twin boltgun and Close combat weapon"
-              }
-            ],
-            "defaultOptionId": "48aa-6991-b817-11ac"
           }
         ]
       }
@@ -3513,7 +3366,22 @@
         "min": 3,
         "max": 6,
         "mode": "count",
-        "options": [],
+        "options": [
+          {
+            "id": "81cb-dfdf-f1fe-9501",
+            "name": "Scout Biker w/ Astartes Grenade Launcher",
+            "min": 0,
+            "max": 5,
+            "equippedWith": "Astartes grenade launcher"
+          },
+          {
+            "id": "6c92-6680-fbe1-642f",
+            "name": "Scout Biker w/ Twin Boltgun",
+            "min": 0,
+            "max": 5,
+            "equippedWith": "Twin boltgun"
+          }
+        ],
         "groups": [
           {
             "id": "ee98-d09b-4f48-5ae4-fixed",
@@ -3629,30 +3497,6 @@
                 "defaultOptionId": "4ba2-32e0-91f-30a4"
               }
             ]
-          },
-          {
-            "id": "a316-c527-1045-d875-squad",
-            "name": "Squad",
-            "min": 2,
-            "max": 5,
-            "mode": "count",
-            "options": [
-              {
-                "id": "81cb-dfdf-f1fe-9501",
-                "name": "Scout Biker w/ Astartes Grenade Launcher",
-                "min": 0,
-                "max": 5,
-                "equippedWith": "Astartes grenade launcher"
-              },
-              {
-                "id": "6c92-6680-fbe1-642f",
-                "name": "Scout Biker w/ Twin Boltgun",
-                "min": 0,
-                "max": 5,
-                "equippedWith": "Twin boltgun"
-              }
-            ],
-            "defaultOptionId": "6c92-6680-fbe1-642f"
           }
         ]
       }
@@ -4036,7 +3880,15 @@
         "min": 5,
         "max": 10,
         "mode": "count",
-        "options": [],
+        "options": [
+          {
+            "id": "1e78-8fcd-1fa7-ec47",
+            "name": "Hellblaster",
+            "min": 4,
+            "max": 9,
+            "equippedWith": "Close combat weapon and Bolt pistol"
+          }
+        ],
         "groups": [
           {
             "id": "615a-3536-201a-64e4-fixed",
@@ -4067,22 +3919,6 @@
                     "max": 99
                   }
                 ]
-              }
-            ]
-          },
-          {
-            "id": "622e-57d8-e77f-3e36-squad",
-            "name": "Squad",
-            "min": 4,
-            "max": 9,
-            "mode": "count",
-            "options": [
-              {
-                "id": "1e78-8fcd-1fa7-ec47",
-                "name": "Hellblaster",
-                "min": 4,
-                "max": 9,
-                "equippedWith": "Close combat weapon and Bolt pistol"
               }
             ]
           }
@@ -4179,7 +4015,22 @@
         "min": 3,
         "max": 6,
         "mode": "count",
-        "options": [],
+        "options": [
+          {
+            "id": "ab61-e814-8c4d-1cb",
+            "name": "Eradicator",
+            "min": 0,
+            "max": 5,
+            "equippedWith": "Bolt pistol and Close combat weapon and Melta rifle"
+          },
+          {
+            "id": "eba8-6f8c-759-4e22",
+            "name": "Eradicator with Multi-melta",
+            "min": 0,
+            "max": 1,
+            "equippedWith": "Multi-melta and Close combat weapon and Bolt pistol"
+          }
+        ],
         "groups": [
           {
             "id": "71fb-48d9-b0da-332c-fixed",
@@ -4197,30 +4048,6 @@
                 "equippedWith": "Bolt pistol and Close combat weapon and Melta rifle"
               }
             ]
-          },
-          {
-            "id": "f59c-c864-bd59-1759-squad",
-            "name": "Squad",
-            "min": 2,
-            "max": 5,
-            "mode": "count",
-            "options": [
-              {
-                "id": "ab61-e814-8c4d-1cb",
-                "name": "Eradicator",
-                "min": 0,
-                "max": 5,
-                "equippedWith": "Bolt pistol and Close combat weapon and Melta rifle"
-              },
-              {
-                "id": "eba8-6f8c-759-4e22",
-                "name": "Eradicator with Multi-melta",
-                "min": 0,
-                "max": 1,
-                "equippedWith": "Multi-melta and Close combat weapon and Bolt pistol"
-              }
-            ],
-            "defaultOptionId": "ab61-e814-8c4d-1cb"
           }
         ]
       }
@@ -4441,7 +4268,39 @@
         "min": 5,
         "max": 5,
         "mode": "count",
-        "options": [],
+        "options": [
+          {
+            "id": "c58f-8678-a51c-c0af",
+            "name": "Desolation Marine",
+            "min": 4,
+            "max": 4,
+            "groups": [
+              {
+                "id": "7ffd-2057-9218-844f",
+                "name": "Weapon Option",
+                "min": 1,
+                "max": 1,
+                "mode": "single",
+                "options": [
+                  {
+                    "id": "3790-2d2a-c0de-7e98",
+                    "name": "Superfrag Rocket Launcher",
+                    "min": 0,
+                    "max": 1
+                  },
+                  {
+                    "id": "860b-c0a3-48b8-8891",
+                    "name": "Superkrak Rocket Launcher",
+                    "min": 0,
+                    "max": 1
+                  }
+                ],
+                "defaultOptionId": "3790-2d2a-c0de-7e98"
+              }
+            ],
+            "equippedWith": "Bolt pistol and Close combat weapon and Castellan Launcher"
+          }
+        ],
         "groups": [
           {
             "id": "d7e0-3d8c-c106-e7f9-fixed",
@@ -4481,47 +4340,6 @@
                 "defaultOptionId": "e48c-2ee0-56a1-4f8d"
               }
             ]
-          },
-          {
-            "id": "a984-93c2-fe0c-f8e5-squad",
-            "name": "Squad",
-            "min": 4,
-            "max": 4,
-            "mode": "count",
-            "options": [
-              {
-                "id": "c58f-8678-a51c-c0af",
-                "name": "Desolation Marine",
-                "min": 4,
-                "max": 4,
-                "groups": [
-                  {
-                    "id": "7ffd-2057-9218-844f",
-                    "name": "Weapon Option",
-                    "min": 1,
-                    "max": 1,
-                    "mode": "single",
-                    "options": [
-                      {
-                        "id": "3790-2d2a-c0de-7e98",
-                        "name": "Superfrag Rocket Launcher",
-                        "min": 0,
-                        "max": 1
-                      },
-                      {
-                        "id": "860b-c0a3-48b8-8891",
-                        "name": "Superkrak Rocket Launcher",
-                        "min": 0,
-                        "max": 1
-                      }
-                    ],
-                    "defaultOptionId": "3790-2d2a-c0de-7e98"
-                  }
-                ],
-                "equippedWith": "Bolt pistol and Close combat weapon and Castellan Launcher"
-              }
-            ],
-            "defaultOptionId": "c58f-8678-a51c-c0af"
           }
         ]
       }
@@ -8869,7 +8687,23 @@
         "min": 5,
         "max": 10,
         "mode": "count",
-        "options": [],
+        "options": [
+          {
+            "id": "a5d5-538c-a88f-e7ea",
+            "name": "Assault Intercessors with Jump Pack",
+            "min": 0,
+            "max": 9,
+            "equippedWith": "Astartes Chainsword and Heavy Bolt Pistol"
+          },
+          {
+            "id": "971f-f659-e4b7-e127",
+            "name": "Assault Intercessors with Jump Pack w/ Plasma Pistol",
+            "min": 0,
+            "max": 1,
+            "equippedWith": "Astartes Chainsword and Plasma pistol",
+            "hint": "For every 5 models in this unit, one Heavy bolt pistol can be replaced with one Plasma pistol."
+          }
+        ],
         "groups": [
           {
             "id": "4964-1a09-711b-475d-fixed",
@@ -8937,31 +8771,6 @@
                 "defaultOptionId": "3c01-7cec-8182-16b2"
               }
             ]
-          },
-          {
-            "id": "39ae-d203-80cc-60d4-squad",
-            "name": "Squad",
-            "min": 4,
-            "max": 9,
-            "mode": "count",
-            "options": [
-              {
-                "id": "a5d5-538c-a88f-e7ea",
-                "name": "Assault Intercessors with Jump Pack",
-                "min": 0,
-                "max": 9,
-                "equippedWith": "Astartes Chainsword and Heavy Bolt Pistol"
-              },
-              {
-                "id": "971f-f659-e4b7-e127",
-                "name": "Assault Intercessors with Jump Pack w/ Plasma Pistol",
-                "min": 0,
-                "max": 1,
-                "equippedWith": "Astartes Chainsword and Plasma pistol",
-                "hint": "For every 5 models in this unit, one Heavy bolt pistol can be replaced with one Plasma pistol."
-              }
-            ],
-            "defaultOptionId": "a5d5-538c-a88f-e7ea"
           }
         ]
       }

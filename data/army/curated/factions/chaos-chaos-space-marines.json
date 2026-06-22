@@ -339,7 +339,7 @@
       ],
       "meleeWeapons": [
         {
-          "name": "➤ Hellforged weapons - strike",
+          "name": "Hellforged weapons - strike",
           "range": "Melee",
           "A": "6",
           "WS": "2+",
@@ -349,7 +349,7 @@
           "keywords": []
         },
         {
-          "name": "➤ Hellforged weapons - sweep",
+          "name": "Hellforged weapons - sweep",
           "range": "Melee",
           "A": "14",
           "WS": "2+",
@@ -721,7 +721,7 @@
       ],
       "meleeWeapons": [
         {
-          "name": "➤ Hellforged weapons - strike",
+          "name": "Hellforged weapons - strike",
           "range": "Melee",
           "A": "6",
           "WS": "2+",
@@ -731,7 +731,7 @@
           "keywords": []
         },
         {
-          "name": "➤ Hellforged weapons - sweep",
+          "name": "Hellforged weapons - sweep",
           "range": "Melee",
           "A": "14",
           "WS": "2+",
@@ -1303,7 +1303,7 @@
       },
       "rangedWeapons": [
         {
-          "name": "➤ Rite of Possession - witchfire",
+          "name": "Rite of Possession - witchfire",
           "range": "18\"",
           "A": "2",
           "BS": "3+",
@@ -1318,7 +1318,7 @@
           ]
         },
         {
-          "name": "➤ Rite of Possession - focused witchfire",
+          "name": "Rite of Possession - focused witchfire",
           "range": "18\"",
           "A": "2",
           "BS": "3+",
@@ -1707,8 +1707,36 @@
         "LD": "6+",
         "OC": "1"
       },
-      "rangedWeapons": [],
-      "meleeWeapons": [],
+      "rangedWeapons": [
+        {
+          "name": "Cypher's plasma pistol",
+          "range": "12\"",
+          "A": "3",
+          "BS": "2+",
+          "S": "8",
+          "AP": "-3",
+          "D": "2",
+          "keywords": [
+            "Assault",
+            "Pistol",
+            "Sustained Hits 1"
+          ]
+        }
+      ],
+      "meleeWeapons": [
+        {
+          "name": "Daemon hammer",
+          "range": "Melee",
+          "A": "5",
+          "WS": "3+",
+          "S": "8",
+          "AP": "-2",
+          "D": "2",
+          "keywords": [
+            "Devastating Wounds"
+          ]
+        }
+      ],
       "abilities": [
         {
           "name": "Invulnerable Save",
@@ -2062,8 +2090,32 @@
         "LD": "6+",
         "OC": "1"
       },
-      "rangedWeapons": [],
-      "meleeWeapons": [],
+      "rangedWeapons": [
+        {
+          "name": "Combi-bolter",
+          "range": "24\"",
+          "A": "2",
+          "BS": "2+",
+          "S": "4",
+          "AP": "0",
+          "D": "1",
+          "keywords": [
+            "Rapid Fire 2"
+          ]
+        }
+      ],
+      "meleeWeapons": [
+        {
+          "name": "Exalted weapon",
+          "range": "Melee",
+          "A": "5",
+          "WS": "2+",
+          "S": "5",
+          "AP": "-2",
+          "D": "2",
+          "keywords": []
+        }
+      ],
       "abilities": [
         {
           "name": "Invulnerable Save",
@@ -2415,7 +2467,7 @@
       },
       "rangedWeapons": [
         {
-          "name": "➤ Infernal Gaze - witchfire",
+          "name": "Infernal Gaze - witchfire",
           "range": "24\"",
           "A": "D6",
           "BS": "3+",
@@ -2427,7 +2479,7 @@
           ]
         },
         {
-          "name": "➤ Infernal Gaze - focused witchfire",
+          "name": "Infernal Gaze - focused witchfire",
           "range": "24\"",
           "A": "D6",
           "BS": "3+",
@@ -2810,7 +2862,7 @@
       },
       "rangedWeapons": [
         {
-          "name": "➤ Infernal Gaze - witchfire",
+          "name": "Infernal Gaze - witchfire",
           "range": "24\"",
           "A": "D6",
           "BS": "3+",
@@ -2822,7 +2874,7 @@
           ]
         },
         {
-          "name": "➤ Infernal Gaze - focused witchfire",
+          "name": "Infernal Gaze - focused witchfire",
           "range": "24\"",
           "A": "D6",
           "BS": "3+",
@@ -3612,7 +3664,7 @@
           ]
         },
         {
-          "name": "➤ Plasma pistol - standard",
+          "name": "Plasma pistol - standard",
           "range": "12\"",
           "A": "1",
           "BS": "2+",
@@ -3624,7 +3676,7 @@
           ]
         },
         {
-          "name": "➤ Plasma pistol - supercharge",
+          "name": "Plasma pistol - supercharge",
           "range": "12\"",
           "A": "1",
           "BS": "2+",
@@ -4769,7 +4821,7 @@
           ]
         },
         {
-          "name": "➤ Warp Curse - witchfire",
+          "name": "Warp Curse - witchfire",
           "range": "18\"",
           "A": "3",
           "BS": "3+",
@@ -4781,7 +4833,7 @@
           ]
         },
         {
-          "name": "➤ Warp Curse - focused witchfire",
+          "name": "Warp Curse - focused witchfire",
           "range": "18\"",
           "A": "3",
           "BS": "3+",
@@ -5257,7 +5309,7 @@
           ]
         },
         {
-          "name": "➤ Missile launcher - frag",
+          "name": "Missile launcher - frag",
           "range": "48\"",
           "A": "D6",
           "BS": "4+",
@@ -5270,7 +5322,7 @@
           ]
         },
         {
-          "name": "➤ Missile launcher - krak",
+          "name": "Missile launcher - krak",
           "range": "48\"",
           "A": "1",
           "BS": "4+",
@@ -7031,7 +7083,7 @@
           "keywords": []
         },
         {
-          "name": "➤ Havoc missile launcher - frag",
+          "name": "Havoc missile launcher - frag",
           "range": "48\"",
           "A": "D6",
           "BS": "3+",
@@ -7043,7 +7095,7 @@
           ]
         },
         {
-          "name": "➤ Havoc missile launcher - krak",
+          "name": "Havoc missile launcher - krak",
           "range": "48\"",
           "A": "1",
           "BS": "3+",
@@ -7191,7 +7243,7 @@
       },
       "rangedWeapons": [
         {
-          "name": "➤ Fleshmetal guns - focused malice",
+          "name": "Fleshmetal guns - focused malice",
           "range": "18\"",
           "A": "D3",
           "BS": "3+",
@@ -7203,7 +7255,7 @@
           ]
         },
         {
-          "name": "➤ Fleshmetal guns - ruinous salvo",
+          "name": "Fleshmetal guns - ruinous salvo",
           "range": "24\"",
           "A": "D6",
           "BS": "3+",
@@ -7215,7 +7267,7 @@
           ]
         },
         {
-          "name": "➤ Fleshmetal guns - warp hail",
+          "name": "Fleshmetal guns - warp hail",
           "range": "24\"",
           "A": "D6+3",
           "BS": "3+",
@@ -7437,7 +7489,7 @@
       ],
       "meleeWeapons": [
         {
-          "name": "➤ Vashtorr's hammer - strike",
+          "name": "Vashtorr's hammer - strike",
           "range": "Melee",
           "A": "6",
           "WS": "2+",
@@ -7450,7 +7502,7 @@
           ]
         },
         {
-          "name": "➤ Vashtorr's hammer - sweep",
+          "name": "Vashtorr's hammer - sweep",
           "range": "Melee",
           "A": "12",
           "WS": "2+",
@@ -7689,7 +7741,7 @@
           ]
         },
         {
-          "name": "➤ Plasma pistol - standard",
+          "name": "Plasma pistol - standard",
           "range": "12\"",
           "A": "1",
           "BS": "4+",
@@ -7701,7 +7753,7 @@
           ]
         },
         {
-          "name": "➤ Plasma pistol- supercharge",
+          "name": "Plasma pistol- supercharge",
           "range": "12\"",
           "A": "1",
           "BS": "4+",
@@ -9395,7 +9447,7 @@
       "rangedWeapons": [],
       "meleeWeapons": [
         {
-          "name": "➤ Great cleaver of Khorne - strike",
+          "name": "Great cleaver of Khorne - strike",
           "range": "Melee",
           "A": "5",
           "WS": "3+",
@@ -9405,7 +9457,7 @@
           "keywords": []
         },
         {
-          "name": "➤ Great cleaver of Khorne - sweep",
+          "name": "Great cleaver of Khorne - sweep",
           "range": "Melee",
           "A": "15",
           "WS": "3+",
@@ -10209,7 +10261,7 @@
       },
       "rangedWeapons": [
         {
-          "name": "➤ Infernal Gaze - witchfire",
+          "name": "Infernal Gaze - witchfire",
           "range": "24\"",
           "A": "D6",
           "BS": "3+",
@@ -10221,7 +10273,7 @@
           ]
         },
         {
-          "name": "➤ Infernal Gaze - focused witchfire",
+          "name": "Infernal Gaze - focused witchfire",
           "range": "24\"",
           "A": "D6",
           "BS": "3+",
@@ -10567,7 +10619,7 @@
       },
       "rangedWeapons": [
         {
-          "name": "➤ Infernal Gaze - witchfire",
+          "name": "Infernal Gaze - witchfire",
           "range": "24\"",
           "A": "D6",
           "BS": "3+",
@@ -10579,7 +10631,7 @@
           ]
         },
         {
-          "name": "➤ Infernal Gaze - focused witchfire",
+          "name": "Infernal Gaze - focused witchfire",
           "range": "24\"",
           "A": "D6",
           "BS": "3+",
@@ -12309,7 +12361,7 @@
       },
       "rangedWeapons": [
         {
-          "name": "➤ Infernal Gaze - witchfire",
+          "name": "Infernal Gaze - witchfire",
           "range": "24\"",
           "A": "D6",
           "BS": "3+",
@@ -12321,7 +12373,7 @@
           ]
         },
         {
-          "name": "➤ Infernal Gaze - focused witchfire",
+          "name": "Infernal Gaze - focused witchfire",
           "range": "24\"",
           "A": "D6",
           "BS": "3+",
@@ -13225,7 +13277,7 @@
           ]
         },
         {
-          "name": "➤ Missile launcher - frag",
+          "name": "Missile launcher - frag",
           "range": "48\"",
           "A": "D6",
           "BS": "5+",
@@ -13238,7 +13290,7 @@
           ]
         },
         {
-          "name": "➤ Missile launcher - krak",
+          "name": "Missile launcher - krak",
           "range": "48\"",
           "A": "1",
           "BS": "5+",
@@ -13440,7 +13492,7 @@
       "rangedWeapons": [],
       "meleeWeapons": [
         {
-          "name": "➤ Fleshmetal weapons - rending strikes",
+          "name": "Fleshmetal weapons - rending strikes",
           "range": "Melee",
           "A": "4",
           "WS": "3+",
@@ -13450,7 +13502,7 @@
           "keywords": []
         },
         {
-          "name": "➤ Fleshmetal weapons - clawed sweeps",
+          "name": "Fleshmetal weapons - clawed sweeps",
           "range": "Melee",
           "A": "6",
           "WS": "3+",
@@ -13460,7 +13512,7 @@
           "keywords": []
         },
         {
-          "name": "➤ Fleshmetal weapons - thunderous blows",
+          "name": "Fleshmetal weapons - thunderous blows",
           "range": "Melee",
           "A": "2",
           "WS": "3+",
@@ -13693,7 +13745,7 @@
           ]
         },
         {
-          "name": "➤ Psychic Strike - focused witchfire",
+          "name": "Psychic Strike - focused witchfire",
           "range": "12\"",
           "A": "D6+3",
           "BS": "3+",
@@ -13708,7 +13760,7 @@
           ]
         },
         {
-          "name": "➤ Psychic Strike - witchfire",
+          "name": "Psychic Strike - witchfire",
           "range": "12\"",
           "A": "D6",
           "BS": "3+",
@@ -14188,7 +14240,7 @@
           ]
         },
         {
-          "name": "➤ Infernal Gaze - witchfire",
+          "name": "Infernal Gaze - witchfire",
           "range": "24\"",
           "A": "D6",
           "BS": "3+",
@@ -14200,7 +14252,7 @@
           ]
         },
         {
-          "name": "➤ Infernal Gaze - focused witchfire",
+          "name": "Infernal Gaze - focused witchfire",
           "range": "24\"",
           "A": "D6",
           "BS": "3+",
@@ -15102,8 +15154,32 @@
         "LD": "6+",
         "OC": "1"
       },
-      "rangedWeapons": [],
-      "meleeWeapons": [],
+      "rangedWeapons": [
+        {
+          "name": "Bolt pistol",
+          "range": "12\"",
+          "A": "1",
+          "BS": "2+",
+          "S": "4",
+          "AP": "0",
+          "D": "1",
+          "keywords": [
+            "Pistol"
+          ]
+        }
+      ],
+      "meleeWeapons": [
+        {
+          "name": "Accursed weapon",
+          "range": "Melee",
+          "A": "6",
+          "WS": "2+",
+          "S": "5",
+          "AP": "-2",
+          "D": "1",
+          "keywords": []
+        }
+      ],
       "abilities": [
         {
           "name": "Invulnerable Save",
@@ -15883,7 +15959,7 @@
           ]
         },
         {
-          "name": "➤ Cultist grenade launcher - frag",
+          "name": "Cultist grenade launcher - frag",
           "range": "24\"",
           "A": "D3",
           "BS": "4+",
@@ -15895,7 +15971,7 @@
           ]
         },
         {
-          "name": "➤ Cultist grenade launcher - krak",
+          "name": "Cultist grenade launcher - krak",
           "range": "24\"",
           "A": "1",
           "BS": "4+",
@@ -16014,7 +16090,7 @@
           ]
         },
         {
-          "name": "➤ Missile launcher - frag",
+          "name": "Missile launcher - frag",
           "range": "48\"",
           "A": "D6",
           "BS": "4+",
@@ -16027,7 +16103,7 @@
           ]
         },
         {
-          "name": "➤ Missile launcher - krak",
+          "name": "Missile launcher - krak",
           "range": "48\"",
           "A": "1",
           "BS": "4+",
@@ -16219,7 +16295,7 @@
           ]
         },
         {
-          "name": "➤ Blastmaster - varied frequency",
+          "name": "Blastmaster - varied frequency",
           "range": "18\"",
           "A": "6",
           "BS": "3+",
@@ -16231,7 +16307,7 @@
           ]
         },
         {
-          "name": "➤ Blastmaster - single frequency",
+          "name": "Blastmaster - single frequency",
           "range": "18\"",
           "A": "3",
           "BS": "3+",
@@ -16654,7 +16730,7 @@
           ]
         },
         {
-          "name": "➤ Plasma pistol - standard",
+          "name": "Plasma pistol - standard",
           "range": "12\"",
           "A": "1",
           "BS": "2+",
@@ -16666,7 +16742,7 @@
           ]
         },
         {
-          "name": "➤ Plasma pistol - supercharge",
+          "name": "Plasma pistol - supercharge",
           "range": "12\"",
           "A": "1",
           "BS": "2+",
@@ -17074,7 +17150,7 @@
           ]
         },
         {
-          "name": "➤ Plasma pistol - standard",
+          "name": "Plasma pistol - standard",
           "range": "12\"",
           "A": "1",
           "BS": "2+",
@@ -17086,7 +17162,7 @@
           ]
         },
         {
-          "name": "➤ Plasma pistol - supercharge",
+          "name": "Plasma pistol - supercharge",
           "range": "12\"",
           "A": "1",
           "BS": "2+",
@@ -17220,7 +17296,7 @@
           ]
         },
         {
-          "name": "➤ Plasma gun - standard",
+          "name": "Plasma gun - standard",
           "range": "24\"",
           "A": "1",
           "BS": "2+",
@@ -17232,7 +17308,7 @@
           ]
         },
         {
-          "name": "➤ Plasma gun - supercharge",
+          "name": "Plasma gun - supercharge",
           "range": "24\"",
           "A": "1",
           "BS": "2+",
@@ -17258,7 +17334,7 @@
           ]
         },
         {
-          "name": "➤ Rite of Possession - witchfire",
+          "name": "Rite of Possession - witchfire",
           "range": "18\"",
           "A": "2",
           "BS": "3+",
@@ -17273,7 +17349,7 @@
           ]
         },
         {
-          "name": "➤ Rite of Possession - focused witchfire",
+          "name": "Rite of Possession - focused witchfire",
           "range": "18\"",
           "A": "2",
           "BS": "3+",
@@ -17289,7 +17365,7 @@
           ]
         },
         {
-          "name": "➤ Infernal Gaze - witchfire",
+          "name": "Infernal Gaze - witchfire",
           "range": "24\"",
           "A": "D6",
           "BS": "3+",
@@ -17301,7 +17377,7 @@
           ]
         },
         {
-          "name": "➤ Infernal Gaze - focused witchfire",
+          "name": "Infernal Gaze - focused witchfire",
           "range": "24\"",
           "A": "D6",
           "BS": "3+",
@@ -17653,7 +17729,7 @@
           ]
         },
         {
-          "name": "➤ Plasma pistol - standard",
+          "name": "Plasma pistol - standard",
           "range": "12\"",
           "A": "1",
           "BS": "2+",
@@ -17665,7 +17741,7 @@
           ]
         },
         {
-          "name": "➤ Plasma pistol - supercharge",
+          "name": "Plasma pistol - supercharge",
           "range": "12\"",
           "A": "1",
           "BS": "2+",
@@ -17799,7 +17875,7 @@
           ]
         },
         {
-          "name": "➤ Plasma gun - standard",
+          "name": "Plasma gun - standard",
           "range": "24\"",
           "A": "1",
           "BS": "2+",
@@ -17811,7 +17887,7 @@
           ]
         },
         {
-          "name": "➤ Plasma gun - supercharge",
+          "name": "Plasma gun - supercharge",
           "range": "24\"",
           "A": "1",
           "BS": "2+",
@@ -17837,7 +17913,7 @@
           ]
         },
         {
-          "name": "➤ Rite of Possession - witchfire",
+          "name": "Rite of Possession - witchfire",
           "range": "18\"",
           "A": "2",
           "BS": "3+",
@@ -17852,7 +17928,7 @@
           ]
         },
         {
-          "name": "➤ Rite of Possession - focused witchfire",
+          "name": "Rite of Possession - focused witchfire",
           "range": "18\"",
           "A": "2",
           "BS": "3+",
@@ -17868,7 +17944,7 @@
           ]
         },
         {
-          "name": "➤ Infernal Gaze - witchfire",
+          "name": "Infernal Gaze - witchfire",
           "range": "24\"",
           "A": "D6",
           "BS": "3+",
@@ -17880,7 +17956,7 @@
           ]
         },
         {
-          "name": "➤ Infernal Gaze - focused witchfire",
+          "name": "Infernal Gaze - focused witchfire",
           "range": "24\"",
           "A": "D6",
           "BS": "3+",
@@ -18232,7 +18308,7 @@
           ]
         },
         {
-          "name": "➤ Plasma pistol - standard",
+          "name": "Plasma pistol - standard",
           "range": "12\"",
           "A": "1",
           "BS": "2+",
@@ -18244,7 +18320,7 @@
           ]
         },
         {
-          "name": "➤ Plasma pistol - supercharge",
+          "name": "Plasma pistol - supercharge",
           "range": "12\"",
           "A": "1",
           "BS": "2+",
@@ -18378,7 +18454,7 @@
           ]
         },
         {
-          "name": "➤ Plasma gun - standard",
+          "name": "Plasma gun - standard",
           "range": "24\"",
           "A": "1",
           "BS": "2+",
@@ -18390,7 +18466,7 @@
           ]
         },
         {
-          "name": "➤ Plasma gun - supercharge",
+          "name": "Plasma gun - supercharge",
           "range": "24\"",
           "A": "1",
           "BS": "2+",
@@ -18416,7 +18492,7 @@
           ]
         },
         {
-          "name": "➤ Rite of Possession - witchfire",
+          "name": "Rite of Possession - witchfire",
           "range": "18\"",
           "A": "2",
           "BS": "3+",
@@ -18431,7 +18507,7 @@
           ]
         },
         {
-          "name": "➤ Rite of Possession - focused witchfire",
+          "name": "Rite of Possession - focused witchfire",
           "range": "18\"",
           "A": "2",
           "BS": "3+",
@@ -18447,7 +18523,7 @@
           ]
         },
         {
-          "name": "➤ Infernal Gaze - witchfire",
+          "name": "Infernal Gaze - witchfire",
           "range": "24\"",
           "A": "D6",
           "BS": "3+",
@@ -18459,7 +18535,7 @@
           ]
         },
         {
-          "name": "➤ Infernal Gaze - focused witchfire",
+          "name": "Infernal Gaze - focused witchfire",
           "range": "24\"",
           "A": "D6",
           "BS": "3+",

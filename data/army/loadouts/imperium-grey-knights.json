@@ -1267,41 +1267,31 @@
             "min": 4,
             "max": 9,
             "equippedWith": "Nemesis force weapon and Storm bolter"
+          },
+          {
+            "id": "74a8-a54f-98b9-4d09",
+            "name": "Purgator w/ incinerator",
+            "min": 0,
+            "max": 4,
+            "equippedWith": "Incinerator"
+          },
+          {
+            "id": "ce96-29f0-f79e-907d",
+            "name": "Purgator w/ psilencer",
+            "min": 0,
+            "max": 4,
+            "equippedWith": "Psilencer"
+          },
+          {
+            "id": "f0ad-a5ac-154b-e21d",
+            "name": "Purgator w/ psycannon",
+            "min": 0,
+            "max": 4,
+            "equippedWith": "Psycannon"
           }
         ],
         "defaultOptionId": "ee3b-2ec2-2841-7e66",
-        "groups": [
-          {
-            "id": "fb6c-362f-95ea-80a8",
-            "name": "Heavy Weapons",
-            "min": 0,
-            "max": 4,
-            "mode": "count",
-            "options": [
-              {
-                "id": "74a8-a54f-98b9-4d09",
-                "name": "Purgator w/ incinerator",
-                "min": 0,
-                "max": 4,
-                "equippedWith": "Incinerator"
-              },
-              {
-                "id": "ce96-29f0-f79e-907d",
-                "name": "Purgator w/ psilencer",
-                "min": 0,
-                "max": 4,
-                "equippedWith": "Psilencer"
-              },
-              {
-                "id": "f0ad-a5ac-154b-e21d",
-                "name": "Purgator w/ psycannon",
-                "min": 0,
-                "max": 4,
-                "equippedWith": "Psycannon"
-              }
-            ]
-          }
-        ]
+        "groups": []
       },
       {
         "id": "5a6a-dca2-0db5-7fb7",
@@ -1336,41 +1326,31 @@
             "min": 0,
             "max": 99,
             "equippedWith": "Nemesis force weapon and Storm bolter and Purifying Flame"
+          },
+          {
+            "id": "a555-f09-9aa6-db71",
+            "name": "Purifier w/ incinerator",
+            "min": 0,
+            "max": 4,
+            "equippedWith": "Incinerator and Purifying Flame"
+          },
+          {
+            "id": "efc9-77c8-f86a-878d",
+            "name": "Purifier w/ psilencer",
+            "min": 0,
+            "max": 4,
+            "equippedWith": "Psilencer and Purifying Flame"
+          },
+          {
+            "id": "d518-3382-8614-960b",
+            "name": "Purifier w/ psycannon",
+            "min": 0,
+            "max": 4,
+            "equippedWith": "Psycannon and Purifying Flame"
           }
         ],
         "defaultOptionId": "2105-9372-a043-df0c",
-        "groups": [
-          {
-            "id": "4569-57ed-48ff-4b9b",
-            "name": "Heavy weapons",
-            "min": 0,
-            "max": 2,
-            "mode": "count",
-            "options": [
-              {
-                "id": "a555-f09-9aa6-db71",
-                "name": "Purifier w/ incinerator",
-                "min": 0,
-                "max": 4,
-                "equippedWith": "Incinerator and Purifying Flame"
-              },
-              {
-                "id": "efc9-77c8-f86a-878d",
-                "name": "Purifier w/ psilencer",
-                "min": 0,
-                "max": 4,
-                "equippedWith": "Psilencer and Purifying Flame"
-              },
-              {
-                "id": "d518-3382-8614-960b",
-                "name": "Purifier w/ psycannon",
-                "min": 0,
-                "max": 4,
-                "equippedWith": "Psycannon and Purifying Flame"
-              }
-            ]
-          }
-        ]
+        "groups": []
       },
       {
         "id": "65e4-b6a3-8ad3-0a4f",

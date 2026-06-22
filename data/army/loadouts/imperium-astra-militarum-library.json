@@ -3900,61 +3900,51 @@
             "min": 0,
             "max": 1,
             "equippedWith": "Close combat weapon and Heavy flamer"
-          }
-        ],
-        "groups": [
+          },
           {
-            "id": "8be7-1403-d963-7812",
-            "name": "Special Weapons",
+            "id": "4966-94e3-8392-dccc",
+            "name": "Grenadier w/ Grenade launcher",
             "min": 0,
             "max": 2,
-            "mode": "count",
-            "options": [
-              {
-                "id": "4966-94e3-8392-dccc",
-                "name": "Grenadier w/ Grenade launcher",
-                "min": 0,
-                "max": 2,
-                "equippedWith": "Close combat weapon and Grenade launcher"
-              },
-              {
-                "id": "91c8-e43c-8cd9-1694",
-                "name": "Grenadier w/ Heavy stubber",
-                "min": 0,
-                "max": 2,
-                "equippedWith": "Close combat weapon"
-              },
-              {
-                "id": "7e92-002a-1265-b04f",
-                "name": "Grenadier w/ Meltagun",
-                "min": 0,
-                "max": 2,
-                "equippedWith": "Close combat weapon and Meltagun"
-              },
-              {
-                "id": "8ae3-a772-c0c7-53a3",
-                "name": "Grenadier w/ Plasma gun",
-                "min": 0,
-                "max": 2,
-                "equippedWith": "Close combat weapon and Plasma gun"
-              },
-              {
-                "id": "7342-c076-0373-7f69",
-                "name": "Grenadier w/ Sniper rifle",
-                "min": 0,
-                "max": 2,
-                "equippedWith": "Close combat weapon and Sniper rifle"
-              },
-              {
-                "id": "c066-88c7-f985-c341",
-                "name": "Grenadier w/ Flamer",
-                "min": 0,
-                "max": 2,
-                "equippedWith": "Close combat weapon and Flamer"
-              }
-            ]
+            "equippedWith": "Close combat weapon and Grenade launcher"
+          },
+          {
+            "id": "91c8-e43c-8cd9-1694",
+            "name": "Grenadier w/ Heavy stubber",
+            "min": 0,
+            "max": 2,
+            "equippedWith": "Close combat weapon"
+          },
+          {
+            "id": "7e92-002a-1265-b04f",
+            "name": "Grenadier w/ Meltagun",
+            "min": 0,
+            "max": 2,
+            "equippedWith": "Close combat weapon and Meltagun"
+          },
+          {
+            "id": "8ae3-a772-c0c7-53a3",
+            "name": "Grenadier w/ Plasma gun",
+            "min": 0,
+            "max": 2,
+            "equippedWith": "Close combat weapon and Plasma gun"
+          },
+          {
+            "id": "7342-c076-0373-7f69",
+            "name": "Grenadier w/ Sniper rifle",
+            "min": 0,
+            "max": 2,
+            "equippedWith": "Close combat weapon and Sniper rifle"
+          },
+          {
+            "id": "c066-88c7-f985-c341",
+            "name": "Grenadier w/ Flamer",
+            "min": 0,
+            "max": 2,
+            "equippedWith": "Close combat weapon and Flamer"
           }
-        ]
+        ],
+        "groups": []
       },
       {
         "id": "7928-c976-0121-36f2",
@@ -5511,62 +5501,52 @@
             "min": 0,
             "max": 1,
             "equippedWith": "Medi-pack and Close combat weapon and Laspistol and Lasgun"
+          },
+          {
+            "id": "c3aa-7206-aa07-06a9",
+            "name": "Veteran Guardsman w/ Flamer",
+            "min": 0,
+            "max": 1,
+            "equippedWith": "Close combat weapon and Laspistol and Flamer"
+          },
+          {
+            "id": "c54c-2cb2-d716-0f9b",
+            "name": "Veteran Guardsman w/ Grenade launcher",
+            "min": 0,
+            "max": 1,
+            "equippedWith": "Close combat weapon and Laspistol and Grenade launcher"
+          },
+          {
+            "id": "6ff4-bac6-1118-bed0",
+            "name": "Veteran Guardsman w/ Heavy flamer",
+            "min": 0,
+            "max": 1,
+            "equippedWith": "Close combat weapon and Laspistol and Heavy flamer"
+          },
+          {
+            "id": "d967-c8ec-a65d-da81",
+            "name": "Veteran Guardsman w/ Meltagun",
+            "min": 0,
+            "max": 1,
+            "equippedWith": "Close combat weapon and Laspistol and Meltagun"
+          },
+          {
+            "id": "f679-f0a2-ac5c-87a3",
+            "name": "Veteran Guardsman w/ Plasma gun",
+            "min": 0,
+            "max": 1,
+            "equippedWith": "Close combat weapon and Laspistol and Plasma gun"
+          },
+          {
+            "id": "50b1-0d06-c4c2-88f7",
+            "name": "Veteran Guardsman w/ Sniper rifle",
+            "min": 0,
+            "max": 1,
+            "equippedWith": "Close combat weapon and Laspistol and Sniper rifle"
           }
         ],
         "defaultOptionId": "b179-d6c3-a951-7f51",
-        "groups": [
-          {
-            "id": "7b6b-d738-d1aa-a9bd",
-            "name": "Special Weapons",
-            "min": 0,
-            "max": 4,
-            "mode": "count",
-            "options": [
-              {
-                "id": "c3aa-7206-aa07-06a9",
-                "name": "Veteran Guardsman w/ Flamer",
-                "min": 0,
-                "max": 1,
-                "equippedWith": "Close combat weapon and Laspistol and Flamer"
-              },
-              {
-                "id": "c54c-2cb2-d716-0f9b",
-                "name": "Veteran Guardsman w/ Grenade launcher",
-                "min": 0,
-                "max": 1,
-                "equippedWith": "Close combat weapon and Laspistol and Grenade launcher"
-              },
-              {
-                "id": "6ff4-bac6-1118-bed0",
-                "name": "Veteran Guardsman w/ Heavy flamer",
-                "min": 0,
-                "max": 1,
-                "equippedWith": "Close combat weapon and Laspistol and Heavy flamer"
-              },
-              {
-                "id": "d967-c8ec-a65d-da81",
-                "name": "Veteran Guardsman w/ Meltagun",
-                "min": 0,
-                "max": 1,
-                "equippedWith": "Close combat weapon and Laspistol and Meltagun"
-              },
-              {
-                "id": "f679-f0a2-ac5c-87a3",
-                "name": "Veteran Guardsman w/ Plasma gun",
-                "min": 0,
-                "max": 1,
-                "equippedWith": "Close combat weapon and Laspistol and Plasma gun"
-              },
-              {
-                "id": "50b1-0d06-c4c2-88f7",
-                "name": "Veteran Guardsman w/ Sniper rifle",
-                "min": 0,
-                "max": 1,
-                "equippedWith": "Close combat weapon and Laspistol and Sniper rifle"
-              }
-            ]
-          }
-        ]
+        "groups": []
       },
       {
         "id": "0094-3ba9-5a6f-f8b8",

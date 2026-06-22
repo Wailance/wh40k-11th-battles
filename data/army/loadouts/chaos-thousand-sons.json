@@ -761,32 +761,22 @@
             "name": "Scarab Occult Terminator",
             "min": 3,
             "max": 9
+          },
+          {
+            "id": "6bc9-f53a-e7e6-19bc",
+            "name": "Scarab Occult Terminator w/ heavy warpflamer",
+            "min": 0,
+            "max": 2
+          },
+          {
+            "id": "f0e4-fd2b-1ba8-7234",
+            "name": "Scarab Occult Terminator w/ soulreaper cannon",
+            "min": 0,
+            "max": 2
           }
         ],
         "defaultOptionId": "a7ee-9112-4e83-bc2",
-        "groups": [
-          {
-            "id": "b7c1-a071-542e-a06d",
-            "name": "Heavy weapons",
-            "min": 0,
-            "max": 2,
-            "mode": "count",
-            "options": [
-              {
-                "id": "6bc9-f53a-e7e6-19bc",
-                "name": "Scarab Occult Terminator w/ heavy warpflamer",
-                "min": 0,
-                "max": 2
-              },
-              {
-                "id": "f0e4-fd2b-1ba8-7234",
-                "name": "Scarab Occult Terminator w/ soulreaper cannon",
-                "min": 0,
-                "max": 2
-              }
-            ]
-          }
-        ]
+        "groups": []
       }
     ]
   },

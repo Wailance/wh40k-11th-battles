@@ -3393,8 +3393,32 @@
         "LD": "6+",
         "OC": "3"
       },
-      "rangedWeapons": [],
-      "meleeWeapons": [],
+      "rangedWeapons": [
+        {
+          "name": "Assault cannon",
+          "range": "24\"",
+          "A": "6",
+          "BS": "3+",
+          "S": "6",
+          "AP": "0",
+          "D": "1",
+          "keywords": [
+            "Devastating Wounds"
+          ]
+        }
+      ],
+      "meleeWeapons": [
+        {
+          "name": "Dreadnought combat weapon",
+          "range": "Melee",
+          "A": "5",
+          "WS": "3+",
+          "S": "12",
+          "AP": "-2",
+          "D": "3",
+          "keywords": []
+        }
+      ],
       "abilities": [
         {
           "name": "Guidance of the Ancients (Psychic)",
@@ -3838,7 +3862,18 @@
         "OC": "4"
       },
       "rangedWeapons": [],
-      "meleeWeapons": [],
+      "meleeWeapons": [
+        {
+          "name": "Dreadfists",
+          "range": "Melee",
+          "A": "6",
+          "WS": "2+",
+          "S": "6",
+          "AP": "-1",
+          "D": "1",
+          "keywords": []
+        }
+      ],
       "abilities": [
         {
           "name": "Indomitable Spirit (Psychic)",
@@ -4464,7 +4499,7 @@
           ]
         },
         {
-          "name": "➤ Plasma cannon - standard",
+          "name": "Plasma cannon - standard",
           "range": "36\"",
           "A": "D3",
           "BS": "4+",
@@ -4477,7 +4512,7 @@
           ]
         },
         {
-          "name": "➤ Plasma cannon - supercharge",
+          "name": "Plasma cannon - supercharge",
           "range": "36\"",
           "A": "D3",
           "BS": "4+",
@@ -5101,7 +5136,7 @@
           ]
         },
         {
-          "name": "➤ Heavy plasma cannon - standard",
+          "name": "Heavy plasma cannon - standard",
           "range": "36\"",
           "A": "D3",
           "BS": "3+",
@@ -5113,7 +5148,7 @@
           ]
         },
         {
-          "name": "➤ Heavy plasma cannon - supercharge",
+          "name": "Heavy plasma cannon - supercharge",
           "range": "36\"",
           "A": "D3",
           "BS": "3+",
@@ -5162,7 +5197,7 @@
           ]
         },
         {
-          "name": "➤ Missile launcher - frag",
+          "name": "Missile launcher - frag",
           "range": "48\"",
           "A": "D6",
           "BS": "3+",
@@ -5174,7 +5209,7 @@
           ]
         },
         {
-          "name": "➤ Missile launcher - krak",
+          "name": "Missile launcher - krak",
           "range": "48\"",
           "A": "1",
           "BS": "3+",
@@ -5476,7 +5511,7 @@
           ]
         },
         {
-          "name": "➤ Heavy plasma cannon - standard",
+          "name": "Heavy plasma cannon - standard",
           "range": "36\"",
           "A": "D3",
           "BS": "3+",
@@ -5488,7 +5523,7 @@
           ]
         },
         {
-          "name": "➤ Heavy plasma cannon - supercharge",
+          "name": "Heavy plasma cannon - supercharge",
           "range": "36\"",
           "A": "D3",
           "BS": "3+",
@@ -5782,7 +5817,7 @@
           ]
         },
         {
-          "name": "➤ Nemesis greatsword - strike",
+          "name": "Nemesis greatsword - strike",
           "range": "Melee",
           "A": "5",
           "WS": "2+",
@@ -5794,7 +5829,7 @@
           ]
         },
         {
-          "name": "➤ Nemesis greatsword - sweep",
+          "name": "Nemesis greatsword - sweep",
           "range": "Melee",
           "A": "10",
           "WS": "2+",
@@ -5994,7 +6029,7 @@
           ]
         },
         {
-          "name": "➤ Heavy plasma cannon - standard",
+          "name": "Heavy plasma cannon - standard",
           "range": "36\"",
           "A": "D3",
           "BS": "3+",
@@ -6006,7 +6041,7 @@
           ]
         },
         {
-          "name": "➤ Heavy plasma cannon - supercharge",
+          "name": "Heavy plasma cannon - supercharge",
           "range": "36\"",
           "A": "D3",
           "BS": "3+",
@@ -6300,7 +6335,7 @@
           ]
         },
         {
-          "name": "➤ Nemesis greatsword - strike",
+          "name": "Nemesis greatsword - strike",
           "range": "Melee",
           "A": "5",
           "WS": "2+",
@@ -6312,7 +6347,7 @@
           ]
         },
         {
-          "name": "➤ Nemesis greatsword - sweep",
+          "name": "Nemesis greatsword - sweep",
           "range": "Melee",
           "A": "10",
           "WS": "2+",
@@ -6507,7 +6542,7 @@
           ]
         },
         {
-          "name": "➤ Heavy plasma cannon - standard",
+          "name": "Heavy plasma cannon - standard",
           "range": "36\"",
           "A": "D3",
           "BS": "3+",
@@ -6519,7 +6554,7 @@
           ]
         },
         {
-          "name": "➤ Heavy plasma cannon - supercharge",
+          "name": "Heavy plasma cannon - supercharge",
           "range": "36\"",
           "A": "D3",
           "BS": "3+",
@@ -6813,7 +6848,7 @@
           ]
         },
         {
-          "name": "➤ Nemesis greatsword - strike",
+          "name": "Nemesis greatsword - strike",
           "range": "Melee",
           "A": "5",
           "WS": "2+",
@@ -6825,7 +6860,7 @@
           ]
         },
         {
-          "name": "➤ Nemesis greatsword - sweep",
+          "name": "Nemesis greatsword - sweep",
           "range": "Melee",
           "A": "10",
           "WS": "2+",

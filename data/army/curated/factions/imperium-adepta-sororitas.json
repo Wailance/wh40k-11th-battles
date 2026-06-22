@@ -233,8 +233,34 @@
         "LD": "7+",
         "OC": "1"
       },
-      "rangedWeapons": [],
-      "meleeWeapons": [],
+      "rangedWeapons": [
+        {
+          "name": "Bolt Pistol",
+          "range": "12\"",
+          "A": "1",
+          "BS": "3+",
+          "S": "4",
+          "AP": "0",
+          "D": "1",
+          "keywords": [
+            "Pistol"
+          ]
+        }
+      ],
+      "meleeWeapons": [
+        {
+          "name": "Blessed blade",
+          "range": "Melee",
+          "A": "4",
+          "WS": "2+",
+          "S": "6",
+          "AP": "-2",
+          "D": "2",
+          "keywords": [
+            "Lethal Hits"
+          ]
+        }
+      ],
       "abilities": [
         {
           "name": "The Emperor's Grace",
@@ -2091,7 +2117,7 @@
           ]
         },
         {
-          "name": "➤ Paragon missile launcher - prioris",
+          "name": "Paragon missile launcher - prioris",
           "range": "36\"",
           "A": "2",
           "BS": "2+",
@@ -2101,7 +2127,7 @@
           "keywords": []
         },
         {
-          "name": "➤ Paragon missile launcher - sanctorum",
+          "name": "Paragon missile launcher - sanctorum",
           "range": "36\"",
           "A": "2D6",
           "BS": "2+",
@@ -2115,7 +2141,7 @@
       ],
       "meleeWeapons": [
         {
-          "name": "➤ Lance of Illumination - strike",
+          "name": "Lance of Illumination - strike",
           "range": "Melee",
           "A": "5",
           "WS": "2+",
@@ -2127,7 +2153,7 @@
           ]
         },
         {
-          "name": "➤ Lance of Illumination - sweep",
+          "name": "Lance of Illumination - sweep",
           "range": "Melee",
           "A": "10",
           "WS": "2+",
@@ -3069,7 +3095,7 @@
           ]
         },
         {
-          "name": "➤ Plasma pistol - supercharge",
+          "name": "Plasma pistol - supercharge",
           "range": "12\"",
           "A": "1",
           "BS": "3+",
@@ -3082,7 +3108,7 @@
           ]
         },
         {
-          "name": "➤ Plasma pistol - standard",
+          "name": "Plasma pistol - standard",
           "range": "12\"",
           "A": "1",
           "BS": "3+",
@@ -3382,7 +3408,7 @@
       },
       "rangedWeapons": [
         {
-          "name": "➤ Plasma pistol - supercharge",
+          "name": "Plasma pistol - supercharge",
           "range": "12\"",
           "A": "1",
           "BS": "3+",
@@ -3395,7 +3421,7 @@
           ]
         },
         {
-          "name": "➤ Plasma pistol - standard",
+          "name": "Plasma pistol - standard",
           "range": "12\"",
           "A": "1",
           "BS": "3+",
@@ -3857,7 +3883,7 @@
       },
       "rangedWeapons": [
         {
-          "name": "➤ Plasma pistol - supercharge",
+          "name": "Plasma pistol - supercharge",
           "range": "12\"",
           "A": "1",
           "BS": "3+",
@@ -3870,7 +3896,7 @@
           ]
         },
         {
-          "name": "➤ Plasma pistol - standard",
+          "name": "Plasma pistol - standard",
           "range": "12\"",
           "A": "1",
           "BS": "3+",
@@ -4712,7 +4738,7 @@
           ]
         },
         {
-          "name": "➤ Plasma gun - standard",
+          "name": "Plasma gun - standard",
           "range": "12\"",
           "A": "1",
           "BS": "3+",
@@ -4724,7 +4750,7 @@
           ]
         },
         {
-          "name": "➤ Plasma gun - supercharge",
+          "name": "Plasma gun - supercharge",
           "range": "12\"",
           "A": "1",
           "BS": "3+",
@@ -5183,7 +5209,7 @@
           ]
         },
         {
-          "name": "➤ Plasma pistol - supercharge",
+          "name": "Plasma pistol - supercharge",
           "range": "12\"",
           "A": "1",
           "BS": "2+",
@@ -5196,7 +5222,7 @@
           ]
         },
         {
-          "name": "➤ Plasma pistol - standard",
+          "name": "Plasma pistol - standard",
           "range": "12\"",
           "A": "1",
           "BS": "2+",
@@ -5675,7 +5701,7 @@
           ]
         },
         {
-          "name": "➤ Plasma pistol - supercharge",
+          "name": "Plasma pistol - supercharge",
           "range": "12\"",
           "A": "1",
           "BS": "2+",
@@ -5688,7 +5714,7 @@
           ]
         },
         {
-          "name": "➤ Plasma pistol - standard",
+          "name": "Plasma pistol - standard",
           "range": "12\"",
           "A": "1",
           "BS": "2+",
@@ -6169,7 +6195,7 @@
           ]
         },
         {
-          "name": "➤ Plasma pistol - supercharge",
+          "name": "Plasma pistol - supercharge",
           "range": "12\"",
           "A": "1",
           "BS": "2+",
@@ -6182,7 +6208,7 @@
           ]
         },
         {
-          "name": "➤ Plasma pistol - standard",
+          "name": "Plasma pistol - standard",
           "range": "12\"",
           "A": "1",
           "BS": "2+",

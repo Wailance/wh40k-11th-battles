@@ -356,7 +356,7 @@
       },
       "rangedWeapons": [
         {
-          "name": "➤ Fury of the Ancients - Witchfire",
+          "name": "Fury of the Ancients - Witchfire",
           "range": "18\"",
           "A": "3",
           "BS": "2+",
@@ -370,7 +370,7 @@
           ]
         },
         {
-          "name": "➤ Fury of the Ancients - Focused Witchfire",
+          "name": "Fury of the Ancients - Focused Witchfire",
           "range": "18\"",
           "A": "3",
           "BS": "2+",
@@ -580,7 +580,7 @@
       },
       "rangedWeapons": [
         {
-          "name": "➤ Astartes Grenade Launcher - Frag",
+          "name": "Astartes Grenade Launcher - Frag",
           "range": "24\"",
           "A": "D3",
           "BS": "3+",
@@ -592,7 +592,7 @@
           ]
         },
         {
-          "name": "➤ Astartes Grenade Launcher - Krak",
+          "name": "Astartes Grenade Launcher - Krak",
           "range": "24\"",
           "A": "1",
           "BS": "3+",
@@ -679,7 +679,20 @@
         "LD": "6+",
         "OC": "1"
       },
-      "rangedWeapons": [],
+      "rangedWeapons": [
+        {
+          "name": "Heavy Bolt Pistol",
+          "range": "18\"",
+          "A": "1",
+          "BS": "3+",
+          "S": "4",
+          "AP": "-1",
+          "D": "1",
+          "keywords": [
+            "Pistol"
+          ]
+        }
+      ],
       "meleeWeapons": [],
       "abilities": [
         {
@@ -929,7 +942,7 @@
       },
       "rangedWeapons": [
         {
-          "name": "➤ Blood Lance - Focused Witchfire",
+          "name": "Blood Lance - Focused Witchfire",
           "range": "18\"",
           "A": "1",
           "BS": "3+",
@@ -943,7 +956,7 @@
           ]
         },
         {
-          "name": "➤ Blood Lance - Witchfire",
+          "name": "Blood Lance - Witchfire",
           "range": "18\"",
           "A": "1",
           "BS": "3+",
@@ -1126,8 +1139,32 @@
         "LD": "6+",
         "OC": "1"
       },
-      "rangedWeapons": [],
-      "meleeWeapons": [],
+      "rangedWeapons": [
+        {
+          "name": "Absolvor Bolt Pistol",
+          "range": "18\"",
+          "A": "1",
+          "BS": "2+",
+          "S": "5",
+          "AP": "-1",
+          "D": "2",
+          "keywords": [
+            "Pistol"
+          ]
+        }
+      ],
+      "meleeWeapons": [
+        {
+          "name": "Astartes Chainsword",
+          "range": "Melee",
+          "A": "5",
+          "WS": "2+",
+          "S": "4",
+          "AP": "-1",
+          "D": "1",
+          "keywords": []
+        }
+      ],
       "abilities": [
         {
           "name": "Sanguinary Priest",
@@ -1358,7 +1395,20 @@
         "LD": "6+",
         "OC": "1"
       },
-      "rangedWeapons": [],
+      "rangedWeapons": [
+        {
+          "name": "Heavy Bolt Pistol",
+          "range": "18\"",
+          "A": "1",
+          "BS": "3+",
+          "S": "4",
+          "AP": "-1",
+          "D": "1",
+          "keywords": [
+            "Pistol"
+          ]
+        }
+      ],
       "meleeWeapons": [],
       "abilities": [
         {
@@ -1414,7 +1464,20 @@
         "LD": "6+",
         "OC": "1"
       },
-      "rangedWeapons": [],
+      "rangedWeapons": [
+        {
+          "name": "Heavy Bolt Pistol",
+          "range": "18\"",
+          "A": "1",
+          "BS": "3+",
+          "S": "4",
+          "AP": "-1",
+          "D": "1",
+          "keywords": [
+            "Pistol"
+          ]
+        }
+      ],
       "meleeWeapons": [],
       "abilities": [
         {
@@ -1477,8 +1540,32 @@
         "LD": "6+",
         "OC": "1"
       },
-      "rangedWeapons": [],
-      "meleeWeapons": [],
+      "rangedWeapons": [
+        {
+          "name": "Heavy Bolt Pistol",
+          "range": "18\"",
+          "A": "1",
+          "BS": "3+",
+          "S": "4",
+          "AP": "-1",
+          "D": "1",
+          "keywords": [
+            "Pistol"
+          ]
+        }
+      ],
+      "meleeWeapons": [
+        {
+          "name": "Astartes Chainsword",
+          "range": "Melee",
+          "A": "5",
+          "WS": "2+",
+          "S": "4",
+          "AP": "-1",
+          "D": "1",
+          "keywords": []
+        }
+      ],
       "abilities": [
         {
           "name": "Death Vision of Sanguinius",
@@ -1537,7 +1624,7 @@
       },
       "rangedWeapons": [
         {
-          "name": "➤ Astartes Grenade Launcher - Frag",
+          "name": "Astartes Grenade Launcher - Frag",
           "range": "24\"",
           "A": "D3",
           "BS": "3+",
@@ -1549,7 +1636,7 @@
           ]
         },
         {
-          "name": "➤ Astartes Grenade Launcher - Krak",
+          "name": "Astartes Grenade Launcher - Krak",
           "range": "24\"",
           "A": "1",
           "BS": "3+",

@@ -421,51 +421,41 @@
             "name": "Hunter-killer missile",
             "min": 0,
             "max": 3
+          },
+          {
+            "id": "3284-b760-6813-9b07",
+            "name": "Grav-flux bombard",
+            "min": 0,
+            "max": 2
+          },
+          {
+            "id": "af11-bea9-73b6-4a56",
+            "name": "Cyclonic melta-lance",
+            "min": 0,
+            "max": 2
+          },
+          {
+            "id": "8658-d1bc-4072-6566",
+            "name": "Storm cannon",
+            "min": 0,
+            "max": 2
+          },
+          {
+            "id": "c7f1-a5cf-38e7-6c11",
+            "name": "Siege claw and meltagun",
+            "min": 0,
+            "max": 2,
+            "equippedWith": "Meltagun"
+          },
+          {
+            "id": "189a-c481-5a18-626e",
+            "name": "Siege drill  and meltagun",
+            "min": 0,
+            "max": 2,
+            "equippedWith": "Meltagun"
           }
         ],
         "groups": [
-          {
-            "id": "9d07-b082-8f92-27c0",
-            "name": "Arm weapons",
-            "min": 2,
-            "max": 2,
-            "mode": "count",
-            "options": [
-              {
-                "id": "3284-b760-6813-9b07",
-                "name": "Grav-flux bombard",
-                "min": 0,
-                "max": 2
-              },
-              {
-                "id": "af11-bea9-73b6-4a56",
-                "name": "Cyclonic melta-lance",
-                "min": 0,
-                "max": 2
-              },
-              {
-                "id": "8658-d1bc-4072-6566",
-                "name": "Storm cannon",
-                "min": 0,
-                "max": 2
-              },
-              {
-                "id": "c7f1-a5cf-38e7-6c11",
-                "name": "Siege claw and meltagun",
-                "min": 0,
-                "max": 2,
-                "equippedWith": "Meltagun"
-              },
-              {
-                "id": "189a-c481-5a18-626e",
-                "name": "Siege drill  and meltagun",
-                "min": 0,
-                "max": 2,
-                "equippedWith": "Meltagun"
-              }
-            ],
-            "defaultOptionId": "3284-b760-6813-9b07"
-          },
           {
             "id": "3956-d4a7-3c64-965d",
             "name": "Replace heavy flamers",
