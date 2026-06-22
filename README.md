@@ -19,7 +19,21 @@ npm install
 npm run dev
 ```
 
-## Refresh data from xlsx
+## Refresh army builder data
+
+```bash
+npm run build:army-data
+```
+
+Clones [BSData/wh40k-10e](https://github.com/BSData/wh40k-10e) (datasheets) and [BSData/wh40k-11e-mfm](https://github.com/BSData/wh40k-11e-mfm) (official MFM points), then writes curated JSON to `public/data/army/`.
+
+To refresh MFM points only (after a curated build exists):
+
+```bash
+npm run merge:mfm
+```
+
+## Refresh mission data from xlsx
 
 ```bash
 python3 scripts/extract-data.py

@@ -6,7 +6,7 @@
     {
       "id": "63f3-6aeb-c9ed-abfc",
       "name": "Kor'sarro Khan",
-      "points": 60,
+      "points": 55,
       "keywords": [
         "Epic Hero",
         "Character",
@@ -60,12 +60,37 @@
           "name": "Inspiring Commander",
           "description": "If you include this model in your army, until the end of the battle, non-Character models in Outrider Squad units from your army have an Objective Control characteristic of 3 while they are not Battle-shocked."
         }
+      ],
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 55
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "55",
+      "mfmRole": "leader",
+      "attachTo": [
+        "Assault Intercessor Squad",
+        "Assault Squad",
+        "Bladeguard Veteran Squad",
+        "Command Squad",
+        "Company Heroes",
+        "Intercessor Squad",
+        "Sternguard Veteran Squad",
+        "Tactical Squad",
+        "Vanguard Veteran Squad"
       ]
     },
     {
       "id": "d72d-b930-9849-924e",
       "name": "Suboden Khan",
-      "points": 115,
+      "points": 100,
       "keywords": [
         "Mounted",
         "Character",
@@ -139,6 +164,25 @@
           "name": "Leader",
           "description": "This model can be attached to the following units: ^^**Outrider Squad^^**"
         }
+      ],
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 100
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "100",
+      "mfmRole": "leader",
+      "attachTo": [
+        "Bike Squad",
+        "Company Veterans On Bikes",
+        "Outrider Squad"
       ]
     }
   ],

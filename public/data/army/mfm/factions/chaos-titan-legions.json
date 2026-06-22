@@ -1,0 +1,85 @@
+{
+  "slug": "chaos-titan-legions",
+  "name": "Chaos Titan Legions",
+  "version": "1.0",
+  "firstSeen": "2026-06-17",
+  "detachments": [],
+  "units": [
+    {
+      "name": "Chaos Reaver Titan",
+      "normalizedName": "chaos reaver titan",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 2200
+            }
+          ]
+        }
+      ],
+      "points": 2200,
+      "pointsLabel": "2200",
+      "legends": false
+    },
+    {
+      "name": "Chaos Warbringer Nemesis Titan",
+      "normalizedName": "chaos warbringer nemesis titan",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 2600
+            }
+          ]
+        }
+      ],
+      "points": 2600,
+      "pointsLabel": "2600",
+      "legends": false
+    },
+    {
+      "name": "Chaos Warhound Titan",
+      "normalizedName": "chaos warhound titan",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 1100
+            }
+          ]
+        }
+      ],
+      "points": 1100,
+      "pointsLabel": "1100",
+      "legends": false
+    },
+    {
+      "name": "Chaos Warlord Titan",
+      "normalizedName": "chaos warlord titan",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 3500
+            }
+          ]
+        }
+      ],
+      "points": 3500,
+      "pointsLabel": "3500",
+      "legends": false
+    }
+  ]
+}

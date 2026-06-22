@@ -1,0 +1,945 @@
+{
+  "c8a6-a4c5-703e-b717": {
+    "groups": [
+      {
+        "id": "61e8-07d2-58ab-c98a",
+        "name": "Allarus Custodians",
+        "min": 2,
+        "max": 6,
+        "mode": "count",
+        "options": [
+          {
+            "id": "b690-3f83-ec6a-401f",
+            "name": "Allarus Custodian (Guardian Spear)",
+            "min": 0,
+            "max": 6,
+            "equippedWith": "Balistus grenade launcher"
+          },
+          {
+            "id": "fab4-d437-6e07-eb33",
+            "name": "Allarus Custodian (Castellan Axe)",
+            "min": 0,
+            "max": 6,
+            "equippedWith": "Balistus grenade launcher"
+          },
+          {
+            "id": "cea8-14c8-fb23-d286",
+            "name": "Allarus Custodian (Vexilla & Misericordia)",
+            "min": 0,
+            "max": 1,
+            "equippedWith": "Balistus grenade launcher"
+          }
+        ],
+        "defaultOptionId": "b690-3f83-ec6a-401f"
+      }
+    ]
+  },
+  "d7cb-7d30-715b-50d2": {
+    "groups": [
+      {
+        "id": "310f-0275-e641-edb4",
+        "name": "Wargear",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "88c9-f670-c69c-1cdb",
+            "name": "Storm Bolter",
+            "min": 1,
+            "max": 1
+          },
+          {
+            "id": "6e83-f3e5-e2cf-922e",
+            "name": "Armoured tracks",
+            "min": 1,
+            "max": 1
+          },
+          {
+            "id": "a58c-9d13-f5dd-4afa",
+            "name": "Hunter-killer missile",
+            "min": 0,
+            "max": 1
+          }
+        ]
+      }
+    ]
+  },
+  "48b7-e713-d5b1-f11c": {
+    "groups": [
+      {
+        "id": "f610-42a4-d114-3181",
+        "name": "Wargear",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "f906-23b-58ce-a3df",
+            "name": "Vaultswords",
+            "min": 1,
+            "max": 1
+          }
+        ]
+      }
+    ]
+  },
+  "91b3-2e1c-e642-d213": {
+    "groups": [
+      {
+        "id": "a293-9470-77c1-c8da",
+        "name": "4-5 Custodian Guard",
+        "min": 4,
+        "max": 5,
+        "mode": "count",
+        "options": [
+          {
+            "id": "5bbc-172f-4cb8-e6da",
+            "name": "Custodian Guard (Guardian Spear)",
+            "min": 0,
+            "max": 99
+          },
+          {
+            "id": "c5ee-8179-ecc0-cafb",
+            "name": "Custodian Guard (Sentinel Blade & Praesidium Shield)",
+            "min": 0,
+            "max": 99
+          },
+          {
+            "id": "01d2-1f35-606f-1664",
+            "name": "Custodian Guard (Vexilla, Praesidium Shield & Misericordia)",
+            "min": 0,
+            "max": 1
+          }
+        ],
+        "defaultOptionId": "5bbc-172f-4cb8-e6da"
+      }
+    ]
+  },
+  "9610-b148-8433-93b8": {
+    "groups": [
+      {
+        "id": "b18e-1308-8400-ee07",
+        "name": "4-5 Custodian Wardens",
+        "min": 4,
+        "max": 5,
+        "mode": "count",
+        "options": [
+          {
+            "id": "5195-95e9-6317-18ef",
+            "name": "Custodian Warden (Guardian Spear)",
+            "min": 0,
+            "max": 5
+          },
+          {
+            "id": "4a80-c791-9d9f-30c6",
+            "name": "Custodian Warden (Castellan axe)",
+            "min": 0,
+            "max": 5
+          },
+          {
+            "id": "390b-8fad-286e-a3d5",
+            "name": "Custodian Warden w/ Vexilla",
+            "min": 0,
+            "max": 1,
+            "groups": [
+              {
+                "id": "e0fc-e1e9-eb95-5da8",
+                "name": "Weapon",
+                "min": 1,
+                "max": 1,
+                "mode": "single",
+                "options": [
+                  {
+                    "id": "9269-d5ba-f2a-c30f",
+                    "name": "Guardian Spear",
+                    "min": 0,
+                    "max": 99
+                  },
+                  {
+                    "id": "3b38-fa2c-6bc7-f457",
+                    "name": "Castellan Axe",
+                    "min": 0,
+                    "max": 99
+                  }
+                ],
+                "defaultOptionId": "9269-d5ba-f2a-c30f"
+              }
+            ]
+          }
+        ],
+        "defaultOptionId": "5195-95e9-6317-18ef"
+      }
+    ]
+  },
+  "7099-71b-56e8-7191": {
+    "groups": [
+      {
+        "id": "0a76-a281-d2b2-cc22",
+        "name": "Wargear",
+        "min": 1,
+        "max": 1,
+        "mode": "single",
+        "options": [
+          {
+            "id": "9c24-4f36-c9fa-f73c",
+            "name": "Executioner Greatblade",
+            "min": 0,
+            "max": 1
+          },
+          {
+            "id": "93a9-93c6-8eaa-ada4",
+            "name": "Witchseeker Flamer and CCW",
+            "min": 0,
+            "max": 1,
+            "equippedWith": "Witchseeker flamer"
+          },
+          {
+            "id": "94e9-239c-e46b-34c2",
+            "name": "Master-crafted boltgun and CCW",
+            "min": 0,
+            "max": 1
+          }
+        ],
+        "defaultOptionId": "9c24-4f36-c9fa-f73c"
+      }
+    ]
+  },
+  "3ec3-a4df-fdbf-5507": {
+    "groups": [
+      {
+        "id": "99f4-2a1c-1a33-7ada",
+        "name": "3-9 Prosecutors",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "6814-ce42-4b23-72a9",
+            "name": "Prosecutor",
+            "min": 3,
+            "max": 9
+          }
+        ]
+      }
+    ]
+  },
+  "b61c-b815-65c0-b1cc": {
+    "groups": [
+      {
+        "id": "d1cc-15d9-2b08-6dfb",
+        "name": "Wargear",
+        "min": 1,
+        "max": 1,
+        "mode": "single",
+        "options": [
+          {
+            "id": "53df-e02f-5f3e-6a1d",
+            "name": "Guardian Spear",
+            "min": 0,
+            "max": 99
+          },
+          {
+            "id": "540a-65ba-1752-f217",
+            "name": "Castellan Axe",
+            "min": 0,
+            "max": 99
+          },
+          {
+            "id": "5267-88a7-c874-ba99",
+            "name": "Sentinel Blade & Praesidium Shield",
+            "min": 0,
+            "max": 99
+          },
+          {
+            "id": "9480-c9d0-bef6-c3a4",
+            "name": "Sentinel Blade",
+            "min": 0,
+            "max": 99
+          },
+          {
+            "id": "661f-4fd-3300-5e9b",
+            "name": "Pyrithite Spear & Praesidium shield",
+            "min": 0,
+            "max": 99
+          }
+        ],
+        "defaultOptionId": "53df-e02f-5f3e-6a1d"
+      }
+    ]
+  },
+  "6319-eeba-b717-bd86": {
+    "groups": [
+      {
+        "id": "f91f-9745-9165-ec47",
+        "name": "Wargear",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "ce2a-1a42-7525-c06b",
+            "name": "Balistus grenade launcher",
+            "min": 1,
+            "max": 1
+          }
+        ],
+        "groups": [
+          {
+            "id": "a0ad-897a-f9ca-170c",
+            "name": "equipped with",
+            "min": 1,
+            "max": 1,
+            "mode": "single",
+            "options": [
+              {
+                "id": "2f84-3498-e578-8223",
+                "name": "Guardian Spear",
+                "min": 0,
+                "max": 99
+              },
+              {
+                "id": "a576-b3a0-7198-2094",
+                "name": "Castellan Axe",
+                "min": 0,
+                "max": 99
+              }
+            ],
+            "defaultOptionId": "2f84-3498-e578-8223"
+          }
+        ]
+      }
+    ]
+  },
+  "58fa-4a25-a5af-1144": {
+    "groups": [
+      {
+        "id": "fefc-86b1-1d3d-f21c",
+        "name": "Wargear",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "a674-6426-accd-e863",
+            "name": "Interceptor lance",
+            "min": 1,
+            "max": 1
+          }
+        ],
+        "groups": [
+          {
+            "id": "ab48-8c10-894a-5d46",
+            "name": "equipped with",
+            "min": 1,
+            "max": 1,
+            "mode": "single",
+            "options": [
+              {
+                "id": "58c3-4e14-bc1a-318b",
+                "name": "Vertus hurricane bolter",
+                "min": 0,
+                "max": 99
+              },
+              {
+                "id": "1576-174e-e5d6-82ea",
+                "name": "Salvo launcher",
+                "min": 0,
+                "max": 99
+              }
+            ],
+            "defaultOptionId": "1576-174e-e5d6-82ea"
+          }
+        ]
+      }
+    ]
+  },
+  "188b-e48b-29f-1456": {
+    "groups": [
+      {
+        "id": "f869-c5f5-f929-8502",
+        "name": "Wargear",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "33a3-7a7b-c766-bf09",
+            "name": "Combi-bolter",
+            "min": 1,
+            "max": 1
+          },
+          {
+            "id": "355c-3441-af3d-849",
+            "name": "Contemptor combat weapon",
+            "min": 1,
+            "max": 1
+          }
+        ],
+        "groups": [
+          {
+            "id": "6ee7-91e7-5929-dbdb",
+            "name": "equipped with",
+            "min": 1,
+            "max": 1,
+            "mode": "single",
+            "options": [
+              {
+                "id": "8b8b-4b36-94ed-9483",
+                "name": "Multi-melta",
+                "min": 0,
+                "max": 99
+              },
+              {
+                "id": "f2da-e26c-e0e9-7c84",
+                "name": "Kheres-pattern assault cannon",
+                "min": 0,
+                "max": 99
+              }
+            ],
+            "defaultOptionId": "8b8b-4b36-94ed-9483"
+          }
+        ]
+      }
+    ]
+  },
+  "76be-3bcb-cf4-bcbd": {
+    "groups": [
+      {
+        "id": "61c5-72aa-c6e7-978c",
+        "name": "Wargear",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "abaf-ea8a-f3da-2cbc",
+            "name": "Armoured tracks",
+            "min": 1,
+            "max": 1
+          },
+          {
+            "id": "ccdc-5040-ff10-83b8",
+            "name": "Godhammer lascannon",
+            "min": 2,
+            "max": 2
+          },
+          {
+            "id": "e8a1-2a4e-fc19-905c",
+            "name": "Storm bolter",
+            "min": 0,
+            "max": 1
+          },
+          {
+            "id": "fa54-868f-d45c-ec75",
+            "name": "Twin heavy bolter",
+            "min": 1,
+            "max": 1
+          },
+          {
+            "id": "a220-a212-161a-c4a0",
+            "name": "Hunter-killer missile",
+            "min": 0,
+            "max": 1
+          }
+        ]
+      }
+    ]
+  },
+  "918b-c9ed-7af7-74df": {
+    "groups": [
+      {
+        "id": "69df-7851-7194-4fc0",
+        "name": "2-3 Vertus Praetors",
+        "min": 2,
+        "max": 3,
+        "mode": "count",
+        "options": [
+          {
+            "id": "6e14-a825-faf0-b220",
+            "name": "Vertus Praetor (Salvo Launcher)",
+            "min": 0,
+            "max": 3
+          },
+          {
+            "id": "5bd5-bca3-6228-ef17",
+            "name": "Vertus Praetor (Hurricane Bolter)",
+            "min": 0,
+            "max": 3
+          }
+        ],
+        "defaultOptionId": "6e14-a825-faf0-b220"
+      }
+    ]
+  },
+  "dd2d-568a-9c56-1b6e": {
+    "groups": [
+      {
+        "id": "69a2-dae0-32ce-3235",
+        "name": "3-9 Vigilators",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "9474-9815-fd89-6490",
+            "name": "Vigilator",
+            "min": 3,
+            "max": 9
+          }
+        ]
+      }
+    ]
+  },
+  "503b-f7be-eeeb-9e31": {
+    "groups": [
+      {
+        "id": "fdc6-1797-8971-6964",
+        "name": "3-9 Witchseekers",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "9fdd-e31a-5f28-85ea",
+            "name": "Witchseeker",
+            "min": 3,
+            "max": 9,
+            "equippedWith": "Witchseeker flamer"
+          }
+        ],
+        "defaultOptionId": "9fdd-e31a-5f28-85ea"
+      }
+    ]
+  },
+  "af0f-5212-907e-7125": {
+    "groups": [
+      {
+        "id": "21cf-8edd-3b24-5ea1",
+        "name": "5 Custodian Guard",
+        "min": 5,
+        "max": 5,
+        "mode": "count",
+        "options": [
+          {
+            "id": "cc85-6449-baf4-ea1a",
+            "name": "Custodian Guard (Adrasite spear)",
+            "min": 0,
+            "max": 99
+          },
+          {
+            "id": "f6a0-f67b-e333-0252",
+            "name": "Custodian Guard (Pyrithite spear)",
+            "min": 0,
+            "max": 99
+          }
+        ],
+        "defaultOptionId": "cc85-6449-baf4-ea1a"
+      }
+    ]
+  },
+  "03bc-0141-b967-40e0": {
+    "groups": [
+      {
+        "id": "7c36-2977-4aba-fbfc",
+        "name": "Aquilon Custodians",
+        "min": 3,
+        "max": 6,
+        "mode": "count",
+        "options": [
+          {
+            "id": "5165-cddb-885c-36e8",
+            "name": "Aquilon Custodian (Gauntlet & Lastrum bolter)",
+            "min": 0,
+            "max": 99
+          },
+          {
+            "id": "0ad8-9b00-1a86-728a",
+            "name": "Aquilon Custodian (Gauntlet & Twin adrathic destructor)",
+            "min": 0,
+            "max": 99
+          },
+          {
+            "id": "2a66-fa39-323b-d151",
+            "name": "Aquilon Custodian (Gauntlet & Infernus firepike)",
+            "min": 0,
+            "max": 99
+          },
+          {
+            "id": "2ea4-2187-a3d7-fa4e",
+            "name": "Aquilon Custodian (Talon & infernus firepike)",
+            "min": 0,
+            "max": 99
+          },
+          {
+            "id": "5953-8c0d-dfbc-9af5",
+            "name": "Aquilon Custodian (Talon & Lastrum bolter)",
+            "min": 0,
+            "max": 99
+          },
+          {
+            "id": "ef9e-37b5-b42f-65ee",
+            "name": "Aquilon Custodian (Talon & Twin adrathic destructor)",
+            "min": 0,
+            "max": 99
+          }
+        ],
+        "defaultOptionId": "5165-cddb-885c-36e8"
+      }
+    ]
+  },
+  "00ab-41c4-cf52-4ad2": {
+    "groups": [
+      {
+        "id": "3225-32dc-a9cf-d175",
+        "name": "Agamatus Custodians",
+        "min": 3,
+        "max": 6,
+        "mode": "count",
+        "options": [
+          {
+            "id": "de32-bd86-91c0-6d95",
+            "name": "Agamatus Custodian (Lastrum bolt cannon)",
+            "min": 0,
+            "max": 99
+          },
+          {
+            "id": "509b-6148-c31d-45c8",
+            "name": "Agamatus Custodian (Adrathic devastator)",
+            "min": 0,
+            "max": 99
+          },
+          {
+            "id": "aae1-9f45-ab84-91dd",
+            "name": "Agamatus Custodian (Twin las-pulsar)",
+            "min": 0,
+            "max": 99
+          }
+        ],
+        "defaultOptionId": "de32-bd86-91c0-6d95"
+      }
+    ]
+  },
+  "201e-e502-a8d1-3974": {
+    "groups": [
+      {
+        "id": "e46c-c154-2f14-8940",
+        "name": "3-6 Venatari Custodians",
+        "min": 3,
+        "max": 6,
+        "mode": "count",
+        "options": [
+          {
+            "id": "d547-6d8a-58c7-d8d5",
+            "name": "Venatari Custodian (Venatari lance)",
+            "min": 0,
+            "max": 99
+          },
+          {
+            "id": "358a-4a13-adf5-35b1",
+            "name": "Venatari Custodian (Kinetic Destroyer & Tarsus Buckler)",
+            "min": 0,
+            "max": 99
+          }
+        ],
+        "defaultOptionId": "d547-6d8a-58c7-d8d5"
+      }
+    ]
+  },
+  "4988-d93e-5034-2b3c": {
+    "groups": [
+      {
+        "id": "9e8a-1f63-8eb0-0b13",
+        "name": "Wargear",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "a287-990-9f34-9836",
+            "name": "Galatus warblade",
+            "min": 1,
+            "max": 1
+          }
+        ]
+      }
+    ]
+  },
+  "db3b-02cd-87a2-3b52": {
+    "groups": [
+      {
+        "id": "6db1-a68f-db04-8f95",
+        "name": "Wargear",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "b1eb-9d70-dfc2-208b",
+            "name": "Achillus dreadspear",
+            "min": 1,
+            "max": 1
+          }
+        ],
+        "groups": [
+          {
+            "id": "551e-4148-5814-7f07",
+            "name": "equipped with",
+            "min": 2,
+            "max": 2,
+            "mode": "count",
+            "options": [
+              {
+                "id": "6610-ef88-536f-9e15",
+                "name": "Infernus incinerator",
+                "min": 0,
+                "max": 2
+              },
+              {
+                "id": "d9a6-8dbd-2c01-862b",
+                "name": "Lastrum storm bolter",
+                "min": 0,
+                "max": 2
+              },
+              {
+                "id": "89d9-93fa-1d9a-3407",
+                "name": "Twin adrathic destructor",
+                "min": 0,
+                "max": 2
+              }
+            ],
+            "defaultOptionId": "d9a6-8dbd-2c01-862b"
+          }
+        ]
+      }
+    ]
+  },
+  "06df-2fb2-8dfa-2fce": {
+    "groups": [
+      {
+        "id": "445a-d0a7-f252-1702",
+        "name": "Wargear",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "5645-646-96f-9768",
+            "name": "Armoured hull",
+            "min": 1,
+            "max": 1
+          },
+          {
+            "id": "2693-63bf-611f-37fe",
+            "name": "Twin arachnus blaze cannon",
+            "min": 1,
+            "max": 1
+          }
+        ]
+      }
+    ]
+  },
+  "3ee2-62a9-af84-1a90": {
+    "groups": [
+      {
+        "id": "5043-dc01-5cbc-9328",
+        "name": "Wargear",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "dca3-638e-52a2-b1b8",
+            "name": "Armoured hull",
+            "min": 1,
+            "max": 1
+          },
+          {
+            "id": "62a1-1fa7-70b7-614d",
+            "name": "Twin lastrum bolt cannon",
+            "min": 1,
+            "max": 1
+          }
+        ],
+        "groups": [
+          {
+            "id": "cbfe-9c88-8c0d-d293",
+            "name": "Equipped with",
+            "min": 1,
+            "max": 1,
+            "mode": "single",
+            "options": [
+              {
+                "id": "28a6-d971-1c4d-6bf6",
+                "name": "Twin iliastus accelerator cannon",
+                "min": 0,
+                "max": 99
+              },
+              {
+                "id": "65f3-bcd5-17ad-e068",
+                "name": "Twin arachnus heavy blaze cannon",
+                "min": 0,
+                "max": 99
+              }
+            ],
+            "defaultOptionId": "28a6-d971-1c4d-6bf6"
+          }
+        ]
+      }
+    ]
+  },
+  "e7d8-1c73-7d03-8b62": {
+    "groups": [
+      {
+        "id": "01f8-6c1d-3f4f-63c5",
+        "name": "Wargear",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "80e0-3d7a-702a-a745",
+            "name": "Armoured feet",
+            "min": 1,
+            "max": 1
+          },
+          {
+            "id": "1189-dcd8-e3ed-7837",
+            "name": "Spiculus bolt launcher",
+            "min": 1,
+            "max": 1
+          }
+        ],
+        "groups": [
+          {
+            "id": "1ad8-749e-76ed-07e6",
+            "name": "Wargear Options",
+            "min": 2,
+            "max": 2,
+            "mode": "count",
+            "options": [
+              {
+                "id": "bf6b-9538-d9ff-4f9c",
+                "name": "Arachnus storm cannon",
+                "min": 0,
+                "max": 2
+              },
+              {
+                "id": "896a-dae8-2bad-b241",
+                "name": "Iliastus accelerator culverin",
+                "min": 0,
+                "max": 2
+              },
+              {
+                "id": "d0d1-74ce-ec54-c122",
+                "name": "Telemon caestus and twin plasma projector",
+                "min": 0,
+                "max": 2
+              }
+            ],
+            "defaultOptionId": "896a-dae8-2bad-b241"
+          }
+        ]
+      }
+    ]
+  },
+  "f35e-ef9c-9ef4-77e1": {
+    "groups": [
+      {
+        "id": "3aad-ad77-5f52-9248",
+        "name": "Wargear",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "66-f0fd-e679-7c3d",
+            "name": "Armoured hull",
+            "min": 1,
+            "max": 1
+          },
+          {
+            "id": "c515-ed5-b39e-691a",
+            "name": "Twin arachnus blaze cannon",
+            "min": 1,
+            "max": 1
+          },
+          {
+            "id": "6fdb-341f-d4a6-3946",
+            "name": "Twin lastrum bolt cannon",
+            "min": 1,
+            "max": 1
+          }
+        ]
+      }
+    ]
+  },
+  "9c1a-7efd-ed36-440e": {
+    "groups": [
+      {
+        "id": "878b-8918-a556-3f04",
+        "name": "Wargear",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "e2de-e984-c73a-ddf3",
+            "name": "Arachnus heavy blaze cannon",
+            "min": 2,
+            "max": 2
+          },
+          {
+            "id": "8448-c4be-d3c9-9982",
+            "name": "Armoured hull",
+            "min": 1,
+            "max": 1
+          },
+          {
+            "id": "5180-f29f-b869-8d25",
+            "name": "Spiculus heavy bolt launcher",
+            "min": 2,
+            "max": 2
+          },
+          {
+            "id": "c403-8089-3eb-cbfc",
+            "name": "Twin lastrum bolt cannon",
+            "min": 2,
+            "max": 2
+          }
+        ]
+      }
+    ]
+  },
+  "9335-74d9-ad68-3ff7": {
+    "groups": [
+      {
+        "id": "2a82-5d9a-0d30-6530",
+        "name": "Wargear",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "953c-6127-3882-9886",
+            "name": "Arachnus heavy blaze cannon",
+            "min": 2,
+            "max": 2
+          },
+          {
+            "id": "5b7f-74c1-88d2-b1e1",
+            "name": "Arachnus magna-blaze cannon",
+            "min": 1,
+            "max": 1
+          },
+          {
+            "id": "f12f-4184-ea9a-efbc",
+            "name": "Armoured hull",
+            "min": 1,
+            "max": 1
+          }
+        ]
+      }
+    ]
+  }
+}

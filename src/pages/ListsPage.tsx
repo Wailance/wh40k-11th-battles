@@ -27,7 +27,7 @@ export function ListsPage() {
   }
 
   return (
-    <div className="space-y-4">
+    <div className="motion-stagger space-y-4">
       <div>
         <h1 className="app-page-title">{copy.armyLists.title}</h1>
         <p className="mt-1 text-body text-muted">{copy.armyLists.subtitle}</p>

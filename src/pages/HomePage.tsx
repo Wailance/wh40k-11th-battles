@@ -20,17 +20,17 @@ export function HomePage() {
     <div className="motion-stagger space-y-5">
       <Hero />
 
-      <div className="space-y-3">
+      <div>
         {hasActive ? (
           <button
             type="button"
             onClick={() => setConfirmNew(true)}
-            className="app-btn-ghost flex w-full py-3.5 text-body"
+            className="app-btn w-full"
           >
             {copy.home.cta}
           </button>
         ) : (
-          <Link to="/new" className="app-btn flex w-full py-3.5 text-body">
+          <Link to="/new" className="app-btn w-full">
             {copy.home.cta}
           </Link>
         )}
@@ -141,8 +141,8 @@ function FeatureCard({
       to={to}
       className={
         muted
-          ? 'app-panel-muted flex min-h-[3.25rem] items-center gap-2.5 p-3 text-left'
-          : 'app-panel flex min-h-[4.5rem] items-center gap-3 p-4 text-left transition-colors active:bg-panel-hover'
+          ? 'app-panel-muted motion-card flex min-h-[3.25rem] items-center gap-2.5 p-3 text-left'
+          : 'app-panel motion-card flex min-h-[4.5rem] items-center gap-3 p-4 text-left'
       }
     >
       <div

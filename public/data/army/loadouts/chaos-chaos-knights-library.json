@@ -1,0 +1,1013 @@
+{
+  "8df0-fc3c-8ced-ffce": {
+    "groups": [
+      {
+        "id": "2d04-234d-6303-6fa1",
+        "name": "Wargear",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "7193-1dfe-7721-ecbd",
+            "name": "War Dog autocannon",
+            "min": 2,
+            "max": 2
+          },
+          {
+            "id": "df42-5d71-b03d-14d3",
+            "name": "Armoured feet",
+            "min": 1,
+            "max": 1
+          }
+        ],
+        "groups": [
+          {
+            "id": "7ab5-d4cd-c28f-b481",
+            "name": "Carapace weapon",
+            "min": 1,
+            "max": 1,
+            "mode": "single",
+            "options": [
+              {
+                "id": "acd5-512d-654f-a53d",
+                "name": "Diabolus heavy stubber",
+                "min": 0,
+                "max": 99
+              },
+              {
+                "id": "919e-2f99-b24d-1d69",
+                "name": "Daemonbreath meltagun",
+                "min": 0,
+                "max": 99
+              }
+            ],
+            "defaultOptionId": "acd5-512d-654f-a53d"
+          }
+        ]
+      }
+    ]
+  },
+  "bbc6-c0ed-24e8-86b7": {
+    "groups": [
+      {
+        "id": "19f8-0003-bff0-bca2",
+        "name": "Wargear",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [],
+        "groups": [
+          {
+            "id": "b8a7-8d73-91ca-0a64",
+            "name": "Carapace weapon",
+            "min": 1,
+            "max": 1,
+            "mode": "single",
+            "options": [
+              {
+                "id": "537a-10d9-d537-4a0d",
+                "name": "Diabolus heavy stubber",
+                "min": 0,
+                "max": 99
+              },
+              {
+                "id": "0186-508d-0e0e-22cd",
+                "name": "Havoc multi-launcher",
+                "min": 0,
+                "max": 99
+              }
+            ],
+            "defaultOptionId": "537a-10d9-d537-4a0d"
+          },
+          {
+            "id": "f768-f4d7-e564-fcc5",
+            "name": "Chaincannon/spear",
+            "min": 1,
+            "max": 1,
+            "mode": "single",
+            "options": [
+              {
+                "id": "234f-aa25-c8fd-7124",
+                "name": "Avenger chaincannon",
+                "min": 0,
+                "max": 99
+              },
+              {
+                "id": "0d87-322a-841d-a21b",
+                "name": "Daemonbreath spear",
+                "min": 0,
+                "max": 99
+              }
+            ],
+            "defaultOptionId": "234f-aa25-c8fd-7124"
+          },
+          {
+            "id": "7374-c431-24dc-5b33",
+            "name": "Slaughterclaw/chaintalon",
+            "min": 1,
+            "max": 1,
+            "mode": "single",
+            "options": [
+              {
+                "id": "0269-9c9f-e914-a8c8",
+                "name": "Slaughterclaw",
+                "min": 0,
+                "max": 99
+              },
+              {
+                "id": "49d0-f4a4-dfbf-9e33",
+                "name": "Reaper chaintalon",
+                "min": 0,
+                "max": 99
+              }
+            ],
+            "defaultOptionId": "0269-9c9f-e914-a8c8"
+          }
+        ]
+      }
+    ]
+  },
+  "e96b-ac98-7fd2-a155": {
+    "groups": [
+      {
+        "id": "184a-3920-781a-3fa8",
+        "name": "Wargear",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "efec-643e-117d-a977",
+            "name": "Reaper chaintalon",
+            "min": 1,
+            "max": 1
+          },
+          {
+            "id": "2a1d-e15f-408e-7660",
+            "name": "Slaughterclaw",
+            "min": 1,
+            "max": 1
+          }
+        ],
+        "groups": [
+          {
+            "id": "6c92-d9c2-33be-f547",
+            "name": "Carapace weapon",
+            "min": 1,
+            "max": 1,
+            "mode": "single",
+            "options": [
+              {
+                "id": "12c3-4c6a-108f-807a",
+                "name": "Diabolus heavy stubber",
+                "min": 0,
+                "max": 99
+              },
+              {
+                "id": "1cc6-dcc6-a65e-fbc2",
+                "name": "Havoc multi-launcher",
+                "min": 0,
+                "max": 99
+              }
+            ],
+            "defaultOptionId": "12c3-4c6a-108f-807a"
+          }
+        ]
+      }
+    ]
+  },
+  "753d-4e02-eda3-4809": {
+    "groups": [
+      {
+        "id": "b650-3089-7379-b036",
+        "name": "Wargear",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "151e-e8b6-67f1-ec9f",
+            "name": "Armoured feet",
+            "min": 1,
+            "max": 1
+          },
+          {
+            "id": "cf74-09ac-84ee-31d8",
+            "name": "Avenger chaincannon",
+            "min": 1,
+            "max": 1
+          },
+          {
+            "id": "8e53-240c-6aee-d942",
+            "name": "Daemonbreath spear",
+            "min": 1,
+            "max": 1
+          }
+        ],
+        "groups": [
+          {
+            "id": "6b38-d599-2a21-b5db",
+            "name": "Carapace weapon",
+            "min": 1,
+            "max": 1,
+            "mode": "single",
+            "options": [
+              {
+                "id": "15c2-bab2-b57a-527f",
+                "name": "Diabolus heavy stubber",
+                "min": 0,
+                "max": 99
+              },
+              {
+                "id": "abb1-9d63-b31a-7502",
+                "name": "Havoc multi-launcher",
+                "min": 0,
+                "max": 99
+              }
+            ],
+            "defaultOptionId": "15c2-bab2-b57a-527f"
+          }
+        ]
+      }
+    ]
+  },
+  "6e6d-7950-ce6d-4cd4": {
+    "groups": [
+      {
+        "id": "7eb1-464a-daa4-9f30",
+        "name": "Wargear",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "82fd-bd3c-02de-de75",
+            "name": "Daemonbreath spear",
+            "min": 1,
+            "max": 1
+          },
+          {
+            "id": "bb34-3b2a-0479-6932",
+            "name": "Reaper chaintalon",
+            "min": 1,
+            "max": 1
+          }
+        ],
+        "groups": [
+          {
+            "id": "936b-0b10-40c1-25bc",
+            "name": "Carapace weapon",
+            "min": 1,
+            "max": 1,
+            "mode": "single",
+            "options": [
+              {
+                "id": "6031-5519-22e8-6091",
+                "name": "Diabolus heavy stubber",
+                "min": 0,
+                "max": 99
+              },
+              {
+                "id": "f631-c2fc-a38d-b547",
+                "name": "Daemonbreath meltagun",
+                "min": 0,
+                "max": 99
+              }
+            ],
+            "defaultOptionId": "6031-5519-22e8-6091"
+          }
+        ]
+      }
+    ]
+  },
+  "0119-8c04-435e-c782": {
+    "groups": [
+      {
+        "id": "3018-3716-d944-ae36",
+        "name": "Wargear",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "3f41-4b71-a07b-506a",
+            "name": "Titanic feet",
+            "min": 1,
+            "max": 1
+          }
+        ],
+        "groups": [
+          {
+            "id": "d94e-6d0e-c5d3-30a3",
+            "name": "Carapace weapon",
+            "min": 0,
+            "max": 1,
+            "mode": "single",
+            "options": [
+              {
+                "id": "4b16-d1fe-e59a-af23",
+                "name": "Havoc missile pod",
+                "min": 0,
+                "max": 99
+              },
+              {
+                "id": "9bee-2752-294d-c782",
+                "name": "Ruinspear rocket pod",
+                "min": 0,
+                "max": 99
+              },
+              {
+                "id": "4887-7e59-99bf-873e",
+                "name": "Hellstorm autocannons",
+                "min": 0,
+                "max": 99
+              }
+            ]
+          },
+          {
+            "id": "55df-34d3-e508-13c4",
+            "name": "Replace reaper chainsword",
+            "min": 1,
+            "max": 1,
+            "mode": "single",
+            "options": [
+              {
+                "id": "4268-2d76-f972-d7f5",
+                "name": "Gatling cannon and flamer",
+                "min": 0,
+                "max": 99,
+                "equippedWith": "Despoiler gatling cannon and Heavy darkflamer"
+              },
+              {
+                "id": "eb49-0962-11ba-83c7",
+                "name": "Battle cannon and heavy stubber",
+                "min": 0,
+                "max": 99,
+                "equippedWith": "Despoiler battle cannon and Diabolus heavy stubber"
+              },
+              {
+                "id": "b862-bf16-4b95-f802",
+                "name": "Reaper chainsword",
+                "min": 0,
+                "max": 99
+              },
+              {
+                "id": "a983-291e-f14c-bb76",
+                "name": "Daemonbreath thermal cannon",
+                "min": 0,
+                "max": 99
+              }
+            ],
+            "defaultOptionId": "b862-bf16-4b95-f802"
+          },
+          {
+            "id": "aede-eb93-6a3e-2f62",
+            "name": "Replace warpstrike claw",
+            "min": 1,
+            "max": 1,
+            "mode": "single",
+            "options": [
+              {
+                "id": "48a2-a603-9607-4df8",
+                "name": "Gatling cannon and flamer",
+                "min": 0,
+                "max": 99,
+                "equippedWith": "Despoiler gatling cannon and Heavy darkflamer"
+              },
+              {
+                "id": "4379-207c-54b4-722a",
+                "name": "Battle cannon and heavy stubber",
+                "min": 0,
+                "max": 99,
+                "equippedWith": "Despoiler battle cannon and Diabolus heavy stubber"
+              },
+              {
+                "id": "0943-19c0-9efa-e46c",
+                "name": "Warpstrike claw",
+                "min": 0,
+                "max": 99
+              },
+              {
+                "id": "6005-8d6b-36b5-50ff",
+                "name": "Daemonbreath thermal cannon",
+                "min": 0,
+                "max": 99
+              }
+            ],
+            "defaultOptionId": "0943-19c0-9efa-e46c"
+          },
+          {
+            "id": "68b3-ab57-f708-140f",
+            "name": "Shoulder weapon",
+            "min": 1,
+            "max": 1,
+            "mode": "single",
+            "options": [
+              {
+                "id": "bef4-9f67-21db-1f47",
+                "name": "Diabolus heavy stubber",
+                "min": 0,
+                "max": 99
+              },
+              {
+                "id": "65bc-c48f-4251-43fd",
+                "name": "Daemonbreath meltagun",
+                "min": 0,
+                "max": 99
+              }
+            ],
+            "defaultOptionId": "65bc-c48f-4251-43fd"
+          }
+        ]
+      }
+    ]
+  },
+  "7a51-8f1f-7290-d9d2": {
+    "groups": [
+      {
+        "id": "6128-b4e5-e879-21fe",
+        "name": "Wargear",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "d6a1-5530-317a-4686",
+            "name": "Desecrator laser destructor",
+            "min": 1,
+            "max": 1
+          },
+          {
+            "id": "2b80-b811-01a8-1562",
+            "name": "Diabolus heavy stubber",
+            "min": 1,
+            "max": 1
+          }
+        ],
+        "groups": [
+          {
+            "id": "ffd4-3748-8ded-ef0a",
+            "name": "Replace reaper chainsword",
+            "min": 1,
+            "max": 1,
+            "mode": "single",
+            "options": [
+              {
+                "id": "d415-fd15-415d-4aac",
+                "name": "Reaper chainsword",
+                "min": 0,
+                "max": 99
+              },
+              {
+                "id": "571a-5fae-d415-fad0",
+                "name": "Warpstrike claw",
+                "min": 0,
+                "max": 99
+              }
+            ],
+            "defaultOptionId": "d415-fd15-415d-4aac"
+          }
+        ]
+      }
+    ]
+  },
+  "61e0-e55b-1926-44df": {
+    "groups": [
+      {
+        "id": "7ad7-78c1-ce8b-d787",
+        "name": "Wargear",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "e420-9e00-9c96-ce4a",
+            "name": "Reaper chainsword",
+            "min": 1,
+            "max": 1
+          },
+          {
+            "id": "fe5b-e66a-4aa7-62e",
+            "name": "Warpstrike claw",
+            "min": 1,
+            "max": 1
+          },
+          {
+            "id": "c49a-b329-1c9d-5a1b",
+            "name": "Diabolus heavy stubber",
+            "min": 1,
+            "max": 1
+          }
+        ]
+      }
+    ]
+  },
+  "a78d-828b-302b-1bec": {
+    "groups": [
+      {
+        "id": "33dc-a75a-19ca-9d4e",
+        "name": "Wargear",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "bd23-9709-8dba-312e",
+            "name": "Balemace",
+            "min": 1,
+            "max": 1
+          },
+          {
+            "id": "f738-4e10-b894-f056",
+            "name": "Electroscourge",
+            "min": 1,
+            "max": 1
+          },
+          {
+            "id": "7f9d-c996-4304-d9ab",
+            "name": "Volkite combustor",
+            "min": 1,
+            "max": 1
+          },
+          {
+            "id": "9de4-70d2-6508-ef37",
+            "name": "Diabolus heavy stubber",
+            "min": 1,
+            "max": 1
+          }
+        ]
+      }
+    ]
+  },
+  "87ea-c7bd-6df0-f056": {
+    "groups": [
+      {
+        "id": "575b-3eb5-4179-23d9",
+        "name": "Wargear",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "52fe-84a1-27cf-c9ce",
+            "name": "Titanic feet",
+            "min": 1,
+            "max": 1
+          },
+          {
+            "id": "65a3-e04c-fa08-2a01",
+            "name": "Twin daemonbreath meltagun",
+            "min": 2,
+            "max": 2
+          }
+        ],
+        "groups": [
+          {
+            "id": "056b-59dd-0758-29ee",
+            "name": "Carapace weapons",
+            "min": 1,
+            "max": 1,
+            "mode": "single",
+            "options": [
+              {
+                "id": "7264-ccf1-81a4-8cbe",
+                "name": "2 Gheiststrike missile launchers and 1 twin desecrator cannon",
+                "min": 0,
+                "max": 99,
+                "equippedWith": "Twin desecrator cannon"
+              },
+              {
+                "id": "0122-c630-b6bb-8804",
+                "name": "2 twin desecrator cannons and 1 gheiststrike missile launcher",
+                "min": 0,
+                "max": 99,
+                "equippedWith": "Gheiststrike missile launcher"
+              }
+            ],
+            "defaultOptionId": "7264-ccf1-81a4-8cbe"
+          },
+          {
+            "id": "53aa-af3d-5b81-5df6",
+            "name": "Main weapons",
+            "min": 1,
+            "max": 1,
+            "mode": "single",
+            "options": [
+              {
+                "id": "0d51-1b09-1511-86e4",
+                "name": "Brimstone volcano lance and ectoplasma decimator",
+                "min": 0,
+                "max": 99
+              },
+              {
+                "id": "0d33-ceef-2c1f-e440",
+                "name": "Darkflame cannon and warpshock harpoon",
+                "min": 0,
+                "max": 99
+              }
+            ],
+            "defaultOptionId": "0d51-1b09-1511-86e4"
+          }
+        ]
+      }
+    ]
+  },
+  "e289-ad32-c78a-e055": {
+    "groups": [
+      {
+        "id": "850f-b369-61dd-ddc2",
+        "name": "Wargear",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "a895-55eb-d2ea-6b87",
+            "name": "Asterius volkite culverin",
+            "min": 2,
+            "max": 2
+          },
+          {
+            "id": "506b-fe3c-9d9f-1d55",
+            "name": "Karacnos mortar battery",
+            "min": 1,
+            "max": 1
+          },
+          {
+            "id": "1e7e-f373-3db1-a768",
+            "name": "Twin conversion beam cannon",
+            "min": 2,
+            "max": 2
+          },
+          {
+            "id": "f107-bee9-8aaa-8945",
+            "name": "Titanic feet",
+            "min": 1,
+            "max": 1
+          }
+        ]
+      }
+    ]
+  },
+  "fe77-6f85-5ddb-65bf": {
+    "groups": [
+      {
+        "id": "559b-9e67-c50e-0be3",
+        "name": "Wargear",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "ab22-ae06-7c8c-48c5",
+            "name": "Twin magna lascannon",
+            "min": 2,
+            "max": 2
+          },
+          {
+            "id": "dffa-b61a-4edc-4c24",
+            "name": "Titanic feet",
+            "min": 1,
+            "max": 1
+          }
+        ],
+        "groups": [
+          {
+            "id": "3a86-44ef-e8e8-b7a0",
+            "name": "Carapace weapon",
+            "min": 1,
+            "max": 1,
+            "mode": "single",
+            "options": [
+              {
+                "id": "2bd3-2771-a737-adee",
+                "name": "Acastus ironstorm missile pod",
+                "min": 0,
+                "max": 99
+              },
+              {
+                "id": "e5d0-2359-8a2a-3601",
+                "name": "Helios defence missiles",
+                "min": 0,
+                "max": 99
+              }
+            ],
+            "defaultOptionId": "2bd3-2771-a737-adee"
+          },
+          {
+            "id": "b24c-86fa-7e04-48a7",
+            "name": "Shoulder weapons",
+            "min": 2,
+            "max": 2,
+            "mode": "count",
+            "options": [
+              {
+                "id": "ba14-8cac-6b19-4318",
+                "name": "Acastus autocannon",
+                "min": 0,
+                "max": 2
+              },
+              {
+                "id": "1561-195a-c202-2f45",
+                "name": "Lascannon",
+                "min": 0,
+                "max": 2
+              }
+            ],
+            "defaultOptionId": "ba14-8cac-6b19-4318"
+          }
+        ]
+      }
+    ]
+  },
+  "4175-82c6-8e96-bef8": {
+    "groups": [
+      {
+        "id": "f815-dfdc-be4d-9a12",
+        "name": "Wargear",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "545a-eead-e216-5939",
+            "name": "Cerastus shock lance",
+            "min": 1,
+            "max": 1
+          }
+        ]
+      }
+    ]
+  },
+  "b6e5-911b-93f-476": {
+    "groups": [
+      {
+        "id": "d82a-7e7f-ffdf-9ebb",
+        "name": "Wargear",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "8860-55c6-5ee9-227b",
+            "name": "Castigator bolt cannon",
+            "min": 1,
+            "max": 1
+          },
+          {
+            "id": "fb4f-9321-e4de-99da",
+            "name": "Tempest warblade",
+            "min": 1,
+            "max": 1
+          }
+        ]
+      }
+    ]
+  },
+  "ec6e-d1d6-f7c6-d008": {
+    "groups": [
+      {
+        "id": "1efb-9072-5202-07ad",
+        "name": "Wargear",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "eab7-2fd-1641-4f4",
+            "name": "Acheron flame cannon",
+            "min": 1,
+            "max": 1
+          },
+          {
+            "id": "b4e0-25f1-54a4-4308",
+            "name": "Reaper chainfist",
+            "min": 1,
+            "max": 1
+          },
+          {
+            "id": "6423-b7ff-a468-7e6a",
+            "name": "Twin heavy bolter",
+            "min": 1,
+            "max": 1
+          }
+        ]
+      }
+    ]
+  },
+  "8b1d-9029-f9e1-42d9": {
+    "groups": [
+      {
+        "id": "68e0-c460-8491-5b75",
+        "name": "Wargear",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "f57d-be6e-77e4-bfe3",
+            "name": "Atrapos lascutter",
+            "min": 1,
+            "max": 1
+          },
+          {
+            "id": "7546-5742-581c-9e8b",
+            "name": "Graviton singularity cannon",
+            "min": 1,
+            "max": 1
+          }
+        ]
+      }
+    ]
+  },
+  "2d0e-5b83-b678-56dc": {
+    "groups": [
+      {
+        "id": "6bcd-fc7d-6947-223b",
+        "name": "Wargear",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "7152-d126-5030-8aaa",
+            "name": "Lightning cannon",
+            "min": 1,
+            "max": 1
+          },
+          {
+            "id": "49da-529d-d89f-71e3",
+            "name": "Phased plasma-fusil",
+            "min": 1,
+            "max": 1
+          }
+        ],
+        "groups": [
+          {
+            "id": "ee33-43a7-5c5-dfe1",
+            "name": "Melee weapon",
+            "min": 1,
+            "max": 1,
+            "mode": "single",
+            "options": [
+              {
+                "id": "c4f1-17d8-3504-d457",
+                "name": "Hekaton siege claw and twin rad cleanser",
+                "min": 0,
+                "max": 99
+              },
+              {
+                "id": "781a-8964-f92c-9a19",
+                "name": "Reaper chainsword",
+                "min": 0,
+                "max": 99
+              }
+            ],
+            "defaultOptionId": "781a-8964-f92c-9a19"
+          }
+        ]
+      }
+    ]
+  },
+  "106c-4bdf-79a4-1c70": {
+    "groups": [
+      {
+        "id": "4063-8e8e-6869-ec97",
+        "name": "Wargear",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "b2f6-fda6-d756-f8e4",
+            "name": "Graviton crusher",
+            "min": 1,
+            "max": 1
+          },
+          {
+            "id": "bb21-f914-ecd0-f2b8",
+            "name": "Volkite chierovile",
+            "min": 1,
+            "max": 1
+          }
+        ],
+        "groups": [
+          {
+            "id": "7dc7-e65c-64c-fff3",
+            "name": "Melee weapon",
+            "min": 1,
+            "max": 1,
+            "mode": "single",
+            "options": [
+              {
+                "id": "7b0f-b7a2-dde0-482b",
+                "name": "Hekaton siege claw and twin rad cleanser",
+                "min": 0,
+                "max": 99
+              },
+              {
+                "id": "827-f925-c319-7b2c",
+                "name": "Reaper chainsword",
+                "min": 0,
+                "max": 99
+              }
+            ],
+            "defaultOptionId": "827-f925-c319-7b2c"
+          }
+        ]
+      }
+    ]
+  },
+  "ae7c-3679-a88-6895": {
+    "groups": [
+      {
+        "id": "8429-5740-f1fd-0046",
+        "name": "Wargear",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "a67b-c001-46f-8ae3",
+            "name": "Armoured feet",
+            "min": 1,
+            "max": 1
+          }
+        ],
+        "groups": [
+          {
+            "id": "f9a1-251a-ee9f-707f",
+            "name": "Weapons",
+            "min": 2,
+            "max": 2,
+            "mode": "count",
+            "options": [
+              {
+                "id": "82bb-5188-3701-a846",
+                "name": "Volkite veuglaire",
+                "min": 0,
+                "max": 2
+              },
+              {
+                "id": "cf3a-bab9-317c-17d6",
+                "name": "Conversion beam cannon",
+                "min": 0,
+                "max": 2
+              },
+              {
+                "id": "6721-d47f-74bf-6ffc",
+                "name": "Graviton pulsar",
+                "min": 0,
+                "max": 2
+              },
+              {
+                "id": "3909-f5fb-f7d7-8f",
+                "name": "Lightning lock",
+                "min": 0,
+                "max": 2
+              },
+              {
+                "id": "e9ea-196b-4d4d-83b1",
+                "name": "Siege claw and rad cleanser",
+                "min": 0,
+                "max": 2
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "c0a2-eb65-6d34-5bc6": {
+    "groups": [
+      {
+        "id": "3af4-5792-3b4b-c03f",
+        "name": "Wargear",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "b4ca-3419-c219-f429",
+            "name": "Darkflame lance",
+            "min": 1,
+            "max": 1
+          },
+          {
+            "id": "f075-4ccc-9a91-5e6d",
+            "name": "Fellbore",
+            "min": 1,
+            "max": 1
+          },
+          {
+            "id": "9e94-b7d4-ec7f-9163",
+            "name": "Terrorpulse missiles",
+            "min": 1,
+            "max": 1
+          }
+        ]
+      }
+    ]
+  }
+}

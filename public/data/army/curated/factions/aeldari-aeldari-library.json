@@ -73,6 +73,23 @@
           "name": "Leader",
           "description": "This model can be attached to the following unit:\n■ Dire Avengers"
         }
+      ],
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 135
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "135",
+      "mfmRole": "leader",
+      "attachTo": [
+        "Dire Avengers"
       ]
     },
     {
@@ -550,8 +567,33 @@
         "LD": "6+",
         "OC": "1"
       },
-      "rangedWeapons": [],
-      "meleeWeapons": [],
+      "rangedWeapons": [
+        {
+          "name": "Shuriken Pistol",
+          "range": "12\"",
+          "A": "1",
+          "BS": "3+",
+          "S": "4",
+          "AP": "-1",
+          "D": "1",
+          "keywords": [
+            "Assault",
+            "Pistol"
+          ]
+        }
+      ],
+      "meleeWeapons": [
+        {
+          "name": "Star Glaive",
+          "range": "Melee",
+          "A": "4",
+          "WS": "2+",
+          "S": "6",
+          "AP": "-3",
+          "D": "3",
+          "keywords": []
+        }
+      ],
       "abilities": [
         {
           "name": "Superlative Strategist",
@@ -957,6 +999,29 @@
           "name": "Voidstone",
           "description": "^^**Anhrathe Infantry**^^ unit only. Models in this unit have a 5+ invulnerable save."
         }
+      ],
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 85
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "85",
+      "mfmRole": "leader",
+      "attachTo": [
+        "Dark Reapers",
+        "Dire Avengers",
+        "Fire Dragons",
+        "Guardian Defenders",
+        "Howling Banshees",
+        "Storm Guardians",
+        "Striking Scorpions"
       ]
     },
     {
@@ -983,8 +1048,33 @@
         "LD": "6+",
         "OC": "1"
       },
-      "rangedWeapons": [],
-      "meleeWeapons": [],
+      "rangedWeapons": [
+        {
+          "name": "Shuriken Pistol",
+          "range": "12\"",
+          "A": "1",
+          "BS": "3+",
+          "S": "4",
+          "AP": "-1",
+          "D": "1",
+          "keywords": [
+            "Assault",
+            "Pistol"
+          ]
+        }
+      ],
+      "meleeWeapons": [
+        {
+          "name": "Star Glaive",
+          "range": "Melee",
+          "A": "4",
+          "WS": "2+",
+          "S": "6",
+          "AP": "-3",
+          "D": "3",
+          "keywords": []
+        }
+      ],
       "abilities": [
         {
           "name": "Path of Command",
@@ -1386,12 +1476,30 @@
           "name": "Voidstone",
           "description": "^^**Anhrathe Infantry**^^ unit only. Models in this unit have a 5+ invulnerable save."
         }
+      ],
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 80
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "80",
+      "mfmRole": "leader",
+      "attachTo": [
+        "Swooping Hawks",
+        "Warp Spiders"
       ]
     },
     {
       "id": "554c-8b4f-1059-28a7",
       "name": "Avatar of Khaine",
-      "points": 280,
+      "points": 265,
       "keywords": [
         "Daemon",
         "Epic Hero",
@@ -1426,7 +1534,7 @@
       ],
       "meleeWeapons": [
         {
-          "name": "➤ The Wailing Doom - Strike",
+          "name": "The Wailing Doom - Strike",
           "range": "Melee",
           "A": "6",
           "WS": "2+",
@@ -1436,7 +1544,7 @@
           "keywords": []
         },
         {
-          "name": "➤ The Wailing Doom - Sweep",
+          "name": "The Wailing Doom - Sweep",
           "range": "Melee",
           "A": "12",
           "WS": "2+",
@@ -1463,12 +1571,25 @@
           "name": "Invulnerable Save (Avatar)",
           "description": "The Avatar of Khaine has a 4+ Invulnerable save"
         }
-      ]
+      ],
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 265
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "265"
     },
     {
       "id": "8732-df2f-a542-805f",
       "name": "Baharroth",
-      "points": 115,
+      "points": 125,
       "keywords": [
         "Epic Hero",
         "Character",
@@ -1537,6 +1658,23 @@
           "name": "Cloudstrider",
           "description": "While this model is leading a unit, at the end of your opponent's turn, if that unit is not within Engagement Range of one or more enemy units, you can remove it from the battlefield and place it into Strategic Reserves. In addition, while this model is leading a unit, when that unit is set-up on the battlefield using the Deep Strike ability, in your Movement phase, it can use this ability. if it does, that unit can be set-up anywhere on the battlefield that is more than 6\" horizontally away from all enemy models, but until the end of the turn, it is not eligible to declare a charge."
         }
+      ],
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 125
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "125",
+      "mfmRole": "leader",
+      "attachTo": [
+        "Swooping Hawks"
       ]
     },
     {
@@ -1695,12 +1833,25 @@
           "name": "Gang Territory",
           "description": "Each time your **^^Ascendant Lord^^** attempts a Hostile Takeover, add 1 to its D6 result and, if that **^^Ascendant Lord^^** claims a territory as a result, increase your Crusade force's Supply Limit by 50 points."
         }
-      ]
+      ],
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 160
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "160"
     },
     {
       "id": "6863-bf42-238a-fd0b",
       "name": "Dark Reapers",
-      "points": 90,
+      "points": 100,
       "keywords": [
         "Infantry",
         "Aspect Warrior",
@@ -1720,7 +1871,7 @@
       },
       "rangedWeapons": [
         {
-          "name": "➤ Reaper Launcher - Starshot",
+          "name": "Reaper Launcher - Starshot",
           "range": "48\"",
           "A": "1",
           "BS": "3+",
@@ -1732,7 +1883,7 @@
           ]
         },
         {
-          "name": "➤ Reaper Launcher - Starswarm",
+          "name": "Reaper Launcher - Starswarm",
           "range": "48\"",
           "A": "2",
           "BS": "3+",
@@ -1770,7 +1921,7 @@
           ]
         },
         {
-          "name": "➤ Missile Launcher - Starshot",
+          "name": "Missile Launcher - Starshot",
           "range": "48\"",
           "A": "1",
           "BS": "2+",
@@ -1782,7 +1933,7 @@
           ]
         },
         {
-          "name": "➤ Missile Launcher - Sunburst",
+          "name": "Missile Launcher - Sunburst",
           "range": "48\"",
           "A": "D6",
           "BS": "2+",
@@ -1916,12 +2067,29 @@
           "name": "Gang Territory",
           "description": "Each time your **^^Ascendant Lord^^** attempts a Hostile Takeover, add 1 to its D6 result and, if that **^^Ascendant Lord^^** claims a territory as a result, increase your Crusade force's Supply Limit by 50 points."
         }
-      ]
+      ],
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 5,
+              "points": 100
+            },
+            {
+              "models": 10,
+              "points": 210
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "100/210"
     },
     {
       "id": "5768-1f87-3a16-d901",
       "name": "Death Jester",
-      "points": 90,
+      "points": 80,
       "keywords": [
         "Character",
         "Infantry",
@@ -2361,7 +2529,20 @@
           "name": "Voidstone",
           "description": "^^**Anhrathe Infantry**^^ unit only. Models in this unit have a 5+ invulnerable save."
         }
-      ]
+      ],
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 80
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "80"
     },
     {
       "id": "e6c2-f3b2-6d3e-c3d3",
@@ -2561,12 +2742,29 @@
           "name": "Gang Territory",
           "description": "Each time your **^^Ascendant Lord^^** attempts a Hostile Takeover, add 1 to its D6 result and, if that **^^Ascendant Lord^^** claims a territory as a result, increase your Crusade force's Supply Limit by 50 points."
         }
-      ]
+      ],
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 5,
+              "points": 75
+            },
+            {
+              "models": 10,
+              "points": 150
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "75/150"
     },
     {
       "id": "f48e-276e-a997-c90e",
       "name": "Eldrad Ulthran",
-      "points": 120,
+      "points": 130,
       "keywords": [
         "Epic Hero",
         "Character",
@@ -2648,6 +2846,25 @@
           "name": "Leader",
           "description": "This model can be attached to the following units:\n■ Guardian Defenders\n■ Storm Guardians\n■ Warlock Conclave"
         }
+      ],
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 130
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "130",
+      "mfmRole": "leader",
+      "attachTo": [
+        "Guardian Defenders",
+        "Storm Guardians",
+        "Warlock Conclave"
       ]
     },
     {
@@ -2684,7 +2901,7 @@
           "keywords": []
         },
         {
-          "name": "➤ Missile Launcher - Starshot",
+          "name": "Missile Launcher - Starshot",
           "range": "48\"",
           "A": "1",
           "BS": "3+",
@@ -2694,7 +2911,7 @@
           "keywords": []
         },
         {
-          "name": "➤ Missile Launcher - Sunburst",
+          "name": "Missile Launcher - Sunburst",
           "range": "48\"",
           "A": "D6",
           "BS": "3+",
@@ -2868,7 +3085,20 @@
           "description": "Each time your **^^Ascendant Lord^^** attempts a Hostile Takeover, add 1 to its D6 result and, if that **^^Ascendant Lord^^** claims a territory as a result, increase your Crusade force's Supply Limit by 50 points."
         }
       ],
-      "transportCapacity": "This model has a transport capacity of 6 ^^Aeldari Infantry^^ models. Each ^^Wraith Construct^^ model takes the space of 2 models. It cannot transport ^^Jump Pack^^ models or ^^Ynnari^^ models (excluding ^^Asuryani^^, ^^Yvraine^^ and ^^The Visarch^^ models)"
+      "transportCapacity": "This model has a transport capacity of 6 ^^Aeldari Infantry^^ models. Each ^^Wraith Construct^^ model takes the space of 2 models. It cannot transport ^^Jump Pack^^ models or ^^Ynnari^^ models (excluding ^^Asuryani^^, ^^Yvraine^^ and ^^The Visarch^^ models)",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 130
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "130"
     },
     {
       "id": "b2f5-8219-f875-917e",
@@ -3322,12 +3552,31 @@
           "name": "Voidstone",
           "description": "^^**Anhrathe Infantry**^^ unit only. Models in this unit have a 5+ invulnerable save."
         }
+      ],
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 70
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "70",
+      "mfmRole": "leader",
+      "attachTo": [
+        "Guardian Defenders",
+        "Storm Guardians",
+        "Warlock Conclave"
       ]
     },
     {
       "id": "833b-55bc-73be-8862",
       "name": "Farseer Skyrunner",
-      "points": 80,
+      "points": 70,
       "keywords": [
         "Farseer",
         "Character",
@@ -3791,6 +4040,24 @@
           "name": "Voidstone",
           "description": "^^**Anhrathe Infantry**^^ unit only. Models in this unit have a 5+ invulnerable save."
         }
+      ],
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 70
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "70",
+      "mfmRole": "leader",
+      "attachTo": [
+        "Warlock Skyrunners",
+        "Windriders"
       ]
     },
     {
@@ -4015,7 +4282,38 @@
           "name": "Gang Territory",
           "description": "Each time your **^^Ascendant Lord^^** attempts a Hostile Takeover, add 1 to its D6 result and, if that **^^Ascendant Lord^^** claims a territory as a result, increase your Crusade force's Supply Limit by 50 points."
         }
-      ]
+      ],
+      "pricing": [
+        {
+          "range": "[1,2]",
+          "label": "Your 1st To 2nd Units Cost",
+          "costs": [
+            {
+              "models": 5,
+              "points": 120
+            },
+            {
+              "models": 10,
+              "points": 240
+            }
+          ]
+        },
+        {
+          "range": "[3,)",
+          "label": "Your 3rd + Unit Costs",
+          "costs": [
+            {
+              "models": 5,
+              "points": 130
+            },
+            {
+              "models": 10,
+              "points": 250
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "120/240"
     },
     {
       "id": "9940-a69b-682e-ccf4",
@@ -4040,7 +4338,7 @@
       },
       "rangedWeapons": [
         {
-          "name": "➤ Prism Cannon - dispersed pulse",
+          "name": "Prism Cannon - dispersed pulse",
           "range": "60\"",
           "A": "2D6",
           "BS": "3+",
@@ -4052,7 +4350,7 @@
           ]
         },
         {
-          "name": "➤ Prism Cannon - focused lances",
+          "name": "Prism Cannon - focused lances",
           "range": "60\"",
           "A": "2",
           "BS": "3+",
@@ -4181,12 +4479,25 @@
           "name": "Gang Territory",
           "description": "Each time your **^^Ascendant Lord^^** attempts a Hostile Takeover, add 1 to its D6 result and, if that **^^Ascendant Lord^^** claims a territory as a result, increase your Crusade force's Supply Limit by 50 points."
         }
-      ]
+      ],
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 150
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "150"
     },
     {
       "id": "9262-3993-1368-be5a",
       "name": "Fuegan",
-      "points": 120,
+      "points": 130,
       "keywords": [
         "Character",
         "Epic Hero",
@@ -4209,7 +4520,7 @@
       },
       "rangedWeapons": [
         {
-          "name": "➤ Searsong - Beam",
+          "name": "Searsong - Beam",
           "range": "12\"",
           "A": "3",
           "BS": "2+",
@@ -4223,7 +4534,7 @@
           ]
         },
         {
-          "name": "➤ Searsong - Lance",
+          "name": "Searsong - Lance",
           "range": "18\"",
           "A": "1",
           "BS": "2+",
@@ -4265,12 +4576,29 @@
           "name": "Leader",
           "description": "This model can be attached to the following unit:\n■ Fire Dragons"
         }
+      ],
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 130
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "130",
+      "mfmRole": "leader",
+      "attachTo": [
+        "Fire Dragons"
       ]
     },
     {
       "id": "e78a-4442-4ed2-66bf",
       "name": "Guardian Defenders",
-      "points": 100,
+      "points": 90,
       "keywords": [
         "Battleline",
         "Infantry",
@@ -4304,7 +4632,7 @@
           ]
         },
         {
-          "name": "➤ Missile Launcher - Starshot",
+          "name": "Missile Launcher - Starshot",
           "range": "48\"",
           "A": "1",
           "BS": "3+",
@@ -4314,7 +4642,7 @@
           "keywords": []
         },
         {
-          "name": "➤ Missile Launcher - Sunburst",
+          "name": "Missile Launcher - Sunburst",
           "range": "48\"",
           "A": "D6",
           "BS": "3+",
@@ -4487,7 +4815,20 @@
           "name": "Gang Territory",
           "description": "Each time your **^^Ascendant Lord^^** attempts a Hostile Takeover, add 1 to its D6 result and, if that **^^Ascendant Lord^^** claims a territory as a result, increase your Crusade force's Supply Limit by 50 points."
         }
-      ]
+      ],
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 11,
+              "points": 90
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "90"
     },
     {
       "id": "551b-900c-3681-8f11",
@@ -4644,12 +4985,25 @@
           "name": "Gang Territory",
           "description": "Each time your **^^Ascendant Lord^^** attempts a Hostile Takeover, add 1 to its D6 result and, if that **^^Ascendant Lord^^** claims a territory as a result, increase your Crusade force's Supply Limit by 50 points."
         }
-      ]
+      ],
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 155
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "155"
     },
     {
       "id": "7fcb-9262-474a-7cec",
       "name": "Howling Banshees",
-      "points": 95,
+      "points": 85,
       "keywords": [
         "Infantry",
         "Ynnari",
@@ -4853,7 +5207,24 @@
           "name": "Gang Territory",
           "description": "Each time your **^^Ascendant Lord^^** attempts a Hostile Takeover, add 1 to its D6 result and, if that **^^Ascendant Lord^^** claims a territory as a result, increase your Crusade force's Supply Limit by 50 points."
         }
-      ]
+      ],
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 5,
+              "points": 85
+            },
+            {
+              "models": 10,
+              "points": 165
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "85/165"
     },
     {
       "id": "2713-f82d-5189-d5de",
@@ -4940,7 +5311,7 @@
     {
       "id": "77f9-e8de-225f-9e68",
       "name": "Jain Zar",
-      "points": 120,
+      "points": 105,
       "keywords": [
         "Phoenix Lord",
         "Character",
@@ -5005,6 +5376,23 @@
           "name": "Storm of Silence",
           "description": "Each time this model makes an attack that targets a ^^Character^^ unit, you can re-roll the Wound roll."
         }
+      ],
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 105
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "105",
+      "mfmRole": "leader",
+      "attachTo": [
+        "Howling Banshees"
       ]
     },
     {
@@ -5161,12 +5549,29 @@
           "name": "Face of Death",
           "description": "In your Shooting phase, after this model has shot, select one enemy unit hit by one or more of those attacks. That enemy unit must take a Battle-shock test, subtracting 1 from the result."
         }
+      ],
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 100
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "100",
+      "mfmRole": "leader",
+      "attachTo": [
+        "Dark Reapers"
       ]
     },
     {
       "id": "908a-fc2b-5a53-599f",
       "name": "Night Spinner",
-      "points": 190,
+      "points": 170,
       "keywords": [
         "Fly",
         "Vehicle",
@@ -5316,7 +5721,30 @@
           "name": "Gang Territory",
           "description": "Each time your **^^Ascendant Lord^^** attempts a Hostile Takeover, add 1 to its D6 result and, if that **^^Ascendant Lord^^** claims a territory as a result, increase your Crusade force's Supply Limit by 50 points."
         }
-      ]
+      ],
+      "pricing": [
+        {
+          "range": "[1,1]",
+          "label": "Your 1st Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 170
+            }
+          ]
+        },
+        {
+          "range": "[2,)",
+          "label": "Your 2nd + Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 190
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "170"
     },
     {
       "id": "1fbf-55d9-5ca8-4e9e",
@@ -5388,7 +5816,7 @@
     {
       "id": "b98b-701f-9c0c-5437",
       "name": "Rangers",
-      "points": 55,
+      "points": 60,
       "keywords": [
         "Infantry",
         "Aeldari",
@@ -5550,7 +5978,24 @@
           "name": "Gang Territory",
           "description": "Each time your **^^Ascendant Lord^^** attempts a Hostile Takeover, add 1 to its D6 result and, if that **^^Ascendant Lord^^** claims a territory as a result, increase your Crusade force's Supply Limit by 50 points."
         }
-      ]
+      ],
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 5,
+              "points": 60
+            },
+            {
+              "models": 10,
+              "points": 110
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "60/110"
     },
     {
       "id": "8c34-52ba-cbd0-9ca4",
@@ -5992,12 +6437,29 @@
           "name": "Voidstone",
           "description": "^^**Anhrathe Infantry**^^ unit only. Models in this unit have a 5+ invulnerable save."
         }
+      ],
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 60
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "60",
+      "mfmRole": "leader",
+      "attachTo": [
+        "Troupe"
       ]
     },
     {
       "id": "433-faed-ea62-c531",
       "name": "Shining Spears",
-      "points": 110,
+      "points": 105,
       "keywords": [
         "Mounted",
         "Fly",
@@ -6216,12 +6678,29 @@
           "name": "Gang Territory",
           "description": "Each time your **^^Ascendant Lord^^** attempts a Hostile Takeover, add 1 to its D6 result and, if that **^^Ascendant Lord^^** claims a territory as a result, increase your Crusade force's Supply Limit by 50 points."
         }
-      ]
+      ],
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 3,
+              "points": 105
+            },
+            {
+              "models": 6,
+              "points": 210
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "105/210"
     },
     {
       "id": "c1ff-dc11-9853-e3e3",
       "name": "Shroud Runners",
-      "points": 80,
+      "points": 95,
       "keywords": [
         "Fly",
         "Mounted",
@@ -6395,12 +6874,29 @@
           "name": "Gang Territory",
           "description": "Each time your **^^Ascendant Lord^^** attempts a Hostile Takeover, add 1 to its D6 result and, if that **^^Ascendant Lord^^** claims a territory as a result, increase your Crusade force's Supply Limit by 50 points."
         }
-      ]
+      ],
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 3,
+              "points": 95
+            },
+            {
+              "models": 6,
+              "points": 175
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "95/175"
     },
     {
       "id": "9270-4b93-ca59-f3ed",
       "name": "Skyweavers",
-      "points": 95,
+      "points": 105,
       "keywords": [
         "Fly",
         "Mounted",
@@ -6584,7 +7080,24 @@
           "name": "Gang Territory",
           "description": "Each time your **^^Ascendant Lord^^** attempts a Hostile Takeover, add 1 to its D6 result and, if that **^^Ascendant Lord^^** claims a territory as a result, increase your Crusade force's Supply Limit by 50 points."
         }
-      ]
+      ],
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 2,
+              "points": 105
+            },
+            {
+              "models": 4,
+              "points": 210
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "105/210"
     },
     {
       "id": "f88f-60c5-3daf-3d2f",
@@ -6637,12 +7150,25 @@
           "name": "Blur of Movement",
           "description": "This model is eligible to declare a charge in a turn in which it Advanced."
         }
-      ]
+      ],
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 115
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "115"
     },
     {
       "id": "e53b-7d09-eb7c-c6c7",
       "name": "Spiritseer",
-      "points": 65,
+      "points": 55,
       "keywords": [
         "Character",
         "Infantry",
@@ -7092,7 +7618,20 @@
           "name": "Voidstone",
           "description": "^^**Anhrathe Infantry**^^ unit only. Models in this unit have a 5+ invulnerable save."
         }
-      ]
+      ],
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 55
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "55"
     },
     {
       "id": "854b-f8e-28fa-8c24",
@@ -7252,7 +7791,20 @@
           "description": "Each time your **^^Ascendant Lord^^** attempts a Hostile Takeover, add 1 to its D6 result and, if that **^^Ascendant Lord^^** claims a territory as a result, increase your Crusade force's Supply Limit by 50 points."
         }
       ],
-      "transportCapacity": "This model has a transport capacity of 6 Harlequins Infantry models."
+      "transportCapacity": "This model has a transport capacity of 6 Harlequins Infantry models.",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 80
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "80"
     },
     {
       "id": "5452-c4a7-59fb-f05c",
@@ -7450,12 +8002,25 @@
           "name": "Gang Territory",
           "description": "Each time your **^^Ascendant Lord^^** attempts a Hostile Takeover, add 1 to its D6 result and, if that **^^Ascendant Lord^^** claims a territory as a result, increase your Crusade force's Supply Limit by 50 points."
         }
-      ]
+      ],
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 11,
+              "points": 110
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "110"
     },
     {
       "id": "c90f-a8e5-6afa-eb91",
       "name": "Striking Scorpions",
-      "points": 85,
+      "points": 75,
       "keywords": [
         "Infantry",
         "Aeldari",
@@ -7660,12 +8225,29 @@
           "name": "Gang Territory",
           "description": "Each time your **^^Ascendant Lord^^** attempts a Hostile Takeover, add 1 to its D6 result and, if that **^^Ascendant Lord^^** claims a territory as a result, increase your Crusade force's Supply Limit by 50 points."
         }
-      ]
+      ],
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 5,
+              "points": 75
+            },
+            {
+              "models": 10,
+              "points": 145
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "75/145"
     },
     {
       "id": "82ac-7d93-df55-5504",
       "name": "D-Cannon Platform",
-      "points": 125,
+      "points": 110,
       "keywords": [
         "Support Weapon",
         "Infantry",
@@ -7824,12 +8406,35 @@
           "name": "Gang Territory",
           "description": "Each time your **^^Ascendant Lord^^** attempts a Hostile Takeover, add 1 to its D6 result and, if that **^^Ascendant Lord^^** claims a territory as a result, increase your Crusade force's Supply Limit by 50 points."
         }
-      ]
+      ],
+      "pricing": [
+        {
+          "range": "[1,1]",
+          "label": "Your 1st Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 110
+            }
+          ]
+        },
+        {
+          "range": "[2,)",
+          "label": "Your 2nd + Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 125
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "110"
     },
     {
       "id": "240f-70a4-7ba7-a538",
       "name": "Swooping Hawks",
-      "points": 95,
+      "points": 100,
       "keywords": [
         "Infantry",
         "Fly",
@@ -8047,7 +8652,38 @@
           "name": "Gang Territory",
           "description": "Each time your **^^Ascendant Lord^^** attempts a Hostile Takeover, add 1 to its D6 result and, if that **^^Ascendant Lord^^** claims a territory as a result, increase your Crusade force's Supply Limit by 50 points."
         }
-      ]
+      ],
+      "pricing": [
+        {
+          "range": "[1,2]",
+          "label": "Your 1st To 2nd Units Cost",
+          "costs": [
+            {
+              "models": 5,
+              "points": 100
+            },
+            {
+              "models": 10,
+              "points": 190
+            }
+          ]
+        },
+        {
+          "range": "[3,)",
+          "label": "Your 3rd + Unit Costs",
+          "costs": [
+            {
+              "models": 5,
+              "points": 115
+            },
+            {
+              "models": 10,
+              "points": 205
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "100/190"
     },
     {
       "id": "dd79-c2fe-59d6-d2",
@@ -8073,7 +8709,7 @@
       "rangedWeapons": [],
       "meleeWeapons": [
         {
-          "name": "➤ Asu-var - quicksilver stance",
+          "name": "Asu-var - quicksilver stance",
           "range": "Melee",
           "A": "8",
           "WS": "2+",
@@ -8085,7 +8721,7 @@
           ]
         },
         {
-          "name": "➤ Asu-var - duellist stance",
+          "name": "Asu-var - duellist stance",
           "range": "Melee",
           "A": "6",
           "WS": "2+",
@@ -8098,7 +8734,7 @@
           ]
         },
         {
-          "name": "➤ Asu-var - mythic stance",
+          "name": "Asu-var - mythic stance",
           "range": "Melee",
           "A": "4",
           "WS": "2+",
@@ -8132,12 +8768,36 @@
           "name": "Servant of the Whispering God",
           "description": "If your army includes The Visarch, it cannot include any Epic Hero units (excluding Ynnari units). If your army includes any Epic Hero units (excluding Ynnari units), it cannot include The Visarch."
         }
+      ],
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 90
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "90",
+      "mfmRole": "leader",
+      "attachTo": [
+        "Corsair Reaver Band",
+        "Corsair Voidreavers",
+        "Corsair Voidscarred",
+        "Guardian Defenders",
+        "Storm Guardians",
+        "Ynnari Incubi",
+        "Ynnari Kabalite Warriors",
+        "Ynnari Wyches"
       ]
     },
     {
       "id": "68fb-4b6f-2bf8-7105",
       "name": "The Yncarne",
-      "points": 260,
+      "points": 245,
       "keywords": [
         "Epic Hero",
         "Monster",
@@ -8176,7 +8836,7 @@
       ],
       "meleeWeapons": [
         {
-          "name": "➤ Vilith-zhar - Strike",
+          "name": "Vilith-zhar - Strike",
           "range": "Melee",
           "A": "5",
           "WS": "2+",
@@ -8186,7 +8846,7 @@
           "keywords": []
         },
         {
-          "name": "➤ Vilith-zhar - Sweep",
+          "name": "Vilith-zhar - Sweep",
           "range": "Melee",
           "A": "10",
           "WS": "2+",
@@ -8213,7 +8873,20 @@
           "name": "Avatar of the Whispering God",
           "description": "If your army includes The Yncarne, it cannot include any Epic Hero units (excluding Ynnari units). If your army includes any Epic Hero units (excluding Ynnari units), it cannot include The Yncarne."
         }
-      ]
+      ],
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 245
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "245"
     },
     {
       "id": "dada-b81b-37bd-1f3b",
@@ -8238,7 +8911,21 @@
         "LD": "6+",
         "OC": "1"
       },
-      "rangedWeapons": [],
+      "rangedWeapons": [
+        {
+          "name": "Shuriken Pistol",
+          "range": "12\"",
+          "A": "1",
+          "BS": "3+",
+          "S": "4",
+          "AP": "-1",
+          "D": "1",
+          "keywords": [
+            "Assault",
+            "Pistol"
+          ]
+        }
+      ],
       "meleeWeapons": [],
       "abilities": [
         {
@@ -8641,12 +9328,29 @@
           "name": "Voidstone",
           "description": "^^**Anhrathe Infantry**^^ unit only. Models in this unit have a 5+ invulnerable save."
         }
+      ],
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 75
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "75",
+      "mfmRole": "leader",
+      "attachTo": [
+        "Troupe"
       ]
     },
     {
       "id": "e011-d99d-f0de-5289",
       "name": "Voidweaver",
-      "points": 125,
+      "points": 115,
       "keywords": [
         "Fly",
         "Vehicle",
@@ -8796,7 +9500,20 @@
           "name": "Gang Territory",
           "description": "Each time your **^^Ascendant Lord^^** attempts a Hostile Takeover, add 1 to its D6 result and, if that **^^Ascendant Lord^^** claims a territory as a result, increase your Crusade force's Supply Limit by 50 points."
         }
-      ]
+      ],
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 115
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "115"
     },
     {
       "id": "291f-2885-4512-f0cd",
@@ -9250,6 +9967,24 @@
           "name": "Voidstone",
           "description": "^^**Anhrathe Infantry**^^ unit only. Models in this unit have a 5+ invulnerable save."
         }
+      ],
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 45
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "45",
+      "mfmRole": "support",
+      "attachTo": [
+        "Guardian Defenders",
+        "Storm Guardians"
       ]
     },
     {
@@ -9455,12 +10190,34 @@
           "name": "Gang Territory",
           "description": "Each time your **^^Ascendant Lord^^** attempts a Hostile Takeover, add 1 to its D6 result and, if that **^^Ascendant Lord^^** claims a territory as a result, increase your Crusade force's Supply Limit by 50 points."
         }
+      ],
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 2,
+              "points": 55
+            },
+            {
+              "models": 4,
+              "points": 120
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "55/120",
+      "mfmRole": "leader",
+      "attachTo": [
+        "Guardian Defenders",
+        "Storm Guardians"
       ]
     },
     {
       "id": "57ec-47a8-a59a-6a46",
       "name": "Warp Spiders",
-      "points": 105,
+      "points": 115,
       "keywords": [
         "Infantry",
         "Fly",
@@ -9682,7 +10439,38 @@
           "name": "Gang Territory",
           "description": "Each time your **^^Ascendant Lord^^** attempts a Hostile Takeover, add 1 to its D6 result and, if that **^^Ascendant Lord^^** claims a territory as a result, increase your Crusade force's Supply Limit by 50 points."
         }
-      ]
+      ],
+      "pricing": [
+        {
+          "range": "[1,2]",
+          "label": "Your 1st To 2nd Units Cost",
+          "costs": [
+            {
+              "models": 5,
+              "points": 115
+            },
+            {
+              "models": 10,
+              "points": 200
+            }
+          ]
+        },
+        {
+          "range": "[3,)",
+          "label": "Your 3rd + Unit Costs",
+          "costs": [
+            {
+              "models": 5,
+              "points": 130
+            },
+            {
+              "models": 10,
+              "points": 215
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "115/200"
     },
     {
       "id": "ad88-f706-318c-e70e",
@@ -9830,7 +10618,20 @@
           "description": "Each time your **^^Ascendant Lord^^** attempts a Hostile Takeover, add 1 to its D6 result and, if that **^^Ascendant Lord^^** claims a territory as a result, increase your Crusade force's Supply Limit by 50 points."
         }
       ],
-      "transportCapacity": "This model has a transport capacity of 12 ^^Aeldari Infantry^^ models. Each ^^Wraith Construct^^ model takes the space of 2 models. It cannot transport ^^Jump Pack^^ models or ^^Ynnari^^ models (excluding ^^Asuryani^^, ^^Yvraine^^ and ^^The Visarch^^ models)."
+      "transportCapacity": "This model has a transport capacity of 12 ^^Aeldari Infantry^^ models. Each ^^Wraith Construct^^ model takes the space of 2 models. It cannot transport ^^Jump Pack^^ models or ^^Ynnari^^ models (excluding ^^Asuryani^^, ^^Yvraine^^ and ^^The Visarch^^ models).",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 125
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "125"
     },
     {
       "id": "2f21-23a3-48e0-5788",
@@ -9872,7 +10673,7 @@
     {
       "id": "bfd-df5a-b358-4cf9",
       "name": "Wraithknight",
-      "points": 435,
+      "points": 415,
       "keywords": [
         "Wraith Construct",
         "Monster",
@@ -10015,12 +10816,35 @@
           "name": "Gang Territory",
           "description": "Each time your **^^Ascendant Lord^^** attempts a Hostile Takeover, add 1 to its D6 result and, if that **^^Ascendant Lord^^** claims a territory as a result, increase your Crusade force's Supply Limit by 50 points."
         }
-      ]
+      ],
+      "pricing": [
+        {
+          "range": "[1,1]",
+          "label": "Your 1st Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 415
+            }
+          ]
+        },
+        {
+          "range": "[2,)",
+          "label": "Your 2nd + Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 435
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "415"
     },
     {
       "id": "b9e9-397e-d83a-f77a",
       "name": "Wraithlord",
-      "points": 130,
+      "points": 125,
       "keywords": [
         "Wraith Construct",
         "Monster",
@@ -10042,7 +10866,7 @@
       "rangedWeapons": [],
       "meleeWeapons": [
         {
-          "name": "➤ Ghostglaive - Strike",
+          "name": "Ghostglaive - Strike",
           "range": "Melee",
           "A": "4",
           "WS": "4+",
@@ -10052,7 +10876,7 @@
           "keywords": []
         },
         {
-          "name": "➤ Ghostglaive - Sweep",
+          "name": "Ghostglaive - Sweep",
           "range": "Melee",
           "A": "8",
           "WS": "4+",
@@ -10177,12 +11001,25 @@
           "name": "Gang Territory",
           "description": "Each time your **^^Ascendant Lord^^** attempts a Hostile Takeover, add 1 to its D6 result and, if that **^^Ascendant Lord^^** claims a territory as a result, increase your Crusade force's Supply Limit by 50 points."
         }
-      ]
+      ],
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 125
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "125"
     },
     {
       "id": "5aa4-107-d7ee-f0f3",
       "name": "Wraithguard",
-      "points": 160,
+      "points": 145,
       "keywords": [
         "Infantry",
         "Wraith Construct",
@@ -10341,7 +11178,20 @@
           "name": "Gang Territory",
           "description": "Each time your **^^Ascendant Lord^^** attempts a Hostile Takeover, add 1 to its D6 result and, if that **^^Ascendant Lord^^** claims a territory as a result, increase your Crusade force's Supply Limit by 50 points."
         }
-      ]
+      ],
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 5,
+              "points": 145
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "145"
     },
     {
       "id": "ada5-25ce-d5d5-4ccb",
@@ -10416,12 +11266,36 @@
           "name": "Servant of the Whispering God",
           "description": "If your army includes Yvraine, it cannot include any Epic Hero units (excluding Ynnari units). If your army includes any Epic Hero units (excluding Ynnari units), it cannot include Yvraine."
         }
+      ],
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 100
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "100",
+      "mfmRole": "leader",
+      "attachTo": [
+        "Corsair Reaver Band",
+        "Corsair Voidreavers",
+        "Corsair Voidscarred",
+        "Guardian Defenders",
+        "Storm Guardians",
+        "Ynnari Incubi",
+        "Ynnari Kabalite Warriors",
+        "Ynnari Wyches"
       ]
     },
     {
       "id": "bb4f-4359-cc16-e6d5",
       "name": "Wraithblades",
-      "points": 150,
+      "points": 140,
       "keywords": [
         "Infantry",
         "Wraith Construct",
@@ -10571,7 +11445,20 @@
           "name": "Gang Territory",
           "description": "Each time your **^^Ascendant Lord^^** attempts a Hostile Takeover, add 1 to its D6 result and, if that **^^Ascendant Lord^^** claims a territory as a result, increase your Crusade force's Supply Limit by 50 points."
         }
-      ]
+      ],
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 5,
+              "points": 140
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "140"
     },
     {
       "id": "5c1c-fa4a-3234-c711",
@@ -10594,8 +11481,36 @@
         "LD": "6+",
         "OC": "1"
       },
-      "rangedWeapons": [],
-      "meleeWeapons": [],
+      "rangedWeapons": [
+        {
+          "name": "Splinter pistol",
+          "range": "12\"",
+          "A": "1",
+          "BS": "3+",
+          "S": "2",
+          "AP": "0",
+          "D": "1",
+          "keywords": [
+            "Anti-Infantry 3+",
+            "Assault",
+            "Pistol"
+          ]
+        }
+      ],
+      "meleeWeapons": [
+        {
+          "name": "Huskblade",
+          "range": "Melee",
+          "A": "5",
+          "WS": "2+",
+          "S": "3",
+          "AP": "-2",
+          "D": "2",
+          "keywords": [
+            "Anti-Infantry 3+"
+          ]
+        }
+      ],
       "abilities": [
         {
           "name": "Leader",
@@ -11005,6 +11920,26 @@
           "name": "Voidstone",
           "description": "^^**Anhrathe Infantry**^^ unit only. Models in this unit have a 5+ invulnerable save."
         }
+      ],
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 80
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "80",
+      "mfmRole": "leader",
+      "attachTo": [
+        "Court Of The Archon",
+        "Hand Of The Archon",
+        "Incubi",
+        "Kabalite Warriors"
       ]
     },
     {
@@ -11888,7 +12823,24 @@
           "name": "Gang Territory",
           "description": "Each time your **^^Ascendant Lord^^** attempts a Hostile Takeover, add 1 to its D6 result and, if that **^^Ascendant Lord^^** claims a territory as a result, increase your Crusade force's Supply Limit by 50 points."
         }
-      ]
+      ],
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 55
+            },
+            {
+              "models": 2,
+              "points": 100
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "55/100"
     },
     {
       "id": "a30b-b966-d264-e935",
@@ -11915,7 +12867,7 @@
       "rangedWeapons": [],
       "meleeWeapons": [
         {
-          "name": "➤ The Executioner's demiklaives - Dual Blades",
+          "name": "The Executioner's demiklaives - Dual Blades",
           "range": "Melee",
           "A": "8",
           "WS": "2+",
@@ -11927,7 +12879,7 @@
           ]
         },
         {
-          "name": "➤ The Executioner's demiklaives - Single Blade",
+          "name": "The Executioner's demiklaives - Single Blade",
           "range": "Melee",
           "A": "6",
           "WS": "2+",
@@ -11960,6 +12912,23 @@
           "name": "Silent Executioner",
           "description": "Each time this model make an attack that targets a unit that is below its Starting Strength, you can re-roll the Hit roll. If that target is Below Half-Strength, you can re-roll the Wound roll as well."
         }
+      ],
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 85
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "85",
+      "mfmRole": "leader",
+      "attachTo": [
+        "Incubi"
       ]
     },
     {
@@ -12140,7 +13109,7 @@
     {
       "id": "32ff-aec4-9669-c8a2",
       "name": "Haemonculus",
-      "points": 60,
+      "points": 50,
       "keywords": [
         "Haemonculus Covens",
         "Aeldari",
@@ -12594,12 +13563,29 @@
           "name": "Voidstone",
           "description": "^^**Anhrathe Infantry**^^ unit only. Models in this unit have a 5+ invulnerable save."
         }
+      ],
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 50
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "50",
+      "mfmRole": "leader",
+      "attachTo": [
+        "Wracks"
       ]
     },
     {
       "id": "2311-9feb-9d0a-8154",
       "name": "Hellions",
-      "points": 85,
+      "points": 90,
       "keywords": [
         "Aeldari",
         "Wych Cult",
@@ -12803,7 +13789,38 @@
           "name": "Gang Territory",
           "description": "Each time your **^^Ascendant Lord^^** attempts a Hostile Takeover, add 1 to its D6 result and, if that **^^Ascendant Lord^^** claims a territory as a result, increase your Crusade force's Supply Limit by 50 points."
         }
-      ]
+      ],
+      "pricing": [
+        {
+          "range": "[1,2]",
+          "label": "Your 1st To 2nd Units Cost",
+          "costs": [
+            {
+              "models": 5,
+              "points": 90
+            },
+            {
+              "models": 10,
+              "points": 180
+            }
+          ]
+        },
+        {
+          "range": "[3,)",
+          "label": "Your 3rd + Unit Costs",
+          "costs": [
+            {
+              "models": 5,
+              "points": 100
+            },
+            {
+              "models": 10,
+              "points": 190
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "90/180"
     },
     {
       "id": "1529-793d-481b-82bf",
@@ -12838,7 +13855,7 @@
           "keywords": []
         },
         {
-          "name": "➤ Demiklaives - Dual Blades",
+          "name": "Demiklaives - Dual Blades",
           "range": "Melee",
           "A": "6",
           "WS": "3+",
@@ -12848,7 +13865,7 @@
           "keywords": []
         },
         {
-          "name": "➤ Demiklaives - Single Blade",
+          "name": "Demiklaives - Single Blade",
           "range": "Melee",
           "A": "4",
           "WS": "3+",
@@ -12971,12 +13988,43 @@
           "name": "Gang Territory",
           "description": "Each time your **^^Ascendant Lord^^** attempts a Hostile Takeover, add 1 to its D6 result and, if that **^^Ascendant Lord^^** claims a territory as a result, increase your Crusade force's Supply Limit by 50 points."
         }
-      ]
+      ],
+      "pricing": [
+        {
+          "range": "[1,2]",
+          "label": "Your 1st To 2nd Units Cost",
+          "costs": [
+            {
+              "models": 5,
+              "points": 90
+            },
+            {
+              "models": 10,
+              "points": 180
+            }
+          ]
+        },
+        {
+          "range": "[3,)",
+          "label": "Your 3rd + Unit Costs",
+          "costs": [
+            {
+              "models": 5,
+              "points": 100
+            },
+            {
+              "models": 10,
+              "points": 190
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "90/180"
     },
     {
       "id": "d20b-783-ccf6-b29d",
       "name": "Kabalite Warriors",
-      "points": 115,
+      "points": 110,
       "keywords": [
         "Aeldari",
         "Kabal",
@@ -13227,12 +14275,25 @@
           "name": "Gang Territory",
           "description": "Each time your **^^Ascendant Lord^^** attempts a Hostile Takeover, add 1 to its D6 result and, if that **^^Ascendant Lord^^** claims a territory as a result, increase your Crusade force's Supply Limit by 50 points."
         }
-      ]
+      ],
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 10,
+              "points": 110
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "110"
     },
     {
       "id": "ae1b-1a96-5b4c-cecc",
       "name": "Lelith Hesperax",
-      "points": 85,
+      "points": 80,
       "keywords": [
         "Aeldari",
         "Wych Cult",
@@ -13290,12 +14351,29 @@
           "name": "Blur of Blades",
           "description": "While this model is leading a unit, models in that unit have the Fights First ability."
         }
+      ],
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 80
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "80",
+      "mfmRole": "leader",
+      "attachTo": [
+        "Wyches"
       ]
     },
     {
       "id": "6a3a-7973-b509-532e",
       "name": "Mandrakes",
-      "points": 75,
+      "points": 80,
       "keywords": [
         "Aeldari",
         "Infantry",
@@ -13451,7 +14529,38 @@
           "name": "Gang Territory",
           "description": "Each time your **^^Ascendant Lord^^** attempts a Hostile Takeover, add 1 to its D6 result and, if that **^^Ascendant Lord^^** claims a territory as a result, increase your Crusade force's Supply Limit by 50 points."
         }
-      ]
+      ],
+      "pricing": [
+        {
+          "range": "[1,2]",
+          "label": "Your 1st To 2nd Units Cost",
+          "costs": [
+            {
+              "models": 5,
+              "points": 80
+            },
+            {
+              "models": 10,
+              "points": 160
+            }
+          ]
+        },
+        {
+          "range": "[3,)",
+          "label": "Your 3rd + Unit Costs",
+          "costs": [
+            {
+              "models": 5,
+              "points": 90
+            },
+            {
+              "models": 10,
+              "points": 170
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "80/160"
     },
     {
       "id": "635b-21f4-f801-453",
@@ -13614,12 +14723,25 @@
           "description": "Each time your **^^Ascendant Lord^^** attempts a Hostile Takeover, add 1 to its D6 result and, if that **^^Ascendant Lord^^** claims a territory as a result, increase your Crusade force's Supply Limit by 50 points."
         }
       ],
-      "transportCapacity": "This model has a transport capacity of 11 ^^**Drukhari Infantry **^^ models (excluding ^^**Jump Pack**^^ models)."
+      "transportCapacity": "This model has a transport capacity of 11 ^^**Drukhari Infantry **^^ models (excluding ^^**Jump Pack**^^ models).",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 85
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "85"
     },
     {
       "id": "3376-d337-6a33-4bca",
       "name": "Ravager",
-      "points": 110,
+      "points": 100,
       "keywords": [
         "Aeldari",
         "Kabal",
@@ -13763,7 +14885,30 @@
           "name": "Gang Territory",
           "description": "Each time your **^^Ascendant Lord^^** attempts a Hostile Takeover, add 1 to its D6 result and, if that **^^Ascendant Lord^^** claims a territory as a result, increase your Crusade force's Supply Limit by 50 points."
         }
-      ]
+      ],
+      "pricing": [
+        {
+          "range": "[1,2]",
+          "label": "Your 1st To 2nd Units Cost",
+          "costs": [
+            {
+              "models": 1,
+              "points": 100
+            }
+          ]
+        },
+        {
+          "range": "[3,)",
+          "label": "Your 3rd + Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 110
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "100"
     },
     {
       "id": "fbc4-c7d0-db5b-91c",
@@ -13788,7 +14933,7 @@
       },
       "rangedWeapons": [
         {
-          "name": "➤ Razorwing Missiles - Monoscythe Missiles",
+          "name": "Razorwing Missiles - Monoscythe Missiles",
           "range": "48\"",
           "A": "D6",
           "BS": "3+",
@@ -13800,7 +14945,7 @@
           ]
         },
         {
-          "name": "➤ Razorwing Missiles - Neurotoxin Missiles",
+          "name": "Razorwing Missiles - Neurotoxin Missiles",
           "range": "48\"",
           "A": "D6+3",
           "BS": "3+",
@@ -13813,7 +14958,7 @@
           ]
         },
         {
-          "name": "➤ Razorwing Missiles - Shatterfield Missiles",
+          "name": "Razorwing Missiles - Shatterfield Missiles",
           "range": "48\"",
           "A": "D6",
           "BS": "3+",
@@ -13946,12 +15091,25 @@
           "name": "Gang Territory",
           "description": "Each time your **^^Ascendant Lord^^** attempts a Hostile Takeover, add 1 to its D6 result and, if that **^^Ascendant Lord^^** claims a territory as a result, increase your Crusade force's Supply Limit by 50 points."
         }
-      ]
+      ],
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 170
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "170"
     },
     {
       "id": "2c3a-9752-2516-69ab",
       "name": "Reavers",
-      "points": 70,
+      "points": 75,
       "keywords": [
         "Wych Cult",
         "Aeldari",
@@ -14154,12 +15312,43 @@
           "name": "Gang Territory",
           "description": "Each time your **^^Ascendant Lord^^** attempts a Hostile Takeover, add 1 to its D6 result and, if that **^^Ascendant Lord^^** claims a territory as a result, increase your Crusade force's Supply Limit by 50 points."
         }
-      ]
+      ],
+      "pricing": [
+        {
+          "range": "[1,2]",
+          "label": "Your 1st To 2nd Units Cost",
+          "costs": [
+            {
+              "models": 3,
+              "points": 75
+            },
+            {
+              "models": 6,
+              "points": 150
+            }
+          ]
+        },
+        {
+          "range": "[3,)",
+          "label": "Your 3rd + Unit Costs",
+          "costs": [
+            {
+              "models": 3,
+              "points": 85
+            },
+            {
+              "models": 6,
+              "points": 160
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "75/150"
     },
     {
       "id": "7c93-baac-e65f-58bd",
       "name": "Scourges with Heavy Weapons",
-      "points": 130,
+      "points": 110,
       "keywords": [
         "Scourges",
         "Aeldari",
@@ -14433,7 +15622,30 @@
           "name": "Gang Territory",
           "description": "Each time your **^^Ascendant Lord^^** attempts a Hostile Takeover, add 1 to its D6 result and, if that **^^Ascendant Lord^^** claims a territory as a result, increase your Crusade force's Supply Limit by 50 points."
         }
-      ]
+      ],
+      "pricing": [
+        {
+          "range": "[1,2]",
+          "label": "Your 1st To 2nd Units Cost",
+          "costs": [
+            {
+              "models": 5,
+              "points": 110
+            }
+          ]
+        },
+        {
+          "range": "[3,)",
+          "label": "Your 3rd + Unit Costs",
+          "costs": [
+            {
+              "models": 5,
+              "points": 120
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "110"
     },
     {
       "id": "b5a9-c802-10f0-6768",
@@ -14877,12 +16089,29 @@
           "name": "Voidstone",
           "description": "^^**Anhrathe Infantry**^^ unit only. Models in this unit have a 5+ invulnerable save."
         }
+      ],
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 50
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "50",
+      "mfmRole": "leader",
+      "attachTo": [
+        "Wyches"
       ]
     },
     {
       "id": "5c5f-b70b-f6ee-a81e",
       "name": "Talos",
-      "points": 80,
+      "points": 75,
       "keywords": [
         "Aeldari",
         "Haemonculus Covens",
@@ -15015,7 +16244,38 @@
           "name": "Gang Territory",
           "description": "Each time your **^^Ascendant Lord^^** attempts a Hostile Takeover, add 1 to its D6 result and, if that **^^Ascendant Lord^^** claims a territory as a result, increase your Crusade force's Supply Limit by 50 points."
         }
-      ]
+      ],
+      "pricing": [
+        {
+          "range": "[1,2]",
+          "label": "Your 1st To 2nd Units Cost",
+          "costs": [
+            {
+              "models": 1,
+              "points": 75
+            },
+            {
+              "models": 2,
+              "points": 150
+            }
+          ]
+        },
+        {
+          "range": "[3,)",
+          "label": "Your 3rd + Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 85
+            },
+            {
+              "models": 2,
+              "points": 160
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "75/150"
     },
     {
       "id": "76c4-e2ba-e247-560e",
@@ -15254,7 +16514,20 @@
           "description": "Each time your **^^Ascendant Lord^^** attempts a Hostile Takeover, add 1 to its D6 result and, if that **^^Ascendant Lord^^** claims a territory as a result, increase your Crusade force's Supply Limit by 50 points."
         }
       ],
-      "transportCapacity": "This model has a transport capacity of 6 ^^**Drukhari Infantry **^^ models (excluding ^^**Jump Pack**^^ models). \n\nBefore the battle, at the start of the Declare Battle Formations step, you can select one ^^**Kabalite Warriors**^^, ^^**Hand of the Archon**^^ or ^^**Wyches**^^ unit from your army that has not already been split. If you do, that unit is split into two units, each containing as equal a number of models as possible (when splitting a unit in this way, make a note of which models form each of the two new units). One of these units must start the battle embarked within this model; the other can start the battle embarked within another ^^**Transport**^^, or it can be deployed as a separate unit."
+      "transportCapacity": "This model has a transport capacity of 6 ^^**Drukhari Infantry **^^ models (excluding ^^**Jump Pack**^^ models). \n\nBefore the battle, at the start of the Declare Battle Formations step, you can select one ^^**Kabalite Warriors**^^, ^^**Hand of the Archon**^^ or ^^**Wyches**^^ unit from your army that has not already been split. If you do, that unit is split into two units, each containing as equal a number of models as possible (when splitting a unit in this way, make a note of which models form each of the two new units). One of these units must start the battle embarked within this model; the other can start the battle embarked within another ^^**Transport**^^, or it can be deployed as a separate unit.",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 70
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "70"
     },
     {
       "id": "71e1-7d54-4856-4ce1",
@@ -15280,7 +16553,7 @@
       },
       "rangedWeapons": [
         {
-          "name": "➤ Voidraven Missiles -  Implosion Missiles",
+          "name": "Voidraven Missiles -  Implosion Missiles",
           "range": "48\"",
           "A": "D3",
           "BS": "3+",
@@ -15292,7 +16565,7 @@
           ]
         },
         {
-          "name": "➤ Voidraven Missiles - Shatterfield Missiles",
+          "name": "Voidraven Missiles - Shatterfield Missiles",
           "range": "48\"",
           "A": "D6",
           "BS": "3+",
@@ -15429,7 +16702,20 @@
           "name": "Gang Territory",
           "description": "Each time your **^^Ascendant Lord^^** attempts a Hostile Takeover, add 1 to its D6 result and, if that **^^Ascendant Lord^^** claims a territory as a result, increase your Crusade force's Supply Limit by 50 points."
         }
-      ]
+      ],
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 245
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "245"
     },
     {
       "id": "2659-7a1b-3ce6-8e4b",
@@ -15629,7 +16915,28 @@
           "name": "Gang Territory",
           "description": "Each time your **^^Ascendant Lord^^** attempts a Hostile Takeover, add 1 to its D6 result and, if that **^^Ascendant Lord^^** claims a territory as a result, increase your Crusade force's Supply Limit by 50 points."
         }
-      ]
+      ],
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 5,
+              "points": 60
+            },
+            {
+              "models": 8,
+              "points": 100
+            },
+            {
+              "models": 10,
+              "points": 120
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "60/100/120"
     },
     {
       "id": "edca-1a1b-902d-421a",
@@ -15824,7 +17131,20 @@
           "name": "Gang Territory",
           "description": "Each time your **^^Ascendant Lord^^** attempts a Hostile Takeover, add 1 to its D6 result and, if that **^^Ascendant Lord^^** claims a territory as a result, increase your Crusade force's Supply Limit by 50 points."
         }
-      ]
+      ],
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 10,
+              "points": 90
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "90"
     },
     {
       "id": "e2ad-60b4-9678-88aa",
@@ -15863,7 +17183,7 @@
           ]
         },
         {
-          "name": "➤ Aeldari missile launcher - starshot",
+          "name": "Aeldari missile launcher - starshot",
           "range": "48\"",
           "A": "1",
           "BS": "3+",
@@ -15873,7 +17193,7 @@
           "keywords": []
         },
         {
-          "name": "➤ Aeldari missile launcher - sunburst",
+          "name": "Aeldari missile launcher - sunburst",
           "range": "48\"",
           "A": "D6",
           "BS": "3+",
@@ -16086,7 +17406,7 @@
           ]
         },
         {
-          "name": "➤ Aeldari missile launcher - starshot",
+          "name": "Aeldari missile launcher - starshot",
           "range": "48\"",
           "A": "1",
           "BS": "3+",
@@ -16096,7 +17416,7 @@
           "keywords": []
         },
         {
-          "name": "➤ Aeldari missile launcher - sunburst",
+          "name": "Aeldari missile launcher - sunburst",
           "range": "48\"",
           "A": "D6",
           "BS": "3+",
@@ -16296,7 +17616,7 @@
       },
       "rangedWeapons": [
         {
-          "name": "➤ Aeldari Missile Launcher - Starshot",
+          "name": "Aeldari Missile Launcher - Starshot",
           "range": "48\"",
           "A": "1",
           "BS": "3+",
@@ -16306,7 +17626,7 @@
           "keywords": []
         },
         {
-          "name": "➤ Aeldari Missile Launcher - Sunburst",
+          "name": "Aeldari Missile Launcher - Sunburst",
           "range": "48\"",
           "A": "D6",
           "BS": "3+",
@@ -16588,7 +17908,7 @@
           ]
         },
         {
-          "name": "➤ Aeldari missile launcher - starshot",
+          "name": "Aeldari missile launcher - starshot",
           "range": "48\"",
           "A": "1",
           "BS": "3+",
@@ -16598,7 +17918,7 @@
           "keywords": []
         },
         {
-          "name": "➤ Aeldari missile launcher - sunburst",
+          "name": "Aeldari missile launcher - sunburst",
           "range": "48\"",
           "A": "D6",
           "BS": "3+",
@@ -17115,7 +18435,7 @@
       },
       "rangedWeapons": [
         {
-          "name": "➤ Prism Rifle - dispersed",
+          "name": "Prism Rifle - dispersed",
           "range": "18\"",
           "A": "D6",
           "BS": "3+",
@@ -17127,7 +18447,7 @@
           ]
         },
         {
-          "name": "➤ Prism Rifle - focused",
+          "name": "Prism Rifle - focused",
           "range": "24\"",
           "A": "1",
           "BS": "3+",
@@ -17420,7 +18740,20 @@
           "name": "Gang Territory",
           "description": "Each time your **^^Ascendant Lord^^** attempts a Hostile Takeover, add 1 to its D6 result and, if that **^^Ascendant Lord^^** claims a territory as a result, increase your Crusade force's Supply Limit by 50 points."
         }
-      ]
+      ],
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 2100
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "2100"
     },
     {
       "id": "ca40-4a0d-567-852",
@@ -17589,7 +18922,20 @@
           "name": "Gang Territory",
           "description": "Each time your **^^Ascendant Lord^^** attempts a Hostile Takeover, add 1 to its D6 result and, if that **^^Ascendant Lord^^** claims a territory as a result, increase your Crusade force's Supply Limit by 50 points."
         }
-      ]
+      ],
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 1100
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "1100"
     },
     {
       "id": "ef18-ff32-2be6-7372",
@@ -17614,7 +18960,7 @@
       },
       "rangedWeapons": [
         {
-          "name": "➤ D-Flail - blast",
+          "name": "D-Flail - blast",
           "range": "24\"",
           "A": "D3",
           "BS": "3+",
@@ -17627,7 +18973,7 @@
           ]
         },
         {
-          "name": "➤ D-Flail - rift",
+          "name": "D-Flail - rift",
           "range": "12\"",
           "A": "D3",
           "BS": "N/A",
@@ -17799,7 +19145,7 @@
       ],
       "meleeWeapons": [
         {
-          "name": "➤ Ghostspear - Strike",
+          "name": "Ghostspear - Strike",
           "range": "Melee",
           "A": "4",
           "WS": "4+",
@@ -17813,7 +19159,7 @@
           ]
         },
         {
-          "name": "➤ Ghostspear - Sweep",
+          "name": "Ghostspear - Sweep",
           "range": "Melee",
           "A": "12",
           "WS": "4+",
@@ -19841,7 +21187,7 @@
       },
       "rangedWeapons": [
         {
-          "name": "➤ Aeldari missile launcher - starshot",
+          "name": "Aeldari missile launcher - starshot",
           "range": "48\"",
           "A": "1",
           "BS": "3+",
@@ -19851,7 +21197,7 @@
           "keywords": []
         },
         {
-          "name": "➤ Aeldari missile launcher - sunburst",
+          "name": "Aeldari missile launcher - sunburst",
           "range": "48\"",
           "A": "D6",
           "BS": "3+",
@@ -20218,7 +21564,7 @@
       },
       "rangedWeapons": [
         {
-          "name": "➤ Storm vortex projector - beam",
+          "name": "Storm vortex projector - beam",
           "range": "36\"",
           "A": "3",
           "BS": "3+",
@@ -20228,7 +21574,7 @@
           "keywords": []
         },
         {
-          "name": "➤ Storm vortex projector - blast",
+          "name": "Storm vortex projector - blast",
           "range": "24\"",
           "A": "D6+3",
           "BS": "3+",
@@ -20598,6 +21944,27 @@
           "name": "Gang Territory",
           "description": "Each time your **^^Ascendant Lord^^** attempts a Hostile Takeover, add 1 to its D6 result and, if that **^^Ascendant Lord^^** claims a territory as a result, increase your Crusade force's Supply Limit by 50 points."
         }
+      ],
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 45
+            },
+            {
+              "models": 2,
+              "points": 90
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "45/90",
+      "mfmRole": "leader",
+      "attachTo": [
+        "Windriders"
       ]
     },
     {
@@ -21037,6 +22404,24 @@
           "name": "Voidstone",
           "description": "^^**Anhrathe Infantry**^^ unit only. Models in this unit have a 5+ invulnerable save."
         }
+      ],
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 85
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "85",
+      "mfmRole": "leader",
+      "attachTo": [
+        "Ynnari Incubi",
+        "Ynnari Kabalite Warriors"
       ]
     },
     {
@@ -21124,12 +22509,29 @@
           "name": "Whispering Web",
           "description": "In your Shooting phase, after this model has shot, select one enemy unit hit by one or more of those attacks. Until the end of the turn, each time a friendly Aeldari model makes an attack that targets that unit, an unmodified Hit roll of 5+ scores a Critical Hit."
         }
+      ],
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 135
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "135",
+      "mfmRole": "leader",
+      "attachTo": [
+        "Warp Spiders"
       ]
     },
     {
       "id": "bcec-dc54-9242-4e13",
       "name": "War Walkers",
-      "points": 0,
+      "points": 85,
       "keywords": [
         "Vehicle",
         "Aeldari",
@@ -21149,7 +22551,7 @@
       },
       "rangedWeapons": [
         {
-          "name": "➤ Missile Launcher - Starshot",
+          "name": "Missile Launcher - Starshot",
           "range": "48\"",
           "A": "1",
           "BS": "3+",
@@ -21159,7 +22561,7 @@
           "keywords": []
         },
         {
-          "name": "➤ Missile Launcher - Sunburst",
+          "name": "Missile Launcher - Sunburst",
           "range": "48\"",
           "A": "D6",
           "BS": "3+",
@@ -21332,12 +22734,29 @@
           "name": "Gang Territory",
           "description": "Each time your **^^Ascendant Lord^^** attempts a Hostile Takeover, add 1 to its D6 result and, if that **^^Ascendant Lord^^** claims a territory as a result, increase your Crusade force's Supply Limit by 50 points."
         }
-      ]
+      ],
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 85
+            },
+            {
+              "models": 2,
+              "points": 170
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "85/170"
     },
     {
       "id": "2c93-f32d-64ea-b829",
       "name": "Shadow Weaver Platform",
-      "points": 75,
+      "points": 60,
       "keywords": [
         "Support Weapon",
         "Aeldari",
@@ -21495,7 +22914,20 @@
           "name": "Gang Territory",
           "description": "Each time your **^^Ascendant Lord^^** attempts a Hostile Takeover, add 1 to its D6 result and, if that **^^Ascendant Lord^^** claims a territory as a result, increase your Crusade force's Supply Limit by 50 points."
         }
-      ]
+      ],
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 60
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "60"
     },
     {
       "id": "5df4-e13a-f6f4-b672",
@@ -21655,7 +23087,20 @@
           "name": "Gang Territory",
           "description": "Each time your **^^Ascendant Lord^^** attempts a Hostile Takeover, add 1 to its D6 result and, if that **^^Ascendant Lord^^** claims a territory as a result, increase your Crusade force's Supply Limit by 50 points."
         }
-      ]
+      ],
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 60
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "60"
     },
     {
       "id": "814d-56c9-78fe-2123",
@@ -21797,7 +23242,7 @@
     {
       "id": "d756-653a-872b-5c1b",
       "name": "Wraithknight with Ghostglaive",
-      "points": 420,
+      "points": 405,
       "keywords": [
         "Wraith Construct",
         "Monster",
@@ -21821,7 +23266,7 @@
       "rangedWeapons": [],
       "meleeWeapons": [
         {
-          "name": "➤ Titanic Ghostglaive - Strike",
+          "name": "Titanic Ghostglaive - Strike",
           "range": "Melee",
           "A": "5",
           "WS": "3+",
@@ -21831,7 +23276,7 @@
           "keywords": []
         },
         {
-          "name": "➤ Titanic Ghostglaive - Sweep",
+          "name": "Titanic Ghostglaive - Sweep",
           "range": "Melee",
           "A": "15",
           "WS": "3+",
@@ -21946,7 +23391,30 @@
           "name": "Gang Territory",
           "description": "Each time your **^^Ascendant Lord^^** attempts a Hostile Takeover, add 1 to its D6 result and, if that **^^Ascendant Lord^^** claims a territory as a result, increase your Crusade force's Supply Limit by 50 points."
         }
-      ]
+      ],
+      "pricing": [
+        {
+          "range": "[1,1]",
+          "label": "Your 1st Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 405
+            }
+          ]
+        },
+        {
+          "range": "[2,)",
+          "label": "Your 2nd + Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 425
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "405"
     },
     {
       "id": "c2e0-ca3e-e8c1-e019",
@@ -22385,6 +23853,23 @@
           "name": "Voidstone",
           "description": "^^**Anhrathe Infantry**^^ unit only. Models in this unit have a 5+ invulnerable save."
         }
+      ],
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 45
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "45",
+      "mfmRole": "leader",
+      "attachTo": [
+        "Ynnari Wyches"
       ]
     },
     {
@@ -22554,12 +24039,25 @@
           "name": "Gang Territory",
           "description": "Each time your **^^Ascendant Lord^^** attempts a Hostile Takeover, add 1 to its D6 result and, if that **^^Ascendant Lord^^** claims a territory as a result, increase your Crusade force's Supply Limit by 50 points."
         }
-      ]
+      ],
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 10,
+              "points": 90
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "90"
     },
     {
       "id": "5bf7-f905-8fab-43b4",
       "name": "Ynnari Incubi",
-      "points": 85,
+      "points": 80,
       "keywords": [
         "Incubi",
         "Aeldari",
@@ -22589,7 +24087,7 @@
           "keywords": []
         },
         {
-          "name": "➤ Demiklaives - Dual Blades",
+          "name": "Demiklaives - Dual Blades",
           "range": "Melee",
           "A": "6",
           "WS": "3+",
@@ -22601,7 +24099,7 @@
           ]
         },
         {
-          "name": "➤ Demiklaives - Single Blade",
+          "name": "Demiklaives - Single Blade",
           "range": "Melee",
           "A": "3",
           "WS": "3+",
@@ -22716,7 +24214,38 @@
           "name": "Gang Territory",
           "description": "Each time your **^^Ascendant Lord^^** attempts a Hostile Takeover, add 1 to its D6 result and, if that **^^Ascendant Lord^^** claims a territory as a result, increase your Crusade force's Supply Limit by 50 points."
         }
-      ]
+      ],
+      "pricing": [
+        {
+          "range": "[1,2]",
+          "label": "Your 1st To 2nd Units Cost",
+          "costs": [
+            {
+              "models": 5,
+              "points": 80
+            },
+            {
+              "models": 10,
+              "points": 160
+            }
+          ]
+        },
+        {
+          "range": "[3,)",
+          "label": "Your 3rd + Unit Costs",
+          "costs": [
+            {
+              "models": 5,
+              "points": 90
+            },
+            {
+              "models": 10,
+              "points": 170
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "80/160"
     },
     {
       "id": "915d-ad53-9518-7a85",
@@ -22930,7 +24459,24 @@
           "name": "Gang Territory",
           "description": "Each time your **^^Ascendant Lord^^** attempts a Hostile Takeover, add 1 to its D6 result and, if that **^^Ascendant Lord^^** claims a territory as a result, increase your Crusade force's Supply Limit by 50 points."
         }
-      ]
+      ],
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 3,
+              "points": 65
+            },
+            {
+              "models": 6,
+              "points": 120
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "65/120"
     },
     {
       "id": "8e15-3c74-d36f-7669",
@@ -23074,7 +24620,20 @@
           "description": "Each time your **^^Ascendant Lord^^** attempts a Hostile Takeover, add 1 to its D6 result and, if that **^^Ascendant Lord^^** claims a territory as a result, increase your Crusade force's Supply Limit by 50 points."
         }
       ],
-      "transportCapacity": "This model has a transport capacity of 11 models from the following units: The Visarch, Ynnari Archon, Ynnari Incubi, Ynnari Kabalite Warriors, Ynnari Succubus, Ynnari Wyches, Yvraine."
+      "transportCapacity": "This model has a transport capacity of 11 models from the following units: The Visarch, Ynnari Archon, Ynnari Incubi, Ynnari Kabalite Warriors, Ynnari Succubus, Ynnari Wyches, Yvraine.",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 80
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "80"
     },
     {
       "id": "5443-6671-baeb-77a3",
@@ -23232,7 +24791,20 @@
           "description": "Each time your **^^Ascendant Lord^^** attempts a Hostile Takeover, add 1 to its D6 result and, if that **^^Ascendant Lord^^** claims a territory as a result, increase your Crusade force's Supply Limit by 50 points."
         }
       ],
-      "transportCapacity": "This model has a transport capacity of 6 models from the following units: The Visarch, Ynnari Archon, Ynnari Incubi, Ynnari Kabalite Warriors, Ynnari Succubus, Ynnari Wyches, Yvraine.\n\n\nBefore the battle, at the start of the Declare Battle Formations step, you can select one Ynnari Kabalite Warriors or Ynnari Wyches unit from your army that has not already been split. If you do, that unit is split into two units, each containing as equal a number of models as possible (when splitting a unit in this way, make a note of which models form each of the two new units). One of these units must start the battle embarked within this Transport; the other can start the battle embarked within another Transport, or it can be deployed as a separate unit."
+      "transportCapacity": "This model has a transport capacity of 6 models from the following units: The Visarch, Ynnari Archon, Ynnari Incubi, Ynnari Kabalite Warriors, Ynnari Succubus, Ynnari Wyches, Yvraine.\n\n\nBefore the battle, at the start of the Declare Battle Formations step, you can select one Ynnari Kabalite Warriors or Ynnari Wyches unit from your army that has not already been split. If you do, that unit is split into two units, each containing as equal a number of models as possible (when splitting a unit in this way, make a note of which models form each of the two new units). One of these units must start the battle embarked within this Transport; the other can start the battle embarked within another Transport, or it can be deployed as a separate unit.",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 70
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "70"
     },
     {
       "id": "a223-234b-7886-fccc",
@@ -23302,6 +24874,25 @@
           "name": "Mind Like a Steel Trap [Aura]",
           "description": "Each time your opponent targets a unit from their army with a Stratagem, if that unit is within 12\" of this model, increase the cost of that use of that Stratagem by 1CP."
         }
+      ],
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 100
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "100",
+      "mfmRole": "leader",
+      "attachTo": [
+        "Hand Of The Archon",
+        "Incubi",
+        "Kabalite Warriors"
       ]
     },
     {
@@ -23527,7 +25118,30 @@
           "name": "Gang Territory",
           "description": "Each time your **^^Ascendant Lord^^** attempts a Hostile Takeover, add 1 to its D6 result and, if that **^^Ascendant Lord^^** claims a territory as a result, increase your Crusade force's Supply Limit by 50 points."
         }
-      ]
+      ],
+      "pricing": [
+        {
+          "range": "[1,2]",
+          "label": "Your 1st To 2nd Units Cost",
+          "costs": [
+            {
+              "models": 5,
+              "points": 75
+            }
+          ]
+        },
+        {
+          "range": "[3,)",
+          "label": "Your 3rd + Unit Costs",
+          "costs": [
+            {
+              "models": 5,
+              "points": 85
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "75"
     },
     {
       "id": "54dc-aa1f-817a-a5c5",
@@ -23898,12 +25512,31 @@
           "name": "Voidstone",
           "description": "^^**Anhrathe Infantry**^^ unit only. Models in this unit have a 5+ invulnerable save."
         }
+      ],
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 95
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "95",
+      "mfmRole": "leader",
+      "attachTo": [
+        "Corsair Reaver Band",
+        "Corsair Voidreavers",
+        "Corsair Voidscarred"
       ]
     },
     {
       "id": "4273-173c-e850-4071",
       "name": "Kharseth",
-      "points": 95,
+      "points": 85,
       "keywords": [
         "Infantry",
         "Aeldari",
@@ -24261,12 +25894,31 @@
           "name": "Voidstone",
           "description": "^^**Anhrathe Infantry**^^ unit only. Models in this unit have a 5+ invulnerable save."
         }
+      ],
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 85
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "85",
+      "mfmRole": "leader",
+      "attachTo": [
+        "Corsair Reaver Band",
+        "Corsair Voidreavers",
+        "Corsair Voidscarred"
       ]
     },
     {
       "id": "a074-87f8-810d-492a",
       "name": "Starfangs",
-      "points": 0,
+      "points": 70,
       "keywords": [
         "Vehicle",
         "Aeldari",
@@ -24715,7 +26367,24 @@
           "name": "Voidstone",
           "description": "^^**Anhrathe Infantry**^^ unit only. Models in this unit have a 5+ invulnerable save."
         }
-      ]
+      ],
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 70
+            },
+            {
+              "models": 2,
+              "points": 140
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "70/140"
     },
     {
       "id": "62f8-6a75-5ffb-e83b",
@@ -24887,7 +26556,7 @@
           ]
         },
         {
-          "name": "➤ Demiklaives - Dual Blades",
+          "name": "Demiklaives - Dual Blades",
           "range": "Melee",
           "A": "6",
           "WS": "2+",
@@ -24897,7 +26566,7 @@
           "keywords": []
         },
         {
-          "name": "➤ Demiklaives - Single Blade",
+          "name": "Demiklaives - Single Blade",
           "range": "Melee",
           "A": "4",
           "WS": "2+",
@@ -25314,7 +26983,7 @@
           ]
         },
         {
-          "name": "➤ Demiklaives - Dual Blades",
+          "name": "Demiklaives - Dual Blades",
           "range": "Melee",
           "A": "6",
           "WS": "2+",
@@ -25324,7 +26993,7 @@
           "keywords": []
         },
         {
-          "name": "➤ Demiklaives - Single Blade",
+          "name": "Demiklaives - Single Blade",
           "range": "Melee",
           "A": "4",
           "WS": "2+",
@@ -25687,7 +27356,7 @@
           ]
         },
         {
-          "name": "➤ Missile Launcher - Starshot",
+          "name": "Missile Launcher - Starshot",
           "range": "48\"",
           "A": "1",
           "BS": "2+",
@@ -25697,7 +27366,7 @@
           "keywords": []
         },
         {
-          "name": "➤ Missile Launcher - Sunburst",
+          "name": "Missile Launcher - Sunburst",
           "range": "48\"",
           "A": "D6",
           "BS": "2+",
@@ -25709,7 +27378,7 @@
           ]
         },
         {
-          "name": "➤ Reaper Launcher - Starshot",
+          "name": "Reaper Launcher - Starshot",
           "range": "48\"",
           "A": "1",
           "BS": "3+",
@@ -25722,7 +27391,7 @@
           ]
         },
         {
-          "name": "➤ Reaper Launcher - Starswarm",
+          "name": "Reaper Launcher - Starswarm",
           "range": "48\"",
           "A": "2",
           "BS": "3+",
@@ -25868,7 +27537,7 @@
           "keywords": []
         },
         {
-          "name": "➤ Ghostglaive - Strike",
+          "name": "Ghostglaive - Strike",
           "range": "Melee",
           "A": "4",
           "WS": "4+",
@@ -25878,7 +27547,7 @@
           "keywords": []
         },
         {
-          "name": "➤ Ghostglaive - Sweep",
+          "name": "Ghostglaive - Sweep",
           "range": "Melee",
           "A": "8",
           "WS": "4+",
@@ -26558,7 +28227,7 @@
           ]
         },
         {
-          "name": "➤ Missile Launcher - Starshot",
+          "name": "Missile Launcher - Starshot",
           "range": "48\"",
           "A": "1",
           "BS": "2+",
@@ -26568,7 +28237,7 @@
           "keywords": []
         },
         {
-          "name": "➤ Missile Launcher - Sunburst",
+          "name": "Missile Launcher - Sunburst",
           "range": "48\"",
           "A": "D6",
           "BS": "2+",
@@ -26580,7 +28249,7 @@
           ]
         },
         {
-          "name": "➤ Reaper Launcher - Starshot",
+          "name": "Reaper Launcher - Starshot",
           "range": "48\"",
           "A": "1",
           "BS": "3+",
@@ -26593,7 +28262,7 @@
           ]
         },
         {
-          "name": "➤ Reaper Launcher - Starswarm",
+          "name": "Reaper Launcher - Starswarm",
           "range": "48\"",
           "A": "2",
           "BS": "3+",
@@ -26739,7 +28408,7 @@
           "keywords": []
         },
         {
-          "name": "➤ Ghostglaive - Strike",
+          "name": "Ghostglaive - Strike",
           "range": "Melee",
           "A": "4",
           "WS": "4+",
@@ -26749,7 +28418,7 @@
           "keywords": []
         },
         {
-          "name": "➤ Ghostglaive - Sweep",
+          "name": "Ghostglaive - Sweep",
           "range": "Melee",
           "A": "8",
           "WS": "4+",
@@ -27138,7 +28807,7 @@
           ]
         },
         {
-          "name": "➤ Missile Launcher - Starshot",
+          "name": "Missile Launcher - Starshot",
           "range": "48\"",
           "A": "1",
           "BS": "2+",
@@ -27148,7 +28817,7 @@
           "keywords": []
         },
         {
-          "name": "➤ Missile Launcher - Sunburst",
+          "name": "Missile Launcher - Sunburst",
           "range": "48\"",
           "A": "D6",
           "BS": "2+",
@@ -27160,7 +28829,7 @@
           ]
         },
         {
-          "name": "➤ Reaper Launcher - Starshot",
+          "name": "Reaper Launcher - Starshot",
           "range": "48\"",
           "A": "1",
           "BS": "3+",
@@ -27173,7 +28842,7 @@
           ]
         },
         {
-          "name": "➤ Reaper Launcher - Starswarm",
+          "name": "Reaper Launcher - Starswarm",
           "range": "48\"",
           "A": "2",
           "BS": "3+",
@@ -27319,7 +28988,7 @@
           "keywords": []
         },
         {
-          "name": "➤ Ghostglaive - Strike",
+          "name": "Ghostglaive - Strike",
           "range": "Melee",
           "A": "4",
           "WS": "4+",
@@ -27329,7 +28998,7 @@
           "keywords": []
         },
         {
-          "name": "➤ Ghostglaive - Sweep",
+          "name": "Ghostglaive - Sweep",
           "range": "Melee",
           "A": "8",
           "WS": "4+",

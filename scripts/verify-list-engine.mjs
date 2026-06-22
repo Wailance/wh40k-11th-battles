@@ -29,10 +29,44 @@ const necrons = JSON.parse(
   readFileSync(join(root, 'public/data/army/curated/factions/necrons.json'), 'utf8'),
 )
 if (!necrons.units?.length) fail('necrons.json has no units')
-const sample = necrons.units[0]
-if (!sample.id || !sample.name || typeof sample.points !== 'number') {
-  fail('necrons unit missing id/name/points')
+const gargoyle = JSON.parse(
+  readFileSync(join(root, 'public/data/army/curated/factions/library-tyranids.json'), 'utf8'),
+).units.find((u) => u.name === 'Gargoyles')
+if (!gargoyle || gargoyle.points !== 80) {
+  fail(`Gargoyles expected 80 MFM points, got ${gargoyle?.points}`)
 }
+if (!gargoyle?.pointsLabel?.includes('155')) {
+  fail(`Gargoyles expected tier label 80/155, got ${gargoyle?.pointsLabel}`)
+}
+
+const armyMap = JSON.parse(
+  readFileSync(join(root, 'public/data/army/mfm/army-map.json'), 'utf8'),
+)
+if (!armyMap.Tyranids?.detachments?.length) {
+  fail('MFM army-map missing Tyranids detachments')
+}
+
+const deathwatch = JSON.parse(
+  readFileSync(join(root, 'public/data/army/curated/factions/imperium-deathwatch.json'), 'utf8'),
+)
+const ghostVeterans = deathwatch.units.filter(
+  (u) => u.name.includes('Deathwatch Veteran w/') && u.points === 0,
+)
+if (ghostVeterans.length < 3) {
+  fail('deathwatch fixture: expected model-only Deathwatch Veteran entries')
+}
+function isListableCatalogUnit(unit) {
+  if (!unit.factionKeywords?.length && !unit.keywords?.length) return false
+  if (unit.pricing?.length) return true
+  return unit.points > 0
+}
+const listable = deathwatch.units.filter(isListableCatalogUnit)
+if (listable.some((u) => u.name.includes('Deathwatch Veteran w/'))) {
+  fail('model-only Deathwatch Veterans must not be listable catalog units')
+}
+
+const decimus = deathwatch.units.find((u) => u.name === 'Decimus Kill Team')
+if (!decimus) fail('deathwatch fixture: missing Decimus Kill Team')
 
 if (errors === 0) console.log('✓ list-engine smoke checks OK')
 else process.exit(1)

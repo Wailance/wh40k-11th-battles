@@ -6,7 +6,7 @@
     {
       "id": "4b94-c22e-84f9-8d32",
       "name": "Aestred Thurga and Agathae Dolan",
-      "points": 70,
+      "points": 80,
       "keywords": [
         "Epic Hero",
         "Character",
@@ -61,12 +61,35 @@
           "name": "Recount the Deeds of the Saints",
           "description": "While this unit is leading a unit and contains and Agathae Dolan model, each time that unit destroys an enemy unit, you gain 1 Miracle dice. When that Agathae Dolan model is destroyed, you gain D3 Miracle dice."
         }
+      ],
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 2,
+              "points": 80
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "80",
+      "mfmRole": "leader",
+      "attachTo": [
+        "Battle Sisters Squad",
+        "Celestian Insidiants",
+        "Celestian Sacresants",
+        "Crusaders",
+        "Dominion Squad",
+        "Retributor Squad",
+        "Sisters Novitiate Squad"
       ]
     },
     {
       "id": "ca59-3760-5efc-9846",
       "name": "Arco-Flagellants",
-      "points": 45,
+      "points": 50,
       "keywords": [
         "Infantry",
         "Imperium",
@@ -171,7 +194,24 @@
           "name": "Intoning Hymns of Battle",
           "description": "Once per battle, at the start of the battle round, if you have one or more **^^Adepta Sororitas Character^^** units on the battlefield and if your Crusade army was led in prayer before this battle, you can discard two Miracle dice. If you do, you intone the Hymns of Battle that battle round and, until the start of the next battle round, all **^^Adepta Sororitas Character^^** units in your army gain bonus depending on which Hymns of Battle you select. While a unit is Battle-shocked, it loses the bonus of any Hymns that would apply to it (if a rule would cause such a unit to no longer be Battle-shocked, any bonuses from Hymns that would apply to it apply once again).\n\nWhen you intone Hymns of Battle, you can either select one Hymn to apply to units from your army from the list, or you can randomly select two by rolling two D6 and consulting the table (if a double is rolled, roll both dice again until two different results are rolled)."
         }
-      ]
+      ],
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 3,
+              "points": 50
+            },
+            {
+              "models": 10,
+              "points": 140
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "50/140"
     },
     {
       "id": "c338-14f9-4ee-f223",
@@ -193,8 +233,34 @@
         "LD": "7+",
         "OC": "1"
       },
-      "rangedWeapons": [],
-      "meleeWeapons": [],
+      "rangedWeapons": [
+        {
+          "name": "Bolt Pistol",
+          "range": "12\"",
+          "A": "1",
+          "BS": "3+",
+          "S": "4",
+          "AP": "0",
+          "D": "1",
+          "keywords": [
+            "Pistol"
+          ]
+        }
+      ],
+      "meleeWeapons": [
+        {
+          "name": "Blessed blade",
+          "range": "Melee",
+          "A": "4",
+          "WS": "2+",
+          "S": "6",
+          "AP": "-2",
+          "D": "2",
+          "keywords": [
+            "Lethal Hits"
+          ]
+        }
+      ],
       "abilities": [
         {
           "name": "The Emperor's Grace",
@@ -348,12 +414,35 @@
           "name": "Intoning Hymns of Battle",
           "description": "Once per battle, at the start of the battle round, if you have one or more **^^Adepta Sororitas Character^^** units on the battlefield and if your Crusade army was led in prayer before this battle, you can discard two Miracle dice. If you do, you intone the Hymns of Battle that battle round and, until the start of the next battle round, all **^^Adepta Sororitas Character^^** units in your army gain bonus depending on which Hymns of Battle you select. While a unit is Battle-shocked, it loses the bonus of any Hymns that would apply to it (if a rule would cause such a unit to no longer be Battle-shocked, any bonuses from Hymns that would apply to it apply once again).\n\nWhen you intone Hymns of Battle, you can either select one Hymn to apply to units from your army from the list, or you can randomly select two by rolling two D6 and consulting the table (if a double is rolled, roll both dice again until two different results are rolled)."
         }
+      ],
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 60
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "60",
+      "mfmRole": "leader",
+      "attachTo": [
+        "Battle Sisters Squad",
+        "Celestian Insidiants",
+        "Celestian Sacresants",
+        "Crusaders",
+        "Dominion Squad",
+        "Retributor Squad",
+        "Sisters Novitiate Squad"
       ]
     },
     {
       "id": "820-1e76-78cc-931a",
       "name": "Castigator",
-      "points": 160,
+      "points": 165,
       "keywords": [
         "Vehicle",
         "Smoke",
@@ -473,7 +562,30 @@
           "name": "Intoning Hymns of Battle",
           "description": "Once per battle, at the start of the battle round, if you have one or more **^^Adepta Sororitas Character^^** units on the battlefield and if your Crusade army was led in prayer before this battle, you can discard two Miracle dice. If you do, you intone the Hymns of Battle that battle round and, until the start of the next battle round, all **^^Adepta Sororitas Character^^** units in your army gain bonus depending on which Hymns of Battle you select. While a unit is Battle-shocked, it loses the bonus of any Hymns that would apply to it (if a rule would cause such a unit to no longer be Battle-shocked, any bonuses from Hymns that would apply to it apply once again).\n\nWhen you intone Hymns of Battle, you can either select one Hymn to apply to units from your army from the list, or you can randomly select two by rolling two D6 and consulting the table (if a double is rolled, roll both dice again until two different results are rolled)."
         }
-      ]
+      ],
+      "pricing": [
+        {
+          "range": "[1,2]",
+          "label": "Your 1st To 2nd Units Cost",
+          "costs": [
+            {
+              "models": 1,
+              "points": 165
+            }
+          ]
+        },
+        {
+          "range": "[3,)",
+          "label": "Your 3rd + Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 175
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "165"
     },
     {
       "id": "8569-2390-d4db-30fd",
@@ -538,7 +650,20 @@
           "name": "Invulnerable Save",
           "description": "Models in this units have an Invulnerable save of 4+"
         }
-      ]
+      ],
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 2,
+              "points": 85
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "85"
     },
     {
       "id": "91b8-3ccb-de30-6e54",
@@ -730,6 +855,29 @@
           "name": "Intoning Hymns of Battle",
           "description": "Once per battle, at the start of the battle round, if you have one or more **^^Adepta Sororitas Character^^** units on the battlefield and if your Crusade army was led in prayer before this battle, you can discard two Miracle dice. If you do, you intone the Hymns of Battle that battle round and, until the start of the next battle round, all **^^Adepta Sororitas Character^^** units in your army gain bonus depending on which Hymns of Battle you select. While a unit is Battle-shocked, it loses the bonus of any Hymns that would apply to it (if a rule would cause such a unit to no longer be Battle-shocked, any bonuses from Hymns that would apply to it apply once again).\n\nWhen you intone Hymns of Battle, you can either select one Hymn to apply to units from your army from the list, or you can randomly select two by rolling two D6 and consulting the table (if a double is rolled, roll both dice again until two different results are rolled)."
         }
+      ],
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 40
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "40",
+      "mfmRole": "support",
+      "attachTo": [
+        "Battle Sisters Squad",
+        "Celestian Insidiants",
+        "Celestian Sacresants",
+        "Crusaders",
+        "Dominion Squad",
+        "Retributor Squad",
+        "Sisters Novitiate Squad"
       ]
     },
     {
@@ -923,12 +1071,34 @@
           "name": "Intoning Hymns of Battle",
           "description": "Once per battle, at the start of the battle round, if you have one or more **^^Adepta Sororitas Character^^** units on the battlefield and if your Crusade army was led in prayer before this battle, you can discard two Miracle dice. If you do, you intone the Hymns of Battle that battle round and, until the start of the next battle round, all **^^Adepta Sororitas Character^^** units in your army gain bonus depending on which Hymns of Battle you select. While a unit is Battle-shocked, it loses the bonus of any Hymns that would apply to it (if a rule would cause such a unit to no longer be Battle-shocked, any bonuses from Hymns that would apply to it apply once again).\n\nWhen you intone Hymns of Battle, you can either select one Hymn to apply to units from your army from the list, or you can randomly select two by rolling two D6 and consulting the table (if a double is rolled, roll both dice again until two different results are rolled)."
         }
+      ],
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 45
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "45",
+      "mfmRole": "support",
+      "attachTo": [
+        "Battle Sisters Squad",
+        "Celestian Insidiants",
+        "Celestian Sacresants",
+        "Crusaders",
+        "Dominion Squad",
+        "Retributor Squad"
       ]
     },
     {
       "id": "684e-4dd3-340a-23ee",
       "name": "Exorcist",
-      "points": 210,
+      "points": 180,
       "keywords": [
         "Vehicle",
         "Smoke",
@@ -1060,12 +1230,35 @@
           "name": "Intoning Hymns of Battle",
           "description": "Once per battle, at the start of the battle round, if you have one or more **^^Adepta Sororitas Character^^** units on the battlefield and if your Crusade army was led in prayer before this battle, you can discard two Miracle dice. If you do, you intone the Hymns of Battle that battle round and, until the start of the next battle round, all **^^Adepta Sororitas Character^^** units in your army gain bonus depending on which Hymns of Battle you select. While a unit is Battle-shocked, it loses the bonus of any Hymns that would apply to it (if a rule would cause such a unit to no longer be Battle-shocked, any bonuses from Hymns that would apply to it apply once again).\n\nWhen you intone Hymns of Battle, you can either select one Hymn to apply to units from your army from the list, or you can randomly select two by rolling two D6 and consulting the table (if a double is rolled, roll both dice again until two different results are rolled)."
         }
-      ]
+      ],
+      "pricing": [
+        {
+          "range": "[1,1]",
+          "label": "Your 1st Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 180
+            }
+          ]
+        },
+        {
+          "range": "[2,)",
+          "label": "Your 2nd + Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 220
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "180"
     },
     {
       "id": "938e-1c24-4e63-4cf3",
       "name": "Hospitaller",
-      "points": 60,
+      "points": 75,
       "keywords": [
         "Infantry",
         "Character",
@@ -1256,6 +1449,39 @@
           "name": "Intoning Hymns of Battle",
           "description": "Once per battle, at the start of the battle round, if you have one or more **^^Adepta Sororitas Character^^** units on the battlefield and if your Crusade army was led in prayer before this battle, you can discard two Miracle dice. If you do, you intone the Hymns of Battle that battle round and, until the start of the next battle round, all **^^Adepta Sororitas Character^^** units in your army gain bonus depending on which Hymns of Battle you select. While a unit is Battle-shocked, it loses the bonus of any Hymns that would apply to it (if a rule would cause such a unit to no longer be Battle-shocked, any bonuses from Hymns that would apply to it apply once again).\n\nWhen you intone Hymns of Battle, you can either select one Hymn to apply to units from your army from the list, or you can randomly select two by rolling two D6 and consulting the table (if a double is rolled, roll both dice again until two different results are rolled)."
         }
+      ],
+      "pricing": [
+        {
+          "range": "[1,1]",
+          "label": "Your 1st Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 75
+            }
+          ]
+        },
+        {
+          "range": "[2,)",
+          "label": "Your 2nd + Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 85
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "75",
+      "mfmRole": "support",
+      "attachTo": [
+        "Battle Sisters Squad",
+        "Celestian Insidiants",
+        "Celestian Sacresants",
+        "Crusaders",
+        "Dominion Squad",
+        "Retributor Squad",
+        "Sisters Novitiate Squad"
       ]
     },
     {
@@ -1462,12 +1688,34 @@
           "name": "Intoning Hymns of Battle",
           "description": "Once per battle, at the start of the battle round, if you have one or more **^^Adepta Sororitas Character^^** units on the battlefield and if your Crusade army was led in prayer before this battle, you can discard two Miracle dice. If you do, you intone the Hymns of Battle that battle round and, until the start of the next battle round, all **^^Adepta Sororitas Character^^** units in your army gain bonus depending on which Hymns of Battle you select. While a unit is Battle-shocked, it loses the bonus of any Hymns that would apply to it (if a rule would cause such a unit to no longer be Battle-shocked, any bonuses from Hymns that would apply to it apply once again).\n\nWhen you intone Hymns of Battle, you can either select one Hymn to apply to units from your army from the list, or you can randomly select two by rolling two D6 and consulting the table (if a double is rolled, roll both dice again until two different results are rolled)."
         }
+      ],
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 65
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "65",
+      "mfmRole": "support",
+      "attachTo": [
+        "Battle Sisters Squad",
+        "Celestian Insidiants",
+        "Celestian Sacresants",
+        "Crusaders",
+        "Dominion Squad",
+        "Retributor Squad"
       ]
     },
     {
       "id": "1001-80ff-c9a8-5d9b",
       "name": "Immolator",
-      "points": 115,
+      "points": 110,
       "keywords": [
         "Dedicated Transport",
         "Vehicle",
@@ -1601,12 +1849,35 @@
           "name": "Intoning Hymns of Battle",
           "description": "Once per battle, at the start of the battle round, if you have one or more **^^Adepta Sororitas Character^^** units on the battlefield and if your Crusade army was led in prayer before this battle, you can discard two Miracle dice. If you do, you intone the Hymns of Battle that battle round and, until the start of the next battle round, all **^^Adepta Sororitas Character^^** units in your army gain bonus depending on which Hymns of Battle you select. While a unit is Battle-shocked, it loses the bonus of any Hymns that would apply to it (if a rule would cause such a unit to no longer be Battle-shocked, any bonuses from Hymns that would apply to it apply once again).\n\nWhen you intone Hymns of Battle, you can either select one Hymn to apply to units from your army from the list, or you can randomly select two by rolling two D6 and consulting the table (if a double is rolled, roll both dice again until two different results are rolled)."
         }
-      ]
+      ],
+      "pricing": [
+        {
+          "range": "[1,3]",
+          "label": "Your 1st To 3rd Units Cost",
+          "costs": [
+            {
+              "models": 1,
+              "points": 110
+            }
+          ]
+        },
+        {
+          "range": "[4,)",
+          "label": "Your 4th + Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 120
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "110"
     },
     {
       "id": "8f9a-8a8b-2539-547f",
       "name": "Junith Eruita",
-      "points": 80,
+      "points": 115,
       "keywords": [
         "Epic Hero",
         "Character",
@@ -1666,6 +1937,29 @@
           "name": "Invulnerable Save",
           "description": "This model has an invulnerable save of 4+"
         }
+      ],
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 115
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "115",
+      "mfmRole": "leader",
+      "attachTo": [
+        "Battle Sisters Squad",
+        "Celestian Insidiants",
+        "Celestian Sacresants",
+        "Crusaders",
+        "Dominion Squad",
+        "Retributor Squad",
+        "Sisters Novitiate Squad"
       ]
     },
     {
@@ -1768,7 +2062,24 @@
           "name": "Intoning Hymns of Battle",
           "description": "Once per battle, at the start of the battle round, if you have one or more **^^Adepta Sororitas Character^^** units on the battlefield and if your Crusade army was led in prayer before this battle, you can discard two Miracle dice. If you do, you intone the Hymns of Battle that battle round and, until the start of the next battle round, all **^^Adepta Sororitas Character^^** units in your army gain bonus depending on which Hymns of Battle you select. While a unit is Battle-shocked, it loses the bonus of any Hymns that would apply to it (if a rule would cause such a unit to no longer be Battle-shocked, any bonuses from Hymns that would apply to it apply once again).\n\nWhen you intone Hymns of Battle, you can either select one Hymn to apply to units from your army from the list, or you can randomly select two by rolling two D6 and consulting the table (if a double is rolled, roll both dice again until two different results are rolled)."
         }
-      ]
+      ],
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 70
+            },
+            {
+              "models": 2,
+              "points": 130
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "70/130"
     },
     {
       "id": "7188-4d20-8216-c68a",
@@ -1806,7 +2117,7 @@
           ]
         },
         {
-          "name": "➤ Paragon missile launcher - prioris",
+          "name": "Paragon missile launcher - prioris",
           "range": "36\"",
           "A": "2",
           "BS": "2+",
@@ -1816,7 +2127,7 @@
           "keywords": []
         },
         {
-          "name": "➤ Paragon missile launcher - sanctorum",
+          "name": "Paragon missile launcher - sanctorum",
           "range": "36\"",
           "A": "2D6",
           "BS": "2+",
@@ -1830,7 +2141,7 @@
       ],
       "meleeWeapons": [
         {
-          "name": "➤ Lance of Illumination - strike",
+          "name": "Lance of Illumination - strike",
           "range": "Melee",
           "A": "5",
           "WS": "2+",
@@ -1842,7 +2153,7 @@
           ]
         },
         {
-          "name": "➤ Lance of Illumination - sweep",
+          "name": "Lance of Illumination - sweep",
           "range": "Melee",
           "A": "10",
           "WS": "2+",
@@ -1867,6 +2178,23 @@
           "name": "Invulnerable Save",
           "description": "This model has an invulnerable save of 4+"
         }
+      ],
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 185
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "185",
+      "mfmRole": "leader",
+      "attachTo": [
+        "Paragon Warsuits"
       ]
     },
     {
@@ -2060,12 +2388,35 @@
           "name": "Intoning Hymns of Battle",
           "description": "Once per battle, at the start of the battle round, if you have one or more **^^Adepta Sororitas Character^^** units on the battlefield and if your Crusade army was led in prayer before this battle, you can discard two Miracle dice. If you do, you intone the Hymns of Battle that battle round and, until the start of the next battle round, all **^^Adepta Sororitas Character^^** units in your army gain bonus depending on which Hymns of Battle you select. While a unit is Battle-shocked, it loses the bonus of any Hymns that would apply to it (if a rule would cause such a unit to no longer be Battle-shocked, any bonuses from Hymns that would apply to it apply once again).\n\nWhen you intone Hymns of Battle, you can either select one Hymn to apply to units from your army from the list, or you can randomly select two by rolling two D6 and consulting the table (if a double is rolled, roll both dice again until two different results are rolled)."
         }
+      ],
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 50
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "50",
+      "mfmRole": "leader",
+      "attachTo": [
+        "Battle Sisters Squad",
+        "Celestian Insidiants",
+        "Celestian Sacresants",
+        "Crusaders",
+        "Dominion Squad",
+        "Retributor Squad",
+        "Sisters Novitiate Squad"
       ]
     },
     {
       "id": "e75d-a7ac-7fcc-d302",
       "name": "Paragon Warsuits",
-      "points": 210,
+      "points": 180,
       "keywords": [
         "Vehicle",
         "Walker",
@@ -2242,12 +2593,35 @@
           "name": "Intoning Hymns of Battle",
           "description": "Once per battle, at the start of the battle round, if you have one or more **^^Adepta Sororitas Character^^** units on the battlefield and if your Crusade army was led in prayer before this battle, you can discard two Miracle dice. If you do, you intone the Hymns of Battle that battle round and, until the start of the next battle round, all **^^Adepta Sororitas Character^^** units in your army gain bonus depending on which Hymns of Battle you select. While a unit is Battle-shocked, it loses the bonus of any Hymns that would apply to it (if a rule would cause such a unit to no longer be Battle-shocked, any bonuses from Hymns that would apply to it apply once again).\n\nWhen you intone Hymns of Battle, you can either select one Hymn to apply to units from your army from the list, or you can randomly select two by rolling two D6 and consulting the table (if a double is rolled, roll both dice again until two different results are rolled)."
         }
-      ]
+      ],
+      "pricing": [
+        {
+          "range": "[1,2]",
+          "label": "Your 1st To 2nd Units Cost",
+          "costs": [
+            {
+              "models": 3,
+              "points": 180
+            }
+          ]
+        },
+        {
+          "range": "[3,)",
+          "label": "Your 3rd + Unit Costs",
+          "costs": [
+            {
+              "models": 3,
+              "points": 190
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "180"
     },
     {
       "id": "327d-a6df-26b-bb9b",
       "name": "Penitent Engines",
-      "points": 75,
+      "points": 70,
       "keywords": [
         "Vehicle",
         "Walker",
@@ -2356,7 +2730,24 @@
           "name": "Intoning Hymns of Battle",
           "description": "Once per battle, at the start of the battle round, if you have one or more **^^Adepta Sororitas Character^^** units on the battlefield and if your Crusade army was led in prayer before this battle, you can discard two Miracle dice. If you do, you intone the Hymns of Battle that battle round and, until the start of the next battle round, all **^^Adepta Sororitas Character^^** units in your army gain bonus depending on which Hymns of Battle you select. While a unit is Battle-shocked, it loses the bonus of any Hymns that would apply to it (if a rule would cause such a unit to no longer be Battle-shocked, any bonuses from Hymns that would apply to it apply once again).\n\nWhen you intone Hymns of Battle, you can either select one Hymn to apply to units from your army from the list, or you can randomly select two by rolling two D6 and consulting the table (if a double is rolled, roll both dice again until two different results are rolled)."
         }
-      ]
+      ],
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 70
+            },
+            {
+              "models": 2,
+              "points": 140
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "70/140"
     },
     {
       "id": "599d-1e2a-eb0e-430e",
@@ -2589,12 +2980,35 @@
           "name": "Intoning Hymns of Battle",
           "description": "Once per battle, at the start of the battle round, if you have one or more **^^Adepta Sororitas Character^^** units on the battlefield and if your Crusade army was led in prayer before this battle, you can discard two Miracle dice. If you do, you intone the Hymns of Battle that battle round and, until the start of the next battle round, all **^^Adepta Sororitas Character^^** units in your army gain bonus depending on which Hymns of Battle you select. While a unit is Battle-shocked, it loses the bonus of any Hymns that would apply to it (if a rule would cause such a unit to no longer be Battle-shocked, any bonuses from Hymns that would apply to it apply once again).\n\nWhen you intone Hymns of Battle, you can either select one Hymn to apply to units from your army from the list, or you can randomly select two by rolling two D6 and consulting the table (if a double is rolled, roll both dice again until two different results are rolled)."
         }
+      ],
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 50
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "50",
+      "mfmRole": "leader",
+      "attachTo": [
+        "Arco-Flagellants",
+        "Battle Sisters Squad",
+        "Celestian Insidiants",
+        "Crusaders",
+        "Dominion Squad",
+        "Sanctifiers",
+        "Sisters Novitiate Squad"
       ]
     },
     {
       "id": "c49d-f150-4b3-c118",
       "name": "Retributor Squad",
-      "points": 120,
+      "points": 105,
       "keywords": [
         "Infantry",
         "Grenades",
@@ -2681,7 +3095,7 @@
           ]
         },
         {
-          "name": "➤ Plasma pistol - supercharge",
+          "name": "Plasma pistol - supercharge",
           "range": "12\"",
           "A": "1",
           "BS": "3+",
@@ -2694,7 +3108,7 @@
           ]
         },
         {
-          "name": "➤ Plasma pistol - standard",
+          "name": "Plasma pistol - standard",
           "range": "12\"",
           "A": "1",
           "BS": "3+",
@@ -2834,7 +3248,30 @@
           "name": "Intoning Hymns of Battle",
           "description": "Once per battle, at the start of the battle round, if you have one or more **^^Adepta Sororitas Character^^** units on the battlefield and if your Crusade army was led in prayer before this battle, you can discard two Miracle dice. If you do, you intone the Hymns of Battle that battle round and, until the start of the next battle round, all **^^Adepta Sororitas Character^^** units in your army gain bonus depending on which Hymns of Battle you select. While a unit is Battle-shocked, it loses the bonus of any Hymns that would apply to it (if a rule would cause such a unit to no longer be Battle-shocked, any bonuses from Hymns that would apply to it apply once again).\n\nWhen you intone Hymns of Battle, you can either select one Hymn to apply to units from your army from the list, or you can randomly select two by rolling two D6 and consulting the table (if a double is rolled, roll both dice again until two different results are rolled)."
         }
-      ]
+      ],
+      "pricing": [
+        {
+          "range": "[1,2]",
+          "label": "Your 1st To 2nd Units Cost",
+          "costs": [
+            {
+              "models": 5,
+              "points": 105
+            }
+          ]
+        },
+        {
+          "range": "[3,)",
+          "label": "Your 3rd + Unit Costs",
+          "costs": [
+            {
+              "models": 5,
+              "points": 115
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "105"
     },
     {
       "id": "21f1-8ed6-52c6-54c7",
@@ -2927,12 +3364,30 @@
           "name": "Invulnerable Save",
           "description": "Models in this unit have a 4+ invulnerable save."
         }
+      ],
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 3,
+              "points": 150
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "150",
+      "mfmRole": "leader",
+      "attachTo": [
+        "Seraphim Squad",
+        "Zephyrim Squad"
       ]
     },
     {
       "id": "bee9-172b-7db7-f748",
       "name": "Seraphim Squad",
-      "points": 80,
+      "points": 85,
       "keywords": [
         "Infantry",
         "Fly",
@@ -2953,7 +3408,7 @@
       },
       "rangedWeapons": [
         {
-          "name": "➤ Plasma pistol - supercharge",
+          "name": "Plasma pistol - supercharge",
           "range": "12\"",
           "A": "1",
           "BS": "3+",
@@ -2966,7 +3421,7 @@
           ]
         },
         {
-          "name": "➤ Plasma pistol - standard",
+          "name": "Plasma pistol - standard",
           "range": "12\"",
           "A": "1",
           "BS": "3+",
@@ -3110,7 +3565,38 @@
           "name": "Intoning Hymns of Battle",
           "description": "Once per battle, at the start of the battle round, if you have one or more **^^Adepta Sororitas Character^^** units on the battlefield and if your Crusade army was led in prayer before this battle, you can discard two Miracle dice. If you do, you intone the Hymns of Battle that battle round and, until the start of the next battle round, all **^^Adepta Sororitas Character^^** units in your army gain bonus depending on which Hymns of Battle you select. While a unit is Battle-shocked, it loses the bonus of any Hymns that would apply to it (if a rule would cause such a unit to no longer be Battle-shocked, any bonuses from Hymns that would apply to it apply once again).\n\nWhen you intone Hymns of Battle, you can either select one Hymn to apply to units from your army from the list, or you can randomly select two by rolling two D6 and consulting the table (if a double is rolled, roll both dice again until two different results are rolled)."
         }
-      ]
+      ],
+      "pricing": [
+        {
+          "range": "[1,2]",
+          "label": "Your 1st To 2nd Units Cost",
+          "costs": [
+            {
+              "models": 5,
+              "points": 85
+            },
+            {
+              "models": 10,
+              "points": 160
+            }
+          ]
+        },
+        {
+          "range": "[3,)",
+          "label": "Your 3rd + Unit Costs",
+          "costs": [
+            {
+              "models": 5,
+              "points": 95
+            },
+            {
+              "models": 10,
+              "points": 170
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "85/160"
     },
     {
       "id": "52c7-3f6b-cece-8101",
@@ -3249,12 +3735,25 @@
           "name": "Intoning Hymns of Battle",
           "description": "Once per battle, at the start of the battle round, if you have one or more **^^Adepta Sororitas Character^^** units on the battlefield and if your Crusade army was led in prayer before this battle, you can discard two Miracle dice. If you do, you intone the Hymns of Battle that battle round and, until the start of the next battle round, all **^^Adepta Sororitas Character^^** units in your army gain bonus depending on which Hymns of Battle you select. While a unit is Battle-shocked, it loses the bonus of any Hymns that would apply to it (if a rule would cause such a unit to no longer be Battle-shocked, any bonuses from Hymns that would apply to it apply once again).\n\nWhen you intone Hymns of Battle, you can either select one Hymn to apply to units from your army from the list, or you can randomly select two by rolling two D6 and consulting the table (if a double is rolled, roll both dice again until two different results are rolled)."
         }
-      ]
+      ],
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 75
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "75"
     },
     {
       "id": "9f5f-d769-7900-c8a1",
       "name": "Triumph of Saint Katherine",
-      "points": 235,
+      "points": 245,
       "keywords": [
         "Infantry",
         "Grenades",
@@ -3340,6 +3839,24 @@
           "name": "Invulnerable Save",
           "description": "This model has an invulnerable save of 4+"
         }
+      ],
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 245
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "245",
+      "mfmRole": "leader",
+      "attachTo": [
+        "Battle Sisters Squad",
+        "Crusaders"
       ]
     },
     {
@@ -3366,7 +3883,7 @@
       },
       "rangedWeapons": [
         {
-          "name": "➤ Plasma pistol - supercharge",
+          "name": "Plasma pistol - supercharge",
           "range": "12\"",
           "A": "1",
           "BS": "3+",
@@ -3379,7 +3896,7 @@
           ]
         },
         {
-          "name": "➤ Plasma pistol - standard",
+          "name": "Plasma pistol - standard",
           "range": "12\"",
           "A": "1",
           "BS": "3+",
@@ -3480,7 +3997,24 @@
           "name": "Intoning Hymns of Battle",
           "description": "Once per battle, at the start of the battle round, if you have one or more **^^Adepta Sororitas Character^^** units on the battlefield and if your Crusade army was led in prayer before this battle, you can discard two Miracle dice. If you do, you intone the Hymns of Battle that battle round and, until the start of the next battle round, all **^^Adepta Sororitas Character^^** units in your army gain bonus depending on which Hymns of Battle you select. While a unit is Battle-shocked, it loses the bonus of any Hymns that would apply to it (if a rule would cause such a unit to no longer be Battle-shocked, any bonuses from Hymns that would apply to it apply once again).\n\nWhen you intone Hymns of Battle, you can either select one Hymn to apply to units from your army from the list, or you can randomly select two by rolling two D6 and consulting the table (if a double is rolled, roll both dice again until two different results are rolled)."
         }
-      ]
+      ],
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 5,
+              "points": 80
+            },
+            {
+              "models": 10,
+              "points": 160
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "80/160"
     },
     {
       "id": "9516-5ea3-ec42-dcfe",
@@ -3922,6 +4456,24 @@
           "name": "Intoning Hymns of Battle",
           "description": "Once per battle, at the start of the battle round, if you have one or more **^^Adepta Sororitas Character^^** units on the battlefield and if your Crusade army was led in prayer before this battle, you can discard two Miracle dice. If you do, you intone the Hymns of Battle that battle round and, until the start of the next battle round, all **^^Adepta Sororitas Character^^** units in your army gain bonus depending on which Hymns of Battle you select. While a unit is Battle-shocked, it loses the bonus of any Hymns that would apply to it (if a rule would cause such a unit to no longer be Battle-shocked, any bonuses from Hymns that would apply to it apply once again).\n\nWhen you intone Hymns of Battle, you can either select one Hymn to apply to units from your army from the list, or you can randomly select two by rolling two D6 and consulting the table (if a double is rolled, roll both dice again until two different results are rolled)."
         }
+      ],
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 75
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "75",
+      "mfmRole": "leader",
+      "attachTo": [
+        "Seraphim Squad",
+        "Zephyrim Squad"
       ]
     },
     {
@@ -4186,7 +4738,7 @@
           ]
         },
         {
-          "name": "➤ Plasma gun - standard",
+          "name": "Plasma gun - standard",
           "range": "12\"",
           "A": "1",
           "BS": "3+",
@@ -4198,7 +4750,7 @@
           ]
         },
         {
-          "name": "➤ Plasma gun - supercharge",
+          "name": "Plasma gun - supercharge",
           "range": "12\"",
           "A": "1",
           "BS": "3+",
@@ -4358,7 +4910,20 @@
           "name": "Intoning Hymns of Battle",
           "description": "Once per battle, at the start of the battle round, if you have one or more **^^Adepta Sororitas Character^^** units on the battlefield and if your Crusade army was led in prayer before this battle, you can discard two Miracle dice. If you do, you intone the Hymns of Battle that battle round and, until the start of the next battle round, all **^^Adepta Sororitas Character^^** units in your army gain bonus depending on which Hymns of Battle you select. While a unit is Battle-shocked, it loses the bonus of any Hymns that would apply to it (if a rule would cause such a unit to no longer be Battle-shocked, any bonuses from Hymns that would apply to it apply once again).\n\nWhen you intone Hymns of Battle, you can either select one Hymn to apply to units from your army from the list, or you can randomly select two by rolling two D6 and consulting the table (if a double is rolled, roll both dice again until two different results are rolled)."
         }
-      ]
+      ],
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 9,
+              "points": 110
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "110"
     },
     {
       "id": "e286-849d-8f74-75e6",
@@ -4552,7 +5117,20 @@
           "name": "Intoning Hymns of Battle",
           "description": "Once per battle, at the start of the battle round, if you have one or more **^^Adepta Sororitas Character^^** units on the battlefield and if your Crusade army was led in prayer before this battle, you can discard two Miracle dice. If you do, you intone the Hymns of Battle that battle round and, until the start of the next battle round, all **^^Adepta Sororitas Character^^** units in your army gain bonus depending on which Hymns of Battle you select. While a unit is Battle-shocked, it loses the bonus of any Hymns that would apply to it (if a rule would cause such a unit to no longer be Battle-shocked, any bonuses from Hymns that would apply to it apply once again).\n\nWhen you intone Hymns of Battle, you can either select one Hymn to apply to units from your army from the list, or you can randomly select two by rolling two D6 and consulting the table (if a double is rolled, roll both dice again until two different results are rolled)."
         }
-      ]
+      ],
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 10,
+              "points": 120
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "120"
     },
     {
       "id": "8f3c-d887-6e18-02e8",
@@ -4631,7 +5209,7 @@
           ]
         },
         {
-          "name": "➤ Plasma pistol - supercharge",
+          "name": "Plasma pistol - supercharge",
           "range": "12\"",
           "A": "1",
           "BS": "2+",
@@ -4644,7 +5222,7 @@
           ]
         },
         {
-          "name": "➤ Plasma pistol - standard",
+          "name": "Plasma pistol - standard",
           "range": "12\"",
           "A": "1",
           "BS": "2+",
@@ -5123,7 +5701,7 @@
           ]
         },
         {
-          "name": "➤ Plasma pistol - supercharge",
+          "name": "Plasma pistol - supercharge",
           "range": "12\"",
           "A": "1",
           "BS": "2+",
@@ -5136,7 +5714,7 @@
           ]
         },
         {
-          "name": "➤ Plasma pistol - standard",
+          "name": "Plasma pistol - standard",
           "range": "12\"",
           "A": "1",
           "BS": "2+",
@@ -5617,7 +6195,7 @@
           ]
         },
         {
-          "name": "➤ Plasma pistol - supercharge",
+          "name": "Plasma pistol - supercharge",
           "range": "12\"",
           "A": "1",
           "BS": "2+",
@@ -5630,7 +6208,7 @@
           ]
         },
         {
-          "name": "➤ Plasma pistol - standard",
+          "name": "Plasma pistol - standard",
           "range": "12\"",
           "A": "1",
           "BS": "2+",
@@ -6130,7 +6708,20 @@
           "name": "Judged for Execution",
           "description": "At the end of your Movement phase, you can select one enemy unit within 18\" of and visible to this model. Until the start of your next Command phase, each time a friendly ^^**Adepta Sororitas**^^ model makes an attack that targets that enemy unit, that attack has the [LETHAL HITS] ability."
         }
-      ]
+      ],
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 150
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "150"
     }
   ],
   "enhancements": []

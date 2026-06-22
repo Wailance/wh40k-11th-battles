@@ -1,0 +1,1735 @@
+{
+  "dce9-6eb4-fa33-e869": {
+    "groups": [
+      {
+        "id": "ac65-12a8-3533-ef2a",
+        "name": "Wargear",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "75a7-dcea-5ee0-1d35",
+            "name": "Nemesis force weapon",
+            "min": 1,
+            "max": 1
+          }
+        ],
+        "groups": [
+          {
+            "id": "20a2-ba8f-784c-3bf",
+            "name": "Storm Bolter",
+            "min": 1,
+            "max": 1,
+            "mode": "single",
+            "options": [
+              {
+                "id": "324f-557a-d87a-e55b",
+                "name": "Storm bolter",
+                "min": 0,
+                "max": 1
+              },
+              {
+                "id": "7de4-26c4-c232-21d9",
+                "name": "Incinerator",
+                "min": 0,
+                "max": 99
+              },
+              {
+                "id": "cafb-a4bf-aee1-cc67",
+                "name": "Psycannon",
+                "min": 0,
+                "max": 99
+              },
+              {
+                "id": "9cdc-2c74-33d7-8668",
+                "name": "Psilencer",
+                "min": 0,
+                "max": 99
+              }
+            ],
+            "defaultOptionId": "324f-557a-d87a-e55b"
+          }
+        ]
+      }
+    ]
+  },
+  "2c81-4e74-8707-3117": {
+    "groups": [
+      {
+        "id": "fd28-638b-3f01-c9dd",
+        "name": "Wargear",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "e4f1-7c06-108f-dda3",
+            "name": "Nemesis force weapon",
+            "min": 1,
+            "max": 1
+          },
+          {
+            "id": "a821-6be6-3e28-c6b0",
+            "name": "Storm bolter",
+            "min": 1,
+            "max": 1
+          }
+        ]
+      }
+    ]
+  },
+  "b9b1-d698-1e98-da45": {
+    "groups": [
+      {
+        "id": "4356-a861-7b88-b04f",
+        "name": "Wargear",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "6453-156a-5f91-ff29",
+            "name": "Crozius arcanum",
+            "min": 1,
+            "max": 1
+          },
+          {
+            "id": "e9e7-e166-cd16-3070",
+            "name": "Storm bolter",
+            "min": 1,
+            "max": 1
+          }
+        ]
+      }
+    ]
+  },
+  "5412-1f01-b7cc-bf12": {
+    "groups": [
+      {
+        "id": "2842-f787-02f4-f899",
+        "name": "Wargear",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "fffe-abc5-ac4f-6eda",
+            "name": "Nemesis force weapon",
+            "min": 1,
+            "max": 1
+          },
+          {
+            "id": "f716-3ffc-43cf-510f",
+            "name": "Vortex of Doom",
+            "min": 1,
+            "max": 1
+          }
+        ],
+        "groups": [
+          {
+            "id": "8032-b82d-886c-13e0",
+            "name": "Wargear",
+            "min": 0,
+            "max": 1,
+            "mode": "single",
+            "options": [
+              {
+                "id": "a0ce-78-c636-3bc6",
+                "name": "Combi-weapon",
+                "min": 0,
+                "max": 99
+              },
+              {
+                "id": "fb41-0f9a-0bff-2d7a",
+                "name": "Storm bolter",
+                "min": 0,
+                "max": 99
+              }
+            ],
+            "defaultOptionId": "f6ec-2a11-5ca6-344b"
+          }
+        ]
+      }
+    ]
+  },
+  "f667-5267-f241-37": {
+    "groups": [
+      {
+        "id": "6308-65e2-d4e5-3ce8",
+        "name": "Wargear",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "a004-fa4e-a5ea-e332",
+            "name": "Servo-arm",
+            "min": 1,
+            "max": 1
+          },
+          {
+            "id": "e718-50bf-760b-be95",
+            "name": "Omnissian power axe",
+            "min": 1,
+            "max": 1
+          },
+          {
+            "id": "415b-fff4-6689-a30a",
+            "name": "Grav-pistol",
+            "min": 1,
+            "max": 1
+          },
+          {
+            "id": "c41f-d763-887c-35b1",
+            "name": "Forge bolter",
+            "min": 1,
+            "max": 1
+          }
+        ]
+      }
+    ]
+  },
+  "a037-a89c-f59f-8b1e": {
+    "groups": [
+      {
+        "id": "2da-fe4-d745-7dda",
+        "name": "3-9 Terminators",
+        "min": 3,
+        "max": 9,
+        "mode": "count",
+        "options": [
+          {
+            "id": "f5c5-56fd-51ec-d1a6",
+            "name": "Terminator",
+            "min": 0,
+            "max": 9,
+            "equippedWith": "Nemesis force weapon and Storm bolter"
+          },
+          {
+            "id": "6215-3f01-f844-585",
+            "name": "Terminator with Ancient's Banner",
+            "min": 0,
+            "max": 1,
+            "groups": [
+              {
+                "id": "c9a0-cf4e-fb96-6bf1",
+                "name": "Weapon Choice",
+                "min": 1,
+                "max": 1,
+                "mode": "single",
+                "options": [
+                  {
+                    "id": "7114-8a85-9d3b-4361",
+                    "name": "Incinerator",
+                    "min": 0,
+                    "max": 99
+                  },
+                  {
+                    "id": "a5bd-813-a8b5-e369",
+                    "name": "Psycannon",
+                    "min": 0,
+                    "max": 99
+                  },
+                  {
+                    "id": "e5ca-411f-b028-403e",
+                    "name": "Psilencer",
+                    "min": 0,
+                    "max": 99
+                  },
+                  {
+                    "id": "468a-4e44-8f46-a005",
+                    "name": "Storm bolter",
+                    "min": 0,
+                    "max": 99
+                  }
+                ],
+                "defaultOptionId": "468a-4e44-8f46-a005"
+              }
+            ],
+            "equippedWith": "Nemesis force weapon"
+          },
+          {
+            "id": "22fd-3d1b-9957-2d5f",
+            "name": "Terminator with Narthecium",
+            "min": 0,
+            "max": 1,
+            "equippedWith": "Nemesis force weapon"
+          },
+          {
+            "id": "77d3-d321-bb86-dabe",
+            "name": "Terminator with Heavy Weapon",
+            "min": 0,
+            "max": 1,
+            "groups": [
+              {
+                "id": "c1b7-ce3c-faf0-2090",
+                "name": "Heavy Weapon",
+                "min": 1,
+                "max": 1,
+                "mode": "single",
+                "options": [
+                  {
+                    "id": "414-6fc2-8423-f86e",
+                    "name": "Incinerator",
+                    "min": 0,
+                    "max": 99
+                  },
+                  {
+                    "id": "3ccf-db10-dc87-3038",
+                    "name": "Psilencer",
+                    "min": 0,
+                    "max": 99
+                  },
+                  {
+                    "id": "39bd-f647-4b4d-9494",
+                    "name": "Psycannon",
+                    "min": 0,
+                    "max": 99
+                  }
+                ],
+                "defaultOptionId": "none"
+              }
+            ],
+            "equippedWith": "Nemesis force weapon"
+          }
+        ],
+        "defaultOptionId": "f5c5-56fd-51ec-d1a6"
+      },
+      {
+        "id": "fc87-528d-3a1c-8438",
+        "name": "Justicar",
+        "min": 1,
+        "max": 1,
+        "mode": "count",
+        "options": [
+          {
+            "id": "9151-d4f-9296-22cd",
+            "name": "Justicar",
+            "min": 1,
+            "max": 1,
+            "equippedWith": "Nemesis force weapon and Storm bolter"
+          }
+        ]
+      }
+    ]
+  },
+  "1a56-706b-a8f1-631a": {
+    "groups": [
+      {
+        "id": "5edd-f343-28c5-7b2c",
+        "name": "Wargear",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "6355-4939-2739-117b",
+            "name": "Nemesis force weapon",
+            "min": 1,
+            "max": 1
+          }
+        ],
+        "groups": [
+          {
+            "id": "1afc-d16b-2a31-bea8",
+            "name": "Storm Bolter",
+            "min": 1,
+            "max": 1,
+            "mode": "single",
+            "options": [
+              {
+                "id": "78e7-2856-7a49-ba9f",
+                "name": "Storm bolter",
+                "min": 0,
+                "max": 1
+              },
+              {
+                "id": "47a2-17a7-2f80-9e31",
+                "name": "Incinerator",
+                "min": 0,
+                "max": 99
+              },
+              {
+                "id": "4f06-e4ae-500d-da73",
+                "name": "Psycannon",
+                "min": 0,
+                "max": 99
+              },
+              {
+                "id": "5e52-a297-2678-0651",
+                "name": "Psilencer",
+                "min": 0,
+                "max": 99
+              }
+            ],
+            "defaultOptionId": "78e7-2856-7a49-ba9f"
+          }
+        ]
+      }
+    ]
+  },
+  "3625-f9f1-122b-bf9d": {
+    "groups": [
+      {
+        "id": "9831-cfb8-7855-b2c0",
+        "name": "Wargear",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "29ce-cc7f-c673-40f5",
+            "name": "Fragstorm grenade launcher",
+            "min": 0,
+            "max": 1
+          }
+        ],
+        "groups": [
+          {
+            "id": "2bd0-3b67-972f-a8f6",
+            "name": "Dreadfists",
+            "min": 1,
+            "max": 1,
+            "mode": "single",
+            "options": [
+              {
+                "id": "a2a9-4bed-9246-a3a4",
+                "name": "Nemesis mace",
+                "min": 0,
+                "max": 99
+              },
+              {
+                "id": "17f8-9cc9-b055-1d28",
+                "name": "Nemesis flail",
+                "min": 0,
+                "max": 99
+              },
+              {
+                "id": "d8b3-e281-d479-140a",
+                "name": "Dreadfists",
+                "min": 0,
+                "max": 99
+              },
+              {
+                "id": "5bd0-5109-877d-eabb",
+                "name": "Nemesis daemon greathammer",
+                "min": 0,
+                "max": 99
+              },
+              {
+                "id": "edef-c65e-1f17-74f",
+                "name": "Nemesis greatsword",
+                "min": 0,
+                "max": 99
+              }
+            ],
+            "defaultOptionId": "d8b3-e281-d479-140a"
+          },
+          {
+            "id": "5a6-d46b-4cbb-bb52",
+            "name": "Ranged Weapons",
+            "min": 0,
+            "max": 2,
+            "mode": "count",
+            "options": [
+              {
+                "id": "64a1-f089-7aa1-544e",
+                "name": "Sublimator",
+                "min": 0,
+                "max": 1
+              },
+              {
+                "id": "d0bc-2a1d-cdbc-559d",
+                "name": "Gatling psilencer",
+                "min": 0,
+                "max": 1
+              },
+              {
+                "id": "8ae4-abdf-2dbc-856f",
+                "name": "Heavy incinerator",
+                "min": 0,
+                "max": 1
+              },
+              {
+                "id": "7b24-283c-7d39-d0f2",
+                "name": "Heavy psycannon",
+                "min": 0,
+                "max": 1
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "512d-b972-911e-4cac": {
+    "groups": [
+      {
+        "id": "5a74-a429-f0b7-e62f",
+        "name": "Wargear",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "ff0-5d7d-c73b-9c5f",
+            "name": "Godhammer lascannon",
+            "min": 2,
+            "max": 2
+          },
+          {
+            "id": "badc-b503-85af-eba9",
+            "name": "Storm bolter",
+            "min": 0,
+            "max": 1
+          },
+          {
+            "id": "0c46-d2d0-f238-a8ec",
+            "name": "Hunter-killer missile",
+            "min": 0,
+            "max": 1
+          },
+          {
+            "id": "1946-f4ed-87d2-d352",
+            "name": "Multi-melta",
+            "min": 0,
+            "max": 1
+          },
+          {
+            "id": "cd10-6837-f6e9-7175",
+            "name": "Twin heavy bolter",
+            "min": 1,
+            "max": 1
+          },
+          {
+            "id": "1e42-f2fa-1b1c-d50e",
+            "name": "Armoured tracks",
+            "min": 1,
+            "max": 1
+          }
+        ]
+      }
+    ]
+  },
+  "4c63-cca-8d26-6330": {
+    "groups": [
+      {
+        "id": "3885-f600-12e3-001a",
+        "name": "Wargear",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "3c17-f75d-cf6e-96a9",
+            "name": "Storm bolter",
+            "min": 0,
+            "max": 1
+          },
+          {
+            "id": "a4f1-d54b-ef64-c5d8",
+            "name": "Hunter-killer missile",
+            "min": 0,
+            "max": 1
+          },
+          {
+            "id": "31f2-1be3-8d78-48ea",
+            "name": "Multi-melta",
+            "min": 0,
+            "max": 1
+          },
+          {
+            "id": "e0ae-eb0d-c11e-36e6",
+            "name": "Twin assault cannon",
+            "min": 1,
+            "max": 1
+          },
+          {
+            "id": "73c1-1f55-bcac-dd88",
+            "name": "Armoured tracks",
+            "min": 1,
+            "max": 1
+          },
+          {
+            "id": "017d-9267-765b-19b8",
+            "name": "Hurricane bolter",
+            "min": 2,
+            "max": 2
+          }
+        ]
+      }
+    ]
+  },
+  "ada7-eb0b-c920-d77f": {
+    "groups": [
+      {
+        "id": "088e-b038-29cd-7878",
+        "name": "Wargear",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "47d2-bdb6-a769-cd0f",
+            "name": "Flamestorm cannon",
+            "min": 2,
+            "max": 2
+          },
+          {
+            "id": "5c01-86be-7d33-9a86",
+            "name": "Storm bolter",
+            "min": 0,
+            "max": 1
+          },
+          {
+            "id": "7ec5-bf57-33e1-a8f3",
+            "name": "Hunter-killer missile",
+            "min": 0,
+            "max": 1
+          },
+          {
+            "id": "dbe9-046d-d899-4945",
+            "name": "Multi-melta",
+            "min": 0,
+            "max": 1
+          },
+          {
+            "id": "7d51-e178-bf7f-cd70",
+            "name": "Twin assault cannon",
+            "min": 1,
+            "max": 1
+          },
+          {
+            "id": "6beb-aa86-ea79-7d7a",
+            "name": "Armoured tracks",
+            "min": 1,
+            "max": 1
+          }
+        ]
+      }
+    ]
+  },
+  "841f-98b-fbf3-c8ee": {
+    "groups": [
+      {
+        "id": "94d2-6177-ac2b-d739",
+        "name": "Wargear",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "0f6b-9a39-17c0-089f",
+            "name": "Storm bolter",
+            "min": 0,
+            "max": 1
+          },
+          {
+            "id": "96a0-3132-31db-59fd",
+            "name": "Hunter-killer missile",
+            "min": 0,
+            "max": 1
+          },
+          {
+            "id": "f3f2-b7da-add5-2bf6",
+            "name": "Armoured tracks",
+            "min": 1,
+            "max": 1
+          }
+        ],
+        "groups": [
+          {
+            "id": "2831-c0e-a552-952a",
+            "name": "Twin Heavy Bolter",
+            "min": 1,
+            "max": 1,
+            "mode": "single",
+            "options": [
+              {
+                "id": "e2fd-921d-5ad7-39f6",
+                "name": "Twin lascannon",
+                "min": 0,
+                "max": 99
+              },
+              {
+                "id": "47ce-be44-85f3-320b",
+                "name": "Twin heavy bolter",
+                "min": 0,
+                "max": 99
+              }
+            ],
+            "defaultOptionId": "47ce-be44-85f3-320b"
+          }
+        ]
+      }
+    ]
+  },
+  "5ffd-f698-a1bb-fba7": {
+    "groups": [
+      {
+        "id": "9865-f1ae-776e-35b4",
+        "name": "Wargear",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "344b-9069-1784-9660",
+            "name": "Storm bolter",
+            "min": 1,
+            "max": 2
+          },
+          {
+            "id": "8f16-5638-4fc1-01d1",
+            "name": "Hunter-killer missile",
+            "min": 0,
+            "max": 1
+          },
+          {
+            "id": "3812-37dd-9792-9a94",
+            "name": "Armoured tracks",
+            "min": 1,
+            "max": 1
+          }
+        ]
+      }
+    ]
+  },
+  "fa-e288-2107-d22e": {
+    "groups": [
+      {
+        "id": "e8cb-20de-b6e8-4d71",
+        "name": "Wargear",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "6b40-c36c-6670-a9d7",
+            "name": "Twin assault cannon",
+            "min": 1,
+            "max": 1
+          },
+          {
+            "id": "acce-8d83-503a-67c2",
+            "name": "Armoured hull",
+            "min": 1,
+            "max": 1
+          }
+        ],
+        "groups": [
+          {
+            "id": "3768-739c-af00-fde4",
+            "name": "Skyhammer missile launcher",
+            "min": 1,
+            "max": 1,
+            "mode": "single",
+            "options": [
+              {
+                "id": "91fb-68fa-026a-be12",
+                "name": "Twin heavy bolter",
+                "min": 0,
+                "max": 99
+              },
+              {
+                "id": "c18d-211a-9c7a-8fa5",
+                "name": "Typhoon missile launcher",
+                "min": 0,
+                "max": 99
+              },
+              {
+                "id": "9993-0add-1f5d-8bc8",
+                "name": "Skyhammer missile launcher",
+                "min": 0,
+                "max": 99
+              }
+            ],
+            "defaultOptionId": "9993-0add-1f5d-8bc8"
+          },
+          {
+            "id": "bd6d-2b6c-4d2d-ccfb",
+            "name": "Las-talon",
+            "min": 1,
+            "max": 1,
+            "mode": "single",
+            "options": [
+              {
+                "id": "8d15-f7a6-1804-ae58",
+                "name": "Las-talon",
+                "min": 0,
+                "max": 99
+              },
+              {
+                "id": "d9eb-e3b3-8a2-adba",
+                "name": "Icarus stormcannon",
+                "min": 0,
+                "max": 99
+              }
+            ],
+            "defaultOptionId": "8d15-f7a6-1804-ae58"
+          }
+        ]
+      }
+    ]
+  },
+  "2efe-459b-9562-e7a9": {
+    "groups": [
+      {
+        "id": "8bd1-6cc6-d8c5-9227",
+        "name": "Wargear",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "fe06-f39d-284c-11e8",
+            "name": "2 Hurricane bolters",
+            "min": 0,
+            "max": 1
+          },
+          {
+            "id": "844e-7897-1c78-259c",
+            "name": "Armoured hull",
+            "min": 1,
+            "max": 1
+          },
+          {
+            "id": "b2ea-93b8-8009-b652",
+            "name": "Stormstrike missile launcher",
+            "min": 2,
+            "max": 2
+          }
+        ],
+        "groups": [
+          {
+            "id": "67d-4c1b-48eb-1cfd",
+            "name": "Twin Assault Cannon",
+            "min": 1,
+            "max": 1,
+            "mode": "single",
+            "options": [
+              {
+                "id": "f72d-9efb-2c8e-e95c",
+                "name": "Twin heavy plasma cannon",
+                "min": 0,
+                "max": 99
+              },
+              {
+                "id": "5a5d-168a-f6ad-bd42",
+                "name": "Twin assault cannon",
+                "min": 0,
+                "max": 99
+              },
+              {
+                "id": "35a6-8239-8840-a2db",
+                "name": "Twin lascannon",
+                "min": 0,
+                "max": 99
+              }
+            ],
+            "defaultOptionId": "5a5d-168a-f6ad-bd42"
+          },
+          {
+            "id": "f56d-5657-3a1a-cfe7",
+            "name": "Typhoon missile launcher",
+            "min": 1,
+            "max": 1,
+            "mode": "single",
+            "options": [
+              {
+                "id": "865f-4d87-f7c3-2d77",
+                "name": "Twin multi-melta",
+                "min": 0,
+                "max": 99
+              },
+              {
+                "id": "e380-84dd-fddc-5dae",
+                "name": "Twin heavy bolter",
+                "min": 0,
+                "max": 99
+              },
+              {
+                "id": "42be-cc69-825f-0467",
+                "name": "Typhoon missile launcher",
+                "min": 0,
+                "max": 99
+              }
+            ],
+            "defaultOptionId": "42be-cc69-825f-0467"
+          }
+        ]
+      }
+    ]
+  },
+  "84ac-b9ea-921f-9082": {
+    "groups": [
+      {
+        "id": "002a-0424-3c2f-64ab",
+        "name": "Wargear",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "2e83-220b-d04e-166e",
+            "name": "Twin assault cannon",
+            "min": 1,
+            "max": 1
+          },
+          {
+            "id": "d52b-4746-30f7-f194",
+            "name": "Armoured hull",
+            "min": 1,
+            "max": 1
+          }
+        ],
+        "groups": [
+          {
+            "id": "2cb7-4f18-76a4-ace1",
+            "name": "Skyhammer missile launcher",
+            "min": 1,
+            "max": 1,
+            "mode": "single",
+            "options": [
+              {
+                "id": "eed1-9536-b1f3-1848",
+                "name": "Twin lascannon",
+                "min": 0,
+                "max": 99
+              },
+              {
+                "id": "aebc-096a-e213-39d0",
+                "name": "Twin heavy bolter",
+                "min": 0,
+                "max": 99
+              },
+              {
+                "id": "1924-3b9f-c2e5-ee88",
+                "name": "Typhoon missile launcher",
+                "min": 0,
+                "max": 99
+              },
+              {
+                "id": "0531-997e-eb2f-424e",
+                "name": "Skyhammer missile launcher",
+                "min": 0,
+                "max": 99
+              }
+            ],
+            "defaultOptionId": "0531-997e-eb2f-424e"
+          }
+        ]
+      }
+    ]
+  },
+  "bd43-b303-66e0-4c10": {
+    "groups": [
+      {
+        "id": "eaf9-fb96-791b-593a",
+        "name": "Wargear",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [],
+        "defaultOptionId": "b8bb-18b4-6b7f-9796",
+        "groups": [
+          {
+            "id": "d9d1-01e7-b30e-bcaf",
+            "name": "Assault Cannon",
+            "min": 1,
+            "max": 1,
+            "mode": "single",
+            "options": [
+              {
+                "id": "8bc6-723c-4785-d65f",
+                "name": "Assault cannon",
+                "min": 0,
+                "max": 99
+              },
+              {
+                "id": "4fa2-dc48-b6a8-448e",
+                "name": "Heavy plasma cannon",
+                "min": 0,
+                "max": 99
+              },
+              {
+                "id": "3699-c3e1-e66a-7c6f",
+                "name": "Twin lascannon",
+                "min": 0,
+                "max": 99
+              }
+            ],
+            "defaultOptionId": "8bc6-723c-4785-d65f"
+          },
+          {
+            "id": "620b-24e8-bfc5-5b1b",
+            "name": "Storm Bolter and Dreadnought Combat Weapon",
+            "min": 1,
+            "max": 1,
+            "mode": "single",
+            "options": [
+              {
+                "id": "48f5-9797-90d0-0f80",
+                "name": "Storm bolter and Dreadnought combat weapon",
+                "min": 0,
+                "max": 99,
+                "equippedWith": "Storm bolter and Dreadnought combat weapon"
+              },
+              {
+                "id": "a368-4293-a6c1-6c30",
+                "name": "Heavy flamer and Dreadnought combat weapon",
+                "min": 0,
+                "max": 99,
+                "equippedWith": "Heavy flamer and Dreadnought combat weapon"
+              }
+            ],
+            "defaultOptionId": "48f5-9797-90d0-0f80"
+          }
+        ]
+      }
+    ]
+  },
+  "d9f7-71b7-8e67-7f44": {
+    "groups": [
+      {
+        "id": "5e2b-e394-45b-4674",
+        "name": "4-9 Interceptors",
+        "min": 4,
+        "max": 9,
+        "mode": "count",
+        "options": [
+          {
+            "id": "2906-2dfd-6dbe-ca8",
+            "name": "Interceptor",
+            "min": 3,
+            "max": 9,
+            "equippedWith": "Nemesis force weapon and Storm bolter"
+          }
+        ],
+        "defaultOptionId": "2906-2dfd-6dbe-ca8",
+        "groups": [
+          {
+            "id": "f1a1-3c53-8f3e-5a8f",
+            "name": "Heavy weapons",
+            "min": 0,
+            "max": 1,
+            "mode": "single",
+            "options": [
+              {
+                "id": "2711-ec49-a1b2-d789",
+                "name": "Interceptor w/ incinerator",
+                "min": 0,
+                "max": 2,
+                "equippedWith": "Incinerator"
+              },
+              {
+                "id": "dbfa-42d3-8ac9-c4dc",
+                "name": "Interceptor w/ psilencer",
+                "min": 0,
+                "max": 2,
+                "equippedWith": "Psilencer"
+              },
+              {
+                "id": "ad0c-76b3-3c42-4aff",
+                "name": "Interceptor w/ psycannon",
+                "min": 0,
+                "max": 2,
+                "equippedWith": "Psycannon"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "1a13-27c7-6869-47a1",
+        "name": "Justicar",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "9ae2-cba2-3df0-81ea",
+            "name": "Justicar",
+            "min": 1,
+            "max": 1,
+            "equippedWith": "Nemesis force weapon and Storm bolter"
+          }
+        ]
+      }
+    ]
+  },
+  "5458-a458-c51d-c4e9": {
+    "groups": [
+      {
+        "id": "74e1-2e12-4b4d-031f",
+        "name": "Wargear",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [],
+        "groups": [
+          {
+            "id": "e21a-cac0-9dfe-5ee2",
+            "name": "Dreadfists",
+            "min": 1,
+            "max": 1,
+            "mode": "single",
+            "options": [
+              {
+                "id": "f27e-3e3d-ed46-bde4",
+                "name": "Nemesis greatsword",
+                "min": 0,
+                "max": 99
+              },
+              {
+                "id": "b6b4-4f85-240f-4d1b",
+                "name": "Nemesis daemon greathammer",
+                "min": 0,
+                "max": 99
+              },
+              {
+                "id": "5b1c-54b5-1703-77d0",
+                "name": "Dreadfists",
+                "min": 0,
+                "max": 99
+              }
+            ],
+            "defaultOptionId": "5b1c-54b5-1703-77d0"
+          },
+          {
+            "id": "88f7-cb71-5700-82da",
+            "name": "Ranged Weapons",
+            "min": 0,
+            "max": 2,
+            "mode": "count",
+            "options": [
+              {
+                "id": "8e37-5257-601-30c2",
+                "name": "Gatling psilencer",
+                "min": 0,
+                "max": 1
+              },
+              {
+                "id": "a157-e7ef-bafa-679d",
+                "name": "Heavy psycannon",
+                "min": 0,
+                "max": 1
+              },
+              {
+                "id": "98b4-5d57-3d65-c990",
+                "name": "Heavy incinerator",
+                "min": 0,
+                "max": 1
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "6528-4634-c2cf-2840": {
+    "groups": [
+      {
+        "id": "fc49-2cb9-b72-9890",
+        "name": "3-9 Paladins",
+        "min": 3,
+        "max": 9,
+        "mode": "count",
+        "options": [
+          {
+            "id": "d1b3-96e2-43e6-6bf4",
+            "name": "Paladin",
+            "min": 0,
+            "max": 9,
+            "equippedWith": "Nemesis force weapon and Storm bolter"
+          },
+          {
+            "id": "c782-acdd-ccd7-6cc0",
+            "name": "Paladin with Ancient's Banner",
+            "min": 0,
+            "max": 1,
+            "groups": [
+              {
+                "id": "f8cc-ac46-67b2-46f6",
+                "name": "Weapon Choice",
+                "min": 1,
+                "max": 1,
+                "mode": "single",
+                "options": [
+                  {
+                    "id": "da8d-5831-24fd-ad46",
+                    "name": "Storm bolter",
+                    "min": 0,
+                    "max": 99
+                  },
+                  {
+                    "id": "0123-1c2d-fea4-6212",
+                    "name": "Incinerator",
+                    "min": 0,
+                    "max": 99
+                  },
+                  {
+                    "id": "401c-899c-8c88-b21c",
+                    "name": "Psycannon",
+                    "min": 0,
+                    "max": 99
+                  },
+                  {
+                    "id": "e869-7cc3-f377-e49c",
+                    "name": "Psilencer",
+                    "min": 0,
+                    "max": 99
+                  }
+                ],
+                "defaultOptionId": "1202-d63-2028-ab5c"
+              }
+            ],
+            "equippedWith": "Nemesis force weapon"
+          },
+          {
+            "id": "7f57-9a5a-c5bf-851a",
+            "name": "Paladin with Heavy Weapon",
+            "min": 0,
+            "max": 2,
+            "groups": [
+              {
+                "id": "a890-27d0-cd5-b20",
+                "name": "Weapon Choice",
+                "min": 1,
+                "max": 1,
+                "mode": "single",
+                "options": [
+                  {
+                    "id": "6788-2145-c20c-b9f9",
+                    "name": "Incinerator",
+                    "min": 0,
+                    "max": 99
+                  },
+                  {
+                    "id": "529c-8c7f-79a5-8f36",
+                    "name": "Psycannon",
+                    "min": 0,
+                    "max": 99
+                  },
+                  {
+                    "id": "68b5-9f4d-db39-c1bd",
+                    "name": "Psilencer",
+                    "min": 0,
+                    "max": 99
+                  }
+                ],
+                "defaultOptionId": "e1fa-34a1-5580-b7c8"
+              }
+            ],
+            "equippedWith": "Nemesis force weapon"
+          },
+          {
+            "id": "b56e-da7a-04da-5cbd",
+            "name": "Paladin with Narthecium",
+            "min": 0,
+            "max": 1,
+            "equippedWith": "Nemesis force weapon"
+          }
+        ],
+        "defaultOptionId": "d1b3-96e2-43e6-6bf4"
+      },
+      {
+        "id": "1c13-d08a-b927-17b2",
+        "name": "Paragon",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "7eaa-bc4d-e325-6767",
+            "name": "Paragon",
+            "min": 1,
+            "max": 1,
+            "equippedWith": "Nemesis force weapon and Storm bolter"
+          }
+        ]
+      }
+    ]
+  },
+  "e8ad-bd40-5952-6859": {
+    "groups": [
+      {
+        "id": "8b45-3ad-69a7-ac55",
+        "name": "4-9 Purgators",
+        "min": 4,
+        "max": 9,
+        "mode": "count",
+        "options": [
+          {
+            "id": "ee3b-2ec2-2841-7e66",
+            "name": "Purgator",
+            "min": 4,
+            "max": 9,
+            "equippedWith": "Nemesis force weapon and Storm bolter"
+          },
+          {
+            "id": "74a8-a54f-98b9-4d09",
+            "name": "Purgator w/ incinerator",
+            "min": 0,
+            "max": 4,
+            "equippedWith": "Incinerator"
+          },
+          {
+            "id": "ce96-29f0-f79e-907d",
+            "name": "Purgator w/ psilencer",
+            "min": 0,
+            "max": 4,
+            "equippedWith": "Psilencer"
+          },
+          {
+            "id": "f0ad-a5ac-154b-e21d",
+            "name": "Purgator w/ psycannon",
+            "min": 0,
+            "max": 4,
+            "equippedWith": "Psycannon"
+          }
+        ],
+        "defaultOptionId": "ee3b-2ec2-2841-7e66",
+        "groups": []
+      },
+      {
+        "id": "5a6a-dca2-0db5-7fb7",
+        "name": "Justicar",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "5f9-7ef3-ba5b-6352",
+            "name": "Justicar",
+            "min": 1,
+            "max": 1,
+            "equippedWith": "Nemesis force weapon and Storm bolter"
+          }
+        ]
+      }
+    ]
+  },
+  "8865-df22-1629-bf02": {
+    "groups": [
+      {
+        "id": "868b-4c64-84da-f47c",
+        "name": "4-9 Purifiers",
+        "min": 4,
+        "max": 9,
+        "mode": "count",
+        "options": [
+          {
+            "id": "2105-9372-a043-df0c",
+            "name": "Purifier",
+            "min": 0,
+            "max": 99,
+            "equippedWith": "Nemesis force weapon and Storm bolter and Purifying Flame"
+          },
+          {
+            "id": "a555-f09-9aa6-db71",
+            "name": "Purifier w/ incinerator",
+            "min": 0,
+            "max": 4,
+            "equippedWith": "Incinerator and Purifying Flame"
+          },
+          {
+            "id": "efc9-77c8-f86a-878d",
+            "name": "Purifier w/ psilencer",
+            "min": 0,
+            "max": 4,
+            "equippedWith": "Psilencer and Purifying Flame"
+          },
+          {
+            "id": "d518-3382-8614-960b",
+            "name": "Purifier w/ psycannon",
+            "min": 0,
+            "max": 4,
+            "equippedWith": "Psycannon and Purifying Flame"
+          }
+        ],
+        "defaultOptionId": "2105-9372-a043-df0c",
+        "groups": []
+      },
+      {
+        "id": "65e4-b6a3-8ad3-0a4f",
+        "name": "Knight of the Flame",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "d27-4455-b0d4-3250",
+            "name": "Knight of the Flame",
+            "min": 1,
+            "max": 1,
+            "equippedWith": "Nemesis force weapon and Storm bolter and Purifying Flame"
+          }
+        ]
+      }
+    ]
+  },
+  "35ed-7890-6c56-18b7": {
+    "groups": [
+      {
+        "id": "aa0e-aa31-d253-7c03",
+        "name": "4 Servitors",
+        "min": 4,
+        "max": 4,
+        "mode": "count",
+        "options": [
+          {
+            "id": "54c6-2506-f109-dd",
+            "name": "Servitor with servo-arm",
+            "min": 2,
+            "max": 4
+          },
+          {
+            "id": "89c9-ccee-d41e-7489",
+            "name": "Servitor with heavy bolter",
+            "min": 0,
+            "max": 2
+          },
+          {
+            "id": "51b4-7283-dda-f124",
+            "name": "Servitor with multi-melta",
+            "min": 0,
+            "max": 2
+          },
+          {
+            "id": "40ff-1eb6-2299-f733",
+            "name": "Servitor with plasma cannon",
+            "min": 0,
+            "max": 2
+          }
+        ],
+        "defaultOptionId": "54c6-2506-f109-dd"
+      }
+    ]
+  },
+  "d81f-c9ac-e338-ba37": {
+    "groups": [
+      {
+        "id": "38d6-858d-42f5-c38d",
+        "name": "4-9 Grey Knights",
+        "min": 4,
+        "max": 9,
+        "mode": "count",
+        "options": [
+          {
+            "id": "2e8c-d8a7-b77c-d2ad",
+            "name": "Grey Knight",
+            "min": 0,
+            "max": 99,
+            "equippedWith": "Nemesis force weapon and Storm bolter"
+          },
+          {
+            "id": "b953-5c1a-5d31-192f",
+            "name": "Grey Knight with Heavy Weapon",
+            "min": 0,
+            "max": 1,
+            "groups": [
+              {
+                "id": "c5d2-640d-6bd-6b71",
+                "name": "Weapon Choice",
+                "min": 1,
+                "max": 1,
+                "mode": "single",
+                "options": [
+                  {
+                    "id": "a258-da9f-cf7c-2bc3",
+                    "name": "Incinerator",
+                    "min": 0,
+                    "max": 99
+                  },
+                  {
+                    "id": "1b8c-5c22-51c2-9e3a",
+                    "name": "Psycannon",
+                    "min": 0,
+                    "max": 99
+                  },
+                  {
+                    "id": "c2ca-9c73-541c-46e7",
+                    "name": "Psilencer",
+                    "min": 0,
+                    "max": 99
+                  }
+                ],
+                "defaultOptionId": "9f4a-4baa-324c-7904"
+              }
+            ]
+          }
+        ],
+        "defaultOptionId": "2e8c-d8a7-b77c-d2ad"
+      },
+      {
+        "id": "3347-03b9-e483-c99b",
+        "name": "Justicar",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "e94e-2f1d-3d5b-dad8",
+            "name": "Justicar",
+            "min": 1,
+            "max": 1,
+            "equippedWith": "Nemesis force weapon and Storm bolter"
+          }
+        ]
+      }
+    ]
+  },
+  "8989-2fd2-4d29-e795": {
+    "groups": [
+      {
+        "id": "5e35-1f8a-eeaf-145f",
+        "name": "Wargear",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "a62e-6c83-e169-20ec",
+            "name": "Lascannon",
+            "min": 2,
+            "max": 2
+          },
+          {
+            "id": "275b-9fbb-038b-886c",
+            "name": "Armoured Hull",
+            "min": 1,
+            "max": 1
+          },
+          {
+            "id": "7cf3-04b5-84aa-f9af",
+            "name": "Twin heavy bolter",
+            "min": 4,
+            "max": 4
+          }
+        ],
+        "groups": [
+          {
+            "id": "9454-4e15-37f4-199a",
+            "name": "Thunderhawk Heavy Cannon",
+            "min": 1,
+            "max": 1,
+            "mode": "single",
+            "options": [
+              {
+                "id": "3c9f-6ed1-99f7-463b",
+                "name": "Thunderhawk heavy cannon",
+                "min": 0,
+                "max": 99
+              },
+              {
+                "id": "dfd7-add7-ed5a-f2f",
+                "name": "Turbo-laser destructor",
+                "min": 0,
+                "max": 99
+              }
+            ],
+            "defaultOptionId": "3c9f-6ed1-99f7-463b"
+          },
+          {
+            "id": "62e4-b3ee-99d2-acd8",
+            "name": "Thunderhawk Cluster Bombs",
+            "min": 1,
+            "max": 1,
+            "mode": "single",
+            "options": [
+              {
+                "id": "28cf-e229-c9bb-bf44",
+                "name": "Thunderhawk cluster bombs",
+                "min": 0,
+                "max": 99
+              },
+              {
+                "id": "df1c-ece9-8eb1-3097",
+                "name": "Hellstrike missile battery",
+                "min": 0,
+                "max": 99
+              }
+            ],
+            "defaultOptionId": "28cf-e229-c9bb-bf44"
+          }
+        ]
+      }
+    ]
+  },
+  "28d0-5a52-501a-441d": {
+    "groups": [
+      {
+        "id": "6aa0-c2d4-7d04-69e7",
+        "name": "Wargear",
+        "min": 1,
+        "max": 1,
+        "mode": "single",
+        "options": [
+          {
+            "id": "b8bb-18b4-6b7f-9796",
+            "name": "Assault cannon, storm bolter and Dreadnought combat weapon",
+            "min": 0,
+            "max": 99,
+            "groups": [
+              {
+                "id": "91c1-bfac-328f-7dbc",
+                "name": "Assault Cannon",
+                "min": 1,
+                "max": 1,
+                "mode": "single",
+                "options": [
+                  {
+                    "id": "47c4-faf6-43c2-1a3a",
+                    "name": "Assault cannon",
+                    "min": 0,
+                    "max": 99
+                  },
+                  {
+                    "id": "08d5-a902-5838-106e",
+                    "name": "Heavy plasma cannon",
+                    "min": 0,
+                    "max": 99
+                  },
+                  {
+                    "id": "d5ee-eb7c-436e-a563",
+                    "name": "Multi-melta",
+                    "min": 0,
+                    "max": 99
+                  },
+                  {
+                    "id": "4d4a-70f6-3967-debf",
+                    "name": "Twin lascannon",
+                    "min": 0,
+                    "max": 99
+                  }
+                ],
+                "defaultOptionId": "47c4-faf6-43c2-1a3a"
+              },
+              {
+                "id": "a1c3-bcb8-6d37-927f",
+                "name": "Storm Bolter and Dreadnought Combat Weapon",
+                "min": 1,
+                "max": 1,
+                "mode": "single",
+                "options": [
+                  {
+                    "id": "f769-9e86-48d0-9b2c",
+                    "name": "Storm bolter and Dreadnought combat weapon",
+                    "min": 0,
+                    "max": 99,
+                    "equippedWith": "Storm bolter and Dreadnought combat weapon"
+                  },
+                  {
+                    "id": "7c3b-8815-e6de-70d8",
+                    "name": "Missile launcher and armoured feet",
+                    "min": 0,
+                    "max": 99,
+                    "equippedWith": "Armoured feet"
+                  },
+                  {
+                    "id": "9752-8ac4-d01b-3ba4",
+                    "name": "Heavy flamer and Dreadnought combat weapon",
+                    "min": 0,
+                    "max": 99,
+                    "equippedWith": "Heavy flamer and Dreadnought combat weapon"
+                  }
+                ],
+                "defaultOptionId": "f769-9e86-48d0-9b2c"
+              }
+            ]
+          },
+          {
+            "id": "5cfc-84f3-36c0-5c03",
+            "name": "Heavy psycannon, storm bolter and Nemesis doomglaive",
+            "min": 0,
+            "max": 99,
+            "equippedWith": "Nemesis doomglaive and Heavy psycannon and Storm bolter"
+          },
+          {
+            "id": "ad9e-b881-bc39-5b79",
+            "name": "Heavy psycannon, incinerator and Nemesis doomglaive",
+            "min": 0,
+            "max": 99,
+            "equippedWith": "Nemesis doomglaive and Heavy psycannon and Incinerator"
+          }
+        ],
+        "defaultOptionId": "b8bb-18b4-6b7f-9796"
+      }
+    ]
+  },
+  "54f0-4b3f-3abe-081b": {
+    "groups": [
+      {
+        "id": "124b-efdd-9c7d-5995",
+        "name": "Wargear",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "06d2-26ce-a3a9-d31c",
+            "name": "Storm bolter",
+            "min": 0,
+            "max": 1
+          },
+          {
+            "id": "2b9a-ee17-f9c2-f696",
+            "name": "Hunter-killer missile",
+            "min": 0,
+            "max": 1
+          },
+          {
+            "id": "9b74-e912-760a-6b58",
+            "name": "Armoured tracks",
+            "min": 1,
+            "max": 1
+          }
+        ],
+        "groups": [
+          {
+            "id": "99e9-386-f00-afe1",
+            "name": "Twin Heavy Bolter",
+            "min": 1,
+            "max": 1,
+            "mode": "single",
+            "options": [
+              {
+                "id": "a29f-28c4-d7fc-8cf3",
+                "name": "Twin Psycannon",
+                "min": 0,
+                "max": 99
+              },
+              {
+                "id": "1819-4071-6cff-dfc3",
+                "name": "Twin assault cannon",
+                "min": 0,
+                "max": 99
+              },
+              {
+                "id": "c89f-e664-d4d6-9b02",
+                "name": "Twin lascannon",
+                "min": 0,
+                "max": 99
+              },
+              {
+                "id": "a17a-fa3e-d869-23ee",
+                "name": "Twin heavy bolter",
+                "min": 0,
+                "max": 99
+              },
+              {
+                "id": "57c2-4c15-c7e1-7f34",
+                "name": "Multi-melta",
+                "min": 0,
+                "max": 99
+              }
+            ],
+            "defaultOptionId": "a17a-fa3e-d869-23ee"
+          }
+        ]
+      }
+    ]
+  }
+}

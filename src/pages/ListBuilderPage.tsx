@@ -1,50 +1,57 @@
-import { useEffect, useMemo, useState } from 'react'
+import { useEffect, useMemo, useRef, useState, type ReactNode } from 'react'
 import { Link, useNavigate, useParams } from 'react-router-dom'
 import { DetachmentSheet } from '../components/DetachmentSheet'
 import { AppSegment, AppSegmentButton } from '../components/AppSegment'
 import { ListSetupWizard, type SetupStep } from '../components/ListSetupWizard'
+import { RosterUnitEditSheet } from '../components/RosterUnitEditSheet'
 import { UnitDetailSheet } from '../components/UnitDetailSheet'
 import { PageLoading } from '../components/PageLoading'
 import { copy } from '../lib/copy'
-import { allegianceOf, findArmy, type Allegiance } from '../lib/army-allegiance'
-import { loadFactionCatalog } from '../lib/faction-loader'
+import { allegianceOf, type Allegiance } from '../lib/army-allegiance'
+import { findArmyForBuilder } from '../lib/space-marine-chapters'
+import {
+  enhancementsForRoster,
+  loadArmyEntryForBuilder,
+  loadFactionCatalog,
+} from '../lib/faction-loader'
+import { loadFactionLoadouts } from '../lib/loadout-loader'
+import { unitHasEditableLoadout } from '../lib/loadout-engine'
 import {
   addUnit,
+  canAddUnit,
   BATTLE_SIZE_LIMITS,
   createEmptyRoster,
+  displayUnitPoints,
   filterUnits,
+  filterLegendsVisibility,
+  isLegendsUnit,
   refreshRoster,
-  removeUnit,
+  removeRosterLine,
   rosterSummaryText,
   toggleEnhancement,
+  updateRosterLine,
   validateRoster,
 } from '../lib/list-engine'
 import { deleteRoster, loadRoster, saveRoster } from '../lib/roster-storage'
-import { filterByBucket, groupUnitsByBucket, type UnitBucketId } from '../lib/unit-buckets'
-import type { CuratedUnit } from '../types/faction-data'
+import { groupRosterLinesByBucket, groupUnitsByBucket, maxCopiesForUnit, unitBucket, type RosterLineEntry, type UnitBucketId } from '../lib/unit-buckets'
+import type { CuratedUnit, Enhancement } from '../types/faction-data'
+import type { Army } from '../types/game'
 import type { ArmyRoster } from '../types/roster'
+import type { FactionLoadouts } from '../types/loadout'
 
 type BuilderTab = 'units' | 'enhancements'
 
-const BUCKET_FILTERS: { id: UnitBucketId | ''; labelKey: keyof typeof copy.armyLists }[] = [
-  { id: '', labelKey: 'bucketAll' },
-  { id: 'epic-hero', labelKey: 'bucketEpicHero' },
-  { id: 'hero', labelKey: 'bucketHero' },
-  { id: 'battleline', labelKey: 'bucketBattleline' },
-  { id: 'vehicle', labelKey: 'bucketVehicle' },
-  { id: 'mounted', labelKey: 'bucketMounted' },
-]
-
 function bucketLabel(bucket: UnitBucketId): string {
-  const map: Record<UnitBucketId, keyof typeof copy.armyLists> = {
-    'epic-hero': 'bucketEpicHero',
-    hero: 'bucketHero',
-    battleline: 'bucketBattleline',
-    vehicle: 'bucketVehicle',
-    mounted: 'bucketMounted',
-    other: 'bucketOther',
+  const map: Record<UnitBucketId, string> = {
+    'epic-hero': copy.armyLists.bucketEpicHero,
+    hero: copy.armyLists.bucketHero,
+    battleline: copy.armyLists.bucketBattleline,
+    transport: copy.armyLists.bucketTransport,
+    vehicle: copy.armyLists.bucketVehicle,
+    mounted: copy.armyLists.bucketMounted,
+    other: copy.armyLists.bucketOther,
   }
-  return copy.armyLists[map[bucket]]
+  return map[bucket]
 }
 
 export function ListBuilderPage() {
@@ -54,17 +61,19 @@ export function ListBuilderPage() {
 
   const [roster, setRoster] = useState<ArmyRoster | null>(null)
   const [catalog, setCatalog] = useState<CuratedUnit[]>([])
-  const [enhancements, setEnhancements] = useState<
-    { name: string; points: number; description: string; detachment?: string }[]
-  >([])
+  const [enhancements, setEnhancements] = useState<Enhancement[]>([])
+  const [armyEntry, setArmyEntry] = useState<Army | undefined>()
   const [loading, setLoading] = useState(!isNewRoute)
   const [catalogLoading, setCatalogLoading] = useState(false)
   const [setupComplete, setSetupComplete] = useState(false)
   const [setupStep, setSetupStep] = useState<SetupStep>('allegiance')
   const [allegiance, setAllegiance] = useState<Allegiance | null>(null)
   const [query, setQuery] = useState('')
-  const [bucketFilter, setBucketFilter] = useState<UnitBucketId | ''>('')
+  const [showLegends, setShowLegends] = useState(false)
   const [detailUnit, setDetailUnit] = useState<CuratedUnit | null>(null)
+  const [editEntry, setEditEntry] = useState<RosterLineEntry | null>(null)
+  const [rosterViewUnit, setRosterViewUnit] = useState<CuratedUnit | null>(null)
+  const [loadouts, setLoadouts] = useState<FactionLoadouts>({})
   const [builderTab, setBuilderTab] = useState<BuilderTab>('units')
   const [detachmentSheetOpen, setDetachmentSheetOpen] = useState(false)
 
@@ -81,12 +90,16 @@ export function ListBuilderPage() {
       }
       try {
         const data = await loadFactionCatalog(existing.army)
+        const loadoutData = await loadFactionLoadouts(existing.army)
         if (cancelled) return
         setCatalog(data.units)
         setEnhancements(data.enhancements)
-        setRoster(refreshRoster(existing))
-        const army = findArmy(existing.army)
+        setLoadouts(loadoutData)
+        setRoster(refreshRoster(existing, data.units))
+        const army = findArmyForBuilder(existing.army)
         if (army) setAllegiance(allegianceOf(army))
+        const entry = await loadArmyEntryForBuilder(existing.army, army)
+        setArmyEntry(entry)
         if (existing.detachments.length === 0) {
           setSetupComplete(false)
           setSetupStep('detachment')
@@ -105,17 +118,36 @@ export function ListBuilderPage() {
     }
   }, [id, isNewRoute, navigate])
 
+  const hasLegendsUnits = useMemo(() => catalog.some(isLegendsUnit), [catalog])
+
   const filtered = useMemo(() => {
-    const searched = filterUnits(catalog, query, '')
-    return filterByBucket(searched, bucketFilter)
-  }, [catalog, query, bucketFilter])
+    const visible = filterLegendsVisibility(catalog, showLegends)
+    return filterUnits(visible, query, '')
+  }, [catalog, query, showLegends])
 
   const catalogGroups = useMemo(() => groupUnitsByBucket(filtered), [filtered])
 
   const rosterGroups = useMemo(() => {
     if (!roster) return []
-    const inRoster = catalog.filter((u) => roster.units.some((ru) => ru.unitId === u.id))
-    return groupUnitsByBucket(inRoster)
+    const catalogById = new Map(catalog.map((u) => [u.id, u]))
+    const lines = roster.units.flatMap((line) => {
+      const cu = catalogById.get(line.unitId)
+      return cu ? [{ line, catalog: cu }] : []
+    })
+    return groupRosterLinesByBucket(lines)
+  }, [roster, catalog])
+
+  const rosterPointsByBucket = useMemo(() => {
+    const m = new Map<UnitBucketId, number>()
+    if (!roster) return m
+    const catalogById = new Map(catalog.map((u) => [u.id, u]))
+    for (const line of roster.units) {
+      const cu = catalogById.get(line.unitId)
+      if (!cu) continue
+      const bucket = unitBucket(cu)
+      m.set(bucket, (m.get(bucket) ?? 0) + line.points)
+    }
+    return m
   }, [roster, catalog])
 
   const issues = useMemo(
@@ -126,12 +158,20 @@ export function ListBuilderPage() {
   const dpUsed = roster?.detachments.reduce((s, d) => s + d.dp, 0) ?? 0
   const rosterCountById = useMemo(() => {
     const m = new Map<string, number>()
-    for (const u of roster?.units ?? []) m.set(u.unitId, u.count)
+    for (const u of roster?.units ?? []) {
+      m.set(u.unitId, (m.get(u.unitId) ?? 0) + 1)
+    }
     return m
   }, [roster?.units])
 
+  const enhancementNames = useMemo(() => enhancements.map((e) => e.name), [enhancements])
+  const visibleEnhancements = useMemo(
+    () => enhancementsForRoster(enhancements, roster?.detachments.map((d) => d.name) ?? []),
+    [enhancements, roster?.detachments],
+  )
+
   function persist(next: ArmyRoster) {
-    const updated = refreshRoster(next)
+    const updated = refreshRoster(next, catalog)
     setRoster(updated)
     saveRoster(updated)
   }
@@ -163,9 +203,13 @@ export function ListBuilderPage() {
       }
 
       const data = await loadFactionCatalog(armyName)
+      const loadoutData = await loadFactionLoadouts(armyName)
       setCatalog(data.units)
       setEnhancements(data.enhancements)
-      persist(r)
+      setLoadouts(loadoutData)
+      const entry = await loadArmyEntryForBuilder(armyName, findArmyForBuilder(armyName))
+      setArmyEntry(entry)
+      persist(refreshRoster(r, data.units))
       setSetupStep('detachment')
       if (isNewRoute) navigate(`/lists/${r.id}`, { replace: true })
     } catch {
@@ -202,6 +246,7 @@ export function ListBuilderPage() {
           step={setupStep}
           allegiance={allegiance}
           roster={roster}
+          armyEntry={armyEntry}
           dpUsed={dpUsed}
           onAllegiance={handleAllegiance}
           onFaction={(army) => void handleFaction(army)}
@@ -223,7 +268,26 @@ export function ListBuilderPage() {
   const limit = BATTLE_SIZE_LIMITS[roster.battleSize]
   const pct = Math.min(100, Math.round((roster.pointsTotal / limit) * 100))
   const overLimit = roster.pointsTotal > limit
-  const rosterUnitCount = roster.units.reduce((s, u) => s + u.count, 0)
+  const rosterUnitCount = roster.units.length
+
+  function handleEditLine(entry: RosterLineEntry) {
+    const loadout = loadouts[entry.catalog.id] ?? null
+    if (unitHasEditableLoadout(entry.catalog, loadout)) {
+      setRosterViewUnit(null)
+      setEditEntry(entry)
+    } else {
+      setEditEntry(null)
+      setRosterViewUnit(entry.catalog)
+    }
+  }
+
+  function closeUnitSheets() {
+    setDetailUnit(null)
+    setEditEntry(null)
+    setRosterViewUnit(null)
+  }
+
+  const sheetUnit = detailUnit ?? rosterViewUnit
 
   return (
     <div className="bf-viewport bf-builder -mx-2">
@@ -298,25 +362,35 @@ export function ListBuilderPage() {
           <CatalogPanel
             groups={catalogGroups}
             query={query}
-            bucketFilter={bucketFilter}
+            showLegends={showLegends}
+            hasLegendsUnits={hasLegendsUnits}
             rosterCountById={rosterCountById}
             onQuery={setQuery}
-            onBucket={setBucketFilter}
-            onOpen={setDetailUnit}
+            onShowLegends={setShowLegends}
+            onOpen={(u) => {
+              setRosterViewUnit(null)
+              setEditEntry(null)
+              setDetailUnit(u)
+            }}
             onQuickAdd={(u) => persist(addUnit(roster, u))}
           />
           <RosterPanel
             roster={roster}
             groups={rosterGroups}
             unitCount={rosterUnitCount}
-            onPersist={persist}
+            bucketPoints={rosterPointsByBucket}
+            onRemoveLine={(lineId) => persist(removeRosterLine(roster, lineId))}
+            onDuplicateLine={(entry) => {
+              if (canAddUnit(roster, entry.catalog)) persist(addUnit(roster, entry.catalog))
+            }}
+            onEditLine={handleEditLine}
           />
         </div>
       )}
 
       {builderTab === 'enhancements' && (
         <div className="bf-scroll px-2 py-2">
-          <EnhancementsPanel roster={roster} enhancements={enhancements} onPersist={persist} />
+          <EnhancementsPanel roster={roster} enhancements={visibleEnhancements} onPersist={persist} />
         </div>
       )}
 
@@ -327,7 +401,7 @@ export function ListBuilderPage() {
           </button>
           <button
             type="button"
-            onClick={() => void navigator.clipboard.writeText(rosterSummaryText(roster))}
+            onClick={() => void navigator.clipboard.writeText(rosterSummaryText(roster, catalog))}
             className="app-btn-ghost px-3 py-2 text-caption"
           >
             {copy.armyLists.exportText}
@@ -340,18 +414,36 @@ export function ListBuilderPage() {
         </div>
       </footer>
 
-      <UnitDetailSheet
-        unit={detailUnit}
-        open={Boolean(detailUnit)}
-        onClose={() => setDetailUnit(null)}
-        onAdd={() => {
-          if (detailUnit) persist(addUnit(roster, detailUnit))
+      <RosterUnitEditSheet
+        line={editEntry?.line ?? null}
+        unit={editEntry?.catalog ?? null}
+        loadout={editEntry ? (loadouts[editEntry.catalog.id] ?? null) : null}
+        open={Boolean(editEntry)}
+        enhancementNames={enhancementNames}
+        onClose={() => setEditEntry(null)}
+        onSave={(patch) => {
+          if (!editEntry?.line.lineId) return
+          persist(updateRosterLine(roster, editEntry.line.lineId, patch, catalog))
         }}
-        inRoster={detailUnit ? rosterCountById.get(detailUnit.id) : 0}
+      />
+
+      <UnitDetailSheet
+        unit={sheetUnit}
+        open={Boolean(sheetUnit)}
+        enhancementNames={enhancementNames}
+        onClose={closeUnitSheets}
+        showAdd={Boolean(detailUnit)}
+        onAdd={() => {
+          if (detailUnit && canAddUnit(roster, detailUnit)) persist(addUnit(roster, detailUnit))
+        }}
+        addDisabled={detailUnit ? !canAddUnit(roster, detailUnit) : false}
+        inRoster={detailUnit ? rosterCountById.get(detailUnit.id) : undefined}
+        maxCopies={detailUnit ? maxCopiesForUnit(detailUnit) : undefined}
       />
 
       <DetachmentSheet
         roster={roster}
+        armyEntry={armyEntry}
         dpUsed={dpUsed}
         open={detachmentSheetOpen}
         onClose={() => setDetachmentSheetOpen(false)}
@@ -400,22 +492,109 @@ function PointsRing({
   )
 }
 
+function UnitBucketAccordion<T>({
+  groups,
+  query,
+  expandAllDefault = false,
+  bucketPoints,
+  itemKey,
+  renderItem,
+}: {
+  groups: { bucket: UnitBucketId; items: T[] }[]
+  query?: string
+  expandAllDefault?: boolean
+  bucketPoints?: Map<UnitBucketId, number>
+  itemKey: (item: T) => string
+  renderItem: (item: T) => ReactNode
+}) {
+  const [openBuckets, setOpenBuckets] = useState<Set<UnitBucketId>>(() => new Set())
+  const groupKey = groups.map((g) => g.bucket).join(',')
+  const prevGroupKey = useRef('')
+
+  useEffect(() => {
+    if (groupKey !== prevGroupKey.current) {
+      prevGroupKey.current = groupKey
+      if (groups.length === 0) {
+        setOpenBuckets(new Set())
+      } else if (expandAllDefault) {
+        setOpenBuckets(new Set(groups.map((g) => g.bucket)))
+      } else {
+        setOpenBuckets(new Set([groups[0].bucket]))
+      }
+    }
+  }, [groupKey, groups, expandAllDefault])
+
+  useEffect(() => {
+    if (query?.trim()) {
+      setOpenBuckets(new Set(groups.map((g) => g.bucket)))
+    }
+  }, [query, groups])
+
+  function toggleBucket(bucket: UnitBucketId) {
+    setOpenBuckets((prev) => {
+      const next = new Set(prev)
+      if (next.has(bucket)) next.delete(bucket)
+      else next.add(bucket)
+      return next
+    })
+  }
+
+  return (
+    <div className="bf-bucket-accordion">
+      {groups.map(({ bucket, items }) => {
+        const open = openBuckets.has(bucket)
+        const bucketPts = bucketPoints?.get(bucket) ?? 0
+        return (
+          <section key={bucket} className={`bf-bucket-section${open ? ' is-open' : ''}`}>
+            <button
+              type="button"
+              className="bf-bucket-trigger"
+              aria-expanded={open}
+              onClick={() => toggleBucket(bucket)}
+            >
+              <span className="bf-bucket-trigger-label">
+                <span>{bucketLabel(bucket)}</span>
+                {bucketPts > 0 && (
+                  <span className="bf-bucket-trigger-pts tabular-nums">{bucketPts} pts</span>
+                )}
+              </span>
+              <span className="bf-bucket-trigger-meta">
+                <span className="tabular-nums">{items.length}</span>
+                <span className="bf-bucket-chevron" aria-hidden />
+              </span>
+            </button>
+            {open && (
+              <div className="bf-bucket-panel">
+                {items.map((item) => (
+                  <div key={itemKey(item)}>{renderItem(item)}</div>
+                ))}
+              </div>
+            )}
+          </section>
+        )
+      })}
+    </div>
+  )
+}
+
 function CatalogPanel({
   groups,
   query,
-  bucketFilter,
+  showLegends,
+  hasLegendsUnits,
   rosterCountById,
   onQuery,
-  onBucket,
+  onShowLegends,
   onOpen,
   onQuickAdd,
 }: {
   groups: { bucket: UnitBucketId; units: CuratedUnit[] }[]
   query: string
-  bucketFilter: UnitBucketId | ''
+  showLegends: boolean
+  hasLegendsUnits: boolean
   rosterCountById: Map<string, number>
   onQuery: (q: string) => void
-  onBucket: (b: UnitBucketId | '') => void
+  onShowLegends: (show: boolean) => void
   onOpen: (u: CuratedUnit) => void
   onQuickAdd: (u: CuratedUnit) => void
 }) {
@@ -429,60 +608,147 @@ function CatalogPanel({
           placeholder={copy.armyLists.searchUnits}
           className="w-full rounded-lg border border-white/10 bg-black/40 px-3 py-2 text-caption"
         />
-        <div className="flex flex-wrap gap-1">
-          {BUCKET_FILTERS.map(({ id, labelKey }) => (
-            <button
-              key={id || 'all'}
-              type="button"
-              onClick={() => onBucket(id)}
-              className={`rounded-full px-2 py-0.5 text-micro ${
-                bucketFilter === id
-                  ? 'bg-crimson-soft text-crimson-bright ring-1 ring-crimson/25'
-                  : 'bg-white/5 text-muted'
-              }`}
-            >
-              {copy.armyLists[labelKey]}
-            </button>
-          ))}
-        </div>
+        {hasLegendsUnits && (
+          <label className="flex items-center gap-2 text-caption text-muted">
+            <input
+              type="checkbox"
+              checked={showLegends}
+              onChange={(e) => onShowLegends(e.target.checked)}
+            />
+            {copy.armyLists.showLegends}
+          </label>
+        )}
       </div>
 
       {groups.length === 0 ? (
         <p className="px-3 py-6 text-center text-caption text-muted">{copy.common.noResults}</p>
       ) : (
-        groups.map(({ bucket, units }) => (
-          <section key={bucket}>
-            <h3 className="bf-bucket-head">
-              {bucketLabel(bucket)} ({units.length})
-            </h3>
-            {units.map((u) => {
-              const inArmy = rosterCountById.get(u.id) ?? 0
-              return (
-                <div key={u.id} className="bf-unit-row">
-                  <button
-                    type="button"
-                    className="min-w-0 flex-1 text-left"
-                    onClick={() => onOpen(u)}
-                  >
-                    <p className="truncate text-caption font-medium leading-tight text-bone">{u.name}</p>
-                    <p className="text-micro tabular-nums text-accent-dim">{u.points}</p>
-                  </button>
-                  {inArmy > 0 && (
-                    <span className="shrink-0 text-micro tabular-nums text-muted">×{inArmy}</span>
-                  )}
-                  <button
-                    type="button"
-                    className="bf-add-fab"
-                    aria-label={copy.armyLists.addUnit}
-                    onClick={() => onQuickAdd(u)}
-                  >
-                    +
-                  </button>
-                </div>
-              )
-            })}
-          </section>
-        ))
+        <UnitBucketAccordion
+          groups={groups.map((g) => ({ bucket: g.bucket, items: g.units }))}
+          query={query}
+          itemKey={(u) => u.id}
+          renderItem={(u) => {
+            const inArmy = rosterCountById.get(u.id) ?? 0
+            const atMax = inArmy >= maxCopiesForUnit(u)
+            return (
+              <div className="bf-unit-row">
+                <button
+                  type="button"
+                  className="min-w-0 flex-1 text-left"
+                  onClick={() => onOpen(u)}
+                >
+                  <p className="truncate text-caption font-medium leading-tight text-bone">{u.name}</p>
+                  <p className="text-micro tabular-nums text-accent-dim">{displayUnitPoints(u)}</p>
+                </button>
+                <button
+                  type="button"
+                  className="bf-add-fab"
+                  aria-label={copy.armyLists.addUnit}
+                  disabled={atMax}
+                  onClick={() => onQuickAdd(u)}
+                >
+                  +
+                </button>
+              </div>
+            )
+          }}
+        />
+      )}
+    </div>
+  )
+}
+
+function RosterUnitRow({
+  line,
+  canDuplicate,
+  onEdit,
+  onRemove,
+  onDuplicate,
+}: {
+  line: RosterLineEntry['line']
+  canDuplicate: boolean
+  onEdit: () => void
+  onRemove: () => void
+  onDuplicate: () => void
+}) {
+  const [menuOpen, setMenuOpen] = useState(false)
+  const menuRef = useRef<HTMLDivElement>(null)
+
+  useEffect(() => {
+    if (!menuOpen) return
+    function onPointerDown(e: PointerEvent) {
+      if (menuRef.current && !menuRef.current.contains(e.target as Node)) {
+        setMenuOpen(false)
+      }
+    }
+    document.addEventListener('pointerdown', onPointerDown)
+    return () => document.removeEventListener('pointerdown', onPointerDown)
+  }, [menuOpen])
+
+  const loadoutSummary =
+    typeof line.options?.loadoutSummary === 'string' ? line.options.loadoutSummary : ''
+
+  return (
+    <div className="bf-unit-row">
+      <button
+        type="button"
+        className="bf-roster-line-btn"
+        aria-label={copy.armyLists.viewUnit}
+        onClick={onEdit}
+      >
+        <p className="truncate text-caption font-medium text-bone">{line.name}</p>
+        {loadoutSummary ? (
+          <p className="truncate text-micro text-muted">
+            {loadoutSummary} · {line.points} pts
+          </p>
+        ) : (
+          <p className="text-micro tabular-nums text-accent-dim">{line.points} pts</p>
+        )}
+      </button>
+      {line.lineId && (
+        <div className="relative shrink-0" ref={menuRef}>
+          <button
+            type="button"
+            className="bf-row-menu-btn"
+            aria-label={copy.armyLists.unitActions}
+            aria-expanded={menuOpen}
+            onClick={() => setMenuOpen((open) => !open)}
+          >
+            <svg viewBox="0 0 4 16" className="h-3.5 w-1" aria-hidden>
+              <circle cx="2" cy="2" r="1.35" fill="currentColor" />
+              <circle cx="2" cy="8" r="1.35" fill="currentColor" />
+              <circle cx="2" cy="14" r="1.35" fill="currentColor" />
+            </svg>
+          </button>
+          {menuOpen && (
+            <div className="bf-row-menu" role="menu">
+              <button
+                type="button"
+                role="menuitem"
+                className="bf-row-menu-item"
+                disabled={!canDuplicate}
+                onClick={() => {
+                  if (!canDuplicate) return
+                  onDuplicate()
+                  setMenuOpen(false)
+                }}
+              >
+                {copy.armyLists.duplicateUnit}
+              </button>
+              <button
+                type="button"
+                role="menuitem"
+                className="bf-row-menu-item bf-row-menu-item-danger"
+                onClick={() => {
+                  onRemove()
+                  setMenuOpen(false)
+                }}
+              >
+                {copy.armyLists.deleteUnit}
+              </button>
+            </div>
+          )}
+        </div>
       )}
     </div>
   )
@@ -492,15 +758,19 @@ function RosterPanel({
   roster,
   groups,
   unitCount,
-  onPersist,
+  bucketPoints,
+  onRemoveLine,
+  onDuplicateLine,
+  onEditLine,
 }: {
   roster: ArmyRoster
-  groups: { bucket: UnitBucketId; units: CuratedUnit[] }[]
+  groups: ReturnType<typeof groupRosterLinesByBucket>
   unitCount: number
-  onPersist: (r: ArmyRoster) => void
+  bucketPoints: Map<UnitBucketId, number>
+  onRemoveLine: (lineId: string) => void
+  onDuplicateLine: (entry: RosterLineEntry) => void
+  onEditLine: (entry: RosterLineEntry) => void
 }) {
-  const rosterById = new Map(roster.units.map((u) => [u.unitId, u]))
-
   return (
     <div className="bf-split-panel bg-black/20">
       <p className="bf-panel-head">
@@ -509,42 +779,21 @@ function RosterPanel({
       {roster.units.length === 0 ? (
         <p className="px-3 py-6 text-center text-caption text-muted">{copy.armyLists.emptyList}</p>
       ) : (
-        groups.map(({ bucket, units }) => (
-          <section key={bucket}>
-            <h3 className="bf-bucket-head">{bucketLabel(bucket)}</h3>
-            {units.map((cu) => {
-              const u = rosterById.get(cu.id)
-              if (!u) return null
-              return (
-                <div key={cu.id} className="bf-unit-row">
-                  <div className="min-w-0 flex-1">
-                    <p className="truncate text-caption font-medium text-bone">{u.name}</p>
-                    <p className="text-micro tabular-nums text-accent-dim">
-                      {u.points * u.count}
-                    </p>
-                  </div>
-                  <div className="flex shrink-0 items-center gap-1">
-                    <button
-                      type="button"
-                      className="flex h-6 w-6 items-center justify-center rounded border border-white/10 text-caption text-muted"
-                      onClick={() => onPersist(removeUnit(roster, u.unitId))}
-                    >
-                      −
-                    </button>
-                    <span className="w-4 text-center text-caption tabular-nums">{u.count}</span>
-                    <button
-                      type="button"
-                      className="bf-add-fab"
-                      onClick={() => onPersist(addUnit(roster, cu))}
-                    >
-                      +
-                    </button>
-                  </div>
-                </div>
-              )
-            })}
-          </section>
-        ))
+        <UnitBucketAccordion
+          groups={groups.map((g) => ({ bucket: g.bucket, items: g.lines }))}
+          expandAllDefault
+          bucketPoints={bucketPoints}
+          itemKey={(entry) => entry.line.lineId ?? `${entry.line.unitId}-${entry.line.points}`}
+          renderItem={(entry) => (
+            <RosterUnitRow
+              line={entry.line}
+              canDuplicate={canAddUnit(roster, entry.catalog)}
+              onEdit={() => onEditLine(entry)}
+              onRemove={() => entry.line.lineId && onRemoveLine(entry.line.lineId)}
+              onDuplicate={() => onDuplicateLine(entry)}
+            />
+          )}
+        />
       )}
     </div>
   )

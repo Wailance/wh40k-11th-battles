@@ -1,0 +1,305 @@
+{
+  "fa68-fcb9-38c-cd0f": {
+    "groups": [
+      {
+        "id": "c80c-048b-a074-27b5",
+        "name": "Wargear",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "f65e-95a4-be9d-282f",
+            "name": "Tyrant talons",
+            "min": 1,
+            "max": 1
+          }
+        ],
+        "groups": [
+          {
+            "id": "8bc7-da89-cba2-31d4",
+            "name": "Monstrous Bonesword and Lash Whip",
+            "min": 1,
+            "max": 1,
+            "mode": "single",
+            "options": [
+              {
+                "id": "2019-583b-ca88-546c",
+                "name": "Monstrous scything talons",
+                "min": 0,
+                "max": 1
+              },
+              {
+                "id": "79d7-2c8d-a55e-af25",
+                "name": "Stranglethorn cannon",
+                "min": 0,
+                "max": 1
+              },
+              {
+                "id": "46a7-e00d-e612-2a6d",
+                "name": "Heavy venom cannon",
+                "min": 0,
+                "max": 1
+              },
+              {
+                "id": "777b-826-ebd3-6a1a",
+                "name": "Monstrous bonesword and lash whip",
+                "min": 0,
+                "max": 1
+              }
+            ],
+            "defaultOptionId": "777b-826-ebd3-6a1a"
+          }
+        ]
+      }
+    ]
+  },
+  "507d-5ea4-6ef1-bf66": {
+    "groups": [
+      {
+        "id": "e2d6-8046-4b2f-2395",
+        "name": "Wargear",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "db71-7634-2513-687c",
+            "name": "Prime talons",
+            "min": 1,
+            "max": 1
+          }
+        ]
+      }
+    ]
+  },
+  "c10d-772e-a54f-a2b9": {
+    "groups": [
+      {
+        "id": "99d8-7263-6899-fd04",
+        "name": "Raveners",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "a62b-244e-b877-55e6",
+            "name": "Ravener",
+            "min": 3,
+            "max": 3,
+            "equippedWith": "Ravener heavy claws and talons"
+          },
+          {
+            "id": "3877-9ac4-28c3-97b1",
+            "name": "Ravener w/ Venom bolt",
+            "min": 1,
+            "max": 1,
+            "equippedWith": "Ravener heavy claws and talons"
+          }
+        ]
+      }
+    ]
+  },
+  "da44-72c9-7a27-48aa": {
+    "groups": [
+      {
+        "id": "023b-114d-712b-c219",
+        "name": "Wargear",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "baa2-9f2b-a204-96ce",
+            "name": "Lictor claws and talons",
+            "min": 1,
+            "max": 1
+          }
+        ]
+      }
+    ]
+  },
+  "2bbb-d811-15f7-1a81": {
+    "groups": [
+      {
+        "id": "5727-6e31-5a14-93c8",
+        "name": "Wargear",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "4894-10b5-80f-264a",
+            "name": "Distendible jaw",
+            "min": 1,
+            "max": 1
+          },
+          {
+            "id": "1559-94b3-7320-7aac",
+            "name": "Mawloc scything talons",
+            "min": 1,
+            "max": 1
+          }
+        ]
+      }
+    ]
+  },
+  "642f-9302-4fdc-ab68": {
+    "groups": [
+      {
+        "id": "e9a2-14cd-8730-04c5",
+        "name": "Wargear",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "60e7-ac95-974c-fd76",
+            "name": "Piercing claws and talons",
+            "min": 1,
+            "max": 1
+          }
+        ]
+      }
+    ]
+  },
+  "d213-efd8-a2b4-42d2": {
+    "groups": [
+      {
+        "id": "2f89-f83d-ba02-03ec",
+        "name": "Wargear",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "7507-3bc1-f275-ea8c",
+            "name": "Barbed ovipositor",
+            "min": 1,
+            "max": 1
+          },
+          {
+            "id": "cc5-9a66-ab15-c652",
+            "name": "Clawed limbs",
+            "min": 1,
+            "max": 1
+          }
+        ]
+      }
+    ]
+  },
+  "3f5-f7d6-1ce8-e6b9": {
+    "groups": [
+      {
+        "id": "c653-731f-d1b1-1ddc",
+        "name": "5 Raveners",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "79c8-bd29-5655-57c7",
+            "name": "Ravener",
+            "min": 5,
+            "max": 5
+          }
+        ],
+        "defaultOptionId": "79c8-bd29-5655-57c7"
+      }
+    ]
+  },
+  "56db-d7c-b349-677f": {
+    "groups": [
+      {
+        "id": "9f03-2e94-3fba-6cb1",
+        "name": "Wargear",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "267a-5d9e-9d76-668c",
+            "name": "Trygon scything talons",
+            "min": 1,
+            "max": 1
+          },
+          {
+            "id": "03d1-b58e-2498-09fe",
+            "name": "Bio-electric pulse",
+            "min": 1,
+            "max": 1
+          }
+        ]
+      }
+    ]
+  },
+  "fada-677a-f6a4-cd12": {
+    "groups": [
+      {
+        "id": "c121-985e-5ed5-dcd5",
+        "name": "Wargear",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "3748-a7ee-58fb-140e",
+            "name": "Flensing Whips",
+            "min": 1,
+            "max": 1
+          },
+          {
+            "id": "d1e2-bf6f-8c22-f7fb",
+            "name": "Tyrannocyte Bio-weapons",
+            "min": 1,
+            "max": 1
+          }
+        ]
+      }
+    ]
+  },
+  "9bd8-ac8c-2d3b-79f6": {
+    "groups": [
+      {
+        "id": "ae9a-662b-0fb4-c84c",
+        "name": "3-6 Von Ryan's Leapers",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "e439-47c1-afed-50c4",
+            "name": "Von Ryan's Leaper",
+            "min": 3,
+            "max": 6
+          }
+        ]
+      }
+    ]
+  },
+  "7173-1bd9-b60b-6555": {
+    "groups": [
+      {
+        "id": "b067-ca10-d4df-88b9",
+        "name": "Wargear",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "8f4b-dfff-77d2-b215",
+            "name": "Gaping maw",
+            "min": 1,
+            "max": 1
+          },
+          {
+            "id": "7190-e583-dade-fdb6",
+            "name": "Scything talons",
+            "min": 1,
+            "max": 1
+          }
+        ]
+      }
+    ]
+  }
+}

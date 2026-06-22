@@ -6,7 +6,7 @@
     {
       "id": "efa3-2cf5-dcfb-b976",
       "name": "Vindicare Assassin",
-      "points": 110,
+      "points": 125,
       "keywords": [
         "Infantry",
         "Character",
@@ -87,7 +87,20 @@
           "name": "Micromelta Round",
           "description": "This model’s exitus rifle has the [ANTI‑MONSTER 4+] and [ANTI‑VEHICLE 4+] abilities."
         }
-      ]
+      ],
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 125
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "125"
     },
     {
       "id": "5e5e-d6b2-6a1c-aa69",
@@ -166,12 +179,25 @@
           "name": "Esoteric Explosives",
           "description": "Each time this model is targeted with the Grenades Stratagem, 1 mortal wound is inflicted for each D6 roll of 3+ instead of for each 4+"
         }
-      ]
+      ],
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 85
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "85"
     },
     {
       "id": "f201-1f4a-b907-d9d1",
       "name": "Eversor Assassin",
-      "points": 110,
+      "points": 120,
       "keywords": [
         "Infantry",
         "Character",
@@ -241,7 +267,20 @@
           "name": "Intra-neural Biotech",
           "description": "Once per battle round, you can target this model with the Heroic Intervention or Counter‑offensive Stratagem for 0CP, and can do so even if you have already used that Stratagem on a different unit this phase."
         }
-      ]
+      ],
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 120
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "120"
     },
     {
       "id": "1cfe-be05-5603-133",
@@ -313,12 +352,25 @@
           "name": "Decoy Targets",
           "description": "Twice per battle, in your Movement phase, you can select one other friendly INFANTRY model that is on the battlefield and not within Engagement Range of one or more enemy units. The selected model is destroyed (ignoring any rules that are triggered when a model is destroyed) and this model is removed from the battlefield and set up again as close as possible to where that destroyed model was and not within Engagement Range of one or more enemy units. This ability cannot be used more than once in the same battle round."
         }
-      ]
+      ],
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 100
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "100"
     },
     {
       "id": "9360-d8b2-cd92-9e7f",
       "name": "Rogue Trader Entourage",
-      "points": 75,
+      "points": 105,
       "keywords": [
         "Infantry",
         "Character",
@@ -539,12 +591,30 @@
           "name": "Upholder of the Creed",
           "description": "**^^Puritan^^** model only. Improve the bearer's Leadership and Wounds characteristics by 1. Once per Shadow Operation when you attempt to Thwart a Threat through Influence, you can re-roll that test. If the bearer loses the **^^Puritan^^** keyword or gains the **^^Radical^^** keyword by any means, it immediately loses this Battle Honour."
         }
+      ],
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 4,
+              "points": 105
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "105",
+      "mfmRole": "leader",
+      "attachTo": [
+        "Imperial Navy Breachers",
+        "Voidsmen-At-Arms"
       ]
     },
     {
       "id": "3953-4e12-fe7b-97e9",
       "name": "Voidsmen-at-Arms",
-      "points": 50,
+      "points": 70,
       "keywords": [
         "Infantry",
         "Grenades",
@@ -673,7 +743,20 @@
           "name": "Upholder of the Creed",
           "description": "**^^Puritan^^** model only. Improve the bearer's Leadership and Wounds characteristics by 1. Once per Shadow Operation when you attempt to Thwart a Threat through Influence, you can re-roll that test. If the bearer loses the **^^Puritan^^** keyword or gains the **^^Radical^^** keyword by any means, it immediately loses this Battle Honour."
         }
-      ]
+      ],
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 6,
+              "points": 70
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "70"
     },
     {
       "id": "24d5-9987-4d2-b42b",
@@ -762,7 +845,7 @@
           "keywords": []
         },
         {
-          "name": "➤ Plasma gun - standard",
+          "name": "Plasma gun - standard",
           "range": "24\"",
           "A": "1",
           "BS": "4+",
@@ -774,7 +857,7 @@
           ]
         },
         {
-          "name": "➤ Plasma gun - supercharge",
+          "name": "Plasma gun - supercharge",
           "range": "24\"",
           "A": "1",
           "BS": "4+",
@@ -888,12 +971,25 @@
           "name": "Upholder of the Creed",
           "description": "**^^Puritan^^** model only. Improve the bearer's Leadership and Wounds characteristics by 1. Once per Shadow Operation when you attempt to Thwart a Threat through Influence, you can re-roll that test. If the bearer loses the **^^Puritan^^** keyword or gains the **^^Radical^^** keyword by any means, it immediately loses this Battle Honour."
         }
-      ]
+      ],
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 10,
+              "points": 90
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "90"
     },
     {
       "id": "6db9-cede-3810-f1f0",
       "name": "Subductor Squad",
-      "points": 85,
+      "points": 100,
       "keywords": [
         "Infantry",
         "Grenades",
@@ -989,12 +1085,25 @@
           "name": "Upholder of the Creed",
           "description": "**^^Puritan^^** model only. Improve the bearer's Leadership and Wounds characteristics by 1. Once per Shadow Operation when you attempt to Thwart a Threat through Influence, you can re-roll that test. If the bearer loses the **^^Puritan^^** keyword or gains the **^^Radical^^** keyword by any means, it immediately loses this Battle Honour."
         }
-      ]
+      ],
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 11,
+              "points": 100
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "100"
     },
     {
       "id": "ec63-524d-55a-3065",
       "name": "Exaction Squad",
-      "points": 90,
+      "points": 85,
       "keywords": [
         "Infantry",
         "Grenades",
@@ -1116,7 +1225,20 @@
           "name": "Upholder of the Creed",
           "description": "**^^Puritan^^** model only. Improve the bearer's Leadership and Wounds characteristics by 1. Once per Shadow Operation when you attempt to Thwart a Threat through Influence, you can re-roll that test. If the bearer loses the **^^Puritan^^** keyword or gains the **^^Radical^^** keyword by any means, it immediately loses this Battle Honour."
         }
-      ]
+      ],
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 11,
+              "points": 85
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "85"
     },
     {
       "id": "d44c-5cde-cb79-3ec3",
@@ -1226,12 +1348,25 @@
           "name": "Upholder of the Creed",
           "description": "**^^Puritan^^** model only. Improve the bearer's Leadership and Wounds characteristics by 1. Once per Shadow Operation when you attempt to Thwart a Threat through Influence, you can re-roll that test. If the bearer loses the **^^Puritan^^** keyword or gains the **^^Radical^^** keyword by any means, it immediately loses this Battle Honour."
         }
-      ]
+      ],
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 11,
+              "points": 85
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "85"
     },
     {
       "id": "f3a6-de9-584e-c394",
       "name": "Inquisitor Draxus",
-      "points": 75,
+      "points": 110,
       "keywords": [
         "Infantry",
         "Character",
@@ -1312,12 +1447,35 @@
           "name": "Leader",
           "description": "This model can be attached to the following units: EXACTION SQUAD, IMPERIUM BATTLELINE INFANTRY, IMPERIAL NAVY BREACHERS, INQUISITORIAL AGENTS, SUBDUCTOR SQUAD, VIGILANT SQUAD"
         }
+      ],
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 110
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "110",
+      "mfmRole": "leader",
+      "attachTo": [
+        "Aquila Kill Team",
+        "Battleline Imperium Infantry",
+        "Exaction Squad",
+        "Imperial Navy Breachers",
+        "Inquisitorial Agents",
+        "Subductor Squad",
+        "Vigilant Squad"
       ]
     },
     {
       "id": "264a-fc24-3a98-31dc",
       "name": "Inquisitor Coteaz",
-      "points": 75,
+      "points": 95,
       "keywords": [
         "Infantry",
         "Character",
@@ -1403,6 +1561,29 @@
           "name": "Glovodan Psyber-eagle",
           "description": "In your Command phase, you can select one enemy unit within 18\" of the bearer. Until the start of your next Command phase, that unit cannot have the Benefit of Cover."
         }
+      ],
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 95
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "95",
+      "mfmRole": "leader",
+      "attachTo": [
+        "Battleline Imperium Infantry",
+        "Exaction Squad",
+        "Grey Knights Terminator Squad",
+        "Imperial Navy Breachers",
+        "Inquisitorial Agents",
+        "Subductor Squad",
+        "Vigilant Squad"
       ]
     },
     {
@@ -1492,6 +1673,30 @@
           "name": "Leader",
           "description": "This model can be attached to the following units: EXACTION SQUAD, IMPERIUM BATTLELINE INFANTRY, IMPERIAL NAVY BREACHERS, INQUISITORIAL AGENTS, SISTERS OF BATTLE SQUAD, SUBDUCTOR SQUAD, VIGILANT SQUAD"
         }
+      ],
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 65
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "65",
+      "mfmRole": "leader",
+      "attachTo": [
+        "Battleline Imperium Infantry",
+        "Exaction Squad",
+        "Imperial Navy Breachers",
+        "Inquisitorial Agents",
+        "Sanctifiers",
+        "Sisters Of Battle Squad",
+        "Subductor Squad",
+        "Vigilant Squad"
       ]
     },
     {
@@ -1563,7 +1768,7 @@
     {
       "id": "3e57-b15c-5580-1de1",
       "name": "Inquisitor",
-      "points": 55,
+      "points": 65,
       "keywords": [
         "Infantry",
         "Character",
@@ -1581,7 +1786,20 @@
         "LD": "6+",
         "OC": "1"
       },
-      "rangedWeapons": [],
+      "rangedWeapons": [
+        {
+          "name": "Bolt pistol",
+          "range": "12\"",
+          "A": "1",
+          "BS": "4+",
+          "S": "4",
+          "AP": "0",
+          "D": "1",
+          "keywords": [
+            "Pistol"
+          ]
+        }
+      ],
       "meleeWeapons": [],
       "abilities": [
         {
@@ -1684,6 +1902,32 @@
           "name": "Upholder of the Creed",
           "description": "**^^Puritan^^** model only. Improve the bearer's Leadership and Wounds characteristics by 1. Once per Shadow Operation when you attempt to Thwart a Threat through Influence, you can re-roll that test. If the bearer loses the **^^Puritan^^** keyword or gains the **^^Radical^^** keyword by any means, it immediately loses this Battle Honour."
         }
+      ],
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 65
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "65",
+      "mfmRole": "leader",
+      "attachTo": [
+        "Aquila Kill Team",
+        "Battleline Imperium Infantry",
+        "Exaction Squad",
+        "Grey Knights Terminator Squad",
+        "Imperial Navy Breachers",
+        "Inquisitorial Agents",
+        "Sanctifiers",
+        "Sisters Of Battle Squad",
+        "Subductor Squad",
+        "Vigilant Squad"
       ]
     },
     {
@@ -2272,7 +2516,7 @@
     {
       "id": "55cf-8d86-affd-bc9b",
       "name": "Navigator",
-      "points": 60,
+      "points": 75,
       "keywords": [
         "Infantry",
         "Character",
@@ -2429,6 +2673,24 @@
           "name": "Upholder of the Creed",
           "description": "**^^Puritan^^** model only. Improve the bearer's Leadership and Wounds characteristics by 1. Once per Shadow Operation when you attempt to Thwart a Threat through Influence, you can re-roll that test. If the bearer loses the **^^Puritan^^** keyword or gains the **^^Radical^^** keyword by any means, it immediately loses this Battle Honour."
         }
+      ],
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 75
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "75",
+      "mfmRole": "leader",
+      "attachTo": [
+        "Imperial Navy Breachers",
+        "Voidsmen-At-Arms"
       ]
     },
     {
@@ -2610,12 +2872,35 @@
           "name": "Upholder of the Creed",
           "description": "**^^Puritan^^** model only. Improve the bearer's Leadership and Wounds characteristics by 1. Once per Shadow Operation when you attempt to Thwart a Threat through Influence, you can re-roll that test. If the bearer loses the **^^Puritan^^** keyword or gains the **^^Radical^^** keyword by any means, it immediately loses this Battle Honour."
         }
+      ],
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 40
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "40",
+      "mfmRole": "support",
+      "attachTo": [
+        "Exaction Squad",
+        "Imperial Navy Breachers",
+        "Inquisitorial Agents",
+        "Sanctifiers",
+        "Sisters Of Battle Squad",
+        "Subductor Squad",
+        "Vigilant Squad"
       ]
     },
     {
       "id": "4469-7239-717e-9abd",
       "name": "Inquisitorial Agents",
-      "points": 50,
+      "points": 60,
       "keywords": [
         "Infantry",
         "Grenades",
@@ -2647,7 +2932,7 @@
           ]
         },
         {
-          "name": "➤ Plasma pistol - standard",
+          "name": "Plasma pistol - standard",
           "range": "12\"",
           "A": "1",
           "BS": "3+",
@@ -2659,7 +2944,7 @@
           ]
         },
         {
-          "name": "➤ Plasma pistol - supercharge",
+          "name": "Plasma pistol - supercharge",
           "range": "12\"",
           "A": "1",
           "BS": "3+",
@@ -2698,7 +2983,7 @@
           ]
         },
         {
-          "name": "➤ Plasma cannon - standard",
+          "name": "Plasma cannon - standard",
           "range": "36\"",
           "A": "D3",
           "BS": "4+",
@@ -2711,7 +2996,7 @@
           ]
         },
         {
-          "name": "➤ Plasma cannon - supercharge",
+          "name": "Plasma cannon - supercharge",
           "range": "36\"",
           "A": "D3",
           "BS": "4+",
@@ -2803,12 +3088,29 @@
           "name": "Upholder of the Creed",
           "description": "**^^Puritan^^** model only. Improve the bearer's Leadership and Wounds characteristics by 1. Once per Shadow Operation when you attempt to Thwart a Threat through Influence, you can re-roll that test. If the bearer loses the **^^Puritan^^** keyword or gains the **^^Radical^^** keyword by any means, it immediately loses this Battle Honour."
         }
-      ]
+      ],
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 6,
+              "points": 60
+            },
+            {
+              "models": 12,
+              "points": 120
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "60/120"
     },
     {
       "id": "15c0-9294-7eb8-f3a7",
       "name": "Grey Knights Terminator Squad",
-      "points": 190,
+      "points": 210,
       "keywords": [
         "Infantry",
         "Psyker",
@@ -2944,7 +3246,20 @@
           "name": "Upholder of the Creed",
           "description": "**^^Puritan^^** model only. Improve the bearer's Leadership and Wounds characteristics by 1. Once per Shadow Operation when you attempt to Thwart a Threat through Influence, you can re-roll that test. If the bearer loses the **^^Puritan^^** keyword or gains the **^^Radical^^** keyword by any means, it immediately loses this Battle Honour."
         }
-      ]
+      ],
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 5,
+              "points": 210
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "210"
     },
     {
       "id": "ede2-ae50-5f5b-cced",
@@ -3040,7 +3355,20 @@
           "description": "**^^Puritan^^** model only. Improve the bearer's Leadership and Wounds characteristics by 1. Once per Shadow Operation when you attempt to Thwart a Threat through Influence, you can re-roll that test. If the bearer loses the **^^Puritan^^** keyword or gains the **^^Radical^^** keyword by any means, it immediately loses this Battle Honour."
         }
       ],
-      "transportCapacity": "This model has a transport capacity of 13 INQUISITOR INFANTRY and INQUISITORIAL AGENT models. It cannot transport TERMINATOR models."
+      "transportCapacity": "This model has a transport capacity of 13 INQUISITOR INFANTRY and INQUISITORIAL AGENT models. It cannot transport TERMINATOR models.",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 70
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "70"
     },
     {
       "id": "cbbd-8e0a-fd90-fa0d",
@@ -3136,12 +3464,25 @@
           "description": "**^^Puritan^^** model only. Improve the bearer's Leadership and Wounds characteristics by 1. Once per Shadow Operation when you attempt to Thwart a Threat through Influence, you can re-roll that test. If the bearer loses the **^^Puritan^^** keyword or gains the **^^Radical^^** keyword by any means, it immediately loses this Battle Honour."
         }
       ],
-      "transportCapacity": "This model has a transport capacity of 12 AGENTS OF THE IMPERIUM INFANTRY models. It cannot transport TERMINATOR or OFFICIO ASSASSINORUM models."
+      "transportCapacity": "This model has a transport capacity of 12 AGENTS OF THE IMPERIUM INFANTRY models. It cannot transport TERMINATOR or OFFICIO ASSASSINORUM models.",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 75
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "75"
     },
     {
       "id": "73fc-a193-7da1-d9c4",
       "name": "Sisters of Battle Squad",
-      "points": 100,
+      "points": 115,
       "keywords": [
         "Infantry",
         "Grenades",
@@ -3218,7 +3559,7 @@
           ]
         },
         {
-          "name": "➤ Plasma pistol - supercharge",
+          "name": "Plasma pistol - supercharge",
           "range": "12\"",
           "A": "1",
           "BS": "3+",
@@ -3231,7 +3572,7 @@
           ]
         },
         {
-          "name": "➤ Plasma pistol - standard",
+          "name": "Plasma pistol - standard",
           "range": "12\"",
           "A": "1",
           "BS": "3+",
@@ -3420,12 +3761,25 @@
           "name": "Upholder of the Creed",
           "description": "**^^Puritan^^** model only. Improve the bearer's Leadership and Wounds characteristics by 1. Once per Shadow Operation when you attempt to Thwart a Threat through Influence, you can re-roll that test. If the bearer loses the **^^Puritan^^** keyword or gains the **^^Radical^^** keyword by any means, it immediately loses this Battle Honour."
         }
-      ]
+      ],
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 10,
+              "points": 115
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "115"
     },
     {
       "id": "a5c9-2cb7-d874-8169",
       "name": "Sisters of Battle Immolator",
-      "points": 100,
+      "points": 115,
       "keywords": [
         "Dedicated Transport",
         "Vehicle",
@@ -3524,7 +3878,20 @@
           "name": "Upholder of the Creed",
           "description": "**^^Puritan^^** model only. Improve the bearer's Leadership and Wounds characteristics by 1. Once per Shadow Operation when you attempt to Thwart a Threat through Influence, you can re-roll that test. If the bearer loses the **^^Puritan^^** keyword or gains the **^^Radical^^** keyword by any means, it immediately loses this Battle Honour."
         }
-      ]
+      ],
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 115
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "115"
     },
     {
       "id": "fac5-a242-951a-e1b2",
@@ -3890,7 +4257,20 @@
           "name": "Upholder of the Creed",
           "description": "**^^Puritan^^** model only. Improve the bearer's Leadership and Wounds characteristics by 1. Once per Shadow Operation when you attempt to Thwart a Threat through Influence, you can re-roll that test. If the bearer loses the **^^Puritan^^** keyword or gains the **^^Radical^^** keyword by any means, it immediately loses this Battle Honour."
         }
-      ]
+      ],
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 180
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "180"
     },
     {
       "id": "0744-61ce-619d-ffe1",
@@ -3943,7 +4323,7 @@
           ]
         },
         {
-          "name": "➤ Infernus heavy bolter - heavy bolter",
+          "name": "Infernus heavy bolter - heavy bolter",
           "range": "36\"",
           "A": "3",
           "BS": "4+",
@@ -3956,7 +4336,7 @@
           ]
         },
         {
-          "name": "➤ Infernus heavy bolter - heavy flamer",
+          "name": "Infernus heavy bolter - heavy flamer",
           "range": "12\"",
           "A": "D6",
           "BS": "N/A",
@@ -4103,7 +4483,24 @@
           "name": "Upholder of the Creed",
           "description": "**^^Puritan^^** model only. Improve the bearer's Leadership and Wounds characteristics by 1. Once per Shadow Operation when you attempt to Thwart a Threat through Influence, you can re-roll that test. If the bearer loses the **^^Puritan^^** keyword or gains the **^^Radical^^** keyword by any means, it immediately loses this Battle Honour."
         }
-      ]
+      ],
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 5,
+              "points": 100
+            },
+            {
+              "models": 10,
+              "points": 200
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "100/200"
     },
     {
       "id": "0b74-440c-ee1d-ca50",
@@ -4164,7 +4561,7 @@
           ]
         },
         {
-          "name": "➤ Plasma cannon - standard",
+          "name": "Plasma cannon - standard",
           "range": "36\"",
           "A": "D3",
           "BS": "4+",
@@ -4177,7 +4574,7 @@
           ]
         },
         {
-          "name": "➤ Plasma cannon - supercharge",
+          "name": "Plasma cannon - supercharge",
           "range": "36\"",
           "A": "D3",
           "BS": "4+",
@@ -4191,7 +4588,7 @@
           ]
         },
         {
-          "name": "➤ Cyclone missile launcher - frag",
+          "name": "Cyclone missile launcher - frag",
           "range": "36\"",
           "A": "2D6",
           "BS": "3+",
@@ -4203,7 +4600,7 @@
           ]
         },
         {
-          "name": "➤ Cyclone missile launcher - krak",
+          "name": "Cyclone missile launcher - krak",
           "range": "36\"",
           "A": "2",
           "BS": "3+",
@@ -4951,12 +5348,35 @@
           "name": "Leader",
           "description": "This model can be attached to the following units: DEATHWATCH KILL TEAM"
         }
+      ],
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 65
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "65",
+      "mfmRole": "leader",
+      "attachTo": [
+        "Aquila Kill Team",
+        "Deathwatch Kill Team",
+        "Deathwatch Terminator Squad",
+        "Fortis Kill Team",
+        "Indomitor Kill Team",
+        "Proteus Kill Team",
+        "Spectrus Kill Team"
       ]
     },
     {
       "id": "cfa5-df26-a886-9975",
       "name": "Watch Master",
-      "points": 95,
+      "points": 105,
       "keywords": [
         "Character",
         "Infantry",
@@ -5048,6 +5468,29 @@
           "name": "Upholder of the Creed",
           "description": "**^^Puritan^^** model only. Improve the bearer's Leadership and Wounds characteristics by 1. Once per Shadow Operation when you attempt to Thwart a Threat through Influence, you can re-roll that test. If the bearer loses the **^^Puritan^^** keyword or gains the **^^Radical^^** keyword by any means, it immediately loses this Battle Honour."
         }
+      ],
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 105
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "105",
+      "mfmRole": "leader",
+      "attachTo": [
+        "Aquila Kill Team",
+        "Deathwatch Kill Team",
+        "Deathwatch Terminator Squad",
+        "Fortis Kill Team",
+        "Indomitor Kill Team",
+        "Proteus Kill Team",
+        "Spectrus Kill Team"
       ]
     },
     {
@@ -5087,7 +5530,7 @@
           ]
         },
         {
-          "name": "➤ Plasma gun - standard",
+          "name": "Plasma gun - standard",
           "range": "24\"",
           "A": "1",
           "BS": "3+",
@@ -5099,7 +5542,7 @@
           ]
         },
         {
-          "name": "➤ Plasma gun - supercharge",
+          "name": "Plasma gun - supercharge",
           "range": "24\"",
           "A": "1",
           "BS": "3+",
@@ -5250,7 +5693,20 @@
           "name": "Upholder of the Creed",
           "description": "**^^Puritan^^** model only. Improve the bearer's Leadership and Wounds characteristics by 1. Once per Shadow Operation when you attempt to Thwart a Threat through Influence, you can re-roll that test. If the bearer loses the **^^Puritan^^** keyword or gains the **^^Radical^^** keyword by any means, it immediately loses this Battle Honour."
         }
-      ]
+      ],
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 9,
+              "points": 100
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "100"
     },
     {
       "id": "6315-d3e6-aa1c-69e4",
@@ -5503,7 +5959,7 @@
           ]
         },
         {
-          "name": "➤ Plasma incinerator - Standard",
+          "name": "Plasma incinerator - Standard",
           "range": "24\"",
           "A": "2",
           "BS": "3+",
@@ -5516,7 +5972,7 @@
           ]
         },
         {
-          "name": "➤ Plasma incinerator - Supercharge",
+          "name": "Plasma incinerator - Supercharge",
           "range": "24\"",
           "A": "2",
           "BS": "3+",
@@ -5604,7 +6060,7 @@
           ]
         },
         {
-          "name": "➤ Astartes grenade launcher - frag",
+          "name": "Astartes grenade launcher - frag",
           "range": "24\"",
           "A": "D3",
           "BS": "3+",
@@ -5616,7 +6072,7 @@
           ]
         },
         {
-          "name": "➤ Astartes grenade launcher - krak",
+          "name": "Astartes grenade launcher - krak",
           "range": "24\"",
           "A": "1",
           "BS": "3+",
@@ -5626,7 +6082,7 @@
           "keywords": []
         },
         {
-          "name": "➤ Infernus heavy bolter - heavy bolter",
+          "name": "Infernus heavy bolter - heavy bolter",
           "range": "36\"",
           "A": "3",
           "BS": "3+",
@@ -5638,7 +6094,7 @@
           ]
         },
         {
-          "name": "➤ Infernus heavy bolter - heavy flamer",
+          "name": "Infernus heavy bolter - heavy flamer",
           "range": "12\"",
           "A": "D6",
           "BS": "N/A",
@@ -5694,7 +6150,7 @@
       },
       "rangedWeapons": [
         {
-          "name": "➤ Plasma pistol - Standard",
+          "name": "Plasma pistol - Standard",
           "range": "12\"",
           "A": "1",
           "BS": "3+",
@@ -5706,7 +6162,7 @@
           ]
         },
         {
-          "name": "➤ Plasma pistol - Supercharge",
+          "name": "Plasma pistol - Supercharge",
           "range": "12\"",
           "A": "1",
           "BS": "3+",
@@ -5761,7 +6217,7 @@
       },
       "rangedWeapons": [
         {
-          "name": "➤ Plasma pistol - Standard",
+          "name": "Plasma pistol - Standard",
           "range": "12\"",
           "A": "1",
           "BS": "3+",
@@ -5773,7 +6229,7 @@
           ]
         },
         {
-          "name": "➤ Plasma pistol - Supercharge",
+          "name": "Plasma pistol - Supercharge",
           "range": "12\"",
           "A": "1",
           "BS": "3+",
@@ -5800,7 +6256,7 @@
           ]
         },
         {
-          "name": "➤ Plasma incinerator - Standard",
+          "name": "Plasma incinerator - Standard",
           "range": "24\"",
           "A": "2",
           "BS": "3+",
@@ -5813,7 +6269,7 @@
           ]
         },
         {
-          "name": "➤ Plasma incinerator - Supercharge",
+          "name": "Plasma incinerator - Supercharge",
           "range": "24\"",
           "A": "2",
           "BS": "3+",
@@ -5896,7 +6352,7 @@
           ]
         },
         {
-          "name": "➤ Astartes grenade launcher - frag",
+          "name": "Astartes grenade launcher - frag",
           "range": "24\"",
           "A": "D3",
           "BS": "3+",
@@ -5908,7 +6364,7 @@
           ]
         },
         {
-          "name": "➤ Astartes grenade launcher - krak",
+          "name": "Astartes grenade launcher - krak",
           "range": "24\"",
           "A": "1",
           "BS": "3+",
@@ -5918,7 +6374,7 @@
           "keywords": []
         },
         {
-          "name": "➤ Infernus heavy bolter - heavy bolter",
+          "name": "Infernus heavy bolter - heavy bolter",
           "range": "36\"",
           "A": "3",
           "BS": "3+",
@@ -5930,7 +6386,7 @@
           ]
         },
         {
-          "name": "➤ Infernus heavy bolter - heavy flamer",
+          "name": "Infernus heavy bolter - heavy flamer",
           "range": "12\"",
           "A": "D6",
           "BS": "N/A",
@@ -6044,7 +6500,24 @@
           "name": "Upholder of the Creed",
           "description": "**^^Puritan^^** model only. Improve the bearer's Leadership and Wounds characteristics by 1. Once per Shadow Operation when you attempt to Thwart a Threat through Influence, you can re-roll that test. If the bearer loses the **^^Puritan^^** keyword or gains the **^^Radical^^** keyword by any means, it immediately loses this Battle Honour."
         }
-      ]
+      ],
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 5,
+              "points": 100
+            },
+            {
+              "models": 10,
+              "points": 200
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "100/200"
     },
     {
       "id": "90e0-c5a9-17c5-fba4",
@@ -6083,7 +6556,7 @@
           ]
         },
         {
-          "name": "➤ Arbites grenade launcher - frag",
+          "name": "Arbites grenade launcher - frag",
           "range": "24\"",
           "A": "D3",
           "BS": "3+",
@@ -6095,7 +6568,7 @@
           ]
         },
         {
-          "name": "➤ Arbites grenade launcher - krak",
+          "name": "Arbites grenade launcher - krak",
           "range": "24\"",
           "A": "1",
           "BS": "3+",
@@ -6272,7 +6745,7 @@
           ]
         },
         {
-          "name": "➤ Plasma gun - standard",
+          "name": "Plasma gun - standard",
           "range": "24\"",
           "A": "1",
           "BS": "3+",
@@ -6284,7 +6757,7 @@
           ]
         },
         {
-          "name": "➤ Plasma pistol - supercharge",
+          "name": "Plasma pistol - supercharge",
           "range": "24\"",
           "A": "1",
           "BS": "3+",
@@ -6661,7 +7134,7 @@
           ]
         },
         {
-          "name": "➤ Arbites grenade launcher - frag",
+          "name": "Arbites grenade launcher - frag",
           "range": "24\"",
           "A": "D3",
           "BS": "3+",
@@ -6673,7 +7146,7 @@
           ]
         },
         {
-          "name": "➤ Arbites grenade launcher - krak",
+          "name": "Arbites grenade launcher - krak",
           "range": "24\"",
           "A": "1",
           "BS": "3+",
@@ -6850,7 +7323,7 @@
           ]
         },
         {
-          "name": "➤ Plasma gun - standard",
+          "name": "Plasma gun - standard",
           "range": "24\"",
           "A": "1",
           "BS": "3+",
@@ -6862,7 +7335,7 @@
           ]
         },
         {
-          "name": "➤ Plasma pistol - supercharge",
+          "name": "Plasma pistol - supercharge",
           "range": "24\"",
           "A": "1",
           "BS": "3+",
@@ -7241,7 +7714,7 @@
           ]
         },
         {
-          "name": "➤ Arbites grenade launcher - frag",
+          "name": "Arbites grenade launcher - frag",
           "range": "24\"",
           "A": "D3",
           "BS": "3+",
@@ -7253,7 +7726,7 @@
           ]
         },
         {
-          "name": "➤ Arbites grenade launcher - krak",
+          "name": "Arbites grenade launcher - krak",
           "range": "24\"",
           "A": "1",
           "BS": "3+",
@@ -7430,7 +7903,7 @@
           ]
         },
         {
-          "name": "➤ Plasma gun - standard",
+          "name": "Plasma gun - standard",
           "range": "24\"",
           "A": "1",
           "BS": "3+",
@@ -7442,7 +7915,7 @@
           ]
         },
         {
-          "name": "➤ Plasma pistol - supercharge",
+          "name": "Plasma pistol - supercharge",
           "range": "24\"",
           "A": "1",
           "BS": "3+",
@@ -7866,7 +8339,20 @@
           "name": "Tox‑cycler",
           "description": "In your Shooting phase, after this unit has shot, if this model scored a hit with its Jindarii tox‑cycler, until the end of the battle, add 2 to the Strength and Damage characteristics of that weapon (to a maximum Damage characteristic of 6)."
         }
-      ]
+      ],
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 100
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "100"
     }
   ],
   "enhancements": [

@@ -1,27 +1,48 @@
+import type { ReactNode } from 'react'
 import type { CuratedUnit } from '../types/faction-data'
 import { copy } from '../lib/copy'
+import { displayUnitPoints } from '../lib/list-engine'
+import { filterDatasheetAbilities } from '../lib/datasheet-abilities'
+import { WeaponStatsSection } from './LoadoutWidgets'
 
 export function UnitDatasheet({
   unit,
   onAdd,
   showAdd = true,
+  addDisabled = false,
+  pointsLabel,
+  headerAction,
+  enhancementNames,
+  children,
 }: {
   unit: CuratedUnit
   onAdd?: () => void
   showAdd?: boolean
+  addDisabled?: boolean
+  pointsLabel?: string
+  headerAction?: ReactNode
+  enhancementNames?: readonly string[]
+  children?: ReactNode
 }) {
+  const abilities = filterDatasheetAbilities(unit.abilities, enhancementNames)
   return (
     <div className="space-y-3 text-body">
       <div className="flex items-start justify-between gap-2">
         <div>
           <h3 className="font-display text-title tracking-wide text-accent">{unit.name}</h3>
-          <p className="text-caption text-muted">{unit.points} pts</p>
+          <p className="text-caption text-muted">{pointsLabel ?? `${displayUnitPoints(unit)} pts`}</p>
         </div>
-        {showAdd && onAdd && (
-          <button type="button" onClick={onAdd} className="app-btn shrink-0 px-3 py-1.5 text-caption">
-            {copy.armyLists.addUnit}
-          </button>
-        )}
+        {headerAction ??
+          (showAdd && onAdd ? (
+            <button
+              type="button"
+              onClick={onAdd}
+              disabled={addDisabled}
+              className="app-btn shrink-0 px-3 py-1.5 text-caption"
+            >
+              {copy.armyLists.addUnit}
+            </button>
+          ) : null)}
       </div>
 
       <div className="flex flex-wrap gap-1">
@@ -46,17 +67,14 @@ export function UnitDatasheet({
         </div>
       )}
 
-      {unit.rangedWeapons.length > 0 && (
-        <WeaponBlock title={copy.armyLists.ranged} weapons={unit.rangedWeapons} />
-      )}
-      {unit.meleeWeapons.length > 0 && (
-        <WeaponBlock title={copy.armyLists.melee} weapons={unit.meleeWeapons} />
-      )}
+      {children}
 
-      {unit.abilities.length > 0 && (
+      <WeaponStatsSection rangedWeapons={unit.rangedWeapons} meleeWeapons={unit.meleeWeapons} />
+
+      {abilities.length > 0 && (
         <div className="space-y-2">
           <p className="text-caption font-semibold uppercase tracking-wide text-muted">{copy.armyLists.abilities}</p>
-          {unit.abilities.map((a) => (
+          {abilities.map((a) => (
             <div key={a.name} className="rounded-lg border border-white/8 bg-black/20 p-2.5">
               <p className="text-caption font-medium text-bone">{a.name}</p>
               <p className="mt-1 text-caption leading-relaxed text-muted whitespace-pre-wrap">{a.description}</p>
@@ -64,35 +82,6 @@ export function UnitDatasheet({
           ))}
         </div>
       )}
-    </div>
-  )
-}
-
-function WeaponBlock({
-  title,
-  weapons,
-}: {
-  title: string
-  weapons: CuratedUnit['rangedWeapons']
-}) {
-  return (
-    <div>
-      <p className="mb-1.5 text-caption font-semibold uppercase tracking-wide text-muted">{title}</p>
-      <div className="space-y-1.5">
-        {weapons.map((w) => (
-          <div key={w.name} className="rounded-lg border border-white/8 bg-black/20 px-2.5 py-2 text-caption">
-            <p className="font-medium text-bone">{w.name}</p>
-            <p className="mt-0.5 text-muted">
-              {[w.range, w.A && `A${w.A}`, w.BS && `BS${w.BS}`, w.WS && `WS${w.WS}`, `S${w.S}`, `AP${w.AP}`, `D${w.D}`]
-                .filter(Boolean)
-                .join(' · ')}
-            </p>
-            {w.keywords.length > 0 && (
-              <p className="mt-1 text-micro text-accent-dim">{w.keywords.join(', ')}</p>
-            )}
-          </div>
-        ))}
-      </div>
     </div>
   )
 }

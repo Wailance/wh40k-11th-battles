@@ -1,0 +1,2501 @@
+{
+  "slug": "chaos-space-marines",
+  "name": "Chaos Space Marines",
+  "version": "1.0",
+  "firstSeen": "2026-06-17",
+  "detachments": [
+    {
+      "name": "Cabal Of Chaos",
+      "dp": 1,
+      "objective": "DISRUPTION",
+      "enhancements": [
+        {
+          "name": "Conduit of Chaos",
+          "points": 20,
+          "detachment": "Cabal Of Chaos"
+        },
+        {
+          "name": "Touched by the Warp",
+          "points": 10,
+          "detachment": "Cabal Of Chaos"
+        }
+      ]
+    },
+    {
+      "name": "Chaos Cult",
+      "dp": 2,
+      "objective": "PRIORITY ASSETS",
+      "enhancements": [
+        {
+          "name": "Amulet of Tainted Vigour",
+          "points": 20,
+          "detachment": "Chaos Cult"
+        },
+        {
+          "name": "Cultist’s Brand",
+          "points": 30,
+          "detachment": "Chaos Cult"
+        },
+        {
+          "name": "Incendiary Goad",
+          "points": 25,
+          "detachment": "Chaos Cult"
+        },
+        {
+          "name": "Warped Foresight",
+          "points": 10,
+          "detachment": "Chaos Cult"
+        }
+      ]
+    },
+    {
+      "name": "Creations Of Bile",
+      "dp": 3,
+      "objective": "PURGE THE FOE",
+      "enhancements": [
+        {
+          "name": "Helm of All-Seeing",
+          "points": 25,
+          "detachment": "Creations Of Bile"
+        },
+        {
+          "name": "Living Carapace",
+          "points": 15,
+          "detachment": "Creations Of Bile"
+        },
+        {
+          "name": "Prime Test Subject",
+          "points": 35,
+          "detachment": "Creations Of Bile"
+        },
+        {
+          "name": "Surgical Precision",
+          "points": 10,
+          "detachment": "Creations Of Bile"
+        }
+      ]
+    },
+    {
+      "name": "Cult Of The Arkifane",
+      "dp": 2,
+      "objective": "PRIORITY ASSETS",
+      "enhancements": [
+        {
+          "name": "Crown of Worms",
+          "points": 15,
+          "detachment": "Cult Of The Arkifane"
+        },
+        {
+          "name": "Cybinfernal Font",
+          "points": 20,
+          "detachment": "Cult Of The Arkifane"
+        },
+        {
+          "name": "Mark of the Soul Forges",
+          "points": 20,
+          "detachment": "Cult Of The Arkifane"
+        },
+        {
+          "name": "Wyredjinn",
+          "points": 25,
+          "detachment": "Cult Of The Arkifane"
+        }
+      ]
+    },
+    {
+      "name": "Deceptors",
+      "dp": 2,
+      "objective": "DISRUPTION",
+      "enhancements": [
+        {
+          "name": "Cursed Fang",
+          "points": 10,
+          "detachment": "Deceptors"
+        },
+        {
+          "name": "Falsehood",
+          "points": 10,
+          "detachment": "Deceptors"
+        },
+        {
+          "name": "Shroud of Obfuscation",
+          "points": 15,
+          "detachment": "Deceptors"
+        },
+        {
+          "name": "Soul Link",
+          "points": 5,
+          "detachment": "Deceptors"
+        }
+      ]
+    },
+    {
+      "name": "Devotees Of Destruction",
+      "dp": 1,
+      "objective": "PRIORITY ASSETS",
+      "enhancements": [
+        {
+          "name": "Eye of Oblivion",
+          "points": 20,
+          "detachment": "Devotees Of Destruction"
+        },
+        {
+          "name": "Pact of Destruction",
+          "points": 15,
+          "detachment": "Devotees Of Destruction"
+        }
+      ]
+    },
+    {
+      "name": "Dread Talons",
+      "dp": 2,
+      "objective": "DISRUPTION",
+      "enhancements": [
+        {
+          "name": "Eater of Dread",
+          "points": 15,
+          "detachment": "Dread Talons"
+        },
+        {
+          "name": "Night’s Shroud",
+          "points": 10,
+          "detachment": "Dread Talons"
+        },
+        {
+          "name": "Warp-Fuelled Thrusters",
+          "points": 20,
+          "detachment": "Dread Talons"
+        },
+        {
+          "name": "Willbreaker",
+          "points": 10,
+          "detachment": "Dread Talons"
+        }
+      ]
+    },
+    {
+      "name": "Fellhammer Siege-Host",
+      "dp": 2,
+      "objective": "TAKE AND HOLD",
+      "enhancements": [
+        {
+          "name": "Bastion Plate",
+          "points": 10,
+          "detachment": "Fellhammer Siege-Host"
+        },
+        {
+          "name": "Iron Artifice",
+          "points": 10,
+          "detachment": "Fellhammer Siege-Host"
+        },
+        {
+          "name": "Ironbound Enmity",
+          "points": 15,
+          "detachment": "Fellhammer Siege-Host"
+        },
+        {
+          "name": "Warp Tracer",
+          "points": 20,
+          "detachment": "Fellhammer Siege-Host"
+        }
+      ]
+    },
+    {
+      "name": "Huron’S Marauders",
+      "dp": 3,
+      "objective": "DISRUPTION",
+      "enhancements": [
+        {
+          "name": "Dread Reputation",
+          "points": 25,
+          "detachment": "Huron’S Marauders"
+        },
+        {
+          "name": "Eager for Bloodshed",
+          "points": 30,
+          "detachment": "Huron’S Marauders"
+        },
+        {
+          "name": "Raid Leader",
+          "points": 20,
+          "detachment": "Huron’S Marauders"
+        },
+        {
+          "name": "Voice of the Tyrant",
+          "points": 25,
+          "detachment": "Huron’S Marauders"
+        }
+      ]
+    },
+    {
+      "name": "Murdertalon Raiders",
+      "dp": 1,
+      "objective": "PURGE THE FOE",
+      "enhancements": [
+        {
+          "name": "Pact of Cursed Pinions",
+          "points": 20,
+          "detachment": "Murdertalon Raiders"
+        },
+        {
+          "name": "Shadowcowl Talisman",
+          "points": 20,
+          "detachment": "Murdertalon Raiders"
+        }
+      ]
+    },
+    {
+      "name": "Nightmare Hunt",
+      "dp": 2,
+      "objective": "DISRUPTION",
+      "enhancements": [
+        {
+          "name": "Greyveil Hex",
+          "points": 25,
+          "detachment": "Nightmare Hunt"
+        },
+        {
+          "name": "Sorrowscent Vulture",
+          "points": 35,
+          "detachment": "Nightmare Hunt"
+        },
+        {
+          "name": "Terrorglut Parasite",
+          "points": 20,
+          "detachment": "Nightmare Hunt"
+        },
+        {
+          "name": "Warp-Fuelled Thrusters",
+          "points": 20,
+          "detachment": "Nightmare Hunt"
+        }
+      ]
+    },
+    {
+      "name": "Pactbound Zealots",
+      "dp": 3,
+      "objective": "PRIORITY ASSETS",
+      "enhancements": [
+        {
+          "name": "Eye of Tzeentch",
+          "points": 15,
+          "detachment": "Pactbound Zealots"
+        },
+        {
+          "name": "Intoxicating Elixir",
+          "points": 15,
+          "detachment": "Pactbound Zealots"
+        },
+        {
+          "name": "Orbs of Unlife",
+          "points": 15,
+          "detachment": "Pactbound Zealots"
+        },
+        {
+          "name": "Talisman of Burning Blood",
+          "points": 15,
+          "detachment": "Pactbound Zealots"
+        }
+      ]
+    },
+    {
+      "name": "Renegade Raiders",
+      "dp": 3,
+      "objective": "RECONNAISSANCE",
+      "enhancements": [
+        {
+          "name": "Despot’s Claim",
+          "points": 15,
+          "detachment": "Renegade Raiders"
+        },
+        {
+          "name": "Dread Reaver",
+          "points": 15,
+          "detachment": "Renegade Raiders"
+        },
+        {
+          "name": "Mark of the Hound",
+          "points": 25,
+          "detachment": "Renegade Raiders"
+        },
+        {
+          "name": "Tyrant’s Lash",
+          "points": 20,
+          "detachment": "Renegade Raiders"
+        }
+      ]
+    },
+    {
+      "name": "Renegade Warband",
+      "dp": 2,
+      "objective": "PRIORITY ASSETS",
+      "enhancements": [
+        {
+          "name": "Empyric Symbiote",
+          "points": 15,
+          "detachment": "Renegade Warband"
+        },
+        {
+          "name": "Eyes of the Hunter",
+          "points": 15,
+          "detachment": "Renegade Warband"
+        },
+        {
+          "name": "Fratricidal Trophies",
+          "points": 5,
+          "detachment": "Renegade Warband"
+        },
+        {
+          "name": "Weaponised Hatred",
+          "points": 35,
+          "detachment": "Renegade Warband"
+        }
+      ]
+    },
+    {
+      "name": "Soulforged Warpack",
+      "dp": 2,
+      "objective": "PURGE THE FOE",
+      "enhancements": [
+        {
+          "name": "Forge’s Blessing",
+          "points": 20,
+          "detachment": "Soulforged Warpack"
+        },
+        {
+          "name": "Invigorated Mechatendrils",
+          "points": 15,
+          "detachment": "Soulforged Warpack"
+        },
+        {
+          "name": "Soul Harvester",
+          "points": 15,
+          "detachment": "Soulforged Warpack"
+        },
+        {
+          "name": "Tempting Addendum",
+          "points": 25,
+          "detachment": "Soulforged Warpack"
+        }
+      ]
+    },
+    {
+      "name": "Veterans Of The Long War",
+      "dp": 2,
+      "objective": "TAKE AND HOLD",
+      "enhancements": [
+        {
+          "name": "Eager for Vengeance",
+          "points": 20,
+          "detachment": "Veterans Of The Long War"
+        },
+        {
+          "name": "Eye of Abaddon",
+          "points": 15,
+          "detachment": "Veterans Of The Long War"
+        },
+        {
+          "name": "Mark of Legend",
+          "points": 10,
+          "detachment": "Veterans Of The Long War"
+        },
+        {
+          "name": "Warmaster’s Gift",
+          "points": 15,
+          "detachment": "Veterans Of The Long War"
+        }
+      ]
+    },
+    {
+      "name": "Warpstrike Champions",
+      "dp": 2,
+      "objective": "DISRUPTION",
+      "enhancements": [
+        {
+          "name": "Akshur’s Binding Runes",
+          "points": 20,
+          "detachment": "Warpstrike Champions"
+        },
+        {
+          "name": "Eye of the Warp",
+          "points": 15,
+          "detachment": "Warpstrike Champions"
+        },
+        {
+          "name": "Infernal Fulgurite",
+          "points": 20,
+          "detachment": "Warpstrike Champions"
+        },
+        {
+          "name": "Tzagulla",
+          "points": 25,
+          "detachment": "Warpstrike Champions"
+        }
+      ]
+    }
+  ],
+  "units": [
+    {
+      "name": "Abaddon The Despoiler",
+      "normalizedName": "abaddon the despoiler",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 285
+            }
+          ]
+        }
+      ],
+      "points": 285,
+      "pointsLabel": "285",
+      "legends": false,
+      "role": "leader",
+      "attachTo": [
+        "Chaos Terminator Squad",
+        "Chosen"
+      ]
+    },
+    {
+      "name": "Accursed Cultists",
+      "normalizedName": "accursed cultists",
+      "pricing": [
+        {
+          "range": "[1,1]",
+          "label": "Your 1st Unit Costs",
+          "costs": [
+            {
+              "models": 8,
+              "points": 90
+            },
+            {
+              "models": 16,
+              "points": 195
+            }
+          ]
+        },
+        {
+          "range": "[2,)",
+          "label": "Your 2nd + Unit Costs",
+          "costs": [
+            {
+              "models": 8,
+              "points": 110
+            },
+            {
+              "models": 16,
+              "points": 215
+            }
+          ]
+        }
+      ],
+      "points": 90,
+      "pointsLabel": "90/195",
+      "legends": false
+    },
+    {
+      "name": "Blood Slaughterer",
+      "normalizedName": "blood slaughterer",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 160
+            }
+          ]
+        }
+      ],
+      "points": 160,
+      "pointsLabel": "160",
+      "legends": true
+    },
+    {
+      "name": "Chaos Bikers",
+      "normalizedName": "chaos bikers",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 3,
+              "points": 70
+            },
+            {
+              "models": 6,
+              "points": 130
+            }
+          ]
+        }
+      ],
+      "points": 70,
+      "pointsLabel": "70/130",
+      "legends": false
+    },
+    {
+      "name": "Chaos Deimos Predator",
+      "normalizedName": "chaos deimos predator",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 115
+            }
+          ]
+        }
+      ],
+      "points": 115,
+      "pointsLabel": "115",
+      "legends": true
+    },
+    {
+      "name": "Chaos Land Raider",
+      "normalizedName": "chaos land raider",
+      "pricing": [
+        {
+          "range": "[1,2]",
+          "label": "Your 1st To 2nd Units Cost",
+          "costs": [
+            {
+              "models": 1,
+              "points": 220
+            }
+          ]
+        },
+        {
+          "range": "[3,)",
+          "label": "Your 3rd + Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 240
+            }
+          ]
+        }
+      ],
+      "points": 220,
+      "pointsLabel": "220",
+      "legends": false
+    },
+    {
+      "name": "Chaos Lord",
+      "normalizedName": "chaos lord",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 90
+            }
+          ]
+        }
+      ],
+      "points": 90,
+      "pointsLabel": "90",
+      "legends": false,
+      "role": "leader",
+      "attachTo": [
+        "Chosen",
+        "Legionaries",
+        "Nemesis Claw",
+        "Red Corsairs Raiders"
+      ]
+    },
+    {
+      "name": "Chaos Lord In Terminator Armour",
+      "normalizedName": "chaos lord in terminator armour",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 85
+            }
+          ]
+        }
+      ],
+      "points": 85,
+      "pointsLabel": "85",
+      "legends": false,
+      "role": "leader",
+      "attachTo": [
+        "Chaos Terminator Squad"
+      ]
+    },
+    {
+      "name": "Chaos Lord On Bike",
+      "normalizedName": "chaos lord on bike",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 95
+            }
+          ]
+        }
+      ],
+      "points": 95,
+      "pointsLabel": "95",
+      "legends": true,
+      "role": "leader",
+      "attachTo": [
+        "Chaos Bikers"
+      ]
+    },
+    {
+      "name": "Chaos Lord On Disc Of Tzeentch",
+      "normalizedName": "chaos lord on disc of tzeentch",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 100
+            }
+          ]
+        }
+      ],
+      "points": 100,
+      "pointsLabel": "100",
+      "legends": true,
+      "role": "leader",
+      "attachTo": [
+        "Chosen",
+        "Legionaries"
+      ]
+    },
+    {
+      "name": "Chaos Lord On Juggernaut",
+      "normalizedName": "chaos lord on juggernaut",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 115
+            }
+          ]
+        }
+      ],
+      "points": 115,
+      "pointsLabel": "115",
+      "legends": true,
+      "role": "leader",
+      "attachTo": [
+        "Chaos Bikers"
+      ]
+    },
+    {
+      "name": "Chaos Lord On Palanquin Of Nurgle",
+      "normalizedName": "chaos lord on palanquin of nurgle",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 90
+            }
+          ]
+        }
+      ],
+      "points": 90,
+      "pointsLabel": "90",
+      "legends": true,
+      "role": "leader",
+      "attachTo": [
+        "Chosen",
+        "Legionaries"
+      ]
+    },
+    {
+      "name": "Chaos Lord On Steed Of Slaanesh",
+      "normalizedName": "chaos lord on steed of slaanesh",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 100
+            }
+          ]
+        }
+      ],
+      "points": 100,
+      "pointsLabel": "100",
+      "legends": true,
+      "role": "leader",
+      "attachTo": [
+        "Chaos Bikers"
+      ]
+    },
+    {
+      "name": "Chaos Lord With Jump Pack",
+      "normalizedName": "chaos lord with jump pack",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 90
+            }
+          ]
+        }
+      ],
+      "points": 90,
+      "pointsLabel": "90",
+      "legends": false,
+      "role": "leader",
+      "attachTo": [
+        "Raptors"
+      ]
+    },
+    {
+      "name": "Chaos Predator Annihilator",
+      "normalizedName": "chaos predator annihilator",
+      "pricing": [
+        {
+          "range": "[1,2]",
+          "label": "Your 1st To 2nd Units Cost",
+          "costs": [
+            {
+              "models": 1,
+              "points": 135
+            }
+          ]
+        },
+        {
+          "range": "[3,)",
+          "label": "Your 3rd + Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 145
+            }
+          ]
+        }
+      ],
+      "points": 135,
+      "pointsLabel": "135",
+      "legends": false
+    },
+    {
+      "name": "Chaos Predator Destructor",
+      "normalizedName": "chaos predator destructor",
+      "pricing": [
+        {
+          "range": "[1,2]",
+          "label": "Your 1st To 2nd Units Cost",
+          "costs": [
+            {
+              "models": 1,
+              "points": 140
+            }
+          ]
+        },
+        {
+          "range": "[3,)",
+          "label": "Your 3rd + Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 150
+            }
+          ]
+        }
+      ],
+      "points": 140,
+      "pointsLabel": "140",
+      "legends": false
+    },
+    {
+      "name": "Chaos Rhino",
+      "normalizedName": "chaos rhino",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 75
+            }
+          ]
+        }
+      ],
+      "points": 75,
+      "pointsLabel": "75",
+      "legends": false
+    },
+    {
+      "name": "Chaos Spawn",
+      "normalizedName": "chaos spawn",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 2,
+              "points": 60
+            }
+          ]
+        }
+      ],
+      "points": 60,
+      "pointsLabel": "60",
+      "legends": false
+    },
+    {
+      "name": "Chaos Terminator Squad",
+      "normalizedName": "chaos terminator squad",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 5,
+              "points": 180
+            },
+            {
+              "models": 10,
+              "points": 360
+            }
+          ]
+        }
+      ],
+      "points": 180,
+      "pointsLabel": "180/360",
+      "legends": false
+    },
+    {
+      "name": "Chaos Thunderhawk",
+      "normalizedName": "chaos thunderhawk",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 840
+            }
+          ]
+        }
+      ],
+      "points": 840,
+      "pointsLabel": "840",
+      "legends": true
+    },
+    {
+      "name": "Chaos Vindicator",
+      "normalizedName": "chaos vindicator",
+      "pricing": [
+        {
+          "range": "[1,2]",
+          "label": "Your 1st To 2nd Units Cost",
+          "costs": [
+            {
+              "models": 1,
+              "points": 185
+            }
+          ]
+        },
+        {
+          "range": "[3,)",
+          "label": "Your 3rd + Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 195
+            }
+          ]
+        }
+      ],
+      "points": 185,
+      "pointsLabel": "185",
+      "legends": false
+    },
+    {
+      "name": "Chosen",
+      "normalizedName": "chosen",
+      "pricing": [
+        {
+          "range": "[1,1]",
+          "label": "Your 1st Unit Costs",
+          "costs": [
+            {
+              "models": 5,
+              "points": 125
+            },
+            {
+              "models": 10,
+              "points": 250
+            }
+          ]
+        },
+        {
+          "range": "[2,)",
+          "label": "Your 2nd + Unit Costs",
+          "costs": [
+            {
+              "models": 5,
+              "points": 135
+            },
+            {
+              "models": 10,
+              "points": 260
+            }
+          ]
+        }
+      ],
+      "points": 125,
+      "pointsLabel": "125/250",
+      "legends": false
+    },
+    {
+      "name": "Cultist Firebrand",
+      "normalizedName": "cultist firebrand",
+      "pricing": [
+        {
+          "range": "[1,2]",
+          "label": "Your 1st To 2nd Units Cost",
+          "costs": [
+            {
+              "models": 1,
+              "points": 45
+            }
+          ]
+        },
+        {
+          "range": "[3,)",
+          "label": "Your 3rd + Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 50
+            }
+          ]
+        }
+      ],
+      "points": 45,
+      "pointsLabel": "45",
+      "legends": false,
+      "role": "leader",
+      "attachTo": [
+        "Accursed Cultists",
+        "Cultist Mob",
+        "Cultist Mob With Firearms",
+        "Negavolt Cultists"
+      ]
+    },
+    {
+      "name": "Cultist Mob",
+      "normalizedName": "cultist mob",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 10,
+              "points": 50
+            },
+            {
+              "models": 20,
+              "points": 90
+            }
+          ]
+        }
+      ],
+      "points": 50,
+      "pointsLabel": "50/90",
+      "legends": false
+    },
+    {
+      "name": "Cultist Mob With Firearms",
+      "normalizedName": "cultist mob with firearms",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 10,
+              "points": 50
+            },
+            {
+              "models": 20,
+              "points": 100
+            }
+          ]
+        }
+      ],
+      "points": 50,
+      "pointsLabel": "50/100",
+      "legends": true
+    },
+    {
+      "name": "Cypher",
+      "normalizedName": "cypher",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 90
+            }
+          ]
+        }
+      ],
+      "points": 90,
+      "pointsLabel": "90",
+      "legends": false
+    },
+    {
+      "name": "Dark Apostle",
+      "normalizedName": "dark apostle",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 3,
+              "points": 65
+            }
+          ]
+        }
+      ],
+      "points": 65,
+      "pointsLabel": "65",
+      "legends": false,
+      "role": "leader",
+      "attachTo": [
+        "Accursed Cultists",
+        "Chosen",
+        "Cultist Mob",
+        "Cultist Mob With Firearms",
+        "Legionaries",
+        "Negavolt Cultists",
+        "Nemesis Claw",
+        "Red Corsairs Raiders"
+      ]
+    },
+    {
+      "name": "Dark Commune",
+      "normalizedName": "dark commune",
+      "pricing": [
+        {
+          "range": "[1,1]",
+          "label": "Your 1st Unit Costs",
+          "costs": [
+            {
+              "models": 5,
+              "points": 90
+            }
+          ]
+        },
+        {
+          "range": "[2,)",
+          "label": "Your 2nd + Unit Costs",
+          "costs": [
+            {
+              "models": 5,
+              "points": 100
+            }
+          ]
+        }
+      ],
+      "points": 90,
+      "pointsLabel": "90",
+      "legends": false,
+      "role": "leader",
+      "attachTo": [
+        "Accursed Cultists",
+        "Cultist Mob",
+        "Cultist Mob With Firearms",
+        "Negavolt Cultists"
+      ]
+    },
+    {
+      "name": "Decimator",
+      "normalizedName": "decimator",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 165
+            }
+          ]
+        }
+      ],
+      "points": 165,
+      "pointsLabel": "165",
+      "legends": true
+    },
+    {
+      "name": "Defiler",
+      "normalizedName": "defiler",
+      "pricing": [
+        {
+          "range": "[1,1]",
+          "label": "Your 1st Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 300
+            }
+          ]
+        },
+        {
+          "range": "[2,)",
+          "label": "Your 2nd + Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 330
+            }
+          ]
+        }
+      ],
+      "points": 300,
+      "pointsLabel": "300",
+      "legends": false
+    },
+    {
+      "name": "Dreadclaw Drop Pod",
+      "normalizedName": "dreadclaw drop pod",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 115
+            }
+          ]
+        }
+      ],
+      "points": 115,
+      "pointsLabel": "115",
+      "legends": true
+    },
+    {
+      "name": "Exalted Champion",
+      "normalizedName": "exalted champion",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 70
+            }
+          ]
+        }
+      ],
+      "points": 70,
+      "pointsLabel": "70",
+      "legends": true,
+      "role": "support",
+      "attachTo": [
+        "Chosen",
+        "Legionaries"
+      ]
+    },
+    {
+      "name": "Fabius Bile",
+      "normalizedName": "fabius bile",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 2,
+              "points": 100
+            }
+          ]
+        }
+      ],
+      "points": 100,
+      "pointsLabel": "100",
+      "legends": false,
+      "role": "leader",
+      "attachTo": [
+        "Accursed Cultists",
+        "Chosen",
+        "Cultist Mob",
+        "Cultist Mob With Firearms",
+        "Legionaries",
+        "Negavolt Cultists",
+        "Red Corsairs Raiders"
+      ]
+    },
+    {
+      "name": "Fellgor Beastmen",
+      "normalizedName": "fellgor beastmen",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 10,
+              "points": 60
+            }
+          ]
+        }
+      ],
+      "points": 60,
+      "pointsLabel": "60",
+      "legends": false
+    },
+    {
+      "name": "Forgefiend",
+      "normalizedName": "forgefiend",
+      "pricing": [
+        {
+          "range": "[1,2]",
+          "label": "Your 1st To 2nd Units Cost",
+          "costs": [
+            {
+              "models": 1,
+              "points": 160
+            }
+          ]
+        },
+        {
+          "range": "[3,)",
+          "label": "Your 3rd + Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 170
+            }
+          ]
+        }
+      ],
+      "points": 160,
+      "pointsLabel": "160",
+      "legends": false
+    },
+    {
+      "name": "Gellerpox Infected",
+      "normalizedName": "gellerpox infected",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 7,
+              "points": 125
+            }
+          ]
+        }
+      ],
+      "points": 125,
+      "pointsLabel": "125",
+      "legends": true
+    },
+    {
+      "name": "Greater Blight Drone",
+      "normalizedName": "greater blight drone",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 150
+            }
+          ]
+        }
+      ],
+      "points": 150,
+      "pointsLabel": "150",
+      "legends": true
+    },
+    {
+      "name": "Greater Brass Scorpion",
+      "normalizedName": "greater brass scorpion",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 500
+            }
+          ]
+        }
+      ],
+      "points": 500,
+      "pointsLabel": "500",
+      "legends": true
+    },
+    {
+      "name": "Haarken Worldclaimer",
+      "normalizedName": "haarken worldclaimer",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 90
+            }
+          ]
+        }
+      ],
+      "points": 90,
+      "pointsLabel": "90",
+      "legends": false,
+      "role": "leader",
+      "attachTo": [
+        "Raptors"
+      ]
+    },
+    {
+      "name": "Havocs",
+      "normalizedName": "havocs",
+      "pricing": [
+        {
+          "range": "[1,2]",
+          "label": "Your 1st To 2nd Units Cost",
+          "costs": [
+            {
+              "models": 5,
+              "points": 125
+            }
+          ]
+        },
+        {
+          "range": "[3,)",
+          "label": "Your 3rd + Unit Costs",
+          "costs": [
+            {
+              "models": 5,
+              "points": 135
+            }
+          ]
+        }
+      ],
+      "points": 125,
+      "pointsLabel": "125",
+      "legends": false
+    },
+    {
+      "name": "Helbrute",
+      "normalizedName": "helbrute",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 130
+            }
+          ]
+        }
+      ],
+      "points": 130,
+      "pointsLabel": "130",
+      "legends": false
+    },
+    {
+      "name": "Heldrake",
+      "normalizedName": "heldrake",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 175
+            }
+          ]
+        }
+      ],
+      "points": 175,
+      "pointsLabel": "175",
+      "legends": false
+    },
+    {
+      "name": "Hell Blade",
+      "normalizedName": "hell blade",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 115
+            }
+          ]
+        }
+      ],
+      "points": 115,
+      "pointsLabel": "115",
+      "legends": true
+    },
+    {
+      "name": "Hell Talon",
+      "normalizedName": "hell talon",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 140
+            }
+          ]
+        }
+      ],
+      "points": 140,
+      "pointsLabel": "140",
+      "legends": true
+    },
+    {
+      "name": "Heretic Astartes Daemon Prince",
+      "normalizedName": "heretic astartes daemon prince",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 165
+            }
+          ]
+        }
+      ],
+      "points": 165,
+      "pointsLabel": "165",
+      "legends": false
+    },
+    {
+      "name": "Heretic Astartes Daemon Prince With Wings",
+      "normalizedName": "heretic astartes daemon prince with wings",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 180
+            }
+          ]
+        }
+      ],
+      "points": 180,
+      "pointsLabel": "180",
+      "legends": false
+    },
+    {
+      "name": "Huron Blackheart",
+      "normalizedName": "huron blackheart",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 120
+            }
+          ]
+        }
+      ],
+      "points": 120,
+      "pointsLabel": "120",
+      "legends": false,
+      "role": "leader",
+      "attachTo": [
+        "Chaos Terminator Squad",
+        "Chosen",
+        "Legionaries",
+        "Masters Of The Maelstrom",
+        "Red Corsairs Raiders"
+      ]
+    },
+    {
+      "name": "Kharybdis Assault Claw",
+      "normalizedName": "kharybdis assault claw",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 300
+            }
+          ]
+        }
+      ],
+      "points": 300,
+      "pointsLabel": "300",
+      "legends": true
+    },
+    {
+      "name": "Khorne Lord Of Skulls",
+      "normalizedName": "khorne lord of skulls",
+      "pricing": [
+        {
+          "range": "[1,1]",
+          "label": "Your 1st Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 450
+            }
+          ]
+        },
+        {
+          "range": "[2,)",
+          "label": "Your 2nd + Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 475
+            }
+          ]
+        }
+      ],
+      "points": 450,
+      "pointsLabel": "450",
+      "legends": false
+    },
+    {
+      "name": "Kravek Morne",
+      "normalizedName": "kravek morne",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 120
+            }
+          ]
+        }
+      ],
+      "points": 120,
+      "pointsLabel": "120",
+      "legends": false,
+      "role": "leader",
+      "attachTo": [
+        "Chaos Terminator Squad",
+        "Mutilators",
+        "Obliterators"
+      ]
+    },
+    {
+      "name": "Kytan Ravager",
+      "normalizedName": "kytan ravager",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 400
+            }
+          ]
+        }
+      ],
+      "points": 400,
+      "pointsLabel": "400",
+      "legends": true
+    },
+    {
+      "name": "Legionaries",
+      "normalizedName": "legionaries",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 5,
+              "points": 90
+            },
+            {
+              "models": 10,
+              "points": 170
+            }
+          ]
+        }
+      ],
+      "points": 90,
+      "pointsLabel": "90/170",
+      "legends": false
+    },
+    {
+      "name": "Lord Discordant On Helstalker",
+      "normalizedName": "lord discordant on helstalker",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 160
+            }
+          ]
+        }
+      ],
+      "points": 160,
+      "pointsLabel": "160",
+      "legends": false
+    },
+    {
+      "name": "Master Of Executions",
+      "normalizedName": "master of executions",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 70
+            }
+          ]
+        }
+      ],
+      "points": 70,
+      "pointsLabel": "70",
+      "legends": false,
+      "role": "support",
+      "attachTo": [
+        "Chosen",
+        "Legionaries",
+        "Nemesis Claw",
+        "Red Corsairs Raiders"
+      ]
+    },
+    {
+      "name": "Master Of Possession",
+      "normalizedName": "master of possession",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 60
+            }
+          ]
+        }
+      ],
+      "points": 60,
+      "pointsLabel": "60",
+      "legends": false,
+      "role": "leader",
+      "attachTo": [
+        "Chosen",
+        "Legionaries",
+        "Nemesis Claw",
+        "Possessed",
+        "Red Corsairs Raiders"
+      ]
+    },
+    {
+      "name": "Masters Of The Maelstrom",
+      "normalizedName": "masters of the maelstrom",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 5,
+              "points": 135
+            }
+          ]
+        }
+      ],
+      "points": 135,
+      "pointsLabel": "135",
+      "legends": false,
+      "role": "support",
+      "attachTo": [
+        "Chosen",
+        "Legionaries",
+        "Red Corsairs Raiders"
+      ]
+    },
+    {
+      "name": "Maulerfiend",
+      "normalizedName": "maulerfiend",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 130
+            }
+          ]
+        }
+      ],
+      "points": 130,
+      "pointsLabel": "130",
+      "legends": false
+    },
+    {
+      "name": "Mutilators",
+      "normalizedName": "mutilators",
+      "pricing": [
+        {
+          "range": "[1,2]",
+          "label": "Your 1st To 2nd Units Cost",
+          "costs": [
+            {
+              "models": 3,
+              "points": 180
+            }
+          ]
+        },
+        {
+          "range": "[3,)",
+          "label": "Your 3rd + Unit Costs",
+          "costs": [
+            {
+              "models": 3,
+              "points": 190
+            }
+          ]
+        }
+      ],
+      "points": 180,
+      "pointsLabel": "180",
+      "legends": false
+    },
+    {
+      "name": "Mutoid Vermin",
+      "normalizedName": "mutoid vermin",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 16,
+              "points": 85
+            }
+          ]
+        }
+      ],
+      "points": 85,
+      "pointsLabel": "85",
+      "legends": true
+    },
+    {
+      "name": "Negavolt Cultists",
+      "normalizedName": "negavolt cultists",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 4,
+              "points": 55
+            }
+          ]
+        }
+      ],
+      "points": 55,
+      "pointsLabel": "55",
+      "legends": true
+    },
+    {
+      "name": "Nemesis Claw",
+      "normalizedName": "nemesis claw",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 5,
+              "points": 110
+            },
+            {
+              "models": 10,
+              "points": 190
+            }
+          ]
+        }
+      ],
+      "points": 110,
+      "pointsLabel": "110/190",
+      "legends": false
+    },
+    {
+      "name": "Noctilith Crown",
+      "normalizedName": "noctilith crown",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 125
+            }
+          ]
+        }
+      ],
+      "points": 125,
+      "pointsLabel": "125",
+      "legends": false
+    },
+    {
+      "name": "Obliterators",
+      "normalizedName": "obliterators",
+      "pricing": [
+        {
+          "range": "[1,2]",
+          "label": "Your 1st To 2nd Units Cost",
+          "costs": [
+            {
+              "models": 2,
+              "points": 160
+            }
+          ]
+        },
+        {
+          "range": "[3,)",
+          "label": "Your 3rd + Unit Costs",
+          "costs": [
+            {
+              "models": 2,
+              "points": 170
+            }
+          ]
+        }
+      ],
+      "points": 160,
+      "pointsLabel": "160",
+      "legends": false
+    },
+    {
+      "name": "Possessed",
+      "normalizedName": "possessed",
+      "pricing": [
+        {
+          "range": "[1,2]",
+          "label": "Your 1st To 2nd Units Cost",
+          "costs": [
+            {
+              "models": 5,
+              "points": 120
+            },
+            {
+              "models": 10,
+              "points": 250
+            }
+          ]
+        },
+        {
+          "range": "[3,)",
+          "label": "Your 3rd + Unit Costs",
+          "costs": [
+            {
+              "models": 5,
+              "points": 130
+            },
+            {
+              "models": 10,
+              "points": 260
+            }
+          ]
+        }
+      ],
+      "points": 120,
+      "pointsLabel": "120/250",
+      "legends": false
+    },
+    {
+      "name": "Raptors",
+      "normalizedName": "raptors",
+      "pricing": [
+        {
+          "range": "[1,2]",
+          "label": "Your 1st To 2nd Units Cost",
+          "costs": [
+            {
+              "models": 5,
+              "points": 110
+            },
+            {
+              "models": 10,
+              "points": 210
+            }
+          ]
+        },
+        {
+          "range": "[3,)",
+          "label": "Your 3rd + Unit Costs",
+          "costs": [
+            {
+              "models": 5,
+              "points": 120
+            },
+            {
+              "models": 10,
+              "points": 220
+            }
+          ]
+        }
+      ],
+      "points": 110,
+      "pointsLabel": "110/210",
+      "legends": false
+    },
+    {
+      "name": "Red Corsairs Raiders",
+      "normalizedName": "red corsairs raiders",
+      "pricing": [
+        {
+          "range": "[1,2]",
+          "label": "Your 1st To 2nd Units Cost",
+          "costs": [
+            {
+              "models": 5,
+              "points": 110
+            },
+            {
+              "models": 10,
+              "points": 210
+            }
+          ]
+        },
+        {
+          "range": "[3,)",
+          "label": "Your 3rd + Unit Costs",
+          "costs": [
+            {
+              "models": 5,
+              "points": 120
+            },
+            {
+              "models": 10,
+              "points": 220
+            }
+          ]
+        }
+      ],
+      "points": 110,
+      "pointsLabel": "110/210",
+      "legends": false
+    },
+    {
+      "name": "Red Corsairs Reave-Captain",
+      "normalizedName": "red corsairs reave captain",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 70
+            }
+          ]
+        }
+      ],
+      "points": 70,
+      "pointsLabel": "70",
+      "legends": false,
+      "role": "leader",
+      "attachTo": [
+        "Chosen",
+        "Legionaries",
+        "Nemesis Claw",
+        "Red Corsairs Raiders"
+      ]
+    },
+    {
+      "name": "Renegade Enforcer",
+      "normalizedName": "renegade enforcer",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 65
+            }
+          ]
+        }
+      ],
+      "points": 65,
+      "pointsLabel": "65",
+      "legends": true,
+      "role": "leader",
+      "attachTo": [
+        "Renegade Heavy Weapons Squad",
+        "Traitor Guardsmen Squad"
+      ]
+    },
+    {
+      "name": "Renegade Heavy Weapons Squad",
+      "normalizedName": "renegade heavy weapons squad",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 3,
+              "points": 75
+            }
+          ]
+        }
+      ],
+      "points": 75,
+      "pointsLabel": "75",
+      "legends": true
+    },
+    {
+      "name": "Renegade Ogryn Beast Handler",
+      "normalizedName": "renegade ogryn beast handler",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 4,
+              "points": 40
+            },
+            {
+              "models": 7,
+              "points": 70
+            }
+          ]
+        }
+      ],
+      "points": 40,
+      "pointsLabel": "40/70",
+      "legends": true
+    },
+    {
+      "name": "Renegade Ogryn Brutes",
+      "normalizedName": "renegade ogryn brutes",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 3,
+              "points": 95
+            }
+          ]
+        }
+      ],
+      "points": 95,
+      "pointsLabel": "95",
+      "legends": true
+    },
+    {
+      "name": "Renegade Plague Ogryns",
+      "normalizedName": "renegade plague ogryns",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 3,
+              "points": 95
+            }
+          ]
+        }
+      ],
+      "points": 95,
+      "pointsLabel": "95",
+      "legends": true
+    },
+    {
+      "name": "Rogue Psyker",
+      "normalizedName": "rogue psyker",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 60
+            }
+          ]
+        }
+      ],
+      "points": 60,
+      "pointsLabel": "60",
+      "legends": true,
+      "role": "leader",
+      "attachTo": [
+        "Accursed Cultists",
+        "Cultist Mob",
+        "Cultist Mob With Firearms",
+        "Negavolt Cultists"
+      ]
+    },
+    {
+      "name": "Sorcerer",
+      "normalizedName": "sorcerer",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 60
+            }
+          ]
+        }
+      ],
+      "points": 60,
+      "pointsLabel": "60",
+      "legends": false,
+      "role": "leader",
+      "attachTo": [
+        "Chosen",
+        "Legionaries",
+        "Nemesis Claw",
+        "Red Corsairs Raiders"
+      ]
+    },
+    {
+      "name": "Sorcerer In Terminator Armour",
+      "normalizedName": "sorcerer in terminator armour",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 80
+            }
+          ]
+        }
+      ],
+      "points": 80,
+      "pointsLabel": "80",
+      "legends": false,
+      "role": "leader",
+      "attachTo": [
+        "Chaos Terminator Squad"
+      ]
+    },
+    {
+      "name": "Sorcerer On Bike",
+      "normalizedName": "sorcerer on bike",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 75
+            }
+          ]
+        }
+      ],
+      "points": 75,
+      "pointsLabel": "75",
+      "legends": true,
+      "role": "leader",
+      "attachTo": [
+        "Chaos Bikers"
+      ]
+    },
+    {
+      "name": "Sorcerer On Disc Of Tzeentch",
+      "normalizedName": "sorcerer on disc of tzeentch",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 80
+            }
+          ]
+        }
+      ],
+      "points": 80,
+      "pointsLabel": "80",
+      "legends": true,
+      "role": "leader",
+      "attachTo": [
+        "Chosen",
+        "Legionaries"
+      ]
+    },
+    {
+      "name": "Sorcerer On Palanquin Of Nurgle",
+      "normalizedName": "sorcerer on palanquin of nurgle",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 80
+            }
+          ]
+        }
+      ],
+      "points": 80,
+      "pointsLabel": "80",
+      "legends": true,
+      "role": "leader",
+      "attachTo": [
+        "Chosen",
+        "Legionaries"
+      ]
+    },
+    {
+      "name": "Sorcerer On Steed Of Slaanesh",
+      "normalizedName": "sorcerer on steed of slaanesh",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 85
+            }
+          ]
+        }
+      ],
+      "points": 85,
+      "pointsLabel": "85",
+      "legends": true,
+      "role": "leader",
+      "attachTo": [
+        "Chaos Bikers"
+      ]
+    },
+    {
+      "name": "Traitor Enforcer",
+      "normalizedName": "traitor enforcer",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 2,
+              "points": 70
+            }
+          ]
+        }
+      ],
+      "points": 70,
+      "pointsLabel": "70",
+      "legends": false,
+      "role": "leader",
+      "attachTo": [
+        "Traitor Guardsmen Squad"
+      ]
+    },
+    {
+      "name": "Traitor Guardsmen Squad",
+      "normalizedName": "traitor guardsmen squad",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 10,
+              "points": 70
+            }
+          ]
+        }
+      ],
+      "points": 70,
+      "pointsLabel": "70",
+      "legends": false
+    },
+    {
+      "name": "Vashtorr The Arkifane",
+      "normalizedName": "vashtorr the arkifane",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 205
+            }
+          ]
+        }
+      ],
+      "points": 205,
+      "pointsLabel": "205",
+      "legends": false
+    },
+    {
+      "name": "Venomcrawler",
+      "normalizedName": "venomcrawler",
+      "pricing": [
+        {
+          "range": "[1,2]",
+          "label": "Your 1st To 2nd Units Cost",
+          "costs": [
+            {
+              "models": 1,
+              "points": 110
+            }
+          ]
+        },
+        {
+          "range": "[3,)",
+          "label": "Your 3rd + Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 120
+            }
+          ]
+        }
+      ],
+      "points": 110,
+      "pointsLabel": "110",
+      "legends": false
+    },
+    {
+      "name": "Warp Talons",
+      "normalizedName": "warp talons",
+      "pricing": [
+        {
+          "range": "[1,2]",
+          "label": "Your 1st To 2nd Units Cost",
+          "costs": [
+            {
+              "models": 5,
+              "points": 125
+            },
+            {
+              "models": 10,
+              "points": 280
+            }
+          ]
+        },
+        {
+          "range": "[3,)",
+          "label": "Your 3rd + Unit Costs",
+          "costs": [
+            {
+              "models": 5,
+              "points": 135
+            },
+            {
+              "models": 10,
+              "points": 290
+            }
+          ]
+        }
+      ],
+      "points": 125,
+      "pointsLabel": "125/280",
+      "legends": false
+    },
+    {
+      "name": "Warpsmith",
+      "normalizedName": "warpsmith",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 60
+            }
+          ]
+        }
+      ],
+      "points": 60,
+      "pointsLabel": "60",
+      "legends": false,
+      "role": "leader",
+      "attachTo": [
+        "Chosen",
+        "Havocs",
+        "Legionaries",
+        "Nemesis Claw",
+        "Red Corsairs Raiders"
+      ]
+    }
+  ]
+}

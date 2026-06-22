@@ -36,42 +36,59 @@ export function PreBattleChecklist({
   return (
     <section className={`app-panel ${compact ? 'p-3' : 'p-4'}`}>
       <div className="mb-2 flex items-center justify-between gap-2">
-        <h2 className="font-display text-caption tracking-wide text-accent">{copy.preBattle.title}</h2>
-        <span className="text-micro tabular-nums text-muted">
+        <h2 className="font-display text-caption tracking-wide text-accent-dim">{copy.preBattle.title}</h2>
+        <span className="pre-battle-counter rounded-full px-2 py-0.5 text-micro tabular-nums">
           {done}/{PRE_BATTLE_STEPS.length}
         </span>
       </div>
       {!allDone && (
-        <p className="mb-2 text-micro leading-relaxed text-muted">{copy.preBattle.hint}</p>
+        <p className="mb-3 text-caption leading-relaxed text-muted">{copy.preBattle.hint}</p>
       )}
-      <ul className="space-y-2">
+      <ul className="motion-stagger space-y-2">
         {PRE_BATTLE_STEPS.map((step, i) => {
           const locked = i > 0 && !checks[i - 1]
+          const isDone = checks[i] ?? false
+          const isCurrent = !locked && !isDone
+          const stepClass = locked
+            ? 'pre-battle-step is-locked'
+            : isDone
+              ? 'pre-battle-step is-done'
+              : 'pre-battle-step is-current'
           return (
             <li
               key={step.id}
-              className={`motion-check-item rounded-lg border px-2 py-2 ${
-                locked ? 'border-transparent opacity-55' : 'border-white/[0.06]'
-              }`}
-              data-done={checks[i] ? 'true' : undefined}
+              className={`motion-check-item rounded-lg px-3 py-2.5 ${stepClass}`}
+              data-done={isDone ? 'true' : undefined}
             >
               <label
-                className={`flex items-start gap-2 touch-manipulation ${
+                className={`flex items-start gap-2.5 touch-manipulation ${
                   locked ? 'cursor-not-allowed' : 'cursor-pointer'
                 }`}
               >
+                <span
+                  className={`pre-battle-check mt-0.5 flex h-5 w-5 shrink-0 items-center justify-center rounded-md text-micro font-bold leading-none ${
+                    isDone ? 'is-done' : ''
+                  }`}
+                  aria-hidden
+                >
+                  {isDone ? '✓' : ''}
+                </span>
                 <input
                   type="checkbox"
-                  checked={checks[i] ?? false}
+                  checked={isDone}
                   disabled={locked}
                   onChange={() => onToggle(i)}
-                  className="mt-0.5 h-4 w-4 shrink-0 accent-[var(--color-accent)] disabled:opacity-40"
+                  className="sr-only"
                 />
                 <span className="min-w-0 flex-1">
-                  <span className="motion-check-title text-micro font-medium text-bone transition-colors duration-200">
+                  <span
+                    className={`motion-check-title text-body font-semibold transition-colors duration-200 ${
+                      isCurrent ? 'text-bone' : isDone ? 'text-accent' : 'text-muted'
+                    }`}
+                  >
                     {step.step}. {step.title}
                   </span>
-                  <span className="mt-0.5 block text-micro leading-snug text-muted">{step.body}</span>
+                  <span className="mt-0.5 block text-caption leading-snug text-muted">{step.body}</span>
                 </span>
               </label>
 
@@ -101,7 +118,7 @@ export function PreBattleChecklist({
         })}
       </ul>
       {allDone && (
-        <p className="mt-3 text-micro text-accent">
+        <p className="mt-3 text-caption text-accent">
           {copy.preBattle.readySummary(
             attacker === 1 ? player1Name : player2Name,
             firstPlayer === 1 ? player1Name : player2Name,

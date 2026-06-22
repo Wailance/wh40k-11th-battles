@@ -1,0 +1,1222 @@
+{
+  "slug": "adeptus-mechanicus",
+  "name": "Adeptus Mechanicus",
+  "version": "1.0",
+  "firstSeen": "2026-06-17",
+  "detachments": [
+    {
+      "name": "Cohort Acquisitus",
+      "dp": 1,
+      "objective": "RECONNAISSANCE",
+      "enhancements": [
+        {
+          "name": "Explorator Dispensation",
+          "points": 20,
+          "detachment": "Cohort Acquisitus"
+        },
+        {
+          "name": "Stealth-screened Cybercanids (Upgrade)",
+          "points": 15,
+          "detachment": "Cohort Acquisitus"
+        }
+      ]
+    },
+    {
+      "name": "Cohort Cybernetica",
+      "dp": 2,
+      "objective": "TAKE AND HOLD",
+      "enhancements": [
+        {
+          "name": "Arch-negator",
+          "points": 5,
+          "detachment": "Cohort Cybernetica"
+        },
+        {
+          "name": "Emotionless Clarity",
+          "points": 10,
+          "detachment": "Cohort Cybernetica"
+        },
+        {
+          "name": "Lord of Machines",
+          "points": 15,
+          "detachment": "Cohort Cybernetica"
+        },
+        {
+          "name": "Necromechanic",
+          "points": 20,
+          "detachment": "Cohort Cybernetica"
+        }
+      ]
+    },
+    {
+      "name": "Data-Psalm Conclave",
+      "dp": 2,
+      "objective": "DISRUPTION",
+      "enhancements": [
+        {
+          "name": "Data-blessed Autosermon",
+          "points": 15,
+          "detachment": "Data-Psalm Conclave"
+        },
+        {
+          "name": "Mantle of the Gnosticarch",
+          "points": 10,
+          "detachment": "Data-Psalm Conclave"
+        },
+        {
+          "name": "Mechanicus Locum",
+          "points": 5,
+          "detachment": "Data-Psalm Conclave"
+        },
+        {
+          "name": "Temporcopia",
+          "points": 20,
+          "detachment": "Data-Psalm Conclave"
+        }
+      ]
+    },
+    {
+      "name": "Eradication Cohort",
+      "dp": 3,
+      "objective": "PURGE THE FOE",
+      "enhancements": [
+        {
+          "name": "Belicosa-class Capacitor Vanes",
+          "points": 25,
+          "detachment": "Eradication Cohort"
+        },
+        {
+          "name": "Martial Signatum Amplificator",
+          "points": 15,
+          "detachment": "Eradication Cohort"
+        },
+        {
+          "name": "Omnicogitator",
+          "points": 25,
+          "detachment": "Eradication Cohort"
+        },
+        {
+          "name": "Omnissiah’s Fury",
+          "points": 10,
+          "detachment": "Eradication Cohort"
+        }
+      ]
+    },
+    {
+      "name": "Explorator Maniple",
+      "dp": 2,
+      "objective": "PRIORITY ASSETS",
+      "enhancements": [
+        {
+          "name": "Artisan",
+          "points": 10,
+          "detachment": "Explorator Maniple"
+        },
+        {
+          "name": "Genetor",
+          "points": 20,
+          "detachment": "Explorator Maniple"
+        },
+        {
+          "name": "Logis",
+          "points": 15,
+          "detachment": "Explorator Maniple"
+        },
+        {
+          "name": "Magos",
+          "points": 10,
+          "detachment": "Explorator Maniple"
+        }
+      ]
+    },
+    {
+      "name": "Haloscreed Battle Clade",
+      "dp": 3,
+      "objective": "PURGE THE FOE",
+      "enhancements": [
+        {
+          "name": "Cognitive Reinforcement",
+          "points": 30,
+          "detachment": "Haloscreed Battle Clade"
+        },
+        {
+          "name": "Inloaded Lethality",
+          "points": 15,
+          "detachment": "Haloscreed Battle Clade"
+        },
+        {
+          "name": "Sanctified Ordnance",
+          "points": 10,
+          "detachment": "Haloscreed Battle Clade"
+        },
+        {
+          "name": "Transoracular Dyad Wafers",
+          "points": 15,
+          "detachment": "Haloscreed Battle Clade"
+        }
+      ]
+    },
+    {
+      "name": "Lords Of The Forge",
+      "dp": 1,
+      "objective": "PRIORITY ASSETS",
+      "enhancements": [
+        {
+          "name": "TL-4ø9",
+          "points": 30,
+          "detachment": "Lords Of The Forge"
+        },
+        {
+          "name": "Vingh’s Wafers of Dynamism",
+          "points": 25,
+          "detachment": "Lords Of The Forge"
+        }
+      ]
+    },
+    {
+      "name": "Luminen Auto-Choir",
+      "dp": 1,
+      "objective": "DISRUPTION",
+      "enhancements": [
+        {
+          "name": "Electromiasmic Brazier",
+          "points": 10,
+          "detachment": "Luminen Auto-Choir"
+        },
+        {
+          "name": "Voltagheist Reliquary",
+          "points": 15,
+          "detachment": "Luminen Auto-Choir"
+        }
+      ]
+    },
+    {
+      "name": "Rad-Zone Corps",
+      "dp": 2,
+      "objective": "TAKE AND HOLD",
+      "enhancements": [
+        {
+          "name": "Autoclavic Denunciation",
+          "points": 15,
+          "detachment": "Rad-Zone Corps"
+        },
+        {
+          "name": "Malphonic Susurrus",
+          "points": 20,
+          "detachment": "Rad-Zone Corps"
+        },
+        {
+          "name": "Peerless Eradicator",
+          "points": 20,
+          "detachment": "Rad-Zone Corps"
+        },
+        {
+          "name": "Radial Suffusion",
+          "points": 25,
+          "detachment": "Rad-Zone Corps"
+        }
+      ]
+    },
+    {
+      "name": "Skitarii Hunter Cohort",
+      "dp": 2,
+      "objective": "RECONNAISSANCE",
+      "enhancements": [
+        {
+          "name": "Battle-sphere Uplink",
+          "points": 25,
+          "detachment": "Skitarii Hunter Cohort"
+        },
+        {
+          "name": "Cantic Thrallnet",
+          "points": 25,
+          "detachment": "Skitarii Hunter Cohort"
+        },
+        {
+          "name": "Clandestine Infiltrator",
+          "points": 15,
+          "detachment": "Skitarii Hunter Cohort"
+        },
+        {
+          "name": "Veiled Hunter",
+          "points": 10,
+          "detachment": "Skitarii Hunter Cohort"
+        }
+      ]
+    }
+  ],
+  "units": [
+    {
+      "name": "Archaeopter Fusilave",
+      "normalizedName": "archaeopter fusilave",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 160
+            }
+          ]
+        }
+      ],
+      "points": 160,
+      "pointsLabel": "160",
+      "legends": false
+    },
+    {
+      "name": "Archaeopter Stratoraptor",
+      "normalizedName": "archaeopter stratoraptor",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 185
+            }
+          ]
+        }
+      ],
+      "points": 185,
+      "pointsLabel": "185",
+      "legends": false
+    },
+    {
+      "name": "Archaeopter Transvector",
+      "normalizedName": "archaeopter transvector",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 145
+            }
+          ]
+        }
+      ],
+      "points": 145,
+      "pointsLabel": "145",
+      "legends": false
+    },
+    {
+      "name": "Belisarius Cawl",
+      "normalizedName": "belisarius cawl",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 220
+            }
+          ]
+        }
+      ],
+      "points": 220,
+      "pointsLabel": "220",
+      "legends": false
+    },
+    {
+      "name": "Corpuscarii Electro-Priests",
+      "normalizedName": "corpuscarii electro priests",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 5,
+              "points": 65
+            },
+            {
+              "models": 10,
+              "points": 130
+            }
+          ]
+        }
+      ],
+      "points": 65,
+      "pointsLabel": "65/130",
+      "legends": false
+    },
+    {
+      "name": "Cybernetica Datasmith",
+      "normalizedName": "cybernetica datasmith",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 25
+            }
+          ]
+        }
+      ],
+      "points": 25,
+      "pointsLabel": "25",
+      "legends": false,
+      "role": "support",
+      "attachTo": [
+        "Kastelan Robots"
+      ]
+    },
+    {
+      "name": "Fulgurite Electro-Priests",
+      "normalizedName": "fulgurite electro priests",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 5,
+              "points": 70
+            },
+            {
+              "models": 10,
+              "points": 140
+            }
+          ]
+        }
+      ],
+      "points": 70,
+      "pointsLabel": "70/140",
+      "legends": false
+    },
+    {
+      "name": "Hastarii Exterminators",
+      "normalizedName": "hastarii exterminators",
+      "pricing": [
+        {
+          "range": "[1,2]",
+          "label": "Your 1st To 2nd Units Cost",
+          "costs": [
+            {
+              "models": 5,
+              "points": 115
+            }
+          ]
+        },
+        {
+          "range": "[3,)",
+          "label": "Your 3rd + Unit Costs",
+          "costs": [
+            {
+              "models": 5,
+              "points": 130
+            }
+          ]
+        }
+      ],
+      "points": 115,
+      "pointsLabel": "115",
+      "legends": false
+    },
+    {
+      "name": "Hastarii Fusiliers",
+      "normalizedName": "hastarii fusiliers",
+      "pricing": [
+        {
+          "range": "[1,2]",
+          "label": "Your 1st To 2nd Units Cost",
+          "costs": [
+            {
+              "models": 5,
+              "points": 115
+            }
+          ]
+        },
+        {
+          "range": "[3,)",
+          "label": "Your 3rd + Unit Costs",
+          "costs": [
+            {
+              "models": 5,
+              "points": 130
+            }
+          ]
+        }
+      ],
+      "points": 115,
+      "pointsLabel": "115",
+      "legends": false
+    },
+    {
+      "name": "Ironstrider Ballistarii",
+      "normalizedName": "ironstrider ballistarii",
+      "pricing": [
+        {
+          "range": "[1,2]",
+          "label": "Your 1st To 2nd Units Cost",
+          "costs": [
+            {
+              "models": 1,
+              "points": 80
+            },
+            {
+              "models": 2,
+              "points": 160
+            },
+            {
+              "models": 3,
+              "points": 240
+            }
+          ]
+        },
+        {
+          "range": "[3,)",
+          "label": "Your 3rd + Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 95
+            },
+            {
+              "models": 2,
+              "points": 175
+            },
+            {
+              "models": 3,
+              "points": 255
+            }
+          ]
+        }
+      ],
+      "points": 80,
+      "pointsLabel": "80/160/240",
+      "legends": false
+    },
+    {
+      "name": "Kastelan Robots",
+      "normalizedName": "kastelan robots",
+      "pricing": [
+        {
+          "range": "[1,1]",
+          "label": "Your 1st Unit Costs",
+          "costs": [
+            {
+              "models": 2,
+              "points": 160
+            },
+            {
+              "models": 4,
+              "points": 320
+            }
+          ]
+        },
+        {
+          "range": "[2,)",
+          "label": "Your 2nd + Unit Costs",
+          "costs": [
+            {
+              "models": 2,
+              "points": 180
+            },
+            {
+              "models": 4,
+              "points": 340
+            }
+          ]
+        }
+      ],
+      "points": 160,
+      "pointsLabel": "160/320",
+      "legends": false
+    },
+    {
+      "name": "Kataphron Breachers",
+      "normalizedName": "kataphron breachers",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 3,
+              "points": 150
+            },
+            {
+              "models": 6,
+              "points": 320
+            }
+          ]
+        }
+      ],
+      "points": 150,
+      "pointsLabel": "150/320",
+      "legends": false
+    },
+    {
+      "name": "Kataphron Destroyers",
+      "normalizedName": "kataphron destroyers",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 3,
+              "points": 100
+            },
+            {
+              "models": 6,
+              "points": 210
+            }
+          ]
+        }
+      ],
+      "points": 100,
+      "pointsLabel": "100/210",
+      "legends": false
+    },
+    {
+      "name": "Onager Dunecrawler",
+      "normalizedName": "onager dunecrawler",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 155
+            }
+          ]
+        }
+      ],
+      "points": 155,
+      "pointsLabel": "155",
+      "legends": false
+    },
+    {
+      "name": "Pteraxii Skystalkers",
+      "normalizedName": "pteraxii skystalkers",
+      "pricing": [
+        {
+          "range": "[1,2]",
+          "label": "Your 1st To 2nd Units Cost",
+          "costs": [
+            {
+              "models": 5,
+              "points": 80
+            },
+            {
+              "models": 10,
+              "points": 150
+            }
+          ]
+        },
+        {
+          "range": "[3,)",
+          "label": "Your 3rd + Unit Costs",
+          "costs": [
+            {
+              "models": 5,
+              "points": 90
+            },
+            {
+              "models": 10,
+              "points": 160
+            }
+          ]
+        }
+      ],
+      "points": 80,
+      "pointsLabel": "80/150",
+      "legends": false
+    },
+    {
+      "name": "Pteraxii Sterylizors",
+      "normalizedName": "pteraxii sterylizors",
+      "pricing": [
+        {
+          "range": "[1,2]",
+          "label": "Your 1st To 2nd Units Cost",
+          "costs": [
+            {
+              "models": 5,
+              "points": 80
+            },
+            {
+              "models": 10,
+              "points": 160
+            }
+          ]
+        },
+        {
+          "range": "[3,)",
+          "label": "Your 3rd + Unit Costs",
+          "costs": [
+            {
+              "models": 5,
+              "points": 90
+            },
+            {
+              "models": 10,
+              "points": 170
+            }
+          ]
+        }
+      ],
+      "points": 80,
+      "pointsLabel": "80/160",
+      "legends": false
+    },
+    {
+      "name": "Secutarii Hoplites",
+      "normalizedName": "secutarii hoplites",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 5,
+              "points": 65
+            },
+            {
+              "models": 10,
+              "points": 130
+            }
+          ]
+        }
+      ],
+      "points": 65,
+      "pointsLabel": "65/130",
+      "legends": true
+    },
+    {
+      "name": "Secutarii Peltasts",
+      "normalizedName": "secutarii peltasts",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 5,
+              "points": 50
+            },
+            {
+              "models": 10,
+              "points": 100
+            }
+          ]
+        }
+      ],
+      "points": 50,
+      "pointsLabel": "50/100",
+      "legends": true
+    },
+    {
+      "name": "Serberys Raiders",
+      "normalizedName": "serberys raiders",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 3,
+              "points": 60
+            },
+            {
+              "models": 6,
+              "points": 120
+            }
+          ]
+        }
+      ],
+      "points": 60,
+      "pointsLabel": "60/120",
+      "legends": false
+    },
+    {
+      "name": "Serberys Sulphurhounds",
+      "normalizedName": "serberys sulphurhounds",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 3,
+              "points": 55
+            },
+            {
+              "models": 6,
+              "points": 110
+            }
+          ]
+        }
+      ],
+      "points": 55,
+      "pointsLabel": "55/110",
+      "legends": false
+    },
+    {
+      "name": "Servitor Battleclade",
+      "normalizedName": "servitor battleclade",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 9,
+              "points": 65
+            }
+          ]
+        }
+      ],
+      "points": 65,
+      "pointsLabel": "65",
+      "legends": false
+    },
+    {
+      "name": "Sicarian Infiltrators",
+      "normalizedName": "sicarian infiltrators",
+      "pricing": [
+        {
+          "range": "[1,2]",
+          "label": "Your 1st To 2nd Units Cost",
+          "costs": [
+            {
+              "models": 5,
+              "points": 75
+            },
+            {
+              "models": 10,
+              "points": 155
+            }
+          ]
+        },
+        {
+          "range": "[3,)",
+          "label": "Your 3rd + Unit Costs",
+          "costs": [
+            {
+              "models": 5,
+              "points": 85
+            },
+            {
+              "models": 10,
+              "points": 165
+            }
+          ]
+        }
+      ],
+      "points": 75,
+      "pointsLabel": "75/155",
+      "legends": false
+    },
+    {
+      "name": "Sicarian Ruststalkers",
+      "normalizedName": "sicarian ruststalkers",
+      "pricing": [
+        {
+          "range": "[1,2]",
+          "label": "Your 1st To 2nd Units Cost",
+          "costs": [
+            {
+              "models": 5,
+              "points": 75
+            },
+            {
+              "models": 10,
+              "points": 160
+            }
+          ]
+        },
+        {
+          "range": "[3,)",
+          "label": "Your 3rd + Unit Costs",
+          "costs": [
+            {
+              "models": 5,
+              "points": 85
+            },
+            {
+              "models": 10,
+              "points": 170
+            }
+          ]
+        }
+      ],
+      "points": 75,
+      "pointsLabel": "75/160",
+      "legends": false
+    },
+    {
+      "name": "Skitarii Marshal",
+      "normalizedName": "skitarii marshal",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 35
+            }
+          ]
+        }
+      ],
+      "points": 35,
+      "pointsLabel": "35",
+      "legends": false,
+      "role": "support",
+      "attachTo": [
+        "Hastarii Exterminators",
+        "Hastarii Fusiliers",
+        "Secutarii Hoplites",
+        "Secutarii Peltasts",
+        "Skitarii Rangers",
+        "Skitarii Vanguard"
+      ]
+    },
+    {
+      "name": "Skitarii Rangers",
+      "normalizedName": "skitarii rangers",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 10,
+              "points": 85
+            }
+          ]
+        }
+      ],
+      "points": 85,
+      "pointsLabel": "85",
+      "legends": false
+    },
+    {
+      "name": "Skitarii Vanguard",
+      "normalizedName": "skitarii vanguard",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 10,
+              "points": 90
+            }
+          ]
+        }
+      ],
+      "points": 90,
+      "pointsLabel": "90",
+      "legends": false
+    },
+    {
+      "name": "Skorpius Disintegrator",
+      "normalizedName": "skorpius disintegrator",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 160
+            }
+          ]
+        }
+      ],
+      "points": 160,
+      "pointsLabel": "160",
+      "legends": false
+    },
+    {
+      "name": "Skorpius Dunerider",
+      "normalizedName": "skorpius dunerider",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 85
+            }
+          ]
+        }
+      ],
+      "points": 85,
+      "pointsLabel": "85",
+      "legends": false
+    },
+    {
+      "name": "Sydonian Dragoons With Radium Jezzails",
+      "normalizedName": "sydonian dragoons with radium jezzails",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 55
+            },
+            {
+              "models": 2,
+              "points": 100
+            },
+            {
+              "models": 3,
+              "points": 150
+            }
+          ]
+        }
+      ],
+      "points": 55,
+      "pointsLabel": "55/100/150",
+      "legends": false
+    },
+    {
+      "name": "Sydonian Dragoons With Taser Lances",
+      "normalizedName": "sydonian dragoons with taser lances",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 60
+            },
+            {
+              "models": 2,
+              "points": 120
+            },
+            {
+              "models": 3,
+              "points": 170
+            }
+          ]
+        }
+      ],
+      "points": 60,
+      "pointsLabel": "60/120/170",
+      "legends": false
+    },
+    {
+      "name": "Sydonian Skatros",
+      "normalizedName": "sydonian skatros",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 50
+            }
+          ]
+        }
+      ],
+      "points": 50,
+      "pointsLabel": "50",
+      "legends": false
+    },
+    {
+      "name": "Tech-Priest Dominus",
+      "normalizedName": "tech priest dominus",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 65
+            }
+          ]
+        }
+      ],
+      "points": 65,
+      "pointsLabel": "65",
+      "legends": false,
+      "role": "leader",
+      "attachTo": [
+        "Corpuscarii Electro-Priests",
+        "Fulgurite Electro-Priests",
+        "Hastarii Exterminators",
+        "Hastarii Fusiliers",
+        "Kataphron Breachers",
+        "Kataphron Destroyers",
+        "Secutarii Hoplites",
+        "Secutarii Peltasts",
+        "Servitor Battleclade",
+        "Skitarii Rangers",
+        "Skitarii Vanguard"
+      ]
+    },
+    {
+      "name": "Tech-Priest Enginseer",
+      "normalizedName": "tech priest enginseer",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 55
+            }
+          ]
+        }
+      ],
+      "points": 55,
+      "pointsLabel": "55",
+      "legends": false,
+      "role": "leader",
+      "attachTo": [
+        "Corpuscarii Electro-Priests",
+        "Fulgurite Electro-Priests",
+        "Kataphron Breachers",
+        "Kataphron Destroyers",
+        "Secutarii Hoplites",
+        "Secutarii Peltasts",
+        "Skitarii Rangers",
+        "Skitarii Vanguard"
+      ]
+    },
+    {
+      "name": "Tech-Priest Manipulus",
+      "normalizedName": "tech priest manipulus",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 60
+            }
+          ]
+        }
+      ],
+      "points": 60,
+      "pointsLabel": "60",
+      "legends": false,
+      "role": "leader",
+      "attachTo": [
+        "Corpuscarii Electro-Priests",
+        "Fulgurite Electro-Priests",
+        "Hastarii Exterminators",
+        "Hastarii Fusiliers",
+        "Kataphron Breachers",
+        "Kataphron Destroyers",
+        "Secutarii Hoplites",
+        "Secutarii Peltasts",
+        "Servitor Battleclade",
+        "Skitarii Rangers",
+        "Skitarii Vanguard"
+      ]
+    },
+    {
+      "name": "Technoarcheologist",
+      "normalizedName": "technoarcheologist",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 45
+            }
+          ]
+        }
+      ],
+      "points": 45,
+      "pointsLabel": "45",
+      "legends": false,
+      "role": "support",
+      "attachTo": [
+        "Corpuscarii Electro-Priests",
+        "Fulgurite Electro-Priests",
+        "Hastarii Exterminators",
+        "Hastarii Fusiliers",
+        "Kataphron Breachers",
+        "Kataphron Destroyers",
+        "Secutarii Hoplites",
+        "Secutarii Peltasts",
+        "Servitor Battleclade",
+        "Skitarii Rangers",
+        "Skitarii Vanguard"
+      ]
+    },
+    {
+      "name": "Terrax-Pattern Termite",
+      "normalizedName": "terrax pattern termite",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 200
+            }
+          ]
+        }
+      ],
+      "points": 200,
+      "pointsLabel": "200",
+      "legends": true
+    },
+    {
+      "name": "Thulia Ghuld",
+      "normalizedName": "thulia ghuld",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 180
+            }
+          ]
+        }
+      ],
+      "points": 180,
+      "pointsLabel": "180",
+      "legends": false
+    },
+    {
+      "name": "X-101",
+      "normalizedName": "x 101",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 40
+            }
+          ]
+        }
+      ],
+      "points": 40,
+      "pointsLabel": "40",
+      "legends": true
+    }
+  ]
+}

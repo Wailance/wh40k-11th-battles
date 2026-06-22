@@ -28,14 +28,10 @@ export function PlayerSeatToggle({
               key={o.value}
               type="button"
               onClick={() => onChange(o.value)}
-              className={`flex-1 rounded-lg border touch-manipulation ${
+              className={`player-seat-mode-btn flex-1 rounded-lg touch-manipulation ${
                 compact ? 'py-2 text-micro font-medium' : 'py-3 text-body font-medium'
-              } ${
-                selected
-                  ? 'player-seat-active'
-                  : 'border-border bg-panel text-muted'
-              }`}
-              style={selected ? ({ '--player-seat-color': seatColor } as CSSProperties) : undefined}
+              } ${selected ? 'is-active' : ''}`}
+              style={{ '--player-seat-color': seatColor } as CSSProperties}
             >
               {o.label}
             </button>

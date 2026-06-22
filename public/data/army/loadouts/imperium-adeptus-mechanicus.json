@@ -1,0 +1,1300 @@
+{
+  "7662-5fde-16f1-5267": {
+    "groups": [
+      {
+        "id": "1d1c-30a2-effa-d7df",
+        "name": "Wargear",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "a34b-6a88-3768-3a37",
+            "name": "Armoured hull",
+            "min": 1,
+            "max": 1
+          },
+          {
+            "id": "66b0-cc6a-fae-50c8",
+            "name": "Cognis heavy stubber array",
+            "min": 1,
+            "max": 1
+          }
+        ],
+        "groups": [
+          {
+            "id": "4512-7043-46cf-91c0",
+            "name": "Replace command uplink",
+            "min": 1,
+            "max": 1,
+            "mode": "single",
+            "options": [
+              {
+                "id": "ed17-099b-da1f-60e9",
+                "name": "Chaff Launcher",
+                "min": 0,
+                "max": 99
+              },
+              {
+                "id": "008c-871d-ce11-2679",
+                "name": "Command Uplink",
+                "min": 0,
+                "max": 99
+              }
+            ],
+            "defaultOptionId": "008c-871d-ce11-2679"
+          }
+        ]
+      }
+    ]
+  },
+  "d54e-1007-26b5-6a79": {
+    "groups": [
+      {
+        "id": "50dd-2e4c-5008-4139",
+        "name": "Wargear",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "5f4f-99c8-1bac-711c",
+            "name": "Cognis heavy stubber",
+            "min": 2,
+            "max": 2
+          },
+          {
+            "id": "c2ef-d725-c7b5-577",
+            "name": "Heavy phosphor blaster",
+            "min": 2,
+            "max": 2
+          },
+          {
+            "id": "44e-ae99-4e59-39a1",
+            "name": "Twin cognis lascannon",
+            "min": 1,
+            "max": 1
+          },
+          {
+            "id": "c3fa-7553-d82e-bfa8",
+            "name": "Armoured hull",
+            "min": 1,
+            "max": 1
+          }
+        ],
+        "groups": [
+          {
+            "id": "b80d-7b51-823a-0e08",
+            "name": "Replace command uplink",
+            "min": 1,
+            "max": 1,
+            "mode": "single",
+            "options": [
+              {
+                "id": "c63d-3d37-2a6e-1bfe",
+                "name": "Chaff Launcher",
+                "min": 0,
+                "max": 99
+              },
+              {
+                "id": "ee26-547b-15b5-367f",
+                "name": "Command Uplink",
+                "min": 0,
+                "max": 99
+              }
+            ],
+            "defaultOptionId": "ee26-547b-15b5-367f"
+          }
+        ]
+      }
+    ]
+  },
+  "295-769-8893-2bb0": {
+    "groups": [
+      {
+        "id": "3742-9c08-5e56-ed06",
+        "name": "Wargear",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "1732-1849-97cf-d8f8",
+            "name": "Armoured hull",
+            "min": 1,
+            "max": 1
+          },
+          {
+            "id": "562b-78e8-ea0b-3ed3",
+            "name": "Cognis heavy stubber array",
+            "min": 1,
+            "max": 1
+          }
+        ],
+        "groups": [
+          {
+            "id": "7a58-c918-3dbd-3dc0",
+            "name": "Replace command uplink",
+            "min": 1,
+            "max": 1,
+            "mode": "single",
+            "options": [
+              {
+                "id": "b262-4596-cdd3-aaf1",
+                "name": "Chaff Launcher",
+                "min": 0,
+                "max": 99
+              },
+              {
+                "id": "0ce7-c37e-ef38-4917",
+                "name": "Command Uplink",
+                "min": 0,
+                "max": 99
+              }
+            ],
+            "defaultOptionId": "0ce7-c37e-ef38-4917"
+          }
+        ]
+      }
+    ]
+  },
+  "7efb-de37-79c4-cccb": {
+    "groups": [
+      {
+        "id": "d70d-05b4-8e6a-36bc",
+        "name": "Ironstrider Ballistarii",
+        "min": 1,
+        "max": 3,
+        "mode": "count",
+        "options": [
+          {
+            "id": "2d5d-40b5-4ac8-cedc",
+            "name": "Ironstrider Ballistarius (Twin cognis autocannon)",
+            "min": 0,
+            "max": 3,
+            "groups": [
+              {
+                "id": "a7bb-4dc8-108b-db36",
+                "name": "Wargear",
+                "min": 0,
+                "max": 99,
+                "mode": "count",
+                "options": [
+                  {
+                    "id": "5be8-d319-e2a9-8409",
+                    "name": "Twin cognis autocannon",
+                    "min": 1,
+                    "max": 1
+                  },
+                  {
+                    "id": "cdf4-a387-72a8-e469",
+                    "name": "Ironstrider feet",
+                    "min": 1,
+                    "max": 1
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "8fc1-9168-5137-2b5d",
+            "name": "Ironstrider Ballistarius (Twin cognis lascannon)",
+            "min": 0,
+            "max": 3,
+            "groups": [
+              {
+                "id": "97aa-d81b-edba-e959",
+                "name": "Wargear",
+                "min": 0,
+                "max": 99,
+                "mode": "count",
+                "options": [
+                  {
+                    "id": "f09-36ce-d80d-1464",
+                    "name": "Twin cognis lascannon",
+                    "min": 1,
+                    "max": 1
+                  },
+                  {
+                    "id": "11fa-2496-6b8-905",
+                    "name": "Ironstrider feet",
+                    "min": 1,
+                    "max": 1
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "defaultOptionId": "2d5d-40b5-4ac8-cedc"
+      }
+    ]
+  },
+  "a46f-848-b87d-4484": {
+    "groups": [
+      {
+        "id": "36ac-0f0b-f772-e685",
+        "name": "Kataphron Breachers",
+        "min": 3,
+        "max": 6,
+        "mode": "count",
+        "options": [
+          {
+            "id": "8623-36e3-fb81-6926",
+            "name": "Kataphron Breacher (Heavy arc rifle & arc claw)",
+            "min": 0,
+            "max": 6
+          },
+          {
+            "id": "283c-5c83-4ef1-2048",
+            "name": "Kataphron Breacher (Heavy arc rifle & hydraulic claw)",
+            "min": 0,
+            "max": 6
+          },
+          {
+            "id": "ff76-8222-9cc8-533e",
+            "name": "Kataphron Breacher (Torsion cannon & arc claw)",
+            "min": 0,
+            "max": 6
+          },
+          {
+            "id": "14f6-aae2-41d0-779a",
+            "name": "Kataphron Breacher (Torsion cannon & hydraulic claw)",
+            "min": 0,
+            "max": 6
+          }
+        ],
+        "defaultOptionId": "8623-36e3-fb81-6926"
+      }
+    ]
+  },
+  "7bee-a476-2167-76e7": {
+    "groups": [
+      {
+        "id": "a182-3bb5-4a1b-2c86",
+        "name": "Kataphron Destroyers",
+        "min": 3,
+        "max": 6,
+        "mode": "count",
+        "options": [
+          {
+            "id": "9108-811a-06a0-b2e3",
+            "name": "Kataphron Destroyer (Heavy grav-cannon & Cognis flamer)",
+            "min": 0,
+            "max": 99
+          },
+          {
+            "id": "a397-b052-2233-f705",
+            "name": "Kataphron Destroyer (Heavy grav-cannon & phosphor blaster)",
+            "min": 0,
+            "max": 99
+          },
+          {
+            "id": "3796-989f-ff7c-97a5",
+            "name": "Kataphron Destroyer (Kataphron plasma culverin & Phosphor blaster)",
+            "min": 0,
+            "max": 99
+          },
+          {
+            "id": "9128-0ff5-47bd-a120",
+            "name": "Kataphron Destroyer (Kataphron plasma culverin & Cognis flamer)",
+            "min": 0,
+            "max": 99
+          }
+        ],
+        "defaultOptionId": "a397-b052-2233-f705"
+      }
+    ]
+  },
+  "ea05-4db7-9ee6-7a87": {
+    "groups": [
+      {
+        "id": "9ce3-a73f-7f19-02b8",
+        "name": "Wargear",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "407b-a252-25b0-0cf4",
+            "name": "Broad spectrum data-tether",
+            "min": 0,
+            "max": 1
+          },
+          {
+            "id": "1aed-a297-70d2-78b4",
+            "name": "Cognis heavy stubber",
+            "min": 0,
+            "max": 1
+          },
+          {
+            "id": "eb85-7ead-6dee-f00f",
+            "name": "Dunecrawler legs",
+            "min": 1,
+            "max": 1
+          }
+        ],
+        "groups": [
+          {
+            "id": "9924-abf6-bd0b-a534",
+            "name": "Replace eradication beamer",
+            "min": 1,
+            "max": 1,
+            "mode": "single",
+            "options": [
+              {
+                "id": "c5da-3895-2c65-e13f",
+                "name": "Eradication beamer",
+                "min": 0,
+                "max": 99
+              },
+              {
+                "id": "b2ff-da2a-eb39-2b0c",
+                "name": "Daedalus missile launcher & Icarus array",
+                "min": 0,
+                "max": 99
+              },
+              {
+                "id": "2887-6836-5f5f-20eb",
+                "name": "Neutron laser & Cognis heavy stubber",
+                "min": 0,
+                "max": 99
+              },
+              {
+                "id": "67d3-0a50-aa82-c444",
+                "name": "Twin Onager heavy phosphor blaster",
+                "min": 0,
+                "max": 99
+              }
+            ],
+            "defaultOptionId": "c5da-3895-2c65-e13f"
+          }
+        ]
+      }
+    ]
+  },
+  "5797-adb8-930-e832": {
+    "groups": [
+      {
+        "id": "eef8-dada-d09f-d6d6",
+        "name": "2-5 Serberys Raiders",
+        "min": 2,
+        "max": 5,
+        "mode": "count",
+        "options": [
+          {
+            "id": "d70-c14f-7880-c846",
+            "name": "Serberys Raider",
+            "min": 1,
+            "max": 5
+          },
+          {
+            "id": "a7fb-b35f-da8-5e32",
+            "name": "Serberys Raider w/ data-tether",
+            "min": 0,
+            "max": 1
+          }
+        ]
+      }
+    ]
+  },
+  "e775-4fe1-832b-95ca": {
+    "groups": [
+      {
+        "id": "896a-6ba3-89cc-7b86",
+        "name": "2-5 Serberys Sulphurhounds",
+        "min": 2,
+        "max": 5,
+        "mode": "count",
+        "options": [
+          {
+            "id": "6f21-1872-ceaf-8c13",
+            "name": "Serberys Sulphurhound (Twin phosphor pistols)",
+            "min": 0,
+            "max": 99
+          },
+          {
+            "id": "0feb-d4ef-325f-17d0",
+            "name": "Serberys Sulphurhound (Phosphor blast carbine & Phosphor pistol)",
+            "min": 0,
+            "max": 1
+          }
+        ],
+        "defaultOptionId": "6f21-1872-ceaf-8c13"
+      }
+    ]
+  },
+  "9b4-26b2-9e6d-a62d": {
+    "groups": [
+      {
+        "id": "bc34-0ebe-3776-2021",
+        "name": "4-9 Sicarian Infiltrators",
+        "min": 4,
+        "max": 9,
+        "mode": "count",
+        "options": [
+          {
+            "id": "f477-ffcb-dcce-283d",
+            "name": "Sicarian Infiltrator (Power weapon & stubcarbine)",
+            "min": 0,
+            "max": 99
+          },
+          {
+            "id": "3de2-6d54-bbfa-023b",
+            "name": "Sicarian Infiltrator (Taser goad & flechette blaster)",
+            "min": 0,
+            "max": 99
+          }
+        ],
+        "defaultOptionId": "f477-ffcb-dcce-283d"
+      },
+      {
+        "id": "8de5-7be3-e877-c25e",
+        "name": "Sicarian Infiltrator Princeps",
+        "min": 1,
+        "max": 1,
+        "mode": "single",
+        "options": [
+          {
+            "id": "6e59-0bfb-4911-fca0",
+            "name": "Sicarian Infiltrator Princeps (Power weapon & stub carbine)",
+            "min": 0,
+            "max": 99
+          },
+          {
+            "id": "c9cc-5d96-5fe9-e518",
+            "name": "Sicarian Infiltrator Princeps (Taser goad & flechette blaster)",
+            "min": 0,
+            "max": 99
+          }
+        ],
+        "defaultOptionId": "6e59-0bfb-4911-fca0"
+      }
+    ]
+  },
+  "8863-9784-8377-aa7a": {
+    "groups": [
+      {
+        "id": "8868-6760-38b0-a6dc",
+        "name": "4-9 Sicarian Ruststalkers",
+        "min": 4,
+        "max": 9,
+        "mode": "count",
+        "options": [
+          {
+            "id": "9a44-d39d-fded-a336",
+            "name": "Sicarian Ruststalker (Transonic razor & chordclaw)",
+            "min": 0,
+            "max": 99
+          },
+          {
+            "id": "08ac-6bb2-713e-9d46",
+            "name": "Sicarian Ruststalker (Transonic blades)",
+            "min": 0,
+            "max": 99
+          }
+        ],
+        "defaultOptionId": "9a44-d39d-fded-a336"
+      },
+      {
+        "id": "bc56-15aa-6261-8286",
+        "name": "Sicarian Ruststalker Princeps",
+        "min": 1,
+        "max": 1,
+        "mode": "single",
+        "options": [
+          {
+            "id": "aff1-63b8-baf5-fe75",
+            "name": "Sicarian Ruststalker Princeps (Transonic blades & chordclaw)",
+            "min": 0,
+            "max": 99
+          },
+          {
+            "id": "bbfc-d380-b7bd-28d1",
+            "name": "Sicarian Ruststalker Princeps (Transonic razor & chordclaw)",
+            "min": 0,
+            "max": 99
+          }
+        ],
+        "defaultOptionId": "bbfc-d380-b7bd-28d1"
+      }
+    ]
+  },
+  "b897-e4c6-fcb6-6538": {
+    "groups": [
+      {
+        "id": "fa65-a242-757c-1118",
+        "name": "Wargear",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "4b2c-60bc-169c-ab71",
+            "name": "Control stave",
+            "min": 1,
+            "max": 1
+          },
+          {
+            "id": "7a3d-dcaf-9983-30dc",
+            "name": "Mechanicus pistol",
+            "min": 1,
+            "max": 1
+          }
+        ]
+      }
+    ]
+  },
+  "de59-f65c-181a-8509": {
+    "groups": [
+      {
+        "id": "24a0-5541-79b2-b1ff",
+        "name": "9 Skitarii Rangers",
+        "min": 9,
+        "max": 9,
+        "mode": "count",
+        "options": [
+          {
+            "id": "22b3-9c84-0982-8627",
+            "name": "Skitarii Ranger w/ transuranic arquebus",
+            "min": 0,
+            "max": 1
+          },
+          {
+            "id": "b93c-a0a7-1c46-66c4",
+            "name": "Skitarii Ranger w/ arc rifle",
+            "min": 0,
+            "max": 1
+          },
+          {
+            "id": "b472-94bc-9482-44b6",
+            "name": "Skitarii Ranger w/ plasma caliver",
+            "min": 0,
+            "max": 1
+          },
+          {
+            "id": "b27c-7f37-083e-9234",
+            "name": "Skitarii Ranger w/ galvanic rifle",
+            "min": 5,
+            "max": 9
+          },
+          {
+            "id": "f525-f4d5-1ea1-ecaf",
+            "name": "Skitarii Ranger w/ data-tether",
+            "min": 0,
+            "max": 1
+          },
+          {
+            "id": "626e-72e0-7869-82c1",
+            "name": "Skitarii Ranger w/ omnispex",
+            "min": 0,
+            "max": 1
+          }
+        ],
+        "defaultOptionId": "b27c-7f37-083e-9234"
+      }
+    ]
+  },
+  "ba33-c21-bddc-ab0": {
+    "groups": [
+      {
+        "id": "c00c-540d-818e-9f44",
+        "name": "Skitarii Vanguard",
+        "min": 9,
+        "max": 9,
+        "mode": "count",
+        "options": [
+          {
+            "id": "54ca-f341-b75a-6c29",
+            "name": "Skitarii Vanguard w/ transuranic arquebus",
+            "min": 0,
+            "max": 1
+          },
+          {
+            "id": "3e45-6c2d-267f-b7cf",
+            "name": "Skitarii Vanguard w/ arc rifle",
+            "min": 0,
+            "max": 1
+          },
+          {
+            "id": "9fdb-aa2f-a6d5-1f13",
+            "name": "Skitarii Vanguard w/ plasma caliver",
+            "min": 0,
+            "max": 1
+          },
+          {
+            "id": "e643-b59e-8ca3-2f8c",
+            "name": "Skitarii Vanguard w/ radium carbine",
+            "min": 0,
+            "max": 9
+          },
+          {
+            "id": "ef06-ef9-2ff7-f92d",
+            "name": "Skitarii Vanguard w/ data-tether",
+            "min": 0,
+            "max": 1
+          },
+          {
+            "id": "d3d5-8552-186c-8436",
+            "name": "Skitarii Vanguard w/ omnispex",
+            "min": 0,
+            "max": 1
+          }
+        ],
+        "defaultOptionId": "e643-b59e-8ca3-2f8c"
+      }
+    ]
+  },
+  "3fcc-b6a1-399b-1a29": {
+    "groups": [
+      {
+        "id": "9c13-f117-f9d4-d874",
+        "name": "Wargear",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "88b0-793f-b85c-680b",
+            "name": "Cognis heavy stubber",
+            "min": 3,
+            "max": 3
+          },
+          {
+            "id": "1911-226b-90f1-d420",
+            "name": "Disruptor missile launcher",
+            "min": 1,
+            "max": 1
+          },
+          {
+            "id": "95ee-4601-8c92-b047",
+            "name": "Armoured hull",
+            "min": 1,
+            "max": 1
+          }
+        ],
+        "groups": [
+          {
+            "id": "c1b3-2833-7ea9-d113",
+            "name": "equipped with",
+            "min": 1,
+            "max": 1,
+            "mode": "single",
+            "options": [
+              {
+                "id": "12a4-c5bd-85c9-ec3f",
+                "name": "Belleros energy cannon",
+                "min": 0,
+                "max": 99
+              },
+              {
+                "id": "5059-e78f-c558-c8e8",
+                "name": "Ferrumite cannon",
+                "min": 0,
+                "max": 99
+              }
+            ],
+            "defaultOptionId": "12a4-c5bd-85c9-ec3f"
+          }
+        ]
+      }
+    ]
+  },
+  "2b9c-3982-701d-f8fd": {
+    "groups": [
+      {
+        "id": "298a-6af5-04f2-40c7",
+        "name": "Wargear",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "9cc2-72a4-c4-60aa",
+            "name": "Armoured hull",
+            "min": 1,
+            "max": 1
+          },
+          {
+            "id": "4ed3-afa8-1416-9c20",
+            "name": "Cognis heavy stubber array",
+            "min": 1,
+            "max": 1
+          }
+        ]
+      }
+    ]
+  },
+  "3053-c0c1-aedd-b211": {
+    "groups": [
+      {
+        "id": "9c98-e325-d13f-bc0c",
+        "name": "1 -3 Sydonian Dragoons",
+        "min": 1,
+        "max": 3,
+        "mode": "count",
+        "options": [
+          {
+            "id": "54c7-b18a-e3b6-0431",
+            "name": "Sydonian Dragoon with taser lance",
+            "min": 0,
+            "max": 3,
+            "groups": [
+              {
+                "id": "b05e-2477-521a-04b3",
+                "name": "Wargear",
+                "min": 0,
+                "max": 99,
+                "mode": "count",
+                "options": [
+                  {
+                    "id": "2b6c-ae66-8e2e-493b",
+                    "name": "Phosphor serpenta",
+                    "min": 1,
+                    "max": 1
+                  },
+                  {
+                    "id": "72ef-df97-e6e7-7e42",
+                    "name": "Taser lance",
+                    "min": 1,
+                    "max": 1
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "defaultOptionId": "fddc-d967-30d6-8384"
+      }
+    ]
+  },
+  "6424-ed86-9e15-3e14": {
+    "groups": [
+      {
+        "id": "03a6-f1ef-5a60-b2c3",
+        "name": "Wargear",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "4587-20b2-c305-10c6",
+            "name": "Omnissian axe",
+            "min": 1,
+            "max": 1
+          }
+        ],
+        "groups": [
+          {
+            "id": "dbdc-0fcc-04cf-4ff8",
+            "name": "Replace macrostubber",
+            "min": 1,
+            "max": 1,
+            "mode": "single",
+            "options": [
+              {
+                "id": "e1d3-cc18-b4cf-acb8",
+                "name": "Macrostubber",
+                "min": 0,
+                "max": 99
+              },
+              {
+                "id": "15eb-56c3-ec5a-d2bd",
+                "name": "Phosphor serpenta",
+                "min": 0,
+                "max": 99
+              }
+            ],
+            "defaultOptionId": "e1d3-cc18-b4cf-acb8"
+          },
+          {
+            "id": "00cd-ebc9-bb41-d92d",
+            "name": "Replace volkite blaster",
+            "min": 1,
+            "max": 1,
+            "mode": "single",
+            "options": [
+              {
+                "id": "40ae-6480-a68e-4829",
+                "name": "Eradication ray",
+                "min": 0,
+                "max": 99
+              },
+              {
+                "id": "1c7c-e356-69ed-fd6b",
+                "name": "Volkite blaster",
+                "min": 0,
+                "max": 99
+              }
+            ],
+            "defaultOptionId": "1c7c-e356-69ed-fd6b"
+          }
+        ]
+      }
+    ]
+  },
+  "c0e0-4d86-96d2-ec86": {
+    "groups": [
+      {
+        "id": "1e00-2d8a-6933-3bb4",
+        "name": "Wargear",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "81fb-325e-49fd-9a6f",
+            "name": "Servo arm",
+            "min": 1,
+            "max": 1
+          },
+          {
+            "id": "f209-cd62-f531-edc0",
+            "name": "Omnissian axe",
+            "min": 1,
+            "max": 1
+          },
+          {
+            "id": "7ae8-9a5b-2f90-2c78",
+            "name": "Mechanicus pistol",
+            "min": 1,
+            "max": 1
+          }
+        ]
+      }
+    ]
+  },
+  "2d9b-610a-dc4d-15ae": {
+    "groups": [
+      {
+        "id": "62f3-00b6-6909-72f0",
+        "name": "Wargear",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "ed2c-31b2-8f67-9f05",
+            "name": "Omnissian staff",
+            "min": 1,
+            "max": 1
+          }
+        ],
+        "groups": [
+          {
+            "id": "2292-e3ad-0523-66c2",
+            "name": "Replace magnarail lance",
+            "min": 1,
+            "max": 1,
+            "mode": "single",
+            "options": [
+              {
+                "id": "2ee4-fe4c-2b3c-fc7e",
+                "name": "Magnarail lance",
+                "min": 0,
+                "max": 99
+              },
+              {
+                "id": "7115-e9c6-3307-e8e4",
+                "name": "Transonic cannon",
+                "min": 0,
+                "max": 99
+              }
+            ],
+            "defaultOptionId": "2ee4-fe4c-2b3c-fc7e"
+          }
+        ]
+      }
+    ]
+  },
+  "fa82-61cc-aa85-e94c": {
+    "groups": [
+      {
+        "id": "56f0-270c-fcd6-0936",
+        "name": "Wargear",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "e8bc-4d90-3fd7-d692",
+            "name": "Servo-arc claw",
+            "min": 1,
+            "max": 1
+          },
+          {
+            "id": "fd76-d241-96fb-7463",
+            "name": "Mechanicus pistol",
+            "min": 1,
+            "max": 1
+          }
+        ]
+      }
+    ]
+  },
+  "d59d-ef1-9ef8-4f44": {
+    "groups": [
+      {
+        "id": "f1f5-f62e-e47d-9dad",
+        "name": "Wargear",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "666c-57c1-9f31-fd7d",
+            "name": "Power fist",
+            "min": 1,
+            "max": 1
+          },
+          {
+            "id": "44cd-1441-b29d-85d0",
+            "name": "Mechanicus pistol",
+            "min": 1,
+            "max": 1
+          }
+        ]
+      }
+    ]
+  },
+  "705b-2635-fcab-48f9": {
+    "groups": [
+      {
+        "id": "cf89-9b00-1708-2d59",
+        "name": "4-9 Hoplites",
+        "min": 4,
+        "max": 9,
+        "mode": "count",
+        "options": [
+          {
+            "id": "541f-f70e-97d2-f820",
+            "name": "Secutarii Hoplite",
+            "min": 0,
+            "max": 9
+          },
+          {
+            "id": "30e9-da2c-e26b-fc20",
+            "name": "Secutarii Hoplite w/ data-tether",
+            "min": 0,
+            "max": 1
+          },
+          {
+            "id": "a393-2cf0-b5f6-c624",
+            "name": "Secutarii Hoplite w/ omnispex",
+            "min": 0,
+            "max": 1
+          }
+        ],
+        "defaultOptionId": "541f-f70e-97d2-f820"
+      }
+    ]
+  },
+  "7774-a50b-cb1e-8372": {
+    "groups": [
+      {
+        "id": "347a-c7c2-1bc8-db33",
+        "name": "4-9 Peltasts",
+        "min": 4,
+        "max": 9,
+        "mode": "count",
+        "options": [
+          {
+            "id": "d8f8-5742-133-ee7a",
+            "name": "Secutarii Peltast",
+            "min": 0,
+            "max": 9
+          },
+          {
+            "id": "efff-ac31-c7a5-93c6",
+            "name": "Secutarii Peltast w/ data-tether",
+            "min": 0,
+            "max": 1
+          },
+          {
+            "id": "fec1-2c41-7ea4-480e",
+            "name": "Secutarii Peltast w/ omnispex",
+            "min": 0,
+            "max": 1
+          }
+        ],
+        "defaultOptionId": "d8f8-5742-133-ee7a"
+      }
+    ]
+  },
+  "3639-75ba-cab2-c159": {
+    "groups": [
+      {
+        "id": "bb65-070f-7f5b-67ee",
+        "name": "Wargear",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "12ab-2cc5-b306-c22b",
+            "name": "Termite drill",
+            "min": 1,
+            "max": 1
+          },
+          {
+            "id": "4ae6-a3d6-c23-b5",
+            "name": "Termite melta cutter",
+            "min": 1,
+            "max": 1
+          }
+        ],
+        "groups": [
+          {
+            "id": "adc9-18ec-c9d6-1541",
+            "name": "equipped with",
+            "min": 1,
+            "max": 1,
+            "mode": "single",
+            "options": [
+              {
+                "id": "47cb-5267-800e-5f32",
+                "name": "Combi bolters",
+                "min": 0,
+                "max": 99
+              },
+              {
+                "id": "4ba0-35c2-c936-eaf3",
+                "name": "Heavy flamers",
+                "min": 0,
+                "max": 99
+              },
+              {
+                "id": "9efa-de62-28d6-a1d1",
+                "name": "Twin volkite chargers",
+                "min": 0,
+                "max": 99
+              }
+            ],
+            "defaultOptionId": "47cb-5267-800e-5f32"
+          }
+        ]
+      }
+    ]
+  },
+  "52e7-9347-3f16-9eec": {
+    "groups": [
+      {
+        "id": "3dff-42fe-a519-8522",
+        "name": "Wargear",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "de8a-6305-a50b-8f55",
+            "name": "Sydonian Feet",
+            "min": 1,
+            "max": 1
+          },
+          {
+            "id": "966e-b790-a1c9-e3ef",
+            "name": "Mechanicus pistol",
+            "min": 1,
+            "max": 1
+          }
+        ],
+        "groups": [
+          {
+            "id": "84e2-5c38-9573-3875",
+            "name": "Replace Radium Jezzail",
+            "min": 1,
+            "max": 1,
+            "mode": "single",
+            "options": [
+              {
+                "id": "fe64-bfcb-6a47-dc54",
+                "name": "Radium Jezzail",
+                "min": 0,
+                "max": 1
+              },
+              {
+                "id": "d1c-d00e-912c-25d8",
+                "name": "Skatros transuranic arquebus",
+                "min": 0,
+                "max": 1
+              }
+            ],
+            "defaultOptionId": "fe64-bfcb-6a47-dc54"
+          }
+        ]
+      }
+    ]
+  },
+  "d99a-6563-8c08-23c": {
+    "groups": [
+      {
+        "id": "d230-acd2-700a-3fdc",
+        "name": "1 -3 Sydonian Dragoons",
+        "min": 1,
+        "max": 3,
+        "mode": "count",
+        "options": [
+          {
+            "id": "4986-3b55-f-419e",
+            "name": "Sydonian Dragoon with radium jezzail",
+            "min": 0,
+            "max": 3,
+            "groups": [
+              {
+                "id": "f796-000c-2c6d-9ed5",
+                "name": "Wargear",
+                "min": 0,
+                "max": 99,
+                "mode": "count",
+                "options": [
+                  {
+                    "id": "5e77-5d34-8fdd-e7c0",
+                    "name": "Phosphor serpenta",
+                    "min": 1,
+                    "max": 1
+                  },
+                  {
+                    "id": "3998-e549-a18a-779f",
+                    "name": "Radium jezzail",
+                    "min": 1,
+                    "max": 1
+                  },
+                  {
+                    "id": "4ef3-9b7c-4327-6051",
+                    "name": "Ironstrider feet",
+                    "min": 1,
+                    "max": 1
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "defaultOptionId": "e0e4-319c-d8a8-a18a"
+      }
+    ]
+  },
+  "2183-5b38-1726-2a11": {
+    "groups": [
+      {
+        "id": "f4fc-65f6-86ad-ad12",
+        "name": "Servitors",
+        "min": 4,
+        "max": 4,
+        "mode": "count",
+        "options": [
+          {
+            "id": "136b-56d7-1c3c-f325",
+            "name": "Servitor with servo-arm",
+            "min": 2,
+            "max": 4
+          }
+        ],
+        "defaultOptionId": "136b-56d7-1c3c-f325",
+        "groups": [
+          {
+            "id": "3d41-ff5a-a95e-48d2",
+            "name": "Max 2 weapon swaps",
+            "min": 0,
+            "max": 2,
+            "mode": "count",
+            "options": [
+              {
+                "id": "1ad8-e89d-acee-a9cf",
+                "name": "Servitor with heavy bolter",
+                "min": 0,
+                "max": 2
+              },
+              {
+                "id": "a64b-a641-c5a0-bd52",
+                "name": "Servitor with multi-melta",
+                "min": 0,
+                "max": 2
+              },
+              {
+                "id": "2890-a47e-82a-1789",
+                "name": "Servitor with plasma cannon",
+                "min": 0,
+                "max": 2
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "a523-606f-b05c-851e": {
+    "groups": [
+      {
+        "id": "75e7-f7b1-f39c-4ed1",
+        "name": "Combat Servitors",
+        "min": 6,
+        "max": 6,
+        "mode": "count",
+        "options": [
+          {
+            "id": "91e1-1b43-e034-0b66",
+            "name": "Combat Servitor w/ incendine igniter",
+            "min": 0,
+            "max": 3
+          },
+          {
+            "id": "cbdd-5deb-6e81-9b01",
+            "name": "Combat Servitor w/ meltagun",
+            "min": 0,
+            "max": 1
+          },
+          {
+            "id": "9e80-eceb-366e-5637",
+            "name": "Combat Servitor w/ phophor blaster",
+            "min": 2,
+            "max": 6
+          }
+        ],
+        "defaultOptionId": "9e80-eceb-366e-5637"
+      }
+    ]
+  },
+  "52d3-71a9-f755-d6aa": {
+    "groups": [
+      {
+        "id": "8624-069e-60f5-4bec",
+        "name": "4 Hastarii Exterminators",
+        "min": 4,
+        "max": 4,
+        "mode": "count",
+        "options": [
+          {
+            "id": "44fb-e262-3719-3dc4",
+            "name": "Hastarii Exterminator",
+            "min": 4,
+            "max": 4,
+            "equippedWith": "Hastarii arc blaster and Eradication caster and Close combat weapon"
+          }
+        ],
+        "defaultOptionId": "b27c-7f37-083e-9234"
+      }
+    ]
+  },
+  "d653-1ac3-d944-224f": {
+    "groups": [
+      {
+        "id": "b2e4-53af-5060-f0f9",
+        "name": "4 Hastarii Fusiliers",
+        "min": 4,
+        "max": 4,
+        "mode": "count",
+        "options": [
+          {
+            "id": "8273-2d29-d825-d013",
+            "name": "Hastarii Fusilier",
+            "min": 4,
+            "max": 4,
+            "equippedWith": "Close combat weapon and Hastarii phosphor blaster and Neutron fusil"
+          }
+        ],
+        "defaultOptionId": "b27c-7f37-083e-9234"
+      }
+    ]
+  }
+}

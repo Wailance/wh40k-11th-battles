@@ -269,12 +269,28 @@ export function NewGamePage({ format = 'standard' }: { format?: GameFormat }) {
             </div>
           )}
 
+          <div className="space-y-2">
+            <p className="text-body font-medium text-bone">{copy.newGame.layoutPrimaryTitle}</p>
+            <p className="text-caption text-muted">{copy.newGame.layoutPrimaryHint}</p>
+            <MissionCard
+              player={game.player1.name}
+              mission={game.player1.primaryMission}
+              fd={game.player1.forceDisposition}
+              color="var(--color-p1)"
+            />
+            <MissionCard
+              player={game.player2.name}
+              mission={game.player2.primaryMission}
+              fd={game.player2.forceDisposition}
+              color="var(--color-p2)"
+            />
+          </div>
+
           <p className="text-caption leading-relaxed text-muted">{copy.newGame.layoutPreBattleNote}</p>
 
           <div className="app-panel p-4 text-body">
             <SummaryRow label="P1" value={`${game.player1.army} — ${formatPlayerDetachments(game.player1)}`} />
             <SummaryRow label="P2" value={`${game.player2.army} — ${formatPlayerDetachments(game.player2)}`} />
-            <SummaryRow label="Primary" value={`${game.player1.primaryMission} / ${game.player2.primaryMission}`} />
             {game.matchupId && getMatchupBattlefield(game.matchupId)?.variants[game.layoutVariantIndex] && (
               <SummaryRow
                 label="Layout"
@@ -359,7 +375,10 @@ function PlayerFields({
   onBattleReady: (v: boolean) => void
 }) {
   return (
-    <div className="app-panel p-4">
+    <div
+      className="app-panel player-seat-panel p-4"
+      style={{ '--player-seat-color': color } as CSSProperties}
+    >
       <p className="mb-3 font-semibold" style={{ color }}>{label}</p>
       <input
         value={name}
@@ -439,14 +458,12 @@ function DetachmentStep({
                   ? isDoneHandoff
                     ? 'detachment-tab-done'
                     : 'player-seat-active'
-                  : 'border-border bg-panel'
+                  : 'player-seat-option border'
             }`}
             style={
               isHandoffTarget
                 ? ({ '--detachment-tab-glow': seatColor } as CSSProperties)
-                : activePlayer === n && !isDoneHandoff
-                  ? ({ '--player-seat-color': seatColor } as CSSProperties)
-                  : undefined
+                : ({ '--player-seat-color': seatColor } as CSSProperties)
             }
           >
             <span className="flex items-center gap-1.5">
@@ -539,13 +556,16 @@ function DetachmentPicker({
   const remainingDp = MAX_DP - usedDp
 
   return (
-    <div className="motion-step">
+    <div
+      className="app-panel player-seat-panel motion-step p-4"
+      style={{ '--player-seat-color': color } as CSSProperties}
+    >
       <div className="mb-3 flex items-center justify-between gap-2">
         <p className="font-semibold" style={{ color }}>{playerName}</p>
         <p className="text-caption text-muted">{armyName}</p>
       </div>
 
-      <div className="app-panel mb-3 !rounded-xl !p-3">
+      <div className="mb-3 rounded-xl border border-white/[0.06] bg-black/20 p-3">
         <DpBudget used={usedDp} color={color} label={copy.dp.budget} />
       </div>
 
@@ -580,14 +600,14 @@ function DetachmentPicker({
               disabled={wouldExceed}
               onClick={() => onToggle(d.name)}
               title={wouldExceed ? copy.dp.tooMany(d.dp, remainingDp) : undefined}
-              className={`min-h-[3.25rem] w-full rounded-lg border p-3 text-left text-body transition-colors touch-manipulation ${
+              className={`min-h-[3.25rem] w-full rounded-lg border p-3 text-left text-body touch-manipulation ${
                 isSelected
                   ? 'player-seat-active'
                   : wouldExceed
-                    ? 'border-border bg-panel opacity-45'
-                    : 'border-border bg-panel active:bg-panel-hover'
+                    ? 'player-seat-card opacity-45'
+                    : 'player-seat-card'
               }`}
-              style={isSelected ? ({ '--player-seat-color': color } as CSSProperties) : undefined}
+              style={{ '--player-seat-color': color } as CSSProperties}
             >
               <div className="flex items-center justify-between gap-2">
                 <span className="font-medium">{d.name}</span>
@@ -620,7 +640,10 @@ function ForceDispositionPicker({
   const options = playerForceDispositions(player)
   if (options.length <= 1) return null
   return (
-    <div className="app-panel p-4">
+    <div
+      className="app-panel player-seat-panel p-4"
+      style={{ '--player-seat-color': color } as CSSProperties}
+    >
       <p className="mb-2 text-body" style={{ color }}>
         {label} — Force Disposition for mission
       </p>
@@ -643,7 +666,10 @@ function ForceDispositionPicker({
 function MissionCard({ player, mission, fd, color }: { player: string; mission: string; fd: ForceDisposition; color: string }) {
   if (!mission) return null
   return (
-    <div className="app-panel p-4">
+    <div
+      className="app-panel player-seat-panel p-4"
+      style={{ '--player-seat-color': color } as CSSProperties}
+    >
       <p className="text-caption font-semibold uppercase" style={{ color }}>{player}</p>
       <p className="mt-1 text-lg font-bold">
         <MissionNameButton name={mission} className="text-lg font-bold text-text no-underline hover:text-accent" />
@@ -675,7 +701,10 @@ function SecondarySetup({
   }
 
   return (
-    <div className="app-panel p-4">
+    <div
+      className="app-panel player-seat-panel p-4"
+      style={{ '--player-seat-color': color } as CSSProperties}
+    >
       <p className="mb-3 font-semibold" style={{ color }}>{label}</p>
       <div className="mb-3 flex gap-2">
         {(['fixed', 'tactical'] as const).map((mode) => (
@@ -683,16 +712,15 @@ function SecondarySetup({
             key={mode}
             type="button"
             onClick={() => setMode(mode)}
-            className={`flex min-h-[3.25rem] flex-1 flex-col items-center justify-center rounded-lg border px-2 py-2 text-center touch-manipulation ${
-              player.secondaryMode === mode
-                ? 'border-accent/30 bg-accent-soft text-accent'
-                : 'border-border text-muted'
+            className={`player-seat-mode-btn flex min-h-[3.25rem] flex-1 flex-col items-center justify-center rounded-lg px-2 py-2 text-center touch-manipulation ${
+              player.secondaryMode === mode ? 'is-active' : ''
             }`}
+            style={{ '--player-seat-color': color } as CSSProperties}
           >
-            <span className="text-body font-medium">
+            <span className="text-body font-semibold">
               {mode === 'fixed' ? copy.newGame.secondaryFixed : copy.newGame.secondaryTactical}
             </span>
-            <span className="mt-0.5 text-micro leading-tight opacity-80">
+            <span className="player-seat-mode-btn-hint mt-0.5 text-micro leading-tight">
               {mode === 'fixed' ? copy.newGame.secondaryFixedHint : copy.newGame.secondaryTacticalHint}
             </span>
           </button>
@@ -709,19 +737,17 @@ function SecondarySetup({
               <div
                 key={s}
                 className={`flex items-center gap-2 rounded-lg border px-2 py-1.5 ${
-                  player.secondaries.includes(s)
-                    ? 'border-accent bg-accent/10'
-                    : 'border-border'
+                  player.secondaries.includes(s) ? 'player-seat-active' : 'player-seat-card'
                 }`}
+                style={{ '--player-seat-color': color } as CSSProperties}
               >
                 <button
                   type="button"
                   onClick={() => toggleFixed(s)}
-                  className={`flex h-11 w-11 shrink-0 items-center justify-center rounded-md border text-body touch-manipulation ${
-                    player.secondaries.includes(s)
-                      ? 'border-accent bg-accent text-void'
-                      : 'border-border text-muted'
+                  className={`player-seat-check flex h-11 w-11 shrink-0 items-center justify-center rounded-md border text-body touch-manipulation ${
+                    player.secondaries.includes(s) ? 'is-active font-bold' : ''
                   }`}
+                  style={{ '--player-seat-color': color } as CSSProperties}
                   aria-label={player.secondaries.includes(s) ? `Deselect ${s}` : `Select ${s}`}
                 >
                   {player.secondaries.includes(s) ? '✓' : ''}
@@ -861,7 +887,10 @@ function DoublesTeamFields({
     const army2Key = isTeam1 ? 'team1Army2' : 'team2Army2'
     const warlordKey = isTeam1 ? 'team1Warlord' : 'team2Warlord'
     return (
-      <div className="app-panel p-4">
+      <div
+        className="app-panel player-seat-panel p-4"
+        style={{ '--player-seat-color': color } as CSSProperties}
+      >
         <p className="mb-3 font-semibold" style={{ color }}>
           {meta[nameKey]}
         </p>

@@ -1,0 +1,39 @@
+{
+  "d72d-b930-9849-924e": {
+    "groups": [
+      {
+        "id": "ae9b-6aa9-aa56-f220",
+        "name": "Wargear",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "7faa-50ab-98d4-2fc7",
+            "name": "Onslaught Gatling Cannon",
+            "min": 1,
+            "max": 1
+          },
+          {
+            "id": "ceb9-e596-79c1-8b34",
+            "name": "Stormtooth",
+            "min": 1,
+            "max": 1
+          },
+          {
+            "id": "37d7-b142-21b0-63c5",
+            "name": "Power Sword",
+            "min": 1,
+            "max": 1
+          },
+          {
+            "id": "4679-fcd5-ead9-7a4b",
+            "name": "Heavy Bolt Pistol",
+            "min": 1,
+            "max": 1
+          }
+        ]
+      }
+    ]
+  }
+}

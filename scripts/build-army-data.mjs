@@ -27,3 +27,12 @@ const result = await convert({
 })
 
 console.log(`\nArmy data: ${result.factionCount} factions → ${outDir}/curated/`)
+
+console.log('\nMerging 11th Edition MFM points…')
+await import('./merge-mfm-data.mjs')
+
+console.log('\nExtracting unit loadouts…')
+await import('./extract-unit-loadouts.mjs')
+
+console.log('\nSanitizing curated datasheets…')
+await import('./sanitize-curated-datasheets.mjs')

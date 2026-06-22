@@ -1,0 +1,1630 @@
+{
+  "slug": "tyranids",
+  "name": "Tyranids",
+  "version": "1.0",
+  "firstSeen": "2026-06-17",
+  "detachments": [
+    {
+      "name": "Ambush Predators",
+      "dp": 1,
+      "objective": "DISRUPTION",
+      "enhancements": [
+        {
+          "name": "Cryptophotaic Camouflage (Upgrade)",
+          "points": 15,
+          "detachment": "Ambush Predators"
+        },
+        {
+          "name": "Encircling Horrors (Upgrade)",
+          "points": 20,
+          "detachment": "Ambush Predators"
+        }
+      ]
+    },
+    {
+      "name": "Assimilation Swarm",
+      "dp": 2,
+      "objective": "PRIORITY ASSETS",
+      "enhancements": [
+        {
+          "name": "Biophagic Flow",
+          "points": 10,
+          "detachment": "Assimilation Swarm"
+        },
+        {
+          "name": "Instinctive Defence",
+          "points": 15,
+          "detachment": "Assimilation Swarm"
+        },
+        {
+          "name": "Parasitic Biomorphology",
+          "points": 25,
+          "detachment": "Assimilation Swarm"
+        },
+        {
+          "name": "Regenerating Monstrosity",
+          "points": 20,
+          "detachment": "Assimilation Swarm"
+        }
+      ]
+    },
+    {
+      "name": "Crusher Stampede",
+      "dp": 2,
+      "objective": "PURGE THE FOE",
+      "enhancements": [
+        {
+          "name": "Enraged Reserves",
+          "points": 20,
+          "detachment": "Crusher Stampede"
+        },
+        {
+          "name": "Monstrous Nemesis",
+          "points": 25,
+          "detachment": "Crusher Stampede"
+        },
+        {
+          "name": "Null Nodules",
+          "points": 10,
+          "detachment": "Crusher Stampede"
+        },
+        {
+          "name": "Ominous Presence",
+          "points": 15,
+          "detachment": "Crusher Stampede"
+        }
+      ]
+    },
+    {
+      "name": "Invasion Fleet",
+      "dp": 3,
+      "objective": "TAKE AND HOLD",
+      "enhancements": [
+        {
+          "name": "Adaptive Biology",
+          "points": 25,
+          "detachment": "Invasion Fleet"
+        },
+        {
+          "name": "Alien Cunning",
+          "points": 30,
+          "detachment": "Invasion Fleet"
+        },
+        {
+          "name": "Perfectly Adapted",
+          "points": 15,
+          "detachment": "Invasion Fleet"
+        },
+        {
+          "name": "Synaptic Linchpin",
+          "points": 20,
+          "detachment": "Invasion Fleet"
+        }
+      ]
+    },
+    {
+      "name": "Subterranean Assault",
+      "dp": 3,
+      "objective": "DISRUPTION",
+      "enhancements": [
+        {
+          "name": "Synaptic Strategy",
+          "points": 15,
+          "detachment": "Subterranean Assault"
+        },
+        {
+          "name": "Tremor Senses",
+          "points": 20,
+          "detachment": "Subterranean Assault"
+        },
+        {
+          "name": "Trygon Prime",
+          "points": 20,
+          "detachment": "Subterranean Assault"
+        },
+        {
+          "name": "Vanguard Intellect",
+          "points": 15,
+          "detachment": "Subterranean Assault"
+        }
+      ]
+    },
+    {
+      "name": "Synaptic Nexus",
+      "dp": 2,
+      "objective": "DISRUPTION",
+      "enhancements": [
+        {
+          "name": "Power of the Hive Mind",
+          "points": 10,
+          "detachment": "Synaptic Nexus"
+        },
+        {
+          "name": "Psychostatic Disruption",
+          "points": 30,
+          "detachment": "Synaptic Nexus"
+        },
+        {
+          "name": "Synaptic Control",
+          "points": 20,
+          "detachment": "Synaptic Nexus"
+        },
+        {
+          "name": "The Dirgeheart of Kharis",
+          "points": 15,
+          "detachment": "Synaptic Nexus"
+        }
+      ]
+    },
+    {
+      "name": "Talons Of The Norn Queen",
+      "dp": 1,
+      "objective": "TAKE AND HOLD",
+      "enhancements": [
+        {
+          "name": "Destabilising Predation (Upgrade)",
+          "points": 20,
+          "detachment": "Talons Of The Norn Queen"
+        },
+        {
+          "name": "Synaptoprescience (Upgrade)",
+          "points": 25,
+          "detachment": "Talons Of The Norn Queen"
+        }
+      ]
+    },
+    {
+      "name": "Unending Swarm",
+      "dp": 2,
+      "objective": "TAKE AND HOLD",
+      "enhancements": [
+        {
+          "name": "Adrenalised Onslaught",
+          "points": 15,
+          "detachment": "Unending Swarm"
+        },
+        {
+          "name": "Naturalised Camouflage",
+          "points": 30,
+          "detachment": "Unending Swarm"
+        },
+        {
+          "name": "Piercing Talons",
+          "points": 25,
+          "detachment": "Unending Swarm"
+        },
+        {
+          "name": "Relentless Hunger",
+          "points": 20,
+          "detachment": "Unending Swarm"
+        }
+      ]
+    },
+    {
+      "name": "Vanguard Onslaught",
+      "dp": 2,
+      "objective": "RECONNAISSANCE",
+      "enhancements": [
+        {
+          "name": "Chameleonic",
+          "points": 15,
+          "detachment": "Vanguard Onslaught"
+        },
+        {
+          "name": "Hunting Grounds",
+          "points": 20,
+          "detachment": "Vanguard Onslaught"
+        },
+        {
+          "name": "Neuronode",
+          "points": 20,
+          "detachment": "Vanguard Onslaught"
+        },
+        {
+          "name": "Stalker",
+          "points": 10,
+          "detachment": "Vanguard Onslaught"
+        }
+      ]
+    },
+    {
+      "name": "Warrior Bioform Onslaught",
+      "dp": 1,
+      "objective": "TAKE AND HOLD",
+      "enhancements": [
+        {
+          "name": "Elevated Might",
+          "points": 30,
+          "detachment": "Warrior Bioform Onslaught"
+        },
+        {
+          "name": "Ocular Adaptation",
+          "points": 20,
+          "detachment": "Warrior Bioform Onslaught"
+        }
+      ]
+    }
+  ],
+  "units": [
+    {
+      "name": "Barbed Hierodule",
+      "normalizedName": "barbed hierodule",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 340
+            }
+          ]
+        }
+      ],
+      "points": 340,
+      "pointsLabel": "340",
+      "legends": true
+    },
+    {
+      "name": "Barbgaunts",
+      "normalizedName": "barbgaunts",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 5,
+              "points": 55
+            },
+            {
+              "models": 10,
+              "points": 110
+            }
+          ]
+        }
+      ],
+      "points": 55,
+      "pointsLabel": "55/110",
+      "legends": false
+    },
+    {
+      "name": "Biovores",
+      "normalizedName": "biovores",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 60
+            },
+            {
+              "models": 2,
+              "points": 100
+            },
+            {
+              "models": 3,
+              "points": 140
+            }
+          ]
+        }
+      ],
+      "points": 60,
+      "pointsLabel": "60/100/140",
+      "legends": false
+    },
+    {
+      "name": "Broodlord",
+      "normalizedName": "broodlord",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 80
+            }
+          ]
+        }
+      ],
+      "points": 80,
+      "pointsLabel": "80",
+      "legends": false,
+      "role": "leader",
+      "attachTo": [
+        "Genestealers"
+      ]
+    },
+    {
+      "name": "Carnifexes",
+      "normalizedName": "carnifexes",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 90
+            },
+            {
+              "models": 2,
+              "points": 180
+            }
+          ]
+        }
+      ],
+      "points": 90,
+      "pointsLabel": "90/180",
+      "legends": false
+    },
+    {
+      "name": "Deathleaper",
+      "normalizedName": "deathleaper",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 80
+            }
+          ]
+        }
+      ],
+      "points": 80,
+      "pointsLabel": "80",
+      "legends": false
+    },
+    {
+      "name": "Dimachaeron",
+      "normalizedName": "dimachaeron",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 200
+            }
+          ]
+        }
+      ],
+      "points": 200,
+      "pointsLabel": "200",
+      "legends": true
+    },
+    {
+      "name": "Exocrine",
+      "normalizedName": "exocrine",
+      "pricing": [
+        {
+          "range": "[1,2]",
+          "label": "Your 1st To 2nd Units Cost",
+          "costs": [
+            {
+              "models": 1,
+              "points": 140
+            }
+          ]
+        },
+        {
+          "range": "[3,)",
+          "label": "Your 3rd + Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 150
+            }
+          ]
+        }
+      ],
+      "points": 140,
+      "pointsLabel": "140",
+      "legends": false
+    },
+    {
+      "name": "Gargoyles",
+      "normalizedName": "gargoyles",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 10,
+              "points": 80
+            },
+            {
+              "models": 20,
+              "points": 155
+            }
+          ]
+        }
+      ],
+      "points": 80,
+      "pointsLabel": "80/155",
+      "legends": false
+    },
+    {
+      "name": "Genestealers",
+      "normalizedName": "genestealers",
+      "pricing": [
+        {
+          "range": "[1,2]",
+          "label": "Your 1st To 2nd Units Cost",
+          "costs": [
+            {
+              "models": 5,
+              "points": 75
+            },
+            {
+              "models": 10,
+              "points": 140
+            }
+          ]
+        },
+        {
+          "range": "[3,)",
+          "label": "Your 3rd + Unit Costs",
+          "costs": [
+            {
+              "models": 5,
+              "points": 85
+            },
+            {
+              "models": 10,
+              "points": 150
+            }
+          ]
+        }
+      ],
+      "points": 75,
+      "pointsLabel": "75/140",
+      "legends": false
+    },
+    {
+      "name": "Harpy",
+      "normalizedName": "harpy",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 185
+            }
+          ]
+        }
+      ],
+      "points": 185,
+      "pointsLabel": "185",
+      "legends": false
+    },
+    {
+      "name": "Harridan",
+      "normalizedName": "harridan",
+      "pricing": [
+        {
+          "range": "[1,1]",
+          "label": "Your 1st Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 610
+            }
+          ]
+        },
+        {
+          "range": "[2,)",
+          "label": "Your 2nd + Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 660
+            }
+          ]
+        }
+      ],
+      "points": 610,
+      "pointsLabel": "610",
+      "legends": false
+    },
+    {
+      "name": "Haruspex",
+      "normalizedName": "haruspex",
+      "pricing": [
+        {
+          "range": "[1,2]",
+          "label": "Your 1st To 2nd Units Cost",
+          "costs": [
+            {
+              "models": 1,
+              "points": 125
+            }
+          ]
+        },
+        {
+          "range": "[3,)",
+          "label": "Your 3rd + Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 135
+            }
+          ]
+        }
+      ],
+      "points": 125,
+      "pointsLabel": "125",
+      "legends": false
+    },
+    {
+      "name": "Hierophant",
+      "normalizedName": "hierophant",
+      "pricing": [
+        {
+          "range": "[1,1]",
+          "label": "Your 1st Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 810
+            }
+          ]
+        },
+        {
+          "range": "[2,)",
+          "label": "Your 2nd + Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 910
+            }
+          ]
+        }
+      ],
+      "points": 810,
+      "pointsLabel": "810",
+      "legends": false
+    },
+    {
+      "name": "Hive Crone",
+      "normalizedName": "hive crone",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 170
+            }
+          ]
+        }
+      ],
+      "points": 170,
+      "pointsLabel": "170",
+      "legends": false
+    },
+    {
+      "name": "Hive Guard",
+      "normalizedName": "hive guard",
+      "pricing": [
+        {
+          "range": "[1,2]",
+          "label": "Your 1st To 2nd Units Cost",
+          "costs": [
+            {
+              "models": 3,
+              "points": 80
+            },
+            {
+              "models": 6,
+              "points": 160
+            }
+          ]
+        },
+        {
+          "range": "[3,)",
+          "label": "Your 3rd + Unit Costs",
+          "costs": [
+            {
+              "models": 3,
+              "points": 90
+            },
+            {
+              "models": 6,
+              "points": 170
+            }
+          ]
+        }
+      ],
+      "points": 80,
+      "pointsLabel": "80/160",
+      "legends": false
+    },
+    {
+      "name": "Hive Tyrant",
+      "normalizedName": "hive tyrant",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 195
+            }
+          ]
+        }
+      ],
+      "points": 195,
+      "pointsLabel": "195",
+      "legends": false,
+      "role": "leader",
+      "attachTo": [
+        "Tyrant Guard"
+      ]
+    },
+    {
+      "name": "Hormagaunts",
+      "normalizedName": "hormagaunts",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 10,
+              "points": 70
+            },
+            {
+              "models": 20,
+              "points": 120
+            }
+          ]
+        }
+      ],
+      "points": 70,
+      "pointsLabel": "70/120",
+      "legends": false
+    },
+    {
+      "name": "Hyperadapted Raveners",
+      "normalizedName": "hyperadapted raveners",
+      "pricing": [
+        {
+          "range": "[1,2]",
+          "label": "Your 1st To 2nd Units Cost",
+          "costs": [
+            {
+              "models": 5,
+              "points": 165
+            }
+          ]
+        },
+        {
+          "range": "[3,)",
+          "label": "Your 3rd + Unit Costs",
+          "costs": [
+            {
+              "models": 5,
+              "points": 175
+            }
+          ]
+        }
+      ],
+      "points": 165,
+      "pointsLabel": "165",
+      "legends": false,
+      "role": "leader",
+      "attachTo": [
+        "Raveners"
+      ]
+    },
+    {
+      "name": "Lictor",
+      "normalizedName": "lictor",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 60
+            }
+          ]
+        }
+      ],
+      "points": 60,
+      "pointsLabel": "60",
+      "legends": false
+    },
+    {
+      "name": "Malanthrope",
+      "normalizedName": "malanthrope",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 75
+            }
+          ]
+        }
+      ],
+      "points": 75,
+      "pointsLabel": "75",
+      "legends": true,
+      "role": "leader",
+      "attachTo": [
+        "Venomthropes"
+      ]
+    },
+    {
+      "name": "Maleceptor",
+      "normalizedName": "maleceptor",
+      "pricing": [
+        {
+          "range": "[1,2]",
+          "label": "Your 1st To 2nd Units Cost",
+          "costs": [
+            {
+              "models": 1,
+              "points": 180
+            }
+          ]
+        },
+        {
+          "range": "[3,)",
+          "label": "Your 3rd + Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 190
+            }
+          ]
+        }
+      ],
+      "points": 180,
+      "pointsLabel": "180",
+      "legends": false
+    },
+    {
+      "name": "Mawloc",
+      "normalizedName": "mawloc",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 135
+            }
+          ]
+        }
+      ],
+      "points": 135,
+      "pointsLabel": "135",
+      "legends": false
+    },
+    {
+      "name": "Mucolid Spores",
+      "normalizedName": "mucolid spores",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 30
+            },
+            {
+              "models": 2,
+              "points": 60
+            }
+          ]
+        }
+      ],
+      "points": 30,
+      "pointsLabel": "30/60",
+      "legends": false
+    },
+    {
+      "name": "Neurogaunts",
+      "normalizedName": "neurogaunts",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 11,
+              "points": 45
+            },
+            {
+              "models": 22,
+              "points": 90
+            }
+          ]
+        }
+      ],
+      "points": 45,
+      "pointsLabel": "45/90",
+      "legends": false
+    },
+    {
+      "name": "Neurolictor",
+      "normalizedName": "neurolictor",
+      "pricing": [
+        {
+          "range": "[1,2]",
+          "label": "Your 1st To 2nd Units Cost",
+          "costs": [
+            {
+              "models": 1,
+              "points": 80
+            }
+          ]
+        },
+        {
+          "range": "[3,)",
+          "label": "Your 3rd + Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 90
+            }
+          ]
+        }
+      ],
+      "points": 80,
+      "pointsLabel": "80",
+      "legends": false
+    },
+    {
+      "name": "Neurotyrant",
+      "normalizedName": "neurotyrant",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 115
+            }
+          ]
+        }
+      ],
+      "points": 115,
+      "pointsLabel": "115",
+      "legends": false,
+      "role": "leader",
+      "attachTo": [
+        "Neurogaunts",
+        "Tyrant Guard",
+        "Zoanthropes"
+      ]
+    },
+    {
+      "name": "Norn Assimilator",
+      "normalizedName": "norn assimilator",
+      "pricing": [
+        {
+          "range": "[1,1]",
+          "label": "Your 1st Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 250
+            }
+          ]
+        },
+        {
+          "range": "[2,)",
+          "label": "Your 2nd + Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 270
+            }
+          ]
+        }
+      ],
+      "points": 250,
+      "pointsLabel": "250",
+      "legends": false
+    },
+    {
+      "name": "Norn Emissary",
+      "normalizedName": "norn emissary",
+      "pricing": [
+        {
+          "range": "[1,1]",
+          "label": "Your 1st Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 250
+            }
+          ]
+        },
+        {
+          "range": "[2,)",
+          "label": "Your 2nd + Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 270
+            }
+          ]
+        }
+      ],
+      "points": 250,
+      "pointsLabel": "250",
+      "legends": false
+    },
+    {
+      "name": "Old One Eye",
+      "normalizedName": "old one eye",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 140
+            }
+          ]
+        }
+      ],
+      "points": 140,
+      "pointsLabel": "140",
+      "legends": false,
+      "role": "leader",
+      "attachTo": [
+        "Carnifexes"
+      ]
+    },
+    {
+      "name": "Parasite Of Mortrex",
+      "normalizedName": "parasite of mortrex",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 70
+            }
+          ]
+        }
+      ],
+      "points": 70,
+      "pointsLabel": "70",
+      "legends": false
+    },
+    {
+      "name": "Psychophage",
+      "normalizedName": "psychophage",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 110
+            }
+          ]
+        }
+      ],
+      "points": 110,
+      "pointsLabel": "110",
+      "legends": false
+    },
+    {
+      "name": "Pyrovores",
+      "normalizedName": "pyrovores",
+      "pricing": [
+        {
+          "range": "[1,2]",
+          "label": "Your 1st To 2nd Units Cost",
+          "costs": [
+            {
+              "models": 1,
+              "points": 45
+            },
+            {
+              "models": 2,
+              "points": 65
+            },
+            {
+              "models": 3,
+              "points": 95
+            }
+          ]
+        },
+        {
+          "range": "[3,)",
+          "label": "Your 3rd + Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 55
+            },
+            {
+              "models": 2,
+              "points": 75
+            },
+            {
+              "models": 3,
+              "points": 105
+            }
+          ]
+        }
+      ],
+      "points": 45,
+      "pointsLabel": "45/65/95",
+      "legends": false
+    },
+    {
+      "name": "Raveners",
+      "normalizedName": "raveners",
+      "pricing": [
+        {
+          "range": "[1,2]",
+          "label": "Your 1st To 2nd Units Cost",
+          "costs": [
+            {
+              "models": 5,
+              "points": 125
+            }
+          ]
+        },
+        {
+          "range": "[3,)",
+          "label": "Your 3rd + Unit Costs",
+          "costs": [
+            {
+              "models": 5,
+              "points": 135
+            }
+          ]
+        }
+      ],
+      "points": 125,
+      "pointsLabel": "125",
+      "legends": false
+    },
+    {
+      "name": "Ripper Swarms",
+      "normalizedName": "ripper swarms",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 30
+            },
+            {
+              "models": 2,
+              "points": 40
+            },
+            {
+              "models": 3,
+              "points": 50
+            }
+          ]
+        }
+      ],
+      "points": 30,
+      "pointsLabel": "30/40/50",
+      "legends": false
+    },
+    {
+      "name": "Screamer-Killer",
+      "normalizedName": "screamer killer",
+      "pricing": [
+        {
+          "range": "[1,2]",
+          "label": "Your 1st To 2nd Units Cost",
+          "costs": [
+            {
+              "models": 1,
+              "points": 125
+            }
+          ]
+        },
+        {
+          "range": "[3,)",
+          "label": "Your 3rd + Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 135
+            }
+          ]
+        }
+      ],
+      "points": 125,
+      "pointsLabel": "125",
+      "legends": false
+    },
+    {
+      "name": "Scythed Hierodule",
+      "normalizedName": "scythed hierodule",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 330
+            }
+          ]
+        }
+      ],
+      "points": 330,
+      "pointsLabel": "330",
+      "legends": true
+    },
+    {
+      "name": "Sky-Slasher Swarms",
+      "normalizedName": "sky slasher swarms",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 3,
+              "points": 60
+            }
+          ]
+        }
+      ],
+      "points": 60,
+      "pointsLabel": "60",
+      "legends": true
+    },
+    {
+      "name": "Spore Mines",
+      "normalizedName": "spore mines",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 3,
+              "points": 55
+            },
+            {
+              "models": 6,
+              "points": 110
+            }
+          ]
+        }
+      ],
+      "points": 55,
+      "pointsLabel": "55/110",
+      "legends": false
+    },
+    {
+      "name": "Sporocyst",
+      "normalizedName": "sporocyst",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 145
+            }
+          ]
+        }
+      ],
+      "points": 145,
+      "pointsLabel": "145",
+      "legends": false
+    },
+    {
+      "name": "Termagants",
+      "normalizedName": "termagants",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 10,
+              "points": 60
+            },
+            {
+              "models": 20,
+              "points": 110
+            }
+          ]
+        }
+      ],
+      "points": 60,
+      "pointsLabel": "60/110",
+      "legends": false
+    },
+    {
+      "name": "Tervigon",
+      "normalizedName": "tervigon",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 160
+            }
+          ]
+        }
+      ],
+      "points": 160,
+      "pointsLabel": "160",
+      "legends": false
+    },
+    {
+      "name": "The Red Terror",
+      "normalizedName": "the red terror",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 130
+            }
+          ]
+        }
+      ],
+      "points": 130,
+      "pointsLabel": "130",
+      "legends": false
+    },
+    {
+      "name": "The Swarmlord",
+      "normalizedName": "the swarmlord",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 210
+            }
+          ]
+        }
+      ],
+      "points": 210,
+      "pointsLabel": "210",
+      "legends": false,
+      "role": "leader",
+      "attachTo": [
+        "Tyrant Guard"
+      ]
+    },
+    {
+      "name": "Toxicrene",
+      "normalizedName": "toxicrene",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 135
+            }
+          ]
+        }
+      ],
+      "points": 135,
+      "pointsLabel": "135",
+      "legends": false
+    },
+    {
+      "name": "Trygon",
+      "normalizedName": "trygon",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 140
+            }
+          ]
+        }
+      ],
+      "points": 140,
+      "pointsLabel": "140",
+      "legends": false
+    },
+    {
+      "name": "Tyranid Prime With Lash Whip",
+      "normalizedName": "tyranid prime with lash whip",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 75
+            }
+          ]
+        }
+      ],
+      "points": 75,
+      "pointsLabel": "75",
+      "legends": false,
+      "role": "leader",
+      "attachTo": [
+        "Hormagaunts",
+        "Termagants",
+        "Tyranid Warriors With Melee Bio-Weapons",
+        "Tyranid Warriors With Ranged Bio-Weapons"
+      ]
+    },
+    {
+      "name": "Tyranid Warriors With Melee Bio-Weapons",
+      "normalizedName": "tyranid warriors with melee bio weapons",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 3,
+              "points": 75
+            },
+            {
+              "models": 6,
+              "points": 150
+            }
+          ]
+        }
+      ],
+      "points": 75,
+      "pointsLabel": "75/150",
+      "legends": false
+    },
+    {
+      "name": "Tyranid Warriors With Ranged Bio-Weapons",
+      "normalizedName": "tyranid warriors with ranged bio weapons",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 3,
+              "points": 60
+            },
+            {
+              "models": 6,
+              "points": 120
+            }
+          ]
+        }
+      ],
+      "points": 60,
+      "pointsLabel": "60/120",
+      "legends": false
+    },
+    {
+      "name": "Tyrannocyte",
+      "normalizedName": "tyrannocyte",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 90
+            }
+          ]
+        }
+      ],
+      "points": 90,
+      "pointsLabel": "90",
+      "legends": false
+    },
+    {
+      "name": "Tyrannofex",
+      "normalizedName": "tyrannofex",
+      "pricing": [
+        {
+          "range": "[1,2]",
+          "label": "Your 1st To 2nd Units Cost",
+          "costs": [
+            {
+              "models": 1,
+              "points": 180
+            }
+          ]
+        },
+        {
+          "range": "[3,)",
+          "label": "Your 3rd + Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 190
+            }
+          ]
+        }
+      ],
+      "points": 180,
+      "pointsLabel": "180",
+      "legends": false
+    },
+    {
+      "name": "Tyrant Guard",
+      "normalizedName": "tyrant guard",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 3,
+              "points": 80
+            },
+            {
+              "models": 6,
+              "points": 160
+            }
+          ]
+        }
+      ],
+      "points": 80,
+      "pointsLabel": "80/160",
+      "legends": false
+    },
+    {
+      "name": "Venomthropes",
+      "normalizedName": "venomthropes",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 3,
+              "points": 55
+            },
+            {
+              "models": 6,
+              "points": 110
+            }
+          ]
+        }
+      ],
+      "points": 55,
+      "pointsLabel": "55/110",
+      "legends": false
+    },
+    {
+      "name": "Von Ryan’S Leapers",
+      "normalizedName": "von ryans leapers",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 3,
+              "points": 60
+            },
+            {
+              "models": 6,
+              "points": 120
+            }
+          ]
+        }
+      ],
+      "points": 60,
+      "pointsLabel": "60/120",
+      "legends": false
+    },
+    {
+      "name": "Winged Hive Tyrant",
+      "normalizedName": "winged hive tyrant",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 185
+            }
+          ]
+        }
+      ],
+      "points": 185,
+      "pointsLabel": "185",
+      "legends": false
+    },
+    {
+      "name": "Winged Tyranid Prime",
+      "normalizedName": "winged tyranid prime",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 65
+            }
+          ]
+        }
+      ],
+      "points": 65,
+      "pointsLabel": "65",
+      "legends": false,
+      "role": "leader",
+      "attachTo": [
+        "Gargoyles",
+        "Tyranid Warriors With Melee Bio-Weapons",
+        "Tyranid Warriors With Ranged Bio-Weapons"
+      ]
+    },
+    {
+      "name": "Zoanthropes",
+      "normalizedName": "zoanthropes",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 3,
+              "points": 100
+            },
+            {
+              "models": 6,
+              "points": 200
+            }
+          ]
+        }
+      ],
+      "points": 100,
+      "pointsLabel": "100/200",
+      "legends": false
+    }
+  ]
+}

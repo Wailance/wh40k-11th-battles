@@ -23,7 +23,7 @@ export function AppSheet({
 
   return createPortal(
     <div
-      className="app-overlay app-overlay-sheet"
+      className="app-overlay app-overlay-sheet motion-sheet-backdrop"
       role="dialog"
       aria-modal="true"
       aria-labelledby={titleId}

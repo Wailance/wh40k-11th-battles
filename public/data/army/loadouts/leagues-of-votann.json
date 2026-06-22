@@ -1,0 +1,785 @@
+{
+  "ba4f-c3f9-6925-af0c": {
+    "groups": [
+      {
+        "id": "6bf0-d579-38eb-5bc9",
+        "name": "Hearthkyn Warriors",
+        "min": 9,
+        "max": 9,
+        "mode": "count",
+        "options": [
+          {
+            "id": "4782-445d-730e-6b69",
+            "name": "Hearthkyn Warrior w/ bolter",
+            "min": 0,
+            "max": 9
+          },
+          {
+            "id": "7802-9a4a-cc1c-7103",
+            "name": "Hearthkyn Warrior w/ ion blaster",
+            "min": 0,
+            "max": 9
+          },
+          {
+            "id": "6c9e-f7c7-6e0e-4dd7",
+            "name": "Hearthkyn Warrior w/ plasma knife",
+            "min": 0,
+            "max": 2
+          },
+          {
+            "id": "ad43-fc9a-f768-62b7",
+            "name": "Hearthkyn Warrior w/ HYLas rotary cannon",
+            "min": 0,
+            "max": 1
+          },
+          {
+            "id": "6ba5-67fa-c681-f302",
+            "name": "Hearthkyn Warrior w/ HYLas auto rifle",
+            "min": 0,
+            "max": 1
+          },
+          {
+            "id": "6028-01a8-a643-aea3",
+            "name": "Hearthkyn Warrior w/ L7 missile launcher",
+            "min": 0,
+            "max": 1
+          },
+          {
+            "id": "9bba-c4eb-ade6-2339",
+            "name": "Hearthkyn Warrior w/ magna-rail rifle",
+            "min": 0,
+            "max": 1
+          },
+          {
+            "id": "0fd5-2630-0aba-19cd",
+            "name": "Hearthkyn Warrior w/ EtaCarn plasma beamer",
+            "min": 0,
+            "max": 1
+          }
+        ],
+        "defaultOptionId": "4782-445d-730e-6b69",
+        "groups": []
+      }
+    ]
+  },
+  "1b00-2abb-718f-def6": {
+    "groups": [
+      {
+        "id": "1a8d-e45d-57bc-3872",
+        "name": "Wargear",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [],
+        "groups": [
+          {
+            "id": "4624-f155-ae28-d0cd",
+            "name": "Crest",
+            "min": 1,
+            "max": 1,
+            "mode": "single",
+            "options": [
+              {
+                "id": "13c9-0632-b390-34b5",
+                "name": "Rampart crest",
+                "min": 0,
+                "max": 1
+              },
+              {
+                "id": "ffd1-aac2-01c0-c05a",
+                "name": "Teleport crest",
+                "min": 0,
+                "max": 99
+              }
+            ],
+            "defaultOptionId": "13c9-0632-b390-34b5"
+          },
+          {
+            "id": "5fd9-0b10-8ba6-5b5e",
+            "name": "Melee weapon",
+            "min": 1,
+            "max": 1,
+            "mode": "single",
+            "options": [
+              {
+                "id": "d3c6-b12e-a1d6-be7b",
+                "name": "Mass gauntlet",
+                "min": 0,
+                "max": 99
+              },
+              {
+                "id": "e03d-99af-36d8-3789",
+                "name": "Forgewrought plasma axe",
+                "min": 0,
+                "max": 99
+              }
+            ],
+            "defaultOptionId": "e03d-99af-36d8-3789"
+          },
+          {
+            "id": "904c-b107-fe0b-82da",
+            "name": "Ranged weapon",
+            "min": 1,
+            "max": 1,
+            "mode": "single",
+            "options": [
+              {
+                "id": "5de2-b9fc-e92c-66cd",
+                "name": "Autoch-pattern combi-bolter",
+                "min": 0,
+                "max": 99
+              },
+              {
+                "id": "c0ec-6a64-e285-85f7",
+                "name": "Volkanite disintegrator",
+                "min": 0,
+                "max": 99
+              }
+            ],
+            "defaultOptionId": "5de2-b9fc-e92c-66cd"
+          }
+        ]
+      }
+    ]
+  },
+  "2cc6-e2bf-635f-1260": {
+    "groups": [
+      {
+        "id": "efc5-6144-fcf2-f366",
+        "name": "Wargear",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "00ac-a3ae-c23e-c0d6",
+            "name": "Autoch-pattern combi-bolter",
+            "min": 1,
+            "max": 1
+          }
+        ],
+        "groups": [
+          {
+            "id": "904e-d649-c045-bf1b",
+            "name": "Crest",
+            "min": 1,
+            "max": 1,
+            "mode": "single",
+            "options": [
+              {
+                "id": "b0eb-9aa0-5029-db9d",
+                "name": "Weavefield crest",
+                "min": 0,
+                "max": 1
+              },
+              {
+                "id": "9fc0-572e-c94d-dfda",
+                "name": "Teleport crest",
+                "min": 0,
+                "max": 99
+              }
+            ],
+            "defaultOptionId": "b0eb-9aa0-5029-db9d"
+          },
+          {
+            "id": "aab6-e41b-da7f-10ed",
+            "name": "Melee weapon",
+            "min": 1,
+            "max": 1,
+            "mode": "single",
+            "options": [
+              {
+                "id": "d302-52a9-ef8a-d430",
+                "name": "Mass hammer",
+                "min": 0,
+                "max": 99
+              },
+              {
+                "id": "ac4f-c500-41ba-07cf",
+                "name": "Darkstar axe",
+                "min": 0,
+                "max": 99
+              }
+            ],
+            "defaultOptionId": "d302-52a9-ef8a-d430"
+          }
+        ]
+      }
+    ]
+  },
+  "8f33-5601-3707-78f4": {
+    "groups": [
+      {
+        "id": "0883-3abd-6118-b32e",
+        "name": "Assistants",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "7d45-a4fc-84b4-87b0",
+            "name": "E-COG",
+            "min": 1,
+            "max": 1
+          },
+          {
+            "id": "d89f-ce30-8aac-e36f",
+            "name": "E-COG",
+            "min": 1,
+            "max": 1
+          },
+          {
+            "id": "0b66-ff3e-cbef-04ff",
+            "name": "E-COG",
+            "min": 1,
+            "max": 1
+          },
+          {
+            "id": "635b-8cdf-312f-2858",
+            "name": "Ironkyn Assistant",
+            "min": 1,
+            "max": 1
+          }
+        ]
+      }
+    ]
+  },
+  "09d3-6357-7888-00d9": {
+    "groups": [
+      {
+        "id": "131f-c2ab-895d-c54b",
+        "name": "4-9 Hearthguard",
+        "min": 4,
+        "max": 9,
+        "mode": "count",
+        "options": [
+          {
+            "id": "ea2c-e140-de98-d555",
+            "name": "Einhyr Hearthguard",
+            "min": 0,
+            "max": 99,
+            "groups": [
+              {
+                "id": "ccb3-8ee6-568d-eee9",
+                "name": "Squad ranged weapon",
+                "min": 1,
+                "max": 1,
+                "mode": "single",
+                "options": [
+                  {
+                    "id": "58c5-35f8-3823-bf60",
+                    "name": "EtaCarn plasma gun",
+                    "min": 0,
+                    "max": 1
+                  },
+                  {
+                    "id": "0263-c056-d80a-2192",
+                    "name": "Volkanite disintegrator",
+                    "min": 0,
+                    "max": 1
+                  }
+                ],
+                "defaultOptionId": "58c5-35f8-3823-bf60"
+              },
+              {
+                "id": "d243-2501-7db6-ba08",
+                "name": "Squad melee weapon",
+                "min": 1,
+                "max": 1,
+                "mode": "single",
+                "options": [
+                  {
+                    "id": "62a4-5af9-8d4d-9d0d",
+                    "name": "Concussion gauntlet",
+                    "min": 0,
+                    "max": 1
+                  },
+                  {
+                    "id": "b37a-91d6-b8b2-f879",
+                    "name": "Plasma blade gauntlet",
+                    "min": 0,
+                    "max": 1
+                  }
+                ],
+                "defaultOptionId": "62a4-5af9-8d4d-9d0d"
+              }
+            ]
+          }
+        ],
+        "defaultOptionId": "ea2c-e140-de98-d555"
+      }
+    ]
+  },
+  "415a-e6f6-d17f-d700": {
+    "groups": [
+      {
+        "id": "6eb4-83c6-3025-a19c",
+        "name": "5 - 10 Beserks",
+        "min": 5,
+        "max": 10,
+        "mode": "count",
+        "options": [
+          {
+            "id": "87b1-0d4c-e5ea-a5bd",
+            "name": "Beserk",
+            "min": 3,
+            "max": 10,
+            "groups": [
+              {
+                "id": "34e2-9d32-58ea-3d85",
+                "name": "Squad weapon choice",
+                "min": 1,
+                "max": 1,
+                "mode": "single",
+                "options": [
+                  {
+                    "id": "e010-924b-804d-026f",
+                    "name": "Concussion maul",
+                    "min": 0,
+                    "max": 1
+                  },
+                  {
+                    "id": "0e8e-5168-13f2-1dba",
+                    "name": "Heavy plasma axe",
+                    "min": 0,
+                    "max": 1
+                  }
+                ],
+                "defaultOptionId": "0e8e-5168-13f2-1dba"
+              }
+            ]
+          },
+          {
+            "id": "4894-87e8-1f3a-a7d9",
+            "name": "Beserk w/ twin concussion gauntlets",
+            "min": 0,
+            "max": 2
+          },
+          {
+            "id": "2de1-61b9-615d-4056",
+            "name": "Beserk w/ mole grenade launcher",
+            "min": 0,
+            "max": 2
+          }
+        ],
+        "defaultOptionId": "87b1-0d4c-e5ea-a5bd"
+      }
+    ]
+  },
+  "9086-5272-398b-bbce": {
+    "groups": [
+      {
+        "id": "6016-5c68-b821-0070",
+        "name": "3 - 6 Pioneers",
+        "min": 3,
+        "max": 6,
+        "mode": "count",
+        "options": [
+          {
+            "id": "48b1-2aa0-4098-6661",
+            "name": "Hernkyn Pioneer",
+            "min": 0,
+            "max": 6
+          },
+          {
+            "id": "bd9c-c54e-c236-ade3",
+            "name": "Hernkyn Pioneer w/ comms array",
+            "min": 0,
+            "max": 1
+          },
+          {
+            "id": "e7c2-eaab-0dbb-9f36",
+            "name": "Hernkyn Pioneer w/ pan-spectral scanner",
+            "min": 0,
+            "max": 1
+          },
+          {
+            "id": "1689-9abb-20cf-5c8b",
+            "name": "Hernkyn Pioneer w/ searchlight",
+            "min": 0,
+            "max": 1
+          },
+          {
+            "id": "ce66-1679-9f1d-bbba",
+            "name": "Hernkyn Pioneer w/ HYLas rotary cannon",
+            "min": 0,
+            "max": 2
+          },
+          {
+            "id": "c8df-4536-bd14-5d05",
+            "name": "Hernkyn Pioneer w/ ion beamer",
+            "min": 0,
+            "max": 2
+          }
+        ],
+        "defaultOptionId": "48b1-2aa0-4098-6661",
+        "groups": []
+      }
+    ]
+  },
+  "9655-8367-7467-9e6e": {
+    "groups": [
+      {
+        "id": "f345-ef22-665e-8149",
+        "name": "Wargear",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "97ff-6dbb-8293-7243",
+            "name": "Armoured wheels",
+            "min": 1,
+            "max": 1
+          },
+          {
+            "id": "31fe-11c-4b19-fbea",
+            "name": "Twin bolt cannon",
+            "min": 1,
+            "max": 1
+          }
+        ],
+        "groups": [
+          {
+            "id": "acc4-06bc-93c2-f53b",
+            "name": "Turret weapon",
+            "min": 1,
+            "max": 1,
+            "mode": "single",
+            "options": [
+              {
+                "id": "091e-06fa-a39a-1d8f",
+                "name": "HYLas beam cannon",
+                "min": 0,
+                "max": 99
+              },
+              {
+                "id": "deaa-766c-aaeb-4e0b",
+                "name": "L7 missile launcher and Sagitaur missile launcher",
+                "min": 0,
+                "max": 99
+              },
+              {
+                "id": "f8df-a23a-c129-49a1",
+                "name": "MATR autocannon",
+                "min": 0,
+                "max": 99
+              }
+            ],
+            "defaultOptionId": "091e-06fa-a39a-1d8f"
+          }
+        ]
+      }
+    ]
+  },
+  "a110-e538-4e85-159b": {
+    "groups": [
+      {
+        "id": "c800-24e7-4c01-efc2",
+        "name": "Wargear",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "8376-0494-75e0-8ea2",
+            "name": "Armoured wheels",
+            "min": 1,
+            "max": 1
+          },
+          {
+            "id": "e8c-7ce2-bb36-a36a",
+            "name": "MATR autocannon",
+            "min": 1,
+            "max": 1
+          }
+        ],
+        "groups": [
+          {
+            "id": "8bd8-ce25-04fb-0707",
+            "name": "Main weapon",
+            "min": 1,
+            "max": 1,
+            "mode": "single",
+            "options": [
+              {
+                "id": "6a5d-d311-99dc-aa34",
+                "name": "SP heavy conversion beamer",
+                "min": 0,
+                "max": 99
+              },
+              {
+                "id": "d4d5-abd4-b267-340f",
+                "name": "Heavy magna-rail cannon",
+                "min": 0,
+                "max": 99
+              },
+              {
+                "id": "542-3f3e-969b-c932",
+                "name": "Cyclic ion cannon",
+                "min": 0,
+                "max": 99
+              }
+            ],
+            "defaultOptionId": "542-3f3e-969b-c932"
+          },
+          {
+            "id": "ed73-88aa-f7af-8490",
+            "name": "Sponson weapons",
+            "min": 2,
+            "max": 2,
+            "mode": "count",
+            "options": [
+              {
+                "id": "c84b-96c6-419b-fa92",
+                "name": "Twin ion beamer",
+                "min": 0,
+                "max": 2
+              },
+              {
+                "id": "88b4-8d32-cab2-7e2b",
+                "name": "Twin bolt cannon",
+                "min": 0,
+                "max": 2
+              }
+            ],
+            "defaultOptionId": "88b4-8d32-cab2-7e2b"
+          },
+          {
+            "id": "7eb4-5fc8-e729-ca88",
+            "name": "Wargear",
+            "min": 1,
+            "max": 1,
+            "mode": "single",
+            "options": [
+              {
+                "id": "a6b9-097a-6be1-a1fe",
+                "name": "Pan spectral scanner",
+                "min": 0,
+                "max": 99
+              },
+              {
+                "id": "3c12-5387-4d1a-cf2b",
+                "name": "Hekaton warhead",
+                "min": 0,
+                "max": 99
+              }
+            ],
+            "defaultOptionId": "a6b9-097a-6be1-a1fe"
+          }
+        ]
+      }
+    ]
+  },
+  "5b0b-c18d-1470-44bb": {
+    "groups": [
+      {
+        "id": "3416-40f4-a25c-0282",
+        "name": "9 Hernkyn Yaegir",
+        "min": 9,
+        "max": 9,
+        "mode": "count",
+        "options": [
+          {
+            "id": "712c-437b-174b-a4bf",
+            "name": "Hernkyn Yaegir w/ bolt shotgun",
+            "min": 0,
+            "max": 9
+          },
+          {
+            "id": "4ba2-a404-9610-744a",
+            "name": "Hernkyn Yaegir w/ APM launcher",
+            "min": 0,
+            "max": 1
+          },
+          {
+            "id": "6756-0984-a734-939b",
+            "name": "Hernkyn Yaegir w/ magna-coil rifle",
+            "min": 0,
+            "max": 1
+          },
+          {
+            "id": "231c-6a2a-f0aa-aa88",
+            "name": "Hernkyn Yaegir w/ revolver and knife",
+            "min": 0,
+            "max": 9
+          }
+        ],
+        "defaultOptionId": "712c-437b-174b-a4bf"
+      },
+      {
+        "id": "fa70-1397-a2c5-879a",
+        "name": "Yaegir Theyn",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "60d1-61cd-f3f8-f67d",
+            "name": "Yaegir Theyn",
+            "min": 1,
+            "max": 1,
+            "groups": [
+              {
+                "id": "3045-c937-84ba-82f6",
+                "name": "Weapon",
+                "min": 1,
+                "max": 1,
+                "mode": "single",
+                "options": [
+                  {
+                    "id": "5457-5087-9e8a-7c4c",
+                    "name": "Bolt revolver and plasma knife",
+                    "min": 0,
+                    "max": 1
+                  },
+                  {
+                    "id": "fafc-7d5c-f6b6-214b",
+                    "name": "Bolt shotgun",
+                    "min": 0,
+                    "max": 1
+                  }
+                ],
+                "defaultOptionId": "fafc-7d5c-f6b6-214b"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "7932-6aac-cd01-3181": {
+    "groups": [
+      {
+        "id": "7bce-c9d5-8a20-4415",
+        "name": "Wargear",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "68ee-3933-b74b-fae0",
+            "name": "Autoch-pattern bolt pistol",
+            "min": 1,
+            "max": 1
+          },
+          {
+            "id": "193f-20f1-988a-5a85",
+            "name": "Close combat weapon",
+            "min": 1,
+            "max": 1
+          }
+        ]
+      }
+    ]
+  },
+  "e5c2-d1a0-b54d-65df": {
+    "groups": [
+      {
+        "id": "de09-dafd-ce50-8a4c",
+        "name": "Wargear",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "b55e-7811-b05a-5f38",
+            "name": "Transmatter inverter",
+            "min": 1,
+            "max": 1
+          },
+          {
+            "id": "facf-684d-ff54-cf3d",
+            "name": "Close combat weapon",
+            "min": 1,
+            "max": 1
+          }
+        ]
+      }
+    ]
+  },
+  "cfbc-9eeb-badb-b28c": {
+    "groups": [
+      {
+        "id": "9b93-ce5b-7c14-33b8",
+        "name": "Wargear",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "c50b-b23c-18b9-b82e",
+            "name": "Magna-coil autocannon",
+            "min": 1,
+            "max": 1
+          },
+          {
+            "id": "92ec-267f-5939-172c",
+            "name": "Smoke launcher",
+            "min": 0,
+            "max": 1
+          },
+          {
+            "id": "2152-f5c0-2bd2-d3fc",
+            "name": "Armoured hull",
+            "min": 1,
+            "max": 1
+          },
+          {
+            "id": "e012-3def-99d5-ef94",
+            "name": "Twin magna-coil autocannon",
+            "min": 1,
+            "max": 1
+          }
+        ]
+      }
+    ]
+  },
+  "1e3f-209d-798f-3a42": {
+    "groups": [
+      {
+        "id": "303c-055c-2134-f6f0",
+        "name": "2-5 Ironkin Steeljacks",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "4b88-1086-bcd0-27a5",
+            "name": "Ironkin Steeljack",
+            "min": 2,
+            "max": 5
+          }
+        ]
+      }
+    ]
+  },
+  "2add-0a08-fbef-8f5e": {
+    "groups": [
+      {
+        "id": "1e4a-c7b6-74c1-9afd",
+        "name": "2-5 Ironkin Steeljacks",
+        "min": 2,
+        "max": 5,
+        "mode": "count",
+        "options": [
+          {
+            "id": "0242-6438-3327-ec21",
+            "name": "Ironkin Steeljack w/ concussion gauntlet",
+            "min": 0,
+            "max": 5,
+            "equippedWith": "Autoch-pattern bolter and Concussion gauntlet"
+          },
+          {
+            "id": "79d8-6081-2fae-ff86",
+            "name": "Ironkin Steeljack w/ plasma sword",
+            "min": 0,
+            "max": 5,
+            "equippedWith": "Autoch-pattern bolter and Plasma sword"
+          }
+        ],
+        "defaultOptionId": "79d8-6081-2fae-ff86"
+      }
+    ]
+  }
+}

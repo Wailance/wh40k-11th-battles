@@ -1,0 +1,2410 @@
+{
+  "78aa-3f99-5fb7-7f83": {
+    "groups": [
+      {
+        "id": "ec32-0973-fb6b-ca35",
+        "name": "Wargear",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "c478-6e97-7e89-91af",
+            "name": "Armoured tracks",
+            "min": 1,
+            "max": 1
+          },
+          {
+            "id": "7056-2fde-465d-e534",
+            "name": "Autocannon",
+            "min": 1,
+            "max": 1
+          },
+          {
+            "id": "2703-14fd-761b-d9f2",
+            "name": "Hunter-killer missile",
+            "min": 0,
+            "max": 1
+          }
+        ],
+        "groups": [
+          {
+            "id": "f69c-a953-7d55-9d15",
+            "name": "Hull guns",
+            "min": 1,
+            "max": 1,
+            "mode": "single",
+            "options": [
+              {
+                "id": "6211-a2c4-7e3d-a946",
+                "name": "Two heavy bolters",
+                "min": 0,
+                "max": 99
+              },
+              {
+                "id": "124f-5c13-e31a-8e55",
+                "name": "Two volkite calivers",
+                "min": 0,
+                "max": 99
+              },
+              {
+                "id": "6c7d-c96a-7c25-d7f9",
+                "name": "Two lascannons",
+                "min": 0,
+                "max": 99
+              },
+              {
+                "id": "a65a-9c08-158a-3b47",
+                "name": "Two autocannons",
+                "min": 0,
+                "max": 99
+              }
+            ],
+            "defaultOptionId": "6211-a2c4-7e3d-a946"
+          },
+          {
+            "id": "139c-4129-5ae3-3dbc",
+            "name": "Main weapon",
+            "min": 1,
+            "max": 1,
+            "mode": "single",
+            "options": [
+              {
+                "id": "b1cf-f87f-1e33-ef14",
+                "name": "Kratos battlecannon",
+                "min": 0,
+                "max": 99
+              },
+              {
+                "id": "4e56-4399-ef28-e5f",
+                "name": "Melta blast-gun",
+                "min": 0,
+                "max": 99
+              },
+              {
+                "id": "dfb3-a109-27d6-3c0f",
+                "name": "Volkite cardanelle",
+                "min": 0,
+                "max": 99
+              }
+            ],
+            "defaultOptionId": "b1cf-f87f-1e33-ef14"
+          },
+          {
+            "id": "2667-d8cf-962d-6990",
+            "name": "Pintle weapon",
+            "min": 0,
+            "max": 1,
+            "mode": "single",
+            "options": [
+              {
+                "id": "6edb-6f3-dbd3-b36b",
+                "name": "Twin boltgun",
+                "min": 0,
+                "max": 99
+              },
+              {
+                "id": "1514-c24f-d6fd-c0ab",
+                "name": "Combi-weapon",
+                "min": 0,
+                "max": 99
+              },
+              {
+                "id": "c6d9-e55-c30e-35de",
+                "name": "Heavy bolter",
+                "min": 0,
+                "max": 99
+              },
+              {
+                "id": "4670-1449-7ee5-7d90",
+                "name": "Heavy flamer",
+                "min": 0,
+                "max": 99
+              },
+              {
+                "id": "32b0-fc75-8b2e-7a25",
+                "name": "Multi-melta",
+                "min": 0,
+                "max": 99
+              },
+              {
+                "id": "5d5d-19c8-65c7-03c2",
+                "name": "Havoc launcher",
+                "min": 0,
+                "max": 1
+              }
+            ]
+          },
+          {
+            "id": "c69e-57e0-90cc-b94d",
+            "name": "Sponsons",
+            "min": 1,
+            "max": 1,
+            "mode": "single",
+            "options": [
+              {
+                "id": "374d-b89b-6a26-46e4",
+                "name": "Two heavy bolters",
+                "min": 0,
+                "max": 99
+              },
+              {
+                "id": "a7f1-94af-bf64-a0e1",
+                "name": "Two volkite culverins",
+                "min": 0,
+                "max": 99
+              },
+              {
+                "id": "cdd-2ca7-be0d-1cd4",
+                "name": "Two lascannons",
+                "min": 0,
+                "max": 99
+              },
+              {
+                "id": "dd0-912b-332b-7ce7",
+                "name": "Two heavy flamers",
+                "min": 0,
+                "max": 99
+              }
+            ],
+            "defaultOptionId": "374d-b89b-6a26-46e4"
+          }
+        ]
+      }
+    ]
+  },
+  "d38d-c3a2-f753-efea": {
+    "groups": [
+      {
+        "id": "2103-98cf-331b-dbb3",
+        "name": "Wargear",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "ee10-e59d-e7db-2419",
+            "name": "Armoured feet",
+            "min": 1,
+            "max": 1
+          }
+        ],
+        "groups": [
+          {
+            "id": "efda-6f1f-af02-5b4",
+            "name": "Carapace weapon",
+            "min": 0,
+            "max": 1,
+            "mode": "single",
+            "options": [
+              {
+                "id": "6313-d69d-a02f-d70a",
+                "name": "Aiolos missile launcher",
+                "min": 0,
+                "max": 99
+              },
+              {
+                "id": "788d-c410-2d44-4f90",
+                "name": "Boreas air defence missiles",
+                "min": 0,
+                "max": 99
+              }
+            ]
+          },
+          {
+            "id": "8efe-69fb-79e4-92d1",
+            "name": "Chest weapon",
+            "min": 1,
+            "max": 1,
+            "mode": "single",
+            "options": [
+              {
+                "id": "ac6f-47d-9903-9037",
+                "name": "Twin heavy bolter",
+                "min": 0,
+                "max": 99
+              },
+              {
+                "id": "74a2-3f00-9720-a8da",
+                "name": "Twin heavy flamer",
+                "min": 0,
+                "max": 99
+              }
+            ],
+            "defaultOptionId": "ac6f-47d-9903-9037"
+          },
+          {
+            "id": "d851-aa5-2ba8-6e8d",
+            "name": "Main weapon",
+            "min": 1,
+            "max": 1,
+            "mode": "single",
+            "options": [
+              {
+                "id": "9f7e-9f17-a4f6-6ca3",
+                "name": "Anvilus autocannon battery",
+                "min": 0,
+                "max": 99
+              },
+              {
+                "id": "b8aa-c5f2-73a5-cbc7",
+                "name": "Arachnus heavy lascannon battery",
+                "min": 0,
+                "max": 99
+              },
+              {
+                "id": "38d1-69c8-5254-7020",
+                "name": "Volkite falconet battery",
+                "min": 0,
+                "max": 99
+              },
+              {
+                "id": "d7e2-f35-e37f-52e9",
+                "name": "Hellfire plasma carronade",
+                "min": 0,
+                "max": 99
+              }
+            ],
+            "defaultOptionId": "9f7e-9f17-a4f6-6ca3"
+          }
+        ]
+      }
+    ]
+  },
+  "783a-1c02-b377-b169": {
+    "groups": [
+      {
+        "id": "4d61-e042-9733-433c",
+        "name": "Wargear",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "cf37-f970-51f7-2c1e",
+            "name": "Cyclone missile launcher",
+            "min": 0,
+            "max": 1
+          },
+          {
+            "id": "ef3-daa1-c04a-1c46",
+            "name": "Armoured feet",
+            "min": 1,
+            "max": 1
+          }
+        ],
+        "groups": [
+          {
+            "id": "e754-76fe-e133-138b",
+            "name": "Arm weapons",
+            "min": 2,
+            "max": 2,
+            "mode": "count",
+            "options": [
+              {
+                "id": "237e-98ae-ee39-1a92",
+                "name": "Heavy plasma cannon",
+                "min": 0,
+                "max": 2
+              },
+              {
+                "id": "74f4-d7c-9ce-90e2",
+                "name": "Conversion beam cannon",
+                "min": 0,
+                "max": 2
+              },
+              {
+                "id": "9a59-36d-319-123c",
+                "name": "Kheres assault cannon",
+                "min": 0,
+                "max": 2
+              },
+              {
+                "id": "9358-b81e-526b-a689",
+                "name": "Dreadnought chainfist",
+                "min": 0,
+                "max": 2
+              },
+              {
+                "id": "7cc3-265c-130-198f",
+                "name": "Dreadnought combat weapon",
+                "min": 0,
+                "max": 2
+              },
+              {
+                "id": "31ca-7f03-a7b2-443c",
+                "name": "Twin autocannon",
+                "min": 0,
+                "max": 2
+              },
+              {
+                "id": "ea98-3ab3-daf2-3ce0",
+                "name": "Twin heavy bolter",
+                "min": 0,
+                "max": 2
+              },
+              {
+                "id": "98de-7914-bdbf-489b",
+                "name": "Twin lascannon",
+                "min": 0,
+                "max": 2
+              },
+              {
+                "id": "fe38-ed16-e345-ad8b",
+                "name": "Multi-melta",
+                "min": 0,
+                "max": 2
+              },
+              {
+                "id": "8482-eb6a-cef-8237",
+                "name": "Twin volkite culverin",
+                "min": 0,
+                "max": 2
+              }
+            ],
+            "defaultOptionId": "237e-98ae-ee39-1a92"
+          },
+          {
+            "id": "c625-a8be-d1b8-7594",
+            "name": "Fist weapons",
+            "min": 0,
+            "max": 0,
+            "mode": "count",
+            "options": [
+              {
+                "id": "7eac-8778-74b6-8c60",
+                "name": "Combi-bolter",
+                "min": 0,
+                "max": 2
+              },
+              {
+                "id": "5a56-20e0-8cf9-b111",
+                "name": "Plasma blaster",
+                "min": 0,
+                "max": 2
+              },
+              {
+                "id": "7f55-b7f4-d0a3-e5ec",
+                "name": "Graviton blaster",
+                "min": 0,
+                "max": 2
+              },
+              {
+                "id": "174f-65d0-d695-10d7",
+                "name": "Heavy flamer",
+                "min": 0,
+                "max": 2
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "14d4-8062-f090-6719": {
+    "groups": [
+      {
+        "id": "09a9-5172-4dbe-5657",
+        "name": "Wargear",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "c395-be69-e36b-4cbb",
+            "name": "Armoured feet",
+            "min": 1,
+            "max": 1
+          },
+          {
+            "id": "bfb8-afca-4229-2ce0",
+            "name": "Hunter-killer missile",
+            "min": 0,
+            "max": 3
+          },
+          {
+            "id": "3284-b760-6813-9b07",
+            "name": "Grav-flux bombard",
+            "min": 0,
+            "max": 2
+          },
+          {
+            "id": "af11-bea9-73b6-4a56",
+            "name": "Cyclonic melta-lance",
+            "min": 0,
+            "max": 2
+          },
+          {
+            "id": "8658-d1bc-4072-6566",
+            "name": "Storm cannon",
+            "min": 0,
+            "max": 2
+          },
+          {
+            "id": "c7f1-a5cf-38e7-6c11",
+            "name": "Siege claw and meltagun",
+            "min": 0,
+            "max": 2,
+            "equippedWith": "Meltagun"
+          },
+          {
+            "id": "189a-c481-5a18-626e",
+            "name": "Siege drill  and meltagun",
+            "min": 0,
+            "max": 2,
+            "equippedWith": "Meltagun"
+          }
+        ],
+        "groups": [
+          {
+            "id": "3956-d4a7-3c64-965d",
+            "name": "Replace heavy flamers",
+            "min": 1,
+            "max": 1,
+            "mode": "single",
+            "options": [
+              {
+                "id": "7602-421-33cd-63c3",
+                "name": "Two heavy flamers",
+                "min": 0,
+                "max": 99
+              },
+              {
+                "id": "2b7e-c82a-3700-1bc0",
+                "name": "Two twin volkite calivers",
+                "min": 0,
+                "max": 99
+              }
+            ],
+            "defaultOptionId": "7602-421-33cd-63c3"
+          }
+        ]
+      }
+    ]
+  },
+  "1f26-fce8-bb2d-2c44": {
+    "groups": [
+      {
+        "id": "bc90-4cf4-cda7-21a8",
+        "name": "Wargear",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "dea0-929f-f7f-3db8",
+            "name": "Close combat weapon",
+            "min": 1,
+            "max": 1
+          },
+          {
+            "id": "6df1-fd8b-172-7a4",
+            "name": "Hunter-killer missile",
+            "min": 0,
+            "max": 2
+          }
+        ],
+        "groups": [
+          {
+            "id": "52a0-9dc1-aff2-37ed",
+            "name": "Gunner weapon",
+            "min": 1,
+            "max": 1,
+            "mode": "single",
+            "options": [
+              {
+                "id": "52b0-d65b-2359-8624",
+                "name": "Multi-melta",
+                "min": 0,
+                "max": 99
+              },
+              {
+                "id": "3b52-c150-6108-3ee1",
+                "name": "Heavy bolter",
+                "min": 0,
+                "max": 99
+              }
+            ],
+            "defaultOptionId": "3b52-c150-6108-3ee1"
+          },
+          {
+            "id": "74f7-5f5c-863b-9263",
+            "name": "Main weapon",
+            "min": 1,
+            "max": 1,
+            "mode": "single",
+            "options": [
+              {
+                "id": "bef5-d0d4-a099-6e39",
+                "name": "Javelin missile launcher",
+                "min": 0,
+                "max": 99
+              },
+              {
+                "id": "4257-b0c1-712b-b412",
+                "name": "Two lascannons",
+                "min": 0,
+                "max": 99
+              }
+            ],
+            "defaultOptionId": "bef5-d0d4-a099-6e39"
+          }
+        ]
+      }
+    ]
+  },
+  "68be-7090-1fbc-9021": {
+    "groups": [
+      {
+        "id": "228c-afbe-cf0c-c8ff",
+        "name": "Wargear",
+        "min": 1,
+        "max": 1,
+        "mode": "single",
+        "options": [
+          {
+            "id": "5528-13f6-846b-7e27",
+            "name": "Deathstorm cannon array",
+            "min": 0,
+            "max": 99
+          },
+          {
+            "id": "3b66-ef74-cc22-f667",
+            "name": "Deathstorm missile array",
+            "min": 0,
+            "max": 99
+          }
+        ],
+        "defaultOptionId": "5528-13f6-846b-7e27"
+      }
+    ]
+  },
+  "34c8-1025-33f7-baaf": {
+    "groups": [
+      {
+        "id": "5803-f525-418e-84e9",
+        "name": "Wargear",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "2e0c-4755-b7f1-acd4",
+            "name": "Explorator augury web",
+            "min": 0,
+            "max": 1
+          },
+          {
+            "id": "70ed-33a3-8a52-9bc7",
+            "name": "Armoured tracks",
+            "min": 1,
+            "max": 1
+          },
+          {
+            "id": "513b-d57a-bbb1-f4b2",
+            "name": "Hunter-killer missile",
+            "min": 0,
+            "max": 1
+          },
+          {
+            "id": "c0f1-28ec-8348-d3f8",
+            "name": "Storm bolter",
+            "min": 0,
+            "max": 1
+          },
+          {
+            "id": "9b2d-9f47-c423-6942",
+            "name": "Twin lascannon",
+            "min": 2,
+            "max": 2
+          }
+        ],
+        "groups": [
+          {
+            "id": "4d22-9c96-a83a-c628",
+            "name": "Additional weapon",
+            "min": 0,
+            "max": 1,
+            "mode": "single",
+            "options": [
+              {
+                "id": "d859-af5d-429b-22ff",
+                "name": "Heavy bolter",
+                "min": 0,
+                "max": 99
+              },
+              {
+                "id": "83cb-b7f4-40a6-6216",
+                "name": "Twin heavy bolter",
+                "min": 0,
+                "max": 99
+              },
+              {
+                "id": "98da-74ea-f6d8-51f8",
+                "name": "Multi-melta",
+                "min": 0,
+                "max": 99
+              },
+              {
+                "id": "b824-582e-3fc2-c0a7",
+                "name": "Twin heavy flamer",
+                "min": 0,
+                "max": 99
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "3006-ffe-2b0c-6b1b": {
+    "groups": [
+      {
+        "id": "931f-a3e4-0662-8b0e",
+        "name": "Wargear",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "4709-be86-dece-75c8",
+            "name": "Quad launcher",
+            "min": 1,
+            "max": 1
+          },
+          {
+            "id": "b606-8838-22bd-6c64",
+            "name": "Armoured tracks",
+            "min": 1,
+            "max": 1
+          },
+          {
+            "id": "e50b-5b1d-7f54-a349",
+            "name": "Hunter-killer missile",
+            "min": 0,
+            "max": 1
+          },
+          {
+            "id": "eaa7-88f9-a8dd-2971",
+            "name": "Storm bolter",
+            "min": 0,
+            "max": 1
+          }
+        ],
+        "groups": [
+          {
+            "id": "a519-7e4a-4293-fb7f",
+            "name": "Additional weapon",
+            "min": 0,
+            "max": 1,
+            "mode": "single",
+            "options": [
+              {
+                "id": "eaeb-d250-5cbe-f88d",
+                "name": "Heavy bolter",
+                "min": 0,
+                "max": 99
+              },
+              {
+                "id": "9f28-7c6a-410c-6438",
+                "name": "Twin heavy bolter",
+                "min": 0,
+                "max": 99
+              },
+              {
+                "id": "e7f5-6c8e-be0d-5e38",
+                "name": "Multi-melta",
+                "min": 0,
+                "max": 99
+              },
+              {
+                "id": "494e-24ea-e98d-b4f3",
+                "name": "Twin heavy flamer",
+                "min": 0,
+                "max": 99
+              }
+            ]
+          },
+          {
+            "id": "fac9-9484-cda5-a955",
+            "name": "Sponsons",
+            "min": 1,
+            "max": 1,
+            "mode": "single",
+            "options": [
+              {
+                "id": "5d97-1777-a27e-c54f",
+                "name": "Two twin volkite culverins",
+                "min": 0,
+                "max": 99
+              },
+              {
+                "id": "f4d3-14b4-208e-91b4",
+                "name": "Two twin multi-meltas",
+                "min": 0,
+                "max": 99
+              }
+            ],
+            "defaultOptionId": "5d97-1777-a27e-c54f"
+          }
+        ]
+      }
+    ]
+  },
+  "b2f1-197b-fb3b-687f": {
+    "groups": [
+      {
+        "id": "4be6-a7f7-b99d-7c9f",
+        "name": "Wargear",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "6c5b-521e-2870-42de",
+            "name": "Herakles-pattern autocannon",
+            "min": 1,
+            "max": 1
+          },
+          {
+            "id": "6e66-5a6a-59f5-f271",
+            "name": "Armoured tracks",
+            "min": 1,
+            "max": 1
+          },
+          {
+            "id": "be35-3be1-7eea-c52b",
+            "name": "Heavy bolter",
+            "min": 1,
+            "max": 1
+          },
+          {
+            "id": "e98-7362-c489-e09e",
+            "name": "Hunter-killer missile",
+            "min": 0,
+            "max": 1
+          },
+          {
+            "id": "3e1c-d033-7360-7217",
+            "name": "Storm bolter",
+            "min": 0,
+            "max": 1
+          }
+        ],
+        "groups": [
+          {
+            "id": "2ef7-c711-185c-4b7b",
+            "name": "Sponsons",
+            "min": 0,
+            "max": 1,
+            "mode": "single",
+            "options": [
+              {
+                "id": "23b4-d4f8-4af3-670",
+                "name": "Two heavy bolters",
+                "min": 0,
+                "max": 99
+              },
+              {
+                "id": "ad1f-3a75-6cd9-d065",
+                "name": "Two lascannons",
+                "min": 0,
+                "max": 99
+              }
+            ],
+            "defaultOptionId": "374d-b89b-6a26-46e4"
+          }
+        ]
+      }
+    ]
+  },
+  "ca2a-69ca-dd3c-47": {
+    "groups": [
+      {
+        "id": "ea08-1d06-ea63-dea7",
+        "name": "Wargear",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "dbb5-a709-23b-cdfa",
+            "name": "Arcus multi-launcher",
+            "min": 1,
+            "max": 1
+          },
+          {
+            "id": "101-ec83-597e-aab",
+            "name": "Armoured tracks",
+            "min": 1,
+            "max": 1
+          },
+          {
+            "id": "5214-1357-3f0c-7566",
+            "name": "Heavy bolter",
+            "min": 1,
+            "max": 1
+          },
+          {
+            "id": "fcad-1c0b-938a-c459",
+            "name": "Hunter-killer missile",
+            "min": 0,
+            "max": 1
+          },
+          {
+            "id": "57bf-21e6-5ec5-38ac",
+            "name": "Storm bolter",
+            "min": 0,
+            "max": 1
+          }
+        ],
+        "groups": [
+          {
+            "id": "2d89-48f3-7ebb-e42a",
+            "name": "Sponsons",
+            "min": 0,
+            "max": 1,
+            "mode": "single",
+            "options": [
+              {
+                "id": "59c9-d812-1946-b26a",
+                "name": "Two heavy bolters",
+                "min": 0,
+                "max": 99
+              },
+              {
+                "id": "2047-f16e-efed-4574",
+                "name": "Two lascannons",
+                "min": 0,
+                "max": 99
+              }
+            ],
+            "defaultOptionId": "374d-b89b-6a26-46e4"
+          }
+        ]
+      }
+    ]
+  },
+  "e63e-2aa6-f840-b54e": {
+    "groups": [
+      {
+        "id": "6ee8-4fa5-d884-daa8",
+        "name": "Wargear",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "17fc-29fd-a1bb-2fd6",
+            "name": "Venator neutron laser",
+            "min": 1,
+            "max": 1
+          },
+          {
+            "id": "a542-ec82-45b-a66b",
+            "name": "Armoured tracks",
+            "min": 1,
+            "max": 1
+          },
+          {
+            "id": "1aa0-5faa-93a-583a",
+            "name": "Heavy bolter",
+            "min": 1,
+            "max": 1
+          },
+          {
+            "id": "e898-67e0-211e-753e",
+            "name": "Hunter-killer missile",
+            "min": 0,
+            "max": 1
+          },
+          {
+            "id": "7510-4d47-b186-f155",
+            "name": "Storm bolter",
+            "min": 0,
+            "max": 1
+          }
+        ],
+        "groups": [
+          {
+            "id": "32d7-e068-6fec-af6b",
+            "name": "Sponsons",
+            "min": 0,
+            "max": 1,
+            "mode": "single",
+            "options": [
+              {
+                "id": "5f9e-9280-4d16-c67d",
+                "name": "Two heavy bolters",
+                "min": 0,
+                "max": 99
+              },
+              {
+                "id": "560-6f5b-a15b-328",
+                "name": "Two lascannons",
+                "min": 0,
+                "max": 99
+              }
+            ],
+            "defaultOptionId": "374d-b89b-6a26-46e4"
+          }
+        ]
+      }
+    ]
+  },
+  "68aa-28bf-bd73-3355": {
+    "groups": [
+      {
+        "id": "0c80-96c0-f086-2ed2",
+        "name": "Wargear",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "38bf-532f-8847-7daa",
+            "name": "Punisher rotary cannon",
+            "min": 1,
+            "max": 1
+          },
+          {
+            "id": "8216-6b86-ee8e-6e34",
+            "name": "Armoured tracks",
+            "min": 1,
+            "max": 1
+          },
+          {
+            "id": "b45c-cd2a-7bbb-4673",
+            "name": "Heavy bolter",
+            "min": 1,
+            "max": 1
+          },
+          {
+            "id": "f807-a3b7-5b3-7bba",
+            "name": "Hunter-killer missile",
+            "min": 0,
+            "max": 1
+          },
+          {
+            "id": "4cb3-8623-ac91-6f3",
+            "name": "Storm bolter",
+            "min": 0,
+            "max": 1
+          }
+        ],
+        "groups": [
+          {
+            "id": "da4b-bed8-88dd-3408",
+            "name": "Sponsons",
+            "min": 0,
+            "max": 1,
+            "mode": "single",
+            "options": [
+              {
+                "id": "6634-dce0-e91c-6f8a",
+                "name": "Two heavy bolters",
+                "min": 0,
+                "max": 99
+              },
+              {
+                "id": "b396-5ea-699e-34e3",
+                "name": "Two lascannons",
+                "min": 0,
+                "max": 99
+              }
+            ],
+            "defaultOptionId": "374d-b89b-6a26-46e4"
+          }
+        ]
+      }
+    ]
+  },
+  "8b64-6aba-150d-27e4": {
+    "groups": [
+      {
+        "id": "fa0b-208b-3fe1-c97c",
+        "name": "Wargear",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "a490-ac28-c26-ffe3",
+            "name": "Omega plasma array",
+            "min": 1,
+            "max": 1
+          },
+          {
+            "id": "fca6-cab3-938c-9407",
+            "name": "Armoured tracks",
+            "min": 1,
+            "max": 1
+          },
+          {
+            "id": "82fa-2882-d953-d612",
+            "name": "Heavy bolter",
+            "min": 1,
+            "max": 1
+          },
+          {
+            "id": "4ef4-d869-d8f0-949d",
+            "name": "Hunter-killer missile",
+            "min": 0,
+            "max": 1
+          },
+          {
+            "id": "27aa-5014-2f72-1534",
+            "name": "Storm bolter",
+            "min": 0,
+            "max": 1
+          }
+        ],
+        "groups": [
+          {
+            "id": "48be-9ec8-4d39-e84",
+            "name": "Sponsons",
+            "min": 0,
+            "max": 1,
+            "mode": "single",
+            "options": [
+              {
+                "id": "2606-d34b-3477-460d",
+                "name": "Two heavy bolters",
+                "min": 0,
+                "max": 99
+              },
+              {
+                "id": "c83d-9204-6fc6-761",
+                "name": "Two lascannons",
+                "min": 0,
+                "max": 99
+              }
+            ],
+            "defaultOptionId": "374d-b89b-6a26-46e4"
+          }
+        ]
+      }
+    ]
+  },
+  "2aee-e03c-836e-4c6e": {
+    "groups": [
+      {
+        "id": "dceb-5fe7-50b5-f582",
+        "name": "Wargear",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "6c36-26c6-468d-f706",
+            "name": "Boltgun",
+            "min": 1,
+            "max": 1
+          },
+          {
+            "id": "b87b-8c71-97f6-11c8",
+            "name": "Close combat weapon",
+            "min": 1,
+            "max": 1
+          }
+        ],
+        "groups": [
+          {
+            "id": "77e0-a80e-ee61-6df9",
+            "name": "Weapon",
+            "min": 1,
+            "max": 1,
+            "mode": "single",
+            "options": [
+              {
+                "id": "7ae5-6407-4e90-6568",
+                "name": "Graviton cannon",
+                "min": 0,
+                "max": 99
+              },
+              {
+                "id": "2096-1d75-f788-326",
+                "name": "Laser destroyer",
+                "min": 0,
+                "max": 99
+              },
+              {
+                "id": "81b-3440-e7a1-cd0b",
+                "name": "Quad heavy bolter",
+                "min": 0,
+                "max": 99
+              },
+              {
+                "id": "7ff0-2c58-398d-41e",
+                "name": "Quad launcher",
+                "min": 0,
+                "max": 1
+              }
+            ],
+            "defaultOptionId": "81b-3440-e7a1-cd0b"
+          }
+        ]
+      }
+    ]
+  },
+  "97dc-f0c8-1354-88fb": {
+    "groups": [
+      {
+        "id": "88b6-7a7b-f26d-5841",
+        "name": "Wargear",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "fbb0-60fa-108e-7f14",
+            "name": "Scorpius multi-launcher",
+            "min": 1,
+            "max": 1
+          },
+          {
+            "id": "c413-18a0-6763-b74",
+            "name": "Armoured tracks",
+            "min": 1,
+            "max": 1
+          },
+          {
+            "id": "cea5-cdd4-6998-853",
+            "name": "Hunter-killer missile",
+            "min": 0,
+            "max": 1
+          },
+          {
+            "id": "5afe-2816-6ce1-9667",
+            "name": "Storm bolter",
+            "min": 0,
+            "max": 1
+          }
+        ]
+      }
+    ]
+  },
+  "128d-5011-8e6-45a6": {
+    "groups": [
+      {
+        "id": "d9f9-5d3d-ad62-dd5b",
+        "name": "Wargear",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "38d2-3b20-6d20-837e",
+            "name": "Laservolley cannon",
+            "min": 1,
+            "max": 1
+          },
+          {
+            "id": "55a6-af7f-d413-813c",
+            "name": "Armoured tracks",
+            "min": 1,
+            "max": 1
+          },
+          {
+            "id": "b16a-804-9256-5a19",
+            "name": "Hunter-killer missile",
+            "min": 0,
+            "max": 1
+          },
+          {
+            "id": "2385-ccf2-8f52-769c",
+            "name": "Storm bolter",
+            "min": 0,
+            "max": 1
+          }
+        ]
+      }
+    ]
+  },
+  "3d36-e9d7-54c5-deb7": {
+    "groups": [
+      {
+        "id": "f74f-f978-58c8-11cd",
+        "name": "Wargear",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "773e-f672-905b-f131",
+            "name": "Termite drill",
+            "min": 1,
+            "max": 1
+          },
+          {
+            "id": "59a-f291-1d11-9f4b",
+            "name": "Terrax melta cutter",
+            "min": 1,
+            "max": 1
+          }
+        ],
+        "groups": [
+          {
+            "id": "15a0-1756-765a-3c26",
+            "name": "Weapons",
+            "min": 1,
+            "max": 1,
+            "mode": "single",
+            "options": [
+              {
+                "id": "5904-26c3-d1e5-db10",
+                "name": "Two storm bolters",
+                "min": 0,
+                "max": 99
+              },
+              {
+                "id": "e42e-2d16-71a4-42bb",
+                "name": "Two heavy flamers",
+                "min": 0,
+                "max": 99
+              },
+              {
+                "id": "fd6a-d7ac-c3f5-7765",
+                "name": "Two twin volkite chargers",
+                "min": 0,
+                "max": 99
+              }
+            ],
+            "defaultOptionId": "5904-26c3-d1e5-db10"
+          }
+        ]
+      }
+    ]
+  },
+  "1aa5-d081-2442-4c37": {
+    "groups": [
+      {
+        "id": "4930-ab4e-adcb-0558",
+        "name": "Wargear",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "f043-6434-63a0-a906",
+            "name": "Armoured hull",
+            "min": 1,
+            "max": 1
+          },
+          {
+            "id": "a0-6c89-9642-47ad",
+            "name": "Xiphon missile battery",
+            "min": 1,
+            "max": 1
+          },
+          {
+            "id": "ddc4-f51d-57b3-b03",
+            "name": "Twin lascannon",
+            "min": 2,
+            "max": 2
+          }
+        ]
+      }
+    ]
+  },
+  "3b7d-b14e-603-e1ad": {
+    "groups": [
+      {
+        "id": "9d24-7070-7a26-c569",
+        "name": "Wargear",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "f80d-f7d7-96a7-d12e",
+            "name": "Vengeance launcher",
+            "min": 1,
+            "max": 1
+          },
+          {
+            "id": "f338-a89e-5a05-970d",
+            "name": "Armoured hull",
+            "min": 1,
+            "max": 1
+          }
+        ],
+        "groups": [
+          {
+            "id": "6f8e-d36f-3d35-10fe",
+            "name": "Nose weapon",
+            "min": 1,
+            "max": 1,
+            "mode": "single",
+            "options": [
+              {
+                "id": "7764-cc99-5267-aee7",
+                "name": "Twin multi-melta",
+                "min": 0,
+                "max": 99
+              },
+              {
+                "id": "2fac-1c9a-b0d7-fa40",
+                "name": "Typhoon missile launcher",
+                "min": 0,
+                "max": 99
+              },
+              {
+                "id": "bf14-fed0-31ea-7a12",
+                "name": "Twin heavy bolter",
+                "min": 0,
+                "max": 99
+              }
+            ],
+            "defaultOptionId": "bf14-fed0-31ea-7a12"
+          },
+          {
+            "id": "d90-7c8f-8f77-2b6f",
+            "name": "Wing weapons",
+            "min": 1,
+            "max": 1,
+            "mode": "single",
+            "options": [
+              {
+                "id": "c17f-6d45-d136-d0a0",
+                "name": "Two twin hellstrike launchers",
+                "min": 0,
+                "max": 99
+              },
+              {
+                "id": "4d94-f41-33f5-b5fc",
+                "name": "Two twin lascannons",
+                "min": 0,
+                "max": 99
+              }
+            ],
+            "defaultOptionId": "c17f-6d45-d136-d0a0"
+          }
+        ]
+      }
+    ]
+  },
+  "1fc7-7880-e4d4-acbf": {
+    "groups": [
+      {
+        "id": "117b-dee5-f271-2507",
+        "name": "Wargear",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "db27-8efc-265a-ffda",
+            "name": "Twin avenger bolt cannon",
+            "min": 1,
+            "max": 1
+          },
+          {
+            "id": "1364-c301-405a-922f",
+            "name": "Armoured hull",
+            "min": 1,
+            "max": 1
+          }
+        ],
+        "groups": [
+          {
+            "id": "5375-8b44-9188-ec17",
+            "name": "Door weapons",
+            "min": 1,
+            "max": 1,
+            "mode": "single",
+            "options": [
+              {
+                "id": "eb13-ff43-e33a-1d92",
+                "name": "Two twin autocannons",
+                "min": 0,
+                "max": 99
+              },
+              {
+                "id": "e4c4-2df9-a4e6-c92",
+                "name": "Two quad heavy bolters",
+                "min": 0,
+                "max": 99
+              }
+            ],
+            "defaultOptionId": "eb13-ff43-e33a-1d92"
+          },
+          {
+            "id": "acac-e978-cd95-4640",
+            "name": "Wing weapons",
+            "min": 1,
+            "max": 1,
+            "mode": "single",
+            "options": [
+              {
+                "id": "831-7d99-a4e8-60df",
+                "name": "Two twin hellstrike launchers",
+                "min": 0,
+                "max": 99
+              },
+              {
+                "id": "e2ba-d167-3412-3277",
+                "name": "Two twin lascannons",
+                "min": 0,
+                "max": 99
+              }
+            ],
+            "defaultOptionId": "831-7d99-a4e8-60df"
+          }
+        ]
+      }
+    ]
+  },
+  "f60c-1b93-9ee8-59d2": {
+    "groups": [
+      {
+        "id": "6567-44a3-c2cf-9e5b",
+        "name": "Wargear",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "8ee3-4a12-7d5d-d230",
+            "name": "Dreadhammer siege cannon",
+            "min": 1,
+            "max": 1
+          },
+          {
+            "id": "e5cc-b55c-a445-539",
+            "name": "Armoured tracks",
+            "min": 1,
+            "max": 1
+          }
+        ],
+        "groups": [
+          {
+            "id": "dd27-89ca-48c9-fb9d",
+            "name": "Pintle weapon",
+            "min": 0,
+            "max": 1,
+            "mode": "single",
+            "options": [
+              {
+                "id": "e51c-6d70-adfd-1ee9",
+                "name": "Heavy bolter",
+                "min": 0,
+                "max": 99
+              },
+              {
+                "id": "3906-bb1c-9fea-9ed2",
+                "name": "Heavy flamer",
+                "min": 0,
+                "max": 99
+              },
+              {
+                "id": "9b87-837b-d060-c12b",
+                "name": "Multi-melta",
+                "min": 0,
+                "max": 99
+              },
+              {
+                "id": "14fe-cbe2-7ce2-297",
+                "name": "Storm bolter",
+                "min": 0,
+                "max": 1
+              }
+            ]
+          },
+          {
+            "id": "ede8-7239-7141-c52c",
+            "name": "Sponsons",
+            "min": 0,
+            "max": 1,
+            "mode": "single",
+            "options": [
+              {
+                "id": "bff6-4ea3-f21b-7d20",
+                "name": "Two heavy bolters",
+                "min": 0,
+                "max": 99
+              },
+              {
+                "id": "e6e4-347-fe2e-c1fd",
+                "name": "Two lascannons",
+                "min": 0,
+                "max": 99
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "4044-b458-fb4d-d05b": {
+    "groups": [
+      {
+        "id": "7ca8-38f2-5c81-7a2d",
+        "name": "Wargear",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "8ff7-1212-4026-bf48",
+            "name": "Cerberus neutron pulse array",
+            "min": 1,
+            "max": 1
+          },
+          {
+            "id": "96fd-a682-434e-1442",
+            "name": "Armoured tracks",
+            "min": 1,
+            "max": 1
+          }
+        ],
+        "groups": [
+          {
+            "id": "ad1c-bbeb-9394-9104",
+            "name": "Pintle weapon",
+            "min": 0,
+            "max": 1,
+            "mode": "single",
+            "options": [
+              {
+                "id": "afd6-627b-6b5e-b35d",
+                "name": "Heavy bolter",
+                "min": 0,
+                "max": 99
+              },
+              {
+                "id": "3cbe-4600-e9ea-f69",
+                "name": "Heavy flamer",
+                "min": 0,
+                "max": 99
+              },
+              {
+                "id": "29ce-b9ad-b0cd-9378",
+                "name": "Multi-melta",
+                "min": 0,
+                "max": 99
+              },
+              {
+                "id": "c17e-79b-3a2b-12",
+                "name": "Storm bolter",
+                "min": 0,
+                "max": 1
+              }
+            ]
+          },
+          {
+            "id": "e7ab-b81c-e038-83bd",
+            "name": "Sponsons",
+            "min": 0,
+            "max": 1,
+            "mode": "single",
+            "options": [
+              {
+                "id": "4e96-d389-85b6-b104",
+                "name": "Two heavy bolters",
+                "min": 0,
+                "max": 99
+              },
+              {
+                "id": "8058-42ea-8332-ee32",
+                "name": "Two lascannons",
+                "min": 0,
+                "max": 99
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "7b3a-9a63-6200-ec7": {
+    "groups": [
+      {
+        "id": "73ae-d8fd-aea6-fa5d",
+        "name": "Wargear",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "688c-1a78-a5d6-5894",
+            "name": "Armoured tracks",
+            "min": 1,
+            "max": 1
+          }
+        ],
+        "groups": [
+          {
+            "id": "1354-c048-8bb3-eb89",
+            "name": "Frontal weapon",
+            "min": 1,
+            "max": 1,
+            "mode": "single",
+            "options": [
+              {
+                "id": "b4c7-c0c-ce4d-4ff4",
+                "name": "Twin heavy bolter",
+                "min": 0,
+                "max": 99
+              },
+              {
+                "id": "c29e-6b5a-edc3-fe67",
+                "name": "Twin heavy flamer",
+                "min": 0,
+                "max": 99
+              }
+            ],
+            "defaultOptionId": "b4c7-c0c-ce4d-4ff4"
+          },
+          {
+            "id": "2928-10df-a548-a097",
+            "name": "Pintle weapon",
+            "min": 0,
+            "max": 1,
+            "mode": "single",
+            "options": [
+              {
+                "id": "249f-11e-4df6-628c",
+                "name": "Heavy bolter",
+                "min": 0,
+                "max": 99
+              },
+              {
+                "id": "5054-94ae-e11e-4f64",
+                "name": "Heavy flamer",
+                "min": 0,
+                "max": 99
+              },
+              {
+                "id": "f49c-ed4f-71c2-9368",
+                "name": "Multi-melta",
+                "min": 0,
+                "max": 99
+              },
+              {
+                "id": "821-b17f-ee04-d1a1",
+                "name": "Storm bolter",
+                "min": 0,
+                "max": 1
+              }
+            ]
+          },
+          {
+            "id": "7efb-4501-ca78-6c9b",
+            "name": "Sponsons",
+            "min": 1,
+            "max": 1,
+            "mode": "single",
+            "options": [
+              {
+                "id": "534c-5208-d3b1-3f1f",
+                "name": "Two quad lascannons",
+                "min": 0,
+                "max": 99
+              },
+              {
+                "id": "e879-93f9-634-422c",
+                "name": "Two laser destroyers",
+                "min": 0,
+                "max": 99
+              }
+            ],
+            "defaultOptionId": "534c-5208-d3b1-3f1f"
+          }
+        ]
+      }
+    ]
+  },
+  "585d-722b-4304-2f63": {
+    "groups": [
+      {
+        "id": "071e-5f60-b67e-2d99",
+        "name": "Wargear",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "302b-2d1b-2037-b2e2",
+            "name": "Demolisher cannon",
+            "min": 1,
+            "max": 1
+          },
+          {
+            "id": "940a-face-3536-dc88",
+            "name": "Fellblade accelerator cannon",
+            "min": 1,
+            "max": 1
+          },
+          {
+            "id": "bcea-6795-9b7-937a",
+            "name": "Armoured tracks",
+            "min": 1,
+            "max": 1
+          },
+          {
+            "id": "a26f-8651-f1b0-d62e",
+            "name": "Havoc launcher",
+            "min": 0,
+            "max": 1
+          }
+        ],
+        "groups": [
+          {
+            "id": "55b9-3d79-4a5c-537f",
+            "name": "Frontal weapon",
+            "min": 1,
+            "max": 1,
+            "mode": "single",
+            "options": [
+              {
+                "id": "bcaa-cb58-34e1-3e9",
+                "name": "Twin heavy bolter",
+                "min": 0,
+                "max": 99
+              },
+              {
+                "id": "ed11-c55c-d97a-1d33",
+                "name": "Twin heavy flamer",
+                "min": 0,
+                "max": 99
+              }
+            ],
+            "defaultOptionId": "bcaa-cb58-34e1-3e9"
+          },
+          {
+            "id": "c499-c9fd-20ba-6a9a",
+            "name": "Pintle weapon",
+            "min": 0,
+            "max": 1,
+            "mode": "single",
+            "options": [
+              {
+                "id": "7602-3bf4-3aea-52fb",
+                "name": "Heavy bolter",
+                "min": 0,
+                "max": 99
+              },
+              {
+                "id": "4599-c4d6-3be6-5c7c",
+                "name": "Heavy flamer",
+                "min": 0,
+                "max": 99
+              },
+              {
+                "id": "97ad-7549-8695-8541",
+                "name": "Multi-melta",
+                "min": 0,
+                "max": 99
+              },
+              {
+                "id": "8461-9421-4a69-6bc8",
+                "name": "Storm bolter",
+                "min": 0,
+                "max": 1
+              },
+              {
+                "id": "63f0-2077-1c71-eb3d",
+                "name": "Combi-weapon",
+                "min": 0,
+                "max": 99
+              }
+            ]
+          },
+          {
+            "id": "e293-8e6b-414-1035",
+            "name": "Sponsons",
+            "min": 1,
+            "max": 1,
+            "mode": "single",
+            "options": [
+              {
+                "id": "3035-c6f9-c373-a69c",
+                "name": "Two quad lascannons",
+                "min": 0,
+                "max": 99
+              },
+              {
+                "id": "a2a2-84b0-87a4-2bcb",
+                "name": "Two laser destroyers",
+                "min": 0,
+                "max": 99
+              },
+              {
+                "id": "0a9c-8c4a-4cbc-309d",
+                "name": "Two quad heavy bolters",
+                "min": 0,
+                "max": 99
+              }
+            ],
+            "defaultOptionId": "3035-c6f9-c373-a69c"
+          }
+        ]
+      }
+    ]
+  },
+  "625b-29e4-7be7-db5a": {
+    "groups": [
+      {
+        "id": "5876-2a74-17b5-19a8",
+        "name": "Wargear",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "be4a-1ec1-f4d5-f88",
+            "name": "Twin Falchion volcano cannon",
+            "min": 1,
+            "max": 1
+          },
+          {
+            "id": "f3cc-e1e-edc2-b5f5",
+            "name": "Armoured tracks",
+            "min": 1,
+            "max": 1
+          }
+        ],
+        "groups": [
+          {
+            "id": "f7ef-21a2-edb4-e1fc",
+            "name": "Frontal weapon",
+            "min": 1,
+            "max": 1,
+            "mode": "single",
+            "options": [
+              {
+                "id": "dce0-c48e-76cd-66e8",
+                "name": "Twin heavy bolter",
+                "min": 0,
+                "max": 99
+              },
+              {
+                "id": "11fe-6e60-2cd2-71e0",
+                "name": "Twin heavy flamer",
+                "min": 0,
+                "max": 99
+              }
+            ],
+            "defaultOptionId": "dce0-c48e-76cd-66e8"
+          },
+          {
+            "id": "2521-769-48ed-820e",
+            "name": "Pintle weapon",
+            "min": 0,
+            "max": 1,
+            "mode": "single",
+            "options": [
+              {
+                "id": "c581-e0f4-1bf7-81d6",
+                "name": "Heavy bolter",
+                "min": 0,
+                "max": 99
+              },
+              {
+                "id": "4eee-cfd5-27a4-bca9",
+                "name": "Heavy flamer",
+                "min": 0,
+                "max": 99
+              },
+              {
+                "id": "ded8-5815-407f-cc31",
+                "name": "Multi-melta",
+                "min": 0,
+                "max": 99
+              },
+              {
+                "id": "4a2b-5c1d-ea3c-644f",
+                "name": "Storm bolter",
+                "min": 0,
+                "max": 1
+              }
+            ]
+          },
+          {
+            "id": "63e9-c140-7edc-4266",
+            "name": "Sponsons",
+            "min": 1,
+            "max": 1,
+            "mode": "single",
+            "options": [
+              {
+                "id": "d31c-6769-24dc-f79a",
+                "name": "Two quad lascannons",
+                "min": 0,
+                "max": 99
+              },
+              {
+                "id": "5798-110c-77e-4cc7",
+                "name": "Two laser destroyers",
+                "min": 0,
+                "max": 99
+              }
+            ],
+            "defaultOptionId": "d31c-6769-24dc-f79a"
+          }
+        ]
+      }
+    ]
+  },
+  "e337-7f05-f1b3-d64e": {
+    "groups": [
+      {
+        "id": "add2-9d27-f808-dcc2",
+        "name": "Wargear",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "8460-d306-cb15-35be",
+            "name": "Siege melta array",
+            "min": 1,
+            "max": 1
+          },
+          {
+            "id": "c64f-3fda-5129-e338",
+            "name": "Skyreaper battery",
+            "min": 1,
+            "max": 1
+          },
+          {
+            "id": "ec74-2061-1a0e-1492",
+            "name": "Armoured tracks",
+            "min": 1,
+            "max": 1
+          }
+        ],
+        "groups": [
+          {
+            "id": "e367-9c3c-2de2-a727",
+            "name": "Front sponsons",
+            "min": 1,
+            "max": 1,
+            "mode": "single",
+            "options": [
+              {
+                "id": "6e58-2f4-8f80-ec72",
+                "name": "Two heavy flamers",
+                "min": 0,
+                "max": 99
+              },
+              {
+                "id": "de39-9151-7dee-ff9",
+                "name": "Two lascannons",
+                "min": 0,
+                "max": 99
+              },
+              {
+                "id": "962a-9b21-e68e-6b75",
+                "name": "Two heavy bolters",
+                "min": 0,
+                "max": 99
+              },
+              {
+                "id": "f8cd-614f-4146-a7a1",
+                "name": "Two volkite culverins",
+                "min": 0,
+                "max": 99
+              }
+            ],
+            "defaultOptionId": "6e58-2f4-8f80-ec72"
+          },
+          {
+            "id": "48fe-b3fc-b252-1c06",
+            "name": "Rear sponsons",
+            "min": 1,
+            "max": 1,
+            "mode": "single",
+            "options": [
+              {
+                "id": "12cf-6807-175d-9d19",
+                "name": "Two heavy flamers",
+                "min": 0,
+                "max": 99
+              },
+              {
+                "id": "a42b-52d1-3756-746",
+                "name": "Two lascannons",
+                "min": 0,
+                "max": 99
+              },
+              {
+                "id": "8837-1038-5f95-14b6",
+                "name": "Two heavy bolters",
+                "min": 0,
+                "max": 99
+              },
+              {
+                "id": "6c2e-cb35-e6e3-b633",
+                "name": "Two volkite culverins",
+                "min": 0,
+                "max": 99
+              }
+            ],
+            "defaultOptionId": "a42b-52d1-3756-746"
+          }
+        ]
+      }
+    ]
+  },
+  "a80f-8343-85f3-716a": {
+    "groups": [
+      {
+        "id": "c6ae-5aa0-0432-6c72",
+        "name": "Wargear",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "93b0-215d-c6c7-c486",
+            "name": "Armoured hull",
+            "min": 1,
+            "max": 1
+          },
+          {
+            "id": "8c2f-4857-d961-b4d3",
+            "name": "Hellstrike missile battery",
+            "min": 1,
+            "max": 1
+          },
+          {
+            "id": "3c87-c276-d5e5-1e0e",
+            "name": "Twin heavy bolter",
+            "min": 3,
+            "max": 3
+          },
+          {
+            "id": "dc3e-5712-15aa-786b",
+            "name": "Twin lascannon",
+            "min": 4,
+            "max": 4
+          }
+        ]
+      }
+    ]
+  },
+  "d298-eb55-5779-f90e": {
+    "groups": [
+      {
+        "id": "d901-b201-cb70-3197",
+        "name": "Wargear",
+        "min": 1,
+        "max": 1,
+        "mode": "single",
+        "options": [
+          {
+            "id": "8106-4848-82fb-ac14",
+            "name": "Twin heavy bolter",
+            "min": 0,
+            "max": 99
+          },
+          {
+            "id": "4e39-d17d-8a5b-f86a",
+            "name": "Twin lascannon",
+            "min": 0,
+            "max": 99
+          }
+        ],
+        "defaultOptionId": "8106-4848-82fb-ac14"
+      }
+    ]
+  },
+  "7e7a-96f6-cad0-50ec": {
+    "groups": [
+      {
+        "id": "97b3-fcee-34f0-6257",
+        "name": "Wargear",
+        "min": 2,
+        "max": 2,
+        "mode": "count",
+        "options": [
+          {
+            "id": "5ae6-2c26-117e-8a32",
+            "name": "Decimator butcher cannon",
+            "min": 0,
+            "max": 2
+          },
+          {
+            "id": "7b6b-9435-bb38-51ee",
+            "name": "Decimator conversion beamer",
+            "min": 0,
+            "max": 2
+          },
+          {
+            "id": "4998-ae39-3bd5-add6",
+            "name": "Soulburner petard",
+            "min": 0,
+            "max": 2
+          },
+          {
+            "id": "dd7f-beb3-c302-34d9",
+            "name": "Storm laser",
+            "min": 0,
+            "max": 2
+          },
+          {
+            "id": "d411-517e-a040-101c",
+            "name": "Decimator claw and hellflamer",
+            "min": 0,
+            "max": 1
+          },
+          {
+            "id": "da2d-eb79-dbff-59f9",
+            "name": "Twin decimator claws and two hellflamers",
+            "min": 0,
+            "max": 1
+          }
+        ],
+        "defaultOptionId": "5ae6-2c26-117e-8a32"
+      }
+    ]
+  },
+  "412c-3499-8275-2637": {
+    "groups": [
+      {
+        "id": "03ff-8432-7c65-faeb",
+        "name": "Wargear",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "e54b-f403-3788-6de3",
+            "name": "Bile maw",
+            "min": 1,
+            "max": 1
+          },
+          {
+            "id": "e03c-97dc-9a86-4c5",
+            "name": "Blightreaper cannon",
+            "min": 1,
+            "max": 1
+          },
+          {
+            "id": "b35f-1891-cd05-1602",
+            "name": "Greater plague probe",
+            "min": 1,
+            "max": 1
+          }
+        ]
+      }
+    ]
+  },
+  "9401-616b-6e9e-10e5": {
+    "groups": [
+      {
+        "id": "9c6e-74e1-eadb-7ab5",
+        "name": "Wargear",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "1f1d-e62c-449c-16a0",
+            "name": "Blade struts",
+            "min": 1,
+            "max": 1
+          }
+        ]
+      }
+    ]
+  },
+  "fdad-1104-a934-3812": {
+    "groups": [
+      {
+        "id": "4a39-217c-ed67-6a58",
+        "name": "Wargear",
+        "min": 1,
+        "max": 1,
+        "mode": "single",
+        "options": [
+          {
+            "id": "c84d-86d9-a7d4-e160",
+            "name": "Impaler harpoon and slaughter blade",
+            "min": 0,
+            "max": 99
+          },
+          {
+            "id": "4f5e-bdcf-ebf4-3a24",
+            "name": "Twin slaughter blade",
+            "min": 0,
+            "max": 99
+          }
+        ],
+        "defaultOptionId": "c84d-86d9-a7d4-e160"
+      }
+    ]
+  },
+  "f564-7bc-21a6-7796": {
+    "groups": [
+      {
+        "id": "612f-8004-49ec-ebc1",
+        "name": "Wargear",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "de58-7a7e-d447-a4b0",
+            "name": "Demolisher cannon",
+            "min": 1,
+            "max": 1
+          },
+          {
+            "id": "fb5a-ea0c-4bf6-1438",
+            "name": "Hellcrusher claws",
+            "min": 1,
+            "max": 1
+          },
+          {
+            "id": "5e28-c455-d6b-5acb",
+            "name": "Hellmaw flame cannons",
+            "min": 1,
+            "max": 1
+          },
+          {
+            "id": "28ea-a344-3fdd-7858",
+            "name": "Scorpion cannon",
+            "min": 1,
+            "max": 1
+          }
+        ]
+      }
+    ]
+  },
+  "6c76-b4e-4437-27e2": {
+    "groups": [
+      {
+        "id": "c950-99a3-2a50-0afd",
+        "name": "Wargear",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "c47c-2920-3179-fdfb",
+            "name": "Kytan cleaver",
+            "min": 1,
+            "max": 1
+          },
+          {
+            "id": "a83f-f3a4-d2f9-84f9",
+            "name": "Kytan gatling cannon",
+            "min": 1,
+            "max": 1
+          }
+        ]
+      }
+    ]
+  },
+  "5bb7-ac8-4448-a4d8": {
+    "groups": [
+      {
+        "id": "6284-6898-f14b-50e1",
+        "name": "Wargear",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "b91f-a404-cf14-c76f",
+            "name": "Blade struts",
+            "min": 1,
+            "max": 1
+          },
+          {
+            "id": "5ad1-4925-b948-c452",
+            "name": "Kharybdis storm launcher",
+            "min": 5,
+            "max": 5
+          },
+          {
+            "id": "c92a-b6ad-9a-de95",
+            "name": "Melta array",
+            "min": 1,
+            "max": 1
+          }
+        ]
+      }
+    ]
+  },
+  "6844-986c-b0ea-6dd5": {
+    "groups": [
+      {
+        "id": "34dc-913b-e1c6-0609",
+        "name": "Wargear",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "ce01-85e6-bb7e-b4ed",
+            "name": "Armoured hull",
+            "min": 1,
+            "max": 1
+          },
+          {
+            "id": "2da3-c225-10f9-ab0d",
+            "name": "Lascannon",
+            "min": 2,
+            "max": 2
+          },
+          {
+            "id": "8dc9-90a5-43a4-1e0e",
+            "name": "Twin heavy bolter",
+            "min": 4,
+            "max": 4
+          }
+        ],
+        "groups": [
+          {
+            "id": "6c09-34f2-7a24-ca8b",
+            "name": "Bombs or missiles",
+            "min": 1,
+            "max": 1,
+            "mode": "single",
+            "options": [
+              {
+                "id": "bd95-b3c3-733e-1dd1",
+                "name": "Thunderhawk cluster bombs",
+                "min": 0,
+                "max": 99
+              },
+              {
+                "id": "1f9f-bcbe-c870-3b9c",
+                "name": "Hellstrike missile array",
+                "min": 0,
+                "max": 99
+              }
+            ],
+            "defaultOptionId": "bd95-b3c3-733e-1dd1"
+          },
+          {
+            "id": "2ae4-671c-912a-916f",
+            "name": "Main weapon",
+            "min": 1,
+            "max": 1,
+            "mode": "single",
+            "options": [
+              {
+                "id": "1342-3cdd-8f13-1326",
+                "name": "Thunderhawk heavy cannon",
+                "min": 0,
+                "max": 99
+              },
+              {
+                "id": "5f3d-271c-e6d0-4d5f",
+                "name": "Turbo-laser destructor",
+                "min": 0,
+                "max": 99
+              }
+            ],
+            "defaultOptionId": "1342-3cdd-8f13-1326"
+          }
+        ]
+      }
+    ]
+  }
+}

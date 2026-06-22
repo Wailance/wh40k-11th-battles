@@ -1,22 +1,51 @@
 import { Link } from 'react-router-dom'
+import { AllegianceIcon, FactionIcon } from './AllegianceIcon'
 import { DetachmentPicker } from './DetachmentPicker'
 import { copy } from '../lib/copy'
-import { findArmy } from '../lib/army-allegiance'
+import type { Army } from '../types/game'
+import { ALLEGIANCES, type Allegiance } from '../lib/army-allegiance'
 import {
-  ALLEGIANCES,
-  armiesForAllegiance,
-  type Allegiance,
-} from '../lib/army-allegiance'
+  builderFactionCount,
+  builderFactionsForAllegiance,
+  type BuilderFaction,
+} from '../lib/space-marine-chapters'
 import type { ArmyRoster } from '../types/roster'
 
 export type SetupStep = 'allegiance' | 'faction' | 'detachment'
 
 const STEPS: SetupStep[] = ['allegiance', 'faction', 'detachment']
 
+function FactionRow({
+  faction,
+  allegiance,
+  selected,
+  onSelect,
+}: {
+  faction: BuilderFaction
+  allegiance: Allegiance
+  selected: boolean
+  onSelect: () => void
+}) {
+  return (
+    <button
+      type="button"
+      onClick={onSelect}
+      className={`flex w-full items-center gap-3 rounded-xl border p-3.5 text-left sm:p-4 ${
+        selected ? 'border-crimson/35 bg-crimson-soft' : 'border-white/8'
+      }`}
+    >
+      <FactionIcon army={faction.name} allegiance={allegiance} className="h-8 w-8" />
+      <span className="min-w-0 flex-1 font-medium text-bone">{faction.name}</span>
+      <span className="shrink-0 text-caption text-muted">{faction.detachmentCount} det.</span>
+    </button>
+  )
+}
+
 export function ListSetupWizard({
   step,
   allegiance,
   roster,
+  armyEntry,
   dpUsed,
   onAllegiance,
   onFaction,
@@ -27,6 +56,7 @@ export function ListSetupWizard({
   step: SetupStep
   allegiance: Allegiance | null
   roster: ArmyRoster | null
+  armyEntry?: Army
   dpUsed: number
   onAllegiance: (a: Allegiance) => void
   onFaction: (army: string) => void
@@ -35,7 +65,9 @@ export function ListSetupWizard({
   onComplete: () => void
 }) {
   const stepIndex = STEPS.indexOf(step)
-  const armyEntry = roster ? findArmy(roster.army) : undefined
+  const factions = allegiance ? builderFactionsForAllegiance(allegiance) : []
+  const codexChapters = factions.filter((f) => f.kind === 'chapter')
+  const otherFactions = factions.filter((f) => f.kind === 'army')
 
   return (
     <div className="bf-viewport -mx-2 flex min-h-0 flex-1 flex-col">
@@ -69,49 +101,86 @@ export function ListSetupWizard({
 
       <div className="bf-scroll flex-1 px-2 py-3">
         {step === 'allegiance' && (
-          <div className="grid gap-3">
+          <div className="space-y-2">
             {ALLEGIANCES.map(({ id, labelKey }) => (
               <button
                 key={id}
                 type="button"
                 onClick={() => onAllegiance(id)}
-                className={`app-panel p-5 text-left transition-colors ${
-                  allegiance === id ? 'ring-1 ring-crimson/40' : ''
-                }`}
+                className="flex w-full items-center gap-3 rounded-xl border border-white/8 p-3.5 text-left transition-colors sm:p-4"
               >
-                <p className="font-display text-display tracking-wide text-bone">{copy.armyLists[labelKey]}</p>
-                <p className="mt-1 text-caption text-muted">
-                  {armiesForAllegiance(id).length} {copy.armyLists.factionsCount}
-                </p>
+                <AllegianceIcon id={id} />
+                <div className="min-w-0 flex-1">
+                  <p className="font-display text-body font-semibold tracking-wide text-bone sm:text-title">
+                    {copy.armyLists[labelKey]}
+                  </p>
+                  <p className="mt-0.5 text-micro text-muted sm:text-caption">
+                    {builderFactionCount(id)} {copy.armyLists.factionsCount}
+                  </p>
+                </div>
               </button>
             ))}
           </div>
         )}
 
         {step === 'faction' && allegiance && (
-          <div className="space-y-2">
+          <div className="space-y-4">
             <button
               type="button"
               onClick={() => onStep('allegiance')}
-              className="mb-2 text-caption text-muted hover:text-bone"
+              className="text-caption text-muted hover:text-bone"
             >
               ← {copy.armyLists.changeAllegiance}
             </button>
-            {armiesForAllegiance(allegiance).map((a) => (
-              <button
-                key={a.army}
-                type="button"
-                onClick={() => onFaction(a.army)}
-                className={`flex w-full items-center justify-between rounded-xl border p-4 text-left ${
-                  roster?.army === a.army
-                    ? 'border-crimson/35 bg-crimson-soft'
-                    : 'border-white/8'
-                }`}
-              >
-                <span className="font-medium text-bone">{a.army}</span>
-                <span className="text-caption text-muted">{a.detachments.length} det.</span>
-              </button>
-            ))}
+
+            {allegiance === 'space-marines' ? (
+              <>
+                {codexChapters.length > 0 && (
+                  <section className="space-y-2">
+                    <p className="px-1 text-micro uppercase tracking-widest text-muted">
+                      {copy.armyLists.codexChapters}
+                    </p>
+                    {codexChapters.map((faction) => (
+                      <FactionRow
+                        key={faction.name}
+                        faction={faction}
+                        allegiance={allegiance}
+                        selected={roster?.army === faction.name}
+                        onSelect={() => onFaction(faction.name)}
+                      />
+                    ))}
+                  </section>
+                )}
+                {otherFactions.length > 0 && (
+                  <section className="space-y-2">
+                    <p className="px-1 text-micro uppercase tracking-widest text-muted">
+                      {copy.armyLists.otherSpaceMarines}
+                    </p>
+                    {otherFactions.map((faction) => (
+                      <FactionRow
+                        key={faction.name}
+                        faction={faction}
+                        allegiance={allegiance}
+                        selected={roster?.army === faction.name}
+                        onSelect={() => onFaction(faction.name)}
+                      />
+                    ))}
+                  </section>
+                )}
+              </>
+            ) : (
+              <div className="space-y-2">
+                {factions.map((faction) => (
+                  <FactionRow
+                    key={faction.name}
+                    faction={faction}
+                    allegiance={allegiance}
+                    selected={roster?.army === faction.name}
+                    onSelect={() => onFaction(faction.name)}
+                  />
+                ))}
+              </div>
+            )}
           </div>
         )}
 

@@ -58,6 +58,24 @@
           "name": "Leader",
           "description": "This model can be attached to the following unit:\n\n■ Death Company Marines with Jump Packs"
         }
+      ],
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 85
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "85",
+      "mfmRole": "leader",
+      "attachTo": [
+        "Death Company Marines With Boltguns And Jump Packs",
+        "Death Company Marines With Jump Packs"
       ]
     },
     {
@@ -88,7 +106,30 @@
           "name": "Overcharged Engines",
           "description": "You can re-roll Advance rolls made for this model."
         }
-      ]
+      ],
+      "pricing": [
+        {
+          "range": "[1,2]",
+          "label": "Your 1st To 2nd Units Cost",
+          "costs": [
+            {
+              "models": 1,
+              "points": 125
+            }
+          ]
+        },
+        {
+          "range": "[3,)",
+          "label": "Your 3rd + Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 135
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "125"
     },
     {
       "id": "8d87-ee8a-6af4-3715",
@@ -292,7 +333,7 @@
     {
       "id": "ab35-2c36-9389-d1d5",
       "name": "Chief Librarian Mephiston",
-      "points": 120,
+      "points": 110,
       "keywords": [
         "Epic Hero",
         "Character",
@@ -315,7 +356,7 @@
       },
       "rangedWeapons": [
         {
-          "name": "➤ Fury of the Ancients - Witchfire",
+          "name": "Fury of the Ancients - Witchfire",
           "range": "18\"",
           "A": "3",
           "BS": "2+",
@@ -329,7 +370,7 @@
           ]
         },
         {
-          "name": "➤ Fury of the Ancients - Focused Witchfire",
+          "name": "Fury of the Ancients - Focused Witchfire",
           "range": "18\"",
           "A": "3",
           "BS": "2+",
@@ -372,12 +413,25 @@
           "name": "Invulnerable Save 5+",
           "description": "This model has a 5+ invulnerable save"
         }
-      ]
+      ],
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 110
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "110"
     },
     {
       "id": "7323-ebf-9afe-7e7a",
       "name": "Commander Dante",
-      "points": 120,
+      "points": 125,
       "keywords": [
         "Epic Hero",
         "Character",
@@ -444,6 +498,25 @@
           "name": "Leader",
           "description": "This model can be attached to the following units:\n\n■ Assault Squad with Jump Packs\n■ Sanguinary Guard\n■ Vanguard Veteran Squad with Jump Packs\n■ Assault Intercessors with Jump Packs"
         }
+      ],
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 125
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "125",
+      "mfmRole": "leader",
+      "attachTo": [
+        "Assault Intercessors With Jump Packs",
+        "Sanguinary Guard",
+        "Vanguard Veteran Squad With Jump Packs"
       ]
     },
     {
@@ -507,7 +580,7 @@
       },
       "rangedWeapons": [
         {
-          "name": "➤ Astartes Grenade Launcher - Frag",
+          "name": "Astartes Grenade Launcher - Frag",
           "range": "24\"",
           "A": "D3",
           "BS": "3+",
@@ -519,7 +592,7 @@
           ]
         },
         {
-          "name": "➤ Astartes Grenade Launcher - Krak",
+          "name": "Astartes Grenade Launcher - Krak",
           "range": "24\"",
           "A": "1",
           "BS": "3+",
@@ -606,7 +679,20 @@
         "LD": "6+",
         "OC": "1"
       },
-      "rangedWeapons": [],
+      "rangedWeapons": [
+        {
+          "name": "Heavy Bolt Pistol",
+          "range": "18\"",
+          "A": "1",
+          "BS": "3+",
+          "S": "4",
+          "AP": "-1",
+          "D": "1",
+          "keywords": [
+            "Pistol"
+          ]
+        }
+      ],
       "meleeWeapons": [],
       "abilities": [
         {
@@ -617,7 +703,38 @@
           "name": "Attached Unit",
           "description": "If a Chaplain model from your army with the Leader ability can be attached to Assault Intercessors with Jump Packs, it can be attached to this unit instead"
         }
-      ]
+      ],
+      "pricing": [
+        {
+          "range": "[1,2]",
+          "label": "Your 1st To 2nd Units Cost",
+          "costs": [
+            {
+              "models": 5,
+              "points": 120
+            },
+            {
+              "models": 10,
+              "points": 230
+            }
+          ]
+        },
+        {
+          "range": "[3,)",
+          "label": "Your 3rd + Unit Costs",
+          "costs": [
+            {
+              "models": 5,
+              "points": 135
+            },
+            {
+              "models": 10,
+              "points": 245
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "120/230"
     },
     {
       "id": "c954-8157-25fd-5f99",
@@ -778,6 +895,24 @@
           "name": "Leader",
           "description": "This model can be attached to the following unit:\n\n■ Death Company Marines with Jump Packs"
         }
+      ],
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 100
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "100",
+      "mfmRole": "leader",
+      "attachTo": [
+        "Death Company Marines With Boltguns And Jump Packs",
+        "Death Company Marines With Jump Packs"
       ]
     },
     {
@@ -807,7 +942,7 @@
       },
       "rangedWeapons": [
         {
-          "name": "➤ Blood Lance - Focused Witchfire",
+          "name": "Blood Lance - Focused Witchfire",
           "range": "18\"",
           "A": "1",
           "BS": "3+",
@@ -821,7 +956,7 @@
           ]
         },
         {
-          "name": "➤ Blood Lance - Witchfire",
+          "name": "Blood Lance - Witchfire",
           "range": "18\"",
           "A": "1",
           "BS": "3+",
@@ -948,7 +1083,38 @@
           "name": "Sanguinary Banner",
           "description": "Add 1 to the Objective Control characteristic of models in the bearer’s unit."
         }
-      ]
+      ],
+      "pricing": [
+        {
+          "range": "[1,2]",
+          "label": "Your 1st To 2nd Units Cost",
+          "costs": [
+            {
+              "models": 3,
+              "points": 125
+            },
+            {
+              "models": 6,
+              "points": 260
+            }
+          ]
+        },
+        {
+          "range": "[3,)",
+          "label": "Your 3rd + Unit Costs",
+          "costs": [
+            {
+              "models": 3,
+              "points": 145
+            },
+            {
+              "models": 6,
+              "points": 280
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "125/260"
     },
     {
       "id": "f80-be5-d17c-db23",
@@ -973,8 +1139,32 @@
         "LD": "6+",
         "OC": "1"
       },
-      "rangedWeapons": [],
-      "meleeWeapons": [],
+      "rangedWeapons": [
+        {
+          "name": "Absolvor Bolt Pistol",
+          "range": "18\"",
+          "A": "1",
+          "BS": "2+",
+          "S": "5",
+          "AP": "-1",
+          "D": "2",
+          "keywords": [
+            "Pistol"
+          ]
+        }
+      ],
+      "meleeWeapons": [
+        {
+          "name": "Astartes Chainsword",
+          "range": "Melee",
+          "A": "5",
+          "WS": "2+",
+          "S": "4",
+          "AP": "-1",
+          "D": "1",
+          "keywords": []
+        }
+      ],
       "abilities": [
         {
           "name": "Sanguinary Priest",
@@ -988,6 +1178,41 @@
           "name": "Leader",
           "description": "This model can be attached to the following units: \n- **^^Assault Intercessor Squad^^**\n- **^^Bladeguard Veteran Squad^^**\n- **^^Desolation Squad^^**\n- **^^Devastator Squad^^**\n- **^^Hellblaster Squad^^**\n- **^^Infernus Squad^^**\n- **^^Intercessor Squad^^**\n- **^^Tactical Squad^^**\n- **^^Sternguard Veteran Squad^^**\n\n\nYou can attach this model to one of the above units, even if one **^^Captain, Chapter Master^^** or **^^Lieutenant**^^ model has already been attached to it. If you do, and that Bodyguard unit is destroyed, the Leader units attached to it become separate units, with their original Starting Strengths"
         }
+      ],
+      "pricing": [
+        {
+          "range": "[1,2]",
+          "label": "Your 1st To 2nd Units Cost",
+          "costs": [
+            {
+              "models": 1,
+              "points": 75
+            }
+          ]
+        },
+        {
+          "range": "[3,)",
+          "label": "Your 3rd + Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 85
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "75",
+      "mfmRole": "support",
+      "attachTo": [
+        "Assault Intercessor Squad",
+        "Bladeguard Veteran Squad",
+        "Desolation Squad",
+        "Devastator Squad",
+        "Hellblaster Squad",
+        "Infernus Squad",
+        "Intercessor Squad",
+        "Sternguard Veteran Squad",
+        "Tactical Squad"
       ]
     },
     {
@@ -1038,7 +1263,20 @@
           "name": "Miraculous Savior",
           "description": "Once per battle, at the end of your opponent’s Charge phase, if this model is still in Reserves, you can select one enemy unit  that made a Charge move this phase. Set this model up on the battlefield within Engagement Range of that enemy unit."
         }
-      ]
+      ],
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 130
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "130"
     },
     {
       "id": "fa13-ba8a-8711-87b6",
@@ -1157,13 +1395,48 @@
         "LD": "6+",
         "OC": "1"
       },
-      "rangedWeapons": [],
+      "rangedWeapons": [
+        {
+          "name": "Heavy Bolt Pistol",
+          "range": "18\"",
+          "A": "1",
+          "BS": "3+",
+          "S": "4",
+          "AP": "-1",
+          "D": "1",
+          "keywords": [
+            "Pistol"
+          ]
+        }
+      ],
       "meleeWeapons": [],
       "abilities": [
         {
           "name": "Leader",
           "description": "This model can be attached to the following units:\n\n■ Assault Intercessor Squad\n■ Infernus Squad\n■ Intercessor Squad\n■ Sternguard Veteran Squad\n■ Company Heroes\n■ Tactical Squad"
         }
+      ],
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 80
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "80",
+      "mfmRole": "leader",
+      "attachTo": [
+        "Assault Intercessor Squad",
+        "Company Heroes",
+        "Infernus Squad",
+        "Intercessor Squad",
+        "Sternguard Veteran Squad",
+        "Tactical Squad"
       ]
     },
     {
@@ -1191,7 +1464,20 @@
         "LD": "6+",
         "OC": "1"
       },
-      "rangedWeapons": [],
+      "rangedWeapons": [
+        {
+          "name": "Heavy Bolt Pistol",
+          "range": "18\"",
+          "A": "1",
+          "BS": "3+",
+          "S": "4",
+          "AP": "-1",
+          "D": "1",
+          "keywords": [
+            "Pistol"
+          ]
+        }
+      ],
       "meleeWeapons": [],
       "abilities": [
         {
@@ -1206,6 +1492,25 @@
           "name": "Death Vision of Sanguinius",
           "description": "If this model is destroyed by a melee attack, after the attacking unit has finished making its attacks, you can roll one D6, adding 2 to the result if the attacking unit contains the enemy Warlord. On a 2-3, that enemy unit suffers D3 mortal wounds; on a 4-5, that enemy unit suffers 3 mortal wounds; on a 6+ that enemy unit suffers D3+3 mortal wounds."
         }
+      ],
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 70
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "70",
+      "mfmRole": "leader",
+      "attachTo": [
+        "Death Company Marines",
+        "Death Company Marines With Bolt Rifles",
+        "Death Company Marines With Boltguns"
       ]
     },
     {
@@ -1235,8 +1540,32 @@
         "LD": "6+",
         "OC": "1"
       },
-      "rangedWeapons": [],
-      "meleeWeapons": [],
+      "rangedWeapons": [
+        {
+          "name": "Heavy Bolt Pistol",
+          "range": "18\"",
+          "A": "1",
+          "BS": "3+",
+          "S": "4",
+          "AP": "-1",
+          "D": "1",
+          "keywords": [
+            "Pistol"
+          ]
+        }
+      ],
+      "meleeWeapons": [
+        {
+          "name": "Astartes Chainsword",
+          "range": "Melee",
+          "A": "5",
+          "WS": "2+",
+          "S": "4",
+          "AP": "-1",
+          "D": "1",
+          "keywords": []
+        }
+      ],
       "abilities": [
         {
           "name": "Death Vision of Sanguinius",
@@ -1250,12 +1579,30 @@
           "name": "Leader",
           "description": "This model can be attached to the following units:\n\n■ Death Company Marines with Jump Packs"
         }
+      ],
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 75
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "75",
+      "mfmRole": "leader",
+      "attachTo": [
+        "Death Company Marines With Boltguns And Jump Packs",
+        "Death Company Marines With Jump Packs"
       ]
     },
     {
       "id": "4aab-3ca5-0435-ed5e",
       "name": "Death Company Marines with Bolt Rifles",
-      "points": 85,
+      "points": 80,
       "keywords": [
         "Infantry",
         "Grenades",
@@ -1277,7 +1624,7 @@
       },
       "rangedWeapons": [
         {
-          "name": "➤ Astartes Grenade Launcher - Frag",
+          "name": "Astartes Grenade Launcher - Frag",
           "range": "24\"",
           "A": "D3",
           "BS": "3+",
@@ -1289,7 +1636,7 @@
           ]
         },
         {
-          "name": "➤ Astartes Grenade Launcher - Krak",
+          "name": "Astartes Grenade Launcher - Krak",
           "range": "24\"",
           "A": "1",
           "BS": "3+",
@@ -1339,7 +1686,38 @@
           "name": "Attached Unit",
           "description": "If a Chaplain model from your army with the Leader ability can be attached to Intercessor Squad, it can be attached to this unit instead."
         }
-      ]
+      ],
+      "pricing": [
+        {
+          "range": "[1,2]",
+          "label": "Your 1st To 2nd Units Cost",
+          "costs": [
+            {
+              "models": 5,
+              "points": 80
+            },
+            {
+              "models": 10,
+              "points": 155
+            }
+          ]
+        },
+        {
+          "range": "[3,)",
+          "label": "Your 3rd + Unit Costs",
+          "costs": [
+            {
+              "models": 5,
+              "points": 90
+            },
+            {
+              "models": 10,
+              "points": 165
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "80/155"
     },
     {
       "id": "3825-ac3a-75ec-fa0d",
@@ -1388,12 +1766,43 @@
           "name": "Attached Unit",
           "description": "If a Chaplain model from your army with the Leader ability can be attached to Assault Intercessor Squad, it can be attached to this unit instead."
         }
-      ]
+      ],
+      "pricing": [
+        {
+          "range": "[1,2]",
+          "label": "Your 1st To 2nd Units Cost",
+          "costs": [
+            {
+              "models": 5,
+              "points": 85
+            },
+            {
+              "models": 10,
+              "points": 160
+            }
+          ]
+        },
+        {
+          "range": "[3,)",
+          "label": "Your 3rd + Unit Costs",
+          "costs": [
+            {
+              "models": 5,
+              "points": 95
+            },
+            {
+              "models": 10,
+              "points": 170
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "85/160"
     },
     {
       "id": "3b6e-cc3e-c2a4-0cbd",
       "name": "Death Company Dreadnought",
-      "points": 160,
+      "points": 150,
       "keywords": [
         "Vehicle",
         "Walker",
@@ -1420,7 +1829,30 @@
           "name": "Driven by Fury",
           "description": "In your opponent's Shooting phase, each time an enemy unit has shot, if this model was hit by one or more of those attacks, it can make a Driven by Fury move. To do so, roll one D6 and add 2 to the roll; this model moves a number of inches up to the result, but must finish as close as possible to the closest enemy unit [excluding Aircraft]. When doing so, this model can be moved within\nEngagement Range of that enemy unit. A model cannot make a Driven by Fury move while it is Battle-shocked or within Engagement Range of one or more enemy units, and can only make one Driven by Fury move per phase."
         }
-      ]
+      ],
+      "pricing": [
+        {
+          "range": "[1,2]",
+          "label": "Your 1st To 2nd Units Cost",
+          "costs": [
+            {
+              "models": 1,
+              "points": 150
+            }
+          ]
+        },
+        {
+          "range": "[3,)",
+          "label": "Your 3rd + Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 160
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "150"
     },
     {
       "id": "bcfe-f4fb-5c44-652d",

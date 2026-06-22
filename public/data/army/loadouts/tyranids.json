@@ -1,0 +1,1175 @@
+{
+  "cd6d-87b3-125a-f372": {
+    "groups": [
+      {
+        "id": "997c-2cc7-e8d5-f33e",
+        "name": "Wargear",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "3ca7-ce2a-18b6-82d3",
+            "name": "Stinger salvoes",
+            "min": 1,
+            "max": 1
+          }
+        ],
+        "groups": [
+          {
+            "id": "80c2-fb4d-2e3b-8ee2",
+            "name": "Massive Scything Talons",
+            "min": 1,
+            "max": 1,
+            "mode": "single",
+            "options": [
+              {
+                "id": "4f0d-da49-a7d-5e4b",
+                "name": "Massive scything talons",
+                "min": 0,
+                "max": 1
+              },
+              {
+                "id": "a397-baf3-34f6-420f",
+                "name": "Massive crushing claws",
+                "min": 0,
+                "max": 1
+              }
+            ],
+            "defaultOptionId": "4f0d-da49-a7d-5e4b"
+          }
+        ]
+      }
+    ]
+  },
+  "13f7-1a3-eff-7393": {
+    "groups": [
+      {
+        "id": "1f5f-0dd9-929e-3555",
+        "name": "Wargear",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "7a17-4fb0-c0f5-e22",
+            "name": "Bone Sabres",
+            "min": 1,
+            "max": 1
+          },
+          {
+            "id": "a30-4bad-cef5-5e55",
+            "name": "Synaptic Pulse",
+            "min": 1,
+            "max": 1
+          }
+        ]
+      }
+    ]
+  },
+  "b86a-b38a-380c-483d": {
+    "groups": [
+      {
+        "id": "e8c1-46cb-507f-3ddb",
+        "name": "Wargear",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "9aef-ce2-edd5-bfb4",
+            "name": "Broodlord Claws and Talons",
+            "min": 1,
+            "max": 1
+          }
+        ]
+      }
+    ]
+  },
+  "a125-b6fb-2945-56a": {
+    "groups": [
+      {
+        "id": "d09a-b483-e7ef-da75",
+        "name": "Tyranid Prime",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "8835-f9f5-81a6-ac7",
+            "name": "Tyranid Prime",
+            "min": 1,
+            "max": 1,
+            "groups": [
+              {
+                "id": "b441-eb66-481c-7354",
+                "name": "Wargear",
+                "min": 1,
+                "max": 1,
+                "mode": "single",
+                "options": [
+                  {
+                    "id": "5951-617b-bb16-d4b5",
+                    "name": "Deathspitter",
+                    "min": 0,
+                    "max": 1
+                  },
+                  {
+                    "id": "10f0-acb5-9e50-73b3",
+                    "name": "Spinefists",
+                    "min": 0,
+                    "max": 1
+                  },
+                  {
+                    "id": "fb24-bc01-4f8d-ab53",
+                    "name": "Venom cannon",
+                    "min": 0,
+                    "max": 1
+                  },
+                  {
+                    "id": "b63f-c5f0-cd3f-5423",
+                    "name": "Barbed strangler",
+                    "min": 0,
+                    "max": 1
+                  },
+                  {
+                    "id": "99c5-292-af3d-1d28",
+                    "name": "Devourer",
+                    "min": 0,
+                    "max": 1
+                  }
+                ],
+                "defaultOptionId": "99c5-292-af3d-1d28"
+              }
+            ],
+            "equippedWith": "Tyranid Warrior claws and talons"
+          }
+        ]
+      },
+      {
+        "id": "c8cd-0b97-80f1-ca84",
+        "name": "2-5 Tyranid Warriors",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "77c-c54c-a81d-865",
+            "name": "Tyranid Warrior",
+            "min": 2,
+            "max": 5,
+            "groups": [
+              {
+                "id": "d881-7795-f48b-cb62",
+                "name": "Wargear",
+                "min": 1,
+                "max": 1,
+                "mode": "single",
+                "options": [
+                  {
+                    "id": "ef98-8624-9bd6-1587",
+                    "name": "Deathspitter",
+                    "min": 0,
+                    "max": 1
+                  },
+                  {
+                    "id": "5e4a-ca3c-36f1-1fa7",
+                    "name": "Spinefists",
+                    "min": 0,
+                    "max": 1
+                  },
+                  {
+                    "id": "f694-fcb0-1a84-1294",
+                    "name": "Venom cannon",
+                    "min": 0,
+                    "max": 1
+                  },
+                  {
+                    "id": "4961-49c6-9544-7786",
+                    "name": "Devourer",
+                    "min": 0,
+                    "max": 1
+                  },
+                  {
+                    "id": "878-220f-453e-e676",
+                    "name": "Barbed strangler",
+                    "min": 0,
+                    "max": 1
+                  }
+                ],
+                "defaultOptionId": "4961-49c6-9544-7786"
+              }
+            ],
+            "equippedWith": "Tyranid Warrior claws and talons"
+          }
+        ]
+      }
+    ]
+  },
+  "5815-871c-9260-287a": {
+    "groups": [
+      {
+        "id": "4204-bd88-2dbf-6039",
+        "name": "Tyranid Prime",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "c72e-ae7c-a135-5ad",
+            "name": "Tyranid Prime",
+            "min": 1,
+            "max": 1,
+            "equippedWith": "Tyranid Warrior claws and talons"
+          }
+        ]
+      },
+      {
+        "id": "3b9d-c826-8810-3911",
+        "name": "2-5 Tyranid Warriors",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "b06f-f43f-b770-da19",
+            "name": "Tyranid Warrior",
+            "min": 2,
+            "max": 5,
+            "equippedWith": "Tyranid Warrior claws and talons"
+          }
+        ]
+      }
+    ]
+  },
+  "f15b-9f9c-9bf0-8160": {
+    "groups": [
+      {
+        "id": "4957-ad10-877d-424e",
+        "name": "10-20 Hormagaunts",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "8e0b-d72a-535a-996b",
+            "name": "Hormagaunts",
+            "min": 10,
+            "max": 20
+          }
+        ]
+      }
+    ]
+  },
+  "30d0-521c-1d45-f57b": {
+    "groups": [
+      {
+        "id": "b126-4346-3347-0a32",
+        "name": "Wargear",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "b702-ef60-5d60-bd40",
+            "name": "Massive toxic lashes",
+            "min": 1,
+            "max": 1
+          }
+        ]
+      }
+    ]
+  },
+  "1645-5407-92c8-1441": {
+    "groups": [
+      {
+        "id": "ec38-37b7-be05-a78c",
+        "name": "3-6 Tyrant Guard",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "a827-afc9-ca29-b723",
+            "name": "Tyrant Guard",
+            "min": 3,
+            "max": 6,
+            "groups": [
+              {
+                "id": "e5a9-917b-142e-a188",
+                "name": "Wargear",
+                "min": 1,
+                "max": 1,
+                "mode": "single",
+                "options": [
+                  {
+                    "id": "72c5-1443-529a-59ad",
+                    "name": "Scything talons and rending claws",
+                    "min": 0,
+                    "max": 99
+                  },
+                  {
+                    "id": "a6ee-80cb-5346-3c2a",
+                    "name": "Bone cleaver, lash whip and rending claws",
+                    "min": 0,
+                    "max": 99
+                  },
+                  {
+                    "id": "9df1-6186-c28e-d432",
+                    "name": "Crushing claws and rending claws",
+                    "min": 0,
+                    "max": 99
+                  }
+                ],
+                "defaultOptionId": "72c5-1443-529a-59ad"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "1ae1-ed96-5100-eda5": {
+    "groups": [
+      {
+        "id": "5047-9813-85c1-7f93",
+        "name": "Wargear",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "dffc-982b-5793-3695",
+            "name": "Neurotyrant claws and lashes",
+            "min": 1,
+            "max": 1
+          },
+          {
+            "id": "73b5-d831-1a3f-02a5",
+            "name": "Psychic scream",
+            "min": 1,
+            "max": 1
+          }
+        ]
+      }
+    ]
+  },
+  "2c2d-a2f9-61a8-a6c6": {
+    "groups": [
+      {
+        "id": "67cc-62f6-e1a5-52b9",
+        "name": "Wargear",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "4b96-d104-c37f-f697",
+            "name": "Massive scything talons",
+            "min": 1,
+            "max": 1
+          },
+          {
+            "id": "ea0a-4179-8806-af3d",
+            "name": "Psychic overload",
+            "min": 1,
+            "max": 1
+          }
+        ]
+      }
+    ]
+  },
+  "d2c6-bd0b-3205-3319": {
+    "groups": [
+      {
+        "id": "a480-c248-203b-dc40",
+        "name": "1-3 Pyrovores",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "c543-2551-1f2a-bcec",
+            "name": "Pyrovore",
+            "min": 1,
+            "max": 3,
+            "equippedWith": "Chitin-barbed limbs"
+          }
+        ],
+        "defaultOptionId": "c543-2551-1f2a-bcec"
+      }
+    ]
+  },
+  "6249-358f-27d7-ef60": {
+    "groups": [
+      {
+        "id": "ffe5-dca0-d7ed-14f0",
+        "name": "Wargear",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "3bf9-a705-9145-dbb9",
+            "name": "Grasping tongue",
+            "min": 1,
+            "max": 1
+          },
+          {
+            "id": "7a6c-1971-6ffb-70b5",
+            "name": "Shovelling claws",
+            "min": 1,
+            "max": 1
+          },
+          {
+            "id": "fa2c-7542-5fea-41c5",
+            "name": "Ravenous maw",
+            "min": 1,
+            "max": 1
+          }
+        ]
+      }
+    ]
+  },
+  "b563-c6d3-d0e5-1b78": {
+    "groups": [
+      {
+        "id": "e592-851c-728d-f724",
+        "name": "3-6 Venomthropes",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "748a-fa63-aef9-f2ce",
+            "name": "Venomthrope",
+            "min": 3,
+            "max": 6
+          }
+        ]
+      }
+    ]
+  },
+  "8ccc-3f27-7e4e-da81": {
+    "groups": [
+      {
+        "id": "cbff-0666-b9fa-d4db",
+        "name": "1-2 Neurogaunt Nodebeasts",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "8488-2efe-825f-a403",
+            "name": "Neurogaunt Nodebeast",
+            "min": 1,
+            "max": 1,
+            "equippedWith": "Chitinous claws and teeth"
+          }
+        ]
+      },
+      {
+        "id": "18f2-5751-d1c2-9819",
+        "name": "10-20 Neurogaunts",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "a998-39ce-f312-129",
+            "name": "Neurogaunt",
+            "min": 10,
+            "max": 20,
+            "equippedWith": "Chitinous claws and teeth"
+          }
+        ]
+      }
+    ]
+  },
+  "b622-a22-a04f-6303": {
+    "groups": [
+      {
+        "id": "3104-5610-d101-27c1",
+        "name": "Neurothrope",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "f187-5924-8ec5-1c33",
+            "name": "Neurothrope",
+            "min": 1,
+            "max": 1,
+            "equippedWith": "Chitinous claws and teeth and Warp blast"
+          }
+        ]
+      },
+      {
+        "id": "86c1-1eb0-5ac7-93f0",
+        "name": "2-5 Zoanthropes",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "7060-1133-6c23-c028",
+            "name": "Zoanthrope",
+            "min": 2,
+            "max": 5,
+            "equippedWith": "Chitinous claws and teeth and Warp blast"
+          }
+        ]
+      }
+    ]
+  },
+  "bbfd-5b01-5bd3-a28b": {
+    "groups": [
+      {
+        "id": "b131-1a1e-f4ca-2be1",
+        "name": "Wargear",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "d8a9-d590-f7b2-2641",
+            "name": "Bio-plasmic cannon",
+            "min": 1,
+            "max": 1
+          },
+          {
+            "id": "b01f-ec72-5e16-7143",
+            "name": "Powerful limbs",
+            "min": 1,
+            "max": 1
+          }
+        ]
+      }
+    ]
+  },
+  "8e53-d4a-a69f-e71d": {
+    "groups": [
+      {
+        "id": "7d21-8bb7-6acb-c15d",
+        "name": "Wargear",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "e02b-2fde-1ec3-28a1",
+            "name": "Bio-plasmic scream",
+            "min": 1,
+            "max": 1
+          },
+          {
+            "id": "fee7-2e3-58da-53b6",
+            "name": "Screamer-killer talons",
+            "min": 1,
+            "max": 1
+          }
+        ]
+      }
+    ]
+  },
+  "ac7a-2560-c083-45b8": {
+    "groups": [
+      {
+        "id": "c5c1-1fb4-6301-730a",
+        "name": "3-6 Hive Guard",
+        "min": 3,
+        "max": 6,
+        "mode": "count",
+        "options": [
+          {
+            "id": "a5c7-5590-b4b6-88ea",
+            "name": "Hive Guard w/ shockcannon",
+            "min": 0,
+            "max": 6,
+            "equippedWith": "Chitinous claws and teeth"
+          },
+          {
+            "id": "82a7-bcb5-bc33-2c1a",
+            "name": "Hive Guard w/ impaler cannon",
+            "min": 0,
+            "max": 6,
+            "equippedWith": "Chitinous claws and teeth"
+          }
+        ],
+        "defaultOptionId": "a5c7-5590-b4b6-88ea"
+      }
+    ]
+  },
+  "1705-379b-330d-36d4": {
+    "groups": [
+      {
+        "id": "4161-f1f7-9e10-f1b1",
+        "name": "Wargear",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "a87e-4f8-a6f7-15de",
+            "name": "Powerful limbs",
+            "min": 1,
+            "max": 1
+          },
+          {
+            "id": "cf6e-fa82-c365-e9b8",
+            "name": "Stinger salvoes",
+            "min": 1,
+            "max": 1
+          }
+        ],
+        "groups": [
+          {
+            "id": "5e-6218-175-3b8d",
+            "name": "Fleshborer Hive",
+            "min": 1,
+            "max": 1,
+            "mode": "single",
+            "options": [
+              {
+                "id": "d262-4214-141c-9a25",
+                "name": "Rupture cannon",
+                "min": 0,
+                "max": 99
+              },
+              {
+                "id": "01d2-b6bd-7d9c-5564",
+                "name": "Fleshborer hive",
+                "min": 0,
+                "max": 99
+              },
+              {
+                "id": "ac03-5f75-11e7-0e5a",
+                "name": "Acid spray",
+                "min": 0,
+                "max": 99
+              }
+            ],
+            "defaultOptionId": "5a91-5299-277-82a9"
+          }
+        ]
+      }
+    ]
+  },
+  "93aa-dd13-de9d-402b": {
+    "groups": [
+      {
+        "id": "1a28-55fd-9fb3-f36c",
+        "name": "Wargear",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "6a88-a923-1bdc-52",
+            "name": "Drool cannon",
+            "min": 1,
+            "max": 1
+          },
+          {
+            "id": "aec6-60b3-14e1-f778",
+            "name": "Tentaclids",
+            "min": 1,
+            "max": 1
+          },
+          {
+            "id": "ac83-180d-b9e4-1f4d",
+            "name": "Thorax spur",
+            "min": 1,
+            "max": 1
+          },
+          {
+            "id": "3238-f50b-e5da-7d",
+            "name": "Scything wings",
+            "min": 1,
+            "max": 1
+          },
+          {
+            "id": "2919-620c-2f30-6719",
+            "name": "Stinger salvoes",
+            "min": 1,
+            "max": 1
+          }
+        ]
+      }
+    ]
+  },
+  "c679-b06a-750b-e7f7": {
+    "groups": [
+      {
+        "id": "bbc1-efe0-f225-d36f",
+        "name": "Wargear",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "ec77-632-6fab-ec9d",
+            "name": "Stinger salvoes",
+            "min": 1,
+            "max": 1
+          },
+          {
+            "id": "8ef2-f66d-7dca-d494",
+            "name": "Scything wings",
+            "min": 1,
+            "max": 1
+          }
+        ],
+        "groups": [
+          {
+            "id": "54ce-bcd7-5b5b-7a78",
+            "name": "Stranglethorn Cannon",
+            "min": 1,
+            "max": 1,
+            "mode": "single",
+            "options": [
+              {
+                "id": "109b-84f8-daf5-a67f",
+                "name": "Twin stranglethorn cannon",
+                "min": 0,
+                "max": 99
+              },
+              {
+                "id": "1b79-a02e-5101-25f9",
+                "name": "Twin heavy venom cannon",
+                "min": 0,
+                "max": 99
+              }
+            ],
+            "defaultOptionId": "109b-84f8-daf5-a67f"
+          }
+        ]
+      }
+    ]
+  },
+  "2cdd-3bf1-55e0-7641": {
+    "groups": [
+      {
+        "id": "f314-63c5-1a8c-0031",
+        "name": "Wargear",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "12e6-c37b-5d71-7eaf",
+            "name": "Flensing whips",
+            "min": 1,
+            "max": 1
+          },
+          {
+            "id": "f341-b48f-4d59-8e51",
+            "name": "Sporocyst bio-weapon",
+            "min": 1,
+            "max": 1
+          }
+        ]
+      }
+    ]
+  },
+  "b6ac-f091-a018-dab2": {
+    "groups": [
+      {
+        "id": "c997-d7b8-8824-8240",
+        "name": "Wargear",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "9edf-e542-77fa-e4c2",
+            "name": "Talons and betentacled maw",
+            "min": 1,
+            "max": 1
+          },
+          {
+            "id": "989f-3baf-5944-8750",
+            "name": "Psychoclastic torrent",
+            "min": 1,
+            "max": 1
+          }
+        ]
+      }
+    ]
+  },
+  "afd0-a0ca-68c3-d912": {
+    "groups": [
+      {
+        "id": "46d4-7d73-9670-faea",
+        "name": "Wargear",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "ede9-d3c1-fdbd-1483",
+            "name": "Bio-cannon",
+            "min": 2,
+            "max": 2
+          },
+          {
+            "id": "ae36-f62b-6df6-edac",
+            "name": "Hierodule scything talons",
+            "min": 1,
+            "max": 1
+          }
+        ]
+      }
+    ]
+  },
+  "218c-639e-22e0-59ce": {
+    "groups": [
+      {
+        "id": "e3a5-cfcc-e0e5-9377",
+        "name": "Wargear",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "5b9d-94da-8fcb-16d1",
+            "name": "Bio-acid spray",
+            "min": 1,
+            "max": 1
+          },
+          {
+            "id": "fd4c-4550-3b90-4608",
+            "name": "Hierodule scything talons",
+            "min": 1,
+            "max": 1
+          }
+        ]
+      }
+    ]
+  },
+  "9b5c-3b5a-1f80-9a74": {
+    "groups": [
+      {
+        "id": "8654-c0fe-6078-edf0",
+        "name": "Wargear",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "bec7-6187-c720-9d70",
+            "name": "Dire bio-cannon",
+            "min": 2,
+            "max": 2
+          },
+          {
+            "id": "aca-e888-a5af-389e",
+            "name": "Gargantuan scything talons",
+            "min": 1,
+            "max": 1
+          }
+        ]
+      }
+    ]
+  },
+  "fbc0-3a2b-1d7d-23d9": {
+    "groups": [
+      {
+        "id": "5188-9813-6123-44d3",
+        "name": "Wargear",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "56dc-ab08-2e4f-2c38",
+            "name": "Bio-plasma torrent",
+            "min": 1,
+            "max": 1
+          },
+          {
+            "id": "344c-f9e4-3661-6315",
+            "name": "Dire bio-cannon",
+            "min": 2,
+            "max": 2
+          },
+          {
+            "id": "733f-4e53-5615-d1a9",
+            "name": "Lashwhip pods",
+            "min": 1,
+            "max": 1
+          },
+          {
+            "id": "acb7-b003-2b0d-1d2",
+            "name": "Titanic scything talons",
+            "min": 1,
+            "max": 1
+          }
+        ]
+      }
+    ]
+  },
+  "853e-48b8-4cc5-3704": {
+    "groups": [
+      {
+        "id": "937e-b2e4-64df-b32e",
+        "name": "5-10 Genestealers",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "714f-4383-3e36-f861",
+            "name": "Genestealer",
+            "min": 5,
+            "max": 10,
+            "groups": [
+              {
+                "id": "d61a-921a-7e77-4c1c",
+                "name": "Wargear",
+                "min": 0,
+                "max": 99,
+                "mode": "count",
+                "options": [
+                  {
+                    "id": "cb6a-cdcf-23b3-d0f8",
+                    "name": "Genestealers claws and talons",
+                    "min": 1,
+                    "max": 1
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "78ca-3743-c254-4404": {
+    "groups": [
+      {
+        "id": "5626-da26-d75a-27c8",
+        "name": "Wargear",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "53c7-e0f7-810f-91fd",
+            "name": "Massive scything talons",
+            "min": 1,
+            "max": 1
+          }
+        ]
+      }
+    ]
+  },
+  "f46f-9d2b-1f97-aaf6": {
+    "groups": [
+      {
+        "id": "79a8-a85b-17d6-2b49",
+        "name": "3 Sky-slasher Swarms",
+        "min": 3,
+        "max": 3,
+        "mode": "count",
+        "options": [
+          {
+            "id": "7713-6f3f-720e-3b85",
+            "name": "Sky-slasher swarm",
+            "min": 0,
+            "max": 3
+          },
+          {
+            "id": "ff74-cd51-db21-72a8",
+            "name": "Sky-slasher swarm w/ spinemaws",
+            "min": 0,
+            "max": 3
+          }
+        ],
+        "defaultOptionId": "7713-6f3f-720e-3b85"
+      }
+    ]
+  },
+  "c17f-f55f-a3cb-530b": {
+    "groups": [
+      {
+        "id": "bc79-777d-25d1-713e",
+        "name": "Wargear",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "1c55-4070-a339-59a1",
+            "name": "Grasping tail",
+            "min": 1,
+            "max": 1
+          }
+        ]
+      }
+    ]
+  },
+  "6a9b-8e2f-edac-fa2d": {
+    "groups": [
+      {
+        "id": "c150-1fb3-c5a5-f88a",
+        "name": "Wargear",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "59a4-4504-cb52-93b1",
+            "name": "Monstrous scything talons",
+            "min": 1,
+            "max": 1
+          },
+          {
+            "id": "50f3-6a18-bc71-2a59",
+            "name": "Toxinjecter harpoon",
+            "min": 1,
+            "max": 1
+          }
+        ]
+      }
+    ]
+  },
+  "5720-2873-8c2c-edc3": {
+    "groups": [
+      {
+        "id": "01fd-78c3-652f-ddc1",
+        "name": "Wargear",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "d7b3-df20-933-63b7",
+            "name": "Monstrous rending claws",
+            "min": 1,
+            "max": 1
+          },
+          {
+            "id": "dc69-1094-613-6daf",
+            "name": "Monstrous scything talons",
+            "min": 1,
+            "max": 1
+          },
+          {
+            "id": "c102-d98b-dc50-5b53",
+            "name": "Psychic tendril",
+            "min": 1,
+            "max": 1
+          }
+        ]
+      }
+    ]
+  },
+  "3e96-8098-3401-77af": {
+    "groups": [
+      {
+        "id": "c1a4-2d78-4a06-852e",
+        "name": "Wargear",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [],
+        "groups": [
+          {
+            "id": "2cd2-d174-61dc-7b97",
+            "name": "Monstrous Bonesword and Lash Whip",
+            "min": 1,
+            "max": 1,
+            "mode": "single",
+            "options": [
+              {
+                "id": "5889-181a-3b21-9b7e",
+                "name": "Monstrous bonesword and lash whip",
+                "min": 0,
+                "max": 1
+              },
+              {
+                "id": "1435-6320-71bc-dcfd",
+                "name": "Heavy venom cannon",
+                "min": 0,
+                "max": 1
+              },
+              {
+                "id": "ebc6-5d4f-5ec5-b222",
+                "name": "Stranglethorn cannon",
+                "min": 0,
+                "max": 1
+              },
+              {
+                "id": "f717-3d3-4448-5cfc",
+                "name": "Monstrous scything talons",
+                "min": 0,
+                "max": 1
+              }
+            ],
+            "defaultOptionId": "5889-181a-3b21-9b7e"
+          },
+          {
+            "id": "6f57-d5fd-f3ed-ae3",
+            "name": "Monstrous Scything Talons",
+            "min": 1,
+            "max": 1,
+            "mode": "single",
+            "options": [
+              {
+                "id": "5fe8-e07-2888-42bc",
+                "name": "Monstrous scything talons",
+                "min": 0,
+                "max": 1
+              },
+              {
+                "id": "bb4e-c104-1a32-ad5d",
+                "name": "Stranglethorn cannon",
+                "min": 0,
+                "max": 1
+              },
+              {
+                "id": "c352-60ee-2742-dba2",
+                "name": "Heavy venom cannon",
+                "min": 0,
+                "max": 1
+              }
+            ],
+            "defaultOptionId": "5fe8-e07-2888-42bc"
+          }
+        ]
+      }
+    ]
+  },
+  "31f9-9730-853c-6f13": {
+    "groups": [
+      {
+        "id": "5189-0d38-1f4f-e336",
+        "name": "Wargear",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "8d6d-60ec-5730-767c",
+            "name": "Rending claw",
+            "min": 1,
+            "max": 1
+          },
+          {
+            "id": "32e4-9330-cef7-a94b",
+            "name": "Lash whip",
+            "min": 1,
+            "max": 1
+          },
+          {
+            "id": "1d0f-10bb-2fcb-2277",
+            "name": "Scything talons",
+            "min": 1,
+            "max": 1
+          }
+        ]
+      }
+    ]
+  }
+}

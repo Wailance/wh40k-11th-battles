@@ -1,0 +1,1042 @@
+{
+  "c338-14f9-4ee-f223": {
+    "groups": [
+      {
+        "id": "0b0d-b9a4-57e7-8b23",
+        "name": "Wargear",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [],
+        "groups": [
+          {
+            "id": "ae95-4b02-9e6e-420a",
+            "name": "May have:",
+            "min": 0,
+            "max": 1,
+            "mode": "single",
+            "options": [
+              {
+                "id": "9133-972c-c52d-e603",
+                "name": "Null Rod",
+                "min": 0,
+                "max": 1
+              },
+              {
+                "id": "d2a8-bd20-4ac1-4275",
+                "name": "Brazier of Holy Fire",
+                "min": 0,
+                "max": 1
+              },
+              {
+                "id": "7ae2-9d06-52cb-a61a",
+                "name": "Rod of Office",
+                "min": 0,
+                "max": 1
+              }
+            ]
+          },
+          {
+            "id": "993b-f1fc-6c99-684c",
+            "name": "Melee Weapon",
+            "min": 1,
+            "max": 1,
+            "mode": "single",
+            "options": [
+              {
+                "id": "9754-eb47-5f2c-c17",
+                "name": "Blessed blade",
+                "min": 0,
+                "max": 1
+              },
+              {
+                "id": "4ef1-dc81-763b-3ac3",
+                "name": "Power weapon",
+                "min": 0,
+                "max": 1
+              },
+              {
+                "id": "990b-63f3-ceb5-aa67",
+                "name": "Hallowed Chainsword",
+                "min": 0,
+                "max": 99
+              }
+            ],
+            "defaultOptionId": "fcd1-c90d-a977-5d75"
+          },
+          {
+            "id": "6ec1-c8bf-8990-eaad",
+            "name": "Ranged Weapon",
+            "min": 1,
+            "max": 1,
+            "mode": "single",
+            "options": [
+              {
+                "id": "e39a-8e06-3ffc-147e",
+                "name": "Bolt Pistol",
+                "min": 0,
+                "max": 1
+              },
+              {
+                "id": "d13c-b64d-8e83-8837",
+                "name": "Condemnor boltgun",
+                "min": 0,
+                "max": 1
+              },
+              {
+                "id": "fe69-9df4-3bc9-84fa",
+                "name": "Inferno pistol",
+                "min": 0,
+                "max": 1
+              },
+              {
+                "id": "3e95-d35a-5189-9021",
+                "name": "Plasma pistol",
+                "min": 0,
+                "max": 1
+              }
+            ],
+            "defaultOptionId": "e39a-8e06-3ffc-147e"
+          }
+        ]
+      }
+    ]
+  },
+  "820-1e76-78cc-931a": {
+    "groups": [
+      {
+        "id": "f3dd-1040-6556-c7ad",
+        "name": "Wargear",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "96c2-1d90-def-8f60",
+            "name": "Heavy bolter",
+            "min": 3,
+            "max": 3
+          },
+          {
+            "id": "b548-d81f-aea6-26f8",
+            "name": "Armoured tracks",
+            "min": 1,
+            "max": 1
+          }
+        ],
+        "groups": [
+          {
+            "id": "c132-47cf-763b-65be",
+            "name": "Main gun",
+            "min": 1,
+            "max": 1,
+            "mode": "single",
+            "options": [
+              {
+                "id": "1111-1170-a699-900f",
+                "name": "Castigator autocannons",
+                "min": 0,
+                "max": 1
+              },
+              {
+                "id": "f05c-129e-712f-dd03",
+                "name": "Castigator battle cannon",
+                "min": 0,
+                "max": 1
+              }
+            ],
+            "defaultOptionId": "1111-1170-a699-900f"
+          },
+          {
+            "id": "fb5b-6d12-d575-3c8",
+            "name": "Secondary weapons",
+            "min": 0,
+            "max": 99,
+            "mode": "count",
+            "options": [
+              {
+                "id": "7b03-1cc2-4688-a5b5",
+                "name": "Storm bolter",
+                "min": 0,
+                "max": 1
+              },
+              {
+                "id": "ccdf-218b-300c-b333",
+                "name": "Hunter-Killer Missile",
+                "min": 0,
+                "max": 1
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "91b8-3ccb-de30-6e54": {
+    "groups": [
+      {
+        "id": "65fe-c865-be6e-ef12",
+        "name": "Wargear",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "2db2-c598-2072-2881",
+            "name": "Dialogus Staff",
+            "min": 1,
+            "max": 1
+          },
+          {
+            "id": "dc52-8c27-2d22-a2bc",
+            "name": "Bolt pistol",
+            "min": 1,
+            "max": 1
+          }
+        ]
+      }
+    ]
+  },
+  "76b1-f4d1-b2f0-6949": {
+    "groups": [
+      {
+        "id": "3c41-5a5b-ae22-ad41",
+        "name": "Wargear",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "3033-6da6-fb4a-66da",
+            "name": "Mace of the Righteous",
+            "min": 1,
+            "max": 1
+          },
+          {
+            "id": "f7d2-a522-56e7-6b90",
+            "name": "Bolt pistol",
+            "min": 1,
+            "max": 1
+          }
+        ]
+      }
+    ]
+  },
+  "684e-4dd3-340a-23ee": {
+    "groups": [
+      {
+        "id": "9a18-1601-3717-898b",
+        "name": "Wargear",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "1edd-4be8-7b6a-34e3",
+            "name": "Heavy Bolter",
+            "min": 1,
+            "max": 1
+          },
+          {
+            "id": "411a-2f57-4d45-7977",
+            "name": "Armoured tracks",
+            "min": 1,
+            "max": 1
+          },
+          {
+            "id": "7f86-b6ab-1e2c-8e5e",
+            "name": "Hunter-Killer Missile",
+            "min": 0,
+            "max": 1
+          }
+        ],
+        "groups": [
+          {
+            "id": "6948-a3ab-3ff6-dcff",
+            "name": "Main Weapon",
+            "min": 1,
+            "max": 1,
+            "mode": "single",
+            "options": [
+              {
+                "id": "7276-fb9b-cb95-f1a9",
+                "name": "Exorcist Missile Launcher",
+                "min": 0,
+                "max": 1
+              },
+              {
+                "id": "dd5e-3bc2-7c3-ec3c",
+                "name": "Exorcist Conflagration Rockets",
+                "min": 0,
+                "max": 1
+              }
+            ],
+            "defaultOptionId": "7276-fb9b-cb95-f1a9"
+          }
+        ]
+      }
+    ]
+  },
+  "938e-1c24-4e63-4cf3": {
+    "groups": [
+      {
+        "id": "fc8d-ed34-2e40-4701",
+        "name": "Wargear",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "99e6-8b69-f5fd-3632",
+            "name": "Chirugeon's tools",
+            "min": 1,
+            "max": 1
+          },
+          {
+            "id": "d728-f039-3f62-6ee3",
+            "name": "Bolt pistol",
+            "min": 1,
+            "max": 1
+          }
+        ]
+      }
+    ]
+  },
+  "3ad3-558b-29f9-2e45": {
+    "groups": [
+      {
+        "id": "c489-9371-47ab-0d01",
+        "name": "Wargear",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "6a6-ff36-2e3b-e6eb",
+            "name": "Close combat weapon",
+            "min": 1,
+            "max": 1
+          },
+          {
+            "id": "f0e5-5bef-8d09-34ae",
+            "name": "Bolt pistol",
+            "min": 1,
+            "max": 1
+          },
+          {
+            "id": "f07b-fe47-9e33-339d",
+            "name": "Boltgun",
+            "min": 1,
+            "max": 1
+          }
+        ]
+      }
+    ]
+  },
+  "1001-80ff-c9a8-5d9b": {
+    "groups": [
+      {
+        "id": "0a74-a0d6-1634-810d",
+        "name": "Wargear",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "6d60-d6f-ef8c-ed7e",
+            "name": "Heavy Bolter",
+            "min": 1,
+            "max": 1
+          },
+          {
+            "id": "d0da-6c55-c440-7848",
+            "name": "Armoured tracks",
+            "min": 1,
+            "max": 1
+          },
+          {
+            "id": "7488-6bc-5df8-7959",
+            "name": "Hunter-Killer Missile",
+            "min": 0,
+            "max": 1
+          }
+        ],
+        "groups": [
+          {
+            "id": "171a-7cfe-8ec4-49e5",
+            "name": "Immolator Weapons",
+            "min": 1,
+            "max": 1,
+            "mode": "single",
+            "options": [
+              {
+                "id": "3661-576a-2df7-506e",
+                "name": "Immolation Flamers",
+                "min": 0,
+                "max": 1
+              },
+              {
+                "id": "cc59-dd80-4fde-aa6d",
+                "name": "Twin Heavy Bolter",
+                "min": 0,
+                "max": 1
+              },
+              {
+                "id": "fe9c-67db-68e4-45af",
+                "name": "Twin Multi-melta",
+                "min": 0,
+                "max": 1
+              }
+            ],
+            "defaultOptionId": "3661-576a-2df7-506e"
+          }
+        ]
+      }
+    ]
+  },
+  "3c3f-f02d-c05c-492a": {
+    "groups": [
+      {
+        "id": "d974-8966-7e4c-f3f7",
+        "name": "Mortifiers",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "f027-a14f-7bcb-90fd",
+            "name": "Mortifier",
+            "min": 1,
+            "max": 2,
+            "groups": [
+              {
+                "id": "b7f3-d0d1-889d-17d9",
+                "name": "Wargear",
+                "min": 0,
+                "max": 99,
+                "mode": "count",
+                "options": [
+                  {
+                    "id": "e8dd-ba31-be8a-ef32",
+                    "name": "Anchorite Sarcophagus",
+                    "min": 0,
+                    "max": 1
+                  }
+                ],
+                "groups": [
+                  {
+                    "id": "85c6-7089-1f30-9c69",
+                    "name": "Melee Weapons",
+                    "min": 1,
+                    "max": 1,
+                    "mode": "single",
+                    "options": [
+                      {
+                        "id": "c4ed-6130-6765-c7d1",
+                        "name": "Twin Penitent Buzz-Blades",
+                        "min": 0,
+                        "max": 1
+                      },
+                      {
+                        "id": "ecde-adc8-5ed7-af64",
+                        "name": "Twin Penitent Flails",
+                        "min": 0,
+                        "max": 1
+                      },
+                      {
+                        "id": "f4a4-1d47-923f-4a51",
+                        "name": "Penitent Buzz-Blade and Penitent Flail",
+                        "min": 0,
+                        "max": 1
+                      }
+                    ],
+                    "defaultOptionId": "c4ed-6130-6765-c7d1"
+                  },
+                  {
+                    "id": "1a3c-ae5-9114-2571",
+                    "name": "Ranged Weapons",
+                    "min": 1,
+                    "max": 1,
+                    "mode": "single",
+                    "options": [
+                      {
+                        "id": "3d82-2de6-94e9-10e0",
+                        "name": "2 Heavy Bolters",
+                        "min": 0,
+                        "max": 1
+                      },
+                      {
+                        "id": "e051-7805-62df-3a82",
+                        "name": "2 Mortifier Flamers",
+                        "min": 0,
+                        "max": 1
+                      },
+                      {
+                        "id": "1705-57e1-332e-61aa",
+                        "name": "Heavy Bolter and Mortifier Flamer",
+                        "min": 0,
+                        "max": 1
+                      }
+                    ],
+                    "defaultOptionId": "3d82-2de6-94e9-10e0"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "fbeb-1caf-8f5c-ff8e": {
+    "groups": [
+      {
+        "id": "78e1-6fe6-b624-09b8",
+        "name": "Wargear",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "781f-8857-1a01-b77e",
+            "name": "Palatine blade",
+            "min": 1,
+            "max": 1
+          }
+        ],
+        "groups": [
+          {
+            "id": "3be8-e600-f2d7-7629",
+            "name": "Pistols",
+            "min": 1,
+            "max": 1,
+            "mode": "single",
+            "options": [
+              {
+                "id": "b469-3642-608f-349d",
+                "name": "Bolt pistol",
+                "min": 0,
+                "max": 1
+              },
+              {
+                "id": "be96-9986-1a-dc66",
+                "name": "Plasma pistol",
+                "min": 0,
+                "max": 1
+              }
+            ],
+            "defaultOptionId": "b469-3642-608f-349d"
+          }
+        ]
+      }
+    ]
+  },
+  "327d-a6df-26b-bb9b": {
+    "groups": [
+      {
+        "id": "4614-892e-689-1a0",
+        "name": "Penitent Engines",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "bced-b951-c1dd-a33b",
+            "name": "Penitent Engine",
+            "min": 1,
+            "max": 2,
+            "groups": [
+              {
+                "id": "4ab9-4aff-bdcf-7d26",
+                "name": "Wargear",
+                "min": 0,
+                "max": 99,
+                "mode": "count",
+                "options": [
+                  {
+                    "id": "f418-4278-1585-98ed",
+                    "name": "Penitent Flamers",
+                    "min": 1,
+                    "max": 1
+                  }
+                ],
+                "groups": [
+                  {
+                    "id": "e9c5-72a5-c0ce-bc84",
+                    "name": "Melee Weapons",
+                    "min": 1,
+                    "max": 1,
+                    "mode": "single",
+                    "options": [
+                      {
+                        "id": "306-d054-aad8-ae63",
+                        "name": "Twin Penitent Buzz-Blades",
+                        "min": 0,
+                        "max": 1
+                      },
+                      {
+                        "id": "a548-1641-cf1f-f538",
+                        "name": "Twin Penitent Flails",
+                        "min": 0,
+                        "max": 1
+                      },
+                      {
+                        "id": "fb72-668b-3b8e-ad9d",
+                        "name": "Penitent Buzz-Blade and Penitent Flail",
+                        "min": 0,
+                        "max": 1
+                      }
+                    ],
+                    "defaultOptionId": "306-d054-aad8-ae63"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "599d-1e2a-eb0e-430e": {
+    "groups": [
+      {
+        "id": "1a2d-9cd3-ff31-59db",
+        "name": "Wargear",
+        "min": 1,
+        "max": 1,
+        "mode": "single",
+        "options": [
+          {
+            "id": "cea7-9258-8e9f-100e",
+            "name": "Holy Pistol and Power Weapon",
+            "min": 0,
+            "max": 1
+          },
+          {
+            "id": "a05b-d778-f94b-51db",
+            "name": "Zealot's vindictor",
+            "min": 0,
+            "max": 1
+          }
+        ],
+        "defaultOptionId": "a05b-d778-f94b-51db"
+      }
+    ]
+  },
+  "c49d-f150-4b3-c118": {
+    "groups": [
+      {
+        "id": "3f09-42c2-7a3b-e29c",
+        "name": "Retributors",
+        "min": 4,
+        "max": 4,
+        "mode": "count",
+        "options": [
+          {
+            "id": "66ca-6f2c-75b7-756",
+            "name": "Retributor",
+            "min": 4,
+            "max": 4,
+            "groups": [
+              {
+                "id": "e923-2215-2cad-a020",
+                "name": "Retributor Weapons",
+                "min": 1,
+                "max": 1,
+                "mode": "single",
+                "options": [
+                  {
+                    "id": "84c7-ae8d-d586-784a",
+                    "name": "Ministorum heavy flamer",
+                    "min": 0,
+                    "max": 1
+                  },
+                  {
+                    "id": "c67d-428c-b52e-2ac8",
+                    "name": "Multi-melta",
+                    "min": 0,
+                    "max": 1
+                  },
+                  {
+                    "id": "a492-fbe3-4a96-5128",
+                    "name": "Heavy bolter",
+                    "min": 0,
+                    "max": 1
+                  }
+                ],
+                "defaultOptionId": "a492-fbe3-4a96-5128"
+              }
+            ],
+            "equippedWith": "Close combat weapon and Bolt pistol"
+          }
+        ]
+      }
+    ]
+  },
+  "bee9-172b-7db7-f748": {
+    "groups": [
+      {
+        "id": "1966-1b51-9554-27a2",
+        "name": "Seraphim",
+        "min": 4,
+        "max": 9,
+        "mode": "count",
+        "options": [
+          {
+            "id": "1e39-cfcf-2756-5357",
+            "name": "Seraphim",
+            "min": 2,
+            "max": 9,
+            "equippedWith": "Close combat weapon"
+          },
+          {
+            "id": "ee1b-1ac8-3c19-6190",
+            "name": "Seraphim with Special Weapons",
+            "min": 0,
+            "max": 2,
+            "groups": [
+              {
+                "id": "4e65-98bb-f041-b59b",
+                "name": "Special Weapon",
+                "min": 1,
+                "max": 1,
+                "mode": "single",
+                "options": [
+                  {
+                    "id": "7d9-8c33-edaa-621c",
+                    "name": "2x Ministorum Hand Flamers",
+                    "min": 0,
+                    "max": 1
+                  },
+                  {
+                    "id": "de77-880d-31c2-fea2",
+                    "name": "2x Inferno Pistols",
+                    "min": 0,
+                    "max": 1
+                  }
+                ],
+                "defaultOptionId": "7d9-8c33-edaa-621c"
+              }
+            ],
+            "equippedWith": "Close combat weapon"
+          }
+        ],
+        "defaultOptionId": "1e39-cfcf-2756-5357"
+      }
+    ]
+  },
+  "52c7-3f6b-cece-8101": {
+    "groups": [
+      {
+        "id": "eb85-a9b1-27c2-f7f4",
+        "name": "Wargear",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "c6e3-58f2-85c0-d46d",
+            "name": "Armoured tracks",
+            "min": 1,
+            "max": 1
+          },
+          {
+            "id": "9f67-ade9-3bbb-23f5",
+            "name": "Hunter-Killer Missile",
+            "min": 0,
+            "max": 1
+          },
+          {
+            "id": "8e9b-e6bf-e48b-7369",
+            "name": "Storm bolter",
+            "min": 1,
+            "max": 1
+          }
+        ]
+      }
+    ]
+  },
+  "d324-8119-7bf-d5e1": {
+    "groups": [
+      {
+        "id": "f2ce-83a9-f033-732b",
+        "name": "Wargear",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "d42b-3013-98ca-ced9",
+            "name": "Dozer Ram",
+            "min": 1,
+            "max": 1
+          },
+          {
+            "id": "3cf6-498f-c163-ddc5",
+            "name": "Repressor twin heavy flamer",
+            "min": 1,
+            "max": 1
+          },
+          {
+            "id": "d6f3-b5d0-b9ef-ac6f",
+            "name": "Armoured tracks",
+            "min": 1,
+            "max": 1
+          },
+          {
+            "id": "cf3e-384e-1060-401a",
+            "name": "Hunter-Killer Missile",
+            "min": 0,
+            "max": 1
+          },
+          {
+            "id": "cbb9-fd2c-9159-9eb1",
+            "name": "Storm bolter",
+            "min": 1,
+            "max": 1
+          }
+        ],
+        "groups": [
+          {
+            "id": "34d7-c320-5bbd-bd58",
+            "name": "May be equipped with",
+            "min": 0,
+            "max": 99,
+            "mode": "count",
+            "options": [
+              {
+                "id": "cddd-e100-a61b-b5f5",
+                "name": "Heavy flamer",
+                "min": 0,
+                "max": 1
+              },
+              {
+                "id": "3b6-ae53-38b6-ee17",
+                "name": "Storm bolter",
+                "min": 0,
+                "max": 1
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "e80a-4a97-2c3b-710e": {
+    "groups": [
+      {
+        "id": "2833-389c-0abe-6312",
+        "name": "Wargear",
+        "min": 1,
+        "max": 1,
+        "mode": "single",
+        "options": [
+          {
+            "id": "fb6e-064f-ad86-d2d7",
+            "name": "Blessed Halberd",
+            "min": 0,
+            "max": 1
+          },
+          {
+            "id": "3e57-1862-633f-637e",
+            "name": "Ministorum Hand Flamer and Power Weapon",
+            "min": 0,
+            "max": 1,
+            "equippedWith": "Ministorum hand flamer"
+          },
+          {
+            "id": "017d-40de-3a11-186c",
+            "name": "Holy Eviscerator",
+            "min": 0,
+            "max": 1
+          }
+        ],
+        "defaultOptionId": "fb6e-064f-ad86-d2d7"
+      }
+    ]
+  },
+  "eade-6ec7-7236-bfdb": {
+    "groups": [
+      {
+        "id": "de94-3606-7e65-2a89",
+        "name": "Sanctifiers",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "b2e0-94f0-2644-8160",
+            "name": "Sanctifier w/ simulacrum imperialis",
+            "min": 0,
+            "max": 1,
+            "equippedWith": "Ministorum hand flamer"
+          },
+          {
+            "id": "0d2d-f123-bba2-3429",
+            "name": "Sanctifier w/ two hand flamers",
+            "min": 0,
+            "max": 1
+          },
+          {
+            "id": "5997-9e02-2e9c-298d",
+            "name": "Missionary w/ plasma gun",
+            "min": 1,
+            "max": 1,
+            "groups": [
+              {
+                "id": "f3c8-b1da-a917-fa75",
+                "name": "Weapon",
+                "min": 1,
+                "max": 1,
+                "mode": "single",
+                "options": [
+                  {
+                    "id": "1d79-8808-a4c0-21f0",
+                    "name": "Plasma gun",
+                    "min": 0,
+                    "max": 99
+                  },
+                  {
+                    "id": "c0b5-e385-ff94-f2a0",
+                    "name": "Meltagun",
+                    "min": 0,
+                    "max": 99
+                  }
+                ],
+                "defaultOptionId": "f09e-982f-65f5-728f"
+              }
+            ]
+          },
+          {
+            "id": "05d2-95b3-0084-670a",
+            "name": "Sanctifier w/ hand flamer",
+            "min": 4,
+            "max": 4,
+            "equippedWith": "Ministorum hand flamer"
+          },
+          {
+            "id": "7060-efdf-3a5d-cbaa",
+            "name": "Miraculist",
+            "min": 1,
+            "max": 1
+          },
+          {
+            "id": "e75c-9d63-a5a1-3db4",
+            "name": "Death Cult Assassin",
+            "min": 1,
+            "max": 1
+          },
+          {
+            "id": "34fa-b5f9-e317-edb0",
+            "name": "Missionary w/ flamer",
+            "min": 1,
+            "max": 1,
+            "equippedWith": "Ministorum flamer"
+          },
+          {
+            "id": "9e9c-59b3-5b3c-b391",
+            "name": "Salvationist",
+            "min": 1,
+            "max": 1
+          }
+        ]
+      }
+    ]
+  },
+  "e286-849d-8f74-75e6": {
+    "groups": [
+      {
+        "id": "a5f2-3b3e-bd6b-60ab",
+        "name": "9 Insidiants",
+        "min": 9,
+        "max": 9,
+        "mode": "count",
+        "options": [
+          {
+            "id": "e035-fad9-edcc-8faf",
+            "name": "Insidiant",
+            "min": 2,
+            "max": 9,
+            "equippedWith": "Condemnor bolt pistol"
+          },
+          {
+            "id": "6da6-6fed-44a2-3475",
+            "name": "Insidiant w/ hand flamer",
+            "min": 0,
+            "max": 2,
+            "equippedWith": "Ministorum hand flamer"
+          },
+          {
+            "id": "dfc9-3074-4b0b-9966",
+            "name": "Insidiant w/ blessed sword",
+            "min": 0,
+            "max": 2
+          },
+          {
+            "id": "a990-deb8-0471-a9d1",
+            "name": "Insidiant w/ virge of admonition",
+            "min": 0,
+            "max": 1
+          },
+          {
+            "id": "ac73-bb9b-f1f2-eeb7",
+            "name": "Insidiant w/ denuncia",
+            "min": 0,
+            "max": 1
+          },
+          {
+            "id": "f780-8fc0-e9b7-7050",
+            "name": "Insidiant w/ simulacrum",
+            "min": 0,
+            "max": 1,
+            "equippedWith": "Condemnor bolt pistol"
+          }
+        ],
+        "defaultOptionId": "e035-fad9-edcc-8faf"
+      }
+    ]
+  },
+  "e59a-2a90-e102-940f": {
+    "groups": [
+      {
+        "id": "584b-f925-56af-06af",
+        "name": "Wargear",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "4f4a-9971-0a8c-20a1",
+            "name": "Heavy bolter",
+            "min": 2,
+            "max": 2
+          },
+          {
+            "id": "e0ea-0850-946c-021e",
+            "name": "Melta missile array",
+            "min": 1,
+            "max": 1
+          },
+          {
+            "id": "2f81-4104-ebed-8376",
+            "name": "Mace of Saint Praxedes",
+            "min": 1,
+            "max": 1
+          },
+          {
+            "id": "7cae-4dc5-9ccd-f7c6",
+            "name": "Throne of Blame",
+            "min": 1,
+            "max": 1
+          },
+          {
+            "id": "6214-7f9d-3888-381e",
+            "name": "Ministorum heavy flamer",
+            "min": 2,
+            "max": 2
+          }
+        ]
+      }
+    ]
+  }
+}

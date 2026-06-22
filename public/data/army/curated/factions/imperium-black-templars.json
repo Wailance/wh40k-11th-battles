@@ -26,7 +26,7 @@
       },
       "rangedWeapons": [
         {
-          "name": "➤ Plasma Pistol - Supercharge",
+          "name": "Plasma Pistol - Supercharge",
           "range": "12\"",
           "A": "1",
           "BS": "2+",
@@ -39,7 +39,7 @@
           ]
         },
         {
-          "name": "➤ Plasma Pistol - Standard",
+          "name": "Plasma Pistol - Standard",
           "range": "12\"",
           "A": "1",
           "BS": "2+",
@@ -86,6 +86,27 @@
           "name": "Leader",
           "description": "This unit can be attached to the following units:\n\n■ Assault Intercessor Squad\n■ Infernus Squad\n■ Intercessor Squad\n■ Crusader Squad\n■ Sword Brethren"
         }
+      ],
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 4,
+              "points": 110
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "110",
+      "mfmRole": "leader",
+      "attachTo": [
+        "Assault Intercessor Squad",
+        "Crusader Squad",
+        "Infernus Squad",
+        "Intercessor Squad",
+        "Sword Brethren Squad"
       ]
     },
     {
@@ -130,7 +151,7 @@
       ],
       "meleeWeapons": [
         {
-          "name": "➤ Sword of the High Marshals - Sweep",
+          "name": "Sword of the High Marshals - Sweep",
           "range": "Melee",
           "A": "12",
           "WS": "2+",
@@ -140,7 +161,7 @@
           "keywords": []
         },
         {
-          "name": "➤ Sword of the High Marshals - Strike",
+          "name": "Sword of the High Marshals - Strike",
           "range": "Melee",
           "A": "6",
           "WS": "2+",
@@ -163,6 +184,26 @@
           "name": "Leader",
           "description": "This model can be attached to the following units:\n\n■ Assault Intercessor Squad\n■ Intercessor Squad\n■ Crusader Squad\n■ Sword Brethren"
         }
+      ],
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 120
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "120",
+      "mfmRole": "leader",
+      "attachTo": [
+        "Assault Intercessor Squad",
+        "Crusader Squad",
+        "Intercessor Squad",
+        "Sword Brethren Squad"
       ]
     },
     {
@@ -223,7 +264,26 @@
           "name": "Righteous Zeal",
           "description": "In your opponent's Shooting phase, each time an enemy unit has shot, if any models from this unit were destroyed as a result of those attacks, this unit can make a Righteous Zeal move. To do so, roll one D6 and add 2 to the result: models in this unit move a number of inches up to this result, but this unit must end that move as close as possible to the closest enemy unit (excluding ^^**Aircraft^^**). When doing so, those models can be moved within Engagement Range of that enemy unit. This unit cannot make a Righteous Zeal move while it is Battle-shocked or within Engagement Range of one or more enemy units, and can only make one Righteous Zeal move per phase."
         }
-      ]
+      ],
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 10,
+              "points": 150,
+              "desc": "1 Sword Brother, 4 Neophytes, 5 Initiates"
+            },
+            {
+              "models": 20,
+              "points": 290,
+              "desc": "1 Sword Brother, 8 Neophytes, 11 Initiates"
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "150/290"
     },
     {
       "id": "206c-6b4d-4aaa-7e79",
@@ -319,7 +379,54 @@
           "name": "Exploit Their Cowardice",
           "description": "Each time an enemy unit within Engagement Range of this unit is selected to Fall Back, after it ends that Fall Back move, if this unit is not within Engagement Range of one or more enemy units, this unit can make a Normal move."
         }
-      ]
+      ],
+      "pricing": [
+        {
+          "range": "[1,2]",
+          "label": "Your 1st To 2nd Units Cost",
+          "costs": [
+            {
+              "models": 4,
+              "points": 105
+            },
+            {
+              "models": 5,
+              "points": 130
+            },
+            {
+              "models": 9,
+              "points": 235
+            },
+            {
+              "models": 10,
+              "points": 260
+            }
+          ]
+        },
+        {
+          "range": "[3,)",
+          "label": "Your 3rd + Unit Costs",
+          "costs": [
+            {
+              "models": 4,
+              "points": 120
+            },
+            {
+              "models": 5,
+              "points": 145
+            },
+            {
+              "models": 9,
+              "points": 250
+            },
+            {
+              "models": 10,
+              "points": 275
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "105/130/235/260"
     },
     {
       "id": "ca2f-f408-c1bd-b87f",
@@ -347,7 +454,7 @@
       "rangedWeapons": [],
       "meleeWeapons": [
         {
-          "name": "➤ Black Sword - Strike",
+          "name": "Black Sword - Strike",
           "range": "Melee",
           "A": "6",
           "WS": "2+",
@@ -360,7 +467,7 @@
           ]
         },
         {
-          "name": "➤ Black Sword - Sweep",
+          "name": "Black Sword - Sweep",
           "range": "Melee",
           "A": "10",
           "WS": "2+",
@@ -387,6 +494,27 @@
           "name": "Chosen of the Emperor",
           "description": "You cannot include more than one **^^Emperor's Champion^^** model in your army."
         }
+      ],
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 100
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "100",
+      "mfmRole": "leader",
+      "attachTo": [
+        "Assault Intercessor Squad",
+        "Crusader Squad",
+        "Intercessor Squad",
+        "Sternguard Veteran Squad",
+        "Sword Brethren Squad"
       ]
     },
     {
@@ -498,7 +626,30 @@
           "name": "Aquilon Optics",
           "description": "Each time this model is selected to shoot, you can re-roll one Hit roll, you can re-roll one Wound roll and you can re-roll one Damage roll when resolving its attacks"
         }
-      ]
+      ],
+      "pricing": [
+        {
+          "range": "[1,2]",
+          "label": "Your 1st To 2nd Units Cost",
+          "costs": [
+            {
+              "models": 1,
+              "points": 160
+            }
+          ]
+        },
+        {
+          "range": "[3,)",
+          "label": "Your 3rd + Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 170
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "160"
     },
     {
       "id": "bfb6-4320-74cf-bbda",
@@ -554,7 +705,30 @@
           "name": "Rotating Death",
           "description": "This model’s twin heavy onslaught gatling cannon has the [SUSTAINED HITS 2] ability when targeting Infantry units."
         }
-      ]
+      ],
+      "pricing": [
+        {
+          "range": "[1,2]",
+          "label": "Your 1st To 2nd Units Cost",
+          "costs": [
+            {
+              "models": 1,
+              "points": 160
+            }
+          ]
+        },
+        {
+          "range": "[3,)",
+          "label": "Your 3rd + Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 170
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "160"
     },
     {
       "id": "5704-ffe4-4a53-8789",
@@ -597,12 +771,35 @@
           "name": "Ferocious Assault",
           "description": "Each time this model makes an attack with its twin las-talon that targets the closest eligible Monster or Vehicle unit, add 1 to the Hit roll"
         }
-      ]
+      ],
+      "pricing": [
+        {
+          "range": "[1,2]",
+          "label": "Your 1st To 2nd Units Cost",
+          "costs": [
+            {
+              "models": 1,
+              "points": 150
+            }
+          ]
+        },
+        {
+          "range": "[3,)",
+          "label": "Your 3rd + Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 160
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "150"
     },
     {
       "id": "fa27-4bc1-72c9-894f",
       "name": "Impulsor",
-      "points": 85,
+      "points": 80,
       "keywords": [
         "Vehicle",
         "Transport",
@@ -632,12 +829,25 @@
           "name": "Assault Vehicle",
           "description": "Units can disembark from this Transport after it has Advanced. Units that do so count as having made a Normal move, and cannot declare a charge that turn."
         }
-      ]
+      ],
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 80
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "80"
     },
     {
       "id": "c3e8-3cde-8b39-4b19",
       "name": "Repulsor",
-      "points": 180,
+      "points": 170,
       "keywords": [
         "Vehicle",
         "Imperium",
@@ -656,7 +866,20 @@
         "LD": "6+",
         "OC": "5"
       },
-      "rangedWeapons": [],
+      "rangedWeapons": [
+        {
+          "name": "Twin Las-talon",
+          "range": "36\"",
+          "A": "2",
+          "BS": "3+",
+          "S": "10",
+          "AP": "-3",
+          "D": "D6+1",
+          "keywords": [
+            "Twin-linked"
+          ]
+        }
+      ],
       "meleeWeapons": [],
       "abilities": [
         {
@@ -667,12 +890,35 @@
           "name": "Stabilised Disembarkation",
           "description": "In your opponent's Shooting phase, each time and enemy unit is selected to shoot, after that unit has shot, if any of those attacks targeted this TRANSPORT, it can use this ability. If it does, any units embarked within it can disembark. When doing so, models in those units can be set up wholly within 6\" of this TRANSPORT and not within Engagement Range of one or more enemy units."
         }
-      ]
+      ],
+      "pricing": [
+        {
+          "range": "[1,2]",
+          "label": "Your 1st To 2nd Units Cost",
+          "costs": [
+            {
+              "models": 1,
+              "points": 170
+            }
+          ]
+        },
+        {
+          "range": "[3,)",
+          "label": "Your 3rd + Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 190
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "170"
     },
     {
       "id": "a344-192f-aae2-16e5",
       "name": "Repulsor Executioner",
-      "points": 235,
+      "points": 240,
       "keywords": [
         "Vehicle",
         "Smoke",
@@ -713,7 +959,30 @@
           "name": "Interception Strike",
           "description": "Each time this model makes a ranged attack that targets a unit that is within 12\" of one or more ADEPTUS ASTARTES units from your army, you can re-roll the Hit roll."
         }
-      ]
+      ],
+      "pricing": [
+        {
+          "range": "[1,2]",
+          "label": "Your 1st To 2nd Units Cost",
+          "costs": [
+            {
+              "models": 1,
+              "points": 240
+            }
+          ]
+        },
+        {
+          "range": "[3,)",
+          "label": "Your 3rd + Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 260
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "240"
     },
     {
       "id": "f151-e676-d3b8-200c",
@@ -740,7 +1009,20 @@
         "OC": "1"
       },
       "rangedWeapons": [],
-      "meleeWeapons": [],
+      "meleeWeapons": [
+        {
+          "name": "Master-crafted Power Weapon",
+          "range": "Melee",
+          "A": "3",
+          "WS": "2+",
+          "S": "5",
+          "AP": "-2",
+          "D": "2",
+          "keywords": [
+            "Lethal Hits"
+          ]
+        }
+      ],
       "abilities": [
         {
           "name": "Leader",
@@ -754,6 +1036,28 @@
           "name": "Prioritised Eradication",
           "description": "Each time a model in this model's unit makes a melee attack that destroys one or more enemy units, roll one D6: on a 4+, you gain 1 CP"
         }
+      ],
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 70
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "70",
+      "mfmRole": "support",
+      "attachTo": [
+        "Assault Intercessor Squad",
+        "Crusader Squad",
+        "Infernus Squad",
+        "Intercessor Squad",
+        "Sternguard Veteran Squad",
+        "Sword Brethren Squad"
       ]
     },
     {
@@ -808,6 +1112,38 @@
           "name": "Pious Fervour",
           "description": "Each time this model's unit is selected to fight, until the end of the phase, add 1 to the Attacks characteristic of this model's Master-Crafted Power Weapon for each enemy unit within 6\" of this model (to a maximum of +3)"
         }
+      ],
+      "pricing": [
+        {
+          "range": "[1,1]",
+          "label": "Your 1st Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 80
+            }
+          ]
+        },
+        {
+          "range": "[2,)",
+          "label": "Your 2nd + Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 90
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "80",
+      "mfmRole": "leader",
+      "attachTo": [
+        "Assault Intercessor Squad",
+        "Crusader Squad",
+        "Infernus Squad",
+        "Intercessor Squad",
+        "Sternguard Veteran Squad",
+        "Sword Brethren Squad"
       ]
     },
     {
@@ -863,12 +1199,30 @@
           "name": "Condemnatory Annihilation",
           "description": "Each time this model's unit has fought, if one or more enemy units were destroyed as a result of those attacks, each enemy unit within 6\" of this model must take a Battle-shock test"
         }
+      ],
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 60
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "60",
+      "mfmRole": "leader",
+      "attachTo": [
+        "Crusader Squad",
+        "Sword Brethren Squad"
       ]
     },
     {
       "id": "dca2-b12f-d1a9-5822",
       "name": "Crusade Ancient",
-      "points": 55,
+      "points": 45,
       "keywords": [
         "Character",
         "Infantry",
@@ -917,6 +1271,24 @@
           "name": "Leader",
           "description": "This model can be attached to the following units:\n\n\n■ Crusader Squad\n■ Sword Brethren Squad\n\n\nYou can attach this model to one of the above units even if one Captain, Chapter Master, Execrator or Lieutenant model has already been attached to it. If you do, and that Bodyguard unit is destroyed, the Leader units attached to it become separate units, with their original Starting Strengths."
         }
+      ],
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 45
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "45",
+      "mfmRole": "support",
+      "attachTo": [
+        "Crusader Squad",
+        "Sword Brethren Squad"
       ]
     },
     {
@@ -958,12 +1330,35 @@
           "name": "Legacy of Jerulas",
           "description": "In your Shooting phase, after this model has shot, select one enemy unit hit by one or more of those attacks. Until the end of the turn, each time a friendly model that disembarked from this TRANSPORT this turn makes an attack that targets that enemy unit, re-roll a Hit roll of 1 and a re-roll a Wound roll of 1"
         }
-      ]
+      ],
+      "pricing": [
+        {
+          "range": "[1,2]",
+          "label": "Your 1st To 2nd Units Cost",
+          "costs": [
+            {
+              "models": 1,
+              "points": 220
+            }
+          ]
+        },
+        {
+          "range": "[3,)",
+          "label": "Your 3rd + Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 240
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "220"
     },
     {
       "id": "a499-86fa-4d0c-b06d",
       "name": "Sternguard Veteran Squad",
-      "points": 85,
+      "points": 100,
       "keywords": [
         "Infantry",
         "Grenades",
@@ -1019,12 +1414,29 @@
           "name": "Vitruous Onslaught",
           "description": "Each time a model in this unit makes an attack that targets the closest eligible target, you can re-roll a Wound roll of 1."
         }
-      ]
+      ],
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 5,
+              "points": 100
+            },
+            {
+              "models": 10,
+              "points": 190
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "100/190"
     },
     {
       "id": "80ad-6e62-65e3-e667",
       "name": "Terminator Squad",
-      "points": 175,
+      "points": 160,
       "keywords": [
         "Infantry",
         "Imperium",
@@ -1064,7 +1476,24 @@
           "name": "Judgement of the Weak",
           "description": "Each time an enemy unit (excluding MONSTERS and VEHICLES) within engagement range of this unit Falls Back, all models in that enemy unit must take a Desperate Escape test. When doing so, if that enemy unit is Battle-shocked, subtract 1 from each of those tests."
         }
-      ]
+      ],
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 5,
+              "points": 160
+            },
+            {
+              "models": 10,
+              "points": 320
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "160/320"
     },
     {
       "id": "85b9-b304-a55c-30ef",
@@ -1093,7 +1522,7 @@
       "rangedWeapons": [],
       "meleeWeapons": [
         {
-          "name": "➤ Black Sword - Strike",
+          "name": "Black Sword - Strike",
           "range": "Melee",
           "A": "6",
           "WS": "2+",
@@ -1106,7 +1535,7 @@
           ]
         },
         {
-          "name": "➤ Black Sword - Sweep",
+          "name": "Black Sword - Sweep",
           "range": "Melee",
           "A": "10",
           "WS": "2+",

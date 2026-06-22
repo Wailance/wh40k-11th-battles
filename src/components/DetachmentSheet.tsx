@@ -1,23 +1,24 @@
 import { DetachmentPicker } from './DetachmentPicker'
 import { copy } from '../lib/copy'
-import { findArmy } from '../lib/army-allegiance'
+import type { Army } from '../types/game'
 import type { ArmyRoster } from '../types/roster'
 import { AppSheet } from './AppSheet'
 
 export function DetachmentSheet({
   roster,
+  armyEntry,
   dpUsed,
   open,
   onClose,
   onPersist,
 }: {
   roster: ArmyRoster
+  armyEntry?: Army
   dpUsed: number
   open: boolean
   onClose: () => void
   onPersist: (r: ArmyRoster) => void
 }) {
-  const armyEntry = findArmy(roster.army)
   if (!open || !armyEntry) return null
 
   return (

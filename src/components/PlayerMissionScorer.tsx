@@ -171,12 +171,19 @@ export function PlayerMissionScorer({
           </p>
         )}
         {hidePlayerHeader && (
-          <p className="truncate text-micro text-muted">
-            <MissionNameButton name={player.primaryMission} className="text-micro" showIcon={false} />
-            {' · '}
-            R{battleRound}: {roundPrimary + roundSecondary}/30 VP · Total {scores.vp}
-            {player.battleReady ? ` (+${DEFAULT_CAPS.battleReadyVp} BR)` : ''}
-          </p>
+          <div className="app-primary-mission-bar">
+            <MissionNameButton
+              name={player.primaryMission}
+              variant="pill"
+              accentColor={color}
+              showIcon
+              className="min-w-0 max-w-full"
+            />
+            <p className="app-primary-mission-meta shrink-0 text-caption tabular-nums text-muted">
+              R{battleRound}: {roundPrimary + roundSecondary}/30 VP · Total {scores.vp}
+              {player.battleReady ? ` (+${DEFAULT_CAPS.battleReadyVp} BR)` : ''}
+            </p>
+          </div>
         )}
 
         <MissionScoreButtons

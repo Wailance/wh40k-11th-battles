@@ -1,0 +1,5007 @@
+{
+  "slug": "space-marines",
+  "name": "Space Marines",
+  "version": "1.0",
+  "firstSeen": "2026-06-17",
+  "detachments": [
+    {
+      "name": "1st Company Task Force",
+      "dp": 2,
+      "objective": "PRIORITY ASSETS",
+      "enhancements": [
+        {
+          "name": "Fear Made Manifest",
+          "points": 30,
+          "detachment": "1st Company Task Force"
+        },
+        {
+          "name": "Iron Resolve",
+          "points": 15,
+          "detachment": "1st Company Task Force"
+        },
+        {
+          "name": "Rites of War",
+          "points": 10,
+          "detachment": "1st Company Task Force"
+        },
+        {
+          "name": "The Imperium’s Sword",
+          "points": 25,
+          "detachment": "1st Company Task Force"
+        }
+      ]
+    },
+    {
+      "name": "Anvil Siege Force",
+      "dp": 2,
+      "objective": "TAKE AND HOLD",
+      "enhancements": [
+        {
+          "name": "Architect of War",
+          "points": 25,
+          "detachment": "Anvil Siege Force"
+        },
+        {
+          "name": "Fleet Commander",
+          "points": 15,
+          "detachment": "Anvil Siege Force"
+        },
+        {
+          "name": "Indomitable Fury",
+          "points": 20,
+          "detachment": "Anvil Siege Force"
+        },
+        {
+          "name": "Stoic Defender",
+          "points": 15,
+          "detachment": "Anvil Siege Force"
+        }
+      ]
+    },
+    {
+      "name": "Armoured Speartip",
+      "dp": 3,
+      "objective": "TAKE AND HOLD",
+      "enhancements": [
+        {
+          "name": "Armoured Commander",
+          "points": 25,
+          "detachment": "Armoured Speartip"
+        },
+        {
+          "name": "Liberator",
+          "points": 15,
+          "detachment": "Armoured Speartip"
+        },
+        {
+          "name": "Shock Deployment",
+          "points": 20,
+          "detachment": "Armoured Speartip"
+        },
+        {
+          "name": "Tip of the Spear",
+          "points": 40,
+          "detachment": "Armoured Speartip"
+        }
+      ]
+    },
+    {
+      "name": "Bastion Task Force",
+      "dp": 2,
+      "objective": "TAKE AND HOLD",
+      "enhancements": [
+        {
+          "name": "Blades of Valour",
+          "points": 15,
+          "detachment": "Bastion Task Force"
+        },
+        {
+          "name": "Bombast Omnivox",
+          "points": 15,
+          "detachment": "Bastion Task Force"
+        },
+        {
+          "name": "Eye of the Primarch",
+          "points": 10,
+          "detachment": "Bastion Task Force"
+        },
+        {
+          "name": "Hero of the Chapter",
+          "points": 20,
+          "detachment": "Bastion Task Force"
+        }
+      ]
+    },
+    {
+      "name": "Blade Of Ultramar",
+      "dp": 3,
+      "objective": "PRIORITY ASSETS",
+      "enhancements": [
+        {
+          "name": "Armour of Antoninus",
+          "points": 10,
+          "detachment": "Blade Of Ultramar"
+        },
+        {
+          "name": "Oath of Macragge",
+          "points": 15,
+          "detachment": "Blade Of Ultramar"
+        },
+        {
+          "name": "Student of the Codex",
+          "points": 20,
+          "detachment": "Blade Of Ultramar"
+        },
+        {
+          "name": "Veteran of Behemoth",
+          "points": 25,
+          "detachment": "Blade Of Ultramar"
+        }
+      ]
+    },
+    {
+      "name": "Ceramite Sentinels",
+      "dp": 3,
+      "objective": "TAKE AND HOLD",
+      "enhancements": [
+        {
+          "name": "Castellum Omnivox",
+          "points": 20,
+          "detachment": "Ceramite Sentinels"
+        },
+        {
+          "name": "Defensive Mastery",
+          "points": 25,
+          "detachment": "Ceramite Sentinels"
+        },
+        {
+          "name": "Honour Indefatigable",
+          "points": 25,
+          "detachment": "Ceramite Sentinels"
+        },
+        {
+          "name": "Spy-skull Data Link",
+          "points": 15,
+          "detachment": "Ceramite Sentinels"
+        }
+      ]
+    },
+    {
+      "name": "Emperor’S Shield",
+      "dp": 2,
+      "objective": "PRIORITY ASSETS",
+      "enhancements": [
+        {
+          "name": "Champion of the Feast",
+          "points": 25,
+          "detachment": "Emperor’S Shield"
+        },
+        {
+          "name": "Disciple of Rhetoricus",
+          "points": 10,
+          "detachment": "Emperor’S Shield"
+        },
+        {
+          "name": "Indomitable Champion",
+          "points": 20,
+          "detachment": "Emperor’S Shield"
+        },
+        {
+          "name": "Malodraxian Standard",
+          "points": 20,
+          "detachment": "Emperor’S Shield"
+        }
+      ]
+    },
+    {
+      "name": "Firestorm Assault Force",
+      "dp": 2,
+      "objective": "PURGE THE FOE",
+      "enhancements": [
+        {
+          "name": "Adamantine Mantle",
+          "points": 20,
+          "detachment": "Firestorm Assault Force"
+        },
+        {
+          "name": "Champion of Humanity",
+          "points": 10,
+          "detachment": "Firestorm Assault Force"
+        },
+        {
+          "name": "Forged in Battle",
+          "points": 15,
+          "detachment": "Firestorm Assault Force"
+        },
+        {
+          "name": "War-tempered Artifice",
+          "points": 25,
+          "detachment": "Firestorm Assault Force"
+        }
+      ]
+    },
+    {
+      "name": "Forgefather’S Seekers",
+      "dp": 2,
+      "objective": "PURGE THE FOE",
+      "enhancements": [
+        {
+          "name": "Adamantine Mantle",
+          "points": 20,
+          "detachment": "Forgefather’S Seekers"
+        },
+        {
+          "name": "Forged in Battle",
+          "points": 15,
+          "detachment": "Forgefather’S Seekers"
+        },
+        {
+          "name": "Immolator",
+          "points": 10,
+          "detachment": "Forgefather’S Seekers"
+        },
+        {
+          "name": "War-tempered Artifice",
+          "points": 25,
+          "detachment": "Forgefather’S Seekers"
+        }
+      ]
+    },
+    {
+      "name": "Fulguris Task Force",
+      "dp": 1,
+      "objective": "DISRUPTION",
+      "enhancements": [
+        {
+          "name": "Bellicose Weapon Spirits (Upgrade)",
+          "points": 15,
+          "detachment": "Fulguris Task Force"
+        },
+        {
+          "name": "Raptorial Cogitator Core (Upgrade)",
+          "points": 15,
+          "detachment": "Fulguris Task Force"
+        }
+      ]
+    },
+    {
+      "name": "Gladius Task Force",
+      "dp": 3,
+      "objective": "PRIORITY ASSETS",
+      "enhancements": [
+        {
+          "name": "Adept of the Codex",
+          "points": 20,
+          "detachment": "Gladius Task Force"
+        },
+        {
+          "name": "Artificer Armour",
+          "points": 10,
+          "detachment": "Gladius Task Force"
+        },
+        {
+          "name": "Fire Discipline",
+          "points": 25,
+          "detachment": "Gladius Task Force"
+        },
+        {
+          "name": "The Honour Vehement",
+          "points": 15,
+          "detachment": "Gladius Task Force"
+        }
+      ]
+    },
+    {
+      "name": "Hammer Of Avernii",
+      "dp": 2,
+      "objective": "PRIORITY ASSETS",
+      "enhancements": [
+        {
+          "name": "Iron Laurel",
+          "points": 10,
+          "detachment": "Hammer Of Avernii"
+        },
+        {
+          "name": "Medusan Roar",
+          "points": 30,
+          "detachment": "Hammer Of Avernii"
+        },
+        {
+          "name": "Spiritus Ferrum",
+          "points": 25,
+          "detachment": "Hammer Of Avernii"
+        },
+        {
+          "name": "Steel Font",
+          "points": 15,
+          "detachment": "Hammer Of Avernii"
+        }
+      ]
+    },
+    {
+      "name": "Headhunter Task Force",
+      "dp": 2,
+      "objective": "PRIORITY ASSETS",
+      "enhancements": [
+        {
+          "name": "Astartes Tank Ace",
+          "points": 40,
+          "detachment": "Headhunter Task Force"
+        },
+        {
+          "name": "Firestorm Coordinators",
+          "points": 20,
+          "detachment": "Headhunter Task Force"
+        },
+        {
+          "name": "Gunnery Honours",
+          "points": 20,
+          "detachment": "Headhunter Task Force"
+        },
+        {
+          "name": "Redoubtable Machine Spirit",
+          "points": 25,
+          "detachment": "Headhunter Task Force"
+        }
+      ]
+    },
+    {
+      "name": "Ironstorm Spearhead",
+      "dp": 2,
+      "objective": "PURGE THE FOE",
+      "enhancements": [
+        {
+          "name": "Adept of the Omnissiah",
+          "points": 35,
+          "detachment": "Ironstorm Spearhead"
+        },
+        {
+          "name": "Master of Machine War",
+          "points": 20,
+          "detachment": "Ironstorm Spearhead"
+        },
+        {
+          "name": "Target Augury Web",
+          "points": 30,
+          "detachment": "Ironstorm Spearhead"
+        },
+        {
+          "name": "The Flesh Is Weak",
+          "points": 10,
+          "detachment": "Ironstorm Spearhead"
+        }
+      ]
+    },
+    {
+      "name": "Librarius Conclave",
+      "dp": 1,
+      "objective": "RECONNAISSANCE",
+      "enhancements": [
+        {
+          "name": "Celerity",
+          "points": 35,
+          "detachment": "Librarius Conclave"
+        },
+        {
+          "name": "Fusillade",
+          "points": 20,
+          "detachment": "Librarius Conclave"
+        },
+        {
+          "name": "Obfuscation",
+          "points": 25,
+          "detachment": "Librarius Conclave"
+        },
+        {
+          "name": "Prescience",
+          "points": 20,
+          "detachment": "Librarius Conclave"
+        },
+        {
+          "name": "Temporal Corridor",
+          "points": 15,
+          "detachment": "Librarius Conclave"
+        }
+      ]
+    },
+    {
+      "name": "Orbital Assault Force",
+      "dp": 2,
+      "objective": "TAKE AND HOLD",
+      "enhancements": [
+        {
+          "name": "Dedicated Gunship",
+          "points": 15,
+          "detachment": "Orbital Assault Force"
+        },
+        {
+          "name": "Laurels of Thunder",
+          "points": 15,
+          "detachment": "Orbital Assault Force"
+        },
+        {
+          "name": "Orbital Uplink Reliquary",
+          "points": 25,
+          "detachment": "Orbital Assault Force"
+        },
+        {
+          "name": "Veteran of the Vanguard",
+          "points": 20,
+          "detachment": "Orbital Assault Force"
+        }
+      ]
+    },
+    {
+      "name": "Reclamation Force",
+      "dp": 2,
+      "objective": "TAKE AND HOLD",
+      "enhancements": [
+        {
+          "name": "Avenging Avatar",
+          "points": 10,
+          "detachment": "Reclamation Force"
+        },
+        {
+          "name": "Liberatum",
+          "points": 25,
+          "detachment": "Reclamation Force"
+        },
+        {
+          "name": "Scroll of Proclamation",
+          "points": 15,
+          "detachment": "Reclamation Force"
+        },
+        {
+          "name": "Seals of Reconquest",
+          "points": 20,
+          "detachment": "Reclamation Force"
+        }
+      ]
+    },
+    {
+      "name": "Shadowmark Talon",
+      "dp": 2,
+      "objective": "DISRUPTION",
+      "enhancements": [
+        {
+          "name": "Blackwing Shroud",
+          "points": 25,
+          "detachment": "Shadowmark Talon"
+        },
+        {
+          "name": "Coronal Susurrant",
+          "points": 30,
+          "detachment": "Shadowmark Talon"
+        },
+        {
+          "name": "Hunter’s Instincts",
+          "points": 25,
+          "detachment": "Shadowmark Talon"
+        },
+        {
+          "name": "Umbral Raptor",
+          "points": 15,
+          "detachment": "Shadowmark Talon"
+        }
+      ]
+    },
+    {
+      "name": "Spearpoint Task Force",
+      "dp": 2,
+      "objective": "DISRUPTION",
+      "enhancements": [
+        {
+          "name": "Chogorian Huntmaster",
+          "points": 25,
+          "detachment": "Spearpoint Task Force"
+        },
+        {
+          "name": "Hunter’s Eye",
+          "points": 20,
+          "detachment": "Spearpoint Task Force"
+        },
+        {
+          "name": "Spearpoint Paragon",
+          "points": 25,
+          "detachment": "Spearpoint Task Force"
+        },
+        {
+          "name": "Stormseers' Wisdom",
+          "points": 15,
+          "detachment": "Spearpoint Task Force"
+        }
+      ]
+    },
+    {
+      "name": "Stormlance Task Force",
+      "dp": 3,
+      "objective": "DISRUPTION",
+      "enhancements": [
+        {
+          "name": "Feinting Withdrawal",
+          "points": 10,
+          "detachment": "Stormlance Task Force"
+        },
+        {
+          "name": "Fury of the Storm",
+          "points": 25,
+          "detachment": "Stormlance Task Force"
+        },
+        {
+          "name": "Hunter’s Instincts",
+          "points": 25,
+          "detachment": "Stormlance Task Force"
+        },
+        {
+          "name": "Portents of Wisdom",
+          "points": 15,
+          "detachment": "Stormlance Task Force"
+        }
+      ]
+    },
+    {
+      "name": "Subversion Assets",
+      "dp": 1,
+      "objective": "RECONNAISSANCE",
+      "enhancements": [
+        {
+          "name": "Death in the Dark (Upgrade)",
+          "points": 15,
+          "detachment": "Subversion Assets"
+        },
+        {
+          "name": "Shroud Field",
+          "points": 20,
+          "detachment": "Subversion Assets"
+        }
+      ]
+    },
+    {
+      "name": "Vanguard Spearhead",
+      "dp": 2,
+      "objective": "RECONNAISSANCE",
+      "enhancements": [
+        {
+          "name": "Execute and Redeploy",
+          "points": 20,
+          "detachment": "Vanguard Spearhead"
+        },
+        {
+          "name": "Ghostweave Cloak",
+          "points": 15,
+          "detachment": "Vanguard Spearhead"
+        },
+        {
+          "name": "Shadow War Veteran",
+          "points": 30,
+          "detachment": "Vanguard Spearhead"
+        },
+        {
+          "name": "The Blade Driven Deep",
+          "points": 25,
+          "detachment": "Vanguard Spearhead"
+        }
+      ]
+    }
+  ],
+  "units": [
+    {
+      "name": "Adrax Agatone",
+      "normalizedName": "adrax agatone",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 80
+            }
+          ]
+        }
+      ],
+      "points": 80,
+      "pointsLabel": "80",
+      "legends": false,
+      "role": "leader",
+      "attachTo": [
+        "Assault Intercessor Squad",
+        "Assault Squad",
+        "Bladeguard Veteran Squad",
+        "Command Squad",
+        "Company Heroes",
+        "Infernus Squad",
+        "Intercessor Squad",
+        "Sternguard Veteran Squad",
+        "Tactical Squad",
+        "Vanguard Veteran Squad"
+      ]
+    },
+    {
+      "name": "Aethon Shaan",
+      "normalizedName": "aethon shaan",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 100
+            }
+          ]
+        }
+      ],
+      "points": 100,
+      "pointsLabel": "100",
+      "legends": false
+    },
+    {
+      "name": "Aggressor Squad",
+      "normalizedName": "aggressor squad",
+      "pricing": [
+        {
+          "range": "[1,2]",
+          "label": "Your 1st To 2nd Units Cost",
+          "costs": [
+            {
+              "models": 3,
+              "points": 90
+            },
+            {
+              "models": 6,
+              "points": 180
+            }
+          ]
+        },
+        {
+          "range": "[3,)",
+          "label": "Your 3rd + Unit Costs",
+          "costs": [
+            {
+              "models": 3,
+              "points": 100
+            },
+            {
+              "models": 6,
+              "points": 190
+            }
+          ]
+        }
+      ],
+      "points": 90,
+      "pointsLabel": "90/180",
+      "legends": false
+    },
+    {
+      "name": "Ancient",
+      "normalizedName": "ancient",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 40
+            }
+          ]
+        }
+      ],
+      "points": 40,
+      "pointsLabel": "40",
+      "legends": false,
+      "role": "support",
+      "attachTo": [
+        "Assault Intercessor Squad",
+        "Assault Squad",
+        "Crusader Squad",
+        "Deathwatch Veterans",
+        "Decimus Kill Team",
+        "Desolation Squad",
+        "Devastator Squad",
+        "Fortis Kill Team",
+        "Hellblaster Squad",
+        "Infernus Squad",
+        "Inner Circle Companions",
+        "Intercessor Squad",
+        "Sternguard Veteran Squad",
+        "Sword Brethren Squad",
+        "Tactical Squad",
+        "Vanguard Veteran Squad"
+      ]
+    },
+    {
+      "name": "Ancient In Terminator Armour",
+      "normalizedName": "ancient in terminator armour",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 65
+            }
+          ]
+        }
+      ],
+      "points": 65,
+      "pointsLabel": "65",
+      "legends": false,
+      "role": "support",
+      "attachTo": [
+        "Deathwatch Terminator Squad",
+        "Deathwing Knights",
+        "Deathwing Terminator Squad",
+        "Relic Terminator Squad",
+        "Terminator Assault Squad",
+        "Terminator Squad"
+      ]
+    },
+    {
+      "name": "Ancient On Bike",
+      "normalizedName": "ancient on bike",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 90
+            }
+          ]
+        }
+      ],
+      "points": 90,
+      "pointsLabel": "90",
+      "legends": true,
+      "role": "support",
+      "attachTo": [
+        "Bike Squad",
+        "Company Veterans On Bikes",
+        "Outrider Squad"
+      ]
+    },
+    {
+      "name": "Apothecary",
+      "normalizedName": "apothecary",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 40
+            }
+          ]
+        }
+      ],
+      "points": 40,
+      "pointsLabel": "40",
+      "legends": false,
+      "role": "support",
+      "attachTo": [
+        "Assault Intercessor Squad",
+        "Assault Squad",
+        "Bladeguard Veteran Squad",
+        "Crusader Squad",
+        "Deathwatch Veterans",
+        "Decimus Kill Team",
+        "Desolation Squad",
+        "Devastator Squad",
+        "Fortis Kill Team",
+        "Hellblaster Squad",
+        "Infernus Squad",
+        "Inner Circle Companions",
+        "Intercessor Squad",
+        "Sternguard Veteran Squad",
+        "Sword Brethren Squad",
+        "Tactical Squad",
+        "Vanguard Veteran Squad"
+      ]
+    },
+    {
+      "name": "Apothecary Biologis",
+      "normalizedName": "apothecary biologis",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 70
+            }
+          ]
+        }
+      ],
+      "points": 70,
+      "pointsLabel": "70",
+      "legends": false,
+      "role": "support",
+      "attachTo": [
+        "Aggressor Squad",
+        "Eradicator Squad",
+        "Heavy Intercessor Squad",
+        "Indomitor Kill Team"
+      ]
+    },
+    {
+      "name": "Apothecary On Bike",
+      "normalizedName": "apothecary on bike",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 65
+            }
+          ]
+        }
+      ],
+      "points": 65,
+      "pointsLabel": "65",
+      "legends": true,
+      "role": "support",
+      "attachTo": [
+        "Bike Squad",
+        "Company Veterans On Bikes",
+        "Outrider Squad"
+      ]
+    },
+    {
+      "name": "Assault Intercessor Squad",
+      "normalizedName": "assault intercessor squad",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 5,
+              "points": 75
+            },
+            {
+              "models": 10,
+              "points": 150
+            }
+          ]
+        }
+      ],
+      "points": 75,
+      "pointsLabel": "75/150",
+      "legends": false
+    },
+    {
+      "name": "Assault Intercessors With Jump Packs",
+      "normalizedName": "assault intercessors with jump packs",
+      "pricing": [
+        {
+          "range": "[1,2]",
+          "label": "Your 1st To 2nd Units Cost",
+          "costs": [
+            {
+              "models": 5,
+              "points": 85
+            },
+            {
+              "models": 10,
+              "points": 160
+            }
+          ]
+        },
+        {
+          "range": "[3,)",
+          "label": "Your 3rd + Unit Costs",
+          "costs": [
+            {
+              "models": 5,
+              "points": 95
+            },
+            {
+              "models": 10,
+              "points": 170
+            }
+          ]
+        }
+      ],
+      "points": 85,
+      "pointsLabel": "85/160",
+      "legends": false
+    },
+    {
+      "name": "Assault Squad",
+      "normalizedName": "assault squad",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 5,
+              "points": 95
+            },
+            {
+              "models": 10,
+              "points": 190
+            }
+          ]
+        }
+      ],
+      "points": 95,
+      "pointsLabel": "95/190",
+      "legends": true
+    },
+    {
+      "name": "Assault Squad With Jump Packs",
+      "normalizedName": "assault squad with jump packs",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 5,
+              "points": 115
+            },
+            {
+              "models": 10,
+              "points": 230
+            }
+          ]
+        }
+      ],
+      "points": 115,
+      "pointsLabel": "115/230",
+      "legends": true
+    },
+    {
+      "name": "Astartes Servitors",
+      "normalizedName": "astartes servitors",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 4,
+              "points": 55
+            }
+          ]
+        }
+      ],
+      "points": 55,
+      "pointsLabel": "55",
+      "legends": true
+    },
+    {
+      "name": "Astraeus",
+      "normalizedName": "astraeus",
+      "pricing": [
+        {
+          "range": "[1,1]",
+          "label": "Your 1st Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 525
+            }
+          ]
+        },
+        {
+          "range": "[2,)",
+          "label": "Your 2nd + Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 575
+            }
+          ]
+        }
+      ],
+      "points": 525,
+      "pointsLabel": "525",
+      "legends": false
+    },
+    {
+      "name": "Attack Bike Squad",
+      "normalizedName": "attack bike squad",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 55
+            },
+            {
+              "models": 2,
+              "points": 110
+            },
+            {
+              "models": 3,
+              "points": 165
+            }
+          ]
+        }
+      ],
+      "points": 55,
+      "pointsLabel": "55/110/165",
+      "legends": true
+    },
+    {
+      "name": "Ballistus Dreadnought",
+      "normalizedName": "ballistus dreadnought",
+      "pricing": [
+        {
+          "range": "[1,2]",
+          "label": "Your 1st To 2nd Units Cost",
+          "costs": [
+            {
+              "models": 1,
+              "points": 150
+            }
+          ]
+        },
+        {
+          "range": "[3,)",
+          "label": "Your 3rd + Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 160
+            }
+          ]
+        }
+      ],
+      "points": 150,
+      "pointsLabel": "150",
+      "legends": false
+    },
+    {
+      "name": "Bike Squad",
+      "normalizedName": "bike squad",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 55
+            },
+            {
+              "models": 3,
+              "points": 80
+            },
+            {
+              "models": 6,
+              "points": 160
+            }
+          ]
+        }
+      ],
+      "points": 55,
+      "pointsLabel": "55/80/160",
+      "legends": true
+    },
+    {
+      "name": "Bladeguard Ancient",
+      "normalizedName": "bladeguard ancient",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 40
+            }
+          ]
+        }
+      ],
+      "points": 40,
+      "pointsLabel": "40",
+      "legends": false,
+      "role": "support",
+      "attachTo": [
+        "Bladeguard Veteran Squad"
+      ]
+    },
+    {
+      "name": "Bladeguard Veteran Squad",
+      "normalizedName": "bladeguard veteran squad",
+      "pricing": [
+        {
+          "range": "[1,2]",
+          "label": "Your 1st To 2nd Units Cost",
+          "costs": [
+            {
+              "models": 3,
+              "points": 80
+            },
+            {
+              "models": 6,
+              "points": 160
+            }
+          ]
+        },
+        {
+          "range": "[3,)",
+          "label": "Your 3rd + Unit Costs",
+          "costs": [
+            {
+              "models": 3,
+              "points": 90
+            },
+            {
+              "models": 6,
+              "points": 170
+            }
+          ]
+        }
+      ],
+      "points": 80,
+      "pointsLabel": "80/160",
+      "legends": false
+    },
+    {
+      "name": "Brutalis Dreadnought",
+      "normalizedName": "brutalis dreadnought",
+      "pricing": [
+        {
+          "range": "[1,2]",
+          "label": "Your 1st To 2nd Units Cost",
+          "costs": [
+            {
+              "models": 1,
+              "points": 150
+            }
+          ]
+        },
+        {
+          "range": "[3,)",
+          "label": "Your 3rd + Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 160
+            }
+          ]
+        }
+      ],
+      "points": 150,
+      "pointsLabel": "150",
+      "legends": false
+    },
+    {
+      "name": "Caanok Var",
+      "normalizedName": "caanok var",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 90
+            }
+          ]
+        }
+      ],
+      "points": 90,
+      "pointsLabel": "90",
+      "legends": false,
+      "role": "leader",
+      "attachTo": [
+        "Relic Terminator Squad",
+        "Terminator Assault Squad",
+        "Terminator Squad"
+      ]
+    },
+    {
+      "name": "Caestus Assault Ram",
+      "normalizedName": "caestus assault ram",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 215
+            }
+          ]
+        }
+      ],
+      "points": 215,
+      "pointsLabel": "215",
+      "legends": true
+    },
+    {
+      "name": "Captain",
+      "normalizedName": "captain",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 80
+            }
+          ]
+        }
+      ],
+      "points": 80,
+      "pointsLabel": "80",
+      "legends": false,
+      "role": "leader",
+      "attachTo": [
+        "Assault Intercessor Squad",
+        "Assault Squad",
+        "Bladeguard Veteran Squad",
+        "Command Squad",
+        "Company Heroes",
+        "Crusader Squad",
+        "Deathwatch Veterans",
+        "Decimus Kill Team",
+        "Desolation Squad",
+        "Fortis Kill Team",
+        "Hellblaster Squad",
+        "Infernus Squad",
+        "Inner Circle Companions",
+        "Intercessor Squad",
+        "Sternguard Veteran Squad",
+        "Sword Brethren Squad",
+        "Tactical Squad",
+        "Vanguard Veteran Squad",
+        "Victrix Honour Guard"
+      ]
+    },
+    {
+      "name": "Captain In Gravis Armour",
+      "normalizedName": "captain in gravis armour",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 80
+            }
+          ]
+        }
+      ],
+      "points": 80,
+      "pointsLabel": "80",
+      "legends": false,
+      "role": "leader",
+      "attachTo": [
+        "Aggressor Squad",
+        "Eradicator Squad",
+        "Heavy Intercessor Squad",
+        "Indomitor Kill Team"
+      ]
+    },
+    {
+      "name": "Captain In Phobos Armour",
+      "normalizedName": "captain in phobos armour",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 70
+            }
+          ]
+        }
+      ],
+      "points": 70,
+      "pointsLabel": "70",
+      "legends": false,
+      "role": "leader",
+      "attachTo": [
+        "Eliminator Squad",
+        "Incursor Squad",
+        "Infiltrator Squad",
+        "Reiver Squad",
+        "Scout Squad",
+        "Spectrus Kill Team"
+      ]
+    },
+    {
+      "name": "Captain In Terminator Armour",
+      "normalizedName": "captain in terminator armour",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 85
+            }
+          ]
+        }
+      ],
+      "points": 85,
+      "pointsLabel": "85",
+      "legends": false,
+      "role": "leader",
+      "attachTo": [
+        "Deathwatch Terminator Squad",
+        "Deathwing Knights",
+        "Deathwing Terminator Squad",
+        "Relic Terminator Squad",
+        "Terminator Assault Squad",
+        "Terminator Squad"
+      ]
+    },
+    {
+      "name": "Captain On Bike",
+      "normalizedName": "captain on bike",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 95
+            }
+          ]
+        }
+      ],
+      "points": 95,
+      "pointsLabel": "95",
+      "legends": true,
+      "role": "leader",
+      "attachTo": [
+        "Bike Squad",
+        "Company Veterans On Bikes",
+        "Outrider Squad"
+      ]
+    },
+    {
+      "name": "Captain Titus",
+      "normalizedName": "captain titus",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 90
+            }
+          ]
+        }
+      ],
+      "points": 90,
+      "pointsLabel": "90",
+      "legends": false,
+      "role": "leader",
+      "attachTo": [
+        "Assault Intercessor Squad",
+        "Assault Squad",
+        "Bladeguard Veteran Squad",
+        "Command Squad",
+        "Company Heroes",
+        "Hellblaster Squad",
+        "Infernus Squad",
+        "Intercessor Squad",
+        "Sternguard Veteran Squad",
+        "Vanguard Veteran Squad",
+        "Victrix Honour Guard",
+        "Wardens Of Ultramar"
+      ]
+    },
+    {
+      "name": "Captain With Jump Pack",
+      "normalizedName": "captain with jump pack",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 75
+            }
+          ]
+        }
+      ],
+      "points": 75,
+      "pointsLabel": "75",
+      "legends": false,
+      "role": "leader",
+      "attachTo": [
+        "Assault Intercessors With Jump Packs",
+        "Assault Squad With Jump Packs",
+        "Sanguinary Guard",
+        "Talonstrike Kill Team",
+        "Vanguard Veteran Squad With Jump Packs"
+      ]
+    },
+    {
+      "name": "Carab Culln The Risen",
+      "normalizedName": "carab culln the risen",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 250
+            }
+          ]
+        }
+      ],
+      "points": 250,
+      "pointsLabel": "250",
+      "legends": true
+    },
+    {
+      "name": "Cato Sicarius",
+      "normalizedName": "cato sicarius",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 95
+            }
+          ]
+        }
+      ],
+      "points": 95,
+      "pointsLabel": "95",
+      "legends": false,
+      "role": "support",
+      "attachTo": [
+        "Victrix Honour Guard"
+      ]
+    },
+    {
+      "name": "Centurion Assault Squad",
+      "normalizedName": "centurion assault squad",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 3,
+              "points": 150
+            },
+            {
+              "models": 6,
+              "points": 300
+            }
+          ]
+        }
+      ],
+      "points": 150,
+      "pointsLabel": "150/300",
+      "legends": false
+    },
+    {
+      "name": "Centurion Devastator Squad",
+      "normalizedName": "centurion devastator squad",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 3,
+              "points": 175
+            },
+            {
+              "models": 6,
+              "points": 350
+            }
+          ]
+        }
+      ],
+      "points": 175,
+      "pointsLabel": "175/350",
+      "legends": false
+    },
+    {
+      "name": "Cerberus",
+      "normalizedName": "cerberus",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 270
+            }
+          ]
+        }
+      ],
+      "points": 270,
+      "pointsLabel": "270",
+      "legends": true
+    },
+    {
+      "name": "Chaplain",
+      "normalizedName": "chaplain",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 60
+            }
+          ]
+        }
+      ],
+      "points": 60,
+      "pointsLabel": "60",
+      "legends": false,
+      "role": "leader",
+      "attachTo": [
+        "Assault Intercessor Squad",
+        "Assault Squad",
+        "Bladeguard Veteran Squad",
+        "Crusader Squad",
+        "Death Company Marines",
+        "Death Company Marines With Bolt Rifles",
+        "Deathwatch Veterans",
+        "Decimus Kill Team",
+        "Fortis Kill Team",
+        "Hellblaster Squad",
+        "Infernus Squad",
+        "Inner Circle Companions",
+        "Intercessor Squad",
+        "Sternguard Veteran Squad",
+        "Sword Brethren Squad",
+        "Tactical Squad",
+        "Vanguard Veteran Squad"
+      ]
+    },
+    {
+      "name": "Chaplain Cassius",
+      "normalizedName": "chaplain cassius",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 80
+            }
+          ]
+        }
+      ],
+      "points": 80,
+      "pointsLabel": "80",
+      "legends": true,
+      "role": "leader",
+      "attachTo": [
+        "Assault Squad",
+        "Command Squad",
+        "Sternguard Veteran Squad",
+        "Tactical Squad",
+        "Tyrannic War Veterans",
+        "Vanguard Veteran Squad"
+      ]
+    },
+    {
+      "name": "Chaplain In Terminator Armour",
+      "normalizedName": "chaplain in terminator armour",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 75
+            }
+          ]
+        }
+      ],
+      "points": 75,
+      "pointsLabel": "75",
+      "legends": false,
+      "role": "leader",
+      "attachTo": [
+        "Deathwatch Terminator Squad",
+        "Deathwing Knights",
+        "Deathwing Terminator Squad",
+        "Relic Terminator Squad",
+        "Terminator Assault Squad",
+        "Terminator Squad"
+      ]
+    },
+    {
+      "name": "Chaplain On Bike",
+      "normalizedName": "chaplain on bike",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 70
+            }
+          ]
+        }
+      ],
+      "points": 70,
+      "pointsLabel": "70",
+      "legends": false,
+      "role": "leader",
+      "attachTo": [
+        "Bike Squad",
+        "Company Veterans On Bikes",
+        "Outrider Squad",
+        "Ravenwing Black Knights"
+      ]
+    },
+    {
+      "name": "Chaplain Venerable Dreadnought",
+      "normalizedName": "chaplain venerable dreadnought",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 150
+            }
+          ]
+        }
+      ],
+      "points": 150,
+      "pointsLabel": "150",
+      "legends": true
+    },
+    {
+      "name": "Chaplain With Jump Pack",
+      "normalizedName": "chaplain with jump pack",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 75
+            }
+          ]
+        }
+      ],
+      "points": 75,
+      "pointsLabel": "75",
+      "legends": false,
+      "role": "leader",
+      "attachTo": [
+        "Assault Intercessors With Jump Packs",
+        "Assault Squad With Jump Packs",
+        "Death Company Marines With Jump Packs",
+        "Talonstrike Kill Team",
+        "Vanguard Veteran Squad With Jump Packs"
+      ]
+    },
+    {
+      "name": "Chief Librarian Tigurius",
+      "normalizedName": "chief librarian tigurius",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 95
+            }
+          ]
+        }
+      ],
+      "points": 95,
+      "pointsLabel": "95",
+      "legends": false,
+      "role": "leader",
+      "attachTo": [
+        "Assault Intercessor Squad",
+        "Assault Squad",
+        "Bladeguard Veteran Squad",
+        "Desolation Squad",
+        "Devastator Squad",
+        "Intercessor Squad",
+        "Sternguard Veteran Squad",
+        "Tactical Squad",
+        "Vanguard Veteran Squad"
+      ]
+    },
+    {
+      "name": "Command Squad",
+      "normalizedName": "command squad",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 5,
+              "points": 165
+            }
+          ]
+        }
+      ],
+      "points": 165,
+      "pointsLabel": "165",
+      "legends": true
+    },
+    {
+      "name": "Company Champion On Bike",
+      "normalizedName": "company champion on bike",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 60
+            }
+          ]
+        }
+      ],
+      "points": 60,
+      "pointsLabel": "60",
+      "legends": true,
+      "role": "support",
+      "attachTo": [
+        "Bike Squad",
+        "Company Veterans On Bikes",
+        "Outrider Squad"
+      ]
+    },
+    {
+      "name": "Company Heroes",
+      "normalizedName": "company heroes",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 4,
+              "points": 105
+            }
+          ]
+        }
+      ],
+      "points": 105,
+      "pointsLabel": "105",
+      "legends": false
+    },
+    {
+      "name": "Company Veterans On Bikes",
+      "normalizedName": "company veterans on bikes",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 2,
+              "points": 110
+            },
+            {
+              "models": 5,
+              "points": 275
+            }
+          ]
+        }
+      ],
+      "points": 110,
+      "pointsLabel": "110/275",
+      "legends": true
+    },
+    {
+      "name": "Darnath Lysander",
+      "normalizedName": "darnath lysander",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 100
+            }
+          ]
+        }
+      ],
+      "points": 100,
+      "pointsLabel": "100",
+      "legends": false,
+      "role": "leader",
+      "attachTo": [
+        "Relic Terminator Squad",
+        "Terminator Assault Squad",
+        "Terminator Squad"
+      ]
+    },
+    {
+      "name": "Deathstorm Drop Pod",
+      "normalizedName": "deathstorm drop pod",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 95
+            }
+          ]
+        }
+      ],
+      "points": 95,
+      "pointsLabel": "95",
+      "legends": true
+    },
+    {
+      "name": "Deimos Predator",
+      "normalizedName": "deimos predator",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 115
+            }
+          ]
+        }
+      ],
+      "points": 115,
+      "pointsLabel": "115",
+      "legends": true
+    },
+    {
+      "name": "Deredeo Dreadnought",
+      "normalizedName": "deredeo dreadnought",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 160
+            }
+          ]
+        }
+      ],
+      "points": 160,
+      "pointsLabel": "160",
+      "legends": true
+    },
+    {
+      "name": "Desolation Squad",
+      "normalizedName": "desolation squad",
+      "pricing": [
+        {
+          "range": "[1,1]",
+          "label": "Your 1st Unit Costs",
+          "costs": [
+            {
+              "models": 5,
+              "points": 180
+            }
+          ]
+        },
+        {
+          "range": "[2,)",
+          "label": "Your 2nd + Unit Costs",
+          "costs": [
+            {
+              "models": 5,
+              "points": 210
+            }
+          ]
+        }
+      ],
+      "points": 180,
+      "pointsLabel": "180",
+      "legends": false
+    },
+    {
+      "name": "Devastator Squad",
+      "normalizedName": "devastator squad",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 5,
+              "points": 120
+            },
+            {
+              "models": 10,
+              "points": 200
+            }
+          ]
+        }
+      ],
+      "points": 120,
+      "pointsLabel": "120/200",
+      "legends": false
+    },
+    {
+      "name": "Dreadnought",
+      "normalizedName": "dreadnought",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 135
+            }
+          ]
+        }
+      ],
+      "points": 135,
+      "pointsLabel": "135",
+      "legends": false
+    },
+    {
+      "name": "Dreadnought Drop Pod",
+      "normalizedName": "dreadnought drop pod",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 75
+            }
+          ]
+        }
+      ],
+      "points": 75,
+      "pointsLabel": "75",
+      "legends": true
+    },
+    {
+      "name": "Drop Pod",
+      "normalizedName": "drop pod",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 70
+            }
+          ]
+        }
+      ],
+      "points": 70,
+      "pointsLabel": "70",
+      "legends": false
+    },
+    {
+      "name": "Eliminator Squad",
+      "normalizedName": "eliminator squad",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 3,
+              "points": 75
+            }
+          ]
+        }
+      ],
+      "points": 75,
+      "pointsLabel": "75",
+      "legends": false
+    },
+    {
+      "name": "Eradicator Squad",
+      "normalizedName": "eradicator squad",
+      "pricing": [
+        {
+          "range": "[1,2]",
+          "label": "Your 1st To 2nd Units Cost",
+          "costs": [
+            {
+              "models": 3,
+              "points": 90
+            },
+            {
+              "models": 6,
+              "points": 180
+            }
+          ]
+        },
+        {
+          "range": "[3,)",
+          "label": "Your 3rd + Unit Costs",
+          "costs": [
+            {
+              "models": 3,
+              "points": 100
+            },
+            {
+              "models": 6,
+              "points": 190
+            }
+          ]
+        }
+      ],
+      "points": 90,
+      "pointsLabel": "90/180",
+      "legends": false
+    },
+    {
+      "name": "Eradicator Squad With Heavy Bolters",
+      "normalizedName": "eradicator squad with heavy bolters",
+      "pricing": [
+        {
+          "range": "[1,2]",
+          "label": "Your 1st To 2nd Units Cost",
+          "costs": [
+            {
+              "models": 3,
+              "points": 70
+            }
+          ]
+        },
+        {
+          "range": "[3,)",
+          "label": "Your 3rd + Unit Costs",
+          "costs": [
+            {
+              "models": 3,
+              "points": 80
+            }
+          ]
+        }
+      ],
+      "points": 70,
+      "pointsLabel": "70",
+      "legends": false
+    },
+    {
+      "name": "Falchion",
+      "normalizedName": "falchion",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 420
+            }
+          ]
+        }
+      ],
+      "points": 420,
+      "pointsLabel": "420",
+      "legends": true
+    },
+    {
+      "name": "Fellblade",
+      "normalizedName": "fellblade",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 480
+            }
+          ]
+        }
+      ],
+      "points": 480,
+      "pointsLabel": "480",
+      "legends": true
+    },
+    {
+      "name": "Ferren Aerios",
+      "normalizedName": "ferren aerios",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 80
+            }
+          ]
+        }
+      ],
+      "points": 80,
+      "pointsLabel": "80",
+      "legends": true,
+      "role": "leader",
+      "attachTo": [
+        "Assault Intercessor Squad",
+        "Assault Squad",
+        "Bladeguard Veteran Squad",
+        "Command Squad",
+        "Company Heroes",
+        "Hellblaster Squad",
+        "Infernus Squad",
+        "Intercessor Squad",
+        "Sternguard Veteran Squad",
+        "Tactical Squad",
+        "Vanguard Veteran Squad"
+      ]
+    },
+    {
+      "name": "Fire Raptor Gunship",
+      "normalizedName": "fire raptor gunship",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 290
+            }
+          ]
+        }
+      ],
+      "points": 290,
+      "pointsLabel": "290",
+      "legends": true
+    },
+    {
+      "name": "Firestrike Servo-Turrets",
+      "normalizedName": "firestrike servo turrets",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 75
+            },
+            {
+              "models": 2,
+              "points": 150
+            }
+          ]
+        }
+      ],
+      "points": 75,
+      "pointsLabel": "75/150",
+      "legends": false
+    },
+    {
+      "name": "Gladiator Lancer",
+      "normalizedName": "gladiator lancer",
+      "pricing": [
+        {
+          "range": "[1,2]",
+          "label": "Your 1st To 2nd Units Cost",
+          "costs": [
+            {
+              "models": 1,
+              "points": 160
+            }
+          ]
+        },
+        {
+          "range": "[3,)",
+          "label": "Your 3rd + Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 170
+            }
+          ]
+        }
+      ],
+      "points": 160,
+      "pointsLabel": "160",
+      "legends": false
+    },
+    {
+      "name": "Gladiator Reaper",
+      "normalizedName": "gladiator reaper",
+      "pricing": [
+        {
+          "range": "[1,2]",
+          "label": "Your 1st To 2nd Units Cost",
+          "costs": [
+            {
+              "models": 1,
+              "points": 160
+            }
+          ]
+        },
+        {
+          "range": "[3,)",
+          "label": "Your 3rd + Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 170
+            }
+          ]
+        }
+      ],
+      "points": 160,
+      "pointsLabel": "160",
+      "legends": false
+    },
+    {
+      "name": "Gladiator Valiant",
+      "normalizedName": "gladiator valiant",
+      "pricing": [
+        {
+          "range": "[1,2]",
+          "label": "Your 1st To 2nd Units Cost",
+          "costs": [
+            {
+              "models": 1,
+              "points": 150
+            }
+          ]
+        },
+        {
+          "range": "[3,)",
+          "label": "Your 3rd + Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 160
+            }
+          ]
+        }
+      ],
+      "points": 150,
+      "pointsLabel": "150",
+      "legends": false
+    },
+    {
+      "name": "Hammerfall Bunker",
+      "normalizedName": "hammerfall bunker",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 175
+            }
+          ]
+        }
+      ],
+      "points": 175,
+      "pointsLabel": "175",
+      "legends": false
+    },
+    {
+      "name": "Heavy Intercessor Squad",
+      "normalizedName": "heavy intercessor squad",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 5,
+              "points": 100
+            },
+            {
+              "models": 10,
+              "points": 200
+            }
+          ]
+        }
+      ],
+      "points": 100,
+      "pointsLabel": "100/200",
+      "legends": false
+    },
+    {
+      "name": "Hellblaster Squad",
+      "normalizedName": "hellblaster squad",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 5,
+              "points": 110
+            },
+            {
+              "models": 10,
+              "points": 220
+            }
+          ]
+        }
+      ],
+      "points": 110,
+      "pointsLabel": "110/220",
+      "legends": false
+    },
+    {
+      "name": "Hunter",
+      "normalizedName": "hunter",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 100
+            }
+          ]
+        }
+      ],
+      "points": 100,
+      "pointsLabel": "100",
+      "legends": true
+    },
+    {
+      "name": "Imperial Space Marine",
+      "normalizedName": "imperial space marine",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 40
+            }
+          ]
+        }
+      ],
+      "points": 40,
+      "pointsLabel": "40",
+      "legends": true,
+      "role": "support",
+      "attachTo": [
+        "Assault Squad",
+        "Command Squad",
+        "Devastator Squad",
+        "Tactical Squad",
+        "Vanguard Veteran Squad"
+      ]
+    },
+    {
+      "name": "Impulsor",
+      "normalizedName": "impulsor",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 80
+            }
+          ]
+        }
+      ],
+      "points": 80,
+      "pointsLabel": "80",
+      "legends": false
+    },
+    {
+      "name": "Inceptor Squad",
+      "normalizedName": "inceptor squad",
+      "pricing": [
+        {
+          "range": "[1,2]",
+          "label": "Your 1st To 2nd Units Cost",
+          "costs": [
+            {
+              "models": 3,
+              "points": 120
+            },
+            {
+              "models": 6,
+              "points": 240
+            }
+          ]
+        },
+        {
+          "range": "[3,)",
+          "label": "Your 3rd + Unit Costs",
+          "costs": [
+            {
+              "models": 3,
+              "points": 135
+            },
+            {
+              "models": 6,
+              "points": 255
+            }
+          ]
+        }
+      ],
+      "points": 120,
+      "pointsLabel": "120/240",
+      "legends": false
+    },
+    {
+      "name": "Incursor Squad",
+      "normalizedName": "incursor squad",
+      "pricing": [
+        {
+          "range": "[1,2]",
+          "label": "Your 1st To 2nd Units Cost",
+          "costs": [
+            {
+              "models": 5,
+              "points": 85
+            },
+            {
+              "models": 10,
+              "points": 150
+            }
+          ]
+        },
+        {
+          "range": "[3,)",
+          "label": "Your 3rd + Unit Costs",
+          "costs": [
+            {
+              "models": 5,
+              "points": 95
+            },
+            {
+              "models": 10,
+              "points": 160
+            }
+          ]
+        }
+      ],
+      "points": 85,
+      "pointsLabel": "85/150",
+      "legends": false
+    },
+    {
+      "name": "Infernus Squad",
+      "normalizedName": "infernus squad",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 5,
+              "points": 85
+            },
+            {
+              "models": 10,
+              "points": 170
+            }
+          ]
+        }
+      ],
+      "points": 85,
+      "pointsLabel": "85/170",
+      "legends": false
+    },
+    {
+      "name": "Infiltrator Squad",
+      "normalizedName": "infiltrator squad",
+      "pricing": [
+        {
+          "range": "[1,2]",
+          "label": "Your 1st To 2nd Units Cost",
+          "costs": [
+            {
+              "models": 5,
+              "points": 110
+            },
+            {
+              "models": 10,
+              "points": 180
+            }
+          ]
+        },
+        {
+          "range": "[3,)",
+          "label": "Your 3rd + Unit Costs",
+          "costs": [
+            {
+              "models": 5,
+              "points": 120
+            },
+            {
+              "models": 10,
+              "points": 190
+            }
+          ]
+        }
+      ],
+      "points": 110,
+      "pointsLabel": "110/180",
+      "legends": false
+    },
+    {
+      "name": "Intercessor Squad",
+      "normalizedName": "intercessor squad",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 5,
+              "points": 80
+            },
+            {
+              "models": 10,
+              "points": 150
+            }
+          ]
+        }
+      ],
+      "points": 80,
+      "pointsLabel": "80/150",
+      "legends": false
+    },
+    {
+      "name": "Invader Atv",
+      "normalizedName": "invader atv",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 60
+            }
+          ]
+        }
+      ],
+      "points": 60,
+      "pointsLabel": "60",
+      "legends": false
+    },
+    {
+      "name": "Invictor Tactical Warsuit",
+      "normalizedName": "invictor tactical warsuit",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 125
+            }
+          ]
+        }
+      ],
+      "points": 125,
+      "pointsLabel": "125",
+      "legends": false
+    },
+    {
+      "name": "Iron Father Feirros",
+      "normalizedName": "iron father feirros",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 85
+            }
+          ]
+        }
+      ],
+      "points": 85,
+      "pointsLabel": "85",
+      "legends": false,
+      "role": "leader",
+      "attachTo": [
+        "Aggressor Squad",
+        "Eradicator Squad",
+        "Heavy Intercessor Squad"
+      ]
+    },
+    {
+      "name": "Ironclad Dreadnought",
+      "normalizedName": "ironclad dreadnought",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 150
+            }
+          ]
+        }
+      ],
+      "points": 150,
+      "pointsLabel": "150",
+      "legends": true
+    },
+    {
+      "name": "Javelin Attack Speeder",
+      "normalizedName": "javelin attack speeder",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 110
+            }
+          ]
+        }
+      ],
+      "points": 110,
+      "pointsLabel": "110",
+      "legends": true
+    },
+    {
+      "name": "Judiciar",
+      "normalizedName": "judiciar",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 55
+            }
+          ]
+        }
+      ],
+      "points": 55,
+      "pointsLabel": "55",
+      "legends": false,
+      "role": "leader",
+      "attachTo": [
+        "Assault Intercessor Squad",
+        "Assault Squad",
+        "Bladeguard Veteran Squad",
+        "Crusader Squad",
+        "Deathwatch Veterans",
+        "Decimus Kill Team",
+        "Fortis Kill Team",
+        "Infernus Squad",
+        "Inner Circle Companions",
+        "Intercessor Squad",
+        "Sternguard Veteran Squad",
+        "Sword Brethren Squad",
+        "Tactical Squad",
+        "Vanguard Veteran Squad"
+      ]
+    },
+    {
+      "name": "Kayvaan Shrike",
+      "normalizedName": "kayvaan shrike",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 100
+            }
+          ]
+        }
+      ],
+      "points": 100,
+      "pointsLabel": "100",
+      "legends": false,
+      "role": "leader",
+      "attachTo": [
+        "Assault Intercessors With Jump Packs",
+        "Assault Squad With Jump Packs",
+        "Vanguard Veteran Squad With Jump Packs"
+      ]
+    },
+    {
+      "name": "Kor’Sarro Khan",
+      "normalizedName": "korsarro khan",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 55
+            }
+          ]
+        }
+      ],
+      "points": 55,
+      "pointsLabel": "55",
+      "legends": false,
+      "role": "leader",
+      "attachTo": [
+        "Assault Intercessor Squad",
+        "Assault Squad",
+        "Bladeguard Veteran Squad",
+        "Command Squad",
+        "Company Heroes",
+        "Intercessor Squad",
+        "Sternguard Veteran Squad",
+        "Tactical Squad",
+        "Vanguard Veteran Squad"
+      ]
+    },
+    {
+      "name": "Kratos",
+      "normalizedName": "kratos",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 240
+            }
+          ]
+        }
+      ],
+      "points": 240,
+      "pointsLabel": "240",
+      "legends": true
+    },
+    {
+      "name": "Land Raider",
+      "normalizedName": "land raider",
+      "pricing": [
+        {
+          "range": "[1,2]",
+          "label": "Your 1st To 2nd Units Cost",
+          "costs": [
+            {
+              "models": 1,
+              "points": 220
+            }
+          ]
+        },
+        {
+          "range": "[3,)",
+          "label": "Your 3rd + Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 240
+            }
+          ]
+        }
+      ],
+      "points": 220,
+      "pointsLabel": "220",
+      "legends": false
+    },
+    {
+      "name": "Land Raider Achilles",
+      "normalizedName": "land raider achilles",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 230
+            }
+          ]
+        }
+      ],
+      "points": 230,
+      "pointsLabel": "230",
+      "legends": true
+    },
+    {
+      "name": "Land Raider Crusader",
+      "normalizedName": "land raider crusader",
+      "pricing": [
+        {
+          "range": "[1,2]",
+          "label": "Your 1st To 2nd Units Cost",
+          "costs": [
+            {
+              "models": 1,
+              "points": 220
+            }
+          ]
+        },
+        {
+          "range": "[3,)",
+          "label": "Your 3rd + Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 240
+            }
+          ]
+        }
+      ],
+      "points": 220,
+      "pointsLabel": "220",
+      "legends": false
+    },
+    {
+      "name": "Land Raider Excelsior",
+      "normalizedName": "land raider excelsior",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 250
+            }
+          ]
+        }
+      ],
+      "points": 250,
+      "pointsLabel": "250",
+      "legends": true
+    },
+    {
+      "name": "Land Raider Helios",
+      "normalizedName": "land raider helios",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 220
+            }
+          ]
+        }
+      ],
+      "points": 220,
+      "pointsLabel": "220",
+      "legends": true
+    },
+    {
+      "name": "Land Raider Prometheus",
+      "normalizedName": "land raider prometheus",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 250
+            }
+          ]
+        }
+      ],
+      "points": 250,
+      "pointsLabel": "250",
+      "legends": true
+    },
+    {
+      "name": "Land Raider Proteus",
+      "normalizedName": "land raider proteus",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 220
+            }
+          ]
+        }
+      ],
+      "points": 220,
+      "pointsLabel": "220",
+      "legends": true
+    },
+    {
+      "name": "Land Raider Redeemer",
+      "normalizedName": "land raider redeemer",
+      "pricing": [
+        {
+          "range": "[1,2]",
+          "label": "Your 1st To 2nd Units Cost",
+          "costs": [
+            {
+              "models": 1,
+              "points": 250
+            }
+          ]
+        },
+        {
+          "range": "[3,)",
+          "label": "Your 3rd + Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 270
+            }
+          ]
+        }
+      ],
+      "points": 250,
+      "pointsLabel": "250",
+      "legends": false
+    },
+    {
+      "name": "Land Speeder",
+      "normalizedName": "land speeder",
+      "pricing": [
+        {
+          "range": "[1,2]",
+          "label": "Your 1st To 2nd Units Cost",
+          "costs": [
+            {
+              "models": 1,
+              "points": 95
+            }
+          ]
+        },
+        {
+          "range": "[3,)",
+          "label": "Your 3rd + Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 105
+            }
+          ]
+        }
+      ],
+      "points": 95,
+      "pointsLabel": "95",
+      "legends": false
+    },
+    {
+      "name": "Land Speeder Storm",
+      "normalizedName": "land speeder storm",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 70
+            }
+          ]
+        }
+      ],
+      "points": 70,
+      "pointsLabel": "70",
+      "legends": true
+    },
+    {
+      "name": "Land Speeder Tempest",
+      "normalizedName": "land speeder tempest",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 95
+            }
+          ]
+        }
+      ],
+      "points": 95,
+      "pointsLabel": "95",
+      "legends": true
+    },
+    {
+      "name": "Land Speeder Tornado",
+      "normalizedName": "land speeder tornado",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 95
+            }
+          ]
+        }
+      ],
+      "points": 95,
+      "pointsLabel": "95",
+      "legends": true
+    },
+    {
+      "name": "Land Speeder Typhoon",
+      "normalizedName": "land speeder typhoon",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 100
+            }
+          ]
+        }
+      ],
+      "points": 100,
+      "pointsLabel": "100",
+      "legends": true
+    },
+    {
+      "name": "Leviathan Dreadnought",
+      "normalizedName": "leviathan dreadnought",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 160
+            }
+          ]
+        }
+      ],
+      "points": 160,
+      "pointsLabel": "160",
+      "legends": true
+    },
+    {
+      "name": "Librarian",
+      "normalizedName": "librarian",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 60
+            }
+          ]
+        }
+      ],
+      "points": 60,
+      "pointsLabel": "60",
+      "legends": false,
+      "role": "leader",
+      "attachTo": [
+        "Assault Intercessor Squad",
+        "Assault Squad",
+        "Deathwatch Veterans",
+        "Decimus Kill Team",
+        "Desolation Squad",
+        "Devastator Squad",
+        "Fortis Kill Team",
+        "Hellblaster Squad",
+        "Infernus Squad",
+        "Inner Circle Companions",
+        "Intercessor Squad",
+        "Sternguard Veteran Squad",
+        "Tactical Squad",
+        "Vanguard Veteran Squad"
+      ]
+    },
+    {
+      "name": "Librarian In Phobos Armour",
+      "normalizedName": "librarian in phobos armour",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 70
+            }
+          ]
+        }
+      ],
+      "points": 70,
+      "pointsLabel": "70",
+      "legends": false,
+      "role": "leader",
+      "attachTo": [
+        "Eliminator Squad",
+        "Incursor Squad",
+        "Infiltrator Squad",
+        "Reiver Squad",
+        "Scout Squad",
+        "Spectrus Kill Team"
+      ]
+    },
+    {
+      "name": "Librarian In Terminator Armour",
+      "normalizedName": "librarian in terminator armour",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 75
+            }
+          ]
+        }
+      ],
+      "points": 75,
+      "pointsLabel": "75",
+      "legends": false,
+      "role": "leader",
+      "attachTo": [
+        "Deathwatch Terminator Squad",
+        "Deathwing Knights",
+        "Deathwing Terminator Squad",
+        "Relic Terminator Squad",
+        "Terminator Assault Squad",
+        "Terminator Squad"
+      ]
+    },
+    {
+      "name": "Librarian On Bike",
+      "normalizedName": "librarian on bike",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 80
+            }
+          ]
+        }
+      ],
+      "points": 80,
+      "pointsLabel": "80",
+      "legends": true,
+      "role": "leader",
+      "attachTo": [
+        "Bike Squad",
+        "Company Veterans On Bikes",
+        "Outrider Squad"
+      ]
+    },
+    {
+      "name": "Librarian With Jump Pack",
+      "normalizedName": "librarian with jump pack",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 75
+            }
+          ]
+        }
+      ],
+      "points": 75,
+      "pointsLabel": "75",
+      "legends": true,
+      "role": "leader",
+      "attachTo": [
+        "Assault Squad With Jump Packs",
+        "Vanguard Veteran Squad With Jump Packs"
+      ]
+    },
+    {
+      "name": "Lieutenant",
+      "normalizedName": "lieutenant",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 45
+            }
+          ]
+        }
+      ],
+      "points": 45,
+      "pointsLabel": "45",
+      "legends": false,
+      "role": "support",
+      "attachTo": [
+        "Assault Intercessor Squad",
+        "Assault Squad",
+        "Bladeguard Veteran Squad",
+        "Command Squad",
+        "Company Heroes",
+        "Crusader Squad",
+        "Deathwatch Veterans",
+        "Decimus Kill Team",
+        "Fortis Kill Team",
+        "Hellblaster Squad",
+        "Infernus Squad",
+        "Inner Circle Companions",
+        "Intercessor Squad",
+        "Sternguard Veteran Squad",
+        "Sword Brethren Squad",
+        "Tactical Squad",
+        "Vanguard Veteran Squad"
+      ]
+    },
+    {
+      "name": "Lieutenant In Phobos Armour",
+      "normalizedName": "lieutenant in phobos armour",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 45
+            }
+          ]
+        }
+      ],
+      "points": 45,
+      "pointsLabel": "45",
+      "legends": false,
+      "role": "support",
+      "attachTo": [
+        "Incursor Squad",
+        "Infiltrator Squad",
+        "Reiver Squad",
+        "Spectrus Kill Team"
+      ]
+    },
+    {
+      "name": "Lieutenant In Reiver Armour",
+      "normalizedName": "lieutenant in reiver armour",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 45
+            }
+          ]
+        }
+      ],
+      "points": 45,
+      "pointsLabel": "45",
+      "legends": false,
+      "role": "support",
+      "attachTo": [
+        "Reiver Squad"
+      ]
+    },
+    {
+      "name": "Lieutenant With Combi-Weapon",
+      "normalizedName": "lieutenant with combi weapon",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 85
+            }
+          ]
+        }
+      ],
+      "points": 85,
+      "pointsLabel": "85",
+      "legends": false
+    },
+    {
+      "name": "Marneus Calgar In Armour Of Antilochus",
+      "normalizedName": "marneus calgar in armour of antilochus",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 140
+            }
+          ]
+        }
+      ],
+      "points": 140,
+      "pointsLabel": "140",
+      "legends": false,
+      "role": "leader",
+      "attachTo": [
+        "Aggressor Squad",
+        "Assault Intercessor Squad",
+        "Assault Squad",
+        "Bladeguard Veteran Squad",
+        "Command Squad",
+        "Company Heroes",
+        "Eradicator Squad",
+        "Heavy Intercessor Squad",
+        "Infernus Squad",
+        "Intercessor Squad",
+        "Relic Terminator Squad",
+        "Sternguard Veteran Squad",
+        "Tactical Squad",
+        "Terminator Assault Squad",
+        "Terminator Squad",
+        "Vanguard Veteran Squad",
+        "Victrix Honour Guard"
+      ]
+    },
+    {
+      "name": "Mastodon",
+      "normalizedName": "mastodon",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 540
+            }
+          ]
+        }
+      ],
+      "points": 540,
+      "pointsLabel": "540",
+      "legends": true
+    },
+    {
+      "name": "Mortis Dreadnought",
+      "normalizedName": "mortis dreadnought",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 130
+            }
+          ]
+        }
+      ],
+      "points": 130,
+      "pointsLabel": "130",
+      "legends": true
+    },
+    {
+      "name": "Outrider Squad",
+      "normalizedName": "outrider squad",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 3,
+              "points": 70
+            },
+            {
+              "models": 6,
+              "points": 140
+            },
+            {
+              "models": 1,
+              "points": 60,
+              "desc": "Invader ATV",
+              "addon": true
+            }
+          ]
+        }
+      ],
+      "points": 70,
+      "pointsLabel": "70/140/60",
+      "legends": false
+    },
+    {
+      "name": "Pedro Kantor",
+      "normalizedName": "pedro kantor",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 80
+            }
+          ]
+        }
+      ],
+      "points": 80,
+      "pointsLabel": "80",
+      "legends": false,
+      "role": "leader",
+      "attachTo": [
+        "Bladeguard Veteran Squad",
+        "Command Squad",
+        "Company Heroes",
+        "Sternguard Veteran Squad",
+        "Tactical Squad"
+      ]
+    },
+    {
+      "name": "Predator Annihilator",
+      "normalizedName": "predator annihilator",
+      "pricing": [
+        {
+          "range": "[1,2]",
+          "label": "Your 1st To 2nd Units Cost",
+          "costs": [
+            {
+              "models": 1,
+              "points": 135
+            }
+          ]
+        },
+        {
+          "range": "[3,)",
+          "label": "Your 3rd + Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 145
+            }
+          ]
+        }
+      ],
+      "points": 135,
+      "pointsLabel": "135",
+      "legends": false
+    },
+    {
+      "name": "Predator Destructor",
+      "normalizedName": "predator destructor",
+      "pricing": [
+        {
+          "range": "[1,2]",
+          "label": "Your 1st To 2nd Units Cost",
+          "costs": [
+            {
+              "models": 1,
+              "points": 140
+            }
+          ]
+        },
+        {
+          "range": "[3,)",
+          "label": "Your 3rd + Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 150
+            }
+          ]
+        }
+      ],
+      "points": 140,
+      "pointsLabel": "140",
+      "legends": false
+    },
+    {
+      "name": "Primaris Company Champion",
+      "normalizedName": "primaris company champion",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 55
+            }
+          ]
+        }
+      ],
+      "points": 55,
+      "pointsLabel": "55",
+      "legends": true,
+      "role": "support",
+      "attachTo": [
+        "Assault Intercessor Squad",
+        "Assault Squad",
+        "Bladeguard Veteran Squad",
+        "Infernus Squad",
+        "Intercessor Squad",
+        "Sternguard Veteran Squad",
+        "Vanguard Veteran Squad"
+      ]
+    },
+    {
+      "name": "Rapier Carrier",
+      "normalizedName": "rapier carrier",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 90
+            }
+          ]
+        }
+      ],
+      "points": 90,
+      "pointsLabel": "90",
+      "legends": true
+    },
+    {
+      "name": "Razorback",
+      "normalizedName": "razorback",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 95
+            }
+          ]
+        }
+      ],
+      "points": 95,
+      "pointsLabel": "95",
+      "legends": false
+    },
+    {
+      "name": "Redemptor Dreadnought",
+      "normalizedName": "redemptor dreadnought",
+      "pricing": [
+        {
+          "range": "[1,2]",
+          "label": "Your 1st To 2nd Units Cost",
+          "costs": [
+            {
+              "models": 1,
+              "points": 195
+            }
+          ]
+        },
+        {
+          "range": "[3,)",
+          "label": "Your 3rd + Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 210
+            }
+          ]
+        }
+      ],
+      "points": 195,
+      "pointsLabel": "195",
+      "legends": false
+    },
+    {
+      "name": "Reiver Squad",
+      "normalizedName": "reiver squad",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 5,
+              "points": 75
+            },
+            {
+              "models": 10,
+              "points": 150
+            }
+          ]
+        }
+      ],
+      "points": 75,
+      "pointsLabel": "75/150",
+      "legends": false
+    },
+    {
+      "name": "Relic Contemptor Dreadnought",
+      "normalizedName": "relic contemptor dreadnought",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 140
+            }
+          ]
+        }
+      ],
+      "points": 140,
+      "pointsLabel": "140",
+      "legends": true
+    },
+    {
+      "name": "Relic Razorback",
+      "normalizedName": "relic razorback",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 105
+            }
+          ]
+        }
+      ],
+      "points": 105,
+      "pointsLabel": "105",
+      "legends": true
+    },
+    {
+      "name": "Relic Terminator Squad",
+      "normalizedName": "relic terminator squad",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 5,
+              "points": 200
+            },
+            {
+              "models": 10,
+              "points": 400
+            }
+          ]
+        }
+      ],
+      "points": 200,
+      "pointsLabel": "200/400",
+      "legends": true
+    },
+    {
+      "name": "Repulsor",
+      "normalizedName": "repulsor",
+      "pricing": [
+        {
+          "range": "[1,2]",
+          "label": "Your 1st To 2nd Units Cost",
+          "costs": [
+            {
+              "models": 1,
+              "points": 170
+            }
+          ]
+        },
+        {
+          "range": "[3,)",
+          "label": "Your 3rd + Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 190
+            }
+          ]
+        }
+      ],
+      "points": 170,
+      "pointsLabel": "170",
+      "legends": false
+    },
+    {
+      "name": "Repulsor Executioner",
+      "normalizedName": "repulsor executioner",
+      "pricing": [
+        {
+          "range": "[1,2]",
+          "label": "Your 1st To 2nd Units Cost",
+          "costs": [
+            {
+              "models": 1,
+              "points": 240
+            }
+          ]
+        },
+        {
+          "range": "[3,)",
+          "label": "Your 3rd + Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 260
+            }
+          ]
+        }
+      ],
+      "points": 240,
+      "pointsLabel": "240",
+      "legends": false
+    },
+    {
+      "name": "Rhino",
+      "normalizedName": "rhino",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 75
+            }
+          ]
+        }
+      ],
+      "points": 75,
+      "pointsLabel": "75",
+      "legends": false
+    },
+    {
+      "name": "Rhino Primaris",
+      "normalizedName": "rhino primaris",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 95
+            }
+          ]
+        }
+      ],
+      "points": 95,
+      "pointsLabel": "95",
+      "legends": true
+    },
+    {
+      "name": "Roboute Guilliman",
+      "normalizedName": "roboute guilliman",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 340
+            }
+          ]
+        }
+      ],
+      "points": 340,
+      "pointsLabel": "340",
+      "legends": false
+    },
+    {
+      "name": "Scout Bike Squad",
+      "normalizedName": "scout bike squad",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 3,
+              "points": 75
+            },
+            {
+              "models": 6,
+              "points": 150
+            }
+          ]
+        }
+      ],
+      "points": 75,
+      "pointsLabel": "75/150",
+      "legends": true
+    },
+    {
+      "name": "Scout Sniper Squad",
+      "normalizedName": "scout sniper squad",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 5,
+              "points": 75
+            },
+            {
+              "models": 10,
+              "points": 150
+            }
+          ]
+        }
+      ],
+      "points": 75,
+      "pointsLabel": "75/150",
+      "legends": true
+    },
+    {
+      "name": "Scout Squad",
+      "normalizedName": "scout squad",
+      "pricing": [
+        {
+          "range": "[1,2]",
+          "label": "Your 1st To 2nd Units Cost",
+          "costs": [
+            {
+              "models": 5,
+              "points": 65
+            },
+            {
+              "models": 10,
+              "points": 120
+            }
+          ]
+        },
+        {
+          "range": "[3,)",
+          "label": "Your 3rd + Unit Costs",
+          "costs": [
+            {
+              "models": 5,
+              "points": 75
+            },
+            {
+              "models": 10,
+              "points": 130
+            }
+          ]
+        }
+      ],
+      "points": 65,
+      "pointsLabel": "65/120",
+      "legends": false
+    },
+    {
+      "name": "Sergeant Chronus",
+      "normalizedName": "sergeant chronus",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 75
+            }
+          ]
+        }
+      ],
+      "points": 75,
+      "pointsLabel": "75",
+      "legends": true
+    },
+    {
+      "name": "Sergeant Telion",
+      "normalizedName": "sergeant telion",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 70
+            }
+          ]
+        }
+      ],
+      "points": 70,
+      "pointsLabel": "70",
+      "legends": true,
+      "role": "leader",
+      "attachTo": [
+        "Scout Sniper Squad",
+        "Scout Squad"
+      ]
+    },
+    {
+      "name": "Sicaran Arcus",
+      "normalizedName": "sicaran arcus",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 160
+            }
+          ]
+        }
+      ],
+      "points": 160,
+      "pointsLabel": "160",
+      "legends": true
+    },
+    {
+      "name": "Sicaran Battle Tank",
+      "normalizedName": "sicaran battle tank",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 160
+            }
+          ]
+        }
+      ],
+      "points": 160,
+      "pointsLabel": "160",
+      "legends": true
+    },
+    {
+      "name": "Sicaran Omega",
+      "normalizedName": "sicaran omega",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 180
+            }
+          ]
+        }
+      ],
+      "points": 180,
+      "pointsLabel": "180",
+      "legends": true
+    },
+    {
+      "name": "Sicaran Punisher",
+      "normalizedName": "sicaran punisher",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 160
+            }
+          ]
+        }
+      ],
+      "points": 160,
+      "pointsLabel": "160",
+      "legends": true
+    },
+    {
+      "name": "Sicaran Venator",
+      "normalizedName": "sicaran venator",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 180
+            }
+          ]
+        }
+      ],
+      "points": 180,
+      "pointsLabel": "180",
+      "legends": true
+    },
+    {
+      "name": "Sokar-Pattern Stormbird",
+      "normalizedName": "sokar pattern stormbird",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 900
+            }
+          ]
+        }
+      ],
+      "points": 900,
+      "pointsLabel": "900",
+      "legends": true
+    },
+    {
+      "name": "Spartan",
+      "normalizedName": "spartan",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 300
+            }
+          ]
+        }
+      ],
+      "points": 300,
+      "pointsLabel": "300",
+      "legends": true
+    },
+    {
+      "name": "Stalker",
+      "normalizedName": "stalker",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 140
+            }
+          ]
+        }
+      ],
+      "points": 140,
+      "pointsLabel": "140",
+      "legends": true
+    },
+    {
+      "name": "Sternguard Veteran Squad",
+      "normalizedName": "sternguard veteran squad",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 5,
+              "points": 100
+            },
+            {
+              "models": 10,
+              "points": 190
+            }
+          ]
+        }
+      ],
+      "points": 100,
+      "pointsLabel": "100/190",
+      "legends": false
+    },
+    {
+      "name": "Storm Eagle Gunship",
+      "normalizedName": "storm eagle gunship",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 250
+            }
+          ]
+        }
+      ],
+      "points": 250,
+      "pointsLabel": "250",
+      "legends": true
+    },
+    {
+      "name": "Storm Speeder Hailstrike",
+      "normalizedName": "storm speeder hailstrike",
+      "pricing": [
+        {
+          "range": "[1,2]",
+          "label": "Your 1st To 2nd Units Cost",
+          "costs": [
+            {
+              "models": 1,
+              "points": 105
+            }
+          ]
+        },
+        {
+          "range": "[3,)",
+          "label": "Your 3rd + Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 115
+            }
+          ]
+        }
+      ],
+      "points": 105,
+      "pointsLabel": "105",
+      "legends": false
+    },
+    {
+      "name": "Storm Speeder Hammerstrike",
+      "normalizedName": "storm speeder hammerstrike",
+      "pricing": [
+        {
+          "range": "[1,2]",
+          "label": "Your 1st To 2nd Units Cost",
+          "costs": [
+            {
+              "models": 1,
+              "points": 130
+            }
+          ]
+        },
+        {
+          "range": "[3,)",
+          "label": "Your 3rd + Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 140
+            }
+          ]
+        }
+      ],
+      "points": 130,
+      "pointsLabel": "130",
+      "legends": false
+    },
+    {
+      "name": "Storm Speeder Thunderstrike",
+      "normalizedName": "storm speeder thunderstrike",
+      "pricing": [
+        {
+          "range": "[1,2]",
+          "label": "Your 1st To 2nd Units Cost",
+          "costs": [
+            {
+              "models": 1,
+              "points": 135
+            }
+          ]
+        },
+        {
+          "range": "[3,)",
+          "label": "Your 3rd + Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 145
+            }
+          ]
+        }
+      ],
+      "points": 135,
+      "pointsLabel": "135",
+      "legends": false
+    },
+    {
+      "name": "Stormhawk Interceptor",
+      "normalizedName": "stormhawk interceptor",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 155
+            }
+          ]
+        }
+      ],
+      "points": 155,
+      "pointsLabel": "155",
+      "legends": false
+    },
+    {
+      "name": "Stormraven Gunship",
+      "normalizedName": "stormraven gunship",
+      "pricing": [
+        {
+          "range": "[1,1]",
+          "label": "Your 1st Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 280
+            }
+          ]
+        },
+        {
+          "range": "[2,)",
+          "label": "Your 2nd + Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 300
+            }
+          ]
+        }
+      ],
+      "points": 280,
+      "pointsLabel": "280",
+      "legends": false
+    },
+    {
+      "name": "Stormtalon Gunship",
+      "normalizedName": "stormtalon gunship",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 165
+            }
+          ]
+        }
+      ],
+      "points": 165,
+      "pointsLabel": "165",
+      "legends": false
+    },
+    {
+      "name": "Suboden Khan",
+      "normalizedName": "suboden khan",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 100
+            }
+          ]
+        }
+      ],
+      "points": 100,
+      "pointsLabel": "100",
+      "legends": false,
+      "role": "leader",
+      "attachTo": [
+        "Bike Squad",
+        "Company Veterans On Bikes",
+        "Outrider Squad"
+      ]
+    },
+    {
+      "name": "Suppressor Squad",
+      "normalizedName": "suppressor squad",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 3,
+              "points": 75
+            }
+          ]
+        }
+      ],
+      "points": 75,
+      "pointsLabel": "75",
+      "legends": false
+    },
+    {
+      "name": "Tactical Squad",
+      "normalizedName": "tactical squad",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 10,
+              "points": 140
+            }
+          ]
+        }
+      ],
+      "points": 140,
+      "pointsLabel": "140",
+      "legends": false
+    },
+    {
+      "name": "Tarantula Air Defence Battery",
+      "normalizedName": "tarantula air defence battery",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 70
+            }
+          ]
+        }
+      ],
+      "points": 70,
+      "pointsLabel": "70",
+      "legends": true
+    },
+    {
+      "name": "Tarantula Sentry Battery",
+      "normalizedName": "tarantula sentry battery",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 30
+            },
+            {
+              "models": 2,
+              "points": 60
+            },
+            {
+              "models": 3,
+              "points": 90
+            }
+          ]
+        }
+      ],
+      "points": 30,
+      "pointsLabel": "30/60/90",
+      "legends": true
+    },
+    {
+      "name": "Techmarine",
+      "normalizedName": "techmarine",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 55
+            }
+          ]
+        }
+      ],
+      "points": 55,
+      "pointsLabel": "55",
+      "legends": false,
+      "role": "leader",
+      "attachTo": [
+        "Assault Intercessor Squad",
+        "Assault Squad",
+        "Crusader Squad",
+        "Decimus Kill Team",
+        "Desolation Squad",
+        "Devastator Squad",
+        "Fortis Kill Team",
+        "Intercessor Squad",
+        "Sword Brethren Squad",
+        "Tactical Squad",
+        "Vanguard Veteran Squad"
+      ]
+    },
+    {
+      "name": "Techmarine On Bike",
+      "normalizedName": "techmarine on bike",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 110
+            }
+          ]
+        }
+      ],
+      "points": 110,
+      "pointsLabel": "110",
+      "legends": true,
+      "role": "support",
+      "attachTo": [
+        "Bike Squad",
+        "Company Veterans On Bikes",
+        "Outrider Squad"
+      ]
+    },
+    {
+      "name": "Terminator Assault Squad",
+      "normalizedName": "terminator assault squad",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 5,
+              "points": 155
+            },
+            {
+              "models": 10,
+              "points": 310
+            }
+          ]
+        }
+      ],
+      "points": 155,
+      "pointsLabel": "155/310",
+      "legends": false
+    },
+    {
+      "name": "Terminator Squad",
+      "normalizedName": "terminator squad",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 5,
+              "points": 160
+            },
+            {
+              "models": 10,
+              "points": 320
+            }
+          ]
+        }
+      ],
+      "points": 160,
+      "pointsLabel": "160/320",
+      "legends": false
+    },
+    {
+      "name": "Terminus Ultra",
+      "normalizedName": "terminus ultra",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 285
+            }
+          ]
+        }
+      ],
+      "points": 285,
+      "pointsLabel": "285",
+      "legends": true
+    },
+    {
+      "name": "Terrax-Pattern Termite",
+      "normalizedName": "terrax pattern termite",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 200
+            }
+          ]
+        }
+      ],
+      "points": 200,
+      "pointsLabel": "200",
+      "legends": true
+    },
+    {
+      "name": "Thunderfire Cannon",
+      "normalizedName": "thunderfire cannon",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 2,
+              "points": 90
+            }
+          ]
+        }
+      ],
+      "points": 90,
+      "pointsLabel": "90",
+      "legends": true
+    },
+    {
+      "name": "Thunderhawk Gunship",
+      "normalizedName": "thunderhawk gunship",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 840
+            }
+          ]
+        }
+      ],
+      "points": 840,
+      "pointsLabel": "840",
+      "legends": false
+    },
+    {
+      "name": "Thunderhawk Transporter",
+      "normalizedName": "thunderhawk transporter",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 495
+            }
+          ]
+        }
+      ],
+      "points": 495,
+      "pointsLabel": "495",
+      "legends": true
+    },
+    {
+      "name": "Tor Garadon",
+      "normalizedName": "tor garadon",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 80
+            }
+          ]
+        }
+      ],
+      "points": 80,
+      "pointsLabel": "80",
+      "legends": false,
+      "role": "leader",
+      "attachTo": [
+        "Aggressor Squad",
+        "Eradicator Squad",
+        "Heavy Intercessor Squad"
+      ]
+    },
+    {
+      "name": "Typhon",
+      "normalizedName": "typhon",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 320
+            }
+          ]
+        }
+      ],
+      "points": 320,
+      "pointsLabel": "320",
+      "legends": true
+    },
+    {
+      "name": "Tyrannic War Veterans",
+      "normalizedName": "tyrannic war veterans",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 5,
+              "points": 85
+            }
+          ]
+        }
+      ],
+      "points": 85,
+      "pointsLabel": "85",
+      "legends": true
+    },
+    {
+      "name": "Uriel Ventris",
+      "normalizedName": "uriel ventris",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 95
+            }
+          ]
+        }
+      ],
+      "points": 95,
+      "pointsLabel": "95",
+      "legends": false,
+      "role": "leader",
+      "attachTo": [
+        "Assault Intercessor Squad",
+        "Assault Squad",
+        "Bladeguard Veteran Squad",
+        "Command Squad",
+        "Company Heroes",
+        "Intercessor Squad",
+        "Sternguard Veteran Squad",
+        "Tactical Squad",
+        "Vanguard Veteran Squad"
+      ]
+    },
+    {
+      "name": "Vanguard Veteran Squad",
+      "normalizedName": "vanguard veteran squad",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 5,
+              "points": 120
+            },
+            {
+              "models": 10,
+              "points": 240
+            }
+          ]
+        }
+      ],
+      "points": 120,
+      "pointsLabel": "120/240",
+      "legends": true
+    },
+    {
+      "name": "Vanguard Veteran Squad With Jump Packs",
+      "normalizedName": "vanguard veteran squad with jump packs",
+      "pricing": [
+        {
+          "range": "[1,2]",
+          "label": "Your 1st To 2nd Units Cost",
+          "costs": [
+            {
+              "models": 5,
+              "points": 100
+            },
+            {
+              "models": 10,
+              "points": 200
+            }
+          ]
+        },
+        {
+          "range": "[3,)",
+          "label": "Your 3rd + Unit Costs",
+          "costs": [
+            {
+              "models": 5,
+              "points": 110
+            },
+            {
+              "models": 10,
+              "points": 210
+            }
+          ]
+        }
+      ],
+      "points": 100,
+      "pointsLabel": "100/200",
+      "legends": false
+    },
+    {
+      "name": "Venerable Dreadnought",
+      "normalizedName": "venerable dreadnought",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 165
+            }
+          ]
+        }
+      ],
+      "points": 165,
+      "pointsLabel": "165",
+      "legends": true
+    },
+    {
+      "name": "Victrix Honour Guard",
+      "normalizedName": "victrix honour guard",
+      "pricing": [
+        {
+          "range": "[1,1]",
+          "label": "Your 1st Unit Costs",
+          "costs": [
+            {
+              "models": 3,
+              "points": 110
+            },
+            {
+              "models": 6,
+              "points": 220
+            }
+          ]
+        },
+        {
+          "range": "[2,)",
+          "label": "Your 2nd + Unit Costs",
+          "costs": [
+            {
+              "models": 3,
+              "points": 130
+            },
+            {
+              "models": 6,
+              "points": 240
+            }
+          ]
+        }
+      ],
+      "points": 110,
+      "pointsLabel": "110/220",
+      "legends": false
+    },
+    {
+      "name": "Vindicator",
+      "normalizedName": "vindicator",
+      "pricing": [
+        {
+          "range": "[1,2]",
+          "label": "Your 1st To 2nd Units Cost",
+          "costs": [
+            {
+              "models": 1,
+              "points": 185
+            }
+          ]
+        },
+        {
+          "range": "[3,)",
+          "label": "Your 3rd + Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 200
+            }
+          ]
+        }
+      ],
+      "points": 185,
+      "pointsLabel": "185",
+      "legends": false
+    },
+    {
+      "name": "Vindicator Laser Destroyer",
+      "normalizedName": "vindicator laser destroyer",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 175
+            }
+          ]
+        }
+      ],
+      "points": 175,
+      "pointsLabel": "175",
+      "legends": true
+    },
+    {
+      "name": "Vulkan He’Stan",
+      "normalizedName": "vulkan hestan",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 85
+            }
+          ]
+        }
+      ],
+      "points": 85,
+      "pointsLabel": "85",
+      "legends": false,
+      "role": "leader",
+      "attachTo": [
+        "Assault Intercessor Squad",
+        "Assault Squad",
+        "Command Squad",
+        "Company Heroes",
+        "Infernus Squad",
+        "Tactical Squad",
+        "Vanguard Veteran Squad"
+      ]
+    },
+    {
+      "name": "Wardens Of Ultramar",
+      "normalizedName": "wardens of ultramar",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 6,
+              "points": 110
+            }
+          ]
+        }
+      ],
+      "points": 110,
+      "pointsLabel": "110",
+      "legends": false,
+      "role": "support",
+      "attachTo": [
+        "Assault Intercessor Squad",
+        "Assault Squad",
+        "Bladeguard Veteran Squad",
+        "Intercessor Squad",
+        "Sternguard Veteran Squad",
+        "Vanguard Veteran Squad"
+      ]
+    },
+    {
+      "name": "Whirlwind",
+      "normalizedName": "whirlwind",
+      "pricing": [
+        {
+          "range": "[1,1]",
+          "label": "Your 1st Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 175
+            }
+          ]
+        },
+        {
+          "range": "[2,)",
+          "label": "Your 2nd + Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 195
+            }
+          ]
+        }
+      ],
+      "points": 175,
+      "pointsLabel": "175",
+      "legends": false
+    },
+    {
+      "name": "Whirlwind Scorpius",
+      "normalizedName": "whirlwind scorpius",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 115
+            }
+          ]
+        }
+      ],
+      "points": 115,
+      "pointsLabel": "115",
+      "legends": true
+    },
+    {
+      "name": "Xiphon Interceptor",
+      "normalizedName": "xiphon interceptor",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 115
+            }
+          ]
+        }
+      ],
+      "points": 115,
+      "pointsLabel": "115",
+      "legends": true
+    }
+  ]
+}

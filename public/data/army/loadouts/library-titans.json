@@ -1,0 +1,305 @@
+{
+  "8eb5-a990-6eb0-9b41": {
+    "groups": [
+      {
+        "id": "073f-b834-4bb7-983c",
+        "name": "Wargear",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "f263-a026-6b8a-9ccb",
+            "name": "Warhound feet",
+            "min": 1,
+            "max": 1
+          }
+        ],
+        "groups": [
+          {
+            "id": "67aa-cbe0-95c0-673f",
+            "name": "Weapons",
+            "min": 2,
+            "max": 2,
+            "mode": "count",
+            "options": [
+              {
+                "id": "6b81-c1fe-9fec-803f",
+                "name": "Warhound vulcan mega-bolter",
+                "min": 1,
+                "max": 2
+              },
+              {
+                "id": "5f9e-bc47-6590-f83a",
+                "name": "Warhound inferno gun",
+                "min": 0,
+                "max": 2
+              },
+              {
+                "id": "ad16-60c0-a420-4295",
+                "name": "Warhound plasma blastgun",
+                "min": 1,
+                "max": 2
+              },
+              {
+                "id": "edca-c231-b8ed-93ff",
+                "name": "Warhound turbo-laser destructor",
+                "min": 0,
+                "max": 2
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "b7e8-f3ae-be53-9ba5": {
+    "groups": [
+      {
+        "id": "9bab-d72b-c7bd-96c0",
+        "name": "Wargear",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "775-8e7f-a4eb-e4e",
+            "name": "Reaver feet",
+            "min": 1,
+            "max": 1
+          },
+          {
+            "id": "8abb-ddaf-f190-e721",
+            "name": "Reaver apocalypse launcher",
+            "min": 1,
+            "max": 1
+          }
+        ],
+        "groups": [
+          {
+            "id": "c009-c6dd-bfe2-f61f",
+            "name": "Weapons",
+            "min": 2,
+            "max": 2,
+            "mode": "count",
+            "options": [
+              {
+                "id": "2545-b5ae-cee8-9563",
+                "name": "Reaver gatling blaster",
+                "min": 1,
+                "max": 2
+              },
+              {
+                "id": "2017-e76f-d8fe-434e",
+                "name": "Reaver laser blaster",
+                "min": 1,
+                "max": 2
+              },
+              {
+                "id": "fce9-1859-d02-e0b6",
+                "name": "Reaver melta cannon",
+                "min": 0,
+                "max": 2
+              },
+              {
+                "id": "8cec-19a1-6e8d-90d2",
+                "name": "Reaver volcano cannon",
+                "min": 0,
+                "max": 2
+              },
+              {
+                "id": "1f9c-1176-b34c-540e",
+                "name": "Reaver power fist",
+                "min": 0,
+                "max": 1
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "8e6f-4e09-12d5-fafd": {
+    "groups": [
+      {
+        "id": "30eb-02c8-78f2-8361",
+        "name": "Wargear",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "53a4-e5ee-1fcd-b185",
+            "name": "Anvillus defence battery",
+            "min": 2,
+            "max": 2
+          },
+          {
+            "id": "a867-ddd1-9352-ffe5",
+            "name": "Ardex-defensor mauler",
+            "min": 3,
+            "max": 3
+          },
+          {
+            "id": "d768-cb23-5cf0-b58",
+            "name": "Nemesis feet",
+            "min": 1,
+            "max": 1
+          }
+        ],
+        "groups": [
+          {
+            "id": "8273-ddc7-1bea-6028",
+            "name": "Nemesis weapon",
+            "min": 1,
+            "max": 1,
+            "mode": "single",
+            "options": [
+              {
+                "id": "63ef-9709-7202-59a2",
+                "name": "Nemesis quake cannon",
+                "min": 0,
+                "max": 99
+              },
+              {
+                "id": "ef9a-353f-e5d7-9b42",
+                "name": "Nemesis volcano cannon",
+                "min": 0,
+                "max": 99
+              }
+            ],
+            "defaultOptionId": "63ef-9709-7202-59a2"
+          },
+          {
+            "id": "b8fa-acab-2bbd-df6d",
+            "name": "Weapons",
+            "min": 2,
+            "max": 2,
+            "mode": "count",
+            "options": [
+              {
+                "id": "beb7-2dd8-7fe5-aef4",
+                "name": "Reaver gatling blaster",
+                "min": 1,
+                "max": 2
+              },
+              {
+                "id": "4e4a-a537-9256-1fce",
+                "name": "Reaver laser blaster",
+                "min": 1,
+                "max": 2
+              },
+              {
+                "id": "5543-60ce-38f2-fd21",
+                "name": "Reaver melta cannon",
+                "min": 0,
+                "max": 2
+              },
+              {
+                "id": "dfbf-f81d-55a4-58d6",
+                "name": "Reaver volcano cannon",
+                "min": 0,
+                "max": 2
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "eafa-cd47-1c2f-61ee": {
+    "groups": [
+      {
+        "id": "b4b1-10b8-0941-97d0",
+        "name": "Wargear",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "a9c2-75a5-2fa0-3931",
+            "name": "Ardex-defensor lascannon",
+            "min": 2,
+            "max": 2
+          },
+          {
+            "id": "b401-e028-679b-7db3",
+            "name": "Ardex-defensor mauler",
+            "min": 2,
+            "max": 2
+          },
+          {
+            "id": "24ac-fd65-ee84-8e72",
+            "name": "Warlord feet",
+            "min": 1,
+            "max": 1
+          }
+        ],
+        "groups": [
+          {
+            "id": "bebc-1c05-79ee-864",
+            "name": "Main weapons",
+            "min": 2,
+            "max": 2,
+            "mode": "count",
+            "options": [
+              {
+                "id": "49e4-a425-ec23-ec3d",
+                "name": "Arioch power claw",
+                "min": 0,
+                "max": 2
+              },
+              {
+                "id": "3fdd-684e-3fd3-f143",
+                "name": "Belicosa volcano cannon",
+                "min": 0,
+                "max": 2
+              },
+              {
+                "id": "ab37-e894-cd2c-7c7e",
+                "name": "Macro gatling blaster",
+                "min": 1,
+                "max": 2
+              },
+              {
+                "id": "8844-c4a-80cc-2acc",
+                "name": "Mori quake cannon",
+                "min": 0,
+                "max": 2
+              },
+              {
+                "id": "403d-7cf-5147-cdb2",
+                "name": "Sunfury plasma annihilator",
+                "min": 0,
+                "max": 2
+              }
+            ],
+            "defaultOptionId": "49e4-a425-ec23-ec3d"
+          },
+          {
+            "id": "9428-40c9-d286-72ea",
+            "name": "Carapace weapons",
+            "min": 1,
+            "max": 1,
+            "mode": "single",
+            "options": [
+              {
+                "id": "e409-db1a-6a8-8b52",
+                "name": "Two apocalypse launchers",
+                "min": 0,
+                "max": 99
+              },
+              {
+                "id": "e628-d98c-6924-a2f3",
+                "name": "Two laser blasters",
+                "min": 0,
+                "max": 99
+              }
+            ],
+            "defaultOptionId": "e409-db1a-6a8-8b52"
+          }
+        ]
+      }
+    ]
+  }
+}

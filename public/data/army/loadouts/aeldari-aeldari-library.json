@@ -1,0 +1,4503 @@
+{
+  "69f4-c990-93b4-20fc": {
+    "groups": [
+      {
+        "id": "f50d-07e6-8d6a-463d",
+        "name": "Wargear",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "2537-a3f7-8ebb-35ba",
+            "name": "Close Combat Weapon",
+            "min": 1,
+            "max": 1
+          },
+          {
+            "id": "f4a1-5619-60c0-687b",
+            "name": "Twin Shuriken Catapult",
+            "min": 1,
+            "max": 1
+          }
+        ],
+        "groups": [
+          {
+            "id": "d3c7-7e5f-d1cd-41a5",
+            "name": "Weapon",
+            "min": 1,
+            "max": 1,
+            "mode": "single",
+            "options": [
+              {
+                "id": "8ea9-ab75-fa19-5b4e",
+                "name": "Laser Lance",
+                "min": 0,
+                "max": 99
+              },
+              {
+                "id": "918a-3ccd-8c9e-383",
+                "name": "Dragon Fusion Gun",
+                "min": 0,
+                "max": 99
+              },
+              {
+                "id": "aae6-9569-c184-ee3f",
+                "name": "Banshee Blade",
+                "min": 0,
+                "max": 99
+              }
+            ],
+            "defaultOptionId": "8ea9-ab75-fa19-5b4e"
+          }
+        ]
+      }
+    ]
+  },
+  "df57-7a59-75eb-ce63": {
+    "groups": [
+      {
+        "id": "0ceb-2441-5ce9-5498",
+        "name": "Wargear",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [],
+        "groups": [
+          {
+            "id": "e806-2606-2d7-fa1",
+            "name": "Melee Weapon",
+            "min": 1,
+            "max": 1,
+            "mode": "single",
+            "options": [
+              {
+                "id": "b534-3dde-6974-87a5",
+                "name": "Scorpion Chainsword",
+                "min": 0,
+                "max": 99
+              },
+              {
+                "id": "eb07-6a39-316f-5d2b",
+                "name": "Banshee Blade",
+                "min": 0,
+                "max": 99
+              },
+              {
+                "id": "6326-e0ab-5426-6e5a",
+                "name": "Star Glaive",
+                "min": 0,
+                "max": 99
+              }
+            ],
+            "defaultOptionId": "6326-e0ab-5426-6e5a"
+          },
+          {
+            "id": "885b-ad55-1e0e-7394",
+            "name": "Ranged Weapon",
+            "min": 1,
+            "max": 1,
+            "mode": "single",
+            "options": [
+              {
+                "id": "d375-c25d-432e-f5de",
+                "name": "Shuriken Pistol",
+                "min": 0,
+                "max": 99
+              },
+              {
+                "id": "5f2-fb85-4d47-c0df",
+                "name": "Reaper Launcher",
+                "min": 0,
+                "max": 99
+              },
+              {
+                "id": "fd0e-9e5b-16de-b990",
+                "name": "Death Spinner",
+                "min": 0,
+                "max": 99
+              },
+              {
+                "id": "5436-59f0-b6be-d105",
+                "name": "Dragon Fusion Gun",
+                "min": 0,
+                "max": 99
+              },
+              {
+                "id": "137b-741-a9f7-89b4",
+                "name": "Dragon Fusion Pistol",
+                "min": 0,
+                "max": 99
+              }
+            ],
+            "defaultOptionId": "d375-c25d-432e-f5de"
+          }
+        ]
+      }
+    ]
+  },
+  "497a-263e-966a-5a15": {
+    "groups": [
+      {
+        "id": "f500-331d-f02a-b9ee",
+        "name": "Wargear",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [],
+        "groups": [
+          {
+            "id": "e023-13e2-5322-189",
+            "name": "Melee Weapon",
+            "min": 1,
+            "max": 1,
+            "mode": "single",
+            "options": [
+              {
+                "id": "3430-30eb-6ee6-2cf1",
+                "name": "Scorpion Chainsword",
+                "min": 0,
+                "max": 99
+              },
+              {
+                "id": "c7e4-a053-858-d09d",
+                "name": "Banshee Blade",
+                "min": 0,
+                "max": 99
+              },
+              {
+                "id": "9a6f-24c0-34ee-abd",
+                "name": "Star Glaive",
+                "min": 0,
+                "max": 99
+              }
+            ],
+            "defaultOptionId": "9a6f-24c0-34ee-abd"
+          },
+          {
+            "id": "5388-5ebd-fd74-4676",
+            "name": "Ranged Weapon",
+            "min": 1,
+            "max": 1,
+            "mode": "single",
+            "options": [
+              {
+                "id": "5656-926a-5282-4036",
+                "name": "Shuriken Pistol",
+                "min": 0,
+                "max": 99
+              },
+              {
+                "id": "8137-6ea8-acec-70cf",
+                "name": "Reaper Launcher",
+                "min": 0,
+                "max": 99
+              },
+              {
+                "id": "d98a-89b4-448f-7008",
+                "name": "Death Spinner",
+                "min": 0,
+                "max": 99
+              },
+              {
+                "id": "938c-c100-9371-dced",
+                "name": "Dragon Fusion Gun",
+                "min": 0,
+                "max": 99
+              },
+              {
+                "id": "37e4-bf88-7f76-2710",
+                "name": "Dragon Fusion Pistol",
+                "min": 0,
+                "max": 99
+              }
+            ],
+            "defaultOptionId": "5656-926a-5282-4036"
+          }
+        ]
+      }
+    ]
+  },
+  "90c9-aaac-5ef8-f043": {
+    "groups": [
+      {
+        "id": "5f07-9f16-64f3-1ef3",
+        "name": "Wargear",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "e8b5-20aa-b1db-d67",
+            "name": "Pulse Laser",
+            "min": 1,
+            "max": 1
+          },
+          {
+            "id": "69d8-4688-5098-a4ba",
+            "name": "Wraithbone Hull",
+            "min": 1,
+            "max": 1
+          }
+        ],
+        "groups": [
+          {
+            "id": "371a-a8b-ff14-304b",
+            "name": "Weapon Option",
+            "min": 1,
+            "max": 1,
+            "mode": "single",
+            "options": [
+              {
+                "id": "a333-ffe0-66ef-d64f",
+                "name": "2 Starcannons",
+                "min": 0,
+                "max": 1
+              },
+              {
+                "id": "92fd-dbc8-7ba4-e705",
+                "name": "2 Bright Lances",
+                "min": 0,
+                "max": 1
+              }
+            ],
+            "defaultOptionId": "a333-ffe0-66ef-d64f"
+          }
+        ]
+      }
+    ]
+  },
+  "6863-bf42-238a-fd0b": {
+    "groups": [
+      {
+        "id": "1493-2092-51f-b83",
+        "name": "4-9 Dark Reapers",
+        "min": 4,
+        "max": 9,
+        "mode": "count",
+        "options": [
+          {
+            "id": "c987-279a-41a9-cf8d",
+            "name": "Dark Reaper",
+            "min": 4,
+            "max": 9
+          }
+        ]
+      },
+      {
+        "id": "0314-7cb1-38e9-1076",
+        "name": "Dark Reaper Exarch",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "d6b7-fd85-14f8-eb54",
+            "name": "Dark Reaper Exarch",
+            "min": 1,
+            "max": 1,
+            "groups": [
+              {
+                "id": "d0aa-899d-cc07-fc5e",
+                "name": "Weapon",
+                "min": 1,
+                "max": 1,
+                "mode": "single",
+                "options": [
+                  {
+                    "id": "bc5-b069-599-c1c0",
+                    "name": "Shuriken Cannon",
+                    "min": 0,
+                    "max": 99
+                  },
+                  {
+                    "id": "524a-91d-2ed9-feaa",
+                    "name": "Tempest Launcher",
+                    "min": 0,
+                    "max": 99
+                  },
+                  {
+                    "id": "e30a-ac37-8d52-95bc",
+                    "name": "Missile Launcher",
+                    "min": 0,
+                    "max": 99
+                  },
+                  {
+                    "id": "c353-79a6-2a88-df25",
+                    "name": "Reaper Launcher",
+                    "min": 0,
+                    "max": 99
+                  }
+                ],
+                "defaultOptionId": "c353-79a6-2a88-df25"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "5768-1f87-3a16-d901": {
+    "groups": [
+      {
+        "id": "6611-d8aa-5525-cf7d",
+        "name": "Wargear",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "141f-17dc-40c-3b0c",
+            "name": "Jester's Blade",
+            "min": 1,
+            "max": 1
+          },
+          {
+            "id": "bb3f-b3bb-4539-7d00",
+            "name": "Shrieker Cannon",
+            "min": 1,
+            "max": 1
+          }
+        ]
+      }
+    ]
+  },
+  "e6c2-f3b2-6d3e-c3d3": {
+    "groups": [
+      {
+        "id": "320d-ef74-2bee-d40c",
+        "name": "4-9 Dire Avengers",
+        "min": 4,
+        "max": 9,
+        "mode": "count",
+        "options": [
+          {
+            "id": "b542-fa0c-e63b-53dc",
+            "name": "Dire Avenger",
+            "min": 4,
+            "max": 9
+          }
+        ]
+      },
+      {
+        "id": "3271-e719-3e7d-cf8f",
+        "name": "Dire Avenger Exarch",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "3bfb-bdff-19cf-570d",
+            "name": "Dire Avenger Exarch",
+            "min": 1,
+            "max": 1,
+            "groups": [
+              {
+                "id": "5b32-6015-3f27-e570",
+                "name": "Weapon(s)",
+                "min": 1,
+                "max": 1,
+                "mode": "single",
+                "options": [
+                  {
+                    "id": "e007-ad30-b419-57b4",
+                    "name": "Avenger Shuriken Catapult",
+                    "min": 0,
+                    "max": 99
+                  },
+                  {
+                    "id": "64d6-d92f-def3-f4e7",
+                    "name": "Diresword and Shuriken Pistol",
+                    "min": 0,
+                    "max": 99
+                  },
+                  {
+                    "id": "308d-d9a3-dd82-b268",
+                    "name": "Power Glaive and Shuriken Pistol",
+                    "min": 0,
+                    "max": 99
+                  },
+                  {
+                    "id": "caf3-8f76-d54f-2895",
+                    "name": "Two Avenger Shuriken Catapults",
+                    "min": 0,
+                    "max": 99
+                  },
+                  {
+                    "id": "5bfb-6bdc-d172-a9b5",
+                    "name": "Diresword and Shimmershield",
+                    "min": 0,
+                    "max": 99
+                  },
+                  {
+                    "id": "fa09-cce9-eb16-85f6",
+                    "name": "Power Glaive and Shimmershield",
+                    "min": 0,
+                    "max": 99
+                  }
+                ],
+                "defaultOptionId": "e007-ad30-b419-57b4"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "1d83-167-486c-bac4": {
+    "groups": [
+      {
+        "id": "ca06-9505-0ac8-8ac8",
+        "name": "Wargear",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "dc24-cfc3-17f7-c4fb",
+            "name": "Pulse Laser",
+            "min": 1,
+            "max": 1
+          },
+          {
+            "id": "3942-83ab-8d26-66fa",
+            "name": "Wraithbone hull",
+            "min": 1,
+            "max": 1
+          }
+        ],
+        "groups": [
+          {
+            "id": "9792-3b-5f3e-f8b8",
+            "name": "Hull weapon",
+            "min": 1,
+            "max": 1,
+            "mode": "single",
+            "options": [
+              {
+                "id": "e8fe-8098-2150-7d5d",
+                "name": "Twin Shuriken Catapult",
+                "min": 0,
+                "max": 1
+              },
+              {
+                "id": "5ecd-e81f-265f-7a9c",
+                "name": "Shuriken Cannon",
+                "min": 0,
+                "max": 1
+              }
+            ],
+            "defaultOptionId": "e8fe-8098-2150-7d5d"
+          }
+        ]
+      }
+    ]
+  },
+  "b2f5-8219-f875-917e": {
+    "groups": [
+      {
+        "id": "bdf8-0710-ae79-333e",
+        "name": "Wargear",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "f47a-b7c0-8257-4fc7",
+            "name": "Eldritch Storm",
+            "min": 1,
+            "max": 1
+          },
+          {
+            "id": "8f86-fdd5-94e2-9f11",
+            "name": "Shuriken Pistol",
+            "min": 1,
+            "max": 1
+          }
+        ],
+        "groups": [
+          {
+            "id": "482e-3d16-b9a4-5ae9",
+            "name": "Weapon",
+            "min": 1,
+            "max": 1,
+            "mode": "single",
+            "options": [
+              {
+                "id": "8afd-f357-bb3-788f",
+                "name": "Witchblade",
+                "min": 0,
+                "max": 99
+              },
+              {
+                "id": "8e89-ff15-231c-1305",
+                "name": "Singing Spear",
+                "min": 0,
+                "max": 99
+              }
+            ],
+            "defaultOptionId": "8afd-f357-bb3-788f"
+          }
+        ]
+      }
+    ]
+  },
+  "833b-55bc-73be-8862": {
+    "groups": [
+      {
+        "id": "be72-1e0f-e109-6b6d",
+        "name": "Wargear",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "5caa-585-9873-9ae9",
+            "name": "Eldritch Storm",
+            "min": 1,
+            "max": 1
+          },
+          {
+            "id": "b022-c256-b6a3-e636",
+            "name": "Shuriken Pistol",
+            "min": 1,
+            "max": 1
+          },
+          {
+            "id": "511-add5-c4b5-4302",
+            "name": "Twin Shuriken Catapult",
+            "min": 1,
+            "max": 1
+          }
+        ],
+        "groups": [
+          {
+            "id": "61d1-bf62-7eee-8830",
+            "name": "Weapon",
+            "min": 1,
+            "max": 1,
+            "mode": "single",
+            "options": [
+              {
+                "id": "b911-1e91-721f-9628",
+                "name": "Witchblade",
+                "min": 0,
+                "max": 99
+              },
+              {
+                "id": "e1b4-2787-f402-c30d",
+                "name": "Singing Spear",
+                "min": 0,
+                "max": 99
+              }
+            ],
+            "defaultOptionId": "b911-1e91-721f-9628"
+          }
+        ]
+      }
+    ]
+  },
+  "5374-9e93-8af2-819e": {
+    "groups": [
+      {
+        "id": "29fa-c518-246d-4211",
+        "name": "4-9 Fire Dragons",
+        "min": 4,
+        "max": 9,
+        "mode": "count",
+        "options": [
+          {
+            "id": "b164-9141-3a78-fb7b",
+            "name": "Fire Dragon",
+            "min": 4,
+            "max": 9
+          }
+        ]
+      },
+      {
+        "id": "2793-3229-b709-1419",
+        "name": "Fire Dragon Exarch",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "28a8-c192-56f-8b00",
+            "name": "Fire Dragon Exarch",
+            "min": 1,
+            "max": 1,
+            "groups": [
+              {
+                "id": "fe0e-9737-8fe-a127",
+                "name": "Weapon",
+                "min": 1,
+                "max": 1,
+                "mode": "single",
+                "options": [
+                  {
+                    "id": "63d-c93d-a693-4e9e",
+                    "name": "Exarch's Dragon Fusion Gun",
+                    "min": 0,
+                    "max": 99
+                  },
+                  {
+                    "id": "6d25-ea62-795d-dea0",
+                    "name": "Dragon's Breath Flamer",
+                    "min": 0,
+                    "max": 99
+                  },
+                  {
+                    "id": "f030-db93-d624-5d93",
+                    "name": "Firepike",
+                    "min": 0,
+                    "max": 99
+                  },
+                  {
+                    "id": "5f57-6d28-de82-e69b",
+                    "name": "Dragon Fusion Pistol & Dragon Axe",
+                    "min": 0,
+                    "max": 99
+                  }
+                ],
+                "defaultOptionId": "63d-c93d-a693-4e9e"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "9940-a69b-682e-ccf4": {
+    "groups": [
+      {
+        "id": "056e-54bd-cfcc-c192",
+        "name": "Wargear",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "4704-9a49-8dee-2852",
+            "name": "Prism Cannon",
+            "min": 1,
+            "max": 1
+          },
+          {
+            "id": "93aa-b39f-e09b-4bd0",
+            "name": "Wraithbone hull",
+            "min": 1,
+            "max": 1
+          }
+        ],
+        "groups": [
+          {
+            "id": "ac7e-3a52-7e47-2387",
+            "name": "Hull weapon",
+            "min": 1,
+            "max": 1,
+            "mode": "single",
+            "options": [
+              {
+                "id": "68be-f35c-9028-6ca6",
+                "name": "Twin Shuriken Catapult",
+                "min": 0,
+                "max": 1
+              },
+              {
+                "id": "5ba-f7a8-4424-da82",
+                "name": "Shuriken Cannon",
+                "min": 0,
+                "max": 1
+              }
+            ],
+            "defaultOptionId": "68be-f35c-9028-6ca6"
+          }
+        ]
+      }
+    ]
+  },
+  "551b-900c-3681-8f11": {
+    "groups": [
+      {
+        "id": "e9f7-44f6-761b-fc91",
+        "name": "Wargear",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "a9bd-cba0-4b8-1c66",
+            "name": "Heavy D-Scythe",
+            "min": 2,
+            "max": 2
+          }
+        ]
+      }
+    ]
+  },
+  "7fcb-9262-474a-7cec": {
+    "groups": [
+      {
+        "id": "1d00-a17c-9281-81b4",
+        "name": "4-9 Howling Banshees",
+        "min": 4,
+        "max": 9,
+        "mode": "count",
+        "options": [
+          {
+            "id": "11cf-b2e1-4900-d949",
+            "name": "Howling Banshee",
+            "min": 4,
+            "max": 9
+          }
+        ]
+      },
+      {
+        "id": "049f-4a9a-bee2-4874",
+        "name": "Howling Banshee Exarch",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "7fe3-e0ce-74fa-d501",
+            "name": "Howling Banshee Exarch",
+            "min": 1,
+            "max": 1,
+            "groups": [
+              {
+                "id": "5a9c-a63a-8e90-a43a",
+                "name": "Weapons",
+                "min": 1,
+                "max": 1,
+                "mode": "single",
+                "options": [
+                  {
+                    "id": "fc63-43b3-eb2c-5ade",
+                    "name": "Banshee Blade and Shuriken Pistol",
+                    "min": 0,
+                    "max": 99
+                  },
+                  {
+                    "id": "1bd8-9dbe-aaf8-a79e",
+                    "name": "Executioner and Shuriken Pistol",
+                    "min": 0,
+                    "max": 99
+                  },
+                  {
+                    "id": "cc12-f050-f76-37b2",
+                    "name": "Triskele and Shuriken Pistol",
+                    "min": 0,
+                    "max": 99
+                  },
+                  {
+                    "id": "3fb9-2bb4-f129-8358",
+                    "name": "Mirrorswords",
+                    "min": 0,
+                    "max": 99
+                  }
+                ],
+                "defaultOptionId": "fc63-43b3-eb2c-5ade"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "908a-fc2b-5a53-599f": {
+    "groups": [
+      {
+        "id": "205f-d186-6c9b-49e1",
+        "name": "Wargear",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "71df-1be9-d2b1-1317",
+            "name": "Doomweaver",
+            "min": 1,
+            "max": 1
+          },
+          {
+            "id": "9ed4-ce2-2800-4116",
+            "name": "Wraithbone hull",
+            "min": 1,
+            "max": 1
+          }
+        ],
+        "groups": [
+          {
+            "id": "4753-fd5f-ff64-df6a",
+            "name": "Hull weapon",
+            "min": 1,
+            "max": 1,
+            "mode": "single",
+            "options": [
+              {
+                "id": "60a9-f52b-f86c-723",
+                "name": "Twin Shuriken Catapult",
+                "min": 0,
+                "max": 1
+              },
+              {
+                "id": "8b36-e7f2-d344-ac61",
+                "name": "Shuriken Cannon",
+                "min": 0,
+                "max": 1
+              }
+            ],
+            "defaultOptionId": "60a9-f52b-f86c-723"
+          }
+        ]
+      }
+    ]
+  },
+  "8c34-52ba-cbd0-9ca4": {
+    "groups": [
+      {
+        "id": "cc12-4501-ba67-5d29",
+        "name": "Wargear",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "d4fb-7f6b-bbb0-ebc0",
+            "name": "Miststave",
+            "min": 1,
+            "max": 1
+          }
+        ],
+        "groups": [
+          {
+            "id": "cee4-e00d-a53a-d528",
+            "name": "Pistol Choice",
+            "min": 1,
+            "max": 1,
+            "mode": "single",
+            "options": [
+              {
+                "id": "be85-769f-eb20-8805",
+                "name": "Shuriken Pistol",
+                "min": 0,
+                "max": 99
+              },
+              {
+                "id": "bf9-5593-8d64-d584",
+                "name": "Neuro Disruptor",
+                "min": 0,
+                "max": 99
+              }
+            ],
+            "defaultOptionId": "be85-769f-eb20-8805"
+          }
+        ]
+      }
+    ]
+  },
+  "433-faed-ea62-c531": {
+    "groups": [
+      {
+        "id": "f075-e4e1-73a-1a86",
+        "name": "2-5 Shining Spears",
+        "min": 2,
+        "max": 5,
+        "mode": "count",
+        "options": [
+          {
+            "id": "9020-3f97-8bc5-238f",
+            "name": "Shining Spear",
+            "min": 2,
+            "max": 5
+          }
+        ],
+        "defaultOptionId": "9020-3f97-8bc5-238f"
+      },
+      {
+        "id": "908b-eced-c966-cdf1",
+        "name": "Shining Spear Exarch",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "d7f7-e77e-6f54-a9a",
+            "name": "Shining Spear Exarch",
+            "min": 1,
+            "max": 1,
+            "groups": [
+              {
+                "id": "2bd8-899d-bff8-a5a8",
+                "name": "Weapon Choice",
+                "min": 1,
+                "max": 1,
+                "mode": "single",
+                "options": [
+                  {
+                    "id": "62f2-562f-ed0c-4cb5",
+                    "name": "Laser Lance",
+                    "min": 0,
+                    "max": 99
+                  },
+                  {
+                    "id": "f078-c62-2a33-af9",
+                    "name": "Paragon Sabre",
+                    "min": 0,
+                    "max": 99
+                  },
+                  {
+                    "id": "e281-2b27-3eb8-432d",
+                    "name": "Star Lance",
+                    "min": 0,
+                    "max": 99
+                  }
+                ],
+                "defaultOptionId": "62f2-562f-ed0c-4cb5"
+              },
+              {
+                "id": "e111-85e7-b8be-d31f",
+                "name": "Bike Weapon",
+                "min": 1,
+                "max": 1,
+                "mode": "single",
+                "options": [
+                  {
+                    "id": "b9d3-701e-a87f-a83d",
+                    "name": "Twin Shuriken Catapult",
+                    "min": 0,
+                    "max": 99
+                  },
+                  {
+                    "id": "4ccf-c833-b713-2f0f",
+                    "name": "Shuriken Cannon",
+                    "min": 0,
+                    "max": 99
+                  }
+                ],
+                "defaultOptionId": "b9d3-701e-a87f-a83d"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "e53b-7d09-eb7c-c6c7": {
+    "groups": [
+      {
+        "id": "1171-815a-1a8c-299c",
+        "name": "Wargear",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "f5e3-9ba5-5d5b-cc29",
+            "name": "Witch Staff",
+            "min": 1,
+            "max": 1
+          },
+          {
+            "id": "4796-e6f6-4070-94c4",
+            "name": "Shuriken Pistol",
+            "min": 1,
+            "max": 1
+          }
+        ]
+      }
+    ]
+  },
+  "854b-f8e-28fa-8c24": {
+    "groups": [
+      {
+        "id": "f721-20a4-8a48-a84f",
+        "name": "Wargear",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "273-cae3-c7fa-fa24",
+            "name": "Close Combat Weapon",
+            "min": 1,
+            "max": 1
+          },
+          {
+            "id": "ba7e-8905-a7b2-e099",
+            "name": "Shuriken Cannon",
+            "min": 2,
+            "max": 2
+          }
+        ]
+      }
+    ]
+  },
+  "5452-c4a7-59fb-f05c": {
+    "groups": [
+      {
+        "id": "f969-3730-2538-4a07",
+        "name": "10 Storm Guardians",
+        "min": 10,
+        "max": 10,
+        "mode": "count",
+        "options": [
+          {
+            "id": "6b4b-1204-180f-65ed",
+            "name": "Storm Guardian",
+            "min": 4,
+            "max": 10
+          },
+          {
+            "id": "cef3-fc6a-ea66-c6fe",
+            "name": "Storm Guardian with Flamer",
+            "min": 0,
+            "max": 2,
+            "equippedWith": "Flamer"
+          },
+          {
+            "id": "8731-752d-3de9-6eb",
+            "name": "Storm Guardian with Fusion Gun",
+            "min": 0,
+            "max": 2
+          },
+          {
+            "id": "2f40-98b5-666c-3eef",
+            "name": "Storm Guardian with Power Sword",
+            "min": 0,
+            "max": 2
+          },
+          {
+            "id": "5a90-5bed-c637-7f9e",
+            "name": "Storm Guardian with Flamer & Power Sword",
+            "min": 0,
+            "max": 2,
+            "equippedWith": "Flamer"
+          },
+          {
+            "id": "0d79-6426-d369-775e",
+            "name": "Storm Guardian with Fusion Gun & Power Sword",
+            "min": 0,
+            "max": 2
+          }
+        ],
+        "defaultOptionId": "6b4b-1204-180f-65ed"
+      }
+    ]
+  },
+  "c90f-a8e5-6afa-eb91": {
+    "groups": [
+      {
+        "id": "8ab5-481b-7134-2fd",
+        "name": "4-9 Striking Scorpions",
+        "min": 4,
+        "max": 9,
+        "mode": "count",
+        "options": [
+          {
+            "id": "7951-147c-d415-80e6",
+            "name": "Striking Scorpion",
+            "min": 4,
+            "max": 9
+          }
+        ]
+      },
+      {
+        "id": "10eb-1531-2808-cbbc",
+        "name": "Striking Scorpion Exarch",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "5da0-f588-d644-cffa",
+            "name": "Striking Scorpion Exarch",
+            "min": 1,
+            "max": 1,
+            "groups": [
+              {
+                "id": "7e47-d0c1-ee26-9c9d",
+                "name": "Weapons",
+                "min": 1,
+                "max": 1,
+                "mode": "single",
+                "options": [
+                  {
+                    "id": "49d3-b905-4420-ceed",
+                    "name": "Chainsabres",
+                    "min": 0,
+                    "max": 99
+                  },
+                  {
+                    "id": "88b-3a7d-2448-dedb",
+                    "name": "Shuriken Pistol, Scorpion Chainsword & Scorpion's claw",
+                    "min": 0,
+                    "max": 99
+                  },
+                  {
+                    "id": "eee3-3e35-8903-f91c",
+                    "name": "Biting blade & Shuriken Pistol",
+                    "min": 0,
+                    "max": 99
+                  }
+                ],
+                "defaultOptionId": "88b-3a7d-2448-dedb"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "82ac-7d93-df55-5504": {
+    "groups": [
+      {
+        "id": "3531-19e7-5e0f-1932",
+        "name": "Wargear",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "5ee1-30b4-a231-3793",
+            "name": "D-cannon",
+            "min": 1,
+            "max": 1
+          },
+          {
+            "id": "e8e7-ed4c-7911-b01e",
+            "name": "Close Combat Weapon",
+            "min": 1,
+            "max": 1
+          },
+          {
+            "id": "586b-dbfa-dbe5-7713",
+            "name": "Shuriken Catapult",
+            "min": 1,
+            "max": 1
+          }
+        ]
+      }
+    ]
+  },
+  "240f-70a4-7ba7-a538": {
+    "groups": [
+      {
+        "id": "b6ed-4425-3f42-e05a",
+        "name": "4-9 Swooping Hawks",
+        "min": 4,
+        "max": 9,
+        "mode": "count",
+        "options": [
+          {
+            "id": "cab-941f-26cf-85bf",
+            "name": "Swooping Hawk",
+            "min": 4,
+            "max": 9
+          }
+        ]
+      },
+      {
+        "id": "97af-e6f0-08d5-dc4c",
+        "name": "Swooping Hawk Exarch",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "68d0-cc03-e07d-b83e",
+            "name": "Swooping Hawk Exarch",
+            "min": 1,
+            "max": 1,
+            "groups": [
+              {
+                "id": "5559-35d2-3281-ccf5",
+                "name": "Weapon",
+                "min": 1,
+                "max": 1,
+                "mode": "single",
+                "options": [
+                  {
+                    "id": "a6ea-1838-d5b2-865",
+                    "name": "Exarch's Lasblaster",
+                    "min": 0,
+                    "max": 99
+                  },
+                  {
+                    "id": "dbaa-c6f4-9390-f360",
+                    "name": "Hawk's Talon",
+                    "min": 0,
+                    "max": 99
+                  },
+                  {
+                    "id": "679b-224a-fa3a-94ab",
+                    "name": "Scatter Laser",
+                    "min": 0,
+                    "max": 99
+                  },
+                  {
+                    "id": "fe8d-9b77-1979-8902",
+                    "name": "Sunpistol & Power Sword",
+                    "min": 0,
+                    "max": 99
+                  }
+                ],
+                "defaultOptionId": "dbaa-c6f4-9390-f360"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "dada-b81b-37bd-1f3b": {
+    "groups": [
+      {
+        "id": "a314-d7b8-edf2-7658",
+        "name": "Wargear",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [],
+        "groups": [
+          {
+            "id": "1b6a-43a8-abd1-d86c",
+            "name": "Melee Weapon",
+            "min": 1,
+            "max": 1,
+            "mode": "single",
+            "options": [
+              {
+                "id": "78a7-7d10-cf60-7eea",
+                "name": "Harlequin's Special Weapon",
+                "min": 0,
+                "max": 99
+              },
+              {
+                "id": "662c-7606-d451-b256",
+                "name": "Troupe Master's Blade",
+                "min": 0,
+                "max": 99
+              }
+            ],
+            "defaultOptionId": "78a7-7d10-cf60-7eea"
+          },
+          {
+            "id": "2bb4-d844-f707-eeee",
+            "name": "Pistol",
+            "min": 1,
+            "max": 1,
+            "mode": "single",
+            "options": [
+              {
+                "id": "3768-23a2-756-c6d7",
+                "name": "Shuriken Pistol",
+                "min": 0,
+                "max": 99
+              },
+              {
+                "id": "23f6-2886-8490-f77",
+                "name": "Fusion Pistol",
+                "min": 0,
+                "max": 99
+              },
+              {
+                "id": "1d1a-cc72-5f02-f811",
+                "name": "Neuro Disruptor",
+                "min": 0,
+                "max": 99
+              }
+            ],
+            "defaultOptionId": "3768-23a2-756-c6d7"
+          }
+        ]
+      }
+    ]
+  },
+  "e011-d99d-f0de-5289": {
+    "groups": [
+      {
+        "id": "eaed-5aa5-3edf-15b2",
+        "name": "Wargear",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "9b6a-5658-e114-b9a1",
+            "name": "Close Combat Weapon",
+            "min": 1,
+            "max": 1
+          },
+          {
+            "id": "2475-c006-b2f3-f9e7",
+            "name": "Shuriken Cannon",
+            "min": 2,
+            "max": 2
+          }
+        ],
+        "groups": [
+          {
+            "id": "d63c-beb1-8353-112f",
+            "name": "Weapon",
+            "min": 1,
+            "max": 1,
+            "mode": "single",
+            "options": [
+              {
+                "id": "db3a-9f18-6c00-aa3e",
+                "name": "Prismatic Cannon",
+                "min": 0,
+                "max": 99
+              },
+              {
+                "id": "49a7-3388-c32f-788d",
+                "name": "Voidweaver Haywire Cannon",
+                "min": 0,
+                "max": 99
+              }
+            ],
+            "defaultOptionId": "49a7-3388-c32f-788d"
+          }
+        ]
+      }
+    ]
+  },
+  "291f-2885-4512-f0cd": {
+    "groups": [
+      {
+        "id": "7a4b-bdcd-0c36-8c98",
+        "name": "Wargear",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "9b81-8d22-1cc4-9624",
+            "name": "Destructor",
+            "min": 1,
+            "max": 1
+          },
+          {
+            "id": "039f-ac9f-934f-da4a",
+            "name": "Shuriken Pistol",
+            "min": 1,
+            "max": 1
+          }
+        ],
+        "groups": [
+          {
+            "id": "12ab-7567-f590-05f4",
+            "name": "Weapon",
+            "min": 1,
+            "max": 1,
+            "mode": "single",
+            "options": [
+              {
+                "id": "2f30-b2f1-11a7-eaf1",
+                "name": "Witchblade",
+                "min": 0,
+                "max": 99
+              },
+              {
+                "id": "1e10-cf9e-987f-81bd",
+                "name": "Singing Spear",
+                "min": 0,
+                "max": 99
+              }
+            ],
+            "defaultOptionId": "2f30-b2f1-11a7-eaf1"
+          }
+        ]
+      }
+    ]
+  },
+  "d61-c058-6bd1-112f": {
+    "groups": [
+      {
+        "id": "cd58-23d0-0140-6b60",
+        "name": "2-4 Warlocks",
+        "min": 2,
+        "max": 4,
+        "mode": "count",
+        "options": [
+          {
+            "id": "ab89-7505-ff1e-4ed",
+            "name": "Warlock with Witchblade",
+            "min": 0,
+            "max": 99
+          },
+          {
+            "id": "cab3-11a4-4876-f9a0",
+            "name": "Warlock with Singing Spear",
+            "min": 0,
+            "max": 99
+          }
+        ],
+        "defaultOptionId": "ab89-7505-ff1e-4ed"
+      }
+    ]
+  },
+  "57ec-47a8-a59a-6a46": {
+    "groups": [
+      {
+        "id": "4de3-a5c1-f61a-d3d3",
+        "name": "4-9 Warp Spiders",
+        "min": 4,
+        "max": 9,
+        "mode": "count",
+        "options": [
+          {
+            "id": "88c0-fecd-682-e508",
+            "name": "Warp Spider",
+            "min": 4,
+            "max": 9
+          }
+        ]
+      },
+      {
+        "id": "a8bc-35b8-cf1b-a0f7",
+        "name": "Warp Spider Exarch",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "f846-9526-462e-c472",
+            "name": "Warp Spider Exarch",
+            "min": 1,
+            "max": 1,
+            "groups": [
+              {
+                "id": "3819-67b8-be13-22de",
+                "name": "Weapon(s)",
+                "min": 1,
+                "max": 1,
+                "mode": "single",
+                "options": [
+                  {
+                    "id": "f493-66ac-24a7-dad2",
+                    "name": "Exarch's death spinner",
+                    "min": 0,
+                    "max": 99
+                  },
+                  {
+                    "id": "604f-ec3c-9baa-a516",
+                    "name": "1 Spinneret rifle & 1 Death weavers",
+                    "min": 0,
+                    "max": 99
+                  },
+                  {
+                    "id": "9743-7d0b-e239-717b",
+                    "name": "1 Powerblades & 1 Death Weavers",
+                    "min": 0,
+                    "max": 99
+                  },
+                  {
+                    "id": "1b77-3027-964e-4d61",
+                    "name": "1 Powerblade array",
+                    "min": 0,
+                    "max": 99
+                  }
+                ],
+                "defaultOptionId": "f493-66ac-24a7-dad2"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "ad88-f706-318c-e70e": {
+    "groups": [
+      {
+        "id": "ebc4-13e2-f7bb-5f0a",
+        "name": "Wargear",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "318b-bd88-7162-2ce2",
+            "name": "Wraithbone Hull",
+            "min": 1,
+            "max": 1
+          }
+        ],
+        "groups": [
+          {
+            "id": "e099-c60b-2ff7-e7f1",
+            "name": "Hull weapon",
+            "min": 1,
+            "max": 1,
+            "mode": "single",
+            "options": [
+              {
+                "id": "ee01-8949-aeb9-378",
+                "name": "Twin Shuriken Catapult",
+                "min": 0,
+                "max": 1
+              },
+              {
+                "id": "aa94-649-5315-ead4",
+                "name": "Shuriken Cannon",
+                "min": 0,
+                "max": 1
+              }
+            ],
+            "defaultOptionId": "ee01-8949-aeb9-378"
+          },
+          {
+            "id": "48be-6604-e319-4db0",
+            "name": "Turret Weapon",
+            "min": 1,
+            "max": 1,
+            "mode": "single",
+            "options": [
+              {
+                "id": "ce0c-7500-9591-a795",
+                "name": "Twin Aeldari Missile Launcher",
+                "min": 0,
+                "max": 99
+              },
+              {
+                "id": "e599-503c-5d55-e377",
+                "name": "Twin Bright Lance",
+                "min": 0,
+                "max": 99
+              },
+              {
+                "id": "a891-16c0-2605-f5ab",
+                "name": "Twin Scatter Laser",
+                "min": 0,
+                "max": 99
+              },
+              {
+                "id": "1cd8-271b-6f20-6624",
+                "name": "Twin Shuriken Cannon",
+                "min": 0,
+                "max": 99
+              },
+              {
+                "id": "c6a3-5d1e-eb78-5e83",
+                "name": "Twin Starcannon",
+                "min": 0,
+                "max": 99
+              }
+            ],
+            "defaultOptionId": "1cd8-271b-6f20-6624"
+          }
+        ]
+      }
+    ]
+  },
+  "bfd-df5a-b358-4cf9": {
+    "groups": [
+      {
+        "id": "cf1d-2009-4d08-c00a",
+        "name": "Wargear",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "e86d-b767-a9bd-a683",
+            "name": "Titanic feet",
+            "min": 1,
+            "max": 1
+          }
+        ],
+        "groups": [
+          {
+            "id": "1603-a55a-1b30-74f4",
+            "name": "Left Arm",
+            "min": 1,
+            "max": 1,
+            "mode": "single",
+            "options": [
+              {
+                "id": "823b-e4cf-964a-f987",
+                "name": "Scattershield",
+                "min": 0,
+                "max": 99
+              },
+              {
+                "id": "7a9-ed40-b9db-b2a0",
+                "name": "Heavy Wraithcannon",
+                "min": 0,
+                "max": 99
+              }
+            ],
+            "defaultOptionId": "823b-e4cf-964a-f987"
+          },
+          {
+            "id": "3035-2757-54b9-ca6d",
+            "name": "Right Arm",
+            "min": 1,
+            "max": 1,
+            "mode": "single",
+            "options": [
+              {
+                "id": "a286-ba4e-bcc0-3911",
+                "name": "Suncannon",
+                "min": 0,
+                "max": 99
+              },
+              {
+                "id": "2fe5-624b-bc18-c889",
+                "name": "Heavy Wraithcannon",
+                "min": 0,
+                "max": 99
+              }
+            ],
+            "defaultOptionId": "a286-ba4e-bcc0-3911"
+          },
+          {
+            "id": "9d23-6ba2-d5a9-42fd",
+            "name": "Secondary Weapons",
+            "min": 0,
+            "max": 2,
+            "mode": "count",
+            "options": [
+              {
+                "id": "800e-c911-429b-5c0a",
+                "name": "Scatter Laser",
+                "min": 0,
+                "max": 2
+              },
+              {
+                "id": "9d81-8f1f-ff2e-f578",
+                "name": "Shuriken Cannon",
+                "min": 0,
+                "max": 2
+              },
+              {
+                "id": "5b41-e3a6-815d-60ca",
+                "name": "Starcannon",
+                "min": 0,
+                "max": 2
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "b9e9-397e-d83a-f77a": {
+    "groups": [
+      {
+        "id": "121d-1cae-b3c9-98f6",
+        "name": "Wargear",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "e9b7-c334-8d6d-9422",
+            "name": "Ghostglaive",
+            "min": 0,
+            "max": 1
+          },
+          {
+            "id": "d06a-5348-e773-89b3",
+            "name": "Wraithbone Fists",
+            "min": 1,
+            "max": 1
+          }
+        ],
+        "groups": [
+          {
+            "id": "eeb0-a5d0-8ead-f9e6",
+            "name": "Arm Weapons",
+            "min": 2,
+            "max": 2,
+            "mode": "count",
+            "options": [
+              {
+                "id": "fa35-8240-73b7-e8e2",
+                "name": "Shuriken Catapult",
+                "min": 0,
+                "max": 2
+              },
+              {
+                "id": "da17-5e9c-be19-60d9",
+                "name": "Flamer",
+                "min": 0,
+                "max": 2
+              }
+            ],
+            "defaultOptionId": "fa35-8240-73b7-e8e2"
+          },
+          {
+            "id": "e0d0-8077-6cd9-15c3",
+            "name": "Heavy Weapons",
+            "min": 0,
+            "max": 2,
+            "mode": "count",
+            "options": [
+              {
+                "id": "ab89-264d-27fa-8618",
+                "name": "Aeldari Missile Launcher",
+                "min": 0,
+                "max": 2
+              },
+              {
+                "id": "1104-3ed7-eaea-f106",
+                "name": "Bright Lance",
+                "min": 0,
+                "max": 2
+              },
+              {
+                "id": "5a53-d5a2-3090-b650",
+                "name": "Scatter Laser",
+                "min": 0,
+                "max": 2
+              },
+              {
+                "id": "efe2-3555-6289-f204",
+                "name": "Shuriken Cannon",
+                "min": 0,
+                "max": 2
+              },
+              {
+                "id": "6e76-51cc-90b-e3bf",
+                "name": "Starcannon",
+                "min": 0,
+                "max": 2
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "5c1c-fa4a-3234-c711": {
+    "groups": [
+      {
+        "id": "862f-a74f-7f31-f39c",
+        "name": "Wargear",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [],
+        "groups": [
+          {
+            "id": "323-b391-d6b7-df1a",
+            "name": "Pistol Choice",
+            "min": 1,
+            "max": 1,
+            "mode": "single",
+            "options": [
+              {
+                "id": "e6ee-907c-8ecc-49a3",
+                "name": "Splinter pistol",
+                "min": 0,
+                "max": 99
+              },
+              {
+                "id": "2fae-2cfd-c53e-b1ba",
+                "name": "Blast pistol",
+                "min": 0,
+                "max": 99
+              },
+              {
+                "id": "5fb9-1102-e5da-122e",
+                "name": "Soul Trap",
+                "min": 0,
+                "max": 99
+              }
+            ],
+            "defaultOptionId": "e6ee-907c-8ecc-49a3"
+          },
+          {
+            "id": "10cd-799b-d881-334a",
+            "name": "Melee Choice",
+            "min": 1,
+            "max": 1,
+            "mode": "single",
+            "options": [
+              {
+                "id": "b8fa-3118-2f84-8e36",
+                "name": "Huskblade",
+                "min": 0,
+                "max": 1
+              },
+              {
+                "id": "7420-f284-591b-ac10",
+                "name": "Agoniser",
+                "min": 0,
+                "max": 1
+              },
+              {
+                "id": "b5f7-7914-604c-9fff",
+                "name": "Master-crafted power weapon",
+                "min": 0,
+                "max": 1
+              }
+            ],
+            "defaultOptionId": "b8fa-3118-2f84-8e36"
+          }
+        ]
+      }
+    ]
+  },
+  "f99a-af49-64c0-9bed": {
+    "groups": [
+      {
+        "id": "3fe4-b82c-09aa-424f",
+        "name": "Beastmaster",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "3dd7-f29e-4f39-fa99",
+            "name": "Beastmaster",
+            "min": 1,
+            "max": 1,
+            "groups": [
+              {
+                "id": "7fa9-62d7-02c4-9419",
+                "name": "Wargear",
+                "min": 0,
+                "max": 99,
+                "mode": "count",
+                "options": [
+                  {
+                    "id": "f406-9c1d-a663-9ce3",
+                    "name": "Agoniser",
+                    "min": 1,
+                    "max": 1
+                  },
+                  {
+                    "id": "5db1-37c7-67f5-5da2",
+                    "name": "Splinter pods",
+                    "min": 1,
+                    "max": 1
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "7dca-e9b2-0a1d-83fa",
+        "name": "Beasts",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "9f40-a308-4e7d-ce9b",
+            "name": "Clawed Fiend",
+            "min": 1,
+            "max": 1
+          },
+          {
+            "id": "d85b-8cc6-e7f9-b6aa",
+            "name": "Khymerae",
+            "min": 2,
+            "max": 2
+          },
+          {
+            "id": "a222-ba0a-1420-cdd",
+            "name": "Razorwing Flock",
+            "min": 3,
+            "max": 3
+          }
+        ]
+      }
+    ]
+  },
+  "d729-7e1f-93a9-b1c5": {
+    "groups": [
+      {
+        "id": "a918-3f65-fa2d-35ed",
+        "name": "3-6 Grotesques",
+        "min": 3,
+        "max": 6,
+        "mode": "count",
+        "options": [
+          {
+            "id": "a140-a986-5aae-6a78",
+            "name": "Grotesque w/ paired monstrous weapons",
+            "min": 0,
+            "max": 6
+          },
+          {
+            "id": "2f2c-ecf4-fcf9-1cac",
+            "name": "Grotesque w/ Liquifier",
+            "min": 0,
+            "max": 6
+          }
+        ],
+        "defaultOptionId": "a140-a986-5aae-6a78"
+      }
+    ]
+  },
+  "32ff-aec4-9669-c8a2": {
+    "groups": [
+      {
+        "id": "2765-1e96-0238-8527",
+        "name": "Wargear",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "a067-9ca-d073-2d67",
+            "name": "Haemonculus tools and scissorhands",
+            "min": 1,
+            "max": 1
+          },
+          {
+            "id": "3288-99c7-b4cf-5c35",
+            "name": "Stinger pistol",
+            "min": 1,
+            "max": 1
+          }
+        ]
+      }
+    ]
+  },
+  "2311-9feb-9d0a-8154": {
+    "groups": [
+      {
+        "id": "8db7-4e53-eb9b-1f44",
+        "name": "4-9 Hellions",
+        "min": 4,
+        "max": 9,
+        "mode": "count",
+        "options": [
+          {
+            "id": "5603-89d5-83df-ddde",
+            "name": "Hellion",
+            "min": 4,
+            "max": 9
+          }
+        ],
+        "defaultOptionId": "5603-89d5-83df-ddde"
+      },
+      {
+        "id": "0b7b-0243-c1c1-08d3",
+        "name": "Heliarch",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "65e1-45e7-cdf7-d26e",
+            "name": "Heliarch",
+            "min": 1,
+            "max": 1,
+            "groups": [
+              {
+                "id": "7914-125d-26b4-8682",
+                "name": "Weapon Option",
+                "min": 1,
+                "max": 1,
+                "mode": "single",
+                "options": [
+                  {
+                    "id": "6ba1-f90f-f7f6-c41f",
+                    "name": "Hellglaive",
+                    "min": 0,
+                    "max": 99
+                  },
+                  {
+                    "id": "eb60-7b03-70fb-1886",
+                    "name": "1 Splinter pistol and 1 Power weapon",
+                    "min": 0,
+                    "max": 99
+                  },
+                  {
+                    "id": "9f2c-e32c-18c4-95ee",
+                    "name": "1 Splinter pistol and 1 Stunclaw",
+                    "min": 0,
+                    "max": 99
+                  }
+                ],
+                "defaultOptionId": "6ba1-f90f-f7f6-c41f"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "1529-793d-481b-82bf": {
+    "groups": [
+      {
+        "id": "6dc6-9115-d2a9-59b9",
+        "name": "4-9 Incubi",
+        "min": 4,
+        "max": 9,
+        "mode": "count",
+        "options": [
+          {
+            "id": "a783-f14f-4278-c2a3",
+            "name": "Incubi",
+            "min": 4,
+            "max": 9
+          }
+        ]
+      },
+      {
+        "id": "4827-0e50-b623-65ea",
+        "name": "Klaivex",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "eb7f-da51-30e-2742",
+            "name": "Klaivex",
+            "min": 1,
+            "max": 1,
+            "groups": [
+              {
+                "id": "1cbd-52f1-12ea-746d",
+                "name": "Wargear",
+                "min": 1,
+                "max": 1,
+                "mode": "single",
+                "options": [
+                  {
+                    "id": "694a-1b90-4195-2d3f",
+                    "name": "Demiklaives",
+                    "min": 0,
+                    "max": 99
+                  },
+                  {
+                    "id": "914b-4bf2-ef28-e63a",
+                    "name": "Klaive",
+                    "min": 0,
+                    "max": 99
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "d20b-783-ccf6-b29d": {
+    "groups": [
+      {
+        "id": "49ae-64f7-6266-2612",
+        "name": "9 Kabalite Warriors",
+        "min": 9,
+        "max": 9,
+        "mode": "count",
+        "options": [
+          {
+            "id": "c05b-b4c7-7b86-9e5b",
+            "name": "Kabalite Warrior with Shredder",
+            "min": 0,
+            "max": 1
+          },
+          {
+            "id": "fcf4-fa38-24bd-f8b0",
+            "name": "Kabalite Warrior",
+            "min": 0,
+            "max": 9
+          },
+          {
+            "id": "e3a6-2ebe-981-6e49",
+            "name": "Kabalite Warrior with Blaster",
+            "min": 0,
+            "max": 1
+          },
+          {
+            "id": "4654-4ee2-ad4c-b0f6",
+            "name": "Kabalite Warrior with Splinter Cannon",
+            "min": 0,
+            "max": 1
+          },
+          {
+            "id": "de13-b8cd-5518-91c0",
+            "name": "Kabalite Warrior with Dark Lance",
+            "min": 0,
+            "max": 1
+          }
+        ],
+        "defaultOptionId": "fcf4-fa38-24bd-f8b0"
+      },
+      {
+        "id": "e301-9433-7ebf-836d",
+        "name": "Sybarite",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "140e-fdfe-edb-8460",
+            "name": "Sybarite",
+            "min": 1,
+            "max": 1,
+            "groups": [
+              {
+                "id": "a511-8a4b-f96f-3b10",
+                "name": "Ranged Weapon",
+                "min": 1,
+                "max": 1,
+                "mode": "single",
+                "options": [
+                  {
+                    "id": "61b3-1077-2e97-eebe",
+                    "name": "Blast Pistol",
+                    "min": 0,
+                    "max": 99
+                  },
+                  {
+                    "id": "657e-b108-3212-be4c",
+                    "name": "Splinter Pistol",
+                    "min": 0,
+                    "max": 99
+                  },
+                  {
+                    "id": "7a92-c02e-9da2-29c1",
+                    "name": "Splinter Rifle",
+                    "min": 0,
+                    "max": 99
+                  }
+                ],
+                "defaultOptionId": "7a92-c02e-9da2-29c1"
+              },
+              {
+                "id": "5731-8787-db48-38de",
+                "name": "Melee Weapon",
+                "min": 1,
+                "max": 1,
+                "mode": "single",
+                "options": [
+                  {
+                    "id": "7b1f-2d50-c257-439e",
+                    "name": "Close Combat Weapon",
+                    "min": 0,
+                    "max": 1
+                  },
+                  {
+                    "id": "c57e-54db-e782-a80a",
+                    "name": "Power Weapon",
+                    "min": 0,
+                    "max": 1
+                  }
+                ],
+                "defaultOptionId": "7b1f-2d50-c257-439e"
+              },
+              {
+                "id": "bc1a-d819-bc60-0a01",
+                "name": "Equipment",
+                "min": 0,
+                "max": 1,
+                "mode": "single",
+                "options": [
+                  {
+                    "id": "ecc1-93ce-e916-5baf",
+                    "name": "Phantasm Grenade Launcher",
+                    "min": 0,
+                    "max": 1
+                  },
+                  {
+                    "id": "2035-2a9a-56f0-d50a",
+                    "name": "Kabalite Icon",
+                    "min": 0,
+                    "max": 1
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "6a3a-7973-b509-532e": {
+    "groups": [
+      {
+        "id": "6ebf-3e3b-8209-8198",
+        "name": "4-9 Mandrakes",
+        "min": 4,
+        "max": 9,
+        "mode": "count",
+        "options": [
+          {
+            "id": "8696-f601-cde0-da6c",
+            "name": "Mandrake",
+            "min": 4,
+            "max": 9
+          }
+        ],
+        "defaultOptionId": "8696-f601-cde0-da6c"
+      },
+      {
+        "id": "1931-06c4-93e6-ea23",
+        "name": "Nightfiend",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "fe7d-a2f0-a916-4456",
+            "name": "Nightfiend",
+            "min": 1,
+            "max": 1
+          }
+        ]
+      }
+    ]
+  },
+  "635b-21f4-f801-453": {
+    "groups": [
+      {
+        "id": "954d-b9fe-a668-3c3d",
+        "name": "Wargear",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "fb8a-5326-c32b-2efc",
+            "name": "Bladevanes and chainsnares",
+            "min": 1,
+            "max": 1
+          }
+        ],
+        "groups": [
+          {
+            "id": "1143-11b4-959-1a1c",
+            "name": "Weapon Option",
+            "min": 1,
+            "max": 1,
+            "mode": "single",
+            "options": [
+              {
+                "id": "af3d-29bd-71f0-3352",
+                "name": "Disintegrator Cannon",
+                "min": 0,
+                "max": 99
+              },
+              {
+                "id": "7786-7319-2842-703a",
+                "name": "Dark Lance",
+                "min": 0,
+                "max": 99
+              }
+            ],
+            "defaultOptionId": "7786-7319-2842-703a"
+          }
+        ]
+      }
+    ]
+  },
+  "3376-d337-6a33-4bca": {
+    "groups": [
+      {
+        "id": "d108-ec36-0702-5352",
+        "name": "Wargear",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "a105-1988-7e9b-a77d",
+            "name": "Bladevanes",
+            "min": 1,
+            "max": 1
+          }
+        ],
+        "groups": [
+          {
+            "id": "64ff-a651-505-1904",
+            "name": "Weapon Option",
+            "min": 3,
+            "max": 3,
+            "mode": "count",
+            "options": [
+              {
+                "id": "4679-8fe2-2279-4246",
+                "name": "Disintegrator Cannon",
+                "min": 0,
+                "max": 99
+              },
+              {
+                "id": "8c0f-1bd-db16-bd1a",
+                "name": "Dark Lance",
+                "min": 0,
+                "max": 99
+              }
+            ],
+            "defaultOptionId": "8c0f-1bd-db16-bd1a"
+          }
+        ]
+      }
+    ]
+  },
+  "fbc4-c7d0-db5b-91c": {
+    "groups": [
+      {
+        "id": "3919-5bde-3de5-e115",
+        "name": "Wargear",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "ed56-19ca-76b1-7c82",
+            "name": "Bladed wings",
+            "min": 1,
+            "max": 1
+          },
+          {
+            "id": "3a02-5934-ef63-df89",
+            "name": "Razorwing missiles",
+            "min": 1,
+            "max": 1
+          }
+        ],
+        "groups": [
+          {
+            "id": "e725-8ad2-9d29-af8a",
+            "name": "Main Weapon",
+            "min": 1,
+            "max": 1,
+            "mode": "single",
+            "options": [
+              {
+                "id": "4b8b-8747-c47d-ed1b",
+                "name": "Two dark lances",
+                "min": 0,
+                "max": 99
+              },
+              {
+                "id": "76a4-6255-a45c-10e4",
+                "name": "Two disintegrator cannons",
+                "min": 0,
+                "max": 99
+              }
+            ],
+            "defaultOptionId": "4b8b-8747-c47d-ed1b"
+          },
+          {
+            "id": "9bb0-cffe-4e92-5904",
+            "name": "Splinter cannon",
+            "min": 1,
+            "max": 1,
+            "mode": "single",
+            "options": [
+              {
+                "id": "2523-310d-8e06-884e",
+                "name": "Splinter Cannon",
+                "min": 0,
+                "max": 1
+              },
+              {
+                "id": "34ab-c084-d4f9-143",
+                "name": "Twin Splinter Rifle",
+                "min": 0,
+                "max": 1
+              }
+            ],
+            "defaultOptionId": "34ab-c084-d4f9-143"
+          }
+        ]
+      }
+    ]
+  },
+  "2c3a-9752-2516-69ab": {
+    "groups": [
+      {
+        "id": "e29-840d-814b-fe7c",
+        "name": "2-5 Reavers",
+        "min": 2,
+        "max": 5,
+        "mode": "count",
+        "options": [
+          {
+            "id": "786e-b4ee-ae4e-827f",
+            "name": "Reaver",
+            "min": 2,
+            "max": 5
+          },
+          {
+            "id": "3095-279e-8a92-446c",
+            "name": "Reaver with Blaster",
+            "min": 0,
+            "max": 1
+          },
+          {
+            "id": "8c2-3607-9b28-8c43",
+            "name": "Reaver with Heat Lance",
+            "min": 0,
+            "max": 1
+          }
+        ]
+      },
+      {
+        "id": "50d9-305f-831c-1f07",
+        "name": "Arena Champion",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "f27d-6b19-bf18-c0c0",
+            "name": "Arena Champion",
+            "min": 1,
+            "max": 1,
+            "groups": [
+              {
+                "id": "921d-37d4-2243-fef9",
+                "name": "Bike Weapon",
+                "min": 1,
+                "max": 1,
+                "mode": "single",
+                "options": [
+                  {
+                    "id": "500a-f23f-792b-213",
+                    "name": "Splinter Rifle",
+                    "min": 0,
+                    "max": 1
+                  },
+                  {
+                    "id": "b3f7-b615-91c3-4259",
+                    "name": "Blaster",
+                    "min": 0,
+                    "max": 1
+                  },
+                  {
+                    "id": "6f83-c6e1-22e8-f954",
+                    "name": "Heat Lance",
+                    "min": 0,
+                    "max": 1
+                  }
+                ],
+                "defaultOptionId": "500a-f23f-792b-213"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "7c93-baac-e65f-58bd": {
+    "groups": [
+      {
+        "id": "7782-da58-c91-7938",
+        "name": "4 Scourges",
+        "min": 4,
+        "max": 4,
+        "mode": "count",
+        "options": [
+          {
+            "id": "5cb5-c3b8-a2b4-a368",
+            "name": "Scourge with Heavy Weapon",
+            "min": 0,
+            "max": 4,
+            "groups": [
+              {
+                "id": "2b9b-ccd0-48b6-ec61",
+                "name": "Ranged Weapon",
+                "min": 1,
+                "max": 1,
+                "mode": "single",
+                "options": [
+                  {
+                    "id": "4141-41a8-998c-3ebb",
+                    "name": "Blaster",
+                    "min": 0,
+                    "max": 99
+                  },
+                  {
+                    "id": "26b1-f552-d165-31ec",
+                    "name": "Heat Lance",
+                    "min": 0,
+                    "max": 99
+                  },
+                  {
+                    "id": "c0dd-aae2-df1d-fa",
+                    "name": "Splinter Cannon",
+                    "min": 0,
+                    "max": 99
+                  },
+                  {
+                    "id": "848c-4609-2f05-e939",
+                    "name": "Shredder",
+                    "min": 0,
+                    "max": 99
+                  },
+                  {
+                    "id": "9c50-5c34-bd90-2238",
+                    "name": "Dark Lance",
+                    "min": 0,
+                    "max": 99
+                  },
+                  {
+                    "id": "5635-5b91-ed4f-ecb",
+                    "name": "Haywire Blaster",
+                    "min": 0,
+                    "max": 99
+                  }
+                ],
+                "defaultOptionId": "c0dd-aae2-df1d-fa"
+              }
+            ]
+          }
+        ],
+        "defaultOptionId": "5cb5-c3b8-a2b4-a368"
+      },
+      {
+        "id": "2e46-a04d-e8f1-f1c7",
+        "name": "Solarite",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "b6db-d8cf-cd78-8f0c",
+            "name": "Solarite",
+            "min": 1,
+            "max": 1,
+            "groups": [
+              {
+                "id": "a67b-c0e9-8227-9500",
+                "name": "Weapon Option",
+                "min": 1,
+                "max": 1,
+                "mode": "single",
+                "options": [
+                  {
+                    "id": "5768-c5d9-c4d6-360a",
+                    "name": "Shardcarbine",
+                    "min": 0,
+                    "max": 1
+                  },
+                  {
+                    "id": "ba68-915a-9741-705b",
+                    "name": "1 Blast pistol and 1 Power weapon",
+                    "min": 0,
+                    "max": 1
+                  },
+                  {
+                    "id": "7a66-229f-8987-a735",
+                    "name": "1 Splinter pistol and 1 Power weapon",
+                    "min": 0,
+                    "max": 1
+                  }
+                ],
+                "defaultOptionId": "5768-c5d9-c4d6-360a"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "ee2c-6ca0-5e29-37a6": {
+    "groups": [
+      {
+        "id": "20c9-391d-e5b3-987c",
+        "name": "Wargear",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "e11b-b191-576b-ee9d",
+            "name": "Bladevanes",
+            "min": 1,
+            "max": 1
+          },
+          {
+            "id": "f5e0-d6b2-60f9-f09c",
+            "name": "Splinter Cannon",
+            "min": 1,
+            "max": 1
+          }
+        ],
+        "groups": [
+          {
+            "id": "b651-9a99-4645-eeb5",
+            "name": "Weapon Option",
+            "min": 1,
+            "max": 1,
+            "mode": "single",
+            "options": [
+              {
+                "id": "d705-8a64-4af2-8630",
+                "name": "Splinter Cannon",
+                "min": 0,
+                "max": 1
+              },
+              {
+                "id": "11a9-b4f2-9a6a-e389",
+                "name": "Twin Splinter Rifle",
+                "min": 0,
+                "max": 1
+              }
+            ],
+            "defaultOptionId": "11a9-b4f2-9a6a-e389"
+          }
+        ]
+      }
+    ]
+  },
+  "71e1-7d54-4856-4ce1": {
+    "groups": [
+      {
+        "id": "dea5-f1a9-86ce-1d38",
+        "name": "Wargear",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "3342-58c4-339-2309",
+            "name": "Bladed wings",
+            "min": 1,
+            "max": 1
+          },
+          {
+            "id": "f1b8-7eac-fee0-e8c1",
+            "name": "Voidraven Missiles",
+            "min": 0,
+            "max": 1
+          }
+        ],
+        "groups": [
+          {
+            "id": "b9c4-d6c3-7509-9c2a",
+            "name": "Weapon Option",
+            "min": 1,
+            "max": 1,
+            "mode": "single",
+            "options": [
+              {
+                "id": "117c-d05f-c3ed-b28a",
+                "name": "2 Void Lances",
+                "min": 0,
+                "max": 1
+              },
+              {
+                "id": "a855-c06-eb97-be9",
+                "name": "2 Dark Scythes",
+                "min": 0,
+                "max": 1
+              }
+            ],
+            "defaultOptionId": "117c-d05f-c3ed-b28a"
+          }
+        ]
+      }
+    ]
+  },
+  "2659-7a1b-3ce6-8e4b": {
+    "groups": [
+      {
+        "id": "6c6b-dcdc-1b01-9d5b",
+        "name": "4-9 Wracks",
+        "min": 4,
+        "max": 9,
+        "mode": "count",
+        "options": [
+          {
+            "id": "166e-a14c-3726-565c",
+            "name": "Wrack",
+            "min": 0,
+            "max": 9
+          },
+          {
+            "id": "c3d8-1bf0-ff35-bdd9",
+            "name": "Wrack with Hexrifle",
+            "min": 0,
+            "max": 2,
+            "equippedWith": "Torturer's tool"
+          },
+          {
+            "id": "af0-2527-f39e-f792",
+            "name": "Wrack with Liquifier Gun",
+            "min": 0,
+            "max": 2,
+            "equippedWith": "Torturer's tool"
+          },
+          {
+            "id": "32c2-dccc-387e-4767",
+            "name": "Wrack with Ossefactor",
+            "min": 0,
+            "max": 2,
+            "equippedWith": "Torturer's tool"
+          },
+          {
+            "id": "8f92-bc32-71c6-6f82",
+            "name": "Wrack with Stinger Pistol",
+            "min": 0,
+            "max": 2,
+            "equippedWith": "Torturer's tool"
+          }
+        ],
+        "defaultOptionId": "166e-a14c-3726-565c"
+      },
+      {
+        "id": "a655-68e8-35ec-c7e2",
+        "name": "Acothyst",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "19dd-6790-5ec9-7d3c",
+            "name": "Acothyst",
+            "min": 1,
+            "max": 1,
+            "groups": [
+              {
+                "id": "7cb2-d3db-a8d7-a332",
+                "name": "Weapon Options",
+                "min": 1,
+                "max": 1,
+                "mode": "single",
+                "options": [
+                  {
+                    "id": "3b28-a84a-639d-8be5",
+                    "name": "Twin torturer's tools",
+                    "min": 0,
+                    "max": 1
+                  }
+                ],
+                "defaultOptionId": "3b28-a84a-639d-8be5",
+                "groups": [
+                  {
+                    "id": "933e-eac4-95a9-d4d9",
+                    "name": "Ranged Weapon",
+                    "min": 0,
+                    "max": 1,
+                    "mode": "single",
+                    "options": [
+                      {
+                        "id": "aa43-7dde-bd80-a2f7",
+                        "name": "Torturer's tool",
+                        "min": 0,
+                        "max": 99
+                      },
+                      {
+                        "id": "bebb-a94f-5c28-9384",
+                        "name": "Hexrifle",
+                        "min": 0,
+                        "max": 1
+                      },
+                      {
+                        "id": "538c-7a06-2bfd-ac92",
+                        "name": "Liquifier gun",
+                        "min": 0,
+                        "max": 1
+                      },
+                      {
+                        "id": "6306-67b2-e496-90b7",
+                        "name": "Ossefactor",
+                        "min": 0,
+                        "max": 1
+                      },
+                      {
+                        "id": "6fd7-f37d-62c4-4912",
+                        "name": "Stinger pistol",
+                        "min": 0,
+                        "max": 1
+                      }
+                    ]
+                  },
+                  {
+                    "id": "785c-b40c-8fda-d182",
+                    "name": "Melee Weapon",
+                    "min": 0,
+                    "max": 1,
+                    "mode": "single",
+                    "options": [
+                      {
+                        "id": "6603-7cfe-6fa3-165a",
+                        "name": "Power weapon",
+                        "min": 0,
+                        "max": 1
+                      },
+                      {
+                        "id": "279f-0b29-8de1-ac3c",
+                        "name": "Torturer's tool",
+                        "min": 0,
+                        "max": 99
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "edca-1a1b-902d-421a": {
+    "groups": [
+      {
+        "id": "3a69-2d22-810a-62a0",
+        "name": "9 Wyches",
+        "min": 9,
+        "max": 9,
+        "mode": "count",
+        "options": [
+          {
+            "id": "4d6-5b91-d113-7a63",
+            "name": "Wych",
+            "min": 6,
+            "max": 9
+          },
+          {
+            "id": "ed30-3b85-9604-6290",
+            "name": "Wych w/ Gladiatorial weapons",
+            "min": 0,
+            "max": 3
+          }
+        ],
+        "defaultOptionId": "4d6-5b91-d113-7a63"
+      },
+      {
+        "id": "5b8f-a5b2-7fba-c5c8",
+        "name": "Hekatrix",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "9da2-32ec-2e06-5416",
+            "name": "Hekatrix",
+            "min": 1,
+            "max": 1,
+            "groups": [
+              {
+                "id": "2940-4f4f-145e-f8b0",
+                "name": "Pistol Choice",
+                "min": 1,
+                "max": 1,
+                "mode": "single",
+                "options": [
+                  {
+                    "id": "2679-b149-52a6-da94",
+                    "name": "Splinter Pistol",
+                    "min": 0,
+                    "max": 1
+                  },
+                  {
+                    "id": "c5d5-909c-8ac7-a80a",
+                    "name": "Blast Pistol",
+                    "min": 0,
+                    "max": 1
+                  }
+                ],
+                "defaultOptionId": "2679-b149-52a6-da94"
+              },
+              {
+                "id": "f5d4-cf51-adc3-0a52",
+                "name": "Blade Choice",
+                "min": 1,
+                "max": 1,
+                "mode": "single",
+                "options": [
+                  {
+                    "id": "9e28-e832-2118-91fc",
+                    "name": "Hekatarii Blade",
+                    "min": 0,
+                    "max": 1
+                  },
+                  {
+                    "id": "55b4-4fbd-3acf-186a",
+                    "name": "Power weapon",
+                    "min": 0,
+                    "max": 1
+                  }
+                ],
+                "defaultOptionId": "9e28-e832-2118-91fc"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "e2ad-60b4-9678-88aa": {
+    "groups": [
+      {
+        "id": "35c5-3f40-6826-3733",
+        "name": "Wargear",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "f768-7932-63ed-2b11",
+            "name": "D-Impaler",
+            "min": 1,
+            "max": 1
+          },
+          {
+            "id": "f742-8053-6d16-36fb",
+            "name": "Wraithbone hull",
+            "min": 1,
+            "max": 1
+          }
+        ]
+      }
+    ]
+  },
+  "1420-c80d-66fc-6a": {
+    "groups": [
+      {
+        "id": "ee95-7364-3df1-9587",
+        "name": "Wargear",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "5b97-9633-df3d-6177",
+            "name": "Twin Scorpion Pulsar",
+            "min": 1,
+            "max": 1
+          },
+          {
+            "id": "cfbf-5314-1435-373f",
+            "name": "Wraithbone hull",
+            "min": 1,
+            "max": 1
+          }
+        ]
+      }
+    ]
+  },
+  "1224-8735-46d-1919": {
+    "groups": [
+      {
+        "id": "26ff-5c02-3f6a-84e8",
+        "name": "Wargear",
+        "min": 2,
+        "max": 2,
+        "mode": "count",
+        "options": [
+          {
+            "id": "7551-85c8-6693-4e77",
+            "name": "Aeldari Missile Launcher",
+            "min": 0,
+            "max": 99
+          },
+          {
+            "id": "d7e2-602f-6ab6-a79f",
+            "name": "Bright Lance",
+            "min": 0,
+            "max": 99
+          },
+          {
+            "id": "2eb5-9b87-8e66-ed1a",
+            "name": "Scatter Laser",
+            "min": 0,
+            "max": 99
+          },
+          {
+            "id": "35b1-d746-8173-601d",
+            "name": "Shuriken Cannon",
+            "min": 0,
+            "max": 99
+          },
+          {
+            "id": "add6-bfad-1c63-3239",
+            "name": "Starcannon",
+            "min": 0,
+            "max": 99
+          },
+          {
+            "id": "7170-82b3-50f1-4f0",
+            "name": "Hornet Pulse Laser",
+            "min": 0,
+            "max": 99
+          }
+        ],
+        "defaultOptionId": "7170-82b3-50f1-4f0"
+      }
+    ]
+  },
+  "e3c5-54ef-44a5-9366": {
+    "groups": [
+      {
+        "id": "4fa3-cec0-15f6-7934",
+        "name": "Wargear",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "b968-2381-130c-c02",
+            "name": "Lynx Pulsar",
+            "min": 1,
+            "max": 1
+          },
+          {
+            "id": "c5d8-8b4f-314b-de0e",
+            "name": "Wraithbone hull",
+            "min": 1,
+            "max": 1
+          }
+        ]
+      }
+    ]
+  },
+  "af2e-2bff-9813-a5a3": {
+    "groups": [
+      {
+        "id": "1c25-e25e-89b0-494f",
+        "name": "Wargear",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "199c-3480-466c-6434",
+            "name": "Twin Bright Lance",
+            "min": 1,
+            "max": 1
+          },
+          {
+            "id": "4024-2db8-ef99-efa",
+            "name": "Twin Shuriken Cannon",
+            "min": 1,
+            "max": 1
+          },
+          {
+            "id": "ae78-44fb-2d37-c523",
+            "name": "Wraithbone hull",
+            "min": 1,
+            "max": 1
+          }
+        ]
+      }
+    ]
+  },
+  "5f15-8ad-1f3b-d6d1": {
+    "groups": [
+      {
+        "id": "015d-495e-08d2-7254",
+        "name": "Wargear",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "4e1c-8f2e-300b-51",
+            "name": "Titanic feet",
+            "min": 1,
+            "max": 1
+          }
+        ],
+        "groups": [
+          {
+            "id": "1aa5-5476-803d-7a68",
+            "name": "Left Arm",
+            "min": 1,
+            "max": 1,
+            "mode": "single",
+            "options": [
+              {
+                "id": "146b-7118-a958-acda",
+                "name": "Scattershield",
+                "min": 0,
+                "max": 99
+              },
+              {
+                "id": "9b81-57ef-2f8c-caa2",
+                "name": "Deathshroud Cannon",
+                "min": 0,
+                "max": 99
+              },
+              {
+                "id": "3c11-e1f2-6c29-cd5e",
+                "name": "Inferno Lance",
+                "min": 0,
+                "max": 99
+              }
+            ],
+            "defaultOptionId": "146b-7118-a958-acda"
+          },
+          {
+            "id": "7332-77ce-a627-6040",
+            "name": "Right Arm",
+            "min": 1,
+            "max": 1,
+            "mode": "single",
+            "options": [
+              {
+                "id": "f62a-7ed1-3fbc-7190",
+                "name": "Inferno Lance",
+                "min": 0,
+                "max": 99
+              },
+              {
+                "id": "e730-4017-eb9a-eadd",
+                "name": "Deathshroud Cannon",
+                "min": 0,
+                "max": 99
+              }
+            ],
+            "defaultOptionId": "f62a-7ed1-3fbc-7190"
+          },
+          {
+            "id": "92aa-a607-fda0-8ec1",
+            "name": "Secondary Weapons",
+            "min": 0,
+            "max": 2,
+            "mode": "count",
+            "options": [
+              {
+                "id": "1371-3622-350e-d740",
+                "name": "Scatter Laser",
+                "min": 0,
+                "max": 2
+              },
+              {
+                "id": "243a-b996-457f-9638",
+                "name": "Shuriken Cannon",
+                "min": 0,
+                "max": 2
+              },
+              {
+                "id": "ba5d-8f4c-c924-804b",
+                "name": "Starcannon",
+                "min": 0,
+                "max": 2
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "9c94-b663-fd31-6001": {
+    "groups": [
+      {
+        "id": "bb45-1ce7-6905-aeb2",
+        "name": "5-10 Shadow Spectres",
+        "min": 5,
+        "max": 10,
+        "mode": "count",
+        "options": [
+          {
+            "id": "4583-2da0-623e-fd4a",
+            "name": "Shadow Spectre",
+            "min": 0,
+            "max": 99
+          }
+        ],
+        "defaultOptionId": "4583-2da0-623e-fd4a"
+      }
+    ]
+  },
+  "79b3-2cd1-d7b4-d7b1": {
+    "groups": [
+      {
+        "id": "84fa-cd20-be08-f096",
+        "name": "Wargear",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "4a86-4ef2-b715-1aa5",
+            "name": "Phantom feet",
+            "min": 1,
+            "max": 1
+          },
+          {
+            "id": "b114-c837-6af0-4625",
+            "name": "Voidstorm missile launcher",
+            "min": 1,
+            "max": 1
+          }
+        ],
+        "groups": [
+          {
+            "id": "8812-c579-5494-681c",
+            "name": "D-bombard Replacement",
+            "min": 1,
+            "max": 1,
+            "mode": "single",
+            "options": [
+              {
+                "id": "2d9f-75c5-eb71-2fb6",
+                "name": "D-bombard",
+                "min": 0,
+                "max": 99
+              },
+              {
+                "id": "9c9e-3b2e-cb6f-70ca",
+                "name": "1 Phantom pulsar",
+                "min": 0,
+                "max": 99
+              },
+              {
+                "id": "c4c3-72b0-10fd-d15f",
+                "name": "2 Phantom starcannons & 1 wraith glaive",
+                "min": 0,
+                "max": 99
+              },
+              {
+                "id": "1fa2-b693-52d3-faaf",
+                "name": "2 pulse lasers & 1 wraith glaive",
+                "min": 0,
+                "max": 99
+              },
+              {
+                "id": "5ca8-717c-e55-1326",
+                "name": "1 Phantom starcannon, 1 pulse laser & 1 wraith glaive",
+                "min": 0,
+                "max": 99,
+                "equippedWith": "Pulse laser and Phantom starcannon"
+              }
+            ],
+            "defaultOptionId": "2d9f-75c5-eb71-2fb6"
+          },
+          {
+            "id": "c712-3511-6ec2-390e",
+            "name": "Phantom pulsar Replacement",
+            "min": 1,
+            "max": 1,
+            "mode": "single",
+            "options": [
+              {
+                "id": "9095-c748-c249-ad5c",
+                "name": "D-bombard",
+                "min": 0,
+                "max": 99
+              },
+              {
+                "id": "cc05-055f-0029-ab1d",
+                "name": "Phantom pulsar",
+                "min": 0,
+                "max": 99
+              },
+              {
+                "id": "c7c3-9e64-c6b1-9657",
+                "name": "2 Phantom starcannons & 1 wraith glaive",
+                "min": 0,
+                "max": 99
+              },
+              {
+                "id": "c17b-b0aa-4128-4b2d",
+                "name": "2 pulse lasers & 1 wraith glaive",
+                "min": 0,
+                "max": 99
+              },
+              {
+                "id": "0b48-12b6-9af7-96b7",
+                "name": "1 Phantom starcannon, 1 pulse laser & 1 wraith glaive",
+                "min": 0,
+                "max": 99,
+                "equippedWith": "Pulse laser and Phantom starcannon"
+              }
+            ],
+            "defaultOptionId": "cc05-055f-0029-ab1d"
+          },
+          {
+            "id": "214e-c11a-19fa-7819",
+            "name": "Phantom starcannon replacement",
+            "min": 1,
+            "max": 1,
+            "mode": "single",
+            "options": [
+              {
+                "id": "be1d-913c-2335-8e39",
+                "name": "Pulse laser",
+                "min": 0,
+                "max": 99
+              },
+              {
+                "id": "4970-5fe7-e62a-11b9",
+                "name": "Phantom starcannon",
+                "min": 0,
+                "max": 99
+              }
+            ],
+            "defaultOptionId": "4970-5fe7-e62a-11b9"
+          }
+        ]
+      }
+    ]
+  },
+  "ca40-4a0d-567-852": {
+    "groups": [
+      {
+        "id": "bb6d-d44d-9216-70ba",
+        "name": "Wargear",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "377c-4960-da64-5ee9",
+            "name": "Cloudburst missile launcher",
+            "min": 1,
+            "max": 1
+          },
+          {
+            "id": "3033-d025-4a83-d8bf",
+            "name": "Revenant feet",
+            "min": 1,
+            "max": 1
+          }
+        ],
+        "groups": [
+          {
+            "id": "c1c8-95e3-afe3-a34",
+            "name": "Left Arm",
+            "min": 1,
+            "max": 1,
+            "mode": "single",
+            "options": [
+              {
+                "id": "ceea-26f5-93c5-c967",
+                "name": "Sonic Lance",
+                "min": 0,
+                "max": 99
+              },
+              {
+                "id": "dc71-8b0d-ed05-bd4a",
+                "name": "Revenant Pulsar",
+                "min": 0,
+                "max": 99
+              }
+            ],
+            "defaultOptionId": "dc71-8b0d-ed05-bd4a"
+          },
+          {
+            "id": "7621-8363-a4dd-8cef",
+            "name": "Right Arm",
+            "min": 1,
+            "max": 1,
+            "mode": "single",
+            "options": [
+              {
+                "id": "17c6-9d9d-9454-5228",
+                "name": "Sonic Lance",
+                "min": 0,
+                "max": 99
+              },
+              {
+                "id": "82ea-fef5-5005-f06d",
+                "name": "Revenant Pulsar",
+                "min": 0,
+                "max": 99
+              }
+            ],
+            "defaultOptionId": "17c6-9d9d-9454-5228"
+          }
+        ]
+      }
+    ]
+  },
+  "ef18-ff32-2be6-7372": {
+    "groups": [
+      {
+        "id": "b0d7-8b21-5646-7e61",
+        "name": "Wargear",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "cc2d-97ec-ab7c-d4f5",
+            "name": "D-Flail",
+            "min": 1,
+            "max": 1
+          },
+          {
+            "id": "fc11-6216-f80f-d1b9",
+            "name": "Wraithbone hull",
+            "min": 1,
+            "max": 1
+          }
+        ],
+        "groups": [
+          {
+            "id": "4a2b-be4d-ac05-bf67",
+            "name": "Hull weapon",
+            "min": 1,
+            "max": 1,
+            "mode": "single",
+            "options": [
+              {
+                "id": "f411-7b76-d850-b1c7",
+                "name": "Twin Shuriken Catapult",
+                "min": 0,
+                "max": 1
+              },
+              {
+                "id": "12a8-a1a3-b500-1421",
+                "name": "Shuriken Cannon",
+                "min": 0,
+                "max": 1
+              }
+            ],
+            "defaultOptionId": "f411-7b76-d850-b1c7"
+          }
+        ]
+      }
+    ]
+  },
+  "b369-a813-75ac-2dc6": {
+    "groups": [
+      {
+        "id": "b7c9-2045-b154-c2df",
+        "name": "Wargear",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "1583-8c64-1069-f661",
+            "name": "Destructor",
+            "min": 1,
+            "max": 1
+          },
+          {
+            "id": "5782-cffd-df63-ee62",
+            "name": "Ghostspear",
+            "min": 1,
+            "max": 1
+          }
+        ],
+        "groups": [
+          {
+            "id": "323e-b1bf-3926-a8f5",
+            "name": "Weapon Option",
+            "min": 1,
+            "max": 1,
+            "mode": "single",
+            "options": [
+              {
+                "id": "13ad-6c55-3cd5-becb",
+                "name": "Aeldari Missile Launcher",
+                "min": 0,
+                "max": 99
+              },
+              {
+                "id": "5de9-fc84-70c3-107a",
+                "name": "Bright Lance",
+                "min": 0,
+                "max": 99
+              },
+              {
+                "id": "1c95-4914-19e3-c19",
+                "name": "Scatter Laser",
+                "min": 0,
+                "max": 99
+              },
+              {
+                "id": "1267-425e-a31c-48f4",
+                "name": "Shuriken Cannon",
+                "min": 0,
+                "max": 99
+              },
+              {
+                "id": "a255-9afb-1d90-29be",
+                "name": "Starcannon",
+                "min": 0,
+                "max": 99
+              },
+              {
+                "id": "38aa-31b3-5eca-bd5b",
+                "name": "Wraithseer D-Cannon",
+                "min": 0,
+                "max": 99
+              }
+            ],
+            "defaultOptionId": "38aa-31b3-5eca-bd5b"
+          }
+        ]
+      }
+    ]
+  },
+  "dfe4-d4db-9d04-9e7a": {
+    "groups": [
+      {
+        "id": "beb8-02aa-b53b-1b12",
+        "name": "Wargear",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "d40c-629e-88a1-9605",
+            "name": "Dire Scythe Blades",
+            "min": 1,
+            "max": 1
+          },
+          {
+            "id": "d3ca-ad7f-8807-d68e",
+            "name": "Pulse Disintegrators",
+            "min": 1,
+            "max": 1
+          }
+        ]
+      }
+    ]
+  },
+  "2384-4154-b67a-3827": {
+    "groups": [
+      {
+        "id": "6eb7-7e5c-83ff-faab",
+        "name": "Wargear",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "76c7-fe48-c2b-c524",
+            "name": "Psytronome Shaper",
+            "min": 1,
+            "max": 1
+          }
+        ]
+      }
+    ]
+  },
+  "790d-9fdf-b359-62ba": {
+    "groups": [
+      {
+        "id": "c90-71e4-77b8-a242",
+        "name": "3-6 Corsair Cloud Dancers",
+        "min": 3,
+        "max": 6,
+        "mode": "count",
+        "options": [
+          {
+            "id": "f3ed-2ed0-5496-677e",
+            "name": "Corsair Cloud Dancer",
+            "min": 0,
+            "max": 99,
+            "groups": [
+              {
+                "id": "90c4-781f-c656-ad97",
+                "name": "Replace twin shuriken catapult",
+                "min": 1,
+                "max": 1,
+                "mode": "single",
+                "options": [
+                  {
+                    "id": "c880-d83b-baf9-de7b",
+                    "name": "Twin shuriken catapult",
+                    "min": 0,
+                    "max": 99
+                  },
+                  {
+                    "id": "8d8e-9df6-3ce5-1fbf",
+                    "name": "Shuriken cannon",
+                    "min": 0,
+                    "max": 99
+                  },
+                  {
+                    "id": "e98-c9ef-8cac-3a5c",
+                    "name": "Dark lance",
+                    "min": 0,
+                    "max": 99
+                  },
+                  {
+                    "id": "dbd6-8d90-c999-4889",
+                    "name": "Dissonance cannon",
+                    "min": 0,
+                    "max": 99
+                  },
+                  {
+                    "id": "762d-d3a2-751-c785",
+                    "name": "Splinter cannon",
+                    "min": 0,
+                    "max": 99
+                  }
+                ],
+                "defaultOptionId": "c880-d83b-baf9-de7b"
+              }
+            ]
+          }
+        ],
+        "defaultOptionId": "f3ed-2ed0-5496-677e"
+      }
+    ]
+  },
+  "d11f-239d-94b4-c194": {
+    "groups": [
+      {
+        "id": "6bd5-66d5-8cf4-a7b9",
+        "name": "Wargear",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "8c49-fd52-2c96-838d",
+            "name": "Firestorm Scatter Laser",
+            "min": 1,
+            "max": 1
+          },
+          {
+            "id": "7f63-7496-69cc-25b",
+            "name": "Wraithbone hull",
+            "min": 1,
+            "max": 1
+          }
+        ],
+        "groups": [
+          {
+            "id": "8584-e041-5077-79a6",
+            "name": "Hull weapon",
+            "min": 1,
+            "max": 1,
+            "mode": "single",
+            "options": [
+              {
+                "id": "495d-9b0f-1bc3-e07",
+                "name": "Twin Shuriken Catapult",
+                "min": 0,
+                "max": 1
+              },
+              {
+                "id": "8f56-998c-56e-5e0e",
+                "name": "Shuriken Cannon",
+                "min": 0,
+                "max": 1
+              }
+            ],
+            "defaultOptionId": "e8fe-8098-2150-7d5d"
+          }
+        ]
+      }
+    ]
+  },
+  "6083-affa-5163-a94c": {
+    "groups": [
+      {
+        "id": "1958-bc86-cc81-c287",
+        "name": "Wargear",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "379f-7380-4376-c691",
+            "name": "Phoenix missile array",
+            "min": 1,
+            "max": 1
+          },
+          {
+            "id": "8180-a4b0-26cd-b53e",
+            "name": "Phoenix pulse laser",
+            "min": 1,
+            "max": 1
+          },
+          {
+            "id": "5d3c-1714-bf06-ae98",
+            "name": "Twin shuriken cannon",
+            "min": 1,
+            "max": 1
+          },
+          {
+            "id": "8732-aa68-5fd4-a946",
+            "name": "Wraithbone hull",
+            "min": 1,
+            "max": 1
+          }
+        ]
+      }
+    ]
+  },
+  "22ea-9a4-cda3-a24": {
+    "groups": [
+      {
+        "id": "b6fa-75b3-7537-f804",
+        "name": "Wargear",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "8111-3af8-4298-b57f",
+            "name": "Scatter Laser",
+            "min": 1,
+            "max": 1
+          },
+          {
+            "id": "d2fe-ab04-e49f-1400",
+            "name": "Twin Pulse Laser",
+            "min": 2,
+            "max": 2
+          },
+          {
+            "id": "c891-819d-11d0-5e8f",
+            "name": "Twin Vampire Pulsar",
+            "min": 1,
+            "max": 1
+          },
+          {
+            "id": "ceef-306b-c8b-10a4",
+            "name": "Wraithbone hull",
+            "min": 1,
+            "max": 1
+          }
+        ]
+      }
+    ]
+  },
+  "4016-44d3-c64b-cc1a": {
+    "groups": [
+      {
+        "id": "7e59-d716-030f-436e",
+        "name": "Wargear",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "8f06-6bfb-b366-6595",
+            "name": "Scatter Laser",
+            "min": 1,
+            "max": 1
+          },
+          {
+            "id": "8194-7e89-dbfc-a042",
+            "name": "Twin Pulse Laser",
+            "min": 2,
+            "max": 2
+          },
+          {
+            "id": "757-7ff8-750f-409c",
+            "name": "Wraithbone hull",
+            "min": 1,
+            "max": 1
+          }
+        ]
+      }
+    ]
+  },
+  "6c50-7486-7c0d-52d0": {
+    "groups": [
+      {
+        "id": "f326-d969-ec78-21d2",
+        "name": "Wargear",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "196d-7a49-33c6-3534",
+            "name": "Wasp feet",
+            "min": 1,
+            "max": 1
+          }
+        ]
+      }
+    ]
+  },
+  "28c1-2c51-ab58-2d91": {
+    "groups": [
+      {
+        "id": "be35-2359-eb4a-6eeb",
+        "name": "Wargear",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "dd07-325a-57d6-6f00",
+            "name": "Bladed wings",
+            "min": 1,
+            "max": 1
+          },
+          {
+            "id": "ad96-8ab8-d38-9d4a",
+            "name": "Dark lance",
+            "min": 2,
+            "max": 2
+          },
+          {
+            "id": "a505-80d8-8b35-6343",
+            "name": "Splinterstorm cannon",
+            "min": 1,
+            "max": 1
+          }
+        ]
+      }
+    ]
+  },
+  "a228-7269-9961-daf4": {
+    "groups": [
+      {
+        "id": "d980-24ac-8a67-643f",
+        "name": "Wargear",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "8806-4f66-11b6-576b",
+            "name": "Bladevanes",
+            "min": 1,
+            "max": 1
+          },
+          {
+            "id": "ccef-c33c-d014-bbcb",
+            "name": "Prow blade",
+            "min": 1,
+            "max": 1
+          },
+          {
+            "id": "d4fb-b516-9050-f2e9",
+            "name": "Storm vortex projector",
+            "min": 1,
+            "max": 1
+          }
+        ]
+      }
+    ]
+  },
+  "f52d-1814-7d66-1f7b": {
+    "groups": [
+      {
+        "id": "3182-c11e-25df-9932",
+        "name": "1-2 Warlock Skyrunners",
+        "min": 1,
+        "max": 2,
+        "mode": "count",
+        "options": [
+          {
+            "id": "b98a-4fbb-a3d8-1ada",
+            "name": "Warlock Skyrunner with Witchblade",
+            "min": 0,
+            "max": 2
+          },
+          {
+            "id": "6b49-1d1a-78ce-02aa",
+            "name": "Warlock Skyrunner with Singing Spear",
+            "min": 0,
+            "max": 2
+          }
+        ],
+        "defaultOptionId": "b98a-4fbb-a3d8-1ada"
+      }
+    ]
+  },
+  "5f10-27fc-f1e4-af90": {
+    "groups": [
+      {
+        "id": "1144-7da9-bee9-07c9",
+        "name": "Wargear",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "ed6c-f113-afff-c095",
+            "name": "Huskblade",
+            "min": 1,
+            "max": 1
+          },
+          {
+            "id": "67ed-3a6f-f17a-f978",
+            "name": "Shadow Field",
+            "min": 1,
+            "max": 1
+          }
+        ],
+        "groups": [
+          {
+            "id": "2765-ef02-3ca2-54a9",
+            "name": "Pistol Choice",
+            "min": 1,
+            "max": 1,
+            "mode": "single",
+            "options": [
+              {
+                "id": "2fa4-b07d-9fdb-a8af",
+                "name": "Splinter Pistol",
+                "min": 0,
+                "max": 99
+              },
+              {
+                "id": "f592-745d-c0b9-2563",
+                "name": "Blast Pistol",
+                "min": 0,
+                "max": 99
+              }
+            ],
+            "defaultOptionId": "2fa4-b07d-9fdb-a8af"
+          }
+        ]
+      }
+    ]
+  },
+  "2c93-f32d-64ea-b829": {
+    "groups": [
+      {
+        "id": "e9b4-57fe-5414-08de",
+        "name": "Wargear",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "c5da-9187-0922-fd97",
+            "name": "Shadow weaver",
+            "min": 1,
+            "max": 1
+          },
+          {
+            "id": "9219-0d70-fc82-eb56",
+            "name": "Close Combat Weapon",
+            "min": 1,
+            "max": 1
+          },
+          {
+            "id": "dc97-9678-e5bb-5f39",
+            "name": "Shuriken Catapult",
+            "min": 1,
+            "max": 1
+          }
+        ]
+      }
+    ]
+  },
+  "5df4-e13a-f6f4-b672": {
+    "groups": [
+      {
+        "id": "8d1d-e052-3be0-5476",
+        "name": "Wargear",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "f167-5e06-f1d7-2e0b",
+            "name": "Vibro Cannon",
+            "min": 1,
+            "max": 1
+          },
+          {
+            "id": "c281-5a1f-7d82-56c2",
+            "name": "Close Combat Weapon",
+            "min": 1,
+            "max": 1
+          },
+          {
+            "id": "fe13-e1b1-0d8c-b189",
+            "name": "Shuriken Catapult",
+            "min": 1,
+            "max": 1
+          }
+        ]
+      }
+    ]
+  },
+  "d756-653a-872b-5c1b": {
+    "groups": [
+      {
+        "id": "b290-7d2e-cbc8-4406",
+        "name": "Wargear",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "2d05-efec-bda2-f059",
+            "name": "Titanic Ghostglaive",
+            "min": 1,
+            "max": 1
+          }
+        ],
+        "groups": [
+          {
+            "id": "6bc5-e120-52b6-d591",
+            "name": "Left Arm",
+            "min": 1,
+            "max": 1,
+            "mode": "single",
+            "options": [
+              {
+                "id": "d7cf-9b45-9800-5155",
+                "name": "Scattershield",
+                "min": 0,
+                "max": 99
+              },
+              {
+                "id": "eb0d-7b5a-e9cd-1763",
+                "name": "Heavy Wraithcannon",
+                "min": 0,
+                "max": 99
+              }
+            ],
+            "defaultOptionId": "d7cf-9b45-9800-5155"
+          },
+          {
+            "id": "eb42-f7d3-e98f-3534",
+            "name": "Secondary Weapons",
+            "min": 0,
+            "max": 2,
+            "mode": "count",
+            "options": [
+              {
+                "id": "4305-3d8d-7fa6-7777",
+                "name": "Scatter Laser",
+                "min": 0,
+                "max": 2
+              },
+              {
+                "id": "33f6-082e-0af5-965e",
+                "name": "Shuriken Cannon",
+                "min": 0,
+                "max": 2
+              },
+              {
+                "id": "93b7-b620-6352-1764",
+                "name": "Starcannon",
+                "min": 0,
+                "max": 2
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "c2e0-ca3e-e8c1-e019": {
+    "groups": [
+      {
+        "id": "6ec9-2b2e-db9e-e5dc",
+        "name": "Wargear",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "6873-8ac2-1d42-5e2a",
+            "name": "Succubus weapons",
+            "min": 1,
+            "max": 1
+          }
+        ],
+        "groups": [
+          {
+            "id": "8bb8-3864-f51b-de2e",
+            "name": "Pistol Choice",
+            "min": 0,
+            "max": 1,
+            "mode": "single",
+            "options": [
+              {
+                "id": "7005-b8f9-cd47-a13d",
+                "name": "Splinter Pistol",
+                "min": 0,
+                "max": 99
+              },
+              {
+                "id": "ac0d-b018-169c-7fbb",
+                "name": "Blast Pistol",
+                "min": 0,
+                "max": 99
+              }
+            ],
+            "defaultOptionId": "7005-b8f9-cd47-a13d"
+          }
+        ]
+      }
+    ]
+  },
+  "36fd-7c3f-b728-c5d4": {
+    "groups": [
+      {
+        "id": "7f36-0c00-3ffc-d1c6",
+        "name": "9 Wyches",
+        "min": 9,
+        "max": 9,
+        "mode": "count",
+        "options": [
+          {
+            "id": "b88f-2f26-c0fc-8e88",
+            "name": "Wych",
+            "min": 9,
+            "max": 9
+          }
+        ],
+        "defaultOptionId": "4d6-5b91-d113-7a63"
+      },
+      {
+        "id": "9a6e-0649-1df4-979d",
+        "name": "Hekatrix",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "c24e-160d-1ec2-34c4",
+            "name": "Hekatrix",
+            "min": 1,
+            "max": 1,
+            "groups": [
+              {
+                "id": "9ce5-3656-bccb-632f",
+                "name": "Pistol Choice",
+                "min": 0,
+                "max": 1,
+                "mode": "single",
+                "options": [
+                  {
+                    "id": "44c8-fbdd-33da-2dbd",
+                    "name": "Splinter Pistol",
+                    "min": 0,
+                    "max": 99
+                  },
+                  {
+                    "id": "280f-1bb4-ab45-5a7d",
+                    "name": "Blast Pistol",
+                    "min": 0,
+                    "max": 99
+                  }
+                ],
+                "defaultOptionId": "2679-b149-52a6-da94"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "5bf7-f905-8fab-43b4": {
+    "groups": [
+      {
+        "id": "243c-199a-b4b5-68c6",
+        "name": "4-9 Incubi",
+        "min": 4,
+        "max": 9,
+        "mode": "count",
+        "options": [
+          {
+            "id": "3b51-90d8-a022-d426",
+            "name": "Incubi",
+            "min": 4,
+            "max": 9
+          }
+        ]
+      },
+      {
+        "id": "3fa2-bb05-7232-fdfd",
+        "name": "Klaivex",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "b73a-a76f-3233-d588",
+            "name": "Klaivex",
+            "min": 1,
+            "max": 1,
+            "groups": [
+              {
+                "id": "b56a-c773-3e40-1f6d",
+                "name": "Wargear",
+                "min": 1,
+                "max": 1,
+                "mode": "single",
+                "options": [
+                  {
+                    "id": "0e3d-8515-d572-bf5e",
+                    "name": "Demiklaives",
+                    "min": 0,
+                    "max": 99
+                  },
+                  {
+                    "id": "bde9-5b79-6e58-c065",
+                    "name": "Klaive",
+                    "min": 0,
+                    "max": 99
+                  }
+                ],
+                "defaultOptionId": "bde9-5b79-6e58-c065"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "915d-ad53-9518-7a85": {
+    "groups": [
+      {
+        "id": "c749-f83a-7a81-8c41",
+        "name": "2-5 Reavers",
+        "min": 2,
+        "max": 5,
+        "mode": "count",
+        "options": [
+          {
+            "id": "783f-9571-8ec0-7614",
+            "name": "Reaver",
+            "min": 2,
+            "max": 5
+          },
+          {
+            "id": "26bf-b7d3-80f0-2ab7",
+            "name": "Reaver with Blaster",
+            "min": 0,
+            "max": 1
+          },
+          {
+            "id": "f427-9992-bcb2-4836",
+            "name": "Reaver with Heat Lance",
+            "min": 0,
+            "max": 1
+          }
+        ]
+      },
+      {
+        "id": "3a09-983a-42fc-5656",
+        "name": "Arena Champion",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "d0d6-4170-a69d-1196",
+            "name": "Arena Champion",
+            "min": 1,
+            "max": 1,
+            "groups": [
+              {
+                "id": "c125-0ef3-a75f-653c",
+                "name": "Bike Weapon",
+                "min": 1,
+                "max": 1,
+                "mode": "single",
+                "options": [
+                  {
+                    "id": "a4f8-4e2c-cea5-7d31",
+                    "name": "Splinter Rifle",
+                    "min": 0,
+                    "max": 1
+                  },
+                  {
+                    "id": "dec1-2aa4-aa44-1fab",
+                    "name": "Blaster",
+                    "min": 0,
+                    "max": 1
+                  },
+                  {
+                    "id": "f0a6-39b0-cb9a-3d50",
+                    "name": "Heat Lance",
+                    "min": 0,
+                    "max": 1
+                  }
+                ],
+                "defaultOptionId": "a4f8-4e2c-cea5-7d31"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "8e15-3c74-d36f-7669": {
+    "groups": [
+      {
+        "id": "cd76-6556-160d-ae4c",
+        "name": "Wargear",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "9d49-8ef9-d771-fac6",
+            "name": "Bladevanes",
+            "min": 1,
+            "max": 1
+          }
+        ],
+        "groups": [
+          {
+            "id": "b3cd-d554-de2f-5acc",
+            "name": "Weapon Option",
+            "min": 1,
+            "max": 1,
+            "mode": "single",
+            "options": [
+              {
+                "id": "ecda-9712-4626-0ff0",
+                "name": "Disintegrator Cannon",
+                "min": 0,
+                "max": 99
+              },
+              {
+                "id": "3c82-00d0-1e60-2d40",
+                "name": "Dark Lance",
+                "min": 0,
+                "max": 99
+              }
+            ],
+            "defaultOptionId": "3c82-00d0-1e60-2d40"
+          }
+        ]
+      }
+    ]
+  },
+  "5443-6671-baeb-77a3": {
+    "groups": [
+      {
+        "id": "2cd9-8621-a4c7-29e9",
+        "name": "Wargear",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "c883-6add-2307-882d",
+            "name": "Bladevanes",
+            "min": 1,
+            "max": 1
+          },
+          {
+            "id": "0a1b-623b-7aa5-6333",
+            "name": "Splinter Cannon",
+            "min": 1,
+            "max": 1
+          }
+        ],
+        "groups": [
+          {
+            "id": "3c11-7591-ec6d-441d",
+            "name": "Weapon Option",
+            "min": 1,
+            "max": 1,
+            "mode": "single",
+            "options": [
+              {
+                "id": "8551-5490-4e61-9abe",
+                "name": "Splinter Cannon",
+                "min": 0,
+                "max": 1
+              },
+              {
+                "id": "5546-d537-b8a6-20cf",
+                "name": "Twin Splinter Rifle",
+                "min": 0,
+                "max": 1
+              }
+            ],
+            "defaultOptionId": "5546-d537-b8a6-20cf"
+          }
+        ]
+      }
+    ]
+  },
+  "f2d1-4574-223f-998f": {
+    "groups": [
+      {
+        "id": "20a2-d24f-b741-9b5c",
+        "name": "Scourge w/ special weapon",
+        "min": 4,
+        "max": 4,
+        "mode": "count",
+        "options": [
+          {
+            "id": "313f-6619-806f-c4c7",
+            "name": "Scourge with Special Weapon",
+            "min": 0,
+            "max": 1,
+            "groups": [
+              {
+                "id": "070f-4391-a134-e575",
+                "name": "Ranged Weapon",
+                "min": 1,
+                "max": 1,
+                "mode": "single",
+                "options": [
+                  {
+                    "id": "2d71-ee36-f403-076b",
+                    "name": "Blaster",
+                    "min": 0,
+                    "max": 99
+                  },
+                  {
+                    "id": "b144-9588-0ee3-cf5e",
+                    "name": "Shredder",
+                    "min": 0,
+                    "max": 99
+                  },
+                  {
+                    "id": "f54e-5613-03e4-c190",
+                    "name": "Shardcarbine",
+                    "min": 0,
+                    "max": 99
+                  }
+                ],
+                "defaultOptionId": "f54e-5613-03e4-c190"
+              }
+            ]
+          },
+          {
+            "id": "6e9b-38a8-e240-7a50",
+            "name": "Scourge",
+            "min": 4,
+            "max": 4
+          }
+        ],
+        "defaultOptionId": "6e9b-38a8-e240-7a50"
+      },
+      {
+        "id": "e605-6597-2fa0-1a5d",
+        "name": "Solarite",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "4339-efd9-2c5b-29d9",
+            "name": "Solarite",
+            "min": 1,
+            "max": 1,
+            "groups": [
+              {
+                "id": "82ba-d85c-1752-1ad6",
+                "name": "Weapon Option",
+                "min": 1,
+                "max": 1,
+                "mode": "single",
+                "options": [
+                  {
+                    "id": "a1da-6e01-938a-89c7",
+                    "name": "Shardcarbine",
+                    "min": 0,
+                    "max": 1
+                  },
+                  {
+                    "id": "cbf7-7f2f-e56b-7b50",
+                    "name": "1 Blast pistol and 1 Power weapon",
+                    "min": 0,
+                    "max": 1
+                  },
+                  {
+                    "id": "4e52-01df-ed8f-e6d4",
+                    "name": "1 Splinter pistol and 1 Power weapon",
+                    "min": 0,
+                    "max": 1
+                  }
+                ],
+                "defaultOptionId": "5768-c5d9-c4d6-360a"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

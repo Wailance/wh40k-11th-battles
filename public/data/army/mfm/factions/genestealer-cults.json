@@ -1,0 +1,889 @@
+{
+  "slug": "genestealer-cults",
+  "name": "Genestealer Cults",
+  "version": "1.0",
+  "firstSeen": "2026-06-17",
+  "detachments": [
+    {
+      "name": "Biosanctic Broodsurge",
+      "dp": 2,
+      "objective": "TAKE AND HOLD",
+      "enhancements": [
+        {
+          "name": "Alien Majesty",
+          "points": 15,
+          "detachment": "Biosanctic Broodsurge"
+        },
+        {
+          "name": "Biomorph Adaptation",
+          "points": 25,
+          "detachment": "Biosanctic Broodsurge"
+        },
+        {
+          "name": "Mutagenic Regeneration",
+          "points": 10,
+          "detachment": "Biosanctic Broodsurge"
+        },
+        {
+          "name": "Predatory Instincts",
+          "points": 20,
+          "detachment": "Biosanctic Broodsurge"
+        }
+      ]
+    },
+    {
+      "name": "Brood Brothers Auxilia",
+      "dp": 2,
+      "objective": "TAKE AND HOLD",
+      "enhancements": [
+        {
+          "name": "Adaptive Reprisal",
+          "points": 15,
+          "detachment": "Brood Brothers Auxilia"
+        },
+        {
+          "name": "Fire-point Commander",
+          "points": 10,
+          "detachment": "Brood Brothers Auxilia"
+        },
+        {
+          "name": "Martial Espionage",
+          "points": 25,
+          "detachment": "Brood Brothers Auxilia"
+        },
+        {
+          "name": "The Hero Returned",
+          "points": 20,
+          "detachment": "Brood Brothers Auxilia"
+        }
+      ]
+    },
+    {
+      "name": "Final Day",
+      "dp": 2,
+      "objective": "PURGE THE FOE",
+      "enhancements": [
+        {
+          "name": "Enraptured Damnation",
+          "points": 10,
+          "detachment": "Final Day"
+        },
+        {
+          "name": "Inhuman Integration",
+          "points": 20,
+          "detachment": "Final Day"
+        },
+        {
+          "name": "Synaptic Auger",
+          "points": 15,
+          "detachment": "Final Day"
+        },
+        {
+          "name": "Vanguard Tyrant",
+          "points": 25,
+          "detachment": "Final Day"
+        }
+      ]
+    },
+    {
+      "name": "Heroes Of The Uprising",
+      "dp": 1,
+      "objective": "PURGE THE FOE",
+      "enhancements": [
+        {
+          "name": "Contraband Munitions",
+          "points": 20,
+          "detachment": "Heroes Of The Uprising"
+        },
+        {
+          "name": "Gene-tailored Toxins",
+          "points": 35,
+          "detachment": "Heroes Of The Uprising"
+        }
+      ]
+    },
+    {
+      "name": "Host Of Ascension",
+      "dp": 3,
+      "objective": "TAKE AND HOLD",
+      "enhancements": [
+        {
+          "name": "A Chink In Their Armour",
+          "points": 20,
+          "detachment": "Host Of Ascension"
+        },
+        {
+          "name": "Assassination Edict",
+          "points": 15,
+          "detachment": "Host Of Ascension"
+        },
+        {
+          "name": "Our Time is Nigh",
+          "points": 20,
+          "detachment": "Host Of Ascension"
+        },
+        {
+          "name": "Prowling Agitant",
+          "points": 15,
+          "detachment": "Host Of Ascension"
+        }
+      ]
+    },
+    {
+      "name": "Outlander Claw",
+      "dp": 2,
+      "objective": "RECONNAISSANCE",
+      "enhancements": [
+        {
+          "name": "Assault Commando",
+          "points": 15,
+          "detachment": "Outlander Claw"
+        },
+        {
+          "name": "Cartographic Data-leech",
+          "points": 10,
+          "detachment": "Outlander Claw"
+        },
+        {
+          "name": "Serpentine Tactics",
+          "points": 10,
+          "detachment": "Outlander Claw"
+        },
+        {
+          "name": "Starfall Shells",
+          "points": 10,
+          "detachment": "Outlander Claw"
+        }
+      ]
+    },
+    {
+      "name": "Purestrain Broodswarm",
+      "dp": 1,
+      "objective": "PRIORITY ASSETS",
+      "enhancements": [
+        {
+          "name": "Mark of the Star Children (Upgrade)",
+          "points": 30,
+          "detachment": "Purestrain Broodswarm"
+        },
+        {
+          "name": "Talons of the Sire",
+          "points": 15,
+          "detachment": "Purestrain Broodswarm"
+        }
+      ]
+    },
+    {
+      "name": "Xenocreed Congregation",
+      "dp": 2,
+      "objective": "PRIORITY ASSETS",
+      "enhancements": [
+        {
+          "name": "Deeds that Speak to the Masses",
+          "points": 25,
+          "detachment": "Xenocreed Congregation"
+        },
+        {
+          "name": "Denunciator of Tyrants",
+          "points": 25,
+          "detachment": "Xenocreed Congregation"
+        },
+        {
+          "name": "Gene-sire’s Reliquant",
+          "points": 5,
+          "detachment": "Xenocreed Congregation"
+        },
+        {
+          "name": "Incendiary Inspiration",
+          "points": 15,
+          "detachment": "Xenocreed Congregation"
+        }
+      ]
+    },
+    {
+      "name": "Xenocult Masses",
+      "dp": 1,
+      "objective": "DISRUPTION",
+      "enhancements": [
+        {
+          "name": "Devious Disguises (Upgrade)",
+          "points": 15,
+          "detachment": "Xenocult Masses"
+        },
+        {
+          "name": "Inspired to Greatness",
+          "points": 15,
+          "detachment": "Xenocult Masses"
+        }
+      ]
+    }
+  ],
+  "units": [
+    {
+      "name": "Aberrants",
+      "normalizedName": "aberrants",
+      "pricing": [
+        {
+          "range": "[1,2]",
+          "label": "Your 1st To 2nd Units Cost",
+          "costs": [
+            {
+              "models": 5,
+              "points": 150
+            },
+            {
+              "models": 10,
+              "points": 300
+            }
+          ]
+        },
+        {
+          "range": "[3,)",
+          "label": "Your 3rd + Unit Costs",
+          "costs": [
+            {
+              "models": 5,
+              "points": 160
+            },
+            {
+              "models": 10,
+              "points": 310
+            }
+          ]
+        }
+      ],
+      "points": 150,
+      "pointsLabel": "150/300",
+      "legends": false
+    },
+    {
+      "name": "Abominant",
+      "normalizedName": "abominant",
+      "pricing": [
+        {
+          "range": "[1,2]",
+          "label": "Your 1st To 2nd Units Cost",
+          "costs": [
+            {
+              "models": 1,
+              "points": 85
+            }
+          ]
+        },
+        {
+          "range": "[3,)",
+          "label": "Your 3rd + Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 95
+            }
+          ]
+        }
+      ],
+      "points": 85,
+      "pointsLabel": "85",
+      "legends": false,
+      "role": "leader",
+      "attachTo": [
+        "Aberrants"
+      ]
+    },
+    {
+      "name": "Achilles Ridgerunners",
+      "normalizedName": "achilles ridgerunners",
+      "pricing": [
+        {
+          "range": "[1,2]",
+          "label": "Your 1st To 2nd Units Cost",
+          "costs": [
+            {
+              "models": 1,
+              "points": 95
+            },
+            {
+              "models": 2,
+              "points": 160
+            }
+          ]
+        },
+        {
+          "range": "[3,)",
+          "label": "Your 3rd + Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 105
+            },
+            {
+              "models": 2,
+              "points": 170
+            }
+          ]
+        }
+      ],
+      "points": 95,
+      "pointsLabel": "95/160",
+      "legends": false
+    },
+    {
+      "name": "Acolyte Hybrids With Autopistols",
+      "normalizedName": "acolyte hybrids with autopistols",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 5,
+              "points": 70
+            },
+            {
+              "models": 10,
+              "points": 130
+            }
+          ]
+        }
+      ],
+      "points": 70,
+      "pointsLabel": "70/130",
+      "legends": false
+    },
+    {
+      "name": "Acolyte Hybrids With Hand Flamers",
+      "normalizedName": "acolyte hybrids with hand flamers",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 5,
+              "points": 75
+            },
+            {
+              "models": 10,
+              "points": 150
+            }
+          ]
+        }
+      ],
+      "points": 75,
+      "pointsLabel": "75/150",
+      "legends": false
+    },
+    {
+      "name": "Acolyte Iconward",
+      "normalizedName": "acolyte iconward",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 50
+            }
+          ]
+        }
+      ],
+      "points": 50,
+      "pointsLabel": "50",
+      "legends": false,
+      "role": "leader",
+      "attachTo": [
+        "Acolyte Hybrids With Autopistols",
+        "Acolyte Hybrids With Hand Flamers",
+        "Hybrid Metamorphs",
+        "Neophyte Hybrids"
+      ]
+    },
+    {
+      "name": "Atalan Jackals",
+      "normalizedName": "atalan jackals",
+      "pricing": [
+        {
+          "range": "[1,2]",
+          "label": "Your 1st To 2nd Units Cost",
+          "costs": [
+            {
+              "models": 5,
+              "points": 90
+            },
+            {
+              "models": 10,
+              "points": 160
+            }
+          ]
+        },
+        {
+          "range": "[3,)",
+          "label": "Your 3rd + Unit Costs",
+          "costs": [
+            {
+              "models": 5,
+              "points": 100
+            },
+            {
+              "models": 10,
+              "points": 170
+            }
+          ]
+        }
+      ],
+      "points": 90,
+      "pointsLabel": "90/160",
+      "legends": false
+    },
+    {
+      "name": "Benefictus",
+      "normalizedName": "benefictus",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 75
+            }
+          ]
+        }
+      ],
+      "points": 75,
+      "pointsLabel": "75",
+      "legends": false,
+      "role": "leader",
+      "attachTo": [
+        "Acolyte Hybrids With Autopistols",
+        "Acolyte Hybrids With Hand Flamers",
+        "Hybrid Metamorphs",
+        "Neophyte Hybrids"
+      ]
+    },
+    {
+      "name": "Biophagus",
+      "normalizedName": "biophagus",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 50
+            }
+          ]
+        }
+      ],
+      "points": 50,
+      "pointsLabel": "50",
+      "legends": false,
+      "role": "support",
+      "attachTo": [
+        "Aberrants",
+        "Acolyte Hybrids With Autopistols",
+        "Acolyte Hybrids With Hand Flamers",
+        "Hybrid Metamorphs",
+        "Neophyte Hybrids"
+      ]
+    },
+    {
+      "name": "Clamavus",
+      "normalizedName": "clamavus",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 50
+            }
+          ]
+        }
+      ],
+      "points": 50,
+      "pointsLabel": "50",
+      "legends": false,
+      "role": "support",
+      "attachTo": [
+        "Acolyte Hybrids With Autopistols",
+        "Acolyte Hybrids With Hand Flamers",
+        "Hybrid Metamorphs",
+        "Neophyte Hybrids"
+      ]
+    },
+    {
+      "name": "Goliath Rockgrinder",
+      "normalizedName": "goliath rockgrinder",
+      "pricing": [
+        {
+          "range": "[1,2]",
+          "label": "Your 1st To 2nd Units Cost",
+          "costs": [
+            {
+              "models": 1,
+              "points": 120
+            }
+          ]
+        },
+        {
+          "range": "[3,)",
+          "label": "Your 3rd + Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 130
+            }
+          ]
+        }
+      ],
+      "points": 120,
+      "pointsLabel": "120",
+      "legends": false
+    },
+    {
+      "name": "Goliath Truck",
+      "normalizedName": "goliath truck",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 85
+            }
+          ]
+        }
+      ],
+      "points": 85,
+      "pointsLabel": "85",
+      "legends": false
+    },
+    {
+      "name": "Hybrid Metamorphs",
+      "normalizedName": "hybrid metamorphs",
+      "pricing": [
+        {
+          "range": "[1,2]",
+          "label": "Your 1st To 2nd Units Cost",
+          "costs": [
+            {
+              "models": 5,
+              "points": 75
+            },
+            {
+              "models": 10,
+              "points": 150
+            }
+          ]
+        },
+        {
+          "range": "[3,)",
+          "label": "Your 3rd + Unit Costs",
+          "costs": [
+            {
+              "models": 5,
+              "points": 85
+            },
+            {
+              "models": 10,
+              "points": 160
+            }
+          ]
+        }
+      ],
+      "points": 75,
+      "pointsLabel": "75/150",
+      "legends": false
+    },
+    {
+      "name": "Jackal Alphus",
+      "normalizedName": "jackal alphus",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 55
+            }
+          ]
+        }
+      ],
+      "points": 55,
+      "pointsLabel": "55",
+      "legends": false,
+      "role": "leader",
+      "attachTo": [
+        "Atalan Jackals"
+      ]
+    },
+    {
+      "name": "Kelermorph",
+      "normalizedName": "kelermorph",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 60
+            }
+          ]
+        }
+      ],
+      "points": 60,
+      "pointsLabel": "60",
+      "legends": false
+    },
+    {
+      "name": "Locus",
+      "normalizedName": "locus",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 35
+            }
+          ]
+        }
+      ],
+      "points": 35,
+      "pointsLabel": "35",
+      "legends": false,
+      "role": "support",
+      "attachTo": [
+        "Acolyte Hybrids With Autopistols",
+        "Acolyte Hybrids With Hand Flamers",
+        "Hybrid Metamorphs",
+        "Neophyte Hybrids"
+      ]
+    },
+    {
+      "name": "Magus",
+      "normalizedName": "magus",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 50
+            }
+          ]
+        }
+      ],
+      "points": 50,
+      "pointsLabel": "50",
+      "legends": false,
+      "role": "leader",
+      "attachTo": [
+        "Acolyte Hybrids With Autopistols",
+        "Acolyte Hybrids With Hand Flamers",
+        "Hybrid Metamorphs",
+        "Neophyte Hybrids"
+      ]
+    },
+    {
+      "name": "Neophyte Hybrids",
+      "normalizedName": "neophyte hybrids",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 10,
+              "points": 70
+            },
+            {
+              "models": 20,
+              "points": 145
+            }
+          ]
+        }
+      ],
+      "points": 70,
+      "pointsLabel": "70/145",
+      "legends": false
+    },
+    {
+      "name": "Nexos",
+      "normalizedName": "nexos",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 60
+            }
+          ]
+        }
+      ],
+      "points": 60,
+      "pointsLabel": "60",
+      "legends": false,
+      "role": "support",
+      "attachTo": [
+        "Acolyte Hybrids With Autopistols",
+        "Acolyte Hybrids With Hand Flamers",
+        "Hybrid Metamorphs",
+        "Neophyte Hybrids"
+      ]
+    },
+    {
+      "name": "Patriarch",
+      "normalizedName": "patriarch",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 80
+            }
+          ]
+        }
+      ],
+      "points": 80,
+      "pointsLabel": "80",
+      "legends": false,
+      "role": "leader",
+      "attachTo": [
+        "Purestrain Genestealers"
+      ]
+    },
+    {
+      "name": "Primus",
+      "normalizedName": "primus",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 70
+            }
+          ]
+        }
+      ],
+      "points": 70,
+      "pointsLabel": "70",
+      "legends": false,
+      "role": "leader",
+      "attachTo": [
+        "Acolyte Hybrids With Autopistols",
+        "Acolyte Hybrids With Hand Flamers",
+        "Hybrid Metamorphs",
+        "Neophyte Hybrids"
+      ]
+    },
+    {
+      "name": "Purestrain Genestealers",
+      "normalizedName": "purestrain genestealers",
+      "pricing": [
+        {
+          "range": "[1,2]",
+          "label": "Your 1st To 2nd Units Cost",
+          "costs": [
+            {
+              "models": 5,
+              "points": 80
+            },
+            {
+              "models": 10,
+              "points": 140
+            }
+          ]
+        },
+        {
+          "range": "[3,)",
+          "label": "Your 3rd + Unit Costs",
+          "costs": [
+            {
+              "models": 5,
+              "points": 90
+            },
+            {
+              "models": 10,
+              "points": 150
+            }
+          ]
+        }
+      ],
+      "points": 80,
+      "pointsLabel": "80/140",
+      "legends": false
+    },
+    {
+      "name": "Reductus Saboteur",
+      "normalizedName": "reductus saboteur",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 70
+            }
+          ]
+        }
+      ],
+      "points": 70,
+      "pointsLabel": "70",
+      "legends": false
+    },
+    {
+      "name": "Sanctus",
+      "normalizedName": "sanctus",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 65
+            }
+          ]
+        }
+      ],
+      "points": 65,
+      "pointsLabel": "65",
+      "legends": false
+    },
+    {
+      "name": "Tectonic Fragdrill",
+      "normalizedName": "tectonic fragdrill",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 125
+            }
+          ]
+        }
+      ],
+      "points": 125,
+      "pointsLabel": "125",
+      "legends": true
+    }
+  ]
+}

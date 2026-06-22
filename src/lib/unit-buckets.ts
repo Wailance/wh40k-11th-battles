@@ -1,11 +1,20 @@
 import type { CuratedUnit } from '../types/faction-data'
+import type { RosterUnit } from '../types/roster'
 
-export type UnitBucketId = 'epic-hero' | 'hero' | 'battleline' | 'vehicle' | 'mounted' | 'other'
+export type UnitBucketId =
+  | 'epic-hero'
+  | 'hero'
+  | 'battleline'
+  | 'transport'
+  | 'vehicle'
+  | 'mounted'
+  | 'other'
 
 export const BUCKET_ORDER: UnitBucketId[] = [
   'epic-hero',
   'hero',
   'battleline',
+  'transport',
   'vehicle',
   'mounted',
   'other',
@@ -20,9 +29,17 @@ export function unitBucket(unit: CuratedUnit): UnitBucketId {
   if (hasKeyword(unit, 'Epic Hero')) return 'epic-hero'
   if (hasKeyword(unit, 'Character')) return 'hero'
   if (hasKeyword(unit, 'Battleline')) return 'battleline'
+  if (hasKeyword(unit, 'Dedicated Transport')) return 'transport'
   if (hasKeyword(unit, 'Vehicle')) return 'vehicle'
   if (hasKeyword(unit, 'Mounted')) return 'mounted'
   return 'other'
+}
+
+export function maxCopiesForUnit(unit: CuratedUnit): number {
+  if (hasKeyword(unit, 'Epic Hero')) return 1
+  if (hasKeyword(unit, 'Battleline')) return 6
+  if (hasKeyword(unit, 'Dedicated Transport')) return 6
+  return 3
 }
 
 export function groupUnitsByBucket(units: CuratedUnit[]): { bucket: UnitBucketId; units: CuratedUnit[] }[] {
@@ -35,6 +52,22 @@ export function groupUnitsByBucket(units: CuratedUnit[]): { bucket: UnitBucketId
     bucket,
     units: [...map.get(bucket)!].sort((a, b) => a.name.localeCompare(b.name)),
   })).filter((g) => g.units.length > 0)
+}
+
+export type RosterLineEntry = { line: RosterUnit; catalog: CuratedUnit }
+
+export function groupRosterLinesByBucket(
+  lines: RosterLineEntry[],
+): { bucket: UnitBucketId; lines: RosterLineEntry[] }[] {
+  const map = new Map<UnitBucketId, RosterLineEntry[]>()
+  for (const id of BUCKET_ORDER) map.set(id, [])
+  for (const entry of lines) {
+    map.get(unitBucket(entry.catalog))!.push(entry)
+  }
+  return BUCKET_ORDER.map((bucket) => ({
+    bucket,
+    lines: map.get(bucket)!,
+  })).filter((g) => g.lines.length > 0)
 }
 
 export function filterByBucket(units: CuratedUnit[], bucketId: UnitBucketId | ''): CuratedUnit[] {

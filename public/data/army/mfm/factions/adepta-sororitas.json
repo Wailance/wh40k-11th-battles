@@ -1,0 +1,1154 @@
+{
+  "slug": "adepta-sororitas",
+  "name": "Adepta Sororitas",
+  "version": "1.0",
+  "firstSeen": "2026-06-17",
+  "detachments": [
+    {
+      "name": "Army Of Faith",
+      "dp": 2,
+      "objective": "TAKE AND HOLD",
+      "enhancements": [
+        {
+          "name": "Blade of Saint Ellynor",
+          "points": 15,
+          "detachment": "Army Of Faith"
+        },
+        {
+          "name": "Divine Aspect",
+          "points": 5,
+          "detachment": "Army Of Faith"
+        },
+        {
+          "name": "Litanies of Faith",
+          "points": 10,
+          "detachment": "Army Of Faith"
+        },
+        {
+          "name": "Triptych of the Macharian Crusade",
+          "points": 20,
+          "detachment": "Army Of Faith"
+        }
+      ]
+    },
+    {
+      "name": "Bringers Of Flame",
+      "dp": 3,
+      "objective": "PURGE THE FOE",
+      "enhancements": [
+        {
+          "name": "Fire and Fury",
+          "points": 30,
+          "detachment": "Bringers Of Flame"
+        },
+        {
+          "name": "Iron Surplice of Saint Istalela",
+          "points": 10,
+          "detachment": "Bringers Of Flame"
+        },
+        {
+          "name": "Manual of Saint Griselda",
+          "points": 20,
+          "detachment": "Bringers Of Flame"
+        },
+        {
+          "name": "Righteous Rage",
+          "points": 15,
+          "detachment": "Bringers Of Flame"
+        }
+      ]
+    },
+    {
+      "name": "Champions Of Faith",
+      "dp": 2,
+      "objective": "DISRUPTION",
+      "enhancements": [
+        {
+          "name": "Eyes of the Oracle",
+          "points": 10,
+          "detachment": "Champions Of Faith"
+        },
+        {
+          "name": "Mark of Devotion",
+          "points": 30,
+          "detachment": "Champions Of Faith"
+        },
+        {
+          "name": "Sanctified Amulet",
+          "points": 25,
+          "detachment": "Champions Of Faith"
+        },
+        {
+          "name": "Triptych of Judgement",
+          "points": 15,
+          "detachment": "Champions Of Faith"
+        }
+      ]
+    },
+    {
+      "name": "Chorus Of Condemnation",
+      "dp": 1,
+      "objective": "RECONNAISSANCE",
+      "enhancements": [
+        {
+          "name": "Clarion of Urgency",
+          "points": 15,
+          "detachment": "Chorus Of Condemnation"
+        },
+        {
+          "name": "Symphonic Payload (Upgrade)",
+          "points": 10,
+          "detachment": "Chorus Of Condemnation"
+        }
+      ]
+    },
+    {
+      "name": "Hallowed Martyrs",
+      "dp": 3,
+      "objective": "PRIORITY ASSETS",
+      "enhancements": [
+        {
+          "name": "Chaplet of Sacrifice",
+          "points": 25,
+          "detachment": "Hallowed Martyrs"
+        },
+        {
+          "name": "Mantle of Ophelia",
+          "points": 20,
+          "detachment": "Hallowed Martyrs"
+        },
+        {
+          "name": "Saintly Example",
+          "points": 10,
+          "detachment": "Hallowed Martyrs"
+        },
+        {
+          "name": "Through Suffering, Strength",
+          "points": 25,
+          "detachment": "Hallowed Martyrs"
+        }
+      ]
+    },
+    {
+      "name": "Penitent Host",
+      "dp": 2,
+      "objective": "TAKE AND HOLD",
+      "enhancements": [
+        {
+          "name": "Catechism of Divine Penitence",
+          "points": 20,
+          "detachment": "Penitent Host"
+        },
+        {
+          "name": "Psalm of Righteous Judgement",
+          "points": 30,
+          "detachment": "Penitent Host"
+        },
+        {
+          "name": "Refrain of Enduring Faith",
+          "points": 25,
+          "detachment": "Penitent Host"
+        },
+        {
+          "name": "Verse of Holy Piety",
+          "points": 15,
+          "detachment": "Penitent Host"
+        }
+      ]
+    },
+    {
+      "name": "Sacred Champions",
+      "dp": 1,
+      "objective": "TAKE AND HOLD",
+      "enhancements": [
+        {
+          "name": "Perfervid Haste",
+          "points": 10,
+          "detachment": "Sacred Champions"
+        },
+        {
+          "name": "Writ of Compunction (Upgrade)",
+          "points": 20,
+          "detachment": "Sacred Champions"
+        }
+      ]
+    },
+    {
+      "name": "Sanctified Orators",
+      "dp": 1,
+      "objective": "PURGE THE FOE",
+      "enhancements": [
+        {
+          "name": "Hagiomnifex (Upgrade)",
+          "points": 25,
+          "detachment": "Sanctified Orators"
+        }
+      ]
+    }
+  ],
+  "units": [
+    {
+      "name": "Aestred Thurga And Agathae Dolan",
+      "normalizedName": "aestred thurga and agathae dolan",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 2,
+              "points": 80
+            }
+          ]
+        }
+      ],
+      "points": 80,
+      "pointsLabel": "80",
+      "legends": false,
+      "role": "leader",
+      "attachTo": [
+        "Battle Sisters Squad",
+        "Celestian Insidiants",
+        "Celestian Sacresants",
+        "Crusaders",
+        "Dominion Squad",
+        "Retributor Squad",
+        "Sisters Novitiate Squad"
+      ]
+    },
+    {
+      "name": "Arco-Flagellants",
+      "normalizedName": "arco flagellants",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 3,
+              "points": 50
+            },
+            {
+              "models": 10,
+              "points": 140
+            }
+          ]
+        }
+      ],
+      "points": 50,
+      "pointsLabel": "50/140",
+      "legends": false
+    },
+    {
+      "name": "Battle Sanctum",
+      "normalizedName": "battle sanctum",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 170
+            }
+          ]
+        }
+      ],
+      "points": 170,
+      "pointsLabel": "170",
+      "legends": true
+    },
+    {
+      "name": "Battle Sisters Squad",
+      "normalizedName": "battle sisters squad",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 10,
+              "points": 100
+            }
+          ]
+        }
+      ],
+      "points": 100,
+      "pointsLabel": "100",
+      "legends": false
+    },
+    {
+      "name": "Canoness",
+      "normalizedName": "canoness",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 60
+            }
+          ]
+        }
+      ],
+      "points": 60,
+      "pointsLabel": "60",
+      "legends": false,
+      "role": "leader",
+      "attachTo": [
+        "Battle Sisters Squad",
+        "Celestian Insidiants",
+        "Celestian Sacresants",
+        "Crusaders",
+        "Dominion Squad",
+        "Retributor Squad",
+        "Sisters Novitiate Squad"
+      ]
+    },
+    {
+      "name": "Canoness With Jump Pack",
+      "normalizedName": "canoness with jump pack",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 75
+            }
+          ]
+        }
+      ],
+      "points": 75,
+      "pointsLabel": "75",
+      "legends": false,
+      "role": "leader",
+      "attachTo": [
+        "Seraphim Squad",
+        "Zephyrim Squad"
+      ]
+    },
+    {
+      "name": "Castigator",
+      "normalizedName": "castigator",
+      "pricing": [
+        {
+          "range": "[1,2]",
+          "label": "Your 1st To 2nd Units Cost",
+          "costs": [
+            {
+              "models": 1,
+              "points": 165
+            }
+          ]
+        },
+        {
+          "range": "[3,)",
+          "label": "Your 3rd + Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 175
+            }
+          ]
+        }
+      ],
+      "points": 165,
+      "pointsLabel": "165",
+      "legends": false
+    },
+    {
+      "name": "Celestian Insidiants",
+      "normalizedName": "celestian insidiants",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 10,
+              "points": 120
+            }
+          ]
+        }
+      ],
+      "points": 120,
+      "pointsLabel": "120",
+      "legends": false
+    },
+    {
+      "name": "Celestian Sacresant Aveline",
+      "normalizedName": "celestian sacresant aveline",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 45
+            }
+          ]
+        }
+      ],
+      "points": 45,
+      "pointsLabel": "45",
+      "legends": true
+    },
+    {
+      "name": "Celestian Sacresants",
+      "normalizedName": "celestian sacresants",
+      "pricing": [
+        {
+          "range": "[1,1]",
+          "label": "Your 1st Unit Costs",
+          "costs": [
+            {
+              "models": 5,
+              "points": 75
+            },
+            {
+              "models": 10,
+              "points": 150
+            }
+          ]
+        },
+        {
+          "range": "[2,)",
+          "label": "Your 2nd + Unit Costs",
+          "costs": [
+            {
+              "models": 5,
+              "points": 90
+            },
+            {
+              "models": 10,
+              "points": 165
+            }
+          ]
+        }
+      ],
+      "points": 75,
+      "pointsLabel": "75/150",
+      "legends": false
+    },
+    {
+      "name": "Crusaders",
+      "normalizedName": "crusaders",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 2,
+              "points": 40
+            },
+            {
+              "models": 4,
+              "points": 80
+            }
+          ]
+        }
+      ],
+      "points": 40,
+      "pointsLabel": "40/80",
+      "legends": true
+    },
+    {
+      "name": "Daemonifuge",
+      "normalizedName": "daemonifuge",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 2,
+              "points": 85
+            }
+          ]
+        }
+      ],
+      "points": 85,
+      "pointsLabel": "85",
+      "legends": false
+    },
+    {
+      "name": "Death Cult Assassins",
+      "normalizedName": "death cult assassins",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 2,
+              "points": 55
+            },
+            {
+              "models": 4,
+              "points": 110
+            }
+          ]
+        }
+      ],
+      "points": 55,
+      "pointsLabel": "55/110",
+      "legends": true
+    },
+    {
+      "name": "Dialogus",
+      "normalizedName": "dialogus",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 40
+            }
+          ]
+        }
+      ],
+      "points": 40,
+      "pointsLabel": "40",
+      "legends": false,
+      "role": "support",
+      "attachTo": [
+        "Battle Sisters Squad",
+        "Celestian Insidiants",
+        "Celestian Sacresants",
+        "Crusaders",
+        "Dominion Squad",
+        "Retributor Squad",
+        "Sisters Novitiate Squad"
+      ]
+    },
+    {
+      "name": "Dogmata",
+      "normalizedName": "dogmata",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 45
+            }
+          ]
+        }
+      ],
+      "points": 45,
+      "pointsLabel": "45",
+      "legends": false,
+      "role": "support",
+      "attachTo": [
+        "Battle Sisters Squad",
+        "Celestian Insidiants",
+        "Celestian Sacresants",
+        "Crusaders",
+        "Dominion Squad",
+        "Retributor Squad"
+      ]
+    },
+    {
+      "name": "Dominion Squad",
+      "normalizedName": "dominion squad",
+      "pricing": [
+        {
+          "range": "[1,2]",
+          "label": "Your 1st To 2nd Units Cost",
+          "costs": [
+            {
+              "models": 10,
+              "points": 100
+            }
+          ]
+        },
+        {
+          "range": "[3,)",
+          "label": "Your 3rd + Unit Costs",
+          "costs": [
+            {
+              "models": 10,
+              "points": 110
+            }
+          ]
+        }
+      ],
+      "points": 100,
+      "pointsLabel": "100",
+      "legends": false
+    },
+    {
+      "name": "Exorcist",
+      "normalizedName": "exorcist",
+      "pricing": [
+        {
+          "range": "[1,1]",
+          "label": "Your 1st Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 180
+            }
+          ]
+        },
+        {
+          "range": "[2,)",
+          "label": "Your 2nd + Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 220
+            }
+          ]
+        }
+      ],
+      "points": 180,
+      "pointsLabel": "180",
+      "legends": false
+    },
+    {
+      "name": "Hospitaller",
+      "normalizedName": "hospitaller",
+      "pricing": [
+        {
+          "range": "[1,1]",
+          "label": "Your 1st Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 75
+            }
+          ]
+        },
+        {
+          "range": "[2,)",
+          "label": "Your 2nd + Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 85
+            }
+          ]
+        }
+      ],
+      "points": 75,
+      "pointsLabel": "75",
+      "legends": false,
+      "role": "support",
+      "attachTo": [
+        "Battle Sisters Squad",
+        "Celestian Insidiants",
+        "Celestian Sacresants",
+        "Crusaders",
+        "Dominion Squad",
+        "Retributor Squad",
+        "Sisters Novitiate Squad"
+      ]
+    },
+    {
+      "name": "Imagifier",
+      "normalizedName": "imagifier",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 65
+            }
+          ]
+        }
+      ],
+      "points": 65,
+      "pointsLabel": "65",
+      "legends": false,
+      "role": "support",
+      "attachTo": [
+        "Battle Sisters Squad",
+        "Celestian Insidiants",
+        "Celestian Sacresants",
+        "Crusaders",
+        "Dominion Squad",
+        "Retributor Squad"
+      ]
+    },
+    {
+      "name": "Immolator",
+      "normalizedName": "immolator",
+      "pricing": [
+        {
+          "range": "[1,3]",
+          "label": "Your 1st To 3rd Units Cost",
+          "costs": [
+            {
+              "models": 1,
+              "points": 110
+            }
+          ]
+        },
+        {
+          "range": "[4,)",
+          "label": "Your 4th + Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 120
+            }
+          ]
+        }
+      ],
+      "points": 110,
+      "pointsLabel": "110",
+      "legends": false
+    },
+    {
+      "name": "Intranzia Fraye",
+      "normalizedName": "intranzia fraye",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 150
+            }
+          ]
+        }
+      ],
+      "points": 150,
+      "pointsLabel": "150",
+      "legends": false
+    },
+    {
+      "name": "Junith Eruita",
+      "normalizedName": "junith eruita",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 115
+            }
+          ]
+        }
+      ],
+      "points": 115,
+      "pointsLabel": "115",
+      "legends": false,
+      "role": "leader",
+      "attachTo": [
+        "Battle Sisters Squad",
+        "Celestian Insidiants",
+        "Celestian Sacresants",
+        "Crusaders",
+        "Dominion Squad",
+        "Retributor Squad",
+        "Sisters Novitiate Squad"
+      ]
+    },
+    {
+      "name": "Ministorum Priest",
+      "normalizedName": "ministorum priest",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 50
+            }
+          ]
+        }
+      ],
+      "points": 50,
+      "pointsLabel": "50",
+      "legends": false,
+      "role": "leader",
+      "attachTo": [
+        "Arco-Flagellants",
+        "Battle Sisters Squad",
+        "Celestian Insidiants",
+        "Crusaders",
+        "Dominion Squad",
+        "Sanctifiers",
+        "Sisters Novitiate Squad"
+      ]
+    },
+    {
+      "name": "Mortifiers",
+      "normalizedName": "mortifiers",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 70
+            },
+            {
+              "models": 2,
+              "points": 130
+            }
+          ]
+        }
+      ],
+      "points": 70,
+      "pointsLabel": "70/130",
+      "legends": false
+    },
+    {
+      "name": "Morvenn Vahl",
+      "normalizedName": "morvenn vahl",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 185
+            }
+          ]
+        }
+      ],
+      "points": 185,
+      "pointsLabel": "185",
+      "legends": false,
+      "role": "leader",
+      "attachTo": [
+        "Paragon Warsuits"
+      ]
+    },
+    {
+      "name": "Palatine",
+      "normalizedName": "palatine",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 50
+            }
+          ]
+        }
+      ],
+      "points": 50,
+      "pointsLabel": "50",
+      "legends": false,
+      "role": "leader",
+      "attachTo": [
+        "Battle Sisters Squad",
+        "Celestian Insidiants",
+        "Celestian Sacresants",
+        "Crusaders",
+        "Dominion Squad",
+        "Retributor Squad",
+        "Sisters Novitiate Squad"
+      ]
+    },
+    {
+      "name": "Paragon Warsuits",
+      "normalizedName": "paragon warsuits",
+      "pricing": [
+        {
+          "range": "[1,2]",
+          "label": "Your 1st To 2nd Units Cost",
+          "costs": [
+            {
+              "models": 3,
+              "points": 180
+            }
+          ]
+        },
+        {
+          "range": "[3,)",
+          "label": "Your 3rd + Unit Costs",
+          "costs": [
+            {
+              "models": 3,
+              "points": 190
+            }
+          ]
+        }
+      ],
+      "points": 180,
+      "pointsLabel": "180",
+      "legends": false
+    },
+    {
+      "name": "Penitent Engines",
+      "normalizedName": "penitent engines",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 70
+            },
+            {
+              "models": 2,
+              "points": 140
+            }
+          ]
+        }
+      ],
+      "points": 70,
+      "pointsLabel": "70/140",
+      "legends": false
+    },
+    {
+      "name": "Repentia Squad",
+      "normalizedName": "repentia squad",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 5,
+              "points": 75
+            },
+            {
+              "models": 10,
+              "points": 160
+            }
+          ]
+        }
+      ],
+      "points": 75,
+      "pointsLabel": "75/160",
+      "legends": false
+    },
+    {
+      "name": "Repressor",
+      "normalizedName": "repressor",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 130
+            }
+          ]
+        }
+      ],
+      "points": 130,
+      "pointsLabel": "130",
+      "legends": true
+    },
+    {
+      "name": "Retributor Squad",
+      "normalizedName": "retributor squad",
+      "pricing": [
+        {
+          "range": "[1,2]",
+          "label": "Your 1st To 2nd Units Cost",
+          "costs": [
+            {
+              "models": 5,
+              "points": 105
+            }
+          ]
+        },
+        {
+          "range": "[3,)",
+          "label": "Your 3rd + Unit Costs",
+          "costs": [
+            {
+              "models": 5,
+              "points": 115
+            }
+          ]
+        }
+      ],
+      "points": 105,
+      "pointsLabel": "105",
+      "legends": false
+    },
+    {
+      "name": "Saint Celestine",
+      "normalizedName": "saint celestine",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 3,
+              "points": 150
+            }
+          ]
+        }
+      ],
+      "points": 150,
+      "pointsLabel": "150",
+      "legends": false,
+      "role": "leader",
+      "attachTo": [
+        "Seraphim Squad",
+        "Zephyrim Squad"
+      ]
+    },
+    {
+      "name": "Sanctifiers",
+      "normalizedName": "sanctifiers",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 9,
+              "points": 110
+            }
+          ]
+        }
+      ],
+      "points": 110,
+      "pointsLabel": "110",
+      "legends": false
+    },
+    {
+      "name": "Seraphim Squad",
+      "normalizedName": "seraphim squad",
+      "pricing": [
+        {
+          "range": "[1,2]",
+          "label": "Your 1st To 2nd Units Cost",
+          "costs": [
+            {
+              "models": 5,
+              "points": 85
+            },
+            {
+              "models": 10,
+              "points": 160
+            }
+          ]
+        },
+        {
+          "range": "[3,)",
+          "label": "Your 3rd + Unit Costs",
+          "costs": [
+            {
+              "models": 5,
+              "points": 95
+            },
+            {
+              "models": 10,
+              "points": 170
+            }
+          ]
+        }
+      ],
+      "points": 85,
+      "pointsLabel": "85/160",
+      "legends": false
+    },
+    {
+      "name": "Sisters Novitiate Squad",
+      "normalizedName": "sisters novitiate squad",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 10,
+              "points": 100
+            }
+          ]
+        }
+      ],
+      "points": 100,
+      "pointsLabel": "100",
+      "legends": false
+    },
+    {
+      "name": "Sororitas Rhino",
+      "normalizedName": "sororitas rhino",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 75
+            }
+          ]
+        }
+      ],
+      "points": 75,
+      "pointsLabel": "75",
+      "legends": false
+    },
+    {
+      "name": "Triumph Of Saint Katherine",
+      "normalizedName": "triumph of saint katherine",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 245
+            }
+          ]
+        }
+      ],
+      "points": 245,
+      "pointsLabel": "245",
+      "legends": false,
+      "role": "leader",
+      "attachTo": [
+        "Battle Sisters Squad",
+        "Crusaders"
+      ]
+    },
+    {
+      "name": "Zephyrim Squad",
+      "normalizedName": "zephyrim squad",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 5,
+              "points": 80
+            },
+            {
+              "models": 10,
+              "points": 160
+            }
+          ]
+        }
+      ],
+      "points": 80,
+      "pointsLabel": "80/160",
+      "legends": false
+    }
+  ]
+}

@@ -1,0 +1,3196 @@
+{
+  "6de0-279f-b471-65ca": {
+    "groups": [
+      {
+        "id": "3e0b-ab5b-d140-f192",
+        "name": "Wargear",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "3f2c-c4aa-5d38-03a0",
+            "name": "Battlesuit fists",
+            "min": 1,
+            "max": 1
+          }
+        ],
+        "groups": [
+          {
+            "id": "738f-2f00-e5f6-d038",
+            "name": "Support Systems (1-4)",
+            "min": 1,
+            "max": 4,
+            "mode": "count",
+            "options": [
+              {
+                "id": "7f59-afb3-e32f-1bee",
+                "name": "Battlesuit support system",
+                "min": 0,
+                "max": 1
+              },
+              {
+                "id": "248a-2760-d67f-ec5d",
+                "name": "Shield generator",
+                "min": 0,
+                "max": 1
+              },
+              {
+                "id": "1187-c829-b53b-d714",
+                "name": "Weapon support system",
+                "min": 0,
+                "max": 1
+              },
+              {
+                "id": "64f3-9021-ee7e-820f",
+                "name": "Missile pod",
+                "min": 0,
+                "max": 4
+              },
+              {
+                "id": "f12e-ee4d-4ca1-3477",
+                "name": "Burst cannon",
+                "min": 0,
+                "max": 4
+              },
+              {
+                "id": "7a71-3c5a-a5c9-ce67",
+                "name": "Airbursting fragmentation projector",
+                "min": 0,
+                "max": 1
+              },
+              {
+                "id": "6946-ead2-92f9-86c3",
+                "name": "Cyclic ion blaster",
+                "min": 0,
+                "max": 4
+              },
+              {
+                "id": "ef8a-1a12-d664-f69f",
+                "name": "T'au flamer",
+                "min": 0,
+                "max": 4
+              },
+              {
+                "id": "c29e-1f09-bcd6-c83e",
+                "name": "Fusion blaster",
+                "min": 0,
+                "max": 4
+              },
+              {
+                "id": "d73b-0f77-90e7-3918",
+                "name": "Plasma rifle",
+                "min": 0,
+                "max": 4
+              }
+            ],
+            "defaultOptionId": "53a4-1253-beeb-d26e"
+          }
+        ]
+      }
+    ]
+  },
+  "99fa-35-ba6e-5354": {
+    "groups": [
+      {
+        "id": "dac8-bba4-2c2e-9196",
+        "name": "Wargear",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "5ec6-e048-bc36-4ec1",
+            "name": "Battlesuit fists",
+            "min": 1,
+            "max": 1
+          }
+        ],
+        "groups": [
+          {
+            "id": "e3b2-b45e-4d3d-e5cf",
+            "name": "Support Systems (1-4)",
+            "min": 1,
+            "max": 4,
+            "mode": "count",
+            "options": [
+              {
+                "id": "03e0-4f26-faf9-48d5",
+                "name": "Battlesuit support system",
+                "min": 0,
+                "max": 1
+              },
+              {
+                "id": "b1a7-71a1-520b-bbd7",
+                "name": "Shield generator",
+                "min": 0,
+                "max": 1
+              },
+              {
+                "id": "d360-640e-fe22-2419",
+                "name": "Weapon support system",
+                "min": 0,
+                "max": 1
+              },
+              {
+                "id": "9a03-4a30-0a68-1db4",
+                "name": "Missile pod",
+                "min": 0,
+                "max": 4
+              },
+              {
+                "id": "ed07-fd69-fdef-2482",
+                "name": "Burst cannon",
+                "min": 0,
+                "max": 4
+              },
+              {
+                "id": "7a59-e857-9ead-a189",
+                "name": "Airbursting fragmentation projector",
+                "min": 0,
+                "max": 1
+              },
+              {
+                "id": "c22d-f6d8-9402-21b9",
+                "name": "Cyclic ion blaster",
+                "min": 0,
+                "max": 1
+              },
+              {
+                "id": "d850-2def-4a37-717a",
+                "name": "T'au flamer",
+                "min": 0,
+                "max": 4
+              },
+              {
+                "id": "2e46-a7fd-185c-8f94",
+                "name": "Fusion blaster",
+                "min": 0,
+                "max": 4
+              },
+              {
+                "id": "e1e7-ffd5-f7c3-9e85",
+                "name": "Plasma rifle",
+                "min": 0,
+                "max": 4
+              }
+            ],
+            "defaultOptionId": "391d-0fe2-9e7c-ed64"
+          }
+        ]
+      }
+    ]
+  },
+  "3a73-7255-c639-e89e": {
+    "groups": [
+      {
+        "id": "13b3-b221-a151-233b",
+        "name": "Wargear",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "ed33-86b4-a9bd-b59d",
+            "name": "Battlesuit fists",
+            "min": 1,
+            "max": 1
+          }
+        ],
+        "groups": [
+          {
+            "id": "1311-84d4-e5c5-e8ca",
+            "name": "Support Systems (1-4)",
+            "min": 1,
+            "max": 4,
+            "mode": "count",
+            "options": [
+              {
+                "id": "9341-a5b8-1f4a-6c9f",
+                "name": "High-output burst cannon",
+                "min": 0,
+                "max": 1
+              },
+              {
+                "id": "2c2a-ee1e-a2a3-4849",
+                "name": "Battlesuit support system",
+                "min": 0,
+                "max": 1
+              },
+              {
+                "id": "a748-4689-f788-b6b9",
+                "name": "Shield generator",
+                "min": 0,
+                "max": 1
+              },
+              {
+                "id": "4ef7-6a1a-26e5-1550",
+                "name": "Weapon support system",
+                "min": 0,
+                "max": 1
+              },
+              {
+                "id": "9e91-274e-2322-4b1b",
+                "name": "Missile pod",
+                "min": 0,
+                "max": 4
+              },
+              {
+                "id": "cad2-eea2-9f64-a2af",
+                "name": "Burst cannon",
+                "min": 0,
+                "max": 4
+              },
+              {
+                "id": "da48-f97e-82ec-40cd",
+                "name": "Airbursting fragmentation projector",
+                "min": 0,
+                "max": 1
+              },
+              {
+                "id": "7dc9-1904-171d-80c0",
+                "name": "Cyclic ion blaster",
+                "min": 0,
+                "max": 1
+              },
+              {
+                "id": "3e0a-6736-edf4-2654",
+                "name": "T'au flamer",
+                "min": 0,
+                "max": 4
+              },
+              {
+                "id": "ca22-7e8c-cbac-025a",
+                "name": "Fusion blaster",
+                "min": 0,
+                "max": 4
+              },
+              {
+                "id": "fddd-9b4b-c121-8e96",
+                "name": "Plasma rifle",
+                "min": 0,
+                "max": 4
+              }
+            ],
+            "defaultOptionId": "9341-a5b8-1f4a-6c9f"
+          }
+        ]
+      }
+    ]
+  },
+  "8f32-9697-ed41-6e3": {
+    "groups": [
+      {
+        "id": "cadd-8930-5c9d-f2a3",
+        "name": "Wargear",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "a201-0ce5-a5d8-89f6",
+            "name": "Fireblade pulse rifle",
+            "min": 1,
+            "max": 1
+          },
+          {
+            "id": "cf1a-de54-c3e9-baa1",
+            "name": "Close combat weapon",
+            "min": 1,
+            "max": 1
+          }
+        ]
+      }
+    ]
+  },
+  "5e66-6f0-a181-cc4d": {
+    "groups": [
+      {
+        "id": "6bf3-f714-37d1-8726",
+        "name": "Wargear",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "e7b9-efe8-e0f-83f9",
+            "name": "Honour stave",
+            "min": 1,
+            "max": 1
+          }
+        ],
+        "groups": [
+          {
+            "id": "f852-414-2bd4-d251",
+            "name": "Hover Drone",
+            "min": 0,
+            "max": 99,
+            "mode": "count",
+            "options": [
+              {
+                "id": "7b1c-902d-feb6-6fd6",
+                "name": "Hover Drone",
+                "min": 0,
+                "max": 1
+              }
+            ],
+            "defaultOptionId": "7b1c-902d-feb6-6fd6"
+          }
+        ]
+      }
+    ]
+  },
+  "5bf-16e5-d77b-ea7d": {
+    "groups": [
+      {
+        "id": "2618-befa-5c9c-7b77",
+        "name": "Seeker Missiles (0-2)",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "23fc-bcf4-5f5d-a161",
+            "name": "Seeker missile",
+            "min": 0,
+            "max": 2
+          }
+        ]
+      },
+      {
+        "id": "dbf5-b91f-89e-7e79",
+        "name": "Railgun",
+        "min": 1,
+        "max": 1,
+        "mode": "single",
+        "options": [
+          {
+            "id": "ba71-73aa-e99e-1a26",
+            "name": "Railgun",
+            "min": 0,
+            "max": 99
+          },
+          {
+            "id": "78aa-1eca-ce9f-2216",
+            "name": "Ion cannon",
+            "min": 0,
+            "max": 99
+          }
+        ],
+        "defaultOptionId": "ba71-73aa-e99e-1a26"
+      },
+      {
+        "id": "abb0-2ce5-d89f-b66d",
+        "name": "Twin Pulse Carbines",
+        "min": 1,
+        "max": 1,
+        "mode": "single",
+        "options": [
+          {
+            "id": "7beb-936e-dd45-2919",
+            "name": "2 Accelerator burst cannons",
+            "min": 0,
+            "max": 99
+          },
+          {
+            "id": "2c92-4ef8-c103-91cb",
+            "name": "2 Twin pulse carbines",
+            "min": 0,
+            "max": 99
+          },
+          {
+            "id": "d66a-ebfd-f1fc-a462",
+            "name": "2 Smart missile systems",
+            "min": 0,
+            "max": 99
+          }
+        ],
+        "defaultOptionId": "2c92-4ef8-c103-91cb"
+      }
+    ]
+  },
+  "acdd-2901-1a75-99f4": {
+    "groups": [
+      {
+        "id": "acda-c68b-e687-90d6",
+        "name": "Fire Warriors",
+        "min": 9,
+        "max": 9,
+        "mode": "count",
+        "options": [
+          {
+            "id": "cc51-5731-3dce-1d45",
+            "name": "Fire Warrior w/ pulse carbine",
+            "min": 0,
+            "max": 9,
+            "equippedWith": "Pulse pistol and Close combat weapon"
+          },
+          {
+            "id": "1c19-f20d-8e7b-db5d",
+            "name": "Fire Warrior w/ pulse rifle",
+            "min": 0,
+            "max": 9,
+            "equippedWith": "Pulse pistol and Close combat weapon and Pulse rifle"
+          }
+        ],
+        "defaultOptionId": "1c19-f20d-8e7b-db5d"
+      },
+      {
+        "id": "941d-ffc7-36e8-3e12",
+        "name": "Fire Warrior Shas'ui",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "bf14-d428-e240-e593",
+            "name": "Fire Warrior Shas'ui",
+            "min": 1,
+            "max": 1,
+            "groups": [
+              {
+                "id": "7cd6-5380-2540-8db6",
+                "name": "Wargear",
+                "min": 0,
+                "max": 99,
+                "mode": "count",
+                "options": [
+                  {
+                    "id": "e528-d3be-edbd-ea75",
+                    "name": "Close combat weapon",
+                    "min": 1,
+                    "max": 1
+                  },
+                  {
+                    "id": "db1c-f145-e712-08b4",
+                    "name": "Pulse pistol",
+                    "min": 1,
+                    "max": 1
+                  },
+                  {
+                    "id": "bfe3-4c33-ad39-b26f",
+                    "name": "Pulse rifle",
+                    "min": 1,
+                    "max": 1
+                  },
+                  {
+                    "id": "3415-da99-a44b-060d",
+                    "name": "Support turret",
+                    "min": 1,
+                    "max": 1
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "afc0-2b21-8ddc-3b2a": {
+    "groups": [
+      {
+        "id": "a781-6d34-ae23-e754",
+        "name": "Breacher Fire Warrior Shas'ui",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "a3c9-46a0-bd0b-8e9e",
+            "name": "Breacher Fire Warrior Shas'ui",
+            "min": 1,
+            "max": 1,
+            "groups": [
+              {
+                "id": "285f-9b03-5cd4-171e",
+                "name": "Wargear",
+                "min": 0,
+                "max": 99,
+                "mode": "count",
+                "options": [
+                  {
+                    "id": "5f80-fbcc-b135-2d3e",
+                    "name": "Close combat weapon",
+                    "min": 1,
+                    "max": 1
+                  },
+                  {
+                    "id": "133c-2148-f6bf-abef",
+                    "name": "Pulse pistol",
+                    "min": 1,
+                    "max": 1
+                  },
+                  {
+                    "id": "79e4-d0fe-fe57-e1bb",
+                    "name": "Pulse blaster",
+                    "min": 1,
+                    "max": 1
+                  },
+                  {
+                    "id": "50f3-bf97-6487-18b9",
+                    "name": "Support turret",
+                    "min": 1,
+                    "max": 1
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "d631-3ca5-e206-4e6a": {
+    "groups": [
+      {
+        "id": "ffa0-1e36-cf92-af41",
+        "name": "9-19 Kroot Carnivores",
+        "min": 9,
+        "max": 19,
+        "mode": "count",
+        "options": [
+          {
+            "id": "777-6211-bea1-526d",
+            "name": "Kroot Carnivores",
+            "min": 7,
+            "max": 19,
+            "equippedWith": "Close combat weapon and Kroot rifle"
+          },
+          {
+            "id": "28df-9a4e-649-f27f",
+            "name": "Kroot Carnivore w/ tanglebomb launcher",
+            "min": 0,
+            "max": 2,
+            "equippedWith": "Tanglebomb launcher and Close combat weapon"
+          }
+        ],
+        "defaultOptionId": "777-6211-bea1-526d"
+      },
+      {
+        "id": "e882-5b70-ae11-a7aa",
+        "name": "Long-quill",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "7aad-fa70-8fb8-a70b",
+            "name": "Long-quill",
+            "min": 1,
+            "max": 1,
+            "groups": [
+              {
+                "id": "fb87-3ddc-9704-ec9b",
+                "name": "Wargear",
+                "min": 0,
+                "max": 99,
+                "mode": "count",
+                "options": [
+                  {
+                    "id": "c08f-83bc-b3c8-0800",
+                    "name": "Close combat weapon",
+                    "min": 1,
+                    "max": 1
+                  },
+                  {
+                    "id": "e1ce-a00f-8349-dfeb",
+                    "name": "Kroot pistol",
+                    "min": 1,
+                    "max": 1
+                  }
+                ],
+                "groups": [
+                  {
+                    "id": "628e-9781-2721-1f09",
+                    "name": "Kroot Rifle",
+                    "min": 1,
+                    "max": 1,
+                    "mode": "single",
+                    "options": [
+                      {
+                        "id": "c36a-168e-1cfe-605c",
+                        "name": "Kroot carbine",
+                        "min": 0,
+                        "max": 99
+                      },
+                      {
+                        "id": "889e-e3cf-528d-7554",
+                        "name": "Kroot rifle",
+                        "min": 0,
+                        "max": 99
+                      }
+                    ],
+                    "defaultOptionId": "889e-e3cf-528d-7554"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "c523-a2e2-a398-ea00": {
+    "groups": [
+      {
+        "id": "aee2-c887-105a-ea1b",
+        "name": "Krootox Riders",
+        "min": 1,
+        "max": 3,
+        "mode": "count",
+        "options": [
+          {
+            "id": "a3cd-29ef-8419-fde6",
+            "name": "Krootox Rider w/ repeater cannon",
+            "min": 0,
+            "max": 3,
+            "equippedWith": "Close combat weapon"
+          },
+          {
+            "id": "e8d6-71b5-aa6b-335c",
+            "name": "Krootox Rider w/ tanglecannon",
+            "min": 0,
+            "max": 3,
+            "equippedWith": "Close combat weapon"
+          }
+        ],
+        "defaultOptionId": "a3cd-29ef-8419-fde6"
+      }
+    ]
+  },
+  "de16-2476-9749-b603": {
+    "groups": [
+      {
+        "id": "9ce0-2538-ce73-4e22",
+        "name": "Crisis Shas’vre",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "724f-237b-2ead-756e",
+            "name": "Crisis Shas’vre",
+            "min": 1,
+            "max": 1,
+            "groups": [
+              {
+                "id": "1544-9321-65e0-f35b",
+                "name": "Wargear",
+                "min": 0,
+                "max": 99,
+                "mode": "count",
+                "options": [
+                  {
+                    "id": "0280-2182-1b01-25e2",
+                    "name": "Battlesuit fists",
+                    "min": 1,
+                    "max": 1
+                  }
+                ],
+                "groups": [
+                  {
+                    "id": "ed16-9494-02dd-74ca",
+                    "name": "Support Systems (1-4)",
+                    "min": 1,
+                    "max": 3,
+                    "mode": "count",
+                    "options": [
+                      {
+                        "id": "6a1d-a984-a39b-b6ba",
+                        "name": "Battlesuit support system",
+                        "min": 0,
+                        "max": 1
+                      },
+                      {
+                        "id": "9b06-7f19-76f3-b601",
+                        "name": "Shield generator",
+                        "min": 0,
+                        "max": 1
+                      },
+                      {
+                        "id": "9b93-fb8e-dfa2-0062",
+                        "name": "Weapon support system",
+                        "min": 0,
+                        "max": 1
+                      },
+                      {
+                        "id": "70f5-0119-0a99-4603",
+                        "name": "Missile pod",
+                        "min": 0,
+                        "max": 3
+                      },
+                      {
+                        "id": "e017-d7b4-fe40-0837",
+                        "name": "Burst cannon",
+                        "min": 0,
+                        "max": 3
+                      },
+                      {
+                        "id": "5b32-c00f-763b-5372",
+                        "name": "Airbursting fragmentation projector",
+                        "min": 0,
+                        "max": 1
+                      },
+                      {
+                        "id": "eb76-3253-7317-e47d",
+                        "name": "Cyclic ion blaster",
+                        "min": 0,
+                        "max": 3
+                      },
+                      {
+                        "id": "e1c8-4c94-7d2a-e964",
+                        "name": "T'au flamer",
+                        "min": 0,
+                        "max": 3
+                      },
+                      {
+                        "id": "4525-9065-aa81-8d1d",
+                        "name": "Fusion blaster",
+                        "min": 0,
+                        "max": 3
+                      },
+                      {
+                        "id": "d8c2-b29e-060b-13bd",
+                        "name": "Plasma rifle",
+                        "min": 0,
+                        "max": 3
+                      }
+                    ],
+                    "defaultOptionId": "4829-3016-50ac-2142"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "5d3a-803e-7cbc-b2f1": {
+    "groups": [
+      {
+        "id": "a463-a329-d423-f948",
+        "name": "4 Stealth Shas'ui",
+        "min": 4,
+        "max": 4,
+        "mode": "count",
+        "options": [
+          {
+            "id": "40a5-647f-cdd8-9cf6",
+            "name": "Stealth Shas'ui w/ burst cannon",
+            "min": 2,
+            "max": 4,
+            "equippedWith": "Battlesuit fists and Burst cannon"
+          },
+          {
+            "id": "5429-90b5-398b-9e2d",
+            "name": "Stealth Shas'ui w/ fusion blaster",
+            "min": 0,
+            "max": 2,
+            "equippedWith": "Battlesuit fists and Fusion blaster"
+          }
+        ],
+        "defaultOptionId": "40a5-647f-cdd8-9cf6"
+      },
+      {
+        "id": "63b1-cf27-e34a-b8e8",
+        "name": "Stealth Shas'vre",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "3673-4644-8d64-3604",
+            "name": "Stealth Shas'vre",
+            "min": 1,
+            "max": 1,
+            "groups": [
+              {
+                "id": "1051-a2a2-9c34-e570",
+                "name": "Wargear",
+                "min": 0,
+                "max": 99,
+                "mode": "count",
+                "options": [
+                  {
+                    "id": "329a-10c5-2661-7ba3",
+                    "name": "Battlesuit fists",
+                    "min": 1,
+                    "max": 1
+                  },
+                  {
+                    "id": "2c55-cf25-c27a-4eb4",
+                    "name": "Pulse pistol",
+                    "min": 0,
+                    "max": 1
+                  }
+                ],
+                "groups": [
+                  {
+                    "id": "64ed-7a58-bc2f-e280",
+                    "name": "Burst cannon",
+                    "min": 1,
+                    "max": 1,
+                    "mode": "single",
+                    "options": [
+                      {
+                        "id": "d9b7-3749-909f-a357",
+                        "name": "Burst cannon",
+                        "min": 0,
+                        "max": 99
+                      },
+                      {
+                        "id": "9c83-dc2b-dcfe-3660",
+                        "name": "Fusion blaster",
+                        "min": 0,
+                        "max": 99
+                      }
+                    ],
+                    "defaultOptionId": "d9b7-3749-909f-a357"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "5268-6e9-8f5c-c810": {
+    "groups": [
+      {
+        "id": "b66b-419b-794d-130d",
+        "name": "Wargear",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "5804-a3f4-b65a-4e32",
+            "name": "Ghostkeel fists",
+            "min": 1,
+            "max": 1
+          }
+        ],
+        "groups": [
+          {
+            "id": "a5ca-2dc6-27b-c040",
+            "name": "Twin T'au flamer",
+            "min": 1,
+            "max": 1,
+            "mode": "single",
+            "options": [
+              {
+                "id": "61d9-d495-5173-30fe",
+                "name": "Twin burst cannon",
+                "min": 0,
+                "max": 99
+              },
+              {
+                "id": "41f6-4347-9b33-a099",
+                "name": "Twin T'au flamer",
+                "min": 0,
+                "max": 99
+              },
+              {
+                "id": "ed83-603d-844e-f9c4",
+                "name": "Twin fusion blaster",
+                "min": 0,
+                "max": 99
+              }
+            ],
+            "defaultOptionId": "41f6-4347-9b33-a099"
+          },
+          {
+            "id": "ed28-85af-7b7b-31fe",
+            "name": "Battlesuit Support System",
+            "min": 0,
+            "max": 99,
+            "mode": "count",
+            "options": [
+              {
+                "id": "a8a0-dacd-a0e-55fb",
+                "name": "Battlesuit support system",
+                "min": 0,
+                "max": 1
+              }
+            ]
+          },
+          {
+            "id": "fb72-62ac-9b5c-d6b8",
+            "name": "Fusion collider",
+            "min": 1,
+            "max": 1,
+            "mode": "single",
+            "options": [
+              {
+                "id": "7911-3c42-8875-13d4",
+                "name": "Fusion collider",
+                "min": 0,
+                "max": 99
+              },
+              {
+                "id": "607c-5de1-21e-96bf",
+                "name": "Cyclic ion raker",
+                "min": 0,
+                "max": 99
+              }
+            ],
+            "defaultOptionId": "7911-3c42-8875-13d4"
+          }
+        ]
+      }
+    ]
+  },
+  "5fe4-86de-b88c-a47b": {
+    "groups": [
+      {
+        "id": "982f-19cc-e93a-6ac3",
+        "name": "Wargear",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "4924-2228-1b87-5f24",
+            "name": "Close combat weapons",
+            "min": 1,
+            "max": 1
+          },
+          {
+            "id": "efb2-9028-a1bd-37b2",
+            "name": "Longshot pulse rifles",
+            "min": 1,
+            "max": 1
+          },
+          {
+            "id": "0437-4036-5c60-cdb1",
+            "name": "Pulse pistol",
+            "min": 1,
+            "max": 1
+          }
+        ]
+      }
+    ]
+  },
+  "2598-d700-9952-e439": {
+    "groups": [
+      {
+        "id": "60bc-2143-2514-bae5",
+        "name": "Pathfinders",
+        "min": 9,
+        "max": 9,
+        "mode": "count",
+        "options": [
+          {
+            "id": "ad87-9bfe-ad76-481e",
+            "name": "Pathfinders w/ pulse carbine",
+            "min": 9,
+            "max": 9,
+            "equippedWith": "Pulse pistol and Close combat weapon"
+          },
+          {
+            "id": "f1ca-59d2-49db-849f",
+            "name": "Pathfinders w/ pulse carbine and grenade launcher",
+            "min": 0,
+            "max": 1,
+            "equippedWith": "Semi-automatic grenade launcher and Pulse pistol and Close combat weapon"
+          },
+          {
+            "id": "bad1-a6d1-a65e-943b",
+            "name": "Pathfinders w/ ion rifle",
+            "min": 0,
+            "max": 3,
+            "equippedWith": "Pulse pistol and Close combat weapon"
+          },
+          {
+            "id": "68d2-39b6-1033-f3a",
+            "name": "Pathfinders w/ rail rifle",
+            "min": 0,
+            "max": 3,
+            "equippedWith": "Pulse pistol and Close combat weapon"
+          }
+        ],
+        "groups": []
+      },
+      {
+        "id": "f798-1e14-b4a9-c46a",
+        "name": "Pathfinder Shas'ui",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "2af6-b5a5-4a1e-e2be",
+            "name": "Pathfinder Shas'ui",
+            "min": 1,
+            "max": 1,
+            "groups": [
+              {
+                "id": "3fcf-5576-c034-13b4",
+                "name": "Wargear",
+                "min": 0,
+                "max": 99,
+                "mode": "count",
+                "options": [
+                  {
+                    "id": "4e2b-de81-733a-721d",
+                    "name": "Pulse carbine",
+                    "min": 1,
+                    "max": 1
+                  },
+                  {
+                    "id": "c6a4-9585-1b62-0fa0",
+                    "name": "Close combat weapon",
+                    "min": 1,
+                    "max": 1
+                  },
+                  {
+                    "id": "fff7-3461-6283-cdf0",
+                    "name": "Pulse pistol",
+                    "min": 1,
+                    "max": 1
+                  },
+                  {
+                    "id": "44be-4a7e-5a8b-cabc",
+                    "name": "Semi-automatic grenade launcher",
+                    "min": 0,
+                    "max": 1
+                  }
+                ],
+                "groups": [
+                  {
+                    "id": "74cb-a7a8-869a-53ee",
+                    "name": "Pathfinder Drone",
+                    "min": 0,
+                    "max": 1,
+                    "mode": "single",
+                    "options": [
+                      {
+                        "id": "d002-780-6bee-c58e",
+                        "name": "Grav-inhibitor drone",
+                        "min": 0,
+                        "max": 99
+                      },
+                      {
+                        "id": "296b-c47c-fbbc-bf11",
+                        "name": "Pulse accelerator drone",
+                        "min": 0,
+                        "max": 99
+                      },
+                      {
+                        "id": "124e-a9a3-efd7-8788",
+                        "name": "Recon drone",
+                        "min": 0,
+                        "max": 99
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "b91-ba27-3842-76c": {
+    "groups": [
+      {
+        "id": "2455-7576-8e0d-04f6",
+        "name": "Vespid Strain Leader",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "7655-e631-6fa2-9120",
+            "name": "Vespid Strain Leader",
+            "min": 1,
+            "max": 1,
+            "groups": [
+              {
+                "id": "a00e-58d7-30e7-9158",
+                "name": "Wargear",
+                "min": 0,
+                "max": 99,
+                "mode": "count",
+                "options": [
+                  {
+                    "id": "120d-fbd9-4e58-cfe8",
+                    "name": "Oversight Drone",
+                    "min": 0,
+                    "max": 1
+                  },
+                  {
+                    "id": "c5f6-4ea4-a577-323c",
+                    "name": "Stingwing claws",
+                    "min": 1,
+                    "max": 1
+                  },
+                  {
+                    "id": "2385-a604-46ee-b6f2",
+                    "name": "Neutron blaster",
+                    "min": 1,
+                    "max": 1
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "6a68-08c0-278b-2b74",
+        "name": "4-9 Vespid Stingwings",
+        "min": 4,
+        "max": 9,
+        "mode": "count",
+        "options": [
+          {
+            "id": "3029-570d-beff-bbf8",
+            "name": "Vespid Stingwings w/ Neutron Blaster",
+            "min": 4,
+            "max": 9,
+            "equippedWith": "Stingwing claws and Neutron blaster"
+          },
+          {
+            "id": "27c5-aeb2-dfed-057c",
+            "name": "Vespid Stingwings w/ T'au Flamer",
+            "min": 0,
+            "max": 1,
+            "equippedWith": "T'au flamer and Stingwing claws"
+          },
+          {
+            "id": "4af0-63bb-b55e-fe6c",
+            "name": "Vespid Stingwings w/ Neutron Grenade Launcher",
+            "min": 0,
+            "max": 1,
+            "equippedWith": "Stingwing claws"
+          },
+          {
+            "id": "7ccb-f2af-a5e7-cb66",
+            "name": "Vespid Stingwings w/ Neutron Rail Rifle",
+            "min": 0,
+            "max": 1,
+            "equippedWith": "Stingwing claws"
+          }
+        ],
+        "defaultOptionId": "3029-570d-beff-bbf8"
+      }
+    ]
+  },
+  "6883-85aa-b338-b88": {
+    "groups": [
+      {
+        "id": "28b9-c686-23b0-a9ae",
+        "name": "5-10 Kroot Hounds",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "3587-6ac3-7b41-e37e",
+            "name": "Kroot Hounds",
+            "min": 5,
+            "max": 10
+          }
+        ]
+      }
+    ]
+  },
+  "a594-317-b90a-a226": {
+    "groups": [
+      {
+        "id": "2295-bb6d-9a9a-ff6",
+        "name": "Broadside Shas’ui (0-2)",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "8a73-2cbe-9248-fe7d",
+            "name": "Broadside Shas’ui",
+            "min": 0,
+            "max": 2,
+            "groups": [
+              {
+                "id": "cd9c-12bd-27ac-a98d",
+                "name": "Heavy rail rifle",
+                "min": 1,
+                "max": 1,
+                "mode": "single",
+                "options": [
+                  {
+                    "id": "c0a6-a37b-988f-82d7",
+                    "name": "Heavy rail rifle",
+                    "min": 0,
+                    "max": 99
+                  },
+                  {
+                    "id": "0697-6cdb-4a54-3adc",
+                    "name": "High-yield missile pods",
+                    "min": 0,
+                    "max": 99
+                  }
+                ],
+                "defaultOptionId": "c0a6-a37b-988f-82d7"
+              },
+              {
+                "id": "5068-3b7e-4bf0-a83d",
+                "name": "Support Systems (0-2)",
+                "min": 0,
+                "max": 2,
+                "mode": "count",
+                "options": [
+                  {
+                    "id": "be57-431e-f6d4-5178",
+                    "name": "Weapon support system",
+                    "min": 0,
+                    "max": 1
+                  },
+                  {
+                    "id": "f973-85e7-df62-81ed",
+                    "name": "Seeker missile",
+                    "min": 0,
+                    "max": 1
+                  }
+                ],
+                "groups": [
+                  {
+                    "id": "b05f-dadf-e0a2-eaf4",
+                    "name": "Secondary Weapons",
+                    "min": 0,
+                    "max": 1,
+                    "mode": "single",
+                    "options": [
+                      {
+                        "id": "7bdf-c969-6780-cb3a",
+                        "name": "Twin plasma rifle",
+                        "min": 0,
+                        "max": 99
+                      },
+                      {
+                        "id": "6183-1b10-6962-1699",
+                        "name": "Twin smart missile system",
+                        "min": 0,
+                        "max": 99
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "equippedWith": "Crushing bulk"
+          }
+        ]
+      },
+      {
+        "id": "0dfb-40d0-1060-9b65",
+        "name": "Broadside Shas’vre",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "c7f0-6f76-8309-df6",
+            "name": "Broadside Shas’vre",
+            "min": 1,
+            "max": 1,
+            "groups": [
+              {
+                "id": "c91a-02aa-961b-821c",
+                "name": "Wargear",
+                "min": 0,
+                "max": 99,
+                "mode": "count",
+                "options": [
+                  {
+                    "id": "4936-fe9b-2fbe-4556",
+                    "name": "Crushing bulk",
+                    "min": 1,
+                    "max": 1
+                  }
+                ],
+                "groups": [
+                  {
+                    "id": "e56e-6333-6b23-8033",
+                    "name": "Heavy rail rifle",
+                    "min": 1,
+                    "max": 1,
+                    "mode": "single",
+                    "options": [
+                      {
+                        "id": "6ebb-b385-cd48-f263",
+                        "name": "Heavy rail rifle",
+                        "min": 0,
+                        "max": 99
+                      },
+                      {
+                        "id": "7404-3eed-57ee-ba12",
+                        "name": "High-yield missile pods",
+                        "min": 0,
+                        "max": 99
+                      }
+                    ],
+                    "defaultOptionId": "6ebb-b385-cd48-f263"
+                  },
+                  {
+                    "id": "ea3e-a3dd-49aa-a420",
+                    "name": "Support Systems (0-2)",
+                    "min": 0,
+                    "max": 2,
+                    "mode": "count",
+                    "options": [
+                      {
+                        "id": "e647-0581-1c26-0f31",
+                        "name": "Weapon support system",
+                        "min": 0,
+                        "max": 1
+                      },
+                      {
+                        "id": "fd30-c628-c717-2433",
+                        "name": "Seeker missile",
+                        "min": 0,
+                        "max": 1
+                      }
+                    ],
+                    "groups": [
+                      {
+                        "id": "b745-5932-11ff-26bf",
+                        "name": "Secondary Weapons",
+                        "min": 0,
+                        "max": 1,
+                        "mode": "single",
+                        "options": [
+                          {
+                            "id": "a15a-ef0c-7d43-6e7e",
+                            "name": "Twin plasma rifle",
+                            "min": 0,
+                            "max": 99
+                          },
+                          {
+                            "id": "6769-a812-ab12-8be4",
+                            "name": "Twin smart missile system",
+                            "min": 0,
+                            "max": 99
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "5d8f-5530-263d-651b": {
+    "groups": [
+      {
+        "id": "b9b3-9409-ad48-4c64",
+        "name": "Wargear",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "d41c-dfc2-1b8d-710c",
+            "name": "Riptide fists",
+            "min": 1,
+            "max": 1
+          }
+        ],
+        "groups": [
+          {
+            "id": "6008-c771-7432-c6b0",
+            "name": "Heavy Burst Cannon",
+            "min": 1,
+            "max": 1,
+            "mode": "single",
+            "options": [
+              {
+                "id": "d731-8997-c962-5bba",
+                "name": "Heavy burst cannon",
+                "min": 0,
+                "max": 99
+              },
+              {
+                "id": "fac9-3d5c-53c2-b08c",
+                "name": "Ion accelerator",
+                "min": 0,
+                "max": 99
+              }
+            ],
+            "defaultOptionId": "d731-8997-c962-5bba"
+          },
+          {
+            "id": "6a04-101c-70b6-3e01",
+            "name": "Missile Drones (0-2)",
+            "min": 0,
+            "max": 2,
+            "mode": "count",
+            "options": [
+              {
+                "id": "345a-f548-79e7-b25d",
+                "name": "Missile Drone",
+                "min": 0,
+                "max": 2
+              }
+            ]
+          },
+          {
+            "id": "7a35-60cb-6bae-5e0d",
+            "name": "Twin Plasma Rifles",
+            "min": 1,
+            "max": 1,
+            "mode": "single",
+            "options": [
+              {
+                "id": "e1e7-c9cc-715c-3415",
+                "name": "Twin smart missile system",
+                "min": 0,
+                "max": 99
+              },
+              {
+                "id": "df5e-0201-5fa4-75a1",
+                "name": "Twin fusion blaster",
+                "min": 0,
+                "max": 99
+              },
+              {
+                "id": "c1f6-01e4-8fce-62f2",
+                "name": "Twin plasma rifle",
+                "min": 0,
+                "max": 99
+              }
+            ],
+            "defaultOptionId": "c1f6-01e4-8fce-62f2"
+          }
+        ]
+      }
+    ]
+  },
+  "ca9-49ab-17c1-8556": {
+    "groups": [
+      {
+        "id": "6b03-40c0-1d98-d7f1",
+        "name": "Wargear",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "f79d-01df-cc05-362c",
+            "name": "Armoured hull",
+            "min": 1,
+            "max": 1
+          }
+        ],
+        "groups": [
+          {
+            "id": "fe0e-b869-a39e-16a9",
+            "name": "Railgun",
+            "min": 1,
+            "max": 1,
+            "mode": "single",
+            "options": [
+              {
+                "id": "fc2c-78c4-4617-ec8d",
+                "name": "Railgun",
+                "min": 0,
+                "max": 99
+              },
+              {
+                "id": "c1d2-b6ec-202f-9aeb",
+                "name": "Ion cannon",
+                "min": 0,
+                "max": 99
+              }
+            ],
+            "defaultOptionId": "fc2c-78c4-4617-ec8d"
+          },
+          {
+            "id": "7451-88a-f165-da",
+            "name": "Seeker Missiles (0-2)",
+            "min": 0,
+            "max": 2,
+            "mode": "count",
+            "options": [
+              {
+                "id": "139f-8b53-7275-2dc9",
+                "name": "Seeker missile",
+                "min": 0,
+                "max": 2
+              }
+            ]
+          },
+          {
+            "id": "8dc7-ace3-f372-895f",
+            "name": "Twin Pulse Carbines",
+            "min": 1,
+            "max": 1,
+            "mode": "single",
+            "options": [
+              {
+                "id": "731d-5afd-9039-d4f5",
+                "name": "2 Accelerator burst cannons",
+                "min": 0,
+                "max": 99
+              },
+              {
+                "id": "f83b-f22d-da93-8f4b",
+                "name": "2 Twin pulse carbines",
+                "min": 0,
+                "max": 99
+              },
+              {
+                "id": "b68a-bdff-3d5c-7b63",
+                "name": "2 Smart missile systems",
+                "min": 0,
+                "max": 99
+              }
+            ],
+            "defaultOptionId": "f83b-f22d-da93-8f4b"
+          }
+        ]
+      }
+    ]
+  },
+  "bfe0-2e9f-6f57-b48f": {
+    "groups": [
+      {
+        "id": "6ed5-12b0-0ce2-c953",
+        "name": "Wargear",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "cd24-168c-be83-b8d8",
+            "name": "Seeker missile rack",
+            "min": 1,
+            "max": 1
+          },
+          {
+            "id": "9582-a8b7-29d0-7ca1",
+            "name": "Armoured hull",
+            "min": 1,
+            "max": 1
+          }
+        ],
+        "groups": [
+          {
+            "id": "3dc9-6bc8-0575-c1c4",
+            "name": "Twin Pulse Carbines",
+            "min": 1,
+            "max": 1,
+            "mode": "single",
+            "options": [
+              {
+                "id": "0e94-3f4c-9564-beff",
+                "name": "2 Accelerator burst cannons",
+                "min": 0,
+                "max": 99
+              },
+              {
+                "id": "7ad3-2853-6bba-c6b4",
+                "name": "2 Twin pulse carbines",
+                "min": 0,
+                "max": 99
+              },
+              {
+                "id": "17e3-c0a4-7de9-5c78",
+                "name": "2 Smart missile systems",
+                "min": 0,
+                "max": 99
+              }
+            ],
+            "defaultOptionId": "5064-479f-d0cf-d457"
+          }
+        ]
+      }
+    ]
+  },
+  "14f3-9aa6-21af-7fe3": {
+    "groups": [
+      {
+        "id": "ab8f-d4c9-7668-7e1d",
+        "name": "Wargear",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "38d1-28b2-e43f-08da",
+            "name": "Accelerator burst cannon",
+            "min": 1,
+            "max": 1
+          },
+          {
+            "id": "344a-8cce-415e-5aba",
+            "name": "Armoured hull",
+            "min": 1,
+            "max": 1
+          }
+        ],
+        "groups": [
+          {
+            "id": "68c8-2849-51dc-b4ea",
+            "name": "Twin Pulse Carbines",
+            "min": 1,
+            "max": 1,
+            "mode": "single",
+            "options": [
+              {
+                "id": "e2b9-ad4b-5f60-db9e",
+                "name": "2 Twin pulse carbines",
+                "min": 0,
+                "max": 99
+              },
+              {
+                "id": "c669-45e-85aa-4252",
+                "name": "2 Smart missile systems",
+                "min": 0,
+                "max": 99
+              }
+            ],
+            "defaultOptionId": "e2b9-ad4b-5f60-db9e"
+          },
+          {
+            "id": "6366-1f29-9d95-c246",
+            "name": "Seeker Missiles (0-2)",
+            "min": 0,
+            "max": 2,
+            "mode": "count",
+            "options": [
+              {
+                "id": "df4a-aa21-e21b-d510",
+                "name": "Seeker missile",
+                "min": 0,
+                "max": 2
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "cac0-2569-67c8-f492": {
+    "groups": [
+      {
+        "id": "62ed-4e85-d25a-ec37",
+        "name": "Wargear",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "4124-9c2b-ec89-c63",
+            "name": "Quad ion turret",
+            "min": 1,
+            "max": 1
+          },
+          {
+            "id": "b590-52d1-4150-a560",
+            "name": "Seeker missile",
+            "min": 2,
+            "max": 2
+          },
+          {
+            "id": "0e73-d93a-1d15-ff4b",
+            "name": "Armoured hull",
+            "min": 1,
+            "max": 1
+          }
+        ],
+        "groups": [
+          {
+            "id": "9200-9eb-cbf7-b177",
+            "name": "Accelerator Burst Cannon",
+            "min": 1,
+            "max": 1,
+            "mode": "single",
+            "options": [
+              {
+                "id": "5baa-d1f6-15ac-89db",
+                "name": "Missile pod",
+                "min": 0,
+                "max": 99
+              },
+              {
+                "id": "2ec6-6c16-6e7b-7e00",
+                "name": "Accelerator burst cannon",
+                "min": 0,
+                "max": 99
+              }
+            ],
+            "defaultOptionId": "2ec6-6c16-6e7b-7e00"
+          }
+        ]
+      }
+    ]
+  },
+  "8d6a-3409-52db-a8c": {
+    "groups": [
+      {
+        "id": "be27-ec47-3149-8f10",
+        "name": "Wargear",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "7072-c47d-79b2-f80b",
+            "name": "Twin ion rifle",
+            "min": 2,
+            "max": 2
+          },
+          {
+            "id": "f132-9fa9-9dc8-02f8",
+            "name": "Seeker missile",
+            "min": 2,
+            "max": 2
+          },
+          {
+            "id": "a7c1-784d-13ca-535a",
+            "name": "Armoured hull",
+            "min": 1,
+            "max": 1
+          }
+        ],
+        "groups": [
+          {
+            "id": "1c25-8744-1a0-5981",
+            "name": "Missile Pod",
+            "min": 1,
+            "max": 1,
+            "mode": "single",
+            "options": [
+              {
+                "id": "9012-aa0b-5410-d607",
+                "name": "Twin missile pod",
+                "min": 0,
+                "max": 99
+              },
+              {
+                "id": "82c3-deb9-3d13-ad8f",
+                "name": "Missile pod",
+                "min": 0,
+                "max": 99
+              }
+            ],
+            "defaultOptionId": "82c3-deb9-3d13-ad8f"
+          }
+        ]
+      }
+    ]
+  },
+  "1d72-cdbd-796f-7c0d": {
+    "groups": [
+      {
+        "id": "2242-757b-d426-900",
+        "name": "Tidewall Defence Platform",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "71fb-3e7-db6c-356e",
+            "name": "Tidewall Defence Platform",
+            "min": 0,
+            "max": 1
+          }
+        ]
+      }
+    ]
+  },
+  "439b-e08-4466-e162": {
+    "groups": [
+      {
+        "id": "e4fa-b389-4cdd-f860",
+        "name": "Wargear",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "cf60-7be2-e5a8-767",
+            "name": "Cluster rocket system",
+            "min": 1,
+            "max": 1
+          },
+          {
+            "id": "6e13-c32e-d336-c",
+            "name": "Destroyer missiles",
+            "min": 1,
+            "max": 1
+          },
+          {
+            "id": "b413-48c2-13c8-9194",
+            "name": "Thunderous footfalls",
+            "min": 1,
+            "max": 1
+          },
+          {
+            "id": "c1b5-d3b5-9765-7eb0",
+            "name": "Twin smart missile system",
+            "min": 2,
+            "max": 2
+          }
+        ],
+        "groups": [
+          {
+            "id": "fdf9-b67f-2381-32b6",
+            "name": "Pulse Driver Cannon",
+            "min": 1,
+            "max": 1,
+            "mode": "single",
+            "options": [
+              {
+                "id": "317-c1c4-e623-8890",
+                "name": "Pulse driver cannon",
+                "min": 0,
+                "max": 99
+              },
+              {
+                "id": "b092-a7a6-2afc-99d1",
+                "name": "Pulse blast cannon",
+                "min": 0,
+                "max": 99
+              }
+            ],
+            "defaultOptionId": "317-c1c4-e623-8890"
+          },
+          {
+            "id": "5976-1d9c-cdce-30dd",
+            "name": "Twin T'au Flamer",
+            "min": 1,
+            "max": 1,
+            "mode": "single",
+            "options": [
+              {
+                "id": "e4ce-ed55-a1bd-9a6b",
+                "name": "Twin airbursting fragmentation projector",
+                "min": 0,
+                "max": 99
+              },
+              {
+                "id": "2526-2545-30a1-7685",
+                "name": "Twin burst cannon",
+                "min": 0,
+                "max": 99
+              },
+              {
+                "id": "2721-8821-88f8-7aad",
+                "name": "Twin T'au flamer",
+                "min": 0,
+                "max": 99
+              }
+            ],
+            "defaultOptionId": "2721-8821-88f8-7aad"
+          }
+        ]
+      }
+    ]
+  },
+  "72f2-7d0b-80f9-43b7": {
+    "groups": [
+      {
+        "id": "42b3-7f9a-d4eb-5d6f",
+        "name": "Kroot Farstalkers",
+        "min": 9,
+        "max": 9,
+        "mode": "count",
+        "options": [
+          {
+            "id": "9620-c5b6-e0da-589d",
+            "name": "Kroot Farstalker",
+            "min": 8,
+            "max": 8,
+            "equippedWith": "Farstalker firearm and Kroot pistol and Close combat weapon"
+          },
+          {
+            "id": "ca9e-99f0-8f4b-8355",
+            "name": "Kroot Farstalker w/ Farstalker firearm and Pech'ra",
+            "min": 0,
+            "max": 1,
+            "equippedWith": "Kroot pistol and Farstalker firearm and Close combat weapon"
+          }
+        ],
+        "groups": [
+          {
+            "id": "d244-c40b-5b02-39f6",
+            "name": "Special Weapon",
+            "min": 1,
+            "max": 1,
+            "mode": "single",
+            "options": [
+              {
+                "id": "795b-e4b5-252-145d",
+                "name": "Kroot Farstalker w/ Dvorgite skinner",
+                "min": 0,
+                "max": 99,
+                "equippedWith": "Dvorgite skinner and Kroot pistol and Close combat weapon"
+              },
+              {
+                "id": "ebca-9caf-7200-a021",
+                "name": "Kroot Farstalker w/ Londaxi tribalest",
+                "min": 0,
+                "max": 99,
+                "equippedWith": "Londaxi tribalest and Kroot pistol and Close combat weapon"
+              },
+              {
+                "id": "4374-c9e6-f4e2-ab59",
+                "name": "Kroot Farstalker",
+                "min": 0,
+                "max": 99,
+                "equippedWith": "Farstalker firearm and Kroot pistol and Close combat weapon"
+              }
+            ],
+            "defaultOptionId": "4374-c9e6-f4e2-ab59"
+          }
+        ]
+      },
+      {
+        "id": "1b87-6b85-cc8d-f8fc",
+        "name": "Kroot Kill-broker",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "a89d-6ef9-4600-bf5d",
+            "name": "Kroot Kill-broker",
+            "min": 1,
+            "max": 1,
+            "groups": [
+              {
+                "id": "831f-a0e6-f89b-9be7",
+                "name": "Farstalker Firearm",
+                "min": 1,
+                "max": 1,
+                "mode": "single",
+                "options": [
+                  {
+                    "id": "6c41-cf38-4a42-340",
+                    "name": "Farstalker firearm",
+                    "min": 0,
+                    "max": 99
+                  },
+                  {
+                    "id": "63cb-db48-f95d-c46",
+                    "name": "T'au tech rifle",
+                    "min": 0,
+                    "max": 99
+                  }
+                ],
+                "defaultOptionId": "6c41-cf38-4a42-340"
+              }
+            ],
+            "equippedWith": "Kroot pistol"
+          }
+        ]
+      }
+    ]
+  },
+  "b146-daf1-9b8b-6de9": {
+    "groups": [
+      {
+        "id": "4bc7-4e93-0258-8a19",
+        "name": "Wargear",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "38d1-fd46-bf47-d179",
+            "name": "Pulse submunitions cannon",
+            "min": 2,
+            "max": 2
+          },
+          {
+            "id": "b1b0-dcf9-e549-e6d3",
+            "name": "Battlesuit fists",
+            "min": 1,
+            "max": 1
+          }
+        ],
+        "groups": [
+          {
+            "id": "11af-dfb0-74e8-d986",
+            "name": "Missile Drones (0-2)",
+            "min": 0,
+            "max": 2,
+            "mode": "count",
+            "options": [
+              {
+                "id": "35cc-8268-016f-74ef",
+                "name": "Missile Drone",
+                "min": 0,
+                "max": 2
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "8013-c4e0-166e-a961": {
+    "groups": [
+      {
+        "id": "f023-998c-2cc7-bdb2",
+        "name": "Wargear",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "17e1-7036-5a2e-f1d5",
+            "name": "Flechette pod",
+            "min": 1,
+            "max": 1
+          },
+          {
+            "id": "309a-ecb2-8772-b424",
+            "name": "Ionic discharge cannon",
+            "min": 1,
+            "max": 1
+          },
+          {
+            "id": "ce72-8459-7e37-4b86",
+            "name": "Phased plasma-flamer",
+            "min": 1,
+            "max": 1
+          },
+          {
+            "id": "eb14-560d-08b5-d4fb",
+            "name": "Battlesuit fists",
+            "min": 1,
+            "max": 1
+          }
+        ],
+        "groups": [
+          {
+            "id": "70d-147c-3c60-3749",
+            "name": "Missile Drones (0-2)",
+            "min": 0,
+            "max": 2,
+            "mode": "count",
+            "options": [
+              {
+                "id": "1551-de79-2cc6-becb",
+                "name": "Missile Drone",
+                "min": 0,
+                "max": 2
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "388f-478b-18f5-aee7": {
+    "groups": [
+      {
+        "id": "ca53-4f8c-fdcb-3855",
+        "name": "Tetras (2-4)",
+        "min": 2,
+        "max": 4,
+        "mode": "count",
+        "options": [
+          {
+            "id": "97e3-bc92-871a-54e",
+            "name": "Tetra",
+            "min": 2,
+            "max": 4,
+            "groups": [
+              {
+                "id": "e055-f65b-a77d-4c02",
+                "name": "Wargear",
+                "min": 0,
+                "max": 99,
+                "mode": "count",
+                "options": [
+                  {
+                    "id": "d117-85cc-d18d-61fb",
+                    "name": "Close combat weapons",
+                    "min": 1,
+                    "max": 1
+                  },
+                  {
+                    "id": "082b-83ed-c74e-b62b",
+                    "name": "Pulse rifle",
+                    "min": 2,
+                    "max": 2
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "16d6-79b5-817d-f084": {
+    "groups": [
+      {
+        "id": "9f99-ca6b-b3d9-7fc1",
+        "name": "Wargear",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "8ce0-aef-a22a-959a",
+            "name": "Crushing feet",
+            "min": 1,
+            "max": 1
+          },
+          {
+            "id": "434b-8cdc-a43d-b927",
+            "name": "Burst cannon",
+            "min": 4,
+            "max": 4
+          },
+          {
+            "id": "5f95-47dc-b48d-bea4",
+            "name": "Smart missile system",
+            "min": 4,
+            "max": 4
+          }
+        ],
+        "groups": [
+          {
+            "id": "51ee-1291-3fcc-97a5",
+            "name": "Arm Weapons",
+            "min": 2,
+            "max": 2,
+            "mode": "count",
+            "options": [
+              {
+                "id": "88f3-ea64-a043-fe7a",
+                "name": "Tri-axis ion cannon",
+                "min": 0,
+                "max": 2
+              },
+              {
+                "id": "989a-c4d7-9753-a99b",
+                "name": "Fusion eradicator",
+                "min": 0,
+                "max": 2
+              }
+            ]
+          },
+          {
+            "id": "ee38-bff5-864f-53",
+            "name": "Carapace Weapon",
+            "min": 1,
+            "max": 1,
+            "mode": "single",
+            "options": [
+              {
+                "id": "d8f2-2ad3-7c20-8c52",
+                "name": "3 Pulse ordnance drivers",
+                "min": 0,
+                "max": 99
+              },
+              {
+                "id": "5ecc-3699-7437-9378",
+                "name": "2 Nexus missile launchers",
+                "min": 0,
+                "max": 99
+              },
+              {
+                "id": "d14c-4901-3f1-dc25",
+                "name": "Heavy rail cannon array and fragmentation cluster shell launcher",
+                "min": 0,
+                "max": 99
+              }
+            ],
+            "defaultOptionId": "d8f2-2ad3-7c20-8c52"
+          }
+        ]
+      }
+    ]
+  },
+  "a422-6066-1c3a-f021": {
+    "groups": [
+      {
+        "id": "8cc5-f55b-7930-af30",
+        "name": "Wargear",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "4f19-9e00-0098-1f2b",
+            "name": "Missile pod",
+            "min": 2,
+            "max": 2
+          },
+          {
+            "id": "d157-3d9a-fa6c-6dcb",
+            "name": "Armoured hull",
+            "min": 1,
+            "max": 1
+          }
+        ],
+        "groups": [
+          {
+            "id": "9bb0-1090-bfee-7ecd",
+            "name": "Swiftstrike Burst Cannon",
+            "min": 1,
+            "max": 1,
+            "mode": "single",
+            "options": [
+              {
+                "id": "3542-2950-5fa0-d109",
+                "name": "Swiftstrike burst cannon",
+                "min": 0,
+                "max": 99
+              },
+              {
+                "id": "b40c-badc-7dd6-d995",
+                "name": "Ion cannon",
+                "min": 0,
+                "max": 99
+              },
+              {
+                "id": "c2a9-9471-2a4f-58f2",
+                "name": "Swiftstrike railgun",
+                "min": 0,
+                "max": 99
+              }
+            ],
+            "defaultOptionId": "3542-2950-5fa0-d109"
+          },
+          {
+            "id": "3af6-4ffa-fcc1-872b",
+            "name": "Long-barrelled Burst Cannons",
+            "min": 1,
+            "max": 1,
+            "mode": "single",
+            "options": [
+              {
+                "id": "3793-76b5-1a5-4988",
+                "name": "2 Long-barrelled burst cannons",
+                "min": 0,
+                "max": 99
+              },
+              {
+                "id": "f765-770f-c441-a832",
+                "name": "2 Cyclic ion blasters",
+                "min": 0,
+                "max": 99
+              }
+            ],
+            "defaultOptionId": "3793-76b5-1a5-4988"
+          },
+          {
+            "id": "b35a-2af5-f2d0-34de",
+            "name": "Seeker Missiles (0-4)",
+            "min": 0,
+            "max": 4,
+            "mode": "count",
+            "options": [
+              {
+                "id": "ce7a-8f9d-92d7-31d5",
+                "name": "Seeker missile",
+                "min": 0,
+                "max": 4
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "1c73-43dc-bef0-a468": {
+    "groups": [
+      {
+        "id": "0fb7-63d7-33cf-538d",
+        "name": "Wargear",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "ca9c-c443-bce8-c158",
+            "name": "Armoured hull",
+            "min": 1,
+            "max": 1
+          },
+          {
+            "id": "b77f-5217-3395-0cbd",
+            "name": "Missile pod",
+            "min": 2,
+            "max": 2
+          }
+        ],
+        "groups": [
+          {
+            "id": "4160-b045-7340-5973",
+            "name": "Burst Cannons",
+            "min": 1,
+            "max": 1,
+            "mode": "single",
+            "options": [
+              {
+                "id": "7014-fcdc-d295-68e8",
+                "name": "2 cyclic ion blasters",
+                "min": 0,
+                "max": 99
+              },
+              {
+                "id": "4ee6-3e8-4a53-a102",
+                "name": "2 burst cannons",
+                "min": 0,
+                "max": 99
+              }
+            ],
+            "defaultOptionId": "4ee6-3e8-4a53-a102"
+          },
+          {
+            "id": "6177-6b0c-6c01-678f",
+            "name": "Ion Cannons",
+            "min": 1,
+            "max": 1,
+            "mode": "single",
+            "options": [
+              {
+                "id": "6b2e-e5b6-db54-1c42",
+                "name": "2 Ion cannons",
+                "min": 0,
+                "max": 99
+              },
+              {
+                "id": "6d35-9c23-5e6e-ff1",
+                "name": "2 Swiftstrike burst cannons",
+                "min": 0,
+                "max": 99
+              },
+              {
+                "id": "4c36-ef94-5175-494",
+                "name": "2 Swiftstrike railguns",
+                "min": 0,
+                "max": 99
+              }
+            ],
+            "defaultOptionId": "6b2e-e5b6-db54-1c42"
+          },
+          {
+            "id": "4c18-e330-6bc0-6ff2",
+            "name": "Seeker Missiles (0-6)",
+            "min": 0,
+            "max": 6,
+            "mode": "count",
+            "options": [
+              {
+                "id": "0824-a0a3-d48e-23e1",
+                "name": "Seeker missile",
+                "min": 0,
+                "max": 6
+              }
+            ]
+          },
+          {
+            "id": "a34f-2b37-bad1-dfd3",
+            "name": "Transport Bay",
+            "min": 1,
+            "max": 1,
+            "mode": "single",
+            "options": [
+              {
+                "id": "a92f-ddac-e3fc-9f7a",
+                "name": "Transport bay",
+                "min": 0,
+                "max": 99
+              },
+              {
+                "id": "1194-9499-3f75-d373",
+                "name": "2 Skyspear missile racks",
+                "min": 0,
+                "max": 99
+              }
+            ],
+            "defaultOptionId": "a92f-ddac-e3fc-9f7a"
+          }
+        ]
+      }
+    ]
+  },
+  "6a78-555-46c7-999b": {
+    "groups": [
+      {
+        "id": "cd3f-473c-ea7e-b32a",
+        "name": "Wargear",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "65a0-3c61-2bd3-6be4",
+            "name": "Twin heavy rail cannon",
+            "min": 1,
+            "max": 1
+          },
+          {
+            "id": "1ddc-8778-bc8b-5bdf",
+            "name": "Missile pod",
+            "min": 2,
+            "max": 2
+          },
+          {
+            "id": "93a2-229f-3ff4-a863",
+            "name": "Armoured hull",
+            "min": 1,
+            "max": 1
+          }
+        ],
+        "groups": [
+          {
+            "id": "c468-7140-2a88-0286",
+            "name": "Burst Cannons",
+            "min": 1,
+            "max": 1,
+            "mode": "single",
+            "options": [
+              {
+                "id": "efc7-7546-a4eb-d2e4",
+                "name": "2 burst cannons",
+                "min": 0,
+                "max": 99
+              },
+              {
+                "id": "8281-77cf-faf9-d0c2",
+                "name": "2 cyclic ion blasters",
+                "min": 0,
+                "max": 99
+              }
+            ],
+            "defaultOptionId": "7d90-f591-23ea-c3df"
+          },
+          {
+            "id": "7b59-223d-b595-936b",
+            "name": "Seeker Missiles (0-6)",
+            "min": 0,
+            "max": 6,
+            "mode": "count",
+            "options": [
+              {
+                "id": "2311-8630-9bfa-3950",
+                "name": "Seeker missile",
+                "min": 0,
+                "max": 6
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "8e75-7545-e43b-7c67": {
+    "groups": [
+      {
+        "id": "2743-3988-2f22-ef85",
+        "name": "Wargear",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "c1a6-3a75-d0fb-ed95",
+            "name": "Armoured hull",
+            "min": 1,
+            "max": 1
+          },
+          {
+            "id": "d909-7fc2-da32-a4be",
+            "name": "Heavy rail cannon",
+            "min": 2,
+            "max": 2
+          },
+          {
+            "id": "150d-3afa-7676-a225",
+            "name": "Long-barrelled burst cannon array",
+            "min": 2,
+            "max": 2
+          },
+          {
+            "id": "fa79-3ad1-a29b-e16e",
+            "name": "Ion cannon",
+            "min": 6,
+            "max": 6
+          },
+          {
+            "id": "98d3-b4c3-d84d-ee5c",
+            "name": "Seeker missile",
+            "min": 10,
+            "max": 10
+          },
+          {
+            "id": "1b68-050d-9e97-80cb",
+            "name": "Missile pod",
+            "min": 2,
+            "max": 2
+          }
+        ]
+      }
+    ]
+  },
+  "49c0-f84c-18c4-6377": {
+    "groups": [
+      {
+        "id": "c547-0a62-1ea3-a272",
+        "name": "Wargear",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "21be-4e8d-5d3e-4f2d",
+            "name": "Armoured hull",
+            "min": 1,
+            "max": 1
+          },
+          {
+            "id": "221c-5838-2b54-b36c",
+            "name": "Long-barrelled burst cannon",
+            "min": 2,
+            "max": 2
+          },
+          {
+            "id": "d3c7-a190-8726-bd63",
+            "name": "Missile pod",
+            "min": 1,
+            "max": 1
+          }
+        ]
+      }
+    ]
+  },
+  "f260-c746-b662-cc6c": {
+    "groups": [
+      {
+        "id": "66f7-b861-80bd-10d6",
+        "name": "Heavy Gun Drones",
+        "min": 2,
+        "max": 2,
+        "mode": "count",
+        "options": [
+          {
+            "id": "f9ab-8176-da08-de83",
+            "name": "Heavy Gun Drone w/ Burst cannon and markerlight",
+            "min": 0,
+            "max": 2,
+            "groups": [
+              {
+                "id": "c152-0fa6-4013-8c68",
+                "name": "Wargear",
+                "min": 0,
+                "max": 99,
+                "mode": "count",
+                "options": [
+                  {
+                    "id": "ca7d-d2d0-8fd2-2298",
+                    "name": "Burst cannon",
+                    "min": 1,
+                    "max": 1
+                  },
+                  {
+                    "id": "4fea-ca49-bb4c-a8a7",
+                    "name": "Close combat weapon",
+                    "min": 1,
+                    "max": 1
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "a618-c044-84ce-645a",
+            "name": "Heavy Gun Drone w/ Twin burst cannon",
+            "min": 0,
+            "max": 2,
+            "groups": [
+              {
+                "id": "e6b2-804d-5a9e-73c3",
+                "name": "Wargear",
+                "min": 0,
+                "max": 99,
+                "mode": "count",
+                "options": [
+                  {
+                    "id": "3747-49be-dd33-c655",
+                    "name": "Close combat weapon",
+                    "min": 1,
+                    "max": 1
+                  },
+                  {
+                    "id": "9276-c118-48e9-0aa6",
+                    "name": "Twin burst cannon",
+                    "min": 1,
+                    "max": 1
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "defaultOptionId": "f9ab-8176-da08-de83"
+      }
+    ]
+  },
+  "a5d9-e739-52b8-731f": {
+    "groups": [
+      {
+        "id": "0812-17a4-d901-e4aa",
+        "name": "Wargear",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "7a9f-8bfc-25a-8e18",
+            "name": "Great Knarloc beak and talons",
+            "min": 1,
+            "max": 1
+          }
+        ],
+        "groups": [
+          {
+            "id": "b781-e56e-81a2-ae4e",
+            "name": "Wargear Options",
+            "min": 0,
+            "max": 1,
+            "mode": "single",
+            "options": [
+              {
+                "id": "6ea2-cf32-3107-3b37",
+                "name": "Kroot bolt thrower and Kroot rifle",
+                "min": 0,
+                "max": 1
+              },
+              {
+                "id": "9d77-a5ba-9b0e-e91",
+                "name": "Twin Kroot gun",
+                "min": 0,
+                "max": 1
+              },
+              {
+                "id": "b3d1-cc1c-ce1f-5c10",
+                "name": "Baggage harness",
+                "min": 0,
+                "max": 1
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "934d-30ac-34a3-f113": {
+    "groups": [
+      {
+        "id": "137b-7359-f4ff-a8ed",
+        "name": "Wargear",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "a6cc-1b86-0e1a-60aa",
+            "name": "Armoured hull",
+            "min": 1,
+            "max": 1
+          }
+        ],
+        "groups": [
+          {
+            "id": "ca17-2ff0-a035-d1dd",
+            "name": "Plasma Rifles",
+            "min": 1,
+            "max": 1,
+            "mode": "single",
+            "options": [
+              {
+                "id": "e681-5e-2bab-9b2c",
+                "name": "2 Plasma rifles",
+                "min": 0,
+                "max": 99
+              },
+              {
+                "id": "b99d-2c6c-bb1-3671",
+                "name": "2 Fusion blasters",
+                "min": 0,
+                "max": 99
+              },
+              {
+                "id": "f9a4-449f-7a0d-e217",
+                "name": "2 Missile pods",
+                "min": 0,
+                "max": 99
+              },
+              {
+                "id": "dc67-69a8-fdc4-3ed5",
+                "name": "2 Rail rifles",
+                "min": 0,
+                "max": 99
+              }
+            ],
+            "defaultOptionId": "e681-5e-2bab-9b2c"
+          }
+        ]
+      }
+    ]
+  },
+  "9b21-52b7-6d8b-3e51": {
+    "groups": [
+      {
+        "id": "f86f-4f06-1b90-d45b",
+        "name": "XV9 Hazard Battlesuits",
+        "min": 1,
+        "max": 2,
+        "mode": "count",
+        "options": [
+          {
+            "id": "9a6b-c7be-b8fd-28",
+            "name": "XV9 Hazard Battlesuit",
+            "min": 0,
+            "max": 99,
+            "groups": [
+              {
+                "id": "e90-a939-452-13c9",
+                "name": "Support System",
+                "min": 0,
+                "max": 1,
+                "mode": "single",
+                "options": [
+                  {
+                    "id": "8cce-e3d1-81c3-417b",
+                    "name": "Battlesuit support system",
+                    "min": 0,
+                    "max": 99
+                  },
+                  {
+                    "id": "a42f-db29-6381-f9b",
+                    "name": "Shield generator",
+                    "min": 0,
+                    "max": 99
+                  },
+                  {
+                    "id": "e68b-2b56-fbb-d2e1",
+                    "name": "Weapon support system",
+                    "min": 0,
+                    "max": 99
+                  }
+                ]
+              },
+              {
+                "id": "a951-a774-7459-fef2",
+                "name": "Weapons",
+                "min": 2,
+                "max": 2,
+                "mode": "count",
+                "options": [
+                  {
+                    "id": "58f6-415d-a677-f4ce",
+                    "name": "Fusion cascade",
+                    "min": 0,
+                    "max": 2
+                  },
+                  {
+                    "id": "8c47-d162-cabe-a3b8",
+                    "name": "Phased ion gun",
+                    "min": 0,
+                    "max": 2
+                  },
+                  {
+                    "id": "beba-3e9e-5385-f0ab",
+                    "name": "Twin hazard burst cannon",
+                    "min": 0,
+                    "max": 2
+                  }
+                ]
+              }
+            ],
+            "equippedWith": "Battlesuit fists"
+          }
+        ],
+        "defaultOptionId": "9a6b-c7be-b8fd-28"
+      }
+    ]
+  },
+  "e73d-cdcf-213d-c7eb": {
+    "groups": [
+      {
+        "id": "aba1-60b5-5638-213f",
+        "name": "Twin Plasma Rifle",
+        "min": 1,
+        "max": 1,
+        "mode": "single",
+        "options": [
+          {
+            "id": "af01-9e8a-2fb8-d05d",
+            "name": "Twin plasma rifle",
+            "min": 0,
+            "max": 99
+          },
+          {
+            "id": "b336-4ace-9e7a-5aa8",
+            "name": "Twin fusion blaster",
+            "min": 0,
+            "max": 99
+          },
+          {
+            "id": "382c-8be9-d521-2c4e",
+            "name": "Twin missile pod",
+            "min": 0,
+            "max": 99
+          },
+          {
+            "id": "5010-b4c5-83a1-5e6f",
+            "name": "Twin burst cannon",
+            "min": 0,
+            "max": 99
+          }
+        ],
+        "defaultOptionId": "af01-9e8a-2fb8-d05d"
+      }
+    ]
+  },
+  "e88f-bc7a-c3f5-8e47": {
+    "groups": [
+      {
+        "id": "3ebf-0d47-1177-33ff",
+        "name": "Crisis Sunforge Shas’vre",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "c366-4de0-f97-bbe",
+            "name": "Crisis Sunforge Shas’vre",
+            "min": 1,
+            "max": 1,
+            "groups": [
+              {
+                "id": "0851-ae81-0e05-a3ff",
+                "name": "Wargear",
+                "min": 0,
+                "max": 99,
+                "mode": "count",
+                "options": [
+                  {
+                    "id": "6ec9-ed7a-9a16-96cb",
+                    "name": "Fusion blaster",
+                    "min": 2,
+                    "max": 2
+                  },
+                  {
+                    "id": "12b3-7b0a-8838-9ffb",
+                    "name": "Battlesuit fists",
+                    "min": 1,
+                    "max": 1
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "9373-d0b3-94c9-e47": {
+    "groups": [
+      {
+        "id": "8a97-0161-5e7c-076c",
+        "name": "Crisis Fireknife Shas’vre",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "5305-e471-6851-5424",
+            "name": "Crisis Fireknife Shas’vre",
+            "min": 1,
+            "max": 1,
+            "groups": [
+              {
+                "id": "e1df-0571-2ae2-ffa7",
+                "name": "Wargear",
+                "min": 0,
+                "max": 99,
+                "mode": "count",
+                "options": [
+                  {
+                    "id": "8681-e850-f5b4-54a2",
+                    "name": "Battlesuit fists",
+                    "min": 1,
+                    "max": 1
+                  }
+                ],
+                "groups": [
+                  {
+                    "id": "e17f-45c5-b242-a5d1",
+                    "name": "Weapons",
+                    "min": 2,
+                    "max": 2,
+                    "mode": "count",
+                    "options": [
+                      {
+                        "id": "0926-4604-2901-2eae",
+                        "name": "Missile pod",
+                        "min": 0,
+                        "max": 2
+                      },
+                      {
+                        "id": "5442-d1a8-bd84-861b",
+                        "name": "Plasma rifle",
+                        "min": 0,
+                        "max": 2
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "fb32-c683-b38f-d339": {
+    "groups": [
+      {
+        "id": "38f0-331d-e634-569b",
+        "name": "Crisis Starscythe Shas’vre",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "183a-1860-f466-74c7",
+            "name": "Crisis Starscythe Shas’vre",
+            "min": 1,
+            "max": 1,
+            "groups": [
+              {
+                "id": "30e8-aa98-9607-a007",
+                "name": "Wargear",
+                "min": 0,
+                "max": 99,
+                "mode": "count",
+                "options": [
+                  {
+                    "id": "0e86-376b-1a2b-e651",
+                    "name": "Battlesuit fists",
+                    "min": 1,
+                    "max": 1
+                  }
+                ],
+                "groups": [
+                  {
+                    "id": "5988-5974-f522-3e54",
+                    "name": "Weapons",
+                    "min": 2,
+                    "max": 2,
+                    "mode": "count",
+                    "options": [
+                      {
+                        "id": "2b4b-6b4e-001a-4c3c",
+                        "name": "Burst cannon",
+                        "min": 0,
+                        "max": 2
+                      },
+                      {
+                        "id": "7988-2344-a087-e5a0",
+                        "name": "T'au flamer",
+                        "min": 0,
+                        "max": 2
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "2ebe-a524-656d-7f0e": {
+    "groups": [
+      {
+        "id": "458d-1ec2-7071-4241",
+        "name": "Wargear",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "8379-3cc7-f5c9-8723",
+            "name": "Kroot rifle",
+            "min": 1,
+            "max": 1
+          },
+          {
+            "id": "4c23-33c2-0e89-67fa",
+            "name": "Shaper's blade",
+            "min": 1,
+            "max": 1
+          }
+        ]
+      }
+    ]
+  },
+  "e9bc-7a6e-322c-87fd": {
+    "groups": [
+      {
+        "id": "10d6-4d24-b81e-387a",
+        "name": "Wargear",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "fb69-3dc9-cfa4-17c6",
+            "name": "Shaper's blade",
+            "min": 1,
+            "max": 1
+          },
+          {
+            "id": "8b70-46c1-3dca-033f",
+            "name": "Kroot pistol",
+            "min": 1,
+            "max": 1
+          }
+        ],
+        "groups": [
+          {
+            "id": "ef23-c97a-6598-7200",
+            "name": "Wargear Options",
+            "min": 1,
+            "max": 1,
+            "mode": "single",
+            "options": [
+              {
+                "id": "2e88-ed2b-ac7c-693e",
+                "name": "Bladestave and prey-hook",
+                "min": 0,
+                "max": 99
+              },
+              {
+                "id": "4c7d-fce0-4985-488d",
+                "name": "Dart-bow and tri-blade",
+                "min": 0,
+                "max": 99
+              }
+            ],
+            "defaultOptionId": "11ae-fb31-f76d-a3bd"
+          }
+        ]
+      }
+    ]
+  },
+  "bb34-e371-33ee-397": {
+    "groups": [
+      {
+        "id": "21e5-aa3b-5432-ac56",
+        "name": "Wargear",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "0e4f-9bf4-5691-c5f2",
+            "name": "Twin ritualistic blades",
+            "min": 1,
+            "max": 1
+          },
+          {
+            "id": "34c5-4382-aa9d-fe74",
+            "name": "Kroot scattergun",
+            "min": 1,
+            "max": 1
+          }
+        ]
+      }
+    ]
+  },
+  "4e8a-c3f4-e497-4901": {
+    "groups": [
+      {
+        "id": "6afa-3589-0ffb-8688",
+        "name": "Wargear",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "430a-b9a3-10c2-ec0f",
+            "name": "Close combat weapon",
+            "min": 1,
+            "max": 1
+          },
+          {
+            "id": "0021-7be2-bfb8-c7da",
+            "name": "Kalamandra's bite",
+            "min": 1,
+            "max": 1
+          }
+        ],
+        "groups": [
+          {
+            "id": "5aa4-f37d-7f45-c182",
+            "name": "Wargear Options",
+            "min": 1,
+            "max": 1,
+            "mode": "single",
+            "options": [
+              {
+                "id": "e372-ee25-8391-50fc",
+                "name": "Blast javelin and hunting javelin",
+                "min": 0,
+                "max": 99,
+                "equippedWith": "Blast javelin"
+              },
+              {
+                "id": "895a-fb15-3921-637b",
+                "name": "Kroot long gun",
+                "min": 0,
+                "max": 99
+              }
+            ],
+            "defaultOptionId": "927c-e643-8875-419e"
+          }
+        ]
+      }
+    ]
+  },
+  "7f73-6728-df6f-1446": {
+    "groups": [
+      {
+        "id": "7db2-f936-132b-6d3a",
+        "name": "Krootox Rampagers",
+        "min": 3,
+        "max": 6,
+        "mode": "count",
+        "options": [
+          {
+            "id": "f957-56b5-3a86-e923",
+            "name": "Krootox Rampagers",
+            "min": 3,
+            "max": 6,
+            "equippedWith": "Hunting blades and Kroot pistol and hunting javelins and Rampager fists"
+          }
+        ],
+        "defaultOptionId": "f957-56b5-3a86-e923"
+      }
+    ]
+  }
+}

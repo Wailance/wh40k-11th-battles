@@ -64,7 +64,7 @@ export function BottomNav({ compact = false }: { compact?: boolean }) {
             {({ isActive }) => (
               <>
                 {isActive && (
-                  <span className="absolute inset-x-2 top-0 h-px bg-gradient-to-r from-transparent via-crimson-bright/60 to-transparent" />
+                  <span className="motion-nav-underline absolute inset-x-2 top-0 h-px bg-gradient-to-r from-transparent via-crimson-bright/60 to-transparent" />
                 )}
                 <NavLabel label={l.label} />
               </>

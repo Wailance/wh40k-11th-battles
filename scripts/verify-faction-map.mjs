@@ -22,12 +22,28 @@ for (const army of armies) {
   if (!mapped.has(army)) fail(`Missing faction-map entry for "${army}"`)
 }
 
+const BUILDER_ONLY_ARMIES = [
+  'Ultramarines',
+  'Raven Guard',
+  'Imperial Fists',
+  'Iron Hands',
+  'Salamanders',
+  'White Scars',
+]
+
 for (const m of factionMap.mappings) {
-  if (!armies.includes(m.army)) fail(`faction-map orphan army "${m.army}"`)
+  if (!armies.includes(m.army) && !BUILDER_ONLY_ARMIES.includes(m.army)) {
+    fail(`faction-map orphan army "${m.army}"`)
+  }
   if (!m.slugs?.length) fail(`${m.army}: no slugs`)
   for (const slug of m.slugs) {
     const path = join(factionsDir, `${slug}.json`)
     if (!existsSync(path)) fail(`${m.army}: missing ${slug}.json`)
+  }
+  for (const supplement of m.unitSupplements ?? []) {
+    const path = join(factionsDir, `${supplement.slug}.json`)
+    if (!existsSync(path)) fail(`${m.army}: missing supplement ${supplement.slug}.json`)
+    if (!supplement.names?.length) fail(`${m.army}: empty unitSupplements.names for ${supplement.slug}`)
   }
 }
 

@@ -140,7 +140,7 @@
     {
       "id": "3ef1-1647-cd7b-a40b",
       "name": "Chief Librarian Tigurius",
-      "points": 75,
+      "points": 95,
       "keywords": [
         "Character",
         "Epic Hero",
@@ -162,7 +162,7 @@
       },
       "rangedWeapons": [
         {
-          "name": "➤ Storm of the Emperor’s Wrath - Witchfire",
+          "name": "Storm of the Emperor’s Wrath - Witchfire",
           "range": "18\"",
           "A": "D6",
           "BS": "2+",
@@ -175,7 +175,7 @@
           ]
         },
         {
-          "name": "➤ Storm of the Emperor’s Wrath - Focused Witchfire",
+          "name": "Storm of the Emperor’s Wrath - Focused Witchfire",
           "range": "18\"",
           "A": "2D6",
           "BS": "2+",
@@ -216,6 +216,31 @@
           "name": "Leader",
           "description": "This model can be attached to the following units:\n\n■ Assault Intercessor Squad\n■ Bladeguard Veteran Squad\n■ Desolation Squad\n■ Devastator Squad\n■ Intercessor Squad\n■ Sternguard Veteran Squad\n■ Tactical Squad"
         }
+      ],
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 95
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "95",
+      "mfmRole": "leader",
+      "attachTo": [
+        "Assault Intercessor Squad",
+        "Assault Squad",
+        "Bladeguard Veteran Squad",
+        "Desolation Squad",
+        "Devastator Squad",
+        "Intercessor Squad",
+        "Sternguard Veteran Squad",
+        "Tactical Squad",
+        "Vanguard Veteran Squad"
       ]
     },
     {
@@ -373,7 +398,20 @@
           "name": "Supreme Commander",
           "description": "If this model is in your army, it must be your Warlord."
         }
-      ]
+      ],
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 340
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "340"
     },
     {
       "id": "2263-82ee-3db6-8be9",
@@ -619,6 +657,31 @@
           "name": "Leader",
           "description": "This model can be attached to the following units:\n\n■ Assault Intercessor Squad\n■ Bladeguard Veteran Squad'\n■ Company Heroes\n■ Intercessor Squad\n■ Sternguard Veteran Squad\n■ Tactical Squad"
         }
+      ],
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 95
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "95",
+      "mfmRole": "leader",
+      "attachTo": [
+        "Assault Intercessor Squad",
+        "Assault Squad",
+        "Bladeguard Veteran Squad",
+        "Command Squad",
+        "Company Heroes",
+        "Intercessor Squad",
+        "Sternguard Veteran Squad",
+        "Tactical Squad",
+        "Vanguard Veteran Squad"
       ]
     },
     {
@@ -787,6 +850,39 @@
           "name": "Leader",
           "description": "This model can be attached to the following units: **^^Aggressor Squad, Assault Intercessor Squad, Bladeguard Veteran Squad, Company Heroes, Eradicator Squad, Heavy Intercessor Squad, Infernus Squad, Intercessor Squad, Sternguard Veteran Squad, Tactical Squad, Terminator Assault Squad, Terminator Squad, Victrix Honour Guard**^^"
         }
+      ],
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 140
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "140",
+      "mfmRole": "leader",
+      "attachTo": [
+        "Aggressor Squad",
+        "Assault Intercessor Squad",
+        "Assault Squad",
+        "Bladeguard Veteran Squad",
+        "Command Squad",
+        "Company Heroes",
+        "Eradicator Squad",
+        "Heavy Intercessor Squad",
+        "Infernus Squad",
+        "Intercessor Squad",
+        "Relic Terminator Squad",
+        "Sternguard Veteran Squad",
+        "Tactical Squad",
+        "Terminator Assault Squad",
+        "Terminator Squad",
+        "Vanguard Veteran Squad",
+        "Victrix Honour Guard"
       ]
     },
     {
@@ -831,7 +927,7 @@
       ],
       "meleeWeapons": [
         {
-          "name": "➤ Talassarian Tempest Blade - Strike",
+          "name": "Talassarian Tempest Blade - Strike",
           "range": "Melee",
           "A": "4",
           "WS": "2+",
@@ -843,7 +939,7 @@
           ]
         },
         {
-          "name": "➤ Talassarian Tempest Blade - Coup de Grace",
+          "name": "Talassarian Tempest Blade - Coup de Grace",
           "range": "Melee",
           "A": "6",
           "WS": "2+",
@@ -855,7 +951,7 @@
           ]
         },
         {
-          "name": "➤ Talassarian Tempest Blade - Sweep",
+          "name": "Talassarian Tempest Blade - Sweep",
           "range": "Melee",
           "A": "9",
           "WS": "2+",
@@ -880,6 +976,23 @@
           "name": "Leader",
           "description": "This model can be attached to the following units: Victrix Honour Guard\n\n\nYou can attach this model to the above unit even if a Marneus Calgar unit has already been attached\nto it. If you do, and that Bodyguard unit is destroyed, the Leader units attached to it become separate\nunits, with their original Starting Strengths"
         }
+      ],
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 95
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "95",
+      "mfmRole": "support",
+      "attachTo": [
+        "Victrix Honour Guard"
       ]
     },
     {
@@ -950,12 +1063,40 @@
           "name": "Leader",
           "description": "This model can be attached to the following units: \n\n\n■  Assault Intercessor Squad \n■  Bladeguard Veteran Squad \n■  Company Heroes \n■  Hellblaster Squad \n■  Infernus Squad \n■  Intercessor Squad \n■  Sternguard Veteran Squad \n■  Wardens of Ultramar"
         }
+      ],
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 90
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "90",
+      "mfmRole": "leader",
+      "attachTo": [
+        "Assault Intercessor Squad",
+        "Assault Squad",
+        "Bladeguard Veteran Squad",
+        "Command Squad",
+        "Company Heroes",
+        "Hellblaster Squad",
+        "Infernus Squad",
+        "Intercessor Squad",
+        "Sternguard Veteran Squad",
+        "Vanguard Veteran Squad",
+        "Victrix Honour Guard",
+        "Wardens Of Ultramar"
       ]
     },
     {
       "id": "b793-b77e-9e49-d397",
       "name": "Wardens of Ultramar",
-      "points": 105,
+      "points": 110,
       "keywords": [
         "Infantry",
         "Epic Hero",
@@ -1057,6 +1198,28 @@
           "name": "Refractor Field",
           "description": "The bearer has a 5+ invulnerable save."
         }
+      ],
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 6,
+              "points": 110
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "110",
+      "mfmRole": "support",
+      "attachTo": [
+        "Assault Intercessor Squad",
+        "Assault Squad",
+        "Bladeguard Veteran Squad",
+        "Intercessor Squad",
+        "Sternguard Veteran Squad",
+        "Vanguard Veteran Squad"
       ]
     }
   ],

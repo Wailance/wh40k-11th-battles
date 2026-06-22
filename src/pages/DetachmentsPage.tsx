@@ -37,7 +37,7 @@ export function DetachmentsPage() {
   const totalDets = filtered.reduce((n, a) => n + a.detachments.length, 0)
 
   return (
-    <div className="space-y-4">
+    <div className="motion-stagger space-y-4">
       <div>
         <h1 className="app-page-title">{copy.lists.title}</h1>
         <p className="mt-1 text-body text-muted">

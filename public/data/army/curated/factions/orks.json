@@ -6,7 +6,7 @@
     {
       "id": "306a-b2ac-aaf1-9a7c",
       "name": "Battlewagon",
-      "points": 160,
+      "points": 145,
       "keywords": [
         "Vehicle",
         "Transport"
@@ -105,12 +105,25 @@
           "description": "- The bearer has a 4+ invulnerable save.\n- Add 1 to the bearer's Wounds characteristic.\n- Each time the bearer's unit ends a Charge move, select one enemy unit within Engagement Range of the bearer and roll one D6: on a 2+, that enemy unit suffers D3 mortal wounds."
         }
       ],
-      "transportCapacity": "This model has a transport capacity of 22 **^^Orks Infantry^^** models. If this model is equipped with a killkannon, it has a transport capacity of 12 **^^Orks Infantry^^** models. Each **^^Mega Armour^^** or **^^Jump Pack^^** model takes up the space of 2 models. The **^^Ghazghkull Thraka^^** model takes up the space of 4 models."
+      "transportCapacity": "This model has a transport capacity of 22 **^^Orks Infantry^^** models. If this model is equipped with a killkannon, it has a transport capacity of 12 **^^Orks Infantry^^** models. Each **^^Mega Armour^^** or **^^Jump Pack^^** model takes up the space of 2 models. The **^^Ghazghkull Thraka^^** model takes up the space of 4 models.",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 145
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "145"
     },
     {
       "id": "b7c3-d00e-daf2-76fb",
       "name": "Beast Snagga Boyz",
-      "points": 95,
+      "points": 90,
       "keywords": [
         "Infantry",
         "Mob",
@@ -211,7 +224,24 @@
           "name": "Da Krushin' Armour",
           "description": "- The bearer has a 4+ invulnerable save.\n- Add 1 to the bearer's Wounds characteristic.\n- Each time the bearer's unit ends a Charge move, select one enemy unit within Engagement Range of the bearer and roll one D6: on a 2+, that enemy unit suffers D3 mortal wounds."
         }
-      ]
+      ],
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 10,
+              "points": 90
+            },
+            {
+              "models": 20,
+              "points": 170
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "90/170"
     },
     {
       "id": "5a5d-c5a4-39b8-4a3f",
@@ -501,12 +531,29 @@
           "name": "Da Krushin' Armour",
           "description": "- The bearer has a 4+ invulnerable save.\n- Add 1 to the bearer's Wounds characteristic.\n- Each time the bearer's unit ends a Charge move, select one enemy unit within Engagement Range of the bearer and roll one D6: on a 2+, that enemy unit suffers D3 mortal wounds."
         }
+      ],
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 80
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "80",
+      "mfmRole": "leader",
+      "attachTo": [
+        "Beast Snagga Boyz"
       ]
     },
     {
       "id": "a8b7-351-d911-a4d6",
       "name": "Beastboss on Squigosaur",
-      "points": 110,
+      "points": 95,
       "keywords": [
         "Character",
         "Beast Snagga",
@@ -787,12 +834,29 @@
           "name": "Da Krushin' Armour",
           "description": "- The bearer has a 4+ invulnerable save.\n- Add 1 to the bearer's Wounds characteristic.\n- Each time the bearer's unit ends a Charge move, select one enemy unit within Engagement Range of the bearer and roll one D6: on a 2+, that enemy unit suffers D3 mortal wounds."
         }
+      ],
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 95
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "95",
+      "mfmRole": "leader",
+      "attachTo": [
+        "Squighog Boyz"
       ]
     },
     {
       "id": "95e9-6da3-5e75-2566",
       "name": "Big Mek in Mega Armour",
-      "points": 90,
+      "points": 80,
       "keywords": [
         "Character",
         "Infantry",
@@ -1044,6 +1108,23 @@
           "name": "Da Krushin' Armour",
           "description": "- The bearer has a 4+ invulnerable save.\n- Add 1 to the bearer's Wounds characteristic.\n- Each time the bearer's unit ends a Charge move, select one enemy unit within Engagement Range of the bearer and roll one D6: on a 2+, that enemy unit suffers D3 mortal wounds."
         }
+      ],
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 80
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "80",
+      "mfmRole": "leader",
+      "attachTo": [
+        "Meganobz"
       ]
     },
     {
@@ -1321,7 +1402,7 @@
     {
       "id": "dde2-ca42-e3bc-2ef6",
       "name": "Big Mek with Shokk Attack Gun",
-      "points": 80,
+      "points": 70,
       "keywords": [
         "Character",
         "Infantry",
@@ -1591,6 +1672,38 @@
           "name": "Da Krushin' Armour",
           "description": "- The bearer has a 4+ invulnerable save.\n- Add 1 to the bearer's Wounds characteristic.\n- Each time the bearer's unit ends a Charge move, select one enemy unit within Engagement Range of the bearer and roll one D6: on a 2+, that enemy unit suffers D3 mortal wounds."
         }
+      ],
+      "pricing": [
+        {
+          "range": "[1,2]",
+          "label": "Your 1st To 2nd Units Cost",
+          "costs": [
+            {
+              "models": 1,
+              "points": 70
+            }
+          ]
+        },
+        {
+          "range": "[3,)",
+          "label": "Your 3rd + Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 80
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "70",
+      "mfmRole": "leader",
+      "attachTo": [
+        "Boyz",
+        "Breaka Boyz",
+        "Lootas",
+        "Mek Gunz",
+        "Nobz",
+        "Tankbustas"
       ]
     },
     {
@@ -1615,7 +1728,7 @@
       },
       "rangedWeapons": [
         {
-          "name": "➤ Gaze of Gork - glare",
+          "name": "Gaze of Gork - glare",
           "range": "24\"",
           "A": "D6",
           "BS": "5+",
@@ -1628,7 +1741,7 @@
           ]
         },
         {
-          "name": "➤ Gaze of Gork - squint",
+          "name": "Gaze of Gork - squint",
           "range": "18\"",
           "A": "1",
           "BS": "5+",
@@ -1663,12 +1776,25 @@
           "description": "While a friendly ORKS unit is within 6\" of this FORTIFICATION, improve the Leadership characteristic of models in that unit by 1."
         }
       ],
-      "transportCapacity": "This model has a transport capacity of 11 ORKS INFANTRY models (excluding GHAZGHKULL THRAKA). Each MEGA ARMOUR or JUMP PACK model takes up the space of 2 models."
+      "transportCapacity": "This model has a transport capacity of 11 ORKS INFANTRY models (excluding GHAZGHKULL THRAKA). Each MEGA ARMOUR or JUMP PACK model takes up the space of 2 models.",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 135
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "135"
     },
     {
       "id": "a20-d3af-2c3e-3267",
       "name": "Blitza-bommer",
-      "points": 115,
+      "points": 105,
       "keywords": [
         "Vehicle",
         "Aircraft",
@@ -1751,7 +1877,20 @@
           "name": "Da Krushin' Armour",
           "description": "- The bearer has a 4+ invulnerable save.\n- Add 1 to the bearer's Wounds characteristic.\n- Each time the bearer's unit ends a Charge move, select one enemy unit within Engagement Range of the bearer and roll one D6: on a 2+, that enemy unit suffers D3 mortal wounds."
         }
-      ]
+      ],
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 105
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "105"
     },
     {
       "id": "c7c8-6b5b-6bfc-52d1",
@@ -1850,7 +1989,20 @@
           "name": "Da Krushin' Armour",
           "description": "- The bearer has a 4+ invulnerable save.\n- Add 1 to the bearer's Wounds characteristic.\n- Each time the bearer's unit ends a Charge move, select one enemy unit within Engagement Range of the bearer and roll one D6: on a 2+, that enemy unit suffers D3 mortal wounds."
         }
-      ]
+      ],
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 70
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "70"
     },
     {
       "id": "e651-5901-35e5-dc35",
@@ -1912,6 +2064,23 @@
           "name": "Kunnin’ Infiltrator",
           "description": "Once per battle, in your Movement phase, instead of making a Normal move with this model’s unit, you can remove it from the battlefield and set it up again anywhere on the battlefield that is more than 9\" horizontally away from all enemy models."
         }
+      ],
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 75
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "75",
+      "mfmRole": "leader",
+      "attachTo": [
+        "Kommandos"
       ]
     },
     {
@@ -1977,7 +2146,7 @@
     {
       "id": "e3b1-1240-2476-cd86",
       "name": "Boyz",
-      "points": 80,
+      "points": 75,
       "keywords": [
         "Infantry",
         "Battleline",
@@ -2106,7 +2275,24 @@
           "name": "Da Krushin' Armour",
           "description": "- The bearer has a 4+ invulnerable save.\n- Add 1 to the bearer's Wounds characteristic.\n- Each time the bearer's unit ends a Charge move, select one enemy unit within Engagement Range of the bearer and roll one D6: on a 2+, that enemy unit suffers D3 mortal wounds."
         }
-      ]
+      ],
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 10,
+              "points": 75
+            },
+            {
+              "models": 20,
+              "points": 150
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "75/150"
     },
     {
       "id": "71b2-e955-6588-87f4",
@@ -2224,12 +2410,29 @@
           "name": "Da Krushin' Armour",
           "description": "- The bearer has a 4+ invulnerable save.\n- Add 1 to the bearer's Wounds characteristic.\n- Each time the bearer's unit ends a Charge move, select one enemy unit within Engagement Range of the bearer and roll one D6: on a 2+, that enemy unit suffers D3 mortal wounds."
         }
-      ]
+      ],
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 5,
+              "points": 60
+            },
+            {
+              "models": 10,
+              "points": 120
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "60/120"
     },
     {
       "id": "93a1-386a-e40f-472f",
       "name": "Burna-bommer",
-      "points": 125,
+      "points": 115,
       "keywords": [
         "Vehicle",
         "Fly",
@@ -2313,12 +2516,25 @@
           "name": "Da Krushin' Armour",
           "description": "- The bearer has a 4+ invulnerable save.\n- Add 1 to the bearer's Wounds characteristic.\n- Each time the bearer's unit ends a Charge move, select one enemy unit within Engagement Range of the bearer and roll one D6: on a 2+, that enemy unit suffers D3 mortal wounds."
         }
-      ]
+      ],
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 115
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "115"
     },
     {
       "id": "3b42-b41f-d11e-bdca",
       "name": "Dakkajet",
-      "points": 135,
+      "points": 125,
       "keywords": [
         "Vehicle",
         "Fly",
@@ -2374,12 +2590,25 @@
           "name": "Da Krushin' Armour",
           "description": "- The bearer has a 4+ invulnerable save.\n- Add 1 to the bearer's Wounds characteristic.\n- Each time the bearer's unit ends a Charge move, select one enemy unit within Engagement Range of the bearer and roll one D6: on a 2+, that enemy unit suffers D3 mortal wounds."
         }
-      ]
+      ],
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 125
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "125"
     },
     {
       "id": "1594-b986-e77e-d89d",
       "name": "Deff Dread",
-      "points": 120,
+      "points": 110,
       "keywords": [
         "Vehicle",
         "Walker"
@@ -2433,12 +2662,35 @@
           "name": "Da Krushin' Armour",
           "description": "- The bearer has a 4+ invulnerable save.\n- Add 1 to the bearer's Wounds characteristic.\n- Each time the bearer's unit ends a Charge move, select one enemy unit within Engagement Range of the bearer and roll one D6: on a 2+, that enemy unit suffers D3 mortal wounds."
         }
-      ]
+      ],
+      "pricing": [
+        {
+          "range": "[1,2]",
+          "label": "Your 1st To 2nd Units Cost",
+          "costs": [
+            {
+              "models": 1,
+              "points": 110
+            }
+          ]
+        },
+        {
+          "range": "[3,)",
+          "label": "Your 3rd + Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 120
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "110"
     },
     {
       "id": "ca85-1d18-dc30-d64e",
       "name": "Deffkilla Wartrike",
-      "points": 80,
+      "points": 70,
       "keywords": [
         "Mounted",
         "Warboss",
@@ -2470,7 +2722,7 @@
           ]
         },
         {
-          "name": "➤ Killa jet - burna",
+          "name": "Killa jet - burna",
           "range": "12\"",
           "A": "D6",
           "BS": "N/A",
@@ -2483,7 +2735,7 @@
           ]
         },
         {
-          "name": "➤ Killa jet - cutta",
+          "name": "Killa jet - cutta",
           "range": "12\"",
           "A": "1",
           "BS": "5+",
@@ -2728,12 +2980,32 @@
           "name": "Da Krushin' Armour",
           "description": "- The bearer has a 4+ invulnerable save.\n- Add 1 to the bearer's Wounds characteristic.\n- Each time the bearer's unit ends a Charge move, select one enemy unit within Engagement Range of the bearer and roll one D6: on a 2+, that enemy unit suffers D3 mortal wounds."
         }
+      ],
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 70
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "70",
+      "mfmRole": "leader",
+      "attachTo": [
+        "Nobz On Warbikes",
+        "Skorchas",
+        "Warbikers",
+        "Warbuggies"
       ]
     },
     {
       "id": "2d6e-aa3b-c28c-5ef0",
       "name": "Deffkoptas",
-      "points": 80,
+      "points": 75,
       "keywords": [
         "Vehicle",
         "Fly",
@@ -2827,12 +3099,29 @@
           "name": "Da Krushin' Armour",
           "description": "- The bearer has a 4+ invulnerable save.\n- Add 1 to the bearer's Wounds characteristic.\n- Each time the bearer's unit ends a Charge move, select one enemy unit within Engagement Range of the bearer and roll one D6: on a 2+, that enemy unit suffers D3 mortal wounds."
         }
-      ]
+      ],
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 3,
+              "points": 75
+            },
+            {
+              "models": 6,
+              "points": 140
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "75/140"
     },
     {
       "id": "1de9-b138-28a1-9c4b",
       "name": "Flash Gitz",
-      "points": 80,
+      "points": 75,
       "keywords": [
         "Infantry",
         "Grenades"
@@ -2904,7 +3193,38 @@
           "name": "Da Krushin' Armour",
           "description": "- The bearer has a 4+ invulnerable save.\n- Add 1 to the bearer's Wounds characteristic.\n- Each time the bearer's unit ends a Charge move, select one enemy unit within Engagement Range of the bearer and roll one D6: on a 2+, that enemy unit suffers D3 mortal wounds."
         }
-      ]
+      ],
+      "pricing": [
+        {
+          "range": "[1,2]",
+          "label": "Your 1st To 2nd Units Cost",
+          "costs": [
+            {
+              "models": 5,
+              "points": 75
+            },
+            {
+              "models": 10,
+              "points": 150
+            }
+          ]
+        },
+        {
+          "range": "[3,)",
+          "label": "Your 3rd + Unit Costs",
+          "costs": [
+            {
+              "models": 5,
+              "points": 85
+            },
+            {
+              "models": 10,
+              "points": 160
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "75/150"
     },
     {
       "id": "4ea0-6b70-c17c-bc00",
@@ -2942,7 +3262,7 @@
       ],
       "meleeWeapons": [
         {
-          "name": "➤ Gork’s Klaw - strike",
+          "name": "Gork’s Klaw - strike",
           "range": "Melee",
           "A": "6",
           "WS": "2+",
@@ -2952,7 +3272,7 @@
           "keywords": []
         },
         {
-          "name": "➤ Gork’s Klaw - sweep",
+          "name": "Gork’s Klaw - sweep",
           "range": "Melee",
           "A": "12",
           "WS": "2+",
@@ -2991,12 +3311,32 @@
           "name": "Invulnerable Save (2+*) [Makari]",
           "description": "This model has a 2+ invulnerable save. You cannot re-roll invulnerable saving throws made for this model."
         }
+      ],
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 2,
+              "points": 235
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "235",
+      "mfmRole": "leader",
+      "attachTo": [
+        "Boyz",
+        "Breaka Boyz",
+        "Meganobz",
+        "Nobz"
       ]
     },
     {
       "id": "56d6-a7fc-fa08-4345",
       "name": "Gorkanaut",
-      "points": 265,
+      "points": 255,
       "keywords": [
         "Vehicle",
         "Titanic",
@@ -3069,7 +3409,7 @@
       ],
       "meleeWeapons": [
         {
-          "name": "➤ Klaw of Gork - strike",
+          "name": "Klaw of Gork - strike",
           "range": "Melee",
           "A": "5",
           "WS": "3+",
@@ -3079,7 +3419,7 @@
           "keywords": []
         },
         {
-          "name": "➤ Klaw of Gork - sweep",
+          "name": "Klaw of Gork - sweep",
           "range": "Melee",
           "A": "15",
           "WS": "3+",
@@ -3119,12 +3459,35 @@
           "description": "- The bearer has a 4+ invulnerable save.\n- Add 1 to the bearer's Wounds characteristic.\n- Each time the bearer's unit ends a Charge move, select one enemy unit within Engagement Range of the bearer and roll one D6: on a 2+, that enemy unit suffers D3 mortal wounds."
         }
       ],
-      "transportCapacity": "This model has a transport capacity of 12 ORKS INFANTRY models (excluding GHAZGHKULL THRAKA). Each MEGA ARMOUR or JUMP PACK model takes up the space of 2 models."
+      "transportCapacity": "This model has a transport capacity of 12 ORKS INFANTRY models (excluding GHAZGHKULL THRAKA). Each MEGA ARMOUR or JUMP PACK model takes up the space of 2 models.",
+      "pricing": [
+        {
+          "range": "[1,2]",
+          "label": "Your 1st To 2nd Units Cost",
+          "costs": [
+            {
+              "models": 1,
+              "points": 255
+            }
+          ]
+        },
+        {
+          "range": "[3,)",
+          "label": "Your 3rd + Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 275
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "255"
     },
     {
       "id": "de8f-24f9-c543-92b7",
       "name": "Gretchin",
-      "points": 40,
+      "points": 45,
       "keywords": [
         "Infantry",
         "Grots"
@@ -3217,12 +3580,29 @@
           "name": "Da Krushin' Armour",
           "description": "- The bearer has a 4+ invulnerable save.\n- Add 1 to the bearer's Wounds characteristic.\n- Each time the bearer's unit ends a Charge move, select one enemy unit within Engagement Range of the bearer and roll one D6: on a 2+, that enemy unit suffers D3 mortal wounds."
         }
-      ]
+      ],
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 11,
+              "points": 45
+            },
+            {
+              "models": 22,
+              "points": 80
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "45/80"
     },
     {
       "id": "70de-d621-8465-f7b8",
       "name": "Hunta Rig",
-      "points": 135,
+      "points": 125,
       "keywords": [
         "Transport",
         "Beast Snagga",
@@ -3333,7 +3713,20 @@
           "description": "- The bearer has a 4+ invulnerable save.\n- Add 1 to the bearer's Wounds characteristic.\n- Each time the bearer's unit ends a Charge move, select one enemy unit within Engagement Range of the bearer and roll one D6: on a 2+, that enemy unit suffers D3 mortal wounds."
         }
       ],
-      "transportCapacity": "This model has a transport capacity of 21 BEAST SNAGGA INFANTRY models."
+      "transportCapacity": "This model has a transport capacity of 21 BEAST SNAGGA INFANTRY models.",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 125
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "125"
     },
     {
       "id": "ffa6-66d3-dfa5-557e",
@@ -3358,7 +3751,7 @@
       },
       "rangedWeapons": [
         {
-          "name": "➤ Da Rippa - standard",
+          "name": "Da Rippa - standard",
           "range": "24\"",
           "A": "3",
           "BS": "5+",
@@ -3371,7 +3764,7 @@
           ]
         },
         {
-          "name": "➤ Da Rippa - supercharge",
+          "name": "Da Rippa - supercharge",
           "range": "24\"",
           "A": "3",
           "BS": "5+",
@@ -3423,7 +3816,7 @@
     {
       "id": "eb21-c97f-2d9a-b363",
       "name": "Kill Rig",
-      "points": 155,
+      "points": 145,
       "keywords": [
         "Transport",
         "Psyker",
@@ -3545,12 +3938,25 @@
           "description": "- The bearer has a 4+ invulnerable save.\n- Add 1 to the bearer's Wounds characteristic.\n- Each time the bearer's unit ends a Charge move, select one enemy unit within Engagement Range of the bearer and roll one D6: on a 2+, that enemy unit suffers D3 mortal wounds."
         }
       ],
-      "transportCapacity": "This model has a transport capacity of 11 BEAST SNAGGA INFANTRY models."
+      "transportCapacity": "This model has a transport capacity of 11 BEAST SNAGGA INFANTRY models.",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 145
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "145"
     },
     {
       "id": "8c36-c946-2e0f-f648",
       "name": "Killa Kans",
-      "points": 125,
+      "points": 120,
       "keywords": [
         "Vehicle",
         "Walker",
@@ -3657,7 +4063,38 @@
           "name": "Da Krushin' Armour",
           "description": "- The bearer has a 4+ invulnerable save.\n- Add 1 to the bearer's Wounds characteristic.\n- Each time the bearer's unit ends a Charge move, select one enemy unit within Engagement Range of the bearer and roll one D6: on a 2+, that enemy unit suffers D3 mortal wounds."
         }
-      ]
+      ],
+      "pricing": [
+        {
+          "range": "[1,2]",
+          "label": "Your 1st To 2nd Units Cost",
+          "costs": [
+            {
+              "models": 3,
+              "points": 120
+            },
+            {
+              "models": 6,
+              "points": 240
+            }
+          ]
+        },
+        {
+          "range": "[3,)",
+          "label": "Your 3rd + Unit Costs",
+          "costs": [
+            {
+              "models": 3,
+              "points": 130
+            },
+            {
+              "models": 6,
+              "points": 250
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "120/240"
     },
     {
       "id": "303-267f-e45c-6aa9",
@@ -3815,7 +4252,20 @@
           "name": "Da Krushin' Armour",
           "description": "- The bearer has a 4+ invulnerable save.\n- Add 1 to the bearer's Wounds characteristic.\n- Each time the bearer's unit ends a Charge move, select one enemy unit within Engagement Range of the bearer and roll one D6: on a 2+, that enemy unit suffers D3 mortal wounds."
         }
-      ]
+      ],
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 10,
+              "points": 120
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "120"
     },
     {
       "id": "b803-bafc-2b52-160d",
@@ -3915,7 +4365,20 @@
           "name": "Da Krushin' Armour",
           "description": "- The bearer has a 4+ invulnerable save.\n- Add 1 to the bearer's Wounds characteristic.\n- Each time the bearer's unit ends a Charge move, select one enemy unit within Engagement Range of the bearer and roll one D6: on a 2+, that enemy unit suffers D3 mortal wounds."
         }
-      ]
+      ],
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 70
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "70"
     },
     {
       "id": "3bff-9fad-2d11-7866",
@@ -4023,7 +4486,38 @@
           "name": "Da Krushin' Armour",
           "description": "- The bearer has a 4+ invulnerable save.\n- Add 1 to the bearer's Wounds characteristic.\n- Each time the bearer's unit ends a Charge move, select one enemy unit within Engagement Range of the bearer and roll one D6: on a 2+, that enemy unit suffers D3 mortal wounds."
         }
-      ]
+      ],
+      "pricing": [
+        {
+          "range": "[1,2]",
+          "label": "Your 1st To 2nd Units Cost",
+          "costs": [
+            {
+              "models": 5,
+              "points": 50
+            },
+            {
+              "models": 10,
+              "points": 100
+            }
+          ]
+        },
+        {
+          "range": "[3,)",
+          "label": "Your 3rd + Unit Costs",
+          "costs": [
+            {
+              "models": 5,
+              "points": 60
+            },
+            {
+              "models": 10,
+              "points": 110
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "50/100"
     },
     {
       "id": "7d51-e2a3-aab6-f7de",
@@ -4103,7 +4597,7 @@
     {
       "id": "7067-34f4-5272-e05f",
       "name": "Meganobz",
-      "points": 65,
+      "points": 60,
       "keywords": [
         "Infantry",
         "Grenades",
@@ -4207,7 +4701,54 @@
           "name": "Da Krushin' Armour",
           "description": "- The bearer has a 4+ invulnerable save.\n- Add 1 to the bearer's Wounds characteristic.\n- Each time the bearer's unit ends a Charge move, select one enemy unit within Engagement Range of the bearer and roll one D6: on a 2+, that enemy unit suffers D3 mortal wounds."
         }
-      ]
+      ],
+      "pricing": [
+        {
+          "range": "[1,2]",
+          "label": "Your 1st To 2nd Units Cost",
+          "costs": [
+            {
+              "models": 2,
+              "points": 60
+            },
+            {
+              "models": 3,
+              "points": 90
+            },
+            {
+              "models": 5,
+              "points": 150
+            },
+            {
+              "models": 6,
+              "points": 180
+            }
+          ]
+        },
+        {
+          "range": "[3,)",
+          "label": "Your 3rd + Unit Costs",
+          "costs": [
+            {
+              "models": 2,
+              "points": 80
+            },
+            {
+              "models": 3,
+              "points": 110
+            },
+            {
+              "models": 5,
+              "points": 170
+            },
+            {
+              "models": 6,
+              "points": 200
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "60/90/150/180"
     },
     {
       "id": "8dd-f235-ef18-d36",
@@ -4302,7 +4843,20 @@
           "name": "Da Krushin' Armour",
           "description": "- The bearer has a 4+ invulnerable save.\n- Add 1 to the bearer's Wounds characteristic.\n- Each time the bearer's unit ends a Charge move, select one enemy unit within Engagement Range of the bearer and roll one D6: on a 2+, that enemy unit suffers D3 mortal wounds."
         }
-      ]
+      ],
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 75
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "75"
     },
     {
       "id": "3b2-8c11-616a-1005",
@@ -4560,12 +5114,33 @@
           "name": "Da Krushin' Armour",
           "description": "- The bearer has a 4+ invulnerable save.\n- Add 1 to the bearer's Wounds characteristic.\n- Each time the bearer's unit ends a Charge move, select one enemy unit within Engagement Range of the bearer and roll one D6: on a 2+, that enemy unit suffers D3 mortal wounds."
         }
+      ],
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 45
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "45",
+      "mfmRole": "leader",
+      "attachTo": [
+        "Boyz",
+        "Lootas",
+        "Mek Gunz",
+        "Nobz",
+        "Tankbustas"
       ]
     },
     {
       "id": "b37a-8686-db2c-8cbd",
       "name": "Mek Gunz",
-      "points": 0,
+      "points": 45,
       "keywords": [
         "Vehicle",
         "Grots"
@@ -4697,12 +5272,51 @@
           "name": "Da Krushin' Armour",
           "description": "- The bearer has a 4+ invulnerable save.\n- Add 1 to the bearer's Wounds characteristic.\n- Each time the bearer's unit ends a Charge move, select one enemy unit within Engagement Range of the bearer and roll one D6: on a 2+, that enemy unit suffers D3 mortal wounds."
         }
-      ]
+      ],
+      "pricing": [
+        {
+          "range": "[1,2]",
+          "label": "Your 1st To 2nd Units Cost",
+          "costs": [
+            {
+              "models": 1,
+              "points": 45
+            },
+            {
+              "models": 2,
+              "points": 90
+            },
+            {
+              "models": 3,
+              "points": 135
+            }
+          ]
+        },
+        {
+          "range": "[3,)",
+          "label": "Your 3rd + Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 55
+            },
+            {
+              "models": 2,
+              "points": 100
+            },
+            {
+              "models": 3,
+              "points": 145
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "45/90/135"
     },
     {
       "id": "9ee5-2b39-de06-dda6",
       "name": "Morkanaut",
-      "points": 280,
+      "points": 270,
       "keywords": [
         "Vehicle",
         "Titanic",
@@ -4775,7 +5389,7 @@
       ],
       "meleeWeapons": [
         {
-          "name": "➤ Klaw of Mork - strike",
+          "name": "Klaw of Mork - strike",
           "range": "Melee",
           "A": "4",
           "WS": "3+",
@@ -4785,7 +5399,7 @@
           "keywords": []
         },
         {
-          "name": "➤ Klaw of Mork - sweep",
+          "name": "Klaw of Mork - sweep",
           "range": "Melee",
           "A": "12",
           "WS": "3+",
@@ -4825,12 +5439,35 @@
           "description": "- The bearer has a 4+ invulnerable save.\n- Add 1 to the bearer's Wounds characteristic.\n- Each time the bearer's unit ends a Charge move, select one enemy unit within Engagement Range of the bearer and roll one D6: on a 2+, that enemy unit suffers D3 mortal wounds."
         }
       ],
-      "transportCapacity": "This model has a transport capacity of 12 ORKS INFANTRY models (excluding GHAZGHKULL THRAKA). Each MEGA ARMOUR or JUMP PACK model takes up the space of 2 models."
+      "transportCapacity": "This model has a transport capacity of 12 ORKS INFANTRY models (excluding GHAZGHKULL THRAKA). Each MEGA ARMOUR or JUMP PACK model takes up the space of 2 models.",
+      "pricing": [
+        {
+          "range": "[1,2]",
+          "label": "Your 1st To 2nd Units Cost",
+          "costs": [
+            {
+              "models": 1,
+              "points": 270
+            }
+          ]
+        },
+        {
+          "range": "[3,)",
+          "label": "Your 3rd + Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 290
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "270"
     },
     {
       "id": "b42b-ea0-38f1-6300",
       "name": "Mozrog Skragbad",
-      "points": 145,
+      "points": 125,
       "keywords": [
         "Epic Hero",
         "Character",
@@ -4900,6 +5537,23 @@
           "name": "One Last Kill",
           "description": "While this model is leading a unit, each time a model in that unit is destroyed by a melee attack, if it has not fought this phase, roll on D6; on a 4+, do not remove it from play. The destroyed model can fight after the attacking unit has finished making its attacks, and is then removed from play."
         }
+      ],
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 125
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "125",
+      "mfmRole": "leader",
+      "attachTo": [
+        "Squighog Boyz"
       ]
     },
     {
@@ -5279,12 +5933,43 @@
           "name": "Da Krushin' Armour",
           "description": "- The bearer has a 4+ invulnerable save.\n- Add 1 to the bearer's Wounds characteristic.\n- Each time the bearer's unit ends a Charge move, select one enemy unit within Engagement Range of the bearer and roll one D6: on a 2+, that enemy unit suffers D3 mortal wounds."
         }
-      ]
+      ],
+      "pricing": [
+        {
+          "range": "[1,2]",
+          "label": "Your 1st To 2nd Units Cost",
+          "costs": [
+            {
+              "models": 5,
+              "points": 105
+            },
+            {
+              "models": 10,
+              "points": 210
+            }
+          ]
+        },
+        {
+          "range": "[3,)",
+          "label": "Your 3rd + Unit Costs",
+          "costs": [
+            {
+              "models": 5,
+              "points": 115
+            },
+            {
+              "models": 10,
+              "points": 220
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "105/210"
     },
     {
       "id": "a74a-107a-e2ac-7e4c",
       "name": "Painboss",
-      "points": 70,
+      "points": 60,
       "keywords": [
         "Character",
         "Infantry",
@@ -5538,6 +6223,23 @@
           "name": "Da Krushin' Armour",
           "description": "- The bearer has a 4+ invulnerable save.\n- Add 1 to the bearer's Wounds characteristic.\n- Each time the bearer's unit ends a Charge move, select one enemy unit within Engagement Range of the bearer and roll one D6: on a 2+, that enemy unit suffers D3 mortal wounds."
         }
+      ],
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 60
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "60",
+      "mfmRole": "leader",
+      "attachTo": [
+        "Beast Snagga Boyz"
       ]
     },
     {
@@ -5807,12 +6509,34 @@
           "name": "Da Krushin' Armour",
           "description": "- The bearer has a 4+ invulnerable save.\n- Add 1 to the bearer's Wounds characteristic.\n- Each time the bearer's unit ends a Charge move, select one enemy unit within Engagement Range of the bearer and roll one D6: on a 2+, that enemy unit suffers D3 mortal wounds."
         }
+      ],
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 80
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "80",
+      "mfmRole": "support",
+      "attachTo": [
+        "Boyz",
+        "Breaka Boyz",
+        "Burna Boyz",
+        "Lootas",
+        "Nobz",
+        "Tankbustas"
       ]
     },
     {
       "id": "a856-30b7-e56d-57db",
       "name": "Rukkatrukk Squigbuggy",
-      "points": 95,
+      "points": 85,
       "keywords": [
         "Vehicle",
         "Speed Freeks"
@@ -5897,7 +6621,20 @@
           "name": "Da Krushin' Armour",
           "description": "- The bearer has a 4+ invulnerable save.\n- Add 1 to the bearer's Wounds characteristic.\n- Each time the bearer's unit ends a Charge move, select one enemy unit within Engagement Range of the bearer and roll one D6: on a 2+, that enemy unit suffers D3 mortal wounds."
         }
-      ]
+      ],
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 85
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "85"
     },
     {
       "id": "1d12-e2ae-33bb-4558",
@@ -5983,12 +6720,25 @@
           "name": "Da Krushin' Armour",
           "description": "- The bearer has a 4+ invulnerable save.\n- Add 1 to the bearer's Wounds characteristic.\n- Each time the bearer's unit ends a Charge move, select one enemy unit within Engagement Range of the bearer and roll one D6: on a 2+, that enemy unit suffers D3 mortal wounds."
         }
-      ]
+      ],
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 70
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "70"
     },
     {
       "id": "6a83-8e1f-63ef-50c3",
       "name": "Squighog Boyz",
-      "points": 150,
+      "points": 140,
       "keywords": [
         "Mounted",
         "Beast Snagga",
@@ -6111,12 +6861,29 @@
           "name": "Da Krushin' Armour",
           "description": "- The bearer has a 4+ invulnerable save.\n- Add 1 to the bearer's Wounds characteristic.\n- Each time the bearer's unit ends a Charge move, select one enemy unit within Engagement Range of the bearer and roll one D6: on a 2+, that enemy unit suffers D3 mortal wounds."
         }
-      ]
+      ],
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 4,
+              "points": 140
+            },
+            {
+              "models": 8,
+              "points": 270
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "140/270"
     },
     {
       "id": "6c08-9131-14a3-a3b4",
       "name": "Stompa",
-      "points": 800,
+      "points": 600,
       "keywords": [
         "Vehicle",
         "Transport",
@@ -6213,7 +6980,7 @@
       ],
       "meleeWeapons": [
         {
-          "name": "➤ Mega-choppa - strike",
+          "name": "Mega-choppa - strike",
           "range": "Melee",
           "A": "6",
           "WS": "3+",
@@ -6223,7 +6990,7 @@
           "keywords": []
         },
         {
-          "name": "➤ Mega-choppa - sweep",
+          "name": "Mega-choppa - sweep",
           "range": "Melee",
           "A": "18",
           "WS": "3+",
@@ -6267,7 +7034,30 @@
           "description": "- The bearer has a 4+ invulnerable save.\n- Add 1 to the bearer's Wounds characteristic.\n- Each time the bearer's unit ends a Charge move, select one enemy unit within Engagement Range of the bearer and roll one D6: on a 2+, that enemy unit suffers D3 mortal wounds."
         }
       ],
-      "transportCapacity": "This model has a transport capacity of 22 ORKS INFANTRY models. Each MEGA ARMOUR or JUMP PACK model takes up the space of 2 models. The GHAZGHKULL THRAKA model takes up the space of 15 models."
+      "transportCapacity": "This model has a transport capacity of 22 ORKS INFANTRY models. Each MEGA ARMOUR or JUMP PACK model takes up the space of 2 models. The GHAZGHKULL THRAKA model takes up the space of 15 models.",
+      "pricing": [
+        {
+          "range": "[1,1]",
+          "label": "Your 1st Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 600
+            }
+          ]
+        },
+        {
+          "range": "[2,)",
+          "label": "Your 2nd + Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 700
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "600"
     },
     {
       "id": "4adf-8249-c6b2-dd4f",
@@ -6351,12 +7141,29 @@
           "name": "Da Krushin' Armour",
           "description": "- The bearer has a 4+ invulnerable save.\n- Add 1 to the bearer's Wounds characteristic.\n- Each time the bearer's unit ends a Charge move, select one enemy unit within Engagement Range of the bearer and roll one D6: on a 2+, that enemy unit suffers D3 mortal wounds."
         }
-      ]
+      ],
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 5,
+              "points": 65
+            },
+            {
+              "models": 10,
+              "points": 130
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "65/130"
     },
     {
       "id": "dadc-d370-ef10-853c",
       "name": "Tankbustas",
-      "points": 140,
+      "points": 125,
       "keywords": [
         "Infantry",
         "Grenades"
@@ -6466,12 +7273,35 @@
           "name": "Da Krushin' Armour",
           "description": "- The bearer has a 4+ invulnerable save.\n- Add 1 to the bearer's Wounds characteristic.\n- Each time the bearer's unit ends a Charge move, select one enemy unit within Engagement Range of the bearer and roll one D6: on a 2+, that enemy unit suffers D3 mortal wounds."
         }
-      ]
+      ],
+      "pricing": [
+        {
+          "range": "[1,2]",
+          "label": "Your 1st To 2nd Units Cost",
+          "costs": [
+            {
+              "models": 6,
+              "points": 125
+            }
+          ]
+        },
+        {
+          "range": "[3,)",
+          "label": "Your 3rd + Unit Costs",
+          "costs": [
+            {
+              "models": 6,
+              "points": 135
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "125"
     },
     {
       "id": "1291-7ba8-2c5a-4a92",
       "name": "Trukk",
-      "points": 70,
+      "points": 65,
       "keywords": [
         "Dedicated Transport",
         "Vehicle",
@@ -6552,12 +7382,25 @@
           "description": "- The bearer has a 4+ invulnerable save.\n- Add 1 to the bearer's Wounds characteristic.\n- Each time the bearer's unit ends a Charge move, select one enemy unit within Engagement Range of the bearer and roll one D6: on a 2+, that enemy unit suffers D3 mortal wounds."
         }
       ],
-      "transportCapacity": "This model has a transport capacity of 12 ORKS INFANTRY models. Each MEGA ARMOUR model takes up the space of 2 models. It cannot transport JUMP PACK or GHAZGHKULL THRAKA models."
+      "transportCapacity": "This model has a transport capacity of 12 ORKS INFANTRY models. Each MEGA ARMOUR model takes up the space of 2 models. It cannot transport JUMP PACK or GHAZGHKULL THRAKA models.",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 65
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "65"
     },
     {
       "id": "83a7-ea20-ed9-d14a",
       "name": "Warbikers",
-      "points": 65,
+      "points": 60,
       "keywords": [
         "Mounted",
         "Grenades",
@@ -6669,7 +7512,24 @@
           "name": "Da Krushin' Armour",
           "description": "- The bearer has a 4+ invulnerable save.\n- Add 1 to the bearer's Wounds characteristic.\n- Each time the bearer's unit ends a Charge move, select one enemy unit within Engagement Range of the bearer and roll one D6: on a 2+, that enemy unit suffers D3 mortal wounds."
         }
-      ]
+      ],
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 3,
+              "points": 60
+            },
+            {
+              "models": 6,
+              "points": 120
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "60/120"
     },
     {
       "id": "2efc-c4b3-2ecc-5a37",
@@ -6942,6 +7802,25 @@
           "name": "Da Krushin' Armour",
           "description": "- The bearer has a 4+ invulnerable save.\n- Add 1 to the bearer's Wounds characteristic.\n- Each time the bearer's unit ends a Charge move, select one enemy unit within Engagement Range of the bearer and roll one D6: on a 2+, that enemy unit suffers D3 mortal wounds."
         }
+      ],
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 75
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "75",
+      "mfmRole": "leader",
+      "attachTo": [
+        "Boyz",
+        "Breaka Boyz",
+        "Nobz"
       ]
     },
     {
@@ -7212,12 +8091,29 @@
           "name": "Da Krushin' Armour",
           "description": "- The bearer has a 4+ invulnerable save.\n- Add 1 to the bearer's Wounds characteristic.\n- Each time the bearer's unit ends a Charge move, select one enemy unit within Engagement Range of the bearer and roll one D6: on a 2+, that enemy unit suffers D3 mortal wounds."
         }
+      ],
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 80
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "80",
+      "mfmRole": "leader",
+      "attachTo": [
+        "Meganobz"
       ]
     },
     {
       "id": "3832-ad97-2b3b-8775",
       "name": "Wazbom Blastajet",
-      "points": 175,
+      "points": 165,
       "keywords": [
         "Vehicle",
         "Aircraft",
@@ -7287,7 +8183,20 @@
           "name": "Da Krushin' Armour",
           "description": "- The bearer has a 4+ invulnerable save.\n- Add 1 to the bearer's Wounds characteristic.\n- Each time the bearer's unit ends a Charge move, select one enemy unit within Engagement Range of the bearer and roll one D6: on a 2+, that enemy unit suffers D3 mortal wounds."
         }
-      ]
+      ],
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 165
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "165"
     },
     {
       "id": "260d-9ce4-ea1f-a957",
@@ -7563,6 +8472,24 @@
           "name": "Da Krushin' Armour",
           "description": "- The bearer has a 4+ invulnerable save.\n- Add 1 to the bearer's Wounds characteristic.\n- Each time the bearer's unit ends a Charge move, select one enemy unit within Engagement Range of the bearer and roll one D6: on a 2+, that enemy unit suffers D3 mortal wounds."
         }
+      ],
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 65
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "65",
+      "mfmRole": "leader",
+      "attachTo": [
+        "Boyz",
+        "Breaka Boyz"
       ]
     },
     {
@@ -7837,12 +8764,29 @@
           "name": "Da Krushin' Armour",
           "description": "- The bearer has a 4+ invulnerable save.\n- Add 1 to the bearer's Wounds characteristic.\n- Each time the bearer's unit ends a Charge move, select one enemy unit within Engagement Range of the bearer and roll one D6: on a 2+, that enemy unit suffers D3 mortal wounds."
         }
+      ],
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 60
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "60",
+      "mfmRole": "leader",
+      "attachTo": [
+        "Beast Snagga Boyz"
       ]
     },
     {
       "id": "ce45-db08-3795-18a9",
       "name": "Zodgrod Wortsnagga",
-      "points": 90,
+      "points": 80,
       "keywords": [
         "Epic Hero",
         "Character",
@@ -7899,6 +8843,23 @@
           "name": "Leader",
           "description": "This model can be attached to the following unit:\n- **^^Gretchin^^**"
         }
+      ],
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 80
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "80",
+      "mfmRole": "leader",
+      "attachTo": [
+        "Gretchin"
       ]
     },
     {
@@ -8030,7 +8991,7 @@
       "rangedWeapons": [],
       "meleeWeapons": [
         {
-          "name": "➤ Gorin’ horns - sweep",
+          "name": "Gorin’ horns - sweep",
           "range": "Melee",
           "A": "8",
           "WS": "3+",
@@ -8040,7 +9001,7 @@
           "keywords": []
         },
         {
-          "name": "➤ Gorin’ horns - strike",
+          "name": "Gorin’ horns - strike",
           "range": "Melee",
           "A": "4",
           "WS": "3+",
@@ -8106,7 +9067,7 @@
       "rangedWeapons": [],
       "meleeWeapons": [
         {
-          "name": "➤ Huge tusks - strike",
+          "name": "Huge tusks - strike",
           "range": "Melee",
           "A": "6",
           "WS": "3+",
@@ -8118,7 +9079,7 @@
           ]
         },
         {
-          "name": "➤ Huge tusks - sweep",
+          "name": "Huge tusks - sweep",
           "range": "Melee",
           "A": "18",
           "WS": "3+",
@@ -8162,7 +9123,30 @@
           "description": "- The bearer has a 4+ invulnerable save.\n- Add 1 to the bearer's Wounds characteristic.\n- Each time the bearer's unit ends a Charge move, select one enemy unit within Engagement Range of the bearer and roll one D6: on a 2+, that enemy unit suffers D3 mortal wounds."
         }
       ],
-      "transportCapacity": "This model has a transport capacity of 20 ORKS INFANTRY models. Each MEGA ARMOUR or JUMP PACK model takes up the space of 2 models. GHAZGHKULL THRAKA takes up the space of 18 models. If this model is equipped with a supa-kannon, it has a transport capacity of 15 ORKS INFANTRY models."
+      "transportCapacity": "This model has a transport capacity of 20 ORKS INFANTRY models. Each MEGA ARMOUR or JUMP PACK model takes up the space of 2 models. GHAZGHKULL THRAKA takes up the space of 18 models. If this model is equipped with a supa-kannon, it has a transport capacity of 15 ORKS INFANTRY models.",
+      "pricing": [
+        {
+          "range": "[1,1]",
+          "label": "Your 1st Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 440
+            }
+          ]
+        },
+        {
+          "range": "[2,)",
+          "label": "Your 2nd + Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 490
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "440"
     },
     {
       "id": "b8fe-c7af-20fd-631d",
@@ -8892,7 +9876,7 @@
       },
       "rangedWeapons": [
         {
-          "name": "➤ Supa-kannon - shell",
+          "name": "Supa-kannon - shell",
           "range": "36\"",
           "A": "1",
           "BS": "5+",
@@ -8902,7 +9886,7 @@
           "keywords": []
         },
         {
-          "name": "➤ Supa-kannon - frag",
+          "name": "Supa-kannon - frag",
           "range": "36\"",
           "A": "D6+3",
           "BS": "5+",
@@ -9558,7 +10542,7 @@
       },
       "rangedWeapons": [
         {
-          "name": "➤ Kannon - frag",
+          "name": "Kannon - frag",
           "range": "36\"",
           "A": "D6",
           "BS": "6+",
@@ -9571,7 +10555,7 @@
           ]
         },
         {
-          "name": "➤ Kannon - shell",
+          "name": "Kannon - shell",
           "range": "36\"",
           "A": "1",
           "BS": "6+",
@@ -9750,7 +10734,7 @@
       },
       "rangedWeapons": [
         {
-          "name": "➤ Krusha kannon - tankhamma shell",
+          "name": "Krusha kannon - tankhamma shell",
           "range": "60\"",
           "A": "1",
           "BS": "5+",
@@ -9762,7 +10746,7 @@
           ]
         },
         {
-          "name": "➤ Krusha kannon - blast burna",
+          "name": "Krusha kannon - blast burna",
           "range": "48\"",
           "A": "3D6",
           "BS": "5+",
@@ -10672,8 +11656,33 @@
         "LD": "7+",
         "OC": "1"
       },
-      "rangedWeapons": [],
-      "meleeWeapons": [],
+      "rangedWeapons": [
+        {
+          "name": "Traktor blasta",
+          "range": "36\"",
+          "A": "1",
+          "BS": "5+",
+          "S": "10",
+          "AP": "-2",
+          "D": "D6+1",
+          "keywords": [
+            "Anti-Fly 3+",
+            "Devastating Wounds"
+          ]
+        }
+      ],
+      "meleeWeapons": [
+        {
+          "name": "Power klaw",
+          "range": "Melee",
+          "A": "4",
+          "WS": "3+",
+          "S": "9",
+          "AP": "-2",
+          "D": "2",
+          "keywords": []
+        }
+      ],
       "abilities": [
         {
           "name": "More Dakka",
@@ -10895,12 +11904,34 @@
           "name": "Da Krushin' Armour",
           "description": "- The bearer has a 4+ invulnerable save.\n- Add 1 to the bearer's Wounds characteristic.\n- Each time the bearer's unit ends a Charge move, select one enemy unit within Engagement Range of the bearer and roll one D6: on a 2+, that enemy unit suffers D3 mortal wounds."
         }
+      ],
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 70
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "70",
+      "mfmRole": "leader",
+      "attachTo": [
+        "Boyz",
+        "Breaka Boyz",
+        "Lootas",
+        "Mek Gunz",
+        "Nobz",
+        "Tankbustas"
       ]
     },
     {
       "id": "f019-5df1-88d5-ddc7",
       "name": "Gretchin",
-      "points": 0,
+      "points": 45,
       "keywords": [],
       "factionKeywords": [],
       "stats": {
@@ -10937,7 +11968,24 @@
           "keywords": []
         }
       ],
-      "abilities": []
+      "abilities": [],
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 11,
+              "points": 45
+            },
+            {
+              "models": 22,
+              "points": 80
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "45/80"
     },
     {
       "id": "552d-6c0d-80e8-ac32",
@@ -11113,7 +12161,7 @@
     {
       "id": "a596-3d99-257e-0ea1",
       "name": "Breaka Boyz",
-      "points": 140,
+      "points": 125,
       "keywords": [
         "Infantry",
         "Grenades"
@@ -11226,7 +12274,30 @@
           "name": "Da Krushin' Armour",
           "description": "- The bearer has a 4+ invulnerable save.\n- Add 1 to the bearer's Wounds characteristic.\n- Each time the bearer's unit ends a Charge move, select one enemy unit within Engagement Range of the bearer and roll one D6: on a 2+, that enemy unit suffers D3 mortal wounds."
         }
-      ]
+      ],
+      "pricing": [
+        {
+          "range": "[1,2]",
+          "label": "Your 1st To 2nd Units Cost",
+          "costs": [
+            {
+              "models": 6,
+              "points": 125
+            }
+          ]
+        },
+        {
+          "range": "[3,)",
+          "label": "Your 3rd + Unit Costs",
+          "costs": [
+            {
+              "models": 6,
+              "points": 135
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "125"
     },
     {
       "id": "6610-3cb7-dc72-8852",
@@ -13036,7 +14107,20 @@
           "name": "Throttlerokkit Shokka Engine",
           "description": "In your Command phase, select one of the abilities in the Throttlerokkit Shokka Engine section. Until the start of your next Command phase, this model has that ability."
         }
-      ]
+      ],
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 175
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "175"
     }
   ],
   "enhancements": []

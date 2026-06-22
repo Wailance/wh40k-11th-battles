@@ -25,7 +25,7 @@ export function MissionSequencePage() {
   const [section, setSection] = useState<Section>('sequence')
 
   return (
-    <div className="space-y-4 pb-2" data-allow-select>
+    <div className="motion-stagger space-y-4 pb-2" data-allow-select>
       <div>
         <h1 className="app-page-title">{copy.missionSequence.title}</h1>
         <p className="mt-1 text-body text-muted">{copy.missionSequence.subtitle}</p>

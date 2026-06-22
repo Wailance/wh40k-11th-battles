@@ -26,7 +26,20 @@
         "OC": "5"
       },
       "rangedWeapons": [],
-      "meleeWeapons": [],
+      "meleeWeapons": [
+        {
+          "name": "Massive scything talons",
+          "range": "Melee",
+          "A": "10",
+          "WS": "3+",
+          "S": "9",
+          "AP": "-2",
+          "D": "3",
+          "keywords": [
+            "Twin-linked"
+          ]
+        }
+      ],
       "abilities": [
         {
           "name": "Spawn Termagants",
@@ -36,12 +49,25 @@
           "name": "Brood Progenitor (Aura, Psychic)",
           "description": "While a friendly TERMAGANTS unit is within 6\" of this model, ranged weapons equipped by models in that unit have the [LETHAL HITS] ability."
         }
-      ]
+      ],
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 160
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "160"
     },
     {
       "id": "13f7-1a3-eff-7393",
       "name": "The Swarmlord",
-      "points": 220,
+      "points": 210,
       "keywords": [
         "Epic Hero",
         "Character",
@@ -108,6 +134,23 @@
           "name": "Leader",
           "description": "This model can be attached to the following unit:\n- **^^Tyrant Guard^^**"
         }
+      ],
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 210
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "210",
+      "mfmRole": "leader",
+      "attachTo": [
+        "Tyrant Guard"
       ]
     },
     {
@@ -162,12 +205,29 @@
           "name": "Leader",
           "description": "This model can be attached to the following unit:\n- **^^Genestealers^^**"
         }
+      ],
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 80
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "80",
+      "mfmRole": "leader",
+      "attachTo": [
+        "Genestealers"
       ]
     },
     {
       "id": "9184-9ab6-9238-f558",
       "name": "Old One Eye",
-      "points": 150,
+      "points": 140,
       "keywords": [
         "Epic Hero",
         "Monster",
@@ -188,7 +248,7 @@
       "rangedWeapons": [],
       "meleeWeapons": [
         {
-          "name": "➤ Old One Eye’s claws and talons - Strike",
+          "name": "Old One Eye’s claws and talons - Strike",
           "range": "Melee",
           "A": "6",
           "WS": "3+",
@@ -198,7 +258,7 @@
           "keywords": []
         },
         {
-          "name": "➤ Old One Eye’s claws and talons - Sweep",
+          "name": "Old One Eye’s claws and talons - Sweep",
           "range": "Melee",
           "A": "12",
           "WS": "3+",
@@ -221,12 +281,29 @@
           "name": "Leader",
           "description": "This model can be attached to the following unit:\n- **^^Carnifexes^^**"
         }
+      ],
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 140
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "140",
+      "mfmRole": "leader",
+      "attachTo": [
+        "Carnifexes"
       ]
     },
     {
       "id": "a125-b6fb-2945-56a",
       "name": "Tyranid Warriors with Ranged Bio-Weapons",
-      "points": 65,
+      "points": 60,
       "keywords": [
         "Infantry",
         "Tyranid Warriors with Ranged Bio-weapons",
@@ -321,7 +398,24 @@
           "name": "Adaptable Predators",
           "description": "This unit is eligible to shoot and declare a charge in a turn in which it Fell Back."
         }
-      ]
+      ],
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 3,
+              "points": 60
+            },
+            {
+              "models": 6,
+              "points": 120
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "60/120"
     },
     {
       "id": "5815-871c-9260-287a",
@@ -365,12 +459,29 @@
           "name": "Adaptive Instincts",
           "description": "At the start of the Fight phase, select one of the following:\n- Aggression Imperative: Until the end of the phase, each time a model in this unit makes a melee attack, re-roll a Hit roll of 1.\n- Bioregeneration: Until the end of the phase, each time a saving throw if made for a model in this unit, re-roll a saving throw of 1."
         }
-      ]
+      ],
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 3,
+              "points": 75
+            },
+            {
+              "models": 6,
+              "points": 150
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "75/150"
     },
     {
       "id": "f15b-9f9c-9bf0-8160",
       "name": "Hormagaunts",
-      "points": 65,
+      "points": 70,
       "keywords": [
         "Infantry",
         "Battleline",
@@ -406,12 +517,29 @@
           "name": "Bounding Leap",
           "description": "This unit is eligible to declare a charge in a turn in which it Advanced."
         }
-      ]
+      ],
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 10,
+              "points": 70
+            },
+            {
+              "models": 20,
+              "points": 120
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "70/120"
     },
     {
       "id": "30d0-521c-1d45-f57b",
       "name": "Toxicrene",
-      "points": 150,
+      "points": 135,
       "keywords": [
         "Monster",
         "Great Devourer"
@@ -464,7 +592,20 @@
           "name": "Hypertoxic Miasma (Aura)",
           "description": "At the end of your Movement phase, roll one D6 for each enemy unit within 6\" of this model: on a 2-3, that unit suffers 1 mortal wound; on a 4-5, that unit suffers D3 mortal wounds; on a 6, that unit suffers D6 mortal wounds."
         }
-      ]
+      ],
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 135
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "135"
     },
     {
       "id": "1645-5407-92c8-1441",
@@ -525,12 +666,29 @@
           "name": "Guardian Organism",
           "description": "While a CHARACTER model is leading this unit, that Character has the Feel No Pain 5+ ability"
         }
-      ]
+      ],
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 3,
+              "points": 80
+            },
+            {
+              "models": 6,
+              "points": 160
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "80/160"
     },
     {
       "id": "1ae1-ed96-5100-eda5",
       "name": "Neurotyrant",
-      "points": 105,
+      "points": 115,
       "keywords": [
         "Character",
         "Monster",
@@ -580,12 +738,31 @@
           "name": "Leader",
           "description": "This model can be attached to the following units:\n- **^^Neurogaunts^^**\n- **^^Tyrant Guard^^**\n- **^^Zoanthropes^^**"
         }
+      ],
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 115
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "115",
+      "mfmRole": "leader",
+      "attachTo": [
+        "Neurogaunts",
+        "Tyrant Guard",
+        "Zoanthropes"
       ]
     },
     {
       "id": "2c2d-a2f9-61a8-a6c6",
       "name": "Maleceptor",
-      "points": 170,
+      "points": 180,
       "keywords": [
         "Monster",
         "Psyker",
@@ -607,7 +784,7 @@
       "rangedWeapons": [],
       "meleeWeapons": [
         {
-          "name": "➤ Massive scything talons - strike",
+          "name": "Massive scything talons - strike",
           "range": "Melee",
           "A": "3",
           "WS": "3+",
@@ -617,7 +794,7 @@
           "keywords": []
         },
         {
-          "name": "➤ Massive scything talons - sweep",
+          "name": "Massive scything talons - sweep",
           "range": "Melee",
           "A": "6",
           "WS": "3+",
@@ -632,12 +809,35 @@
           "name": "Encephalic Diffusion (Aura, Psychic)",
           "description": "While an enemy unit is within 6\" of this model, each time a model in that unit makes an attack, subtract 1 from the Hit roll, and, if that enemy unit is Below Half-strength, subtract 1 from the Wound roll as well."
         }
-      ]
+      ],
+      "pricing": [
+        {
+          "range": "[1,2]",
+          "label": "Your 1st To 2nd Units Cost",
+          "costs": [
+            {
+              "models": 1,
+              "points": 180
+            }
+          ]
+        },
+        {
+          "range": "[3,)",
+          "label": "Your 3rd + Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 190
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "180"
     },
     {
       "id": "d2c6-bd0b-3205-3319",
       "name": "Pyrovores",
-      "points": 40,
+      "points": 45,
       "keywords": [
         "Infantry",
         "Great Devourer",
@@ -687,7 +887,46 @@
           "name": "Burning Spray",
           "description": "In your Shooting phase, after this unit has shot, select one enemy unit hit by one or more of those attacks. Until the end of the phase, that enemy unit cannot have the Benefit of Cover."
         }
-      ]
+      ],
+      "pricing": [
+        {
+          "range": "[1,2]",
+          "label": "Your 1st To 2nd Units Cost",
+          "costs": [
+            {
+              "models": 1,
+              "points": 45
+            },
+            {
+              "models": 2,
+              "points": 65
+            },
+            {
+              "models": 3,
+              "points": 95
+            }
+          ]
+        },
+        {
+          "range": "[3,)",
+          "label": "Your 3rd + Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 55
+            },
+            {
+              "models": 2,
+              "points": 75
+            },
+            {
+              "models": 3,
+              "points": 105
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "45/65/95"
     },
     {
       "id": "6249-358f-27d7-ef60",
@@ -742,12 +981,35 @@
           "name": "Grisly Spectacle",
           "description": "Each time this model is selected to fight, after resolving its attacks, if one or more enemy units were destroyed by those attacks, each enemy unit within 6\" of this model must take a Battle-shock test."
         }
-      ]
+      ],
+      "pricing": [
+        {
+          "range": "[1,2]",
+          "label": "Your 1st To 2nd Units Cost",
+          "costs": [
+            {
+              "models": 1,
+              "points": 125
+            }
+          ]
+        },
+        {
+          "range": "[3,)",
+          "label": "Your 3rd + Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 135
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "125"
     },
     {
       "id": "b563-c6d3-d0e5-1b78",
       "name": "Venomthropes",
-      "points": 70,
+      "points": 55,
       "keywords": [
         "Infantry",
         "Fly",
@@ -784,7 +1046,24 @@
           "name": "Foul Spores (Aura)",
           "description": "While a friendly TYRANIDS unit is within 6\" of this unit, each time a ranged attack targets that unit, models in that unit have the Benefit of Cover against that attack. In addition, while a friendly TYRANIDS unit (excluding MONSTERS) is within 6\" of this unit, models in that unit have the Stealth ability"
         }
-      ]
+      ],
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 3,
+              "points": 55
+            },
+            {
+              "models": 6,
+              "points": 110
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "55/110"
     },
     {
       "id": "8ccc-3f27-7e4e-da81",
@@ -824,7 +1103,24 @@
           "name": "Neurocytes",
           "description": "While this unit is within Synapse Range of your friendly **^^Tyranids^^** unit (excluding **^^Neurogaunt^^** units), it has the **^^Synapse^^** keyword."
         }
-      ]
+      ],
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 11,
+              "points": 45
+            },
+            {
+              "models": 22,
+              "points": 90
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "45/90"
     },
     {
       "id": "b622-a22-a04f-6303",
@@ -850,7 +1146,7 @@
       },
       "rangedWeapons": [
         {
-          "name": "➤ Warp blast - witchfire",
+          "name": "Warp blast - witchfire",
           "range": "24\"",
           "A": "D3",
           "BS": "3+",
@@ -863,7 +1159,7 @@
           ]
         },
         {
-          "name": "➤ Warp blast - focused witchfire",
+          "name": "Warp blast - focused witchfire",
           "range": "24\"",
           "A": "1",
           "BS": "3+",
@@ -897,7 +1193,24 @@
           "name": "Warp Field (Aura, Psychic)",
           "description": "While a friendly TYRANIDS unit is within 6\" of this unit, models in that unit have a 6+ invulnerable save."
         }
-      ]
+      ],
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 3,
+              "points": 100
+            },
+            {
+              "models": 6,
+              "points": 200
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "100/200"
     },
     {
       "id": "bbfd-5b01-5bd3-a28b",
@@ -950,12 +1263,35 @@
           "name": "Symbiotic Targeting",
           "description": "In your Shooting phase, after this model has shot, select one enemy unit hit by one or more of those attacks. Until the end of the phase, each time a friendly TYRANIDS model makes an attack that targets that unit, re-roll a Hit roll of 1."
         }
-      ]
+      ],
+      "pricing": [
+        {
+          "range": "[1,2]",
+          "label": "Your 1st To 2nd Units Cost",
+          "costs": [
+            {
+              "models": 1,
+              "points": 140
+            }
+          ]
+        },
+        {
+          "range": "[3,)",
+          "label": "Your 3rd + Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 150
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "140"
     },
     {
       "id": "3f2c-85ec-d83c-4a2f",
       "name": "Biovores",
-      "points": 0,
+      "points": 60,
       "keywords": [
         "Infantry",
         "Great Devourer",
@@ -1006,12 +1342,33 @@
           "name": "Seed Spore Mines",
           "description": "Once per turn, in your Shooting Phase, when selected to shoot, one unit with this ability can use it instead of making any attacks with its ranged weapons. If it does, you can add one new SPORE MINES unit to your army and set it up anywhere on the battlefield that is wholly within 48\" of this unit and more than 9\" horizontally away from all enemy units. That SPORE MINES unit contains 1 model for each model in this unit."
         }
-      ]
+      ],
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 60
+            },
+            {
+              "models": 2,
+              "points": 100
+            },
+            {
+              "models": 3,
+              "points": 140
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "60/100/140"
     },
     {
       "id": "9efd-5564-f0f5-21ea",
       "name": "Carnifexes",
-      "points": 0,
+      "points": 90,
       "keywords": [
         "Monster",
         "Great Devourer"
@@ -1045,7 +1402,24 @@
           "name": "Blistering Assault",
           "description": "Each time an enemy unit is selected to shoot, after that unit has shot, if any models from this unit lost one or more wounds as a result of those attacks, this unit can make a Blistering Assault move. If it does, roll one D6, adding 2 to the result: each model in this unit can be moved a distance in inches up to the result, but this unit must finish that move as close as possible to the closest enemy unit. When doing so, those models can be moved within Engagement Range of that enemy unit. Each unit can only make one Blistering Assault move per phase."
         }
-      ]
+      ],
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 90
+            },
+            {
+              "models": 2,
+              "points": 180
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "90/180"
     },
     {
       "id": "8e53-d4a-a69f-e71d",
@@ -1098,12 +1472,35 @@
           "name": "Death Scream",
           "description": "In your Shooting phase, after this model has shot, select one unit hit by one or more of those attacks. That unit must take a Battle-shock test, subtracting 1 from that test."
         }
-      ]
+      ],
+      "pricing": [
+        {
+          "range": "[1,2]",
+          "label": "Your 1st To 2nd Units Cost",
+          "costs": [
+            {
+              "models": 1,
+              "points": 125
+            }
+          ]
+        },
+        {
+          "range": "[3,)",
+          "label": "Your 3rd + Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 135
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "125"
     },
     {
       "id": "ac7a-2560-c083-45b8",
       "name": "Hive Guard",
-      "points": 90,
+      "points": 80,
       "keywords": [
         "Infantry",
         "Great Devourer"
@@ -1163,12 +1560,43 @@
           "name": "Defensive Stance",
           "description": "Each time you target this unit with the Fire Overwatch Stratagem, while resolving that Stratagem, hits are scored on unmodified Hit rolls of 5+, or unmodified Hit rolls of 4+ instead if this unit is within range of an objective marker that you control."
         }
-      ]
+      ],
+      "pricing": [
+        {
+          "range": "[1,2]",
+          "label": "Your 1st To 2nd Units Cost",
+          "costs": [
+            {
+              "models": 3,
+              "points": 80
+            },
+            {
+              "models": 6,
+              "points": 160
+            }
+          ]
+        },
+        {
+          "range": "[3,)",
+          "label": "Your 3rd + Unit Costs",
+          "costs": [
+            {
+              "models": 3,
+              "points": 90
+            },
+            {
+              "models": 6,
+              "points": 170
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "80/160"
     },
     {
       "id": "1705-379b-330d-36d4",
       "name": "Tyrannofex",
-      "points": 200,
+      "points": 180,
       "keywords": [
         "Monster",
         "Great Devourer"
@@ -1202,12 +1630,35 @@
           "name": "Resilient Organism",
           "description": "Once per battle, when an attack is allocated to this model, you can change the Damage characteristic of that attack to 0."
         }
-      ]
+      ],
+      "pricing": [
+        {
+          "range": "[1,2]",
+          "label": "Your 1st To 2nd Units Cost",
+          "costs": [
+            {
+              "models": 1,
+              "points": 180
+            }
+          ]
+        },
+        {
+          "range": "[3,)",
+          "label": "Your 3rd + Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 190
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "180"
     },
     {
       "id": "93aa-dd13-de9d-402b",
       "name": "Hive Crone",
-      "points": 200,
+      "points": 170,
       "keywords": [
         "Aircraft",
         "Monster",
@@ -1283,12 +1734,25 @@
           "name": "Airborne Predator",
           "description": "Each time this model makes a ranged attack that targets a unit that can FLY, add 1 to the Hit roll."
         }
-      ]
+      ],
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 170
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "170"
     },
     {
       "id": "c679-b06a-750b-e7f7",
       "name": "Harpy",
-      "points": 215,
+      "points": 185,
       "keywords": [
         "Monster",
         "Fly",
@@ -1325,7 +1789,20 @@
           "name": "Spore Mine Cysts",
           "description": "Each time this model ends a Normal move, you can do one of the following:\n- Select one enemy unit it moved over during that move and roll six D6: for each 3+, that unit suffers 1 mortal wound.\n- Add a new SPORE MINES unit containing D3 models to your army and set it up anywhere on the battlefield that is within 6\" of this model and more than 9\" horizontally away from all enemy units. You cannot select this option for more than one model per turn."
         }
-      ]
+      ],
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 185
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "185"
     },
     {
       "id": "2cdd-3bf1-55e0-7641",
@@ -1381,7 +1858,20 @@
           "name": "Hive Defences",
           "description": "You can target this model with the Fire Overwatch stratagem for 0CP, and can do so even if you have already targeted a different unit with that stratagem this turn. This model can only be targeted with that Stratagem once per turn"
         }
-      ]
+      ],
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 145
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "145"
     },
     {
       "id": "b6ac-f091-a018-dab2",
@@ -1429,7 +1919,20 @@
           "name": "Feeding Frenzy",
           "description": "Each time this model makes a melee attack that targets a unit that is below its Starting Strength, add 1 to the Hit roll. If that target is also Below Half strength, add 1 to the Wound roll as well."
         }
-      ]
+      ],
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 110
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "110"
     },
     {
       "id": "6de-ccee-11b4-be3e",
@@ -1482,7 +1985,24 @@
           "name": "Disruption Bombardment",
           "description": "In your Shooting phase, after this unit has shot, select one enemy INFANTRY unit hit by one or more of those attacks. Until the end of your opponent’s next turn, that enemy unit is disrupted. While a unit is disrupted, subtract 2 from its Move characteristic, and subtract 2 from Advance and Charge rolls made for it."
         }
-      ]
+      ],
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 5,
+              "points": 55
+            },
+            {
+              "models": 10,
+              "points": 110
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "55/110"
     },
     {
       "id": "afd0-a0ca-68c3-d912",
@@ -1649,7 +2169,30 @@
           "description": "Each time this model is selected to shoot, you can use this ability. If you do, until the end of the phase, each time this model makes an attack, add 1 to the Wound roll. After resolving those attacks, roll one D6: on a 2+, this model suffers D3 mortal wounds."
         }
       ],
-      "transportCapacity": "This model has a transport capacity of 20 GARGOYLES models and 1 WINGED TYRANID PRIME model."
+      "transportCapacity": "This model has a transport capacity of 20 GARGOYLES models and 1 WINGED TYRANID PRIME model.",
+      "pricing": [
+        {
+          "range": "[1,1]",
+          "label": "Your 1st Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 610
+            }
+          ]
+        },
+        {
+          "range": "[2,)",
+          "label": "Your 2nd + Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 660
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "610"
     },
     {
       "id": "fbc0-3a2b-1d7d-23d9",
@@ -1738,7 +2281,30 @@
           "description": "Each time this model makes a Normal, Advance or Fall Back move, it can move over models (excluding TITANIC models) and terrain features that are 4\" or less in height as if they were not there."
         }
       ],
-      "transportCapacity": "This model has a transport capacity of 20 TYRANIDS INFANTRY models. Each model with a Wounds characteristic of more than 1 takes up the space of 3 models. This model cannot transport models that can FLY."
+      "transportCapacity": "This model has a transport capacity of 20 TYRANIDS INFANTRY models. Each model with a Wounds characteristic of more than 1 takes up the space of 3 models. This model cannot transport models that can FLY.",
+      "pricing": [
+        {
+          "range": "[1,1]",
+          "label": "Your 1st Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 810
+            }
+          ]
+        },
+        {
+          "range": "[2,)",
+          "label": "Your 2nd + Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 910
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "810"
     },
     {
       "id": "853e-48b8-4cc5-3704",
@@ -1778,7 +2344,38 @@
           "name": "Vanguard Predator",
           "description": "Each time a model in this unit makes an attack, re-roll a Hit roll of 1. If the target is within range of one or more objective markers, re-roll a Wound roll 1 as well."
         }
-      ]
+      ],
+      "pricing": [
+        {
+          "range": "[1,2]",
+          "label": "Your 1st To 2nd Units Cost",
+          "costs": [
+            {
+              "models": 5,
+              "points": 75
+            },
+            {
+              "models": 10,
+              "points": 140
+            }
+          ]
+        },
+        {
+          "range": "[3,)",
+          "label": "Your 3rd + Unit Costs",
+          "costs": [
+            {
+              "models": 5,
+              "points": 85
+            },
+            {
+              "models": 10,
+              "points": 150
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "75/140"
     },
     {
       "id": "78ca-3743-c254-4404",
@@ -1931,7 +2528,7 @@
     {
       "id": "6a9b-8e2f-edac-fa2d",
       "name": "Norn Assimilator",
-      "points": 275,
+      "points": 250,
       "keywords": [
         "Monster",
         "Great Devourer",
@@ -1992,12 +2589,35 @@
           "name": "Harpoon Barbs",
           "description": "Once per turn, when an enemy unit within Engagement Range of this unit is chosen to Fall Back, roll one D6; on a 2+, that unit suffers D6 mortal wounds."
         }
-      ]
+      ],
+      "pricing": [
+        {
+          "range": "[1,1]",
+          "label": "Your 1st Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 250
+            }
+          ]
+        },
+        {
+          "range": "[2,)",
+          "label": "Your 2nd + Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 270
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "250"
     },
     {
       "id": "5720-2873-8c2c-edc3",
       "name": "Norn Emissary",
-      "points": 260,
+      "points": 250,
       "keywords": [
         "Monster",
         "Psyker",
@@ -2017,7 +2637,7 @@
       },
       "rangedWeapons": [
         {
-          "name": "➤ Psychic tendril - neuroparasite",
+          "name": "Psychic tendril - neuroparasite",
           "range": "18\"",
           "A": "2",
           "BS": "2+",
@@ -2030,7 +2650,7 @@
           ]
         },
         {
-          "name": "➤ Psychic tendril - neurolance",
+          "name": "Psychic tendril - neurolance",
           "range": "18\"",
           "A": "2",
           "BS": "2+",
@@ -2043,7 +2663,7 @@
           ]
         },
         {
-          "name": "➤ Psychic tendril - neuroblast",
+          "name": "Psychic tendril - neuroblast",
           "range": "18\"",
           "A": "2D6",
           "BS": "2+",
@@ -2080,7 +2700,30 @@
           "keywords": []
         }
       ],
-      "abilities": []
+      "abilities": [],
+      "pricing": [
+        {
+          "range": "[1,1]",
+          "label": "Your 1st Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 250
+            }
+          ]
+        },
+        {
+          "range": "[2,)",
+          "label": "Your 2nd + Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 270
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "250"
     },
     {
       "id": "3e96-8098-3401-77af",
@@ -2105,7 +2748,30 @@
         "OC": "3"
       },
       "rangedWeapons": [],
-      "meleeWeapons": [],
+      "meleeWeapons": [
+        {
+          "name": "Lash whip",
+          "range": "Melee",
+          "A": "8",
+          "WS": "2+",
+          "S": "4",
+          "AP": "-2",
+          "D": "1",
+          "keywords": [
+            "Extra Attacks"
+          ]
+        },
+        {
+          "name": "Monstrous scything talons",
+          "range": "Melee",
+          "A": "6",
+          "WS": "2+",
+          "S": "9",
+          "AP": "-2",
+          "D": "3",
+          "keywords": []
+        }
+      ],
       "abilities": [
         {
           "name": "Onslaught (Aura, Psychic)",
@@ -2115,12 +2781,29 @@
           "name": "Leader",
           "description": "This model can be attached to the following unit:\n- **^^Tyrant Guard^^**"
         }
+      ],
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 195
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "195",
+      "mfmRole": "leader",
+      "attachTo": [
+        "Tyrant Guard"
       ]
     },
     {
       "id": "31f9-9730-853c-6f13",
       "name": "Tyranid Prime with Lash Whip",
-      "points": 65,
+      "points": 75,
       "keywords": [
         "Infantry",
         "Character",
@@ -2186,6 +2869,26 @@
           "name": "Leader",
           "description": "This model can be attached to the following unit:\n- **^^Hormagaunts^^**\n- **^^Termagants^^**\n- **^^Tyranid Warriors with Melee Bio-weapons^^**\n- **^^Tyranid Warriors with Ranged Bio-weapons^^**"
         }
+      ],
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 75
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "75",
+      "mfmRole": "leader",
+      "attachTo": [
+        "Hormagaunts",
+        "Termagants",
+        "Tyranid Warriors With Melee Bio-Weapons",
+        "Tyranid Warriors With Ranged Bio-Weapons"
       ]
     }
   ],

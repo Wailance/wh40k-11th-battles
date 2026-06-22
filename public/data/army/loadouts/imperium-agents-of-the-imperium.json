@@ -1,0 +1,1624 @@
+{
+  "24d5-9987-4d2-b42b": {
+    "groups": [
+      {
+        "id": "1962-3d66-fa86-e36f",
+        "name": "9 Armsmen",
+        "min": 9,
+        "max": 9,
+        "mode": "count",
+        "options": [
+          {
+            "id": "2d7b-8d07-2575-7fd0",
+            "name": "Navis Armsman w/ power weapon",
+            "min": 0,
+            "max": 1
+          },
+          {
+            "id": "2cc6-4d63-c98-c04e",
+            "name": "Navis Armsman",
+            "min": 5,
+            "max": 7
+          },
+          {
+            "id": "daae-2f00-cc77-cf60",
+            "name": "Navis Armsman w/ chainfist",
+            "min": 0,
+            "max": 1
+          }
+        ],
+        "groups": [
+          {
+            "id": "ee2d-f163-bc31-a90f-fixed",
+            "name": "Navis Armsman w/ heavy shotgun",
+            "min": 1,
+            "max": 1,
+            "mode": "fixed",
+            "fixedOptionId": "ee2d-f163-bc31-a90f",
+            "options": [
+              {
+                "id": "ee2d-f163-bc31-a90f",
+                "name": "Navis Armsman w/ heavy shotgun",
+                "min": 1,
+                "max": 1
+              }
+            ]
+          },
+          {
+            "id": "4876-bee8-dfc9-e3ff-fixed",
+            "name": "Navis Armsman w/ special weapon",
+            "min": 1,
+            "max": 1,
+            "mode": "fixed",
+            "fixedOptionId": "4876-bee8-dfc9-e3ff",
+            "options": [],
+            "groups": [
+              {
+                "id": "120b-5c3c-b2ed-d20f",
+                "name": "Weapon",
+                "min": 1,
+                "max": 1,
+                "mode": "single",
+                "options": [
+                  {
+                    "id": "3ac0-b913-12ed-b373",
+                    "name": "Navis las-volley",
+                    "min": 0,
+                    "max": 99
+                  },
+                  {
+                    "id": "6282-71c5-92d0-7b86",
+                    "name": "Plasma gun",
+                    "min": 0,
+                    "max": 99
+                  },
+                  {
+                    "id": "7f1b-e0e9-a0d3-f367",
+                    "name": "Meltagun",
+                    "min": 0,
+                    "max": 99
+                  }
+                ],
+                "defaultOptionId": "3ac0-b913-12ed-b373"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "ec63-524d-55a-3065": {
+    "groups": [
+      {
+        "id": "943-d932-d518-e243",
+        "name": "9 Exaction Vigilants",
+        "min": 9,
+        "max": 9,
+        "mode": "count",
+        "options": [
+          {
+            "id": "49aa-da7b-bd02-7ea4",
+            "name": "Exaction Vigilant w/ medi-kit",
+            "min": 0,
+            "max": 1
+          },
+          {
+            "id": "3eac-ca16-f908-55c1",
+            "name": "Exaction Vigilant w/ excruciator maul",
+            "min": 0,
+            "max": 1
+          },
+          {
+            "id": "70b9-df16-737-9c7b",
+            "name": "Exaction Vigilant w/ soulguilt scanner",
+            "min": 0,
+            "max": 1
+          },
+          {
+            "id": "6f15-4f0f-1e02-1ec",
+            "name": "Exaction Vigilant w/ shotgun",
+            "min": 4,
+            "max": 9
+          },
+          {
+            "id": "5763-7fb7-35d0-761",
+            "name": "Exaction Vigilant w/ grenade launcher",
+            "min": 0,
+            "max": 1
+          },
+          {
+            "id": "6f8c-21c9-dbea-b9b6",
+            "name": "Exaction Vigilant w/ executioner shotgun",
+            "min": 0,
+            "max": 1
+          },
+          {
+            "id": "75db-a547-7b64-143f",
+            "name": "Exaction Vigilant w/ heavy stubber",
+            "min": 0,
+            "max": 1
+          },
+          {
+            "id": "85c2-111a-656f-6cae",
+            "name": "Exaction Vigilant w/ webber",
+            "min": 0,
+            "max": 1
+          }
+        ],
+        "defaultOptionId": "6f15-4f0f-1e02-1ec",
+        "groups": []
+      }
+    ]
+  },
+  "d44c-5cde-cb79-3ec3": {
+    "groups": [
+      {
+        "id": "690-8ea4-3eed-9ed8",
+        "name": "9 Vigilants",
+        "min": 9,
+        "max": 9,
+        "mode": "count",
+        "options": [
+          {
+            "id": "6cb9-7ff6-5b56-b96d",
+            "name": "Vigilant w/ shotgun",
+            "min": 7,
+            "max": 9
+          },
+          {
+            "id": "4ef2-72f5-ac3c-461b",
+            "name": "Vigilant w/ grenade launcher",
+            "min": 0,
+            "max": 1
+          },
+          {
+            "id": "d838-6a4c-d03-efb1",
+            "name": "Vigilant w/ executioner shotgun",
+            "min": 0,
+            "max": 1
+          },
+          {
+            "id": "cbe0-919d-1561-9014",
+            "name": "Vigilant w/ heavy stubber",
+            "min": 0,
+            "max": 1
+          },
+          {
+            "id": "b341-4dfb-52af-726e",
+            "name": "Vigilant w/ webber",
+            "min": 0,
+            "max": 1
+          }
+        ],
+        "defaultOptionId": "6cb9-7ff6-5b56-b96d",
+        "groups": []
+      }
+    ]
+  },
+  "3e57-b15c-5580-1de1": {
+    "groups": [
+      {
+        "id": "8f73-5746-6199-33a5",
+        "name": "Wargear",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [],
+        "groups": [
+          {
+            "id": "dd9b-45ff-9354-57e7",
+            "name": "Melee weapon",
+            "min": 1,
+            "max": 1,
+            "mode": "count",
+            "options": [
+              {
+                "id": "2e49-2565-6661-38fd",
+                "name": "Inquisitorial melee weapon",
+                "min": 0,
+                "max": 99
+              }
+            ],
+            "defaultOptionId": "2e49-2565-6661-38fd"
+          },
+          {
+            "id": "1ff6-b2a5-46de-5776",
+            "name": "Ranged weapon",
+            "min": 1,
+            "max": 1,
+            "mode": "single",
+            "options": [
+              {
+                "id": "634-7616-fa7e-2f37",
+                "name": "Bolt pistol",
+                "min": 0,
+                "max": 99
+              },
+              {
+                "id": "16ae-4315-5f36-70d7",
+                "name": "Combi-weapon",
+                "min": 0,
+                "max": 99
+              }
+            ],
+            "defaultOptionId": "634-7616-fa7e-2f37"
+          },
+          {
+            "id": "6426-42c4-8198-7ab6",
+            "name": "Wargear",
+            "min": 1,
+            "max": 1,
+            "mode": "single",
+            "options": [
+              {
+                "id": "dae8-47ef-4f-74d7",
+                "name": "Blessed wardings",
+                "min": 0,
+                "max": 99
+              },
+              {
+                "id": "f6fb-daea-6116-f221",
+                "name": "Psychic gifts",
+                "min": 0,
+                "max": 99
+              }
+            ],
+            "defaultOptionId": "dae8-47ef-4f-74d7"
+          }
+        ]
+      }
+    ]
+  },
+  "bbbf-a0fb-d032-3a61": {
+    "groups": [
+      {
+        "id": "971e-e52f-255e-4cb",
+        "name": "4-9 Legionnaires",
+        "min": 4,
+        "max": 9,
+        "mode": "count",
+        "options": [
+          {
+            "id": "5379-f3f-7815-f6e",
+            "name": "Legionnaire w/ boltgun",
+            "min": 2,
+            "max": 9
+          },
+          {
+            "id": "2d15-f4e1-3d0f-d226",
+            "name": "Legionnaire w/ heavy weapon",
+            "min": 0,
+            "max": 1,
+            "groups": [
+              {
+                "id": "5a54-8674-7991-b0e3",
+                "name": "Weapon",
+                "min": 1,
+                "max": 1,
+                "mode": "single",
+                "options": [
+                  {
+                    "id": "0325-ea4d-6f67-d7e0",
+                    "name": "Multi-melta",
+                    "min": 0,
+                    "max": 99
+                  },
+                  {
+                    "id": "9dc7-4a25-5da9-02fc",
+                    "name": "Heavy flamer",
+                    "min": 0,
+                    "max": 99
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "2149-1376-5cea-acbd",
+            "name": "Legionnaire w/ special weapon",
+            "min": 0,
+            "max": 1,
+            "groups": [
+              {
+                "id": "73ef-2ceb-76e3-aca3",
+                "name": "Weapon",
+                "min": 1,
+                "max": 1,
+                "mode": "single",
+                "options": [
+                  {
+                    "id": "ff52-c5d-6739-f1e1",
+                    "name": "Plasma gun",
+                    "min": 0,
+                    "max": 99
+                  },
+                  {
+                    "id": "cfa1-e18a-98f3-40e8",
+                    "name": "Flamer",
+                    "min": 0,
+                    "max": 99
+                  },
+                  {
+                    "id": "33b5-fc90-f3e7-25fc",
+                    "name": "Meltagun",
+                    "min": 0,
+                    "max": 99
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "defaultOptionId": "5379-f3f-7815-f6e"
+      }
+    ]
+  },
+  "c29e-e398-9588-7f30": {
+    "groups": [
+      {
+        "id": "cb3c-65ad-9451-d529",
+        "name": "Wargear",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "78fe-f692-d983-b86d",
+            "name": "Psychic shock wave",
+            "min": 0,
+            "max": 1
+          }
+        ],
+        "groups": [
+          {
+            "id": "8f16-f306-9b17-1b8e",
+            "name": "Melee weapon",
+            "min": 1,
+            "max": 1,
+            "mode": "single",
+            "options": [
+              {
+                "id": "1363-5f9b-2671-1ad7",
+                "name": "Inquisitorial melee weapon",
+                "min": 0,
+                "max": 99
+              },
+              {
+                "id": "d178-5b5c-4ec7-a263",
+                "name": "Force weapon",
+                "min": 0,
+                "max": 1
+              }
+            ],
+            "defaultOptionId": "1363-5f9b-2671-1ad7"
+          },
+          {
+            "id": "b005-4e1f-7c58-1254",
+            "name": "Ranged weapon",
+            "min": 1,
+            "max": 1,
+            "mode": "single",
+            "options": [
+              {
+                "id": "5a5a-8f4-63c3-bfad",
+                "name": "Storm bolter",
+                "min": 0,
+                "max": 99
+              },
+              {
+                "id": "6e8f-738a-e5bc-4b1d",
+                "name": "Combi-weapon",
+                "min": 0,
+                "max": 99
+              },
+              {
+                "id": "64cf-7759-1d52-b4be",
+                "name": "Psycannon",
+                "min": 0,
+                "max": 1
+              }
+            ],
+            "defaultOptionId": "5a5a-8f4-63c3-bfad"
+          },
+          {
+            "id": "b093-db1e-86c9-700e",
+            "name": "Wargear",
+            "min": 1,
+            "max": 1,
+            "mode": "single",
+            "options": [
+              {
+                "id": "52d6-f859-3ab0-e946",
+                "name": "Psychic gifts",
+                "min": 0,
+                "max": 1
+              },
+              {
+                "id": "fe48-bf-d1bc-b7b5",
+                "name": "Blessed wardings",
+                "min": 0,
+                "max": 99
+              }
+            ],
+            "defaultOptionId": "fe48-bf-d1bc-b7b5"
+          }
+        ]
+      }
+    ]
+  },
+  "55cf-8d86-affd-bc9b": {
+    "groups": [
+      {
+        "id": "1fc4-7056-291c-b653",
+        "name": "Wargear",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "8309-f4fd-e530-94ec",
+            "name": "Force-orb cane",
+            "min": 1,
+            "max": 1
+          },
+          {
+            "id": "6349-274e-7b36-007e",
+            "name": "Laspistol",
+            "min": 1,
+            "max": 1
+          }
+        ]
+      }
+    ]
+  },
+  "7554-37de-cd68-68a7": {
+    "groups": [
+      {
+        "id": "378d-9a17-1665-b19d",
+        "name": "Wargear",
+        "min": 1,
+        "max": 1,
+        "mode": "single",
+        "options": [
+          {
+            "id": "483c-496e-2bd2-e86d",
+            "name": "Holy Pistol and Power Weapon",
+            "min": 0,
+            "max": 1
+          },
+          {
+            "id": "9d92-f59c-e9fb-6457",
+            "name": "Zealot's vindictor",
+            "min": 0,
+            "max": 1
+          }
+        ],
+        "defaultOptionId": "9d92-f59c-e9fb-6457"
+      }
+    ]
+  },
+  "4469-7239-717e-9abd": {
+    "groups": [
+      {
+        "id": "fc96-fbec-1493-8dda",
+        "name": "5 - 10 Acolytes",
+        "min": 5,
+        "max": 10,
+        "mode": "count",
+        "options": [
+          {
+            "id": "d7b8-4b06-e145-24ab",
+            "name": "Agent",
+            "min": 2,
+            "max": 10
+          },
+          {
+            "id": "f6f1-ce87-4ede-c270",
+            "name": "Agent w/ plasma pistol",
+            "min": 0,
+            "max": 2
+          },
+          {
+            "id": "e32d-97b6-ad57-cccd",
+            "name": "Agent w/ eviscerator",
+            "min": 0,
+            "max": 2
+          },
+          {
+            "id": "666b-a7cc-195a-ce69",
+            "name": "Agent w/ mystic stave",
+            "min": 0,
+            "max": 2
+          }
+        ],
+        "defaultOptionId": "1c93-2dd5-5bb2-a581"
+      },
+      {
+        "id": "4035-4b4f-1941-858d",
+        "name": "1 - 2 Gun Servitors",
+        "min": 1,
+        "max": 2,
+        "mode": "count",
+        "options": [
+          {
+            "id": "f010-f68d-8c52-921c",
+            "name": "Servitor w/ heavy bolter",
+            "min": 0,
+            "max": 2
+          },
+          {
+            "id": "86a0-79af-7469-7493",
+            "name": "Servitor w/ multi-melta",
+            "min": 0,
+            "max": 2,
+            "equippedWith": "Multi-melta"
+          },
+          {
+            "id": "74ed-a9f4-c58e-dd5f",
+            "name": "Servitor w/ plasma cannon",
+            "min": 0,
+            "max": 2
+          }
+        ]
+      },
+      {
+        "id": "03f0-ca25-17de-8a94",
+        "name": "Tome-skulls",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "ca1c-2d12-2ffa-9f04",
+            "name": "Tome-skull",
+            "min": 0,
+            "max": 2
+          }
+        ]
+      }
+    ]
+  },
+  "15c0-9294-7eb8-f3a7": {
+    "groups": [
+      {
+        "id": "773d-7091-408f-67a7",
+        "name": "4 Terminators",
+        "min": 4,
+        "max": 4,
+        "mode": "count",
+        "options": [
+          {
+            "id": "c44d-6380-a431-c369",
+            "name": "Terminator",
+            "min": 0,
+            "max": 4
+          },
+          {
+            "id": "6026-a6c1-6ab5-7744",
+            "name": "Terminator w/ heavy weapon",
+            "min": 0,
+            "max": 1,
+            "groups": [
+              {
+                "id": "47c8-774c-88f5-6b0b",
+                "name": "Weapon",
+                "min": 1,
+                "max": 1,
+                "mode": "single",
+                "options": [
+                  {
+                    "id": "6a85-acaa-5393-3946",
+                    "name": "Incinerator",
+                    "min": 0,
+                    "max": 99
+                  },
+                  {
+                    "id": "5013-de55-3569-469c",
+                    "name": "Psilencer",
+                    "min": 0,
+                    "max": 99
+                  },
+                  {
+                    "id": "9632-54c3-948d-856d",
+                    "name": "Psycannon",
+                    "min": 0,
+                    "max": 99
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "2d90-f418-5954-3241",
+            "name": "Terminator w/ narthecium",
+            "min": 0,
+            "max": 1
+          }
+        ],
+        "defaultOptionId": "c44d-6380-a431-c369"
+      }
+    ]
+  },
+  "ede2-ae50-5f5b-cced": {
+    "groups": [
+      {
+        "id": "c026-c50f-8a3c-f08a",
+        "name": "Wargear",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "9d05-881a-09d9-ea6a",
+            "name": "Lasgun array",
+            "min": 1,
+            "max": 1
+          },
+          {
+            "id": "73b7-41a9-6c49-0327",
+            "name": "Armoured tracks",
+            "min": 1,
+            "max": 1
+          },
+          {
+            "id": "01a1-aadb-86e7-7603",
+            "name": "Hunter-killer missile",
+            "min": 0,
+            "max": 1
+          }
+        ],
+        "groups": [
+          {
+            "id": "f399-bed9-21e5-032d",
+            "name": "Hull weapon",
+            "min": 1,
+            "max": 1,
+            "mode": "single",
+            "options": [
+              {
+                "id": "9377-6898-c777-3823",
+                "name": "Heavy bolter",
+                "min": 0,
+                "max": 1
+              },
+              {
+                "id": "79d0-2796-17a3-6d4f",
+                "name": "Heavy flamer",
+                "min": 0,
+                "max": 1
+              }
+            ],
+            "defaultOptionId": "9377-6898-c777-3823"
+          },
+          {
+            "id": "4a9a-ffa9-8f36-86eb",
+            "name": "Pintle weapon",
+            "min": 0,
+            "max": 1,
+            "mode": "single",
+            "options": [
+              {
+                "id": "a23b-cf3d-2384-5397",
+                "name": "Storm bolter",
+                "min": 0,
+                "max": 99
+              },
+              {
+                "id": "2468-06ef-8baa-e725",
+                "name": "Heavy stubber",
+                "min": 0,
+                "max": 99
+              }
+            ]
+          },
+          {
+            "id": "6d52-1b78-4636-c273",
+            "name": "Turret weapon",
+            "min": 1,
+            "max": 1,
+            "mode": "single",
+            "options": [
+              {
+                "id": "4e51-a46b-66ae-48f8",
+                "name": "Multi-laser",
+                "min": 0,
+                "max": 99
+              },
+              {
+                "id": "c0e9-0ff8-a12a-e567",
+                "name": "Heavy bolter",
+                "min": 0,
+                "max": 1
+              },
+              {
+                "id": "dff8-d47e-94ec-056d",
+                "name": "Heavy flamer",
+                "min": 0,
+                "max": 1
+              }
+            ],
+            "defaultOptionId": "4e51-a46b-66ae-48f8"
+          }
+        ]
+      }
+    ]
+  },
+  "cbbd-8e0a-fd90-fa0d": {
+    "groups": [
+      {
+        "id": "ddd6-8948-291b-29b7",
+        "name": "Wargear",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "f629-44c7-ffd5-1acf",
+            "name": "Storm bolter",
+            "min": 1,
+            "max": 1
+          },
+          {
+            "id": "3c83-d45d-032b-a073",
+            "name": "Armoured tracks",
+            "min": 1,
+            "max": 1
+          },
+          {
+            "id": "370d-af51-ad2b-723f",
+            "name": "Hunter-killer missile",
+            "min": 0,
+            "max": 1
+          }
+        ]
+      }
+    ]
+  },
+  "73fc-a193-7da1-d9c4": {
+    "groups": [
+      {
+        "id": "533d-0199-bf20-fc31",
+        "name": "Battle Sisters",
+        "min": 9,
+        "max": 9,
+        "mode": "count",
+        "options": [
+          {
+            "id": "b938-9487-0dc2-5cc3",
+            "name": "Battle Sister",
+            "min": 6,
+            "max": 9,
+            "equippedWith": "Bolt pistol and Boltgun and Close combat weapon"
+          },
+          {
+            "id": "7864-17ff-b88c-9f54",
+            "name": "Battle Sister w/ Simulacrum Imperialis",
+            "min": 0,
+            "max": 1,
+            "equippedWith": "Bolt pistol and Boltgun and Close combat weapon"
+          },
+          {
+            "id": "45e3-1e76-454a-978a",
+            "name": "Battle Sister w/ Special or Heavy Weapon",
+            "min": 0,
+            "max": 1,
+            "groups": [
+              {
+                "id": "f231-8031-3cba-c35d",
+                "name": "Weapon",
+                "min": 1,
+                "max": 1,
+                "mode": "single",
+                "options": [
+                  {
+                    "id": "20ba-f744-916c-19f4",
+                    "name": "Ministorum heavy flamer",
+                    "min": 0,
+                    "max": 99
+                  },
+                  {
+                    "id": "1f3b-46f4-5972-1e57",
+                    "name": "Heavy bolter",
+                    "min": 0,
+                    "max": 1
+                  },
+                  {
+                    "id": "ec1d-9a9a-76d0-9160",
+                    "name": "Artificer-crafted storm bolter",
+                    "min": 0,
+                    "max": 99
+                  },
+                  {
+                    "id": "db0b-d0a2-1be7-777b",
+                    "name": "Meltagun",
+                    "min": 0,
+                    "max": 99
+                  },
+                  {
+                    "id": "55d6-9c8b-5ac0-d85d",
+                    "name": "Ministorum flamer",
+                    "min": 0,
+                    "max": 1
+                  },
+                  {
+                    "id": "c300-0bb4-46f9-7844",
+                    "name": "Multi-melta",
+                    "min": 0,
+                    "max": 99
+                  }
+                ]
+              }
+            ],
+            "equippedWith": "Bolt pistol and Close combat weapon"
+          },
+          {
+            "id": "92aa-5976-6bbe-3376",
+            "name": "Battle Sister w/ Special Weapon",
+            "min": 0,
+            "max": 1,
+            "groups": [
+              {
+                "id": "dd06-3804-ed36-3e20",
+                "name": "Weapon",
+                "min": 1,
+                "max": 1,
+                "mode": "single",
+                "options": [
+                  {
+                    "id": "4ed8-61a0-9b4d-59ca",
+                    "name": "Artificer-crafted storm bolter",
+                    "min": 0,
+                    "max": 1
+                  },
+                  {
+                    "id": "4758-8746-536d-a229",
+                    "name": "Meltagun",
+                    "min": 0,
+                    "max": 1
+                  },
+                  {
+                    "id": "514d-da0b-26e4-9557",
+                    "name": "Ministorum flamer",
+                    "min": 0,
+                    "max": 1
+                  }
+                ]
+              }
+            ],
+            "equippedWith": "Bolt pistol and Close combat weapon"
+          }
+        ],
+        "defaultOptionId": "ae8a-1218-a416-d583"
+      }
+    ]
+  },
+  "a5c9-2cb7-d874-8169": {
+    "groups": [
+      {
+        "id": "781a-ce0b-1a2d-07c9",
+        "name": "Wargear",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "aefe-b8da-04d5-0650",
+            "name": "Armoured tracks",
+            "min": 1,
+            "max": 1
+          },
+          {
+            "id": "3c7d-e874-10b1-40c2",
+            "name": "Heavy bolter",
+            "min": 1,
+            "max": 1
+          },
+          {
+            "id": "bffc-b817-ba0f-77a6",
+            "name": "Hunter-killer missile",
+            "min": 0,
+            "max": 1
+          }
+        ],
+        "groups": [
+          {
+            "id": "bac1-e5f9-6035-d77a",
+            "name": "Turret weapon",
+            "min": 1,
+            "max": 1,
+            "mode": "single",
+            "options": [
+              {
+                "id": "19b7-6386-4bb6-64b1",
+                "name": "Immolation flamers",
+                "min": 0,
+                "max": 99
+              },
+              {
+                "id": "a252-b2e5-1d52-2da1",
+                "name": "Twin heavy bolter",
+                "min": 0,
+                "max": 1
+              },
+              {
+                "id": "3703-6aa9-a239-b0af",
+                "name": "Twin multi-melta",
+                "min": 0,
+                "max": 1
+              }
+            ],
+            "defaultOptionId": "3661-576a-2df7-506e"
+          }
+        ]
+      }
+    ]
+  },
+  "bd54-3e9f-3f7d-ad5a": {
+    "groups": [
+      {
+        "id": "a73e-5385-65c6-4e79",
+        "name": "Wargear",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "39a0-bdfb-05bd-b50d",
+            "name": "Close combat weapon",
+            "min": 1,
+            "max": 1
+          },
+          {
+            "id": "d4e9-8f3a-4d61-3f61",
+            "name": "Jokaero weapons",
+            "min": 1,
+            "max": 1
+          }
+        ]
+      }
+    ]
+  },
+  "8b98-0ac7-a0ba-dedf": {
+    "groups": [
+      {
+        "id": "d2a4-578b-e7d2-ed3a",
+        "name": "Wargear",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "e56f-45e7-fc59-0814",
+            "name": "Armoured hull",
+            "min": 1,
+            "max": 1
+          },
+          {
+            "id": "b638-8b43-0d40-58e7",
+            "name": "Hurricane bolter",
+            "min": 0,
+            "max": 1
+          }
+        ],
+        "groups": [
+          {
+            "id": "ad85-69a3-97af-48d5",
+            "name": "Centreline weapon",
+            "min": 1,
+            "max": 1,
+            "mode": "single",
+            "options": [
+              {
+                "id": "dbfb-a0f3-e4b6-0dfd",
+                "name": "Twin assault cannon",
+                "min": 0,
+                "max": 1
+              },
+              {
+                "id": "e3bd-7e14-38c8-ff49",
+                "name": "Twin lascannon",
+                "min": 0,
+                "max": 1
+              }
+            ],
+            "defaultOptionId": "a53b-f93b-5136-1fb1"
+          },
+          {
+            "id": "96d3-cc3b-433c-fb4f",
+            "name": "Missile choice",
+            "min": 1,
+            "max": 1,
+            "mode": "single",
+            "options": [
+              {
+                "id": "bb47-b401-917e-a7be",
+                "name": "2 Blackstar rocket launchers",
+                "min": 0,
+                "max": 1
+              },
+              {
+                "id": "8817-444f-e500-aeef",
+                "name": "2 Stormstrike missile launchers",
+                "min": 0,
+                "max": 1
+              }
+            ],
+            "defaultOptionId": "659f-cdb6-c687-5096"
+          },
+          {
+            "id": "3775-8817-2178-e1ca",
+            "name": "Wargear",
+            "min": 0,
+            "max": 1,
+            "mode": "single",
+            "options": [
+              {
+                "id": "feb2-612b-1953-a82b",
+                "name": "Auspex array",
+                "min": 0,
+                "max": 1
+              },
+              {
+                "id": "88ad-d328-02dc-598b",
+                "name": "Infernum halo-launcher",
+                "min": 0,
+                "max": 1
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "0744-61ce-619d-ffe1": {
+    "groups": [
+      {
+        "id": "27c4-9de9-c036-9bdc",
+        "name": "4-9 Deathwatch Veterans",
+        "min": 4,
+        "max": 9,
+        "mode": "count",
+        "options": [
+          {
+            "id": "968b-d705-7908-3862",
+            "name": "Veteran w/ boltgun and power weapon",
+            "min": 0,
+            "max": 10
+          },
+          {
+            "id": "3ebf-ed52-93f0-406a",
+            "name": "Veteran w/ Deathwatch thunder hammer",
+            "min": 0,
+            "max": 4,
+            "equippedWith": "Deathwatch thunder hammer"
+          },
+          {
+            "id": "0e2e-ef12-74f0-938f",
+            "name": "Veteran w/ frag cannon and CCW",
+            "min": 0,
+            "max": 2,
+            "equippedWith": "Close combat weapon and Frag cannon"
+          },
+          {
+            "id": "db4d-9666-5340-0ba2",
+            "name": "Veteran w/ infernus heavy bolter and CCW",
+            "min": 0,
+            "max": 2,
+            "equippedWith": "Close combat weapon and Infernus heavy bolter"
+          },
+          {
+            "id": "8c00-6699-048c-83ef",
+            "name": "Veteran w/ Astartes shield and boltgun",
+            "min": 0,
+            "max": 4,
+            "equippedWith": "Astartes shield"
+          },
+          {
+            "id": "cc02-b24f-51d3-0823",
+            "name": "Veteran w/ Astartes shield and power weapon",
+            "min": 0,
+            "max": 4,
+            "equippedWith": "Astartes shield"
+          },
+          {
+            "id": "17e9-9a8c-abb9-0e38",
+            "name": "Veteran w/ stalker-pattern boltgun and CCW",
+            "min": 0,
+            "max": 2,
+            "equippedWith": "Close combat weapon and Stalker-pattern boltgun"
+          },
+          {
+            "id": "befc-ec92-0d66-cf22",
+            "name": "Veteran w/ Deathwatch shotgun and CCW",
+            "min": 0,
+            "max": 4,
+            "equippedWith": "Close combat weapon and Deathwatch shotgun"
+          },
+          {
+            "id": "4073-ebaf-e73c-43ac",
+            "name": "Veteran w/ Black Shield blades",
+            "min": 0,
+            "max": 1,
+            "equippedWith": "Black Shield blades"
+          }
+        ],
+        "defaultOptionId": "968b-d705-7908-3862"
+      },
+      {
+        "id": "298e-03af-2749-87df",
+        "name": "Watch Sergeant",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "2fcd-ef4b-3a65-b8ea",
+            "name": "Watch Sergeant",
+            "min": 1,
+            "max": 1,
+            "groups": [
+              {
+                "id": "4c9f-c0f3-4112-2adf",
+                "name": "Wargear",
+                "min": 1,
+                "max": 1,
+                "mode": "single",
+                "options": [
+                  {
+                    "id": "a55a-63c0-e252-524e",
+                    "name": "Boltgun and power weapon",
+                    "min": 0,
+                    "max": 99,
+                    "groups": [
+                      {
+                        "id": "9038-94d5-0d25-9c6c",
+                        "name": "Boltgun",
+                        "min": 1,
+                        "max": 1,
+                        "mode": "single",
+                        "options": [
+                          {
+                            "id": "b493-f8bb-848f-64fe",
+                            "name": "Combi-weapon",
+                            "min": 0,
+                            "max": 1
+                          },
+                          {
+                            "id": "87c4-3785-d874-3aa0",
+                            "name": "Boltgun",
+                            "min": 0,
+                            "max": 1
+                          },
+                          {
+                            "id": "66a0-e694-2bbc-7809",
+                            "name": "Astartes shield",
+                            "min": 0,
+                            "max": 1
+                          }
+                        ],
+                        "defaultOptionId": "87c4-3785-d874-3aa0"
+                      },
+                      {
+                        "id": "27be-a701-314e-15e2",
+                        "name": "Power weapon",
+                        "min": 1,
+                        "max": 1,
+                        "mode": "single",
+                        "options": [
+                          {
+                            "id": "ec68-422a-e9e4-fe71",
+                            "name": "Xenophase blade",
+                            "min": 0,
+                            "max": 1
+                          },
+                          {
+                            "id": "c8e7-417e-dc82-04a9",
+                            "name": "Power weapon",
+                            "min": 0,
+                            "max": 1
+                          },
+                          {
+                            "id": "723c-f30e-5da1-4433",
+                            "name": "Astartes shield",
+                            "min": 0,
+                            "max": 1
+                          }
+                        ],
+                        "defaultOptionId": "c8e7-417e-dc82-04a9"
+                      }
+                    ]
+                  },
+                  {
+                    "id": "618d-3f67-a4f7-20f6",
+                    "name": "Deathwatch shotgun and close combat weapon",
+                    "min": 0,
+                    "max": 1,
+                    "equippedWith": "Deathwatch shotgun and Close combat weapon"
+                  },
+                  {
+                    "id": "9f21-dfa9-4120-2498",
+                    "name": "Frag cannon and close combat weapon",
+                    "min": 0,
+                    "max": 1,
+                    "equippedWith": "Close combat weapon and Frag cannon"
+                  },
+                  {
+                    "id": "2960-b388-5313-5eb8",
+                    "name": "Infernus heavy bolter and close combat weapon",
+                    "min": 0,
+                    "max": 99,
+                    "equippedWith": "Close combat weapon and Infernus heavy bolter"
+                  },
+                  {
+                    "id": "0b32-454c-ebdc-bff1",
+                    "name": "Stalker-pattern boltgun and close combat weapon",
+                    "min": 0,
+                    "max": 99,
+                    "equippedWith": "Close combat weapon and Stalker-pattern boltgun"
+                  },
+                  {
+                    "id": "1275-1573-26db-0967",
+                    "name": "Black Shield blades",
+                    "min": 0,
+                    "max": 1
+                  },
+                  {
+                    "id": "ae30-1c49-2042-29c2",
+                    "name": "Deathwatch thunder hammer",
+                    "min": 0,
+                    "max": 1
+                  }
+                ],
+                "defaultOptionId": "a55a-63c0-e252-524e"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "0b74-440c-ee1d-ca50": {
+    "groups": [
+      {
+        "id": "19c2-4e30-0044-49ac",
+        "name": "Deathwatch Terminators",
+        "min": 4,
+        "max": 9,
+        "mode": "count",
+        "options": [
+          {
+            "id": "84c2-9a90-eefd-881b",
+            "name": "Deathwatch Terminator",
+            "min": 1,
+            "max": 9
+          },
+          {
+            "id": "19a3-fdf1-1d30-6ba2",
+            "name": "Deathwatch Terminator w/ Heavy Weapon",
+            "min": 0,
+            "max": 3
+          }
+        ],
+        "defaultOptionId": "45fa-9a7-8352-362e"
+      }
+    ]
+  },
+  "f527-0a42-15b4-1924": {
+    "groups": [
+      {
+        "id": "c7d5-ef2f-d262-cbea",
+        "name": "Squad Members",
+        "min": 5,
+        "max": 10,
+        "mode": "count",
+        "options": [
+          {
+            "id": "0da5-7d61-1721-e2cf",
+            "name": "Kill Team Infiltrator",
+            "min": 5,
+            "max": 10,
+            "groups": [
+              {
+                "id": "8f74-4eee-6c92-76f2",
+                "name": "Equipment",
+                "min": 0,
+                "max": 1,
+                "mode": "single",
+                "options": [
+                  {
+                    "id": "6ae1-90e1-7929-3fef",
+                    "name": "Helix Gauntlet",
+                    "min": 0,
+                    "max": 1
+                  },
+                  {
+                    "id": "530b-234d-d2d2-8fa7",
+                    "name": "Infiltrator Comms Array",
+                    "min": 0,
+                    "max": 1
+                  }
+                ]
+              }
+            ],
+            "equippedWith": "Bolt pistol and Close combat weapon"
+          },
+          {
+            "id": "fd4a-2f76-771f-23b2",
+            "name": "Kill Team Infiltrator w/ jump pack",
+            "min": 0,
+            "max": 2,
+            "equippedWith": "Bolt pistol and Close combat weapon"
+          },
+          {
+            "id": "70b7-ed73-cf16-471d",
+            "name": "Kill Team Infiltrator w/ occulus bolt carbine",
+            "min": 0,
+            "max": 4,
+            "equippedWith": "Bolt pistol"
+          },
+          {
+            "id": "c43c-4e45-28b9-959b",
+            "name": "Kill Team Infiltrator w/ combat knife",
+            "min": 0,
+            "max": 4,
+            "groups": [
+              {
+                "id": "385f-2b00-0a85-56a5",
+                "name": "Combat knife replacement",
+                "min": 1,
+                "max": 1,
+                "mode": "single",
+                "options": [
+                  {
+                    "id": "4241-1e8b-615b-a277",
+                    "name": "Combat knife",
+                    "min": 0,
+                    "max": 1
+                  },
+                  {
+                    "id": "36dc-0775-5da4-852f",
+                    "name": "Bolt carbine & CCW",
+                    "min": 0,
+                    "max": 1
+                  }
+                ],
+                "defaultOptionId": "4241-1e8b-615b-a277"
+              }
+            ]
+          },
+          {
+            "id": "8006-f951-b05e-0fdb",
+            "name": "Kill Team Infiltrator w/ Bolt sniper rifle",
+            "min": 0,
+            "max": 2,
+            "groups": [
+              {
+                "id": "2a7d-60a7-2a46-0065",
+                "name": "Ranged Weapon Choice",
+                "min": 1,
+                "max": 1,
+                "mode": "single",
+                "options": [
+                  {
+                    "id": "4234-7553-7e7e-8d4a",
+                    "name": "Bolt sniper rifle",
+                    "min": 0,
+                    "max": 1
+                  },
+                  {
+                    "id": "a317-b5d8-5375-2bba",
+                    "name": "Las fusil",
+                    "min": 0,
+                    "max": 1
+                  },
+                  {
+                    "id": "e8fc-68dc-c256-c381",
+                    "name": "Bolt carbine",
+                    "min": 0,
+                    "max": 1
+                  }
+                ],
+                "defaultOptionId": "4234-7553-7e7e-8d4a"
+              }
+            ],
+            "equippedWith": "Bolt pistol and Close combat weapon"
+          }
+        ],
+        "defaultOptionId": "0da5-7d61-1721-e2cf"
+      }
+    ]
+  },
+  "cfa5-df26-a886-9975": {
+    "groups": [
+      {
+        "id": "63a8-f73b-218e-6b76",
+        "name": "Wargear",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "dc59-e346-0d3b-eb3c",
+            "name": "Vigil spear",
+            "min": 1,
+            "max": 1
+          }
+        ]
+      }
+    ]
+  },
+  "050d-797a-bb9a-2e8b": {
+    "groups": [
+      {
+        "id": "3a1c-4f3d-3010-e969",
+        "name": "Exchange carbine",
+        "min": 1,
+        "max": 1,
+        "mode": "single",
+        "options": [
+          {
+            "id": "542e-e8cb-cf58-e32b",
+            "name": "Deathwatch marksman bolt carbine",
+            "min": 0,
+            "max": 99
+          },
+          {
+            "id": "d2a2-f2ef-c279-93e4",
+            "name": "Combat knife",
+            "min": 0,
+            "max": 99
+          }
+        ],
+        "defaultOptionId": "542e-e8cb-cf58-e32b"
+      }
+    ]
+  },
+  "df47-6883-78e7-d725": {
+    "groups": [
+      {
+        "id": "3f63-a819-a4c0-5568",
+        "name": "Exchange hammer",
+        "min": 1,
+        "max": 1,
+        "mode": "single",
+        "options": [
+          {
+            "id": "b2b6-a3c3-f77c-d8b7",
+            "name": "Power weapon and Astartes shield",
+            "min": 0,
+            "max": 99
+          },
+          {
+            "id": "63a1-3390-1188-47da",
+            "name": "Heavy thunder hammer",
+            "min": 0,
+            "max": 99
+          }
+        ],
+        "defaultOptionId": "63a1-3390-1188-47da"
+      }
+    ]
+  },
+  "3435-d900-05e9-19e6": {
+    "groups": [
+      {
+        "id": "8808-1d05-7b6f-00db",
+        "name": "Exchange rifle",
+        "min": 1,
+        "max": 1,
+        "mode": "single",
+        "options": [
+          {
+            "id": "de2c-7723-f9e6-f06e",
+            "name": "Stalker bolt rifle",
+            "min": 0,
+            "max": 99
+          },
+          {
+            "id": "159e-7f4d-5f85-685d",
+            "name": "Plasma incinerator",
+            "min": 0,
+            "max": 99
+          }
+        ],
+        "defaultOptionId": "de2c-7723-f9e6-f06e"
+      }
+    ]
+  },
+  "77a2-7703-4d4f-f30d": {
+    "groups": [
+      {
+        "id": "d68c-6a7f-eb5a-546a",
+        "name": "Weapon",
+        "min": 1,
+        "max": 1,
+        "mode": "single",
+        "options": [
+          {
+            "id": "10f4-78f1-477b-ef6e",
+            "name": "Frag cannon",
+            "min": 0,
+            "max": 99
+          },
+          {
+            "id": "5278-f5a0-cd37-faea",
+            "name": "Hellstorm bolt rifle and grenade launcher",
+            "min": 0,
+            "max": 99
+          },
+          {
+            "id": "7227-dd49-014c-a31c",
+            "name": "Infernus heavy bolter",
+            "min": 0,
+            "max": 99
+          }
+        ],
+        "defaultOptionId": "266d-3fb4-da16-8f29"
+      }
+    ]
+  },
+  "b040-ce24-7e1a-c903": {
+    "groups": [
+      {
+        "id": "ae81-1cbf-bd9d-bb9c",
+        "name": "Unit composition",
+        "min": 1,
+        "max": 1,
+        "mode": "single",
+        "options": [
+          {
+            "id": "f88d-6aef-ffd0-68d4",
+            "name": "5 models",
+            "min": 0,
+            "max": 99,
+            "equippedWith": "Deathwatch Veteran w/ stalker bolt rifle and Deathwatch Veteran w/ heavy thunder hammer and Deathwatch Veteran w/ carbine and Gravis Veteran w/ infernus heavy bolter"
+          },
+          {
+            "id": "3f37-595a-56ef-4143",
+            "name": "10 models",
+            "min": 0,
+            "max": 99
+          }
+        ],
+        "defaultOptionId": "dc49-0e3b-208b-c2ad"
+      }
+    ]
+  },
+  "2a3f-b53b-6ea4-6da9": {
+    "groups": [
+      {
+        "id": "b473-89ff-2d05-c45a",
+        "name": "Wargear",
+        "min": 0,
+        "max": 99,
+        "mode": "count",
+        "options": [
+          {
+            "id": "d697-15e2-40f6-e2f9",
+            "name": "Jindarii tox-cycler",
+            "min": 1,
+            "max": 1
+          },
+          {
+            "id": "73bf-b36b-d09a-f166",
+            "name": "Stubcarbine",
+            "min": 1,
+            "max": 1
+          },
+          {
+            "id": "75e6-175a-f129-33a1",
+            "name": "Butcher blade",
+            "min": 1,
+            "max": 1
+          },
+          {
+            "id": "58a8-b639-ba4c-8096",
+            "name": "Garralisk's claws and teeth",
+            "min": 1,
+            "max": 1
+          }
+        ]
+      }
+    ]
+  }
+}

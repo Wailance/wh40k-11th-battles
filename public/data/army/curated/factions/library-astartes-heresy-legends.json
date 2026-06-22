@@ -129,7 +129,7 @@
       },
       "rangedWeapons": [
         {
-          "name": "➤ Cyclone missile launcher - frag",
+          "name": "Cyclone missile launcher - frag",
           "range": "36\"",
           "A": "2D6",
           "BS": "3+",
@@ -141,7 +141,7 @@
           ]
         },
         {
-          "name": "➤ Cyclone missile launcher - krak",
+          "name": "Cyclone missile launcher - krak",
           "range": "36\"",
           "A": "2",
           "BS": "3+",
@@ -437,7 +437,7 @@
       },
       "rangedWeapons": [
         {
-          "name": "➤ Quad launcher - shatter shells",
+          "name": "Quad launcher - shatter shells",
           "range": "24\"",
           "A": "4",
           "BS": "3+",
@@ -447,7 +447,7 @@
           "keywords": []
         },
         {
-          "name": "➤ Quad launcher - thunderfire shells",
+          "name": "Quad launcher - thunderfire shells",
           "range": "60\"",
           "A": "D6+4",
           "BS": "3+",
@@ -878,7 +878,7 @@
       },
       "rangedWeapons": [
         {
-          "name": "➤ Omega plasma array - standard",
+          "name": "Omega plasma array - standard",
           "range": "36\"",
           "A": "6",
           "BS": "3+",
@@ -888,7 +888,7 @@
           "keywords": []
         },
         {
-          "name": "➤ Omega plasma array - supercharge",
+          "name": "Omega plasma array - supercharge",
           "range": "36\"",
           "A": "6",
           "BS": "3+",
@@ -1103,7 +1103,7 @@
       },
       "rangedWeapons": [
         {
-          "name": "➤ Laservolley cannon - overcharge fire",
+          "name": "Laservolley cannon - overcharge fire",
           "range": "36\"",
           "A": "3",
           "BS": "3+",
@@ -1115,7 +1115,7 @@
           ]
         },
         {
-          "name": "➤ Laservolley cannon - volley fire",
+          "name": "Laservolley cannon - volley fire",
           "range": "36\"",
           "A": "3",
           "BS": "3+",
@@ -1594,7 +1594,7 @@
           ]
         },
         {
-          "name": "➤ Fellblade accelerator cannon - AP shells",
+          "name": "Fellblade accelerator cannon - AP shells",
           "range": "72\"",
           "A": "2",
           "BS": "3+",
@@ -1604,7 +1604,7 @@
           "keywords": []
         },
         {
-          "name": "➤ Fellblade accelerator cannon - HE shells",
+          "name": "Fellblade accelerator cannon - HE shells",
           "range": "72\"",
           "A": "2D6",
           "BS": "3+",
@@ -2072,7 +2072,7 @@
           "name": "Greater plague probe",
           "range": "Melee",
           "A": "4",
-          "BS": "3+",
+          "WS": "3+",
           "S": "6",
           "AP": "-1",
           "D": "1",
@@ -2271,7 +2271,7 @@
       ],
       "meleeWeapons": [
         {
-          "name": "➤ Hellcrusher claws - strike",
+          "name": "Hellcrusher claws - strike",
           "range": "Melee",
           "A": "6",
           "WS": "3+",
@@ -2281,7 +2281,7 @@
           "keywords": []
         },
         {
-          "name": "➤ Hellcrusher claws - sweep",
+          "name": "Hellcrusher claws - sweep",
           "range": "Melee",
           "A": "18",
           "WS": "3+",
@@ -2342,7 +2342,7 @@
       ],
       "meleeWeapons": [
         {
-          "name": "➤ Kytan cleaver - strike",
+          "name": "Kytan cleaver - strike",
           "range": "Melee",
           "A": "4",
           "WS": "3+",
@@ -2352,7 +2352,7 @@
           "keywords": []
         },
         {
-          "name": "➤ Kytan cleaver - sweep",
+          "name": "Kytan cleaver - sweep",
           "range": "Melee",
           "A": "12",
           "WS": "3+",
@@ -2402,7 +2402,7 @@
       },
       "rangedWeapons": [
         {
-          "name": "➤ Kharybdis storm launcher - frag",
+          "name": "Kharybdis storm launcher - frag",
           "range": "36\"",
           "A": "2D6",
           "BS": "3+",
@@ -2414,7 +2414,7 @@
           ]
         },
         {
-          "name": "➤ Kharybdis storm launcher - krak",
+          "name": "Kharybdis storm launcher - krak",
           "range": "36\"",
           "A": "2",
           "BS": "3+",

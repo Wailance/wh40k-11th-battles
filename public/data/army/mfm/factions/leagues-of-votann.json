@@ -1,0 +1,808 @@
+{
+  "slug": "leagues-of-votann",
+  "name": "Leagues of Votann",
+  "version": "1.0",
+  "firstSeen": "2026-06-17",
+  "detachments": [
+    {
+      "name": "Armoured Trailblazers",
+      "dp": 1,
+      "objective": "DISRUPTION",
+      "enhancements": [
+        {
+          "name": "Optimised Attack Lines (Upgrade)",
+          "points": 15,
+          "detachment": "Armoured Trailblazers"
+        },
+        {
+          "name": "Saturation Rounds (Upgrade)",
+          "points": 10,
+          "detachment": "Armoured Trailblazers"
+        }
+      ]
+    },
+    {
+      "name": "Brandfast Oathband",
+      "dp": 2,
+      "objective": "TAKE AND HOLD",
+      "enhancements": [
+        {
+          "name": "Precursive Judgement",
+          "points": 15,
+          "detachment": "Brandfast Oathband"
+        },
+        {
+          "name": "Signature Restoration",
+          "points": 5,
+          "detachment": "Brandfast Oathband"
+        },
+        {
+          "name": "Tactical Alchemy",
+          "points": 10,
+          "detachment": "Brandfast Oathband"
+        },
+        {
+          "name": "Trivärg Cyber Implant",
+          "points": 40,
+          "detachment": "Brandfast Oathband"
+        }
+      ]
+    },
+    {
+      "name": "Dêlve Assault Shift",
+      "dp": 2,
+      "objective": "PURGE THE FOE",
+      "enhancements": [
+        {
+          "name": "Dêlvewerke Navigator",
+          "points": 25,
+          "detachment": "Dêlve Assault Shift"
+        },
+        {
+          "name": "Multiwave System Jammer",
+          "points": 10,
+          "detachment": "Dêlve Assault Shift"
+        },
+        {
+          "name": "Piledriver",
+          "points": 15,
+          "detachment": "Dêlve Assault Shift"
+        },
+        {
+          "name": "Quake Supervisor",
+          "points": 20,
+          "detachment": "Dêlve Assault Shift"
+        }
+      ]
+    },
+    {
+      "name": "Farseekers",
+      "dp": 1,
+      "objective": "RECONNAISSANCE",
+      "enhancements": [
+        {
+          "name": "Pan-spectral Lockons (Upgrade)",
+          "points": 10,
+          "detachment": "Farseekers"
+        },
+        {
+          "name": "Shroudwërke Talismans (Upgrade)",
+          "points": 15,
+          "detachment": "Farseekers"
+        }
+      ]
+    },
+    {
+      "name": "Hearthband",
+      "dp": 3,
+      "objective": "PRIORITY ASSETS",
+      "enhancements": [
+        {
+          "name": "Bastion Shield",
+          "points": 25,
+          "detachment": "Hearthband"
+        },
+        {
+          "name": "High Kâhl",
+          "points": 30,
+          "detachment": "Hearthband"
+        },
+        {
+          "name": "Ironskein",
+          "points": 10,
+          "detachment": "Hearthband"
+        },
+        {
+          "name": "Quake Multigenerator",
+          "points": 15,
+          "detachment": "Hearthband"
+        }
+      ]
+    },
+    {
+      "name": "Hearthfyre Arsenal",
+      "dp": 2,
+      "objective": "PRIORITY ASSETS",
+      "enhancements": [
+        {
+          "name": "Calculated Tenacity",
+          "points": 15,
+          "detachment": "Hearthfyre Arsenal"
+        },
+        {
+          "name": "Fârstrydr Node",
+          "points": 20,
+          "detachment": "Hearthfyre Arsenal"
+        },
+        {
+          "name": "Graviton Vault",
+          "points": 5,
+          "detachment": "Hearthfyre Arsenal"
+        },
+        {
+          "name": "Mantle of Elders",
+          "points": 10,
+          "detachment": "Hearthfyre Arsenal"
+        }
+      ]
+    },
+    {
+      "name": "Hearthguard Covenant",
+      "dp": 1,
+      "objective": "PRIORITY ASSETS",
+      "enhancements": [
+        {
+          "name": "High Kâhl",
+          "points": 30,
+          "detachment": "Hearthguard Covenant"
+        },
+        {
+          "name": "Ironskein",
+          "points": 10,
+          "detachment": "Hearthguard Covenant"
+        }
+      ]
+    },
+    {
+      "name": "Mercenary Oathband",
+      "dp": 2,
+      "objective": "TAKE AND HOLD",
+      "enhancements": [
+        {
+          "name": "Asset Manipulator",
+          "points": 25,
+          "detachment": "Mercenary Oathband"
+        },
+        {
+          "name": "Etacarn SB9 Targeting Implant",
+          "points": 15,
+          "detachment": "Mercenary Oathband"
+        },
+        {
+          "name": "Mercenary Prospector",
+          "points": 20,
+          "detachment": "Mercenary Oathband"
+        },
+        {
+          "name": "Metaphysical Brokerage",
+          "points": 20,
+          "detachment": "Mercenary Oathband"
+        }
+      ]
+    },
+    {
+      "name": "Needgaârd Oathband",
+      "dp": 2,
+      "objective": "PURGE THE FOE",
+      "enhancements": [
+        {
+          "name": "Ancestral Crest",
+          "points": 15,
+          "detachment": "Needgaârd Oathband"
+        },
+        {
+          "name": "Dead Reckoning",
+          "points": 10,
+          "detachment": "Needgaârd Oathband"
+        },
+        {
+          "name": "Iron Ambassador",
+          "points": 5,
+          "detachment": "Needgaârd Oathband"
+        },
+        {
+          "name": "Oathbound Speculator",
+          "points": 30,
+          "detachment": "Needgaârd Oathband"
+        }
+      ]
+    },
+    {
+      "name": "Persecution Prospect",
+      "dp": 2,
+      "objective": "DISRUPTION",
+      "enhancements": [
+        {
+          "name": "Eye for Weakness",
+          "points": 25,
+          "detachment": "Persecution Prospect"
+        },
+        {
+          "name": "Nomad Strategist",
+          "points": 20,
+          "detachment": "Persecution Prospect"
+        },
+        {
+          "name": "Surgical Saboteur",
+          "points": 10,
+          "detachment": "Persecution Prospect"
+        },
+        {
+          "name": "Writ of Acquisition",
+          "points": 10,
+          "detachment": "Persecution Prospect"
+        }
+      ]
+    }
+  ],
+  "units": [
+    {
+      "name": "Arkanyst Evaluator",
+      "normalizedName": "arkanyst evaluator",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 70
+            }
+          ]
+        }
+      ],
+      "points": 70,
+      "pointsLabel": "70",
+      "legends": false
+    },
+    {
+      "name": "Berehk Stornbröw",
+      "normalizedName": "berehk stornbro w",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 95
+            }
+          ]
+        }
+      ],
+      "points": 95,
+      "pointsLabel": "95",
+      "legends": false,
+      "role": "leader",
+      "attachTo": [
+        "Cthonian Beserks"
+      ]
+    },
+    {
+      "name": "Brôkhyr Iron-Master",
+      "normalizedName": "bro khyr iron master",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 5,
+              "points": 75
+            }
+          ]
+        }
+      ],
+      "points": 75,
+      "pointsLabel": "75",
+      "legends": false,
+      "role": "leader",
+      "attachTo": [
+        "Brôkhyr Thunderkyn",
+        "Hearthkyn Warriors"
+      ]
+    },
+    {
+      "name": "Brôkhyr Thunderkyn",
+      "normalizedName": "bro khyr thunderkyn",
+      "pricing": [
+        {
+          "range": "[1,2]",
+          "label": "Your 1st To 2nd Units Cost",
+          "costs": [
+            {
+              "models": 3,
+              "points": 80
+            },
+            {
+              "models": 6,
+              "points": 160
+            }
+          ]
+        },
+        {
+          "range": "[3,)",
+          "label": "Your 3rd + Unit Costs",
+          "costs": [
+            {
+              "models": 3,
+              "points": 90
+            },
+            {
+              "models": 6,
+              "points": 170
+            }
+          ]
+        }
+      ],
+      "points": 80,
+      "pointsLabel": "80/160",
+      "legends": false
+    },
+    {
+      "name": "Buri Aegnirssen",
+      "normalizedName": "buri aegnirssen",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 95
+            }
+          ]
+        }
+      ],
+      "points": 95,
+      "pointsLabel": "95",
+      "legends": false
+    },
+    {
+      "name": "Cthonian Beserks",
+      "normalizedName": "cthonian beserks",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 5,
+              "points": 100
+            },
+            {
+              "models": 10,
+              "points": 200
+            }
+          ]
+        }
+      ],
+      "points": 100,
+      "pointsLabel": "100/200",
+      "legends": false
+    },
+    {
+      "name": "Cthonian Earthshakers",
+      "normalizedName": "cthonian earthshakers",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 2,
+              "points": 110
+            }
+          ]
+        }
+      ],
+      "points": 110,
+      "pointsLabel": "110",
+      "legends": false
+    },
+    {
+      "name": "Einhyr Champion",
+      "normalizedName": "einhyr champion",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 65
+            }
+          ]
+        }
+      ],
+      "points": 65,
+      "pointsLabel": "65",
+      "legends": false,
+      "role": "leader",
+      "attachTo": [
+        "Einhyr Hearthguard"
+      ]
+    },
+    {
+      "name": "Einhyr Hearthguard",
+      "normalizedName": "einhyr hearthguard",
+      "pricing": [
+        {
+          "range": "[1,2]",
+          "label": "Your 1st To 2nd Units Cost",
+          "costs": [
+            {
+              "models": 5,
+              "points": 130
+            },
+            {
+              "models": 10,
+              "points": 270
+            }
+          ]
+        },
+        {
+          "range": "[3,)",
+          "label": "Your 3rd + Unit Costs",
+          "costs": [
+            {
+              "models": 5,
+              "points": 140
+            },
+            {
+              "models": 10,
+              "points": 280
+            }
+          ]
+        }
+      ],
+      "points": 130,
+      "pointsLabel": "130/270",
+      "legends": false
+    },
+    {
+      "name": "Grimnyr",
+      "normalizedName": "grimnyr",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 3,
+              "points": 65
+            }
+          ]
+        }
+      ],
+      "points": 65,
+      "pointsLabel": "65",
+      "legends": false,
+      "role": "leader",
+      "attachTo": [
+        "Hearthkyn Warriors"
+      ]
+    },
+    {
+      "name": "Hearthkyn Warriors",
+      "normalizedName": "hearthkyn warriors",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 10,
+              "points": 100
+            }
+          ]
+        }
+      ],
+      "points": 100,
+      "pointsLabel": "100",
+      "legends": false
+    },
+    {
+      "name": "Hekaton Land Fortress",
+      "normalizedName": "hekaton land fortress",
+      "pricing": [
+        {
+          "range": "[1,1]",
+          "label": "Your 1st Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 250
+            }
+          ]
+        },
+        {
+          "range": "[2,)",
+          "label": "Your 2nd + Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 265
+            }
+          ]
+        }
+      ],
+      "points": 250,
+      "pointsLabel": "250",
+      "legends": false
+    },
+    {
+      "name": "Hernkyn Pioneers",
+      "normalizedName": "hernkyn pioneers",
+      "pricing": [
+        {
+          "range": "[1,2]",
+          "label": "Your 1st To 2nd Units Cost",
+          "costs": [
+            {
+              "models": 3,
+              "points": 80
+            },
+            {
+              "models": 6,
+              "points": 160
+            }
+          ]
+        },
+        {
+          "range": "[3,)",
+          "label": "Your 3rd + Unit Costs",
+          "costs": [
+            {
+              "models": 3,
+              "points": 90
+            },
+            {
+              "models": 6,
+              "points": 170
+            }
+          ]
+        }
+      ],
+      "points": 80,
+      "pointsLabel": "80/160",
+      "legends": false
+    },
+    {
+      "name": "Hernkyn Yaegirs",
+      "normalizedName": "hernkyn yaegirs",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 10,
+              "points": 90
+            }
+          ]
+        }
+      ],
+      "points": 90,
+      "pointsLabel": "90",
+      "legends": false
+    },
+    {
+      "name": "Ironkin Steeljacks With Heavy Volkanite Disintegrators",
+      "normalizedName": "ironkin steeljacks with heavy volkanite disintegrators",
+      "pricing": [
+        {
+          "range": "[1,2]",
+          "label": "Your 1st To 2nd Units Cost",
+          "costs": [
+            {
+              "models": 3,
+              "points": 80
+            },
+            {
+              "models": 6,
+              "points": 160
+            }
+          ]
+        },
+        {
+          "range": "[3,)",
+          "label": "Your 3rd + Unit Costs",
+          "costs": [
+            {
+              "models": 3,
+              "points": 90
+            },
+            {
+              "models": 6,
+              "points": 170
+            }
+          ]
+        }
+      ],
+      "points": 80,
+      "pointsLabel": "80/160",
+      "legends": false
+    },
+    {
+      "name": "Ironkin Steeljacks With Melee Weapons",
+      "normalizedName": "ironkin steeljacks with melee weapons",
+      "pricing": [
+        {
+          "range": "[1,2]",
+          "label": "Your 1st To 2nd Units Cost",
+          "costs": [
+            {
+              "models": 3,
+              "points": 80
+            },
+            {
+              "models": 6,
+              "points": 160
+            }
+          ]
+        },
+        {
+          "range": "[3,)",
+          "label": "Your 3rd + Unit Costs",
+          "costs": [
+            {
+              "models": 3,
+              "points": 90
+            },
+            {
+              "models": 6,
+              "points": 170
+            }
+          ]
+        }
+      ],
+      "points": 80,
+      "pointsLabel": "80/160",
+      "legends": false
+    },
+    {
+      "name": "Kâhl",
+      "normalizedName": "ka hl",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 65
+            }
+          ]
+        }
+      ],
+      "points": 65,
+      "pointsLabel": "65",
+      "legends": false,
+      "role": "leader",
+      "attachTo": [
+        "Einhyr Hearthguard",
+        "Hearthkyn Warriors"
+      ]
+    },
+    {
+      "name": "Kapricus Carrier",
+      "normalizedName": "kapricus carrier",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 75
+            }
+          ]
+        }
+      ],
+      "points": 75,
+      "pointsLabel": "75",
+      "legends": false
+    },
+    {
+      "name": "Kapricus Defenders",
+      "normalizedName": "kapricus defenders",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 65
+            },
+            {
+              "models": 2,
+              "points": 130
+            }
+          ]
+        }
+      ],
+      "points": 65,
+      "pointsLabel": "65/130",
+      "legends": false
+    },
+    {
+      "name": "Memnyr Strategist",
+      "normalizedName": "memnyr strategist",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 45
+            }
+          ]
+        }
+      ],
+      "points": 45,
+      "pointsLabel": "45",
+      "legends": false,
+      "role": "leader",
+      "attachTo": [
+        "Ironkin Steeljacks With Heavy Volkanite Disintegrators",
+        "Ironkin Steeljacks With Melee Weapons"
+      ]
+    },
+    {
+      "name": "Sagitaur",
+      "normalizedName": "sagitaur",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 85
+            }
+          ]
+        }
+      ],
+      "points": 85,
+      "pointsLabel": "85",
+      "legends": false
+    },
+    {
+      "name": "ûthar The Destined",
+      "normalizedName": "u thar the destined",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 90
+            }
+          ]
+        }
+      ],
+      "points": 90,
+      "pointsLabel": "90",
+      "legends": false,
+      "role": "leader",
+      "attachTo": [
+        "Einhyr Hearthguard",
+        "Hearthkyn Warriors"
+      ]
+    }
+  ]
+}

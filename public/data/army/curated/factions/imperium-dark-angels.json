@@ -6,7 +6,7 @@
     {
       "id": "81bd-ce4e-229f-a88",
       "name": "Azrael",
-      "points": 125,
+      "points": 140,
       "keywords": [
         "Character",
         "Epic Hero",
@@ -80,12 +80,36 @@
           "name": "Leader",
           "description": "This model can be attached to the following units:\n■ Assault Intercessor Squad\n■ Bladeguard Veteran Squad\n■ Hellblaster Squad\n■ Infernus Squad\n■ Inner Circle Companions\n■ Intercessor Squad\n■ Sternguard Veteran Squad\n■ Tactical Squad"
         }
+      ],
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 140
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "140",
+      "mfmRole": "leader",
+      "attachTo": [
+        "Assault Intercessor Squad",
+        "Bladeguard Veteran Squad",
+        "Hellblaster Squad",
+        "Infernus Squad",
+        "Inner Circle Companions",
+        "Intercessor Squad",
+        "Sternguard Veteran Squad",
+        "Tactical Squad"
       ]
     },
     {
       "id": "bf62-244b-f9db-6cf",
       "name": "Belial",
-      "points": 85,
+      "points": 75,
       "keywords": [
         "Character",
         "Epic Hero",
@@ -153,12 +177,34 @@
           "name": "Leader",
           "description": "This unit can be attached to the following units:\n■ Deathwing Knights\n■ Deathwing Terminator Squad\n■ Terminator Assault Squad\n■ Terminator Squad"
         }
+      ],
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 75
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "75",
+      "mfmRole": "leader",
+      "attachTo": [
+        "Deathwing Command Squad",
+        "Deathwing Command Squad",
+        "Deathwing Knights",
+        "Deathwing Terminator Squad",
+        "Terminator Assault Squad",
+        "Terminator Squad"
       ]
     },
     {
       "id": "8f4b-c343-bef5-6779",
       "name": "Sammael",
-      "points": 115,
+      "points": 105,
       "keywords": [
         "Character",
         "Epic Hero",
@@ -251,6 +297,24 @@
           "name": "Cut Off Their Escape",
           "description": "Each time an enemy unit (excluding Monsters and Vehicles) within Engagement Range of this model’s unit is selected to Fall Back, models in that enemy unit must take Desperate Escape tests as if their unit was Battle-shocked. When doing so, if that enemy unit is also Battle-shocked by other means, subtract 1 from each of those Desperate Escape tests."
         }
+      ],
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 105
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "105",
+      "mfmRole": "leader",
+      "attachTo": [
+        "Outrider Squad",
+        "Ravenwing Black Knights"
       ]
     },
     {
@@ -294,7 +358,7 @@
           ]
         },
         {
-          "name": "➤ Mind Wipe - witchfire",
+          "name": "Mind Wipe - witchfire",
           "range": "12\"",
           "A": "1",
           "BS": "2+",
@@ -308,7 +372,7 @@
           ]
         },
         {
-          "name": "➤ Mind Wipe - focussed witchfire",
+          "name": "Mind Wipe - focussed witchfire",
           "range": "12\"",
           "A": "1",
           "BS": "2+",
@@ -356,6 +420,30 @@
           "name": "Leader",
           "description": "This model can be attached to the following units:\n■ Assault Intercessor Squad\n■ Bladeguard Veteran Squad\n■ Hellblaster Squad\n■ Infernus Squad\n■ Inner Circle Companions\n■ Intercessor Squad\n■ Sternguard Veterans Squad\n■ Tactical Squad"
         }
+      ],
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 75
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "75",
+      "mfmRole": "leader",
+      "attachTo": [
+        "Assault Intercessor Squad",
+        "Bladeguard Veteran Squad",
+        "Hellblaster Squad",
+        "Infernus Squad",
+        "Inner Circle Companions",
+        "Intercessor Squad",
+        "Sternguard Veteran Squad",
+        "Tactical Squad"
       ]
     },
     {
@@ -400,7 +488,7 @@
       ],
       "meleeWeapons": [
         {
-          "name": "➤ Crozius Arcanum and Power Weapon - strike",
+          "name": "Crozius Arcanum and Power Weapon - strike",
           "range": "Melee",
           "A": "5",
           "WS": "2+",
@@ -410,7 +498,7 @@
           "keywords": []
         },
         {
-          "name": "➤ Crozius Arcanum and Power Weapon - sweep",
+          "name": "Crozius Arcanum and Power Weapon - sweep",
           "range": "Melee",
           "A": "8",
           "WS": "2+",
@@ -437,12 +525,36 @@
           "name": "Leader",
           "description": "This model can be attached to the following units:\n■ Assault Intercessor Squad\n■ Bladeguard Veteran Squad\n■ Hellblaster Squad\n■ Infernus Squad\n■ Inner Circle Companions\n■ Intercessor Squad\n■ Sternguard Veteran Squad\n■ Tactical Squad"
         }
+      ],
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 70
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "70",
+      "mfmRole": "leader",
+      "attachTo": [
+        "Assault Intercessor Squad",
+        "Bladeguard Veteran Squad",
+        "Hellblaster Squad",
+        "Infernus Squad",
+        "Inner Circle Companions",
+        "Intercessor Squad",
+        "Sternguard Veteran Squad",
+        "Tactical Squad"
       ]
     },
     {
       "id": "15d3-ebc7-d28b-daf4",
       "name": "Lion El'Jonson",
-      "points": 315,
+      "points": 285,
       "keywords": [
         "Character",
         "Epic Hero",
@@ -464,7 +576,7 @@
       },
       "rangedWeapons": [
         {
-          "name": "➤ Arma Luminis - bolt",
+          "name": "Arma Luminis - bolt",
           "range": "12\"",
           "A": "4",
           "BS": "2+",
@@ -476,7 +588,7 @@
           ]
         },
         {
-          "name": "➤ Arma Luminis - plasma",
+          "name": "Arma Luminis - plasma",
           "range": "12\"",
           "A": "2",
           "BS": "2+",
@@ -490,7 +602,7 @@
       ],
       "meleeWeapons": [
         {
-          "name": "➤ Fealty - strike",
+          "name": "Fealty - strike",
           "range": "Melee",
           "A": "8",
           "WS": "2+",
@@ -502,7 +614,7 @@
           ]
         },
         {
-          "name": "➤ Fealty - sweep",
+          "name": "Fealty - sweep",
           "range": "Melee",
           "A": "16",
           "WS": "2+",
@@ -531,7 +643,20 @@
           "name": "Invulnerable Save",
           "description": "3+"
         }
-      ]
+      ],
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 285
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "285"
     },
     {
       "id": "4b0d-45ff-fab3-7472",
@@ -604,6 +729,29 @@
           "name": "Leader",
           "description": "This model can be attached to the following units:\n■ Assault Intercessor Squad\n■ Bladeguard Veteran Squad\n■ Infernus Squad\n■ Inner Circle Companions\n■ Intercessor Squad\n■ Sternguard Veteran Squad\n■ Tactical Squad"
         }
+      ],
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 70
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "70",
+      "mfmRole": "leader",
+      "attachTo": [
+        "Assault Intercessor Squad",
+        "Bladeguard Veteran Squad",
+        "Infernus Squad",
+        "Inner Circle Companions",
+        "Intercessor Squad",
+        "Sternguard Veteran Squad",
+        "Tactical Squad"
       ]
     },
     {
@@ -681,12 +829,25 @@
           "name": "Invulnerable Save",
           "description": "5+"
         }
-      ]
+      ],
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 195
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "195"
     },
     {
       "id": "9b3d-e812-4248-522",
       "name": "Ravenwing Dark Talon",
-      "points": 210,
+      "points": 200,
       "keywords": [
         "Imperium",
         "Fly",
@@ -760,7 +921,20 @@
           "name": "Damaged: 1-3 Wounds Remaining",
           "description": "While this model has 1-3 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
         }
-      ]
+      ],
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 200
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "200"
     },
     {
       "id": "b4a0-d2fe-a988-f28b",
@@ -786,7 +960,7 @@
       },
       "rangedWeapons": [
         {
-          "name": "➤ Plasma storm battery - standard",
+          "name": "Plasma storm battery - standard",
           "range": "36\"",
           "A": "D6+1",
           "BS": "3+",
@@ -799,7 +973,7 @@
           ]
         },
         {
-          "name": "➤ Plasma storm battery - supercharge",
+          "name": "Plasma storm battery - supercharge",
           "range": "36\"",
           "A": "D6+1",
           "BS": "3+",
@@ -834,12 +1008,35 @@
           "name": "Storm of Vengeance",
           "description": "Once per turn, in your opponent’s Shooting phase, when another friendly Adeptus Astartes unit within 6\" of this model is destroyed, one model with this ability can use it. If it does, after the attacking unit has finished making its attacks, that model can shoot as if it were your Shooting phase, but when resolving those attacks it can only target that enemy unit (and only if it is an eligible target)."
         }
-      ]
+      ],
+      "pricing": [
+        {
+          "range": "[1,2]",
+          "label": "Your 1st To 2nd Units Cost",
+          "costs": [
+            {
+              "models": 1,
+              "points": 120
+            }
+          ]
+        },
+        {
+          "range": "[3,)",
+          "label": "Your 3rd + Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 130
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "120"
     },
     {
       "id": "152b-a271-df2b-21a9",
       "name": "Ravenwing Darkshroud",
-      "points": 100,
+      "points": 80,
       "keywords": [
         "Darkshroud",
         "Imperium",
@@ -881,12 +1078,25 @@
           "name": "Icon of Old Caliban (Aura)",
           "description": "While a friendly Adeptus Astartes unit is within 6\" of this model, models in that unit have the Stealth ability and each time a ranged attack targets that unit, that unit has the Benefit of Cover against that attack."
         }
-      ]
+      ],
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 80
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "80"
     },
     {
       "id": "212d-f302-aaaf-5c12",
       "name": "Ravenwing Black Knights",
-      "points": 80,
+      "points": 75,
       "keywords": [
         "Mounted",
         "Grenades",
@@ -919,7 +1129,7 @@
           ]
         },
         {
-          "name": "➤ Plasma talon - Standard",
+          "name": "Plasma talon - Standard",
           "range": "18\"",
           "A": "2",
           "BS": "3+",
@@ -931,7 +1141,7 @@
           ]
         },
         {
-          "name": "➤ Plasma talon - Supercharged",
+          "name": "Plasma talon - Supercharged",
           "range": "18\"",
           "A": "2",
           "BS": "3+",
@@ -971,12 +1181,43 @@
           "name": "Invulnerable Save",
           "description": "5+"
         }
-      ]
+      ],
+      "pricing": [
+        {
+          "range": "[1,2]",
+          "label": "Your 1st To 2nd Units Cost",
+          "costs": [
+            {
+              "models": 3,
+              "points": 75
+            },
+            {
+              "models": 6,
+              "points": 150
+            }
+          ]
+        },
+        {
+          "range": "[3,)",
+          "label": "Your 3rd + Unit Costs",
+          "costs": [
+            {
+              "models": 3,
+              "points": 85
+            },
+            {
+              "models": 6,
+              "points": 160
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "75/150"
     },
     {
       "id": "e87d-f173-88b9-aa84",
       "name": "Ravenwing Command Squad",
-      "points": 120,
+      "points": 115,
       "keywords": [
         "Mounted",
         "Grenades",
@@ -1010,7 +1251,7 @@
           ]
         },
         {
-          "name": "➤ Plasma talon - Standard",
+          "name": "Plasma talon - Standard",
           "range": "18\"",
           "A": "2",
           "BS": "3+",
@@ -1022,7 +1263,7 @@
           ]
         },
         {
-          "name": "➤ Plasma talon - Supercharged",
+          "name": "Plasma talon - Supercharged",
           "range": "18\"",
           "A": "2",
           "BS": "3+",
@@ -1080,12 +1321,40 @@
           "name": "Honour or Death",
           "description": "While this unit contains a Ravenwing Champion, add 1 to Advance and Charge rolls made for this unit and you can target this unit with the Heroic Intervention Stratagem for 0CP."
         }
+      ],
+      "pricing": [
+        {
+          "range": "[1,2]",
+          "label": "Your 1st To 2nd Units Cost",
+          "costs": [
+            {
+              "models": 3,
+              "points": 115
+            }
+          ]
+        },
+        {
+          "range": "[3,)",
+          "label": "Your 3rd + Unit Costs",
+          "costs": [
+            {
+              "models": 3,
+              "points": 125
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "115",
+      "mfmRole": "leader",
+      "attachTo": [
+        "Outrider Squad",
+        "Ravenwing Black Knights"
       ]
     },
     {
       "id": "a6cc-9a65-dbf1-71b0",
       "name": "Deathwing Knights",
-      "points": 250,
+      "points": 240,
       "keywords": [
         "Infantry",
         "Imperium",
@@ -1176,12 +1445,35 @@
           "name": "Watcher in the Dark",
           "description": "Once per battle, in any phase, just after a mortal wound is allocated to an Adeptus Astartes model in this unit, this unit can summon a Watcher in the Dark. When it does, until the end of the phase, models in this unit have the Feel No Pain 4+ ability against mortal wounds."
         }
-      ]
+      ],
+      "pricing": [
+        {
+          "range": "[1,1]",
+          "label": "Your 1st Unit Costs",
+          "costs": [
+            {
+              "models": 5,
+              "points": 240
+            }
+          ]
+        },
+        {
+          "range": "[2,)",
+          "label": "Your 2nd + Unit Costs",
+          "costs": [
+            {
+              "models": 5,
+              "points": 260
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "240"
     },
     {
       "id": "6135-d842-8e61-889d",
       "name": "Deathwing Terminator Squad",
-      "points": 180,
+      "points": 165,
       "keywords": [
         "Infantry",
         "Imperium",
@@ -1269,12 +1561,29 @@
           "name": "Watcher in the Dark",
           "description": "Once per battle, in any phase, just after a mortal wound is allocated to an Adeptus Astartes model in this unit, this unit can summon a Watcher in the Dark. When it does, until the end of the phase, models in this unit have the Feel No Pain 4+ ability against mortal wounds."
         }
-      ]
+      ],
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 5,
+              "points": 165
+            },
+            {
+              "models": 10,
+              "points": 330
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "165/330"
     },
     {
       "id": "f34-e2f9-c98e-1916",
       "name": "Inner Circle Companions",
-      "points": 90,
+      "points": 80,
       "keywords": [
         "Infantry",
         "Imperium",
@@ -1309,7 +1618,7 @@
       ],
       "meleeWeapons": [
         {
-          "name": "➤ Calibanite Greatsword - Strike",
+          "name": "Calibanite Greatsword - Strike",
           "range": "Melee",
           "A": "4",
           "WS": "3+",
@@ -1321,7 +1630,7 @@
           ]
         },
         {
-          "name": "➤ Calibanite Greatsword - Sweep",
+          "name": "Calibanite Greatsword - Sweep",
           "range": "Melee",
           "A": "5",
           "WS": "3+",
@@ -1346,7 +1655,38 @@
           "name": "Emnity for the Unworthy",
           "description": "Each time a model in this unit makes an attack that targets a Character unit, add 1 to the Hit roll."
         }
-      ]
+      ],
+      "pricing": [
+        {
+          "range": "[1,2]",
+          "label": "Your 1st To 2nd Units Cost",
+          "costs": [
+            {
+              "models": 3,
+              "points": 80
+            },
+            {
+              "models": 6,
+              "points": 170
+            }
+          ]
+        },
+        {
+          "range": "[3,)",
+          "label": "Your 3rd + Unit Costs",
+          "costs": [
+            {
+              "models": 3,
+              "points": 90
+            },
+            {
+              "models": 6,
+              "points": 180
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "80/170"
     },
     {
       "id": "a2b6-e35-67a8-d76e",

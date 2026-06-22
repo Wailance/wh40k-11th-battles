@@ -41,7 +41,7 @@ export function InDevPage() {
           <li key={item.to}>
             <Link
               to={item.to}
-              className="app-panel flex min-h-[4rem] items-center gap-3 p-4 transition-colors active:bg-panel-hover"
+              className="app-panel motion-card flex min-h-[4rem] items-center gap-3 p-4"
             >
               <div className="flex h-11 w-11 shrink-0 items-center justify-center rounded-lg border border-crimson/25 bg-crimson-soft font-display text-body tracking-wider text-crimson-bright">
                 {item.glyph}

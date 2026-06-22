@@ -6,7 +6,7 @@
     {
       "id": "dce9-6eb4-fa33-e869",
       "name": "Brother-Captain",
-      "points": 90,
+      "points": 95,
       "keywords": [
         "Terminator",
         "Psyker",
@@ -217,6 +217,24 @@
           "name": "Prism of Potential",
           "description": "Model with the Battle-hardened rank or higher. When selecting Agendas for a battle, if the bearer is in your Crusade army, at the Select Agendas step, you can select one additional Grey Knights Agenda."
         }
+      ],
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 95
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "95",
+      "mfmRole": "leader",
+      "attachTo": [
+        "Brotherhood Terminator Squad",
+        "Paladin Squad"
       ]
     },
     {
@@ -513,6 +531,24 @@
           "name": "Prism of Potential",
           "description": "Model with the Battle-hardened rank or higher. When selecting Agendas for a battle, if the bearer is in your Crusade army, at the Select Agendas step, you can select one additional Grey Knights Agenda."
         }
+      ],
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 70
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "70",
+      "mfmRole": "leader",
+      "attachTo": [
+        "Purgation Squad",
+        "Strike Squad"
       ]
     },
     {
@@ -736,12 +772,30 @@
           "name": "Prism of Potential",
           "description": "Model with the Battle-hardened rank or higher. When selecting Agendas for a battle, if the bearer is in your Crusade army, at the Select Agendas step, you can select one additional Grey Knights Agenda."
         }
+      ],
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 65
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "65",
+      "mfmRole": "leader",
+      "attachTo": [
+        "Brotherhood Terminator Squad",
+        "Paladin Squad"
       ]
     },
     {
       "id": "5412-1f01-b7cc-bf12",
       "name": "Brotherhood Librarian",
-      "points": 80,
+      "points": 90,
       "keywords": [
         "Imperium",
         "Terminator",
@@ -966,6 +1020,34 @@
           "name": "Prism of Potential",
           "description": "Model with the Battle-hardened rank or higher. When selecting Agendas for a battle, if the bearer is in your Crusade army, at the Select Agendas step, you can select one additional Grey Knights Agenda."
         }
+      ],
+      "pricing": [
+        {
+          "range": "[1,1]",
+          "label": "Your 1st Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 90
+            }
+          ]
+        },
+        {
+          "range": "[2,)",
+          "label": "Your 2nd + Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 100
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "90",
+      "mfmRole": "leader",
+      "attachTo": [
+        "Brotherhood Terminator Squad",
+        "Paladin Squad"
       ]
     },
     {
@@ -1219,12 +1301,31 @@
           "name": "Prism of Potential",
           "description": "Model with the Battle-hardened rank or higher. When selecting Agendas for a battle, if the bearer is in your Crusade army, at the Select Agendas step, you can select one additional Grey Knights Agenda."
         }
+      ],
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 70
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "70",
+      "mfmRole": "leader",
+      "attachTo": [
+        "Purgation Squad",
+        "Purifier Squad",
+        "Strike Squad"
       ]
     },
     {
       "id": "a037-a89c-f59f-8b1e",
       "name": "Brotherhood Terminator Squad",
-      "points": 150,
+      "points": 140,
       "keywords": [
         "Battleline",
         "Infantry",
@@ -1376,12 +1477,59 @@
           "name": "Prism of Potential",
           "description": "Model with the Battle-hardened rank or higher. When selecting Agendas for a battle, if the bearer is in your Crusade army, at the Select Agendas step, you can select one additional Grey Knights Agenda."
         }
-      ]
+      ],
+      "pricing": [
+        {
+          "range": "[1,3]",
+          "label": "Your 1st To 3rd Units Cost",
+          "costs": [
+            {
+              "models": 4,
+              "points": 140
+            },
+            {
+              "models": 5,
+              "points": 175
+            },
+            {
+              "models": 8,
+              "points": 300
+            },
+            {
+              "models": 10,
+              "points": 375
+            }
+          ]
+        },
+        {
+          "range": "[4,)",
+          "label": "Your 4th + Unit Costs",
+          "costs": [
+            {
+              "models": 4,
+              "points": 150
+            },
+            {
+              "models": 5,
+              "points": 185
+            },
+            {
+              "models": 8,
+              "points": 310
+            },
+            {
+              "models": 10,
+              "points": 385
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "140/175/300/375"
     },
     {
       "id": "9ddb-760d-8cf7-1c8a",
       "name": "Castellan Crowe",
-      "points": 90,
+      "points": 100,
       "keywords": [
         "Psyker",
         "Imperium",
@@ -1456,6 +1604,23 @@
           "name": "Leader",
           "description": "This model can be attached to the following unit:\n■ Purifier Squad"
         }
+      ],
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 100
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "100",
+      "mfmRole": "leader",
+      "attachTo": [
+        "Purifier Squad"
       ]
     },
     {
@@ -1503,7 +1668,7 @@
         },
         {
           "name": "Leader",
-          "description": "This model can be attached to the following units:\n■ Brotherhood Terminator Squad\n■ Paladin Squad"
+          "description": "This model can be attached to the following units:\n- **^^Brotherhood Terminator Squad^^**\n- **^^Paladin Squad^^**"
         },
         {
           "name": "Paragon of Sanctity",
@@ -1669,12 +1834,30 @@
           "name": "Prism of Potential",
           "description": "Model with the Battle-hardened rank or higher. When selecting Agendas for a battle, if the bearer is in your Crusade army, at the Select Agendas step, you can select one additional Grey Knights Agenda."
         }
+      ],
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 95
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "95",
+      "mfmRole": "leader",
+      "attachTo": [
+        "Brotherhood Terminator Squad",
+        "Paladin Squad"
       ]
     },
     {
       "id": "3625-f9f1-122b-bf9d",
       "name": "Grand Master in Nemesis Dreadknight",
-      "points": 225,
+      "points": 200,
       "keywords": [
         "Character",
         "Vehicle",
@@ -1877,12 +2060,35 @@
           "name": "Prism of Potential",
           "description": "Model with the Battle-hardened rank or higher. When selecting Agendas for a battle, if the bearer is in your Crusade army, at the Select Agendas step, you can select one additional Grey Knights Agenda."
         }
-      ]
+      ],
+      "pricing": [
+        {
+          "range": "[1,2]",
+          "label": "Your 1st To 2nd Units Cost",
+          "costs": [
+            {
+              "models": 1,
+              "points": 200
+            }
+          ]
+        },
+        {
+          "range": "[3,)",
+          "label": "Your 3rd + Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 215
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "200"
     },
     {
       "id": "7256-bb3a-3e79-31fe",
       "name": "Grand Master Voldus",
-      "points": 110,
+      "points": 140,
       "keywords": [
         "Epic Hero",
         "Character",
@@ -1956,6 +2162,24 @@
           "name": "Leader",
           "description": "This model can be attached to the following units:\n■ Brotherhood Terminator Squad\n■ Paladin Squad"
         }
+      ],
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 140
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "140",
+      "mfmRole": "leader",
+      "attachTo": [
+        "Brotherhood Terminator Squad",
+        "Paladin Squad"
       ]
     },
     {
@@ -2110,7 +2334,30 @@
           "description": "Model with the Battle-hardened rank or higher. When selecting Agendas for a battle, if the bearer is in your Crusade army, at the Select Agendas step, you can select one additional Grey Knights Agenda."
         }
       ],
-      "transportCapacity": "This model has a transport capacity of 12 ^^**Grey Knights Infantry^^** models. Each ^^**Terminator^^** model takes up the space of 2 models."
+      "transportCapacity": "This model has a transport capacity of 12 ^^**Grey Knights Infantry^^** models. Each ^^**Terminator^^** model takes up the space of 2 models.",
+      "pricing": [
+        {
+          "range": "[1,2]",
+          "label": "Your 1st To 2nd Units Cost",
+          "costs": [
+            {
+              "models": 1,
+              "points": 220
+            }
+          ]
+        },
+        {
+          "range": "[3,)",
+          "label": "Your 3rd + Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 240
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "220"
     },
     {
       "id": "4c63-cca-8d26-6330",
@@ -2268,12 +2515,35 @@
           "description": "Model with the Battle-hardened rank or higher. When selecting Agendas for a battle, if the bearer is in your Crusade army, at the Select Agendas step, you can select one additional Grey Knights Agenda."
         }
       ],
-      "transportCapacity": "This model has a transport capacity of 16 ^^**Grey Knights Infantry^^** models. Each ^^**Terminator^^** model takes up the space of 2 models."
+      "transportCapacity": "This model has a transport capacity of 16 ^^**Grey Knights Infantry^^** models. Each ^^**Terminator^^** model takes up the space of 2 models.",
+      "pricing": [
+        {
+          "range": "[1,2]",
+          "label": "Your 1st To 2nd Units Cost",
+          "costs": [
+            {
+              "models": 1,
+              "points": 220
+            }
+          ]
+        },
+        {
+          "range": "[3,)",
+          "label": "Your 3rd + Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 240
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "220"
     },
     {
       "id": "ada7-eb0b-c920-d77f",
       "name": "Land Raider Redeemer",
-      "points": 270,
+      "points": 250,
       "keywords": [
         "Grenades",
         "Imperium",
@@ -2426,7 +2696,30 @@
           "description": "Model with the Battle-hardened rank or higher. When selecting Agendas for a battle, if the bearer is in your Crusade army, at the Select Agendas step, you can select one additional Grey Knights Agenda."
         }
       ],
-      "transportCapacity": "This model has a transport capacity of 14 ^^**Grey Knights Infantry^^** models. Each ^^**Terminator^^** model takes up the space of 2 models"
+      "transportCapacity": "This model has a transport capacity of 14 ^^**Grey Knights Infantry^^** models. Each ^^**Terminator^^** model takes up the space of 2 models",
+      "pricing": [
+        {
+          "range": "[1,2]",
+          "label": "Your 1st To 2nd Units Cost",
+          "costs": [
+            {
+              "models": 1,
+              "points": 250
+            }
+          ]
+        },
+        {
+          "range": "[3,)",
+          "label": "Your 3rd + Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 270
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "250"
     },
     {
       "id": "841f-98b-fbf3-c8ee",
@@ -2546,7 +2839,20 @@
           "description": "Model with the Battle-hardened rank or higher. When selecting Agendas for a battle, if the bearer is in your Crusade army, at the Select Agendas step, you can select one additional Grey Knights Agenda."
         }
       ],
-      "transportCapacity": "This model has a transport capacity of 6 ^^**Grey Knights Infantry^^** models. It cannot transport ^^**Terminator^^** models."
+      "transportCapacity": "This model has a transport capacity of 6 ^^**Grey Knights Infantry^^** models. It cannot transport ^^**Terminator^^** models.",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 85
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "85"
     },
     {
       "id": "5ffd-f698-a1bb-fba7",
@@ -2666,7 +2972,20 @@
           "description": "Model with the Battle-hardened rank or higher. When selecting Agendas for a battle, if the bearer is in your Crusade army, at the Select Agendas step, you can select one additional Grey Knights Agenda."
         }
       ],
-      "transportCapacity": "This model has a transport capacity of 12 ^^**Grey Knights Infantry^^** models. It cannot transport ^^**Terminator^^** models."
+      "transportCapacity": "This model has a transport capacity of 12 ^^**Grey Knights Infantry^^** models. It cannot transport ^^**Terminator^^** models.",
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 80
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "80"
     },
     {
       "id": "fa-e288-2107-d22e",
@@ -2774,7 +3093,20 @@
           "name": "Prism of Potential",
           "description": "Model with the Battle-hardened rank or higher. When selecting Agendas for a battle, if the bearer is in your Crusade army, at the Select Agendas step, you can select one additional Grey Knights Agenda."
         }
-      ]
+      ],
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 160
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "160"
     },
     {
       "id": "2efe-459b-9562-e7a9",
@@ -2893,7 +3225,30 @@
           "description": "Model with the Battle-hardened rank or higher. When selecting Agendas for a battle, if the bearer is in your Crusade army, at the Select Agendas step, you can select one additional Grey Knights Agenda."
         }
       ],
-      "transportCapacity": "This model has a transport capacity of 12 ^^**Grey Knights Infantry^^** models and 1 ^^**Grey Knights Venerable Dreadnought^^** model. Each ^^**Terminator^^** model takes up the space of 2 models."
+      "transportCapacity": "This model has a transport capacity of 12 ^^**Grey Knights Infantry^^** models and 1 ^^**Grey Knights Venerable Dreadnought^^** model. Each ^^**Terminator^^** model takes up the space of 2 models.",
+      "pricing": [
+        {
+          "range": "[1,1]",
+          "label": "Your 1st Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 280
+            }
+          ]
+        },
+        {
+          "range": "[2,)",
+          "label": "Your 2nd + Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 300
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "280"
     },
     {
       "id": "84ac-b9ea-921f-9082",
@@ -3000,12 +3355,25 @@
           "name": "Prism of Potential",
           "description": "Model with the Battle-hardened rank or higher. When selecting Agendas for a battle, if the bearer is in your Crusade army, at the Select Agendas step, you can select one additional Grey Knights Agenda."
         }
-      ]
+      ],
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 170
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "170"
     },
     {
       "id": "bd43-b303-66e0-4c10",
       "name": "Venerable Dreadnought",
-      "points": 140,
+      "points": 130,
       "keywords": [
         "Walker",
         "Vehicle",
@@ -3025,8 +3393,32 @@
         "LD": "6+",
         "OC": "3"
       },
-      "rangedWeapons": [],
-      "meleeWeapons": [],
+      "rangedWeapons": [
+        {
+          "name": "Assault cannon",
+          "range": "24\"",
+          "A": "6",
+          "BS": "3+",
+          "S": "6",
+          "AP": "0",
+          "D": "1",
+          "keywords": [
+            "Devastating Wounds"
+          ]
+        }
+      ],
+      "meleeWeapons": [
+        {
+          "name": "Dreadnought combat weapon",
+          "range": "Melee",
+          "A": "5",
+          "WS": "3+",
+          "S": "12",
+          "AP": "-2",
+          "D": "3",
+          "keywords": []
+        }
+      ],
       "abilities": [
         {
           "name": "Guidance of the Ancients (Psychic)",
@@ -3196,7 +3588,30 @@
           "name": "Shield of Admonishment",
           "description": "Each time a melee attack targets the bearer, subtract 1 from the Hit roll."
         }
-      ]
+      ],
+      "pricing": [
+        {
+          "range": "[1,2]",
+          "label": "Your 1st To 2nd Units Cost",
+          "costs": [
+            {
+              "models": 1,
+              "points": 130
+            }
+          ]
+        },
+        {
+          "range": "[3,)",
+          "label": "Your 3rd + Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 140
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "130"
     },
     {
       "id": "d9f7-71b7-8e67-7f44",
@@ -3305,7 +3720,38 @@
           "name": "Prism of Potential",
           "description": "Model with the Battle-hardened rank or higher. When selecting Agendas for a battle, if the bearer is in your Crusade army, at the Select Agendas step, you can select one additional Grey Knights Agenda."
         }
-      ]
+      ],
+      "pricing": [
+        {
+          "range": "[1,2]",
+          "label": "Your 1st To 2nd Units Cost",
+          "costs": [
+            {
+              "models": 5,
+              "points": 125
+            },
+            {
+              "models": 10,
+              "points": 250
+            }
+          ]
+        },
+        {
+          "range": "[3,)",
+          "label": "Your 3rd + Unit Costs",
+          "costs": [
+            {
+              "models": 5,
+              "points": 135
+            },
+            {
+              "models": 10,
+              "points": 260
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "125/250"
     },
     {
       "id": "7a19-5235-692b-320d",
@@ -3397,7 +3843,7 @@
     {
       "id": "5458-a458-c51d-c4e9",
       "name": "Nemesis Dreadknight",
-      "points": 210,
+      "points": 195,
       "keywords": [
         "Vehicle",
         "Walker",
@@ -3416,7 +3862,18 @@
         "OC": "4"
       },
       "rangedWeapons": [],
-      "meleeWeapons": [],
+      "meleeWeapons": [
+        {
+          "name": "Dreadfists",
+          "range": "Melee",
+          "A": "6",
+          "WS": "2+",
+          "S": "6",
+          "AP": "-1",
+          "D": "1",
+          "keywords": []
+        }
+      ],
       "abilities": [
         {
           "name": "Indomitable Spirit (Psychic)",
@@ -3474,12 +3931,35 @@
           "name": "Prism of Potential",
           "description": "Model with the Battle-hardened rank or higher. When selecting Agendas for a battle, if the bearer is in your Crusade army, at the Select Agendas step, you can select one additional Grey Knights Agenda."
         }
-      ]
+      ],
+      "pricing": [
+        {
+          "range": "[1,2]",
+          "label": "Your 1st To 2nd Units Cost",
+          "costs": [
+            {
+              "models": 1,
+              "points": 195
+            }
+          ]
+        },
+        {
+          "range": "[3,)",
+          "label": "Your 3rd + Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 210
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "195"
     },
     {
       "id": "6528-4634-c2cf-2840",
       "name": "Paladin Squad",
-      "points": 180,
+      "points": 170,
       "keywords": [
         "Infantry",
         "Grenades",
@@ -3630,12 +4110,59 @@
           "name": "Prism of Potential",
           "description": "Model with the Battle-hardened rank or higher. When selecting Agendas for a battle, if the bearer is in your Crusade army, at the Select Agendas step, you can select one additional Grey Knights Agenda."
         }
-      ]
+      ],
+      "pricing": [
+        {
+          "range": "[1,2]",
+          "label": "Your 1st To 2nd Units Cost",
+          "costs": [
+            {
+              "models": 4,
+              "points": 170
+            },
+            {
+              "models": 5,
+              "points": 215
+            },
+            {
+              "models": 8,
+              "points": 360
+            },
+            {
+              "models": 10,
+              "points": 450
+            }
+          ]
+        },
+        {
+          "range": "[3,)",
+          "label": "Your 3rd + Unit Costs",
+          "costs": [
+            {
+              "models": 4,
+              "points": 185
+            },
+            {
+              "models": 5,
+              "points": 230
+            },
+            {
+              "models": 8,
+              "points": 375
+            },
+            {
+              "models": 10,
+              "points": 465
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "170/215/360/450"
     },
     {
       "id": "e8ad-bd40-5952-6859",
       "name": "Purgation Squad",
-      "points": 115,
+      "points": 110,
       "keywords": [
         "Psyker",
         "Imperium",
@@ -3738,12 +4265,43 @@
           "name": "Prism of Potential",
           "description": "Model with the Battle-hardened rank or higher. When selecting Agendas for a battle, if the bearer is in your Crusade army, at the Select Agendas step, you can select one additional Grey Knights Agenda."
         }
-      ]
+      ],
+      "pricing": [
+        {
+          "range": "[1,2]",
+          "label": "Your 1st To 2nd Units Cost",
+          "costs": [
+            {
+              "models": 5,
+              "points": 110
+            },
+            {
+              "models": 10,
+              "points": 220
+            }
+          ]
+        },
+        {
+          "range": "[3,)",
+          "label": "Your 3rd + Unit Costs",
+          "costs": [
+            {
+              "models": 5,
+              "points": 120
+            },
+            {
+              "models": 10,
+              "points": 230
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "110/220"
     },
     {
       "id": "8865-df22-1629-bf02",
       "name": "Purifier Squad",
-      "points": 125,
+      "points": 130,
       "keywords": [
         "Psyker",
         "Imperium",
@@ -3860,7 +4418,38 @@
           "name": "Prism of Potential",
           "description": "Model with the Battle-hardened rank or higher. When selecting Agendas for a battle, if the bearer is in your Crusade army, at the Select Agendas step, you can select one additional Grey Knights Agenda."
         }
-      ]
+      ],
+      "pricing": [
+        {
+          "range": "[1,2]",
+          "label": "Your 1st To 2nd Units Cost",
+          "costs": [
+            {
+              "models": 5,
+              "points": 130
+            },
+            {
+              "models": 10,
+              "points": 260
+            }
+          ]
+        },
+        {
+          "range": "[3,)",
+          "label": "Your 3rd + Unit Costs",
+          "costs": [
+            {
+              "models": 5,
+              "points": 140
+            },
+            {
+              "models": 10,
+              "points": 270
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "130/260"
     },
     {
       "id": "35ed-7890-6c56-18b7",
@@ -3910,7 +4499,7 @@
           ]
         },
         {
-          "name": "➤ Plasma cannon - standard",
+          "name": "Plasma cannon - standard",
           "range": "36\"",
           "A": "D3",
           "BS": "4+",
@@ -3923,7 +4512,7 @@
           ]
         },
         {
-          "name": "➤ Plasma cannon - supercharge",
+          "name": "Plasma cannon - supercharge",
           "range": "36\"",
           "A": "D3",
           "BS": "4+",
@@ -4182,7 +4771,24 @@
           "name": "Prism of Potential",
           "description": "Model with the Battle-hardened rank or higher. When selecting Agendas for a battle, if the bearer is in your Crusade army, at the Select Agendas step, you can select one additional Grey Knights Agenda."
         }
-      ]
+      ],
+      "pricing": [
+        {
+          "range": "[1,)",
+          "label": "Your Unit Costs",
+          "costs": [
+            {
+              "models": 5,
+              "points": 120
+            },
+            {
+              "models": 10,
+              "points": 240
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "120/240"
     },
     {
       "id": "8989-2fd2-4d29-e795",
@@ -4307,7 +4913,30 @@
           "description": "Model with the Battle-hardened rank or higher. When selecting Agendas for a battle, if the bearer is in your Crusade army, at the Select Agendas step, you can select one additional Grey Knights Agenda."
         }
       ],
-      "transportCapacity": "This model has a transport capacity of 30 ^^**Grey Knights Infantry^^** models. Each ^^**Terminator^^** model takes up the space of 2 models."
+      "transportCapacity": "This model has a transport capacity of 30 ^^**Grey Knights Infantry^^** models. Each ^^**Terminator^^** model takes up the space of 2 models.",
+      "pricing": [
+        {
+          "range": "[1,1]",
+          "label": "Your 1st Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 805
+            }
+          ]
+        },
+        {
+          "range": "[2,)",
+          "label": "Your 2nd + Unit Costs",
+          "costs": [
+            {
+              "models": 1,
+              "points": 855
+            }
+          ]
+        }
+      ],
+      "pointsLabel": "805"
     },
     {
       "id": "69d-a656-fde3-6c3e",
@@ -4507,7 +5136,7 @@
           ]
         },
         {
-          "name": "➤ Heavy plasma cannon - standard",
+          "name": "Heavy plasma cannon - standard",
           "range": "36\"",
           "A": "D3",
           "BS": "3+",
@@ -4519,7 +5148,7 @@
           ]
         },
         {
-          "name": "➤ Heavy plasma cannon - supercharge",
+          "name": "Heavy plasma cannon - supercharge",
           "range": "36\"",
           "A": "D3",
           "BS": "3+",
@@ -4568,7 +5197,7 @@
           ]
         },
         {
-          "name": "➤ Missile launcher - frag",
+          "name": "Missile launcher - frag",
           "range": "48\"",
           "A": "D6",
           "BS": "3+",
@@ -4580,7 +5209,7 @@
           ]
         },
         {
-          "name": "➤ Missile launcher - krak",
+          "name": "Missile launcher - krak",
           "range": "48\"",
           "A": "1",
           "BS": "3+",
@@ -4882,7 +5511,7 @@
           ]
         },
         {
-          "name": "➤ Heavy plasma cannon - standard",
+          "name": "Heavy plasma cannon - standard",
           "range": "36\"",
           "A": "D3",
           "BS": "3+",
@@ -4894,7 +5523,7 @@
           ]
         },
         {
-          "name": "➤ Heavy plasma cannon - supercharge",
+          "name": "Heavy plasma cannon - supercharge",
           "range": "36\"",
           "A": "D3",
           "BS": "3+",
@@ -5188,7 +5817,7 @@
           ]
         },
         {
-          "name": "➤ Nemesis greatsword - strike",
+          "name": "Nemesis greatsword - strike",
           "range": "Melee",
           "A": "5",
           "WS": "2+",
@@ -5200,7 +5829,7 @@
           ]
         },
         {
-          "name": "➤ Nemesis greatsword - sweep",
+          "name": "Nemesis greatsword - sweep",
           "range": "Melee",
           "A": "10",
           "WS": "2+",
@@ -5400,7 +6029,7 @@
           ]
         },
         {
-          "name": "➤ Heavy plasma cannon - standard",
+          "name": "Heavy plasma cannon - standard",
           "range": "36\"",
           "A": "D3",
           "BS": "3+",
@@ -5412,7 +6041,7 @@
           ]
         },
         {
-          "name": "➤ Heavy plasma cannon - supercharge",
+          "name": "Heavy plasma cannon - supercharge",
           "range": "36\"",
           "A": "D3",
           "BS": "3+",
@@ -5706,7 +6335,7 @@
           ]
         },
         {
-          "name": "➤ Nemesis greatsword - strike",
+          "name": "Nemesis greatsword - strike",
           "range": "Melee",
           "A": "5",
           "WS": "2+",
@@ -5718,7 +6347,7 @@
           ]
         },
         {
-          "name": "➤ Nemesis greatsword - sweep",
+          "name": "Nemesis greatsword - sweep",
           "range": "Melee",
           "A": "10",
           "WS": "2+",
@@ -5913,7 +6542,7 @@
           ]
         },
         {
-          "name": "➤ Heavy plasma cannon - standard",
+          "name": "Heavy plasma cannon - standard",
           "range": "36\"",
           "A": "D3",
           "BS": "3+",
@@ -5925,7 +6554,7 @@
           ]
         },
         {
-          "name": "➤ Heavy plasma cannon - supercharge",
+          "name": "Heavy plasma cannon - supercharge",
           "range": "36\"",
           "A": "D3",
           "BS": "3+",
@@ -6219,7 +6848,7 @@
           ]
         },
         {
-          "name": "➤ Nemesis greatsword - strike",
+          "name": "Nemesis greatsword - strike",
           "range": "Melee",
           "A": "5",
           "WS": "2+",
@@ -6231,7 +6860,7 @@
           ]
         },
         {
-          "name": "➤ Nemesis greatsword - sweep",
+          "name": "Nemesis greatsword - sweep",
           "range": "Melee",
           "A": "10",
           "WS": "2+",

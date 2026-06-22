@@ -9,8 +9,11 @@
     "dev": "vite",
     "build": "node scripts/generate-pwa-icons.mjs && tsc -b && vite build",
     "build:pwa-icons": "node scripts/generate-pwa-icons.mjs",
-    "verify": "node scripts/verify-missions.mjs && npx --yes tsx scripts/verify-mission-scoring.ts && node scripts/verify-faction-map.mjs && node scripts/verify-list-engine.mjs",
+    "verify": "node scripts/verify-missions.mjs && npx --yes tsx scripts/verify-mission-scoring.ts && node scripts/verify-faction-map.mjs && node scripts/verify-list-engine.mjs && node scripts/verify-datasheets.mjs && node scripts/verify-catalog.mjs && node scripts/verify-mfm-prices.mjs && node scripts/verify-loadouts.mjs",
     "build:army-data": "node scripts/build-army-data.mjs",
+    "fetch:faction-icons": "node scripts/fetch-faction-icons.mjs",
+    "merge:mfm": "node scripts/merge-mfm-data.mjs",
+    "sanitize:datasheets": "node scripts/sanitize-curated-datasheets.mjs",
     "build:unit-art": "node scripts/build-unit-art.mjs",
     "setup-maps": "node scripts/setup-map-assets.mjs",
     "fetch-rules-pdfs": "bash scripts/fetch-rules-pdfs.sh",
@@ -43,6 +46,7 @@
     "typescript": "~6.0.2",
     "typescript-eslint": "^8.59.2",
     "vite": "^8.0.12",
-    "vite-plugin-pwa": "^1.3.0"
+    "vite-plugin-pwa": "^1.3.0",
+    "yaml": "^2.9.0"
   }
 }
