@@ -17,7 +17,7 @@ export function SupportFooter() {
   }
 
   return (
-    <footer className="mt-8 border-t border-white/[0.06] pt-5 pb-2 text-center">
+    <footer className="mt-8 border-t border-white/[0.06] pt-5 pb-1 text-center">
       <p className="font-display text-micro uppercase tracking-widest text-muted">{copy.support.title}</p>
       <button
         type="button"
