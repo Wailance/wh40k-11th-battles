@@ -12,6 +12,7 @@
     "verify": "node scripts/verify-missions.mjs && npx --yes tsx scripts/verify-mission-scoring.ts && node scripts/verify-faction-map.mjs && node scripts/verify-list-engine.mjs && node scripts/verify-datasheets.mjs && node scripts/verify-catalog.mjs && node scripts/verify-mfm-prices.mjs && node scripts/verify-loadouts.mjs",
     "build:army-data": "node scripts/build-army-data.mjs",
     "fetch:faction-icons": "node scripts/fetch-faction-icons.mjs",
+    "fetch:tournament-lists": "node scripts/fetch-tournament-lists.mjs",
     "merge:mfm": "node scripts/merge-mfm-data.mjs",
     "sanitize:datasheets": "node scripts/sanitize-curated-datasheets.mjs",
     "build:unit-art": "node scripts/build-unit-art.mjs",

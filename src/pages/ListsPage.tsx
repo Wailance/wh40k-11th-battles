@@ -41,6 +41,9 @@ export function ListsPage() {
           {copy.armyLists.newList}
           <span className="app-btn-badge">{copy.armyLists.wipBadge}</span>
         </Link>
+        <Link to="/lists/meta" className="app-btn-muted px-4 py-2.5 text-body">
+          {copy.tournamentLists.button}
+        </Link>
         <button
           type="button"
           className="app-btn-ghost px-4 py-2.5 text-body"

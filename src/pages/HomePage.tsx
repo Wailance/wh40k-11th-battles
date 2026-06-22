@@ -36,6 +36,13 @@ export function HomePage() {
         )}
       </div>
 
+      <FeatureCard
+        to="/lists/meta"
+        title={copy.home.tournamentListsTitle}
+        desc={copy.home.tournamentListsDesc}
+        glyph="TL"
+      />
+
       <ConfirmDialog
         open={confirmNew}
         title={copy.home.newGameWhileActive}

@@ -27,6 +27,9 @@ const InDevPage = lazy(() => import('./pages/InDevPage').then((m) => ({ default:
 const ListBuilderPage = lazy(() =>
   import('./pages/ListBuilderPage').then((m) => ({ default: m.ListBuilderPage })),
 )
+const MetaListsPage = lazy(() =>
+  import('./pages/MetaListsPage').then((m) => ({ default: m.MetaListsPage })),
+)
 
 function LazyPage({ children }: { children: ReactNode }) {
   return <Suspense fallback={<PageLoading />}>{children}</Suspense>
@@ -84,6 +87,14 @@ export default function App() {
             element={
               <LazyPage>
                 <ListsPage />
+              </LazyPage>
+            }
+          />
+          <Route
+            path="lists/meta"
+            element={
+              <LazyPage>
+                <MetaListsPage />
               </LazyPage>
             }
           />
