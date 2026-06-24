@@ -97,7 +97,14 @@ CARDS['Consecrate'] = primary(
     'Purge vs Reconnaissance — kill to consecrate objectives.',
     [
         {'label': 'MECHANIC', 'text': 'Each time a unit from your army destroys an enemy unit, it becomes a Consecration unit. At the end of your turn, each Consecration unit within range of an objective marker (not your home, not already Consecrated) may Consecrate it and cease being a Consecration unit.'},
-        {'label': 'ANY BATTLE ROUND', 'text': 'WHEN: End of your turn. REQUIREMENT: 1–2 objectives are Consecrated by you. REWARD: 3 VP. OR 3+ Consecrated: 6 VP.'},
+        {
+            'label': 'ANY BATTLE ROUND',
+            'text': (
+                'WHEN: End of your turn. REQUIREMENT: 1–2 objectives are Consecrated by you '
+                '(3 VP total, not per objective). REWARD: 3 VP. OR 3+ objectives are Consecrated '
+                'by you (6 VP total). REWARD: 6 VP.'
+            ),
+        },
         *hold_non_home('4 VP', [
             {'label': 'SECOND BATTLE ROUND ONWARDS', 'text': f'WHEN: {CMD} REQUIREMENT: You control more objective markers than your opponent. REWARD: 4 VP.'},
             {'label': 'END OF BATTLE', 'text': 'WHEN: End of the battle. REQUIREMENT: Your opponent\'s home objective is Consecrated. REWARD: 5 VP.'},

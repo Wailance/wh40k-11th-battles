@@ -126,8 +126,8 @@ expect('Outmaneuver', null, [
 
 const outR23 = getMissionScoreOptions('Outmaneuver').find((o) => o.vp === 5)
 const outR4 = getMissionScoreOptions('Outmaneuver').find((o) => o.vp === 6)
-if (!outR23 || outR23.roundMin !== 2 || outR23.roundMax !== 3) {
-  fail('Outmaneuver 5 VP tier should only apply in rounds 2–3')
+if (!outR23 || outR23.roundMin !== 2 || outR23.roundMax !== 5) {
+  fail('Outmaneuver 5 VP tier should apply from round 2 (incl. round 5 end-of-turn for second player)')
 }
 if (!outR4 || outR4.roundMin !== 4 || outR4.roundMax !== 5) {
   fail('Outmaneuver 6 VP tier should only apply in rounds 4–5')
@@ -187,6 +187,56 @@ expect('Smoke and Mirrors', null, [
   { vp: 4, maxCountPerRound: 1 },
   { vp: 10, maxCountPerRound: 1 },
 ])
+
+// --- Consecrate (OR tiers + end-of-battle bonus) ---
+expect('Consecrate', null, [
+  { vp: 3, maxCountPerRound: 1, exclusive: true },
+  { vp: 6, maxCountPerRound: 1, exclusive: true },
+  { vp: 4, maxCountPerRound: 1 },
+  { vp: 4, maxCountPerRound: 1 },
+  { vp: 5, maxCountPerRound: 1 },
+])
+
+const consecrateTiers = getMissionScoreOptions('Consecrate').filter((o) => o.exclusiveGroup)
+if (consecrateTiers.length !== 2 || !consecrateTiers.every((o) => o.vp === 3 || o.vp === 6)) {
+  fail('Consecrate consecration tiers should be exclusive 3 VP / 6 VP')
+}
+const consecrateEnd = getMissionScoreOptions('Consecrate').find((o) => o.vp === 5)
+if (!consecrateEnd || consecrateEnd.roundMin !== 5 || consecrateEnd.roundMax !== 5) {
+  fail('Consecrate 5 VP bonus should only score at end of battle (round 5)')
+}
+if (!consecrateEnd?.label.includes('[End of battle]')) {
+  fail('Consecrate 5 VP option should be labelled as end-of-battle bonus')
+}
+
+// --- Remaining primaries (smoke test counts + key VP) ---
+const PRIMARY_EXPECTATIONS: Record<string, number[]> = {
+  'Meatgrinder': [3, 4, 5],
+  "Destroyer's Wrath": [3, 4, 5],
+  'Unstoppable Force': [3, 4, 5],
+  Punishment: [4, 5, 8],
+  'Immovable Object': [3, 5],
+  'Purge and Secure': [3, 4],
+  'Delaying Action': [2, 3, 4],
+  'Locate and Deny': [4, 5],
+  'Secure Asset': [2, 4],
+  'Extract Relic': [3, 4],
+  'Surveil the Foe': [4, 5],
+  'Vanguard Operation': [2, 4],
+  'Search and Scour': [2, 3, 4, 5],
+}
+
+for (const [name, vps] of Object.entries(PRIMARY_EXPECTATIONS)) {
+  const opts = getMissionScoreOptions(name)
+  const parsed = [...new Set(opts.map((o) => o.vp))].sort((a, b) => a - b)
+  const expected = [...new Set(vps)].sort((a, b) => a - b)
+  if (JSON.stringify(parsed) !== JSON.stringify(expected)) {
+    fail(`${name}: expected VP tiers ${expected.join(', ')}, got ${parsed.join(', ')}`)
+  }
+  if (opts.length < expected.length) {
+    fail(`${name}: expected at least ${expected.length} score options, got ${opts.length}`)
+  }
+}
 
 const triTiers = getMissionScoreOptions('Triangulation').filter((o) => o.label.includes('Triangulated'))
 if (triTiers.length !== 3 || !triTiers.every((o) => o.exclusiveGroup)) {

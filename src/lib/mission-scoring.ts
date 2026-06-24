@@ -43,7 +43,10 @@ export const DEFAULT_CAPS: ScoringCaps = gameData.scoringCaps as ScoringCaps
 function shortenRequirement(text: string): string {
   const req = text.match(/REQUIREMENT:\s*(.+?)(?:\.\s*REWARD:|$)/s)
   if (!req) {
-    const clean = text.replace(/^WHEN:\s*/i, '').trim()
+    const clean = text
+      .replace(/^WHEN:\s*/i, '')
+      .replace(/\s*REWARD:.*$/is, '')
+      .trim()
     return clean.length > 72 ? `${clean.slice(0, 69)}…` : clean
   }
   let s = req[1]
@@ -101,6 +104,7 @@ function inferScoringRules(
 
   const isRepeatable =
     !isCumulativeCap &&
+    !/not per objective/i.test(blockText) &&
     /each time|per unit|per such|per objective|per marker|per terrain|per enemy|per condemned|REWARD:\s*\+?\d+\s*VP\s*(?:each|per\b)/i.test(
       blockText,
     )
@@ -305,7 +309,10 @@ export function getMissionScoreOptions(
       rules.exclusiveGroup === 'or-tiers' ? `${slug(missionName)}-b${blockIdx}` : null
 
     rewards.forEach((reward, rewardIdx) => {
-      const label = reward.label ?? shortenRequirement(block.text)
+      let label = reward.label ?? shortenRequirement(block.text)
+      if (/END OF BATTLE/i.test(block.label) && !/^\[End of battle\]/i.test(label)) {
+        label = `[End of battle] ${label}`
+      }
       options.push({
         id: `${slug(missionName)}-b${blockIdx}-r${rewardIdx}`,
         label,
@@ -430,11 +437,25 @@ function roundCategoryVp(
   round: number,
   card?: string,
 ): number {
+  const exclusiveByGroup = new Map<string, number>()
   let total = 0
+
   for (const opt of options) {
     const key = card ? secondaryScoreKey(card, opt.id) : opt.id
-    total += getTallyCount(tally, key, round) * opt.vp
+    const vp = getTallyCount(tally, key, round) * opt.vp
+    if (vp === 0) continue
+
+    if (opt.exclusiveGroup) {
+      exclusiveByGroup.set(
+        opt.exclusiveGroup,
+        Math.max(exclusiveByGroup.get(opt.exclusiveGroup) ?? 0, vp),
+      )
+    } else {
+      total += vp
+    }
   }
+
+  for (const vp of exclusiveByGroup.values()) total += vp
   return total
 }
 
@@ -444,10 +465,8 @@ function gameCategoryVp(
   card?: string,
 ): number {
   let total = 0
-  for (const opt of options) {
-    const key = card ? secondaryScoreKey(card, opt.id) : opt.id
-    const counts = tally[key] ?? emptyRoundCounts()
-    total += counts.reduce((sum, c) => sum + c * opt.vp, 0)
+  for (let round = 1; round <= 5; round++) {
+    total += roundCategoryVp(tally, options, round, card)
   }
   return total
 }
