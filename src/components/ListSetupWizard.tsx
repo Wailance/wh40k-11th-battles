@@ -251,6 +251,11 @@ export function ListSetupWizard({
 
       {step === 'detachment' && (
         <footer className="shrink-0 border-t border-white/[0.08] px-2 py-2">
+          {!roster?.detachments.length && armyEntry && !loadingFaction && (
+            <p className="mb-2 text-center text-caption text-muted">
+              {copy.armyLists.wizardPickDetachment}
+            </p>
+          )}
           <button
             type="button"
             disabled={!roster?.detachments.length || !!loadingFaction || !armyEntry}

@@ -78,11 +78,20 @@ export function DetachmentPicker({
             !detachmentsRaw ||
             !wouldDetachmentTagConflict(detachmentsRaw, roster.detachments, d.name)
           const canToggle = budgetOk && tagOk
+          const blockedReason = selected
+            ? null
+            : !budgetOk
+              ? copy.dp.tooMany(d.dp, dpLeft)
+              : !tagOk
+                ? copy.armyLists.detachmentTagBlocked
+                : null
           return (
             <button
               key={d.name}
               type="button"
               disabled={!canToggle}
+              title={blockedReason ?? undefined}
+              aria-describedby={blockedReason ? `${d.name}-blocked` : undefined}
               onClick={() =>
                 onPersist(
                   toggleDetachment(roster, det, { detachmentsRaw, catalogEnhancements }),
@@ -98,6 +107,11 @@ export function DetachmentPicker({
               <div className="min-w-0 flex-1">
                 <p className="text-body font-medium text-bone">{formatWoDisplayName(d.name)}</p>
                 {d.note && <p className="mt-0.5 text-caption text-muted">{d.note}</p>}
+                {blockedReason && (
+                  <p id={`${d.name}-blocked`} className="mt-1 text-caption text-status-danger">
+                    {blockedReason}
+                  </p>
+                )}
                 <ForceDispositionBadge fd={d.forceDisposition as ForceDisposition} short />
               </div>
             </button>

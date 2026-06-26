@@ -1,4 +1,4 @@
-import { useEffect, useMemo, useState } from 'react'
+import { useEffect, useMemo, useRef, useState } from 'react'
 import type { CuratedUnit, Enhancement } from '../types/faction-data'
 import type { RosterUnit } from '../types/roster'
 import type { WoCompositionState, WoLineMeta, WoModelComposition, WoUnit } from '../types/warorgan'
@@ -28,6 +28,7 @@ import { enhancementByName } from '../lib/warorgan-enhancements'
 import { leaderCanAttachToBodyguard, parseWoLineMeta, upgradeCost, withWoLineMeta, WO_META_KEY } from '../lib/warorgan-roster'
 import { formatWoDisplayName } from '../lib/warorgan-names'
 import { AppSheet } from './AppSheet'
+import { ConfirmDialog } from './ConfirmDialog'
 import { UnitDatasheet } from './UnitDatasheet'
 
 function ModelRowEditor({
@@ -222,12 +223,17 @@ export function WarOrganUnitEditSheet({
 }) {
   const [state, setState] = useState<WoCompositionState | null>(null)
   const [meta, setMeta] = useState<WoLineMeta>({})
+  const [discardOpen, setDiscardOpen] = useState(false)
+  const initialSnapshot = useRef('')
 
   useEffect(() => {
     if (!open || !line || !woUnit) return
     const existing = parseWarOrganState(line.options)
-    setState(existing ?? defaultWarOrganComposition(woUnit))
-    setMeta(parseWoLineMeta(line.options))
+    const nextState = existing ?? defaultWarOrganComposition(woUnit)
+    const nextMeta = parseWoLineMeta(line.options)
+    setState(nextState)
+    setMeta(nextMeta)
+    initialSnapshot.current = JSON.stringify({ state: nextState, meta: nextMeta })
   }, [open, line, woUnit])
 
   const total = state ? totalModelCount(state) : line?.models ?? 1
@@ -283,6 +289,18 @@ export function WarOrganUnitEditSheet({
     if (next) setState(next)
   }
 
+  function isDirty() {
+    return JSON.stringify({ state, meta }) !== initialSnapshot.current
+  }
+
+  function requestClose() {
+    if (isDirty()) {
+      setDiscardOpen(true)
+      return
+    }
+    onClose()
+  }
+
   function handleSave() {
     const options: Record<string, unknown> = {
       ...line!.options,
@@ -302,20 +320,23 @@ export function WarOrganUnitEditSheet({
       options: merged,
       clearOtherWarlord: Boolean(meta.warlord),
     })
+    onClose()
   }
 
   return (
-    <AppSheet open={open} onClose={onClose} titleId="wo-unit-edit-title" className="wo-unit-edit-sheet">
-      <div className="app-sheet-scroll px-4 pb-8 pt-1">
+    <>
+    <AppSheet open={open} onClose={requestClose} titleId="wo-unit-edit-title" className="wo-unit-edit-sheet">
+      <div className="app-sheet-scroll px-4 pb-4 pt-1">
         <h2 id="wo-unit-edit-title" className="wo-unit-edit-title">
           {formatWoDisplayName(unit.name)}
         </h2>
         <p className="wo-unit-edit-pts tabular-nums">{points} pts</p>
 
         {isCharacter && (
-          <label className="wo-meta-row mt-3 flex items-center gap-2 text-caption">
+          <label className="wo-meta-row wo-meta-row-touch mt-3 flex items-center gap-3 text-body">
             <input
               type="checkbox"
+              className="h-5 w-5 shrink-0"
               checked={Boolean(meta.warlord)}
               onChange={(e) => setMeta((m) => ({ ...m, warlord: e.target.checked || undefined }))}
             />
@@ -428,29 +449,48 @@ export function WarOrganUnitEditSheet({
           </section>
         )}
 
-        <section className="mt-4">
-          <UnitDatasheet
-            unit={unit}
-            enhancementNames={enhancementNames}
-            showAdd={false}
-            pointsLabel={`${points} pts`}
-          />
-        </section>
+        <details className="wo-unit-datasheet mt-4">
+          <summary className="cursor-pointer text-caption font-medium text-muted">
+            {copy.armyLists.showDatasheet}
+          </summary>
+          <section className="mt-3">
+            <UnitDatasheet
+              unit={unit}
+              enhancementNames={enhancementNames}
+              showAdd={false}
+              pointsLabel={`${points} pts`}
+            />
+          </section>
+        </details>
+      </div>
 
-        <div className="mt-6 flex gap-2">
-          <button type="button" onClick={onClose} className="app-btn-ghost flex-1 py-3">
-            {copy.common.cancel}
-          </button>
-          <button
-            type="button"
-            onClick={handleSave}
-            disabled={!totalValid}
-            className="app-btn-primary flex-1 py-3"
-          >
-            {copy.common.save}
-          </button>
-        </div>
+      <div className="wo-unit-edit-footer flex gap-2 border-t border-white/10 px-4 py-3">
+        <button type="button" onClick={requestClose} className="app-btn-ghost flex-1 py-3">
+          {copy.common.cancel}
+        </button>
+        <button
+          type="button"
+          onClick={handleSave}
+          disabled={!totalValid}
+          className="app-btn-primary flex-1 py-3"
+        >
+          {copy.common.save}
+        </button>
       </div>
     </AppSheet>
+
+    <ConfirmDialog
+      open={discardOpen}
+      title={copy.armyLists.unsavedUnitTitle}
+      body={copy.armyLists.unsavedUnitBody}
+      confirmLabel={copy.armyLists.discardChanges}
+      danger
+      onCancel={() => setDiscardOpen(false)}
+      onConfirm={() => {
+        setDiscardOpen(false)
+        onClose()
+      }}
+    />
+  </>
   )
 }

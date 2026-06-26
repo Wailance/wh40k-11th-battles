@@ -675,14 +675,14 @@ a.app-btn {
 
 .bf-catalog-add {
   display: flex;
-  width: 1.75rem;
-  height: 1.75rem;
+  width: 2.75rem;
+  height: 2.75rem;
   align-items: center;
   justify-content: center;
-  border-radius: 8px;
+  border-radius: 10px;
   border: 1px solid rgba(155, 44, 44, 0.45);
   background: rgba(155, 44, 44, 0.22);
-  font-size: 1.125rem;
+  font-size: 1.25rem;
   font-weight: 600;
   line-height: 1;
   color: var(--color-crimson-bright);
@@ -1064,9 +1064,32 @@ a.app-btn {
 
 .wo-home-actions {
   display: grid;
-  grid-template-columns: repeat(2, minmax(0, 9.5rem));
+  grid-template-columns: repeat(3, minmax(0, 1fr));
   gap: 0.75rem;
   margin-bottom: 1rem;
+}
+
+.wo-home-tile--labeled {
+  flex-direction: column;
+  gap: 0.5rem;
+  min-height: 7.5rem;
+  padding: 0.75rem 0.5rem;
+}
+
+.wo-home-tile-label {
+  font-size: var(--text-caption);
+  font-weight: 600;
+  line-height: 1.2;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.88);
+}
+
+.wo-home-tile--search .wo-home-tile-label {
+  margin-bottom: 0.125rem;
+}
+
+.wo-home-tile--search .wo-home-search-input {
+  margin-top: 0.125rem;
 }
 
 .wo-home-tile-wrap {
@@ -1230,6 +1253,129 @@ a.app-btn {
   color: var(--color-bone);
 }
 
+.wo-builder--mobile-dock {
+  padding-bottom: calc(4.25rem + env(safe-area-inset-bottom, 0px));
+}
+
+.wo-builder-dock {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 35;
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  background: rgba(6, 7, 10, 0.96);
+  backdrop-filter: blur(12px);
+  padding: 0.375rem 0.5rem calc(0.375rem + env(safe-area-inset-bottom, 0px));
+}
+
+@media (min-width: 1024px) {
+  .wo-builder-dock {
+    display: none;
+  }
+}
+
+.wo-builder-toast {
+  margin: 0 0.25rem 0.375rem;
+  border-radius: 8px;
+  padding: 0.375rem 0.625rem;
+  text-align: center;
+  font-size: var(--text-caption);
+  color: #b8f0c8;
+  background: rgba(40, 120, 70, 0.35);
+}
+
+.wo-builder-toast.is-error {
+  color: #ffc9c9;
+  background: rgba(140, 40, 40, 0.35);
+}
+
+.wo-builder-dock-row {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.wo-builder-dock-tabs {
+  display: flex;
+  flex: 1;
+  gap: 0.25rem;
+  border-radius: 10px;
+  background: rgba(0, 0, 0, 0.35);
+  padding: 0.25rem;
+}
+
+.wo-builder-dock-tab {
+  flex: 1;
+  min-height: 2.75rem;
+  border-radius: 8px;
+  padding: 0.375rem 0.5rem;
+  font-size: var(--text-micro);
+  font-weight: 600;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--color-muted);
+}
+
+.wo-builder-dock-tab.is-active {
+  background: color-mix(in srgb, var(--wo-main, #2a2d4a) 55%, rgba(255, 255, 255, 0.08) 45%);
+  color: var(--color-bone);
+}
+
+.wo-builder-dock-count {
+  margin-left: 0.25rem;
+  display: inline-flex;
+  min-width: 1.125rem;
+  align-items: center;
+  justify-content: center;
+  border-radius: 999px;
+  padding: 0 0.3rem;
+  font-size: 0.65rem;
+  background: rgba(255, 255, 255, 0.12);
+}
+
+.wo-builder-dock-meta {
+  display: flex;
+  flex-shrink: 0;
+  align-items: center;
+  gap: 0.375rem;
+}
+
+.wo-builder-dock-pts {
+  max-width: 9rem;
+  font-size: var(--text-micro);
+  font-weight: 600;
+  color: var(--color-muted);
+  text-align: right;
+}
+
+.wo-builder-dock-pts.is-over {
+  color: var(--color-status-danger);
+}
+
+.wo-builder-dock-issues {
+  display: inline-flex;
+  min-width: 1.75rem;
+  min-height: 1.75rem;
+  align-items: center;
+  justify-content: center;
+  border-radius: 999px;
+  border: 1px solid rgba(220, 80, 80, 0.45);
+  font-size: var(--text-micro);
+  font-weight: 700;
+  color: #ffc9c9;
+  background: rgba(140, 40, 40, 0.25);
+}
+
+.wo-unit-edit-footer {
+  flex-shrink: 0;
+  background: var(--color-void-raised);
+}
+
+.wo-meta-row-touch {
+  min-height: 2.75rem;
+}
+
 .wo-validation-btn {
   display: inline-flex;
   min-width: 1.375rem;
@@ -1315,6 +1461,74 @@ a.app-btn {
 
 .wo-detachment-sheet {
   background: #12141a;
+}
+
+.wo-detachment-tabs {
+  display: flex;
+  gap: 0.25rem;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+  padding-bottom: 0.5rem;
+}
+
+.wo-detachment-tab {
+  flex: 1;
+  min-height: 2.75rem;
+  border-radius: 8px;
+  padding: 0.5rem 0.625rem;
+  font-size: var(--text-micro);
+  font-weight: 600;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--color-muted);
+}
+
+.wo-detachment-tab.is-active {
+  background: rgba(255, 255, 255, 0.08);
+  color: var(--color-bone);
+}
+
+.wo-detachment-tab:disabled {
+  opacity: 0.35;
+}
+
+.wo-det-reference-block + .wo-det-reference-block {
+  padding-top: 0.25rem;
+  border-top: 1px solid rgba(255, 255, 255, 0.06);
+}
+
+.wo-stratagem {
+  border-radius: 8px;
+  border: 1px solid rgba(255, 255, 255, 0.06);
+  background: rgba(0, 0, 0, 0.2);
+}
+
+.wo-stratagem-trigger {
+  display: flex;
+  width: 100%;
+  min-height: 2.75rem;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.625rem 0.75rem;
+  text-align: left;
+}
+
+.wo-stratagem-chevron {
+  margin-left: auto;
+  width: 0.5rem;
+  height: 0.5rem;
+  border-right: 2px solid currentColor;
+  border-bottom: 2px solid currentColor;
+  color: var(--color-muted);
+  transform: rotate(45deg);
+  transition: transform 0.15s ease;
+}
+
+.wo-stratagem-chevron.is-open {
+  transform: rotate(-135deg);
+}
+
+.wo-stratagem-body {
+  padding: 0 0.75rem 0.75rem;
 }
 
 .bf-split-panel--info {
@@ -1441,13 +1655,34 @@ a.app-btn {
   background: rgba(255, 255, 255, 0.03);
 }
 
-.bf-row-menu-btn {
+.bf-roster-delete {
   display: flex;
-  height: 1.75rem;
-  width: 1.75rem;
+  width: 2.75rem;
+  height: 2.75rem;
+  flex-shrink: 0;
   align-items: center;
   justify-content: center;
-  border-radius: 0.375rem;
+  border-radius: 0.5rem;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  background: rgba(255, 255, 255, 0.04);
+  font-size: 1.35rem;
+  line-height: 1;
+  color: rgba(255, 255, 255, 0.65);
+}
+
+.bf-roster-delete:hover {
+  color: var(--color-status-danger);
+  border-color: rgba(220, 80, 80, 0.35);
+  background: rgba(220, 80, 80, 0.12);
+}
+
+.bf-row-menu-btn {
+  display: flex;
+  height: 2.75rem;
+  width: 2.75rem;
+  align-items: center;
+  justify-content: center;
+  border-radius: 0.5rem;
   border: 1px solid rgba(255, 255, 255, 0.1);
   color: var(--color-muted);
   transition: color 0.15s ease, background-color 0.15s ease;

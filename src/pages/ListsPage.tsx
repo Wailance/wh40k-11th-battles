@@ -1,5 +1,7 @@
 import { useEffect, useMemo, useRef, useState } from 'react'
 import { Link } from 'react-router-dom'
+import { ConfirmDialog } from '../components/ConfirmDialog'
+import { NoticeDialog } from '../components/NoticeDialog'
 import { copy } from '../lib/copy'
 import { deleteRoster, importRoster, loadRosters } from '../lib/roster-storage'
 import { loadWarOrganMeta } from '../lib/warorgan-theme'
@@ -9,6 +11,8 @@ export function ListsPage() {
   const [query, setQuery] = useState('')
   const [datasetLabel, setDatasetLabel] = useState('Warhammer 40k 11th')
   const [versionLabel, setVersionLabel] = useState('')
+  const [deleteId, setDeleteId] = useState<string | null>(null)
+  const [importError, setImportError] = useState(false)
   const fileRef = useRef<HTMLInputElement>(null)
 
   useEffect(() => {
@@ -32,7 +36,7 @@ export function ListsPage() {
         importRoster(String(reader.result))
         refresh()
       } catch {
-        alert(copy.armyLists.importError)
+        setImportError(true)
       }
     }
     reader.readAsText(file)
@@ -57,25 +61,27 @@ export function ListsPage() {
       </header>
 
       <div className="wo-home-actions">
-        <div className="wo-home-tile-wrap">
-          <Link to="/lists/new" className="wo-home-tile" aria-label={copy.armyLists.newList}>
-            <span className="wo-home-tile-icon" aria-hidden>
-              +
-            </span>
-          </Link>
-          <button
-            type="button"
-            className="wo-home-tile-menu"
-            aria-label={copy.armyLists.import}
-            onClick={() => fileRef.current?.click()}
-          >
-            ···
-          </button>
-        </div>
-        <label className="wo-home-tile wo-home-tile--search">
+        <Link to="/lists/new" className="wo-home-tile wo-home-tile--labeled">
+          <span className="wo-home-tile-icon" aria-hidden>
+            +
+          </span>
+          <span className="wo-home-tile-label">{copy.armyLists.newList}</span>
+        </Link>
+        <button
+          type="button"
+          className="wo-home-tile wo-home-tile--labeled"
+          onClick={() => fileRef.current?.click()}
+        >
+          <span className="wo-home-tile-icon" aria-hidden>
+            ↓
+          </span>
+          <span className="wo-home-tile-label">{copy.armyLists.importList}</span>
+        </button>
+        <label className="wo-home-tile wo-home-tile--labeled wo-home-tile--search">
           <span className="wo-home-tile-icon" aria-hidden>
             ⌕
           </span>
+          <span className="wo-home-tile-label">{copy.armyLists.searchListsLabel}</span>
           <input
             value={query}
             onChange={(e) => setQuery(e.target.value)}
@@ -119,12 +125,7 @@ export function ListsPage() {
               <button
                 type="button"
                 className="wo-home-list-delete"
-                onClick={() => {
-                  if (confirm(copy.armyLists.deleteConfirm)) {
-                    deleteRoster(r.id)
-                    refresh()
-                  }
-                }}
+                onClick={() => setDeleteId(r.id)}
               >
                 {copy.history.delete}
               </button>
@@ -132,6 +133,27 @@ export function ListsPage() {
           ))}
         </ul>
       )}
+
+      <ConfirmDialog
+        open={Boolean(deleteId)}
+        title={copy.armyLists.deleteConfirm}
+        body={copy.armyLists.deleteConfirm}
+        confirmLabel={copy.armyLists.deleteUnit}
+        danger
+        onCancel={() => setDeleteId(null)}
+        onConfirm={() => {
+          if (deleteId) deleteRoster(deleteId)
+          setDeleteId(null)
+          refresh()
+        }}
+      />
+
+      <NoticeDialog
+        open={importError}
+        title={copy.armyLists.importError}
+        body={copy.armyLists.importError}
+        onClose={() => setImportError(false)}
+      />
     </div>
   )
 }

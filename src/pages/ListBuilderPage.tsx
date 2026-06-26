@@ -1,6 +1,8 @@
 import { useEffect, useMemo, useRef, useState, type CSSProperties, type ReactNode } from 'react'
 import { useNavigate, useParams } from 'react-router-dom'
-import { DetachmentSheet } from '../components/DetachmentSheet'
+import { DetachmentSheet, type DetachmentSheetSection } from '../components/DetachmentSheet'
+import { ConfirmDialog } from '../components/ConfirmDialog'
+import { NoticeDialog } from '../components/NoticeDialog'
 import { ListSetupWizard, type SetupStep } from '../components/ListSetupWizard'
 import { RosterUnitEditSheet } from '../components/RosterUnitEditSheet'
 import { UnitDetailSheet } from '../components/UnitDetailSheet'
@@ -16,7 +18,7 @@ import {
 import { loadFactionLoadouts } from '../lib/loadout-loader'
 import { unitHasEditableLoadout } from '../lib/loadout-engine'
 import { WoBuilderMenu } from '../components/WoBuilderMenu'
-import { WoBuilderTabs, WoPaneTabs } from '../components/WoBuilderTabs'
+import { WoBuilderMobileDock, WoBuilderTabs } from '../components/WoBuilderTabs'
 import { WoUnitInfoPanel } from '../components/WoUnitInfoPanel'
 import { WarOrganUnitEditSheet } from '../components/WarOrganUnitEditSheet'
 import { useMinWidth } from '../hooks/useMediaQuery'
@@ -107,7 +109,12 @@ export function ListBuilderPage() {
   const [previewUnit, setPreviewUnit] = useState<CuratedUnit | null>(null)
   const [woPalette, setWoPalette] = useState<WoFactionPalette | null>(null)
   const [detachmentSheetOpen, setDetachmentSheetOpen] = useState(false)
+  const [detachmentSheetSection, setDetachmentSheetSection] =
+    useState<DetachmentSheetSection>('detachments')
   const [issuesOpen, setIssuesOpen] = useState(false)
+  const [addToast, setAddToast] = useState<{ message: string; kind: 'ok' | 'err' } | null>(null)
+  const [notice, setNotice] = useState<{ title: string; body: string } | null>(null)
+  const [confirmDelete, setConfirmDelete] = useState(false)
   const isDesktopBuilder = useMinWidth(1024)
 
   useEffect(() => {
@@ -176,7 +183,7 @@ export function ListBuilderPage() {
           setSetupComplete(true)
         }
       } catch {
-        if (!cancelled) alert(copy.armyLists.loadError)
+        if (!cancelled) setNotice({ title: copy.armyLists.loadError, body: copy.armyLists.loadError })
       } finally {
         if (!cancelled) setLoading(false)
       }
@@ -235,6 +242,21 @@ export function ListBuilderPage() {
     if (woBundle) return validateWarOrganRoster(roster, catalog, woBundle)
     return validateRoster(roster, catalog)
   }, [roster, catalog, woBundle])
+
+  const issueErrorCount = useMemo(
+    () => issues.filter((i) => i.level === 'error').length,
+    [issues],
+  )
+
+  useEffect(() => {
+    if (issueErrorCount > 0) setIssuesOpen(true)
+  }, [issueErrorCount, roster?.pointsTotal, roster?.units.length])
+
+  useEffect(() => {
+    if (!addToast) return
+    const timer = window.setTimeout(() => setAddToast(null), 2800)
+    return () => window.clearTimeout(timer)
+  }, [addToast])
 
   const dpUsed = roster?.detachments.reduce((s, d) => s + d.dp, 0) ?? 0
   const rosterCountById = useMemo(() => {
@@ -351,31 +373,50 @@ export function ListBuilderPage() {
     void navigator.clipboard.readText().then((text) => {
       const parsed = parseImportedListJson(text)
       if (!parsed || !roster) {
-        alert(copy.armyLists.importError)
+        setNotice({ title: copy.armyLists.importError, body: copy.armyLists.importError })
         return
       }
       if ('units' in parsed && parsed.army === roster.army) {
         persist(parsed)
+        setNotice({ title: copy.armyLists.importSuccess, body: copy.armyLists.importSuccess })
         return
       }
       if (woBundle && 'Units' in parsed) {
         const converted = convertWoArmyListToRoster(parsed, woBundle, roster)
         if (converted) {
-          if (converted.skippedUnits.length > 0) {
-            console.warn('Import skipped units:', converted.skippedUnits)
-          }
           persist(refreshRoster(converted.roster, catalog, woBundle.unitDefs, enhancements))
+          if (converted.skippedUnits.length > 0) {
+            const preview = converted.skippedUnits.slice(0, 3).join(', ')
+            const suffix =
+              converted.skippedUnits.length > 3
+                ? ` +${converted.skippedUnits.length - 3} more`
+                : ''
+            setNotice({
+              title: copy.armyLists.importSuccess,
+              body: copy.armyLists.importSkipped(
+                converted.skippedUnits.length,
+                `${preview}${suffix}`,
+              ),
+            })
+          } else {
+            setNotice({ title: copy.armyLists.importSuccess, body: copy.armyLists.importSuccess })
+          }
           return
         }
       }
-      alert(copy.armyLists.importError)
+      setNotice({ title: copy.armyLists.importError, body: copy.armyLists.importError })
     })
   }
 
   function handleDelete() {
     if (!roster || isNewRoute) return
-    if (!window.confirm(copy.armyLists.deleteConfirm)) return
+    setConfirmDelete(true)
+  }
+
+  function confirmDeleteList() {
+    if (!roster || isNewRoute) return
     deleteRoster(roster.id)
+    setConfirmDelete(false)
     navigate('/lists')
   }
 
@@ -418,12 +459,24 @@ export function ListBuilderPage() {
 
   if (!roster) return <PageLoading label={copy.armyLists.loading} />
 
-  const limit = BATTLE_SIZE_LIMITS[roster.battleSize]
-  const overLimit = roster.pointsTotal > limit
-  const rosterUnitCount = roster.units.length
+  const activeRoster = roster
+  const limit = BATTLE_SIZE_LIMITS[activeRoster.battleSize]
+  const overLimit = activeRoster.pointsTotal > limit
+  const rosterUnitCount = activeRoster.units.length
   const issueErrors = issues.filter((i) => i.level === 'error')
   const issueWarnings = issues.filter((i) => i.level === 'warning')
-  const issueBadgeCount = issueErrors.length || issueWarnings.length
+  const issueBadgeCount = issueErrors.length + issueWarnings.length
+
+  function handleQuickAdd(u: CuratedUnit) {
+    const max = maxCopiesForUnit(u, activeRoster.battleSize)
+    if (!canAddUnit(activeRoster, u)) {
+      setAddToast({ message: copy.armyLists.unitAtMaxCopies(max), kind: 'err' })
+      return
+    }
+    const woUnit = woBundle ? getWarOrganUnitDef(woBundle, u.id) : undefined
+    persist(addUnit(activeRoster, u, 1, woUnit))
+    setAddToast({ message: copy.armyLists.addedUnit(formatWoDisplayName(u.name)), kind: 'ok' })
+  }
 
   function handleEditLine(entry: RosterLineEntry) {
     const woUnit = woBundle ? getWarOrganUnitDef(woBundle, entry.catalog.id) : undefined
@@ -452,7 +505,7 @@ export function ListBuilderPage() {
 
   return (
     <div
-      className="bf-viewport bf-builder wo-builder -mx-2"
+      className={`bf-viewport bf-builder wo-builder -mx-2${!isDesktopBuilder && builderTab === 'units' ? ' wo-builder--mobile-dock' : ''}`}
       style={woThemeStyle(woPalette) as CSSProperties}
     >
       <header className="wo-builder-header shrink-0 px-2 py-2">
@@ -461,8 +514,14 @@ export function ListBuilderPage() {
             showLegends={showLegends}
             hasLegendsUnits={hasLegendsUnits}
             onToggleLegends={() => setShowLegends((v) => !v)}
-            onOpenDetachments={() => setDetachmentSheetOpen(true)}
-            onOpenStratagems={() => setDetachmentSheetOpen(true)}
+            onOpenDetachments={() => {
+              setDetachmentSheetSection('detachments')
+              setDetachmentSheetOpen(true)
+            }}
+            onOpenStratagems={() => {
+              setDetachmentSheetSection('reference')
+              setDetachmentSheetOpen(true)
+            }}
             onExportJson={exportJson}
             onExportWoJson={woBundle ? exportWoJson : undefined}
             onImportWo={woBundle ? importFromClipboard : undefined}
@@ -503,7 +562,10 @@ export function ListBuilderPage() {
 
         <button
           type="button"
-          onClick={() => setDetachmentSheetOpen(true)}
+          onClick={() => {
+            setDetachmentSheetSection('detachments')
+            setDetachmentSheetOpen(true)
+          }}
           className="wo-builder-detachment mt-2 flex w-full items-center justify-between gap-2 text-left"
         >
           <div className="min-w-0">
@@ -530,9 +592,9 @@ export function ListBuilderPage() {
 
       {issuesOpen && issues.length > 0 && (
         <div className="wo-issues-panel shrink-0 px-2 pb-1">
-          {issues.map((issue) => (
+          {issues.map((issue, idx) => (
             <p
-              key={issue.message}
+              key={`${issue.level}-${idx}-${issue.message}`}
               className={issue.level === 'error' ? 'wo-issues-item is-error' : 'wo-issues-item'}
             >
               {issue.message}
@@ -543,16 +605,8 @@ export function ListBuilderPage() {
 
       {builderTab === 'units' && (
         <>
-          <div className="shrink-0 px-2 lg:hidden">
-            <WoPaneTabs
-              active={unitsPane}
-              onCatalog={() => setUnitsPane('catalog')}
-              onArmy={() => setUnitsPane('army')}
-              armyCount={rosterUnitCount}
-            />
-          </div>
           <div
-            className={`bf-split min-h-0 flex-1 overflow-hidden bf-split--pane-${unitsPane}${isDesktopBuilder ? ' bf-split--wo-desktop' : ''}`}
+            className={`bf-split min-h-0 flex-1 overflow-hidden${isDesktopBuilder ? ' bf-split--wo-desktop' : ` bf-split--pane-${unitsPane}`}`}
           >
             <CatalogPanel
               groups={catalogGroups}
@@ -567,11 +621,7 @@ export function ListBuilderPage() {
                 setPreviewUnit(u)
                 if (!isDesktopBuilder) setDetailUnit(u)
               }}
-              onQuickAdd={(u) => {
-                const woUnit = woBundle ? getWarOrganUnitDef(woBundle, u.id) : undefined
-                persist(addUnit(roster, u, 1, woUnit))
-                setUnitsPane('army')
-              }}
+              onQuickAdd={handleQuickAdd}
             />
             {isDesktopBuilder && (
               <div className="bf-split-panel bf-split-panel--info">
@@ -605,6 +655,20 @@ export function ListBuilderPage() {
               onEditLine={handleEditLine}
             />
           </div>
+          {!isDesktopBuilder && (
+            <WoBuilderMobileDock
+              active={unitsPane}
+              armyCount={rosterUnitCount}
+              pointsTotal={roster.pointsTotal}
+              limit={limit}
+              overLimit={overLimit}
+              issueCount={issueBadgeCount}
+              toast={addToast}
+              onCatalog={() => setUnitsPane('catalog')}
+              onArmy={() => setUnitsPane('army')}
+              onToggleIssues={issueBadgeCount > 0 ? () => setIssuesOpen((o) => !o) : undefined}
+            />
+          )}
         </>
       )}
 
@@ -700,10 +764,29 @@ export function ListBuilderPage() {
         armyEntry={armyEntry}
         woBundle={woBundle}
         dpUsed={dpUsed}
+        section={detachmentSheetSection}
+        onSectionChange={setDetachmentSheetSection}
         open={detachmentSheetOpen}
         onClose={() => setDetachmentSheetOpen(false)}
         onPersist={persist}
         catalogEnhancements={enhancements}
+      />
+
+      <NoticeDialog
+        open={Boolean(notice)}
+        title={notice?.title ?? ''}
+        body={notice?.body ?? ''}
+        onClose={() => setNotice(null)}
+      />
+
+      <ConfirmDialog
+        open={confirmDelete}
+        title={copy.armyLists.deleteConfirm}
+        body={copy.armyLists.deleteConfirm}
+        confirmLabel={copy.armyLists.deleteUnit}
+        danger
+        onCancel={() => setConfirmDelete(false)}
+        onConfirm={confirmDeleteList}
       />
     </div>
   )
@@ -834,6 +917,7 @@ function CatalogPanel({
         <UnitBucketAccordion
           groups={groups.map((g) => ({ bucket: g.bucket, items: g.units }))}
           query={query}
+          expandAllDefault
           itemKey={(u) => u.id}
           renderItem={(u) => {
             const inArmy = rosterCountById.get(u.id) ?? 0
@@ -942,7 +1026,16 @@ function RosterUnitRow({
       </button>
       <span className="bf-roster-card-pts tabular-nums">{line.points}</span>
       {line.lineId && (
-        <div className="relative shrink-0" ref={menuRef}>
+        <>
+          <button
+            type="button"
+            className="bf-roster-delete"
+            aria-label={copy.armyLists.deleteUnit}
+            onClick={onRemove}
+          >
+            ×
+          </button>
+          <div className="relative shrink-0" ref={menuRef}>
           <button
             type="button"
             className="bf-row-menu-btn"
@@ -985,6 +1078,7 @@ function RosterUnitRow({
             </div>
           )}
         </div>
+        </>
       )}
     </div>
   )
