@@ -1,15 +1,14 @@
 import { Link, useNavigate, useParams } from 'react-router-dom'
-import { GameRoundSummary, GameTotalSummary } from '../components/GameRoundSummary'
+import { GameTotalSummary } from '../components/GameRoundSummary'
+import { GameEndSecondaryRecap } from '../components/GameEndSecondaryRecap'
 import { copy } from '../lib/copy'
 import { getWinner } from '../lib/game-utils'
 import { calculateWtcScores } from '../lib/wtc-scoring'
 import { loadHistory } from '../lib/storage'
-import { useState } from 'react'
 
 export function HistoryGamePage() {
   const { id } = useParams<{ id: string }>()
   const navigate = useNavigate()
-  const [viewRound, setViewRound] = useState(1)
   const game = loadHistory().find((g) => g.id === id)
 
   if (!game) {
@@ -47,21 +46,7 @@ export function HistoryGamePage() {
         </p>
       </div>
 
-      <div className="game-round-tabs">
-        {[1, 2, 3, 4, 5].map((round) => (
-          <button
-            key={round}
-            type="button"
-            data-active={viewRound === round}
-            onClick={() => setViewRound(round)}
-            className="game-round-tab"
-          >
-            <span className="game-round-tab-label">{copy.game.roundTab(round)}</span>
-          </button>
-        ))}
-      </div>
-
-      <GameRoundSummary game={game} round={viewRound} />
+      <GameEndSecondaryRecap game={game} />
       <GameTotalSummary game={game} />
     </div>
   )

@@ -383,6 +383,8 @@ export const copy = {
     wtcScore: 'WTC (20 pt)',
     wtcMargin: (n: number) => `Margin ${n} VP`,
     gameOver: 'Game Over',
+    endGameSecondaryTitle: 'Secondary missions',
+    endGameSecondaryEmpty: 'No secondaries scored',
     formatDominatus: 'Dominatus',
     formatDoubles: 'Doubles 2v2',
     dominatusPostBattle: 'Dominatus post-battle',

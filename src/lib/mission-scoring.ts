@@ -822,6 +822,59 @@ export function tacticalSecondaryInventory(
   return result
 }
 
+export interface SecondaryCardRecap {
+  card: string
+  totalVp: number
+  rounds: { round: number; vp: number }[]
+  discarded: boolean
+}
+
+/** Per-card secondary scoring for end-of-game recap (rounds + discards). */
+export function secondaryGameRecap(
+  player: PlayerSetup,
+  scores: PlayerScores,
+  maxRound = 5,
+): SecondaryCardRecap[] {
+  const mode = player.secondaryMode
+  const { discarded: discardedNoScore } = secondaryBriefBuckets(player, scores)
+  const discardedSet = new Set(discardedNoScore)
+
+  const allCards = new Set<string>()
+  for (const c of player.secondaries) allCards.add(c)
+  for (const c of scores.tacticalHand) allCards.add(c)
+  for (const c of scores.removedSecondaries) allCards.add(c)
+  for (const roundCards of scores.tacticalRoundCards) {
+    for (const c of roundCards) allCards.add(c)
+  }
+  for (const key of Object.keys(scores.secondaryScoreTally)) {
+    const card = key.includes('::') ? key.slice(0, key.indexOf('::')) : key
+    if (card) allCards.add(card)
+  }
+
+  const recaps: SecondaryCardRecap[] = []
+  for (const card of [...allCards].sort((a, b) => a.localeCompare(b))) {
+    const rounds: { round: number; vp: number }[] = []
+    let totalVp = 0
+    for (let round = 1; round <= maxRound; round++) {
+      let vp = 0
+      for (const opt of getMissionScoreOptions(card, mode)) {
+        vp +=
+          getTallyCount(scores.secondaryScoreTally, secondaryScoreKey(card, opt.id), round) *
+          opt.vp
+      }
+      if (vp > 0) {
+        rounds.push({ round, vp })
+        totalVp += vp
+      }
+    }
+    const discarded = discardedSet.has(card)
+    if (totalVp > 0 || discarded) {
+      recaps.push({ card, totalVp, rounds, discarded })
+    }
+  }
+  return recaps
+}
+
 export interface SecondaryBriefBuckets {
   active: string[]
   achieved: string[]

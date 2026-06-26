@@ -27,7 +27,8 @@ import {
   snapshotRoundTacticalCards,
   syncTotalVp,
 } from '../lib/game-utils'
-import { GameRoundSummary, GameTotalSummary } from '../components/GameRoundSummary'
+import { GameTotalSummary } from '../components/GameRoundSummary'
+import { GameEndSecondaryRecap } from '../components/GameEndSecondaryRecap'
 import { PreBattleChecklist } from '../components/PreBattleChecklist'
 import { copy } from '../lib/copy'
 import {
@@ -541,10 +542,8 @@ export function ActiveGamePage() {
           <p className="mt-1 text-body text-muted">
             WTC: {wtc.player1} – {wtc.player2} ({copy.game.wtcMargin(wtc.margin)})
           </p>
-          <div className="mt-4 max-h-[50vh] space-y-3 overflow-y-auto">
-            {Array.from({ length: game.battleRound }, (_, i) => i + 1).map((round) => (
-              <GameRoundSummary key={round} game={game} round={round} />
-            ))}
+          <div className="mt-4 max-h-[60vh] space-y-4 overflow-y-auto">
+            <GameEndSecondaryRecap game={game} />
             <GameTotalSummary game={game} />
           </div>
           {game.format === 'dominatus' && game.dominatus && (
