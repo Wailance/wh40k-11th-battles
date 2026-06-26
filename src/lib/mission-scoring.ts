@@ -875,6 +875,34 @@ export function secondaryGameRecap(
   return recaps
 }
 
+/** Secondaries drawn or active but never scored (excludes discarded). */
+export function secondaryUncompletedCards(
+  player: PlayerSetup,
+  scores: PlayerScores,
+): string[] {
+  const mode = player.secondaryMode
+  const { discarded } = secondaryBriefBuckets(player, scores)
+  const discardedSet = new Set(discarded)
+
+  const obtained = new Set<string>()
+  if (mode === 'tactical') {
+    for (const c of scores.tacticalHand) obtained.add(c)
+    for (const roundList of scores.tacticalRoundCards) {
+      for (const c of roundList) obtained.add(c)
+    }
+  } else {
+    for (const c of player.secondaries) obtained.add(c)
+  }
+
+  const uncompleted: string[] = []
+  for (const card of obtained) {
+    if (discardedSet.has(card)) continue
+    if (secondaryCardVp(scores, card, mode) > 0) continue
+    uncompleted.push(card)
+  }
+  return [...new Set(uncompleted)].sort((a, b) => a.localeCompare(b))
+}
+
 export interface SecondaryBriefBuckets {
   active: string[]
   achieved: string[]

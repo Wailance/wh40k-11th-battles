@@ -2,7 +2,11 @@ import type { CSSProperties } from 'react'
 import { MissionNameButton } from './MissionNameButton'
 import { copy } from '../lib/copy'
 import { FD_COLORS, FD_SHORT } from '../lib/game-utils'
-import { secondaryGameRecap } from '../lib/mission-scoring'
+import {
+  missionBriefRoundBreakdown,
+  secondaryBriefBuckets,
+  secondaryUncompletedCards,
+} from '../lib/mission-scoring'
 import type { GameState, PlayerScores, PlayerSetup } from '../types/game'
 
 function PlayerSecondaryRecap({
@@ -16,12 +20,14 @@ function PlayerSecondaryRecap({
   battleRound: number
   color: string
 }) {
-  const recap = secondaryGameRecap(player, scores, battleRound)
-  const scored = recap.filter((r) => r.totalVp > 0)
-  const discarded = recap.filter((r) => r.discarded)
+  const rounds = missionBriefRoundBreakdown(player, scores).filter((r) => r.round <= battleRound)
+  const uncompleted = secondaryUncompletedCards(player, scores)
+  const { discarded } = secondaryBriefBuckets(player, scores)
   const fdTone = FD_COLORS[player.forceDisposition] ?? 'red'
   const modeLabel =
     player.secondaryMode === 'tactical' ? copy.newGame.secondaryTactical : copy.newGame.secondaryFixed
+
+  const hasAnyScored = rounds.some((r) => r.secondaries.length > 0)
 
   return (
     <article
@@ -41,31 +47,53 @@ function PlayerSecondaryRecap({
         </p>
       </header>
 
-      {scored.length === 0 ? (
-        <p className="game-end-recap-empty">{copy.game.endGameSecondaryEmpty}</p>
-      ) : (
-        <ul className="game-end-recap-list">
-          {scored.map(({ card, rounds, totalVp }) => (
-            <li key={card} className="game-end-recap-row">
-              <MissionNameButton name={card} className="game-end-recap-card-name" showIcon={false} />
-              <span className="game-end-recap-rounds tabular-nums">
-                {rounds.map((r) => (
-                  <span key={r.round} className="game-end-recap-round-chip">
-                    R{r.round} +{r.vp}
-                  </span>
-                ))}
+      <div className="game-end-recap-rounds">
+        {rounds.map(({ round, secondaries }) => (
+          <div key={round} className="game-end-recap-round-block">
+            <span className="game-end-recap-round-badge tabular-nums">R{round}</span>
+            <div className="game-end-recap-round-body">
+              {secondaries.length === 0 ? (
+                <span className="game-end-recap-round-empty">{copy.game.endGameSecondaryRoundEmpty}</span>
+              ) : (
+                <ul className="game-end-recap-round-list">
+                  {secondaries.map(({ card, vp }) => (
+                    <li key={card} className="game-end-recap-round-row">
+                      <MissionNameButton
+                        name={card}
+                        className="game-end-recap-card-name"
+                        showIcon={false}
+                      />
+                      <span className="game-end-recap-round-vp tabular-nums">+{vp}</span>
+                    </li>
+                  ))}
+                </ul>
+              )}
+            </div>
+          </div>
+        ))}
+        {!hasAnyScored && uncompleted.length === 0 && (
+          <p className="game-end-recap-empty">{copy.game.endGameSecondaryEmpty}</p>
+        )}
+      </div>
+
+      {uncompleted.length > 0 && (
+        <footer className="game-end-recap-uncompleted">
+          <p className="game-end-recap-foot-label">{copy.game.endGameSecondaryUncompleted}</p>
+          <div className="game-mission-brief-foot-chips">
+            {uncompleted.map((card) => (
+              <span key={card} className="game-mission-brief-foot-chip game-end-recap-foot-chip--pending">
+                <MissionNameButton name={card} className="game-mission-brief-chip-label" showIcon={false} />
               </span>
-              <span className="game-end-recap-total tabular-nums">+{totalVp}</span>
-            </li>
-          ))}
-        </ul>
+            ))}
+          </div>
+        </footer>
       )}
 
       {discarded.length > 0 && (
         <footer className="game-end-recap-discarded">
-          <p className="game-end-recap-discarded-label">{copy.game.missionBriefDiscarded}</p>
+          <p className="game-end-recap-foot-label">{copy.game.missionBriefDiscarded}</p>
           <div className="game-mission-brief-foot-chips">
-            {discarded.map(({ card }) => (
+            {discarded.map((card) => (
               <span key={card} className="game-mission-brief-foot-chip game-mission-brief-foot-chip--off">
                 <MissionNameButton name={card} className="game-mission-brief-chip-label" showIcon={false} />
               </span>

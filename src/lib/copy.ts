@@ -385,6 +385,8 @@ export const copy = {
     gameOver: 'Game Over',
     endGameSecondaryTitle: 'Secondary missions',
     endGameSecondaryEmpty: 'No secondaries scored',
+    endGameSecondaryUncompleted: 'Not completed',
+    endGameSecondaryRoundEmpty: 'No VP',
     formatDominatus: 'Dominatus',
     formatDoubles: 'Doubles 2v2',
     dominatusPostBattle: 'Dominatus post-battle',
