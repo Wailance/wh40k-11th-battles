@@ -1,8 +1,9 @@
 import type { CuratedUnit, Enhancement, UnitCostBracket, UnitPricingTier } from '../types/faction-data'
 import type { ArmyRoster, BattleSize, RosterEnhancement, RosterUnit } from '../types/roster'
 import type { SelectedDetachment } from '../types/game'
-import type { WoUnit } from '../types/warorgan'
+import type { WoDetachment, WoUnit } from '../types/warorgan'
 import { getArmyDataEdition } from './faction-loader'
+import { detachmentPointBudget, isDetachmentBudgetLegal, wouldDetachmentTagConflict } from './army-construction'
 import { maxCopiesForUnit } from './unit-buckets'
 import {
   defaultWarOrganComposition,
@@ -15,17 +16,19 @@ import { warOrganLinePoints } from './warorgan-points'
 import { enhancementByName } from './warorgan-enhancements'
 import {
   clearLeaderAttachmentsTo,
+  clearEnhancementsForDetachedDetachments,
   parseWoLineMeta,
+  rosterWarlordLineId,
+  setWarlordOnLine,
   upgradeCost,
+  withWoLineMeta,
 } from './warorgan-roster'
+import { woNamesMatch } from './warorgan-names'
 
 export const BATTLE_SIZE_LIMITS: Record<BattleSize, number> = {
   1000: 1000,
   2000: 2000,
 }
-
-export const MAX_CHARACTERS = 3
-export const MAX_EPIC_HEROES = 3
 
 export interface ListValidationIssue {
   level: 'error' | 'warning'
@@ -193,7 +196,7 @@ export function rosterUnitCount(roster: ArmyRoster, unitId: string): number {
 }
 
 export function canAddUnit(roster: ArmyRoster, unit: CuratedUnit, count = 1): boolean {
-  return rosterUnitCount(roster, unit.id) + count <= maxCopiesForUnit(unit)
+  return rosterUnitCount(roster, unit.id) + count <= maxCopiesForUnit(unit, roster.battleSize)
 }
 
 export function addUnit(
@@ -236,7 +239,41 @@ export function addUnit(
     }
   }
 
-  return refreshRoster({ ...roster, units: [...roster.units, ...lines] })
+  let result = refreshRoster({ ...roster, units: [...roster.units, ...lines] })
+  const newLineId = lines[0]?.lineId
+  if (
+    newLineId &&
+    unit.keywords.some((k) => k.toLowerCase() === 'character') &&
+    !rosterWarlordLineId(result.units)
+  ) {
+    result = refreshRoster({
+      ...result,
+      units: setWarlordOnLine(result.units, newLineId, true),
+    })
+  }
+  return result
+}
+
+export function duplicateRosterLine(
+  roster: ArmyRoster,
+  lineId: string,
+  unit: CuratedUnit,
+): ArmyRoster {
+  const line = roster.units.find((u) => u.lineId === lineId)
+  if (!line || !canAddUnit(roster, unit)) return roster
+
+  const options = line.options
+    ? withWoLineMeta(line.options, { warlord: undefined, attachedToLineId: undefined })
+    : undefined
+
+  const newLine: RosterUnit = {
+    ...line,
+    lineId: crypto.randomUUID(),
+    count: 1,
+    options,
+  }
+
+  return refreshRoster({ ...roster, units: [...roster.units, newLine] })
 }
 
 export function removeRosterLine(roster: ArmyRoster, lineId: string): ArmyRoster {
@@ -283,18 +320,30 @@ export function setUnitCount(roster: ArmyRoster, unitId: string, count: number):
 export function toggleDetachment(
   roster: ArmyRoster,
   det: SelectedDetachment,
-  maxDp = 3,
+  opts?: { detachmentsRaw?: WoDetachment[]; catalogEnhancements?: Enhancement[] },
 ): ArmyRoster {
-  const idx = roster.detachments.findIndex((d) => d.name === det.name)
+  const idx = roster.detachments.findIndex((d) => woNamesMatch(d.name, det.name))
+  let nextDetachments: SelectedDetachment[]
   if (idx >= 0) {
-    return refreshRoster({
-      ...roster,
-      detachments: roster.detachments.filter((d) => d.name !== det.name),
-    })
+    nextDetachments = roster.detachments.filter((d) => !woNamesMatch(d.name, det.name))
+  } else {
+    nextDetachments = [...roster.detachments, det]
+    if (!isDetachmentBudgetLegal(nextDetachments, roster.battleSize)) return roster
+    if (
+      opts?.detachmentsRaw &&
+      wouldDetachmentTagConflict(opts.detachmentsRaw, roster.detachments, det.name)
+    ) {
+      return roster
+    }
   }
-  const used = roster.detachments.reduce((s, d) => s + d.dp, 0)
-  if (used + det.dp > maxDp) return roster
-  return refreshRoster({ ...roster, detachments: [...roster.detachments, det] })
+
+  const selectedNames = new Set(nextDetachments.map((d) => d.name))
+  let units = roster.units
+  if (opts?.catalogEnhancements?.length) {
+    units = clearEnhancementsForDetachedDetachments(units, selectedNames, opts.catalogEnhancements)
+  }
+
+  return refreshRoster({ ...roster, detachments: nextDetachments, units })
 }
 
 export function toggleEnhancement(
@@ -356,7 +405,6 @@ export function validateRoster(
 
   const catalogById = new Map(catalogUnits.map((u) => [u.id, u]))
   let characters = 0
-  let epicHeroes = 0
 
   for (const ru of roster.units) {
     const cu = catalogById.get(ru.unitId)
@@ -364,19 +412,12 @@ export function validateRoster(
     const kws = cu.keywords.map((k) => k.toLowerCase())
     const qty = Math.max(1, ru.count)
     if (kws.includes('character')) characters += qty
-    if (kws.includes('epic hero')) epicHeroes += qty
   }
 
-  if (characters > MAX_CHARACTERS) {
+  if (characters === 0 && roster.units.length > 0) {
     issues.push({
       level: 'error',
-      message: `Too many Characters: ${characters} (max ${MAX_CHARACTERS})`,
-    })
-  }
-  if (epicHeroes > MAX_EPIC_HEROES) {
-    issues.push({
-      level: 'error',
-      message: `Too many Epic Heroes: ${epicHeroes} (max ${MAX_EPIC_HEROES})`,
+      message: 'Army must include at least one Character',
     })
   }
 
@@ -387,7 +428,7 @@ export function validateRoster(
   for (const [unitId, count] of countsByUnitId) {
     const cu = catalogById.get(unitId)
     if (!cu) continue
-    const max = maxCopiesForUnit(cu)
+    const max = maxCopiesForUnit(cu, roster.battleSize)
     if (count > max) {
       issues.push({
         level: 'error',
@@ -396,12 +437,19 @@ export function validateRoster(
     }
   }
 
-  const dpUsed = roster.detachments.reduce((s, d) => s + d.dp, 0)
-  if (dpUsed > 3) {
-    issues.push({ level: 'error', message: `Detachments use ${dpUsed} DP (max 3)` })
+  if (!isDetachmentBudgetLegal(roster.detachments, roster.battleSize)) {
+    const used = roster.detachments.reduce((s, d) => s + d.dp, 0)
+    issues.push({
+      level: 'error',
+      message: `Detachments use ${used} DP (max ${detachmentPointBudget(roster.battleSize)})`,
+    })
   }
 
-  if (total < limit - 200 && roster.units.length > 0) {
+  if (
+    total < limit - 200 &&
+    roster.units.length >= 8 &&
+    total >= limit * 0.75
+  ) {
     issues.push({
       level: 'warning',
       message: `${limit - total} points remaining`,

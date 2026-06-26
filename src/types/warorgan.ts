@@ -12,6 +12,7 @@ export interface WoWargearOption {
 }
 
 export interface WoWargearBlock {
+  Models?: number
   InitalWargear: string[]
   Options: WoWargearOption[]
 }
@@ -68,6 +69,7 @@ export interface WoUnitAbility {
 
 export interface WoLeaderInfo {
   UnitNames: string[]
+  LeaderType?: string
   Abilities?: { AbilityId: string; WeaponStatAdjustments?: unknown[] }[]
 }
 
@@ -97,6 +99,7 @@ export interface WoEnhancement {
   Name: string
   Description: string
   Cost: number
+  Features?: string
   RequiredKeywords?: string[]
   RequiredOneOfKeywords?: string[]
   ExcludedKeywords?: string[]
@@ -124,6 +127,7 @@ export interface WoArmyRule {
 export interface WoDetachment {
   Name: string
   Cost: number
+  Tags?: string[]
   ForceDispositions: string[]
   Rule?: { Title?: string; Text?: string; Restrictions?: string }
   Enhancements: WoEnhancement[]
@@ -163,11 +167,13 @@ export interface WoArmyListUnit {
   UnitComposition?: WoCompositionState
   UpgradeName?: string | null
   IsUpgraded?: boolean
+  IsWarlord?: boolean
 }
 
 export interface WoArmyListExport {
   FactionName?: string
   DetachmentName?: string
+  DetachmentNames?: string[]
   MaxPoints?: number
   DataSetId?: string
   PointsTotal?: number

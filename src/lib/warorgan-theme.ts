@@ -1,3 +1,5 @@
+import { resolveWarOrganArmyName } from './warorgan-army-map'
+
 export type WoFactionPalette = {
   name: string
   mainColor: string
@@ -21,6 +23,16 @@ function normalizeFaction(f: WoMetaFaction): WoFactionPalette {
   return { name: f.Name, mainColor: f.MainColor, darkColor: f.DarkColor }
 }
 
+/** Meta faction names that differ from builder army names. */
+const PALETTE_ALIASES: Record<string, string> = {
+  'Black Templar': 'Black Templars',
+  'League of Votann': 'Leagues of Votann',
+  "T'au Empire": 'Tau Empire',
+  'T\u2019au Empire': 'Tau Empire',
+  'Emperor\u2019s Children': "Emperor's Children",
+  'Agents of the Imperium': 'Imperial Agents',
+}
+
 let metaCache: WoMeta | null = null
 
 export async function loadWarOrganMeta(): Promise<WoMeta> {
@@ -36,10 +48,20 @@ export function factionPalette(meta: WoMeta | null, armyName: string): WoFaction
   const factions = meta?.factions
   if (!factions?.length) return null
   const normalized = factions.map(normalizeFaction)
-  const exact = normalized.find((f) => f.name === armyName)
-  if (exact) return exact
-  const kw = armyName.toLowerCase()
-  return normalized.find((f) => f.name.toLowerCase() === kw) ?? null
+  const candidates = [
+    armyName,
+    resolveWarOrganArmyName(armyName),
+    PALETTE_ALIASES[armyName],
+  ].filter(Boolean) as string[]
+
+  for (const name of candidates) {
+    const exact = normalized.find((f) => f.name === name)
+    if (exact) return exact
+    const kw = name.toLowerCase()
+    const ci = normalized.find((f) => f.name.toLowerCase() === kw)
+    if (ci) return ci
+  }
+  return null
 }
 
 export function woThemeStyle(palette: WoFactionPalette | null): Record<string, string> {

@@ -1,7 +1,29 @@
+import type { Enhancement } from '../types/faction-data'
 import type { RosterUnit } from '../types/roster'
-import type { WoLineMeta, WoUpgrade } from '../types/warorgan'
+import type { WoLineMeta, WoUnit, WoUpgrade } from '../types/warorgan'
+import { normalizeWoKey } from './warorgan-names'
 
 export const WO_META_KEY = 'woMeta'
+
+/** Whether a leader character may attach to a bodyguard unit by datasheet name. */
+export function leaderCanAttachToBodyguard(
+  leader: WoUnit,
+  bodyguardUnitName: string,
+  bodyguardWo?: WoUnit,
+): boolean {
+  const allowed = leader.LeaderInfo?.UnitNames ?? []
+  if (!allowed.length) return false
+  const body = normalizeWoKey(bodyguardUnitName)
+  if (allowed.some((n) => normalizeWoKey(n) === body)) return true
+  if (!bodyguardWo) return false
+
+  const bodyKeys = new Set<string>([body])
+  for (const comp of bodyguardWo.UnitComposition?.ModelCompositions ?? []) {
+    if (comp.ModelName) bodyKeys.add(normalizeWoKey(comp.ModelName))
+    if (comp.StatlineRef) bodyKeys.add(normalizeWoKey(comp.StatlineRef))
+  }
+  return allowed.some((n) => bodyKeys.has(normalizeWoKey(n)))
+}
 
 export function parseWoLineMeta(options?: Record<string, unknown>): WoLineMeta {
   const raw = options?.[WO_META_KEY]
@@ -54,6 +76,25 @@ export function clearLeaderAttachmentsTo(units: RosterUnit[], lineId: string): R
     const meta = parseWoLineMeta(line.options)
     if (meta.attachedToLineId !== lineId) return line
     return { ...line, options: withWoLineMeta(line.options, { attachedToLineId: undefined }) }
+  })
+}
+
+export function clearEnhancementsForDetachedDetachments(
+  units: RosterUnit[],
+  selectedDetachmentNames: Set<string>,
+  catalogEnhancements: Enhancement[],
+): RosterUnit[] {
+  return units.map((line) => {
+    const meta = parseWoLineMeta(line.options)
+    if (!meta.enhancementId) return line
+    const detachment = catalogEnhancements.find((e) => e.name === meta.enhancementId)?.detachment
+    if (
+      detachment &&
+      ![...selectedDetachmentNames].some((n) => normalizeWoKey(n) === normalizeWoKey(detachment))
+    ) {
+      return { ...line, options: withWoLineMeta(line.options, { enhancementId: undefined }) }
+    }
+    return line
   })
 }
 

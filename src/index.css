@@ -1252,6 +1252,12 @@ a.app-btn {
   color: var(--color-status-danger);
 }
 
+.wo-validation-btn.is-warning {
+  border-color: rgba(201, 162, 39, 0.45);
+  background: rgba(201, 162, 39, 0.12);
+  color: var(--color-gw-gold);
+}
+
 .wo-issues-panel {
   display: flex;
   flex-direction: column;
@@ -3665,6 +3671,17 @@ button.game-score-seat.is-selectable:not(.is-active):hover {
   padding: 0.25rem 0.375rem;
   border-radius: 6px;
   background: rgba(0, 0, 0, 0.18);
+}
+
+.game-end-recap-round-row--pending {
+  background: rgba(255, 200, 100, 0.08);
+  border: 1px solid rgba(255, 200, 100, 0.15);
+}
+
+.game-end-recap-round-pending {
+  flex-shrink: 0;
+  font-size: var(--text-micro);
+  color: rgba(255, 200, 130, 0.85);
 }
 
 .game-end-recap-round-vp {

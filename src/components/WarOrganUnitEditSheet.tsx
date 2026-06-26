@@ -25,7 +25,8 @@ import {
 } from '../lib/warorgan-composition'
 import { warOrganLinePoints } from '../lib/warorgan-points'
 import { enhancementByName } from '../lib/warorgan-enhancements'
-import { parseWoLineMeta, upgradeCost, withWoLineMeta, WO_META_KEY } from '../lib/warorgan-roster'
+import { leaderCanAttachToBodyguard, parseWoLineMeta, upgradeCost, withWoLineMeta, WO_META_KEY } from '../lib/warorgan-roster'
+import { formatWoDisplayName } from '../lib/warorgan-names'
 import { AppSheet } from './AppSheet'
 import { UnitDatasheet } from './UnitDatasheet'
 
@@ -192,6 +193,7 @@ export function WarOrganUnitEditSheet({
   unit,
   woUnit,
   rosterUnits,
+  unitDefs,
   enhancements,
   detachmentNames,
   open,
@@ -204,6 +206,7 @@ export function WarOrganUnitEditSheet({
   unit: CuratedUnit | null
   woUnit: WoUnit | null
   rosterUnits: RosterUnit[]
+  unitDefs?: Map<string, WoUnit>
   enhancements: Enhancement[]
   detachmentNames: string[]
   open: boolean
@@ -253,11 +256,12 @@ export function WarOrganUnitEditSheet({
 
   const leaderTargets = useMemo(() => {
     if (!woUnit?.LeaderInfo?.UnitNames || !line?.lineId) return []
-    const allowed = new Set(woUnit.LeaderInfo.UnitNames.map((n) => n.toUpperCase()))
-    return rosterUnits.filter(
-      (u) => u.lineId !== line.lineId && allowed.has(u.name.toUpperCase()),
-    )
-  }, [woUnit, rosterUnits, line?.lineId])
+    return rosterUnits.filter((u) => {
+      if (u.lineId === line.lineId) return false
+      const bodyWo = unitDefs?.get(u.unitId)
+      return leaderCanAttachToBodyguard(woUnit, u.name, bodyWo)
+    })
+  }, [woUnit, rosterUnits, line?.lineId, unitDefs])
 
   const isCharacter = unit?.keywords.some((k) => k.toLowerCase() === 'character') ?? false
 
@@ -304,7 +308,7 @@ export function WarOrganUnitEditSheet({
     <AppSheet open={open} onClose={onClose} titleId="wo-unit-edit-title" className="wo-unit-edit-sheet">
       <div className="app-sheet-scroll px-4 pb-8 pt-1">
         <h2 id="wo-unit-edit-title" className="wo-unit-edit-title">
-          {unit.name}
+          {formatWoDisplayName(unit.name)}
         </h2>
         <p className="wo-unit-edit-pts tabular-nums">{points} pts</p>
 
@@ -337,7 +341,7 @@ export function WarOrganUnitEditSheet({
               <option value="">{copy.armyLists.noLeaderAttachment}</option>
               {leaderTargets.map((t) => (
                 <option key={t.lineId} value={t.lineId ?? ''}>
-                  {t.name}
+                  {formatWoDisplayName(t.name)}
                 </option>
               ))}
             </select>
@@ -362,7 +366,7 @@ export function WarOrganUnitEditSheet({
               <option value="">{copy.armyLists.noEnhancement}</option>
               {eligibleEnh.map((e) => (
                 <option key={e.name} value={e.name}>
-                  {e.name} ({e.points} pts)
+                  {formatWoDisplayName(e.name)} ({e.points} pts)
                 </option>
               ))}
             </select>
@@ -387,7 +391,7 @@ export function WarOrganUnitEditSheet({
               <option value="">{copy.armyLists.noUpgrade}</option>
               {woUnit.Upgrades!.map((u) => (
                 <option key={u.Name} value={u.Name}>
-                  {u.Name} (+{u.Cost} pts)
+                  {formatWoDisplayName(u.Name)} (+{u.Cost} pts)
                 </option>
               ))}
             </select>

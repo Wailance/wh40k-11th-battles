@@ -9,6 +9,7 @@ import {
   builderFactionsForAllegiance,
   type BuilderFaction,
 } from '../lib/space-marine-chapters'
+import { woBuilderDetachmentCount } from '../lib/warorgan-builder-meta'
 import type { ArmyRoster } from '../types/roster'
 
 export type SetupStep = 'allegiance' | 'faction' | 'detachment'
@@ -44,7 +45,9 @@ function FactionRow({
       {loading ? (
         <span className="motion-loading h-5 w-5 shrink-0 rounded-full border-2 border-accent/20 border-t-crimson-bright" />
       ) : (
-        <span className="shrink-0 text-caption text-muted">{faction.detachmentCount} det.</span>
+        <span className="shrink-0 text-caption text-muted">
+          {woBuilderDetachmentCount(faction.name) ?? faction.detachmentCount} det.
+        </span>
       )}
     </button>
   )
@@ -63,6 +66,8 @@ export function ListSetupWizard({
   onComplete,
   loadingFaction,
   factionError,
+  detachmentsRaw,
+  catalogEnhancements,
 }: {
   step: SetupStep
   allegiance: Allegiance | null
@@ -76,6 +81,8 @@ export function ListSetupWizard({
   onComplete: () => void
   loadingFaction?: string | null
   factionError?: string | null
+  detachmentsRaw?: import('../types/warorgan').WoDetachment[]
+  catalogEnhancements?: import('../types/faction-data').Enhancement[]
 }) {
   const stepIndex = STEPS.indexOf(step)
   const factions = allegiance ? builderFactionsForAllegiance(allegiance) : []
@@ -210,7 +217,7 @@ export function ListSetupWizard({
           </div>
         )}
 
-        {step === 'detachment' && roster && armyEntry && (
+        {step === 'detachment' && roster && (
           <div>
             <button
               type="button"
@@ -221,14 +228,23 @@ export function ListSetupWizard({
               ← {copy.armyLists.changeFaction}
             </button>
             <p className="mb-3 font-display text-title text-bone">{roster.army}</p>
-            <DetachmentPicker
-              roster={roster}
-              armyEntry={armyEntry}
-              dpUsed={dpUsed}
-              onPersist={onPersist}
-              battleSize={roster.battleSize}
-              onBattleSize={(size) => onPersist({ ...roster, battleSize: size })}
-            />
+            {!armyEntry ? (
+              <div className="flex items-center justify-center gap-2 py-12 text-caption text-muted">
+                <span className="motion-loading h-5 w-5 shrink-0 rounded-full border-2 border-accent/20 border-t-crimson-bright" />
+                {copy.armyLists.loadingDetachments}
+              </div>
+            ) : (
+              <DetachmentPicker
+                roster={roster}
+                armyEntry={armyEntry}
+                dpUsed={dpUsed}
+                onPersist={onPersist}
+                battleSize={roster.battleSize}
+                onBattleSize={(size) => onPersist({ ...roster, battleSize: size })}
+                detachmentsRaw={detachmentsRaw}
+                catalogEnhancements={catalogEnhancements}
+              />
+            )}
           </div>
         )}
       </div>

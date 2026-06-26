@@ -31,6 +31,7 @@ import {
   loadWarOrganBuilderBundle,
 } from '../lib/warorgan-loader'
 import type { WarOrganBuilderBundle } from '../types/warorgan'
+import { formatWoDisplayName, reconcileRosterDetachments } from '../lib/warorgan-names'
 import { validateWarOrganRoster } from '../lib/warorgan-validation'
 import {
   convertWoArmyListToRoster,
@@ -45,6 +46,7 @@ import {
   BATTLE_SIZE_LIMITS,
   createEmptyRoster,
   displayUnitPoints,
+  duplicateRosterLine,
   filterUnits,
   filterLegendsVisibility,
   isLegendsUnit,
@@ -109,6 +111,31 @@ export function ListBuilderPage() {
   const isDesktopBuilder = useMinWidth(1024)
 
   useEffect(() => {
+    if (!isNewRoute) return
+    setSetupComplete(false)
+    setSetupStep('allegiance')
+    setRoster(null)
+    setAllegiance(null)
+    setArmyEntry(undefined)
+    setWoBundle(null)
+    setCatalog([])
+    setEnhancements([])
+    setLoadouts({})
+    setFactionError(null)
+    setLoadingFaction(null)
+    setLoading(false)
+    setQuery('')
+    setDetailUnit(null)
+    setEditEntry(null)
+    setRosterViewUnit(null)
+    setPreviewUnit(null)
+    setBuilderTab('units')
+    setUnitsPane('catalog')
+    setDetachmentSheetOpen(false)
+    setIssuesOpen(false)
+  }, [isNewRoute, id])
+
+  useEffect(() => {
     if (isNewRoute) return
 
     let cancelled = false
@@ -133,7 +160,11 @@ export function ListBuilderPage() {
           setLoadouts({})
         }
         if (cancelled) return
-        setRoster(refreshRoster(existing, data.units, bundle?.unitDefs, data.enhancements))
+        const reconciled =
+          bundle && existing.detachments.length
+            ? reconcileRosterDetachments(existing, bundle)
+            : existing
+        setRoster(refreshRoster(reconciled, data.units, bundle?.unitDefs, data.enhancements))
         const army = findArmyForBuilder(existing.army)
         if (army) setAllegiance(allegianceOf(army))
         const entry = await loadArmyEntryForBuilder(existing.army, army)
@@ -221,7 +252,11 @@ export function ListBuilderPage() {
   )
 
   function persist(next: ArmyRoster) {
-    const updated = refreshRoster(next, catalog, woBundle?.unitDefs, enhancements)
+    const base =
+      woBundle && next.detachments.length
+        ? reconcileRosterDetachments(next, woBundle)
+        : next
+    const updated = refreshRoster(base, catalog, woBundle?.unitDefs, enhancements)
     setRoster(updated)
     saveRoster(updated)
   }
@@ -326,7 +361,10 @@ export function ListBuilderPage() {
       if (woBundle && 'Units' in parsed) {
         const converted = convertWoArmyListToRoster(parsed, woBundle, roster)
         if (converted) {
-          persist(refreshRoster(converted, catalog, woBundle.unitDefs, enhancements))
+          if (converted.skippedUnits.length > 0) {
+            console.warn('Import skipped units:', converted.skippedUnits)
+          }
+          persist(refreshRoster(converted.roster, catalog, woBundle.unitDefs, enhancements))
           return
         }
       }
@@ -371,6 +409,8 @@ export function ListBuilderPage() {
           onStep={setSetupStep}
           onPersist={persist}
           onComplete={finishSetup}
+          detachmentsRaw={woBundle?.detachmentsRaw}
+          catalogEnhancements={enhancements}
         />
       </>
     )
@@ -381,6 +421,9 @@ export function ListBuilderPage() {
   const limit = BATTLE_SIZE_LIMITS[roster.battleSize]
   const overLimit = roster.pointsTotal > limit
   const rosterUnitCount = roster.units.length
+  const issueErrors = issues.filter((i) => i.level === 'error')
+  const issueWarnings = issues.filter((i) => i.level === 'warning')
+  const issueBadgeCount = issueErrors.length || issueWarnings.length
 
   function handleEditLine(entry: RosterLineEntry) {
     const woUnit = woBundle ? getWarOrganUnitDef(woBundle, entry.catalog.id) : undefined
@@ -441,14 +484,14 @@ export function ListBuilderPage() {
             <p className="truncate text-micro uppercase tracking-widest text-muted">{roster.army}</p>
           </div>
           <div className="wo-builder-points shrink-0 text-right">
-            {issues.length > 0 && (
+            {issueBadgeCount > 0 && (
               <button
                 type="button"
-                className={`wo-validation-btn${issues.some((i) => i.level === 'error') ? ' is-error' : ''}`}
+                className={`wo-validation-btn${issueErrors.length ? ' is-error' : ' is-warning'}`}
                 aria-expanded={issuesOpen}
                 onClick={() => setIssuesOpen((o) => !o)}
               >
-                {issues.length}
+                {issueBadgeCount}
               </button>
             )}
             <p className={`wo-builder-points-total tabular-nums ${overLimit ? 'is-over' : ''}`}>
@@ -469,7 +512,7 @@ export function ListBuilderPage() {
             </p>
             <p className="truncate text-caption font-medium text-bone">
               {roster.detachments.length > 0
-                ? roster.detachments.map((d) => d.name).join(' · ')
+                ? roster.detachments.map((d) => formatWoDisplayName(d.name)).join(' · ')
                 : copy.armyLists.noDetachment}
             </p>
           </div>
@@ -514,6 +557,7 @@ export function ListBuilderPage() {
             <CatalogPanel
               groups={catalogGroups}
               query={query}
+              battleSize={roster.battleSize}
               selectedUnitId={previewUnit?.id}
               rosterCountById={rosterCountById}
               onQuery={setQuery}
@@ -555,8 +599,7 @@ export function ListBuilderPage() {
               onRemoveLine={(lineId) => persist(removeRosterLine(roster, lineId))}
               onDuplicateLine={(entry) => {
                 if (canAddUnit(roster, entry.catalog)) {
-                  const woUnit = woBundle ? getWarOrganUnitDef(woBundle, entry.catalog.id) : undefined
-                  persist(addUnit(roster, entry.catalog, 1, woUnit))
+                  persist(duplicateRosterLine(roster, entry.line.lineId!, entry.catalog))
                 }
               }}
               onEditLine={handleEditLine}
@@ -582,6 +625,7 @@ export function ListBuilderPage() {
           editEntry && woBundle ? getWarOrganUnitDef(woBundle, editEntry.catalog.id) ?? null : null
         }
         rosterUnits={roster.units}
+        unitDefs={woBundle?.unitDefs}
         enhancements={enhancements}
         detachmentNames={roster.detachments.map((d) => d.name)}
         open={Boolean(
@@ -648,7 +692,7 @@ export function ListBuilderPage() {
         }}
         addDisabled={detailUnit ? !canAddUnit(roster, detailUnit) : false}
         inRoster={detailUnit ? rosterCountById.get(detailUnit.id) : undefined}
-        maxCopies={detailUnit ? maxCopiesForUnit(detailUnit) : undefined}
+        maxCopies={detailUnit ? maxCopiesForUnit(detailUnit, roster.battleSize) : undefined}
       />
 
       <DetachmentSheet
@@ -659,6 +703,7 @@ export function ListBuilderPage() {
         open={detachmentSheetOpen}
         onClose={() => setDetachmentSheetOpen(false)}
         onPersist={persist}
+        catalogEnhancements={enhancements}
       />
     </div>
   )
@@ -752,6 +797,7 @@ function UnitBucketAccordion<T>({
 function CatalogPanel({
   groups,
   query,
+  battleSize,
   selectedUnitId,
   rosterCountById,
   onQuery,
@@ -760,6 +806,7 @@ function CatalogPanel({
 }: {
   groups: { bucket: UnitBucketId; units: CuratedUnit[] }[]
   query: string
+  battleSize: ArmyRoster['battleSize']
   selectedUnitId?: string
   rosterCountById: Map<string, number>
   onQuery: (q: string) => void
@@ -790,7 +837,8 @@ function CatalogPanel({
           itemKey={(u) => u.id}
           renderItem={(u) => {
             const inArmy = rosterCountById.get(u.id) ?? 0
-            const atMax = inArmy >= maxCopiesForUnit(u)
+            const maxCopies = maxCopiesForUnit(u, battleSize)
+            const atMax = inArmy >= maxCopies
             const pts = displayUnitPoints(u)
             return (
               <div className={`bf-catalog-card${selectedUnitId === u.id ? ' is-selected' : ''}`}>
@@ -799,10 +847,10 @@ function CatalogPanel({
                   className="bf-catalog-card-body"
                   onClick={() => onOpen(u)}
                 >
-                  <p className="bf-catalog-card-name">{u.name}</p>
+                  <p className="bf-catalog-card-name">{formatWoDisplayName(u.name)}</p>
                   {inArmy > 0 && (
                     <p className="bf-catalog-card-meta">
-                      {copy.armyLists.unitInArmy(inArmy, maxCopiesForUnit(u))}
+                      {copy.armyLists.unitInArmy(inArmy, maxCopies)}
                     </p>
                   )}
                 </button>
@@ -865,9 +913,9 @@ function RosterUnitRow({
   const subParts = [
     loadoutSummary,
     meta.warlord ? copy.armyLists.warlord : '',
-    meta.enhancementId,
-    meta.upgradeName,
-    attachTarget ? `→ ${attachTarget}` : '',
+    meta.enhancementId ? formatWoDisplayName(meta.enhancementId) : '',
+    meta.upgradeName ? formatWoDisplayName(meta.upgradeName) : '',
+    attachTarget ? `→ ${formatWoDisplayName(attachTarget)}` : '',
   ].filter(Boolean)
 
   return (
@@ -886,7 +934,7 @@ function RosterUnitRow({
               </svg>
             </span>
           )}
-          <span className="truncate">{line.name}</span>
+          <span className="truncate">{formatWoDisplayName(line.name)}</span>
         </p>
         {subParts.length > 0 ? (
           <p className="bf-roster-card-meta truncate">{subParts.join(' · ')}</p>
@@ -1024,7 +1072,8 @@ function WoEnhancementsPanel({
         assigned.map(({ line, enh }) => (
           <div key={line.lineId} className="wo-enh-card">
             <p className="text-body font-medium text-bone">
-              {enh.name} <span className="text-muted">on {line.name}</span>
+              {formatWoDisplayName(enh.name)}{' '}
+              <span className="text-muted">on {formatWoDisplayName(line.name)}</span>
             </p>
             <p className="text-caption tabular-nums text-accent-dim">{enh.points} pts</p>
             <p className="mt-1 line-clamp-3 text-caption text-muted">{enh.description}</p>
@@ -1039,7 +1088,7 @@ function WoEnhancementsPanel({
           <ul className="mt-2 space-y-2">
             {enhancements.map((e) => (
               <li key={e.name} className="text-micro text-muted">
-                <span className="text-bone">{e.name}</span> — {e.points} pts
+                <span className="text-bone">{formatWoDisplayName(e.name)}</span> — {e.points} pts
               </li>
             ))}
           </ul>

@@ -3,12 +3,6 @@ import { copy } from '../lib/copy'
 
 const ITEMS = [
   {
-    to: '/lists',
-    title: copy.armyLists.title,
-    desc: copy.armyLists.subtitle,
-    glyph: 'AB',
-  },
-  {
     to: '/teams',
     title: copy.formats.teams.title,
     desc: copy.formats.teams.subtitle,

@@ -2,6 +2,7 @@ import type { CuratedUnit } from '../types/faction-data'
 import type { ArmyRoster, RosterUnit } from '../types/roster'
 import type { WarOrganBuilderBundle, WoArmyListExport, WoArmyListUnit } from '../types/warorgan'
 import { parseWarOrganState, WO_ROSTER_KEY } from './warorgan-composition'
+import { findGameDetachment, normalizeWoKey } from './warorgan-names'
 import { parseWoLineMeta, WO_META_KEY, withWoLineMeta } from './warorgan-roster'
 
 function isWoArmyList(raw: unknown): raw is WoArmyListExport {
@@ -26,28 +27,31 @@ export function parseImportedListJson(text: string): ArmyRoster | WoArmyListExpo
   }
 }
 
+export type WoImportResult = {
+  roster: ArmyRoster
+  skippedUnits: string[]
+}
+
 export function convertWoArmyListToRoster(
   wo: WoArmyListExport,
   bundle: WarOrganBuilderBundle,
   existing?: ArmyRoster,
-): ArmyRoster | null {
-  const army = wo.FactionName
-  if (!army || army !== existing?.army) {
-    const mapped = bundle.units.length > 0 ? existing?.army : null
-    if (!mapped && wo.FactionName !== bundle.factionFile.replace('.json', '')) {
-      // Faction name from WO may differ slightly — match by bundle file
-    }
-  }
-
-  const catalogByName = new Map(bundle.units.map((u) => [u.name.toUpperCase(), u]))
+): WoImportResult | null {
+  const catalogByName = new Map(bundle.units.map((u) => [normalizeWoKey(u.name), u]))
   const instanceMap = new Map<string, string>()
+  const lineByWoInstance = new Map<string, RosterUnit>()
   const lines: RosterUnit[] = []
+  const skippedUnits: string[] = []
 
   for (const wu of wo.Units ?? []) {
-    const catalog = catalogByName.get(wu.UnitName.toUpperCase())
-    if (!catalog) continue
+    const catalog = catalogByName.get(normalizeWoKey(wu.UnitName))
+    if (!catalog) {
+      skippedUnits.push(wu.UnitName)
+      continue
+    }
     const lineId = wu.InstanceId ?? crypto.randomUUID()
-    instanceMap.set(wu.InstanceId ?? lineId, lineId)
+    const woKey = wu.InstanceId ?? lineId
+    instanceMap.set(woKey, lineId)
 
     const options: Record<string, unknown> = {}
     if (wu.UnitComposition) {
@@ -56,9 +60,10 @@ export function convertWoArmyListToRoster(
     const meta: Record<string, unknown> = {}
     if (wu.EnhancementId) meta.enhancementId = wu.EnhancementId
     if (wu.UpgradeName) meta.upgradeName = wu.UpgradeName
+    if (wu.IsWarlord) meta.warlord = true
     if (Object.keys(meta).length) options[WO_META_KEY] = meta
 
-    lines.push({
+    const line: RosterUnit = {
       lineId,
       unitId: catalog.id,
       name: catalog.name,
@@ -68,37 +73,57 @@ export function convertWoArmyListToRoster(
         ? (wu.UnitComposition as { modelCounts?: number[] }).modelCounts?.reduce((s, n) => s + n, 0)
         : undefined,
       options,
-    })
+    }
+    lines.push(line)
+    lineByWoInstance.set(woKey, line)
   }
 
-  // Second pass: leader attachments
-  for (let i = 0; i < (wo.Units ?? []).length; i++) {
-    const wu = wo.Units![i]
-    const line = lines[i]
-    if (!wu.AttachedToInstanceId || !line) continue
+  for (const wu of wo.Units ?? []) {
+    if (!wu.AttachedToInstanceId) continue
+    const line = wu.InstanceId ? lineByWoInstance.get(wu.InstanceId) : undefined
+    if (!line) continue
     const targetLineId = instanceMap.get(wu.AttachedToInstanceId)
     if (targetLineId) {
       line.options = withWoLineMeta(line.options, { attachedToLineId: targetLineId })
     }
   }
 
+  const detachmentNames = [
+    ...(wo.DetachmentNames ?? []),
+    ...(wo.DetachmentName ? [wo.DetachmentName] : []),
+  ].filter(
+    (name, idx, arr) =>
+      arr.findIndex((n) => normalizeWoKey(n) === normalizeWoKey(name)) === idx,
+  )
+
+  const detachments = detachmentNames
+    .map((name) => findGameDetachment(bundle, name))
+    .filter((d): d is NonNullable<typeof d> => Boolean(d))
+    .map((d) => ({
+      name: d.name,
+      dp: d.dp,
+      note: d.note,
+      forceDisposition: d.forceDisposition,
+    }))
+
   const now = new Date().toISOString()
   const battleSize = (wo.MaxPoints === 1000 ? 1000 : 2000) as ArmyRoster['battleSize']
 
   return {
-    id: existing?.id ?? crypto.randomUUID(),
-    name: existing?.name ?? `${wo.FactionName ?? 'Imported'} list`,
-    army: existing?.army ?? wo.FactionName ?? 'Unknown',
-    battleSize,
-    dataEdition: existing?.dataEdition ?? 'warorgan',
-    units: lines,
-    detachments: wo.DetachmentName
-      ? [{ name: wo.DetachmentName, dp: bundle.detachments.find((d) => d.name === wo.DetachmentName)?.dp ?? 0, note: '', forceDisposition: 'TAKE AND HOLD' }]
-      : [],
-    enhancements: [],
-    pointsTotal: wo.PointsTotal ?? 0,
-    createdAt: existing?.createdAt ?? now,
-    updatedAt: now,
+    roster: {
+      id: existing?.id ?? crypto.randomUUID(),
+      name: existing?.name ?? `${wo.FactionName ?? 'Imported'} list`,
+      army: existing?.army ?? wo.FactionName ?? 'Unknown',
+      battleSize,
+      dataEdition: existing?.dataEdition ?? 'warorgan',
+      units: lines,
+      detachments,
+      enhancements: [],
+      pointsTotal: wo.PointsTotal ?? 0,
+      createdAt: existing?.createdAt ?? now,
+      updatedAt: now,
+    },
+    skippedUnits,
   }
 }
 
@@ -120,12 +145,14 @@ export function exportWoArmyList(
       UnitComposition: woState ?? undefined,
       UpgradeName: meta.upgradeName ?? null,
       IsUpgraded: Boolean(meta.upgradeName),
+      IsWarlord: Boolean(meta.warlord),
     }
   })
 
   return {
     FactionName: roster.army,
     DetachmentName: roster.detachments[0]?.name,
+    DetachmentNames: roster.detachments.map((d) => d.name),
     MaxPoints: roster.battleSize,
     DataSetId: 'Warhammer 40k 11th',
     PointsTotal: roster.pointsTotal,
@@ -142,21 +169,21 @@ export function exportWoListText(
   const lines = [
     `${roster.name}`,
     `${roster.army} — ${roster.pointsTotal}/${roster.battleSize} pts`,
-    wo.DetachmentName ? `Detachment: ${wo.DetachmentName}` : '',
+    wo.DetachmentNames?.length
+      ? `Detachments: ${wo.DetachmentNames.join(' · ')}`
+      : wo.DetachmentName
+        ? `Detachment: ${wo.DetachmentName}`
+        : '',
     '',
   ]
 
   for (const u of wo.Units ?? []) {
     const parts = [u.UnitName]
+    if (u.IsWarlord) parts.push('(Warlord)')
     if (u.EnhancementId) parts.push(`[${u.EnhancementId}]`)
     if (u.UpgradeName) parts.push(`+ ${u.UpgradeName}`)
     parts.push(`${u.Points ?? 0} pts`)
     lines.push(parts.join(' · '))
-  }
-
-  const warlord = roster.units.find((l) => parseWoLineMeta(l.options).warlord)
-  if (warlord) {
-    lines.push('', `Warlord: ${warlord.name}`)
   }
 
   return lines.filter(Boolean).join('\n')

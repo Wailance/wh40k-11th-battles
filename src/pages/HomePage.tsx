@@ -158,7 +158,6 @@ function ArmyBuilderCta({ to }: { to: string }) {
         <span className="home-builder-cta-kicker">{copy.home.armyListsKicker}</span>
         <span className="home-builder-cta-title-row">
           <span className="home-builder-cta-title">{copy.home.armyListsTitle}</span>
-          <span className="home-builder-cta-badge">{copy.home.armyListsBadge}</span>
         </span>
         <span className="home-builder-cta-desc">{copy.home.armyListsDesc}</span>
       </span>

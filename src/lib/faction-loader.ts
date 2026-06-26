@@ -19,6 +19,7 @@ import type {
 import type { Army, Detachment, ForceDisposition } from '../types/game'
 import { publicUrl } from './public-url'
 import { loadWarOrganBuilderBundle } from './warorgan-loader'
+import { normalizeWoKey } from './warorgan-names'
 
 const factionMap = factionMapData as FactionMapData
 const cache = new Map<string, CuratedFaction>()
@@ -104,8 +105,10 @@ export function enhancementsForRoster(
   detachmentNames: string[],
 ): Enhancement[] {
   if (!detachmentNames.length) return all
-  const selected = new Set(detachmentNames)
-  const filtered = all.filter((e) => !e.detachment || selected.has(e.detachment))
+  const selected = new Set(detachmentNames.map(normalizeWoKey))
+  const filtered = all.filter(
+    (e) => !e.detachment || selected.has(normalizeWoKey(e.detachment)),
+  )
   return filtered.length > 0 ? filtered : all
 }
 

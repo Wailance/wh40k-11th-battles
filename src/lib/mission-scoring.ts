@@ -125,7 +125,7 @@ function inferScoringRules(
 
   return {
     exclusiveGroup: isExclusiveTiers ? 'or-tiers' : null,
-    maxCountPerRound: isRepeatable ? null : isExclusiveTiers ? 1 : 1,
+    maxCountPerRound: isExclusiveTiers ? 1 : isRepeatable ? null : 1,
     maxVpPerRound,
   }
 }
@@ -313,6 +313,10 @@ export function getMissionScoreOptions(
       if (/END OF BATTLE/i.test(block.label) && !/^\[End of battle\]/i.test(label)) {
         label = `[End of battle] ${label}`
       }
+      let maxCountPerRound = rules.maxCountPerRound
+      if (detail.type === 'secondary' && /^FIXED/i.test(block.label) && rewards.length === 1) {
+        maxCountPerRound = 1
+      }
       options.push({
         id: `${slug(missionName)}-b${blockIdx}-r${rewardIdx}`,
         label,
@@ -320,7 +324,7 @@ export function getMissionScoreOptions(
         timing: block.label,
         blockIndex: blockIdx,
         exclusiveGroup,
-        maxCountPerRound: rules.maxCountPerRound,
+        maxCountPerRound,
         maxVpPerRound: rules.maxVpPerRound,
         roundMin,
         roundMax,
@@ -901,6 +905,43 @@ export function secondaryUncompletedCards(
     uncompleted.push(card)
   }
   return [...new Set(uncompleted)].sort((a, b) => a.localeCompare(b))
+}
+
+export interface SecondaryEndGameRoundItem {
+  card: string
+  vp: number | null
+}
+
+/** Scored + uncompleted secondaries grouped by round obtained (draw / game start). */
+export function secondaryEndGameByRound(
+  player: PlayerSetup,
+  scores: PlayerScores,
+  maxRound = 5,
+): { round: number; items: SecondaryEndGameRoundItem[] }[] {
+  const breakdown = missionBriefRoundBreakdown(player, scores)
+  const uncompleted = new Set(secondaryUncompletedCards(player, scores))
+
+  const obtainedRound = (card: string): number => {
+    if (player.secondaryMode !== 'tactical') return 1
+    let first: number | null = null
+    for (let r = 1; r <= 5; r++) {
+      if ((scores.tacticalRoundCards[r - 1] ?? []).includes(card)) {
+        first = first === null ? r : Math.min(first, r)
+      }
+    }
+    return first ?? 1
+  }
+
+  return Array.from({ length: maxRound }, (_, i) => {
+    const round = i + 1
+    const scored = breakdown.find((b) => b.round === round)?.secondaries ?? []
+    const items: SecondaryEndGameRoundItem[] = scored.map(({ card, vp }) => ({ card, vp }))
+    for (const card of uncompleted) {
+      if (obtainedRound(card) === round) items.push({ card, vp: null })
+    }
+    items.sort((a, b) => a.card.localeCompare(b.card))
+    return { round, items }
+  })
 }
 
 export interface SecondaryBriefBuckets {

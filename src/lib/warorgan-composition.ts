@@ -12,20 +12,40 @@ export function parseWarOrganState(options?: Record<string, unknown>): WoComposi
 }
 
 export function modelRowMin(comp: WoModelComposition): number {
+  const slots = wargearFixedModelSlots(comp)
+  if (slots > 0) return slots
   if (!comp.Limit) return 1
   return comp.Limit.Min ?? 0
 }
 
 export function modelRowMax(comp: WoModelComposition): number {
+  const slots = wargearFixedModelSlots(comp)
+  if (slots > 0) return slots
   if (!comp.Limit) return 1
   return comp.Limit.Max ?? 99
+}
+
+/** Named or fixed loadout rows (e.g. Gaunt's Ghosts, Brôkhyr Iron-master E-COGs). */
+function wargearFixedModelSlots(comp: WoModelComposition): number {
+  const wg = comp.Wargear ?? []
+  if (!wg.length) return 0
+
+  const explicit = wg
+    .filter((w) => typeof w.Models === 'number' && w.Models > 0)
+    .reduce((s, w) => s + (w.Models as number), 0)
+  if (explicit > 0) return explicit
+
+  if (wg.length > 1 && wg.every((w) => !(w.Options?.length ?? 0))) {
+    return wg.length
+  }
+  return 0
 }
 
 export function totalModelCount(state: WoCompositionState): number {
   return state.modelCounts.reduce((s, n) => s + n, 0)
 }
 
-function primaryBulkIndex(comps: WoModelComposition[]): number {
+export function primaryBulkIndex(comps: WoModelComposition[]): number {
   let best = -1
   let bestMax = 0
   for (let i = 0; i < comps.length; i++) {
@@ -63,6 +83,16 @@ export function defaultWarOrganComposition(unit: WoUnit): WoCompositionState {
 export function validModelCounts(unit: WoUnit): number[] {
   const points = unit.Points ?? []
   const fromPoints = [...new Set(points.map((p) => p.ModelCount).filter((n): n is number => n != null))]
+  const comps = unit.UnitComposition?.ModelCompositions ?? []
+
+  if (comps.length) {
+    const fixedTotal = comps.reduce((s, c) => s + modelRowMin(c), 0)
+    const allRowsFixed = comps.every((c) => modelRowMin(c) === modelRowMax(c))
+    if (allRowsFixed && fixedTotal > 0 && !fromPoints.includes(fixedTotal)) {
+      fromPoints.push(fixedTotal)
+    }
+  }
+
   return fromPoints.sort((a, b) => a - b)
 }
 

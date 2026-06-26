@@ -5,6 +5,7 @@ import type { ArmyRoster } from '../types/roster'
 import type { WarOrganBuilderBundle } from '../types/warorgan'
 import { stratagemsForDetachments, detachmentRuleFor } from '../lib/warorgan-loader'
 import { AppSheet } from './AppSheet'
+import { formatWoDisplayName } from '../lib/warorgan-names'
 
 export function DetachmentSheet({
   roster,
@@ -14,6 +15,7 @@ export function DetachmentSheet({
   open,
   onClose,
   onPersist,
+  catalogEnhancements,
 }: {
   roster: ArmyRoster
   armyEntry?: Army
@@ -22,6 +24,7 @@ export function DetachmentSheet({
   open: boolean
   onClose: () => void
   onPersist: (r: ArmyRoster) => void
+  catalogEnhancements?: import('../types/faction-data').Enhancement[]
 }) {
   if (!open || !armyEntry) return null
 
@@ -43,6 +46,8 @@ export function DetachmentSheet({
             onPersist={onPersist}
             battleSize={roster.battleSize}
             onBattleSize={(size) => onPersist({ ...roster, battleSize: size })}
+            detachmentsRaw={woBundle?.detachmentsRaw}
+            catalogEnhancements={catalogEnhancements}
           />
         </div>
 
@@ -54,7 +59,7 @@ export function DetachmentSheet({
               return (
                 <section key={det.name} className="wo-det-rule">
                   <h3 className="text-micro font-semibold uppercase tracking-widest text-muted">
-                    {det.name}
+                    {formatWoDisplayName(det.name)}
                   </h3>
                   {rule.Title && (
                     <p className="mt-1 text-caption font-medium text-bone">{rule.Title}</p>
@@ -94,7 +99,7 @@ export function DetachmentSheet({
               {stratagems.map((s) => (
                 <details key={s.Name} className="wo-stratagem">
                   <summary className="cursor-pointer text-caption font-medium text-bone">
-                    {s.Name}
+                    {formatWoDisplayName(s.Name)}
                     <span className="ml-2 text-micro text-accent-dim">{s.CPCost} CP</span>
                   </summary>
                   <div className="mt-1 space-y-1 pl-2 text-micro text-muted">

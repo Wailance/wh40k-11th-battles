@@ -1,5 +1,6 @@
 import type { CuratedUnit } from '../types/faction-data'
-import type { RosterUnit } from '../types/roster'
+import type { BattleSize, RosterUnit } from '../types/roster'
+import { maxCopiesForUnit as copiesForBattleSize } from './army-construction'
 
 export type UnitBucketId =
   | 'epic-hero'
@@ -35,11 +36,8 @@ export function unitBucket(unit: CuratedUnit): UnitBucketId {
   return 'other'
 }
 
-export function maxCopiesForUnit(unit: CuratedUnit): number {
-  if (hasKeyword(unit, 'Epic Hero')) return 1
-  if (hasKeyword(unit, 'Battleline')) return 6
-  if (hasKeyword(unit, 'Dedicated Transport')) return 6
-  return 3
+export function maxCopiesForUnit(unit: CuratedUnit, battleSize: BattleSize = 2000): number {
+  return copiesForBattleSize(unit, battleSize)
 }
 
 export function groupUnitsByBucket(units: CuratedUnit[]): { bucket: UnitBucketId; units: CuratedUnit[] }[] {

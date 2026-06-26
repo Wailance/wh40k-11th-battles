@@ -1,0 +1,137 @@
+{
+  "version": "1.2.1.0",
+  "armies": {
+    "Adepta Sororitas": {
+      "units": 41,
+      "detachments": 8
+    },
+    "Adeptus Custodes": {
+      "units": 34,
+      "detachments": 9
+    },
+    "Adeptus Mechanicus": {
+      "units": 42,
+      "detachments": 10
+    },
+    "Astra Militarum": {
+      "units": 137,
+      "detachments": 11
+    },
+    "Imperial Agents": {
+      "units": 49,
+      "detachments": 5
+    },
+    "Ultramarines": {
+      "units": 174,
+      "detachments": 17
+    },
+    "Raven Guard": {
+      "units": 161,
+      "detachments": 16
+    },
+    "Imperial Fists": {
+      "units": 162,
+      "detachments": 16
+    },
+    "Iron Hands": {
+      "units": 161,
+      "detachments": 16
+    },
+    "Salamanders": {
+      "units": 161,
+      "detachments": 16
+    },
+    "White Scars": {
+      "units": 161,
+      "detachments": 16
+    },
+    "Black Templar": {
+      "units": 93,
+      "detachments": 19
+    },
+    "Blood Angels": {
+      "units": 113,
+      "detachments": 23
+    },
+    "Dark Angels": {
+      "units": 106,
+      "detachments": 23
+    },
+    "Deathwatch": {
+      "units": 89,
+      "detachments": 16
+    },
+    "Grey Knights": {
+      "units": 34,
+      "detachments": 9
+    },
+    "Space Wolves": {
+      "units": 123,
+      "detachments": 22
+    },
+    "Chaos Knights": {
+      "units": 20,
+      "detachments": 8
+    },
+    "Imperial Knights": {
+      "units": 23,
+      "detachments": 8
+    },
+    "Chaos Daemons": {
+      "units": 78,
+      "detachments": 9
+    },
+    "Chaos Space Marines": {
+      "units": 109,
+      "detachments": 17
+    },
+    "Death Guard": {
+      "units": 71,
+      "detachments": 9
+    },
+    "Emperor’s Children": {
+      "units": 26,
+      "detachments": 10
+    },
+    "Thousand Sons": {
+      "units": 61,
+      "detachments": 9
+    },
+    "World Eaters": {
+      "units": 56,
+      "detachments": 8
+    },
+    "Genestealer Cults": {
+      "units": 28,
+      "detachments": 9
+    },
+    "Tyranids": {
+      "units": 60,
+      "detachments": 10
+    },
+    "Aeldari": {
+      "units": 99,
+      "detachments": 15
+    },
+    "Drukhari": {
+      "units": 32,
+      "detachments": 9
+    },
+    "League of Votann": {
+      "units": 25,
+      "detachments": 10
+    },
+    "Necrons": {
+      "units": 67,
+      "detachments": 12
+    },
+    "Orks": {
+      "units": 93,
+      "detachments": 12
+    },
+    "T’au Empire": {
+      "units": 66,
+      "detachments": 7
+    }
+  }
+}

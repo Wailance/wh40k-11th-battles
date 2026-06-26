@@ -2,6 +2,7 @@ import type { ReactNode } from 'react'
 import type { CuratedUnit } from '../types/faction-data'
 import { copy } from '../lib/copy'
 import { displayUnitPoints } from '../lib/list-engine'
+import { formatWoDisplayName } from '../lib/warorgan-names'
 import { filterDatasheetAbilities } from '../lib/datasheet-abilities'
 import { WeaponStatsSection } from './LoadoutWidgets'
 
@@ -25,11 +26,12 @@ export function UnitDatasheet({
   children?: ReactNode
 }) {
   const abilities = filterDatasheetAbilities(unit.abilities, enhancementNames)
+  const displayName = unit.id.startsWith('wo:') ? formatWoDisplayName(unit.name) : unit.name
   return (
     <div className="space-y-3 text-body">
       <div className="flex items-start justify-between gap-2">
         <div>
-          <h3 className="font-display text-title tracking-wide text-accent">{unit.name}</h3>
+          <h3 className="font-display text-title tracking-wide text-accent">{displayName}</h3>
           <p className="text-caption text-muted">{pointsLabel ?? `${displayUnitPoints(unit)} pts`}</p>
         </div>
         {headerAction ??

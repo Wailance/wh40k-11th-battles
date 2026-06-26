@@ -38,8 +38,22 @@ export const WAR_ORGAN_ARMY_FILES: Record<string, string> = {
   'Imperial Agents': 'Imperial Agents.json',
 }
 
+/** Builder display names that differ from canonical WarOrgan map keys. */
+const WAR_ORGAN_ARMY_ALIASES: Record<string, string> = {
+  'Black Templars': 'Black Templar',
+  'League of Votann': 'Leagues of Votann',
+  "T'au Empire": 'Tau Empire',
+  'T\u2019au Empire': 'Tau Empire',
+  'Emperor\u2019s Children': "Emperor's Children",
+}
+
+export function resolveWarOrganArmyName(army: string): string {
+  return WAR_ORGAN_ARMY_ALIASES[army] ?? army
+}
+
 export function warOrganFactionFile(army: string): string | undefined {
-  return WAR_ORGAN_ARMY_FILES[army]
+  const resolved = resolveWarOrganArmyName(army)
+  return WAR_ORGAN_ARMY_FILES[resolved] ?? WAR_ORGAN_ARMY_FILES[army]
 }
 
 export function warOrganUnitId(name: string): string {
