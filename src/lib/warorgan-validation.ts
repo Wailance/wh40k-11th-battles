@@ -123,7 +123,15 @@ export function validateWarOrganRoster(
           message: `Enhancement ${meta.enhancementId} requires detachment ${detachment}`,
         })
       }
-      if (!woEnhancementEligibleLine(wo, meta.enhancementId, bundle.enhancements)) {
+      if (
+        !woEnhancementEligibleLine(
+          wo,
+          meta.enhancementId,
+          bundle.enhancements,
+          bundle,
+          roster.detachments.map((d) => d.name),
+        )
+      ) {
         issues.push({
           level: 'error',
           message: `${line.name}: enhancement ${meta.enhancementId} not legal for this unit`,
@@ -253,9 +261,16 @@ function woEnhancementEligibleLine(
   wo: ReturnType<typeof getWarOrganUnitDef>,
   enhancementName: string,
   enhancements: Enhancement[],
+  bundle: WarOrganBuilderBundle,
+  detachmentNames: string[],
 ): boolean {
   const enh = enhancementByName(enhancements, enhancementName)
   if (!enh) return false
   if (!wo) return true
-  return woEnhancementEligible(wo, enh as Enhancement & WoEnhancement)
+  return woEnhancementEligible(
+    wo,
+    enh as Enhancement & WoEnhancement,
+    bundle.detachmentsRaw,
+    detachmentNames,
+  )
 }

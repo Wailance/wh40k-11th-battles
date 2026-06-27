@@ -8,14 +8,22 @@ import { fileURLToPath } from 'node:url'
 import { warOrganFactionFile } from '../src/lib/warorgan-army-map'
 import { assembleWarOrganBundle, legendsFileName } from '../src/lib/warorgan-bundle-build'
 import {
+  adjustChoiceCount,
   adjustModelRow,
+  adjustWargearOption,
+  canAdjustChoiceCount,
   canAdjustModelRow,
+  canAdjustWargearOption,
   defaultWarOrganComposition,
+  getChoiceCount,
+  getOptionCount,
+  maxOptionCount,
   primaryBulkIndex,
   totalModelCount,
   unitHasWarOrganComposition,
   validModelCounts,
 } from '../src/lib/warorgan-composition'
+import { unitHasEffectiveKeyword } from '../src/lib/warorgan-detachment-effects'
 import { leaderCanAttachToBodyguard } from '../src/lib/warorgan-roster'
 import type { WoFactionData, WoUnit } from '../src/types/warorgan'
 
@@ -42,7 +50,7 @@ function loadLegends(mainFile: string): WoUnit[] {
   }
 }
 
-const checks: { army: string; unitName: string; test: (u: WoUnit) => void }[] = [
+const checks: { army: string; unitName: string; test: (u: WoUnit, bundle: ReturnType<typeof assembleWarOrganBundle>) => void }[] = [
   {
     army: 'Space Marines',
     unitName: 'ASSAULT INTERCESSOR SQUAD',
@@ -84,11 +92,64 @@ const checks: { army: string; unitName: string; test: (u: WoUnit) => void }[] = 
     },
   },
   {
-    army: 'Necrons',
-    unitName: 'NECRON WARRIORS',
+    army: 'Space Marines',
+    unitName: 'ASSAULT INTERCESSORS WITH JUMP PACKS',
     test: (u) => {
       const state = defaultWarOrganComposition(u)
-      if (totalModelCount(state) < 1) fail('Necron Warriors: empty default')
+      const bulk = 1
+      const opt = u.UnitComposition!.ModelCompositions[bulk].Wargear[0].Options[0]
+      const max = maxOptionCount(state.modelCounts[bulk], opt, totalModelCount(state))
+      if (max < 1) fail('JPI: plasma pistol slot unavailable at 5-model squad')
+      if (!canAdjustWargearOption(u, state, bulk, 0, 0, 1)) {
+        fail('JPI: cannot add plasma pistol at default squad size')
+      }
+      const withPlasma = adjustWargearOption(state, bulk, 0, 0, 1)
+      if (!withPlasma || getOptionCount(withPlasma, bulk, 0, 0) !== 1) {
+        fail('JPI: plasma pistol adjust failed')
+      }
+    },
+  },
+  {
+    army: 'Space Marines',
+    unitName: 'SCOUT SQUAD',
+    test: (u) => {
+      const state = defaultWarOrganComposition(u)
+      const bulk = 1
+      const sniperOpt = u.UnitComposition!.ModelCompositions[bulk].Wargear[0].Options[1]
+      if (maxOptionCount(state.modelCounts[bulk], sniperOpt, totalModelCount(state)) < 1) {
+        fail('Scout Squad: sniper slot unavailable at 5 models')
+      }
+      if (!canAdjustWargearOption(u, state, bulk, 0, 1, 1)) {
+        fail('Scout Squad: cannot add sniper at 5 models')
+      }
+      const knifeState = adjustChoiceCount(state, bulk, 0, 0, 1, 1)
+      if (!knifeState || getChoiceCount(knifeState, bulk, 0, 0, 1) !== 1) {
+        fail('Scout Squad: cannot add combat knife per model')
+      }
+    },
+  },
+  {
+    army: 'Space Marines',
+    unitName: 'LAND SPEEDER',
+    test: (_u, bundle) => {
+      const det = bundle.detachmentsRaw.find((d) => d.Name === 'FULGURIS TASK FORCE')
+      if (!det) {
+        fail('Land Speeder: Fulguris detachment missing')
+        return
+      }
+      const ls = [...bundle.unitDefs.values()].find((x) => x.Name === 'LAND SPEEDER')
+      if (!ls) {
+        fail('Land Speeder unit missing')
+        return
+      }
+      const enh = det.Enhancements.find((e) => e.Name === 'Bellicose Weapon Spirits')
+      if (!enh) {
+        fail('Land Speeder: Bellicose enhancement missing')
+        return
+      }
+      if (!unitHasEffectiveKeyword(ls, 'Speeder', bundle.detachmentsRaw, ['FULGURIS TASK FORCE'])) {
+        fail('Land Speeder: Speeder keyword not granted by Fulguris detachment')
+      }
     },
   },
 ]
@@ -105,7 +166,7 @@ for (const { army, unitName, test } of checks) {
     fail(`${army}: unit ${unitName} not found`)
     continue
   }
-  test(unit)
+  test(unit, bundle)
 }
 
 if (errors) {

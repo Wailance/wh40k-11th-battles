@@ -1367,6 +1367,34 @@ a.app-btn {
   background: rgba(140, 40, 40, 0.25);
 }
 
+.wo-unit-edit-sheet {
+  background: #12141a;
+}
+
+.wo-unit-edit-head {
+  flex-shrink: 0;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.wo-unit-edit-close {
+  display: flex;
+  width: 2.75rem;
+  height: 2.75rem;
+  flex-shrink: 0;
+  align-items: center;
+  justify-content: center;
+  border-radius: 0.5rem;
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  font-size: 1.5rem;
+  line-height: 1;
+  color: var(--color-muted);
+}
+
+.wo-unit-edit-close:hover {
+  color: var(--color-bone);
+  background: rgba(255, 255, 255, 0.06);
+}
+
 .wo-unit-edit-footer {
   flex-shrink: 0;
   background: var(--color-void-raised);
@@ -1453,10 +1481,6 @@ a.app-btn {
   font-size: var(--text-caption);
   font-weight: 700;
   color: var(--color-gw-gold);
-}
-
-.wo-unit-edit-sheet {
-  background: #12141a;
 }
 
 .wo-detachment-sheet {

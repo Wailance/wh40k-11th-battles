@@ -1,34 +1,47 @@
-import { useEffect, useMemo, useRef, useState } from 'react'
+import { useCallback, useEffect, useMemo, useRef, useState } from 'react'
 import type { CuratedUnit, Enhancement } from '../types/faction-data'
 import type { RosterUnit } from '../types/roster'
-import type { WoCompositionState, WoLineMeta, WoModelComposition, WoUnit } from '../types/warorgan'
+import type {
+  WoCompositionState,
+  WoDetachment,
+  WoLineMeta,
+  WoModelComposition,
+  WoUnit,
+} from '../types/warorgan'
 import { copy } from '../lib/copy'
-import { eligibleEnhancementsForUnit } from '../lib/warorgan-enhancements'
 import {
+  eligibleEnhancementsForUnit,
+  enhancementByName,
+} from '../lib/warorgan-enhancements'
+import {
+  adjustChoiceCount,
   adjustModelRow,
   adjustWargearOption,
+  canAdjustChoiceCount,
   canAdjustModelRow,
   canAdjustWargearOption,
   defaultWarOrganComposition,
+  getChoiceCount,
+  getCountedSubChoice,
   getOptionCount,
   getSingleChoice,
   maxOptionCount,
   modelRowMax,
   modelRowMin,
   parseWarOrganState,
+  setCountedSubChoice,
   setSingleWargearChoice,
   summarizeWarOrganComposition,
   totalModelCount,
   unitHasWarOrganComposition,
   validModelCounts,
+  wargearOptionMode,
   WO_ROSTER_KEY,
 } from '../lib/warorgan-composition'
 import { warOrganLinePoints } from '../lib/warorgan-points'
-import { enhancementByName } from '../lib/warorgan-enhancements'
 import { leaderCanAttachToBodyguard, parseWoLineMeta, upgradeCost, withWoLineMeta, WO_META_KEY } from '../lib/warorgan-roster'
 import { formatWoDisplayName } from '../lib/warorgan-names'
 import { AppSheet } from './AppSheet'
-import { ConfirmDialog } from './ConfirmDialog'
 import { UnitDatasheet } from './UnitDatasheet'
 
 function ModelRowEditor({
@@ -37,18 +50,30 @@ function ModelRowEditor({
   count,
   unit,
   state,
+  unitTotal,
   onAdjustRow,
   onAdjustOption,
+  onAdjustChoice,
   onSelectChoice,
+  onSelectCountedSub,
 }: {
   comp: WoModelComposition
   compIdx: number
   count: number
   unit: WoUnit
   state: WoCompositionState
+  unitTotal: number
   onAdjustRow: (compIdx: number, delta: number) => void
   onAdjustOption: (compIdx: number, wgIdx: number, optIdx: number, delta: number) => void
+  onAdjustChoice: (
+    compIdx: number,
+    wgIdx: number,
+    optIdx: number,
+    choiceIdx: number,
+    delta: number,
+  ) => void
   onSelectChoice: (compIdx: number, wgIdx: number, replaces: string[], chosen: string) => void
+  onSelectCountedSub: (compIdx: number, wgIdx: number, optIdx: number, chosen: string) => void
 }) {
   const [expanded, setExpanded] = useState(count > 0 && comp.Wargear.some((w) => w.Options.length > 0))
   const hasWargear = comp.Wargear.some((w) => w.Options.length > 0)
@@ -114,19 +139,23 @@ function ModelRowEditor({
               </p>
               {wg.Options.map((opt, optIdx) => {
                 const replaces = opt.Replaces ?? []
-                const isCounted = opt.Max != null || opt.PerXModels != null
                 const replaceLabel = replaces.join(', ')
+                const mode = wargearOptionMode(opt, count)
 
-                if (isCounted) {
+                if (mode === 'counted') {
                   const taken = getOptionCount(state, compIdx, wgIdx, optIdx)
-                  const maxTake = maxOptionCount(count, opt)
+                  const maxTake = maxOptionCount(count, opt, unitTotal)
                   const label = opt.Options[0] ?? 'Upgrade'
                   const hint =
                     opt.PerXModels && opt.PerXModels > 1
-                      ? `Max ${maxTake} (${opt.PerXModels} models each)`
+                      ? `Max ${maxTake} per ${opt.PerXModels} models in unit`
                       : maxTake < count
                         ? `Max ${maxTake}`
                         : undefined
+                  const subChoice =
+                    opt.Options.length > 1
+                      ? getCountedSubChoice(state, compIdx, wgIdx, optIdx, opt)
+                      : null
 
                   return (
                     <div key={optIdx} className="bf-loadout-replace-block">
@@ -156,6 +185,65 @@ function ModelRowEditor({
                           +
                         </button>
                       </div>
+                      {subChoice != null && taken > 0 && (
+                        <div className="wo-choice-list mt-2">
+                          {opt.Options.map((name) => (
+                            <button
+                              key={name}
+                              type="button"
+                              className={`wo-choice-btn${subChoice === name ? ' is-selected' : ''}`}
+                              onClick={() => onSelectCountedSub(compIdx, wgIdx, optIdx, name)}
+                            >
+                              {name}
+                            </button>
+                          ))}
+                        </div>
+                      )}
+                    </div>
+                  )
+                }
+
+                if (mode === 'perModel') {
+                  return (
+                    <div key={optIdx} className="bf-loadout-replace-block">
+                      <p className="bf-loadout-replace-label">
+                        Replaces <em>{replaceLabel}</em> · per model
+                      </p>
+                      {opt.Options.map((name, choiceIdx) => {
+                        const taken = getChoiceCount(state, compIdx, wgIdx, optIdx, choiceIdx)
+                        return (
+                          <div key={name} className="bf-loadout-replace-row mt-1">
+                            <button
+                              type="button"
+                              className="bf-loadout-squad-step"
+                              disabled={taken <= 0}
+                              onClick={() => onAdjustChoice(compIdx, wgIdx, optIdx, choiceIdx, -1)}
+                            >
+                              −
+                            </button>
+                            <span className="bf-loadout-squad-count">{taken}</span>
+                            <span className="bf-loadout-squad-label">{name}</span>
+                            <button
+                              type="button"
+                              className="bf-loadout-squad-step"
+                              disabled={
+                                !canAdjustChoiceCount(
+                                  unit,
+                                  state,
+                                  compIdx,
+                                  wgIdx,
+                                  optIdx,
+                                  choiceIdx,
+                                  1,
+                                )
+                              }
+                              onClick={() => onAdjustChoice(compIdx, wgIdx, optIdx, choiceIdx, 1)}
+                            >
+                              +
+                            </button>
+                          </div>
+                        )
+                      })}
                     </div>
                   )
                 }
@@ -197,6 +285,7 @@ export function WarOrganUnitEditSheet({
   unitDefs,
   enhancements,
   detachmentNames,
+  detachmentsRaw,
   open,
   onClose,
   onSave,
@@ -210,6 +299,7 @@ export function WarOrganUnitEditSheet({
   unitDefs?: Map<string, WoUnit>
   enhancements: Enhancement[]
   detachmentNames: string[]
+  detachmentsRaw?: WoDetachment[]
   open: boolean
   onClose: () => void
   onSave: (patch: {
@@ -223,21 +313,26 @@ export function WarOrganUnitEditSheet({
 }) {
   const [state, setState] = useState<WoCompositionState | null>(null)
   const [meta, setMeta] = useState<WoLineMeta>({})
-  const [discardOpen, setDiscardOpen] = useState(false)
-  const initialSnapshot = useRef('')
+  const hydratedLineId = useRef<string | null>(null)
 
   useEffect(() => {
-    if (!open || !line || !woUnit) return
+    if (!open) {
+      hydratedLineId.current = null
+      return
+    }
+    if (!line?.lineId || !woUnit) return
+    if (hydratedLineId.current === line.lineId) return
+    hydratedLineId.current = line.lineId
     const existing = parseWarOrganState(line.options)
-    const nextState = existing ?? defaultWarOrganComposition(woUnit)
-    const nextMeta = parseWoLineMeta(line.options)
-    setState(nextState)
-    setMeta(nextMeta)
-    initialSnapshot.current = JSON.stringify({ state: nextState, meta: nextMeta })
-  }, [open, line, woUnit])
+    setState(existing ?? defaultWarOrganComposition(woUnit))
+    setMeta(parseWoLineMeta(line.options))
+  }, [open, line?.lineId, line?.options, woUnit])
 
   const total = state ? totalModelCount(state) : line?.models ?? 1
   const validTotals = useMemo(() => (woUnit ? validModelCounts(woUnit) : []), [woUnit])
+  const hasComposition = woUnit ? unitHasWarOrganComposition(woUnit) : false
+  const totalValid = !hasComposition || !validTotals.length || validTotals.includes(total)
+
   const basePoints =
     unit && woUnit && state
       ? warOrganLinePoints(unit, woUnit, instanceIndex, state)
@@ -257,8 +352,8 @@ export function WarOrganUnitEditSheet({
 
   const eligibleEnh = useMemo(() => {
     if (!woUnit) return []
-    return eligibleEnhancementsForUnit(woUnit, enhancements, detachmentNames)
-  }, [woUnit, enhancements, detachmentNames])
+    return eligibleEnhancementsForUnit(woUnit, enhancements, detachmentNames, detachmentsRaw)
+  }, [woUnit, enhancements, detachmentNames, detachmentsRaw])
 
   const leaderTargets = useMemo(() => {
     if (!woUnit?.LeaderInfo?.UnitNames || !line?.lineId) return []
@@ -271,74 +366,96 @@ export function WarOrganUnitEditSheet({
 
   const isCharacter = unit?.keywords.some((k) => k.toLowerCase() === 'character') ?? false
 
-  if (!open || !line || !unit || !woUnit) return null
+  const persistNow = useCallback(
+    (nextState: WoCompositionState | null, nextMeta: WoLineMeta) => {
+      if (!line || !woUnit || !nextState) return
+      const models = hasComposition ? totalModelCount(nextState) : (line.models ?? 1)
+      if (hasComposition && validTotals.length && !validTotals.includes(models)) return
 
-  const hasComposition = unitHasWarOrganComposition(woUnit)
-  const totalValid = !hasComposition || !validTotals.length || validTotals.includes(total)
+      const options: Record<string, unknown> = {
+        ...line.options,
+        loadoutSummary: hasComposition
+          ? summarizeWarOrganComposition(woUnit, nextState)
+          : line.options?.loadoutSummary,
+      }
+      if (hasComposition) options[WO_ROSTER_KEY] = nextState
 
-  function handleAdjustRow(compIdx: number, delta: number) {
-    if (!state) return
-    const next = adjustModelRow(woUnit!, state, compIdx, delta)
-    if (next) setState(next)
+      const merged = withWoLineMeta(options, nextMeta)
+      if (Object.keys(parseWoLineMeta(merged)).length === 0) delete merged[WO_META_KEY]
+
+      const bp =
+        unit && woUnit
+          ? warOrganLinePoints(unit, woUnit, instanceIndex, nextState) +
+            upgradeCost(woUnit.Upgrades, nextMeta.upgradeName) +
+            (nextMeta.enhancementId
+              ? (enhancementByName(enhancements, nextMeta.enhancementId)?.points ?? 0)
+              : 0)
+          : line.points
+
+      onSave({
+        models,
+        points: bp,
+        options: merged,
+        clearOtherWarlord: Boolean(nextMeta.warlord),
+      })
+    },
+    [line, woUnit, unit, hasComposition, validTotals, instanceIndex, enhancements, onSave],
+  )
+
+  useEffect(() => {
+    if (!open || !line?.lineId || !state) return
+    if (hydratedLineId.current !== line.lineId) return
+    persistNow(state, meta)
+  }, [open, line?.lineId, state, meta, persistNow])
+
+  if (!open || !line || !unit || !woUnit || !state) return null
+
+  function patchState(next: WoCompositionState) {
+    setState(next)
   }
 
-  function handleAdjustOption(compIdx: number, wgIdx: number, optIdx: number, delta: number) {
-    if (!state) return
-    if (!canAdjustWargearOption(woUnit!, state, compIdx, wgIdx, optIdx, delta)) return
-    const next = adjustWargearOption(state, compIdx, wgIdx, optIdx, delta)
-    if (next) setState(next)
-  }
-
-  function isDirty() {
-    return JSON.stringify({ state, meta }) !== initialSnapshot.current
-  }
-
-  function requestClose() {
-    if (isDirty()) {
-      setDiscardOpen(true)
-      return
-    }
-    onClose()
-  }
-
-  function handleSave() {
-    const options: Record<string, unknown> = {
-      ...line!.options,
-      loadoutSummary: hasComposition ? summary : line!.options?.loadoutSummary,
-    }
-    if (state && hasComposition) {
-      options[WO_ROSTER_KEY] = state
-    }
-    const merged = withWoLineMeta(options, meta)
-    if (Object.keys(parseWoLineMeta(merged)).length === 0) {
-      delete merged[WO_META_KEY]
-    }
-
-    onSave({
-      models: hasComposition ? total : line!.models,
-      points,
-      options: merged,
-      clearOtherWarlord: Boolean(meta.warlord),
-    })
-    onClose()
+  function patchMeta(next: WoLineMeta) {
+    setMeta(next)
   }
 
   return (
-    <>
-    <AppSheet open={open} onClose={requestClose} titleId="wo-unit-edit-title" className="wo-unit-edit-sheet">
-      <div className="app-sheet-scroll px-4 pb-4 pt-1">
-        <h2 id="wo-unit-edit-title" className="wo-unit-edit-title">
-          {formatWoDisplayName(unit.name)}
-        </h2>
-        <p className="wo-unit-edit-pts tabular-nums">{points} pts</p>
+    <AppSheet open={open} onClose={onClose} titleId="wo-unit-edit-title" className="wo-unit-edit-sheet">
+      <div className="wo-unit-edit-head flex items-start gap-2 px-4 pb-2 pt-1">
+        <div className="min-w-0 flex-1">
+          <h2 id="wo-unit-edit-title" className="wo-unit-edit-title">
+            {formatWoDisplayName(unit.name)}
+          </h2>
+          <p className="wo-unit-edit-pts tabular-nums">{points} pts</p>
+          {hasComposition && summary && (
+            <p className="mt-0.5 truncate text-caption text-muted">{summary}</p>
+          )}
+        </div>
+        <button
+          type="button"
+          className="wo-unit-edit-close"
+          aria-label={copy.common.close}
+          onClick={onClose}
+        >
+          ×
+        </button>
+      </div>
+
+      <div className="app-sheet-scroll px-4 pb-6 pt-0">
+        {!totalValid && (
+          <p className="mb-3 text-caption text-status-danger">
+            Squad must be {validTotals.join(' or ')} models (currently {total})
+          </p>
+        )}
 
         {isCharacter && (
-          <label className="wo-meta-row wo-meta-row-touch mt-3 flex items-center gap-3 text-body">
+          <label className="wo-meta-row wo-meta-row-touch mt-1 flex items-center gap-3 text-body">
             <input
               type="checkbox"
               className="h-5 w-5 shrink-0"
               checked={Boolean(meta.warlord)}
-              onChange={(e) => setMeta((m) => ({ ...m, warlord: e.target.checked || undefined }))}
+              onChange={(e) =>
+                patchMeta({ ...meta, warlord: e.target.checked || undefined })
+              }
             />
             {copy.armyLists.warlord}
           </label>
@@ -352,12 +469,9 @@ export function WarOrganUnitEditSheet({
             <select
               value={meta.attachedToLineId ?? ''}
               onChange={(e) =>
-                setMeta((m) => ({
-                  ...m,
-                  attachedToLineId: e.target.value || undefined,
-                }))
+                patchMeta({ ...meta, attachedToLineId: e.target.value || undefined })
               }
-              className="mt-1 w-full rounded-lg border border-white/10 bg-black/40 px-3 py-2 text-caption"
+              className="mt-1 w-full rounded-lg border border-white/10 bg-black/40 px-3 py-2.5 text-caption"
             >
               <option value="">{copy.armyLists.noLeaderAttachment}</option>
               {leaderTargets.map((t) => (
@@ -377,12 +491,9 @@ export function WarOrganUnitEditSheet({
             <select
               value={meta.enhancementId ?? ''}
               onChange={(e) =>
-                setMeta((m) => ({
-                  ...m,
-                  enhancementId: e.target.value || undefined,
-                }))
+                patchMeta({ ...meta, enhancementId: e.target.value || undefined })
               }
-              className="mt-1 w-full rounded-lg border border-white/10 bg-black/40 px-3 py-2 text-caption"
+              className="mt-1 w-full rounded-lg border border-white/10 bg-black/40 px-3 py-2.5 text-caption"
             >
               <option value="">{copy.armyLists.noEnhancement}</option>
               {eligibleEnh.map((e) => (
@@ -402,12 +513,9 @@ export function WarOrganUnitEditSheet({
             <select
               value={meta.upgradeName ?? ''}
               onChange={(e) =>
-                setMeta((m) => ({
-                  ...m,
-                  upgradeName: e.target.value || undefined,
-                }))
+                patchMeta({ ...meta, upgradeName: e.target.value || undefined })
               }
-              className="mt-1 w-full rounded-lg border border-white/10 bg-black/40 px-3 py-2 text-caption"
+              className="mt-1 w-full rounded-lg border border-white/10 bg-black/40 px-3 py-2.5 text-caption"
             >
               <option value="">{copy.armyLists.noUpgrade}</option>
               {woUnit.Upgrades!.map((u) => (
@@ -419,16 +527,11 @@ export function WarOrganUnitEditSheet({
           </div>
         )}
 
-        {hasComposition && state && (
+        {hasComposition && (
           <section className="wo-composition mt-4">
             <h3 className="text-micro font-semibold uppercase tracking-widest text-muted">
-              Unit composition
+              {copy.armyLists.loadoutHeading}
             </h3>
-            {!totalValid && (
-              <p className="mt-1 text-caption text-status-danger">
-                Squad must be {validTotals.join(' or ')} models (currently {total})
-              </p>
-            )}
             <div className="mt-2 space-y-1">
               {(woUnit.UnitComposition?.ModelCompositions ?? []).map((comp, compIdx) => (
                 <ModelRowEditor
@@ -438,10 +541,26 @@ export function WarOrganUnitEditSheet({
                   count={state.modelCounts[compIdx] ?? 0}
                   unit={woUnit}
                   state={state}
-                  onAdjustRow={handleAdjustRow}
-                  onAdjustOption={handleAdjustOption}
+                  unitTotal={total}
+                  onAdjustRow={(ci, d) => {
+                    const next = adjustModelRow(woUnit, state, ci, d)
+                    if (next) patchState(next)
+                  }}
+                  onAdjustOption={(ci, wi, oi, d) => {
+                    if (!canAdjustWargearOption(woUnit, state, ci, wi, oi, d)) return
+                    const next = adjustWargearOption(state, ci, wi, oi, d)
+                    if (next) patchState(next)
+                  }}
+                  onAdjustChoice={(ci, wi, oi, chi, d) => {
+                    if (!canAdjustChoiceCount(woUnit, state, ci, wi, oi, chi, d)) return
+                    const next = adjustChoiceCount(state, ci, wi, oi, chi, d)
+                    if (next) patchState(next)
+                  }}
                   onSelectChoice={(ci, wi, rep, ch) =>
-                    setState(setSingleWargearChoice(state, ci, wi, rep, ch))
+                    patchState(setSingleWargearChoice(state, ci, wi, rep, ch))
+                  }
+                  onSelectCountedSub={(ci, wi, oi, ch) =>
+                    patchState(setCountedSubChoice(state, ci, wi, oi, ch))
                   }
                 />
               ))}
@@ -463,34 +582,6 @@ export function WarOrganUnitEditSheet({
           </section>
         </details>
       </div>
-
-      <div className="wo-unit-edit-footer flex gap-2 border-t border-white/10 px-4 py-3">
-        <button type="button" onClick={requestClose} className="app-btn-ghost flex-1 py-3">
-          {copy.common.cancel}
-        </button>
-        <button
-          type="button"
-          onClick={handleSave}
-          disabled={!totalValid}
-          className="app-btn-primary flex-1 py-3"
-        >
-          {copy.common.save}
-        </button>
-      </div>
     </AppSheet>
-
-    <ConfirmDialog
-      open={discardOpen}
-      title={copy.armyLists.unsavedUnitTitle}
-      body={copy.armyLists.unsavedUnitBody}
-      confirmLabel={copy.armyLists.discardChanges}
-      danger
-      onCancel={() => setDiscardOpen(false)}
-      onConfirm={() => {
-        setDiscardOpen(false)
-        onClose()
-      }}
-    />
-  </>
   )
 }

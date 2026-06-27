@@ -692,6 +692,7 @@ export function ListBuilderPage() {
         unitDefs={woBundle?.unitDefs}
         enhancements={enhancements}
         detachmentNames={roster.detachments.map((d) => d.name)}
+        detachmentsRaw={woBundle?.detachmentsRaw}
         open={Boolean(
           editEntry && woBundle && getWarOrganUnitDef(woBundle, editEntry.catalog.id),
         )}

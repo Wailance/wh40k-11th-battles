@@ -3,6 +3,8 @@ import { woDefaultModelCount } from './warorgan-catalog'
 
 export const WO_ROSTER_KEY = 'warorgan'
 
+export type WargearOptionMode = 'single' | 'counted' | 'perModel'
+
 export function parseWarOrganState(options?: Record<string, unknown>): WoCompositionState | null {
   const raw = options?.[WO_ROSTER_KEY]
   if (!raw || typeof raw !== 'object') return null
@@ -106,8 +108,22 @@ function countKey(compIdx: number, wgIdx: number, optIdx: number): string {
   return `${compIdx}:${wgIdx}:${optIdx}`
 }
 
+function choiceCountKey(compIdx: number, wgIdx: number, optIdx: number, choiceIdx: number): string {
+  return `${compIdx}:${wgIdx}:${optIdx}:c${choiceIdx}`
+}
+
+function countedSubChoiceKey(compIdx: number, wgIdx: number, optIdx: number): string {
+  return `${compIdx}:${wgIdx}:${optIdx}:sub`
+}
+
 function choiceKey(compIdx: number, wgIdx: number, replaces: string[]): string {
   return `${compIdx}:${wgIdx}:choice:${replaces.join('|')}`
+}
+
+export function wargearOptionMode(opt: WoWargearOption, rowCount: number): WargearOptionMode {
+  if (rowCount <= 1) return 'single'
+  if (opt.Max != null || opt.PerXModels != null) return 'counted'
+  return 'perModel'
 }
 
 export function getOptionCount(
@@ -117,6 +133,17 @@ export function getOptionCount(
   optIdx: number,
 ): number {
   const v = state.wargear[countKey(compIdx, wgIdx, optIdx)]
+  return typeof v === 'number' ? v : 0
+}
+
+export function getChoiceCount(
+  state: WoCompositionState,
+  compIdx: number,
+  wgIdx: number,
+  optIdx: number,
+  choiceIdx: number,
+): number {
+  const v = state.wargear[choiceCountKey(compIdx, wgIdx, optIdx, choiceIdx)]
   return typeof v === 'number' ? v : 0
 }
 
@@ -130,12 +157,56 @@ export function getSingleChoice(
   return typeof v === 'string' ? v : undefined
 }
 
-export function maxOptionCount(rowCount: number, option: WoWargearOption): number {
+export function getCountedSubChoice(
+  state: WoCompositionState,
+  compIdx: number,
+  wgIdx: number,
+  optIdx: number,
+  option: WoWargearOption,
+): string {
+  const v = state.wargear[countedSubChoiceKey(compIdx, wgIdx, optIdx)]
+  if (typeof v === 'string' && option.Options.includes(v)) return v
+  return option.Options[0] ?? ''
+}
+
+/** Max takes for a counted option; PerXModels uses whole-unit model count when > 1. */
+export function maxOptionCount(
+  rowCount: number,
+  option: WoWargearOption,
+  unitTotalModels?: number,
+): number {
   if (rowCount <= 0) return 0
   const per = option.PerXModels ?? 1
-  const slots = Math.floor(rowCount / per)
+  const basis =
+    per > 1 && unitTotalModels != null && unitTotalModels > 0 ? unitTotalModels : rowCount
+  const slots = Math.floor(basis / per)
   const cap = option.Max ?? rowCount
   return Math.min(slots * cap, rowCount)
+}
+
+function wargearSlotsUsedInBlock(
+  state: WoCompositionState,
+  comp: WoModelComposition,
+  compIdx: number,
+  wgIdx: number,
+): number {
+  const rowCount = state.modelCounts[compIdx] ?? 0
+  const wg = comp.Wargear[wgIdx]
+  if (!wg) return 0
+
+  let used = 0
+  for (let optIdx = 0; optIdx < wg.Options.length; optIdx++) {
+    const opt = wg.Options[optIdx]
+    const mode = wargearOptionMode(opt, rowCount)
+    if (mode === 'counted') {
+      used += getOptionCount(state, compIdx, wgIdx, optIdx)
+    } else if (mode === 'perModel') {
+      for (let ci = 0; ci < opt.Options.length; ci++) {
+        used += getChoiceCount(state, compIdx, wgIdx, optIdx, ci)
+      }
+    }
+  }
+  return used
 }
 
 export function canAdjustModelRow(
@@ -188,13 +259,19 @@ export function canAdjustWargearOption(
   const comp = unit.UnitComposition?.ModelCompositions[compIdx]
   const wg = comp?.Wargear[wgIdx]
   const option = wg?.Options[optIdx]
-  if (!option) return false
+  if (!comp || !option) return false
 
   const rowCount = state.modelCounts[compIdx] ?? 0
+  if (wargearOptionMode(option, rowCount) !== 'counted') return false
+
   const current = getOptionCount(state, compIdx, wgIdx, optIdx)
   const next = current + delta
   if (next < 0) return false
-  return next <= maxOptionCount(rowCount, option)
+  if (next > maxOptionCount(rowCount, option, totalModelCount(state))) return false
+  if (delta > 0 && wargearSlotsUsedInBlock(state, comp, compIdx, wgIdx) + delta > rowCount) {
+    return false
+  }
+  return true
 }
 
 export function adjustWargearOption(
@@ -214,6 +291,50 @@ export function adjustWargearOption(
   return { ...state, wargear }
 }
 
+export function canAdjustChoiceCount(
+  unit: WoUnit,
+  state: WoCompositionState,
+  compIdx: number,
+  wgIdx: number,
+  optIdx: number,
+  choiceIdx: number,
+  delta: number,
+): boolean {
+  const comp = unit.UnitComposition?.ModelCompositions[compIdx]
+  const wg = comp?.Wargear[wgIdx]
+  const option = wg?.Options[optIdx]
+  if (!comp || !option) return false
+
+  const rowCount = state.modelCounts[compIdx] ?? 0
+  if (wargearOptionMode(option, rowCount) !== 'perModel') return false
+
+  const current = getChoiceCount(state, compIdx, wgIdx, optIdx, choiceIdx)
+  const next = current + delta
+  if (next < 0) return false
+  if (delta > 0 && wargearSlotsUsedInBlock(state, comp, compIdx, wgIdx) + delta > rowCount) {
+    return false
+  }
+  return true
+}
+
+export function adjustChoiceCount(
+  state: WoCompositionState,
+  compIdx: number,
+  wgIdx: number,
+  optIdx: number,
+  choiceIdx: number,
+  delta: number,
+): WoCompositionState | null {
+  const current = getChoiceCount(state, compIdx, wgIdx, optIdx, choiceIdx)
+  const next = current + delta
+  if (next < 0) return null
+
+  const key = choiceCountKey(compIdx, wgIdx, optIdx, choiceIdx)
+  const wargear = { ...state.wargear, [key]: next }
+  if (next === 0) delete wargear[key]
+  return { ...state, wargear }
+}
+
 export function setSingleWargearChoice(
   state: WoCompositionState,
   compIdx: number,
@@ -225,6 +346,17 @@ export function setSingleWargearChoice(
   return { ...state, wargear: { ...state.wargear, [key]: chosen } }
 }
 
+export function setCountedSubChoice(
+  state: WoCompositionState,
+  compIdx: number,
+  wgIdx: number,
+  optIdx: number,
+  chosen: string,
+): WoCompositionState {
+  const key = countedSubChoiceKey(compIdx, wgIdx, optIdx)
+  return { ...state, wargear: { ...state.wargear, [key]: chosen } }
+}
+
 /** Equipped wargear for one model row (default + replacements). */
 export function rowEquippedWargear(
   comp: WoModelComposition,
@@ -232,38 +364,69 @@ export function rowEquippedWargear(
   state: WoCompositionState,
 ): string[][] {
   const rowCount = state.modelCounts[compIdx] ?? 0
-  const results: string[][] = []
+  const results: Set<string>[] = Array.from({ length: rowCount }, () => {
+    const eq = new Set<string>()
+    for (const wg of comp.Wargear) {
+      for (const item of wg.InitalWargear ?? []) eq.add(item)
+    }
+    return eq
+  })
 
-  for (let m = 0; m < rowCount; m++) {
-    const equipped = new Set<string>()
-    for (let wgIdx = 0; wgIdx < comp.Wargear.length; wgIdx++) {
-      const wg = comp.Wargear[wgIdx]
-      for (const item of wg.InitalWargear) equipped.add(item)
+  if (rowCount <= 0) return []
 
-      for (let optIdx = 0; optIdx < wg.Options.length; optIdx++) {
-        const opt = wg.Options[optIdx]
+  type Assign = { replaces: string[]; grant: string }
+  const queue: Assign[] = []
+
+  for (let wgIdx = 0; wgIdx < comp.Wargear.length; wgIdx++) {
+    const wg = comp.Wargear[wgIdx]
+    for (let optIdx = 0; optIdx < wg.Options.length; optIdx++) {
+      const opt = wg.Options[optIdx]
+      const mode = wargearOptionMode(opt, rowCount)
+
+      if (mode === 'perModel') {
+        for (let ci = 0; ci < opt.Options.length; ci++) {
+          const n = getChoiceCount(state, compIdx, wgIdx, optIdx, ci)
+          for (let k = 0; k < n; k++) {
+            queue.push({ replaces: opt.Replaces ?? [], grant: opt.Options[ci] })
+          }
+        }
+      } else if (mode === 'counted') {
         const taken = getOptionCount(state, compIdx, wgIdx, optIdx)
-        const isCounted = opt.Max != null || opt.PerXModels != null
-
-        if (isCounted) {
-          const slot = Math.floor(m / (opt.PerXModels ?? 1))
-          if (slot < taken && opt.Options[0]) {
-            for (const r of opt.Replaces ?? []) equipped.delete(r)
-            equipped.add(opt.Options[0])
-          }
-        } else {
-          const chosen = getSingleChoice(state, compIdx, wgIdx, opt.Replaces ?? [])
-          if (chosen) {
-            for (const r of opt.Replaces ?? []) equipped.delete(r)
-            equipped.add(chosen)
-          }
+        const grant =
+          opt.Options.length > 1
+            ? getCountedSubChoice(state, compIdx, wgIdx, optIdx, opt)
+            : (opt.Options[0] ?? '')
+        for (let k = 0; k < taken; k++) {
+          if (grant) queue.push({ replaces: opt.Replaces ?? [], grant })
         }
       }
     }
-    results.push([...equipped])
   }
 
-  return results
+  let slot = 0
+  for (const a of queue) {
+    if (slot >= rowCount) break
+    for (const r of a.replaces) results[slot].delete(r)
+    results[slot].add(a.grant)
+    slot++
+  }
+
+  if (rowCount === 1) {
+    for (let wgIdx = 0; wgIdx < comp.Wargear.length; wgIdx++) {
+      const wg = comp.Wargear[wgIdx]
+      for (let optIdx = 0; optIdx < wg.Options.length; optIdx++) {
+        const opt = wg.Options[optIdx]
+        if (wargearOptionMode(opt, rowCount) !== 'single') continue
+        const chosen = getSingleChoice(state, compIdx, wgIdx, opt.Replaces ?? [])
+        if (chosen) {
+          for (const r of opt.Replaces ?? []) results[0].delete(r)
+          results[0].add(chosen)
+        }
+      }
+    }
+  }
+
+  return results.map((s) => [...s])
 }
 
 export function summarizeWarOrganComposition(unit: WoUnit, state: WoCompositionState): string {
