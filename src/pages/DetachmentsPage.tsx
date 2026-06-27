@@ -43,7 +43,7 @@ export function DetachmentsPage() {
         <p className="mt-1 text-body text-muted">
           {filtered.length} armies · {totalDets} detachments
         </p>
-        <p className="mt-1 text-caption text-muted">{copy.lists.dpHint}</p>
+        <p className="mt-1 text-caption text-muted">{copy.reference.detachmentsCardDesc}</p>
         <div className="app-divider mt-4" />
       </div>
 

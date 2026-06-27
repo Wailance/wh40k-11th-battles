@@ -35,6 +35,15 @@ const MatrixPage = lazy(() => import('./pages/MatrixPage').then((m) => ({ defaul
 const MissionsPage = lazy(() =>
   import('./pages/MissionsPage').then((m) => ({ default: m.MissionsPage })),
 )
+const PrimaryMissionsPage = lazy(() =>
+  import('./pages/PrimaryMissionsPage').then((m) => ({ default: m.PrimaryMissionsPage })),
+)
+const SecondaryMissionsPage = lazy(() =>
+  import('./pages/SecondaryMissionsPage').then((m) => ({ default: m.SecondaryMissionsPage })),
+)
+const ForceDispositionPage = lazy(() =>
+  import('./pages/ForceDispositionPage').then((m) => ({ default: m.ForceDispositionPage })),
+)
 const MetaListsPage = lazy(() =>
   import('./pages/MetaListsPage').then((m) => ({ default: m.MetaListsPage })),
 )
@@ -179,10 +188,34 @@ export default function App() {
             }
           />
           <Route
+            path="dispositions"
+            element={
+              <LazyPage>
+                <ForceDispositionPage />
+              </LazyPage>
+            }
+          />
+          <Route
             path="missions"
             element={
               <LazyPage>
                 <MissionsPage />
+              </LazyPage>
+            }
+          />
+          <Route
+            path="missions/primary"
+            element={
+              <LazyPage>
+                <PrimaryMissionsPage />
+              </LazyPage>
+            }
+          />
+          <Route
+            path="missions/secondary"
+            element={
+              <LazyPage>
+                <SecondaryMissionsPage />
               </LazyPage>
             }
           />

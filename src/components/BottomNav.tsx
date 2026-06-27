@@ -6,7 +6,7 @@ function navLinks() {
   const active = loadActiveGame()?.status === 'active'
   const links = [
     { to: '/', label: copy.nav.home, end: true },
-    { to: '/reference', label: copy.nav.reference, end: false },
+    { to: '/rules', label: copy.nav.reference, end: false },
     { to: '/lists', label: copy.nav.armyLists, end: false },
     { to: '/history', label: copy.nav.history, end: false },
   ]

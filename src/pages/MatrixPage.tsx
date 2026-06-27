@@ -31,6 +31,9 @@ export function MatrixPage() {
   return (
     <div className="motion-stagger space-y-4 pb-4">
       <div>
+        <p className="text-micro font-semibold uppercase tracking-widest text-accent-dim">
+          {copy.reference.sectionMatrix}
+        </p>
         <h1 className="app-page-title">{copy.reference.matrixTitle}</h1>
         <p className="mt-1 text-body text-muted">{copy.reference.matrixSubtitle}</p>
         <div className="app-divider mt-4" />

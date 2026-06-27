@@ -39,6 +39,10 @@ export const FD_SHORT: Record<ForceDisposition, string> = {
   DISRUPTION: 'Disrupt',
 }
 
+export function isForceDisposition(value: string): value is ForceDisposition {
+  return (FD_ORDER as string[]).includes(value)
+}
+
 export function getPrimaryMission(
   myFd: ForceDisposition,
   opponentFd: ForceDisposition,

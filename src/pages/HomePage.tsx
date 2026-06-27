@@ -88,13 +88,7 @@ export function HomePage() {
           to="/reference"
           title={copy.reference.hubTitle}
           desc={copy.reference.hubSubtitle}
-          glyph="GD"
-        />
-        <FeatureCard
-          to="/matrix"
-          title={copy.reference.matrixTitle}
-          desc={copy.reference.matrixCardDesc}
-          glyph="MX"
+          glyph="11"
         />
         <FeatureCard
           to="/rules"
@@ -103,10 +97,28 @@ export function HomePage() {
           glyph="RU"
         />
         <FeatureCard
-          to="/mission-sequence"
-          title={copy.missionSequence.title}
-          desc={copy.missionSequence.subtitle}
-          glyph="MS"
+          to="/missions/primary"
+          title={copy.reference.primaryTitle}
+          desc={copy.reference.primarySubtitle}
+          glyph="1°"
+        />
+        <FeatureCard
+          to="/missions/secondary"
+          title={copy.reference.secondaryTitle}
+          desc={copy.reference.secondarySubtitle}
+          glyph="2°"
+        />
+        <FeatureCard
+          to="/dispositions"
+          title={copy.reference.dispositionsTitle}
+          desc={copy.reference.dispositionsSubtitle}
+          glyph="FD"
+        />
+        <FeatureCard
+          to="/matrix"
+          title={copy.reference.matrixTitle}
+          desc={copy.reference.matrixCardDesc}
+          glyph="MX"
         />
         <FeatureCard
           to="/in-dev"
