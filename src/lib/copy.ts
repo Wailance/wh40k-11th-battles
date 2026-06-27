@@ -99,6 +99,11 @@ export const copy = {
       'Points, detachments, enhancements, and full unit loadouts. Duplicate-unit pricing tiers apply when adding the same unit again.',
     newList: 'New list',
     myLists: 'My lists',
+    myListsTitle: 'Your lists',
+    listsHomeHint: (n: number) =>
+      `${n} saved ${n === 1 ? 'list' : 'lists'} · tap to edit, Play to start a game`,
+    listsHomeEmptyHint: 'Build and save army lists for matched play',
+    listsActionsLabel: 'List actions',
     back: 'My lists',
     loading: 'Loading catalogue…',
     loadingDetachments: 'Loading detachments…',

@@ -53,7 +53,7 @@ export function HomePage() {
         )}
       </div>
 
-      <ArmyBuilderCta to="/lists/new" />
+      <ArmyBuilderCta to="/lists" />
 
       <TournamentListsCta to="/lists/meta" />
 

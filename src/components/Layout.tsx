@@ -6,7 +6,6 @@ import { SupportFooter } from './SupportFooter'
 function useFullscreenShell() {
   const { pathname } = useLocation()
   if (pathname === '/game') return 'game'
-  if (pathname === '/lists') return 'lists'
   if (pathname === '/lists/new') return 'builder'
   if (pathname.startsWith('/lists/') && pathname !== '/lists/meta') return 'builder'
   return null
@@ -21,11 +20,11 @@ export function Layout() {
     <div className="app-root flex h-[100dvh] max-h-[100dvh] flex-col overflow-hidden">
       <div className="app-bg" aria-hidden />
       <main
-        className={`page-shell relative mx-auto flex w-full min-h-0 flex-1 flex-col ${
-          shell === 'builder' || shell === 'lists' ? 'page-shell-builder max-w-4xl' : 'max-w-lg'
+        className={`page-shell relative mx-auto flex w-full min-h-0 flex-1 flex-col max-w-lg ${
+          shell === 'builder' ? 'page-shell-builder max-w-4xl' : ''
         } ${shell ? 'page-shell-compact' : ''} ${shell === 'game' ? 'px-2' : 'px-4'}`}
       >
-        {shell !== 'builder' && shell !== 'lists' && <ActiveGameBanner />}
+        {shell !== 'builder' && <ActiveGameBanner />}
         <div
           key={shell ? 'shell' : pathname}
           className={`flex min-h-0 flex-1 flex-col ${
@@ -38,7 +37,7 @@ export function Layout() {
           {isHome && <SupportFooter />}
         </div>
       </main>
-      <BottomNav compact={Boolean(shell)} hidden={shell === 'builder' || shell === 'lists'} />
+      <BottomNav compact={Boolean(shell)} hidden={shell === 'builder'} />
     </div>
   )
 }

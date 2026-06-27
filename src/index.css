@@ -6425,3 +6425,71 @@ input:focus, select:focus, button:focus-visible {
 .ref-rule-card:active {
   border-color: rgba(255, 255, 255, 0.14);
 }
+
+/* ── Army Builder: saved lists home ── */
+.ab-list-card {
+  display: flex;
+  flex-direction: column;
+}
+
+.ab-list-card-main {
+  display: flex;
+  align-items: center;
+  gap: 0.625rem;
+  padding: 0.875rem 1rem;
+  text-decoration: none;
+  color: inherit;
+  touch-action: manipulation;
+}
+
+.ab-list-card-main:active {
+  background: rgba(255, 255, 255, 0.03);
+}
+
+.ab-list-card-chevron {
+  flex-shrink: 0;
+  width: 0.45rem;
+  height: 0.45rem;
+  border-right: 2px solid rgba(255, 255, 255, 0.35);
+  border-bottom: 2px solid rgba(255, 255, 255, 0.35);
+  transform: rotate(-45deg);
+}
+
+.ab-list-card-actions {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  border-top: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.ab-list-card-action {
+  min-height: 2.75rem;
+  padding: 0.625rem 1rem;
+  font-size: var(--text-micro);
+  font-weight: 600;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  touch-action: manipulation;
+  transition: background 0.15s ease;
+}
+
+.ab-list-card-action--play {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  color: var(--color-crimson-bright);
+  border-right: 1px solid rgba(255, 255, 255, 0.06);
+}
+
+.ab-list-card-action--play:active {
+  background: rgba(155, 44, 44, 0.15);
+}
+
+.ab-list-card-action--delete {
+  color: var(--color-status-danger);
+  padding-inline: 1.25rem;
+}
+
+.ab-list-card-action--delete:active {
+  background: rgba(140, 40, 40, 0.15);
+}
