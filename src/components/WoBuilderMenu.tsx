@@ -55,7 +55,7 @@ export function WoBuilderMenu({
   }
 
   return (
-    <div className="relative" ref={ref}>
+    <div className="wo-builder-menu-anchor relative" ref={ref}>
       <button
         type="button"
         className="wo-builder-menu-trigger"
