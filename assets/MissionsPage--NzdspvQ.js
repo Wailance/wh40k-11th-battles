@@ -1,0 +1,1 @@
+import{m as e,vt as t}from"./army-builder-BZeZfnzg.js";var n=e();function r(){return(0,n.jsx)(t,{to:`/missions/primary`,replace:!0})}export{r as MissionsPage};
