@@ -103,16 +103,13 @@ def main():
         if k.startswith('#') and p1 in FD and p2 in FD:
             matchups.append({'id': int(k.replace('#','')), 'player1': p1, 'player2': p2})
 
-    FD_ORDER = ['PURGE THE FOE','TAKE AND HOLD','PRIORITY ASSETS','RECONNAISSANCE','DISRUPTION']
+    FD_ORDER = ['TAKE AND HOLD', 'PURGE THE FOE', 'DISRUPTION', 'RECONNAISSANCE', 'PRIORITY ASSETS']
     primary_matrix = []
     for r in sorted(sheets['Primary']):
         if r < 3 or r > 7: continue
         cells = sheets['Primary'][r]
         primary_matrix.append([cells.get(i+1,'') for i in range(5)])
-    opponent_row = {
-        'TAKE AND HOLD': 0, 'PURGE THE FOE': 1, 'DISRUPTION': 2,
-        'RECONNAISSANCE': 3, 'PRIORITY ASSETS': 4,
-    }
+    # Matrix is you (row) × opponent (column); same FD order both axes.
 
     SECONDARY_ALIASES = {'Engage on all Fronts': 'Engage on All Fronts'}
 
@@ -186,7 +183,10 @@ def main():
         'forceDispositionOrder': FD_ORDER,
         'forceDispositionColors': {'PURGE THE FOE':'red','TAKE AND HOLD':'green','PRIORITY ASSETS':'yellow','RECONNAISSANCE':'teal','DISRUPTION':'blue'},
         'primaryMissionMatrix': primary_matrix,
-        'opponentForceDispositionRow': opponent_row,
+        'opponentForceDispositionRow': {
+            'TAKE AND HOLD': 0, 'PURGE THE FOE': 1, 'DISRUPTION': 2,
+            'RECONNAISSANCE': 3, 'PRIORITY ASSETS': 4,
+        },
         'scoringCaps': {
             'primaryMaxGame': 45, 'primaryMaxRound': 15,
             'tacticalSecondaryMaxGame': 40, 'tacticalSecondaryMaxRound': 15,

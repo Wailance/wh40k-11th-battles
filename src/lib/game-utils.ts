@@ -24,6 +24,8 @@ export const MAX_DP = 3
 export const FD_COLORS: Record<ForceDisposition, string> =
   gameData.forceDispositionColors as Record<ForceDisposition, string>
 
+const PRIMARY_MATRIX = gameData.primaryMissionMatrix as string[][]
+
 export const FD_SHORT: Record<ForceDisposition, string> = {
   'PURGE THE FOE': 'Purge',
   'TAKE AND HOLD': 'Hold',
@@ -32,15 +34,12 @@ export const FD_SHORT: Record<ForceDisposition, string> = {
   DISRUPTION: 'Disrupt',
 }
 
-const OPPONENT_ROW = gameData.opponentForceDispositionRow as Record<ForceDisposition, number>
-const PRIMARY_MATRIX = gameData.primaryMissionMatrix as string[][]
-
 export function getPrimaryMission(
   myFd: ForceDisposition,
   opponentFd: ForceDisposition,
 ): string {
-  const row = OPPONENT_ROW[opponentFd]
-  const col = FD_ORDER.indexOf(myFd)
+  const row = FD_ORDER.indexOf(myFd)
+  const col = FD_ORDER.indexOf(opponentFd)
   return PRIMARY_MATRIX[row][col]
 }
 

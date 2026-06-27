@@ -1867,11 +1867,11 @@
     }
   ],
   "forceDispositionOrder": [
-    "PURGE THE FOE",
     "TAKE AND HOLD",
-    "PRIORITY ASSETS",
+    "PURGE THE FOE",
+    "DISRUPTION",
     "RECONNAISSANCE",
-    "DISRUPTION"
+    "PRIORITY ASSETS"
   ],
   "forceDispositionColors": {
     "PURGE THE FOE": "red",
@@ -1882,39 +1882,39 @@
   },
   "primaryMissionMatrix": [
     [
-      "Unstoppable Force",
       "Battlefield Dominance",
-      "Secure Asset",
-      "Reconnaissance Sweep",
-      "Death Trap"
-    ],
-    [
-      "Meatgrinder",
       "Immovable Object",
-      "Vital Link",
-      "Triangulation",
-      "Delaying Action"
+      "Determined Acquisition",
+      "Purge and Secure",
+      "Inescapable Dominion"
     ],
     [
+      "Unstoppable Force",
+      "Meatgrinder",
       "Punishment",
-      "Determined Acquisition",
-      "Extract Relic",
-      "Surveil the Foe",
+      "Consecrate",
+      "Destroyer's Wrath"
+    ],
+    [
+      "Death Trap",
+      "Delaying Action",
+      "Outmaneuver",
+      "Smoke and Mirrors",
       "Locate and Deny"
     ],
     [
-      "Consecrate",
-      "Purge and Secure",
-      "Vanguard Operation",
+      "Reconnaissance Sweep",
+      "Triangulation",
+      "Surveil the Foe",
       "Gather Intel",
-      "Outmaneuver"
+      "Search and Scour"
     ],
     [
-      "Destroyer's Wrath",
-      "Inescapable Dominion",
-      "Sabotage",
-      "Search and Scour",
-      "Smoke and Mirrors"
+      "Secure Asset",
+      "Vital Link",
+      "Extract Relic",
+      "Vanguard Operation",
+      "Sabotage"
     ]
   ],
   "opponentForceDispositionRow": {

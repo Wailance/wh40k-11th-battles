@@ -12,7 +12,6 @@ const gameData = JSON.parse(readFileSync(join(root, 'src/data/game-data.json'), 
 const missionCards = JSON.parse(readFileSync(join(root, 'src/data/mission-cards.json'), 'utf8'))
 
 const FD_ORDER = gameData.forceDispositionOrder
-const OPP_ROW = gameData.opponentForceDispositionRow
 const MATRIX = gameData.primaryMissionMatrix
 const caps = gameData.scoringCaps
 
@@ -33,9 +32,10 @@ function ok(msg) {
   console.log(`✓ ${msg}`)
 }
 
+/** Row/column = forceDispositionOrder (you × opponent), per GDM 11th matrix. */
 function getPrimary(myFd, oppFd) {
-  const row = OPP_ROW[oppFd]
-  const col = FD_ORDER.indexOf(myFd)
+  const row = FD_ORDER.indexOf(myFd)
+  const col = FD_ORDER.indexOf(oppFd)
   return MATRIX[row][col]
 }
 
@@ -55,18 +55,19 @@ for (const [key, val] of Object.entries(expectedCaps)) {
 }
 if (errors === 0) ok('Scoring caps match CA Tournament Companion')
 
-// --- Opponent FD row mapping ---
-const expectedOppRows = {
-  'TAKE AND HOLD': 0,
-  'PURGE THE FOE': 1,
-  DISRUPTION: 2,
-  RECONNAISSANCE: 3,
-  'PRIORITY ASSETS': 4,
+// --- Golden matrix spot checks (GDM 11th Edition) ---
+const golden = [
+  ['DISRUPTION', 'PRIORITY ASSETS', 'Locate and Deny'],
+  ['PRIORITY ASSETS', 'DISRUPTION', 'Extract Relic'],
+  ['DISRUPTION', 'RECONNAISSANCE', 'Smoke and Mirrors'],
+  ['DISRUPTION', 'DISRUPTION', 'Outmaneuver'],
+  ['PURGE THE FOE', 'PRIORITY ASSETS', "Destroyer's Wrath"],
+]
+for (const [myFd, oppFd, expected] of golden) {
+  const got = getPrimary(myFd, oppFd)
+  if (got !== expected) fail(`Matrix ${myFd} vs ${oppFd}: expected "${expected}", got "${got}"`)
 }
-for (const [fd, row] of Object.entries(expectedOppRows)) {
-  if (OPP_ROW[fd] !== row) fail(`opponentForceDispositionRow[${fd}]: expected row ${row}, got ${OPP_ROW[fd]}`)
-}
-if (errors === 0) ok('Opponent FD row mapping')
+if (errors === 0) ok('Primary matrix golden cases (GDM)')
 
 // --- 15 matchups primary missions ---
 for (const m of gameData.forceDispositionMatchups) {
