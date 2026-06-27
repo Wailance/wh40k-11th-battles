@@ -134,6 +134,7 @@ export const copy = {
     melee: 'Melee weapons',
     abilities: 'Abilities',
     empty: 'No saved lists yet',
+    savedLists: 'Saved lists',
     emptyList: 'Add units from the catalogue',
     loadError: 'Could not load faction data. Try again later.',
     import: 'Import JSON',

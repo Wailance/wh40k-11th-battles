@@ -51,42 +51,46 @@ export function ListsPage() {
   }, [rosters, query])
 
   return (
-    <div className="wo-home motion-stagger min-h-full">
+    <div className="wo-home motion-stagger">
       <header className="wo-home-header">
-        <div>
-          <h1 className="wo-home-title">{copy.armyLists.title}</h1>
-          <p className="wo-home-meta">DATASET: {datasetLabel}</p>
-          {versionLabel && <p className="wo-home-meta">VERSION: {versionLabel}</p>}
+        <h1 className="wo-home-title">{copy.armyLists.title}</h1>
+        <p className="wo-home-subtitle">{copy.armyLists.subtitle}</p>
+        <div className="wo-home-meta-row">
+          <span className="wo-home-meta-chip">{datasetLabel}</span>
+          {versionLabel && <span className="wo-home-meta-chip">{versionLabel}</span>}
         </div>
       </header>
 
-      <div className="wo-home-actions">
-        <Link to="/lists/new" className="wo-home-tile wo-home-tile--labeled">
-          <span className="wo-home-tile-icon" aria-hidden>
+      <div className="wo-home-toolbar">
+        <Link to="/lists/new" className="wo-home-primary">
+          <span className="wo-home-primary-icon" aria-hidden>
             +
           </span>
-          <span className="wo-home-tile-label">{copy.armyLists.newList}</span>
+          {copy.armyLists.newList}
         </Link>
-        <button
-          type="button"
-          className="wo-home-tile wo-home-tile--labeled"
-          onClick={() => fileRef.current?.click()}
-        >
-          <span className="wo-home-tile-icon" aria-hidden>
-            ↓
-          </span>
-          <span className="wo-home-tile-label">{copy.armyLists.importList}</span>
-        </button>
-        <label className="wo-home-tile wo-home-tile--labeled wo-home-tile--search">
-          <span className="wo-home-tile-icon" aria-hidden>
+
+        <div className="wo-home-secondary">
+          <button
+            type="button"
+            className="wo-home-secondary-btn"
+            onClick={() => fileRef.current?.click()}
+          >
+            {copy.armyLists.importList}
+          </button>
+          <Link to="/lists/meta" className="wo-home-secondary-btn">
+            {copy.tournamentLists.button}
+          </Link>
+        </div>
+
+        <label className="wo-home-search">
+          <span className="wo-home-search-icon" aria-hidden>
             ⌕
           </span>
-          <span className="wo-home-tile-label">{copy.armyLists.searchListsLabel}</span>
           <input
             value={query}
             onChange={(e) => setQuery(e.target.value)}
             placeholder={copy.armyLists.searchLists}
-            className="wo-home-search-input"
+            className="wo-home-search-field"
           />
         </label>
       </div>
@@ -103,36 +107,54 @@ export function ListsPage() {
         }}
       />
 
-      <div className="wo-home-links">
-        <Link to="/lists/meta" className="text-caption text-muted hover:text-bone">
-          {copy.tournamentLists.button}
-        </Link>
-      </div>
+      <section className="wo-home-lists" aria-label={copy.armyLists.currentList}>
+        {filtered.length > 0 && (
+          <h2 className="wo-home-section-label">
+            {copy.armyLists.savedLists} · {filtered.length}
+          </h2>
+        )}
 
-      {filtered.length === 0 ? (
-        <p className="wo-home-empty">{query ? copy.common.noResults : copy.armyLists.empty}</p>
-      ) : (
-        <ul className="wo-home-grid">
-          {filtered.map((r) => (
-            <li key={r.id}>
-              <Link to={`/lists/${r.id}`} className="wo-home-list-card">
-                <p className="wo-home-list-name">{r.name}</p>
-                <p className="wo-home-list-meta">
-                  {r.army} · {r.pointsTotal}/{r.battleSize} pts
-                </p>
-                <p className="wo-home-list-meta">{r.units.length} units</p>
+        {filtered.length === 0 ? (
+          <div className="wo-home-empty">
+            <span className="wo-home-empty-icon" aria-hidden>
+              ◇
+            </span>
+            <p className="wo-home-empty-text">
+              {query ? copy.common.noResults : copy.armyLists.empty}
+            </p>
+            {!query && (
+              <Link to="/lists/new" className="wo-home-empty-cta">
+                {copy.armyLists.newList}
               </Link>
-              <button
-                type="button"
-                className="wo-home-list-delete"
-                onClick={() => setDeleteId(r.id)}
-              >
-                {copy.history.delete}
-              </button>
-            </li>
-          ))}
-        </ul>
-      )}
+            )}
+          </div>
+        ) : (
+          <ul className="wo-home-list">
+            {filtered.map((r) => (
+              <li key={r.id} className="wo-home-list-item">
+                <Link to={`/lists/${r.id}`} className="wo-home-list-link">
+                  <span className="wo-home-list-body">
+                    <span className="wo-home-list-name">{r.name}</span>
+                    <span className="wo-home-list-meta">
+                      {r.army} · {r.pointsTotal.toLocaleString()}/{r.battleSize.toLocaleString()} pts
+                      · {r.units.length} {r.units.length === 1 ? 'unit' : 'units'}
+                    </span>
+                  </span>
+                  <span className="wo-home-list-chevron" aria-hidden />
+                </Link>
+                <button
+                  type="button"
+                  className="wo-home-list-delete"
+                  aria-label={copy.history.delete}
+                  onClick={() => setDeleteId(r.id)}
+                >
+                  ×
+                </button>
+              </li>
+            ))}
+          </ul>
+        )}
+      </section>
 
       <ConfirmDialog
         open={Boolean(deleteId)}
