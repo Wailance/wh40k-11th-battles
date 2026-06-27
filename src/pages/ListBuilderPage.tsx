@@ -553,10 +553,17 @@ export function ListBuilderPage() {
                 {issueBadgeCount}
               </button>
             )}
-            <p className={`wo-builder-points-total tabular-nums ${overLimit ? 'is-over' : ''}`}>
-              {roster.pointsTotal.toLocaleString()}
+            <div className="hidden flex-col items-end lg:flex">
+              <p className={`wo-builder-points-total tabular-nums ${overLimit ? 'is-over' : ''}`}>
+                {roster.pointsTotal.toLocaleString()}
+              </p>
+              <p className="wo-builder-points-limit tabular-nums">/ {limit.toLocaleString()}</p>
+            </div>
+            <p
+              className={`wo-builder-header-summary tabular-nums lg:hidden ${overLimit ? 'is-over' : ''}`}
+            >
+              {copy.armyLists.mobileDockSummary(rosterUnitCount, roster.pointsTotal, limit)}
             </p>
-            <p className="wo-builder-points-limit tabular-nums">/ {limit.toLocaleString()}</p>
           </div>
         </div>
 
@@ -659,14 +666,9 @@ export function ListBuilderPage() {
             <WoBuilderMobileDock
               active={unitsPane}
               armyCount={rosterUnitCount}
-              pointsTotal={roster.pointsTotal}
-              limit={limit}
-              overLimit={overLimit}
-              issueCount={issueBadgeCount}
               toast={addToast}
               onCatalog={() => setUnitsPane('catalog')}
               onArmy={() => setUnitsPane('army')}
-              onToggleIssues={issueBadgeCount > 0 ? () => setIssuesOpen((o) => !o) : undefined}
             />
           )}
         </>
