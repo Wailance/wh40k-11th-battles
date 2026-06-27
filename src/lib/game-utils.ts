@@ -20,6 +20,11 @@ export const armies = [...(gameData.armies as Army[])].sort((a, b) =>
 
 export const FD_ORDER = gameData.forceDispositionOrder as ForceDisposition[]
 export const MAX_DP = 3
+export const INCURSION_DP = 2
+
+export function maxDpForBattleSize(battleSize: 1000 | 2000 = 2000): number {
+  return battleSize === 1000 ? INCURSION_DP : MAX_DP
+}
 
 export const FD_COLORS: Record<ForceDisposition, string> =
   gameData.forceDispositionColors as Record<ForceDisposition, string>
@@ -450,6 +455,7 @@ export function formatPlayerDetachments(player: PlayerSetup): string {
 export function togglePlayerDetachment(
   player: PlayerSetup,
   det: SelectedDetachment,
+  maxDp = MAX_DP,
 ): PlayerSetup {
   const idx = player.detachments.findIndex((d) => d.name === det.name)
   if (idx >= 0) {
@@ -460,7 +466,7 @@ export function togglePlayerDetachment(
       : (fds[0] ?? 'PURGE THE FOE')
     return { ...player, detachments, forceDisposition, primaryMission: '' }
   }
-  if (playerTotalDp(player) + det.dp > MAX_DP) return player
+  if (playerTotalDp(player) + det.dp > maxDp) return player
   const detachments = [...player.detachments, det]
   const forceDisposition =
     detachments.length === 1 ? det.forceDisposition : player.forceDisposition
@@ -555,6 +561,7 @@ export function migrateGameState(raw: Record<string, unknown>): GameState {
     },
     layoutVariantIndex:
       typeof g.layoutVariantIndex === 'number' ? g.layoutVariantIndex : 0,
+    battleSize: g.battleSize === 1000 ? 1000 : 2000,
     preBattleChecks:
       Array.isArray(g.preBattleChecks) && g.preBattleChecks.length === 5
         ? g.preBattleChecks
@@ -611,6 +618,7 @@ export function createNewGame(format: GameFormat = 'standard'): GameState {
     doubles: format === 'doubles' ? defaultDoublesMeta() : undefined,
     matchupId: null,
     layoutVariantIndex: 0,
+    battleSize: 2000,
     preBattleChecks: [false, false, false, false, false],
     player1: {
       ...emptyPlayer(),

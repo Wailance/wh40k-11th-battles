@@ -1,5 +1,5 @@
 import { useRef, useState, type CSSProperties, type ReactNode } from 'react'
-import { Link, useNavigate } from 'react-router-dom'
+import { Link, useNavigate, useSearchParams } from 'react-router-dom'
 import { DpBudget, DpCost } from '../components/DpDisplay'
 import { ForceDispositionBadge } from '../components/ForceDispositionBadge'
 import { MissionNameButton } from '../components/MissionNameButton'
@@ -10,7 +10,7 @@ import {
   createNewGame,
   formatPlayerDetachments,
   gameData,
-  MAX_DP,
+  maxDpForBattleSize,
   playerForceDispositions,
   prepareGameForStart,
   togglePlayerDetachment,
@@ -21,6 +21,8 @@ import { ConfirmDialog } from '../components/ConfirmDialog'
 import { copy } from '../lib/copy'
 import { wizardStepHint } from '../lib/wizard-hints'
 import { loadActiveGame, saveActiveGame } from '../lib/storage'
+import { loadRoster } from '../lib/roster-storage'
+import { prefillGameFromRoster } from '../lib/roster-game-prefill'
 import { trackGoal } from '../lib/analytics'
 import type {
   DominatusAlliance,
@@ -35,13 +37,37 @@ import { DOMINATUS_ALLIANCE_LABELS, DOMINATUS_ALLIANCES } from '../data/dominatu
 
 const STEPS = ['Players', 'Detachments', 'Mission', 'Secondaries', 'Layout']
 
+function trimPlayerDp(player: PlayerSetup, maxDp: number): PlayerSetup {
+  let used = 0
+  const kept: SelectedDetachment[] = []
+  for (const d of player.detachments) {
+    if (used + d.dp <= maxDp) {
+      kept.push(d)
+      used += d.dp
+    }
+  }
+  return { ...player, detachments: kept }
+}
+
 export function NewGamePage({ format = 'standard' }: { format?: GameFormat }) {
   const navigate = useNavigate()
+  const [searchParams] = useSearchParams()
+  const rosterPrefilled = Boolean(format === 'standard' && searchParams.get('roster'))
   const [step, setStep] = useState(0)
-  const [game, setGame] = useState<GameState>(() => createNewGame(format))
+  const [game, setGame] = useState<GameState>(() => {
+    const g = createNewGame(format)
+    if (format !== 'standard') return g
+    const rosterId = searchParams.get('roster')
+    if (!rosterId) return g
+    const roster = loadRoster(rosterId)
+    if (!roster) return g
+    const player = searchParams.get('player') === '2' ? 2 : 1
+    return prefillGameFromRoster(g, roster, player)
+  })
   const [confirmOverwrite, setConfirmOverwrite] = useState(false)
   const activeGame = loadActiveGame()
   const hasActive = activeGame?.status === 'active'
+  const maxDp = maxDpForBattleSize(game.battleSize)
 
   const update = (patch: Partial<GameState>) => setGame((g) => ({ ...g, ...patch }))
   const updateP1 = (patch: Partial<GameState['player1']>) =>
@@ -70,8 +96,18 @@ export function NewGamePage({ format = 'standard' }: { format?: GameFormat }) {
       note: det.note,
       forceDisposition: det.forceDisposition as ForceDisposition,
     }
-    if (player === 1) updateP1(togglePlayerDetachment(game.player1, selected))
-    else updateP2(togglePlayerDetachment(game.player2, selected))
+    if (player === 1) updateP1(togglePlayerDetachment(game.player1, selected, maxDp))
+    else updateP2(togglePlayerDetachment(game.player2, selected, maxDp))
+  }
+
+  function setBattleSize(size: 1000 | 2000) {
+    const nextMax = maxDpForBattleSize(size)
+    setGame((g) => ({
+      ...g,
+      battleSize: size,
+      player1: trimPlayerDp(g.player1, nextMax),
+      player2: trimPlayerDp(g.player2, nextMax),
+    }))
   }
 
   function startGame() {
@@ -115,6 +151,11 @@ export function NewGamePage({ format = 'standard' }: { format?: GameFormat }) {
 
   return (
     <div>
+      {rosterPrefilled && (
+        <div className="app-panel mb-4 border-accent/20 bg-crimson-soft/30 p-3 text-body">
+          <p className="text-caption text-bone">{copy.newGame.rosterPrefillNote}</p>
+        </div>
+      )}
       {hasActive && (
         <div className="app-panel mb-4 border-crimson/20 bg-crimson-soft/40 p-3 text-body">
           <p className="font-medium text-bone">{copy.home.activeSub}</p>
@@ -145,6 +186,29 @@ export function NewGamePage({ format = 'standard' }: { format?: GameFormat }) {
       <div key={step} className="motion-step">
       {step === 0 && (
         <div className="space-y-4">
+          {format === 'standard' && (
+            <div className="app-panel p-4">
+              <p className="mb-2 text-body font-medium text-bone">{copy.newGame.battleSizeLabel}</p>
+              <div className="grid grid-cols-1 gap-2 sm:grid-cols-2">
+                <button
+                  type="button"
+                  className="app-filter-pill min-h-[2.75rem] py-2.5"
+                  data-active={game.battleSize === 2000}
+                  onClick={() => setBattleSize(2000)}
+                >
+                  {copy.newGame.battleSizeStrike}
+                </button>
+                <button
+                  type="button"
+                  className="app-filter-pill min-h-[2.75rem] py-2.5"
+                  data-active={game.battleSize === 1000}
+                  onClick={() => setBattleSize(1000)}
+                >
+                  {copy.newGame.battleSizeIncursion}
+                </button>
+              </div>
+            </div>
+          )}
           {format === 'doubles' && game.doubles && (
             <DoublesTeamFields
               meta={game.doubles}
@@ -195,6 +259,7 @@ export function NewGamePage({ format = 'standard' }: { format?: GameFormat }) {
         <DetachmentStep
           player1={game.player1}
           player2={game.player2}
+          maxDp={maxDp}
           onToggle={(player, det) => toggleDetachment(player, player === 1 ? game.player1.army : game.player2.army, det)}
         />
       )}
@@ -227,6 +292,9 @@ export function NewGamePage({ format = 'standard' }: { format?: GameFormat }) {
             <p className="mt-2 text-caption text-muted">
               Primary missions are set by the pairing of Force Dispositions (Chapter Approved deck).
             </p>
+            <Link to="/matrix" className="mt-2 inline-block text-caption font-medium text-accent hover:underline">
+              {copy.newGame.linkMatrix} →
+            </Link>
           </div>
 
           <MissionCard player={game.player1.name} mission={game.player1.primaryMission} fd={game.player1.forceDisposition} color="var(--color-p1)" />
@@ -414,10 +482,12 @@ function PlayerFields({
 function DetachmentStep({
   player1,
   player2,
+  maxDp,
   onToggle,
 }: {
   player1: PlayerSetup
   player2: PlayerSetup
+  maxDp: number
   onToggle: (player: 1 | 2, det: string) => void
 }) {
   const [activePlayer, setActivePlayer] = useState<1 | 2>(1)
@@ -492,7 +562,7 @@ function DetachmentStep({
               style={isHandoffTarget ? { color: seatColor } : undefined}
             >
               {ready
-                ? `${p.detachments.length} det · ${dp}/${MAX_DP} DP`
+                ? `${p.detachments.length} det · ${dp}/${maxDp} DP`
                 : isHandoffTarget
                   ? copy.newGame.detachmentContinue(p.name)
                   : 'Pick detachments'}
@@ -518,6 +588,7 @@ function DetachmentStep({
         armyName={player.army}
         selected={player.detachments}
         color={color}
+        maxDp={maxDp}
         onToggle={(d) => onToggle(activePlayer, d)}
         footer={
           activePlayer === 1 && p1Ready && !p2Ready ? (
@@ -540,12 +611,13 @@ function DetachmentStep({
 }
 
 function DetachmentPicker({
-  playerName, armyName, selected, color, onToggle, footer,
+  playerName, armyName, selected, color, maxDp, onToggle, footer,
 }: {
   playerName: string
   armyName: string
   selected: SelectedDetachment[]
   color: string
+  maxDp: number
   onToggle: (d: string) => void
   footer?: ReactNode
 }) {
@@ -553,7 +625,7 @@ function DetachmentPicker({
   const usedDp = selected.reduce((s, d) => s + d.dp, 0)
   const selectedNames = new Set(selected.map((d) => d.name))
 
-  const remainingDp = MAX_DP - usedDp
+  const remainingDp = maxDp - usedDp
 
   return (
     <div
@@ -566,7 +638,7 @@ function DetachmentPicker({
       </div>
 
       <div className="mb-3 rounded-xl border border-white/[0.06] bg-black/20 p-3">
-        <DpBudget used={usedDp} color={color} label={copy.dp.budget} />
+        <DpBudget used={usedDp} max={maxDp} color={color} label={copy.dp.budget} />
       </div>
 
       {selected.length > 0 && (
@@ -592,7 +664,7 @@ function DetachmentPicker({
       <div className="space-y-2">
         {army?.detachments.map((d) => {
           const isSelected = selectedNames.has(d.name)
-          const wouldExceed = !isSelected && usedDp + d.dp > MAX_DP
+          const wouldExceed = !isSelected && usedDp + d.dp > maxDp
           return (
             <button
               key={d.name}

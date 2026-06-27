@@ -2,6 +2,7 @@ import { useState } from 'react'
 import { Link, useNavigate } from 'react-router-dom'
 import { ConfirmDialog } from '../components/ConfirmDialog'
 import { copy } from '../lib/copy'
+import { ruleCount } from '../lib/rules-index'
 import { publicUrl } from '../lib/public-url'
 import { loadActiveGame, loadHistory } from '../lib/storage'
 import { getWinner } from '../lib/game-utils'
@@ -19,6 +20,22 @@ export function HomePage() {
   return (
     <div className="motion-stagger space-y-5">
       <Hero />
+
+      {hasActive && active && (
+        <Link to="/game" className="home-resume-cta motion-card">
+          <span className="home-resume-cta-pulse" aria-hidden />
+          <span className="home-resume-cta-body">
+            <span className="home-resume-cta-kicker">{copy.home.activeSub}</span>
+            <span className="home-resume-cta-title">
+              {active.player1.name} vs {active.player2.name}
+            </span>
+            <span className="home-resume-cta-meta">
+              Round {active.battleRound} · {copy.home.resumeCta}
+            </span>
+          </span>
+          <span className="home-resume-cta-chevron" aria-hidden />
+        </Link>
+      )}
 
       <div>
         {hasActive ? (
@@ -67,6 +84,24 @@ export function HomePage() {
       )}
 
       <section className="grid grid-cols-1 gap-3">
+        <FeatureCard
+          to="/reference"
+          title={copy.reference.hubTitle}
+          desc={copy.reference.hubSubtitle}
+          glyph="GD"
+        />
+        <FeatureCard
+          to="/matrix"
+          title={copy.reference.matrixTitle}
+          desc={copy.reference.matrixCardDesc}
+          glyph="MX"
+        />
+        <FeatureCard
+          to="/rules"
+          title={copy.reference.rulesTitle}
+          desc={copy.reference.rulesCardDesc(ruleCount())}
+          glyph="RU"
+        />
         <FeatureCard
           to="/mission-sequence"
           title={copy.missionSequence.title}

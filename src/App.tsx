@@ -27,6 +27,14 @@ const InDevPage = lazy(() => import('./pages/InDevPage').then((m) => ({ default:
 const ListBuilderPage = lazy(() =>
   import('./pages/ListBuilderPage').then((m) => ({ default: m.ListBuilderPage })),
 )
+const ReferencePage = lazy(() =>
+  import('./pages/ReferencePage').then((m) => ({ default: m.ReferencePage })),
+)
+const RulesPage = lazy(() => import('./pages/RulesPage').then((m) => ({ default: m.RulesPage })))
+const MatrixPage = lazy(() => import('./pages/MatrixPage').then((m) => ({ default: m.MatrixPage })))
+const MissionsPage = lazy(() =>
+  import('./pages/MissionsPage').then((m) => ({ default: m.MissionsPage })),
+)
 const MetaListsPage = lazy(() =>
   import('./pages/MetaListsPage').then((m) => ({ default: m.MetaListsPage })),
 )
@@ -155,10 +163,34 @@ export default function App() {
             }
           />
           <Route
+            path="reference"
+            element={
+              <LazyPage>
+                <ReferencePage />
+              </LazyPage>
+            }
+          />
+          <Route
+            path="matrix"
+            element={
+              <LazyPage>
+                <MatrixPage />
+              </LazyPage>
+            }
+          />
+          <Route
+            path="missions"
+            element={
+              <LazyPage>
+                <MissionsPage />
+              </LazyPage>
+            }
+          />
+          <Route
             path="rules"
             element={
               <LazyPage>
-                <MissionSequencePage />
+                <RulesPage />
               </LazyPage>
             }
           />

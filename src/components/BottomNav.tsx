@@ -4,9 +4,10 @@ import { loadActiveGame } from '../lib/storage'
 
 function navLinks() {
   const active = loadActiveGame()?.status === 'active'
-const links = [
+  const links = [
     { to: '/', label: copy.nav.home, end: true },
-    { to: '/mission-sequence', label: copy.nav.missionSequence, end: false },
+    { to: '/reference', label: copy.nav.reference, end: false },
+    { to: '/lists', label: copy.nav.armyLists, end: false },
     { to: '/history', label: copy.nav.history, end: false },
   ]
   if (active) {
@@ -16,23 +17,7 @@ const links = [
 }
 
 function NavLabel({ label }: { label: string }) {
-  if (label === 'Detachment Points') {
-    return (
-      <span className="text-center font-display text-micro uppercase leading-tight tracking-wide">
-        <span className="block">Detachment</span>
-        <span className="block opacity-80">Points</span>
-      </span>
-    )
-  }
-  if (label === 'Mission Sequence') {
-    return (
-      <span className="text-center font-display text-micro uppercase leading-tight tracking-wide">
-        <span className="block">Mission</span>
-        <span className="block opacity-80">Sequence</span>
-      </span>
-    )
-  }
-  if (label === 'Army Builder') {
+  if (label === 'Builder') {
     return (
       <span className="text-center font-display text-micro uppercase leading-tight tracking-wide">
         <span className="block">Army</span>

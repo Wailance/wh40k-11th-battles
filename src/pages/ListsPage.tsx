@@ -144,6 +144,14 @@ export function ListsPage() {
                   </span>
                   <span className="wo-home-list-chevron" aria-hidden />
                 </Link>
+                <Link
+                  to={`/new?roster=${r.id}&player=1`}
+                  className="wo-home-list-play"
+                  title={copy.armyLists.playWithListHint}
+                  aria-label={copy.armyLists.playWithList}
+                >
+                  ▶
+                </Link>
                 <button
                   type="button"
                   className="wo-home-list-delete"

@@ -103,6 +103,8 @@ export interface GameState {
   matchupId: number | null
   /** Index into matchup terrain layout variants (0–2) */
   layoutVariantIndex: number
+  /** Strike Force 2000 pts (3 DP) or Incursion 1000 pts (2 DP) */
+  battleSize: 1000 | 2000
   player1: PlayerSetup
   player2: PlayerSetup
   firstPlayer: 1 | 2
