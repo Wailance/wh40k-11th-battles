@@ -1,5 +1,4 @@
 import { useEffect, useRef, useState } from 'react'
-import { Link } from 'react-router-dom'
 import { copy } from '../lib/copy'
 
 type WoBuilderMenuProps = {
@@ -72,10 +71,7 @@ export function WoBuilderMenu({
       </button>
       {open && (
         <div className="wo-builder-menu" role="menu">
-          <Link to="/lists" className="wo-builder-menu-item" role="menuitem" onClick={() => setOpen(false)}>
-            {copy.armyLists.back}
-          </Link>
-            {item(onOpenDetachments, copy.armyLists.tabDetachments)}
+          {item(onOpenDetachments, copy.armyLists.tabDetachments)}
             {onOpenStratagems && item(onOpenStratagems, copy.armyLists.stratagems)}
             {hasLegendsUnits && item(onToggleLegends, showLegends ? copy.armyLists.hideLegends : copy.armyLists.showLegends)}
           {item(onCopyText, copy.armyLists.exportText)}

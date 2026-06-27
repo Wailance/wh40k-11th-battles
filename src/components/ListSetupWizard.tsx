@@ -93,7 +93,7 @@ export function ListSetupWizard({
     <div className="bf-viewport -mx-2 flex min-h-0 flex-1 flex-col">
       <header className="shrink-0 border-b border-white/[0.08] px-2 py-2">
         <Link to="/lists" className="text-caption text-muted hover:text-accent">
-          ← {copy.armyLists.back}
+          ← {copy.armyLists.myLists}
         </Link>
         <h1 className="mt-2 font-display text-display tracking-wide text-accent">
           {copy.armyLists.newList}

@@ -1,29 +1,17 @@
-import { useEffect, useMemo, useRef, useState } from 'react'
+import { useMemo, useRef, useState } from 'react'
 import { Link } from 'react-router-dom'
 import { ConfirmDialog } from '../components/ConfirmDialog'
 import { NoticeDialog } from '../components/NoticeDialog'
 import { copy } from '../lib/copy'
 import { deleteRoster, importRoster, loadRosters } from '../lib/roster-storage'
-import { loadWarOrganMeta } from '../lib/warorgan-theme'
 
 export function ListsPage() {
   const [rosters, setRosters] = useState(() => loadRosters())
   const [query, setQuery] = useState('')
-  const [datasetLabel, setDatasetLabel] = useState('Warhammer 40k 11th')
-  const [versionLabel, setVersionLabel] = useState('')
   const [deleteId, setDeleteId] = useState<string | null>(null)
   const [importError, setImportError] = useState(false)
   const fileRef = useRef<HTMLInputElement>(null)
-
-  useEffect(() => {
-    void loadWarOrganMeta().then((meta) => {
-      if (meta.Id) setDatasetLabel(meta.Id)
-      if (meta.Version) {
-        const date = meta.PublishDate ? new Date(meta.PublishDate).toLocaleDateString() : ''
-        setVersionLabel(date ? `${meta.Version} (${date})` : meta.Version)
-      }
-    })
-  }, [])
+  const listsRef = useRef<HTMLElement>(null)
 
   function refresh() {
     setRosters(loadRosters())
@@ -35,11 +23,16 @@ export function ListsPage() {
       try {
         importRoster(String(reader.result))
         refresh()
+        scrollToLists()
       } catch {
         setImportError(true)
       }
     }
     reader.readAsText(file)
+  }
+
+  function scrollToLists() {
+    listsRef.current?.scrollIntoView({ behavior: 'smooth', block: 'start' })
   }
 
   const filtered = useMemo(() => {
@@ -55,19 +48,23 @@ export function ListsPage() {
       <header className="wo-home-header">
         <h1 className="wo-home-title">{copy.armyLists.title}</h1>
         <p className="wo-home-subtitle">{copy.armyLists.subtitle}</p>
-        <div className="wo-home-meta-row">
-          <span className="wo-home-meta-chip">{datasetLabel}</span>
-          {versionLabel && <span className="wo-home-meta-chip">{versionLabel}</span>}
-        </div>
       </header>
 
       <div className="wo-home-toolbar">
-        <Link to="/lists/new" className="wo-home-primary">
-          <span className="wo-home-primary-icon" aria-hidden>
-            +
-          </span>
-          {copy.armyLists.newList}
-        </Link>
+        <div className="wo-home-primary-row">
+          <Link to="/lists/new" className="wo-home-primary wo-home-primary--half">
+            <span className="wo-home-primary-icon" aria-hidden>
+              +
+            </span>
+            {copy.armyLists.newList}
+          </Link>
+          <button type="button" className="wo-home-my-lists" onClick={scrollToLists}>
+            {copy.armyLists.myLists}
+            {rosters.length > 0 && (
+              <span className="wo-home-my-lists-count">{rosters.length}</span>
+            )}
+          </button>
+        </div>
 
         <div className="wo-home-secondary">
           <button
@@ -81,18 +78,6 @@ export function ListsPage() {
             {copy.tournamentLists.button}
           </Link>
         </div>
-
-        <label className="wo-home-search">
-          <span className="wo-home-search-icon" aria-hidden>
-            ⌕
-          </span>
-          <input
-            value={query}
-            onChange={(e) => setQuery(e.target.value)}
-            placeholder={copy.armyLists.searchLists}
-            className="wo-home-search-field"
-          />
-        </label>
       </div>
 
       <input
@@ -107,12 +92,29 @@ export function ListsPage() {
         }}
       />
 
-      <section className="wo-home-lists" aria-label={copy.armyLists.currentList}>
-        {filtered.length > 0 && (
+      <section
+        ref={listsRef}
+        id="wo-saved-lists"
+        className="wo-home-lists scroll-mt-3"
+        aria-label={copy.armyLists.myLists}
+      >
+        <div className="wo-home-lists-head">
           <h2 className="wo-home-section-label">
-            {copy.armyLists.savedLists} · {filtered.length}
+            {copy.armyLists.myLists}
+            {rosters.length > 0 && ` · ${filtered.length}`}
           </h2>
-        )}
+          <label className="wo-home-search">
+            <span className="wo-home-search-icon" aria-hidden>
+              ⌕
+            </span>
+            <input
+              value={query}
+              onChange={(e) => setQuery(e.target.value)}
+              placeholder={copy.armyLists.searchLists}
+              className="wo-home-search-field"
+            />
+          </label>
+        </div>
 
         {filtered.length === 0 ? (
           <div className="wo-home-empty">

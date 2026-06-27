@@ -1,5 +1,5 @@
 import { useEffect, useMemo, useRef, useState, type CSSProperties, type ReactNode } from 'react'
-import { useNavigate, useParams } from 'react-router-dom'
+import { Link, useNavigate, useParams } from 'react-router-dom'
 import { DetachmentSheet, type DetachmentSheetSection } from '../components/DetachmentSheet'
 import { ConfirmDialog } from '../components/ConfirmDialog'
 import { NoticeDialog } from '../components/NoticeDialog'
@@ -510,6 +510,9 @@ export function ListBuilderPage() {
     >
       <header className="wo-builder-header shrink-0 px-2 py-2">
         <div className="flex items-center gap-2">
+          <Link to="/lists" className="wo-builder-my-lists">
+            {copy.armyLists.myLists}
+          </Link>
           <WoBuilderMenu
             showLegends={showLegends}
             hasLegendsUnits={hasLegendsUnits}
