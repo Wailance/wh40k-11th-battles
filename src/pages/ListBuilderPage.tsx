@@ -18,7 +18,7 @@ import {
 import { loadFactionLoadouts } from '../lib/loadout-loader'
 import { unitHasEditableLoadout } from '../lib/loadout-engine'
 import { WoBuilderMenu } from '../components/WoBuilderMenu'
-import { WoBuilderMobileDock, WoBuilderTabs } from '../components/WoBuilderTabs'
+import { BuilderToast, WoBuilderMobileDock, WoBuilderTabs } from '../components/WoBuilderTabs'
 import { WarOrganUnitEditSheet } from '../components/WarOrganUnitEditSheet'
 import { useMinWidth } from '../hooks/useMediaQuery'
 import {
@@ -32,7 +32,7 @@ import {
   loadWarOrganBuilderBundle,
 } from '../lib/warorgan-loader'
 import type { WarOrganBuilderBundle } from '../types/warorgan'
-import { formatWoDisplayName, reconcileRosterDetachments } from '../lib/warorgan-names'
+import { formatWoDisplayName, reconcileRosterDetachments, woNamesMatch } from '../lib/warorgan-names'
 import { validateWarOrganRoster } from '../lib/warorgan-validation'
 import {
   convertWoArmyListToRoster,
@@ -43,6 +43,7 @@ import {
 import { parseWoLineMeta, setWarlordOnLine } from '../lib/warorgan-roster'
 import {
   addUnit,
+  applyBattleSizeChange,
   canAddUnit,
   BATTLE_SIZE_LIMITS,
   createEmptyRoster,
@@ -114,6 +115,13 @@ export function ListBuilderPage() {
   const [addToast, setAddToast] = useState<{ message: string; kind: 'ok' | 'err' } | null>(null)
   const [notice, setNotice] = useState<{ title: string; body: string } | null>(null)
   const [confirmDelete, setConfirmDelete] = useState(false)
+  const [pendingFaction, setPendingFaction] = useState<string | null>(null)
+  const [loadFailed, setLoadFailed] = useState(false)
+  const [loadAttempt, setLoadAttempt] = useState(0)
+  const [confirmRemoveLineId, setConfirmRemoveLineId] = useState<string | null>(null)
+  const [listNameDraft, setListNameDraft] = useState('')
+  const prevErrorMessages = useRef(new Set<string>())
+  const factionLoadGen = useRef(0)
   const isDesktopBuilder = useMinWidth(1024)
 
   useEffect(() => {
@@ -153,6 +161,7 @@ export function ListBuilderPage() {
         return
       }
       try {
+        setLoadFailed(false)
         const data = await loadFactionCatalog(existing.army)
         const bundle = await loadWarOrganBuilderBundle(existing.army)
         if (cancelled) return
@@ -182,7 +191,12 @@ export function ListBuilderPage() {
           setSetupComplete(true)
         }
       } catch {
-        if (!cancelled) setNotice({ title: copy.armyLists.loadError, body: copy.armyLists.loadError })
+        if (!cancelled) {
+          setLoadFailed(true)
+          setRoster(existing)
+          setSetupComplete(true)
+          setNotice({ title: copy.armyLists.loadError, body: copy.armyLists.loadError })
+        }
       } finally {
         if (!cancelled) setLoading(false)
       }
@@ -191,7 +205,7 @@ export function ListBuilderPage() {
     return () => {
       cancelled = true
     }
-  }, [id, isNewRoute, navigate])
+  }, [id, isNewRoute, navigate, loadAttempt])
 
   useEffect(() => {
     let cancelled = false
@@ -223,6 +237,12 @@ export function ListBuilderPage() {
     return groupRosterLinesByBucket(lines)
   }, [roster, catalog])
 
+  const orphanLines = useMemo(() => {
+    if (!roster) return []
+    const catalogById = new Map(catalog.map((u) => [u.id, u]))
+    return roster.units.filter((line) => !catalogById.has(line.unitId))
+  }, [roster, catalog])
+
   const rosterPointsByBucket = useMemo(() => {
     const m = new Map<UnitBucketId, number>()
     if (!roster) return m
@@ -238,18 +258,35 @@ export function ListBuilderPage() {
 
   const issues = useMemo(() => {
     if (!roster) return []
-    if (woBundle) return validateWarOrganRoster(roster, catalog, woBundle)
-    return validateRoster(roster, catalog)
-  }, [roster, catalog, woBundle])
-
-  const issueErrorCount = useMemo(
-    () => issues.filter((i) => i.level === 'error').length,
-    [issues],
-  )
+    const base = woBundle
+      ? validateWarOrganRoster(roster, catalog, woBundle)
+      : validateRoster(roster, catalog)
+    if (orphanLines.length === 0) return base
+    return [
+      { level: 'error' as const, message: copy.armyLists.orphanUnits(orphanLines.length) },
+      ...base,
+    ]
+  }, [roster, catalog, woBundle, orphanLines.length])
 
   useEffect(() => {
-    if (issueErrorCount > 0) setIssuesOpen(true)
-  }, [issueErrorCount, roster?.pointsTotal, roster?.units.length])
+    const errorMessages = issues.filter((i) => i.level === 'error').map((i) => i.message)
+    const current = new Set(errorMessages)
+    const hasNew = errorMessages.some((m) => !prevErrorMessages.current.has(m))
+    if (hasNew && errorMessages.length > 0) setIssuesOpen(true)
+    prevErrorMessages.current = current
+  }, [issues])
+
+  useEffect(() => {
+    if (roster) setListNameDraft(roster.name)
+  }, [roster?.id, roster?.name])
+
+  useEffect(() => {
+    if (!roster || listNameDraft === roster.name) return
+    const timer = window.setTimeout(() => {
+      persist({ ...roster, name: listNameDraft })
+    }, 400)
+    return () => window.clearTimeout(timer)
+  }, [listNameDraft, roster?.id])
 
   useEffect(() => {
     if (!addToast) return
@@ -289,7 +326,31 @@ export function ListBuilderPage() {
     setSetupStep('faction')
   }
 
-  async function handleFaction(armyName: string) {
+  function handleBattleSizeChange(size: ArmyRoster['battleSize']) {
+    if (!roster || roster.battleSize === size) return
+    const before = roster
+    const next = applyBattleSizeChange(roster, size, catalog, { catalogEnhancements: enhancements })
+    persist(refreshRoster(next, catalog, woBundle?.unitDefs, enhancements))
+    const trimmed =
+      next.detachments.length < before.detachments.length ||
+      next.units.length < before.units.length ||
+      next.enhancements.length < before.enhancements.length
+    if (trimmed) {
+      setAddToast({ message: copy.armyLists.battleSizeTrimmed, kind: 'ok' })
+    }
+  }
+
+  async function applyFaction(armyName: string) {
+    const gen = ++factionLoadGen.current
+    const snapshot = {
+      roster,
+      armyEntry,
+      catalog,
+      enhancements,
+      woBundle,
+      loadouts,
+      setupStep,
+    }
     setFactionError(null)
     setLoadingFaction(armyName)
     try {
@@ -315,7 +376,9 @@ export function ListBuilderPage() {
       setSetupStep('detachment')
 
       const data = await loadFactionCatalog(armyName)
+      if (gen !== factionLoadGen.current) return
       const bundle = await loadWarOrganBuilderBundle(armyName)
+      if (gen !== factionLoadGen.current) return
       const refreshed = refreshRoster(r, data.units, bundle?.unitDefs, data.enhancements)
       const entry = await loadArmyEntryForBuilder(armyName, findArmyForBuilder(armyName))
 
@@ -331,12 +394,28 @@ export function ListBuilderPage() {
       setArmyEntry(entry)
       setRoster(refreshed)
       saveRoster(refreshed)
+      if (isNewRoute) navigate(`/lists/${refreshed.id}`, { replace: true })
     } catch {
+      if (gen !== factionLoadGen.current) return
+      setRoster(snapshot.roster)
+      setArmyEntry(snapshot.armyEntry)
+      setCatalog(snapshot.catalog)
+      setEnhancements(snapshot.enhancements)
+      setWoBundle(snapshot.woBundle)
+      setLoadouts(snapshot.loadouts)
+      setSetupStep(snapshot.setupStep)
       setFactionError(copy.armyLists.loadError)
-      setSetupStep('faction')
     } finally {
-      setLoadingFaction(null)
+      if (gen === factionLoadGen.current) setLoadingFaction(null)
     }
+  }
+
+  function handleFaction(armyName: string) {
+    if (roster && roster.army !== armyName && roster.units.length > 0) {
+      setPendingFaction(armyName)
+      return
+    }
+    void applyFaction(armyName)
   }
 
   function finishSetup() {
@@ -346,30 +425,42 @@ export function ListBuilderPage() {
 
   function exportJson() {
     if (!roster) return
-    const blob = new Blob([JSON.stringify(roster, null, 2)], { type: 'application/json' })
-    const url = URL.createObjectURL(blob)
-    const a = document.createElement('a')
-    a.href = url
-    a.download = `${roster.name.replace(/\s+/g, '-').toLowerCase()}.json`
-    a.click()
-    URL.revokeObjectURL(url)
+    try {
+      const blob = new Blob([JSON.stringify(roster, null, 2)], { type: 'application/json' })
+      const url = URL.createObjectURL(blob)
+      const a = document.createElement('a')
+      a.href = url
+      a.download = `${roster.name.replace(/\s+/g, '-').toLowerCase()}.json`
+      a.click()
+      URL.revokeObjectURL(url)
+      setAddToast({ message: copy.armyLists.exportSuccess, kind: 'ok' })
+    } catch {
+      setNotice({ title: copy.armyLists.loadError, body: copy.armyLists.loadError })
+    }
   }
 
   function exportWoJson() {
     if (!roster || !woBundle) return
-    const blob = new Blob([JSON.stringify(exportWoArmyList(roster, woBundle, catalog), null, 2)], {
-      type: 'application/json',
-    })
-    const url = URL.createObjectURL(blob)
-    const a = document.createElement('a')
-    a.href = url
-    a.download = `${roster.name.replace(/\s+/g, '-').toLowerCase()}-army-list.json`
-    a.click()
-    URL.revokeObjectURL(url)
+    try {
+      const blob = new Blob([JSON.stringify(exportWoArmyList(roster, woBundle, catalog), null, 2)], {
+        type: 'application/json',
+      })
+      const url = URL.createObjectURL(blob)
+      const a = document.createElement('a')
+      a.href = url
+      a.download = `${roster.name.replace(/\s+/g, '-').toLowerCase()}-army-list.json`
+      a.click()
+      URL.revokeObjectURL(url)
+      setAddToast({ message: copy.armyLists.exportSuccess, kind: 'ok' })
+    } catch {
+      setNotice({ title: copy.armyLists.loadError, body: copy.armyLists.loadError })
+    }
   }
 
   function importFromClipboard() {
-    void navigator.clipboard.readText().then((text) => {
+    void navigator.clipboard
+      .readText()
+      .then((text) => {
       const parsed = parseImportedListJson(text)
       if (!parsed || !roster) {
         setNotice({ title: copy.armyLists.importError, body: copy.armyLists.importError })
@@ -380,7 +471,20 @@ export function ListBuilderPage() {
         setNotice({ title: copy.armyLists.importSuccess, body: copy.armyLists.importSuccess })
         return
       }
-      if (woBundle && 'Units' in parsed) {
+      if ('Units' in parsed) {
+        if (!woBundle) {
+          setNotice({ title: copy.armyLists.importError, body: copy.armyLists.importError })
+          return
+        }
+        if (!parsed.FactionName || !woNamesMatch(parsed.FactionName, roster.army)) {
+          setNotice({
+            title: copy.armyLists.importError,
+            body: copy.armyLists.importFactionMismatch(
+              formatWoDisplayName(parsed.FactionName ?? 'Unknown'),
+            ),
+          })
+          return
+        }
         const converted = convertWoArmyListToRoster(parsed, woBundle, roster)
         if (converted) {
           persist(refreshRoster(converted.roster, catalog, woBundle.unitDefs, enhancements))
@@ -405,6 +509,9 @@ export function ListBuilderPage() {
       }
       setNotice({ title: copy.armyLists.importError, body: copy.armyLists.importError })
     })
+      .catch(() => {
+        setNotice({ title: copy.armyLists.importError, body: copy.armyLists.clipboardDenied })
+      })
   }
 
   function handleDelete() {
@@ -427,12 +534,6 @@ export function ListBuilderPage() {
     )
   }
 
-  if (!setupComplete && loadingFaction) {
-    return (
-      <PageLoading label={`${copy.armyLists.loadingDetachments} — ${loadingFaction}`} />
-    )
-  }
-
   if (!setupComplete) {
     return (
       <>
@@ -448,6 +549,7 @@ export function ListBuilderPage() {
           onFaction={(army) => void handleFaction(army)}
           onStep={setSetupStep}
           onPersist={persist}
+          onBattleSize={handleBattleSizeChange}
           onComplete={finishSetup}
           detachmentsRaw={woBundle?.detachmentsRaw}
           catalogEnhancements={enhancements}
@@ -457,6 +559,33 @@ export function ListBuilderPage() {
   }
 
   if (!roster) return <PageLoading label={copy.armyLists.loading} />
+
+  if (loadFailed) {
+    return (
+      <div className="app-panel mx-auto mt-6 max-w-md space-y-4 p-6 text-center">
+        <p className="font-display text-body tracking-wide text-bone">{copy.armyLists.loadError}</p>
+        <p className="text-caption text-muted">
+          {roster.name} · {roster.army}
+        </p>
+        <div className="flex flex-col gap-2 pt-2">
+          <button
+            type="button"
+            className="app-btn py-3"
+            onClick={() => {
+              setLoadFailed(false)
+              setLoading(true)
+              setLoadAttempt((n) => n + 1)
+            }}
+          >
+            {copy.armyLists.retryLoad}
+          </button>
+          <Link to="/lists" className="app-btn-ghost py-3">
+            {copy.armyLists.back}
+          </Link>
+        </div>
+      </div>
+    )
+  }
 
   const activeRoster = roster
   const limit = BATTLE_SIZE_LIMITS[activeRoster.battleSize]
@@ -478,6 +607,7 @@ export function ListBuilderPage() {
   }
 
   function handleEditLine(entry: RosterLineEntry) {
+    setPreviewUnit(null)
     const woUnit = woBundle ? getWarOrganUnitDef(woBundle, entry.catalog.id) : undefined
     if (woUnit) {
       setRosterViewUnit(null)
@@ -496,6 +626,7 @@ export function ListBuilderPage() {
 
   function closeUnitSheets() {
     setDetailUnit(null)
+    setPreviewUnit(null)
     setEditEntry(null)
     setRosterViewUnit(null)
   }
@@ -504,7 +635,9 @@ export function ListBuilderPage() {
 
   return (
     <div
-      className={`bf-viewport bf-builder wo-builder -mx-2${!isDesktopBuilder && builderTab === 'units' ? ' wo-builder--mobile-dock' : ''}`}
+      className={`bf-viewport bf-builder wo-builder -mx-2${
+        !isDesktopBuilder && builderTab === 'units' ? ' wo-builder--mobile-dock' : ''
+      }${!isDesktopBuilder && builderTab === 'enhancements' ? ' wo-builder--mobile-pad' : ''}`}
       style={woThemeStyle(woPalette) as CSSProperties}
     >
       <header className="wo-builder-header shrink-0 px-2 py-2">
@@ -515,9 +648,9 @@ export function ListBuilderPage() {
 
           <div className="wo-builder-header-main min-w-0 flex-1">
             <input
-              value={roster.name}
-              onChange={(e) => persist({ ...roster, name: e.target.value })}
-              className="wo-builder-name w-full truncate bg-transparent outline-none"
+              value={listNameDraft}
+              onChange={(e) => setListNameDraft(e.target.value)}
+              className="wo-builder-name w-full bg-transparent outline-none"
             />
             <p className="truncate text-micro uppercase tracking-widest text-muted">{roster.army}</p>
           </div>
@@ -546,24 +679,30 @@ export function ListBuilderPage() {
               showLegends={showLegends}
               hasLegendsUnits={hasLegendsUnits}
               onToggleLegends={() => setShowLegends((v) => !v)}
-              onOpenDetachments={() => {
-                setDetachmentSheetSection('detachments')
-                setDetachmentSheetOpen(true)
-              }}
-              onOpenStratagems={() => {
-                setDetachmentSheetSection('reference')
-                setDetachmentSheetOpen(true)
-              }}
+              onOpenStratagems={
+                woBundle
+                  ? () => {
+                      setDetachmentSheetSection('reference')
+                      setDetachmentSheetOpen(true)
+                    }
+                  : undefined
+              }
               onExportJson={exportJson}
               onExportWoJson={woBundle ? exportWoJson : undefined}
-              onImportWo={woBundle ? importFromClipboard : undefined}
-              onCopyText={() =>
-                void navigator.clipboard.writeText(
-                  woBundle
-                    ? exportWoListText(roster, woBundle, catalog)
-                    : rosterSummaryText(roster, catalog),
+              onImportWo={importFromClipboard}
+              onCopyText={() => {
+                const text = woBundle
+                  ? exportWoListText(roster, woBundle, catalog)
+                  : rosterSummaryText(roster, catalog)
+                void navigator.clipboard.writeText(text).then(
+                  () => setAddToast({ message: copy.armyLists.copiedListText, kind: 'ok' }),
+                  () =>
+                    setNotice({
+                      title: copy.armyLists.importError,
+                      body: copy.armyLists.clipboardDenied,
+                    }),
                 )
-              }
+              }}
               onDelete={!isNewRoute ? handleDelete : undefined}
             />
           </div>
@@ -571,11 +710,20 @@ export function ListBuilderPage() {
 
         <button
           type="button"
+          disabled={!armyEntry}
+          aria-disabled={!armyEntry}
           onClick={() => {
+            if (!armyEntry) {
+              setNotice({
+                title: copy.armyLists.loadError,
+                body: copy.armyLists.detachmentUnavailable,
+              })
+              return
+            }
             setDetachmentSheetSection('detachments')
             setDetachmentSheetOpen(true)
           }}
-          className="wo-builder-detachment mt-2 flex w-full items-center justify-between gap-3 text-left"
+          className={`wo-builder-detachment mt-2 flex w-full items-center justify-between gap-3 text-left${!armyEntry ? ' is-disabled' : ''}`}
         >
           <div className="min-w-0 flex-1">
             <p className="text-micro uppercase tracking-widest text-muted">
@@ -603,6 +751,17 @@ export function ListBuilderPage() {
 
       {issuesOpen && issues.length > 0 && (
         <div className="wo-issues-panel shrink-0 px-2 pb-1">
+          <div className="wo-issues-head">
+            <span>{copy.armyLists.validationIssues}</span>
+            <button
+              type="button"
+              className="wo-issues-close"
+              aria-label={copy.common.close}
+              onClick={() => setIssuesOpen(false)}
+            >
+              ×
+            </button>
+          </div>
           {issues.map((issue, idx) => (
             <p
               key={`${issue.level}-${idx}-${issue.message}`}
@@ -637,14 +796,27 @@ export function ListBuilderPage() {
             <RosterPanel
               roster={roster}
               groups={rosterGroups}
+              orphanLines={orphanLines}
               unitCount={rosterUnitCount}
               bucketPoints={rosterPointsByBucket}
               pointsTotal={roster.pointsTotal}
-              onRemoveLine={(lineId) => persist(removeRosterLine(roster, lineId))}
+              compact={!isDesktopBuilder}
+              onRemoveLine={(lineId) => setConfirmRemoveLineId(lineId)}
               onDuplicateLine={(entry) => {
-                if (canAddUnit(roster, entry.catalog)) {
-                  persist(duplicateRosterLine(roster, entry.line.lineId!, entry.catalog))
+                if (!canAddUnit(roster, entry.catalog)) {
+                  setAddToast({
+                    message: copy.armyLists.unitAtMaxCopies(
+                      maxCopiesForUnit(entry.catalog, roster.battleSize),
+                    ),
+                    kind: 'err',
+                  })
+                  return
                 }
+                persist(duplicateRosterLine(roster, entry.line.lineId!, entry.catalog))
+                setAddToast({
+                  message: copy.armyLists.duplicatedUnit(formatWoDisplayName(entry.line.name)),
+                  kind: 'ok',
+                })
               }}
               onEditLine={handleEditLine}
             />
@@ -653,7 +825,6 @@ export function ListBuilderPage() {
             <WoBuilderMobileDock
               active={unitsPane}
               armyCount={rosterUnitCount}
-              toast={addToast}
               onCatalog={() => setUnitsPane('catalog')}
               onArmy={() => setUnitsPane('army')}
             />
@@ -664,7 +835,12 @@ export function ListBuilderPage() {
       {builderTab === 'enhancements' && (
         <div className="bf-scroll wo-enhancements-scroll px-2 py-2">
           {woBundle ? (
-            <WoEnhancementsPanel roster={roster} enhancements={visibleEnhancements} />
+            <WoEnhancementsPanel
+              roster={roster}
+              enhancements={visibleEnhancements}
+              catalog={catalog}
+              onEditLine={handleEditLine}
+            />
           ) : (
             <EnhancementsPanel roster={roster} enhancements={visibleEnhancements} onPersist={persist} />
           )}
@@ -759,6 +935,7 @@ export function ListBuilderPage() {
         open={detachmentSheetOpen}
         onClose={() => setDetachmentSheetOpen(false)}
         onPersist={persist}
+        onBattleSize={handleBattleSizeChange}
         catalogEnhancements={enhancements}
       />
 
@@ -773,11 +950,40 @@ export function ListBuilderPage() {
         open={confirmDelete}
         title={copy.armyLists.deleteConfirm}
         body={copy.armyLists.deleteConfirm}
-        confirmLabel={copy.armyLists.deleteUnit}
+        confirmLabel={copy.armyLists.deleteList}
         danger
         onCancel={() => setConfirmDelete(false)}
         onConfirm={confirmDeleteList}
       />
+
+      <ConfirmDialog
+        open={Boolean(pendingFaction)}
+        title={copy.armyLists.factionChangeTitle}
+        body={copy.armyLists.factionChangeBody}
+        confirmLabel={copy.armyLists.factionChangeConfirm}
+        danger
+        onCancel={() => setPendingFaction(null)}
+        onConfirm={() => {
+          const army = pendingFaction
+          setPendingFaction(null)
+          if (army) void applyFaction(army)
+        }}
+      />
+
+      <ConfirmDialog
+        open={Boolean(confirmRemoveLineId)}
+        title={copy.armyLists.removeUnitConfirm}
+        body={copy.armyLists.removeUnitConfirm}
+        confirmLabel={copy.armyLists.deleteUnit}
+        danger
+        onCancel={() => setConfirmRemoveLineId(null)}
+        onConfirm={() => {
+          if (confirmRemoveLineId) persist(removeRosterLine(roster, confirmRemoveLineId))
+          setConfirmRemoveLineId(null)
+        }}
+      />
+
+      <BuilderToast toast={addToast} />
     </div>
   )
 }
@@ -786,12 +992,16 @@ function UnitBucketAccordion<T>({
   groups,
   query,
   bucketPoints,
+  openBucketsWithItems,
+  defaultExpandAll,
   itemKey,
   renderItem,
 }: {
   groups: { bucket: UnitBucketId; items: T[] }[]
   query?: string
   bucketPoints?: Map<UnitBucketId, number>
+  openBucketsWithItems?: boolean
+  defaultExpandAll?: boolean
   itemKey: (item: T) => string
   renderItem: (item: T) => ReactNode
 }) {
@@ -802,9 +1012,15 @@ function UnitBucketAccordion<T>({
   useEffect(() => {
     if (groupKey !== prevGroupKey.current) {
       prevGroupKey.current = groupKey
-      setOpenBuckets(new Set())
+      if (defaultExpandAll) {
+        setOpenBuckets(new Set(groups.map((g) => g.bucket)))
+      } else if (openBucketsWithItems) {
+        setOpenBuckets(new Set(groups.filter((g) => g.items.length > 0).map((g) => g.bucket)))
+      } else {
+        setOpenBuckets(new Set())
+      }
     }
-  }, [groupKey])
+  }, [groupKey, groups, openBucketsWithItems, defaultExpandAll])
 
   useEffect(() => {
     if (query?.trim()) {
@@ -897,6 +1113,7 @@ function CatalogPanel({
         <p className="px-3 py-6 text-center text-caption text-muted">{copy.common.noResults}</p>
       ) : (
         <UnitBucketAccordion
+          defaultExpandAll
           groups={groups.map((g) => ({ bucket: g.bucket, items: g.units }))}
           query={query}
           itemKey={(u) => u.id}
@@ -955,20 +1172,6 @@ function RosterUnitRow({
   onRemove: () => void
   onDuplicate: () => void
 }) {
-  const [menuOpen, setMenuOpen] = useState(false)
-  const menuRef = useRef<HTMLDivElement>(null)
-
-  useEffect(() => {
-    if (!menuOpen) return
-    function onPointerDown(e: PointerEvent) {
-      if (menuRef.current && !menuRef.current.contains(e.target as Node)) {
-        setMenuOpen(false)
-      }
-    }
-    document.addEventListener('pointerdown', onPointerDown)
-    return () => document.removeEventListener('pointerdown', onPointerDown)
-  }, [menuOpen])
-
   const loadoutSummary =
     typeof line.options?.loadoutSummary === 'string' ? line.options.loadoutSummary : ''
   const meta = parseWoLineMeta(line.options)
@@ -1010,55 +1213,21 @@ function RosterUnitRow({
         <div className="bf-roster-card-actions">
           <button
             type="button"
+            className="bf-roster-duplicate"
+            aria-label={copy.armyLists.duplicateUnit}
+            disabled={!canDuplicate}
+            onClick={onDuplicate}
+          >
+            ⧉
+          </button>
+          <button
+            type="button"
             className="bf-roster-delete"
             aria-label={copy.armyLists.deleteUnit}
             onClick={onRemove}
           >
             ×
           </button>
-          <div className="relative shrink-0" ref={menuRef}>
-            <button
-              type="button"
-              className="bf-row-menu-btn"
-              aria-label={copy.armyLists.unitActions}
-              aria-expanded={menuOpen}
-              onClick={() => setMenuOpen((open) => !open)}
-            >
-              <svg viewBox="0 0 4 16" className="h-3.5 w-1" aria-hidden>
-                <circle cx="2" cy="2" r="1.35" fill="currentColor" />
-                <circle cx="2" cy="8" r="1.35" fill="currentColor" />
-                <circle cx="2" cy="14" r="1.35" fill="currentColor" />
-              </svg>
-            </button>
-            {menuOpen && (
-              <div className="bf-row-menu" role="menu">
-                <button
-                  type="button"
-                  role="menuitem"
-                  className="bf-row-menu-item"
-                  disabled={!canDuplicate}
-                  onClick={() => {
-                    if (!canDuplicate) return
-                    onDuplicate()
-                    setMenuOpen(false)
-                  }}
-                >
-                  {copy.armyLists.duplicateUnit}
-                </button>
-                <button
-                  type="button"
-                  role="menuitem"
-                  className="bf-row-menu-item bf-row-menu-item-danger"
-                  onClick={() => {
-                    onRemove()
-                    setMenuOpen(false)
-                  }}
-                >
-                  {copy.armyLists.deleteUnit}
-                </button>
-              </div>
-            )}
-          </div>
         </div>
       )}
     </div>
@@ -1068,18 +1237,22 @@ function RosterUnitRow({
 function RosterPanel({
   roster,
   groups,
+  orphanLines,
   unitCount,
   bucketPoints,
   pointsTotal,
+  compact,
   onRemoveLine,
   onDuplicateLine,
   onEditLine,
 }: {
   roster: ArmyRoster
   groups: ReturnType<typeof groupRosterLinesByBucket>
+  orphanLines: ArmyRoster['units']
   unitCount: number
   bucketPoints: Map<UnitBucketId, number>
   pointsTotal: number
+  compact?: boolean
   onRemoveLine: (lineId: string) => void
   onDuplicateLine: (entry: RosterLineEntry) => void
   onEditLine: (entry: RosterLineEntry) => void
@@ -1099,10 +1272,41 @@ function RosterPanel({
         </p>
       </div>
       {roster.units.length === 0 ? (
-        <p className="px-3 py-8 text-center text-caption text-muted">{copy.armyLists.emptyList}</p>
+        <p className="px-3 py-8 text-center text-caption text-muted">
+          {compact ? copy.armyLists.emptyListMobile : copy.armyLists.emptyList}
+        </p>
       ) : (
-        <UnitBucketAccordion
-          groups={groups.map((g) => ({ bucket: g.bucket, items: g.lines }))}
+        <>
+          {orphanLines.length > 0 && (
+            <div className="bf-orphan-section px-2 pb-2">
+              {orphanLines.map((line) => (
+                <div key={line.lineId ?? `${line.unitId}-${line.points}`} className="bf-roster-card">
+                  <div className="bf-roster-card-body min-w-0">
+                    <p className="bf-roster-card-name">
+                      <span className="truncate">{formatWoDisplayName(line.name)}</span>
+                    </p>
+                    <p className="bf-roster-card-meta truncate">{copy.armyLists.orphanUnits(1)}</p>
+                  </div>
+                  <span className="bf-roster-card-pts tabular-nums">{line.points}</span>
+                  {line.lineId && (
+                    <div className="bf-roster-card-actions">
+                      <button
+                        type="button"
+                        className="bf-roster-delete"
+                        aria-label={copy.armyLists.deleteUnit}
+                        onClick={() => onRemoveLine(line.lineId!)}
+                      >
+                        ×
+                      </button>
+                    </div>
+                  )}
+                </div>
+              ))}
+            </div>
+          )}
+          <UnitBucketAccordion
+            openBucketsWithItems
+            groups={groups.map((g) => ({ bucket: g.bucket, items: g.lines }))}
           bucketPoints={bucketPoints}
           itemKey={(entry) => entry.line.lineId ?? `${entry.line.unitId}-${entry.line.points}`}
           renderItem={(entry) => (
@@ -1116,6 +1320,7 @@ function RosterPanel({
             />
           )}
         />
+        </>
       )}
     </div>
   )
@@ -1124,18 +1329,30 @@ function RosterPanel({
 function WoEnhancementsPanel({
   roster,
   enhancements,
+  catalog,
+  onEditLine,
 }: {
   roster: ArmyRoster
   enhancements: { name: string; points: number; description: string }[]
+  catalog: CuratedUnit[]
+  onEditLine: (entry: RosterLineEntry) => void
 }) {
+  const catalogById = useMemo(() => new Map(catalog.map((u) => [u.id, u])), [catalog])
+
   const assigned = roster.units
     .map((line) => {
       const meta = parseWoLineMeta(line.options)
       if (!meta.enhancementId) return null
       const enh = enhancements.find((e) => e.name === meta.enhancementId)
-      return { line, enh }
+      const cu = catalogById.get(line.unitId)
+      if (!enh || !cu) return null
+      return { line, enh, catalog: cu }
     })
-    .filter(Boolean) as { line: (typeof roster.units)[0]; enh: (typeof enhancements)[0] }[]
+    .filter(Boolean) as {
+    line: (typeof roster.units)[0]
+    enh: (typeof enhancements)[0]
+    catalog: CuratedUnit
+  }[]
 
   return (
     <div className="space-y-3">
@@ -1143,21 +1360,26 @@ function WoEnhancementsPanel({
       {assigned.length === 0 ? (
         <p className="text-body text-muted">{copy.armyLists.noEnhancements}</p>
       ) : (
-        assigned.map(({ line, enh }) => (
-          <div key={line.lineId} className="wo-enh-card">
+        assigned.map(({ line, enh, catalog: cu }) => (
+          <button
+            key={line.lineId}
+            type="button"
+            className="wo-enh-card w-full text-left"
+            onClick={() => onEditLine({ line, catalog: cu })}
+          >
             <p className="text-body font-medium text-bone">
               {formatWoDisplayName(enh.name)}{' '}
               <span className="text-muted">on {formatWoDisplayName(line.name)}</span>
             </p>
             <p className="text-caption tabular-nums text-accent-dim">{enh.points} pts</p>
             <p className="mt-1 line-clamp-3 text-caption text-muted">{enh.description}</p>
-          </div>
+          </button>
         ))
       )}
       {enhancements.length > 0 && assigned.length < enhancements.length && (
         <details className="wo-enh-card">
           <summary className="cursor-pointer text-caption text-muted">
-            All detachment enhancements ({enhancements.length})
+            {copy.armyLists.allDetachmentEnhancements(enhancements.length)}
           </summary>
           <ul className="mt-2 space-y-2">
             {enhancements.map((e) => (

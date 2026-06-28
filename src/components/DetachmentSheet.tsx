@@ -32,6 +32,7 @@ export function DetachmentSheet({
   onSectionChange,
   onClose,
   onPersist,
+  onBattleSize,
   catalogEnhancements,
 }: {
   roster: ArmyRoster
@@ -43,6 +44,7 @@ export function DetachmentSheet({
   onSectionChange: (section: DetachmentSheetSection) => void
   onClose: () => void
   onPersist: (r: ArmyRoster) => void
+  onBattleSize?: (size: ArmyRoster['battleSize']) => void
   catalogEnhancements?: import('../types/faction-data').Enhancement[]
 }) {
   const [openStratagems, setOpenStratagems] = useState<Set<string>>(() => new Set())
@@ -52,7 +54,23 @@ export function DetachmentSheet({
     setOpenStratagems(new Set())
   }, [open, section])
 
-  if (!open || !armyEntry) return null
+  if (!open) return null
+
+  if (!armyEntry) {
+    return (
+      <AppSheet open={open} onClose={onClose} titleId="detachment-sheet-title" className="wo-detachment-sheet">
+        <div className="app-sheet-scroll px-4 pb-8 pt-4">
+          <h2 id="detachment-sheet-title" className="font-display text-title tracking-wide text-accent">
+            {copy.armyLists.tabDetachments}
+          </h2>
+          <p className="mt-3 text-body text-muted">{copy.armyLists.detachmentUnavailable}</p>
+          <button type="button" onClick={onClose} className="app-btn-ghost mt-6 w-full py-3 text-body">
+            {copy.common.done}
+          </button>
+        </div>
+      </AppSheet>
+    )
+  }
 
   const detNames = roster.detachments.map((d) => d.name)
   const stratagemGroups = woBundle ? stratagemsByDetachment(woBundle, detNames) : []
@@ -106,7 +124,7 @@ export function DetachmentSheet({
               dpUsed={dpUsed}
               onPersist={onPersist}
               battleSize={roster.battleSize}
-              onBattleSize={(size) => onPersist({ ...roster, battleSize: size })}
+              onBattleSize={onBattleSize ?? ((size) => onPersist({ ...roster, battleSize: size }))}
               detachmentsRaw={woBundle?.detachmentsRaw}
               catalogEnhancements={catalogEnhancements}
             />

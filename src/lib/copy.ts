@@ -102,6 +102,8 @@ export const copy = {
     myListsTitle: 'Your lists',
     listsHomeHint: (n: number) =>
       `${n} saved ${n === 1 ? 'list' : 'lists'} · tap to edit, Play to start a game`,
+    listPointsSummary: (points: number, limit: number) =>
+      `${points.toLocaleString()} / ${limit.toLocaleString()} pts`,
     listsHomeEmptyHint: 'Build and save army lists for matched play',
     listsActionsLabel: 'List actions',
     back: 'My lists',
@@ -114,6 +116,7 @@ export const copy = {
     showLegends: 'Show Legends',
     addUnit: 'Add',
     addedUnit: (name: string) => `Added ${name}`,
+    duplicatedUnit: (name: string) => `Duplicated ${name}`,
     unitAtMaxCopies: (max: number) => `Maximum ${max} copies in this army`,
     removeUnit: 'Remove from list',
     deleteUnit: 'Delete',
@@ -142,7 +145,9 @@ export const copy = {
     empty: 'No saved lists yet',
     savedLists: 'My lists',
     emptyList: 'Add units from the catalogue',
+    emptyListMobile: 'Switch to Add units below, then tap + on a unit',
     loadError: 'Could not load faction data. Try again later.',
+    detachmentUnavailable: 'Faction data is still loading. Try again in a moment.',
     import: 'Import JSON',
     importError: 'Invalid roster file',
     importSuccess: 'List imported successfully',
@@ -153,6 +158,17 @@ export const copy = {
     exportJson: 'Export JSON',
     exportText: 'Copy list text',
     deleteConfirm: 'Delete this list?',
+    deleteList: 'Delete list',
+    builderMenu: 'Builder menu',
+    validationIssues: 'List issues',
+    factionChangeTitle: 'Change faction?',
+    factionChangeBody: 'Changing faction clears all units and detachments in this list.',
+    factionChangeConfirm: 'Change faction',
+    importFactionMismatch: (faction: string) =>
+      `This list is for ${faction} — open or create a ${faction} list first`,
+    battleSizeTrimmed: 'Battle size changed — detachments, units, or enhancements were adjusted to fit',
+    allDetachmentEnhancements: (n: number) => `All detachment enhancements (${n})`,
+    unitCount: (n: number) => (n === 1 ? '1 unit' : `${n} units`),
     detachmentsHint: (dpBudget: number) =>
       `11th Edition detachments (${dpBudget} DP budget)`,
     enhancementsHint: 'Enhancement names may differ from 11th Edition Chapter Approved',
@@ -184,7 +200,17 @@ export const copy = {
     noUpgrade: 'No upgrade',
     upgrades: 'Upgrades',
     importListFile: 'Import list file',
+    pasteListClipboard: 'Paste list from clipboard',
     exportListFile: 'Export list file',
+    exportSuccess: 'List exported',
+    copiedListText: 'List copied to clipboard',
+    clipboardDenied: 'Could not access clipboard. Check browser permissions.',
+    retryLoad: 'Try again',
+    orphanUnits: (count: number) =>
+      count === 1
+        ? '1 unit is no longer in the catalogue — remove or re-import it'
+        : `${count} units are no longer in the catalogue — remove or re-import them`,
+    removeUnitConfirm: 'Remove this unit from your army?',
     enhancementsPerUnit: 'Assign enhancements when editing a Character unit.',
     stepAllegiance: 'Step 1 · Allegiance',
     stepFaction: 'Step 2 · Faction',

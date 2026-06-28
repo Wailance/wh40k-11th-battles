@@ -9,7 +9,12 @@ function migrateRoster(raw: Record<string, unknown>): ArmyRoster {
     army: String(raw.army ?? ''),
     battleSize: raw.battleSize === 1000 ? 1000 : 2000,
     dataEdition: String(raw.dataEdition ?? '10e'),
-    units: Array.isArray(raw.units) ? (raw.units as ArmyRoster['units']) : [],
+    units: Array.isArray(raw.units)
+      ? (raw.units as ArmyRoster['units']).map((u) => ({
+          ...u,
+          lineId: u.lineId || crypto.randomUUID(),
+        }))
+      : [],
     detachments: Array.isArray(raw.detachments) ? (raw.detachments as ArmyRoster['detachments']) : [],
     enhancements: Array.isArray(raw.enhancements) ? (raw.enhancements as ArmyRoster['enhancements']) : [],
     pointsTotal: Number(raw.pointsTotal ?? 0),

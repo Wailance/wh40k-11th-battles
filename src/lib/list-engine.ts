@@ -1,9 +1,9 @@
 import type { CuratedUnit, Enhancement, UnitCostBracket, UnitPricingTier } from '../types/faction-data'
 import type { ArmyRoster, BattleSize, RosterEnhancement, RosterUnit } from '../types/roster'
 import type { SelectedDetachment } from '../types/game'
-import type { WoDetachment, WoUnit } from '../types/warorgan'
+import type { WoDetachment, WoUnit, WoEnhancement } from '../types/warorgan'
 import { getArmyDataEdition } from './faction-loader'
-import { detachmentPointBudget, isDetachmentBudgetLegal, wouldDetachmentTagConflict } from './army-construction'
+import { detachmentPointBudget, isDetachmentBudgetLegal, wouldDetachmentTagConflict, countEnhancementSlots, maxEnhancementSlots, isUpgradeEnhancement } from './army-construction'
 import { maxCopiesForUnit } from './unit-buckets'
 import {
   defaultWarOrganComposition,
@@ -263,7 +263,11 @@ export function duplicateRosterLine(
   if (!line || !canAddUnit(roster, unit)) return roster
 
   const options = line.options
-    ? withWoLineMeta(line.options, { warlord: undefined, attachedToLineId: undefined })
+    ? withWoLineMeta(line.options, {
+        warlord: undefined,
+        attachedToLineId: undefined,
+        enhancementId: undefined,
+      })
     : undefined
 
   const newLine: RosterUnit = {
@@ -346,6 +350,107 @@ export function toggleDetachment(
   return refreshRoster({ ...roster, detachments: nextDetachments, units })
 }
 
+function trimWoEnhancementSlots(
+  units: RosterUnit[],
+  maxSlots: number,
+  catalogEnhancements: Enhancement[],
+): RosterUnit[] {
+  let result = units.map((u) => ({ ...u }))
+  const slotLines = () => {
+    const out: { idx: number; name: string; isUpgrade: boolean }[] = []
+    for (let i = 0; i < result.length; i++) {
+      const name = parseWoLineMeta(result[i].options).enhancementId
+      if (!name) continue
+      const enh = enhancementByName(catalogEnhancements, name)
+      out.push({
+        idx: i,
+        name,
+        isUpgrade: enh ? isUpgradeEnhancement(enh as Enhancement & WoEnhancement) : false,
+      })
+    }
+    return out
+  }
+  while (
+    countEnhancementSlots(
+      slotLines().map((e) => ({ enhancementName: e.name, isUpgrade: e.isUpgrade })),
+    ) > maxSlots
+  ) {
+    const lines = slotLines()
+    if (!lines.length) break
+    const last = lines[lines.length - 1]
+    result[last.idx] = {
+      ...result[last.idx],
+      options: withWoLineMeta(result[last.idx].options, { enhancementId: undefined }),
+    }
+  }
+  return result
+}
+
+/** Reconcile detachments, copies, and enhancements when battle size changes. */
+export function applyBattleSizeChange(
+  roster: ArmyRoster,
+  newSize: BattleSize,
+  catalogUnits: CuratedUnit[] = [],
+  opts?: { catalogEnhancements?: Enhancement[] },
+): ArmyRoster {
+  if (roster.battleSize === newSize) return roster
+
+  let detachments = [...roster.detachments]
+  while (detachments.length > 0 && !isDetachmentBudgetLegal(detachments, newSize)) {
+    detachments = detachments.slice(0, -1)
+  }
+
+  const selectedNames = new Set(detachments.map((d) => d.name))
+  let units = roster.units
+  if (opts?.catalogEnhancements?.length) {
+    units = clearEnhancementsForDetachedDetachments(units, selectedNames, opts.catalogEnhancements)
+  }
+
+  const catalogById = new Map(catalogUnits.map((u) => [u.id, u]))
+  const keepIds = new Set<string>()
+  const countsByUnitId = new Map<string, number>()
+  const removedIds = new Set<string>()
+
+  for (const line of units) {
+    const lineId = line.lineId ?? crypto.randomUUID()
+    const cu = catalogById.get(line.unitId)
+    if (!cu) {
+      keepIds.add(lineId)
+      continue
+    }
+    const count = countsByUnitId.get(line.unitId) ?? 0
+    const max = maxCopiesForUnit(cu, newSize)
+    if (count < max) {
+      keepIds.add(lineId)
+      countsByUnitId.set(line.unitId, count + 1)
+    } else {
+      removedIds.add(lineId)
+    }
+  }
+
+  units = units
+    .filter((line) => {
+      const id = line.lineId ?? ''
+      return keepIds.has(id)
+    })
+    .map((line) => (line.lineId ? line : { ...line, lineId: crypto.randomUUID() }))
+
+  for (const removedId of removedIds) {
+    units = clearLeaderAttachmentsTo(units, removedId)
+  }
+
+  let enhancements = roster.enhancements
+  const enhMax = maxEnhancementSlots(newSize)
+  if (enhancements.length > enhMax) {
+    enhancements = enhancements.slice(0, enhMax)
+  }
+  if (opts?.catalogEnhancements?.length) {
+    units = trimWoEnhancementSlots(units, enhMax, opts.catalogEnhancements)
+  }
+
+  return { ...roster, battleSize: newSize, detachments, units, enhancements }
+}
+
 export function toggleEnhancement(
   roster: ArmyRoster,
   name: string,
@@ -370,10 +475,11 @@ export function refreshRoster(
   woUnits?: Map<string, WoUnit>,
   catalogEnhancements: Enhancement[] = [],
 ): ArmyRoster {
-  const units =
+  const units = (
     catalogUnits.length > 0
       ? priceRosterLines(roster.units, catalogUnits, woUnits, catalogEnhancements)
       : expandRosterUnits(roster.units)
+  ).map((line) => (line.lineId ? line : { ...line, lineId: crypto.randomUUID() }))
   const next = { ...roster, units }
   return {
     ...next,

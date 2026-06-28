@@ -63,6 +63,7 @@ export function ListSetupWizard({
   onFaction,
   onStep,
   onPersist,
+  onBattleSize,
   onComplete,
   loadingFaction,
   factionError,
@@ -78,6 +79,7 @@ export function ListSetupWizard({
   onFaction: (army: string) => void
   onStep: (s: SetupStep) => void
   onPersist: (r: ArmyRoster) => void
+  onBattleSize?: (size: ArmyRoster['battleSize']) => void
   onComplete: () => void
   loadingFaction?: string | null
   factionError?: string | null
@@ -240,7 +242,10 @@ export function ListSetupWizard({
                 dpUsed={dpUsed}
                 onPersist={onPersist}
                 battleSize={roster.battleSize}
-                onBattleSize={(size) => onPersist({ ...roster, battleSize: size })}
+                onBattleSize={
+                  onBattleSize ??
+                  ((size) => roster && onPersist({ ...roster, battleSize: size }))
+                }
                 detachmentsRaw={detachmentsRaw}
                 catalogEnhancements={catalogEnhancements}
               />

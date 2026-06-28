@@ -33,35 +33,34 @@ export function WoBuilderTabs({
   )
 }
 
+export function BuilderToast({ toast }: { toast: { message: string; kind: 'ok' | 'err' } | null }) {
+  if (!toast) return null
+  return (
+    <div className="wo-builder-toast-host" aria-live="polite">
+      <p className={`wo-builder-toast${toast.kind === 'err' ? ' is-error' : ''}`} role="status">
+        {toast.message}
+      </p>
+    </div>
+  )
+}
+
 export function WoBuilderMobileDock({
   active,
   armyCount,
-  toast,
   onCatalog,
   onArmy,
 }: {
   active: 'catalog' | 'army'
   armyCount: number
-  toast: { message: string; kind: 'ok' | 'err' } | null
   onCatalog: () => void
   onArmy: () => void
 }) {
   return (
     <div className="wo-builder-dock" role="navigation" aria-label={copy.armyLists.currentList}>
-      {toast && (
-        <p
-          className={`wo-builder-toast${toast.kind === 'err' ? ' is-error' : ''}`}
-          role="status"
-          aria-live="polite"
-        >
-          {toast.message}
-        </p>
-      )}
-      <div className="wo-builder-dock-tabs" role="tablist">
+      <div className="wo-builder-dock-tabs" role="group" aria-label={copy.armyLists.panelCatalog}>
         <button
           type="button"
-          role="tab"
-          aria-selected={active === 'catalog'}
+          aria-pressed={active === 'catalog'}
           className={`wo-builder-dock-tab${active === 'catalog' ? ' is-active' : ''}`}
           onClick={onCatalog}
         >
@@ -69,8 +68,7 @@ export function WoBuilderMobileDock({
         </button>
         <button
           type="button"
-          role="tab"
-          aria-selected={active === 'army'}
+          aria-pressed={active === 'army'}
           className={`wo-builder-dock-tab${active === 'army' ? ' is-active' : ''}`}
           onClick={onArmy}
         >

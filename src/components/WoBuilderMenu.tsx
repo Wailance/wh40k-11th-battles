@@ -5,7 +5,6 @@ type WoBuilderMenuProps = {
   showLegends: boolean
   hasLegendsUnits: boolean
   onToggleLegends: () => void
-  onOpenDetachments: () => void
   onOpenStratagems?: () => void
   onExportJson: () => void
   onExportWoJson?: () => void
@@ -18,7 +17,6 @@ export function WoBuilderMenu({
   showLegends,
   hasLegendsUnits,
   onToggleLegends,
-  onOpenDetachments,
   onOpenStratagems,
   onExportJson,
   onExportWoJson,
@@ -34,8 +32,15 @@ export function WoBuilderMenu({
     function onPointerDown(e: PointerEvent) {
       if (ref.current && !ref.current.contains(e.target as Node)) setOpen(false)
     }
+    function onKeyDown(e: KeyboardEvent) {
+      if (e.key === 'Escape') setOpen(false)
+    }
     document.addEventListener('pointerdown', onPointerDown)
-    return () => document.removeEventListener('pointerdown', onPointerDown)
+    document.addEventListener('keydown', onKeyDown)
+    return () => {
+      document.removeEventListener('pointerdown', onPointerDown)
+      document.removeEventListener('keydown', onKeyDown)
+    }
   }, [open])
 
   function item(action: () => void, label: string, danger = false) {
@@ -59,7 +64,7 @@ export function WoBuilderMenu({
       <button
         type="button"
         className="wo-builder-menu-trigger"
-        aria-label="Builder menu"
+        aria-label={copy.armyLists.builderMenu}
         aria-expanded={open}
         onClick={() => setOpen((o) => !o)}
       >
@@ -71,14 +76,13 @@ export function WoBuilderMenu({
       </button>
       {open && (
         <div className="wo-builder-menu" role="menu">
-          {item(onOpenDetachments, copy.armyLists.tabDetachments)}
             {onOpenStratagems && item(onOpenStratagems, copy.armyLists.stratagems)}
             {hasLegendsUnits && item(onToggleLegends, showLegends ? copy.armyLists.hideLegends : copy.armyLists.showLegends)}
           {item(onCopyText, copy.armyLists.exportText)}
           {item(onExportJson, copy.armyLists.exportJson)}
           {onExportWoJson && item(onExportWoJson, copy.armyLists.exportListFile)}
-          {onImportWo && item(onImportWo, copy.armyLists.importListFile)}
-          {onDelete && item(onDelete, 'Delete list', true)}
+          {onImportWo && item(onImportWo, copy.armyLists.pasteListClipboard)}
+          {onDelete && item(onDelete, copy.armyLists.deleteList, true)}
         </div>
       )}
     </div>
